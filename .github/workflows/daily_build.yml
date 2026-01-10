@@ -39,6 +39,6 @@ jobs:
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
-        git add Global_CIDR/routes4.conf Global_CIDR/routes6.conf
+        git add Global_CIDR/Global.conf Global_CIDR/Global_IPv6.conf
         # 只有在有更改时才提交
         git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update routes [skip ci]" && git push)
