@@ -1,4 +1,4 @@
-name: Daily Route Update
+name: update-global-route-list
 
 on:
   schedule:
@@ -32,8 +32,8 @@ jobs:
     - name: Move output to Global_CIDR
       run: |
         mkdir -p Global_CIDR
-        mv routes4.conf Global_CIDR/
-        mv routes6.conf Global_CIDR/
+        mv Global.conf Global_CIDR/
+        mv Global_IPv6.conf Global_CIDR/
 
     - name: Commit and push changes
       run: |
