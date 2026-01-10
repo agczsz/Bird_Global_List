@@ -126,8 +126,8 @@ subtract_cidr(root, RESERVED)
 # get rid of reserved addresses
 subtract_cidr(root_v6, RESERVED_V6)
 
-with open("routes4.conf", "w") as f:
+with open("Global.conf", "w") as f:
     dump_bird(root, f)
 
-with open("routes6.conf", "w") as f:
+with open("Global_IPv6.conf", "w") as f:
     dump_bird(root_v6, f)
