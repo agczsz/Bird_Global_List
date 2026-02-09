@@ -1,0 +1,23 @@
+/log info "Loading CC IPv4 Address List"
+/ip firewall address-list
+:do { add list=CC address=5.62.62.88/30 } on-error={}
+:do { add list=CC address=44.32.192.80/32 } on-error={}
+:do { add list=CC address=69.30.251.142/32 } on-error={}
+:do { add list=CC address=104.28.9.12/31 } on-error={}
+:do { add list=CC address=104.28.9.14/32 } on-error={}
+:do { add list=CC address=136.23.3.229/32 } on-error={}
+:do { add list=CC address=136.23.11.197/32 } on-error={}
+:do { add list=CC address=140.248.56.38/32 } on-error={}
+:do { add list=CC address=140.248.57.38/32 } on-error={}
+:do { add list=CC address=140.248.58.38/32 } on-error={}
+:do { add list=CC address=140.248.59.38/32 } on-error={}
+:do { add list=CC address=140.248.60.38/32 } on-error={}
+:do { add list=CC address=140.248.61.38/32 } on-error={}
+:do { add list=CC address=140.248.62.38/32 } on-error={}
+:do { add list=CC address=140.248.63.38/32 } on-error={}
+:do { add list=CC address=150.48.183.36/31 } on-error={}
+:do { add list=CC address=157.5.101.187/32 } on-error={}
+:do { add list=CC address=157.5.109.187/32 } on-error={}
+:do { add list=CC address=157.5.123.150/32 } on-error={}
+:do { add list=CC address=162.120.216.64/32 } on-error={}
+:do { add list=CC address=162.120.216.146/32 } on-error={}

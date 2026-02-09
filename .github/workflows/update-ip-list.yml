@@ -33,6 +33,9 @@ jobs:
     - name: Run extraction script
       run: python extract.py
 
+    - name: Generate RSC files
+      run: python generate_rsc.py
+
     - name: Update README.md
       run: |
         UPDATE_TIME=$(date -u --iso-8601=seconds)
@@ -67,7 +70,7 @@ jobs:
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
         commit_message: "Automated IP list update"
-        file_pattern: "Country_CIDR/*.conf README.md"
+        file_pattern: "Country_CIDR/*.conf Country_CIDR_RSC/*.rsc README.md"
         commit_user_name: "GitHub Actions"
         commit_user_email: "actions@github.com"
         commit_author: "GitHub Actions <actions@github.com>"
