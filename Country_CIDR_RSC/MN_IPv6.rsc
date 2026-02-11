@@ -2,9 +2,6 @@
 /ipv6 firewall address-list
 :do { add list=MN address=2001:470:19:e2::/64 } on-error={}
 :do { add list=MN address=2001:470:19:f86::/64 } on-error={}
-:do { add list=MN address=2001:470:19:10a6::/64 } on-error={}
-:do { add list=MN address=2001:470:19:10ee::/64 } on-error={}
-:do { add list=MN address=2001:470:19:1136::/64 } on-error={}
 :do { add list=MN address=2001:470:28:44a::/64 } on-error={}
 :do { add list=MN address=2001:470:28:a8a::/64 } on-error={}
 :do { add list=MN address=2001:470:36:3bb::/64 } on-error={}
@@ -70,22 +67,7 @@
 :do { add list=MN address=2001:470:f8f9:9760::/64 } on-error={}
 :do { add list=MN address=2001:470:f905::/48 } on-error={}
 :do { add list=MN address=2001:470:fb06::/47 } on-error={}
-:do { add list=MN address=2001:470:fb0a::/55 } on-error={}
-:do { add list=MN address=2001:470:fb0a:200::/59 } on-error={}
-:do { add list=MN address=2001:470:fb0a:220::/60 } on-error={}
-:do { add list=MN address=2001:470:fb0a:231::/64 } on-error={}
-:do { add list=MN address=2001:470:fb0a:232::/63 } on-error={}
-:do { add list=MN address=2001:470:fb0a:234::/62 } on-error={}
-:do { add list=MN address=2001:470:fb0a:238::/61 } on-error={}
-:do { add list=MN address=2001:470:fb0a:240::/58 } on-error={}
-:do { add list=MN address=2001:470:fb0a:280::/57 } on-error={}
-:do { add list=MN address=2001:470:fb0a:300::/56 } on-error={}
-:do { add list=MN address=2001:470:fb0a:400::/54 } on-error={}
-:do { add list=MN address=2001:470:fb0a:800::/53 } on-error={}
-:do { add list=MN address=2001:470:fb0a:1000::/52 } on-error={}
-:do { add list=MN address=2001:470:fb0a:2000::/51 } on-error={}
-:do { add list=MN address=2001:470:fb0a:4000::/50 } on-error={}
-:do { add list=MN address=2001:470:fb0a:8000::/49 } on-error={}
+:do { add list=MN address=2001:470:fb0a::/48 } on-error={}
 :do { add list=MN address=2001:470:fcce:9760::/64 } on-error={}
 :do { add list=MN address=2001:470:fd8b::/48 } on-error={}
 :do { add list=MN address=2001:470:fdf3::/48 } on-error={}
@@ -132,12 +114,7 @@
 :do { add list=MN address=2400:ee60::/32 } on-error={}
 :do { add list=MN address=2400:ef60::/32 } on-error={}
 :do { add list=MN address=2401:ae0::/32 } on-error={}
-:do { add list=MN address=2401:b60:1970:4000::/50 } on-error={}
-:do { add list=MN address=2401:b60:1970:8000::/49 } on-error={}
-:do { add list=MN address=2401:b60:1971::/48 } on-error={}
-:do { add list=MN address=2401:b60:1972::/47 } on-error={}
-:do { add list=MN address=2401:b60:1974::/46 } on-error={}
-:do { add list=MN address=2401:b60:1978::/45 } on-error={}
+:do { add list=MN address=2401:b60:1970::/44 } on-error={}
 :do { add list=MN address=2401:3f60::/32 } on-error={}
 :do { add list=MN address=2401:7120::/32 } on-error={}
 :do { add list=MN address=2401:8b60::/32 } on-error={}
@@ -434,6 +411,7 @@
 :do { add list=MN address=2402:2720::/32 } on-error={}
 :do { add list=MN address=2402:8880::/32 } on-error={}
 :do { add list=MN address=2402:c900::/32 } on-error={}
+:do { add list=MN address=2403:d700::/32 } on-error={}
 :do { add list=MN address=2404:2700::/32 } on-error={}
 :do { add list=MN address=2404:ec80::/32 } on-error={}
 :do { add list=MN address=2405:600::/45 } on-error={}
@@ -614,6 +592,7 @@
 :do { add list=MN address=2600:70ff:aa1c::/48 } on-error={}
 :do { add list=MN address=2600:70ff:ab54::/48 } on-error={}
 :do { add list=MN address=2600:70ff:abb3::/48 } on-error={}
+:do { add list=MN address=2600:70ff:ac06::/48 } on-error={}
 :do { add list=MN address=2600:70ff:b2eb::/48 } on-error={}
 :do { add list=MN address=2600:70ff:c1f4::/48 } on-error={}
 :do { add list=MN address=2602:2a9:a30::/44 } on-error={}

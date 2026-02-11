@@ -41,3 +41,5 @@
 :do { add list=IO address=172.224.229.80/28 } on-error={}
 :do { add list=IO address=172.225.136.80/28 } on-error={}
 :do { add list=IO address=172.225.220.112/28 } on-error={}
+:do { add list=IO address=202.44.112.0/22 } on-error={}
+:do { add list=IO address=203.83.48.0/21 } on-error={}

@@ -48,6 +48,10 @@
 :do { add list=BL address=172.226.78.0/28 } on-error={}
 :do { add list=BL address=185.212.75.0/24 } on-error={}
 :do { add list=BL address=190.123.16.112/29 } on-error={}
+:do { add list=BL address=190.123.16.160/32 } on-error={}
+:do { add list=BL address=190.123.16.162/32 } on-error={}
+:do { add list=BL address=190.123.16.173/32 } on-error={}
+:do { add list=BL address=190.123.16.224/31 } on-error={}
 :do { add list=BL address=192.96.136.0/24 } on-error={}
 :do { add list=BL address=192.131.134.0/24 } on-error={}
 :do { add list=BL address=194.50.99.26/32 } on-error={}

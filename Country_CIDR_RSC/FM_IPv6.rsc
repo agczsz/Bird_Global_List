@@ -1,6 +1,7 @@
 /log info "Loading FM IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=FM address=2001:470:36:447::/64 } on-error={}
+:do { add list=FM address=2001:470:36:5bc::/64 } on-error={}
 :do { add list=FM address=2001:470:36:8e1::/64 } on-error={}
 :do { add list=FM address=2001:470:36:8f9::/64 } on-error={}
 :do { add list=FM address=2001:470:1f05:23b::/64 } on-error={}
@@ -11,13 +12,9 @@
 :do { add list=FM address=2001:470:fef4::/48 } on-error={}
 :do { add list=FM address=2001:67c:a38:f691::/64 } on-error={}
 :do { add list=FM address=2001:4b28:c300::/40 } on-error={}
-:do { add list=FM address=2401:b60:1940:4000::/50 } on-error={}
-:do { add list=FM address=2401:b60:1940:8000::/49 } on-error={}
-:do { add list=FM address=2401:b60:1941::/48 } on-error={}
-:do { add list=FM address=2401:b60:1942::/47 } on-error={}
-:do { add list=FM address=2401:b60:1944::/46 } on-error={}
-:do { add list=FM address=2401:b60:1948::/45 } on-error={}
+:do { add list=FM address=2401:b60:1940::/44 } on-error={}
 :do { add list=FM address=2401:f1e0:ffff:240b::/64 } on-error={}
+:do { add list=FM address=2401:f1e0:ffff:5c19:7867:9e9a:ee1:badb/128 } on-error={}
 :do { add list=FM address=2405:b500:2680:8::/64 } on-error={}
 :do { add list=FM address=2405:b500:2680:38::/64 } on-error={}
 :do { add list=FM address=2405:b500:26a0:8::/64 } on-error={}

@@ -9,12 +9,8 @@
 :do { add list=ER address=2001:470:fe3d::/48 } on-error={}
 :do { add list=ER address=2001:67c:a38:f291::/64 } on-error={}
 :do { add list=ER address=2001:4b28:be00::/40 } on-error={}
-:do { add list=ER address=2401:b60:1430:4000::/50 } on-error={}
-:do { add list=ER address=2401:b60:1430:8000::/49 } on-error={}
-:do { add list=ER address=2401:b60:1431::/48 } on-error={}
-:do { add list=ER address=2401:b60:1432::/47 } on-error={}
-:do { add list=ER address=2401:b60:1434::/46 } on-error={}
-:do { add list=ER address=2401:b60:1438::/45 } on-error={}
+:do { add list=ER address=2401:b60:1430::/44 } on-error={}
+:do { add list=ER address=2401:f1e0:ffff:3bf3:366b:7374:fc8b:5fd5/128 } on-error={}
 :do { add list=ER address=2401:f1e0:ffff:6e51::/64 } on-error={}
 :do { add list=ER address=2405:b500:2300::/64 } on-error={}
 :do { add list=ER address=2405:b500:2320::/64 } on-error={}

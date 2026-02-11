@@ -7,12 +7,7 @@
 :do { add list=GW address=2001:470:fe90::/48 } on-error={}
 :do { add list=GW address=2001:67c:a38:f245::/64 } on-error={}
 :do { add list=GW address=2001:4b28:7a00::/40 } on-error={}
-:do { add list=GW address=2401:b60:15c0:4000::/50 } on-error={}
-:do { add list=GW address=2401:b60:15c0:8000::/49 } on-error={}
-:do { add list=GW address=2401:b60:15c1::/48 } on-error={}
-:do { add list=GW address=2401:b60:15c2::/47 } on-error={}
-:do { add list=GW address=2401:b60:15c4::/46 } on-error={}
-:do { add list=GW address=2401:b60:15c8::/45 } on-error={}
+:do { add list=GW address=2401:b60:15c0::/44 } on-error={}
 :do { add list=GW address=2401:f1e0:ffff:12cc::/64 } on-error={}
 :do { add list=GW address=2401:f1e0:ffff:e2e0::/64 } on-error={}
 :do { add list=GW address=2405:b500:3080::/64 } on-error={}

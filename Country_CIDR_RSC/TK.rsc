@@ -1,6 +1,7 @@
 /log info "Loading TK IPv4 Address List"
 /ip firewall address-list
 :do { add list=TK address=5.62.58.204/30 } on-error={}
+:do { add list=TK address=14.1.92.0/23 } on-error={}
 :do { add list=TK address=27.96.24.0/22 } on-error={}
 :do { add list=TK address=27.96.28.0/23 } on-error={}
 :do { add list=TK address=27.96.30.0/24 } on-error={}

@@ -4,12 +4,7 @@
 :do { add list=CC address=2001:470:18fd::/48 } on-error={}
 :do { add list=CC address=2001:470:1f29:44e::/64 } on-error={}
 :do { add list=CC address=2001:4b28:a500::/40 } on-error={}
-:do { add list=CC address=2401:b60:12f0:4000::/50 } on-error={}
-:do { add list=CC address=2401:b60:12f0:8000::/49 } on-error={}
-:do { add list=CC address=2401:b60:12f1::/48 } on-error={}
-:do { add list=CC address=2401:b60:12f2::/47 } on-error={}
-:do { add list=CC address=2401:b60:12f4::/46 } on-error={}
-:do { add list=CC address=2401:b60:12f8::/45 } on-error={}
+:do { add list=CC address=2401:b60:12f0::/44 } on-error={}
 :do { add list=CC address=2406:2d40:2180::/42 } on-error={}
 :do { add list=CC address=2606:40:6dc::/46 } on-error={}
 :do { add list=CC address=2606:40:6e0::/45 } on-error={}

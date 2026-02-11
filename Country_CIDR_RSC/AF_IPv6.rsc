@@ -6,10 +6,9 @@
 :do { add list=AF address=2001:470:26:6c3::/64 } on-error={}
 :do { add list=AF address=2001:470:28:a7d::/64 } on-error={}
 :do { add list=AF address=2001:470:36:91::/64 } on-error={}
-:do { add list=AF address=2001:470:36:28d::/64 } on-error={}
-:do { add list=AF address=2001:470:36:2f0::/64 } on-error={}
 :do { add list=AF address=2001:470:36:32a::/64 } on-error={}
 :do { add list=AF address=2001:470:36:36b::/64 } on-error={}
+:do { add list=AF address=2001:470:36:574::/64 } on-error={}
 :do { add list=AF address=2001:470:36:7c9::/64 } on-error={}
 :do { add list=AF address=2001:470:36:109e::/64 } on-error={}
 :do { add list=AF address=2001:470:36:10d8::/64 } on-error={}
@@ -36,9 +35,9 @@
 :do { add list=AF address=2001:470:71:408::/64 } on-error={}
 :do { add list=AF address=2001:470:71:6b8::/64 } on-error={}
 :do { add list=AF address=2001:470:71:6c9::/64 } on-error={}
-:do { add list=AF address=2001:470:1f09:411::/64 } on-error={}
 :do { add list=AF address=2001:470:1f09:4a2::/64 } on-error={}
 :do { add list=AF address=2001:470:1f09:639::/64 } on-error={}
+:do { add list=AF address=2001:470:1f0b:360::/64 } on-error={}
 :do { add list=AF address=2001:470:1f0b:b02::/64 } on-error={}
 :do { add list=AF address=2001:470:1f0b:b20::/64 } on-error={}
 :do { add list=AF address=2001:470:1f0b:b2c::/64 } on-error={}
@@ -171,6 +170,7 @@
 :do { add list=AF address=2001:470:1f29:3fc::/64 } on-error={}
 :do { add list=AF address=2001:470:1f29:432::/64 } on-error={}
 :do { add list=AF address=2001:470:1f29:478::/64 } on-error={}
+:do { add list=AF address=2001:470:1f2b:f8::/64 } on-error={}
 :do { add list=AF address=2001:470:20e3::/48 } on-error={}
 :do { add list=AF address=2001:470:210a::/48 } on-error={}
 :do { add list=AF address=2001:470:2136::/48 } on-error={}
@@ -183,6 +183,7 @@
 :do { add list=AF address=2001:470:546f::/48 } on-error={}
 :do { add list=AF address=2001:470:5487::/48 } on-error={}
 :do { add list=AF address=2001:470:54c2::/48 } on-error={}
+:do { add list=AF address=2001:470:592f::/48 } on-error={}
 :do { add list=AF address=2001:470:6320::/48 } on-error={}
 :do { add list=AF address=2001:470:686a::/48 } on-error={}
 :do { add list=AF address=2001:470:69f4::/48 } on-error={}
@@ -224,7 +225,6 @@
 :do { add list=AF address=2001:470:d365::/48 } on-error={}
 :do { add list=AF address=2001:470:d37c::/48 } on-error={}
 :do { add list=AF address=2001:470:d3af::/48 } on-error={}
-:do { add list=AF address=2001:470:d884::/48 } on-error={}
 :do { add list=AF address=2001:470:dc7c::/48 } on-error={}
 :do { add list=AF address=2001:470:ddce::/48 } on-error={}
 :do { add list=AF address=2001:470:e06c::/48 } on-error={}
@@ -295,12 +295,8 @@
 :do { add list=AF address=2400:e500:8000::/33 } on-error={}
 :do { add list=AF address=2400:e501::/32 } on-error={}
 :do { add list=AF address=2400:e640::/32 } on-error={}
-:do { add list=AF address=2401:b60:1000:4000::/50 } on-error={}
-:do { add list=AF address=2401:b60:1000:8000::/49 } on-error={}
-:do { add list=AF address=2401:b60:1001::/48 } on-error={}
-:do { add list=AF address=2401:b60:1002::/47 } on-error={}
-:do { add list=AF address=2401:b60:1004::/46 } on-error={}
-:do { add list=AF address=2401:b60:1008::/45 } on-error={}
+:do { add list=AF address=2401:b60:1000::/44 } on-error={}
+:do { add list=AF address=2401:1520::/32 } on-error={}
 :do { add list=AF address=2401:8080::/32 } on-error={}
 :do { add list=AF address=2401:f1e0:ffff:c9c4::/64 } on-error={}
 :do { add list=AF address=2402:1ca0::/32 } on-error={}
@@ -504,8 +500,7 @@
 :do { add list=AF address=2a09:bac5:30::/44 } on-error={}
 :do { add list=AF address=2a09:bac6:28::/45 } on-error={}
 :do { add list=AF address=2a09:bac6:30::/44 } on-error={}
-:do { add list=AF address=2a0a:6040:fb0:4000::/50 } on-error={}
-:do { add list=AF address=2a0a:6040:fb0:8000::/49 } on-error={}
+:do { add list=AF address=2a0a:6040:fb0::/48 } on-error={}
 :do { add list=AF address=2a0a:6044:7703::/48 } on-error={}
 :do { add list=AF address=2a0a:79c7:f500::/48 } on-error={}
 :do { add list=AF address=2a0c:9a40:95b0::/52 } on-error={}

@@ -1,7 +1,5 @@
 /log info "Loading AD IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=AD address=2001:470:19:c44::/64 } on-error={}
-:do { add list=AD address=2001:470:19:c6e::/64 } on-error={}
 :do { add list=AD address=2001:470:19:ec1::/64 } on-error={}
 :do { add list=AD address=2001:470:19:f6c::/64 } on-error={}
 :do { add list=AD address=2001:470:24:1345::/64 } on-error={}
@@ -27,6 +25,7 @@
 :do { add list=AD address=2001:470:c160::/48 } on-error={}
 :do { add list=AD address=2001:470:c816::/48 } on-error={}
 :do { add list=AD address=2001:470:da0b::/48 } on-error={}
+:do { add list=AD address=2001:470:df2c::/48 } on-error={}
 :do { add list=AD address=2001:470:e09f:100::/56 } on-error={}
 :do { add list=AD address=2001:470:e09f:200::/55 } on-error={}
 :do { add list=AD address=2001:470:e09f:400::/54 } on-error={}
@@ -50,12 +49,8 @@
 :do { add list=AD address=2001:4b28:8000::/40 } on-error={}
 :do { add list=AD address=2401:b60:17:4000::/50 } on-error={}
 :do { add list=AD address=2401:b60:17:8000::/49 } on-error={}
-:do { add list=AD address=2401:b60:1050:4000::/50 } on-error={}
-:do { add list=AD address=2401:b60:1050:8000::/49 } on-error={}
-:do { add list=AD address=2401:b60:1051::/48 } on-error={}
-:do { add list=AD address=2401:b60:1052::/47 } on-error={}
-:do { add list=AD address=2401:b60:1054::/46 } on-error={}
-:do { add list=AD address=2401:b60:1058::/45 } on-error={}
+:do { add list=AD address=2401:b60:1050::/44 } on-error={}
+:do { add list=AD address=2401:f1e0:ffff:e5d:4e9c:203b:4a65:cb63/128 } on-error={}
 :do { add list=AD address=2401:f1e0:ffff:b8d8::/64 } on-error={}
 :do { add list=AD address=2401:f1e0:ffff:e0aa::/64 } on-error={}
 :do { add list=AD address=2405:b500:180::/64 } on-error={}
@@ -221,19 +216,8 @@
 :do { add list=AD address=2a0a:6044:f380::/45 } on-error={}
 :do { add list=AD address=2a0a:6044:f388::/46 } on-error={}
 :do { add list=AD address=2a0a:6044:f38c::/47 } on-error={}
-:do { add list=AD address=2a0a:8f40:8:1::/64 } on-error={}
-:do { add list=AD address=2a0a:8f40:8:3::/64 } on-error={}
-:do { add list=AD address=2a0a:8f40:8:4::/62 } on-error={}
-:do { add list=AD address=2a0a:8f40:8:8::/61 } on-error={}
-:do { add list=AD address=2a0a:8f40:8:10::/60 } on-error={}
-:do { add list=AD address=2a0a:8f40:8:20::/59 } on-error={}
-:do { add list=AD address=2a0a:8f40:8:40::/58 } on-error={}
-:do { add list=AD address=2a0a:8f40:8:80::/57 } on-error={}
-:do { add list=AD address=2a0a:8f40:8:100::/56 } on-error={}
-:do { add list=AD address=2a0a:8f40:8:200::/55 } on-error={}
-:do { add list=AD address=2a0a:8f40:8:400::/54 } on-error={}
-:do { add list=AD address=2a0a:8f40:8:800::/53 } on-error={}
-:do { add list=AD address=2a0a:8f40:8:1001::/64 } on-error={}
+:do { add list=AD address=2a0a:8f40:8::/52 } on-error={}
+:do { add list=AD address=2a0a:8f40:8:1000::/63 } on-error={}
 :do { add list=AD address=2a0a:8f40:8:1003::/64 } on-error={}
 :do { add list=AD address=2a0a:8f40:8:1004::/62 } on-error={}
 :do { add list=AD address=2a0a:8f40:8:1008::/61 } on-error={}

@@ -2,7 +2,6 @@
 /ipv6 firewall address-list
 :do { add list=CK address=2001:470:19:af::/64 } on-error={}
 :do { add list=CK address=2001:470:19:1d5::/64 } on-error={}
-:do { add list=CK address=2001:470:19:c5f::/64 } on-error={}
 :do { add list=CK address=2001:470:36:443::/64 } on-error={}
 :do { add list=CK address=2001:470:36:884::/64 } on-error={}
 :do { add list=CK address=2001:470:71:7b6::/64 } on-error={}
@@ -16,12 +15,7 @@
 :do { add list=CK address=2001:470:efc5::/48 } on-error={}
 :do { add list=CK address=2001:470:f941::/48 } on-error={}
 :do { add list=CK address=2001:4b28:aa00::/40 } on-error={}
-:do { add list=CK address=2401:b60:1340:4000::/50 } on-error={}
-:do { add list=CK address=2401:b60:1340:8000::/49 } on-error={}
-:do { add list=CK address=2401:b60:1341::/48 } on-error={}
-:do { add list=CK address=2401:b60:1342::/47 } on-error={}
-:do { add list=CK address=2401:b60:1344::/46 } on-error={}
-:do { add list=CK address=2401:b60:1348::/45 } on-error={}
+:do { add list=CK address=2401:b60:1340::/44 } on-error={}
 :do { add list=CK address=2401:4d20::/39 } on-error={}
 :do { add list=CK address=2401:4d20:200::/42 } on-error={}
 :do { add list=CK address=2401:4d20:240::/45 } on-error={}

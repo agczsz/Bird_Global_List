@@ -148,7 +148,6 @@
 :do { add list=LI address=146.75.180.40/31 } on-error={}
 :do { add list=LI address=146.75.186.22/31 } on-error={}
 :do { add list=LI address=149.96.116.122/32 } on-error={}
-:do { add list=LI address=149.96.118.129/32 } on-error={}
 :do { add list=LI address=149.126.9.72/29 } on-error={}
 :do { add list=LI address=149.255.176.0/21 } on-error={}
 :do { add list=LI address=150.48.141.44/31 } on-error={}

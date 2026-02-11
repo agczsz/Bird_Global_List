@@ -2,6 +2,7 @@
 /ipv6 firewall address-list
 :do { add list=DM address=2001:470:19:f74::/64 } on-error={}
 :do { add list=DM address=2001:470:36:bc::/64 } on-error={}
+:do { add list=DM address=2001:470:36:dbd::/64 } on-error={}
 :do { add list=DM address=2001:470:71:787::/64 } on-error={}
 :do { add list=DM address=2001:470:1f15:82e::/64 } on-error={}
 :do { add list=DM address=2001:470:405c::/48 } on-error={}
@@ -16,12 +17,7 @@
 :do { add list=DM address=2001:67c:a38:f467::/64 } on-error={}
 :do { add list=DM address=2001:3786:5004:400::/56 } on-error={}
 :do { add list=DM address=2001:4b28:b700::/40 } on-error={}
-:do { add list=DM address=2401:b60:13d0:4000::/50 } on-error={}
-:do { add list=DM address=2401:b60:13d0:8000::/49 } on-error={}
-:do { add list=DM address=2401:b60:13d1::/48 } on-error={}
-:do { add list=DM address=2401:b60:13d2::/47 } on-error={}
-:do { add list=DM address=2401:b60:13d4::/46 } on-error={}
-:do { add list=DM address=2401:b60:13d8::/45 } on-error={}
+:do { add list=DM address=2401:b60:13d0::/44 } on-error={}
 :do { add list=DM address=2401:f1e0:ffff:6dfd::/64 } on-error={}
 :do { add list=DM address=2405:b500:1f80::/64 } on-error={}
 :do { add list=DM address=2405:b500:1fa0::/64 } on-error={}

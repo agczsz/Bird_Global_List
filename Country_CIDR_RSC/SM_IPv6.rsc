@@ -46,12 +46,7 @@
 :do { add list=SM address=2001:67c:28d8:fffc::/63 } on-error={}
 :do { add list=SM address=2001:67c:28d8:fffe::/64 } on-error={}
 :do { add list=SM address=2001:4b28:1300::/40 } on-error={}
-:do { add list=SM address=2401:b60:1c50:4000::/50 } on-error={}
-:do { add list=SM address=2401:b60:1c50:8000::/49 } on-error={}
-:do { add list=SM address=2401:b60:1c51::/48 } on-error={}
-:do { add list=SM address=2401:b60:1c52::/47 } on-error={}
-:do { add list=SM address=2401:b60:1c54::/46 } on-error={}
-:do { add list=SM address=2401:b60:1c58::/45 } on-error={}
+:do { add list=SM address=2401:b60:1c50::/44 } on-error={}
 :do { add list=SM address=2401:f1e0:ffff:c001::/64 } on-error={}
 :do { add list=SM address=2405:b500:6800::/64 } on-error={}
 :do { add list=SM address=2405:b500:6820::/64 } on-error={}

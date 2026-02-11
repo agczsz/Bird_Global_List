@@ -2,17 +2,13 @@
 /ipv6 firewall address-list
 :do { add list=SR address=2001:470:d:5e7::/64 } on-error={}
 :do { add list=SR address=2001:470:36:35::/64 } on-error={}
+:do { add list=SR address=2001:470:36:d46::/64 } on-error={}
 :do { add list=SR address=2001:470:fb47::/48 } on-error={}
 :do { add list=SR address=2001:67c:a38:f597::/64 } on-error={}
 :do { add list=SR address=2001:3786:5069:100::/56 } on-error={}
 :do { add list=SR address=2001:4b28:1100::/40 } on-error={}
 :do { add list=SR address=2400:cb00:236::/48 } on-error={}
-:do { add list=SR address=2401:b60:1da0:4000::/50 } on-error={}
-:do { add list=SR address=2401:b60:1da0:8000::/49 } on-error={}
-:do { add list=SR address=2401:b60:1da1::/48 } on-error={}
-:do { add list=SR address=2401:b60:1da2::/47 } on-error={}
-:do { add list=SR address=2401:b60:1da4::/46 } on-error={}
-:do { add list=SR address=2401:b60:1da8::/45 } on-error={}
+:do { add list=SR address=2401:b60:1da0::/44 } on-error={}
 :do { add list=SR address=2401:f1e0:ffff:4fe9::/64 } on-error={}
 :do { add list=SR address=2405:b500:6980::/64 } on-error={}
 :do { add list=SR address=2405:b500:6980:198::/64 } on-error={}
@@ -281,3 +277,4 @@
 :do { add list=SR address=2a14:7581:b16:d500::/56 } on-error={}
 :do { add list=SR address=2a14:7581:b17:d500::/56 } on-error={}
 :do { add list=SR address=2a14:7581:3bdb::/48 } on-error={}
+:do { add list=SR address=2a14:7583:ff3f:800::/56 } on-error={}

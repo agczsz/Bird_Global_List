@@ -1,6 +1,7 @@
 /log info "Loading TK IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=TK address=2001:470:36:1c1::/64 } on-error={}
+:do { add list=TK address=2001:470:36:d48::/64 } on-error={}
 :do { add list=TK address=2001:470:1834::/48 } on-error={}
 :do { add list=TK address=2001:470:1845::/48 } on-error={}
 :do { add list=TK address=2001:470:19b5::/48 } on-error={}
@@ -12,18 +13,15 @@
 :do { add list=TK address=2001:678:58::/48 } on-error={}
 :do { add list=TK address=2001:678:5c::/48 } on-error={}
 :do { add list=TK address=2001:4b28:e300::/40 } on-error={}
-:do { add list=TK address=2401:b60:1e70:4000::/50 } on-error={}
-:do { add list=TK address=2401:b60:1e70:8000::/49 } on-error={}
-:do { add list=TK address=2401:b60:1e71::/48 } on-error={}
-:do { add list=TK address=2401:b60:1e72::/47 } on-error={}
-:do { add list=TK address=2401:b60:1e74::/46 } on-error={}
-:do { add list=TK address=2401:b60:1e78::/45 } on-error={}
+:do { add list=TK address=2401:b60:1e70::/44 } on-error={}
 :do { add list=TK address=2401:f1e0:ffff:c75::/64 } on-error={}
+:do { add list=TK address=2401:f1e0:ffff:ca52:23f:2c3f:ad4f:8814/128 } on-error={}
 :do { add list=TK address=2402:7200::/32 } on-error={}
 :do { add list=TK address=2405:b500:7000::/64 } on-error={}
 :do { add list=TK address=2405:b500:7020::/64 } on-error={}
 :do { add list=TK address=2405:b500:7040::/64 } on-error={}
 :do { add list=TK address=2405:b500:7060::/64 } on-error={}
+:do { add list=TK address=2406:2d40:4800::/40 } on-error={}
 :do { add list=TK address=2600:70ff:a5a1::/48 } on-error={}
 :do { add list=TK address=2600:70ff:c03b::/48 } on-error={}
 :do { add list=TK address=2606:40:f80::/43 } on-error={}

@@ -10,12 +10,7 @@
 :do { add list=PF address=2001:4b28:2f00::/40 } on-error={}
 :do { add list=PF address=2400:5f00::/32 } on-error={}
 :do { add list=PF address=2400:cb00:614::/48 } on-error={}
-:do { add list=PF address=2401:b60:14c0:4000::/50 } on-error={}
-:do { add list=PF address=2401:b60:14c0:8000::/49 } on-error={}
-:do { add list=PF address=2401:b60:14c1::/48 } on-error={}
-:do { add list=PF address=2401:b60:14c2::/47 } on-error={}
-:do { add list=PF address=2401:b60:14c4::/46 } on-error={}
-:do { add list=PF address=2401:b60:14c8::/45 } on-error={}
+:do { add list=PF address=2401:b60:14c0::/44 } on-error={}
 :do { add list=PF address=2401:dc80::/32 } on-error={}
 :do { add list=PF address=2401:f1e0:ffff:adf::/64 } on-error={}
 :do { add list=PF address=2402:6d00::/32 } on-error={}
@@ -37,6 +32,9 @@
 :do { add list=PF address=2600:70ff:a891::/48 } on-error={}
 :do { add list=PF address=2602:f93d:f8::/46 } on-error={}
 :do { add list=PF address=2602:fc30:cd::/48 } on-error={}
+:do { add list=PF address=2603:9000:a004:2eca::/64 } on-error={}
+:do { add list=PF address=2603:9000:b010:5800::/64 } on-error={}
+:do { add list=PF address=2603:9001:917:a300::/64 } on-error={}
 :do { add list=PF address=2605:e000:3e03:e600::/64 } on-error={}
 :do { add list=PF address=2606:40:b28::/45 } on-error={}
 :do { add list=PF address=2606:40:b30::/44 } on-error={}

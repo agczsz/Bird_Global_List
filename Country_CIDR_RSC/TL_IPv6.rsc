@@ -12,15 +12,11 @@
 :do { add list=TL address=2001:df6:39c0::/48 } on-error={}
 :do { add list=TL address=2001:df7:f980::/48 } on-error={}
 :do { add list=TL address=2001:4b28:e200::/40 } on-error={}
-:do { add list=TL address=2401:b60:1e50:4000::/50 } on-error={}
-:do { add list=TL address=2401:b60:1e50:8000::/49 } on-error={}
-:do { add list=TL address=2401:b60:1e51::/48 } on-error={}
-:do { add list=TL address=2401:b60:1e52::/47 } on-error={}
-:do { add list=TL address=2401:b60:1e54::/46 } on-error={}
-:do { add list=TL address=2401:b60:1e58::/45 } on-error={}
+:do { add list=TL address=2401:b60:1e50::/44 } on-error={}
 :do { add list=TL address=2401:1560::/32 } on-error={}
 :do { add list=TL address=2401:4b80::/32 } on-error={}
 :do { add list=TL address=2401:b660::/32 } on-error={}
+:do { add list=TL address=2401:f1e0:ffff:134b:2767:d9b8:7e23:a1bf/128 } on-error={}
 :do { add list=TL address=2401:f1e0:ffff:3c8c::/64 } on-error={}
 :do { add list=TL address=2401:f720::/32 } on-error={}
 :do { add list=TL address=2402:d080::/32 } on-error={}

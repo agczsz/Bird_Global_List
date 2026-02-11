@@ -1,6 +1,7 @@
 /log info "Loading NR IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=NR address=2001:470:36:15c::/64 } on-error={}
+:do { add list=NR address=2001:470:36:567::/64 } on-error={}
 :do { add list=NR address=2001:470:36:8cc::/64 } on-error={}
 :do { add list=NR address=2001:470:36:918::/64 } on-error={}
 :do { add list=NR address=2001:470:36:933::/64 } on-error={}
@@ -11,13 +12,9 @@
 :do { add list=NR address=2001:470:7601::/48 } on-error={}
 :do { add list=NR address=2001:67c:a38:f674::/64 } on-error={}
 :do { add list=NR address=2001:4b28:3500::/40 } on-error={}
-:do { add list=NR address=2401:b60:19e0:4000::/50 } on-error={}
-:do { add list=NR address=2401:b60:19e0:8000::/49 } on-error={}
-:do { add list=NR address=2401:b60:19e1::/48 } on-error={}
-:do { add list=NR address=2401:b60:19e2::/47 } on-error={}
-:do { add list=NR address=2401:b60:19e4::/46 } on-error={}
-:do { add list=NR address=2401:b60:19e8::/45 } on-error={}
+:do { add list=NR address=2401:b60:19e0::/44 } on-error={}
 :do { add list=NR address=2401:f1e0:ffff:acf::/64 } on-error={}
+:do { add list=NR address=2401:f1e0:ffff:e353:643:8063:d8c1:de1e/128 } on-error={}
 :do { add list=NR address=2403:ae80::/32 } on-error={}
 :do { add list=NR address=2403:f600::/32 } on-error={}
 :do { add list=NR address=2405:b500:5680:8::/64 } on-error={}

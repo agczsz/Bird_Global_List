@@ -2,6 +2,7 @@
 /ipv6 firewall address-list
 :do { add list=BN address=2001:470:19:d2::/64 } on-error={}
 :do { add list=BN address=2001:470:36:188::/64 } on-error={}
+:do { add list=BN address=2001:470:36:50f::/64 } on-error={}
 :do { add list=BN address=2001:470:1864::/48 } on-error={}
 :do { add list=BN address=2001:470:eeaa:1::/64 } on-error={}
 :do { add list=BN address=2001:470:eeaa:2::/63 } on-error={}
@@ -31,16 +32,13 @@
 :do { add list=BN address=2001:4b28:9a00::/40 } on-error={}
 :do { add list=BN address=2400:9400::/32 } on-error={}
 :do { add list=BN address=2400:cb00:229::/48 } on-error={}
-:do { add list=BN address=2401:b60:1210:4000::/50 } on-error={}
-:do { add list=BN address=2401:b60:1210:8000::/49 } on-error={}
-:do { add list=BN address=2401:b60:1211::/48 } on-error={}
-:do { add list=BN address=2401:b60:1212::/47 } on-error={}
-:do { add list=BN address=2401:b60:1214::/46 } on-error={}
-:do { add list=BN address=2401:b60:1218::/45 } on-error={}
+:do { add list=BN address=2401:b60:1210::/44 } on-error={}
 :do { add list=BN address=2404:8980::/32 } on-error={}
 :do { add list=BN address=2405:1c0:6044::/48 } on-error={}
 :do { add list=BN address=2405:1700::/32 } on-error={}
-:do { add list=BN address=2405:2000:2e00::4/127 } on-error={}
+:do { add list=BN address=2405:2000:2e00::/64 } on-error={}
+:do { add list=BN address=2405:2016:ffc0::/64 } on-error={}
+:do { add list=BN address=2405:202a:400::/64 } on-error={}
 :do { add list=BN address=2405:b500:f80::/64 } on-error={}
 :do { add list=BN address=2405:b500:fa0::/64 } on-error={}
 :do { add list=BN address=2405:b500:fc0::/64 } on-error={}
@@ -77,7 +75,6 @@
 :do { add list=BN address=2607:8940:37d4::/46 } on-error={}
 :do { add list=BN address=2607:8940:41a0:4200::/55 } on-error={}
 :do { add list=BN address=2607:8940:41d0::/55 } on-error={}
-:do { add list=BN address=2620:0:877:9600::/64 } on-error={}
 :do { add list=BN address=2620:171:81::/48 } on-error={}
 :do { add list=BN address=2a01:e281:aafc::/48 } on-error={}
 :do { add list=BN address=2a02:26f7:c800:4000::/64 } on-error={}

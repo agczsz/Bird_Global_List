@@ -15,6 +15,7 @@
 :do { add list=TG address=102.64.128.0/17 } on-error={}
 :do { add list=TG address=102.164.224.0/20 } on-error={}
 :do { add list=TG address=102.176.252.0/22 } on-error={}
+:do { add list=TG address=102.203.184.0/22 } on-error={}
 :do { add list=TG address=102.208.105.0/24 } on-error={}
 :do { add list=TG address=102.211.168.0/28 } on-error={}
 :do { add list=TG address=102.211.168.16/29 } on-error={}

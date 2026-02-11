@@ -15,12 +15,7 @@
 :do { add list=RW address=2001:43ff:c000::/48 } on-error={}
 :do { add list=RW address=2001:4b28:1f00::/40 } on-error={}
 :do { add list=RW address=2400:cb00:204::/48 } on-error={}
-:do { add list=RW address=2401:b60:1bc0:4000::/50 } on-error={}
-:do { add list=RW address=2401:b60:1bc0:8000::/49 } on-error={}
-:do { add list=RW address=2401:b60:1bc1::/48 } on-error={}
-:do { add list=RW address=2401:b60:1bc2::/47 } on-error={}
-:do { add list=RW address=2401:b60:1bc4::/46 } on-error={}
-:do { add list=RW address=2401:b60:1bc8::/45 } on-error={}
+:do { add list=RW address=2401:b60:1bc0::/44 } on-error={}
 :do { add list=RW address=2405:b500:6200::/64 } on-error={}
 :do { add list=RW address=2405:b500:6220::/64 } on-error={}
 :do { add list=RW address=2405:b500:6240::/64 } on-error={}
@@ -187,6 +182,7 @@
 :do { add list=RW address=2a14:7581:3bbf::/48 } on-error={}
 :do { add list=RW address=2c0e:7c00::/24 } on-error={}
 :do { add list=RW address=2c0f:580::/32 } on-error={}
+:do { add list=RW address=2c0f:e01:60b:600::/56 } on-error={}
 :do { add list=RW address=2c0f:e01:61a:7f00::/56 } on-error={}
 :do { add list=RW address=2c0f:2a80:200::/40 } on-error={}
 :do { add list=RW address=2c0f:2a80:2040::/42 } on-error={}
@@ -448,10 +444,12 @@
 :do { add list=RW address=2c0f:fe30:c000::/34 } on-error={}
 :do { add list=RW address=2c0f:fe40:2::11f/128 } on-error={}
 :do { add list=RW address=2c0f:fe40:2::126/128 } on-error={}
-:do { add list=RW address=2c0f:fe40:2:1::10b/128 } on-error={}
 :do { add list=RW address=2c0f:fe60::/32 } on-error={}
+:do { add list=RW address=2c0f:feb0:0:4::/64 } on-error={}
 :do { add list=RW address=2c0f:feb0:1::2d/128 } on-error={}
 :do { add list=RW address=2c0f:feb0:1::2e/128 } on-error={}
 :do { add list=RW address=2c0f:feb0:1:2::52/128 } on-error={}
 :do { add list=RW address=2c0f:feb0:1:2::79/128 } on-error={}
 :do { add list=RW address=2c0f:feb0:1:2::181/128 } on-error={}
+:do { add list=RW address=2c0f:feb0:5::/48 } on-error={}
+:do { add list=RW address=2c0f:feb0:19::/48 } on-error={}

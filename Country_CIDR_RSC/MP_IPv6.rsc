@@ -11,12 +11,7 @@
 :do { add list=MP address=2001:470:ecd3::/48 } on-error={}
 :do { add list=MP address=2001:470:fe80::/48 } on-error={}
 :do { add list=MP address=2001:4b28:4600::/40 } on-error={}
-:do { add list=MP address=2401:b60:1a90:4000::/50 } on-error={}
-:do { add list=MP address=2401:b60:1a90:8000::/49 } on-error={}
-:do { add list=MP address=2401:b60:1a91::/48 } on-error={}
-:do { add list=MP address=2401:b60:1a92::/47 } on-error={}
-:do { add list=MP address=2401:b60:1a94::/46 } on-error={}
-:do { add list=MP address=2401:b60:1a98::/45 } on-error={}
+:do { add list=MP address=2401:b60:1a90::/44 } on-error={}
 :do { add list=MP address=2401:4e40::/32 } on-error={}
 :do { add list=MP address=2401:f1e0:ffff:e313::/64 } on-error={}
 :do { add list=MP address=2405:b500:4c80::/64 } on-error={}

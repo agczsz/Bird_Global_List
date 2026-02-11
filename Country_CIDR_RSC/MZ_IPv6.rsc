@@ -1,6 +1,7 @@
 /log info "Loading MZ IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=MZ address=2001:470:36:43a::/64 } on-error={}
+:do { add list=MZ address=2001:470:36:5fd::/64 } on-error={}
 :do { add list=MZ address=2001:470:6b72::/48 } on-error={}
 :do { add list=MZ address=2001:470:6d4f::/48 } on-error={}
 :do { add list=MZ address=2001:470:ecae::/48 } on-error={}
@@ -13,12 +14,7 @@
 :do { add list=MZ address=2001:4b28:3c00::/40 } on-error={}
 :do { add list=MZ address=2400:8800:9f03::/64 } on-error={}
 :do { add list=MZ address=2400:cb00:195::/48 } on-error={}
-:do { add list=MZ address=2401:b60:19b0:4000::/50 } on-error={}
-:do { add list=MZ address=2401:b60:19b0:8000::/49 } on-error={}
-:do { add list=MZ address=2401:b60:19b1::/48 } on-error={}
-:do { add list=MZ address=2401:b60:19b2::/47 } on-error={}
-:do { add list=MZ address=2401:b60:19b4::/46 } on-error={}
-:do { add list=MZ address=2401:b60:19b8::/45 } on-error={}
+:do { add list=MZ address=2401:b60:19b0::/44 } on-error={}
 :do { add list=MZ address=2401:f1e0:ffff:31f7::/64 } on-error={}
 :do { add list=MZ address=2405:b500:5180::/64 } on-error={}
 :do { add list=MZ address=2405:b500:51a0::/64 } on-error={}
@@ -1172,16 +1168,22 @@
 :do { add list=MZ address=2c0f:fb90::/32 } on-error={}
 :do { add list=MZ address=2c0f:fd50:2:4000::/50 } on-error={}
 :do { add list=MZ address=2c0f:fd50:2:8000::/49 } on-error={}
-:do { add list=MZ address=2c0f:feb0:1::61/128 } on-error={}
+:do { add list=MZ address=2c0f:feb0:0:8::/64 } on-error={}
+:do { add list=MZ address=2c0f:feb0:1::62/128 } on-error={}
 :do { add list=MZ address=2c0f:feb0:1::65/128 } on-error={}
 :do { add list=MZ address=2c0f:feb0:1::66/128 } on-error={}
 :do { add list=MZ address=2c0f:feb0:1::69/128 } on-error={}
 :do { add list=MZ address=2c0f:feb0:1::161/128 } on-error={}
 :do { add list=MZ address=2c0f:feb0:1::162/128 } on-error={}
+:do { add list=MZ address=2c0f:feb0:1:2::9d/128 } on-error={}
 :do { add list=MZ address=2c0f:feb0:1:2::aa/128 } on-error={}
 :do { add list=MZ address=2c0f:feb0:1:2::b9/128 } on-error={}
 :do { add list=MZ address=2c0f:feb0:1:2::be/128 } on-error={}
+:do { add list=MZ address=2c0f:feb0:1:2::45a/128 } on-error={}
+:do { add list=MZ address=2c0f:feb0:1:2::479/128 } on-error={}
 :do { add list=MZ address=2c0f:feb0:1:2::47e/128 } on-error={}
 :do { add list=MZ address=2c0f:feb0:1:2::87e/128 } on-error={}
 :do { add list=MZ address=2c0f:feb0:1:2::889/128 } on-error={}
 :do { add list=MZ address=2c0f:feb0:1:2::88d/128 } on-error={}
+:do { add list=MZ address=2c0f:feb0:9::/48 } on-error={}
+:do { add list=MZ address=2c0f:feb0:1d::/48 } on-error={}

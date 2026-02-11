@@ -2,9 +2,10 @@
 /ipv6 firewall address-list
 :do { add list=TJ address=2001:470:28:12b::/64 } on-error={}
 :do { add list=TJ address=2001:470:36:425::/64 } on-error={}
+:do { add list=TJ address=2001:470:36:578::/64 } on-error={}
+:do { add list=TJ address=2001:470:36:d47::/64 } on-error={}
 :do { add list=TJ address=2001:470:71:6fb::/64 } on-error={}
 :do { add list=TJ address=2001:470:1f0b:af1::/64 } on-error={}
-:do { add list=TJ address=2001:470:1f13:562::/64 } on-error={}
 :do { add list=TJ address=2001:470:1f15:387::/64 } on-error={}
 :do { add list=TJ address=2001:470:2101::/48 } on-error={}
 :do { add list=TJ address=2001:470:2107::/48 } on-error={}
@@ -25,12 +26,7 @@
 :do { add list=TJ address=2001:3786:5015:500::/56 } on-error={}
 :do { add list=TJ address=2001:3786:bb03:400::/56 } on-error={}
 :do { add list=TJ address=2001:4b28:e400::/40 } on-error={}
-:do { add list=TJ address=2401:b60:1e20:4000::/50 } on-error={}
-:do { add list=TJ address=2401:b60:1e20:8000::/49 } on-error={}
-:do { add list=TJ address=2401:b60:1e21::/48 } on-error={}
-:do { add list=TJ address=2401:b60:1e22::/47 } on-error={}
-:do { add list=TJ address=2401:b60:1e24::/46 } on-error={}
-:do { add list=TJ address=2401:b60:1e28::/45 } on-error={}
+:do { add list=TJ address=2401:b60:1e20::/44 } on-error={}
 :do { add list=TJ address=2401:f1e0:ffff:3f99::/64 } on-error={}
 :do { add list=TJ address=2405:b500:6f80::/64 } on-error={}
 :do { add list=TJ address=2405:b500:6fa0::/64 } on-error={}
@@ -175,7 +171,6 @@
 :do { add list=TJ address=2a0c:9a40:95bd:8000::/52 } on-error={}
 :do { add list=TJ address=2a0c:9a46:3db::/48 } on-error={}
 :do { add list=TJ address=2a0c:d5c0::/29 } on-error={}
-:do { add list=TJ address=2a0d:5600:163::/48 } on-error={}
 :do { add list=TJ address=2a0d:9441:8800::/37 } on-error={}
 :do { add list=TJ address=2a0d:d940:900c::/48 } on-error={}
 :do { add list=TJ address=2a0f:1cc5:b10:db00::/56 } on-error={}
@@ -190,6 +185,7 @@
 :do { add list=TJ address=2a0f:9403:8d0::/44 } on-error={}
 :do { add list=TJ address=2a0f:ad80::/29 } on-error={}
 :do { add list=TJ address=2a10:500:6300::/40 } on-error={}
+:do { add list=TJ address=2a10:9007:0:4::/64 } on-error={}
 :do { add list=TJ address=2a11:29c0:3d88:766::/64 } on-error={}
 :do { add list=TJ address=2a11:29c0:3d88:80d::/64 } on-error={}
 :do { add list=TJ address=2a11:29c0:3d88:aa4::/64 } on-error={}

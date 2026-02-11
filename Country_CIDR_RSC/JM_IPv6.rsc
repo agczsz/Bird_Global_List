@@ -1,13 +1,14 @@
 /log info "Loading JM IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=JM address=2001:470:19:c1e::/64 } on-error={}
 :do { add list=JM address=2001:470:19:d6d::/64 } on-error={}
 :do { add list=JM address=2001:470:28:15b::/64 } on-error={}
 :do { add list=JM address=2001:470:28:1b8::/64 } on-error={}
 :do { add list=JM address=2001:470:36:fc::/64 } on-error={}
+:do { add list=JM address=2001:470:36:522::/64 } on-error={}
 :do { add list=JM address=2001:470:6d:1198::/64 } on-error={}
 :do { add list=JM address=2001:470:18a6::/48 } on-error={}
 :do { add list=JM address=2001:470:1f29:75::/64 } on-error={}
+:do { add list=JM address=2001:470:1f2b:ea::/64 } on-error={}
 :do { add list=JM address=2001:470:2817::/48 } on-error={}
 :do { add list=JM address=2001:470:54d9::/48 } on-error={}
 :do { add list=JM address=2001:470:75ab::/48 } on-error={}
@@ -21,6 +22,7 @@
 :do { add list=JM address=2001:3786:9234:300::/56 } on-error={}
 :do { add list=JM address=2001:4b28:6400::/40 } on-error={}
 :do { add list=JM address=2400:cb00:644::/48 } on-error={}
+:do { add list=JM address=2401:b60:16f0::/44 } on-error={}
 :do { add list=JM address=2401:f1e0:ffff:86f8::/64 } on-error={}
 :do { add list=JM address=2405:b500:3a00::/64 } on-error={}
 :do { add list=JM address=2405:b500:3a20::/64 } on-error={}

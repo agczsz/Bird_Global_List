@@ -12,12 +12,7 @@
 :do { add list=VC address=2001:67c:a38:f484::/64 } on-error={}
 :do { add list=VC address=2001:3786:9234:200::/56 } on-error={}
 :do { add list=VC address=2001:4b28:f200::/40 } on-error={}
-:do { add list=VC address=2401:b60:1c30:4000::/50 } on-error={}
-:do { add list=VC address=2401:b60:1c30:8000::/49 } on-error={}
-:do { add list=VC address=2401:b60:1c31::/48 } on-error={}
-:do { add list=VC address=2401:b60:1c32::/47 } on-error={}
-:do { add list=VC address=2401:b60:1c34::/46 } on-error={}
-:do { add list=VC address=2401:b60:1c38::/45 } on-error={}
+:do { add list=VC address=2401:b60:1c30::/44 } on-error={}
 :do { add list=VC address=2401:f1e0:ffff:97cb::/64 } on-error={}
 :do { add list=VC address=2405:b500:7880::/64 } on-error={}
 :do { add list=VC address=2405:b500:78a0::/64 } on-error={}

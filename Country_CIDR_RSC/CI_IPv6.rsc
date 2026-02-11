@@ -3,6 +3,7 @@
 :do { add list=CI address=2001:470:19:283::/64 } on-error={}
 :do { add list=CI address=2001:470:19:f72::/64 } on-error={}
 :do { add list=CI address=2001:470:36:aa::/64 } on-error={}
+:do { add list=CI address=2001:470:36:dbe::/64 } on-error={}
 :do { add list=CI address=2001:470:71:69d::/64 } on-error={}
 :do { add list=CI address=2001:470:1f15:37a::/64 } on-error={}
 :do { add list=CI address=2001:470:1f23:369::/64 } on-error={}
@@ -30,7 +31,6 @@
 :do { add list=CI address=2001:470:f977:8000::/49 } on-error={}
 :do { add list=CI address=2001:67c:a38:f225::/64 } on-error={}
 :do { add list=CI address=2001:688:0:2::2a/128 } on-error={}
-:do { add list=CI address=2001:688:0:2::23a/128 } on-error={}
 :do { add list=CI address=2001:42d8::/32 } on-error={}
 :do { add list=CI address=2001:43f8:940::/47 } on-error={}
 :do { add list=CI address=2001:43f8:b20::/48 } on-error={}
@@ -41,12 +41,7 @@
 :do { add list=CI address=2001:4b28:a900::/40 } on-error={}
 :do { add list=CI address=2400:cb00:535::/48 } on-error={}
 :do { add list=CI address=2400:cb00:912::/48 } on-error={}
-:do { add list=CI address=2401:b60:1360:4000::/50 } on-error={}
-:do { add list=CI address=2401:b60:1360:8000::/49 } on-error={}
-:do { add list=CI address=2401:b60:1361::/48 } on-error={}
-:do { add list=CI address=2401:b60:1362::/47 } on-error={}
-:do { add list=CI address=2401:b60:1364::/46 } on-error={}
-:do { add list=CI address=2401:b60:1368::/45 } on-error={}
+:do { add list=CI address=2401:b60:1360::/44 } on-error={}
 :do { add list=CI address=2401:f1e0:ffff:66b5::/64 } on-error={}
 :do { add list=CI address=2405:b500:1780::/64 } on-error={}
 :do { add list=CI address=2405:b500:17a0::/64 } on-error={}
@@ -2817,7 +2812,6 @@
 :do { add list=CI address=2a14:7581:3b3d::/48 } on-error={}
 :do { add list=CI address=2a14:c380:7f4::/48 } on-error={}
 :do { add list=CI address=2c0e:7f80::/27 } on-error={}
-:do { add list=CI address=2c0f:2a80:631:8500::/56 } on-error={}
 :do { add list=CI address=2c0f:2a80:63a:af00::/56 } on-error={}
 :do { add list=CI address=2c0f:2a80:69f:7700::/56 } on-error={}
 :do { add list=CI address=2c0f:2a80:b00:100::/56 } on-error={}
@@ -3183,9 +3177,6 @@
 :do { add list=CI address=2c0f:f0f8:81c:8e00::/64 } on-error={}
 :do { add list=CI address=2c0f:f0f8:81c:a200::/64 } on-error={}
 :do { add list=CI address=2c0f:f0f8:821:ed00::/64 } on-error={}
-:do { add list=CI address=2c0f:f0f8:824:a700::/64 } on-error={}
-:do { add list=CI address=2c0f:f0f8:824:be00::/64 } on-error={}
-:do { add list=CI address=2c0f:f0f8:82c:f800::/64 } on-error={}
 :do { add list=CI address=2c0f:f0f8:830:1b00::/64 } on-error={}
 :do { add list=CI address=2c0f:f0f8:830:2900::/64 } on-error={}
 :do { add list=CI address=2c0f:f0f8:830:c500::/64 } on-error={}

@@ -49,7 +49,6 @@
 :do { add list=FM address=119.252.112.140/30 } on-error={}
 :do { add list=FM address=119.252.112.144/28 } on-error={}
 :do { add list=FM address=119.252.112.160/30 } on-error={}
-:do { add list=FM address=119.252.112.165/32 } on-error={}
 :do { add list=FM address=119.252.112.168/29 } on-error={}
 :do { add list=FM address=119.252.112.176/28 } on-error={}
 :do { add list=FM address=119.252.112.192/26 } on-error={}

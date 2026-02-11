@@ -22,6 +22,8 @@
 :do { add list=MW address=2001:43ff:f000::/48 } on-error={}
 :do { add list=MW address=2001:4b28:3f00::/40 } on-error={}
 :do { add list=MW address=2400:cb00:1045::/48 } on-error={}
+:do { add list=MW address=2401:b60:1890::/44 } on-error={}
+:do { add list=MW address=2401:f1e0:ffff:a504:412c:d5d2:a01c:30b8/128 } on-error={}
 :do { add list=MW address=2401:f1e0:ffff:fe3c::/64 } on-error={}
 :do { add list=MW address=2405:b500:5000::/64 } on-error={}
 :do { add list=MW address=2405:b500:5000:8::/64 } on-error={}

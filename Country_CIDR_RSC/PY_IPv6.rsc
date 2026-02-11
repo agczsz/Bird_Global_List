@@ -1,6 +1,6 @@
 /log info "Loading PY IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=PY address=2001:470:36:2e0::/64 } on-error={}
+:do { add list=PY address=2001:470:1f2b:44::/64 } on-error={}
 :do { add list=PY address=2001:470:1f2b:1eb::/64 } on-error={}
 :do { add list=PY address=2001:470:1f2b:223::/64 } on-error={}
 :do { add list=PY address=2001:470:1f2b:27f::/64 } on-error={}
@@ -15,12 +15,7 @@
 :do { add list=PY address=2001:4b28:2500::/40 } on-error={}
 :do { add list=PY address=2400:cb00:209::/48 } on-error={}
 :do { add list=PY address=2400:cb00:241::/48 } on-error={}
-:do { add list=PY address=2401:b60:1b10:4000::/50 } on-error={}
-:do { add list=PY address=2401:b60:1b10:8000::/49 } on-error={}
-:do { add list=PY address=2401:b60:1b11::/48 } on-error={}
-:do { add list=PY address=2401:b60:1b12::/47 } on-error={}
-:do { add list=PY address=2401:b60:1b14::/46 } on-error={}
-:do { add list=PY address=2401:b60:1b18::/45 } on-error={}
+:do { add list=PY address=2401:b60:1b10::/44 } on-error={}
 :do { add list=PY address=2405:b500:5f00::/64 } on-error={}
 :do { add list=PY address=2405:b500:5f00:8::/64 } on-error={}
 :do { add list=PY address=2405:b500:5f20::/64 } on-error={}
@@ -225,7 +220,6 @@
 :do { add list=PY address=2803:3b50:8800::/43 } on-error={}
 :do { add list=PY address=2803:3b50:8820::/47 } on-error={}
 :do { add list=PY address=2803:3b50:8822::/48 } on-error={}
-:do { add list=PY address=2803:3b50:8823::/56 } on-error={}
 :do { add list=PY address=2803:3b50:8824::/46 } on-error={}
 :do { add list=PY address=2803:3b50:8828::/45 } on-error={}
 :do { add list=PY address=2803:3b50:8830::/44 } on-error={}
@@ -276,7 +270,6 @@
 :do { add list=PY address=2803:6510::/33 } on-error={}
 :do { add list=PY address=2803:6510:8000::/36 } on-error={}
 :do { add list=PY address=2803:6510:9000::/47 } on-error={}
-:do { add list=PY address=2803:6510:9002:400::/54 } on-error={}
 :do { add list=PY address=2803:6510:9002:800::/56 } on-error={}
 :do { add list=PY address=2803:6510:9003::/48 } on-error={}
 :do { add list=PY address=2803:6510:9004::/46 } on-error={}

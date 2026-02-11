@@ -19,6 +19,7 @@
 :do { add list=LS address=2001:43f8:210::/48 } on-error={}
 :do { add list=LS address=2001:43f8:1170::/48 } on-error={}
 :do { add list=LS address=2001:4b28:5700::/40 } on-error={}
+:do { add list=LS address=2401:b60:1800::/44 } on-error={}
 :do { add list=LS address=2401:f1e0:ffff:8cc6::/64 } on-error={}
 :do { add list=LS address=2401:f1e0:ffff:fff1::/64 } on-error={}
 :do { add list=LS address=2405:b500:4400::/64 } on-error={}

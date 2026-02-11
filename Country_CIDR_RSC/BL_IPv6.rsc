@@ -1,6 +1,7 @@
 /log info "Loading BL IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=BL address=2001:470:36:440::/64 } on-error={}
+:do { add list=BL address=2001:470:36:5b6::/64 } on-error={}
 :do { add list=BL address=2001:470:36:931::/64 } on-error={}
 :do { add list=BL address=2001:470:71:ea::/64 } on-error={}
 :do { add list=BL address=2001:470:ec07::/48 } on-error={}
@@ -11,12 +12,7 @@
 :do { add list=BL address=2001:504:111::/48 } on-error={}
 :do { add list=BL address=2001:504:118::/48 } on-error={}
 :do { add list=BL address=2001:4b28:9800::/40 } on-error={}
-:do { add list=BL address=2401:b60:1bd0:4000::/50 } on-error={}
-:do { add list=BL address=2401:b60:1bd0:8000::/49 } on-error={}
-:do { add list=BL address=2401:b60:1bd1::/48 } on-error={}
-:do { add list=BL address=2401:b60:1bd2::/47 } on-error={}
-:do { add list=BL address=2401:b60:1bd4::/46 } on-error={}
-:do { add list=BL address=2401:b60:1bd8::/45 } on-error={}
+:do { add list=BL address=2401:b60:1bd0::/44 } on-error={}
 :do { add list=BL address=2401:f1e0:ffff:2cb4::/64 } on-error={}
 :do { add list=BL address=2405:b500:e80::/64 } on-error={}
 :do { add list=BL address=2405:b500:ea0::/64 } on-error={}
@@ -49,7 +45,6 @@
 :do { add list=BL address=2620:122:a080:100::/56 } on-error={}
 :do { add list=BL address=2620:139:7000::/40 } on-error={}
 :do { add list=BL address=2620:171:8a::/48 } on-error={}
-:do { add list=BL address=2a01:cde0:108:5000::/52 } on-error={}
 :do { add list=BL address=2a02:26f7:eb40::/48 } on-error={}
 :do { add list=BL address=2a02:26f7:eb41::/48 } on-error={}
 :do { add list=BL address=2a02:26f7:eb42::/48 } on-error={}

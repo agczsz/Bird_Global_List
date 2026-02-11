@@ -281,7 +281,10 @@
 :do { add list=NI address=190.184.0.0/17 } on-error={}
 :do { add list=NI address=190.212.0.0/18 } on-error={}
 :do { add list=NI address=190.212.88.128/25 } on-error={}
+:do { add list=NI address=190.212.90.0/25 } on-error={}
 :do { add list=NI address=190.212.98.0/25 } on-error={}
+:do { add list=NI address=190.212.101.128/25 } on-error={}
+:do { add list=NI address=190.212.104.0/25 } on-error={}
 :do { add list=NI address=190.212.112.0/23 } on-error={}
 :do { add list=NI address=190.212.120.0/21 } on-error={}
 :do { add list=NI address=190.212.128.0/17 } on-error={}
