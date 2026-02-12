@@ -5,8 +5,6 @@
 :do { add list=CU address=57.74.110.0/23 } on-error={}
 :do { add list=CU address=57.91.32.0/20 } on-error={}
 :do { add list=CU address=69.79.100.204/32 } on-error={}
-:do { add list=CU address=80.239.160.219/32 } on-error={}
-:do { add list=CU address=84.16.8.80/30 } on-error={}
 :do { add list=CU address=85.153.57.0/24 } on-error={}
 :do { add list=CU address=104.28.9.57/32 } on-error={}
 :do { add list=CU address=104.28.9.58/31 } on-error={}
@@ -84,4 +82,6 @@
 :do { add list=CU address=200.55.128.0/18 } on-error={}
 :do { add list=CU address=200.123.198.224/27 } on-error={}
 :do { add list=CU address=201.220.192.0/19 } on-error={}
+:do { add list=CU address=206.126.244.64/26 } on-error={}
+:do { add list=CU address=206.126.244.128/25 } on-error={}
 :do { add list=CU address=213.248.67.201/32 } on-error={}

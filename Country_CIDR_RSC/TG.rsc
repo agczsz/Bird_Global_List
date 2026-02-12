@@ -20,12 +20,12 @@
 :do { add list=TG address=102.211.168.0/28 } on-error={}
 :do { add list=TG address=102.211.168.16/29 } on-error={}
 :do { add list=TG address=102.211.168.24/32 } on-error={}
-:do { add list=TG address=102.211.168.26/31 } on-error={}
+:do { add list=TG address=102.211.168.27/32 } on-error={}
 :do { add list=TG address=102.211.168.28/30 } on-error={}
 :do { add list=TG address=102.211.168.32/32 } on-error={}
 :do { add list=TG address=102.211.168.35/32 } on-error={}
 :do { add list=TG address=102.211.168.36/32 } on-error={}
-:do { add list=TG address=102.211.168.38/31 } on-error={}
+:do { add list=TG address=102.211.168.39/32 } on-error={}
 :do { add list=TG address=102.211.168.40/32 } on-error={}
 :do { add list=TG address=102.211.168.42/31 } on-error={}
 :do { add list=TG address=102.211.168.44/31 } on-error={}

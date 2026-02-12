@@ -3,6 +3,7 @@
 :do { add list=GS address=2001:470:19:1067::/64 } on-error={}
 :do { add list=GS address=2001:470:36:cc9::/64 } on-error={}
 :do { add list=GS address=2001:470:36:1189::/64 } on-error={}
+:do { add list=GS address=2001:470:1f09:314::/64 } on-error={}
 :do { add list=GS address=2001:470:ed93::/48 } on-error={}
 :do { add list=GS address=2001:470:f5e3::/48 } on-error={}
 :do { add list=GS address=2001:470:fe2f::/48 } on-error={}

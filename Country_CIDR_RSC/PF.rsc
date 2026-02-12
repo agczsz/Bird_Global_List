@@ -1,7 +1,6 @@
 /log info "Loading PF IPv4 Address List"
 /ip firewall address-list
 :do { add list=PF address=5.175.190.154/31 } on-error={}
-:do { add list=PF address=14.137.40.0/24 } on-error={}
 :do { add list=PF address=38.51.136.0/22 } on-error={}
 :do { add list=PF address=43.249.176.0/22 } on-error={}
 :do { add list=PF address=50.21.80.0/20 } on-error={}
@@ -10,6 +9,7 @@
 :do { add list=PF address=64.140.156.0/24 } on-error={}
 :do { add list=PF address=64.140.157.0/24 } on-error={}
 :do { add list=PF address=64.140.158.0/23 } on-error={}
+:do { add list=PF address=72.235.42.18/32 } on-error={}
 :do { add list=PF address=72.253.89.2/32 } on-error={}
 :do { add list=PF address=103.4.72.0/22 } on-error={}
 :do { add list=PF address=103.46.216.0/22 } on-error={}
@@ -123,5 +123,6 @@
 :do { add list=PF address=203.185.160.0/20 } on-error={}
 :do { add list=PF address=203.185.176.0/21 } on-error={}
 :do { add list=PF address=203.185.189.0/24 } on-error={}
+:do { add list=PF address=209.120.142.174/32 } on-error={}
 :do { add list=PF address=213.156.253.2/32 } on-error={}
 :do { add list=PF address=218.100.77.0/24 } on-error={}

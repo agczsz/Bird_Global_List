@@ -1,5 +1,6 @@
 /log info "Loading SH IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=SH address=2001:470:19:130c::/64 } on-error={}
 :do { add list=SH address=2001:470:36:18d::/64 } on-error={}
 :do { add list=SH address=2001:470:ed29::/48 } on-error={}
 :do { add list=SH address=2001:470:f5e9::/48 } on-error={}

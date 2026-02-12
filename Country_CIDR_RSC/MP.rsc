@@ -1,11 +1,11 @@
 /log info "Loading MP IPv4 Address List"
 /ip firewall address-list
 :do { add list=MP address=65.181.29.0/24 } on-error={}
+:do { add list=MP address=101.99.242.0/25 } on-error={}
 :do { add list=MP address=103.57.232.0/24 } on-error={}
-:do { add list=MP address=103.57.233.15/32 } on-error={}
-:do { add list=MP address=103.57.233.36/30 } on-error={}
+:do { add list=MP address=103.57.233.8/30 } on-error={}
 :do { add list=MP address=103.57.233.72/31 } on-error={}
-:do { add list=MP address=103.57.233.176/29 } on-error={}
+:do { add list=MP address=103.57.234.2/31 } on-error={}
 :do { add list=MP address=103.57.234.4/30 } on-error={}
 :do { add list=MP address=103.57.234.8/29 } on-error={}
 :do { add list=MP address=103.57.234.16/31 } on-error={}
@@ -15,10 +15,11 @@
 :do { add list=MP address=103.57.234.32/30 } on-error={}
 :do { add list=MP address=103.57.234.40/29 } on-error={}
 :do { add list=MP address=103.57.234.58/32 } on-error={}
-:do { add list=MP address=103.57.234.62/32 } on-error={}
 :do { add list=MP address=103.57.234.64/29 } on-error={}
 :do { add list=MP address=103.57.234.76/30 } on-error={}
-:do { add list=MP address=103.57.234.80/29 } on-error={}
+:do { add list=MP address=103.57.234.80/30 } on-error={}
+:do { add list=MP address=103.57.234.84/31 } on-error={}
+:do { add list=MP address=103.57.234.86/32 } on-error={}
 :do { add list=MP address=103.57.234.88/31 } on-error={}
 :do { add list=MP address=103.57.234.90/32 } on-error={}
 :do { add list=MP address=103.57.234.92/30 } on-error={}
@@ -26,9 +27,10 @@
 :do { add list=MP address=103.57.234.128/26 } on-error={}
 :do { add list=MP address=103.57.234.192/27 } on-error={}
 :do { add list=MP address=103.57.234.224/28 } on-error={}
+:do { add list=MP address=103.57.234.240/29 } on-error={}
 :do { add list=MP address=103.57.234.248/32 } on-error={}
 :do { add list=MP address=103.57.234.250/32 } on-error={}
-:do { add list=MP address=103.57.234.252/30 } on-error={}
+:do { add list=MP address=103.57.234.255/32 } on-error={}
 :do { add list=MP address=103.57.235.0/24 } on-error={}
 :do { add list=MP address=104.28.11.229/32 } on-error={}
 :do { add list=MP address=104.28.11.230/31 } on-error={}

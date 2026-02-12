@@ -1,6 +1,6 @@
 /log info "Loading NE IPv4 Address List"
 /ip firewall address-list
-:do { add list=NE address=5.22.196.0/24 } on-error={}
+:do { add list=NE address=5.22.196.128/25 } on-error={}
 :do { add list=NE address=5.62.63.48/30 } on-error={}
 :do { add list=NE address=41.78.116.0/22 } on-error={}
 :do { add list=NE address=41.138.32.0/19 } on-error={}
@@ -15,7 +15,6 @@
 :do { add list=NE address=102.213.247.0/24 } on-error={}
 :do { add list=NE address=102.214.4.0/23 } on-error={}
 :do { add list=NE address=102.215.84.0/22 } on-error={}
-:do { add list=NE address=102.217.96.0/24 } on-error={}
 :do { add list=NE address=102.217.97.0/30 } on-error={}
 :do { add list=NE address=102.217.97.8/31 } on-error={}
 :do { add list=NE address=102.217.97.12/31 } on-error={}
@@ -25,19 +24,15 @@
 :do { add list=NE address=102.217.97.32/31 } on-error={}
 :do { add list=NE address=102.217.97.34/32 } on-error={}
 :do { add list=NE address=102.217.97.36/31 } on-error={}
-:do { add list=NE address=102.217.97.40/29 } on-error={}
-:do { add list=NE address=102.217.97.48/28 } on-error={}
-:do { add list=NE address=102.217.97.64/26 } on-error={}
-:do { add list=NE address=102.217.97.128/25 } on-error={}
-:do { add list=NE address=102.217.98.0/24 } on-error={}
+:do { add list=NE address=102.217.97.48/30 } on-error={}
+:do { add list=NE address=102.217.97.56/29 } on-error={}
 :do { add list=NE address=102.217.99.0/25 } on-error={}
 :do { add list=NE address=102.217.99.128/28 } on-error={}
 :do { add list=NE address=102.217.99.144/29 } on-error={}
 :do { add list=NE address=102.217.99.152/32 } on-error={}
 :do { add list=NE address=102.217.99.154/31 } on-error={}
 :do { add list=NE address=102.217.99.156/30 } on-error={}
-:do { add list=NE address=102.217.99.160/27 } on-error={}
-:do { add list=NE address=102.217.99.192/26 } on-error={}
+:do { add list=NE address=102.217.99.224/27 } on-error={}
 :do { add list=NE address=102.220.24.0/22 } on-error={}
 :do { add list=NE address=104.28.12.18/31 } on-error={}
 :do { add list=NE address=104.28.12.20/32 } on-error={}
@@ -85,6 +80,8 @@
 :do { add list=NE address=172.225.243.32/28 } on-error={}
 :do { add list=NE address=185.112.135.23/32 } on-error={}
 :do { add list=NE address=185.138.17.145/32 } on-error={}
+:do { add list=NE address=195.72.87.17/32 } on-error={}
+:do { add list=NE address=195.72.87.18/32 } on-error={}
 :do { add list=NE address=196.48.148.0/24 } on-error={}
 :do { add list=NE address=196.56.148.0/24 } on-error={}
 :do { add list=NE address=196.57.148.0/24 } on-error={}

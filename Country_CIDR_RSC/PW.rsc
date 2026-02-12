@@ -1,6 +1,12 @@
 /log info "Loading PW IPv4 Address List"
 /ip firewall address-list
 :do { add list=PW address=38.150.36.0/23 } on-error={}
+:do { add list=PW address=45.74.19.128/27 } on-error={}
+:do { add list=PW address=45.74.19.160/30 } on-error={}
+:do { add list=PW address=45.74.19.164/32 } on-error={}
+:do { add list=PW address=45.74.19.166/31 } on-error={}
+:do { add list=PW address=45.74.19.168/29 } on-error={}
+:do { add list=PW address=45.74.19.176/28 } on-error={}
 :do { add list=PW address=45.74.19.192/26 } on-error={}
 :do { add list=PW address=57.70.176.0/23 } on-error={}
 :do { add list=PW address=57.70.240.0/20 } on-error={}

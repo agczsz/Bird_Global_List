@@ -1,6 +1,5 @@
 /log info "Loading PG IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=PG address=2001:470:19:8ab::/64 } on-error={}
 :do { add list=PG address=2001:470:36:16d::/64 } on-error={}
 :do { add list=PG address=2001:470:36:223::/64 } on-error={}
 :do { add list=PG address=2001:470:36:428::/64 } on-error={}
@@ -93,15 +92,7 @@
 :do { add list=PG address=2a02:26f7:e382::/47 } on-error={}
 :do { add list=PG address=2a02:26f7:e384:4000::/64 } on-error={}
 :do { add list=PG address=2a02:26f7:e384:cec0::/62 } on-error={}
-:do { add list=PG address=2a02:26f7:e385::/50 } on-error={}
-:do { add list=PG address=2a02:26f7:e385:4000::/64 } on-error={}
-:do { add list=PG address=2a02:26f7:e385:4100::/56 } on-error={}
-:do { add list=PG address=2a02:26f7:e385:4200::/55 } on-error={}
-:do { add list=PG address=2a02:26f7:e385:4400::/54 } on-error={}
-:do { add list=PG address=2a02:26f7:e385:4800::/53 } on-error={}
-:do { add list=PG address=2a02:26f7:e385:5000::/52 } on-error={}
-:do { add list=PG address=2a02:26f7:e385:6000::/51 } on-error={}
-:do { add list=PG address=2a02:26f7:e385:8000::/49 } on-error={}
+:do { add list=PG address=2a02:26f7:e385::/48 } on-error={}
 :do { add list=PG address=2a02:26f7:e386::/47 } on-error={}
 :do { add list=PG address=2a02:26f7:e388:4000::/64 } on-error={}
 :do { add list=PG address=2a02:26f7:e388:cec0::/62 } on-error={}
@@ -155,7 +146,15 @@
 :do { add list=PG address=2a02:26f7:fb49:8000::/49 } on-error={}
 :do { add list=PG address=2a02:26f7:fb4a::/47 } on-error={}
 :do { add list=PG address=2a02:26f7:fb4c::/48 } on-error={}
-:do { add list=PG address=2a02:26f7:fb4d::/48 } on-error={}
+:do { add list=PG address=2a02:26f7:fb4d::/50 } on-error={}
+:do { add list=PG address=2a02:26f7:fb4d:4000::/64 } on-error={}
+:do { add list=PG address=2a02:26f7:fb4d:4100::/56 } on-error={}
+:do { add list=PG address=2a02:26f7:fb4d:4200::/55 } on-error={}
+:do { add list=PG address=2a02:26f7:fb4d:4400::/54 } on-error={}
+:do { add list=PG address=2a02:26f7:fb4d:4800::/53 } on-error={}
+:do { add list=PG address=2a02:26f7:fb4d:5000::/52 } on-error={}
+:do { add list=PG address=2a02:26f7:fb4d:6000::/51 } on-error={}
+:do { add list=PG address=2a02:26f7:fb4d:8000::/49 } on-error={}
 :do { add list=PG address=2a02:26f7:fb4e::/47 } on-error={}
 :do { add list=PG address=2a02:26f7:fb50::/44 } on-error={}
 :do { add list=PG address=2a02:26f7:fb60::/43 } on-error={}

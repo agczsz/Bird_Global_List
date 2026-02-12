@@ -1,7 +1,5 @@
 /log info "Loading VU IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=VU address=2001:470:19:40::/64 } on-error={}
-:do { add list=VU address=2001:470:19:8c::/64 } on-error={}
 :do { add list=VU address=2001:470:24:90f::/64 } on-error={}
 :do { add list=VU address=2001:470:36:1d6::/64 } on-error={}
 :do { add list=VU address=2001:470:36:52a::/64 } on-error={}
@@ -45,9 +43,8 @@
 :do { add list=VU address=2400:c0c0::/32 } on-error={}
 :do { add list=VU address=2401:b60:1f70::/44 } on-error={}
 :do { add list=VU address=2401:7a40::/32 } on-error={}
-:do { add list=VU address=2401:f1e0:ffff:58c5:d1e:3d3a:c54d:8189/128 } on-error={}
+:do { add list=VU address=2401:f1e0:ffff:58c5::/64 } on-error={}
 :do { add list=VU address=2401:f1e0:ffff:ceb3::/64 } on-error={}
-:do { add list=VU address=2401:f1e0:ffff:d7c7::/64 } on-error={}
 :do { add list=VU address=2403:fbc0:1::/48 } on-error={}
 :do { add list=VU address=2403:fbc0:2::/47 } on-error={}
 :do { add list=VU address=2403:fbc0:4::/46 } on-error={}
