@@ -638,6 +638,7 @@
 :do { add list=KE address=2a09:bac0:1000:482::/63 } on-error={}
 :do { add list=KE address=2a09:bac0:1000:c14::/64 } on-error={}
 :do { add list=KE address=2a09:bac0:1000:d0c::/64 } on-error={}
+:do { add list=KE address=2a09:bac0:1000:11dc::/64 } on-error={}
 :do { add list=KE address=2a09:bac1:3b80::/64 } on-error={}
 :do { add list=KE address=2a09:bac1:3b80:8::/64 } on-error={}
 :do { add list=KE address=2a09:bac1:3b80:10::/64 } on-error={}

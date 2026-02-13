@@ -4,7 +4,6 @@
 :do { add list=PA address=4.4.211.202/32 } on-error={}
 :do { add list=PA address=4.68.59.109/32 } on-error={}
 :do { add list=PA address=4.68.59.110/32 } on-error={}
-:do { add list=PA address=5.10.250.0/24 } on-error={}
 :do { add list=PA address=5.53.3.245/32 } on-error={}
 :do { add list=PA address=5.62.58.152/30 } on-error={}
 :do { add list=PA address=5.252.71.8/31 } on-error={}
@@ -232,7 +231,6 @@
 :do { add list=PA address=69.79.100.168/32 } on-error={}
 :do { add list=PA address=69.79.104.35/32 } on-error={}
 :do { add list=PA address=74.206.253.192/28 } on-error={}
-:do { add list=PA address=74.244.234.0/24 } on-error={}
 :do { add list=PA address=77.81.118.40/30 } on-error={}
 :do { add list=PA address=81.173.108.137/32 } on-error={}
 :do { add list=PA address=81.173.108.142/32 } on-error={}
@@ -373,6 +371,7 @@
 :do { add list=PA address=104.30.135.110/32 } on-error={}
 :do { add list=PA address=104.30.161.83/32 } on-error={}
 :do { add list=PA address=104.30.168.23/32 } on-error={}
+:do { add list=PA address=104.30.170.30/32 } on-error={}
 :do { add list=PA address=104.30.176.156/32 } on-error={}
 :do { add list=PA address=116.204.192.0/24 } on-error={}
 :do { add list=PA address=116.204.193.0/24 } on-error={}
@@ -484,6 +483,7 @@
 :do { add list=PA address=151.240.88.0/24 } on-error={}
 :do { add list=PA address=153.53.0.0/16 } on-error={}
 :do { add list=PA address=153.54.0.0/16 } on-error={}
+:do { add list=PA address=153.67.246.0/23 } on-error={}
 :do { add list=PA address=153.72.9.224/27 } on-error={}
 :do { add list=PA address=153.72.10.0/27 } on-error={}
 :do { add list=PA address=154.6.3.0/24 } on-error={}
@@ -533,7 +533,9 @@
 :do { add list=PA address=163.116.252.170/31 } on-error={}
 :do { add list=PA address=164.137.17.0/24 } on-error={}
 :do { add list=PA address=164.137.42.0/24 } on-error={}
-:do { add list=PA address=164.163.244.0/22 } on-error={}
+:do { add list=PA address=164.163.244.0/24 } on-error={}
+:do { add list=PA address=164.163.245.0/24 } on-error={}
+:do { add list=PA address=164.163.246.0/23 } on-error={}
 :do { add list=PA address=165.1.175.0/25 } on-error={}
 :do { add list=PA address=165.1.227.1/32 } on-error={}
 :do { add list=PA address=165.1.227.2/31 } on-error={}

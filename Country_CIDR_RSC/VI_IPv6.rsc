@@ -14,6 +14,7 @@
 :do { add list=VI address=2001:470:49ab:2000::/51 } on-error={}
 :do { add list=VI address=2001:470:49ab:4000::/50 } on-error={}
 :do { add list=VI address=2001:470:49ab:8000::/49 } on-error={}
+:do { add list=VI address=2001:470:b1f7::/48 } on-error={}
 :do { add list=VI address=2001:470:e270::/48 } on-error={}
 :do { add list=VI address=2001:470:e281::/48 } on-error={}
 :do { add list=VI address=2001:470:e33e::/48 } on-error={}

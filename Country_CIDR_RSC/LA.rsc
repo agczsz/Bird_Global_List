@@ -150,7 +150,7 @@
 :do { add list=LA address=115.84.125.128/28 } on-error={}
 :do { add list=LA address=115.84.125.144/30 } on-error={}
 :do { add list=LA address=115.84.125.151/32 } on-error={}
-:do { add list=LA address=115.84.125.152/31 } on-error={}
+:do { add list=LA address=115.84.125.153/32 } on-error={}
 :do { add list=LA address=115.84.125.155/32 } on-error={}
 :do { add list=LA address=115.84.125.156/30 } on-error={}
 :do { add list=LA address=115.84.125.160/31 } on-error={}

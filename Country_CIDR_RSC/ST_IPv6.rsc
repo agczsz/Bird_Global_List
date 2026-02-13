@@ -49,12 +49,7 @@
 :do { add list=ST address=2804:71f0:4008::/45 } on-error={}
 :do { add list=ST address=2804:71f0:4010::/48 } on-error={}
 :do { add list=ST address=2804:71f0:4012::/49 } on-error={}
-:do { add list=ST address=2804:71f0:4012:8000::/52 } on-error={}
-:do { add list=ST address=2804:71f0:4012:9000::/54 } on-error={}
-:do { add list=ST address=2804:71f0:4012:9400::/55 } on-error={}
-:do { add list=ST address=2804:71f0:4012:9700::/56 } on-error={}
-:do { add list=ST address=2804:71f0:4012:9800::/53 } on-error={}
-:do { add list=ST address=2804:71f0:4012:a000::/51 } on-error={}
+:do { add list=ST address=2804:71f0:4012:8000::/50 } on-error={}
 :do { add list=ST address=2804:71f0:4012:c000::/52 } on-error={}
 :do { add list=ST address=2804:71f0:4012:d000::/55 } on-error={}
 :do { add list=ST address=2804:71f0:4012:d201::/64 } on-error={}

@@ -104,6 +104,7 @@
 :do { add list=BO address=104.28.249.244/31 } on-error={}
 :do { add list=BO address=104.28.249.246/32 } on-error={}
 :do { add list=BO address=104.28.250.240/30 } on-error={}
+:do { add list=BO address=104.30.170.9/32 } on-error={}
 :do { add list=BO address=128.77.116.224/27 } on-error={}
 :do { add list=BO address=130.41.13.0/26 } on-error={}
 :do { add list=BO address=130.41.13.224/27 } on-error={}

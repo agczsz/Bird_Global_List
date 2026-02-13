@@ -1299,6 +1299,7 @@
 :do { add list=LV address=2a09:bac0:1000:6d1::/64 } on-error={}
 :do { add list=LV address=2a09:bac0:1000:847::/64 } on-error={}
 :do { add list=LV address=2a09:bac0:1000:d0d::/64 } on-error={}
+:do { add list=LV address=2a09:bac0:1000:11db::/64 } on-error={}
 :do { add list=LV address=2a09:bac1:4430::/64 } on-error={}
 :do { add list=LV address=2a09:bac1:4580::/64 } on-error={}
 :do { add list=LV address=2a09:bac1:45a0::/64 } on-error={}

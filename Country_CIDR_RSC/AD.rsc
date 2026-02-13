@@ -39,7 +39,12 @@
 :do { add list=AD address=57.79.178.0/23 } on-error={}
 :do { add list=AD address=57.79.240.0/21 } on-error={}
 :do { add list=AD address=69.84.202.128/26 } on-error={}
-:do { add list=AD address=80.80.84.0/22 } on-error={}
+:do { add list=AD address=80.80.84.0/26 } on-error={}
+:do { add list=AD address=80.80.84.80/28 } on-error={}
+:do { add list=AD address=80.80.84.96/27 } on-error={}
+:do { add list=AD address=80.80.84.128/25 } on-error={}
+:do { add list=AD address=80.80.85.0/24 } on-error={}
+:do { add list=AD address=80.80.86.0/23 } on-error={}
 :do { add list=AD address=80.80.92.0/22 } on-error={}
 :do { add list=AD address=85.94.160.0/19 } on-error={}
 :do { add list=AD address=89.150.2.0/23 } on-error={}

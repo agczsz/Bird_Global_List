@@ -123,6 +123,7 @@
 :do { add list=EG address=240d:c010:8e::/62 } on-error={}
 :do { add list=EG address=2600:70ff:a7cd::/48 } on-error={}
 :do { add list=EG address=2600:70ff:abaf::/48 } on-error={}
+:do { add list=EG address=2600:70ff:ac10::/48 } on-error={}
 :do { add list=EG address=2600:70ff:c019::/48 } on-error={}
 :do { add list=EG address=2600:70ff:d1e7::/48 } on-error={}
 :do { add list=EG address=2600:70ff:d1ea::/48 } on-error={}

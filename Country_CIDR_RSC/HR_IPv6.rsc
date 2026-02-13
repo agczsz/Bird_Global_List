@@ -849,6 +849,7 @@
 :do { add list=HR address=2a09:bac0:1000:9bc::/64 } on-error={}
 :do { add list=HR address=2a09:bac0:1000:bc5::/64 } on-error={}
 :do { add list=HR address=2a09:bac0:1000:cf7::/64 } on-error={}
+:do { add list=HR address=2a09:bac0:1000:121c::/64 } on-error={}
 :do { add list=HR address=2a09:bac1:3300::/64 } on-error={}
 :do { add list=HR address=2a09:bac1:3300:8::/64 } on-error={}
 :do { add list=HR address=2a09:bac1:3320::/64 } on-error={}

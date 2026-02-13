@@ -240,6 +240,7 @@
 :do { add list=TN address=104.28.243.80/30 } on-error={}
 :do { add list=TN address=104.28.243.84/31 } on-error={}
 :do { add list=TN address=104.30.135.44/31 } on-error={}
+:do { add list=TN address=104.30.170.85/32 } on-error={}
 :do { add list=TN address=131.229.144.10/32 } on-error={}
 :do { add list=TN address=131.229.144.33/32 } on-error={}
 :do { add list=TN address=131.229.150.10/32 } on-error={}
@@ -678,7 +679,6 @@
 :do { add list=TN address=197.244.0.0/17 } on-error={}
 :do { add list=TN address=197.244.128.0/17 } on-error={}
 :do { add list=TN address=199.184.184.162/32 } on-error={}
-:do { add list=TN address=204.1.211.0/24 } on-error={}
 :do { add list=TN address=212.32.94.0/24 } on-error={}
 :do { add list=TN address=212.73.201.134/32 } on-error={}
 :do { add list=TN address=213.150.160.0/23 } on-error={}

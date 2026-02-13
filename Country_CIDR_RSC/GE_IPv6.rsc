@@ -615,6 +615,7 @@
 :do { add list=GE address=2a09:bac0:1000:33b::/64 } on-error={}
 :do { add list=GE address=2a09:bac0:1000:57b::/64 } on-error={}
 :do { add list=GE address=2a09:bac0:1000:b2d::/64 } on-error={}
+:do { add list=GE address=2a09:bac0:1000:120f::/64 } on-error={}
 :do { add list=GE address=2a09:bac1:2980::/64 } on-error={}
 :do { add list=GE address=2a09:bac1:29a0::/64 } on-error={}
 :do { add list=GE address=2a09:bac1:29c0::/64 } on-error={}

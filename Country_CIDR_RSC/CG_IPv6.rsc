@@ -539,7 +539,6 @@
 :do { add list=CG address=2c0f:ef58:2000::/35 } on-error={}
 :do { add list=CG address=2c0f:ef58:4000::/34 } on-error={}
 :do { add list=CG address=2c0f:ef58:8000::/33 } on-error={}
-:do { add list=CG address=2c0f:f038:632:7400::/64 } on-error={}
 :do { add list=CG address=2c0f:f038:680:1500::/64 } on-error={}
 :do { add list=CG address=2c0f:f038:6ba:c200::/64 } on-error={}
 :do { add list=CG address=2c0f:f038:83f:fe00::/64 } on-error={}

@@ -133,7 +133,6 @@
 :do { add list=SO address=2a04:4e41:521d::/48 } on-error={}
 :do { add list=SO address=2a04:4e41:741f::/48 } on-error={}
 :do { add list=SO address=2a05:4140:6c::/48 } on-error={}
-:do { add list=SO address=2a05:b0c2:1000::/36 } on-error={}
 :do { add list=SO address=2a05:dfc1:5ad6::/48 } on-error={}
 :do { add list=SO address=2a06:9f81:39cc::/48 } on-error={}
 :do { add list=SO address=2a06:9f81:43ef:cf00::/56 } on-error={}

@@ -716,6 +716,7 @@
 :do { add list=IS address=2a02:26f7:fa40:4000::/64 } on-error={}
 :do { add list=IS address=2a02:26f7:fa40:47c0::/62 } on-error={}
 :do { add list=IS address=2a02:26f7:fa40:47c4::/64 } on-error={}
+:do { add list=IS address=2a02:26f7:fa40:8000::/49 } on-error={}
 :do { add list=IS address=2a02:26f7:fa41::/48 } on-error={}
 :do { add list=IS address=2a02:26f7:fa42::/47 } on-error={}
 :do { add list=IS address=2a02:26f7:fa44:4000::/64 } on-error={}

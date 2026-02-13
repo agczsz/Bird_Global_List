@@ -685,6 +685,7 @@
 :do { add list=KH address=2a09:bac0:144::/48 } on-error={}
 :do { add list=KH address=2a09:bac0:301::/48 } on-error={}
 :do { add list=KH address=2a09:bac0:1000:ced::/64 } on-error={}
+:do { add list=KH address=2a09:bac0:1000:1235::/64 } on-error={}
 :do { add list=KH address=2a09:bac1:3c80::/64 } on-error={}
 :do { add list=KH address=2a09:bac1:3ca0::/64 } on-error={}
 :do { add list=KH address=2a09:bac1:3cc0::/64 } on-error={}

@@ -1328,6 +1328,7 @@
 :do { add list=ZA address=2400:cb00:590::/48 } on-error={}
 :do { add list=ZA address=2400:cb00:704::/48 } on-error={}
 :do { add list=ZA address=2400:cb00:788::/48 } on-error={}
+:do { add list=ZA address=2400:cb00:1183::/48 } on-error={}
 :do { add list=ZA address=2400:cb00:a2d1::/64 } on-error={}
 :do { add list=ZA address=2400:cb00:a2d2::/48 } on-error={}
 :do { add list=ZA address=2400:cb00:a2d3::/64 } on-error={}
@@ -1711,10 +1712,8 @@
 :do { add list=ZA address=2603:1063:262a::/47 } on-error={}
 :do { add list=ZA address=2603:1063:2828::/47 } on-error={}
 :do { add list=ZA address=2603:1063:2a28::/47 } on-error={}
-:do { add list=ZA address=2603:9000:7a1f:b00::/64 } on-error={}
 :do { add list=ZA address=2603:9000:9d07:511f::/64 } on-error={}
 :do { add list=ZA address=2603:9001:f80:104::/64 } on-error={}
-:do { add list=ZA address=2603:9001:1e12:facd::/64 } on-error={}
 :do { add list=ZA address=2603:c000:1900::/40 } on-error={}
 :do { add list=ZA address=2603:c001:3200::/39 } on-error={}
 :do { add list=ZA address=2603:c002:1900::/40 } on-error={}
@@ -1750,7 +1749,6 @@
 :do { add list=ZA address=2605:e000:7e84:c300::/64 } on-error={}
 :do { add list=ZA address=2605:e000:8748:3100::/64 } on-error={}
 :do { add list=ZA address=2605:e000:9283:1600::/64 } on-error={}
-:do { add list=ZA address=2605:e000:adc1:ad00::/64 } on-error={}
 :do { add list=ZA address=2605:e000:cb03:7b00::/64 } on-error={}
 :do { add list=ZA address=2605:f500:601::/48 } on-error={}
 :do { add list=ZA address=2606:1a40:1021:4000::/50 } on-error={}
@@ -3786,6 +3784,8 @@
 :do { add list=ZA address=2a09:bac0:1000:ec5::/64 } on-error={}
 :do { add list=ZA address=2a09:bac0:1000:1181::/64 } on-error={}
 :do { add list=ZA address=2a09:bac0:1000:1182::/64 } on-error={}
+:do { add list=ZA address=2a09:bac0:1000:1277::/64 } on-error={}
+:do { add list=ZA address=2a09:bac0:1000:127d::/64 } on-error={}
 :do { add list=ZA address=2a09:bac0:1001:46::/64 } on-error={}
 :do { add list=ZA address=2a09:bac0:1001:293::/64 } on-error={}
 :do { add list=ZA address=2a09:bac0:1001:53c::/64 } on-error={}
