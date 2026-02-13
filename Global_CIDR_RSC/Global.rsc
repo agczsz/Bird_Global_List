@@ -4037,11 +4037,7 @@
 :do { add list=Global address=103.149.136.0/21 } on-error={}
 :do { add list=Global address=103.149.128.0/22 } on-error={}
 :do { add list=Global address=103.149.134.0/23 } on-error={}
-:do { add list=Global address=103.149.64.0/19 } on-error={}
-:do { add list=Global address=103.149.112.0/20 } on-error={}
-:do { add list=Global address=103.149.96.0/21 } on-error={}
-:do { add list=Global address=103.149.104.0/22 } on-error={}
-:do { add list=Global address=103.149.108.0/23 } on-error={}
+:do { add list=Global address=103.149.64.0/18 } on-error={}
 :do { add list=Global address=103.149.48.0/20 } on-error={}
 :do { add list=Global address=103.149.32.0/21 } on-error={}
 :do { add list=Global address=103.149.40.0/22 } on-error={}
