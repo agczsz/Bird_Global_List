@@ -200,6 +200,7 @@
 :do { add list=MW address=2a0a:6044:fa7c::/46 } on-error={}
 :do { add list=MW address=2a0a:6044:fa80::/45 } on-error={}
 :do { add list=MW address=2a0a:6044:fa88::/48 } on-error={}
+:do { add list=MW address=2a0b:4e07:3:4540::/60 } on-error={}
 :do { add list=MW address=2a0c:9a40:95b8:3000::/52 } on-error={}
 :do { add list=MW address=2a0c:9a46:39c::/48 } on-error={}
 :do { add list=MW address=2a0d:9447:1000::/37 } on-error={}

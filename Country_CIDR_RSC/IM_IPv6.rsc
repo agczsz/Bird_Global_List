@@ -921,6 +921,7 @@
 :do { add list=IM address=2a0a:aa81::/32 } on-error={}
 :do { add list=IM address=2a0a:aa82::/31 } on-error={}
 :do { add list=IM address=2a0a:aa84::/30 } on-error={}
+:do { add list=IM address=2a0b:4e07:3:8330::/60 } on-error={}
 :do { add list=IM address=2a0c:9a40:8c8b::/48 } on-error={}
 :do { add list=IM address=2a0c:9a40:95b6:b000::/52 } on-error={}
 :do { add list=IM address=2a0c:9a46:368::/48 } on-error={}

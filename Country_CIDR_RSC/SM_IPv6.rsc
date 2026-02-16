@@ -165,6 +165,7 @@
 :do { add list=SM address=2a0a:6044:f66c::/47 } on-error={}
 :do { add list=SM address=2a0a:6044:f66e::/48 } on-error={}
 :do { add list=SM address=2a0a:79c7:f5c1::/48 } on-error={}
+:do { add list=SM address=2a0b:4e07:3:6740::/60 } on-error={}
 :do { add list=SM address=2a0c:1e00::/29 } on-error={}
 :do { add list=SM address=2a0c:9a40:95bb:f000::/52 } on-error={}
 :do { add list=SM address=2a0c:9a46:3cc::/48 } on-error={}

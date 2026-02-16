@@ -327,6 +327,7 @@
 :do { add list=ME address=2a0a:9607:9001:8000::/49 } on-error={}
 :do { add list=ME address=2a0a:bac7::/48 } on-error={}
 :do { add list=ME address=2a0b:480:d4::/48 } on-error={}
+:do { add list=ME address=2a0b:4e07:3:4990::/60 } on-error={}
 :do { add list=ME address=2a0c:60c0::/29 } on-error={}
 :do { add list=ME address=2a0c:9a40:95b9:2000::/52 } on-error={}
 :do { add list=ME address=2a0c:9a46:38c::/48 } on-error={}

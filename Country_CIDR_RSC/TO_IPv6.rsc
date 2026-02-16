@@ -145,6 +145,7 @@
 :do { add list=TO address=2a0a:6044:f268::/45 } on-error={}
 :do { add list=TO address=2a0a:6044:f270::/48 } on-error={}
 :do { add list=TO address=2a0a:79c7:f5e0::/48 } on-error={}
+:do { add list=TO address=2a0b:4e07:3:7760::/60 } on-error={}
 :do { add list=TO address=2a0c:9a40:95bd:e000::/52 } on-error={}
 :do { add list=TO address=2a0c:9a46:3e0::/48 } on-error={}
 :do { add list=TO address=2a0d:9445:3000::/37 } on-error={}

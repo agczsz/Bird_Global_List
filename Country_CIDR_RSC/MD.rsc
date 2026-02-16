@@ -124,6 +124,7 @@
 :do { add list=MD address=77.81.96.0/24 } on-error={}
 :do { add list=MD address=77.89.192.0/18 } on-error={}
 :do { add list=MD address=77.235.96.0/19 } on-error={}
+:do { add list=MD address=78.77.190.145/32 } on-error={}
 :do { add list=MD address=79.140.160.0/21 } on-error={}
 :do { add list=MD address=79.140.168.0/22 } on-error={}
 :do { add list=MD address=79.140.172.0/24 } on-error={}
@@ -466,13 +467,7 @@
 :do { add list=MD address=149.11.56.32/27 } on-error={}
 :do { add list=MD address=149.11.56.64/26 } on-error={}
 :do { add list=MD address=149.11.56.128/25 } on-error={}
-:do { add list=MD address=149.14.58.2/31 } on-error={}
-:do { add list=MD address=149.14.58.4/30 } on-error={}
-:do { add list=MD address=149.14.58.8/29 } on-error={}
-:do { add list=MD address=149.14.58.16/28 } on-error={}
-:do { add list=MD address=149.14.58.32/27 } on-error={}
-:do { add list=MD address=149.14.58.64/26 } on-error={}
-:do { add list=MD address=149.14.58.128/25 } on-error={}
+:do { add list=MD address=149.14.58.0/24 } on-error={}
 :do { add list=MD address=149.126.9.48/29 } on-error={}
 :do { add list=MD address=149.154.185.0/24 } on-error={}
 :do { add list=MD address=149.154.186.0/23 } on-error={}
@@ -481,7 +476,6 @@
 :do { add list=MD address=150.48.141.104/30 } on-error={}
 :do { add list=MD address=150.228.58.0/23 } on-error={}
 :do { add list=MD address=151.244.219.0/24 } on-error={}
-:do { add list=MD address=153.51.128.0/19 } on-error={}
 :do { add list=MD address=153.51.160.0/20 } on-error={}
 :do { add list=MD address=153.51.176.0/21 } on-error={}
 :do { add list=MD address=153.51.184.0/22 } on-error={}
@@ -607,7 +601,6 @@
 :do { add list=MD address=178.175.173.0/24 } on-error={}
 :do { add list=MD address=178.175.174.0/23 } on-error={}
 :do { add list=MD address=181.215.170.0/24 } on-error={}
-:do { add list=MD address=184.107.219.176/29 } on-error={}
 :do { add list=MD address=185.1.45.0/24 } on-error={}
 :do { add list=MD address=185.1.78.0/24 } on-error={}
 :do { add list=MD address=185.8.68.0/22 } on-error={}

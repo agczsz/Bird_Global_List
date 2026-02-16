@@ -127,6 +127,7 @@
 :do { add list=CF address=2a09:bac6:1d78::/45 } on-error={}
 :do { add list=CF address=2a0a:6044:7729::/48 } on-error={}
 :do { add list=CF address=2a0a:79c7:f52a::/48 } on-error={}
+:do { add list=CF address=2a0b:4e07:3:1400::/60 } on-error={}
 :do { add list=CF address=2a0c:9a40:95b2:a000::/52 } on-error={}
 :do { add list=CF address=2a0c:9a46:329::/48 } on-error={}
 :do { add list=CF address=2a0d:9447:1800::/37 } on-error={}

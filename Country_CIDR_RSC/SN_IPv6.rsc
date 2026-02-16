@@ -213,6 +213,7 @@
 :do { add list=SN address=2a0a:6044:fb20::/45 } on-error={}
 :do { add list=SN address=2a0a:6044:fb28::/46 } on-error={}
 :do { add list=SN address=2a0a:6044:fb2c::/47 } on-error={}
+:do { add list=SN address=2a0b:4e07:3:6860::/60 } on-error={}
 :do { add list=SN address=2a0c:9a40:95bc:2000::/52 } on-error={}
 :do { add list=SN address=2a0c:9a46:3cd::/48 } on-error={}
 :do { add list=SN address=2a0d:2681:3500:4000::/50 } on-error={}

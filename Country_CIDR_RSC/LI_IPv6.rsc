@@ -441,6 +441,7 @@
 :do { add list=LI address=2a0a:9607:6001:4000::/50 } on-error={}
 :do { add list=LI address=2a0a:9607:6001:8000::/49 } on-error={}
 :do { add list=LI address=2a0a:aec0::/29 } on-error={}
+:do { add list=LI address=2a0b:4e07:3:4380::/60 } on-error={}
 :do { add list=LI address=2a0b:5dc0::/48 } on-error={}
 :do { add list=LI address=2a0c:2e40::/34 } on-error={}
 :do { add list=LI address=2a0c:2e40:4000:1::/64 } on-error={}

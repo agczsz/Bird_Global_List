@@ -330,7 +330,9 @@
 :do { add list=AZ address=2a0a:8080::/29 } on-error={}
 :do { add list=AZ address=2a0a:8f40:11::/48 } on-error={}
 :do { add list=AZ address=2a0a:c4c0:100::/48 } on-error={}
+:do { add list=AZ address=2a0b:4e07:3:310::/60 } on-error={}
 :do { add list=AZ address=2a0b:4e07:aef::/48 } on-error={}
+:do { add list=AZ address=2a0b:4e07:1400::/44 } on-error={}
 :do { add list=AZ address=2a0b:4e07:1414::/48 } on-error={}
 :do { add list=AZ address=2a0b:4e07:141c::/48 } on-error={}
 :do { add list=AZ address=2a0b:4e07:1438::/48 } on-error={}

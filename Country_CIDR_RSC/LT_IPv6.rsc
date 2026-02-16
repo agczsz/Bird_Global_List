@@ -1085,6 +1085,7 @@
 :do { add list=LT address=2a05:dfc1:5a8f::/48 } on-error={}
 :do { add list=LT address=2a06:5600:28f8::/48 } on-error={}
 :do { add list=LT address=2a06:7680::/29 } on-error={}
+:do { add list=LT address=2a06:9801:55::/48 } on-error={}
 :do { add list=LT address=2a06:99c0::/29 } on-error={}
 :do { add list=LT address=2a06:9f81:3983::/48 } on-error={}
 :do { add list=LT address=2a06:9f81:43ef:8600::/56 } on-error={}
@@ -1370,6 +1371,7 @@
 :do { add list=LT address=2a0b:c00::/32 } on-error={}
 :do { add list=LT address=2a0b:2e40::/29 } on-error={}
 :do { add list=LT address=2a0b:4343:1891::/48 } on-error={}
+:do { add list=LT address=2a0b:4e07:3:4400::/60 } on-error={}
 :do { add list=LT address=2a0b:4fc0::/31 } on-error={}
 :do { add list=LT address=2a0b:4fc2::/31 } on-error={}
 :do { add list=LT address=2a0b:4fc4::/30 } on-error={}
@@ -1617,7 +1619,11 @@
 :do { add list=LT address=2a0e:3bc0:3::/48 } on-error={}
 :do { add list=LT address=2a0e:3bc0:4::/48 } on-error={}
 :do { add list=LT address=2a0e:5080::/29 } on-error={}
-:do { add list=LT address=2a0e:97c0:9c0::/56 } on-error={}
+:do { add list=LT address=2a0e:97c0:9c0::/48 } on-error={}
+:do { add list=LT address=2a0e:97c0:9c1::/48 } on-error={}
+:do { add list=LT address=2a0e:97c0:9c2::/47 } on-error={}
+:do { add list=LT address=2a0e:97c0:9c4::/46 } on-error={}
+:do { add list=LT address=2a0e:97c0:9c8::/45 } on-error={}
 :do { add list=LT address=2a0e:acc0:ac70::/48 } on-error={}
 :do { add list=LT address=2a0e:ec01:5c00::/38 } on-error={}
 :do { add list=LT address=2a0f:1cc5:b10:7f00::/56 } on-error={}
@@ -1918,6 +1924,7 @@
 :do { add list=LT address=2a12:3fc7:2000::/35 } on-error={}
 :do { add list=LT address=2a12:3fc7:4000::/35 } on-error={}
 :do { add list=LT address=2a12:3fc7:6000::/36 } on-error={}
+:do { add list=LT address=2a12:3fc7:7000::/36 } on-error={}
 :do { add list=LT address=2a12:4946:6960::/44 } on-error={}
 :do { add list=LT address=2a12:5340::/47 } on-error={}
 :do { add list=LT address=2a12:5340:4::/48 } on-error={}

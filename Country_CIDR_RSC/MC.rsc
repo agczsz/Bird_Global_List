@@ -1,6 +1,5 @@
 /log info "Loading MC IPv4 Address List"
 /ip firewall address-list
-:do { add list=MC address=2.15.202.64/27 } on-error={}
 :do { add list=MC address=5.62.63.16/30 } on-error={}
 :do { add list=MC address=34.99.172.0/23 } on-error={}
 :do { add list=MC address=34.99.244.0/23 } on-error={}
@@ -22,10 +21,10 @@
 :do { add list=MC address=80.94.96.0/20 } on-error={}
 :do { add list=MC address=82.113.0.0/19 } on-error={}
 :do { add list=MC address=82.149.81.0/24 } on-error={}
+:do { add list=MC address=83.201.192.32/28 } on-error={}
 :do { add list=MC address=87.238.104.0/22 } on-error={}
 :do { add list=MC address=87.254.224.0/19 } on-error={}
 :do { add list=MC address=88.209.64.0/18 } on-error={}
-:do { add list=MC address=90.8.148.144/28 } on-error={}
 :do { add list=MC address=90.85.189.144/30 } on-error={}
 :do { add list=MC address=90.116.40.96/27 } on-error={}
 :do { add list=MC address=90.116.96.208/28 } on-error={}

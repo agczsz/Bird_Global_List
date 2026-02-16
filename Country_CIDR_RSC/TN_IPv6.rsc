@@ -223,6 +223,7 @@
 :do { add list=TN address=2a0a:6044:fb7c::/46 } on-error={}
 :do { add list=TN address=2a0a:6044:fb80::/45 } on-error={}
 :do { add list=TN address=2a0a:79c7:f5e2::/48 } on-error={}
+:do { add list=TN address=2a0b:4e07:3:7880::/60 } on-error={}
 :do { add list=TN address=2a0c:9a40:95be::/52 } on-error={}
 :do { add list=TN address=2a0c:9a46:3df::/48 } on-error={}
 :do { add list=TN address=2a0d:9445:5800::/37 } on-error={}

@@ -227,6 +227,7 @@
 :do { add list=CM address=2a0a:6044:f95e::/47 } on-error={}
 :do { add list=CM address=2a0a:6044:f960::/45 } on-error={}
 :do { add list=CM address=2a0a:6044:f968::/46 } on-error={}
+:do { add list=CM address=2a0b:4e07:3:1200::/60 } on-error={}
 :do { add list=CM address=2a0c:9a40:95b2:7000::/52 } on-error={}
 :do { add list=CM address=2a0c:9a46:32f::/48 } on-error={}
 :do { add list=CM address=2a0d:2681:1e00:4000::/50 } on-error={}

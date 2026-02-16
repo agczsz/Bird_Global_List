@@ -46,7 +46,6 @@
 :do { add list=LK address=59.163.252.0/23 } on-error={}
 :do { add list=LK address=59.163.254.0/27 } on-error={}
 :do { add list=LK address=59.163.254.64/26 } on-error={}
-:do { add list=LK address=59.163.254.128/25 } on-error={}
 :do { add list=LK address=59.163.255.0/24 } on-error={}
 :do { add list=LK address=61.110.204.0/23 } on-error={}
 :do { add list=LK address=61.245.160.0/20 } on-error={}
@@ -186,7 +185,9 @@
 :do { add list=LK address=115.112.125.64/26 } on-error={}
 :do { add list=LK address=115.112.125.128/28 } on-error={}
 :do { add list=LK address=115.112.125.160/27 } on-error={}
-:do { add list=LK address=115.112.125.192/26 } on-error={}
+:do { add list=LK address=115.112.125.192/27 } on-error={}
+:do { add list=LK address=115.112.125.232/29 } on-error={}
+:do { add list=LK address=115.112.125.240/28 } on-error={}
 :do { add list=LK address=115.112.126.0/26 } on-error={}
 :do { add list=LK address=115.112.126.128/25 } on-error={}
 :do { add list=LK address=115.114.38.1/32 } on-error={}

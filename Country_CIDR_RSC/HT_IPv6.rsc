@@ -250,6 +250,7 @@
 :do { add list=HT address=2a0a:6044:f7d6::/48 } on-error={}
 :do { add list=HT address=2a0a:79c7:f560::/48 } on-error={}
 :do { add list=HT address=2a0a:90c0:1084::/48 } on-error={}
+:do { add list=HT address=2a0b:4e07:3:3320::/60 } on-error={}
 :do { add list=HT address=2a0c:9a40:95b5:f000::/52 } on-error={}
 :do { add list=HT address=2a0c:9a46:363::/48 } on-error={}
 :do { add list=HT address=2a0d:9445:e000::/37 } on-error={}

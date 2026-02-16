@@ -500,6 +500,7 @@
 :do { add list=SV address=2a0a:6044:fe54::/47 } on-error={}
 :do { add list=SV address=2a0a:6044:fe56::/48 } on-error={}
 :do { add list=SV address=2a0a:79c7:f542::/48 } on-error={}
+:do { add list=SV address=2a0b:4e07:3:2220::/60 } on-error={}
 :do { add list=SV address=2a0c:9a40:95b4:1000::/52 } on-error={}
 :do { add list=SV address=2a0c:9a46:3d2::/48 } on-error={}
 :do { add list=SV address=2a0d:2681:5600:4000::/50 } on-error={}

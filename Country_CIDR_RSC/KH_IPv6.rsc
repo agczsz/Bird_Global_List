@@ -706,8 +706,10 @@
 :do { add list=KH address=2a0a:6044:f086::/48 } on-error={}
 :do { add list=KH address=2a0a:79c7:f526::/48 } on-error={}
 :do { add list=KH address=2a0a:8f40:1d::/48 } on-error={}
+:do { add list=KH address=2a0b:4e07:3:1160::/60 } on-error={}
 :do { add list=KH address=2a0c:9a40:95b2:6000::/52 } on-error={}
 :do { add list=KH address=2a0c:9a46:375::/48 } on-error={}
+:do { add list=KH address=2a0c:b641:980::/44 } on-error={}
 :do { add list=KH address=2a0d:6c2:2c00::/40 } on-error={}
 :do { add list=KH address=2a0d:9443:f000::/37 } on-error={}
 :do { add list=KH address=2a0f:1cc5:b10:2300::/56 } on-error={}

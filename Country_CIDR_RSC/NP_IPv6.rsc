@@ -667,6 +667,7 @@
 :do { add list=NP address=2a0a:9606:8001:2000::/51 } on-error={}
 :do { add list=NP address=2a0a:9606:8001:4000::/50 } on-error={}
 :do { add list=NP address=2a0a:9606:8001:8000::/49 } on-error={}
+:do { add list=NP address=2a0b:4e07:3:5240::/60 } on-error={}
 :do { add list=NP address=2a0c:9a40:95b9:9000::/52 } on-error={}
 :do { add list=NP address=2a0c:9a46:3a8::/48 } on-error={}
 :do { add list=NP address=2a0d:6c2:3100::/40 } on-error={}

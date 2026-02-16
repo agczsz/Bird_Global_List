@@ -15,15 +15,14 @@
 :do { add list=VI address=65.112.145.32/28 } on-error={}
 :do { add list=VI address=65.112.145.48/30 } on-error={}
 :do { add list=VI address=65.112.145.64/26 } on-error={}
-:do { add list=VI address=65.112.145.128/29 } on-error={}
+:do { add list=VI address=65.112.145.128/31 } on-error={}
+:do { add list=VI address=65.112.145.132/30 } on-error={}
 :do { add list=VI address=65.112.145.136/31 } on-error={}
 :do { add list=VI address=65.112.145.140/30 } on-error={}
 :do { add list=VI address=65.112.145.144/28 } on-error={}
 :do { add list=VI address=65.112.145.160/28 } on-error={}
-:do { add list=VI address=65.112.145.188/30 } on-error={}
 :do { add list=VI address=65.112.145.192/26 } on-error={}
 :do { add list=VI address=65.113.90.0/24 } on-error={}
-:do { add list=VI address=65.113.93.128/25 } on-error={}
 :do { add list=VI address=66.7.143.176/29 } on-error={}
 :do { add list=VI address=66.59.216.0/24 } on-error={}
 :do { add list=VI address=66.185.32.0/20 } on-error={}

@@ -173,6 +173,7 @@
 :do { add list=TL address=2a0a:6044:f340::/47 } on-error={}
 :do { add list=TL address=2a0a:6044:f342::/48 } on-error={}
 :do { add list=TL address=2a0a:79c7:f5dd::/48 } on-error={}
+:do { add list=TL address=2a0b:4e07:3:6260::/60 } on-error={}
 :do { add list=TL address=2a0c:9a40:95bd:b000::/52 } on-error={}
 :do { add list=TL address=2a0c:9a46:3dd::/48 } on-error={}
 :do { add list=TL address=2a0d:9440:1000::/37 } on-error={}

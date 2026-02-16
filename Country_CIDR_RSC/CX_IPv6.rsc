@@ -95,6 +95,7 @@
 :do { add list=CX address=2a0a:6044:f1ab::/48 } on-error={}
 :do { add list=CX address=2a0a:6044:f1ac::/46 } on-error={}
 :do { add list=CX address=2a0a:6044:f1b0::/47 } on-error={}
+:do { add list=CX address=2a0b:4e07:3:1620::/60 } on-error={}
 :do { add list=CX address=2a0c:9a40:95b2:d000::/52 } on-error={}
 :do { add list=CX address=2a0c:9a46:336::/48 } on-error={}
 :do { add list=CX address=2a0d:9443:a800::/37 } on-error={}

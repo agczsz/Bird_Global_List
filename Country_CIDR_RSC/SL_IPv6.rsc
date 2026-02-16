@@ -186,6 +186,7 @@
 :do { add list=SL address=2a0a:6044:fb3e::/47 } on-error={}
 :do { add list=SL address=2a0a:6044:fb40::/45 } on-error={}
 :do { add list=SL address=2a0a:6044:fb48::/46 } on-error={}
+:do { add list=SL address=2a0b:4e07:3:6940::/60 } on-error={}
 :do { add list=SL address=2a0c:9a40:95bc:5000::/52 } on-error={}
 :do { add list=SL address=2a0c:9a46:3cb::/48 } on-error={}
 :do { add list=SL address=2a0d:3344:2780::/42 } on-error={}

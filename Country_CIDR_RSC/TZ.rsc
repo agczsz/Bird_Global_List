@@ -292,6 +292,7 @@
 :do { add list=TZ address=102.223.7.0/24 } on-error={}
 :do { add list=TZ address=102.223.8.0/22 } on-error={}
 :do { add list=TZ address=102.223.16.0/22 } on-error={}
+:do { add list=TZ address=104.22.74.0/24 } on-error={}
 :do { add list=TZ address=104.28.13.141/32 } on-error={}
 :do { add list=TZ address=104.28.13.142/31 } on-error={}
 :do { add list=TZ address=104.28.38.192/30 } on-error={}

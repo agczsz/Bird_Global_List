@@ -317,6 +317,7 @@
 :do { add list=MT address=2a0a:be00:8001:2000::/51 } on-error={}
 :do { add list=MT address=2a0a:be00:8001:4000::/50 } on-error={}
 :do { add list=MT address=2a0a:be00:8001:8000::/49 } on-error={}
+:do { add list=MT address=2a0b:4e07:3:4700::/60 } on-error={}
 :do { add list=MT address=2a0b:cd41:15:1::/64 } on-error={}
 :do { add list=MT address=2a0b:cd41:15:2::/63 } on-error={}
 :do { add list=MT address=2a0b:cd41:15:4::/62 } on-error={}

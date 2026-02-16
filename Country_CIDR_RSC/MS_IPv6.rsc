@@ -204,6 +204,7 @@
 :do { add list=MS address=2a0a:6044:f5e4::/46 } on-error={}
 :do { add list=MS address=2a0a:6044:f5e8::/45 } on-error={}
 :do { add list=MS address=2a0a:6044:f5f0::/47 } on-error={}
+:do { add list=MS address=2a0b:4e07:3:5000::/60 } on-error={}
 :do { add list=MS address=2a0c:9a40:95b9:3000::/52 } on-error={}
 :do { add list=MS address=2a0c:9a46:398::/48 } on-error={}
 :do { add list=MS address=2a0d:9447:9000::/37 } on-error={}

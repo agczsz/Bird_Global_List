@@ -1012,6 +1012,7 @@
 :do { add list=IS address=2a0a:79c0:280::/44 } on-error={}
 :do { add list=IS address=2a0a:79c0:f280::/44 } on-error={}
 :do { add list=IS address=2a0a:89c0::/29 } on-error={}
+:do { add list=IS address=2a0b:4e07:3:3520::/60 } on-error={}
 :do { add list=IS address=2a0b:cd41:29:1::/64 } on-error={}
 :do { add list=IS address=2a0b:cd41:29:2::/63 } on-error={}
 :do { add list=IS address=2a0b:cd41:29:4::/62 } on-error={}

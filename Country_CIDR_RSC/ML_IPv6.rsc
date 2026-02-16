@@ -118,6 +118,7 @@
 :do { add list=ML address=2a0a:6044:fa8a::/47 } on-error={}
 :do { add list=ML address=2a0a:6044:fa8c::/46 } on-error={}
 :do { add list=ML address=2a0a:6044:fa90::/45 } on-error={}
+:do { add list=ML address=2a0b:4e07:3:4660::/60 } on-error={}
 :do { add list=ML address=2a0c:9a40:95b8:6000::/52 } on-error={}
 :do { add list=ML address=2a0c:9a46:391::/48 } on-error={}
 :do { add list=ML address=2a0d:9444:800::/37 } on-error={}

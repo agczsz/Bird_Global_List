@@ -542,6 +542,7 @@
 :do { add list=MD address=2a0a:d584::/30 } on-error={}
 :do { add list=MD address=2a0a:ef00::/29 } on-error={}
 :do { add list=MD address=2a0b:280::/29 } on-error={}
+:do { add list=MD address=2a0b:4e07:3:4980::/60 } on-error={}
 :do { add list=MD address=2a0b:5d00::/29 } on-error={}
 :do { add list=MD address=2a0b:b8c0::/31 } on-error={}
 :do { add list=MD address=2a0b:b8c2::/31 } on-error={}

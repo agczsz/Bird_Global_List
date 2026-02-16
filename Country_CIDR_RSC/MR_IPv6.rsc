@@ -123,6 +123,7 @@
 :do { add list=MR address=2a0a:6044:faa4::/47 } on-error={}
 :do { add list=MR address=2a0a:6044:faa6::/48 } on-error={}
 :do { add list=MR address=2a0a:79c7:f58c::/48 } on-error={}
+:do { add list=MR address=2a0b:4e07:3:4780::/60 } on-error={}
 :do { add list=MR address=2a0c:9a40:95b8:a000::/52 } on-error={}
 :do { add list=MR address=2a0c:9a46:397::/48 } on-error={}
 :do { add list=MR address=2a0d:9444:6000::/37 } on-error={}

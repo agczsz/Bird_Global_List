@@ -190,6 +190,7 @@
 :do { add list=CK address=2a0a:6044:f1c0::/47 } on-error={}
 :do { add list=CK address=2a0a:6044:f1c2::/48 } on-error={}
 :do { add list=CK address=2a0a:79c7:f534::/48 } on-error={}
+:do { add list=CK address=2a0b:4e07:3:1840::/60 } on-error={}
 :do { add list=CK address=2a0c:9a40:95b3:3000::/52 } on-error={}
 :do { add list=CK address=2a0c:9a46:32d::/48 } on-error={}
 :do { add list=CK address=2a0d:9446:1000::/37 } on-error={}
