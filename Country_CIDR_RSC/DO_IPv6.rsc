@@ -985,6 +985,7 @@
 :do { add list=DO address=2a02:26f7:be8c:43c0::/60 } on-error={}
 :do { add list=DO address=2a02:26f7:be8c:43d0::/61 } on-error={}
 :do { add list=DO address=2a02:26f7:be8c:43d8::/62 } on-error={}
+:do { add list=DO address=2a02:26f7:be8c:8000::/49 } on-error={}
 :do { add list=DO address=2a02:26f7:be8d::/50 } on-error={}
 :do { add list=DO address=2a02:26f7:be8d:4000::/64 } on-error={}
 :do { add list=DO address=2a02:26f7:be8d:4100::/56 } on-error={}

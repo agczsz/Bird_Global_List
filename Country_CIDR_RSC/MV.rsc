@@ -151,6 +151,7 @@
 :do { add list=MV address=196.197.128.0/24 } on-error={}
 :do { add list=MV address=196.198.128.0/24 } on-error={}
 :do { add list=MV address=196.199.128.0/24 } on-error={}
+:do { add list=MV address=198.54.100.20/31 } on-error={}
 :do { add list=MV address=202.1.192.0/20 } on-error={}
 :do { add list=MV address=202.21.176.0/22 } on-error={}
 :do { add list=MV address=202.21.180.0/24 } on-error={}

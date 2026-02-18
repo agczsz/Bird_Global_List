@@ -127,6 +127,7 @@
 :do { add list=NE address=197.214.52.0/23 } on-error={}
 :do { add list=NE address=197.214.54.0/24 } on-error={}
 :do { add list=NE address=197.214.55.0/24 } on-error={}
+:do { add list=NE address=197.214.56.0/24 } on-error={}
 :do { add list=NE address=197.214.57.0/24 } on-error={}
 :do { add list=NE address=197.214.58.0/23 } on-error={}
 :do { add list=NE address=197.214.60.0/22 } on-error={}

@@ -370,7 +370,6 @@
 :do { add list=MA address=2405:b500:46e0:858::/64 } on-error={}
 :do { add list=MA address=2600:70ff:980d::/48 } on-error={}
 :do { add list=MA address=2600:70ff:ba84::/48 } on-error={}
-:do { add list=MA address=2600:70ff:f051::/48 } on-error={}
 :do { add list=MA address=2600:70ff:f05e::/48 } on-error={}
 :do { add list=MA address=2600:70ff:f096:1::/64 } on-error={}
 :do { add list=MA address=2600:70ff:f096:2::/63 } on-error={}
@@ -458,6 +457,7 @@
 :do { add list=MA address=2607:8940:4191:6f00::/56 } on-error={}
 :do { add list=MA address=2607:8940:4191:7000::/53 } on-error={}
 :do { add list=MA address=2607:8940:4191:7800::/56 } on-error={}
+:do { add list=MA address=2620:0:876:356::2/128 } on-error={}
 :do { add list=MA address=2620:0:877:5600::/64 } on-error={}
 :do { add list=MA address=2620:171:9a::/48 } on-error={}
 :do { add list=MA address=2a00:ca0:2034:8000::/52 } on-error={}

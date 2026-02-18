@@ -35,13 +35,13 @@
 :do { add list=BB address=2602:fe45:b00::/40 } on-error={}
 :do { add list=BB address=2602:fe45:c00:9000::/56 } on-error={}
 :do { add list=BB address=2602:fe45:c01:3c00::/56 } on-error={}
-:do { add list=BB address=2602:fe45:c01:9a00::/56 } on-error={}
 :do { add list=BB address=2602:fe45:c02:700::/56 } on-error={}
 :do { add list=BB address=2602:fe45:c02:8100::/56 } on-error={}
 :do { add list=BB address=2602:fe45:c02:8846::/64 } on-error={}
 :do { add list=BB address=2602:fe45:c02:ba0d::/64 } on-error={}
 :do { add list=BB address=2602:fe45:c02:c164::/64 } on-error={}
 :do { add list=BB address=2602:fe45:c02:c800::/56 } on-error={}
+:do { add list=BB address=2602:fe45:c02:e470::/64 } on-error={}
 :do { add list=BB address=2602:fe45:c03::/48 } on-error={}
 :do { add list=BB address=2602:fe45:c04::/46 } on-error={}
 :do { add list=BB address=2602:fe45:c08::/45 } on-error={}

@@ -40,7 +40,6 @@
 :do { add list=BS address=24.51.124.28/30 } on-error={}
 :do { add list=BS address=24.51.124.32/30 } on-error={}
 :do { add list=BS address=24.51.124.40/30 } on-error={}
-:do { add list=BS address=24.51.124.44/31 } on-error={}
 :do { add list=BS address=24.51.124.47/32 } on-error={}
 :do { add list=BS address=24.51.124.48/31 } on-error={}
 :do { add list=BS address=24.51.124.56/31 } on-error={}
@@ -61,8 +60,6 @@
 :do { add list=BS address=24.51.124.140/31 } on-error={}
 :do { add list=BS address=24.51.124.144/30 } on-error={}
 :do { add list=BS address=24.51.124.148/32 } on-error={}
-:do { add list=BS address=24.51.124.152/32 } on-error={}
-:do { add list=BS address=24.51.124.154/32 } on-error={}
 :do { add list=BS address=24.51.124.156/30 } on-error={}
 :do { add list=BS address=24.51.124.160/30 } on-error={}
 :do { add list=BS address=24.51.124.168/32 } on-error={}

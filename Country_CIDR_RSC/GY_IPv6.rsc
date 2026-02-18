@@ -6,7 +6,6 @@
 :do { add list=GY address=2001:470:d940::/48 } on-error={}
 :do { add list=GY address=2001:470:ee37::/48 } on-error={}
 :do { add list=GY address=2001:470:ff1c::/48 } on-error={}
-:do { add list=GY address=2001:504:27::2802:0:1/128 } on-error={}
 :do { add list=GY address=2001:67c:a38:f592::/64 } on-error={}
 :do { add list=GY address=2001:3786:b0b1:100::/56 } on-error={}
 :do { add list=GY address=2001:4b28:d400::/40 } on-error={}

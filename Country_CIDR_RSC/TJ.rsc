@@ -1,5 +1,6 @@
 /log info "Loading TJ IPv4 Address List"
 /ip firewall address-list
+:do { add list=TJ address=5.34.242.0/24 } on-error={}
 :do { add list=TJ address=5.62.63.148/30 } on-error={}
 :do { add list=TJ address=37.98.152.0/21 } on-error={}
 :do { add list=TJ address=45.81.37.0/24 } on-error={}
@@ -130,7 +131,12 @@
 :do { add list=TJ address=185.121.2.0/23 } on-error={}
 :do { add list=TJ address=185.138.17.74/32 } on-error={}
 :do { add list=TJ address=185.166.56.0/22 } on-error={}
-:do { add list=TJ address=185.177.0.0/22 } on-error={}
+:do { add list=TJ address=185.177.0.0/25 } on-error={}
+:do { add list=TJ address=185.177.0.128/26 } on-error={}
+:do { add list=TJ address=185.177.0.192/27 } on-error={}
+:do { add list=TJ address=185.177.0.240/28 } on-error={}
+:do { add list=TJ address=185.177.1.0/24 } on-error={}
+:do { add list=TJ address=185.177.2.0/23 } on-error={}
 :do { add list=TJ address=185.191.52.0/22 } on-error={}
 :do { add list=TJ address=185.194.196.0/23 } on-error={}
 :do { add list=TJ address=185.194.198.0/24 } on-error={}

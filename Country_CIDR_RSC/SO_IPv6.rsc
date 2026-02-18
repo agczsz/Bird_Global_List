@@ -52,6 +52,7 @@
 :do { add list=SO address=2606:54c0:5538::/45 } on-error={}
 :do { add list=SO address=2606:54c3:0:2d::/64 } on-error={}
 :do { add list=SO address=2620:0:877:1400::/56 } on-error={}
+:do { add list=SO address=2620:134:b054:100::62/127 } on-error={}
 :do { add list=SO address=2a00:ca0:2004::/52 } on-error={}
 :do { add list=SO address=2a00:ca0:203b::/50 } on-error={}
 :do { add list=SO address=2a02:26f7:d2c0:4000::/64 } on-error={}

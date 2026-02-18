@@ -302,6 +302,7 @@
 :do { add list=PK address=2001:df6:85c0::/48 } on-error={}
 :do { add list=PK address=2001:df6:9b40::/48 } on-error={}
 :do { add list=PK address=2001:df6:aa40::/48 } on-error={}
+:do { add list=PK address=2001:df6:b5c0::/48 } on-error={}
 :do { add list=PK address=2001:df6:b880::/48 } on-error={}
 :do { add list=PK address=2001:df6:b980::/48 } on-error={}
 :do { add list=PK address=2001:df6:cc80::/48 } on-error={}

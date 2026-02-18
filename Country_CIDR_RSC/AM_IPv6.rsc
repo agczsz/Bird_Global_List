@@ -234,6 +234,7 @@
 :do { add list=AM address=2607:8940:4192:a00::/55 } on-error={}
 :do { add list=AM address=2607:8940:41f0:200::/55 } on-error={}
 :do { add list=AM address=2620:0:876:7900::/56 } on-error={}
+:do { add list=AM address=2620:134:b054:100::38/127 } on-error={}
 :do { add list=AM address=2a00:f38::/52 } on-error={}
 :do { add list=AM address=2a00:f38:0:1000::/60 } on-error={}
 :do { add list=AM address=2a00:f38:0:1010::/63 } on-error={}

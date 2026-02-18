@@ -264,9 +264,7 @@
 :do { add list=AO address=102.216.140.0/22 } on-error={}
 :do { add list=AO address=102.216.168.0/22 } on-error={}
 :do { add list=AO address=102.216.208.0/22 } on-error={}
-:do { add list=AO address=102.216.252.0/23 } on-error={}
-:do { add list=AO address=102.216.254.0/24 } on-error={}
-:do { add list=AO address=102.216.255.0/24 } on-error={}
+:do { add list=AO address=102.216.252.0/22 } on-error={}
 :do { add list=AO address=102.217.116.0/22 } on-error={}
 :do { add list=AO address=102.217.192.0/22 } on-error={}
 :do { add list=AO address=102.218.84.0/22 } on-error={}

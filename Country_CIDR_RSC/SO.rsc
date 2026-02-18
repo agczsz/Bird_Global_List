@@ -171,6 +171,7 @@
 :do { add list=SO address=197.220.86.0/23 } on-error={}
 :do { add list=SO address=197.220.88.0/21 } on-error={}
 :do { add list=SO address=197.231.200.0/22 } on-error={}
+:do { add list=SO address=198.54.100.62/31 } on-error={}
 :do { add list=SO address=213.169.123.0/24 } on-error={}
 :do { add list=SO address=217.15.124.0/25 } on-error={}
 :do { add list=SO address=217.74.232.0/25 } on-error={}

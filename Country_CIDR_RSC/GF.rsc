@@ -369,6 +369,7 @@
 :do { add list=GF address=93.176.32.7/32 } on-error={}
 :do { add list=GF address=93.176.35.0/25 } on-error={}
 :do { add list=GF address=94.124.156.0/24 } on-error={}
+:do { add list=GF address=94.198.181.241/32 } on-error={}
 :do { add list=GF address=94.198.182.1/32 } on-error={}
 :do { add list=GF address=94.198.182.2/31 } on-error={}
 :do { add list=GF address=94.198.182.4/30 } on-error={}
@@ -398,6 +399,7 @@
 :do { add list=GF address=109.62.63.0/24 } on-error={}
 :do { add list=GF address=109.62.65.210/32 } on-error={}
 :do { add list=GF address=109.62.66.32/29 } on-error={}
+:do { add list=GF address=109.62.66.64/28 } on-error={}
 :do { add list=GF address=109.62.66.160/27 } on-error={}
 :do { add list=GF address=109.62.66.198/31 } on-error={}
 :do { add list=GF address=109.62.67.133/32 } on-error={}
@@ -424,7 +426,6 @@
 :do { add list=GF address=157.5.124.165/32 } on-error={}
 :do { add list=GF address=157.167.19.0/24 } on-error={}
 :do { add list=GF address=161.22.80.192/27 } on-error={}
-:do { add list=GF address=161.22.116.0/25 } on-error={}
 :do { add list=GF address=163.116.226.140/31 } on-error={}
 :do { add list=GF address=163.116.250.98/31 } on-error={}
 :do { add list=GF address=164.137.10.0/24 } on-error={}
@@ -461,15 +462,16 @@
 :do { add list=GF address=193.50.134.128/25 } on-error={}
 :do { add list=GF address=193.51.118.0/24 } on-error={}
 :do { add list=GF address=193.220.88.0/21 } on-error={}
+:do { add list=GF address=193.251.163.56/30 } on-error={}
 :do { add list=GF address=193.251.163.161/32 } on-error={}
 :do { add list=GF address=193.251.163.162/31 } on-error={}
-:do { add list=GF address=193.251.163.166/31 } on-error={}
+:do { add list=GF address=193.251.163.164/30 } on-error={}
 :do { add list=GF address=193.251.163.170/31 } on-error={}
 :do { add list=GF address=193.251.163.172/30 } on-error={}
 :do { add list=GF address=193.251.163.176/31 } on-error={}
 :do { add list=GF address=193.251.163.178/32 } on-error={}
 :do { add list=GF address=193.251.163.181/32 } on-error={}
-:do { add list=GF address=193.251.163.182/31 } on-error={}
+:do { add list=GF address=193.251.163.182/32 } on-error={}
 :do { add list=GF address=193.251.163.184/30 } on-error={}
 :do { add list=GF address=193.251.163.188/31 } on-error={}
 :do { add list=GF address=193.251.163.194/31 } on-error={}

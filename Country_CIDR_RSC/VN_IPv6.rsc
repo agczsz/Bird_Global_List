@@ -1,5 +1,6 @@
 /log info "Loading VN IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=VN address=2001:470:19:1205::/64 } on-error={}
 :do { add list=VN address=2001:470:19:1352::/64 } on-error={}
 :do { add list=VN address=2001:470:26:49f::/64 } on-error={}
 :do { add list=VN address=2001:470:36:303::/64 } on-error={}
@@ -4675,7 +4676,6 @@
 :do { add list=VN address=2607:8940:4191:c000::/51 } on-error={}
 :do { add list=VN address=2607:8940:4191:e000::/54 } on-error={}
 :do { add list=VN address=2607:8940:4191:e400::/56 } on-error={}
-:do { add list=VN address=2610:28:104:5::2/128 } on-error={}
 :do { add list=VN address=2610:28:104:6::/63 } on-error={}
 :do { add list=VN address=2610:28:104:8::/64 } on-error={}
 :do { add list=VN address=2610:28:109:1::/64 } on-error={}
@@ -4932,7 +4932,6 @@
 :do { add list=VN address=2a04:4e41:7602:8000::/51 } on-error={}
 :do { add list=VN address=2a04:4e41:762c::/48 } on-error={}
 :do { add list=VN address=2a05:dfc1:5af9::/48 } on-error={}
-:do { add list=VN address=2a06:9f46::/48 } on-error={}
 :do { add list=VN address=2a06:9f81:39ef::/48 } on-error={}
 :do { add list=VN address=2a06:9f81:43bf:189e::/63 } on-error={}
 :do { add list=VN address=2a06:9f81:43bf:18a0::/61 } on-error={}
@@ -26051,6 +26050,7 @@
 :do { add list=VN address=2a11:29c0:3e40::/44 } on-error={}
 :do { add list=VN address=2a11:3a85:a000::/35 } on-error={}
 :do { add list=VN address=2a11:6604::/30 } on-error={}
+:do { add list=VN address=2a11:9ac0:5a:c200::/56 } on-error={}
 :do { add list=VN address=2a11:a580:8800::/40 } on-error={}
 :do { add list=VN address=2a11:f146:9000:100::/56 } on-error={}
 :do { add list=VN address=2a11:f146:9000:200::/55 } on-error={}
