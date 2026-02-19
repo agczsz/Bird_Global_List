@@ -24,6 +24,9 @@
 :do { add list=BA address=2001:67c:a38:f387::/64 } on-error={}
 :do { add list=BA address=2001:7f8:d7::/48 } on-error={}
 :do { add list=BA address=2001:2000:3080:16e1::/64 } on-error={}
+:do { add list=BA address=2001:2035:0:26ef::/64 } on-error={}
+:do { add list=BA address=2001:2035:0:26f0::/64 } on-error={}
+:do { add list=BA address=2001:2035:0:2948::/64 } on-error={}
 :do { add list=BA address=2001:3786:4848:400::/56 } on-error={}
 :do { add list=BA address=2001:3786:6886:300::/56 } on-error={}
 :do { add list=BA address=2001:3786:b10b:600::/56 } on-error={}
@@ -414,6 +417,7 @@
 :do { add list=BA address=2a0a:ac0::/29 } on-error={}
 :do { add list=BA address=2a0a:6040:f2a::/48 } on-error={}
 :do { add list=BA address=2a0a:6044:7711::/48 } on-error={}
+:do { add list=BA address=2a0a:6044:77fe:10::/64 } on-error={}
 :do { add list=BA address=2a0a:6044:a142:6969::/64 } on-error={}
 :do { add list=BA address=2a0a:8f40:b::/52 } on-error={}
 :do { add list=BA address=2a0a:8f40:b:1001::/64 } on-error={}
@@ -466,6 +470,7 @@
 :do { add list=BA address=2a0c:1600::/32 } on-error={}
 :do { add list=BA address=2a0c:9a40:95b1:c000::/52 } on-error={}
 :do { add list=BA address=2a0c:9a46:311::/48 } on-error={}
+:do { add list=BA address=2a0c:9a46:3fe:10::/64 } on-error={}
 :do { add list=BA address=2a0d:3344:3d00::/40 } on-error={}
 :do { add list=BA address=2a0d:9445:c000::/37 } on-error={}
 :do { add list=BA address=2a0e:5400::/29 } on-error={}

@@ -361,9 +361,11 @@
 :do { add list=SX address=2a09:bac5:5668::/45 } on-error={}
 :do { add list=SX address=2a09:bac6:5668::/45 } on-error={}
 :do { add list=SX address=2a0a:6044:77d3::/48 } on-error={}
+:do { add list=SX address=2a0a:6044:77fe:d2::/64 } on-error={}
 :do { add list=SX address=2a0b:4e07:3:5340::/60 } on-error={}
 :do { add list=SX address=2a0c:9a40:95bc:7000::/52 } on-error={}
 :do { add list=SX address=2a0c:9a46:3d3::/48 } on-error={}
+:do { add list=SX address=2a0c:9a46:3fe:d2::/64 } on-error={}
 :do { add list=SX address=2a0d:2587:7fcb::/48 } on-error={}
 :do { add list=SX address=2a0d:9443:e800::/37 } on-error={}
 :do { add list=SX address=2a0e:97c1:8a24::/48 } on-error={}

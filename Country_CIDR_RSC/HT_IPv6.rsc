@@ -244,6 +244,7 @@
 :do { add list=HT address=2a09:bac6:39b8::/45 } on-error={}
 :do { add list=HT address=2a0a:6040:f44::/48 } on-error={}
 :do { add list=HT address=2a0a:6044:7763::/48 } on-error={}
+:do { add list=HT address=2a0a:6044:77fe:62::/64 } on-error={}
 :do { add list=HT address=2a0a:6044:f7c8::/45 } on-error={}
 :do { add list=HT address=2a0a:6044:f7d0::/46 } on-error={}
 :do { add list=HT address=2a0a:6044:f7d4::/47 } on-error={}
@@ -253,6 +254,7 @@
 :do { add list=HT address=2a0b:4e07:3:3320::/60 } on-error={}
 :do { add list=HT address=2a0c:9a40:95b5:f000::/52 } on-error={}
 :do { add list=HT address=2a0c:9a46:363::/48 } on-error={}
+:do { add list=HT address=2a0c:9a46:3fe:62::/64 } on-error={}
 :do { add list=HT address=2a0d:9445:e000::/37 } on-error={}
 :do { add list=HT address=2a0f:1cc5:b10:6000::/56 } on-error={}
 :do { add list=HT address=2a0f:1cc5:b11:6000::/56 } on-error={}

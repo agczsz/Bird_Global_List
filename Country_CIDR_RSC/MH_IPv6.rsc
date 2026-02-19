@@ -166,6 +166,7 @@
 :do { add list=MH address=2a09:bac5:4910::/45 } on-error={}
 :do { add list=MH address=2a09:bac6:4910::/45 } on-error={}
 :do { add list=MH address=2a0a:6044:778f::/48 } on-error={}
+:do { add list=MH address=2a0a:6044:77fe:8e::/64 } on-error={}
 :do { add list=MH address=2a0a:6044:f1e1::/48 } on-error={}
 :do { add list=MH address=2a0a:6044:f1e2::/47 } on-error={}
 :do { add list=MH address=2a0a:6044:f1e4::/46 } on-error={}
@@ -175,6 +176,7 @@
 :do { add list=MH address=2a0c:9a40:82ff:1b00::/64 } on-error={}
 :do { add list=MH address=2a0c:9a40:95b8:8000::/52 } on-error={}
 :do { add list=MH address=2a0c:9a46:38f::/48 } on-error={}
+:do { add list=MH address=2a0c:9a46:3fe:8e::/64 } on-error={}
 :do { add list=MH address=2a0d:2583::/33 } on-error={}
 :do { add list=MH address=2a0d:2583:8000::/35 } on-error={}
 :do { add list=MH address=2a0d:2583:a000::/37 } on-error={}

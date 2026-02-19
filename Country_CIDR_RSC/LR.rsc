@@ -7,7 +7,6 @@
 :do { add list=LR address=57.82.156.0/23 } on-error={}
 :do { add list=LR address=57.83.176.0/20 } on-error={}
 :do { add list=LR address=66.96.124.64/26 } on-error={}
-:do { add list=LR address=66.178.127.0/24 } on-error={}
 :do { add list=LR address=70.35.147.112/28 } on-error={}
 :do { add list=LR address=74.244.178.0/23 } on-error={}
 :do { add list=LR address=84.254.162.0/24 } on-error={}

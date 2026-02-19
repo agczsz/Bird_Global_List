@@ -68,7 +68,7 @@
 :do { add list=PS address=46.43.64.0/18 } on-error={}
 :do { add list=PS address=46.60.0.0/20 } on-error={}
 :do { add list=PS address=46.60.32.0/20 } on-error={}
-:do { add list=PS address=46.60.48.0/24 } on-error={}
+:do { add list=PS address=46.60.48.0/23 } on-error={}
 :do { add list=PS address=46.60.50.0/24 } on-error={}
 :do { add list=PS address=46.60.51.0/24 } on-error={}
 :do { add list=PS address=46.60.52.0/22 } on-error={}
@@ -200,6 +200,7 @@
 :do { add list=PS address=136.23.0.248/32 } on-error={}
 :do { add list=PS address=136.23.5.174/32 } on-error={}
 :do { add list=PS address=139.190.128.0/18 } on-error={}
+:do { add list=PS address=140.150.155.0/24 } on-error={}
 :do { add list=PS address=140.248.34.182/31 } on-error={}
 :do { add list=PS address=140.248.36.232/31 } on-error={}
 :do { add list=PS address=140.248.56.182/32 } on-error={}
@@ -417,11 +418,14 @@
 :do { add list=PS address=213.6.0.0/16 } on-error={}
 :do { add list=PS address=213.137.82.0/27 } on-error={}
 :do { add list=PS address=213.137.82.32/28 } on-error={}
-:do { add list=PS address=213.137.82.48/29 } on-error={}
+:do { add list=PS address=213.137.82.48/32 } on-error={}
+:do { add list=PS address=213.137.82.50/31 } on-error={}
+:do { add list=PS address=213.137.82.52/30 } on-error={}
 :do { add list=PS address=213.137.82.64/28 } on-error={}
 :do { add list=PS address=213.137.82.80/29 } on-error={}
 :do { add list=PS address=213.137.82.96/28 } on-error={}
-:do { add list=PS address=213.137.82.112/29 } on-error={}
+:do { add list=PS address=213.137.82.112/31 } on-error={}
+:do { add list=PS address=213.137.82.116/30 } on-error={}
 :do { add list=PS address=213.137.82.124/30 } on-error={}
 :do { add list=PS address=213.137.82.128/29 } on-error={}
 :do { add list=PS address=213.137.82.144/28 } on-error={}
@@ -459,4 +463,3 @@
 :do { add list=PS address=217.147.0.0/23 } on-error={}
 :do { add list=PS address=217.147.2.0/23 } on-error={}
 :do { add list=PS address=217.175.85.128/27 } on-error={}
-:do { add list=PS address=217.175.94.128/28 } on-error={}

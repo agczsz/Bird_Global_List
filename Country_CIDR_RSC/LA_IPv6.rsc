@@ -370,6 +370,7 @@
 :do { add list=LA address=2a09:bac6:4820::/45 } on-error={}
 :do { add list=LA address=2a0a:6040:fd1::/48 } on-error={}
 :do { add list=LA address=2a0a:6044:777e::/48 } on-error={}
+:do { add list=LA address=2a0a:6044:77fe:7d::/64 } on-error={}
 :do { add list=LA address=2a0a:6044:a142:699a::/64 } on-error={}
 :do { add list=LA address=2a0a:6044:f11d::/48 } on-error={}
 :do { add list=LA address=2a0a:6044:f11e::/47 } on-error={}
@@ -382,6 +383,7 @@
 :do { add list=LA address=2a0b:4e07:3:4180::/60 } on-error={}
 :do { add list=LA address=2a0c:9a40:95b7:8000::/52 } on-error={}
 :do { add list=LA address=2a0c:9a46:37e::/48 } on-error={}
+:do { add list=LA address=2a0c:9a46:3fe:7d::/64 } on-error={}
 :do { add list=LA address=2a0d:9445:f800::/37 } on-error={}
 :do { add list=LA address=2a0f:1cc5:b10:7800::/56 } on-error={}
 :do { add list=LA address=2a0f:1cc5:b11:7800::/56 } on-error={}

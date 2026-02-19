@@ -1,5 +1,6 @@
 /log info "Loading KG IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=KG address=2001:470:19:1213::/64 } on-error={}
 :do { add list=KG address=2001:470:6d:41d::/64 } on-error={}
 :do { add list=KG address=2001:470:6d:46d::/64 } on-error={}
 :do { add list=KG address=2001:470:6d:9c1::/64 } on-error={}
@@ -262,6 +263,7 @@
 :do { add list=KG address=2a09:bac5:46e8::/45 } on-error={}
 :do { add list=KG address=2a09:bac6:46e8::/45 } on-error={}
 :do { add list=KG address=2a0a:6044:7774::/48 } on-error={}
+:do { add list=KG address=2a0a:6044:77fe:73::/64 } on-error={}
 :do { add list=KG address=2a0a:6044:f10e::/47 } on-error={}
 :do { add list=KG address=2a0a:6044:f110::/45 } on-error={}
 :do { add list=KG address=2a0a:6044:f118::/46 } on-error={}
@@ -307,6 +309,7 @@
 :do { add list=KG address=2a0b:d7c6::/31 } on-error={}
 :do { add list=KG address=2a0c:9a40:95b7:7000::/52 } on-error={}
 :do { add list=KG address=2a0c:9a46:374::/48 } on-error={}
+:do { add list=KG address=2a0c:9a46:3fe:73::/64 } on-error={}
 :do { add list=KG address=2a0d:6c2:18::/48 } on-error={}
 :do { add list=KG address=2a0d:1d80::/29 } on-error={}
 :do { add list=KG address=2a0d:2681:5b00:4000::/50 } on-error={}

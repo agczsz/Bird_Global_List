@@ -316,15 +316,12 @@
 :do { add list=GP address=94.198.181.34/32 } on-error={}
 :do { add list=GP address=94.198.181.40/29 } on-error={}
 :do { add list=GP address=94.198.181.48/28 } on-error={}
-:do { add list=GP address=94.198.181.76/30 } on-error={}
 :do { add list=GP address=94.198.181.82/31 } on-error={}
 :do { add list=GP address=94.198.181.84/30 } on-error={}
 :do { add list=GP address=94.198.181.90/31 } on-error={}
-:do { add list=GP address=94.198.181.136/31 } on-error={}
 :do { add list=GP address=94.198.181.152/31 } on-error={}
 :do { add list=GP address=94.198.181.154/32 } on-error={}
-:do { add list=GP address=94.198.181.176/31 } on-error={}
-:do { add list=GP address=94.198.181.205/32 } on-error={}
+:do { add list=GP address=94.198.181.204/31 } on-error={}
 :do { add list=GP address=94.198.181.240/32 } on-error={}
 :do { add list=GP address=94.198.181.242/31 } on-error={}
 :do { add list=GP address=94.198.181.244/30 } on-error={}
@@ -377,6 +374,7 @@
 :do { add list=GP address=104.250.30.0/24 } on-error={}
 :do { add list=GP address=104.250.31.232/30 } on-error={}
 :do { add list=GP address=107.191.208.0/20 } on-error={}
+:do { add list=GP address=109.62.18.0/25 } on-error={}
 :do { add list=GP address=109.62.36.0/25 } on-error={}
 :do { add list=GP address=109.62.38.128/25 } on-error={}
 :do { add list=GP address=109.62.71.0/24 } on-error={}
@@ -406,7 +404,11 @@
 :do { add list=GP address=154.49.226.0/24 } on-error={}
 :do { add list=GP address=154.49.227.0/24 } on-error={}
 :do { add list=GP address=157.5.124.167/32 } on-error={}
-:do { add list=GP address=161.22.64.0/20 } on-error={}
+:do { add list=GP address=161.22.64.0/22 } on-error={}
+:do { add list=GP address=161.22.68.0/24 } on-error={}
+:do { add list=GP address=161.22.69.0/25 } on-error={}
+:do { add list=GP address=161.22.70.0/23 } on-error={}
+:do { add list=GP address=161.22.72.0/21 } on-error={}
 :do { add list=GP address=161.22.80.0/25 } on-error={}
 :do { add list=GP address=161.22.80.128/26 } on-error={}
 :do { add list=GP address=161.22.80.224/27 } on-error={}

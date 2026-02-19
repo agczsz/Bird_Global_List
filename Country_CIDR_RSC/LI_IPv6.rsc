@@ -404,6 +404,7 @@
 :do { add list=LI address=2a0a:6044:6350::/44 } on-error={}
 :do { add list=LI address=2a0a:6044:63a0::/44 } on-error={}
 :do { add list=LI address=2a0a:6044:7781::/48 } on-error={}
+:do { add list=LI address=2a0a:6044:77fe:80::/64 } on-error={}
 :do { add list=LI address=2a0a:6044:a142:699c::/64 } on-error={}
 :do { add list=LI address=2a0a:6044:f563::/48 } on-error={}
 :do { add list=LI address=2a0a:6044:f564::/46 } on-error={}
@@ -467,6 +468,7 @@
 :do { add list=LI address=2a0c:9a40:8685::/48 } on-error={}
 :do { add list=LI address=2a0c:9a40:95b7:e000::/52 } on-error={}
 :do { add list=LI address=2a0c:9a46:381::/48 } on-error={}
+:do { add list=LI address=2a0c:9a46:3fe:80::/64 } on-error={}
 :do { add list=LI address=2a0c:d780::/30 } on-error={}
 :do { add list=LI address=2a0c:d784::/30 } on-error={}
 :do { add list=LI address=2a0d:2587:7f82:1::/64 } on-error={}

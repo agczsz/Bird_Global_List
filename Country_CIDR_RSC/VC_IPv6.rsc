@@ -206,10 +206,12 @@
 :do { add list=VC address=2a09:bac6:d358::/45 } on-error={}
 :do { add list=VC address=2a0a:6040:f4b::/48 } on-error={}
 :do { add list=VC address=2a0a:6044:77ed::/48 } on-error={}
+:do { add list=VC address=2a0a:6044:77fe:ec::/64 } on-error={}
 :do { add list=VC address=2a0a:79c7:f5bf::/48 } on-error={}
 :do { add list=VC address=2a0b:4e07:3:6700::/60 } on-error={}
 :do { add list=VC address=2a0c:9a40:95bb:d000::/52 } on-error={}
 :do { add list=VC address=2a0c:9a46:3ed::/48 } on-error={}
+:do { add list=VC address=2a0c:9a46:3fe:ec::/64 } on-error={}
 :do { add list=VC address=2a0d:6c2:2d00::/40 } on-error={}
 :do { add list=VC address=2a0d:9442:d800::/37 } on-error={}
 :do { add list=VC address=2a0f:1cc5:b10:c200::/56 } on-error={}

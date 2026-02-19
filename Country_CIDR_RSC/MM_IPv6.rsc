@@ -934,10 +934,12 @@
 :do { add list=MM address=2a0a:6040:fd0::/48 } on-error={}
 :do { add list=MM address=2a0a:6040:ff2::/48 } on-error={}
 :do { add list=MM address=2a0a:6044:7792::/48 } on-error={}
+:do { add list=MM address=2a0a:6044:77fe:91::/64 } on-error={}
 :do { add list=MM address=2a0a:79c7:f598::/48 } on-error={}
 :do { add list=MM address=2a0b:4e07:3:1040::/60 } on-error={}
 :do { add list=MM address=2a0c:9a40:95b9:6000::/52 } on-error={}
 :do { add list=MM address=2a0c:9a46:392::/48 } on-error={}
+:do { add list=MM address=2a0c:9a46:3fe:91::/64 } on-error={}
 :do { add list=MM address=2a0d:9442:c800::/37 } on-error={}
 :do { add list=MM address=2a0f:1cc5:b10:2000::/56 } on-error={}
 :do { add list=MM address=2a0f:1cc5:b11:2000::/56 } on-error={}

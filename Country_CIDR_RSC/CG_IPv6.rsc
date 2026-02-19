@@ -20,7 +20,6 @@
 :do { add list=CG address=2405:b500:16e0::/64 } on-error={}
 :do { add list=CG address=2600:70ff:a76c::/48 } on-error={}
 :do { add list=CG address=2602:2a9:c40::/44 } on-error={}
-:do { add list=CG address=2603:9000:d709:6129::/64 } on-error={}
 :do { add list=CG address=2604:6000:a300:3c00::/64 } on-error={}
 :do { add list=CG address=2605:e000:25c9:d000::/64 } on-error={}
 :do { add list=CG address=2605:e000:35cb:1f00::/64 } on-error={}
@@ -120,7 +119,6 @@
 :do { add list=CG address=2a02:5745:163::/48 } on-error={}
 :do { add list=CG address=2a02:5746:163::/48 } on-error={}
 :do { add list=CG address=2a02:5747:163::/48 } on-error={}
-:do { add list=CG address=2a03:31c0:400::/40 } on-error={}
 :do { add list=CG address=2a03:b600:0:d8e::/63 } on-error={}
 :do { add list=CG address=2a03:b600:0:d90::/61 } on-error={}
 :do { add list=CG address=2a03:b600:0:d98::/62 } on-error={}
@@ -169,6 +167,7 @@
 :do { add list=CG address=2a09:bac6:1d80::/45 } on-error={}
 :do { add list=CG address=2a0a:6040:f63::/48 } on-error={}
 :do { add list=CG address=2a0a:6044:772a::/48 } on-error={}
+:do { add list=CG address=2a0a:6044:77fe:29::/64 } on-error={}
 :do { add list=CG address=2a0a:6044:fb01::/48 } on-error={}
 :do { add list=CG address=2a0a:6044:fb02::/47 } on-error={}
 :do { add list=CG address=2a0a:6044:fb04::/46 } on-error={}
@@ -177,6 +176,7 @@
 :do { add list=CG address=2a0b:4e07:3:1780::/60 } on-error={}
 :do { add list=CG address=2a0c:9a40:95b3:1000::/52 } on-error={}
 :do { add list=CG address=2a0c:9a46:32a::/48 } on-error={}
+:do { add list=CG address=2a0c:9a46:3fe:29::/64 } on-error={}
 :do { add list=CG address=2a0d:9443:9800::/37 } on-error={}
 :do { add list=CG address=2a0e:b107:2330::/45 } on-error={}
 :do { add list=CG address=2a0f:1cc5:b10:3300::/56 } on-error={}
@@ -255,7 +255,6 @@
 :do { add list=CG address=2c0f:1180::/32 } on-error={}
 :do { add list=CG address=2c0f:7600::/32 } on-error={}
 :do { add list=CG address=2c0f:ead8::/32 } on-error={}
-:do { add list=CG address=2c0f:ecf0:520:9900::/64 } on-error={}
 :do { add list=CG address=2c0f:ecf0:52e:5200::/64 } on-error={}
 :do { add list=CG address=2c0f:ecf0:683:e900::/64 } on-error={}
 :do { add list=CG address=2c0f:ef58::/44 } on-error={}
@@ -456,26 +455,7 @@
 :do { add list=CG address=2c0f:ef58:1672::/47 } on-error={}
 :do { add list=CG address=2c0f:ef58:1674::/46 } on-error={}
 :do { add list=CG address=2c0f:ef58:1678::/45 } on-error={}
-:do { add list=CG address=2c0f:ef58:1680::/47 } on-error={}
-:do { add list=CG address=2c0f:ef58:1682::/48 } on-error={}
-:do { add list=CG address=2c0f:ef58:1683::/49 } on-error={}
-:do { add list=CG address=2c0f:ef58:1683:8000::/51 } on-error={}
-:do { add list=CG address=2c0f:ef58:1683:a000::/53 } on-error={}
-:do { add list=CG address=2c0f:ef58:1683:a800::/54 } on-error={}
-:do { add list=CG address=2c0f:ef58:1683:ac00::/55 } on-error={}
-:do { add list=CG address=2c0f:ef58:1683:ae01::/64 } on-error={}
-:do { add list=CG address=2c0f:ef58:1683:ae02::/63 } on-error={}
-:do { add list=CG address=2c0f:ef58:1683:ae04::/62 } on-error={}
-:do { add list=CG address=2c0f:ef58:1683:ae08::/61 } on-error={}
-:do { add list=CG address=2c0f:ef58:1683:ae10::/60 } on-error={}
-:do { add list=CG address=2c0f:ef58:1683:ae20::/59 } on-error={}
-:do { add list=CG address=2c0f:ef58:1683:ae40::/58 } on-error={}
-:do { add list=CG address=2c0f:ef58:1683:ae80::/57 } on-error={}
-:do { add list=CG address=2c0f:ef58:1683:af00::/56 } on-error={}
-:do { add list=CG address=2c0f:ef58:1683:b000::/52 } on-error={}
-:do { add list=CG address=2c0f:ef58:1683:c000::/50 } on-error={}
-:do { add list=CG address=2c0f:ef58:1684::/46 } on-error={}
-:do { add list=CG address=2c0f:ef58:1688::/45 } on-error={}
+:do { add list=CG address=2c0f:ef58:1680::/44 } on-error={}
 :do { add list=CG address=2c0f:ef58:1690::/45 } on-error={}
 :do { add list=CG address=2c0f:ef58:1698::/47 } on-error={}
 :do { add list=CG address=2c0f:ef58:169a::/48 } on-error={}
@@ -541,7 +521,6 @@
 :do { add list=CG address=2c0f:ef58:2000::/35 } on-error={}
 :do { add list=CG address=2c0f:ef58:4000::/34 } on-error={}
 :do { add list=CG address=2c0f:ef58:8000::/33 } on-error={}
-:do { add list=CG address=2c0f:f038:680:1500::/64 } on-error={}
 :do { add list=CG address=2c0f:f038:83f:fe00::/64 } on-error={}
 :do { add list=CG address=2c0f:f038:88a:bf00::/64 } on-error={}
 :do { add list=CG address=2c0f:f048::/32 } on-error={}

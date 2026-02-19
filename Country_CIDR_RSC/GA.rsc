@@ -87,6 +87,7 @@
 :do { add list=GA address=172.225.99.0/27 } on-error={}
 :do { add list=GA address=172.225.242.160/28 } on-error={}
 :do { add list=GA address=184.107.216.248/29 } on-error={}
+:do { add list=GA address=185.21.171.48/28 } on-error={}
 :do { add list=GA address=185.138.17.137/32 } on-error={}
 :do { add list=GA address=192.188.164.0/22 } on-error={}
 :do { add list=GA address=192.189.139.0/24 } on-error={}
@@ -127,7 +128,6 @@
 :do { add list=GA address=197.231.124.0/23 } on-error={}
 :do { add list=GA address=197.231.126.0/23 } on-error={}
 :do { add list=GA address=197.242.0.0/19 } on-error={}
-:do { add list=GA address=216.226.248.0/22 } on-error={}
 :do { add list=GA address=217.77.64.0/20 } on-error={}
 :do { add list=GA address=217.113.76.24/29 } on-error={}
 :do { add list=GA address=217.113.76.128/27 } on-error={}

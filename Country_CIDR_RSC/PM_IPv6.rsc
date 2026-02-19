@@ -182,11 +182,13 @@
 :do { add list=PM address=2a09:bac6:5090::/45 } on-error={}
 :do { add list=PM address=2a0a:6040:f40::/48 } on-error={}
 :do { add list=PM address=2a0a:6044:77b4::/48 } on-error={}
+:do { add list=PM address=2a0a:6044:77fe:b3::/64 } on-error={}
 :do { add list=PM address=2a0a:6044:f65b::/48 } on-error={}
 :do { add list=PM address=2a0a:6044:f65c::/46 } on-error={}
 :do { add list=PM address=2a0b:4e07:3:6660::/60 } on-error={}
 :do { add list=PM address=2a0c:9a40:95bb:c000::/52 } on-error={}
 :do { add list=PM address=2a0c:9a46:3b4::/48 } on-error={}
+:do { add list=PM address=2a0c:9a46:3fe:b3::/64 } on-error={}
 :do { add list=PM address=2a0d:6c2:2400::/40 } on-error={}
 :do { add list=PM address=2a0d:9445:1000::/37 } on-error={}
 :do { add list=PM address=2a0e:97c0:4bb5::/48 } on-error={}

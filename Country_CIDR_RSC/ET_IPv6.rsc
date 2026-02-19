@@ -145,6 +145,7 @@
 :do { add list=ET address=2a09:bac5:31a0::/44 } on-error={}
 :do { add list=ET address=2a09:bac6:31a0::/44 } on-error={}
 :do { add list=ET address=2a0a:6044:7745::/48 } on-error={}
+:do { add list=ET address=2a0a:6044:77fe:44::/64 } on-error={}
 :do { add list=ET address=2a0a:6044:f9b7::/48 } on-error={}
 :do { add list=ET address=2a0a:6044:f9b8::/45 } on-error={}
 :do { add list=ET address=2a0a:6044:f9c0::/46 } on-error={}
@@ -152,6 +153,7 @@
 :do { add list=ET address=2a0b:4e07:3:2310::/60 } on-error={}
 :do { add list=ET address=2a0c:9a40:95b4:6000::/52 } on-error={}
 :do { add list=ET address=2a0c:9a46:345::/48 } on-error={}
+:do { add list=ET address=2a0c:9a46:3fe:44::/64 } on-error={}
 :do { add list=ET address=2a0d:2681:2b00:4000::/50 } on-error={}
 :do { add list=ET address=2a0d:2681:2b00:8000::/49 } on-error={}
 :do { add list=ET address=2a0d:2681:2b01::/48 } on-error={}
@@ -163,6 +165,7 @@
 :do { add list=ET address=2a0d:2681:2b40::/42 } on-error={}
 :do { add list=ET address=2a0d:2681:2b80::/41 } on-error={}
 :do { add list=ET address=2a0d:9440:2000::/37 } on-error={}
+:do { add list=ET address=2a0e:97c1:8a21::/48 } on-error={}
 :do { add list=ET address=2a0e:b107:2400::/45 } on-error={}
 :do { add list=ET address=2a0f:1cc5:b10:4200::/56 } on-error={}
 :do { add list=ET address=2a0f:1cc5:b11:4200::/56 } on-error={}

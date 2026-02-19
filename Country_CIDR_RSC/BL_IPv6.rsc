@@ -204,10 +204,12 @@
 :do { add list=BL address=2a09:bac5:530::/45 } on-error={}
 :do { add list=BL address=2a09:bac6:530::/45 } on-error={}
 :do { add list=BL address=2a0a:6044:771a::/48 } on-error={}
+:do { add list=BL address=2a0a:6044:77fe:19::/64 } on-error={}
 :do { add list=BL address=2a0a:79c7:f5b9::/48 } on-error={}
 :do { add list=BL address=2a0b:4e07:3:6520::/60 } on-error={}
 :do { add list=BL address=2a0c:9a40:95bb:7000::/52 } on-error={}
 :do { add list=BL address=2a0c:9a46:31a::/48 } on-error={}
+:do { add list=BL address=2a0c:9a46:3fe:19::/64 } on-error={}
 :do { add list=BL address=2a0d:9443:d000::/37 } on-error={}
 :do { add list=BL address=2a0f:1cc5:b10:bb00::/56 } on-error={}
 :do { add list=BL address=2a0f:1cc5:b11:bb00::/56 } on-error={}

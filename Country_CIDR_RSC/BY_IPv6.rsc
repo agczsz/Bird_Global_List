@@ -233,6 +233,8 @@
 :do { add list=BY address=2a02:128:1800::/37 } on-error={}
 :do { add list=BY address=2a02:2d8:0:a800::/64 } on-error={}
 :do { add list=BY address=2a02:2d8:2:c001::/64 } on-error={}
+:do { add list=BY address=2a02:6bf:8040::/48 } on-error={}
+:do { add list=BY address=2a02:6bf:a05d::/48 } on-error={}
 :do { add list=BY address=2a02:bf0::/32 } on-error={}
 :do { add list=BY address=2a02:2208::/60 } on-error={}
 :do { add list=BY address=2a02:2208:0:10::/63 } on-error={}
@@ -530,6 +532,9 @@
 :do { add list=BY address=2a04:9b40:2000::/35 } on-error={}
 :do { add list=BY address=2a04:9b40:4000::/34 } on-error={}
 :do { add list=BY address=2a04:9b40:8000::/33 } on-error={}
+:do { add list=BY address=2a04:9b41::/32 } on-error={}
+:do { add list=BY address=2a04:9b42::/31 } on-error={}
+:do { add list=BY address=2a04:9b44::/30 } on-error={}
 :do { add list=BY address=2a04:cc40::/29 } on-error={}
 :do { add list=BY address=2a05:c440:4000::/36 } on-error={}
 :do { add list=BY address=2a05:dfc1:5a2d::/48 } on-error={}
@@ -579,6 +584,7 @@
 :do { add list=BY address=2a0a:280:1385::/48 } on-error={}
 :do { add list=BY address=2a0a:6040:f23::/48 } on-error={}
 :do { add list=BY address=2a0a:6044:7724::/48 } on-error={}
+:do { add list=BY address=2a0a:6044:77fe:23::/64 } on-error={}
 :do { add list=BY address=2a0a:6044:a142:6970::/64 } on-error={}
 :do { add list=BY address=2a0a:6044:f3ac::/46 } on-error={}
 :do { add list=BY address=2a0a:6044:f3b0::/45 } on-error={}
@@ -658,6 +664,7 @@
 :do { add list=BY address=2a0b:8680::/29 } on-error={}
 :do { add list=BY address=2a0c:9a40:95b1:4000::/52 } on-error={}
 :do { add list=BY address=2a0c:9a46:324::/48 } on-error={}
+:do { add list=BY address=2a0c:9a46:3fe:23::/64 } on-error={}
 :do { add list=BY address=2a0c:b1c0::/32 } on-error={}
 :do { add list=BY address=2a0c:b1c1::/32 } on-error={}
 :do { add list=BY address=2a0c:b1c2::/32 } on-error={}
@@ -708,7 +715,8 @@
 :do { add list=BY address=2a0f:85c1:81b:f130::/60 } on-error={}
 :do { add list=BY address=2a0f:9403:3a0::/44 } on-error={}
 :do { add list=BY address=2a10:500:7000::/40 } on-error={}
-:do { add list=BY address=2a10:641::/32 } on-error={}
+:do { add list=BY address=2a10:641::/48 } on-error={}
+:do { add list=BY address=2a10:641:30::/48 } on-error={}
 :do { add list=BY address=2a10:dc0::/30 } on-error={}
 :do { add list=BY address=2a10:dc4::/31 } on-error={}
 :do { add list=BY address=2a10:dc6::/32 } on-error={}

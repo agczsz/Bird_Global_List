@@ -106,10 +106,12 @@
 :do { add list=ER address=2a09:bac5:30d0::/45 } on-error={}
 :do { add list=ER address=2a09:bac6:30d0::/45 } on-error={}
 :do { add list=ER address=2a0a:6044:7743::/48 } on-error={}
+:do { add list=ER address=2a0a:6044:77fe:42::/64 } on-error={}
 :do { add list=ER address=2a0a:79c7:f544::/48 } on-error={}
 :do { add list=ER address=2a0b:4e07:3:2320::/60 } on-error={}
 :do { add list=ER address=2a0c:9a40:95b4:3000::/52 } on-error={}
 :do { add list=ER address=2a0c:9a46:343::/48 } on-error={}
+:do { add list=ER address=2a0c:9a46:3fe:42::/64 } on-error={}
 :do { add list=ER address=2a0d:9444:7000::/37 } on-error={}
 :do { add list=ER address=2a0e:97c1:8a20::/48 } on-error={}
 :do { add list=ER address=2a0e:b107:23f0::/45 } on-error={}

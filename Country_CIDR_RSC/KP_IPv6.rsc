@@ -6,6 +6,8 @@
 :do { add list=KP address=2001:470:19:a40::/64 } on-error={}
 :do { add list=KP address=2001:470:19:fe9::/64 } on-error={}
 :do { add list=KP address=2001:470:19:109c::/64 } on-error={}
+:do { add list=KP address=2001:470:19:120a::/64 } on-error={}
+:do { add list=KP address=2001:470:19:1212::/64 } on-error={}
 :do { add list=KP address=2001:470:19:12f5::/64 } on-error={}
 :do { add list=KP address=2001:470:24:90c::/64 } on-error={}
 :do { add list=KP address=2001:470:36:254::/64 } on-error={}
@@ -252,6 +254,9 @@
 :do { add list=KP address=2001:470:f6c7::/48 } on-error={}
 :do { add list=KP address=2001:470:f6ca::/48 } on-error={}
 :do { add list=KP address=2001:470:f6cf::/48 } on-error={}
+:do { add list=KP address=2001:470:f6df::/48 } on-error={}
+:do { add list=KP address=2001:470:f6e3::/48 } on-error={}
+:do { add list=KP address=2001:470:f6e4::/48 } on-error={}
 :do { add list=KP address=2001:470:f81f::/48 } on-error={}
 :do { add list=KP address=2001:470:f822::/47 } on-error={}
 :do { add list=KP address=2001:470:f834::/48 } on-error={}
@@ -387,7 +392,6 @@
 :do { add list=KP address=2600:70ff:a986::/48 } on-error={}
 :do { add list=KP address=2600:70ff:a98c::/48 } on-error={}
 :do { add list=KP address=2600:70ff:a98f::/48 } on-error={}
-:do { add list=KP address=2600:70ff:a996::/48 } on-error={}
 :do { add list=KP address=2600:70ff:a9a6::/47 } on-error={}
 :do { add list=KP address=2600:70ff:a9be::/48 } on-error={}
 :do { add list=KP address=2600:70ff:a9c2::/48 } on-error={}
@@ -421,6 +425,7 @@
 :do { add list=KP address=2600:70ff:ac0c::/48 } on-error={}
 :do { add list=KP address=2600:70ff:ac0e::/48 } on-error={}
 :do { add list=KP address=2600:70ff:ac24::/48 } on-error={}
+:do { add list=KP address=2600:70ff:ac27::/48 } on-error={}
 :do { add list=KP address=2600:70ff:b818::/48 } on-error={}
 :do { add list=KP address=2600:70ff:c01b::/48 } on-error={}
 :do { add list=KP address=2600:70ff:d070::/48 } on-error={}
@@ -881,12 +886,14 @@
 :do { add list=KP address=2a0a:6040:ea00::/48 } on-error={}
 :do { add list=KP address=2a0a:6044:68fe::/48 } on-error={}
 :do { add list=KP address=2a0a:6044:7779::/48 } on-error={}
+:do { add list=KP address=2a0a:6044:77fe:78::/64 } on-error={}
 :do { add list=KP address=2a0a:79c0:2d0::/44 } on-error={}
 :do { add list=KP address=2a0a:79c0:f2d0::/44 } on-error={}
 :do { add list=KP address=2a0a:79c7:f576::/48 } on-error={}
 :do { add list=KP address=2a0b:4e07:3:4080::/60 } on-error={}
 :do { add list=KP address=2a0b:4e07:14ea::/48 } on-error={}
 :do { add list=KP address=2a0c:9a46:379::/48 } on-error={}
+:do { add list=KP address=2a0c:9a46:3fe:78::/64 } on-error={}
 :do { add list=KP address=2a0c:b641:a7f::/48 } on-error={}
 :do { add list=KP address=2a0d:6c2:100::/40 } on-error={}
 :do { add list=KP address=2a0d:2587:88b1::/48 } on-error={}

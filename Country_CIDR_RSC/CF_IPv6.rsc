@@ -24,6 +24,7 @@
 :do { add list=CF address=2405:b500:1640::/64 } on-error={}
 :do { add list=CF address=2405:b500:1660::/64 } on-error={}
 :do { add list=CF address=2406:4440:c0::/44 } on-error={}
+:do { add list=CF address=2603:9000:7a1b:6f2f::/64 } on-error={}
 :do { add list=CF address=2603:9000:ba07:c900::/64 } on-error={}
 :do { add list=CF address=2604:6000:abc5:f500::/64 } on-error={}
 :do { add list=CF address=2605:59c0:5a00::/39 } on-error={}
@@ -83,7 +84,6 @@
 :do { add list=CF address=2a03:b600:0:ae0::/61 } on-error={}
 :do { add list=CF address=2a03:b600:0:ae8::/63 } on-error={}
 :do { add list=CF address=2a03:b600:0:aea::/64 } on-error={}
-:do { add list=CF address=2a04:1b00:7::/64 } on-error={}
 :do { add list=CF address=2a04:1d41:a700::/40 } on-error={}
 :do { add list=CF address=2a04:1d42:a700::/40 } on-error={}
 :do { add list=CF address=2a04:1d43:a700::/40 } on-error={}
@@ -127,10 +127,12 @@
 :do { add list=CF address=2a09:bac5:1d78::/45 } on-error={}
 :do { add list=CF address=2a09:bac6:1d78::/45 } on-error={}
 :do { add list=CF address=2a0a:6044:7729::/48 } on-error={}
+:do { add list=CF address=2a0a:6044:77fe:28::/64 } on-error={}
 :do { add list=CF address=2a0a:79c7:f52a::/48 } on-error={}
 :do { add list=CF address=2a0b:4e07:3:1400::/60 } on-error={}
 :do { add list=CF address=2a0c:9a40:95b2:a000::/52 } on-error={}
 :do { add list=CF address=2a0c:9a46:329::/48 } on-error={}
+:do { add list=CF address=2a0c:9a46:3fe:28::/64 } on-error={}
 :do { add list=CF address=2a0d:9447:1800::/37 } on-error={}
 :do { add list=CF address=2a0e:b107:2328::/45 } on-error={}
 :do { add list=CF address=2a0f:1cc5:b10:2800::/56 } on-error={}

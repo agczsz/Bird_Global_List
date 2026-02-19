@@ -359,10 +359,12 @@
 :do { add list=AX address=2a09:bac5:450::/45 } on-error={}
 :do { add list=AX address=2a09:bac6:450::/45 } on-error={}
 :do { add list=AX address=2a0a:6044:770f::/48 } on-error={}
+:do { add list=AX address=2a0a:6044:77fe:e::/64 } on-error={}
 :do { add list=AX address=2a0b:3480::/29 } on-error={}
 :do { add list=AX address=2a0b:4e07:3:2480::/60 } on-error={}
 :do { add list=AX address=2a0c:9a40:95b0:1000::/52 } on-error={}
 :do { add list=AX address=2a0c:9a46:30f::/48 } on-error={}
+:do { add list=AX address=2a0c:9a46:3fe:e::/64 } on-error={}
 :do { add list=AX address=2a0d:3344:1280::/42 } on-error={}
 :do { add list=AX address=2a0d:79c0::/32 } on-error={}
 :do { add list=AX address=2a0d:9442:6800::/37 } on-error={}

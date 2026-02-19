@@ -414,10 +414,12 @@
 :do { add list=ST address=2a09:bac5:5648::/45 } on-error={}
 :do { add list=ST address=2a09:bac6:5648::/45 } on-error={}
 :do { add list=ST address=2a0a:6044:77d1::/48 } on-error={}
+:do { add list=ST address=2a0a:6044:77fe:d0::/64 } on-error={}
 :do { add list=ST address=2a0a:79c7:f5c2::/48 } on-error={}
 :do { add list=ST address=2a0b:4e07:3:6780::/60 } on-error={}
 :do { add list=ST address=2a0c:9a40:95bc::/52 } on-error={}
 :do { add list=ST address=2a0c:9a46:3d1::/48 } on-error={}
+:do { add list=ST address=2a0c:9a46:3fe:d0::/64 } on-error={}
 :do { add list=ST address=2a0d:3344:2e00::/40 } on-error={}
 :do { add list=ST address=2a0d:9446:8800::/37 } on-error={}
 :do { add list=ST address=2a0e:97c0:4bd2::/48 } on-error={}

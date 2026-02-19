@@ -51,11 +51,13 @@
 :do { add list=SH address=2a09:bac4:628::/45 } on-error={}
 :do { add list=SH address=2a09:bac4:1628::/45 } on-error={}
 :do { add list=SH address=2a0a:6044:77c7::/48 } on-error={}
+:do { add list=SH address=2a0a:6044:77fe:c6::/64 } on-error={}
 :do { add list=SH address=2a0a:79c7:f5ba::/48 } on-error={}
 :do { add list=SH address=2a0b:4e07:3:6540::/60 } on-error={}
 :do { add list=SH address=2a0c:9a40:95bb:8000::/52 } on-error={}
 :do { add list=SH address=2a0c:9a40:95bf:ffff::/64 } on-error={}
 :do { add list=SH address=2a0c:9a46:3c7::/48 } on-error={}
+:do { add list=SH address=2a0c:9a46:3fe:c6::/64 } on-error={}
 :do { add list=SH address=2a0d:9441:e000::/37 } on-error={}
 :do { add list=SH address=2a0f:1cc5:b10:bc00::/56 } on-error={}
 :do { add list=SH address=2a0f:1cc5:b11:bc00::/56 } on-error={}

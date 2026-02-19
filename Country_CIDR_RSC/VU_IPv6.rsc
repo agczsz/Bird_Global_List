@@ -2,10 +2,9 @@
 /ipv6 firewall address-list
 :do { add list=VU address=2001:470:24:90f::/64 } on-error={}
 :do { add list=VU address=2001:470:36:1d6::/64 } on-error={}
-:do { add list=VU address=2001:470:36:52a::/64 } on-error={}
 :do { add list=VU address=2001:470:36:84d::/64 } on-error={}
 :do { add list=VU address=2001:470:36:11be::/64 } on-error={}
-:do { add list=VU address=2001:470:ec54::/48 } on-error={}
+:do { add list=VU address=2001:470:7458::/48 } on-error={}
 :do { add list=VU address=2001:470:f82a::/48 } on-error={}
 :do { add list=VU address=2001:470:f84f::/48 } on-error={}
 :do { add list=VU address=2001:470:fd04::/48 } on-error={}
@@ -320,6 +319,7 @@
 :do { add list=VU address=2a09:bac6:d470::/45 } on-error={}
 :do { add list=VU address=2a0a:6040:fec::/48 } on-error={}
 :do { add list=VU address=2a0a:6044:77f2::/48 } on-error={}
+:do { add list=VU address=2a0a:6044:77fe:f1::/64 } on-error={}
 :do { add list=VU address=2a0a:6044:f280::/45 } on-error={}
 :do { add list=VU address=2a0a:6044:f288::/46 } on-error={}
 :do { add list=VU address=2a0a:6044:f28c::/47 } on-error={}
@@ -327,6 +327,7 @@
 :do { add list=VU address=2a0b:4e07:3:5480::/60 } on-error={}
 :do { add list=VU address=2a0c:9a40:95be:d000::/52 } on-error={}
 :do { add list=VU address=2a0c:9a46:3f2::/48 } on-error={}
+:do { add list=VU address=2a0c:9a46:3fe:f1::/64 } on-error={}
 :do { add list=VU address=2a0d:9446:a800::/37 } on-error={}
 :do { add list=VU address=2a0f:1cc5:b10:9d00::/56 } on-error={}
 :do { add list=VU address=2a0f:1cc5:b11:9d00::/56 } on-error={}

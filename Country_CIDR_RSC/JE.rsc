@@ -106,7 +106,6 @@
 :do { add list=JE address=62.68.168.0/23 } on-error={}
 :do { add list=JE address=62.68.176.0/21 } on-error={}
 :do { add list=JE address=62.68.184.0/22 } on-error={}
-:do { add list=JE address=66.178.96.0/23 } on-error={}
 :do { add list=JE address=78.41.0.6/32 } on-error={}
 :do { add list=JE address=78.41.0.8/32 } on-error={}
 :do { add list=JE address=78.41.0.16/31 } on-error={}

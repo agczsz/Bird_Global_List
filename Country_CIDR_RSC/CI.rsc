@@ -6,7 +6,6 @@
 :do { add list=CI address=41.67.88.0/21 } on-error={}
 :do { add list=CI address=41.67.96.0/19 } on-error={}
 :do { add list=CI address=41.73.16.0/20 } on-error={}
-:do { add list=CI address=41.73.244.0/24 } on-error={}
 :do { add list=CI address=41.74.96.0/20 } on-error={}
 :do { add list=CI address=41.75.16.0/20 } on-error={}
 :do { add list=CI address=41.75.32.0/20 } on-error={}
