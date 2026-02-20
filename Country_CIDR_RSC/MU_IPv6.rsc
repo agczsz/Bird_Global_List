@@ -1,8 +1,6 @@
 /log info "Loading MU IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=MU address=2001:470:19:124c::/64 } on-error={}
-:do { add list=MU address=2001:470:36:4a1::/64 } on-error={}
-:do { add list=MU address=2001:470:36:5cb::/64 } on-error={}
 :do { add list=MU address=2001:470:1f23:4c1::/64 } on-error={}
 :do { add list=MU address=2001:470:1f29:2a3::/64 } on-error={}
 :do { add list=MU address=2001:470:2205::/48 } on-error={}
@@ -69,13 +67,7 @@
 :do { add list=MU address=2001:4248:dead:218::/61 } on-error={}
 :do { add list=MU address=2001:4248:dead:220::/59 } on-error={}
 :do { add list=MU address=2001:4248:dead:240::/58 } on-error={}
-:do { add list=MU address=2001:4248:dead:280::/59 } on-error={}
-:do { add list=MU address=2001:4248:dead:2a0::/61 } on-error={}
-:do { add list=MU address=2001:4248:dead:2a8::/62 } on-error={}
-:do { add list=MU address=2001:4248:dead:2ac::/63 } on-error={}
-:do { add list=MU address=2001:4248:dead:2af::/64 } on-error={}
-:do { add list=MU address=2001:4248:dead:2b0::/60 } on-error={}
-:do { add list=MU address=2001:4248:dead:2c0::/58 } on-error={}
+:do { add list=MU address=2001:4248:dead:280::/57 } on-error={}
 :do { add list=MU address=2001:4248:dead:300::/59 } on-error={}
 :do { add list=MU address=2001:4248:dead:321::/64 } on-error={}
 :do { add list=MU address=2001:4248:dead:322::/63 } on-error={}
@@ -91,14 +83,7 @@
 :do { add list=MU address=2001:4248:dead:4f0::/61 } on-error={}
 :do { add list=MU address=2001:4248:dead:4f8::/62 } on-error={}
 :do { add list=MU address=2001:4248:dead:4fc::/63 } on-error={}
-:do { add list=MU address=2001:4248:dead:500::/58 } on-error={}
-:do { add list=MU address=2001:4248:dead:540::/61 } on-error={}
-:do { add list=MU address=2001:4248:dead:549::/64 } on-error={}
-:do { add list=MU address=2001:4248:dead:54a::/63 } on-error={}
-:do { add list=MU address=2001:4248:dead:54c::/62 } on-error={}
-:do { add list=MU address=2001:4248:dead:550::/60 } on-error={}
-:do { add list=MU address=2001:4248:dead:560::/59 } on-error={}
-:do { add list=MU address=2001:4248:dead:580::/57 } on-error={}
+:do { add list=MU address=2001:4248:dead:500::/56 } on-error={}
 :do { add list=MU address=2001:4248:dead:600::/63 } on-error={}
 :do { add list=MU address=2001:4248:dead:603::/64 } on-error={}
 :do { add list=MU address=2001:4248:dead:604::/64 } on-error={}
@@ -5876,7 +5861,6 @@
 :do { add list=MU address=2c0f:ec22::/31 } on-error={}
 :do { add list=MU address=2c0f:ec24::/30 } on-error={}
 :do { add list=MU address=2c0f:ec28::/29 } on-error={}
-:do { add list=MU address=2c0f:ec30::110/128 } on-error={}
 :do { add list=MU address=2c0f:ec30::112/128 } on-error={}
 :do { add list=MU address=2c0f:ec30:0:1::/64 } on-error={}
 :do { add list=MU address=2c0f:ec30:0:2::/63 } on-error={}

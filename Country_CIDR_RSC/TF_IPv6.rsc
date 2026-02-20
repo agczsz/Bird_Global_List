@@ -12,7 +12,12 @@
 :do { add list=TF address=2001:470:fbef::/48 } on-error={}
 :do { add list=TF address=2001:470:fe65::/48 } on-error={}
 :do { add list=TF address=2001:4b28:e700::/40 } on-error={}
-:do { add list=TF address=2401:b60:14d0::/44 } on-error={}
+:do { add list=TF address=2401:b60:14d0:4000::/50 } on-error={}
+:do { add list=TF address=2401:b60:14d0:8000::/49 } on-error={}
+:do { add list=TF address=2401:b60:14d1::/48 } on-error={}
+:do { add list=TF address=2401:b60:14d2::/47 } on-error={}
+:do { add list=TF address=2401:b60:14d4::/46 } on-error={}
+:do { add list=TF address=2401:b60:14d8::/45 } on-error={}
 :do { add list=TF address=2401:f1e0:ffff:c96f::/64 } on-error={}
 :do { add list=TF address=2600:70ff:a6b2::/48 } on-error={}
 :do { add list=TF address=2600:70ff:aafc::/48 } on-error={}

@@ -7,6 +7,7 @@
 :do { add list=IO address=2001:470:1f27:84::/64 } on-error={}
 :do { add list=IO address=2001:470:c050::/48 } on-error={}
 :do { add list=IO address=2001:470:e967::/48 } on-error={}
+:do { add list=IO address=2001:470:efd8::/48 } on-error={}
 :do { add list=IO address=2001:470:f288::/48 } on-error={}
 :do { add list=IO address=2001:470:f51b::/48 } on-error={}
 :do { add list=IO address=2001:470:f6a1::/48 } on-error={}
@@ -14,7 +15,12 @@
 :do { add list=IO address=2001:470:fbee::/48 } on-error={}
 :do { add list=IO address=2001:470:fc71::/48 } on-error={}
 :do { add list=IO address=2001:4b28:df00::/40 } on-error={}
-:do { add list=IO address=2401:b60:1200::/44 } on-error={}
+:do { add list=IO address=2401:b60:1200:4000::/50 } on-error={}
+:do { add list=IO address=2401:b60:1200:8000::/49 } on-error={}
+:do { add list=IO address=2401:b60:1201::/48 } on-error={}
+:do { add list=IO address=2401:b60:1202::/47 } on-error={}
+:do { add list=IO address=2401:b60:1204::/46 } on-error={}
+:do { add list=IO address=2401:b60:1208::/45 } on-error={}
 :do { add list=IO address=2401:a440::/32 } on-error={}
 :do { add list=IO address=2405:b500:3700::/64 } on-error={}
 :do { add list=IO address=2405:b500:3720::/64 } on-error={}

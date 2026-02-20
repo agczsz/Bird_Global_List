@@ -2,7 +2,6 @@
 /ipv6 firewall address-list
 :do { add list=TJ address=2001:470:28:12b::/64 } on-error={}
 :do { add list=TJ address=2001:470:36:425::/64 } on-error={}
-:do { add list=TJ address=2001:470:36:578::/64 } on-error={}
 :do { add list=TJ address=2001:470:36:d47::/64 } on-error={}
 :do { add list=TJ address=2001:470:6d:e8c::/64 } on-error={}
 :do { add list=TJ address=2001:470:1f09:cd::/64 } on-error={}

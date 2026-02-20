@@ -6,9 +6,8 @@
 :do { add list=AS address=2001:470:19:1323::/64 } on-error={}
 :do { add list=AS address=2001:470:26:689::/64 } on-error={}
 :do { add list=AS address=2001:470:36:95::/64 } on-error={}
+:do { add list=AS address=2001:470:36:15a::/64 } on-error={}
 :do { add list=AS address=2001:470:36:33b::/64 } on-error={}
-:do { add list=AS address=2001:470:36:4eb::/64 } on-error={}
-:do { add list=AS address=2001:470:36:5f8::/64 } on-error={}
 :do { add list=AS address=2001:470:36:85f::/64 } on-error={}
 :do { add list=AS address=2001:470:36:893::/64 } on-error={}
 :do { add list=AS address=2001:470:36:94a::/64 } on-error={}

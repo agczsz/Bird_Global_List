@@ -1,6 +1,5 @@
 /log info "Loading TZ IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=TZ address=2001:470:36:416::/64 } on-error={}
 :do { add list=TZ address=2001:470:36:d86::/64 } on-error={}
 :do { add list=TZ address=2001:470:36:10c7::/64 } on-error={}
 :do { add list=TZ address=2001:470:1858::/48 } on-error={}

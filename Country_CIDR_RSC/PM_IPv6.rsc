@@ -1,7 +1,6 @@
 /log info "Loading PM IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=PM address=2001:470:36:16e::/64 } on-error={}
-:do { add list=PM address=2001:470:36:519::/64 } on-error={}
 :do { add list=PM address=2001:470:36:7d4::/64 } on-error={}
 :do { add list=PM address=2001:470:36:8c1::/64 } on-error={}
 :do { add list=PM address=2001:470:89a4::/48 } on-error={}

@@ -1,6 +1,6 @@
 /log info "Loading BO IPv4 Address List"
 /ip firewall address-list
-:do { add list=BO address=5.53.0.245/32 } on-error={}
+:do { add list=BO address=5.53.0.244/30 } on-error={}
 :do { add list=BO address=5.62.58.40/30 } on-error={}
 :do { add list=BO address=23.249.54.5/32 } on-error={}
 :do { add list=BO address=34.100.4.0/22 } on-error={}
@@ -465,10 +465,7 @@
 :do { add list=BO address=190.129.252.0/23 } on-error={}
 :do { add list=BO address=190.129.254.0/25 } on-error={}
 :do { add list=BO address=190.129.254.128/27 } on-error={}
-:do { add list=BO address=190.129.254.160/30 } on-error={}
-:do { add list=BO address=190.129.254.164/32 } on-error={}
-:do { add list=BO address=190.129.254.166/31 } on-error={}
-:do { add list=BO address=190.129.254.168/29 } on-error={}
+:do { add list=BO address=190.129.254.160/28 } on-error={}
 :do { add list=BO address=190.129.254.177/32 } on-error={}
 :do { add list=BO address=190.129.254.178/31 } on-error={}
 :do { add list=BO address=190.129.254.180/30 } on-error={}
@@ -551,13 +548,7 @@
 :do { add list=BO address=200.87.240.0/21 } on-error={}
 :do { add list=BO address=200.87.248.0/22 } on-error={}
 :do { add list=BO address=200.87.252.0/24 } on-error={}
-:do { add list=BO address=200.87.253.0/27 } on-error={}
-:do { add list=BO address=200.87.253.33/32 } on-error={}
-:do { add list=BO address=200.87.253.34/31 } on-error={}
-:do { add list=BO address=200.87.253.36/30 } on-error={}
-:do { add list=BO address=200.87.253.40/29 } on-error={}
-:do { add list=BO address=200.87.253.48/28 } on-error={}
-:do { add list=BO address=200.87.253.64/26 } on-error={}
+:do { add list=BO address=200.87.253.0/25 } on-error={}
 :do { add list=BO address=200.87.253.130/31 } on-error={}
 :do { add list=BO address=200.87.253.132/30 } on-error={}
 :do { add list=BO address=200.87.253.136/29 } on-error={}

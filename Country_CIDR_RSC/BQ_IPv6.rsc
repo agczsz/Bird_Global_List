@@ -1,6 +1,5 @@
 /log info "Loading BQ IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=BQ address=2001:470:36:511::/64 } on-error={}
 :do { add list=BQ address=2001:470:80e7::/48 } on-error={}
 :do { add list=BQ address=2001:470:d8f6::/48 } on-error={}
 :do { add list=BQ address=2001:470:ef09::/48 } on-error={}

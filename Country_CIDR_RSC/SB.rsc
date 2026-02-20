@@ -1,7 +1,6 @@
 /log info "Loading SB IPv4 Address List"
 /ip firewall address-list
 :do { add list=SB address=5.62.58.192/30 } on-error={}
-:do { add list=SB address=14.137.34.0/24 } on-error={}
 :do { add list=SB address=14.137.36.0/24 } on-error={}
 :do { add list=SB address=57.70.174.0/23 } on-error={}
 :do { add list=SB address=57.71.32.0/20 } on-error={}

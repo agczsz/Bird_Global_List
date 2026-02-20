@@ -1,24 +1,8 @@
 /log info "Loading BN IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=BN address=2001:470:36:188::/64 } on-error={}
-:do { add list=BN address=2001:470:36:50f::/64 } on-error={}
 :do { add list=BN address=2001:470:1864::/48 } on-error={}
-:do { add list=BN address=2001:470:eeaa:1::/64 } on-error={}
-:do { add list=BN address=2001:470:eeaa:2::/63 } on-error={}
-:do { add list=BN address=2001:470:eeaa:4::/62 } on-error={}
-:do { add list=BN address=2001:470:eeaa:8::/61 } on-error={}
-:do { add list=BN address=2001:470:eeaa:10::/60 } on-error={}
-:do { add list=BN address=2001:470:eeaa:20::/59 } on-error={}
-:do { add list=BN address=2001:470:eeaa:40::/58 } on-error={}
-:do { add list=BN address=2001:470:eeaa:80::/57 } on-error={}
-:do { add list=BN address=2001:470:eeaa:100::/56 } on-error={}
-:do { add list=BN address=2001:470:eeaa:200::/55 } on-error={}
-:do { add list=BN address=2001:470:eeaa:400::/54 } on-error={}
-:do { add list=BN address=2001:470:eeaa:800::/53 } on-error={}
-:do { add list=BN address=2001:470:eeaa:1000::/52 } on-error={}
-:do { add list=BN address=2001:470:eeaa:2000::/51 } on-error={}
-:do { add list=BN address=2001:470:eeaa:4000::/50 } on-error={}
-:do { add list=BN address=2001:470:eeaa:8000::/49 } on-error={}
+:do { add list=BN address=2001:470:eeaa::/48 } on-error={}
 :do { add list=BN address=2001:470:ef77::/48 } on-error={}
 :do { add list=BN address=2001:470:f584::/48 } on-error={}
 :do { add list=BN address=2001:470:fe2e::/48 } on-error={}

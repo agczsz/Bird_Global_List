@@ -1,5 +1,6 @@
 /log info "Loading BF IPv4 Address List"
 /ip firewall address-list
+:do { add list=BF address=5.22.209.235/32 } on-error={}
 :do { add list=BF address=5.62.62.56/30 } on-error={}
 :do { add list=BF address=41.78.48.0/22 } on-error={}
 :do { add list=BF address=41.78.52.0/24 } on-error={}
@@ -31,7 +32,6 @@
 :do { add list=BF address=102.67.96.24/31 } on-error={}
 :do { add list=BF address=102.67.96.28/30 } on-error={}
 :do { add list=BF address=102.67.96.38/31 } on-error={}
-:do { add list=BF address=102.67.96.40/30 } on-error={}
 :do { add list=BF address=102.67.96.48/28 } on-error={}
 :do { add list=BF address=102.67.96.64/29 } on-error={}
 :do { add list=BF address=102.67.96.72/31 } on-error={}
@@ -193,7 +193,12 @@
 :do { add list=BF address=102.178.217.0/24 } on-error={}
 :do { add list=BF address=102.178.218.0/23 } on-error={}
 :do { add list=BF address=102.178.220.0/22 } on-error={}
-:do { add list=BF address=102.178.224.0/19 } on-error={}
+:do { add list=BF address=102.178.224.0/20 } on-error={}
+:do { add list=BF address=102.178.240.0/21 } on-error={}
+:do { add list=BF address=102.178.248.0/22 } on-error={}
+:do { add list=BF address=102.178.252.0/23 } on-error={}
+:do { add list=BF address=102.178.254.0/24 } on-error={}
+:do { add list=BF address=102.178.255.0/24 } on-error={}
 :do { add list=BF address=102.179.0.0/19 } on-error={}
 :do { add list=BF address=102.179.32.0/20 } on-error={}
 :do { add list=BF address=102.179.48.0/23 } on-error={}
@@ -258,7 +263,8 @@
 :do { add list=BF address=102.219.0.0/22 } on-error={}
 :do { add list=BF address=102.219.92.0/24 } on-error={}
 :do { add list=BF address=102.222.56.0/22 } on-error={}
-:do { add list=BF address=102.222.120.160/29 } on-error={}
+:do { add list=BF address=102.222.120.160/31 } on-error={}
+:do { add list=BF address=102.222.120.164/30 } on-error={}
 :do { add list=BF address=102.222.120.172/32 } on-error={}
 :do { add list=BF address=102.222.121.0/24 } on-error={}
 :do { add list=BF address=102.222.122.0/24 } on-error={}

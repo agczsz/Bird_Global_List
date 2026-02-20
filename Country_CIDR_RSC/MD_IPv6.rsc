@@ -6,6 +6,7 @@
 :do { add list=MD address=2001:470:6d:38d::/64 } on-error={}
 :do { add list=MD address=2001:470:6d:ad9::/64 } on-error={}
 :do { add list=MD address=2001:470:6d:ff4::/64 } on-error={}
+:do { add list=MD address=2001:470:6f:b::/64 } on-error={}
 :do { add list=MD address=2001:470:6f:162::/64 } on-error={}
 :do { add list=MD address=2001:470:6f:34c::/64 } on-error={}
 :do { add list=MD address=2001:470:71:77b::/64 } on-error={}

@@ -19,7 +19,9 @@
 :do { add list=SD address=2001:4228:14::/48 } on-error={}
 :do { add list=SD address=2001:4228:15:4000::/50 } on-error={}
 :do { add list=SD address=2001:4228:15:8000::/49 } on-error={}
-:do { add list=SD address=2001:4228:16::/47 } on-error={}
+:do { add list=SD address=2001:4228:16:4000::/50 } on-error={}
+:do { add list=SD address=2001:4228:16:8000::/49 } on-error={}
+:do { add list=SD address=2001:4228:17::/48 } on-error={}
 :do { add list=SD address=2001:4228:18::/45 } on-error={}
 :do { add list=SD address=2001:4228:20::/46 } on-error={}
 :do { add list=SD address=2001:4228:25::/48 } on-error={}

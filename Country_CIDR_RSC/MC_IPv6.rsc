@@ -1,6 +1,7 @@
 /log info "Loading MC IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=MC address=2001:470:36:11c::/64 } on-error={}
+:do { add list=MC address=2001:470:36:153::/64 } on-error={}
 :do { add list=MC address=2001:470:182f::/48 } on-error={}
 :do { add list=MC address=2001:470:183a::/48 } on-error={}
 :do { add list=MC address=2001:470:185b::/48 } on-error={}
@@ -107,11 +108,13 @@
 :do { add list=MC address=2a01:cb06:d04d:6000::/52 } on-error={}
 :do { add list=MC address=2a01:cb16:4:8000::/49 } on-error={}
 :do { add list=MC address=2a01:cb16:34:4000::/50 } on-error={}
-:do { add list=MC address=2a01:cb16:64:c000::/50 } on-error={}
 :do { add list=MC address=2a01:cb1d:473::/48 } on-error={}
 :do { add list=MC address=2a01:cb1e:100c:f800::/53 } on-error={}
-:do { add list=MC address=2a01:cb1e:1040::/47 } on-error={}
-:do { add list=MC address=2a01:cb1e:1061:f000::/53 } on-error={}
+:do { add list=MC address=2a01:cb1e:1040::/48 } on-error={}
+:do { add list=MC address=2a01:cb1e:1041::/49 } on-error={}
+:do { add list=MC address=2a01:cb1e:1041:8000::/50 } on-error={}
+:do { add list=MC address=2a01:cb1e:1041:c000::/51 } on-error={}
+:do { add list=MC address=2a01:cb1e:1041:e000::/52 } on-error={}
 :do { add list=MC address=2a02:26f7:c180::/48 } on-error={}
 :do { add list=MC address=2a02:26f7:c181::/50 } on-error={}
 :do { add list=MC address=2a02:26f7:c181:4000::/64 } on-error={}

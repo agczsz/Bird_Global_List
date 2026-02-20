@@ -2,6 +2,7 @@
 /ip firewall address-list
 :do { add list=LA address=1.9.244.145/32 } on-error={}
 :do { add list=LA address=5.62.62.200/30 } on-error={}
+:do { add list=LA address=5.253.184.0/23 } on-error={}
 :do { add list=LA address=27.111.230.63/32 } on-error={}
 :do { add list=LA address=38.135.66.0/23 } on-error={}
 :do { add list=LA address=43.109.32.0/23 } on-error={}
@@ -10,8 +11,7 @@
 :do { add list=LA address=43.175.33.0/24 } on-error={}
 :do { add list=LA address=43.224.36.0/22 } on-error={}
 :do { add list=LA address=43.252.244.0/22 } on-error={}
-:do { add list=LA address=45.85.77.0/24 } on-error={}
-:do { add list=LA address=45.197.152.0/23 } on-error={}
+:do { add list=LA address=45.197.152.0/24 } on-error={}
 :do { add list=LA address=57.72.84.0/22 } on-error={}
 :do { add list=LA address=57.92.176.0/20 } on-error={}
 :do { add list=LA address=63.220.197.170/32 } on-error={}
@@ -22,6 +22,7 @@
 :do { add list=LA address=72.14.223.251/32 } on-error={}
 :do { add list=LA address=77.90.48.0/24 } on-error={}
 :do { add list=LA address=85.115.205.0/24 } on-error={}
+:do { add list=LA address=88.218.82.0/23 } on-error={}
 :do { add list=LA address=94.249.242.0/24 } on-error={}
 :do { add list=LA address=98.159.46.80/28 } on-error={}
 :do { add list=LA address=101.78.8.0/21 } on-error={}
@@ -207,7 +208,6 @@
 :do { add list=LA address=157.119.180.0/22 } on-error={}
 :do { add list=LA address=157.167.32.0/24 } on-error={}
 :do { add list=LA address=157.240.68.149/32 } on-error={}
-:do { add list=LA address=157.240.70.235/32 } on-error={}
 :do { add list=LA address=157.240.77.75/32 } on-error={}
 :do { add list=LA address=157.240.86.119/32 } on-error={}
 :do { add list=LA address=160.187.128.0/23 } on-error={}
@@ -274,11 +274,7 @@
 :do { add list=LA address=202.136.240.0/21 } on-error={}
 :do { add list=LA address=202.137.128.0/22 } on-error={}
 :do { add list=LA address=202.137.132.0/24 } on-error={}
-:do { add list=LA address=202.137.133.0/29 } on-error={}
-:do { add list=LA address=202.137.133.8/30 } on-error={}
-:do { add list=LA address=202.137.133.12/31 } on-error={}
-:do { add list=LA address=202.137.133.15/32 } on-error={}
-:do { add list=LA address=202.137.133.16/28 } on-error={}
+:do { add list=LA address=202.137.133.0/27 } on-error={}
 :do { add list=LA address=202.137.133.32/28 } on-error={}
 :do { add list=LA address=202.137.133.48/31 } on-error={}
 :do { add list=LA address=202.137.133.51/32 } on-error={}

@@ -1,6 +1,8 @@
 /log info "Loading BN IPv4 Address List"
 /ip firewall address-list
 :do { add list=BN address=5.62.62.48/30 } on-error={}
+:do { add list=BN address=43.225.136.0/24 } on-error={}
+:do { add list=BN address=43.225.138.0/23 } on-error={}
 :do { add list=BN address=45.127.140.0/23 } on-error={}
 :do { add list=BN address=45.127.142.0/24 } on-error={}
 :do { add list=BN address=57.73.152.0/23 } on-error={}

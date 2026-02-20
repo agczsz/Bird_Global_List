@@ -1,6 +1,7 @@
 /log info "Loading PW IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=PW address=2001:470:36:180::/64 } on-error={}
+:do { add list=PW address=2001:470:36:1c8::/64 } on-error={}
 :do { add list=PW address=2001:470:36:7d3::/64 } on-error={}
 :do { add list=PW address=2001:470:6d:b8d::/64 } on-error={}
 :do { add list=PW address=2001:470:887f::/48 } on-error={}

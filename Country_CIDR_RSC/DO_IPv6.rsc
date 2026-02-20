@@ -1,5 +1,6 @@
 /log info "Loading DO IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=DO address=2001:470:36:1f2::/64 } on-error={}
 :do { add list=DO address=2001:470:36:11ef::/64 } on-error={}
 :do { add list=DO address=2001:470:1f2b:e::/64 } on-error={}
 :do { add list=DO address=2001:470:3840::/48 } on-error={}
@@ -580,6 +581,7 @@
 :do { add list=DO address=2803:9c60:8200::/39 } on-error={}
 :do { add list=DO address=2803:9c60:8400::/38 } on-error={}
 :do { add list=DO address=2803:9c60:8800::/38 } on-error={}
+:do { add list=DO address=2803:9c60:8c00:c00::/54 } on-error={}
 :do { add list=DO address=2803:9c60:8c00:1000::/52 } on-error={}
 :do { add list=DO address=2803:9c60:8c01::/48 } on-error={}
 :do { add list=DO address=2803:9c60:8c02::/47 } on-error={}
@@ -609,7 +611,6 @@
 :do { add list=DO address=2803:9c60:e000::/48 } on-error={}
 :do { add list=DO address=2803:9c60:e002::/47 } on-error={}
 :do { add list=DO address=2803:9c60:e004::/48 } on-error={}
-:do { add list=DO address=2803:9c60:e005:2d00::/56 } on-error={}
 :do { add list=DO address=2803:9c60:e005:9900::/56 } on-error={}
 :do { add list=DO address=2803:9c60:e006::/47 } on-error={}
 :do { add list=DO address=2803:9c60:e008::/45 } on-error={}

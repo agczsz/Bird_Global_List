@@ -15,7 +15,12 @@
 :do { add list=GG address=2001:470:c875::/48 } on-error={}
 :do { add list=GG address=2001:470:fe83::/48 } on-error={}
 :do { add list=GG address=2001:4b28:c900::/40 } on-error={}
-:do { add list=GG address=2401:b60:15a0::/44 } on-error={}
+:do { add list=GG address=2401:b60:15a0:4000::/50 } on-error={}
+:do { add list=GG address=2401:b60:15a0:8000::/49 } on-error={}
+:do { add list=GG address=2401:b60:15a1::/48 } on-error={}
+:do { add list=GG address=2401:b60:15a2::/47 } on-error={}
+:do { add list=GG address=2401:b60:15a4::/46 } on-error={}
+:do { add list=GG address=2401:b60:15a8::/45 } on-error={}
 :do { add list=GG address=2401:f1e0:ffff:da35::/64 } on-error={}
 :do { add list=GG address=2402:9880:400::/40 } on-error={}
 :do { add list=GG address=2405:b500:2a80::/64 } on-error={}

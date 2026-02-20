@@ -81,7 +81,6 @@
 :do { add list=LB address=63.222.61.238/32 } on-error={}
 :do { add list=LB address=66.96.122.192/26 } on-error={}
 :do { add list=LB address=66.102.33.64/26 } on-error={}
-:do { add list=LB address=66.216.72.88/29 } on-error={}
 :do { add list=LB address=66.216.80.224/29 } on-error={}
 :do { add list=LB address=67.205.99.0/29 } on-error={}
 :do { add list=LB address=74.118.126.120/30 } on-error={}
@@ -98,11 +97,7 @@
 :do { add list=LB address=77.235.155.0/24 } on-error={}
 :do { add list=LB address=77.235.156.0/23 } on-error={}
 :do { add list=LB address=77.235.158.0/24 } on-error={}
-:do { add list=LB address=77.246.64.0/22 } on-error={}
-:do { add list=LB address=77.246.68.0/24 } on-error={}
-:do { add list=LB address=77.246.69.0/24 } on-error={}
-:do { add list=LB address=77.246.70.0/23 } on-error={}
-:do { add list=LB address=77.246.72.0/21 } on-error={}
+:do { add list=LB address=77.246.64.0/20 } on-error={}
 :do { add list=LB address=78.40.141.0/24 } on-error={}
 :do { add list=LB address=78.40.176.0/21 } on-error={}
 :do { add list=LB address=78.108.160.0/21 } on-error={}
@@ -575,6 +570,7 @@
 :do { add list=LB address=185.254.32.0/23 } on-error={}
 :do { add list=LB address=185.254.35.0/24 } on-error={}
 :do { add list=LB address=185.255.221.0/24 } on-error={}
+:do { add list=LB address=185.255.223.0/24 } on-error={}
 :do { add list=LB address=188.66.52.0/22 } on-error={}
 :do { add list=LB address=188.93.113.0/24 } on-error={}
 :do { add list=LB address=192.109.41.112/29 } on-error={}
@@ -639,8 +635,7 @@
 :do { add list=LB address=195.112.204.0/22 } on-error={}
 :do { add list=LB address=195.112.208.0/23 } on-error={}
 :do { add list=LB address=195.112.210.0/23 } on-error={}
-:do { add list=LB address=195.112.212.0/24 } on-error={}
-:do { add list=LB address=195.112.213.0/24 } on-error={}
+:do { add list=LB address=195.112.212.0/23 } on-error={}
 :do { add list=LB address=195.112.214.0/24 } on-error={}
 :do { add list=LB address=195.112.215.0/24 } on-error={}
 :do { add list=LB address=195.112.216.0/23 } on-error={}

@@ -50,7 +50,12 @@
 :do { add list=AD address=2001:4b28:8000::/40 } on-error={}
 :do { add list=AD address=2401:b60:17:4000::/50 } on-error={}
 :do { add list=AD address=2401:b60:17:8000::/49 } on-error={}
-:do { add list=AD address=2401:b60:1050::/44 } on-error={}
+:do { add list=AD address=2401:b60:1050:4000::/50 } on-error={}
+:do { add list=AD address=2401:b60:1050:8000::/49 } on-error={}
+:do { add list=AD address=2401:b60:1051::/48 } on-error={}
+:do { add list=AD address=2401:b60:1052::/47 } on-error={}
+:do { add list=AD address=2401:b60:1054::/46 } on-error={}
+:do { add list=AD address=2401:b60:1058::/45 } on-error={}
 :do { add list=AD address=2401:f1e0:ffff:e5d::/64 } on-error={}
 :do { add list=AD address=2401:f1e0:ffff:b8d8::/64 } on-error={}
 :do { add list=AD address=2401:f1e0:ffff:e0aa::/64 } on-error={}

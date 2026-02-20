@@ -1,7 +1,7 @@
 /log info "Loading BJ IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=BJ address=2001:470:36:a1::/64 } on-error={}
-:do { add list=BJ address=2001:470:36:419::/64 } on-error={}
+:do { add list=BJ address=2001:470:36:1fa::/64 } on-error={}
 :do { add list=BJ address=2001:470:36:11d1::/64 } on-error={}
 :do { add list=BJ address=2001:470:6d:b28::/64 } on-error={}
 :do { add list=BJ address=2001:470:eebf::/48 } on-error={}
@@ -509,7 +509,22 @@
 :do { add list=BJ address=2c0f:2a80:38e:5000::/52 } on-error={}
 :do { add list=BJ address=2c0f:2a80:38e:6000::/51 } on-error={}
 :do { add list=BJ address=2c0f:2a80:38e:8000::/49 } on-error={}
-:do { add list=BJ address=2c0f:2a80:38f::/48 } on-error={}
+:do { add list=BJ address=2c0f:2a80:38f::/49 } on-error={}
+:do { add list=BJ address=2c0f:2a80:38f:8000::/50 } on-error={}
+:do { add list=BJ address=2c0f:2a80:38f:c000::/51 } on-error={}
+:do { add list=BJ address=2c0f:2a80:38f:e000::/52 } on-error={}
+:do { add list=BJ address=2c0f:2a80:38f:f000::/54 } on-error={}
+:do { add list=BJ address=2c0f:2a80:38f:f400::/60 } on-error={}
+:do { add list=BJ address=2c0f:2a80:38f:f411::/64 } on-error={}
+:do { add list=BJ address=2c0f:2a80:38f:f412::/63 } on-error={}
+:do { add list=BJ address=2c0f:2a80:38f:f414::/62 } on-error={}
+:do { add list=BJ address=2c0f:2a80:38f:f418::/61 } on-error={}
+:do { add list=BJ address=2c0f:2a80:38f:f420::/59 } on-error={}
+:do { add list=BJ address=2c0f:2a80:38f:f440::/58 } on-error={}
+:do { add list=BJ address=2c0f:2a80:38f:f480::/57 } on-error={}
+:do { add list=BJ address=2c0f:2a80:38f:f500::/56 } on-error={}
+:do { add list=BJ address=2c0f:2a80:38f:f600::/55 } on-error={}
+:do { add list=BJ address=2c0f:2a80:38f:f800::/53 } on-error={}
 :do { add list=BJ address=2c0f:2a80:390::/49 } on-error={}
 :do { add list=BJ address=2c0f:2a80:390:8000::/52 } on-error={}
 :do { add list=BJ address=2c0f:2a80:390:9000::/55 } on-error={}

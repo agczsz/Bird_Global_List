@@ -2,8 +2,8 @@
 /ipv6 firewall address-list
 :do { add list=KH address=2001:470:0:54d::/64 } on-error={}
 :do { add list=KH address=2001:470:1:eb2::/64 } on-error={}
+:do { add list=KH address=2001:470:36:1b0::/64 } on-error={}
 :do { add list=KH address=2001:470:36:4ee::/64 } on-error={}
-:do { add list=KH address=2001:470:36:546::/64 } on-error={}
 :do { add list=KH address=2001:470:36:ebc::/64 } on-error={}
 :do { add list=KH address=2001:470:36:1332::/64 } on-error={}
 :do { add list=KH address=2001:470:1809::/48 } on-error={}

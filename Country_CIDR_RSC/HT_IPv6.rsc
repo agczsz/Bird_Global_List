@@ -2,7 +2,6 @@
 /ipv6 firewall address-list
 :do { add list=HT address=2001:470:5:5e2::/64 } on-error={}
 :do { add list=HT address=2001:470:36:ec::/64 } on-error={}
-:do { add list=HT address=2001:470:36:489::/64 } on-error={}
 :do { add list=HT address=2001:470:36:923::/64 } on-error={}
 :do { add list=HT address=2001:470:1f17:16f::/64 } on-error={}
 :do { add list=HT address=2001:470:1f27:7::/64 } on-error={}
@@ -24,7 +23,12 @@
 :do { add list=HT address=2001:3786:bb02:300::/56 } on-error={}
 :do { add list=HT address=2001:4b28:d800::/40 } on-error={}
 :do { add list=HT address=2400:cb00:205::/48 } on-error={}
-:do { add list=HT address=2401:b60:15e0::/44 } on-error={}
+:do { add list=HT address=2401:b60:15e0:4000::/50 } on-error={}
+:do { add list=HT address=2401:b60:15e0:8000::/49 } on-error={}
+:do { add list=HT address=2401:b60:15e1::/48 } on-error={}
+:do { add list=HT address=2401:b60:15e2::/47 } on-error={}
+:do { add list=HT address=2401:b60:15e4::/46 } on-error={}
+:do { add list=HT address=2401:b60:15e8::/45 } on-error={}
 :do { add list=HT address=2401:f1e0:ffff:6b44::/64 } on-error={}
 :do { add list=HT address=2405:b500:3380::/64 } on-error={}
 :do { add list=HT address=2405:b500:33c0::/64 } on-error={}

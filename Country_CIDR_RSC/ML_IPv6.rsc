@@ -201,7 +201,11 @@
 :do { add list=ML address=2c0f:f900:0:54::/63 } on-error={}
 :do { add list=ML address=2c0f:f900:0:56::/64 } on-error={}
 :do { add list=ML address=2c0f:f900:0:58::/61 } on-error={}
-:do { add list=ML address=2c0f:f900:0:60::/59 } on-error={}
+:do { add list=ML address=2c0f:f900:0:60::/62 } on-error={}
+:do { add list=ML address=2c0f:f900:0:64::/63 } on-error={}
+:do { add list=ML address=2c0f:f900:0:66::/64 } on-error={}
+:do { add list=ML address=2c0f:f900:0:68::/61 } on-error={}
+:do { add list=ML address=2c0f:f900:0:70::/60 } on-error={}
 :do { add list=ML address=2c0f:f900:0:80::/57 } on-error={}
 :do { add list=ML address=2c0f:f900:0:100::/56 } on-error={}
 :do { add list=ML address=2c0f:f900:0:200::/55 } on-error={}

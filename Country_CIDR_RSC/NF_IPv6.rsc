@@ -1,7 +1,6 @@
 /log info "Loading NF IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=NF address=2001:470:36:449::/64 } on-error={}
-:do { add list=NF address=2001:470:36:51a::/64 } on-error={}
 :do { add list=NF address=2001:470:36:d3d::/64 } on-error={}
 :do { add list=NF address=2001:470:1f17:79::/64 } on-error={}
 :do { add list=NF address=2001:470:304e::/48 } on-error={}

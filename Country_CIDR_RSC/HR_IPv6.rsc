@@ -115,7 +115,6 @@
 :do { add list=HR address=2001:1900:5:2:2::3499/128 } on-error={}
 :do { add list=HR address=2001:1900:5:2:2::3ab1/128 } on-error={}
 :do { add list=HR address=2001:1900:5:2:2::3ab2/128 } on-error={}
-:do { add list=HR address=2001:1900:5:2:2::3bf9/128 } on-error={}
 :do { add list=HR address=2001:1900:5:2:2::3edd/128 } on-error={}
 :do { add list=HR address=2001:1900:5:2:2::3f16/128 } on-error={}
 :do { add list=HR address=2001:1900:5:2:2::61f9/128 } on-error={}
@@ -175,6 +174,7 @@
 :do { add list=HR address=2001:2035:0:2834::/64 } on-error={}
 :do { add list=HR address=2001:2035:0:2acc::/64 } on-error={}
 :do { add list=HR address=2001:2035:0:2c2f::/64 } on-error={}
+:do { add list=HR address=2001:2035:0:2c30::/64 } on-error={}
 :do { add list=HR address=2001:3786:ffff::/48 } on-error={}
 :do { add list=HR address=2001:4860:7:209::/64 } on-error={}
 :do { add list=HR address=2001:4860:7:609::/64 } on-error={}
@@ -461,6 +461,7 @@
 :do { add list=HR address=2a02:2608:ffff:ffff::b0/125 } on-error={}
 :do { add list=HR address=2a02:2608:ffff:ffff::b8/126 } on-error={}
 :do { add list=HR address=2a02:2608:ffff:ffff::bd/128 } on-error={}
+:do { add list=HR address=2a02:2608:ffff:ffff::bf/128 } on-error={}
 :do { add list=HR address=2a02:2608:ffff:ffff::c0/122 } on-error={}
 :do { add list=HR address=2a02:2608:ffff:ffff::100/121 } on-error={}
 :do { add list=HR address=2a02:2608:ffff:ffff::180/127 } on-error={}

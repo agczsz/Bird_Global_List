@@ -1,11 +1,14 @@
 /log info "Loading BY IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=BY address=2001:470:5:5f::/64 } on-error={}
 :do { add list=BY address=2001:470:5:ed::/64 } on-error={}
 :do { add list=BY address=2001:470:5:1d9::/64 } on-error={}
 :do { add list=BY address=2001:470:5:237::/64 } on-error={}
 :do { add list=BY address=2001:470:5:2b8::/64 } on-error={}
+:do { add list=BY address=2001:470:26:536::/64 } on-error={}
 :do { add list=BY address=2001:470:28:2d8::/64 } on-error={}
 :do { add list=BY address=2001:470:28:5fb::/64 } on-error={}
+:do { add list=BY address=2001:470:28:c1d::/64 } on-error={}
 :do { add list=BY address=2001:470:36:1ec::/64 } on-error={}
 :do { add list=BY address=2001:470:36:3e9::/64 } on-error={}
 :do { add list=BY address=2001:470:36:885::/64 } on-error={}
@@ -20,6 +23,7 @@
 :do { add list=BY address=2001:470:6f:613::/64 } on-error={}
 :do { add list=BY address=2001:470:6f:614::/64 } on-error={}
 :do { add list=BY address=2001:470:6f:97a::/64 } on-error={}
+:do { add list=BY address=2001:470:71:c4::/64 } on-error={}
 :do { add list=BY address=2001:470:71:113::/64 } on-error={}
 :do { add list=BY address=2001:470:71:3b7::/64 } on-error={}
 :do { add list=BY address=2001:470:71:739::/64 } on-error={}
@@ -178,18 +182,7 @@
 :do { add list=BY address=2607:740:23:200::/55 } on-error={}
 :do { add list=BY address=2607:740:23:400::/54 } on-error={}
 :do { add list=BY address=2607:740:23:800::/53 } on-error={}
-:do { add list=BY address=2607:740:23:1000::/63 } on-error={}
-:do { add list=BY address=2607:740:23:1002::/64 } on-error={}
-:do { add list=BY address=2607:740:23:1004::/62 } on-error={}
-:do { add list=BY address=2607:740:23:1008::/61 } on-error={}
-:do { add list=BY address=2607:740:23:1010::/60 } on-error={}
-:do { add list=BY address=2607:740:23:1020::/59 } on-error={}
-:do { add list=BY address=2607:740:23:1040::/58 } on-error={}
-:do { add list=BY address=2607:740:23:1080::/57 } on-error={}
-:do { add list=BY address=2607:740:23:1100::/56 } on-error={}
-:do { add list=BY address=2607:740:23:1200::/55 } on-error={}
-:do { add list=BY address=2607:740:23:1400::/54 } on-error={}
-:do { add list=BY address=2607:740:23:1800::/53 } on-error={}
+:do { add list=BY address=2607:740:23:1000::/52 } on-error={}
 :do { add list=BY address=2607:740:23:2001::/64 } on-error={}
 :do { add list=BY address=2607:740:23:2004::/62 } on-error={}
 :do { add list=BY address=2607:740:23:2008::/61 } on-error={}
