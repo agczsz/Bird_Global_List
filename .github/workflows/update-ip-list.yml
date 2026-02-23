@@ -65,7 +65,12 @@ jobs:
         echo "---" >> README.md
         echo "" >> README.md
         echo "*This information was automatically updated by GitHub Actions on ${UPDATE_TIME}*" >> README.md
-
+    - name: Remove large files
+      run: |
+        find Country_CIDR/ -type f -size +98M -delete
+        find Country_CIDR_RSC/ -type f -size +98M -delete
+        echo "已清理超大文件，防止 Push 失败。"
+        
     - name: Commit and push changes
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
