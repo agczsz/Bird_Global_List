@@ -1,11 +1,28 @@
 /log info "Loading BL IPv4 Address List"
 /ip firewall address-list
 :do { add list=BL address=5.175.190.217/32 } on-error={}
+:do { add list=BL address=5.187.103.60/30 } on-error={}
+:do { add list=BL address=5.187.103.88/30 } on-error={}
+:do { add list=BL address=5.187.105.116/30 } on-error={}
+:do { add list=BL address=5.187.106.68/30 } on-error={}
+:do { add list=BL address=5.187.107.226/32 } on-error={}
+:do { add list=BL address=5.187.110.224/30 } on-error={}
+:do { add list=BL address=5.187.111.178/32 } on-error={}
+:do { add list=BL address=5.187.114.2/32 } on-error={}
+:do { add list=BL address=5.187.116.29/32 } on-error={}
+:do { add list=BL address=5.187.116.88/30 } on-error={}
+:do { add list=BL address=5.187.116.200/30 } on-error={}
+:do { add list=BL address=5.187.121.246/31 } on-error={}
+:do { add list=BL address=5.187.121.248/32 } on-error={}
+:do { add list=BL address=5.187.124.84/30 } on-error={}
 :do { add list=BL address=23.135.232.0/24 } on-error={}
 :do { add list=BL address=23.136.248.0/24 } on-error={}
+:do { add list=BL address=23.174.120.194/32 } on-error={}
 :do { add list=BL address=23.174.120.252/30 } on-error={}
 :do { add list=BL address=46.193.54.63/32 } on-error={}
 :do { add list=BL address=63.246.43.192/26 } on-error={}
+:do { add list=BL address=93.121.171.18/31 } on-error={}
+:do { add list=BL address=93.121.206.64/28 } on-error={}
 :do { add list=BL address=104.28.8.125/32 } on-error={}
 :do { add list=BL address=104.28.8.126/31 } on-error={}
 :do { add list=BL address=104.28.42.92/31 } on-error={}
@@ -51,6 +68,8 @@
 :do { add list=BL address=190.123.16.112/29 } on-error={}
 :do { add list=BL address=190.123.16.160/32 } on-error={}
 :do { add list=BL address=190.123.16.173/32 } on-error={}
+:do { add list=BL address=190.123.16.224/30 } on-error={}
+:do { add list=BL address=190.123.19.12/30 } on-error={}
 :do { add list=BL address=192.96.136.0/24 } on-error={}
 :do { add list=BL address=192.131.134.0/24 } on-error={}
 :do { add list=BL address=194.50.99.26/32 } on-error={}

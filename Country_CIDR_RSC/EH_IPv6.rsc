@@ -1,15 +1,22 @@
 /log info "Loading EH IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=EH address=2001:470:19:10a5::/64 } on-error={}
 :do { add list=EH address=2001:470:19:1318::/64 } on-error={}
 :do { add list=EH address=2001:470:36:12d::/64 } on-error={}
 :do { add list=EH address=2001:470:36:444::/64 } on-error={}
 :do { add list=EH address=2001:470:6d:b2f::/64 } on-error={}
+:do { add list=EH address=2001:470:1f0b:91f::/64 } on-error={}
 :do { add list=EH address=2001:470:54a6::/48 } on-error={}
 :do { add list=EH address=2001:470:73f9::/48 } on-error={}
 :do { add list=EH address=2001:470:f1ef::/48 } on-error={}
 :do { add list=EH address=2001:470:fbed::/48 } on-error={}
 :do { add list=EH address=2001:4b28:bd00::/40 } on-error={}
-:do { add list=EH address=2401:b60:1fd0::/44 } on-error={}
+:do { add list=EH address=2401:b60:1fd0:4000::/50 } on-error={}
+:do { add list=EH address=2401:b60:1fd0:8000::/49 } on-error={}
+:do { add list=EH address=2401:b60:1fd1::/48 } on-error={}
+:do { add list=EH address=2401:b60:1fd2::/47 } on-error={}
+:do { add list=EH address=2401:b60:1fd4::/46 } on-error={}
+:do { add list=EH address=2401:b60:1fd8::/45 } on-error={}
 :do { add list=EH address=2401:f1e0:ffff:2abc::/64 } on-error={}
 :do { add list=EH address=2600:70ff:a75e::/48 } on-error={}
 :do { add list=EH address=2606:40:a78::/45 } on-error={}

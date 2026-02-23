@@ -1,5 +1,6 @@
 /log info "Loading MV IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=MV address=2001:470:19:f89::/64 } on-error={}
 :do { add list=MV address=2001:470:24:35c::/64 } on-error={}
 :do { add list=MV address=2001:470:36:121::/64 } on-error={}
 :do { add list=MV address=2001:470:36:1df::/64 } on-error={}
@@ -9,7 +10,9 @@
 :do { add list=MV address=2001:470:36:872::/64 } on-error={}
 :do { add list=MV address=2001:470:36:87d::/64 } on-error={}
 :do { add list=MV address=2001:470:6d:10a6::/64 } on-error={}
+:do { add list=MV address=2001:470:1f09:8f::/64 } on-error={}
 :do { add list=MV address=2001:470:1f09:32c::/64 } on-error={}
+:do { add list=MV address=2001:470:1f15:26c::/64 } on-error={}
 :do { add list=MV address=2001:470:68bf::/48 } on-error={}
 :do { add list=MV address=2001:470:69b3::/48 } on-error={}
 :do { add list=MV address=2001:470:8a8e::/48 } on-error={}
@@ -53,9 +56,10 @@
 :do { add list=MV address=2001:df7:9980:4000::/50 } on-error={}
 :do { add list=MV address=2001:df7:9980:8000::/49 } on-error={}
 :do { add list=MV address=2001:4b28:4000::/40 } on-error={}
+:do { add list=MV address=2001:5008:600::/64 } on-error={}
+:do { add list=MV address=2001:5008:600:2::/64 } on-error={}
 :do { add list=MV address=2400:cb00:214::/48 } on-error={}
 :do { add list=MV address=2400:cb00:593::/48 } on-error={}
-:do { add list=MV address=2401:b60:18b0::/44 } on-error={}
 :do { add list=MV address=2401:8300::/33 } on-error={}
 :do { add list=MV address=2401:8300:8000::/34 } on-error={}
 :do { add list=MV address=2401:8300:c000::/35 } on-error={}
@@ -130,15 +134,7 @@
 :do { add list=MV address=2620:134:b054:100::20/127 } on-error={}
 :do { add list=MV address=2620:171:4b::/64 } on-error={}
 :do { add list=MV address=2a02:26f7:ba80::/48 } on-error={}
-:do { add list=MV address=2a02:26f7:ba81::/50 } on-error={}
-:do { add list=MV address=2a02:26f7:ba81:4000::/64 } on-error={}
-:do { add list=MV address=2a02:26f7:ba81:4100::/56 } on-error={}
-:do { add list=MV address=2a02:26f7:ba81:4200::/55 } on-error={}
-:do { add list=MV address=2a02:26f7:ba81:4400::/54 } on-error={}
-:do { add list=MV address=2a02:26f7:ba81:4800::/53 } on-error={}
-:do { add list=MV address=2a02:26f7:ba81:5000::/52 } on-error={}
-:do { add list=MV address=2a02:26f7:ba81:6000::/51 } on-error={}
-:do { add list=MV address=2a02:26f7:ba81:8000::/49 } on-error={}
+:do { add list=MV address=2a02:26f7:ba81::/48 } on-error={}
 :do { add list=MV address=2a02:26f7:ba82::/47 } on-error={}
 :do { add list=MV address=2a02:26f7:ba84::/47 } on-error={}
 :do { add list=MV address=2a02:26f7:ba86::/48 } on-error={}
@@ -152,15 +148,7 @@
 :do { add list=MV address=2a02:26f7:ba87:6000::/51 } on-error={}
 :do { add list=MV address=2a02:26f7:ba87:8000::/49 } on-error={}
 :do { add list=MV address=2a02:26f7:ba88::/48 } on-error={}
-:do { add list=MV address=2a02:26f7:ba89::/50 } on-error={}
-:do { add list=MV address=2a02:26f7:ba89:4000::/64 } on-error={}
-:do { add list=MV address=2a02:26f7:ba89:4100::/56 } on-error={}
-:do { add list=MV address=2a02:26f7:ba89:4200::/55 } on-error={}
-:do { add list=MV address=2a02:26f7:ba89:4400::/54 } on-error={}
-:do { add list=MV address=2a02:26f7:ba89:4800::/53 } on-error={}
-:do { add list=MV address=2a02:26f7:ba89:5000::/52 } on-error={}
-:do { add list=MV address=2a02:26f7:ba89:6000::/51 } on-error={}
-:do { add list=MV address=2a02:26f7:ba89:8000::/49 } on-error={}
+:do { add list=MV address=2a02:26f7:ba89::/48 } on-error={}
 :do { add list=MV address=2a02:26f7:ba8a::/47 } on-error={}
 :do { add list=MV address=2a02:26f7:ba8c::/46 } on-error={}
 :do { add list=MV address=2a02:26f7:ba90::/44 } on-error={}

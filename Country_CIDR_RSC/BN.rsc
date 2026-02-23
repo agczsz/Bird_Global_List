@@ -1,6 +1,7 @@
 /log info "Loading BN IPv4 Address List"
 /ip firewall address-list
 :do { add list=BN address=5.62.62.48/30 } on-error={}
+:do { add list=BN address=43.175.78.128/25 } on-error={}
 :do { add list=BN address=43.225.136.0/24 } on-error={}
 :do { add list=BN address=43.225.138.0/23 } on-error={}
 :do { add list=BN address=45.127.140.0/23 } on-error={}
@@ -10,7 +11,7 @@
 :do { add list=BN address=58.97.150.0/23 } on-error={}
 :do { add list=BN address=58.97.152.0/24 } on-error={}
 :do { add list=BN address=58.97.156.0/23 } on-error={}
-:do { add list=BN address=58.97.158.0/23 } on-error={}
+:do { add list=BN address=58.97.158.0/24 } on-error={}
 :do { add list=BN address=61.6.192.0/18 } on-error={}
 :do { add list=BN address=63.246.47.64/26 } on-error={}
 :do { add list=BN address=85.153.127.0/24 } on-error={}
@@ -19,6 +20,14 @@
 :do { add list=BN address=103.17.24.0/24 } on-error={}
 :do { add list=BN address=103.20.24.0/22 } on-error={}
 :do { add list=BN address=103.42.208.0/22 } on-error={}
+:do { add list=BN address=103.139.109.16/29 } on-error={}
+:do { add list=BN address=103.139.109.24/30 } on-error={}
+:do { add list=BN address=103.139.109.28/31 } on-error={}
+:do { add list=BN address=103.139.109.34/31 } on-error={}
+:do { add list=BN address=103.139.109.37/32 } on-error={}
+:do { add list=BN address=103.139.109.40/29 } on-error={}
+:do { add list=BN address=103.139.109.48/28 } on-error={}
+:do { add list=BN address=103.139.109.64/26 } on-error={}
 :do { add list=BN address=103.162.82.0/24 } on-error={}
 :do { add list=BN address=104.28.8.131/32 } on-error={}
 :do { add list=BN address=104.28.8.132/31 } on-error={}
@@ -109,7 +118,6 @@
 :do { add list=BN address=192.94.122.0/24 } on-error={}
 :do { add list=BN address=192.109.41.80/29 } on-error={}
 :do { add list=BN address=194.50.99.28/32 } on-error={}
-:do { add list=BN address=195.128.6.0/24 } on-error={}
 :do { add list=BN address=195.128.7.0/24 } on-error={}
 :do { add list=BN address=196.48.56.0/24 } on-error={}
 :do { add list=BN address=196.56.56.0/24 } on-error={}
