@@ -1,8 +1,8 @@
 /log info "Loading SS IPv4 Address List"
 /ip firewall address-list
 :do { add list=SS address=38.43.72.0/22 } on-error={}
-:do { add list=SS address=41.79.25.0/24 } on-error={}
-:do { add list=SS address=41.79.27.0/24 } on-error={}
+:do { add list=SS address=41.79.24.0/24 } on-error={}
+:do { add list=SS address=41.79.26.0/24 } on-error={}
 :do { add list=SS address=41.79.120.0/22 } on-error={}
 :do { add list=SS address=41.222.72.0/22 } on-error={}
 :do { add list=SS address=74.244.83.0/24 } on-error={}
@@ -57,16 +57,12 @@
 :do { add list=SS address=104.28.239.34/31 } on-error={}
 :do { add list=SS address=104.28.239.36/31 } on-error={}
 :do { add list=SS address=104.28.239.38/32 } on-error={}
-:do { add list=SS address=105.235.208.0/26 } on-error={}
 :do { add list=SS address=105.235.208.64/27 } on-error={}
 :do { add list=SS address=105.235.208.96/28 } on-error={}
 :do { add list=SS address=105.235.208.112/31 } on-error={}
 :do { add list=SS address=105.235.208.115/32 } on-error={}
 :do { add list=SS address=105.235.208.116/30 } on-error={}
 :do { add list=SS address=105.235.208.120/29 } on-error={}
-:do { add list=SS address=105.235.208.140/31 } on-error={}
-:do { add list=SS address=105.235.208.143/32 } on-error={}
-:do { add list=SS address=105.235.208.144/28 } on-error={}
 :do { add list=SS address=105.235.208.160/30 } on-error={}
 :do { add list=SS address=105.235.208.164/31 } on-error={}
 :do { add list=SS address=105.235.208.167/32 } on-error={}
@@ -80,19 +76,16 @@
 :do { add list=SS address=105.235.208.248/29 } on-error={}
 :do { add list=SS address=105.235.209.76/32 } on-error={}
 :do { add list=SS address=105.235.209.97/32 } on-error={}
-:do { add list=SS address=105.235.209.100/30 } on-error={}
 :do { add list=SS address=105.235.209.153/32 } on-error={}
 :do { add list=SS address=105.235.209.154/31 } on-error={}
 :do { add list=SS address=105.235.209.157/32 } on-error={}
 :do { add list=SS address=105.235.209.170/32 } on-error={}
-:do { add list=SS address=105.235.209.192/26 } on-error={}
 :do { add list=SS address=105.235.210.0/24 } on-error={}
 :do { add list=SS address=105.235.211.49/32 } on-error={}
 :do { add list=SS address=105.235.211.89/32 } on-error={}
 :do { add list=SS address=105.235.211.105/32 } on-error={}
 :do { add list=SS address=105.235.211.116/31 } on-error={}
 :do { add list=SS address=105.235.211.162/32 } on-error={}
-:do { add list=SS address=105.235.211.192/27 } on-error={}
 :do { add list=SS address=105.235.211.224/31 } on-error={}
 :do { add list=SS address=105.235.211.226/32 } on-error={}
 :do { add list=SS address=105.235.211.228/30 } on-error={}
@@ -104,7 +97,7 @@
 :do { add list=SS address=105.235.212.24/29 } on-error={}
 :do { add list=SS address=105.235.212.32/27 } on-error={}
 :do { add list=SS address=105.235.212.64/27 } on-error={}
-:do { add list=SS address=105.235.212.120/29 } on-error={}
+:do { add list=SS address=105.235.213.0/24 } on-error={}
 :do { add list=SS address=105.235.214.0/23 } on-error={}
 :do { add list=SS address=129.222.116.0/24 } on-error={}
 :do { add list=SS address=136.23.0.151/32 } on-error={}
@@ -122,7 +115,7 @@
 :do { add list=SS address=146.75.166.134/31 } on-error={}
 :do { add list=SS address=146.75.174.136/31 } on-error={}
 :do { add list=SS address=153.67.98.0/23 } on-error={}
-:do { add list=SS address=154.73.88.0/23 } on-error={}
+:do { add list=SS address=154.73.91.0/24 } on-error={}
 :do { add list=SS address=159.26.127.156/30 } on-error={}
 :do { add list=SS address=163.116.180.121/32 } on-error={}
 :do { add list=SS address=163.116.180.122/32 } on-error={}
@@ -150,6 +143,7 @@
 :do { add list=SS address=196.197.180.0/24 } on-error={}
 :do { add list=SS address=196.198.180.0/24 } on-error={}
 :do { add list=SS address=196.199.180.0/24 } on-error={}
+:do { add list=SS address=196.201.8.0/23 } on-error={}
 :do { add list=SS address=196.201.10.0/23 } on-error={}
 :do { add list=SS address=197.231.236.0/22 } on-error={}
 :do { add list=SS address=197.251.38.0/24 } on-error={}

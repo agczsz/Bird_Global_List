@@ -79,15 +79,7 @@
 :do { add list=FM address=146.75.136.8/31 } on-error={}
 :do { add list=FM address=146.75.160.20/31 } on-error={}
 :do { add list=FM address=146.75.187.6/31 } on-error={}
-:do { add list=FM address=150.48.183.44/30 } on-error={}
 :do { add list=FM address=150.228.212.128/25 } on-error={}
-:do { add list=FM address=157.5.67.181/32 } on-error={}
-:do { add list=FM address=157.5.67.182/32 } on-error={}
-:do { add list=FM address=157.5.73.232/31 } on-error={}
-:do { add list=FM address=157.5.80.215/32 } on-error={}
-:do { add list=FM address=157.5.80.216/32 } on-error={}
-:do { add list=FM address=157.5.83.208/31 } on-error={}
-:do { add list=FM address=157.5.91.180/31 } on-error={}
 :do { add list=FM address=162.120.200.152/32 } on-error={}
 :do { add list=FM address=162.120.202.102/32 } on-error={}
 :do { add list=FM address=163.116.192.106/31 } on-error={}

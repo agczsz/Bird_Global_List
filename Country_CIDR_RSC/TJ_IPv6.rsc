@@ -58,7 +58,16 @@
 :do { add list=TJ address=2606:40:22fc:c000::/51 } on-error={}
 :do { add list=TJ address=2606:54c0:5778::/45 } on-error={}
 :do { add list=TJ address=2606:54c3:0:12f8::/64 } on-error={}
-:do { add list=TJ address=2607:8940:3d28::/46 } on-error={}
+:do { add list=TJ address=2607:8940:3d28::/47 } on-error={}
+:do { add list=TJ address=2607:8940:3d2a:100::/56 } on-error={}
+:do { add list=TJ address=2607:8940:3d2a:200::/55 } on-error={}
+:do { add list=TJ address=2607:8940:3d2a:400::/54 } on-error={}
+:do { add list=TJ address=2607:8940:3d2a:800::/53 } on-error={}
+:do { add list=TJ address=2607:8940:3d2a:1000::/52 } on-error={}
+:do { add list=TJ address=2607:8940:3d2a:2000::/51 } on-error={}
+:do { add list=TJ address=2607:8940:3d2a:4000::/50 } on-error={}
+:do { add list=TJ address=2607:8940:3d2a:8000::/49 } on-error={}
+:do { add list=TJ address=2607:8940:3d2b::/48 } on-error={}
 :do { add list=TJ address=2607:8940:4172:2c00::/55 } on-error={}
 :do { add list=TJ address=2607:8940:4192:2c00::/55 } on-error={}
 :do { add list=TJ address=2607:8940:41f0:6400::/55 } on-error={}

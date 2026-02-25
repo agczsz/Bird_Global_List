@@ -98,8 +98,6 @@
 :do { add list=KN address=104.255.178.240/32 } on-error={}
 :do { add list=KN address=104.255.178.247/32 } on-error={}
 :do { add list=KN address=104.255.178.252/32 } on-error={}
-:do { add list=KN address=131.125.105.6/32 } on-error={}
-:do { add list=KN address=131.125.107.19/32 } on-error={}
 :do { add list=KN address=136.23.23.46/32 } on-error={}
 :do { add list=KN address=136.23.27.30/32 } on-error={}
 :do { add list=KN address=140.248.12.26/31 } on-error={}
@@ -115,10 +113,7 @@
 :do { add list=KN address=146.75.232.26/31 } on-error={}
 :do { add list=KN address=146.75.248.26/31 } on-error={}
 :do { add list=KN address=149.112.30.0/24 } on-error={}
-:do { add list=KN address=150.48.179.68/31 } on-error={}
 :do { add list=KN address=153.67.162.0/23 } on-error={}
-:do { add list=KN address=157.5.67.137/32 } on-error={}
-:do { add list=KN address=157.5.91.136/32 } on-error={}
 :do { add list=KN address=157.167.124.0/24 } on-error={}
 :do { add list=KN address=162.120.193.228/32 } on-error={}
 :do { add list=KN address=162.120.202.217/32 } on-error={}

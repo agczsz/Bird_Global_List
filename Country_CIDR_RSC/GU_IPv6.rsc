@@ -4,11 +4,8 @@
 :do { add list=GU address=2001:388:cf85:1::/64 } on-error={}
 :do { add list=GU address=2001:388:cf85:2::/63 } on-error={}
 :do { add list=GU address=2001:388:cf85:5::/64 } on-error={}
-:do { add list=GU address=2001:470:0:49d::/64 } on-error={}
-:do { add list=GU address=2001:470:0:49e::2/128 } on-error={}
 :do { add list=GU address=2001:470:1:b76::/64 } on-error={}
 :do { add list=GU address=2001:470:1:d05::/64 } on-error={}
-:do { add list=GU address=2001:470:1:e17::/64 } on-error={}
 :do { add list=GU address=2001:470:1:e81::/64 } on-error={}
 :do { add list=GU address=2001:470:19:26::/64 } on-error={}
 :do { add list=GU address=2001:470:19:98::/64 } on-error={}
@@ -22,7 +19,6 @@
 :do { add list=GU address=2001:550:0:1000::9a36:5ad/128 } on-error={}
 :do { add list=GU address=2001:550:0:1000::9a36:1ddd/128 } on-error={}
 :do { add list=GU address=2001:550:0:1000::9a36:5b7e/128 } on-error={}
-:do { add list=GU address=2001:5a0:d00::426e:ae/128 } on-error={}
 :do { add list=GU address=2001:5a0:2200:300::d/128 } on-error={}
 :do { add list=GU address=2001:5a0:2200:400::59/128 } on-error={}
 :do { add list=GU address=2001:de9:4000::/48 } on-error={}
@@ -253,7 +249,7 @@
 :do { add list=GU address=2407:940:0:45::/64 } on-error={}
 :do { add list=GU address=2407:940:0:112::/64 } on-error={}
 :do { add list=GU address=2600:1488:5fc0::1b/128 } on-error={}
-:do { add list=GU address=2600:1488:5fc2::27/128 } on-error={}
+:do { add list=GU address=2600:1488:5fc2::26/127 } on-error={}
 :do { add list=GU address=2600:1488:5fc2::28/128 } on-error={}
 :do { add list=GU address=2600:70ff:aa40::/48 } on-error={}
 :do { add list=GU address=2600:70ff:c037::/48 } on-error={}

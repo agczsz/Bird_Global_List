@@ -107,6 +107,7 @@
 :do { add list=BT address=2403:580:100::/40 } on-error={}
 :do { add list=BT address=2403:580:200::/44 } on-error={}
 :do { add list=BT address=2403:580:210::/48 } on-error={}
+:do { add list=BT address=2403:580:211:100::/56 } on-error={}
 :do { add list=BT address=2403:580:212::/47 } on-error={}
 :do { add list=BT address=2403:580:214::/46 } on-error={}
 :do { add list=BT address=2403:580:218::/45 } on-error={}

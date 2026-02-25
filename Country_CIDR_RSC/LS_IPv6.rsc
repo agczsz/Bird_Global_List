@@ -32,7 +32,15 @@
 :do { add list=LS address=2607:8940:4191:6e00::/56 } on-error={}
 :do { add list=LS address=2a00:ca0:2002:a000::/52 } on-error={}
 :do { add list=LS address=2a02:26f0:2000:100::/56 } on-error={}
-:do { add list=LS address=2a02:26f0:2000:200::/55 } on-error={}
+:do { add list=LS address=2a02:26f0:2000:200::/56 } on-error={}
+:do { add list=LS address=2a02:26f0:2000:300::/63 } on-error={}
+:do { add list=LS address=2a02:26f0:2000:303::/64 } on-error={}
+:do { add list=LS address=2a02:26f0:2000:304::/62 } on-error={}
+:do { add list=LS address=2a02:26f0:2000:308::/61 } on-error={}
+:do { add list=LS address=2a02:26f0:2000:310::/60 } on-error={}
+:do { add list=LS address=2a02:26f0:2000:320::/59 } on-error={}
+:do { add list=LS address=2a02:26f0:2000:340::/58 } on-error={}
+:do { add list=LS address=2a02:26f0:2000:380::/57 } on-error={}
 :do { add list=LS address=2a02:26f0:2000:400::/54 } on-error={}
 :do { add list=LS address=2a02:26f0:2000:800::/53 } on-error={}
 :do { add list=LS address=2a02:26f0:2000:1000::/52 } on-error={}

@@ -225,7 +225,6 @@
 :do { add list=EC address=64.86.66.0/23 } on-error={}
 :do { add list=EC address=64.208.110.41/32 } on-error={}
 :do { add list=EC address=64.208.110.42/32 } on-error={}
-:do { add list=EC address=64.215.146.0/24 } on-error={}
 :do { add list=EC address=66.54.168.168/29 } on-error={}
 :do { add list=EC address=66.54.168.176/29 } on-error={}
 :do { add list=EC address=66.102.36.192/26 } on-error={}
@@ -442,12 +441,6 @@
 :do { add list=EC address=149.19.163.0/24 } on-error={}
 :do { add list=EC address=149.50.192.0/20 } on-error={}
 :do { add list=EC address=149.126.9.56/29 } on-error={}
-:do { add list=EC address=150.48.178.138/31 } on-error={}
-:do { add list=EC address=150.48.178.140/30 } on-error={}
-:do { add list=EC address=150.48.178.144/28 } on-error={}
-:do { add list=EC address=150.48.178.160/27 } on-error={}
-:do { add list=EC address=150.48.178.192/28 } on-error={}
-:do { add list=EC address=150.48.178.208/29 } on-error={}
 :do { add list=EC address=153.67.20.0/23 } on-error={}
 :do { add list=EC address=153.72.9.160/27 } on-error={}
 :do { add list=EC address=153.72.9.192/27 } on-error={}
@@ -459,9 +452,6 @@
 :do { add list=EC address=155.190.15.29/32 } on-error={}
 :do { add list=EC address=155.190.20.92/32 } on-error={}
 :do { add list=EC address=155.190.20.120/32 } on-error={}
-:do { add list=EC address=157.5.124.149/32 } on-error={}
-:do { add list=EC address=157.5.124.150/31 } on-error={}
-:do { add list=EC address=157.5.124.152/29 } on-error={}
 :do { add list=EC address=157.100.0.0/19 } on-error={}
 :do { add list=EC address=157.100.32.0/21 } on-error={}
 :do { add list=EC address=157.100.40.0/23 } on-error={}
@@ -1928,7 +1918,6 @@
 :do { add list=EC address=205.235.4.0/24 } on-error={}
 :do { add list=EC address=205.235.5.0/24 } on-error={}
 :do { add list=EC address=205.235.6.0/23 } on-error={}
-:do { add list=EC address=206.132.99.0/24 } on-error={}
 :do { add list=EC address=206.165.205.0/24 } on-error={}
 :do { add list=EC address=207.209.121.0/26 } on-error={}
 :do { add list=EC address=208.127.21.1/32 } on-error={}

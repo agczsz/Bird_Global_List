@@ -304,8 +304,7 @@
 :do { add list=RE address=2c0f:2a80:740::/42 } on-error={}
 :do { add list=RE address=2c0f:2a80:20c1::/48 } on-error={}
 :do { add list=RE address=2c0f:2a80:20c2::/47 } on-error={}
-:do { add list=RE address=2c0f:2a80:20c4::/48 } on-error={}
-:do { add list=RE address=2c0f:2a80:20c6::/47 } on-error={}
+:do { add list=RE address=2c0f:2a80:20c4::/46 } on-error={}
 :do { add list=RE address=2c0f:2a80:20c8::/45 } on-error={}
 :do { add list=RE address=2c0f:2a80:20d0::/44 } on-error={}
 :do { add list=RE address=2c0f:2a80:20e0::/43 } on-error={}

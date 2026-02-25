@@ -56,6 +56,8 @@
 :do { add list=MG address=2607:8940:4191:7a00::/56 } on-error={}
 :do { add list=MG address=2620:0:876:6400::/56 } on-error={}
 :do { add list=MG address=2620:0:1cff:dead:bef1:100:1:14d/128 } on-error={}
+:do { add list=MG address=2620:0:1cff:dead:bef1:100:1:2a3/128 } on-error={}
+:do { add list=MG address=2620:0:1cff:dead:bef1:100:1:33b/128 } on-error={}
 :do { add list=MG address=2620:0:1cff:dead:bef1:100:3:141/128 } on-error={}
 :do { add list=MG address=2620:0:1cff:dead:bef1:100:4:15b/128 } on-error={}
 :do { add list=MG address=2620:0:1cff:dead:bef1:100:13:137/128 } on-error={}

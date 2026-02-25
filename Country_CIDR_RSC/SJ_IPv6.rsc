@@ -26,13 +26,6 @@
 :do { add list=SJ address=2607:8940:298a::/47 } on-error={}
 :do { add list=SJ address=2607:8940:4120:a600::/55 } on-error={}
 :do { add list=SJ address=2607:8940:4130:a600::/55 } on-error={}
-:do { add list=SJ address=2607:8940:4130:a800::/53 } on-error={}
-:do { add list=SJ address=2607:8940:4130:b000::/52 } on-error={}
-:do { add list=SJ address=2607:8940:4130:c000::/50 } on-error={}
-:do { add list=SJ address=2607:8940:4131::/48 } on-error={}
-:do { add list=SJ address=2607:8940:4132::/47 } on-error={}
-:do { add list=SJ address=2607:8940:4134::/46 } on-error={}
-:do { add list=SJ address=2607:8940:4138::/45 } on-error={}
 :do { add list=SJ address=2607:8940:4163:fc00::/55 } on-error={}
 :do { add list=SJ address=2607:8940:4183:fc00::/55 } on-error={}
 :do { add list=SJ address=2a03:b600:0:11fb::/64 } on-error={}

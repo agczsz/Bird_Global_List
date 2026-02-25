@@ -117,7 +117,6 @@
 :do { add list=MV address=123.176.0.0/19 } on-error={}
 :do { add list=MV address=124.195.192.0/19 } on-error={}
 :do { add list=MV address=129.134.176.0/24 } on-error={}
-:do { add list=MV address=131.125.102.115/32 } on-error={}
 :do { add list=MV address=140.248.43.14/31 } on-error={}
 :do { add list=MV address=140.248.48.28/31 } on-error={}
 :do { add list=MV address=140.248.56.154/32 } on-error={}
@@ -131,11 +130,9 @@
 :do { add list=MV address=146.75.132.86/31 } on-error={}
 :do { add list=MV address=146.75.146.14/31 } on-error={}
 :do { add list=MV address=146.75.160.86/31 } on-error={}
-:do { add list=MV address=150.48.166.116/30 } on-error={}
 :do { add list=MV address=150.107.196.0/22 } on-error={}
 :do { add list=MV address=150.228.210.0/23 } on-error={}
 :do { add list=MV address=154.18.3.111/32 } on-error={}
-:do { add list=MV address=157.5.113.153/32 } on-error={}
 :do { add list=MV address=157.167.88.0/24 } on-error={}
 :do { add list=MV address=157.167.231.139/32 } on-error={}
 :do { add list=MV address=157.167.231.140/32 } on-error={}
@@ -185,7 +182,16 @@
 :do { add list=MV address=202.21.182.0/23 } on-error={}
 :do { add list=MV address=202.21.184.0/22 } on-error={}
 :do { add list=MV address=202.21.188.0/22 } on-error={}
-:do { add list=MV address=202.153.80.0/21 } on-error={}
+:do { add list=MV address=202.153.80.0/22 } on-error={}
+:do { add list=MV address=202.153.84.0/24 } on-error={}
+:do { add list=MV address=202.153.85.0/25 } on-error={}
+:do { add list=MV address=202.153.85.128/27 } on-error={}
+:do { add list=MV address=202.153.85.160/28 } on-error={}
+:do { add list=MV address=202.153.85.176/29 } on-error={}
+:do { add list=MV address=202.153.85.184/30 } on-error={}
+:do { add list=MV address=202.153.85.190/31 } on-error={}
+:do { add list=MV address=202.153.85.192/26 } on-error={}
+:do { add list=MV address=202.153.86.0/23 } on-error={}
 :do { add list=MV address=203.82.2.0/23 } on-error={}
 :do { add list=MV address=203.104.24.0/21 } on-error={}
 :do { add list=MV address=203.208.148.162/32 } on-error={}

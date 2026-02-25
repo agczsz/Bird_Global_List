@@ -152,14 +152,8 @@
 :do { add list=UY address=146.75.191.24/31 } on-error={}
 :do { add list=UY address=148.227.104.0/23 } on-error={}
 :do { add list=UY address=149.126.9.184/29 } on-error={}
-:do { add list=UY address=150.48.180.90/31 } on-error={}
-:do { add list=UY address=150.48.180.92/30 } on-error={}
-:do { add list=UY address=150.48.180.96/28 } on-error={}
-:do { add list=UY address=150.48.180.112/31 } on-error={}
 :do { add list=UY address=152.156.0.0/16 } on-error={}
 :do { add list=UY address=153.72.24.192/26 } on-error={}
-:do { add list=UY address=157.5.124.212/30 } on-error={}
-:do { add list=UY address=157.5.124.216/31 } on-error={}
 :do { add list=UY address=157.167.24.0/24 } on-error={}
 :do { add list=UY address=157.167.224.53/32 } on-error={}
 :do { add list=UY address=157.167.224.54/32 } on-error={}
@@ -294,6 +288,8 @@
 :do { add list=UY address=177.101.254.16/29 } on-error={}
 :do { add list=UY address=177.101.254.32/27 } on-error={}
 :do { add list=UY address=177.101.254.64/26 } on-error={}
+:do { add list=UY address=177.101.254.128/28 } on-error={}
+:do { add list=UY address=177.101.254.152/29 } on-error={}
 :do { add list=UY address=177.101.254.180/30 } on-error={}
 :do { add list=UY address=179.0.156.0/22 } on-error={}
 :do { add list=UY address=179.0.194.0/23 } on-error={}
@@ -368,9 +364,8 @@
 :do { add list=UY address=179.31.62.236/30 } on-error={}
 :do { add list=UY address=179.31.62.241/32 } on-error={}
 :do { add list=UY address=179.31.62.244/32 } on-error={}
-:do { add list=UY address=179.31.62.246/31 } on-error={}
+:do { add list=UY address=179.31.62.247/32 } on-error={}
 :do { add list=UY address=179.31.62.248/31 } on-error={}
-:do { add list=UY address=179.31.62.253/32 } on-error={}
 :do { add list=UY address=179.31.63.0/24 } on-error={}
 :do { add list=UY address=179.31.64.0/18 } on-error={}
 :do { add list=UY address=179.31.128.0/17 } on-error={}
@@ -454,7 +449,6 @@
 :do { add list=UY address=200.0.96.0/22 } on-error={}
 :do { add list=UY address=200.0.137.0/24 } on-error={}
 :do { add list=UY address=200.0.138.0/24 } on-error={}
-:do { add list=UY address=200.0.207.213/32 } on-error={}
 :do { add list=UY address=200.2.32.0/19 } on-error={}
 :do { add list=UY address=200.3.114.0/24 } on-error={}
 :do { add list=UY address=200.5.0.0/23 } on-error={}
@@ -475,6 +469,7 @@
 :do { add list=UY address=200.40.0.0/18 } on-error={}
 :do { add list=UY address=200.40.64.3/32 } on-error={}
 :do { add list=UY address=200.40.64.4/30 } on-error={}
+:do { add list=UY address=200.40.64.11/32 } on-error={}
 :do { add list=UY address=200.40.64.68/31 } on-error={}
 :do { add list=UY address=200.40.64.71/32 } on-error={}
 :do { add list=UY address=200.40.64.77/32 } on-error={}
@@ -488,14 +483,10 @@
 :do { add list=UY address=200.40.64.148/32 } on-error={}
 :do { add list=UY address=200.40.64.151/32 } on-error={}
 :do { add list=UY address=200.40.64.153/32 } on-error={}
-:do { add list=UY address=200.40.64.155/32 } on-error={}
-:do { add list=UY address=200.40.64.160/31 } on-error={}
+:do { add list=UY address=200.40.64.160/32 } on-error={}
 :do { add list=UY address=200.40.64.163/32 } on-error={}
 :do { add list=UY address=200.40.64.164/30 } on-error={}
-:do { add list=UY address=200.40.64.168/30 } on-error={}
-:do { add list=UY address=200.40.64.172/32 } on-error={}
-:do { add list=UY address=200.40.64.174/31 } on-error={}
-:do { add list=UY address=200.40.64.176/28 } on-error={}
+:do { add list=UY address=200.40.64.176/30 } on-error={}
 :do { add list=UY address=200.40.64.192/26 } on-error={}
 :do { add list=UY address=200.40.65.11/32 } on-error={}
 :do { add list=UY address=200.40.65.12/30 } on-error={}
@@ -511,7 +502,6 @@
 :do { add list=UY address=200.40.65.156/32 } on-error={}
 :do { add list=UY address=200.40.65.160/30 } on-error={}
 :do { add list=UY address=200.40.65.166/31 } on-error={}
-:do { add list=UY address=200.40.65.171/32 } on-error={}
 :do { add list=UY address=200.40.65.172/30 } on-error={}
 :do { add list=UY address=200.40.65.176/32 } on-error={}
 :do { add list=UY address=200.40.65.180/30 } on-error={}

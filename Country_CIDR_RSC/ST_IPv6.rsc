@@ -88,7 +88,13 @@
 :do { add list=ST address=2804:71f0:4013:ae00::/55 } on-error={}
 :do { add list=ST address=2804:71f0:4013:b000::/52 } on-error={}
 :do { add list=ST address=2804:71f0:4013:c000::/50 } on-error={}
-:do { add list=ST address=2804:71f0:4014::/49 } on-error={}
+:do { add list=ST address=2804:71f0:4014::/51 } on-error={}
+:do { add list=ST address=2804:71f0:4014:2000::/52 } on-error={}
+:do { add list=ST address=2804:71f0:4014:3000::/53 } on-error={}
+:do { add list=ST address=2804:71f0:4014:3800::/54 } on-error={}
+:do { add list=ST address=2804:71f0:4014:3c00::/56 } on-error={}
+:do { add list=ST address=2804:71f0:4014:3e00::/55 } on-error={}
+:do { add list=ST address=2804:71f0:4014:4000::/50 } on-error={}
 :do { add list=ST address=2804:71f0:4016::/50 } on-error={}
 :do { add list=ST address=2804:71f0:4016:4000::/56 } on-error={}
 :do { add list=ST address=2804:71f0:4016:4200::/55 } on-error={}

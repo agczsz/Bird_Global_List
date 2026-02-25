@@ -1,5 +1,6 @@
 /log info "Loading KH IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=KH address=2001:470:0:54b::/64 } on-error={}
 :do { add list=KH address=2001:470:1:eb2::/64 } on-error={}
 :do { add list=KH address=2001:470:19:3e9::/64 } on-error={}
 :do { add list=KH address=2001:470:19:46f::/64 } on-error={}
@@ -24198,7 +24199,6 @@
 :do { add list=KH address=2001:470:7587::/48 } on-error={}
 :do { add list=KH address=2001:470:8aa3::/48 } on-error={}
 :do { add list=KH address=2001:470:e220::/48 } on-error={}
-:do { add list=KH address=2001:470:ec48::/48 } on-error={}
 :do { add list=KH address=2001:470:ed23::/48 } on-error={}
 :do { add list=KH address=2001:470:f585::/48 } on-error={}
 :do { add list=KH address=2001:470:f62a::/48 } on-error={}
@@ -24297,22 +24297,7 @@
 :do { add list=KH address=2400:cb00:274::/48 } on-error={}
 :do { add list=KH address=2400:cb00:301::/48 } on-error={}
 :do { add list=KH address=2400:d460::/32 } on-error={}
-:do { add list=KH address=2400:ef20::/44 } on-error={}
-:do { add list=KH address=2400:ef20:10::/48 } on-error={}
-:do { add list=KH address=2400:ef20:12::/47 } on-error={}
-:do { add list=KH address=2400:ef20:14::/46 } on-error={}
-:do { add list=KH address=2400:ef20:18::/45 } on-error={}
-:do { add list=KH address=2400:ef20:20::/43 } on-error={}
-:do { add list=KH address=2400:ef20:40::/42 } on-error={}
-:do { add list=KH address=2400:ef20:80::/41 } on-error={}
-:do { add list=KH address=2400:ef20:100::/40 } on-error={}
-:do { add list=KH address=2400:ef20:200::/39 } on-error={}
-:do { add list=KH address=2400:ef20:400::/38 } on-error={}
-:do { add list=KH address=2400:ef20:800::/37 } on-error={}
-:do { add list=KH address=2400:ef20:1000::/36 } on-error={}
-:do { add list=KH address=2400:ef20:2000::/35 } on-error={}
-:do { add list=KH address=2400:ef20:4000::/34 } on-error={}
-:do { add list=KH address=2400:ef20:8000::/33 } on-error={}
+:do { add list=KH address=2400:ef20::/32 } on-error={}
 :do { add list=KH address=2400:fa60::/32 } on-error={}
 :do { add list=KH address=2400:ffa0::/32 } on-error={}
 :do { add list=KH address=2401:b60:1250:4000::/50 } on-error={}
@@ -24756,6 +24741,7 @@
 :do { add list=KH address=2607:8940:41a1:4400::/56 } on-error={}
 :do { add list=KH address=2607:8940:41d0:6100::/56 } on-error={}
 :do { add list=KH address=2607:8940:41d0:6200::/56 } on-error={}
+:do { add list=KH address=2620:0:876:876::2/128 } on-error={}
 :do { add list=KH address=2620:0:876:7600::/56 } on-error={}
 :do { add list=KH address=2a02:26f7:c780:4000::/64 } on-error={}
 :do { add list=KH address=2a02:26f7:c780:d240::/61 } on-error={}

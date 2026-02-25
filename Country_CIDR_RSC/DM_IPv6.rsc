@@ -24116,7 +24116,15 @@
 :do { add list=DM address=2606:40:2149:e000::/51 } on-error={}
 :do { add list=DM address=2606:54c0:2ff8::/45 } on-error={}
 :do { add list=DM address=2606:54c3:0:518::/64 } on-error={}
-:do { add list=DM address=2607:8940:2522::/47 } on-error={}
+:do { add list=DM address=2607:8940:2522:100::/56 } on-error={}
+:do { add list=DM address=2607:8940:2522:200::/55 } on-error={}
+:do { add list=DM address=2607:8940:2522:400::/54 } on-error={}
+:do { add list=DM address=2607:8940:2522:800::/53 } on-error={}
+:do { add list=DM address=2607:8940:2522:1000::/52 } on-error={}
+:do { add list=DM address=2607:8940:2522:2000::/51 } on-error={}
+:do { add list=DM address=2607:8940:2522:4000::/50 } on-error={}
+:do { add list=DM address=2607:8940:2522:8000::/49 } on-error={}
+:do { add list=DM address=2607:8940:2523::/48 } on-error={}
 :do { add list=DM address=2607:8940:2526::/47 } on-error={}
 :do { add list=DM address=2607:8940:4023:7400::/55 } on-error={}
 :do { add list=DM address=2607:8940:4080:fe00::/55 } on-error={}
