@@ -1197,6 +1197,8 @@
 :do { add list=AO address=2a12:ef85:5000::/36 } on-error={}
 :do { add list=AO address=2a12:f381:8700::/40 } on-error={}
 :do { add list=AO address=2a12:f382:8700::/40 } on-error={}
+:do { add list=AO address=2a12:f8c3:1:b94::/64 } on-error={}
+:do { add list=AO address=2a12:f8c3:1:bcb::/64 } on-error={}
 :do { add list=AO address=2a13:3ac5:0:100::/56 } on-error={}
 :do { add list=AO address=2a13:3ac5:0:200::/55 } on-error={}
 :do { add list=AO address=2a13:3ac5:0:400::/54 } on-error={}

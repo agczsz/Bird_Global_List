@@ -2,7 +2,6 @@
 /ipv6 firewall address-list
 :do { add list=SC address=2001:470:19:b1::/64 } on-error={}
 :do { add list=SC address=2001:470:19:762::/64 } on-error={}
-:do { add list=SC address=2001:470:36:7fb::/64 } on-error={}
 :do { add list=SC address=2001:470:36:c08::/64 } on-error={}
 :do { add list=SC address=2001:470:36:cab::/64 } on-error={}
 :do { add list=SC address=2001:470:36:d4a::/64 } on-error={}
@@ -3065,6 +3064,8 @@
 :do { add list=SC address=2a12:f004:7000::/36 } on-error={}
 :do { add list=SC address=2a12:f381:1b00::/40 } on-error={}
 :do { add list=SC address=2a12:f382:1b00::/40 } on-error={}
+:do { add list=SC address=2a12:f8c3:1:cb08::/64 } on-error={}
+:do { add list=SC address=2a12:f8c3:1:cb29::/64 } on-error={}
 :do { add list=SC address=2a13:600:0:1::/64 } on-error={}
 :do { add list=SC address=2a13:600:0:2::/63 } on-error={}
 :do { add list=SC address=2a13:600:0:4::/62 } on-error={}

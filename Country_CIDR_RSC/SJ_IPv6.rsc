@@ -2,9 +2,9 @@
 /ipv6 firewall address-list
 :do { add list=SJ address=2001:470:19:f1c::/64 } on-error={}
 :do { add list=SJ address=2001:470:19:130b::/64 } on-error={}
-:do { add list=SJ address=2001:470:36:18f::/64 } on-error={}
 :do { add list=SJ address=2001:470:36:902::/64 } on-error={}
 :do { add list=SJ address=2001:470:f497::/48 } on-error={}
+:do { add list=SJ address=2001:470:f6c3::/48 } on-error={}
 :do { add list=SJ address=2001:4b28:1500::/40 } on-error={}
 :do { add list=SJ address=2401:b60:1db0:4000::/50 } on-error={}
 :do { add list=SJ address=2401:b60:1db0:8000::/49 } on-error={}
@@ -83,6 +83,8 @@
 :do { add list=SJ address=2a12:bec4:12a5:2894::/63 } on-error={}
 :do { add list=SJ address=2a12:bec4:12a8:ce00::/56 } on-error={}
 :do { add list=SJ address=2a12:f004:a000::/36 } on-error={}
+:do { add list=SJ address=2a12:f8c3:1:d43e::/64 } on-error={}
+:do { add list=SJ address=2a12:f8c3:1:d484::/64 } on-error={}
 :do { add list=SJ address=2a13:a5c7:25c8::/48 } on-error={}
 :do { add list=SJ address=2a13:a5c7:25ff:c800::/56 } on-error={}
 :do { add list=SJ address=2a13:aac7:30::/44 } on-error={}

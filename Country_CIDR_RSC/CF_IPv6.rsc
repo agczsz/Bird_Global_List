@@ -2,7 +2,6 @@
 /ipv6 firewall address-list
 :do { add list=CF address=2001:470:19:d93::/64 } on-error={}
 :do { add list=CF address=2001:470:26:1d5::/64 } on-error={}
-:do { add list=CF address=2001:470:36:442::/64 } on-error={}
 :do { add list=CF address=2001:470:36:1090::/64 } on-error={}
 :do { add list=CF address=2001:470:6d:5bd::/64 } on-error={}
 :do { add list=CF address=2001:470:6d:f57::/64 } on-error={}
@@ -172,6 +171,8 @@
 :do { add list=CF address=2a12:f007:2000::/35 } on-error={}
 :do { add list=CF address=2a12:f381:a700::/40 } on-error={}
 :do { add list=CF address=2a12:f382:a700::/40 } on-error={}
+:do { add list=CF address=2a12:f8c3:1:2b3f::/64 } on-error={}
+:do { add list=CF address=2a12:f8c3:1:2b4e::/64 } on-error={}
 :do { add list=CF address=2a13:82c4:ff53::/48 } on-error={}
 :do { add list=CF address=2a13:a5c3:d120::/46 } on-error={}
 :do { add list=CF address=2a13:a5c3:d1d0::/44 } on-error={}

@@ -1181,7 +1181,6 @@
 :do { add list=PE address=2803:b9c0:9420::/43 } on-error={}
 :do { add list=PE address=2803:b9c0:9440::/42 } on-error={}
 :do { add list=PE address=2803:b9c0:9480::/41 } on-error={}
-:do { add list=PE address=2803:b9c0:96c4:c8d8::/64 } on-error={}
 :do { add list=PE address=2803:b9c0:9900::/49 } on-error={}
 :do { add list=PE address=2803:b9c0:9900:8000::/50 } on-error={}
 :do { add list=PE address=2803:b9c0:9901::/48 } on-error={}
@@ -3371,6 +3370,8 @@
 :do { add list=PE address=2a12:dd83::/32 } on-error={}
 :do { add list=PE address=2a12:f381:3000::/40 } on-error={}
 :do { add list=PE address=2a12:f382:3000::/40 } on-error={}
+:do { add list=PE address=2a12:f8c3:1:b704::/64 } on-error={}
+:do { add list=PE address=2a12:f8c3:1:b7d5::/64 } on-error={}
 :do { add list=PE address=2a13:3ac6:d000::/36 } on-error={}
 :do { add list=PE address=2a13:9500:94::/48 } on-error={}
 :do { add list=PE address=2a13:9500:a5::/48 } on-error={}

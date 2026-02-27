@@ -204,6 +204,8 @@
 :do { add list=NE address=2a12:f006:f000::/36 } on-error={}
 :do { add list=NE address=2a12:f381:3900::/40 } on-error={}
 :do { add list=NE address=2a12:f382:3900::/40 } on-error={}
+:do { add list=NE address=2a12:f8c3:1:a940::/64 } on-error={}
+:do { add list=NE address=2a12:f8c3:1:a946::/64 } on-error={}
 :do { add list=NE address=2a13:82c4:ff6d::/48 } on-error={}
 :do { add list=NE address=2a13:a5c3:d180::/46 } on-error={}
 :do { add list=NE address=2a13:a5c7:25a2::/48 } on-error={}

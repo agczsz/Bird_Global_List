@@ -2090,6 +2090,8 @@
 :do { add list=AM address=2a12:ef85:4000::/36 } on-error={}
 :do { add list=AM address=2a12:f381:8600::/40 } on-error={}
 :do { add list=AM address=2a12:f382:8600::/40 } on-error={}
+:do { add list=AM address=2a12:f8c3:1:a3d::/64 } on-error={}
+:do { add list=AM address=2a12:f8c3:1:a67::/64 } on-error={}
 :do { add list=AM address=2a13:1ec0::/44 } on-error={}
 :do { add list=AM address=2a13:1ec0:10::/44 } on-error={}
 :do { add list=AM address=2a13:1ec0:20::/43 } on-error={}

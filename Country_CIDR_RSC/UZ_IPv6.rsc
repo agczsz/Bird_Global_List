@@ -1256,6 +1256,8 @@
 :do { add list=UZ address=2a12:ef83::/32 } on-error={}
 :do { add list=UZ address=2a12:f381:f400::/40 } on-error={}
 :do { add list=UZ address=2a12:f382:f400::/40 } on-error={}
+:do { add list=UZ address=2a12:f8c3:1:ee87::/64 } on-error={}
+:do { add list=UZ address=2a12:f8c3:1:eee2::/64 } on-error={}
 :do { add list=UZ address=2a13:3ac7:6000::/36 } on-error={}
 :do { add list=UZ address=2a13:82c4:ff2d::/48 } on-error={}
 :do { add list=UZ address=2a13:98c0::/29 } on-error={}

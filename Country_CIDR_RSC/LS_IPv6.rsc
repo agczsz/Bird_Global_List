@@ -173,6 +173,8 @@
 :do { add list=LS address=2a12:f002:2000::/36 } on-error={}
 :do { add list=LS address=2a12:f381:5700::/40 } on-error={}
 :do { add list=LS address=2a12:f382:5700::/40 } on-error={}
+:do { add list=LS address=2a12:f8c3:1:887d::/64 } on-error={}
+:do { add list=LS address=2a12:f8c3:1:89a3::/64 } on-error={}
 :do { add list=LS address=2a13:82c4:ff61::/48 } on-error={}
 :do { add list=LS address=2a13:a5c3:d154::/46 } on-error={}
 :do { add list=LS address=2a13:a5c7:2584::/48 } on-error={}

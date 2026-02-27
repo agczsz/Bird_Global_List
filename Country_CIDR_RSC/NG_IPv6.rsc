@@ -239,6 +239,7 @@
 :do { add list=NG address=2602:f5c1:30::/48 } on-error={}
 :do { add list=NG address=2602:f921:f0b::/48 } on-error={}
 :do { add list=NG address=2602:f92a:fe11::/48 } on-error={}
+:do { add list=NG address=2602:f92a:ff11::/48 } on-error={}
 :do { add list=NG address=2602:f9a9:5:321::/64 } on-error={}
 :do { add list=NG address=2602:fa93:e:321::/64 } on-error={}
 :do { add list=NG address=2602:faa8:451:221::/64 } on-error={}
@@ -2158,6 +2159,8 @@
 :do { add list=NG address=2a12:dd80::/32 } on-error={}
 :do { add list=NG address=2a12:f381:7c00::/40 } on-error={}
 :do { add list=NG address=2a12:f382:7c00::/40 } on-error={}
+:do { add list=NG address=2a12:f8c3:1:a9a8::/64 } on-error={}
+:do { add list=NG address=2a12:f8c3:1:aa11::/64 } on-error={}
 :do { add list=NG address=2a13:3ac6:a000::/36 } on-error={}
 :do { add list=NG address=2a13:82c4:ff6e::/48 } on-error={}
 :do { add list=NG address=2a13:a5c3:6000::/40 } on-error={}
@@ -2667,6 +2670,8 @@
 :do { add list=NG address=2c0f:2a80:15c0::/42 } on-error={}
 :do { add list=NG address=2c0f:2a80:1600::/39 } on-error={}
 :do { add list=NG address=2c0f:2a80:1800::/37 } on-error={}
+:do { add list=NG address=2c0f:2a80:21c0::/42 } on-error={}
+:do { add list=NG address=2c0f:2a80:2200::/42 } on-error={}
 :do { add list=NG address=2c0f:2a80:2300::/40 } on-error={}
 :do { add list=NG address=2c0f:2a80:2400::/40 } on-error={}
 :do { add list=NG address=2c0f:2a80:2800::/37 } on-error={}

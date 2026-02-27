@@ -148,6 +148,8 @@
 :do { add list=CX address=2a12:ef87::/36 } on-error={}
 :do { add list=CX address=2a12:f381:b200::/40 } on-error={}
 :do { add list=CX address=2a12:f382:b200::/40 } on-error={}
+:do { add list=CX address=2a12:f8c3:1:37f4::/64 } on-error={}
+:do { add list=CX address=2a12:f8c3:1:3882::/64 } on-error={}
 :do { add list=CX address=2a13:82c4:ff08::/48 } on-error={}
 :do { add list=CX address=2a13:a5c3:d424::/46 } on-error={}
 :do { add list=CX address=2a13:a5c7:2536::/48 } on-error={}

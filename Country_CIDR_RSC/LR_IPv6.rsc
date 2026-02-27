@@ -2,7 +2,6 @@
 /ipv6 firewall address-list
 :do { add list=LR address=2001:470:19:e8e::/64 } on-error={}
 :do { add list=LR address=2001:470:26:3bd::/64 } on-error={}
-:do { add list=LR address=2001:470:36:220::/64 } on-error={}
 :do { add list=LR address=2001:470:1a21::/48 } on-error={}
 :do { add list=LR address=2001:470:1f0b:aa5::/64 } on-error={}
 :do { add list=LR address=2001:470:1f13:832::/64 } on-error={}
@@ -180,6 +179,8 @@
 :do { add list=LR address=2a12:f007:e000::/35 } on-error={}
 :do { add list=LR address=2a12:f381:5800::/40 } on-error={}
 :do { add list=LR address=2a12:f382:5800::/40 } on-error={}
+:do { add list=LR address=2a12:f8c3:1:8825::/64 } on-error={}
+:do { add list=LR address=2a12:f8c3:1:8856::/64 } on-error={}
 :do { add list=LR address=2a13:82c4:ff62::/48 } on-error={}
 :do { add list=LR address=2a13:a5c3:d158::/46 } on-error={}
 :do { add list=LR address=2a13:a5c7:2583::/48 } on-error={}

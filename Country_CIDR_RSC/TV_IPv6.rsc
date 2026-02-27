@@ -1,6 +1,5 @@
 /log info "Loading TV IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=TV address=2001:470:36:1c3::/64 } on-error={}
 :do { add list=TV address=2001:470:36:dc3::/64 } on-error={}
 :do { add list=TV address=2001:470:c1a5::/48 } on-error={}
 :do { add list=TV address=2001:470:f61d::/48 } on-error={}
@@ -32,6 +31,7 @@
 :do { add list=TV address=2606:40:f70::/44 } on-error={}
 :do { add list=TV address=2606:40:217f:a000::/51 } on-error={}
 :do { add list=TV address=2606:40:2301:8000::/51 } on-error={}
+:do { add list=TV address=2606:40:2939:8800::/54 } on-error={}
 :do { add list=TV address=2606:54c0:57e0::/45 } on-error={}
 :do { add list=TV address=2606:54c3:0:292::/64 } on-error={}
 :do { add list=TV address=2607:8940:293a::/47 } on-error={}
@@ -164,6 +164,8 @@
 :do { add list=TV address=2a12:f005:d000::/36 } on-error={}
 :do { add list=TV address=2a12:f381:fc00::/40 } on-error={}
 :do { add list=TV address=2a12:f382:fc00::/40 } on-error={}
+:do { add list=TV address=2a12:f8c3:1:e79f::/64 } on-error={}
+:do { add list=TV address=2a12:f8c3:1:e7c5::/64 } on-error={}
 :do { add list=TV address=2a13:82c4:ff3c::/48 } on-error={}
 :do { add list=TV address=2a13:a5c7:25e2::/48 } on-error={}
 :do { add list=TV address=2a13:a5c7:25ff:e200::/56 } on-error={}

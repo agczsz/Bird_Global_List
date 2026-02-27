@@ -1,6 +1,5 @@
 /log info "Loading SB IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=SB address=2001:470:36:424::/64 } on-error={}
 :do { add list=SB address=2001:470:6f:71b::/64 } on-error={}
 :do { add list=SB address=2001:67c:a38:f677::/64 } on-error={}
 :do { add list=SB address=2001:df1:3b80::/48 } on-error={}
@@ -49,6 +48,7 @@
 :do { add list=SB address=2606:40:1000::/44 } on-error={}
 :do { add list=SB address=2606:40:217f:6000::/51 } on-error={}
 :do { add list=SB address=2606:40:2301:2000::/51 } on-error={}
+:do { add list=SB address=2606:40:2939:a400::/54 } on-error={}
 :do { add list=SB address=2606:54c0:5150::/45 } on-error={}
 :do { add list=SB address=2606:54c3:0:10e1::/64 } on-error={}
 :do { add list=SB address=2607:8940:2922::/47 } on-error={}
@@ -166,6 +166,8 @@
 :do { add list=SB address=2a12:f004:6000::/36 } on-error={}
 :do { add list=SB address=2a12:f381:1c00::/40 } on-error={}
 :do { add list=SB address=2a12:f382:1c00::/40 } on-error={}
+:do { add list=SB address=2a12:f8c3:1:ca71::/64 } on-error={}
+:do { add list=SB address=2a12:f8c3:1:cac9::/64 } on-error={}
 :do { add list=SB address=2a13:82c4:ff34::/48 } on-error={}
 :do { add list=SB address=2a13:a5c7:25c2::/48 } on-error={}
 :do { add list=SB address=2a13:a5c7:25ff:c100::/56 } on-error={}

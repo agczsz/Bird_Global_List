@@ -2,9 +2,7 @@
 /ipv6 firewall address-list
 :do { add list=PG address=2001:470:19:8ab::/64 } on-error={}
 :do { add list=PG address=2001:470:19:bd9::/64 } on-error={}
-:do { add list=PG address=2001:470:36:16d::/64 } on-error={}
 :do { add list=PG address=2001:470:36:223::/64 } on-error={}
-:do { add list=PG address=2001:470:36:428::/64 } on-error={}
 :do { add list=PG address=2001:470:36:62e::/64 } on-error={}
 :do { add list=PG address=2001:470:36:856::/64 } on-error={}
 :do { add list=PG address=2001:470:36:883::/64 } on-error={}
@@ -264,6 +262,8 @@
 :do { add list=PG address=2a12:f003:d000::/36 } on-error={}
 :do { add list=PG address=2a12:f381:2e00::/40 } on-error={}
 :do { add list=PG address=2a12:f382:2e00::/40 } on-error={}
+:do { add list=PG address=2a12:f8c3:1:b928::/64 } on-error={}
+:do { add list=PG address=2a12:f8c3:1:b963::/64 } on-error={}
 :do { add list=PG address=2a13:82c4:ff33::/48 } on-error={}
 :do { add list=PG address=2a13:a5c7:25b0::/48 } on-error={}
 :do { add list=PG address=2a13:a5c7:25ff:af00::/56 } on-error={}

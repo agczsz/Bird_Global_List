@@ -1,7 +1,6 @@
 /log info "Loading KI IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=KI address=2001:470:28:f1a::/64 } on-error={}
-:do { add list=KI address=2001:470:36:fd::/64 } on-error={}
 :do { add list=KI address=2001:470:36:909::/64 } on-error={}
 :do { add list=KI address=2001:470:36:929::/64 } on-error={}
 :do { add list=KI address=2001:470:1f0b:5cc::/64 } on-error={}
@@ -377,6 +376,8 @@
 :do { add list=KI address=2a12:f001:9000::/36 } on-error={}
 :do { add list=KI address=2a12:f381:6a00::/40 } on-error={}
 :do { add list=KI address=2a12:f382:6a00::/40 } on-error={}
+:do { add list=KI address=2a12:f8c3:1:7821::/64 } on-error={}
+:do { add list=KI address=2a12:f8c3:1:7826::/64 } on-error={}
 :do { add list=KI address=2a13:82c4:ff3a::/48 } on-error={}
 :do { add list=KI address=2a13:a5c7:2576::/48 } on-error={}
 :do { add list=KI address=2a13:a5c7:25ff:7500::/56 } on-error={}

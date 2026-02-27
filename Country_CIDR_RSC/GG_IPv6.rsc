@@ -1,7 +1,6 @@
 /log info "Loading GG IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=GG address=2001:470:28:4ae::/64 } on-error={}
-:do { add list=GG address=2001:470:36:d4::/64 } on-error={}
 :do { add list=GG address=2001:470:36:7ad::/64 } on-error={}
 :do { add list=GG address=2001:470:36:8f5::/64 } on-error={}
 :do { add list=GG address=2001:470:6d:562::/64 } on-error={}
@@ -208,6 +207,8 @@
 :do { add list=GG address=2a12:ef87:f000::/36 } on-error={}
 :do { add list=GG address=2a12:f381:c900::/40 } on-error={}
 :do { add list=GG address=2a12:f382:c900::/40 } on-error={}
+:do { add list=GG address=2a12:f8c3:1:4ff0::/64 } on-error={}
+:do { add list=GG address=2a12:f8c3:1:5015::/64 } on-error={}
 :do { add list=GG address=2a13:a5c3:d0bc::/46 } on-error={}
 :do { add list=GG address=2a13:a5c7:2551::/48 } on-error={}
 :do { add list=GG address=2a13:a5c7:25ff:5000::/56 } on-error={}

@@ -93,6 +93,7 @@
 :do { add list=GE address=2001:1be0:1280:200::/56 } on-error={}
 :do { add list=GE address=2001:3786:5001:300::/56 } on-error={}
 :do { add list=GE address=2001:3786:6886:400::/56 } on-error={}
+:do { add list=GE address=2001:3786:7001:400::/56 } on-error={}
 :do { add list=GE address=2001:3786:9977:300::/56 } on-error={}
 :do { add list=GE address=2001:3786:b10b:700::/56 } on-error={}
 :do { add list=GE address=2001:3940::/29 } on-error={}
@@ -1868,6 +1869,8 @@
 :do { add list=GE address=2a12:e344::/30 } on-error={}
 :do { add list=GE address=2a12:f381:c700::/40 } on-error={}
 :do { add list=GE address=2a12:f382:c700::/40 } on-error={}
+:do { add list=GE address=2a12:f8c3:1:4e2f::/64 } on-error={}
+:do { add list=GE address=2a12:f8c3:1:4e8b::/64 } on-error={}
 :do { add list=GE address=2a13:240:4::/48 } on-error={}
 :do { add list=GE address=2a13:240:4600::/40 } on-error={}
 :do { add list=GE address=2a13:5c0::/29 } on-error={}

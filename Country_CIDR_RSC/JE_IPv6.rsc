@@ -2,7 +2,6 @@
 /ipv6 firewall address-list
 :do { add list=JE address=2001:470:19:12fb::/64 } on-error={}
 :do { add list=JE address=2001:470:24:3f2::/64 } on-error={}
-:do { add list=JE address=2001:470:36:f9::/64 } on-error={}
 :do { add list=JE address=2001:470:36:89c::/64 } on-error={}
 :do { add list=JE address=2001:470:71:63e::/64 } on-error={}
 :do { add list=JE address=2001:470:18f3::/48 } on-error={}
@@ -499,6 +498,8 @@
 :do { add list=JE address=2a12:bec4:12a5:2620::/62 } on-error={}
 :do { add list=JE address=2a12:bec4:12a8:7400::/56 } on-error={}
 :do { add list=JE address=2a12:f001:4000::/36 } on-error={}
+:do { add list=JE address=2a12:f8c3:1:7021::/64 } on-error={}
+:do { add list=JE address=2a12:f8c3:1:7153::/64 } on-error={}
 :do { add list=JE address=2a13:a5c7:256f::/48 } on-error={}
 :do { add list=JE address=2a13:a5c7:25ff:6e00::/56 } on-error={}
 :do { add list=JE address=2a14:1c2:d800::/37 } on-error={}

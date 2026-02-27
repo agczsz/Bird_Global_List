@@ -1,6 +1,5 @@
 /log info "Loading MZ IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=MZ address=2001:470:36:43a::/64 } on-error={}
 :do { add list=MZ address=2001:470:1f09:acf::/64 } on-error={}
 :do { add list=MZ address=2001:470:1f23:c2::/64 } on-error={}
 :do { add list=MZ address=2001:470:6b72::/48 } on-error={}
@@ -997,6 +996,8 @@
 :do { add list=MZ address=2a12:f003:4000::/36 } on-error={}
 :do { add list=MZ address=2a12:f381:3c00::/40 } on-error={}
 :do { add list=MZ address=2a12:f382:3c00::/40 } on-error={}
+:do { add list=MZ address=2a12:f8c3:1:a6f1::/64 } on-error={}
+:do { add list=MZ address=2a12:f8c3:1:a75f::/64 } on-error={}
 :do { add list=MZ address=2a13:3ac6:9000::/36 } on-error={}
 :do { add list=MZ address=2a13:82c4:ff6b::/48 } on-error={}
 :do { add list=MZ address=2a13:a5c3:d178::/46 } on-error={}

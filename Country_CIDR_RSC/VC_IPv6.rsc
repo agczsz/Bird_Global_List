@@ -265,6 +265,8 @@
 :do { add list=VC address=2a12:f006:2000::/36 } on-error={}
 :do { add list=VC address=2a12:f381:f200::/40 } on-error={}
 :do { add list=VC address=2a12:f382:f200::/40 } on-error={}
+:do { add list=VC address=2a12:f8c3:1:ef9a:ee83:7fa2:1440:455e/128 } on-error={}
+:do { add list=VC address=2a12:f8c3:1:f01d::/64 } on-error={}
 :do { add list=VC address=2a13:a5c7:25ec::/48 } on-error={}
 :do { add list=VC address=2a13:a5c7:25ff:ec00::/56 } on-error={}
 :do { add list=VC address=2a13:b487:503b::/48 } on-error={}

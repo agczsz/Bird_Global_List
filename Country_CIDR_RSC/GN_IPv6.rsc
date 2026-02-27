@@ -1,6 +1,5 @@
 /log info "Loading GN IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=GN address=2001:470:36:e0::/64 } on-error={}
 :do { add list=GN address=2001:470:36:3ca::/64 } on-error={}
 :do { add list=GN address=2001:470:1f13:180::/64 } on-error={}
 :do { add list=GN address=2001:470:1f13:cb5::/64 } on-error={}
@@ -172,6 +171,8 @@
 :do { add list=GN address=2a12:f000:4000::/36 } on-error={}
 :do { add list=GN address=2a12:f381:7e00::/40 } on-error={}
 :do { add list=GN address=2a12:f382:7e00::/40 } on-error={}
+:do { add list=GN address=2a12:f8c3:1:53ee::/64 } on-error={}
+:do { add list=GN address=2a12:f8c3:1:53f6::/64 } on-error={}
 :do { add list=GN address=2a13:82c4:ff5e::/48 } on-error={}
 :do { add list=GN address=2a13:a5c7:2556::/48 } on-error={}
 :do { add list=GN address=2a13:a5c7:25ff:5500::/56 } on-error={}

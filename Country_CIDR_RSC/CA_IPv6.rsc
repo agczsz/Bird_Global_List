@@ -2333,7 +2333,6 @@
 :do { add list=CA address=2001:470:1f2f:122::/64 } on-error={}
 :do { add list=CA address=2001:470:1f2f:124::/64 } on-error={}
 :do { add list=CA address=2001:470:1f2f:126::/63 } on-error={}
-:do { add list=CA address=2001:470:1f2f:129::/64 } on-error={}
 :do { add list=CA address=2001:470:1f2f:12a::/64 } on-error={}
 :do { add list=CA address=2001:470:1f2f:131::/64 } on-error={}
 :do { add list=CA address=2001:470:1f2f:136::/63 } on-error={}
@@ -2430,6 +2429,7 @@
 :do { add list=CA address=2001:470:301d:4000::/50 } on-error={}
 :do { add list=CA address=2001:470:301f::/50 } on-error={}
 :do { add list=CA address=2001:470:3026::/50 } on-error={}
+:do { add list=CA address=2001:470:3032::/50 } on-error={}
 :do { add list=CA address=2001:470:3058::/48 } on-error={}
 :do { add list=CA address=2001:470:305a::/50 } on-error={}
 :do { add list=CA address=2001:470:305a:8000::/49 } on-error={}
@@ -3784,6 +3784,7 @@
 :do { add list=CA address=2001:550:2:7::55:c/126 } on-error={}
 :do { add list=CA address=2001:550:2:7::55:10/124 } on-error={}
 :do { add list=CA address=2001:550:2:7::55:24/126 } on-error={}
+:do { add list=CA address=2001:550:2:7::55:28/127 } on-error={}
 :do { add list=CA address=2001:550:2:7::58:0/111 } on-error={}
 :do { add list=CA address=2001:550:2:7::5e:0/111 } on-error={}
 :do { add list=CA address=2001:550:2:7::68:0/111 } on-error={}
@@ -3868,7 +3869,8 @@
 :do { add list=CA address=2001:550:2:8::184/127 } on-error={}
 :do { add list=CA address=2001:550:2:8::188/125 } on-error={}
 :do { add list=CA address=2001:550:2:8::190/124 } on-error={}
-:do { add list=CA address=2001:550:2:8::1a0/125 } on-error={}
+:do { add list=CA address=2001:550:2:8::1a0/127 } on-error={}
+:do { add list=CA address=2001:550:2:8::1a4/126 } on-error={}
 :do { add list=CA address=2001:550:2:8::1ac/126 } on-error={}
 :do { add list=CA address=2001:550:2:8::1b0/124 } on-error={}
 :do { add list=CA address=2001:550:2:8::1c0/124 } on-error={}
@@ -4279,7 +4281,7 @@
 :do { add list=CA address=2001:550:2:5d::23:48/127 } on-error={}
 :do { add list=CA address=2001:550:2:5d::23:4c/126 } on-error={}
 :do { add list=CA address=2001:550:2:5d::23:50/125 } on-error={}
-:do { add list=CA address=2001:550:2:5d::23:58/127 } on-error={}
+:do { add list=CA address=2001:550:2:5d::23:58/126 } on-error={}
 :do { add list=CA address=2001:550:2:5d::25:0/112 } on-error={}
 :do { add list=CA address=2001:550:2:5d::26:0/112 } on-error={}
 :do { add list=CA address=2001:550:2:5d::28:0/112 } on-error={}
@@ -5107,6 +5109,9 @@
 :do { add list=CA address=2001:668:1f:ffd6::/63 } on-error={}
 :do { add list=CA address=2001:668:1f:ffe8::/64 } on-error={}
 :do { add list=CA address=2001:668:1f:fffa::/64 } on-error={}
+:do { add list=CA address=2001:668:10f:200::/56 } on-error={}
+:do { add list=CA address=2001:668:10f:900::/56 } on-error={}
+:do { add list=CA address=2001:668:10f:1200::/56 } on-error={}
 :do { add list=CA address=2001:668:10f:2100::/56 } on-error={}
 :do { add list=CA address=2001:668:10f:3400::/56 } on-error={}
 :do { add list=CA address=2001:678:f68::/56 } on-error={}
@@ -10309,10 +10314,14 @@
 :do { add list=CA address=2003:3b0:1:8000::/49 } on-error={}
 :do { add list=CA address=2003:3c0:f000:4000::/64 } on-error={}
 :do { add list=CA address=2003:5a0:3100:200::/64 } on-error={}
+:do { add list=CA address=2003:5a0:3700:100::4/127 } on-error={}
 :do { add list=CA address=2005:5a0:3700:100::/64 } on-error={}
 :do { add list=CA address=2007:5a0:3700:100::/64 } on-error={}
 :do { add list=CA address=2009:5a0:3700:100::/64 } on-error={}
 :do { add list=CA address=200b:5a0:3700:100::/64 } on-error={}
+:do { add list=CA address=200d:5a0:3700:100::4/127 } on-error={}
+:do { add list=CA address=200f:5a0:3700:100::4/127 } on-error={}
+:do { add list=CA address=2011:5a0:3700:100::4/127 } on-error={}
 :do { add list=CA address=2013:5a0:3700:100::/64 } on-error={}
 :do { add list=CA address=2015:5a0:3700:100::/64 } on-error={}
 :do { add list=CA address=2017:5a0:3700:100::/64 } on-error={}
@@ -13527,6 +13536,7 @@
 :do { add list=CA address=2602:2a0:20::/43 } on-error={}
 :do { add list=CA address=2602:2a0:40::/42 } on-error={}
 :do { add list=CA address=2602:2a0:80::/41 } on-error={}
+:do { add list=CA address=2602:2a3:10::/48 } on-error={}
 :do { add list=CA address=2602:2a6::/40 } on-error={}
 :do { add list=CA address=2602:2a9:220::/43 } on-error={}
 :do { add list=CA address=2602:2b7:420::/48 } on-error={}
@@ -15522,7 +15532,6 @@
 :do { add list=CA address=2602:fec3:800::/38 } on-error={}
 :do { add list=CA address=2602:fec3:c00::/39 } on-error={}
 :do { add list=CA address=2602:fec3:e00::/40 } on-error={}
-:do { add list=CA address=2602:fec3:f00::/48 } on-error={}
 :do { add list=CA address=2602:fec3:f01::/48 } on-error={}
 :do { add list=CA address=2602:fec3:f02::/47 } on-error={}
 :do { add list=CA address=2602:fec3:f04::/46 } on-error={}
@@ -15660,7 +15669,7 @@
 :do { add list=CA address=2602:fed2:7102:4000::/50 } on-error={}
 :do { add list=CA address=2602:fed2:7102:8000::/49 } on-error={}
 :do { add list=CA address=2602:fed2:7104::/48 } on-error={}
-:do { add list=CA address=2602:fed2:7107::/48 } on-error={}
+:do { add list=CA address=2602:fed2:7106::/47 } on-error={}
 :do { add list=CA address=2602:fed2:7108::/48 } on-error={}
 :do { add list=CA address=2602:fed2:7109::/63 } on-error={}
 :do { add list=CA address=2602:fed2:7109:2::/64 } on-error={}
@@ -20898,8 +20907,8 @@
 :do { add list=CA address=2607:9980::/32 } on-error={}
 :do { add list=CA address=2607:9a40::/32 } on-error={}
 :do { add list=CA address=2607:a000::/32 } on-error={}
-:do { add list=CA address=2607:a140:900::/40 } on-error={}
-:do { add list=CA address=2607:a140:a00::/40 } on-error={}
+:do { add list=CA address=2607:a140:900::/56 } on-error={}
+:do { add list=CA address=2607:a140:a00::/56 } on-error={}
 :do { add list=CA address=2607:a3c0::/32 } on-error={}
 :do { add list=CA address=2607:acc0::/32 } on-error={}
 :do { add list=CA address=2607:ae00::/32 } on-error={}
@@ -25598,7 +25607,7 @@
 :do { add list=CA address=2a01:8640:3::/48 } on-error={}
 :do { add list=CA address=2a01:8640:8::/48 } on-error={}
 :do { add list=CA address=2a01:8640:19::/48 } on-error={}
-:do { add list=CA address=2a01:8840:11::/48 } on-error={}
+:do { add list=CA address=2a01:8840:11::/56 } on-error={}
 :do { add list=CA address=2a01:8840:1bd::/48 } on-error={}
 :do { add list=CA address=2a01:b747:c0::/43 } on-error={}
 :do { add list=CA address=2a01:b747:1c0::/45 } on-error={}
@@ -27079,7 +27088,7 @@
 :do { add list=CA address=2a07:54c1:d351::/48 } on-error={}
 :do { add list=CA address=2a07:54c1:dead::/48 } on-error={}
 :do { add list=CA address=2a07:6080::/29 } on-error={}
-:do { add list=CA address=2a07:bd82::/32 } on-error={}
+:do { add list=CA address=2a07:bd86::/32 } on-error={}
 :do { add list=CA address=2a07:d887:2500::/40 } on-error={}
 :do { add list=CA address=2a07:ff80::/32 } on-error={}
 :do { add list=CA address=2a09:4c0:0:26::/64 } on-error={}
@@ -39993,7 +40002,6 @@
 :do { add list=CA address=2a0f:9400:6110:4000::/50 } on-error={}
 :do { add list=CA address=2a0f:9400:6110:8000::/49 } on-error={}
 :do { add list=CA address=2a0f:9400:6161::/48 } on-error={}
-:do { add list=CA address=2a0f:9400:6190::/44 } on-error={}
 :do { add list=CA address=2a0f:9400:6906::/48 } on-error={}
 :do { add list=CA address=2a0f:9400:6920::/44 } on-error={}
 :do { add list=CA address=2a0f:9400:6931::/48 } on-error={}
@@ -40026,7 +40034,7 @@
 :do { add list=CA address=2a0f:9400:8024::/48 } on-error={}
 :do { add list=CA address=2a0f:9403:210::/44 } on-error={}
 :do { add list=CA address=2a0f:9407:e000::/36 } on-error={}
-:do { add list=CA address=2a0f:b240::/46 } on-error={}
+:do { add list=CA address=2a0f:b240::/56 } on-error={}
 :do { add list=CA address=2a0f:b240:c::/48 } on-error={}
 :do { add list=CA address=2a0f:b240:26:100::/56 } on-error={}
 :do { add list=CA address=2a0f:b240:26:200::/55 } on-error={}
@@ -40038,7 +40046,6 @@
 :do { add list=CA address=2a0f:b240:26:8000::/49 } on-error={}
 :do { add list=CA address=2a0f:b240:41::/64 } on-error={}
 :do { add list=CA address=2a0f:b240:60::/44 } on-error={}
-:do { add list=CA address=2a0f:b240:70::/44 } on-error={}
 :do { add list=CA address=2a0f:b240:300::/48 } on-error={}
 :do { add list=CA address=2a0f:b240:500::/40 } on-error={}
 :do { add list=CA address=2a0f:b240:5f00::/40 } on-error={}
@@ -41829,6 +41836,8 @@
 :do { add list=CA address=2a12:f184::/30 } on-error={}
 :do { add list=CA address=2a12:f381:a400::/40 } on-error={}
 :do { add list=CA address=2a12:f382:a400::/40 } on-error={}
+:do { add list=CA address=2a12:f8c3:1:295d::/64 } on-error={}
+:do { add list=CA address=2a12:f8c3:1:2a01::/64 } on-error={}
 :do { add list=CA address=2a13:f80:11::/48 } on-error={}
 :do { add list=CA address=2a13:1800:300::/44 } on-error={}
 :do { add list=CA address=2a13:3ac1:2000::/35 } on-error={}

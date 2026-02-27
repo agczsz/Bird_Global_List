@@ -1,6 +1,5 @@
 /log info "Loading BL IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=BL address=2001:470:36:440::/64 } on-error={}
 :do { add list=BL address=2001:470:36:931::/64 } on-error={}
 :do { add list=BL address=2001:470:71:ea::/64 } on-error={}
 :do { add list=BL address=2001:470:ec07::/48 } on-error={}
@@ -232,6 +231,8 @@
 :do { add list=BL address=2a12:ef85:d000::/36 } on-error={}
 :do { add list=BL address=2a12:f381:9800::/40 } on-error={}
 :do { add list=BL address=2a12:f382:9800::/40 } on-error={}
+:do { add list=BL address=2a12:f8c3:1:1cc5::/64 } on-error={}
+:do { add list=BL address=2a12:f8c3:1:1d87::/64 } on-error={}
 :do { add list=BL address=2a13:a5c7:251a::/48 } on-error={}
 :do { add list=BL address=2a13:a5c7:25ff:1900::/56 } on-error={}
 :do { add list=BL address=2a14:1c3:c800::/37 } on-error={}

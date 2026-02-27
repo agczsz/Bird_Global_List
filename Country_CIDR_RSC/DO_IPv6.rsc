@@ -1573,6 +1573,8 @@
 :do { add list=DO address=2a12:ef87:4000::/36 } on-error={}
 :do { add list=DO address=2a12:f381:b800::/40 } on-error={}
 :do { add list=DO address=2a12:f382:b800::/40 } on-error={}
+:do { add list=DO address=2a12:f8c3:1:3dfa::/64 } on-error={}
+:do { add list=DO address=2a12:f8c3:1:3ea8::/64 } on-error={}
 :do { add list=DO address=2a13:a5c7:253d::/48 } on-error={}
 :do { add list=DO address=2a13:a5c7:25ff:3c00::/56 } on-error={}
 :do { add list=DO address=2a13:ef41:12e5::/48 } on-error={}

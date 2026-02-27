@@ -230,6 +230,8 @@
 :do { add list=MH address=2a12:f002:8000::/36 } on-error={}
 :do { add list=MH address=2a12:f381:4c00::/40 } on-error={}
 :do { add list=MH address=2a12:f382:4c00::/40 } on-error={}
+:do { add list=MH address=2a12:f8c3:1:9718::/64 } on-error={}
+:do { add list=MH address=2a12:f8c3:1:9829::/64 } on-error={}
 :do { add list=MH address=2a13:2380:11::/48 } on-error={}
 :do { add list=MH address=2a13:2380:359::/48 } on-error={}
 :do { add list=MH address=2a13:9500:12e::/48 } on-error={}

@@ -188,6 +188,8 @@
 :do { add list=LY address=2a12:f002:4000::/36 } on-error={}
 :do { add list=LY address=2a12:f381:5300::/40 } on-error={}
 :do { add list=LY address=2a12:f382:5300::/40 } on-error={}
+:do { add list=LY address=2a12:f8c3:1:8c73::/64 } on-error={}
+:do { add list=LY address=2a12:f8c3:1:8d5a::/64 } on-error={}
 :do { add list=LY address=2a13:82c4:ff63::/48 } on-error={}
 :do { add list=LY address=2a13:a5c3:d15c::/46 } on-error={}
 :do { add list=LY address=2a13:a5c7:2588::/48 } on-error={}

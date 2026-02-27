@@ -2,7 +2,6 @@
 /ipv6 firewall address-list
 :do { add list=FK address=2001:470:19:1330::/64 } on-error={}
 :do { add list=FK address=2001:470:36:313::/64 } on-error={}
-:do { add list=FK address=2001:470:36:446::/64 } on-error={}
 :do { add list=FK address=2001:470:6d:1045::/64 } on-error={}
 :do { add list=FK address=2001:470:1f0b:6eb::/64 } on-error={}
 :do { add list=FK address=2001:470:ed70::/48 } on-error={}
@@ -160,6 +159,8 @@
 :do { add list=FK address=2a12:ef87:9000::/36 } on-error={}
 :do { add list=FK address=2a12:f381:c200::/40 } on-error={}
 :do { add list=FK address=2a12:f382:c200::/40 } on-error={}
+:do { add list=FK address=2a12:f8c3:1:48ac::/64 } on-error={}
+:do { add list=FK address=2a12:f8c3:1:4997::/64 } on-error={}
 :do { add list=FK address=2a13:a5c7:2548::/48 } on-error={}
 :do { add list=FK address=2a13:a5c7:25ff:4700::/56 } on-error={}
 :do { add list=FK address=2a14:1c4:d800::/37 } on-error={}

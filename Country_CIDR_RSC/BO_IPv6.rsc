@@ -2,7 +2,6 @@
 /ipv6 firewall address-list
 :do { add list=BO address=2001:470:19:419::/64 } on-error={}
 :do { add list=BO address=2001:470:19:fa6::/64 } on-error={}
-:do { add list=BO address=2001:470:36:4d5::/64 } on-error={}
 :do { add list=BO address=2001:470:36:11d2::/64 } on-error={}
 :do { add list=BO address=2001:470:1f1b:6ce::/64 } on-error={}
 :do { add list=BO address=2001:470:1f2b:f3::/64 } on-error={}
@@ -12,7 +11,6 @@
 :do { add list=BO address=2001:470:d881::/48 } on-error={}
 :do { add list=BO address=2001:470:d8fe::/48 } on-error={}
 :do { add list=BO address=2001:470:f9f0::/48 } on-error={}
-:do { add list=BO address=2001:550:2:9d::bf:0/112 } on-error={}
 :do { add list=BO address=2001:67c:a38:f591::/64 } on-error={}
 :do { add list=BO address=2001:1378::/32 } on-error={}
 :do { add list=BO address=2001:1498:1:966:1::962/128 } on-error={}
@@ -995,6 +993,8 @@
 :do { add list=BO address=2a12:ef86::/36 } on-error={}
 :do { add list=BO address=2a12:f381:9b00::/40 } on-error={}
 :do { add list=BO address=2a12:f382:9b00::/40 } on-error={}
+:do { add list=BO address=2a12:f8c3:1:2001::/64 } on-error={}
+:do { add list=BO address=2a12:f8c3:1:2238::/64 } on-error={}
 :do { add list=BO address=2a13:a5c7:251d::/48 } on-error={}
 :do { add list=BO address=2a13:a5c7:25ff:1c00::/56 } on-error={}
 :do { add list=BO address=2a13:ef41:1142::/47 } on-error={}

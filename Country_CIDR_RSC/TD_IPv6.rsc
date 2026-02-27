@@ -177,6 +177,8 @@
 :do { add list=TD address=2a12:f007::/35 } on-error={}
 :do { add list=TD address=2a12:f381:e800::/40 } on-error={}
 :do { add list=TD address=2a12:f382:e800::/40 } on-error={}
+:do { add list=TD address=2a12:f8c3:1:de43::/64 } on-error={}
+:do { add list=TD address=2a12:f8c3:1:dfa8::/64 } on-error={}
 :do { add list=TD address=2a13:a5c3:d124::/46 } on-error={}
 :do { add list=TD address=2a13:a5c7:25d6::/48 } on-error={}
 :do { add list=TD address=2a13:a5c7:25ff:d600::/56 } on-error={}

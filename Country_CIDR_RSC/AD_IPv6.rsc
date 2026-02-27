@@ -342,6 +342,8 @@
 :do { add list=AD address=2a12:ef85::/36 } on-error={}
 :do { add list=AD address=2a12:f381:8000::/40 } on-error={}
 :do { add list=AD address=2a12:f382:8000::/40 } on-error={}
+:do { add list=AD address=2a12:f8c3:1:28::/64 } on-error={}
+:do { add list=AD address=2a12:f8c3:1:34::/64 } on-error={}
 :do { add list=AD address=2a13:a5c3:d004::/46 } on-error={}
 :do { add list=AD address=2a13:a5c7:2501::/48 } on-error={}
 :do { add list=AD address=2a13:a5c7:25ff::/56 } on-error={}

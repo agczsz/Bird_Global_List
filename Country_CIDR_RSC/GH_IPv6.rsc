@@ -2,7 +2,6 @@
 /ipv6 firewall address-list
 :do { add list=GH address=2001:470:19:b5b::/64 } on-error={}
 :do { add list=GH address=2001:470:26:43e::/64 } on-error={}
-:do { add list=GH address=2001:470:36:d7::/64 } on-error={}
 :do { add list=GH address=2001:470:36:868::/64 } on-error={}
 :do { add list=GH address=2001:470:36:10dd::/64 } on-error={}
 :do { add list=GH address=2001:470:6d:125::/64 } on-error={}
@@ -400,6 +399,8 @@
 :do { add list=GH address=2a12:f000::/36 } on-error={}
 :do { add list=GH address=2a12:f381:ca00::/40 } on-error={}
 :do { add list=GH address=2a12:f382:ca00::/40 } on-error={}
+:do { add list=GH address=2a12:f8c3:1:505a::/64 } on-error={}
+:do { add list=GH address=2a12:f8c3:1:5082::/64 } on-error={}
 :do { add list=GH address=2a13:82c4:ff5d::/48 } on-error={}
 :do { add list=GH address=2a13:a5c7:2552::/48 } on-error={}
 :do { add list=GH address=2a13:a5c7:25ff:5100::/56 } on-error={}
@@ -646,21 +647,7 @@
 :do { add list=GH address=2c0f:2a80:605:4800::/53 } on-error={}
 :do { add list=GH address=2c0f:2a80:605:5000::/52 } on-error={}
 :do { add list=GH address=2c0f:2a80:605:6000::/51 } on-error={}
-:do { add list=GH address=2c0f:2a80:605:8000::/51 } on-error={}
-:do { add list=GH address=2c0f:2a80:605:a000::/53 } on-error={}
-:do { add list=GH address=2c0f:2a80:605:a800::/54 } on-error={}
-:do { add list=GH address=2c0f:2a80:605:ac00::/55 } on-error={}
-:do { add list=GH address=2c0f:2a80:605:ae00::/61 } on-error={}
-:do { add list=GH address=2c0f:2a80:605:ae09::/64 } on-error={}
-:do { add list=GH address=2c0f:2a80:605:ae0a::/63 } on-error={}
-:do { add list=GH address=2c0f:2a80:605:ae0c::/62 } on-error={}
-:do { add list=GH address=2c0f:2a80:605:ae10::/60 } on-error={}
-:do { add list=GH address=2c0f:2a80:605:ae20::/59 } on-error={}
-:do { add list=GH address=2c0f:2a80:605:ae40::/58 } on-error={}
-:do { add list=GH address=2c0f:2a80:605:ae80::/57 } on-error={}
-:do { add list=GH address=2c0f:2a80:605:af00::/56 } on-error={}
-:do { add list=GH address=2c0f:2a80:605:b000::/52 } on-error={}
-:do { add list=GH address=2c0f:2a80:605:c000::/50 } on-error={}
+:do { add list=GH address=2c0f:2a80:605:8000::/49 } on-error={}
 :do { add list=GH address=2c0f:2a80:606::/48 } on-error={}
 :do { add list=GH address=2c0f:2a80:607::/49 } on-error={}
 :do { add list=GH address=2c0f:2a80:607:8000::/50 } on-error={}
@@ -1081,14 +1068,7 @@
 :do { add list=GH address=2c0f:2a80:637:d800::/53 } on-error={}
 :do { add list=GH address=2c0f:2a80:637:e000::/51 } on-error={}
 :do { add list=GH address=2c0f:2a80:638::/47 } on-error={}
-:do { add list=GH address=2c0f:2a80:63a::/49 } on-error={}
-:do { add list=GH address=2c0f:2a80:63a:8000::/51 } on-error={}
-:do { add list=GH address=2c0f:2a80:63a:a000::/53 } on-error={}
-:do { add list=GH address=2c0f:2a80:63a:a800::/54 } on-error={}
-:do { add list=GH address=2c0f:2a80:63a:ac00::/55 } on-error={}
-:do { add list=GH address=2c0f:2a80:63a:ae00::/56 } on-error={}
-:do { add list=GH address=2c0f:2a80:63a:b000::/52 } on-error={}
-:do { add list=GH address=2c0f:2a80:63a:c000::/50 } on-error={}
+:do { add list=GH address=2c0f:2a80:63a::/48 } on-error={}
 :do { add list=GH address=2c0f:2a80:63b::/51 } on-error={}
 :do { add list=GH address=2c0f:2a80:63b:2000::/52 } on-error={}
 :do { add list=GH address=2c0f:2a80:63b:3000::/54 } on-error={}

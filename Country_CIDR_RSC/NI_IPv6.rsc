@@ -1,6 +1,5 @@
 /log info "Loading NI IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=NI address=2001:470:36:436::/64 } on-error={}
 :do { add list=NI address=2001:470:1f1d:8c6::/64 } on-error={}
 :do { add list=NI address=2001:470:1f29:303::/64 } on-error={}
 :do { add list=NI address=2001:470:1f2b:19::/64 } on-error={}
@@ -100,17 +99,7 @@
 :do { add list=NI address=2803:2d60:101b:f000::/52 } on-error={}
 :do { add list=NI address=2803:2d60:101c::/46 } on-error={}
 :do { add list=NI address=2803:2d60:1020::/44 } on-error={}
-:do { add list=NI address=2803:2d60:1030::/48 } on-error={}
-:do { add list=NI address=2803:2d60:1031::/49 } on-error={}
-:do { add list=NI address=2803:2d60:1031:8000::/51 } on-error={}
-:do { add list=NI address=2803:2d60:1031:a000::/52 } on-error={}
-:do { add list=NI address=2803:2d60:1031:b000::/53 } on-error={}
-:do { add list=NI address=2803:2d60:1031:b800::/54 } on-error={}
-:do { add list=NI address=2803:2d60:1031:bd00::/56 } on-error={}
-:do { add list=NI address=2803:2d60:1031:be00::/55 } on-error={}
-:do { add list=NI address=2803:2d60:1031:c000::/50 } on-error={}
-:do { add list=NI address=2803:2d60:1032::/47 } on-error={}
-:do { add list=NI address=2803:2d60:1034::/46 } on-error={}
+:do { add list=NI address=2803:2d60:1030::/45 } on-error={}
 :do { add list=NI address=2803:2d60:1038::/48 } on-error={}
 :do { add list=NI address=2803:2d60:1039::/52 } on-error={}
 :do { add list=NI address=2803:2d60:1039:1000::/53 } on-error={}
@@ -160,11 +149,10 @@
 :do { add list=NI address=2803:2d60:1619:7000::/56 } on-error={}
 :do { add list=NI address=2803:2d60:1619:7200::/56 } on-error={}
 :do { add list=NI address=2803:2d60:1620::/56 } on-error={}
-:do { add list=NI address=2803:2d60:1620:200::/55 } on-error={}
+:do { add list=NI address=2803:2d60:1620:200::/56 } on-error={}
 :do { add list=NI address=2803:2d60:1620:a00::/55 } on-error={}
 :do { add list=NI address=2803:2d60:1620:1600::/55 } on-error={}
 :do { add list=NI address=2803:2d60:1620:1800::/55 } on-error={}
-:do { add list=NI address=2803:2d60:1620:1f00::/56 } on-error={}
 :do { add list=NI address=2803:2d60:1620:2c00::/56 } on-error={}
 :do { add list=NI address=2803:2d60:1620:3900::/56 } on-error={}
 :do { add list=NI address=2803:2d60:1620:3d00::/56 } on-error={}
@@ -1292,6 +1280,8 @@
 :do { add list=NI address=2a12:f003:8000::/36 } on-error={}
 :do { add list=NI address=2a12:f381:3700::/40 } on-error={}
 :do { add list=NI address=2a12:f382:3700::/40 } on-error={}
+:do { add list=NI address=2a12:f8c3:1:abaa::/64 } on-error={}
+:do { add list=NI address=2a12:f8c3:1:ae52::/64 } on-error={}
 :do { add list=NI address=2a13:3ac6:b000::/36 } on-error={}
 :do { add list=NI address=2a13:a5c7:25a5::/48 } on-error={}
 :do { add list=NI address=2a13:a5c7:25ff:a400::/56 } on-error={}

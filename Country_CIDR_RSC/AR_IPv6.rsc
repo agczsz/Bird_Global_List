@@ -6463,6 +6463,8 @@
 :do { add list=AR address=2a12:ef46::/32 } on-error={}
 :do { add list=AR address=2a12:f381:8900::/40 } on-error={}
 :do { add list=AR address=2a12:f382:8900::/40 } on-error={}
+:do { add list=AR address=2a12:f8c3:1:d9e::/64 } on-error={}
+:do { add list=AR address=2a12:f8c3:1:ec0::/64 } on-error={}
 :do { add list=AR address=2a13:1bc4::/30 } on-error={}
 :do { add list=AR address=2a13:3ac5:1000::/36 } on-error={}
 :do { add list=AR address=2a13:4683::/32 } on-error={}
@@ -6533,4 +6535,3 @@
 :do { add list=AR address=2a14:7584:e740::/48 } on-error={}
 :do { add list=AR address=2a14:c380:77f::/48 } on-error={}
 :do { add list=AR address=2a14:c380:780::/48 } on-error={}
-:do { add list=AR address=2c0f:2a80:605:ae08::/64 } on-error={}

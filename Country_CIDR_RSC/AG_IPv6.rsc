@@ -1,7 +1,6 @@
 /log info "Loading AG IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=AG address=2001:470:19:1328::/64 } on-error={}
-:do { add list=AG address=2001:470:36:8c::/64 } on-error={}
 :do { add list=AG address=2001:470:36:353::/64 } on-error={}
 :do { add list=AG address=2001:470:6d:11c5::/64 } on-error={}
 :do { add list=AG address=2001:470:6f:42d::/64 } on-error={}
@@ -540,6 +539,8 @@
 :do { add list=AG address=2a12:ef85:2000::/36 } on-error={}
 :do { add list=AG address=2a12:f381:8300::/40 } on-error={}
 :do { add list=AG address=2a12:f382:8300::/40 } on-error={}
+:do { add list=AG address=2a12:f8c3:1:50c::/64 } on-error={}
+:do { add list=AG address=2a12:f8c3:1:5ab::/64 } on-error={}
 :do { add list=AG address=2a13:a5c7:2504::/48 } on-error={}
 :do { add list=AG address=2a13:a5c7:25ff:300::/56 } on-error={}
 :do { add list=AG address=2a13:b487:5017::/48 } on-error={}

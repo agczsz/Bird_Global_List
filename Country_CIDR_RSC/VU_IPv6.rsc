@@ -353,6 +353,8 @@
 :do { add list=VU address=2a12:f006:5000::/36 } on-error={}
 :do { add list=VU address=2a12:f381:d00::/40 } on-error={}
 :do { add list=VU address=2a12:f382:d00::/40 } on-error={}
+:do { add list=VU address=2a12:f8c3:1:f387::/64 } on-error={}
+:do { add list=VU address=2a12:f8c3:1:f423::/64 } on-error={}
 :do { add list=VU address=2a13:82c4:ff35::/48 } on-error={}
 :do { add list=VU address=2a13:a5c7:25f1::/48 } on-error={}
 :do { add list=VU address=2a13:a5c7:25ff:f100::/56 } on-error={}

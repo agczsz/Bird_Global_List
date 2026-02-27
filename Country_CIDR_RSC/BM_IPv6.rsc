@@ -1,7 +1,6 @@
 /log info "Loading BM IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=BM address=2001:470:19:e4b::/64 } on-error={}
-:do { add list=BM address=2001:470:36:a2::/64 } on-error={}
 :do { add list=BM address=2001:470:36:1343::/64 } on-error={}
 :do { add list=BM address=2001:470:6d:114d::/64 } on-error={}
 :do { add list=BM address=2001:470:1f0b:32f::/64 } on-error={}
@@ -320,6 +319,8 @@
 :do { add list=BM address=2a12:ef85:e000::/36 } on-error={}
 :do { add list=BM address=2a12:f381:9900::/40 } on-error={}
 :do { add list=BM address=2a12:f382:9900::/40 } on-error={}
+:do { add list=BM address=2a12:f8c3:1:1ef3::/64 } on-error={}
+:do { add list=BM address=2a12:f8c3:1:1f13::/64 } on-error={}
 :do { add list=BM address=2a13:a5c7:251b::/48 } on-error={}
 :do { add list=BM address=2a13:a5c7:25ff:1a00::/56 } on-error={}
 :do { add list=BM address=2a14:1c4:b000::/37 } on-error={}

@@ -2,7 +2,6 @@
 /ipv6 firewall address-list
 :do { add list=GI address=2001:470:19:d58::/64 } on-error={}
 :do { add list=GI address=2001:470:26:7bb::/64 } on-error={}
-:do { add list=GI address=2001:470:36:db::/64 } on-error={}
 :do { add list=GI address=2001:470:1f09:bf2::/64 } on-error={}
 :do { add list=GI address=2001:470:f2fe::/48 } on-error={}
 :do { add list=GI address=2001:67c:1728::/48 } on-error={}
@@ -331,6 +330,8 @@
 :do { add list=GI address=2a12:f000:1000::/36 } on-error={}
 :do { add list=GI address=2a12:f381:cb00::/40 } on-error={}
 :do { add list=GI address=2a12:f382:cb00::/40 } on-error={}
+:do { add list=GI address=2a12:f8c3:1:5121::/64 } on-error={}
+:do { add list=GI address=2a12:f8c3:1:51ab::/64 } on-error={}
 :do { add list=GI address=2a13:a5c7:2553::/48 } on-error={}
 :do { add list=GI address=2a13:a5c7:25ff:5200::/56 } on-error={}
 :do { add list=GI address=2a13:b487:501a::/48 } on-error={}

@@ -2023,6 +2023,8 @@
 :do { add list=PA address=2a12:f003:b000::/36 } on-error={}
 :do { add list=PA address=2a12:f381:3100::/40 } on-error={}
 :do { add list=PA address=2a12:f382:3100::/40 } on-error={}
+:do { add list=PA address=2a12:f8c3:1:b560::/64 } on-error={}
+:do { add list=PA address=2a12:f8c3:1:b643::/64 } on-error={}
 :do { add list=PA address=2a13:240:9:1::/64 } on-error={}
 :do { add list=PA address=2a13:240:9:2::/63 } on-error={}
 :do { add list=PA address=2a13:240:9:4::/62 } on-error={}

@@ -3489,6 +3489,8 @@
 :do { add list=SA address=2a12:dd87::/32 } on-error={}
 :do { add list=SA address=2a12:f381:1e00::/40 } on-error={}
 :do { add list=SA address=2a12:f382:1e00::/40 } on-error={}
+:do { add list=SA address=2a12:f8c3:1:ca24::/64 } on-error={}
+:do { add list=SA address=2a12:f8c3:1:ca4f::/64 } on-error={}
 :do { add list=SA address=2a12:f940::/29 } on-error={}
 :do { add list=SA address=2a13:2400::/29 } on-error={}
 :do { add list=SA address=2a13:3ac3:c000::/35 } on-error={}

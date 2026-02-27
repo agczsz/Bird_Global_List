@@ -21,6 +21,7 @@
 :do { add list=PN address=2606:40:1080::/44 } on-error={}
 :do { add list=PN address=2606:40:217f:4000::/51 } on-error={}
 :do { add list=PN address=2606:40:2301::/51 } on-error={}
+:do { add list=PN address=2606:40:2939:ac00::/54 } on-error={}
 :do { add list=PN address=2607:8940:41a3:3b00::/56 } on-error={}
 :do { add list=PN address=2607:8940:41a3:3c00::/56 } on-error={}
 :do { add list=PN address=2a03:b600:0:1155::/64 } on-error={}
@@ -77,6 +78,8 @@
 :do { add list=PN address=2a12:f003:f000::/36 } on-error={}
 :do { add list=PN address=2a12:f381:2900::/40 } on-error={}
 :do { add list=PN address=2a12:f382:2900::/40 } on-error={}
+:do { add list=PN address=2a12:f8c3:1:bdc0::/64 } on-error={}
+:do { add list=PN address=2a12:f8c3:1:bdd3::/64 } on-error={}
 :do { add list=PN address=2a13:82c4:ff49::/48 } on-error={}
 :do { add list=PN address=2a13:a5c7:25b5::/48 } on-error={}
 :do { add list=PN address=2a13:a5c7:25ff:b400::/56 } on-error={}

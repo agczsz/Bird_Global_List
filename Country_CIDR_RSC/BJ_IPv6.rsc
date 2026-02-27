@@ -1,7 +1,6 @@
 /log info "Loading BJ IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=BJ address=2001:470:19:fa7::/64 } on-error={}
-:do { add list=BJ address=2001:470:36:a1::/64 } on-error={}
 :do { add list=BJ address=2001:470:36:1fa::/64 } on-error={}
 :do { add list=BJ address=2001:470:36:11d1::/64 } on-error={}
 :do { add list=BJ address=2001:470:6d:b28::/64 } on-error={}
@@ -263,6 +262,8 @@
 :do { add list=BJ address=2a12:ef85:c000::/36 } on-error={}
 :do { add list=BJ address=2a12:f381:9700::/40 } on-error={}
 :do { add list=BJ address=2a12:f382:9700::/40 } on-error={}
+:do { add list=BJ address=2a12:f8c3:1:1c92::/64 } on-error={}
+:do { add list=BJ address=2a12:f8c3:1:1ca6::/64 } on-error={}
 :do { add list=BJ address=2a13:82c4:ff4c::/48 } on-error={}
 :do { add list=BJ address=2a13:a5c3:d108::/46 } on-error={}
 :do { add list=BJ address=2a13:a5c7:2519::/48 } on-error={}

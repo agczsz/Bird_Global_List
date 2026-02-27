@@ -492,6 +492,8 @@
 :do { add list=JO address=2a12:f001:6000::/36 } on-error={}
 :do { add list=JO address=2a12:f381:6500::/40 } on-error={}
 :do { add list=JO address=2a12:f382:6500::/40 } on-error={}
+:do { add list=JO address=2a12:f8c3:1:73e5::/64 } on-error={}
+:do { add list=JO address=2a12:f8c3:1:749c::/64 } on-error={}
 :do { add list=JO address=2a13:1f00::/29 } on-error={}
 :do { add list=JO address=2a13:5c00::/29 } on-error={}
 :do { add list=JO address=2a13:82c4:ff12::/48 } on-error={}

@@ -356,6 +356,8 @@
 :do { add list=TT address=2a12:f005:c000::/36 } on-error={}
 :do { add list=TT address=2a12:f381:fd00::/40 } on-error={}
 :do { add list=TT address=2a12:f382:fd00::/40 } on-error={}
+:do { add list=TT address=2a12:f8c3:1:e68d::/64 } on-error={}
+:do { add list=TT address=2a12:f8c3:1:e775::/64 } on-error={}
 :do { add list=TT address=2a13:a5c7:25e1::/48 } on-error={}
 :do { add list=TT address=2a13:a5c7:25ff:e100::/56 } on-error={}
 :do { add list=TT address=2a13:ef41:1d43::/48 } on-error={}

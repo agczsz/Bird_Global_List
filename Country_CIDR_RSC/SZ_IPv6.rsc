@@ -204,6 +204,8 @@
 :do { add list=SZ address=2a12:f005:4000::/36 } on-error={}
 :do { add list=SZ address=2a12:f381:ea00::/40 } on-error={}
 :do { add list=SZ address=2a12:f382:ea00::/40 } on-error={}
+:do { add list=SZ address=2a12:f8c3:1:dd5f::/64 } on-error={}
+:do { add list=SZ address=2a12:f8c3:1:dd71::/64 } on-error={}
 :do { add list=SZ address=2a13:a5c7:25d4::/48 } on-error={}
 :do { add list=SZ address=2a13:a5c7:25ff:d400::/56 } on-error={}
 :do { add list=SZ address=2a13:ef41:1c4f::/48 } on-error={}

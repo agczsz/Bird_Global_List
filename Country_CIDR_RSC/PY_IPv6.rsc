@@ -1,6 +1,7 @@
 /log info "Loading PY IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=PY address=2001:470:5:a4c::/64 } on-error={}
+:do { add list=PY address=2001:470:19:1212::/64 } on-error={}
 :do { add list=PY address=2001:470:1f2b:44::/64 } on-error={}
 :do { add list=PY address=2001:470:1f2b:1eb::/64 } on-error={}
 :do { add list=PY address=2001:470:1f2b:223::/64 } on-error={}
@@ -31,6 +32,7 @@
 :do { add list=PY address=2405:b500:5f60::/64 } on-error={}
 :do { add list=PY address=2405:b500:5f60:8::/64 } on-error={}
 :do { add list=PY address=2600:70ff:9b6f::/48 } on-error={}
+:do { add list=PY address=2600:70ff:ac3b::/48 } on-error={}
 :do { add list=PY address=2600:70ff:c80f::/48 } on-error={}
 :do { add list=PY address=2602:2a9:9e0::/44 } on-error={}
 :do { add list=PY address=2602:f9e0::/64 } on-error={}
@@ -882,6 +884,8 @@
 :do { add list=PY address=2a12:f004:3000::/36 } on-error={}
 :do { add list=PY address=2a12:f381:2500::/40 } on-error={}
 :do { add list=PY address=2a12:f382:2500::/40 } on-error={}
+:do { add list=PY address=2a12:f8c3:1:c282::/64 } on-error={}
+:do { add list=PY address=2a12:f8c3:1:c2c4::/64 } on-error={}
 :do { add list=PY address=2a13:a5c7:25ba::/48 } on-error={}
 :do { add list=PY address=2a13:a5c7:25ff:b900::/56 } on-error={}
 :do { add list=PY address=2a13:ef41:19fd::/48 } on-error={}
