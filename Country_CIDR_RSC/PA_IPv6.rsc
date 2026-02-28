@@ -805,6 +805,7 @@
 :do { add list=PA address=2a09:bac0:1000:629::/64 } on-error={}
 :do { add list=PA address=2a09:bac0:1000:d1e::/64 } on-error={}
 :do { add list=PA address=2a09:bac0:1000:125d::/64 } on-error={}
+:do { add list=PA address=2a09:bac0:1000:13be::/64 } on-error={}
 :do { add list=PA address=2a09:bac0:1001:36e::/64 } on-error={}
 :do { add list=PA address=2a09:bac1:5880::/64 } on-error={}
 :do { add list=PA address=2a09:bac1:5880:8::/64 } on-error={}

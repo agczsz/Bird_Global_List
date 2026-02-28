@@ -63,7 +63,7 @@
 :do { add list=JE address=2607:8940:4183:5700::/56 } on-error={}
 :do { add list=JE address=2607:8940:4183:ef00::/56 } on-error={}
 :do { add list=JE address=2a00:f180::/32 } on-error={}
-:do { add list=JE address=2a01:a400::/32 } on-error={}
+:do { add list=JE address=2a01:a400::/29 } on-error={}
 :do { add list=JE address=2a01:e281:aa00::/41 } on-error={}
 :do { add list=JE address=2a01:e281:aa80::/43 } on-error={}
 :do { add list=JE address=2a01:e281:aaa0::/44 } on-error={}

@@ -502,7 +502,6 @@
 :do { add list=VG address=2a06:9f81:43ee::/48 } on-error={}
 :do { add list=VG address=2a06:9f81:43ef:f200::/55 } on-error={}
 :do { add list=VG address=2a06:9f81:56ed::/48 } on-error={}
-:do { add list=VG address=2a06:da40::/40 } on-error={}
 :do { add list=VG address=2a07:d887:ed00::/40 } on-error={}
 :do { add list=VG address=2a09:4c0:0:f0::/64 } on-error={}
 :do { add list=VG address=2a09:54c7:2eef::/48 } on-error={}

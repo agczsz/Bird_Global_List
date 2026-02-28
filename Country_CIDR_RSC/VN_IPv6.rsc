@@ -54,6 +54,7 @@
 :do { add list=VN address=2001:470:6d:583::/64 } on-error={}
 :do { add list=VN address=2001:470:71:60c::/64 } on-error={}
 :do { add list=VN address=2001:470:1890::/48 } on-error={}
+:do { add list=VN address=2001:470:191e::/48 } on-error={}
 :do { add list=VN address=2001:470:1bbb::/48 } on-error={}
 :do { add list=VN address=2001:470:1f09:19c::/64 } on-error={}
 :do { add list=VN address=2001:470:1f09:231::/64 } on-error={}
@@ -146,6 +147,7 @@
 :do { add list=VN address=2001:470:1f1b:802::/64 } on-error={}
 :do { add list=VN address=2001:470:1f1b:804::/63 } on-error={}
 :do { add list=VN address=2001:470:1f1d:138::/64 } on-error={}
+:do { add list=VN address=2001:470:1f1d:2d9::/64 } on-error={}
 :do { add list=VN address=2001:470:1f1d:588::/64 } on-error={}
 :do { add list=VN address=2001:470:1f1d:59f::/64 } on-error={}
 :do { add list=VN address=2001:470:1f1d:821::/64 } on-error={}
@@ -358,6 +360,7 @@
 :do { add list=VN address=2001:470:e045::/48 } on-error={}
 :do { add list=VN address=2001:470:e25e::/50 } on-error={}
 :do { add list=VN address=2001:470:e25e:c000::/50 } on-error={}
+:do { add list=VN address=2001:470:e26a::/48 } on-error={}
 :do { add list=VN address=2001:470:e68a::/48 } on-error={}
 :do { add list=VN address=2001:470:e6aa::/48 } on-error={}
 :do { add list=VN address=2001:470:e6ae::/48 } on-error={}
@@ -4645,7 +4648,6 @@
 :do { add list=VN address=240d:c010:123:1::/64 } on-error={}
 :do { add list=VN address=240d:c010:123:2::/64 } on-error={}
 :do { add list=VN address=240d:c010:13d:1::/64 } on-error={}
-:do { add list=VN address=240d:c010:13d:2::/64 } on-error={}
 :do { add list=VN address=240d:c010:14c::/62 } on-error={}
 :do { add list=VN address=240d:c010:19e::/48 } on-error={}
 :do { add list=VN address=2600:1417:5400::/48 } on-error={}
@@ -33795,7 +33797,8 @@
 :do { add list=VN address=2a14:7583:f126::/47 } on-error={}
 :do { add list=VN address=2a14:7583:f128::/45 } on-error={}
 :do { add list=VN address=2a14:7583:f130::/45 } on-error={}
-:do { add list=VN address=2a14:7583:f138::/45 } on-error={}
+:do { add list=VN address=2a14:7583:f138::/46 } on-error={}
+:do { add list=VN address=2a14:7583:f13c::/46 } on-error={}
 :do { add list=VN address=2a14:7583:f140::/42 } on-error={}
 :do { add list=VN address=2a14:7583:f180::/41 } on-error={}
 :do { add list=VN address=2a14:7583:ff89::/48 } on-error={}

@@ -61,7 +61,6 @@
 :do { add list=AF address=2001:470:6d:4b8::/64 } on-error={}
 :do { add list=AF address=2001:470:6d:52a::/64 } on-error={}
 :do { add list=AF address=2001:470:6d:52f::/64 } on-error={}
-:do { add list=AF address=2001:470:6d:565::/64 } on-error={}
 :do { add list=AF address=2001:470:6d:58f::/64 } on-error={}
 :do { add list=AF address=2001:470:6d:61d::/64 } on-error={}
 :do { add list=AF address=2001:470:6d:624::/64 } on-error={}
@@ -387,7 +386,6 @@
 :do { add list=AF address=2001:470:1f1b:421::/64 } on-error={}
 :do { add list=AF address=2001:470:1f1b:498::/64 } on-error={}
 :do { add list=AF address=2001:470:1f1b:4d7::/64 } on-error={}
-:do { add list=AF address=2001:470:1f1b:565::/64 } on-error={}
 :do { add list=AF address=2001:470:1f1b:719::/64 } on-error={}
 :do { add list=AF address=2001:470:1f1b:74b::/64 } on-error={}
 :do { add list=AF address=2001:470:1f1b:754::/64 } on-error={}
@@ -467,6 +465,7 @@
 :do { add list=AF address=2001:470:1f29:364::/64 } on-error={}
 :do { add list=AF address=2001:470:1f29:384::/64 } on-error={}
 :do { add list=AF address=2001:470:1f29:3cb::/64 } on-error={}
+:do { add list=AF address=2001:470:1f29:3e8::/64 } on-error={}
 :do { add list=AF address=2001:470:1f29:3fc::/64 } on-error={}
 :do { add list=AF address=2001:470:1f29:432::/64 } on-error={}
 :do { add list=AF address=2001:470:1f29:478::/64 } on-error={}
@@ -474,6 +473,7 @@
 :do { add list=AF address=2001:470:1f2d:32::/64 } on-error={}
 :do { add list=AF address=2001:470:1f2d:c4::/64 } on-error={}
 :do { add list=AF address=2001:470:1f2f:cd::/64 } on-error={}
+:do { add list=AF address=2001:470:1f2f:121::/64 } on-error={}
 :do { add list=AF address=2001:470:20e3::/48 } on-error={}
 :do { add list=AF address=2001:470:210a::/48 } on-error={}
 :do { add list=AF address=2001:470:2136::/48 } on-error={}
@@ -482,6 +482,7 @@
 :do { add list=AF address=2001:470:4287::/48 } on-error={}
 :do { add list=AF address=2001:470:49e1::/48 } on-error={}
 :do { add list=AF address=2001:470:505b::/48 } on-error={}
+:do { add list=AF address=2001:470:527a::/48 } on-error={}
 :do { add list=AF address=2001:470:541d::/48 } on-error={}
 :do { add list=AF address=2001:470:546f::/48 } on-error={}
 :do { add list=AF address=2001:470:5487::/48 } on-error={}

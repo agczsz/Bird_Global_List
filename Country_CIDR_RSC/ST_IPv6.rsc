@@ -65,7 +65,6 @@
 :do { add list=ST address=2804:71f0:4011:7200::/55 } on-error={}
 :do { add list=ST address=2804:71f0:4011:7400::/54 } on-error={}
 :do { add list=ST address=2804:71f0:4011:7800::/53 } on-error={}
-:do { add list=ST address=2804:71f0:4011:8000::/49 } on-error={}
 :do { add list=ST address=2804:71f0:4012::/49 } on-error={}
 :do { add list=ST address=2804:71f0:4012:8000::/50 } on-error={}
 :do { add list=ST address=2804:71f0:4012:c000::/51 } on-error={}

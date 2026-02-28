@@ -248,6 +248,7 @@
 :do { add list=BB address=2a09:54c7:2e21::/48 } on-error={}
 :do { add list=BB address=2a09:bac0:1000:d2d::/64 } on-error={}
 :do { add list=BB address=2a09:bac0:1000:1246::/64 } on-error={}
+:do { add list=BB address=2a09:bac0:1000:134e::/64 } on-error={}
 :do { add list=BB address=2a09:bac1:a80::/64 } on-error={}
 :do { add list=BB address=2a09:bac1:aa0::/64 } on-error={}
 :do { add list=BB address=2a09:bac1:ac0::/64 } on-error={}

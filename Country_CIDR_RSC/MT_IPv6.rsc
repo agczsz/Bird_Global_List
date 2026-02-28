@@ -139,6 +139,7 @@
 :do { add list=MT address=2a02:dd0:b000::/36 } on-error={}
 :do { add list=MT address=2a02:dd0:c000::/34 } on-error={}
 :do { add list=MT address=2a02:26f7:bc80:4000::/64 } on-error={}
+:do { add list=MT address=2a02:26f7:bc80:8000::/50 } on-error={}
 :do { add list=MT address=2a02:26f7:bc80:cb80::/63 } on-error={}
 :do { add list=MT address=2a02:26f7:bc81::/50 } on-error={}
 :do { add list=MT address=2a02:26f7:bc81:4000::/64 } on-error={}

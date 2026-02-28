@@ -167,14 +167,9 @@
 :do { add list=MC address=2607:8940:4250:7400::/56 } on-error={}
 :do { add list=MC address=2607:8940:4250:9100::/56 } on-error={}
 :do { add list=MC address=2a01:8fe0::/32 } on-error={}
-:do { add list=MC address=2a01:cb06:d06b:e800::/53 } on-error={}
 :do { add list=MC address=2a01:cb0a:800d:7800::/54 } on-error={}
 :do { add list=MC address=2a01:cb0a:802b:f000::/53 } on-error={}
-:do { add list=MC address=2a01:cb0a:804c:e800::/53 } on-error={}
-:do { add list=MC address=2a01:cb11:8022:8000::/49 } on-error={}
-:do { add list=MC address=2a01:cb16:46:8000::/50 } on-error={}
-:do { add list=MC address=2a01:cb1e:100c:f800::/53 } on-error={}
-:do { add list=MC address=2a01:cb1e:1040::/48 } on-error={}
+:do { add list=MC address=2a01:cb16:58:8000::/49 } on-error={}
 :do { add list=MC address=2a01:cb1e:1048:e000::/52 } on-error={}
 :do { add list=MC address=2a02:26f7:c180::/48 } on-error={}
 :do { add list=MC address=2a02:26f7:c181::/50 } on-error={}

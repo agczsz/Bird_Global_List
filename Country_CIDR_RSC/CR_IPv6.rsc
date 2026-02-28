@@ -210,6 +210,7 @@
 :do { add list=CR address=2800:860::/32 } on-error={}
 :do { add list=CR address=2800:9b0::/32 } on-error={}
 :do { add list=CR address=2800:b10::/64 } on-error={}
+:do { add list=CR address=2800:b20:1019:9f00::/56 } on-error={}
 :do { add list=CR address=2800:b90::/32 } on-error={}
 :do { add list=CR address=2800:c20::/32 } on-error={}
 :do { add list=CR address=2800:d300::/29 } on-error={}
@@ -921,6 +922,7 @@
 :do { add list=CR address=2a09:bac0:1000:cf8::/64 } on-error={}
 :do { add list=CR address=2a09:bac0:1000:121d::/64 } on-error={}
 :do { add list=CR address=2a09:bac0:1000:1331::/64 } on-error={}
+:do { add list=CR address=2a09:bac0:1000:136c::/64 } on-error={}
 :do { add list=CR address=2a09:bac0:1001:aa::/64 } on-error={}
 :do { add list=CR address=2a09:bac0:1001:32c::/64 } on-error={}
 :do { add list=CR address=2a09:bac1:1a80::/64 } on-error={}

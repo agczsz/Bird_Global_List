@@ -1031,6 +1031,7 @@
 :do { add list=OM address=2a09:5580::/32 } on-error={}
 :do { add list=OM address=2a09:bac0:1000:aae::/64 } on-error={}
 :do { add list=OM address=2a09:bac0:1000:1256::/64 } on-error={}
+:do { add list=OM address=2a09:bac0:1000:13d6::/64 } on-error={}
 :do { add list=OM address=2a09:bac1:5800::/64 } on-error={}
 :do { add list=OM address=2a09:bac1:5800:7f8::/64 } on-error={}
 :do { add list=OM address=2a09:bac1:5820::/64 } on-error={}

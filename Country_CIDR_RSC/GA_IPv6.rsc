@@ -251,8 +251,6 @@
 :do { add list=GA address=2a14:7581:3b57::/48 } on-error={}
 :do { add list=GA address=2c0f:3800::/32 } on-error={}
 :do { add list=GA address=2c0f:5c80::/32 } on-error={}
-:do { add list=GA address=2c0f:ef58:169b:d800::/64 } on-error={}
-:do { add list=GA address=2c0f:ef58:16cb:100::/64 } on-error={}
 :do { add list=GA address=2c0f:ef78:1::/48 } on-error={}
 :do { add list=GA address=2c0f:f038::/32 } on-error={}
 :do { add list=GA address=2c0f:f3e0::/32 } on-error={}
