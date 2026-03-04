@@ -3,7 +3,6 @@
 :do { add list=TF address=2001:470:19:45::/64 } on-error={}
 :do { add list=TF address=2001:470:19:4af::/64 } on-error={}
 :do { add list=TF address=2001:470:19:88f::/64 } on-error={}
-:do { add list=TF address=2001:470:19:10a3::/64 } on-error={}
 :do { add list=TF address=2001:470:36:ff3::/64 } on-error={}
 :do { add list=TF address=2001:470:4893::/48 } on-error={}
 :do { add list=TF address=2001:470:e0f1::/48 } on-error={}
@@ -28,6 +27,7 @@
 :do { add list=TF address=2606:40:1ad0::/44 } on-error={}
 :do { add list=TF address=2606:40:1ae0::/44 } on-error={}
 :do { add list=TF address=2607:8940:4200:e600::/55 } on-error={}
+:do { add list=TF address=2a01:528:e700::/40 } on-error={}
 :do { add list=TF address=2a03:b600:0:1056::/63 } on-error={}
 :do { add list=TF address=2a03:b600:0:1058::/61 } on-error={}
 :do { add list=TF address=2a03:b600:0:1060::/62 } on-error={}
@@ -75,7 +75,19 @@
 :do { add list=TF address=2a0f:1cc5:b15:4e00::/56 } on-error={}
 :do { add list=TF address=2a0f:1cc5:b16:4e00::/56 } on-error={}
 :do { add list=TF address=2a0f:1cc5:b17:4e00::/56 } on-error={}
-:do { add list=TF address=2a11:3a83:4000::/35 } on-error={}
+:do { add list=TF address=2a11:3a83:4001::/48 } on-error={}
+:do { add list=TF address=2a11:3a83:4002::/47 } on-error={}
+:do { add list=TF address=2a11:3a83:4004::/46 } on-error={}
+:do { add list=TF address=2a11:3a83:4008::/45 } on-error={}
+:do { add list=TF address=2a11:3a83:4010::/44 } on-error={}
+:do { add list=TF address=2a11:3a83:4020::/43 } on-error={}
+:do { add list=TF address=2a11:3a83:4040::/42 } on-error={}
+:do { add list=TF address=2a11:3a83:4080::/41 } on-error={}
+:do { add list=TF address=2a11:3a83:4100::/40 } on-error={}
+:do { add list=TF address=2a11:3a83:4200::/39 } on-error={}
+:do { add list=TF address=2a11:3a83:4400::/38 } on-error={}
+:do { add list=TF address=2a11:3a83:4800::/37 } on-error={}
+:do { add list=TF address=2a11:3a83:5000::/36 } on-error={}
 :do { add list=TF address=2a12:bec4:12a5:9244::/62 } on-error={}
 :do { add list=TF address=2a12:bec4:12a5:9248::/61 } on-error={}
 :do { add list=TF address=2a12:bec4:12a5:9250::/60 } on-error={}

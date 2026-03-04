@@ -2,9 +2,9 @@
 /ipv6 firewall address-list
 :do { add list=TO address=2001:470:19:434::/64 } on-error={}
 :do { add list=TO address=2001:470:19:d12::/64 } on-error={}
+:do { add list=TO address=2001:470:36:85::/64 } on-error={}
 :do { add list=TO address=2001:470:36:8ca::/64 } on-error={}
 :do { add list=TO address=2001:470:36:10d7::/64 } on-error={}
-:do { add list=TO address=2001:470:1f0b:3d0::/64 } on-error={}
 :do { add list=TO address=2001:470:1f2d:d4::/64 } on-error={}
 :do { add list=TO address=2001:470:71f5::/48 } on-error={}
 :do { add list=TO address=2001:470:88b0::/48 } on-error={}
@@ -62,6 +62,7 @@
 :do { add list=TO address=2607:8940:41a2:e200::/55 } on-error={}
 :do { add list=TO address=2607:8940:41e0:4700::/56 } on-error={}
 :do { add list=TO address=2607:8940:41e0:4800::/56 } on-error={}
+:do { add list=TO address=2a01:528:fe00::/40 } on-error={}
 :do { add list=TO address=2a02:26f7:f280::/48 } on-error={}
 :do { add list=TO address=2a02:26f7:f281::/48 } on-error={}
 :do { add list=TO address=2a02:26f7:f282::/47 } on-error={}
@@ -77,7 +78,15 @@
 :do { add list=TO address=2a02:26f7:f285:8000::/49 } on-error={}
 :do { add list=TO address=2a02:26f7:f286::/47 } on-error={}
 :do { add list=TO address=2a02:26f7:f288::/48 } on-error={}
-:do { add list=TO address=2a02:26f7:f289::/48 } on-error={}
+:do { add list=TO address=2a02:26f7:f289::/50 } on-error={}
+:do { add list=TO address=2a02:26f7:f289:4000::/64 } on-error={}
+:do { add list=TO address=2a02:26f7:f289:4100::/56 } on-error={}
+:do { add list=TO address=2a02:26f7:f289:4200::/55 } on-error={}
+:do { add list=TO address=2a02:26f7:f289:4400::/54 } on-error={}
+:do { add list=TO address=2a02:26f7:f289:4800::/53 } on-error={}
+:do { add list=TO address=2a02:26f7:f289:5000::/52 } on-error={}
+:do { add list=TO address=2a02:26f7:f289:6000::/51 } on-error={}
+:do { add list=TO address=2a02:26f7:f289:8000::/49 } on-error={}
 :do { add list=TO address=2a02:26f7:f28a::/47 } on-error={}
 :do { add list=TO address=2a02:26f7:f28c::/46 } on-error={}
 :do { add list=TO address=2a02:26f7:f290::/44 } on-error={}
@@ -174,7 +183,19 @@
 :do { add list=TO address=2a11:29c0:3d88:959c::/64 } on-error={}
 :do { add list=TO address=2a11:29c0:3d88:c113::/64 } on-error={}
 :do { add list=TO address=2a11:29c0:3d88:f0a8::/64 } on-error={}
-:do { add list=TO address=2a11:3a84:2000::/35 } on-error={}
+:do { add list=TO address=2a11:3a84:2001::/48 } on-error={}
+:do { add list=TO address=2a11:3a84:2002::/47 } on-error={}
+:do { add list=TO address=2a11:3a84:2004::/46 } on-error={}
+:do { add list=TO address=2a11:3a84:2008::/45 } on-error={}
+:do { add list=TO address=2a11:3a84:2010::/44 } on-error={}
+:do { add list=TO address=2a11:3a84:2020::/43 } on-error={}
+:do { add list=TO address=2a11:3a84:2040::/42 } on-error={}
+:do { add list=TO address=2a11:3a84:2080::/41 } on-error={}
+:do { add list=TO address=2a11:3a84:2100::/40 } on-error={}
+:do { add list=TO address=2a11:3a84:2200::/39 } on-error={}
+:do { add list=TO address=2a11:3a84:2400::/38 } on-error={}
+:do { add list=TO address=2a11:3a84:2800::/37 } on-error={}
+:do { add list=TO address=2a11:3a84:3000::/36 } on-error={}
 :do { add list=TO address=2a12:bec4:12a6:8415::/64 } on-error={}
 :do { add list=TO address=2a12:bec4:12a6:8416::/63 } on-error={}
 :do { add list=TO address=2a12:bec4:12a6:8418::/61 } on-error={}

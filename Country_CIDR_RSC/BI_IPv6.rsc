@@ -1,5 +1,6 @@
 /log info "Loading BI IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=BI address=2001:470:36:a0::/64 } on-error={}
 :do { add list=BI address=2001:470:1f29:1d3::/64 } on-error={}
 :do { add list=BI address=2001:470:efc6::/48 } on-error={}
 :do { add list=BI address=2001:470:f2f9::/48 } on-error={}
@@ -13,6 +14,7 @@
 :do { add list=BI address=2401:b60:1242::/47 } on-error={}
 :do { add list=BI address=2401:b60:1244::/46 } on-error={}
 :do { add list=BI address=2401:b60:1248::/45 } on-error={}
+:do { add list=BI address=2401:f1e0:ffff:55d2:5b3d:adb5:244e:2e3c/128 } on-error={}
 :do { add list=BI address=2401:f1e0:ffff:5826::/64 } on-error={}
 :do { add list=BI address=2405:b500:d80::/64 } on-error={}
 :do { add list=BI address=2405:b500:da0::/64 } on-error={}
@@ -28,6 +30,7 @@
 :do { add list=BI address=2607:8940:4191:f00::/56 } on-error={}
 :do { add list=BI address=2607:8940:4191:1000::/56 } on-error={}
 :do { add list=BI address=2620:0:876:1700::/56 } on-error={}
+:do { add list=BI address=2a01:528:9600::/40 } on-error={}
 :do { add list=BI address=2a02:26f7:e140::/48 } on-error={}
 :do { add list=BI address=2a02:26f7:e141::/48 } on-error={}
 :do { add list=BI address=2a02:26f7:e142::/47 } on-error={}

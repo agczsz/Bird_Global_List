@@ -1,10 +1,8 @@
 /log info "Loading EH IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=EH address=2001:470:19:10a5::/64 } on-error={}
-:do { add list=EH address=2001:470:19:1318::/64 } on-error={}
+:do { add list=EH address=2001:470:24:30e::/64 } on-error={}
 :do { add list=EH address=2001:470:36:12d::/64 } on-error={}
 :do { add list=EH address=2001:470:6d:b2f::/64 } on-error={}
-:do { add list=EH address=2001:470:1f0b:91f::/64 } on-error={}
 :do { add list=EH address=2001:470:54a6::/48 } on-error={}
 :do { add list=EH address=2001:470:73f9::/48 } on-error={}
 :do { add list=EH address=2001:470:f1ef::/48 } on-error={}
@@ -31,6 +29,7 @@
 :do { add list=EH address=2607:8940:2092::/47 } on-error={}
 :do { add list=EH address=2607:8940:4171:2e00::/55 } on-error={}
 :do { add list=EH address=2607:8940:4191:2e00::/55 } on-error={}
+:do { add list=EH address=2a01:528:bd00::/40 } on-error={}
 :do { add list=EH address=2a03:b600:0:1256::/63 } on-error={}
 :do { add list=EH address=2a03:b600:0:1258::/61 } on-error={}
 :do { add list=EH address=2a03:b600:0:1260::/62 } on-error={}

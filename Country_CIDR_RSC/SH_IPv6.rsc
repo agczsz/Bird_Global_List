@@ -1,6 +1,5 @@
 /log info "Loading SH IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=SH address=2001:470:19:130c::/64 } on-error={}
 :do { add list=SH address=2001:470:ed29::/48 } on-error={}
 :do { add list=SH address=2001:470:f5e9::/48 } on-error={}
 :do { add list=SH address=2001:470:feef::/48 } on-error={}
@@ -27,6 +26,7 @@
 :do { add list=SH address=2607:8940:4192:3d00::/56 } on-error={}
 :do { add list=SH address=2607:8940:4192:3e00::/56 } on-error={}
 :do { add list=SH address=2607:8940:4240:4800::/55 } on-error={}
+:do { add list=SH address=2a01:528:1700::/40 } on-error={}
 :do { add list=SH address=2a03:b600:0:11b0::/61 } on-error={}
 :do { add list=SH address=2a03:b600:0:11b8::/62 } on-error={}
 :do { add list=SH address=2a03:b600:0:11bc::/63 } on-error={}
@@ -77,7 +77,19 @@
 :do { add list=SH address=2a11:29c0:3d88:56f5::/64 } on-error={}
 :do { add list=SH address=2a11:29c0:3d88:60e0::/64 } on-error={}
 :do { add list=SH address=2a11:29c0:3d88:ff5f::/64 } on-error={}
-:do { add list=SH address=2a11:3a81:a000::/35 } on-error={}
+:do { add list=SH address=2a11:3a81:a001::/48 } on-error={}
+:do { add list=SH address=2a11:3a81:a002::/47 } on-error={}
+:do { add list=SH address=2a11:3a81:a004::/46 } on-error={}
+:do { add list=SH address=2a11:3a81:a008::/45 } on-error={}
+:do { add list=SH address=2a11:3a81:a010::/44 } on-error={}
+:do { add list=SH address=2a11:3a81:a020::/43 } on-error={}
+:do { add list=SH address=2a11:3a81:a040::/42 } on-error={}
+:do { add list=SH address=2a11:3a81:a080::/41 } on-error={}
+:do { add list=SH address=2a11:3a81:a100::/40 } on-error={}
+:do { add list=SH address=2a11:3a81:a200::/39 } on-error={}
+:do { add list=SH address=2a11:3a81:a400::/38 } on-error={}
+:do { add list=SH address=2a11:3a81:a800::/37 } on-error={}
+:do { add list=SH address=2a11:3a81:b000::/36 } on-error={}
 :do { add list=SH address=2a12:bec4:12a5:9224::/62 } on-error={}
 :do { add list=SH address=2a12:bec4:12a5:9228::/61 } on-error={}
 :do { add list=SH address=2a12:bec4:12a5:9230::/60 } on-error={}

@@ -2,6 +2,8 @@
 /ipv6 firewall address-list
 :do { add list=PG address=2001:470:19:8ab::/64 } on-error={}
 :do { add list=PG address=2001:470:19:bd9::/64 } on-error={}
+:do { add list=PG address=2001:470:24:f5::/64 } on-error={}
+:do { add list=PG address=2001:470:24:91e::/64 } on-error={}
 :do { add list=PG address=2001:470:36:223::/64 } on-error={}
 :do { add list=PG address=2001:470:36:62e::/64 } on-error={}
 :do { add list=PG address=2001:470:36:856::/64 } on-error={}
@@ -39,6 +41,7 @@
 :do { add list=PG address=2401:b60:1b08::/45 } on-error={}
 :do { add list=PG address=2401:d540::/32 } on-error={}
 :do { add list=PG address=2401:e8e0::/32 } on-error={}
+:do { add list=PG address=2401:f1e0:ffff:12b2:3d7d:4bab:ae7d:f154/128 } on-error={}
 :do { add list=PG address=2401:f1e0:ffff:3fe6::/64 } on-error={}
 :do { add list=PG address=2401:f680::/32 } on-error={}
 :do { add list=PG address=2402:58c0::/32 } on-error={}
@@ -90,17 +93,10 @@
 :do { add list=PG address=2607:8940:41a1:e400::/55 } on-error={}
 :do { add list=PG address=2607:8940:41e0:4000::/55 } on-error={}
 :do { add list=PG address=2607:8940:41e0:4200::/56 } on-error={}
+:do { add list=PG address=2a01:528:2e00::/40 } on-error={}
 :do { add list=PG address=2a02:26f7:e380:4000::/64 } on-error={}
 :do { add list=PG address=2a02:26f7:e380:cec0::/62 } on-error={}
-:do { add list=PG address=2a02:26f7:e381::/50 } on-error={}
-:do { add list=PG address=2a02:26f7:e381:4000::/64 } on-error={}
-:do { add list=PG address=2a02:26f7:e381:4100::/56 } on-error={}
-:do { add list=PG address=2a02:26f7:e381:4200::/55 } on-error={}
-:do { add list=PG address=2a02:26f7:e381:4400::/54 } on-error={}
-:do { add list=PG address=2a02:26f7:e381:4800::/53 } on-error={}
-:do { add list=PG address=2a02:26f7:e381:5000::/52 } on-error={}
-:do { add list=PG address=2a02:26f7:e381:6000::/51 } on-error={}
-:do { add list=PG address=2a02:26f7:e381:8000::/49 } on-error={}
+:do { add list=PG address=2a02:26f7:e381::/48 } on-error={}
 :do { add list=PG address=2a02:26f7:e382::/47 } on-error={}
 :do { add list=PG address=2a02:26f7:e384:4000::/64 } on-error={}
 :do { add list=PG address=2a02:26f7:e384:cec0::/62 } on-error={}
@@ -117,7 +113,15 @@
 :do { add list=PG address=2a02:26f7:e390::/44 } on-error={}
 :do { add list=PG address=2a02:26f7:e3a0::/43 } on-error={}
 :do { add list=PG address=2a02:26f7:fb40::/48 } on-error={}
-:do { add list=PG address=2a02:26f7:fb41::/48 } on-error={}
+:do { add list=PG address=2a02:26f7:fb41::/50 } on-error={}
+:do { add list=PG address=2a02:26f7:fb41:4000::/64 } on-error={}
+:do { add list=PG address=2a02:26f7:fb41:4100::/56 } on-error={}
+:do { add list=PG address=2a02:26f7:fb41:4200::/55 } on-error={}
+:do { add list=PG address=2a02:26f7:fb41:4400::/54 } on-error={}
+:do { add list=PG address=2a02:26f7:fb41:4800::/53 } on-error={}
+:do { add list=PG address=2a02:26f7:fb41:5000::/52 } on-error={}
+:do { add list=PG address=2a02:26f7:fb41:6000::/51 } on-error={}
+:do { add list=PG address=2a02:26f7:fb41:8000::/49 } on-error={}
 :do { add list=PG address=2a02:26f7:fb42::/47 } on-error={}
 :do { add list=PG address=2a02:26f7:fb44::/48 } on-error={}
 :do { add list=PG address=2a02:26f7:fb45::/50 } on-error={}
