@@ -2412,10 +2412,7 @@
 :do { add list=AR address=2800:a10:2500::/42 } on-error={}
 :do { add list=AR address=2800:a10:2540::/44 } on-error={}
 :do { add list=AR address=2800:a10:2550::/45 } on-error={}
-:do { add list=AR address=2800:a10:2558::/46 } on-error={}
-:do { add list=AR address=2800:a10:255c::/48 } on-error={}
-:do { add list=AR address=2800:a10:255d::/48 } on-error={}
-:do { add list=AR address=2800:a10:255e::/47 } on-error={}
+:do { add list=AR address=2800:a10:2558::/45 } on-error={}
 :do { add list=AR address=2800:a10:2560::/48 } on-error={}
 :do { add list=AR address=2800:a10:2561::/48 } on-error={}
 :do { add list=AR address=2800:a10:2562::/47 } on-error={}
@@ -5393,7 +5390,6 @@
 :do { add list=AR address=2a0b:3c40:10:b200::/55 } on-error={}
 :do { add list=AR address=2a0b:3c40:10:b400::/54 } on-error={}
 :do { add list=AR address=2a0b:3c40:10:b800::/53 } on-error={}
-:do { add list=AR address=2a0b:4e07:3:320::/60 } on-error={}
 :do { add list=AR address=2a0b:cd41:45:1::/64 } on-error={}
 :do { add list=AR address=2a0b:cd41:45:2::/63 } on-error={}
 :do { add list=AR address=2a0b:cd41:45:4::/62 } on-error={}

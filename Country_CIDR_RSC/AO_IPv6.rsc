@@ -288,7 +288,6 @@
 :do { add list=AO address=2a0a:6044:f918::/45 } on-error={}
 :do { add list=AO address=2a0a:6044:f920::/48 } on-error={}
 :do { add list=AO address=2a0a:79c7:f506::/48 } on-error={}
-:do { add list=AO address=2a0b:4e07:3:240::/60 } on-error={}
 :do { add list=AO address=2a0c:9a40:95b0:6000::/52 } on-error={}
 :do { add list=AO address=2a0c:9a46:308::/48 } on-error={}
 :do { add list=AO address=2a0c:9a46:3fe:7::/64 } on-error={}
@@ -1583,6 +1582,7 @@
 :do { add list=AO address=2c0f:f980:5416:100::/56 } on-error={}
 :do { add list=AO address=2c0f:f980:5500::/56 } on-error={}
 :do { add list=AO address=2c0f:f980:5500:3300::/64 } on-error={}
+:do { add list=AO address=2c0f:f980:5501:9300::/64 } on-error={}
 :do { add list=AO address=2c0f:f980:5503:2e00::/56 } on-error={}
 :do { add list=AO address=2c0f:f980:550c:8400::/64 } on-error={}
 :do { add list=AO address=2c0f:f980:5600::/48 } on-error={}

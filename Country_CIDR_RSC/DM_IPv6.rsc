@@ -24551,7 +24551,6 @@
 :do { add list=DM address=2602:fc3a::/36 } on-error={}
 :do { add list=DM address=2604:8c80::/32 } on-error={}
 :do { add list=DM address=2604:a180:c000::/36 } on-error={}
-:do { add list=DM address=2605:59c8:6700::/41 } on-error={}
 :do { add list=DM address=2605:59ca:8d00::/40 } on-error={}
 :do { add list=DM address=2605:d880::/32 } on-error={}
 :do { add list=DM address=2606:40:c60::/43 } on-error={}

@@ -26,7 +26,6 @@
 :do { add list=WF address=2401:b60:1fc4::/46 } on-error={}
 :do { add list=WF address=2401:b60:1fc8::/45 } on-error={}
 :do { add list=WF address=2401:f1e0:ffff:1fdd::/64 } on-error={}
-:do { add list=WF address=2401:f1e0:ffff:cebe::/64 } on-error={}
 :do { add list=WF address=2405:b500:7b80::/64 } on-error={}
 :do { add list=WF address=2405:b500:7ba0::/64 } on-error={}
 :do { add list=WF address=2405:b500:7bc0::/64 } on-error={}
@@ -120,7 +119,6 @@
 :do { add list=WF address=2a0a:6044:f700::/46 } on-error={}
 :do { add list=WF address=2a0a:6044:f704::/48 } on-error={}
 :do { add list=WF address=2a0a:79c7:f5f4::/48 } on-error={}
-:do { add list=WF address=2a0b:4e07:3:8760::/60 } on-error={}
 :do { add list=WF address=2a0c:9a40:95bf:2000::/53 } on-error={}
 :do { add list=WF address=2a0c:9a40:95bf:2800::/60 } on-error={}
 :do { add list=WF address=2a0c:9a40:95bf:2820::/59 } on-error={}

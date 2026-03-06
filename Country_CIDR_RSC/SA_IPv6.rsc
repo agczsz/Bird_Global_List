@@ -65,6 +65,7 @@
 :do { add list=SA address=2001:470:700e::/48 } on-error={}
 :do { add list=SA address=2001:470:71c0::/48 } on-error={}
 :do { add list=SA address=2001:470:73ed::/48 } on-error={}
+:do { add list=SA address=2001:470:7497::/48 } on-error={}
 :do { add list=SA address=2001:470:74ec::/48 } on-error={}
 :do { add list=SA address=2001:470:75c2::/48 } on-error={}
 :do { add list=SA address=2001:470:7b39::/48 } on-error={}
@@ -594,8 +595,7 @@
 :do { add list=SA address=2001:16a2:bba6::/48 } on-error={}
 :do { add list=SA address=2001:16a2:bba7::/48 } on-error={}
 :do { add list=SA address=2001:16a2:bba8::/46 } on-error={}
-:do { add list=SA address=2001:16a2:bbac::/48 } on-error={}
-:do { add list=SA address=2001:16a2:bbad::/48 } on-error={}
+:do { add list=SA address=2001:16a2:bbac::/47 } on-error={}
 :do { add list=SA address=2001:16a2:bbae::/47 } on-error={}
 :do { add list=SA address=2001:16a2:bbb0::/44 } on-error={}
 :do { add list=SA address=2001:16a2:bbc0::/42 } on-error={}
@@ -2737,7 +2737,6 @@
 :do { add list=SA address=2a0b:21c1:6013::/48 } on-error={}
 :do { add list=SA address=2a0b:21c1:6014::/47 } on-error={}
 :do { add list=SA address=2a0b:21c1:6016::/48 } on-error={}
-:do { add list=SA address=2a0b:4e07:3:6820::/60 } on-error={}
 :do { add list=SA address=2a0c:a40::/29 } on-error={}
 :do { add list=SA address=2a0c:1a40::/29 } on-error={}
 :do { add list=SA address=2a0c:9100::/29 } on-error={}
@@ -2801,7 +2800,9 @@
 :do { add list=SA address=2a0f:85c1:340::bc:0/112 } on-error={}
 :do { add list=SA address=2a0f:85c1:81b:f990::/60 } on-error={}
 :do { add list=SA address=2a0f:85c1:ccb::/48 } on-error={}
-:do { add list=SA address=2a0f:85c1:d00::/47 } on-error={}
+:do { add list=SA address=2a0f:85c1:d00::/48 } on-error={}
+:do { add list=SA address=2a0f:85c1:d01:4000::/50 } on-error={}
+:do { add list=SA address=2a0f:85c1:d01:8000::/49 } on-error={}
 :do { add list=SA address=2a0f:85c1:d02:4000::/50 } on-error={}
 :do { add list=SA address=2a0f:85c1:d02:8000::/49 } on-error={}
 :do { add list=SA address=2a0f:85c1:d03:1::/64 } on-error={}

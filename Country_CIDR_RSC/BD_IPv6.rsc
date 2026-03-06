@@ -5073,7 +5073,6 @@
 :do { add list=BD address=2a0a:6044:f050::/45 } on-error={}
 :do { add list=BD address=2a0a:6044:f058::/47 } on-error={}
 :do { add list=BD address=2a0a:79c7:f512::/48 } on-error={}
-:do { add list=BD address=2a0b:4e07:3:500::/60 } on-error={}
 :do { add list=BD address=2a0c:9a40:95b1:2000::/52 } on-error={}
 :do { add list=BD address=2a0c:9a46:313::/48 } on-error={}
 :do { add list=BD address=2a0c:9a46:3fe:12::/64 } on-error={}

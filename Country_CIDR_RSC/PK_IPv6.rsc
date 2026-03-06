@@ -1676,9 +1676,7 @@
 :do { add list=PK address=2402:fd00:110::/47 } on-error={}
 :do { add list=PK address=2402:fd00:112::/48 } on-error={}
 :do { add list=PK address=2402:fd00:113::/48 } on-error={}
-:do { add list=PK address=2402:fd00:114::/48 } on-error={}
-:do { add list=PK address=2402:fd00:115::/48 } on-error={}
-:do { add list=PK address=2402:fd00:116::/47 } on-error={}
+:do { add list=PK address=2402:fd00:114::/46 } on-error={}
 :do { add list=PK address=2402:fd00:118::/46 } on-error={}
 :do { add list=PK address=2402:fd00:11c::/47 } on-error={}
 :do { add list=PK address=2402:fd00:11e::/48 } on-error={}

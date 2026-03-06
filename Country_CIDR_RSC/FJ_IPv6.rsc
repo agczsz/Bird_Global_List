@@ -85,7 +85,6 @@
 :do { add list=FJ address=2401:d7c0::/32 } on-error={}
 :do { add list=FJ address=2401:e600::/32 } on-error={}
 :do { add list=FJ address=2401:f1e0:ffff:1ace::/64 } on-error={}
-:do { add list=FJ address=2401:f1e0:ffff:81c2::/64 } on-error={}
 :do { add list=FJ address=2402:1840::/32 } on-error={}
 :do { add list=FJ address=2402:2940::/32 } on-error={}
 :do { add list=FJ address=2403:4600::/32 } on-error={}

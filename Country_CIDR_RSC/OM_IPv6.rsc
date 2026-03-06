@@ -27,7 +27,6 @@
 :do { add list=OM address=2001:470:1f09:c7a::/64 } on-error={}
 :do { add list=OM address=2001:470:1f09:cbe::/64 } on-error={}
 :do { add list=OM address=2001:470:1f09:cd2::/64 } on-error={}
-:do { add list=OM address=2001:470:1f13:406::/64 } on-error={}
 :do { add list=OM address=2001:470:1f13:e5b::/64 } on-error={}
 :do { add list=OM address=2001:470:1f1d:8a4::/64 } on-error={}
 :do { add list=OM address=2001:470:1f21:fe::/64 } on-error={}

@@ -777,7 +777,9 @@
 :do { add list=CL address=2602:fa80:41::/48 } on-error={}
 :do { add list=CL address=2602:fbaf:222::/48 } on-error={}
 :do { add list=CL address=2602:fbaf:854::/48 } on-error={}
-:do { add list=CL address=2602:fd59:12::/47 } on-error={}
+:do { add list=CL address=2602:fd59:12::/48 } on-error={}
+:do { add list=CL address=2602:fd59:13:4000::/50 } on-error={}
+:do { add list=CL address=2602:fd59:13:8000::/49 } on-error={}
 :do { add list=CL address=2602:fd92:600:9::/64 } on-error={}
 :do { add list=CL address=2602:fd92:600:8000::/52 } on-error={}
 :do { add list=CL address=2602:fd92:b00:82::/64 } on-error={}

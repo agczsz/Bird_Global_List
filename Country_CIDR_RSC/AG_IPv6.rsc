@@ -465,7 +465,6 @@
 :do { add list=AG address=2a0a:6044:f720::/47 } on-error={}
 :do { add list=AG address=2a0a:6044:f722::/48 } on-error={}
 :do { add list=AG address=2a0a:79c7:f509::/48 } on-error={}
-:do { add list=AG address=2a0b:4e07:3:280::/60 } on-error={}
 :do { add list=AG address=2a0c:9a40:95b0:9000::/52 } on-error={}
 :do { add list=AG address=2a0c:9a46:304::/48 } on-error={}
 :do { add list=AG address=2a0c:9a46:3fe:3::/64 } on-error={}

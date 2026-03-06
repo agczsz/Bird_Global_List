@@ -53,8 +53,7 @@
 :do { add list=SM address=2401:b60:1c52::/47 } on-error={}
 :do { add list=SM address=2401:b60:1c54::/46 } on-error={}
 :do { add list=SM address=2401:b60:1c58::/45 } on-error={}
-:do { add list=SM address=2401:f1e0:ffff:c001::/64 } on-error={}
-:do { add list=SM address=2401:f1e0:ffff:e1d1:bb21:4a84:8034:49bb/128 } on-error={}
+:do { add list=SM address=2401:f1e0:ffff:e1d1::/64 } on-error={}
 :do { add list=SM address=2405:b500:6800::/64 } on-error={}
 :do { add list=SM address=2405:b500:6820::/64 } on-error={}
 :do { add list=SM address=2405:b500:6840::/64 } on-error={}
@@ -181,7 +180,6 @@
 :do { add list=SM address=2a0a:6044:f66c::/47 } on-error={}
 :do { add list=SM address=2a0a:6044:f66e::/48 } on-error={}
 :do { add list=SM address=2a0a:79c7:f5c1::/48 } on-error={}
-:do { add list=SM address=2a0b:4e07:3:6740::/60 } on-error={}
 :do { add list=SM address=2a0c:1e00::/29 } on-error={}
 :do { add list=SM address=2a0c:9a40:95bb:f000::/52 } on-error={}
 :do { add list=SM address=2a0c:9a46:3cc::/48 } on-error={}
