@@ -64,16 +64,11 @@
 :do { add list=FK address=2a04:1d45:c200::/40 } on-error={}
 :do { add list=FK address=2a04:1d46:c200::/40 } on-error={}
 :do { add list=FK address=2a04:1d47:c200::/40 } on-error={}
-:do { add list=FK address=2a04:4e41:0:128::/64 } on-error={}
 :do { add list=FK address=2a04:4e41:f:59::/64 } on-error={}
 :do { add list=FK address=2a04:4e41:f:3f00::/56 } on-error={}
-:do { add list=FK address=2a04:4e41:10:37::/64 } on-error={}
-:do { add list=FK address=2a04:4e41:10:2900::/56 } on-error={}
 :do { add list=FK address=2a04:4e41:11:67::/64 } on-error={}
 :do { add list=FK address=2a04:4e41:11:3f00::/56 } on-error={}
 :do { add list=FK address=2a04:4e41:13:67::/64 } on-error={}
-:do { add list=FK address=2a04:4e41:14:5f::/64 } on-error={}
-:do { add list=FK address=2a04:4e41:14:3600::/56 } on-error={}
 :do { add list=FK address=2a04:4e41:1a:45::/64 } on-error={}
 :do { add list=FK address=2a04:4e41:1a:2500::/56 } on-error={}
 :do { add list=FK address=2a04:4e41:51:128::/64 } on-error={}

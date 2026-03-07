@@ -216,8 +216,6 @@
 :do { add list=KG address=2a04:1d45:6800::/40 } on-error={}
 :do { add list=KG address=2a04:1d46:6800::/40 } on-error={}
 :do { add list=KG address=2a04:1d47:6800::/40 } on-error={}
-:do { add list=KG address=2a04:4e41:10:13::/64 } on-error={}
-:do { add list=KG address=2a04:4e41:10:1a00::/56 } on-error={}
 :do { add list=KG address=2a04:4e41:21:10::/64 } on-error={}
 :do { add list=KG address=2a04:4e41:21:1600::/56 } on-error={}
 :do { add list=KG address=2a04:4e41:66:4f::/64 } on-error={}

@@ -19,7 +19,6 @@
 :do { add list=RS address=2001:470:6d:da::/64 } on-error={}
 :do { add list=RS address=2001:470:6d:36b::/64 } on-error={}
 :do { add list=RS address=2001:470:6d:58c::/63 } on-error={}
-:do { add list=RS address=2001:470:6d:612::/64 } on-error={}
 :do { add list=RS address=2001:470:6d:77f::/64 } on-error={}
 :do { add list=RS address=2001:470:6d:ccf::/64 } on-error={}
 :do { add list=RS address=2001:470:6d:e4d::/64 } on-error={}
@@ -259,6 +258,7 @@
 :do { add list=RS address=2604:b040:13:1400:0:6:5:0/112 } on-error={}
 :do { add list=RS address=2604:b040:13:1400:0:7:5:0/112 } on-error={}
 :do { add list=RS address=2605:380:40::/48 } on-error={}
+:do { add list=RS address=2605:e000:218d:fb00::/64 } on-error={}
 :do { add list=RS address=2605:e000:61cb:1100::/64 } on-error={}
 :do { add list=RS address=2605:e000:cec1:2400::/64 } on-error={}
 :do { add list=RS address=2605:e000:d38c:b300::/64 } on-error={}
@@ -664,6 +664,7 @@
 :do { add list=RS address=2a01:ce8d::/36 } on-error={}
 :do { add list=RS address=2a02:2d8:2:2000::/56 } on-error={}
 :do { add list=RS address=2a02:660::/32 } on-error={}
+:do { add list=RS address=2a02:6b8:fc7e::/48 } on-error={}
 :do { add list=RS address=2a02:b58::/32 } on-error={}
 :do { add list=RS address=2a02:e40::/32 } on-error={}
 :do { add list=RS address=2a02:f88::/32 } on-error={}
@@ -1657,8 +1658,10 @@
 :do { add list=RS address=2a0e:fd86::/32 } on-error={}
 :do { add list=RS address=2a0e:fd87:8050::/48 } on-error={}
 :do { add list=RS address=2a0e:fd87:8060::/44 } on-error={}
-:do { add list=RS address=2a0e:fd87:a050::/46 } on-error={}
+:do { add list=RS address=2a0e:fd87:80a0::/48 } on-error={}
+:do { add list=RS address=2a0e:fd87:a050::/45 } on-error={}
 :do { add list=RS address=2a0e:fd87:a081::/48 } on-error={}
+:do { add list=RS address=2a0e:fd87:a0d0::/48 } on-error={}
 :do { add list=RS address=2a0f:1cc5:b10:c700::/56 } on-error={}
 :do { add list=RS address=2a0f:1cc5:b11:c700::/56 } on-error={}
 :do { add list=RS address=2a0f:1cc5:b12:c700::/56 } on-error={}

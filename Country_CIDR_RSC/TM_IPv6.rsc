@@ -94,8 +94,6 @@
 :do { add list=TM address=2a04:1d46:e100::/40 } on-error={}
 :do { add list=TM address=2a04:1d47:e100::/40 } on-error={}
 :do { add list=TM address=2a04:4e41:1:98::/64 } on-error={}
-:do { add list=TM address=2a04:4e41:10:30::/64 } on-error={}
-:do { add list=TM address=2a04:4e41:10:2700::/56 } on-error={}
 :do { add list=TM address=2a04:4e41:36:6::/64 } on-error={}
 :do { add list=TM address=2a04:4e41:36:1200::/56 } on-error={}
 :do { add list=TM address=2a04:4e41:66:98::/64 } on-error={}

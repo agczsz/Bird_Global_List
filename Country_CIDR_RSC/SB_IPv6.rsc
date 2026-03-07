@@ -85,10 +85,6 @@
 :do { add list=SB address=2a04:1d45:1c00::/40 } on-error={}
 :do { add list=SB address=2a04:1d46:1c00::/40 } on-error={}
 :do { add list=SB address=2a04:1d47:1c00::/40 } on-error={}
-:do { add list=SB address=2a04:4e41:8:9::/64 } on-error={}
-:do { add list=SB address=2a04:4e41:8:1800::/56 } on-error={}
-:do { add list=SB address=2a04:4e41:c:a::/64 } on-error={}
-:do { add list=SB address=2a04:4e41:c:1600::/56 } on-error={}
 :do { add list=SB address=2a04:4e41:2a:b::/64 } on-error={}
 :do { add list=SB address=2a04:4e41:2a:1700::/56 } on-error={}
 :do { add list=SB address=2a04:4e41:280f::/48 } on-error={}

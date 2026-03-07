@@ -444,6 +444,7 @@
 :do { add list=GH address=2c0e:4000:a107:1::/64 } on-error={}
 :do { add list=GH address=2c0e:a000::/24 } on-error={}
 :do { add list=GH address=2c0f:420::/32 } on-error={}
+:do { add list=GH address=2c0f:7a0::/32 } on-error={}
 :do { add list=GH address=2c0f:1380::/32 } on-error={}
 :do { add list=GH address=2c0f:1640::/32 } on-error={}
 :do { add list=GH address=2c0f:1d80::/32 } on-error={}

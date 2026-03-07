@@ -8882,7 +8882,10 @@
 :do { add list=UY address=2801:81:1e2::/47 } on-error={}
 :do { add list=UY address=2801:81:1e4::/46 } on-error={}
 :do { add list=UY address=2801:81:1e8::/45 } on-error={}
-:do { add list=UY address=2801:81:1f0::/44 } on-error={}
+:do { add list=UY address=2801:81:1f1::/48 } on-error={}
+:do { add list=UY address=2801:81:1f2::/47 } on-error={}
+:do { add list=UY address=2801:81:1f4::/46 } on-error={}
+:do { add list=UY address=2801:81:1f8::/45 } on-error={}
 :do { add list=UY address=2801:81:210::/44 } on-error={}
 :do { add list=UY address=2801:81:220::/43 } on-error={}
 :do { add list=UY address=2801:81:240::/42 } on-error={}
@@ -27024,6 +27027,10 @@
 :do { add list=UY address=2804:1b8c:800::/37 } on-error={}
 :do { add list=UY address=2804:1b8c:1000::/37 } on-error={}
 :do { add list=UY address=2804:1b8c:1800::/40 } on-error={}
+:do { add list=UY address=2804:1b8c:1900::/55 } on-error={}
+:do { add list=UY address=2804:1b8c:1900:200::/56 } on-error={}
+:do { add list=UY address=2804:1b8c:1900:400::/56 } on-error={}
+:do { add list=UY address=2804:1b8c:1900:600::/55 } on-error={}
 :do { add list=UY address=2804:1b8c:1900:800::/53 } on-error={}
 :do { add list=UY address=2804:1b8c:1900:1000::/52 } on-error={}
 :do { add list=UY address=2804:1b8c:1900:2000::/51 } on-error={}
@@ -42434,10 +42441,11 @@
 :do { add list=UY address=2804:980e::/31 } on-error={}
 :do { add list=UY address=2804:9811::/32 } on-error={}
 :do { add list=UY address=2804:9812::/31 } on-error={}
-:do { add list=UY address=2804:9814::/32 } on-error={}
 :do { add list=UY address=2804:9815::/32 } on-error={}
 :do { add list=UY address=2804:9816::/31 } on-error={}
-:do { add list=UY address=2804:9818::/29 } on-error={}
+:do { add list=UY address=2804:9819::/32 } on-error={}
+:do { add list=UY address=2804:981a::/31 } on-error={}
+:do { add list=UY address=2804:981c::/30 } on-error={}
 :do { add list=UY address=2804:9820::/27 } on-error={}
 :do { add list=UY address=2804:9840::/26 } on-error={}
 :do { add list=UY address=2804:9880::/25 } on-error={}

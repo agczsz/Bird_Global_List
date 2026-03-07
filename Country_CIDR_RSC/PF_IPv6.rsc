@@ -251,10 +251,6 @@
 :do { add list=PF address=2a04:1d47:2f00::/40 } on-error={}
 :do { add list=PF address=2a04:4e41:6:f::/64 } on-error={}
 :do { add list=PF address=2a04:4e41:6:1a00::/56 } on-error={}
-:do { add list=PF address=2a04:4e41:8:8::/64 } on-error={}
-:do { add list=PF address=2a04:4e41:8:1700::/56 } on-error={}
-:do { add list=PF address=2a04:4e41:c:8::/64 } on-error={}
-:do { add list=PF address=2a04:4e41:c:1400::/56 } on-error={}
 :do { add list=PF address=2a04:4e41:e:f::/64 } on-error={}
 :do { add list=PF address=2a04:4e41:e:1a00::/56 } on-error={}
 :do { add list=PF address=2a04:4e41:5b:6::/64 } on-error={}

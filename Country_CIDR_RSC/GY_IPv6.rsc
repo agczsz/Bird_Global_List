@@ -396,7 +396,6 @@
 :do { add list=GY address=2a04:1d45:d400::/40 } on-error={}
 :do { add list=GY address=2a04:1d46:d400::/40 } on-error={}
 :do { add list=GY address=2a04:1d47:d400::/40 } on-error={}
-:do { add list=GY address=2a04:4e41:0:13::/64 } on-error={}
 :do { add list=GY address=2a04:4e41:16:1c::/64 } on-error={}
 :do { add list=GY address=2a04:4e41:16:2300::/56 } on-error={}
 :do { add list=GY address=2a04:4e41:18:3::/64 } on-error={}

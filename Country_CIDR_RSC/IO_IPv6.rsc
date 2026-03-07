@@ -165,8 +165,6 @@
 :do { add list=IO address=2a04:4e41:11:44::/64 } on-error={}
 :do { add list=IO address=2a04:4e41:11:2300::/56 } on-error={}
 :do { add list=IO address=2a04:4e41:13:44::/64 } on-error={}
-:do { add list=IO address=2a04:4e41:14:40::/64 } on-error={}
-:do { add list=IO address=2a04:4e41:14:1d00::/56 } on-error={}
 :do { add list=IO address=2a04:4e41:1a:39::/64 } on-error={}
 :do { add list=IO address=2a04:4e41:1a:1c00::/56 } on-error={}
 :do { add list=IO address=2a04:4e41:1316::/48 } on-error={}

@@ -1183,9 +1183,6 @@
 :do { add list=OM address=2a04:1d47:3200::/40 } on-error={}
 :do { add list=OM address=2a04:4e41:f:36::/63 } on-error={}
 :do { add list=OM address=2a04:4e41:f:2a00::/56 } on-error={}
-:do { add list=OM address=2a04:4e41:10:21::/64 } on-error={}
-:do { add list=OM address=2a04:4e41:10:22::/64 } on-error={}
-:do { add list=OM address=2a04:4e41:10:2300::/56 } on-error={}
 :do { add list=OM address=2a04:4e41:12:3b::/64 } on-error={}
 :do { add list=OM address=2a04:4e41:12:3c::/64 } on-error={}
 :do { add list=OM address=2a04:4e41:12:2800::/56 } on-error={}

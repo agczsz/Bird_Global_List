@@ -156,8 +156,6 @@
 :do { add list=CV address=2a04:1d47:b100::/40 } on-error={}
 :do { add list=CV address=2a04:4e41:11:a::/64 } on-error={}
 :do { add list=CV address=2a04:4e41:11:1800::/56 } on-error={}
-:do { add list=CV address=2a04:4e41:14:c::/64 } on-error={}
-:do { add list=CV address=2a04:4e41:14:1900::/56 } on-error={}
 :do { add list=CV address=2a04:4e41:22:5::/64 } on-error={}
 :do { add list=CV address=2a04:4e41:22:1500::/56 } on-error={}
 :do { add list=CV address=2a04:4e41:130c::/48 } on-error={}

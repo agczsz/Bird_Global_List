@@ -192,8 +192,6 @@
 :do { add list=TZ address=2a04:4e41:11:62::/64 } on-error={}
 :do { add list=TZ address=2a04:4e41:11:3a00::/56 } on-error={}
 :do { add list=TZ address=2a04:4e41:13:62::/64 } on-error={}
-:do { add list=TZ address=2a04:4e41:14:5a::/64 } on-error={}
-:do { add list=TZ address=2a04:4e41:14:3100::/56 } on-error={}
 :do { add list=TZ address=2a04:4e41:32:f::/64 } on-error={}
 :do { add list=TZ address=2a04:4e41:32:1e00::/56 } on-error={}
 :do { add list=TZ address=2a04:4e41:12cf::/48 } on-error={}

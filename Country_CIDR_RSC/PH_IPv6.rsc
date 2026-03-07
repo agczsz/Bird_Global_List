@@ -2002,11 +2002,7 @@
 :do { add list=PH address=2001:4455:90ad:6a00::/56 } on-error={}
 :do { add list=PH address=2001:4455:90ae::/47 } on-error={}
 :do { add list=PH address=2001:4455:90b0::/44 } on-error={}
-:do { add list=PH address=2001:4455:90c0::/43 } on-error={}
-:do { add list=PH address=2001:4455:90e0::/44 } on-error={}
-:do { add list=PH address=2001:4455:90f0::/45 } on-error={}
-:do { add list=PH address=2001:4455:90f8::/46 } on-error={}
-:do { add list=PH address=2001:4455:90fe::/48 } on-error={}
+:do { add list=PH address=2001:4455:90c0::/42 } on-error={}
 :do { add list=PH address=2001:4455:9100::/40 } on-error={}
 :do { add list=PH address=2001:4455:9200::/39 } on-error={}
 :do { add list=PH address=2001:4455:9400::/38 } on-error={}

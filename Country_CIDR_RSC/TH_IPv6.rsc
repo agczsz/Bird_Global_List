@@ -4115,9 +4115,6 @@
 :do { add list=TH address=2a04:1d46:e500::/40 } on-error={}
 :do { add list=TH address=2a04:1d47:e500::/40 } on-error={}
 :do { add list=TH address=2a04:4e40:fc00::/48 } on-error={}
-:do { add list=TH address=2a04:4e41:c:b::/64 } on-error={}
-:do { add list=TH address=2a04:4e41:c:c::/63 } on-error={}
-:do { add list=TH address=2a04:4e41:c:1700::/56 } on-error={}
 :do { add list=TH address=2a04:4e41:f:44::/63 } on-error={}
 :do { add list=TH address=2a04:4e41:f:46::/64 } on-error={}
 :do { add list=TH address=2a04:4e41:f:3200::/56 } on-error={}

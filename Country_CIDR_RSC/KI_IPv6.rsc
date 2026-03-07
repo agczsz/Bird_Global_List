@@ -290,8 +290,6 @@
 :do { add list=KI address=2a04:1d45:6a00::/40 } on-error={}
 :do { add list=KI address=2a04:1d46:6a00::/40 } on-error={}
 :do { add list=KI address=2a04:1d47:6a00::/40 } on-error={}
-:do { add list=KI address=2a04:4e41:8:5::/64 } on-error={}
-:do { add list=KI address=2a04:4e41:8:1400::/56 } on-error={}
 :do { add list=KI address=2a04:4e41:f:21::/64 } on-error={}
 :do { add list=KI address=2a04:4e41:f:1d00::/56 } on-error={}
 :do { add list=KI address=2a04:4e41:1c:1::/64 } on-error={}

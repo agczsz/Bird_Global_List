@@ -17,6 +17,10 @@
 :do { add list=FO address=2405:b500:2720::/64 } on-error={}
 :do { add list=FO address=2405:b500:2740::/64 } on-error={}
 :do { add list=FO address=2405:b500:2760::/64 } on-error={}
+:do { add list=FO address=2604:ca00:183:8000::/49 } on-error={}
+:do { add list=FO address=2604:ca00:193:8000::/49 } on-error={}
+:do { add list=FO address=2604:ca00:1a3:8000::/49 } on-error={}
+:do { add list=FO address=2604:ca00:1b3:8000::/49 } on-error={}
 :do { add list=FO address=2606:40:798::/45 } on-error={}
 :do { add list=FO address=2606:40:7a0::/45 } on-error={}
 :do { add list=FO address=2606:40:13a0::/44 } on-error={}

@@ -106,8 +106,6 @@
 :do { add list=LS address=2a04:4e41:11:4b::/64 } on-error={}
 :do { add list=LS address=2a04:4e41:11:2800::/56 } on-error={}
 :do { add list=LS address=2a04:4e41:13:4b::/64 } on-error={}
-:do { add list=LS address=2a04:4e41:14:45::/64 } on-error={}
-:do { add list=LS address=2a04:4e41:14:2100::/56 } on-error={}
 :do { add list=LS address=2a04:4e41:32:5::/64 } on-error={}
 :do { add list=LS address=2a04:4e41:32:1500::/56 } on-error={}
 :do { add list=LS address=2a04:4e41:12c6::/48 } on-error={}

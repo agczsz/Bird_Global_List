@@ -175,7 +175,6 @@
 :do { add list=TC address=2a04:1d45:e900::/40 } on-error={}
 :do { add list=TC address=2a04:1d46:e900::/40 } on-error={}
 :do { add list=TC address=2a04:1d47:e900::/40 } on-error={}
-:do { add list=TC address=2a04:4e41:0:1c::/64 } on-error={}
 :do { add list=TC address=2a04:4e41:7:6::/64 } on-error={}
 :do { add list=TC address=2a04:4e41:16:30::/64 } on-error={}
 :do { add list=TC address=2a04:4e41:16:3200::/56 } on-error={}

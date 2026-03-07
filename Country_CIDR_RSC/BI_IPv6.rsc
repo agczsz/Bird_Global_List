@@ -72,8 +72,6 @@
 :do { add list=BI address=2a04:1d45:9600::/40 } on-error={}
 :do { add list=BI address=2a04:1d46:9600::/40 } on-error={}
 :do { add list=BI address=2a04:1d47:9600::/40 } on-error={}
-:do { add list=BI address=2a04:4e41:14:5::/64 } on-error={}
-:do { add list=BI address=2a04:4e41:14:1300::/56 } on-error={}
 :do { add list=BI address=2a04:4e41:32:1::/64 } on-error={}
 :do { add list=BI address=2a04:4e41:32:1100::/56 } on-error={}
 :do { add list=BI address=2a04:4e41:66:d::/64 } on-error={}

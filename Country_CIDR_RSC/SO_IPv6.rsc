@@ -99,8 +99,6 @@
 :do { add list=SO address=2a04:4e41:1:94::/64 } on-error={}
 :do { add list=SO address=2a04:4e41:12:42::/64 } on-error={}
 :do { add list=SO address=2a04:4e41:12:2d00::/56 } on-error={}
-:do { add list=SO address=2a04:4e41:14:56::/64 } on-error={}
-:do { add list=SO address=2a04:4e41:14:2d00::/56 } on-error={}
 :do { add list=SO address=2a04:4e41:66:94::/64 } on-error={}
 :do { add list=SO address=2a04:4e41:66:4a00::/56 } on-error={}
 :do { add list=SO address=2a04:4e41:161f::/48 } on-error={}

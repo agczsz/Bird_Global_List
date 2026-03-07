@@ -26,6 +26,7 @@
 :do { add list=BY address=2001:470:28:b57::/64 } on-error={}
 :do { add list=BY address=2001:470:28:c1d::/64 } on-error={}
 :do { add list=BY address=2001:470:28:fc8::/64 } on-error={}
+:do { add list=BY address=2001:470:28:1017::/64 } on-error={}
 :do { add list=BY address=2001:470:36:1ec::/64 } on-error={}
 :do { add list=BY address=2001:470:36:3e9::/64 } on-error={}
 :do { add list=BY address=2001:470:36:885::/64 } on-error={}

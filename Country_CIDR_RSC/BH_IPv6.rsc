@@ -1644,8 +1644,6 @@
 :do { add list=BH address=2a04:1d45:9500::/40 } on-error={}
 :do { add list=BH address=2a04:1d46:9500::/40 } on-error={}
 :do { add list=BH address=2a04:1d47:9500::/40 } on-error={}
-:do { add list=BH address=2a04:4e41:10:c::/63 } on-error={}
-:do { add list=BH address=2a04:4e41:10:1500::/56 } on-error={}
 :do { add list=BH address=2a04:4e41:12:4::/63 } on-error={}
 :do { add list=BH address=2a04:4e41:12:1200::/56 } on-error={}
 :do { add list=BH address=2a04:4e41:4e:8::/63 } on-error={}

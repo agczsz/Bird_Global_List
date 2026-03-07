@@ -470,9 +470,6 @@
 :do { add list=NP address=2a02:5747:145::/48 } on-error={}
 :do { add list=NP address=2a04:4e41:f:32::/63 } on-error={}
 :do { add list=NP address=2a04:4e41:f:2700::/56 } on-error={}
-:do { add list=NP address=2a04:4e41:10:1f::/64 } on-error={}
-:do { add list=NP address=2a04:4e41:10:20::/64 } on-error={}
-:do { add list=NP address=2a04:4e41:10:2200::/56 } on-error={}
 :do { add list=NP address=2a04:4e41:31:12::/63 } on-error={}
 :do { add list=NP address=2a04:4e41:31:1300::/56 } on-error={}
 :do { add list=NP address=2a04:4e41:31:16f0::/60 } on-error={}
