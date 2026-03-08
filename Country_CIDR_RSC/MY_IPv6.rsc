@@ -51,6 +51,7 @@
 :do { add list=MY address=2001:470:19:eeb::/64 } on-error={}
 :do { add list=MY address=2001:470:19:f39::/64 } on-error={}
 :do { add list=MY address=2001:470:24:c7d::/64 } on-error={}
+:do { add list=MY address=2001:470:24:d74::/64 } on-error={}
 :do { add list=MY address=2001:470:24:ee7::/64 } on-error={}
 :do { add list=MY address=2001:470:24:f0a::/64 } on-error={}
 :do { add list=MY address=2001:470:24:1016::/64 } on-error={}
@@ -2200,7 +2201,10 @@
 :do { add list=MY address=2405:2000:2300::/127 } on-error={}
 :do { add list=MY address=2405:2000:2300::4/126 } on-error={}
 :do { add list=MY address=2405:2000:2300::8/125 } on-error={}
-:do { add list=MY address=2405:2000:2300::10/124 } on-error={}
+:do { add list=MY address=2405:2000:2300::10/126 } on-error={}
+:do { add list=MY address=2405:2000:2300::14/127 } on-error={}
+:do { add list=MY address=2405:2000:2300::16/128 } on-error={}
+:do { add list=MY address=2405:2000:2300::18/125 } on-error={}
 :do { add list=MY address=2405:2000:2300::20/123 } on-error={}
 :do { add list=MY address=2405:2000:2300::40/122 } on-error={}
 :do { add list=MY address=2405:2000:2300::80/121 } on-error={}
@@ -2634,6 +2638,7 @@
 :do { add list=MY address=2600:70ff:abca::/48 } on-error={}
 :do { add list=MY address=2600:70ff:ac01::/48 } on-error={}
 :do { add list=MY address=2600:70ff:ac5e::/48 } on-error={}
+:do { add list=MY address=2600:70ff:ac62::/48 } on-error={}
 :do { add list=MY address=2600:70ff:d0c6::/48 } on-error={}
 :do { add list=MY address=2600:70ff:f805::/48 } on-error={}
 :do { add list=MY address=2600:70ff:f80b::/48 } on-error={}

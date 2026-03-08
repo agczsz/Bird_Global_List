@@ -186,7 +186,15 @@
 :do { add list=SV address=2605:59c0:627d:9800::/53 } on-error={}
 :do { add list=SV address=2605:59c0:627d:a000::/51 } on-error={}
 :do { add list=SV address=2605:59c0:627d:c000::/50 } on-error={}
-:do { add list=SV address=2605:59c0:627e::/47 } on-error={}
+:do { add list=SV address=2605:59c0:627e::/48 } on-error={}
+:do { add list=SV address=2605:59c0:627f::/51 } on-error={}
+:do { add list=SV address=2605:59c0:627f:2000::/52 } on-error={}
+:do { add list=SV address=2605:59c0:627f:3000::/53 } on-error={}
+:do { add list=SV address=2605:59c0:627f:3800::/55 } on-error={}
+:do { add list=SV address=2605:59c0:627f:3b00::/56 } on-error={}
+:do { add list=SV address=2605:59c0:627f:3c00::/54 } on-error={}
+:do { add list=SV address=2605:59c0:627f:4000::/50 } on-error={}
+:do { add list=SV address=2605:59c0:627f:8000::/49 } on-error={}
 :do { add list=SV address=2605:59c8:7200::/42 } on-error={}
 :do { add list=SV address=2606:40:e40::/43 } on-error={}
 :do { add list=SV address=2606:40:205e:c000::/51 } on-error={}

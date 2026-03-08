@@ -8,7 +8,6 @@
 :do { add list=LB address=2001:470:6d:1099::/64 } on-error={}
 :do { add list=LB address=2001:470:6f:4f5::/64 } on-error={}
 :do { add list=LB address=2001:470:1f09:117::/64 } on-error={}
-:do { add list=LB address=2001:470:1f09:153::/64 } on-error={}
 :do { add list=LB address=2001:470:1f13:372::/64 } on-error={}
 :do { add list=LB address=2001:470:1f13:3dc::/64 } on-error={}
 :do { add list=LB address=2001:470:1f13:410::/64 } on-error={}

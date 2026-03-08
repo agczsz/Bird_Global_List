@@ -1079,11 +1079,6 @@
 :do { add list=OM address=2a00:11a8::/29 } on-error={}
 :do { add list=OM address=2a00:1450:4018::/63 } on-error={}
 :do { add list=OM address=2a00:1450:4018:2::/64 } on-error={}
-:do { add list=OM address=2a00:1450:4018:800::/62 } on-error={}
-:do { add list=OM address=2a00:1450:4018:804::/64 } on-error={}
-:do { add list=OM address=2a00:1450:4018:806::/63 } on-error={}
-:do { add list=OM address=2a00:1450:4018:808::/63 } on-error={}
-:do { add list=OM address=2a00:1450:4018:80a::/64 } on-error={}
 :do { add list=OM address=2a00:1450:84c2:c0::/64 } on-error={}
 :do { add list=OM address=2a00:9120::/48 } on-error={}
 :do { add list=OM address=2a00:9120:1::/48 } on-error={}

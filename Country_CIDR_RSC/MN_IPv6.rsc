@@ -407,6 +407,7 @@
 :do { add list=MN address=2401:fd40::/32 } on-error={}
 :do { add list=MN address=2401:ffe0::/32 } on-error={}
 :do { add list=MN address=2402:2720::/32 } on-error={}
+:do { add list=MN address=2402:5020::/32 } on-error={}
 :do { add list=MN address=2402:8880::/32 } on-error={}
 :do { add list=MN address=2402:c900::/32 } on-error={}
 :do { add list=MN address=2403:d700::/32 } on-error={}

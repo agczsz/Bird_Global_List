@@ -1913,7 +1913,6 @@
 :do { add list=SK address=2a06:a282::/31 } on-error={}
 :do { add list=SK address=2a06:a284::/30 } on-error={}
 :do { add list=SK address=2a06:dbc0::/29 } on-error={}
-:do { add list=SK address=2a06:de01:400::/38 } on-error={}
 :do { add list=SK address=2a06:f000::/29 } on-error={}
 :do { add list=SK address=2a07:3d80::/29 } on-error={}
 :do { add list=SK address=2a07:3f80::/29 } on-error={}

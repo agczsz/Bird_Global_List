@@ -2,6 +2,7 @@
 /ipv6 firewall address-list
 :do { add list=MH address=2001:470:36:134::/64 } on-error={}
 :do { add list=MH address=2001:470:36:8e5::/64 } on-error={}
+:do { add list=MH address=2001:470:74a0::/48 } on-error={}
 :do { add list=MH address=2001:470:8cd3::/48 } on-error={}
 :do { add list=MH address=2001:470:f698::/48 } on-error={}
 :do { add list=MH address=2001:67c:a38:f692::/64 } on-error={}

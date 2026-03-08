@@ -38,6 +38,7 @@
 :do { add list=BB address=2602:fe45:a02:ce00::/56 } on-error={}
 :do { add list=BB address=2602:fe45:a03:a00::/56 } on-error={}
 :do { add list=BB address=2602:fe45:a03:4c00::/56 } on-error={}
+:do { add list=BB address=2602:fe45:a03:5500::/56 } on-error={}
 :do { add list=BB address=2602:fe45:a03:8611::/64 } on-error={}
 :do { add list=BB address=2602:fe45:a03:b80f::/64 } on-error={}
 :do { add list=BB address=2602:fe45:a04::/46 } on-error={}

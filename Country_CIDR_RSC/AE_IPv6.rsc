@@ -1822,16 +1822,10 @@
 :do { add list=AE address=2a00:11c0:3d:40::/58 } on-error={}
 :do { add list=AE address=2a00:11c0:3d:80::/57 } on-error={}
 :do { add list=AE address=2a00:1288:f043::/48 } on-error={}
-:do { add list=AE address=2a00:1450:4018:80b::/64 } on-error={}
-:do { add list=AE address=2a00:1450:4018:80c::/62 } on-error={}
-:do { add list=AE address=2a00:1450:4018:810::/62 } on-error={}
-:do { add list=AE address=2a00:1450:4018:814::/64 } on-error={}
 :do { add list=AE address=2a00:1450:4019::/62 } on-error={}
 :do { add list=AE address=2a00:1450:4019:4::/63 } on-error={}
 :do { add list=AE address=2a00:1450:4019:6::/64 } on-error={}
 :do { add list=AE address=2a00:1450:4019:800::/60 } on-error={}
-:do { add list=AE address=2a00:1450:4019:810::/61 } on-error={}
-:do { add list=AE address=2a00:1450:4019:819::/64 } on-error={}
 :do { add list=AE address=2a00:1450:4038::/48 } on-error={}
 :do { add list=AE address=2a00:1450:84c2::/64 } on-error={}
 :do { add list=AE address=2a00:1450:84c2:40::/64 } on-error={}

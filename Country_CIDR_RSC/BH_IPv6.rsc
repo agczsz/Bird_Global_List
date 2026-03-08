@@ -1622,16 +1622,7 @@
 :do { add list=BH address=2a02:c3c0::/29 } on-error={}
 :do { add list=BH address=2a02:c400::/29 } on-error={}
 :do { add list=BH address=2a02:d080::/29 } on-error={}
-:do { add list=BH address=2a03:1c00::/36 } on-error={}
-:do { add list=BH address=2a03:1c00:1000::/36 } on-error={}
-:do { add list=BH address=2a03:1c00:2000::/35 } on-error={}
-:do { add list=BH address=2a03:1c00:4000::/36 } on-error={}
-:do { add list=BH address=2a03:1c00:5000::/36 } on-error={}
-:do { add list=BH address=2a03:1c00:6000::/35 } on-error={}
-:do { add list=BH address=2a03:1c00:8000::/33 } on-error={}
-:do { add list=BH address=2a03:1c01::/32 } on-error={}
-:do { add list=BH address=2a03:1c02::/31 } on-error={}
-:do { add list=BH address=2a03:1c04::/30 } on-error={}
+:do { add list=BH address=2a03:1c00::/29 } on-error={}
 :do { add list=BH address=2a03:9d40:5100::/40 } on-error={}
 :do { add list=BH address=2a03:b600:0:a9b::/64 } on-error={}
 :do { add list=BH address=2a03:b600:0:a9c::/62 } on-error={}

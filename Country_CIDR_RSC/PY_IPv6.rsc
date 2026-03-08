@@ -710,6 +710,8 @@
 :do { add list=PY address=2803:f440::/32 } on-error={}
 :do { add list=PY address=2803:f6e0::/32 } on-error={}
 :do { add list=PY address=2803:fc00::/32 } on-error={}
+:do { add list=PY address=2804:4afc:8513:b200::/56 } on-error={}
+:do { add list=PY address=2804:4afc:8549:a800::/56 } on-error={}
 :do { add list=PY address=2804:8a5c:1100:1300::/64 } on-error={}
 :do { add list=PY address=2a01:528:2500::/40 } on-error={}
 :do { add list=PY address=2a02:26f7:d8c0:4000::/64 } on-error={}
