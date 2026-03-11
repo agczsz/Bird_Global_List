@@ -1,11 +1,13 @@
 /log info "Loading NF IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=NF address=2001:470:19:10a1::/64 } on-error={}
 :do { add list=NF address=2001:470:24:f19::/64 } on-error={}
 :do { add list=NF address=2001:470:24:f94::/64 } on-error={}
 :do { add list=NF address=2001:470:28:bd4::/64 } on-error={}
 :do { add list=NF address=2001:470:36:d3d::/64 } on-error={}
 :do { add list=NF address=2001:470:71:36d::/64 } on-error={}
 :do { add list=NF address=2001:470:1f15:146a::/64 } on-error={}
+:do { add list=NF address=2001:470:1f17:79::/64 } on-error={}
 :do { add list=NF address=2001:470:5887::/48 } on-error={}
 :do { add list=NF address=2001:470:6357::/48 } on-error={}
 :do { add list=NF address=2001:470:7937::/48 } on-error={}
@@ -38,15 +40,7 @@
 :do { add list=NF address=2607:8940:41e0:3400::/56 } on-error={}
 :do { add list=NF address=2a01:528:3800::/40 } on-error={}
 :do { add list=NF address=2a02:26f7:f500::/48 } on-error={}
-:do { add list=NF address=2a02:26f7:f501::/50 } on-error={}
-:do { add list=NF address=2a02:26f7:f501:4000::/64 } on-error={}
-:do { add list=NF address=2a02:26f7:f501:4100::/56 } on-error={}
-:do { add list=NF address=2a02:26f7:f501:4200::/55 } on-error={}
-:do { add list=NF address=2a02:26f7:f501:4400::/54 } on-error={}
-:do { add list=NF address=2a02:26f7:f501:4800::/53 } on-error={}
-:do { add list=NF address=2a02:26f7:f501:5000::/52 } on-error={}
-:do { add list=NF address=2a02:26f7:f501:6000::/51 } on-error={}
-:do { add list=NF address=2a02:26f7:f501:8000::/49 } on-error={}
+:do { add list=NF address=2a02:26f7:f501::/48 } on-error={}
 :do { add list=NF address=2a02:26f7:f502::/47 } on-error={}
 :do { add list=NF address=2a02:26f7:f504::/48 } on-error={}
 :do { add list=NF address=2a02:26f7:f505::/50 } on-error={}
@@ -99,8 +93,6 @@
 :do { add list=NF address=2a05:dfc1:5aab::/48 } on-error={}
 :do { add list=NF address=2a05:dfc1:8c3a::/48 } on-error={}
 :do { add list=NF address=2a06:9f81:39a1::/48 } on-error={}
-:do { add list=NF address=2a06:9f81:43bf:17e0::/63 } on-error={}
-:do { add list=NF address=2a06:9f81:43bf:17e2::/64 } on-error={}
 :do { add list=NF address=2a06:9f81:43ef:a400::/56 } on-error={}
 :do { add list=NF address=2a06:9f81:56a1::/48 } on-error={}
 :do { add list=NF address=2a07:d887:a100::/40 } on-error={}

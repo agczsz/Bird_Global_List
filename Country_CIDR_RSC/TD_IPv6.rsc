@@ -1,9 +1,11 @@
 /log info "Loading TD IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=TD address=2001:470:19:959::/64 } on-error={}
+:do { add list=TD address=2001:470:19:108a::/64 } on-error={}
 :do { add list=TD address=2001:470:36:1af::/64 } on-error={}
 :do { add list=TD address=2001:470:36:a02::/64 } on-error={}
 :do { add list=TD address=2001:470:1f15:76a::/64 } on-error={}
+:do { add list=TD address=2001:470:1f1d:305::/64 } on-error={}
 :do { add list=TD address=2001:470:7326::/48 } on-error={}
 :do { add list=TD address=2001:470:7865::/48 } on-error={}
 :do { add list=TD address=2001:470:fbdb::/48 } on-error={}
@@ -18,6 +20,7 @@
 :do { add list=TD address=2401:b60:12b2::/47 } on-error={}
 :do { add list=TD address=2401:b60:12b4::/46 } on-error={}
 :do { add list=TD address=2401:b60:12b8::/45 } on-error={}
+:do { add list=TD address=2401:f1e0:ffff:c8d6:35da:a425:6798:bb63/128 } on-error={}
 :do { add list=TD address=2401:f1e0:ffff:f73e::/64 } on-error={}
 :do { add list=TD address=2405:b500:6d80::/64 } on-error={}
 :do { add list=TD address=2405:b500:6da0::/64 } on-error={}
@@ -35,7 +38,6 @@
 :do { add list=TD address=2606:40:22c1:f000::/52 } on-error={}
 :do { add list=TD address=2606:54c0:55b0::/45 } on-error={}
 :do { add list=TD address=2606:54c3:0:932::/64 } on-error={}
-:do { add list=TD address=2606:6000:6a06:ee00::/64 } on-error={}
 :do { add list=TD address=2607:8940:21ca::/47 } on-error={}
 :do { add list=TD address=2607:8940:21ce::/47 } on-error={}
 :do { add list=TD address=2607:8940:4171:b100::/56 } on-error={}
@@ -48,15 +50,7 @@
 :do { add list=TD address=2a02:26f7:ec81::/48 } on-error={}
 :do { add list=TD address=2a02:26f7:ec82::/47 } on-error={}
 :do { add list=TD address=2a02:26f7:ec84::/48 } on-error={}
-:do { add list=TD address=2a02:26f7:ec85::/50 } on-error={}
-:do { add list=TD address=2a02:26f7:ec85:4000::/64 } on-error={}
-:do { add list=TD address=2a02:26f7:ec85:4100::/56 } on-error={}
-:do { add list=TD address=2a02:26f7:ec85:4200::/55 } on-error={}
-:do { add list=TD address=2a02:26f7:ec85:4400::/54 } on-error={}
-:do { add list=TD address=2a02:26f7:ec85:4800::/53 } on-error={}
-:do { add list=TD address=2a02:26f7:ec85:5000::/52 } on-error={}
-:do { add list=TD address=2a02:26f7:ec85:6000::/51 } on-error={}
-:do { add list=TD address=2a02:26f7:ec85:8000::/49 } on-error={}
+:do { add list=TD address=2a02:26f7:ec85::/48 } on-error={}
 :do { add list=TD address=2a02:26f7:ec86::/47 } on-error={}
 :do { add list=TD address=2a02:26f7:ec88::/48 } on-error={}
 :do { add list=TD address=2a02:26f7:ec89::/48 } on-error={}
@@ -113,13 +107,6 @@
 :do { add list=TD address=2a04:4e41:5e22::/48 } on-error={}
 :do { add list=TD address=2a04:4e41:7622::/48 } on-error={}
 :do { add list=TD address=2a05:dfc1:5ae0::/48 } on-error={}
-:do { add list=TD address=2a06:9f81:43bf:1732::/63 } on-error={}
-:do { add list=TD address=2a06:9f81:43bf:1734::/62 } on-error={}
-:do { add list=TD address=2a06:9f81:43bf:1738::/61 } on-error={}
-:do { add list=TD address=2a06:9f81:43bf:1740::/60 } on-error={}
-:do { add list=TD address=2a06:9f81:43bf:1750::/61 } on-error={}
-:do { add list=TD address=2a06:9f81:43bf:1758::/62 } on-error={}
-:do { add list=TD address=2a06:9f81:43bf:175c::/64 } on-error={}
 :do { add list=TD address=2a06:9f81:43ef:d800::/56 } on-error={}
 :do { add list=TD address=2a07:d887:d500::/40 } on-error={}
 :do { add list=TD address=2a09:4c0:0:d8::/64 } on-error={}
@@ -175,7 +162,14 @@
 :do { add list=TD address=2a12:bec4:12a8:dc00::/56 } on-error={}
 :do { add list=TD address=2a12:f007::/35 } on-error={}
 :do { add list=TD address=2a12:f381:e800::/40 } on-error={}
-:do { add list=TD address=2a12:f382:e800::/40 } on-error={}
+:do { add list=TD address=2a12:f382:e801::/48 } on-error={}
+:do { add list=TD address=2a12:f382:e802::/47 } on-error={}
+:do { add list=TD address=2a12:f382:e804::/46 } on-error={}
+:do { add list=TD address=2a12:f382:e808::/45 } on-error={}
+:do { add list=TD address=2a12:f382:e810::/44 } on-error={}
+:do { add list=TD address=2a12:f382:e820::/43 } on-error={}
+:do { add list=TD address=2a12:f382:e840::/42 } on-error={}
+:do { add list=TD address=2a12:f382:e880::/41 } on-error={}
 :do { add list=TD address=2a12:f8c3:1:de43::/64 } on-error={}
 :do { add list=TD address=2a12:f8c3:1:dfa8::/64 } on-error={}
 :do { add list=TD address=2a13:a5c3:d124::/46 } on-error={}

@@ -1,6 +1,5 @@
 /log info "Loading TM IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=TM address=2001:470:1d:6ad::/64 } on-error={}
 :do { add list=TM address=2001:470:28:9dd::/64 } on-error={}
 :do { add list=TM address=2001:470:36:1206::/64 } on-error={}
 :do { add list=TM address=2001:470:6d:31e::/64 } on-error={}
@@ -8,6 +7,9 @@
 :do { add list=TM address=2001:470:6d:d64::/64 } on-error={}
 :do { add list=TM address=2001:470:6f:4f8::/64 } on-error={}
 :do { add list=TM address=2001:470:1f15:49a::/64 } on-error={}
+:do { add list=TM address=2001:470:1f1b:280::/64 } on-error={}
+:do { add list=TM address=2001:470:1f1b:3dc::/64 } on-error={}
+:do { add list=TM address=2001:470:1f1d:57::/64 } on-error={}
 :do { add list=TM address=2001:470:1f29:bc::/64 } on-error={}
 :do { add list=TM address=2001:470:21cd::/48 } on-error={}
 :do { add list=TM address=2001:470:512c::/48 } on-error={}
@@ -16,6 +18,7 @@
 :do { add list=TM address=2001:7f8:165::/48 } on-error={}
 :do { add list=TM address=2001:3786:4444:200::/56 } on-error={}
 :do { add list=TM address=2001:4b28:e100::/40 } on-error={}
+:do { add list=TM address=2001:5014:700:1::/64 } on-error={}
 :do { add list=TM address=2001:5014:b00::/62 } on-error={}
 :do { add list=TM address=2001:5014:b00:4::/63 } on-error={}
 :do { add list=TM address=2001:5014:b00:6::/64 } on-error={}
@@ -26,6 +29,7 @@
 :do { add list=TM address=2401:b60:1ec4::/46 } on-error={}
 :do { add list=TM address=2401:b60:1ec8::/45 } on-error={}
 :do { add list=TM address=2401:f1e0:ffff:48f5::/64 } on-error={}
+:do { add list=TM address=2401:f1e0:ffff:4bdf:a3b1:3f34:2fbe:fe4c/128 } on-error={}
 :do { add list=TM address=2405:b500:7100::/64 } on-error={}
 :do { add list=TM address=2405:b500:7120::/64 } on-error={}
 :do { add list=TM address=2405:b500:7140::/64 } on-error={}
@@ -59,15 +63,7 @@
 :do { add list=TM address=2a02:26f7:da42::/47 } on-error={}
 :do { add list=TM address=2a02:26f7:da44:4000::/64 } on-error={}
 :do { add list=TM address=2a02:26f7:da44:ccc0::/63 } on-error={}
-:do { add list=TM address=2a02:26f7:da45::/50 } on-error={}
-:do { add list=TM address=2a02:26f7:da45:4000::/64 } on-error={}
-:do { add list=TM address=2a02:26f7:da45:4100::/56 } on-error={}
-:do { add list=TM address=2a02:26f7:da45:4200::/55 } on-error={}
-:do { add list=TM address=2a02:26f7:da45:4400::/54 } on-error={}
-:do { add list=TM address=2a02:26f7:da45:4800::/53 } on-error={}
-:do { add list=TM address=2a02:26f7:da45:5000::/52 } on-error={}
-:do { add list=TM address=2a02:26f7:da45:6000::/51 } on-error={}
-:do { add list=TM address=2a02:26f7:da45:8000::/49 } on-error={}
+:do { add list=TM address=2a02:26f7:da45::/48 } on-error={}
 :do { add list=TM address=2a02:26f7:da46::/47 } on-error={}
 :do { add list=TM address=2a02:26f7:da48:4000::/64 } on-error={}
 :do { add list=TM address=2a02:26f7:da48:ccc0::/63 } on-error={}
@@ -147,7 +143,6 @@
 :do { add list=TM address=2a0f:85c1:81b:fb60::/60 } on-error={}
 :do { add list=TM address=2a0f:9403:910::/44 } on-error={}
 :do { add list=TM address=2a0f:a303:4800::/37 } on-error={}
-:do { add list=TM address=2a10:9007:0:5::/64 } on-error={}
 :do { add list=TM address=2a11:29c0:3d88:2e8::/64 } on-error={}
 :do { add list=TM address=2a11:29c0:3d88:993::/64 } on-error={}
 :do { add list=TM address=2a11:29c0:3d88:19cb::/64 } on-error={}
