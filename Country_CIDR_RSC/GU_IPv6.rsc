@@ -384,7 +384,6 @@
 :do { add list=GU address=2a02:26f7:cd83::/48 } on-error={}
 :do { add list=GU address=2a02:26f7:cd84:4000::/64 } on-error={}
 :do { add list=GU address=2a02:26f7:cd84:4580::/63 } on-error={}
-:do { add list=GU address=2a02:26f7:cd84:8000::/49 } on-error={}
 :do { add list=GU address=2a02:26f7:cd85::/50 } on-error={}
 :do { add list=GU address=2a02:26f7:cd85:4000::/64 } on-error={}
 :do { add list=GU address=2a02:26f7:cd85:4100::/56 } on-error={}
@@ -534,6 +533,7 @@
 :do { add list=GU address=2a13:b487:5025::/48 } on-error={}
 :do { add list=GU address=2a14:1c2:2000::/37 } on-error={}
 :do { add list=GU address=2a14:67c1:b65a::/48 } on-error={}
+:do { add list=GU address=2a14:67c2:883::/48 } on-error={}
 :do { add list=GU address=2a14:7581:b10:5c00::/56 } on-error={}
 :do { add list=GU address=2a14:7581:b11:5c00::/56 } on-error={}
 :do { add list=GU address=2a14:7581:b13:5c00::/56 } on-error={}

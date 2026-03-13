@@ -1,7 +1,6 @@
 /log info "Loading SX IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=SX address=2001:470:19:77d::/64 } on-error={}
-:do { add list=SX address=2001:470:19:12fd::/64 } on-error={}
 :do { add list=SX address=2001:470:36:1a1::/64 } on-error={}
 :do { add list=SX address=2001:470:36:d45::/64 } on-error={}
 :do { add list=SX address=2001:470:36:1295::/64 } on-error={}
@@ -404,6 +403,7 @@
 :do { add list=SX address=2a13:a5c7:25ff:d200::/56 } on-error={}
 :do { add list=SX address=2a14:1c3:e000::/37 } on-error={}
 :do { add list=SX address=2a14:67c1:b6d1::/48 } on-error={}
+:do { add list=SX address=2a14:67c2:8b0::/48 } on-error={}
 :do { add list=SX address=2a14:7581:b10:9a00::/56 } on-error={}
 :do { add list=SX address=2a14:7581:b11:9a00::/56 } on-error={}
 :do { add list=SX address=2a14:7581:b13:9a00::/56 } on-error={}

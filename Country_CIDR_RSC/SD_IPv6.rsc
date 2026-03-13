@@ -213,6 +213,7 @@
 :do { add list=SD address=2a14:1c3:f000::/37 } on-error={}
 :do { add list=SD address=2a14:7c5:780::/44 } on-error={}
 :do { add list=SD address=2a14:67c1:b6c2::/48 } on-error={}
+:do { add list=SD address=2a14:67c2:88d::/48 } on-error={}
 :do { add list=SD address=2a14:7581:b10:d300::/56 } on-error={}
 :do { add list=SD address=2a14:7581:b11:d300::/56 } on-error={}
 :do { add list=SD address=2a14:7581:b13:d300::/56 } on-error={}

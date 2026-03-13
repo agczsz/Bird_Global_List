@@ -29,7 +29,7 @@
 :do { add list=TM address=2401:b60:1ec4::/46 } on-error={}
 :do { add list=TM address=2401:b60:1ec8::/45 } on-error={}
 :do { add list=TM address=2401:f1e0:ffff:48f5::/64 } on-error={}
-:do { add list=TM address=2401:f1e0:ffff:4bdf:a3b1:3f34:2fbe:fe4c/128 } on-error={}
+:do { add list=TM address=2401:f1e0:ffff:4bdf::/64 } on-error={}
 :do { add list=TM address=2405:b500:7100::/64 } on-error={}
 :do { add list=TM address=2405:b500:7120::/64 } on-error={}
 :do { add list=TM address=2405:b500:7140::/64 } on-error={}
@@ -185,6 +185,7 @@
 :do { add list=TM address=2a14:340::/29 } on-error={}
 :do { add list=TM address=2a14:67c1:b6dc::/48 } on-error={}
 :do { add list=TM address=2a14:67c1:c703::/48 } on-error={}
+:do { add list=TM address=2a14:67c2:838::/48 } on-error={}
 :do { add list=TM address=2a14:7581:b10:e400::/56 } on-error={}
 :do { add list=TM address=2a14:7581:b11:e400::/56 } on-error={}
 :do { add list=TM address=2a14:7581:b13:e400::/56 } on-error={}

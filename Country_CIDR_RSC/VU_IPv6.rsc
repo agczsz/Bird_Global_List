@@ -153,8 +153,16 @@
 :do { add list=VU address=2406:2d40:2700::/42 } on-error={}
 :do { add list=VU address=2406:2d40:7540::/50 } on-error={}
 :do { add list=VU address=2406:2d40:754d:8000::/50 } on-error={}
+:do { add list=VU address=2406:2d40:7554::/48 } on-error={}
+:do { add list=VU address=2406:2d40:7556::/48 } on-error={}
+:do { add list=VU address=2406:2d40:755a::/48 } on-error={}
 :do { add list=VU address=2406:2d40:755b:8000::/50 } on-error={}
-:do { add list=VU address=2406:2d40:7574::/50 } on-error={}
+:do { add list=VU address=2406:2d40:755d::/48 } on-error={}
+:do { add list=VU address=2406:2d40:7563::/48 } on-error={}
+:do { add list=VU address=2406:2d40:7567::/48 } on-error={}
+:do { add list=VU address=2406:2d40:7568::/48 } on-error={}
+:do { add list=VU address=2406:2d40:7574::/48 } on-error={}
+:do { add list=VU address=2406:2d40:757c::/48 } on-error={}
 :do { add list=VU address=2406:2d40:a900::/40 } on-error={}
 :do { add list=VU address=2600:70ff:c0d5::/48 } on-error={}
 :do { add list=VU address=2600:70ff:c0dd::/48 } on-error={}
@@ -181,9 +189,7 @@
 :do { add list=VU address=2a02:26f7:f200::/48 } on-error={}
 :do { add list=VU address=2a02:26f7:f201::/48 } on-error={}
 :do { add list=VU address=2a02:26f7:f202::/47 } on-error={}
-:do { add list=VU address=2a02:26f7:f204::/48 } on-error={}
-:do { add list=VU address=2a02:26f7:f205::/48 } on-error={}
-:do { add list=VU address=2a02:26f7:f206::/47 } on-error={}
+:do { add list=VU address=2a02:26f7:f204::/46 } on-error={}
 :do { add list=VU address=2a02:26f7:f208::/48 } on-error={}
 :do { add list=VU address=2a02:26f7:f209::/48 } on-error={}
 :do { add list=VU address=2a02:26f7:f20a::/47 } on-error={}
@@ -363,6 +369,7 @@
 :do { add list=VU address=2a14:1c6:a000::/37 } on-error={}
 :do { add list=VU address=2a14:7c5:970::/44 } on-error={}
 :do { add list=VU address=2a14:67c1:b6f0::/48 } on-error={}
+:do { add list=VU address=2a14:67c2:8c0::/48 } on-error={}
 :do { add list=VU address=2a14:7580:e4a1::/48 } on-error={}
 :do { add list=VU address=2a14:7581:b10:9d00::/56 } on-error={}
 :do { add list=VU address=2a14:7581:b11:9d00::/56 } on-error={}

@@ -1354,6 +1354,7 @@
 :do { add list=BA address=2a14:1c5:b800::/37 } on-error={}
 :do { add list=BA address=2a14:3d05:3000::/36 } on-error={}
 :do { add list=BA address=2a14:67c1:b611::/48 } on-error={}
+:do { add list=BA address=2a14:67c2:848::/48 } on-error={}
 :do { add list=BA address=2a14:7581:b10:1600::/56 } on-error={}
 :do { add list=BA address=2a14:7581:b11:1600::/56 } on-error={}
 :do { add list=BA address=2a14:7581:b13:1600::/56 } on-error={}

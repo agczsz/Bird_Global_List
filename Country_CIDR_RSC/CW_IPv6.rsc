@@ -8,6 +8,7 @@
 :do { add list=CW address=2001:470:1f09:9ca::/64 } on-error={}
 :do { add list=CW address=2001:470:1f17:145::/64 } on-error={}
 :do { add list=CW address=2001:470:1f23:52::/64 } on-error={}
+:do { add list=CW address=2001:470:30e8::/48 } on-error={}
 :do { add list=CW address=2001:470:b2e0::/48 } on-error={}
 :do { add list=CW address=2001:470:b84e::/48 } on-error={}
 :do { add list=CW address=2001:470:b921::/48 } on-error={}
@@ -265,6 +266,7 @@
 :do { add list=CW address=2a13:a5c7:25ff:3400::/56 } on-error={}
 :do { add list=CW address=2a14:1c2:a000::/37 } on-error={}
 :do { add list=CW address=2a14:67c1:b633::/48 } on-error={}
+:do { add list=CW address=2a14:67c2:8b3::/48 } on-error={}
 :do { add list=CW address=2a14:7581:b10:9800::/56 } on-error={}
 :do { add list=CW address=2a14:7581:b11:9800::/56 } on-error={}
 :do { add list=CW address=2a14:7581:b13:9800::/56 } on-error={}

@@ -394,6 +394,7 @@
 :do { add list=NC address=2a13:ef45:3ab8::/45 } on-error={}
 :do { add list=NC address=2a14:1c6:9800::/37 } on-error={}
 :do { add list=NC address=2a14:67c1:b69f::/48 } on-error={}
+:do { add list=NC address=2a14:67c2:8af::/48 } on-error={}
 :do { add list=NC address=2a14:7581:b10:9c00::/56 } on-error={}
 :do { add list=NC address=2a14:7581:b11:9c00::/56 } on-error={}
 :do { add list=NC address=2a14:7581:b13:9c00::/56 } on-error={}

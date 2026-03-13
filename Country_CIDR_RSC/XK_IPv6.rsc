@@ -413,3 +413,4 @@
 :do { add list=XK address=2a13:a5c7:25ff:f400::/56 } on-error={}
 :do { add list=XK address=2a14:1c3:8800::/37 } on-error={}
 :do { add list=XK address=2a14:3400::/29 } on-error={}
+:do { add list=XK address=2a14:67c2:862::/48 } on-error={}

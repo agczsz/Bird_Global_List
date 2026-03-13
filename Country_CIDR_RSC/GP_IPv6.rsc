@@ -1,6 +1,5 @@
 /log info "Loading GP IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=GP address=2001:470:19:12f8::/64 } on-error={}
 :do { add list=GP address=2001:470:36:38e::/64 } on-error={}
 :do { add list=GP address=2001:470:2937::/48 } on-error={}
 :do { add list=GP address=2001:470:8cd5::/48 } on-error={}
@@ -72,9 +71,6 @@
 :do { add list=GP address=2604:1800:2000::/35 } on-error={}
 :do { add list=GP address=2604:1800:4000::/34 } on-error={}
 :do { add list=GP address=2604:1800:8000::/33 } on-error={}
-:do { add list=GP address=2605:59c0:1495:b200::/56 } on-error={}
-:do { add list=GP address=2605:59c0:149f:800::/56 } on-error={}
-:do { add list=GP address=2605:59c0:14b3:fa00::/56 } on-error={}
 :do { add list=GP address=2605:59c8:6640::/42 } on-error={}
 :do { add list=GP address=2605:59ca:8e00::/40 } on-error={}
 :do { add list=GP address=2605:adc0::/35 } on-error={}
@@ -161,25 +157,25 @@
 :do { add list=GP address=2a01:cb20:4031:7100::/64 } on-error={}
 :do { add list=GP address=2a01:cb20:4040:9700::/64 } on-error={}
 :do { add list=GP address=2a01:cb20:4043:8100::/64 } on-error={}
-:do { add list=GP address=2a01:cb20:4046:5f00::/64 } on-error={}
 :do { add list=GP address=2a01:cb20:4061:dc00::/64 } on-error={}
 :do { add list=GP address=2a01:cb20:4062:4100::/64 } on-error={}
+:do { add list=GP address=2a01:cb20:4097:6000::/64 } on-error={}
 :do { add list=GP address=2a01:cb20:40c5:1400::/64 } on-error={}
 :do { add list=GP address=2a01:cb20:4140:f200::/64 } on-error={}
 :do { add list=GP address=2a01:cb20:4148:bd00::/64 } on-error={}
-:do { add list=GP address=2a01:cb20:4149:2b00::/64 } on-error={}
-:do { add list=GP address=2a01:cb20:418d:f900::/64 } on-error={}
 :do { add list=GP address=2a01:cb20:41a2:3d00::/64 } on-error={}
 :do { add list=GP address=2a01:cb20:4862:7300::/64 } on-error={}
 :do { add list=GP address=2a01:cb20:486c:7d00::/64 } on-error={}
 :do { add list=GP address=2a01:cde0:40::/48 } on-error={}
 :do { add list=GP address=2a01:cde0:100::/47 } on-error={}
 :do { add list=GP address=2a01:cde0:102::/48 } on-error={}
-:do { add list=GP address=2a01:cde0:108::/49 } on-error={}
+:do { add list=GP address=2a01:cde0:108:2000::/51 } on-error={}
+:do { add list=GP address=2a01:cde0:108:4000::/50 } on-error={}
 :do { add list=GP address=2a01:cde0:108:8000::/50 } on-error={}
 :do { add list=GP address=2a01:cde0:108:d000::/52 } on-error={}
 :do { add list=GP address=2a01:cde0:108:e000::/51 } on-error={}
 :do { add list=GP address=2a01:cde0:109::/50 } on-error={}
+:do { add list=GP address=2a01:cde0:109:4000::/51 } on-error={}
 :do { add list=GP address=2a01:cde0:109:8000::/49 } on-error={}
 :do { add list=GP address=2a01:cde0:10a::/47 } on-error={}
 :do { add list=GP address=2a01:cde0:10c::/46 } on-error={}

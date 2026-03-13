@@ -62,9 +62,7 @@
 :do { add list=TK address=2a02:26f7:f2c3:5000::/52 } on-error={}
 :do { add list=TK address=2a02:26f7:f2c3:6000::/51 } on-error={}
 :do { add list=TK address=2a02:26f7:f2c3:8000::/49 } on-error={}
-:do { add list=TK address=2a02:26f7:f2c4::/48 } on-error={}
-:do { add list=TK address=2a02:26f7:f2c5::/48 } on-error={}
-:do { add list=TK address=2a02:26f7:f2c6::/47 } on-error={}
+:do { add list=TK address=2a02:26f7:f2c4::/46 } on-error={}
 :do { add list=TK address=2a02:26f7:f2c8::/48 } on-error={}
 :do { add list=TK address=2a02:26f7:f2c9::/48 } on-error={}
 :do { add list=TK address=2a02:26f7:f2ca::/47 } on-error={}

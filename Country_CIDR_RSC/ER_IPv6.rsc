@@ -184,6 +184,7 @@
 :do { add list=ER address=2a14:1c4:6800::/37 } on-error={}
 :do { add list=ER address=2a14:7c5:2b0::/44 } on-error={}
 :do { add list=ER address=2a14:67c1:b641::/48 } on-error={}
+:do { add list=ER address=2a14:67c2:894::/48 } on-error={}
 :do { add list=ER address=2a14:7580:ffc1::/48 } on-error={}
 :do { add list=ER address=2a14:7581:b10:4300::/56 } on-error={}
 :do { add list=ER address=2a14:7581:b11:4300::/56 } on-error={}

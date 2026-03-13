@@ -60,7 +60,8 @@
 :do { add list=UM address=2600:70ff:a434::/48 } on-error={}
 :do { add list=UM address=2600:70ff:a5a5::/48 } on-error={}
 :do { add list=UM address=2600:70ff:a91d::/48 } on-error={}
-:do { add list=UM address=2604:ca00:105::/48 } on-error={}
+:do { add list=UM address=2604:ca00:105:4000::/50 } on-error={}
+:do { add list=UM address=2604:ca00:105:8000::/49 } on-error={}
 :do { add list=UM address=2604:ca00:115::/48 } on-error={}
 :do { add list=UM address=2604:ca00:125:4000::/50 } on-error={}
 :do { add list=UM address=2604:ca00:125:8000::/49 } on-error={}
@@ -70,8 +71,10 @@
 :do { add list=UM address=2604:ca00:155::/48 } on-error={}
 :do { add list=UM address=2604:ca00:165::/48 } on-error={}
 :do { add list=UM address=2604:ca00:175::/48 } on-error={}
-:do { add list=UM address=2604:ca00:1c5::/48 } on-error={}
-:do { add list=UM address=2604:ca00:1d5::/48 } on-error={}
+:do { add list=UM address=2604:ca00:1c5:4000::/50 } on-error={}
+:do { add list=UM address=2604:ca00:1c5:8000::/49 } on-error={}
+:do { add list=UM address=2604:ca00:1d5:4000::/50 } on-error={}
+:do { add list=UM address=2604:ca00:1d5:8000::/49 } on-error={}
 :do { add list=UM address=2604:ca00:1e5:4000::/50 } on-error={}
 :do { add list=UM address=2604:ca00:1e5:8000::/49 } on-error={}
 :do { add list=UM address=2604:ca00:1f5:4000::/50 } on-error={}

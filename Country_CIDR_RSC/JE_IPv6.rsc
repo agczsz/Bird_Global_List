@@ -1,6 +1,5 @@
 /log info "Loading JE IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=JE address=2001:470:19:12fb::/64 } on-error={}
 :do { add list=JE address=2001:470:24:383::/64 } on-error={}
 :do { add list=JE address=2001:470:24:3f2::/64 } on-error={}
 :do { add list=JE address=2001:470:36:f9::/64 } on-error={}
@@ -510,6 +509,7 @@
 :do { add list=JE address=2a13:a5c7:25ff:6e00::/56 } on-error={}
 :do { add list=JE address=2a14:1c2:d800::/37 } on-error={}
 :do { add list=JE address=2a14:67c1:b66d::/48 } on-error={}
+:do { add list=JE address=2a14:67c2:87b::/48 } on-error={}
 :do { add list=JE address=2a14:7581:b10:ed00::/56 } on-error={}
 :do { add list=JE address=2a14:7581:b11:ed00::/56 } on-error={}
 :do { add list=JE address=2a14:7581:b13:ed00::/56 } on-error={}

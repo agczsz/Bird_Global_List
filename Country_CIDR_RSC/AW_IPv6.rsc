@@ -50,7 +50,6 @@
 :do { add list=AW address=2401:b60:10c2::/47 } on-error={}
 :do { add list=AW address=2401:b60:10c4::/46 } on-error={}
 :do { add list=AW address=2401:b60:10c8::/45 } on-error={}
-:do { add list=AW address=2401:f1e0:ffff:2259::/64 } on-error={}
 :do { add list=AW address=2401:f1e0:ffff:5469::/64 } on-error={}
 :do { add list=AW address=2405:b500:880::/64 } on-error={}
 :do { add list=AW address=2405:b500:8a0::/64 } on-error={}
@@ -276,6 +275,7 @@
 :do { add list=AW address=2a13:b487:502b::/48 } on-error={}
 :do { add list=AW address=2a14:1c1:c000::/37 } on-error={}
 :do { add list=AW address=2a14:67c1:b60e::/48 } on-error={}
+:do { add list=AW address=2a14:67c2:8d7::/48 } on-error={}
 :do { add list=AW address=2a14:7581:b10:9900::/56 } on-error={}
 :do { add list=AW address=2a14:7581:b11:9900::/56 } on-error={}
 :do { add list=AW address=2a14:7581:b13:9900::/56 } on-error={}

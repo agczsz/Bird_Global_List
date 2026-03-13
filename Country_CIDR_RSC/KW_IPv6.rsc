@@ -1265,6 +1265,7 @@
 :do { add list=KW address=2a14:1c0:a000::/37 } on-error={}
 :do { add list=KW address=2a14:3d06:4000::/36 } on-error={}
 :do { add list=KW address=2a14:67c1:b679::/48 } on-error={}
+:do { add list=KW address=2a14:67c2:837::/48 } on-error={}
 :do { add list=KW address=2a14:7581:b10:7600::/56 } on-error={}
 :do { add list=KW address=2a14:7581:b11:7600::/56 } on-error={}
 :do { add list=KW address=2a14:7581:b13:7600::/56 } on-error={}
