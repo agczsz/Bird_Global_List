@@ -79,7 +79,9 @@
 :do { add list=TO address=2a02:26f7:f281:6000::/51 } on-error={}
 :do { add list=TO address=2a02:26f7:f281:8000::/49 } on-error={}
 :do { add list=TO address=2a02:26f7:f282::/47 } on-error={}
-:do { add list=TO address=2a02:26f7:f284::/46 } on-error={}
+:do { add list=TO address=2a02:26f7:f284::/48 } on-error={}
+:do { add list=TO address=2a02:26f7:f285::/48 } on-error={}
+:do { add list=TO address=2a02:26f7:f286::/47 } on-error={}
 :do { add list=TO address=2a02:26f7:f288::/48 } on-error={}
 :do { add list=TO address=2a02:26f7:f289::/50 } on-error={}
 :do { add list=TO address=2a02:26f7:f289:4000::/64 } on-error={}

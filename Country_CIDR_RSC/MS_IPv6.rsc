@@ -1,6 +1,5 @@
 /log info "Loading MS IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=MS address=2001:470:19:1309::/64 } on-error={}
 :do { add list=MS address=2001:470:24:b1::/64 } on-error={}
 :do { add list=MS address=2001:470:36:13c::/64 } on-error={}
 :do { add list=MS address=2001:470:ec3a::/48 } on-error={}

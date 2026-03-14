@@ -16228,13 +16228,7 @@
 :do { add list=NO address=2a01:300:c:0:83:97:21:231/128 } on-error={}
 :do { add list=NO address=2a01:300:c:0:83:97:21:234/128 } on-error={}
 :do { add list=NO address=2a01:300:c:0:146:70:4:67/128 } on-error={}
-:do { add list=NO address=2a01:3e0:3100::100/127 } on-error={}
-:do { add list=NO address=2a01:3e0:3100::104/126 } on-error={}
-:do { add list=NO address=2a01:3e0:3100::108/125 } on-error={}
-:do { add list=NO address=2a01:3e0:3100::110/124 } on-error={}
-:do { add list=NO address=2a01:3e0:3100::120/123 } on-error={}
-:do { add list=NO address=2a01:3e0:3100::140/122 } on-error={}
-:do { add list=NO address=2a01:3e0:3100::180/121 } on-error={}
+:do { add list=NO address=2a01:3e0:3100::100/120 } on-error={}
 :do { add list=NO address=2a01:3e0:3100::200/119 } on-error={}
 :do { add list=NO address=2a01:3e0:3100::400/118 } on-error={}
 :do { add list=NO address=2a01:3e0:3100::800/117 } on-error={}

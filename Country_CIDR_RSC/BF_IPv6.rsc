@@ -10,7 +10,6 @@
 :do { add list=BF address=2001:470:82a9::/48 } on-error={}
 :do { add list=BF address=2001:470:8acf::/48 } on-error={}
 :do { add list=BF address=2001:470:8c58::/48 } on-error={}
-:do { add list=BF address=2001:470:c0c2::/48 } on-error={}
 :do { add list=BF address=2001:470:ee24::/48 } on-error={}
 :do { add list=BF address=2001:470:f34d::/48 } on-error={}
 :do { add list=BF address=2001:470:f353::/48 } on-error={}

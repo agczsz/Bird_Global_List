@@ -1586,6 +1586,8 @@
 :do { add list=UA address=2001:678:f58::/48 } on-error={}
 :do { add list=UA address=2001:678:1154::/48 } on-error={}
 :do { add list=UA address=2001:678:1198::/48 } on-error={}
+:do { add list=UA address=2001:678:11f8::/48 } on-error={}
+:do { add list=UA address=2001:678:11fc::/48 } on-error={}
 :do { add list=UA address=2001:67c:28::/48 } on-error={}
 :do { add list=UA address=2001:67c:f8::/48 } on-error={}
 :do { add list=UA address=2001:67c:108::/50 } on-error={}

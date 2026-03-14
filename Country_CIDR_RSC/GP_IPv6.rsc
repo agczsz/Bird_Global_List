@@ -154,7 +154,6 @@
 :do { add list=GP address=2a01:cb20:4002:4300::/64 } on-error={}
 :do { add list=GP address=2a01:cb20:4004::/48 } on-error={}
 :do { add list=GP address=2a01:cb20:402b:2900::/64 } on-error={}
-:do { add list=GP address=2a01:cb20:4031:7100::/64 } on-error={}
 :do { add list=GP address=2a01:cb20:4040:9700::/64 } on-error={}
 :do { add list=GP address=2a01:cb20:4043:8100::/64 } on-error={}
 :do { add list=GP address=2a01:cb20:4061:dc00::/64 } on-error={}

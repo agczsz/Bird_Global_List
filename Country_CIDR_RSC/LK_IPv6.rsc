@@ -11,7 +11,7 @@
 :do { add list=LK address=2001:470:1f1d:769::/64 } on-error={}
 :do { add list=LK address=2001:470:72c1::/48 } on-error={}
 :do { add list=LK address=2001:470:74ab::/48 } on-error={}
-:do { add list=LK address=2001:470:74ac::/47 } on-error={}
+:do { add list=LK address=2001:470:74ad::/48 } on-error={}
 :do { add list=LK address=2001:470:74af::/48 } on-error={}
 :do { add list=LK address=2001:470:74cb::/48 } on-error={}
 :do { add list=LK address=2001:470:74cc::/48 } on-error={}

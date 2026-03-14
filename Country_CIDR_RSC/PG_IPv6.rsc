@@ -146,7 +146,9 @@
 :do { add list=PG address=2a02:26f7:fb41:6000::/51 } on-error={}
 :do { add list=PG address=2a02:26f7:fb41:8000::/49 } on-error={}
 :do { add list=PG address=2a02:26f7:fb42::/47 } on-error={}
-:do { add list=PG address=2a02:26f7:fb44::/46 } on-error={}
+:do { add list=PG address=2a02:26f7:fb44::/48 } on-error={}
+:do { add list=PG address=2a02:26f7:fb45::/48 } on-error={}
+:do { add list=PG address=2a02:26f7:fb46::/47 } on-error={}
 :do { add list=PG address=2a02:26f7:fb48::/48 } on-error={}
 :do { add list=PG address=2a02:26f7:fb49::/48 } on-error={}
 :do { add list=PG address=2a02:26f7:fb4a::/47 } on-error={}

@@ -55,7 +55,9 @@
 :do { add list=NR address=2a02:26f7:f4c0::/48 } on-error={}
 :do { add list=NR address=2a02:26f7:f4c1::/48 } on-error={}
 :do { add list=NR address=2a02:26f7:f4c2::/47 } on-error={}
-:do { add list=NR address=2a02:26f7:f4c4::/46 } on-error={}
+:do { add list=NR address=2a02:26f7:f4c4::/48 } on-error={}
+:do { add list=NR address=2a02:26f7:f4c5::/48 } on-error={}
+:do { add list=NR address=2a02:26f7:f4c6::/47 } on-error={}
 :do { add list=NR address=2a02:26f7:f4c8::/48 } on-error={}
 :do { add list=NR address=2a02:26f7:f4c9::/50 } on-error={}
 :do { add list=NR address=2a02:26f7:f4c9:4000::/64 } on-error={}

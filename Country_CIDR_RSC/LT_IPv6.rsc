@@ -1338,7 +1338,6 @@
 :do { add list=LT address=2a0d:5600:100:4000::/50 } on-error={}
 :do { add list=LT address=2a0d:5600:100:8000::/49 } on-error={}
 :do { add list=LT address=2a0d:6240::/32 } on-error={}
-:do { add list=LT address=2a0d:6242::/32 } on-error={}
 :do { add list=LT address=2a0d:6243::/32 } on-error={}
 :do { add list=LT address=2a0d:6244::/30 } on-error={}
 :do { add list=LT address=2a0d:63c1::/32 } on-error={}

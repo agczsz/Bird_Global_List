@@ -70,7 +70,6 @@
 :do { add list=PS address=2600:70ff:ab8f::/48 } on-error={}
 :do { add list=PS address=2600:70ff:ac75::/48 } on-error={}
 :do { add list=PS address=2602:814:ffec::/48 } on-error={}
-:do { add list=PS address=2602:814:fffc::/48 } on-error={}
 :do { add list=PS address=2602:f92a:fe08::/48 } on-error={}
 :do { add list=PS address=2602:f92a:ff08::/48 } on-error={}
 :do { add list=PS address=2602:fd92:b00:135::/64 } on-error={}

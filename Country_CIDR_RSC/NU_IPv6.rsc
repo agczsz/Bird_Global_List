@@ -51,7 +51,9 @@
 :do { add list=NU address=2a02:26f7:f481:6000::/51 } on-error={}
 :do { add list=NU address=2a02:26f7:f481:8000::/49 } on-error={}
 :do { add list=NU address=2a02:26f7:f482::/47 } on-error={}
-:do { add list=NU address=2a02:26f7:f484::/46 } on-error={}
+:do { add list=NU address=2a02:26f7:f484::/48 } on-error={}
+:do { add list=NU address=2a02:26f7:f485::/48 } on-error={}
+:do { add list=NU address=2a02:26f7:f486::/47 } on-error={}
 :do { add list=NU address=2a02:26f7:f488::/48 } on-error={}
 :do { add list=NU address=2a02:26f7:f489::/48 } on-error={}
 :do { add list=NU address=2a02:26f7:f48a::/47 } on-error={}

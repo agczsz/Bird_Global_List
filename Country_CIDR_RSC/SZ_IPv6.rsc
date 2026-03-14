@@ -14,7 +14,14 @@
 :do { add list=SZ address=2001:470:1f1d:277::/64 } on-error={}
 :do { add list=SZ address=2001:470:1f21:1eb::/64 } on-error={}
 :do { add list=SZ address=2001:470:1f23:15e::/64 } on-error={}
-:do { add list=SZ address=2001:470:485c::/48 } on-error={}
+:do { add list=SZ address=2001:470:485c:100::/56 } on-error={}
+:do { add list=SZ address=2001:470:485c:200::/55 } on-error={}
+:do { add list=SZ address=2001:470:485c:400::/54 } on-error={}
+:do { add list=SZ address=2001:470:485c:800::/53 } on-error={}
+:do { add list=SZ address=2001:470:485c:1000::/52 } on-error={}
+:do { add list=SZ address=2001:470:485c:2000::/51 } on-error={}
+:do { add list=SZ address=2001:470:485c:4000::/50 } on-error={}
+:do { add list=SZ address=2001:470:485c:8000::/49 } on-error={}
 :do { add list=SZ address=2001:470:4974::/48 } on-error={}
 :do { add list=SZ address=2001:470:7480::/48 } on-error={}
 :do { add list=SZ address=2001:470:b6a5::/48 } on-error={}
