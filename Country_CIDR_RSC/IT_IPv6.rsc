@@ -11978,7 +11978,10 @@
 :do { add list=IT address=2a0c:b642:a01:2000::/51 } on-error={}
 :do { add list=IT address=2a0c:b642:a01:4000::/50 } on-error={}
 :do { add list=IT address=2a0c:b642:a01:c000::/50 } on-error={}
-:do { add list=IT address=2a0c:b642:a08::/45 } on-error={}
+:do { add list=IT address=2a0c:b642:a08::/48 } on-error={}
+:do { add list=IT address=2a0c:b642:a09::/48 } on-error={}
+:do { add list=IT address=2a0c:b642:a0a::/47 } on-error={}
+:do { add list=IT address=2a0c:b642:a0c::/46 } on-error={}
 :do { add list=IT address=2a0c:b642:ace::/48 } on-error={}
 :do { add list=IT address=2a0c:bb80::/29 } on-error={}
 :do { add list=IT address=2a0c:bc40::/29 } on-error={}

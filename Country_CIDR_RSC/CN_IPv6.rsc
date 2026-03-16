@@ -10464,7 +10464,8 @@
 :do { add list=CN address=2403:e780::/32 } on-error={}
 :do { add list=CN address=2403:e7c0::/48 } on-error={}
 :do { add list=CN address=2403:e7c0:1::/48 } on-error={}
-:do { add list=CN address=2403:e7c0:2::/47 } on-error={}
+:do { add list=CN address=2403:e7c0:2::/48 } on-error={}
+:do { add list=CN address=2403:e7c0:3::/48 } on-error={}
 :do { add list=CN address=2403:e7c0:4::/46 } on-error={}
 :do { add list=CN address=2403:e7c0:8::/45 } on-error={}
 :do { add list=CN address=2403:e7c0:10::/44 } on-error={}

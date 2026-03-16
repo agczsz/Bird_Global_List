@@ -4791,12 +4791,7 @@
 :do { add list=SE address=2001:1b74:9000::/36 } on-error={}
 :do { add list=SE address=2001:1b74:a000::/35 } on-error={}
 :do { add list=SE address=2001:1b74:c000::/34 } on-error={}
-:do { add list=SE address=2001:1b75::/36 } on-error={}
-:do { add list=SE address=2001:1b75:1000::/36 } on-error={}
-:do { add list=SE address=2001:1b75:2000::/36 } on-error={}
-:do { add list=SE address=2001:1b75:3000::/36 } on-error={}
-:do { add list=SE address=2001:1b75:4000::/34 } on-error={}
-:do { add list=SE address=2001:1b75:8000::/33 } on-error={}
+:do { add list=SE address=2001:1b75::/32 } on-error={}
 :do { add list=SE address=2001:1b76::/32 } on-error={}
 :do { add list=SE address=2001:1b77::/32 } on-error={}
 :do { add list=SE address=2001:1ba8::/29 } on-error={}

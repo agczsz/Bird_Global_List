@@ -23503,7 +23503,13 @@
 :do { add list=AU address=2001:df3:d588::/45 } on-error={}
 :do { add list=AU address=2001:df3:d590::/44 } on-error={}
 :do { add list=AU address=2001:df3:d5a0::/43 } on-error={}
-:do { add list=AU address=2001:df3:d5c0::/42 } on-error={}
+:do { add list=AU address=2001:df3:d5c0::/48 } on-error={}
+:do { add list=AU address=2001:df3:d5c1::/48 } on-error={}
+:do { add list=AU address=2001:df3:d5c2::/47 } on-error={}
+:do { add list=AU address=2001:df3:d5c4::/46 } on-error={}
+:do { add list=AU address=2001:df3:d5c8::/45 } on-error={}
+:do { add list=AU address=2001:df3:d5d0::/44 } on-error={}
+:do { add list=AU address=2001:df3:d5e0::/43 } on-error={}
 :do { add list=AU address=2001:df3:d600::/42 } on-error={}
 :do { add list=AU address=2001:df3:d641::/48 } on-error={}
 :do { add list=AU address=2001:df3:d642::/47 } on-error={}
@@ -84792,7 +84798,8 @@
 :do { add list=AU address=2404:bf40:a390::/44 } on-error={}
 :do { add list=AU address=2404:bf40:a3a0::/43 } on-error={}
 :do { add list=AU address=2404:bf40:a3c0::/42 } on-error={}
-:do { add list=AU address=2404:bf40:a400::/47 } on-error={}
+:do { add list=AU address=2404:bf40:a400::/48 } on-error={}
+:do { add list=AU address=2404:bf40:a401::/48 } on-error={}
 :do { add list=AU address=2404:bf40:a402::/47 } on-error={}
 :do { add list=AU address=2404:bf40:a404::/46 } on-error={}
 :do { add list=AU address=2404:bf40:a408::/45 } on-error={}
@@ -115797,7 +115804,8 @@
 :do { add list=AU address=2a10:ccc3:ccce::/47 } on-error={}
 :do { add list=AU address=2a10:ccc4:101::/48 } on-error={}
 :do { add list=AU address=2a10:ccc6:100::/48 } on-error={}
-:do { add list=AU address=2a10:ccc6:6660::/47 } on-error={}
+:do { add list=AU address=2a10:ccc6:6660::/48 } on-error={}
+:do { add list=AU address=2a10:ccc6:6661::/48 } on-error={}
 :do { add list=AU address=2a10:ccc6:6663::/48 } on-error={}
 :do { add list=AU address=2a10:ccc6:6664::/46 } on-error={}
 :do { add list=AU address=2a10:ccc6:6668::/46 } on-error={}
@@ -117719,7 +117727,8 @@
 :do { add list=AU address=2a14:7581:fc6::/47 } on-error={}
 :do { add list=AU address=2a14:7581:fc8::/45 } on-error={}
 :do { add list=AU address=2a14:7581:3b14::/48 } on-error={}
-:do { add list=AU address=2a14:7581:9900::/47 } on-error={}
+:do { add list=AU address=2a14:7581:9900::/48 } on-error={}
+:do { add list=AU address=2a14:7581:9901::/48 } on-error={}
 :do { add list=AU address=2a14:7581:9903::/48 } on-error={}
 :do { add list=AU address=2a14:7581:9905::/48 } on-error={}
 :do { add list=AU address=2a14:7581:9906::/47 } on-error={}
