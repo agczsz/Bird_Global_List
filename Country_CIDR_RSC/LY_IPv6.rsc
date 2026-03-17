@@ -1,6 +1,5 @@
 /log info "Loading LY IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=LY address=2001:470:19:eb0::/64 } on-error={}
 :do { add list=LY address=2001:470:36:11b::/64 } on-error={}
 :do { add list=LY address=2001:470:1f29:36f::/64 } on-error={}
 :do { add list=LY address=2001:67c:a38:f218::/64 } on-error={}
@@ -143,6 +142,7 @@
 :do { add list=LY address=2a0f:85c1:81b:f660::/60 } on-error={}
 :do { add list=LY address=2a0f:9403:b10::/44 } on-error={}
 :do { add list=LY address=2a10:500:2500::/40 } on-error={}
+:do { add list=LY address=2a10:9007:2:e::/64 } on-error={}
 :do { add list=LY address=2a11:29c0:3d88:10f5::/64 } on-error={}
 :do { add list=LY address=2a11:29c0:3d88:11c1::/64 } on-error={}
 :do { add list=LY address=2a11:29c0:3d88:150c::/64 } on-error={}
@@ -176,14 +176,7 @@
 :do { add list=LY address=2a12:bec4:12a5:87f0::/63 } on-error={}
 :do { add list=LY address=2a12:bec4:12a8:8d00::/56 } on-error={}
 :do { add list=LY address=2a12:f002:4000::/36 } on-error={}
-:do { add list=LY address=2a12:f381:5301::/48 } on-error={}
-:do { add list=LY address=2a12:f381:5302::/47 } on-error={}
-:do { add list=LY address=2a12:f381:5304::/46 } on-error={}
-:do { add list=LY address=2a12:f381:5308::/45 } on-error={}
-:do { add list=LY address=2a12:f381:5310::/44 } on-error={}
-:do { add list=LY address=2a12:f381:5320::/43 } on-error={}
-:do { add list=LY address=2a12:f381:5340::/42 } on-error={}
-:do { add list=LY address=2a12:f381:5380::/41 } on-error={}
+:do { add list=LY address=2a12:f381:5300::/40 } on-error={}
 :do { add list=LY address=2a12:f382:5300::/40 } on-error={}
 :do { add list=LY address=2a12:f8c3:1:8c73::/64 } on-error={}
 :do { add list=LY address=2a12:f8c3:1:8d5a::/64 } on-error={}
@@ -227,22 +220,7 @@
 :do { add list=LY address=2c0f:14c0:4000::/34 } on-error={}
 :do { add list=LY address=2c0f:14c0:8000::/33 } on-error={}
 :do { add list=LY address=2c0f:1f40::/32 } on-error={}
-:do { add list=LY address=2c0f:3200::/45 } on-error={}
-:do { add list=LY address=2c0f:3200:8::/47 } on-error={}
-:do { add list=LY address=2c0f:3200:a::/48 } on-error={}
-:do { add list=LY address=2c0f:3200:c::/46 } on-error={}
-:do { add list=LY address=2c0f:3200:10::/44 } on-error={}
-:do { add list=LY address=2c0f:3200:20::/43 } on-error={}
-:do { add list=LY address=2c0f:3200:40::/42 } on-error={}
-:do { add list=LY address=2c0f:3200:80::/41 } on-error={}
-:do { add list=LY address=2c0f:3200:100::/40 } on-error={}
-:do { add list=LY address=2c0f:3200:200::/39 } on-error={}
-:do { add list=LY address=2c0f:3200:400::/38 } on-error={}
-:do { add list=LY address=2c0f:3200:800::/37 } on-error={}
-:do { add list=LY address=2c0f:3200:1000::/36 } on-error={}
-:do { add list=LY address=2c0f:3200:2000::/35 } on-error={}
-:do { add list=LY address=2c0f:3200:4000::/34 } on-error={}
-:do { add list=LY address=2c0f:3200:8000::/33 } on-error={}
+:do { add list=LY address=2c0f:3200::/32 } on-error={}
 :do { add list=LY address=2c0f:3bc0::/32 } on-error={}
 :do { add list=LY address=2c0f:54c0::/32 } on-error={}
 :do { add list=LY address=2c0f:6a40::/33 } on-error={}
