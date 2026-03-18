@@ -15,6 +15,7 @@
 :do { add list=LC address=2401:b60:1c04::/46 } on-error={}
 :do { add list=LC address=2401:b60:1c08::/45 } on-error={}
 :do { add list=LC address=2401:f1e0:ffff:bb6::/64 } on-error={}
+:do { add list=LC address=2401:f1e0:ffff:8be0:8be4:7240:83e0:f609/128 } on-error={}
 :do { add list=LC address=2405:b500:4200::/64 } on-error={}
 :do { add list=LC address=2405:b500:4220::/64 } on-error={}
 :do { add list=LC address=2405:b500:4240::/64 } on-error={}

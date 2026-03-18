@@ -15,6 +15,7 @@
 :do { add list=NI address=2401:b60:1a44::/46 } on-error={}
 :do { add list=NI address=2401:b60:1a48::/45 } on-error={}
 :do { add list=NI address=2401:f1e0:ffff:3318::/64 } on-error={}
+:do { add list=NI address=2401:f1e0:ffff:93a6:ad81:3a14:1e68:de37/128 } on-error={}
 :do { add list=NI address=2405:b500:5480::/64 } on-error={}
 :do { add list=NI address=2405:b500:5480:8::/64 } on-error={}
 :do { add list=NI address=2405:b500:54a0::/64 } on-error={}

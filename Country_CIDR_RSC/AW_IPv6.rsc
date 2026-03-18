@@ -313,6 +313,7 @@
 :do { add list=AW address=2a14:1c1:c000::/37 } on-error={}
 :do { add list=AW address=2a14:67c1:b60e::/48 } on-error={}
 :do { add list=AW address=2a14:67c2:8d7::/48 } on-error={}
+:do { add list=AW address=2a14:7580:cf0d::/48 } on-error={}
 :do { add list=AW address=2a14:7581:b10:9900::/56 } on-error={}
 :do { add list=AW address=2a14:7581:b11:9900::/56 } on-error={}
 :do { add list=AW address=2a14:7581:b13:9900::/56 } on-error={}

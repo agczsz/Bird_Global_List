@@ -1408,7 +1408,6 @@
 :do { add list=UA address=2001:470:d3ad::/48 } on-error={}
 :do { add list=UA address=2001:470:d4df::/48 } on-error={}
 :do { add list=UA address=2001:470:d5e7::/48 } on-error={}
-:do { add list=UA address=2001:470:d8ad::/48 } on-error={}
 :do { add list=UA address=2001:470:d953::/48 } on-error={}
 :do { add list=UA address=2001:470:dbd2::/48 } on-error={}
 :do { add list=UA address=2001:470:dc49::/48 } on-error={}

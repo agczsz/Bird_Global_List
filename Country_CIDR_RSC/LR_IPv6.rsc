@@ -15,6 +15,7 @@
 :do { add list=LR address=2001:4b28:5800::/40 } on-error={}
 :do { add list=LR address=2400:cb00:240::/48 } on-error={}
 :do { add list=LR address=2401:f1e0:ffff:5083::/64 } on-error={}
+:do { add list=LR address=2401:f1e0:ffff:d1ec:8031:8f3e:2b11:3ca0/128 } on-error={}
 :do { add list=LR address=2405:b500:4380::/64 } on-error={}
 :do { add list=LR address=2405:b500:4380:140::/64 } on-error={}
 :do { add list=LR address=2405:b500:43a0::/64 } on-error={}

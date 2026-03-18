@@ -20812,8 +20812,6 @@
 :do { add list=CH address=2a0e:8f02:2016::/47 } on-error={}
 :do { add list=CH address=2a0e:8f02:2018::/45 } on-error={}
 :do { add list=CH address=2a0e:8f02:2060::/47 } on-error={}
-:do { add list=CH address=2a0e:8f02:2062:4000::/50 } on-error={}
-:do { add list=CH address=2a0e:8f02:2062:8000::/50 } on-error={}
 :do { add list=CH address=2a0e:8f02:2063::/48 } on-error={}
 :do { add list=CH address=2a0e:8f02:2064::/46 } on-error={}
 :do { add list=CH address=2a0e:8f02:2068::/48 } on-error={}

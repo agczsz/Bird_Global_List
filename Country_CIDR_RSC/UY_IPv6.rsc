@@ -37519,6 +37519,11 @@
 :do { add list=UY address=2804:6e95::/32 } on-error={}
 :do { add list=UY address=2804:6e96::/31 } on-error={}
 :do { add list=UY address=2804:6e98::/33 } on-error={}
+:do { add list=UY address=2804:6e98:8000::/45 } on-error={}
+:do { add list=UY address=2804:6e98:8009::/48 } on-error={}
+:do { add list=UY address=2804:6e98:800a::/47 } on-error={}
+:do { add list=UY address=2804:6e98:800c::/47 } on-error={}
+:do { add list=UY address=2804:6e98:800e::/48 } on-error={}
 :do { add list=UY address=2804:6e98:8020::/43 } on-error={}
 :do { add list=UY address=2804:6e98:8040::/42 } on-error={}
 :do { add list=UY address=2804:6e98:8080::/41 } on-error={}

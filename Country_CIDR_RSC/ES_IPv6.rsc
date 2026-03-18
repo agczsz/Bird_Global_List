@@ -16873,6 +16873,7 @@
 :do { add list=ES address=2a14:67c2:869::/48 } on-error={}
 :do { add list=ES address=2a14:6b00::/29 } on-error={}
 :do { add list=ES address=2a14:73c0::/29 } on-error={}
+:do { add list=ES address=2a14:7580:cf43::/48 } on-error={}
 :do { add list=ES address=2a14:7580:ed18::/46 } on-error={}
 :do { add list=ES address=2a14:7580:ef6e::/48 } on-error={}
 :do { add list=ES address=2a14:7580:fd00::/40 } on-error={}

@@ -5703,6 +5703,7 @@
 :do { add list=BD address=2a14:67c1:b613::/48 } on-error={}
 :do { add list=BD address=2a14:67c2:857::/48 } on-error={}
 :do { add list=BD address=2a14:67c2:8dd::/48 } on-error={}
+:do { add list=BD address=2a14:7580:cf12::/48 } on-error={}
 :do { add list=BD address=2a14:7580:ff7a::/48 } on-error={}
 :do { add list=BD address=2a14:7581:b10:f00::/56 } on-error={}
 :do { add list=BD address=2a14:7581:b11:f00::/56 } on-error={}

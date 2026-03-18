@@ -452,6 +452,7 @@
 :do { add list=AS address=2a14:1c6:c800::/37 } on-error={}
 :do { add list=AS address=2a14:67c1:b60b::/48 } on-error={}
 :do { add list=AS address=2a14:67c2:891::/48 } on-error={}
+:do { add list=AS address=2a14:7580:cf0a::/48 } on-error={}
 :do { add list=AS address=2a14:7581:b10:500::/56 } on-error={}
 :do { add list=AS address=2a14:7581:b11:500::/56 } on-error={}
 :do { add list=AS address=2a14:7581:b13:500::/56 } on-error={}

@@ -6783,6 +6783,7 @@
 :do { add list=AR address=2a14:7580:6a20::/43 } on-error={}
 :do { add list=AR address=2a14:7580:6a40::/42 } on-error={}
 :do { add list=AR address=2a14:7580:6a80::/41 } on-error={}
+:do { add list=AR address=2a14:7580:cf09::/48 } on-error={}
 :do { add list=AR address=2a14:7581:b10:a00::/56 } on-error={}
 :do { add list=AR address=2a14:7581:b11:a00::/56 } on-error={}
 :do { add list=AR address=2a14:7581:b13:a00::/56 } on-error={}

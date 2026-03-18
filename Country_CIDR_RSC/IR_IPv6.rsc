@@ -19,7 +19,6 @@
 :do { add list=IR address=2001:470:f8f9:980::/64 } on-error={}
 :do { add list=IR address=2001:470:fc9b::/48 } on-error={}
 :do { add list=IR address=2001:470:fcce:980::/64 } on-error={}
-:do { add list=IR address=2001:470:fd41::/48 } on-error={}
 :do { add list=IR address=2001:678:b0::/46 } on-error={}
 :do { add list=IR address=2001:678:428::/48 } on-error={}
 :do { add list=IR address=2001:67c:a38:f098::/64 } on-error={}

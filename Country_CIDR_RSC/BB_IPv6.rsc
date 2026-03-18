@@ -515,6 +515,7 @@
 :do { add list=BB address=2a14:7c5:60::/44 } on-error={}
 :do { add list=BB address=2a14:67c1:b612::/48 } on-error={}
 :do { add list=BB address=2a14:67c2:88f::/48 } on-error={}
+:do { add list=BB address=2a14:7580:cf11::/48 } on-error={}
 :do { add list=BB address=2a14:7581:b10:1100::/56 } on-error={}
 :do { add list=BB address=2a14:7581:b11:1100::/56 } on-error={}
 :do { add list=BB address=2a14:7581:b13:1100::/56 } on-error={}

@@ -69,6 +69,7 @@
 :do { add list=SC address=2401:b60:1ca4::/46 } on-error={}
 :do { add list=SC address=2401:b60:1ca8::/45 } on-error={}
 :do { add list=SC address=2401:f1e0:ffff:a02::/64 } on-error={}
+:do { add list=SC address=2401:f1e0:ffff:21c1:fefd:b4f:3fdc:3227/128 } on-error={}
 :do { add list=SC address=2405:b500:6380::/64 } on-error={}
 :do { add list=SC address=2405:b500:63a0::/64 } on-error={}
 :do { add list=SC address=2405:b500:63c0::/64 } on-error={}
@@ -3286,6 +3287,7 @@
 :do { add list=SC address=2a14:5c00::/32 } on-error={}
 :do { add list=SC address=2a14:67c1:b6c1::/48 } on-error={}
 :do { add list=SC address=2a14:67c2:896::/48 } on-error={}
+:do { add list=SC address=2a14:7580:cfc2::/48 } on-error={}
 :do { add list=SC address=2a14:7580:ffe7::/48 } on-error={}
 :do { add list=SC address=2a14:7581:b10:c800::/56 } on-error={}
 :do { add list=SC address=2a14:7581:b11:c800::/56 } on-error={}
@@ -3295,6 +3297,17 @@
 :do { add list=SC address=2a14:7581:b17:c800::/56 } on-error={}
 :do { add list=SC address=2a14:7581:3bcd::/48 } on-error={}
 :do { add list=SC address=2a14:7583:ff3f:700::/56 } on-error={}
+:do { add list=SC address=2a14:7583:ff90::/113 } on-error={}
+:do { add list=SC address=2a14:7583:ff90::8000/114 } on-error={}
+:do { add list=SC address=2a14:7583:ff90::c000/117 } on-error={}
+:do { add list=SC address=2a14:7583:ff90::c800/119 } on-error={}
+:do { add list=SC address=2a14:7583:ff90::ca00/121 } on-error={}
+:do { add list=SC address=2a14:7583:ff90::ca80/122 } on-error={}
+:do { add list=SC address=2a14:7583:ff90::cac0/123 } on-error={}
+:do { add list=SC address=2a14:7583:ff90::cae0/124 } on-error={}
+:do { add list=SC address=2a14:7583:ff90::caf0/125 } on-error={}
+:do { add list=SC address=2a14:7583:ff90::caf8/126 } on-error={}
+:do { add list=SC address=2a14:7583:ff90::cafc/127 } on-error={}
 :do { add list=SC address=2a14:7583:ff90::caff/128 } on-error={}
 :do { add list=SC address=2a14:7583:ff90::cb00/120 } on-error={}
 :do { add list=SC address=2a14:7583:ff90::cc00/118 } on-error={}

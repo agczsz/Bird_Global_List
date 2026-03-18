@@ -1800,7 +1800,13 @@
 :do { add list=IL address=2a06:c701:9367:e000::/51 } on-error={}
 :do { add list=IL address=2a06:c701:9368::/45 } on-error={}
 :do { add list=IL address=2a06:c701:9370::/44 } on-error={}
-:do { add list=IL address=2a06:c701:9380::/41 } on-error={}
+:do { add list=IL address=2a06:c701:9380::/44 } on-error={}
+:do { add list=IL address=2a06:c701:9390::/48 } on-error={}
+:do { add list=IL address=2a06:c701:9394::/46 } on-error={}
+:do { add list=IL address=2a06:c701:9398::/48 } on-error={}
+:do { add list=IL address=2a06:c701:939c::/46 } on-error={}
+:do { add list=IL address=2a06:c701:93a0::/43 } on-error={}
+:do { add list=IL address=2a06:c701:93c0::/42 } on-error={}
 :do { add list=IL address=2a06:c701:9400::/39 } on-error={}
 :do { add list=IL address=2a06:c701:9600::/45 } on-error={}
 :do { add list=IL address=2a06:c701:9608::/50 } on-error={}

@@ -1666,7 +1666,13 @@
 :do { add list=PE address=2803:f080:22a0::/43 } on-error={}
 :do { add list=PE address=2803:f080:22c0::/43 } on-error={}
 :do { add list=PE address=2803:f080:22e0::/43 } on-error={}
-:do { add list=PE address=2803:f080:2300::/42 } on-error={}
+:do { add list=PE address=2803:f080:2300::/50 } on-error={}
+:do { add list=PE address=2803:f080:2301::/48 } on-error={}
+:do { add list=PE address=2803:f080:2302::/47 } on-error={}
+:do { add list=PE address=2803:f080:2304::/46 } on-error={}
+:do { add list=PE address=2803:f080:2308::/45 } on-error={}
+:do { add list=PE address=2803:f080:2310::/44 } on-error={}
+:do { add list=PE address=2803:f080:2320::/43 } on-error={}
 :do { add list=PE address=2803:f080:2340::/42 } on-error={}
 :do { add list=PE address=2803:f080:2380::/41 } on-error={}
 :do { add list=PE address=2803:f080:2400::/38 } on-error={}
