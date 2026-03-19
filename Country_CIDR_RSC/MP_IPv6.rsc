@@ -20,7 +20,6 @@
 :do { add list=MP address=2401:b60:1a94::/46 } on-error={}
 :do { add list=MP address=2401:b60:1a98::/45 } on-error={}
 :do { add list=MP address=2401:4e40::/32 } on-error={}
-:do { add list=MP address=2401:f1e0:ffff:a17e::/64 } on-error={}
 :do { add list=MP address=2401:f1e0:ffff:e313::/64 } on-error={}
 :do { add list=MP address=2405:b500:4c80::/64 } on-error={}
 :do { add list=MP address=2405:b500:4ca0::/64 } on-error={}
@@ -213,6 +212,7 @@
 :do { add list=MP address=2a14:1c3:a800::/37 } on-error={}
 :do { add list=MP address=2a14:67c1:b693::/48 } on-error={}
 :do { add list=MP address=2a14:67c2:8b9::/48 } on-error={}
+:do { add list=MP address=2a14:7580:cf94::/48 } on-error={}
 :do { add list=MP address=2a14:7581:b10:a500::/56 } on-error={}
 :do { add list=MP address=2a14:7581:b11:a500::/56 } on-error={}
 :do { add list=MP address=2a14:7581:b13:a500::/56 } on-error={}

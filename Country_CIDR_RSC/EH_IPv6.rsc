@@ -120,6 +120,7 @@
 :do { add list=EH address=2a13:a5c7:25ff:4100::/56 } on-error={}
 :do { add list=EH address=2a14:1c7:c800::/37 } on-error={}
 :do { add list=EH address=2a14:67c1:b640::/48 } on-error={}
+:do { add list=EH address=2a14:7580:cf41::/48 } on-error={}
 :do { add list=EH address=2a14:7581:b10:d400::/56 } on-error={}
 :do { add list=EH address=2a14:7581:b11:d400::/56 } on-error={}
 :do { add list=EH address=2a14:7581:b13:d400::/56 } on-error={}

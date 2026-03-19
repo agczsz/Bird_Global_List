@@ -38,8 +38,7 @@
 :do { add list=JE address=2401:b60:1732::/47 } on-error={}
 :do { add list=JE address=2401:b60:1734::/46 } on-error={}
 :do { add list=JE address=2401:b60:1738::/45 } on-error={}
-:do { add list=JE address=2401:f1e0:ffff:85e1::/64 } on-error={}
-:do { add list=JE address=2401:f1e0:ffff:e43a:36bd:39d8:3e9e:b645/128 } on-error={}
+:do { add list=JE address=2401:f1e0:ffff:e43a::/64 } on-error={}
 :do { add list=JE address=2402:9880:300::/40 } on-error={}
 :do { add list=JE address=2405:b500:3980::/64 } on-error={}
 :do { add list=JE address=2405:b500:39a0::/64 } on-error={}
@@ -472,6 +471,7 @@
 :do { add list=JE address=2a14:1c2:d800::/37 } on-error={}
 :do { add list=JE address=2a14:67c1:b66d::/48 } on-error={}
 :do { add list=JE address=2a14:67c2:87b::/48 } on-error={}
+:do { add list=JE address=2a14:7580:cf6e::/48 } on-error={}
 :do { add list=JE address=2a14:7581:b10:ed00::/56 } on-error={}
 :do { add list=JE address=2a14:7581:b11:ed00::/56 } on-error={}
 :do { add list=JE address=2a14:7581:b13:ed00::/56 } on-error={}

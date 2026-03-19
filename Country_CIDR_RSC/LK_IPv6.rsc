@@ -43,6 +43,7 @@
 :do { add list=LK address=2001:470:f303::/48 } on-error={}
 :do { add list=LK address=2001:470:f581::/48 } on-error={}
 :do { add list=LK address=2001:470:f701::/48 } on-error={}
+:do { add list=LK address=2001:470:f80f::/48 } on-error={}
 :do { add list=LK address=2001:470:f86e::/48 } on-error={}
 :do { add list=LK address=2001:470:f8fd::/48 } on-error={}
 :do { add list=LK address=2001:470:fe25::/48 } on-error={}
@@ -806,6 +807,16 @@
 :do { add list=LK address=2a0c:9a40:95bd::/52 } on-error={}
 :do { add list=LK address=2a0c:9a46:382::/48 } on-error={}
 :do { add list=LK address=2a0c:9a46:3fe:81::/64 } on-error={}
+:do { add list=LK address=2a0d:2681:2100:4000::/50 } on-error={}
+:do { add list=LK address=2a0d:2681:2100:8000::/49 } on-error={}
+:do { add list=LK address=2a0d:2681:2101::/48 } on-error={}
+:do { add list=LK address=2a0d:2681:2102::/47 } on-error={}
+:do { add list=LK address=2a0d:2681:2104::/46 } on-error={}
+:do { add list=LK address=2a0d:2681:2108::/45 } on-error={}
+:do { add list=LK address=2a0d:2681:2110::/44 } on-error={}
+:do { add list=LK address=2a0d:2681:2120::/43 } on-error={}
+:do { add list=LK address=2a0d:2681:2140::/42 } on-error={}
+:do { add list=LK address=2a0d:2681:2180::/41 } on-error={}
 :do { add list=LK address=2a0d:9442:f000::/37 } on-error={}
 :do { add list=LK address=2a0e:b107:3a1::/48 } on-error={}
 :do { add list=LK address=2a0e:b107:3a2::/47 } on-error={}
@@ -905,6 +916,7 @@
 :do { add list=LK address=2a14:67c1:118c::/48 } on-error={}
 :do { add list=LK address=2a14:67c1:b680::/48 } on-error={}
 :do { add list=LK address=2a14:67c2:864::/48 } on-error={}
+:do { add list=LK address=2a14:7580:cf81::/48 } on-error={}
 :do { add list=LK address=2a14:7581:b10:2900::/56 } on-error={}
 :do { add list=LK address=2a14:7581:b11:2900::/56 } on-error={}
 :do { add list=LK address=2a14:7581:b13:2900::/56 } on-error={}

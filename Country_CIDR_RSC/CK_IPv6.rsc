@@ -14,6 +14,7 @@
 :do { add list=CK address=2001:470:62fc::/48 } on-error={}
 :do { add list=CK address=2001:470:69bd::/48 } on-error={}
 :do { add list=CK address=2001:470:efc5::/48 } on-error={}
+:do { add list=CK address=2001:470:f810::/48 } on-error={}
 :do { add list=CK address=2001:470:f941::/48 } on-error={}
 :do { add list=CK address=2001:4b28:aa00::/40 } on-error={}
 :do { add list=CK address=2401:b60:1340:4000::/50 } on-error={}
@@ -212,6 +213,7 @@
 :do { add list=CK address=2a14:1c6:800::/37 } on-error={}
 :do { add list=CK address=2a14:67c1:b62b::/48 } on-error={}
 :do { add list=CK address=2a14:67c2:84d::/48 } on-error={}
+:do { add list=CK address=2a14:7580:cf2c::/48 } on-error={}
 :do { add list=CK address=2a14:7581:b10:3500::/56 } on-error={}
 :do { add list=CK address=2a14:7581:b11:3500::/56 } on-error={}
 :do { add list=CK address=2a14:7581:b13:3500::/56 } on-error={}

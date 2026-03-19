@@ -22,8 +22,7 @@
 :do { add list=GA address=2401:b60:14e2::/47 } on-error={}
 :do { add list=GA address=2401:b60:14e4::/46 } on-error={}
 :do { add list=GA address=2401:b60:14e8::/45 } on-error={}
-:do { add list=GA address=2401:f1e0:ffff:762a:54f5:56ae:4ab4:6511/128 } on-error={}
-:do { add list=GA address=2401:f1e0:ffff:9127::/64 } on-error={}
+:do { add list=GA address=2401:f1e0:ffff:762a::/64 } on-error={}
 :do { add list=GA address=2405:b500:2800::/64 } on-error={}
 :do { add list=GA address=2405:b500:2820::/64 } on-error={}
 :do { add list=GA address=2405:b500:2840::/64 } on-error={}
@@ -254,6 +253,7 @@
 :do { add list=GA address=2a14:1c3:d000::/37 } on-error={}
 :do { add list=GA address=2a14:67c1:b64a::/48 } on-error={}
 :do { add list=GA address=2a14:67c2:821::/48 } on-error={}
+:do { add list=GA address=2a14:7580:cf4b::/48 } on-error={}
 :do { add list=GA address=2a14:7581:b10:5000::/56 } on-error={}
 :do { add list=GA address=2a14:7581:b11:5000::/56 } on-error={}
 :do { add list=GA address=2a14:7581:b13:5000::/56 } on-error={}

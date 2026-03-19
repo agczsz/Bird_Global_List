@@ -24,8 +24,7 @@
 :do { add list=ZM address=2401:b60:1ff2::/47 } on-error={}
 :do { add list=ZM address=2401:b60:1ff4::/46 } on-error={}
 :do { add list=ZM address=2401:b60:1ff8::/45 } on-error={}
-:do { add list=ZM address=2401:f1e0:ffff:d1da:6ea6:6523:3ccf:c55f/128 } on-error={}
-:do { add list=ZM address=2401:f1e0:ffff:e7dd::/64 } on-error={}
+:do { add list=ZM address=2401:f1e0:ffff:d1da::/64 } on-error={}
 :do { add list=ZM address=2405:b500:7e00::/64 } on-error={}
 :do { add list=ZM address=2405:b500:7e20::/64 } on-error={}
 :do { add list=ZM address=2405:b500:7e40::/64 } on-error={}
@@ -177,6 +176,16 @@
 :do { add list=ZM address=2a0c:9a40:95bf:5000::/52 } on-error={}
 :do { add list=ZM address=2a0c:9a46:3f8::/48 } on-error={}
 :do { add list=ZM address=2a0c:9a46:3fe:f7::/64 } on-error={}
+:do { add list=ZM address=2a0d:2681:4100:4000::/50 } on-error={}
+:do { add list=ZM address=2a0d:2681:4100:8000::/49 } on-error={}
+:do { add list=ZM address=2a0d:2681:4101::/48 } on-error={}
+:do { add list=ZM address=2a0d:2681:4102::/47 } on-error={}
+:do { add list=ZM address=2a0d:2681:4104::/46 } on-error={}
+:do { add list=ZM address=2a0d:2681:4108::/45 } on-error={}
+:do { add list=ZM address=2a0d:2681:4110::/44 } on-error={}
+:do { add list=ZM address=2a0d:2681:4120::/43 } on-error={}
+:do { add list=ZM address=2a0d:2681:4140::/42 } on-error={}
+:do { add list=ZM address=2a0d:2681:4180::/41 } on-error={}
 :do { add list=ZM address=2a0d:9443:800::/37 } on-error={}
 :do { add list=ZM address=2a0f:1cc5:b10:f900::/56 } on-error={}
 :do { add list=ZM address=2a0f:1cc5:b11:f900::/56 } on-error={}
@@ -255,6 +264,7 @@
 :do { add list=ZM address=2a14:7c5:990::/44 } on-error={}
 :do { add list=ZM address=2a14:67c1:b6f6::/48 } on-error={}
 :do { add list=ZM address=2a14:67c2:878::/48 } on-error={}
+:do { add list=ZM address=2a14:7580:cff7::/48 } on-error={}
 :do { add list=ZM address=2a14:7581:b10:f900::/56 } on-error={}
 :do { add list=ZM address=2a14:7581:b11:f900::/56 } on-error={}
 :do { add list=ZM address=2a14:7581:b13:f900::/56 } on-error={}

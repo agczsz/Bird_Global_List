@@ -44,7 +44,7 @@
 :do { add list=RE address=2602:fc30:cb::/48 } on-error={}
 :do { add list=RE address=2605:59c0:3600::/40 } on-error={}
 :do { add list=RE address=2605:59c0:5f01::/48 } on-error={}
-:do { add list=RE address=2605:59c0:5f02::/48 } on-error={}
+:do { add list=RE address=2605:59c0:5f02::/47 } on-error={}
 :do { add list=RE address=2605:59c0:5f04::/48 } on-error={}
 :do { add list=RE address=2605:59c0:5f06::/47 } on-error={}
 :do { add list=RE address=2605:59c0:5f08::/48 } on-error={}
@@ -54,7 +54,7 @@
 :do { add list=RE address=2605:59c0:5f15::/48 } on-error={}
 :do { add list=RE address=2605:59c0:5f16::/48 } on-error={}
 :do { add list=RE address=2605:59c0:5f19::/48 } on-error={}
-:do { add list=RE address=2605:59c0:5f1b::/48 } on-error={}
+:do { add list=RE address=2605:59c0:5f1a::/47 } on-error={}
 :do { add list=RE address=2605:59c0:5f1d::/48 } on-error={}
 :do { add list=RE address=2605:59c0:5f1f::/48 } on-error={}
 :do { add list=RE address=2605:59c0:5f20::/48 } on-error={}
@@ -66,9 +66,7 @@
 :do { add list=RE address=2605:59c0:5f30::/46 } on-error={}
 :do { add list=RE address=2605:59c0:5f35::/48 } on-error={}
 :do { add list=RE address=2605:59c0:5f36::/47 } on-error={}
-:do { add list=RE address=2605:59c0:5f38::/48 } on-error={}
-:do { add list=RE address=2605:59c0:5f3a::/47 } on-error={}
-:do { add list=RE address=2605:59c0:5f3c::/46 } on-error={}
+:do { add list=RE address=2605:59c0:5f38::/45 } on-error={}
 :do { add list=RE address=2605:59ca:8100::/40 } on-error={}
 :do { add list=RE address=2606:54c0:5038::/45 } on-error={}
 :do { add list=RE address=2606:54c3:0:130c::/64 } on-error={}
@@ -302,6 +300,7 @@
 :do { add list=RE address=2a13:ef45:39c8::/45 } on-error={}
 :do { add list=RE address=2a14:1c1:7800::/37 } on-error={}
 :do { add list=RE address=2a14:67c1:b6ba::/48 } on-error={}
+:do { add list=RE address=2a14:7580:cfbb::/48 } on-error={}
 :do { add list=RE address=2a14:7581:b10:b700::/56 } on-error={}
 :do { add list=RE address=2a14:7581:b11:b700::/56 } on-error={}
 :do { add list=RE address=2a14:7581:b13:b700::/56 } on-error={}

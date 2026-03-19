@@ -172,4 +172,5 @@
 :do { add list=UM address=2a14:1c5:d000::/37 } on-error={}
 :do { add list=UM address=2a14:7c5:950::/44 } on-error={}
 :do { add list=UM address=2a14:67c1:b6e6::/48 } on-error={}
+:do { add list=UM address=2a14:7580:cfe7::/48 } on-error={}
 :do { add list=UM address=2a14:7581:3bf3::/48 } on-error={}

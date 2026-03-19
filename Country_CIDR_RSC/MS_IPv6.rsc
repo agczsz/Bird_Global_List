@@ -203,6 +203,7 @@
 :do { add list=MS address=2a14:1c7:8800::/37 } on-error={}
 :do { add list=MS address=2a14:67c1:b696::/48 } on-error={}
 :do { add list=MS address=2a14:67c2:86e::/48 } on-error={}
+:do { add list=MS address=2a14:7580:cf97::/48 } on-error={}
 :do { add list=MS address=2a14:7581:b10:9000::/56 } on-error={}
 :do { add list=MS address=2a14:7581:b11:9000::/56 } on-error={}
 :do { add list=MS address=2a14:7581:b13:9000::/56 } on-error={}

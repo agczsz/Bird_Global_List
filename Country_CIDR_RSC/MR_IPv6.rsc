@@ -9,8 +9,7 @@
 :do { add list=MR address=2401:b60:1902::/47 } on-error={}
 :do { add list=MR address=2401:b60:1904::/46 } on-error={}
 :do { add list=MR address=2401:b60:1908::/45 } on-error={}
-:do { add list=MR address=2401:f1e0:ffff:6c3b::/64 } on-error={}
-:do { add list=MR address=2401:f1e0:ffff:a208:e46a:229b:8a7f:f8fe/128 } on-error={}
+:do { add list=MR address=2401:f1e0:ffff:a208::/64 } on-error={}
 :do { add list=MR address=2405:b500:4d80::/64 } on-error={}
 :do { add list=MR address=2405:b500:4da0::/64 } on-error={}
 :do { add list=MR address=2405:b500:4dc0::/64 } on-error={}
@@ -193,6 +192,7 @@
 :do { add list=MR address=2a14:7c5:590::/44 } on-error={}
 :do { add list=MR address=2a14:67c1:b695::/48 } on-error={}
 :do { add list=MR address=2a14:67c2:8c4::/48 } on-error={}
+:do { add list=MR address=2a14:7580:cf96::/48 } on-error={}
 :do { add list=MR address=2a14:7581:b10:8900::/56 } on-error={}
 :do { add list=MR address=2a14:7581:b11:8900::/56 } on-error={}
 :do { add list=MR address=2a14:7581:b13:8900::/56 } on-error={}
