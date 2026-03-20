@@ -95,7 +95,6 @@
 :do { add list=AM address=2001:470:1f15:1104::/64 } on-error={}
 :do { add list=AM address=2001:470:1f17:aa::/64 } on-error={}
 :do { add list=AM address=2001:470:1f17:ad::/64 } on-error={}
-:do { add list=AM address=2001:470:1f1b:1d::/64 } on-error={}
 :do { add list=AM address=2001:470:1f1b:ae::/64 } on-error={}
 :do { add list=AM address=2001:470:1f1b:e6::/64 } on-error={}
 :do { add list=AM address=2001:470:1f1b:237::/64 } on-error={}
@@ -123,7 +122,6 @@
 :do { add list=AM address=2001:470:1f2b:28::/64 } on-error={}
 :do { add list=AM address=2001:470:1f2f:2df::/64 } on-error={}
 :do { add list=AM address=2001:470:2001::/48 } on-error={}
-:do { add list=AM address=2001:470:200b::/48 } on-error={}
 :do { add list=AM address=2001:470:20c3::/48 } on-error={}
 :do { add list=AM address=2001:470:20ea::/48 } on-error={}
 :do { add list=AM address=2001:470:2132::/48 } on-error={}
@@ -261,7 +259,6 @@
 :do { add list=AM address=2600:70ff:b243::/48 } on-error={}
 :do { add list=AM address=2600:70ff:b2cb::/48 } on-error={}
 :do { add list=AM address=2600:70ff:b2d3::/48 } on-error={}
-:do { add list=AM address=2600:70ff:d02f::/48 } on-error={}
 :do { add list=AM address=2600:70ff:d0b1::/48 } on-error={}
 :do { add list=AM address=2600:70ff:f045::/48 } on-error={}
 :do { add list=AM address=2600:70ff:f321::/48 } on-error={}

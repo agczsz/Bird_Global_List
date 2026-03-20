@@ -1579,7 +1579,6 @@
 :do { add list=SI address=2a0f:85c1:e11::/48 } on-error={}
 :do { add list=SI address=2a0f:9400:7718::/48 } on-error={}
 :do { add list=SI address=2a0f:9403:5c0::/44 } on-error={}
-:do { add list=SI address=2a0f:a6c0::/36 } on-error={}
 :do { add list=SI address=2a0f:a6c0:1000::/36 } on-error={}
 :do { add list=SI address=2a0f:a6c0:2000::/35 } on-error={}
 :do { add list=SI address=2a0f:a6c0:4000::/34 } on-error={}

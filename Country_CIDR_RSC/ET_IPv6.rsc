@@ -2,7 +2,6 @@
 /ipv6 firewall address-list
 :do { add list=ET address=2001:470:36:c0::/64 } on-error={}
 :do { add list=ET address=2001:470:edc7::/48 } on-error={}
-:do { add list=ET address=2001:470:fe05::/48 } on-error={}
 :do { add list=ET address=2001:67c:a38:f251::/64 } on-error={}
 :do { add list=ET address=2001:43f8:1710::/47 } on-error={}
 :do { add list=ET address=2001:4860:7:20d::/64 } on-error={}

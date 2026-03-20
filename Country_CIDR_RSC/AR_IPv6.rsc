@@ -133,7 +133,6 @@
 :do { add list=AR address=2001:470:1f2b:126::/64 } on-error={}
 :do { add list=AR address=2001:470:1f2b:128::/64 } on-error={}
 :do { add list=AR address=2001:470:1f2b:12f::/64 } on-error={}
-:do { add list=AR address=2001:470:1f2b:138::/64 } on-error={}
 :do { add list=AR address=2001:470:1f2b:147::/64 } on-error={}
 :do { add list=AR address=2001:470:1f2b:155::/64 } on-error={}
 :do { add list=AR address=2001:470:1f2b:15d::/64 } on-error={}

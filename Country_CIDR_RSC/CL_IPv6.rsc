@@ -1589,7 +1589,6 @@
 :do { add list=CL address=2800:3d0:1000:1000::/52 } on-error={}
 :do { add list=CL address=2800:3d0:1080:200::/55 } on-error={}
 :do { add list=CL address=2800:3d0:1080:400::/54 } on-error={}
-:do { add list=CL address=2800:3d0:1088:100::/56 } on-error={}
 :do { add list=CL address=2800:3d0:1090::/55 } on-error={}
 :do { add list=CL address=2800:3d0:10b0::/55 } on-error={}
 :do { add list=CL address=2800:3d0:10b8::/55 } on-error={}

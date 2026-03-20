@@ -2117,7 +2117,6 @@
 :do { add list=ZA address=2605:a7c0:2bf:2751::/64 } on-error={}
 :do { add list=ZA address=2605:dd40:9006::/48 } on-error={}
 :do { add list=ZA address=2605:e000:5b03:2600::/64 } on-error={}
-:do { add list=ZA address=2605:e000:9283:1600::/64 } on-error={}
 :do { add list=ZA address=2605:e000:cb03:7b00::/64 } on-error={}
 :do { add list=ZA address=2605:e000:fe45:4300::/64 } on-error={}
 :do { add list=ZA address=2605:f500:601::/48 } on-error={}

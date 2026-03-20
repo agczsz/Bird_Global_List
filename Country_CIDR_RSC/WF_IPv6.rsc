@@ -4,7 +4,6 @@
 :do { add list=WF address=2001:470:36:1da::/64 } on-error={}
 :do { add list=WF address=2001:470:36:7e2::/64 } on-error={}
 :do { add list=WF address=2001:470:36:897::/64 } on-error={}
-:do { add list=WF address=2001:470:6d:67a::/64 } on-error={}
 :do { add list=WF address=2001:470:185a::/48 } on-error={}
 :do { add list=WF address=2001:470:187c::/48 } on-error={}
 :do { add list=WF address=2001:470:1887::/48 } on-error={}

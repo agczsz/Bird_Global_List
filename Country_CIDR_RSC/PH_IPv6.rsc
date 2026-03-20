@@ -1580,6 +1580,7 @@
 :do { add list=PH address=2001:4451:47b2::/48 } on-error={}
 :do { add list=PH address=2001:4451:47b4:e700::/56 } on-error={}
 :do { add list=PH address=2001:4451:47bf:6d00::/56 } on-error={}
+:do { add list=PH address=2001:4451:47bf:b800::/64 } on-error={}
 :do { add list=PH address=2001:4451:47c4::/48 } on-error={}
 :do { add list=PH address=2001:4451:47c8::/47 } on-error={}
 :do { add list=PH address=2001:4451:47ca::/48 } on-error={}

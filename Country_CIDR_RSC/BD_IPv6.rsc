@@ -4516,12 +4516,10 @@
 :do { add list=BD address=2a02:26f7:d808:4100::/60 } on-error={}
 :do { add list=BD address=2a02:26f7:d808:4110::/62 } on-error={}
 :do { add list=BD address=2a02:26f7:d808:4114::/64 } on-error={}
-:do { add list=BD address=2a02:26f7:d808:8000::/49 } on-error={}
 :do { add list=BD address=2a02:26f7:d809:4000::/64 } on-error={}
 :do { add list=BD address=2a02:26f7:d809:4100::/60 } on-error={}
 :do { add list=BD address=2a02:26f7:d809:4110::/62 } on-error={}
 :do { add list=BD address=2a02:26f7:d809:4114::/64 } on-error={}
-:do { add list=BD address=2a02:26f7:d809:8000::/49 } on-error={}
 :do { add list=BD address=2a02:26f7:d80a::/50 } on-error={}
 :do { add list=BD address=2a02:26f7:d80a:4000::/64 } on-error={}
 :do { add list=BD address=2a02:26f7:d80a:4100::/56 } on-error={}
