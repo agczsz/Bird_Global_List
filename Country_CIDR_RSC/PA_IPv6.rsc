@@ -145,7 +145,8 @@
 :do { add list=PA address=2407:e8c0:1d:2000::/51 } on-error={}
 :do { add list=PA address=2407:e8c0:1d:4000::/50 } on-error={}
 :do { add list=PA address=2407:e8c0:1d:8000::/49 } on-error={}
-:do { add list=PA address=2407:e8c0:24::/46 } on-error={}
+:do { add list=PA address=2407:e8c0:25::/48 } on-error={}
+:do { add list=PA address=2407:e8c0:26::/47 } on-error={}
 :do { add list=PA address=2407:e8c0:28::/45 } on-error={}
 :do { add list=PA address=2407:e8c0:30::/44 } on-error={}
 :do { add list=PA address=2407:e8c0:40::/42 } on-error={}

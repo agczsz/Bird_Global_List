@@ -137,7 +137,6 @@
 :do { add list=NI address=2803:2d60:1600::/44 } on-error={}
 :do { add list=NI address=2803:2d60:1610::/45 } on-error={}
 :do { add list=NI address=2803:2d60:1618::/48 } on-error={}
-:do { add list=NI address=2803:2d60:1619:8000::/52 } on-error={}
 :do { add list=NI address=2803:2d60:1619:9400::/54 } on-error={}
 :do { add list=NI address=2803:2d60:1620:7000::/52 } on-error={}
 :do { add list=NI address=2803:2d60:1621::/52 } on-error={}

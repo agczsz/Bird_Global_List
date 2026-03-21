@@ -1368,7 +1368,6 @@
 :do { add list=CZ address=2001:470:597f::/48 } on-error={}
 :do { add list=CZ address=2001:470:5980::/48 } on-error={}
 :do { add list=CZ address=2001:470:5987::/48 } on-error={}
-:do { add list=CZ address=2001:470:5988::/48 } on-error={}
 :do { add list=CZ address=2001:470:598b::/48 } on-error={}
 :do { add list=CZ address=2001:470:598f::/48 } on-error={}
 :do { add list=CZ address=2001:470:5990::/48 } on-error={}
