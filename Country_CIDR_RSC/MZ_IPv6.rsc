@@ -6,7 +6,6 @@
 :do { add list=MZ address=2001:470:1f23:c2::/64 } on-error={}
 :do { add list=MZ address=2001:470:6b72::/48 } on-error={}
 :do { add list=MZ address=2001:470:6d4f::/48 } on-error={}
-:do { add list=MZ address=2001:470:ecae::/48 } on-error={}
 :do { add list=MZ address=2001:470:fedf:100::/56 } on-error={}
 :do { add list=MZ address=2001:470:fedf:200::/55 } on-error={}
 :do { add list=MZ address=2001:470:fedf:400::/54 } on-error={}

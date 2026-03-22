@@ -925,7 +925,8 @@
 :do { add list=NG address=2a07:d887:a200::/40 } on-error={}
 :do { add list=NG address=2a09:4c0:0:a5::/64 } on-error={}
 :do { add list=NG address=2a09:54c7:2ea3::/48 } on-error={}
-:do { add list=NG address=2a09:a702:4a::/47 } on-error={}
+:do { add list=NG address=2a09:a702:4a::/50 } on-error={}
+:do { add list=NG address=2a09:a702:4b::/48 } on-error={}
 :do { add list=NG address=2a09:bac0:174::/48 } on-error={}
 :do { add list=NG address=2a09:bac0:1000:37d::/64 } on-error={}
 :do { add list=NG address=2a09:bac0:1000:47f::/64 } on-error={}

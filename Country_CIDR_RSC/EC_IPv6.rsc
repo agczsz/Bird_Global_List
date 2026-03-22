@@ -642,8 +642,7 @@
 :do { add list=EC address=2800:bf0:2442::/48 } on-error={}
 :do { add list=EC address=2800:bf0:2443::/48 } on-error={}
 :do { add list=EC address=2800:bf0:2444::/47 } on-error={}
-:do { add list=EC address=2800:bf0:2446::/48 } on-error={}
-:do { add list=EC address=2800:bf0:2447::/48 } on-error={}
+:do { add list=EC address=2800:bf0:2446::/47 } on-error={}
 :do { add list=EC address=2800:bf0:2448::/45 } on-error={}
 :do { add list=EC address=2800:bf0:2450::/44 } on-error={}
 :do { add list=EC address=2800:bf0:2460::/48 } on-error={}
@@ -2724,15 +2723,7 @@
 :do { add list=EC address=2803:ade0:8000::/33 } on-error={}
 :do { add list=EC address=2803:af40::/32 } on-error={}
 :do { add list=EC address=2803:b0e0:b200::/40 } on-error={}
-:do { add list=EC address=2803:b190::/40 } on-error={}
-:do { add list=EC address=2803:b190:100::/40 } on-error={}
-:do { add list=EC address=2803:b190:200::/39 } on-error={}
-:do { add list=EC address=2803:b190:400::/38 } on-error={}
-:do { add list=EC address=2803:b190:800::/37 } on-error={}
-:do { add list=EC address=2803:b190:1000::/36 } on-error={}
-:do { add list=EC address=2803:b190:2000::/35 } on-error={}
-:do { add list=EC address=2803:b190:4000::/34 } on-error={}
-:do { add list=EC address=2803:b190:8000::/33 } on-error={}
+:do { add list=EC address=2803:b190::/32 } on-error={}
 :do { add list=EC address=2803:b2c0::/47 } on-error={}
 :do { add list=EC address=2803:b2c0:2:2::/64 } on-error={}
 :do { add list=EC address=2803:b2c0:1100::/48 } on-error={}
@@ -3039,9 +3030,7 @@
 :do { add list=EC address=2803:ce10:8000::/33 } on-error={}
 :do { add list=EC address=2803:cf50::/38 } on-error={}
 :do { add list=EC address=2803:cf50:400::/39 } on-error={}
-:do { add list=EC address=2803:cf50:600::/47 } on-error={}
-:do { add list=EC address=2803:cf50:602::/48 } on-error={}
-:do { add list=EC address=2803:cf50:603::/48 } on-error={}
+:do { add list=EC address=2803:cf50:600::/46 } on-error={}
 :do { add list=EC address=2803:cf50:604::/46 } on-error={}
 :do { add list=EC address=2803:cf50:608::/45 } on-error={}
 :do { add list=EC address=2803:cf50:610::/44 } on-error={}

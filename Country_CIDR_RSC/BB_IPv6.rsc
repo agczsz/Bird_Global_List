@@ -73,6 +73,7 @@
 :do { add list=BB address=2602:fe45:c00:68e5::/64 } on-error={}
 :do { add list=BB address=2602:fe45:c00:6a39::/64 } on-error={}
 :do { add list=BB address=2602:fe45:c00:87fc::/64 } on-error={}
+:do { add list=BB address=2602:fe45:c00:9fa9::/64 } on-error={}
 :do { add list=BB address=2602:fe45:c02:6400::/56 } on-error={}
 :do { add list=BB address=2602:fe45:c02:7000::/56 } on-error={}
 :do { add list=BB address=2602:fe45:c02:8000::/56 } on-error={}

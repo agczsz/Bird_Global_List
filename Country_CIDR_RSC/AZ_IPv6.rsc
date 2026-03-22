@@ -4,7 +4,6 @@
 :do { add list=AZ address=2001:470:24:10dd::/64 } on-error={}
 :do { add list=AZ address=2001:470:26:c6::/64 } on-error={}
 :do { add list=AZ address=2001:470:28:92e::/64 } on-error={}
-:do { add list=AZ address=2001:470:28:e61::/64 } on-error={}
 :do { add list=AZ address=2001:470:28:f21::/64 } on-error={}
 :do { add list=AZ address=2001:470:36:66a::/64 } on-error={}
 :do { add list=AZ address=2001:470:6d:23e::/64 } on-error={}
@@ -23,6 +22,7 @@
 :do { add list=AZ address=2001:470:6d:f59::/64 } on-error={}
 :do { add list=AZ address=2001:470:6d:1069::/64 } on-error={}
 :do { add list=AZ address=2001:470:6d:10b2::/64 } on-error={}
+:do { add list=AZ address=2001:470:6f:32c::/64 } on-error={}
 :do { add list=AZ address=2001:470:6f:91c::/64 } on-error={}
 :do { add list=AZ address=2001:470:71:195::/64 } on-error={}
 :do { add list=AZ address=2001:470:71:658::/64 } on-error={}

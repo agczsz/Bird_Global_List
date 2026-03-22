@@ -10,7 +10,6 @@
 :do { add list=KG address=2001:470:6d:9c1::/64 } on-error={}
 :do { add list=KG address=2001:470:6d:b07::/64 } on-error={}
 :do { add list=KG address=2001:470:6d:b3e::/64 } on-error={}
-:do { add list=KG address=2001:470:6f:18::/64 } on-error={}
 :do { add list=KG address=2001:470:71:2f6::/64 } on-error={}
 :do { add list=KG address=2001:470:71:731::/64 } on-error={}
 :do { add list=KG address=2001:470:1f09:21a::/64 } on-error={}

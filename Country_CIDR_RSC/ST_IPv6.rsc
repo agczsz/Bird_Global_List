@@ -139,7 +139,13 @@
 :do { add list=ST address=2804:71f0:401b:3000::/52 } on-error={}
 :do { add list=ST address=2804:71f0:401b:4000::/50 } on-error={}
 :do { add list=ST address=2804:71f0:401b:8000::/49 } on-error={}
-:do { add list=ST address=2804:71f0:401c::/49 } on-error={}
+:do { add list=ST address=2804:71f0:401c::/50 } on-error={}
+:do { add list=ST address=2804:71f0:401c:4000::/56 } on-error={}
+:do { add list=ST address=2804:71f0:401c:4200::/55 } on-error={}
+:do { add list=ST address=2804:71f0:401c:4400::/54 } on-error={}
+:do { add list=ST address=2804:71f0:401c:4800::/53 } on-error={}
+:do { add list=ST address=2804:71f0:401c:5000::/52 } on-error={}
+:do { add list=ST address=2804:71f0:401c:6000::/51 } on-error={}
 :do { add list=ST address=2804:71f0:401c:8000::/50 } on-error={}
 :do { add list=ST address=2804:71f0:401c:c000::/54 } on-error={}
 :do { add list=ST address=2804:71f0:401c:c400::/55 } on-error={}
