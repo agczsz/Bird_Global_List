@@ -55,7 +55,8 @@
 :do { add list=BF address=2606:40:22e0:3000::/52 } on-error={}
 :do { add list=BF address=2606:54c0:4d0::/45 } on-error={}
 :do { add list=BF address=2606:54c3:0:3cc::/64 } on-error={}
-:do { add list=BF address=2606:6000:608d:8900::/64 } on-error={}
+:do { add list=BF address=2606:6000:5016:e200::/64 } on-error={}
+:do { add list=BF address=2606:a000:65c0:5b00::/64 } on-error={}
 :do { add list=BF address=2607:8940:200a::/47 } on-error={}
 :do { add list=BF address=2607:8940:200e::/47 } on-error={}
 :do { add list=BF address=2607:8940:4171:a00::/55 } on-error={}

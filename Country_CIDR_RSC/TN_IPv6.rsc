@@ -117,7 +117,6 @@
 :do { add list=TN address=2607:8940:4191:b600::/55 } on-error={}
 :do { add list=TN address=2620:0:876:418::/64 } on-error={}
 :do { add list=TN address=2620:0:876:830::/64 } on-error={}
-:do { add list=TN address=2620:0:876:847::2/128 } on-error={}
 :do { add list=TN address=2620:0:876:862::2/128 } on-error={}
 :do { add list=TN address=2620:0:876:930::/64 } on-error={}
 :do { add list=TN address=2620:0:876:3000::/56 } on-error={}

@@ -4,6 +4,7 @@
 :do { add list=GL address=2001:470:24:dd::/64 } on-error={}
 :do { add list=GL address=2001:470:28:eb6::/64 } on-error={}
 :do { add list=GL address=2001:470:36:dd::/64 } on-error={}
+:do { add list=GL address=2001:470:36:7f7::/64 } on-error={}
 :do { add list=GL address=2001:470:6d:452::/64 } on-error={}
 :do { add list=GL address=2001:470:1f2b:90::/64 } on-error={}
 :do { add list=GL address=2001:470:711e::/48 } on-error={}

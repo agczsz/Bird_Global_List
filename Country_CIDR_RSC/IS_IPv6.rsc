@@ -133,7 +133,6 @@
 :do { add list=IS address=2602:f921:f04::/48 } on-error={}
 :do { add list=IS address=2602:f92a:fe10::/48 } on-error={}
 :do { add list=IS address=2602:f92a:ff10::/48 } on-error={}
-:do { add list=IS address=2602:fa7e:19::/48 } on-error={}
 :do { add list=IS address=2604:ca00:186::/49 } on-error={}
 :do { add list=IS address=2604:ca00:196:1::/64 } on-error={}
 :do { add list=IS address=2604:ca00:196:2::/63 } on-error={}

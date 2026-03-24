@@ -60,7 +60,7 @@
 :do { add list=OM address=2001:1670:0:0:129::/96 } on-error={}
 :do { add list=OM address=2001:1670::129:1:0:1/128 } on-error={}
 :do { add list=OM address=2001:1670::129:1:0:3/128 } on-error={}
-:do { add list=OM address=2001:1670::129:1:0:4/127 } on-error={}
+:do { add list=OM address=2001:1670::129:1:0:5/128 } on-error={}
 :do { add list=OM address=2001:1670::129:1:0:7/128 } on-error={}
 :do { add list=OM address=2001:1670::129:1:0:9/128 } on-error={}
 :do { add list=OM address=2001:1670::129:1:0:a/127 } on-error={}
@@ -544,7 +544,6 @@
 :do { add list=OM address=2401:3cc0:10:50::1:254/128 } on-error={}
 :do { add list=OM address=2401:3cc0:10:50::1:256/128 } on-error={}
 :do { add list=OM address=2401:3cc0:10:50::1:258/128 } on-error={}
-:do { add list=OM address=2401:3cc0:10:50::1:266/128 } on-error={}
 :do { add list=OM address=2401:3cc0:1017::/64 } on-error={}
 :do { add list=OM address=2402:6800:6::/48 } on-error={}
 :do { add list=OM address=2405:b500:5800::/64 } on-error={}
@@ -617,6 +616,7 @@
 :do { add list=OM address=2607:8940:4171:9000::/54 } on-error={}
 :do { add list=OM address=2607:8940:4191:9000::/54 } on-error={}
 :do { add list=OM address=2620:0:1c00:36::/64 } on-error={}
+:do { add list=OM address=2620:0:1cff:dead:beee::14e0/127 } on-error={}
 :do { add list=OM address=2620:0:1cff:dead:beee::1570/128 } on-error={}
 :do { add list=OM address=2620:0:1cff:dead:beee::15bc/128 } on-error={}
 :do { add list=OM address=2620:0:1cff:dead:beee::16b6/128 } on-error={}
@@ -639,6 +639,8 @@
 :do { add list=OM address=2620:0:1cff:dead:beef::6dd/128 } on-error={}
 :do { add list=OM address=2620:0:1cff:dead:beef::765/128 } on-error={}
 :do { add list=OM address=2620:0:1cff:dead:beef::7bb/128 } on-error={}
+:do { add list=OM address=2620:0:1cff:dead:beef::7e5/128 } on-error={}
+:do { add list=OM address=2620:0:1cff:dead:beef::7e7/128 } on-error={}
 :do { add list=OM address=2620:0:1cff:dead:beef::7e9/128 } on-error={}
 :do { add list=OM address=2620:0:1cff:dead:beef::7ed/128 } on-error={}
 :do { add list=OM address=2620:0:1cff:dead:beef::853/128 } on-error={}

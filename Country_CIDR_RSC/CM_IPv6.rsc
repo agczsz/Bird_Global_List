@@ -51,6 +51,7 @@
 :do { add list=CM address=2606:54c0:1eb0::/45 } on-error={}
 :do { add list=CM address=2606:54c3:0:64c::/64 } on-error={}
 :do { add list=CM address=2606:54c3:0:b65::/64 } on-error={}
+:do { add list=CM address=2606:6000:e7ca:ed00::/64 } on-error={}
 :do { add list=CM address=2607:8940:2052::/47 } on-error={}
 :do { add list=CM address=2607:8940:2056::/47 } on-error={}
 :do { add list=CM address=2607:8940:205a::/47 } on-error={}
@@ -215,6 +216,7 @@
 :do { add list=CM address=2a0d:2681:1e20::/43 } on-error={}
 :do { add list=CM address=2a0d:2681:1e40::/42 } on-error={}
 :do { add list=CM address=2a0d:2681:1e80::/41 } on-error={}
+:do { add list=CM address=2a0d:5600:268::/48 } on-error={}
 :do { add list=CM address=2a0d:9440:3800::/37 } on-error={}
 :do { add list=CM address=2a0e:b107:2358::/45 } on-error={}
 :do { add list=CM address=2a0f:1cc5:b10:2400::/56 } on-error={}

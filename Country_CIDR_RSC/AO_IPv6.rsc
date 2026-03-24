@@ -1269,11 +1269,7 @@
 :do { add list=AO address=2c0f:f828:0:4000::/50 } on-error={}
 :do { add list=AO address=2c0f:f828:0:8000::/49 } on-error={}
 :do { add list=AO address=2c0f:f828:1::/48 } on-error={}
-:do { add list=AO address=2c0f:f828:2::/126 } on-error={}
-:do { add list=AO address=2c0f:f828:2::4/127 } on-error={}
-:do { add list=AO address=2c0f:f828:2::7/128 } on-error={}
-:do { add list=AO address=2c0f:f828:2::8/125 } on-error={}
-:do { add list=AO address=2c0f:f828:2::10/124 } on-error={}
+:do { add list=AO address=2c0f:f828:2::/123 } on-error={}
 :do { add list=AO address=2c0f:f828:2::20/125 } on-error={}
 :do { add list=AO address=2c0f:f828:2::28/128 } on-error={}
 :do { add list=AO address=2c0f:f828:2::2a/127 } on-error={}
