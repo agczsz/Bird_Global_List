@@ -9333,12 +9333,7 @@
 :do { add list=MX address=2806:2f0:7228::/45 } on-error={}
 :do { add list=MX address=2806:2f0:7230::/44 } on-error={}
 :do { add list=MX address=2806:2f0:7240::/42 } on-error={}
-:do { add list=MX address=2806:2f0:7280::/47 } on-error={}
-:do { add list=MX address=2806:2f0:7282::/48 } on-error={}
-:do { add list=MX address=2806:2f0:7283::/48 } on-error={}
-:do { add list=MX address=2806:2f0:7284::/46 } on-error={}
-:do { add list=MX address=2806:2f0:7288::/45 } on-error={}
-:do { add list=MX address=2806:2f0:7290::/44 } on-error={}
+:do { add list=MX address=2806:2f0:7280::/43 } on-error={}
 :do { add list=MX address=2806:2f0:72a0::/47 } on-error={}
 :do { add list=MX address=2806:2f0:72a2::/48 } on-error={}
 :do { add list=MX address=2806:2f0:72a3::/48 } on-error={}

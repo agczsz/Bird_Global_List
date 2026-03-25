@@ -2104,8 +2104,7 @@
 :do { add list=NG address=2c0f:13c0::/32 } on-error={}
 :do { add list=NG address=2c0f:1540::/32 } on-error={}
 :do { add list=NG address=2c0f:1f80::/32 } on-error={}
-:do { add list=NG address=2c0f:2280::/48 } on-error={}
-:do { add list=NG address=2c0f:2280:1::/48 } on-error={}
+:do { add list=NG address=2c0f:2280::/47 } on-error={}
 :do { add list=NG address=2c0f:2280:2::/47 } on-error={}
 :do { add list=NG address=2c0f:2280:4::/48 } on-error={}
 :do { add list=NG address=2c0f:2280:5::/48 } on-error={}

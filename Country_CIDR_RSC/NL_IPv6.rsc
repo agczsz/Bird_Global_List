@@ -71688,14 +71688,7 @@
 :do { add list=NL address=2a03:cc08::/29 } on-error={}
 :do { add list=NL address=2a03:cc10::/28 } on-error={}
 :do { add list=NL address=2a03:cc20::/27 } on-error={}
-:do { add list=NL address=2a03:cc40::/32 } on-error={}
-:do { add list=NL address=2a03:cc41::/32 } on-error={}
-:do { add list=NL address=2a03:cc42::/32 } on-error={}
-:do { add list=NL address=2a03:cc43::/32 } on-error={}
-:do { add list=NL address=2a03:cc44::/32 } on-error={}
-:do { add list=NL address=2a03:cc45::/32 } on-error={}
-:do { add list=NL address=2a03:cc46::/32 } on-error={}
-:do { add list=NL address=2a03:cc47::/32 } on-error={}
+:do { add list=NL address=2a03:cc40::/29 } on-error={}
 :do { add list=NL address=2a03:cc48::/29 } on-error={}
 :do { add list=NL address=2a03:cc50::/28 } on-error={}
 :do { add list=NL address=2a03:cc60::/27 } on-error={}

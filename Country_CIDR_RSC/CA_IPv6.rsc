@@ -53,7 +53,9 @@
 :do { add list=CA address=2001:410:a000::/47 } on-error={}
 :do { add list=CA address=2001:410:a002::/48 } on-error={}
 :do { add list=CA address=2001:410:a003::/48 } on-error={}
-:do { add list=CA address=2001:410:a004::/46 } on-error={}
+:do { add list=CA address=2001:410:a004::/47 } on-error={}
+:do { add list=CA address=2001:410:a006::/48 } on-error={}
+:do { add list=CA address=2001:410:a007::/48 } on-error={}
 :do { add list=CA address=2001:410:a008::/45 } on-error={}
 :do { add list=CA address=2001:410:a010::/44 } on-error={}
 :do { add list=CA address=2001:410:a020::/43 } on-error={}
