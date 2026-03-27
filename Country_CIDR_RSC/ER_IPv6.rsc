@@ -22,6 +22,7 @@
 :do { add list=ER address=2405:b500:2340::/64 } on-error={}
 :do { add list=ER address=2405:b500:2360::/64 } on-error={}
 :do { add list=ER address=2600:70ff:d801::/48 } on-error={}
+:do { add list=ER address=2605:59c0:1600::/40 } on-error={}
 :do { add list=ER address=2606:40:aa8::/45 } on-error={}
 :do { add list=ER address=2606:40:ab0::/45 } on-error={}
 :do { add list=ER address=2606:40:1330::/44 } on-error={}

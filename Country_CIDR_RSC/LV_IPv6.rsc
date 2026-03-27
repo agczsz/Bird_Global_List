@@ -2580,8 +2580,7 @@
 :do { add list=LV address=2a11:7247:c000::/36 } on-error={}
 :do { add list=LV address=2a11:7e41::/48 } on-error={}
 :do { add list=LV address=2a11:7e41:1::/48 } on-error={}
-:do { add list=LV address=2a11:7e41:2::/48 } on-error={}
-:do { add list=LV address=2a11:7e41:3::/48 } on-error={}
+:do { add list=LV address=2a11:7e41:2::/47 } on-error={}
 :do { add list=LV address=2a11:7fc0::/29 } on-error={}
 :do { add list=LV address=2a11:9080::/29 } on-error={}
 :do { add list=LV address=2a11:9180::/29 } on-error={}

@@ -889,8 +889,7 @@
 :do { add list=PK address=2400:adc2:2000::/35 } on-error={}
 :do { add list=PK address=2400:adc2:4000::/34 } on-error={}
 :do { add list=PK address=2400:adc2:8000::/33 } on-error={}
-:do { add list=PK address=2400:adc3::/40 } on-error={}
-:do { add list=PK address=2400:adc3:100::/40 } on-error={}
+:do { add list=PK address=2400:adc3::/39 } on-error={}
 :do { add list=PK address=2400:adc3:200::/39 } on-error={}
 :do { add list=PK address=2400:adc3:400::/38 } on-error={}
 :do { add list=PK address=2400:adc3:800::/39 } on-error={}

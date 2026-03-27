@@ -6,7 +6,6 @@
 :do { add list=PW address=2001:470:6d:b8d::/64 } on-error={}
 :do { add list=PW address=2001:470:887f::/48 } on-error={}
 :do { add list=PW address=2001:470:efca::/48 } on-error={}
-:do { add list=PW address=2001:470:f2f3::/48 } on-error={}
 :do { add list=PW address=2001:470:fbe1::/48 } on-error={}
 :do { add list=PW address=2001:67c:a38:f680::/64 } on-error={}
 :do { add list=PW address=2001:4b28:2600::/40 } on-error={}

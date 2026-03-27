@@ -12,7 +12,6 @@
 :do { add list=UM address=2001:470:1876::/48 } on-error={}
 :do { add list=UM address=2001:470:1aaf::/48 } on-error={}
 :do { add list=UM address=2001:470:1f09:186::/64 } on-error={}
-:do { add list=UM address=2001:470:1f0b:2b7::/64 } on-error={}
 :do { add list=UM address=2001:470:1f0b:4fd::/64 } on-error={}
 :do { add list=UM address=2001:470:1f13:eac::/64 } on-error={}
 :do { add list=UM address=2001:470:1f13:f16::/63 } on-error={}

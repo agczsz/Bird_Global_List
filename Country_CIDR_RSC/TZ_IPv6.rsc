@@ -380,6 +380,7 @@
 :do { add list=TZ address=2c0f:31c0::/32 } on-error={}
 :do { add list=TZ address=2c0f:37c0::/32 } on-error={}
 :do { add list=TZ address=2c0f:3dc0::/32 } on-error={}
+:do { add list=TZ address=2c0f:4820::/32 } on-error={}
 :do { add list=TZ address=2c0f:5040::/32 } on-error={}
 :do { add list=TZ address=2c0f:5500::/32 } on-error={}
 :do { add list=TZ address=2c0f:5c00::/32 } on-error={}

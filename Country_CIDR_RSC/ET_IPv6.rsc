@@ -29,6 +29,7 @@
 :do { add list=ET address=2405:b500:2460:8::/64 } on-error={}
 :do { add list=ET address=2602:2a9:bc0::/44 } on-error={}
 :do { add list=ET address=2602:fd92:b00:190::/64 } on-error={}
+:do { add list=ET address=2605:59c0:1500::/40 } on-error={}
 :do { add list=ET address=2606:40:a68::/45 } on-error={}
 :do { add list=ET address=2606:40:a70::/45 } on-error={}
 :do { add list=ET address=2606:40:12f0::/44 } on-error={}

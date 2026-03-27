@@ -34094,7 +34094,8 @@
 :do { add list=VN address=2a14:7583:f071::/48 } on-error={}
 :do { add list=VN address=2a14:7583:f072::/47 } on-error={}
 :do { add list=VN address=2a14:7583:f074::/46 } on-error={}
-:do { add list=VN address=2a14:7583:f078::/45 } on-error={}
+:do { add list=VN address=2a14:7583:f078::/46 } on-error={}
+:do { add list=VN address=2a14:7583:f07c::/46 } on-error={}
 :do { add list=VN address=2a14:7583:f080::/41 } on-error={}
 :do { add list=VN address=2a14:7583:f100::/44 } on-error={}
 :do { add list=VN address=2a14:7583:f110::/46 } on-error={}

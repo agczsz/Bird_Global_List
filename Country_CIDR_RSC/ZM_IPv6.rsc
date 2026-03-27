@@ -159,7 +159,6 @@
 :do { add list=ZM address=2a04:4e41:407f:7000::/52 } on-error={}
 :do { add list=ZM address=2a04:4e41:408f:7000::/52 } on-error={}
 :do { add list=ZM address=2a04:4e41:7426::/48 } on-error={}
-:do { add list=ZM address=2a05:b0c2:1000::/36 } on-error={}
 :do { add list=ZM address=2a05:dfc1:5a39::/48 } on-error={}
 :do { add list=ZM address=2a05:dfc1:8c3d::/48 } on-error={}
 :do { add list=ZM address=2a06:9f81:39f6::/48 } on-error={}

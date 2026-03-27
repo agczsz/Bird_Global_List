@@ -890,7 +890,7 @@
 :do { add list=IS address=2a0d:3344:fe0::/47 } on-error={}
 :do { add list=IS address=2a0d:3344:fe3::/48 } on-error={}
 :do { add list=IS address=2a0d:3344:fe4::/48 } on-error={}
-:do { add list=IS address=2a0d:3344:fe7::/48 } on-error={}
+:do { add list=IS address=2a0d:3344:fe6::/47 } on-error={}
 :do { add list=IS address=2a0d:3344:fe8::/45 } on-error={}
 :do { add list=IS address=2a0d:3344:ff0::/48 } on-error={}
 :do { add list=IS address=2a0d:3344:ff2::/47 } on-error={}

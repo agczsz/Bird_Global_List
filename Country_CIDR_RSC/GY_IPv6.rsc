@@ -20,7 +20,6 @@
 :do { add list=GY address=2405:b500:3140::/64 } on-error={}
 :do { add list=GY address=2405:b500:3160::/64 } on-error={}
 :do { add list=GY address=2602:fd92:b00:138::/64 } on-error={}
-:do { add list=GY address=2605:59c0:15c0::/42 } on-error={}
 :do { add list=GY address=2605:59c8:6400::/42 } on-error={}
 :do { add list=GY address=2606:40:ba0::/43 } on-error={}
 :do { add list=GY address=2606:40:20f5:6000::/51 } on-error={}

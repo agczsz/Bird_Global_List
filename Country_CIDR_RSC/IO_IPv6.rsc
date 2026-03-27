@@ -12,7 +12,6 @@
 :do { add list=IO address=2001:470:c050::/48 } on-error={}
 :do { add list=IO address=2001:470:e967::/48 } on-error={}
 :do { add list=IO address=2001:470:efd8::/48 } on-error={}
-:do { add list=IO address=2001:470:f288::/48 } on-error={}
 :do { add list=IO address=2001:470:f51b::/48 } on-error={}
 :do { add list=IO address=2001:470:f6a1::/48 } on-error={}
 :do { add list=IO address=2001:470:f952::/48 } on-error={}

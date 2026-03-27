@@ -402,6 +402,7 @@
 :do { add list=BZ address=2800:410:fc00::/39 } on-error={}
 :do { add list=BZ address=2800:410:fe00::/40 } on-error={}
 :do { add list=BZ address=2800:410:ff07:e00::/64 } on-error={}
+:do { add list=BZ address=2800:410:ff16:1d00::/64 } on-error={}
 :do { add list=BZ address=2800:410:ff17::/48 } on-error={}
 :do { add list=BZ address=2800:410:ff18::/47 } on-error={}
 :do { add list=BZ address=2800:410:ff1a:1600::/56 } on-error={}

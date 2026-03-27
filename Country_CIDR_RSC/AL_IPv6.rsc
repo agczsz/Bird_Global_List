@@ -32,6 +32,7 @@
 :do { add list=AL address=2001:470:28:e90::/64 } on-error={}
 :do { add list=AL address=2001:470:28:f69::/64 } on-error={}
 :do { add list=AL address=2001:470:28:fd1::/64 } on-error={}
+:do { add list=AL address=2001:470:28:1059::/64 } on-error={}
 :do { add list=AL address=2001:470:36:9::/64 } on-error={}
 :do { add list=AL address=2001:470:36:b8::/64 } on-error={}
 :do { add list=AL address=2001:470:36:d8::/64 } on-error={}

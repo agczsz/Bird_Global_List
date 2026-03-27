@@ -60,10 +60,8 @@
 :do { add list=BJ address=2620:0:876:4800::/56 } on-error={}
 :do { add list=BJ address=2620:134:b054:100::50/127 } on-error={}
 :do { add list=BJ address=2a00:ca0:2002:1000::/52 } on-error={}
-:do { add list=BJ address=2a00:ca0:202d:c000::/52 } on-error={}
 :do { add list=BJ address=2a00:ca0:2035:f000::/52 } on-error={}
 :do { add list=BJ address=2a00:ca0:2036:4000::/50 } on-error={}
-:do { add list=BJ address=2a00:ca0:2036:8000::/50 } on-error={}
 :do { add list=BJ address=2a00:ca0:203c::/50 } on-error={}
 :do { add list=BJ address=2a01:528:9700::/40 } on-error={}
 :do { add list=BJ address=2a02:26f7:f0c0:4000::/64 } on-error={}
