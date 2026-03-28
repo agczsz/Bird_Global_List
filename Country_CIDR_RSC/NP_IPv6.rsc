@@ -306,6 +306,7 @@
 :do { add list=NP address=2407:59c0::/32 } on-error={}
 :do { add list=NP address=2407:6200::/32 } on-error={}
 :do { add list=NP address=2407:65c0::/32 } on-error={}
+:do { add list=NP address=2407:d340:8d00::/40 } on-error={}
 :do { add list=NP address=2407:efc0::/32 } on-error={}
 :do { add list=NP address=2407:fe40::/32 } on-error={}
 :do { add list=NP address=240d:c010:8d::/48 } on-error={}

@@ -270,6 +270,7 @@
 :do { add list=MD address=2a02:26f7:ddc1:8000::/49 } on-error={}
 :do { add list=MD address=2a02:26f7:ddc2::/47 } on-error={}
 :do { add list=MD address=2a02:26f7:ddc4:4000::/64 } on-error={}
+:do { add list=MD address=2a02:26f7:ddc4:8000::/50 } on-error={}
 :do { add list=MD address=2a02:26f7:ddc4:cfe0::/62 } on-error={}
 :do { add list=MD address=2a02:26f7:ddc4:cfe4::/63 } on-error={}
 :do { add list=MD address=2a02:26f7:ddc5::/50 } on-error={}

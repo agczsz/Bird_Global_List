@@ -503,6 +503,13 @@
 :do { add list=CY address=2a02:26f7:c20c::/46 } on-error={}
 :do { add list=CY address=2a02:26f7:c210::/44 } on-error={}
 :do { add list=CY address=2a02:26f7:c220::/43 } on-error={}
+:do { add list=CY address=2a02:4780::/48 } on-error={}
+:do { add list=CY address=2a02:4780:84::/47 } on-error={}
+:do { add list=CY address=2a02:4780:88::/48 } on-error={}
+:do { add list=CY address=2a02:4780:9d::/48 } on-error={}
+:do { add list=CY address=2a02:4780:9e::/47 } on-error={}
+:do { add list=CY address=2a02:4780:a0::/43 } on-error={}
+:do { add list=CY address=2a02:4780:c0::/42 } on-error={}
 :do { add list=CY address=2a02:4780:100::/40 } on-error={}
 :do { add list=CY address=2a02:4780:200::/39 } on-error={}
 :do { add list=CY address=2a02:4780:400::/38 } on-error={}

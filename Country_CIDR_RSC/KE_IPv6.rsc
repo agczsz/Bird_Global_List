@@ -1993,6 +1993,7 @@
 :do { add list=KE address=2c0f:4500::/32 } on-error={}
 :do { add list=KE address=2c0f:4640::/32 } on-error={}
 :do { add list=KE address=2c0f:47a0::/32 } on-error={}
+:do { add list=KE address=2c0f:48a0::/32 } on-error={}
 :do { add list=KE address=2c0f:4980::/32 } on-error={}
 :do { add list=KE address=2c0f:4b40::/32 } on-error={}
 :do { add list=KE address=2c0f:4d80::/32 } on-error={}

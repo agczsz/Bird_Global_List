@@ -20,6 +20,7 @@
 :do { add list=VC address=2405:b500:78a0::/64 } on-error={}
 :do { add list=VC address=2405:b500:78c0::/64 } on-error={}
 :do { add list=VC address=2405:b500:78e0::/64 } on-error={}
+:do { add list=VC address=2407:d340:9000::/40 } on-error={}
 :do { add list=VC address=2600:1e00::/28 } on-error={}
 :do { add list=VC address=2600:70ff:a72d::/48 } on-error={}
 :do { add list=VC address=2600:70ff:a97d::/48 } on-error={}

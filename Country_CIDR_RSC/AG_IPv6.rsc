@@ -38,6 +38,7 @@
 :do { add list=AG address=2401:b60:1092::/47 } on-error={}
 :do { add list=AG address=2401:b60:1094::/46 } on-error={}
 :do { add list=AG address=2401:b60:1098::/45 } on-error={}
+:do { add list=AG address=2401:f1e0:ffff:2d0c::/64 } on-error={}
 :do { add list=AG address=2401:f1e0:ffff:5110::/64 } on-error={}
 :do { add list=AG address=2405:b500:300::/64 } on-error={}
 :do { add list=AG address=2405:b500:320::/64 } on-error={}

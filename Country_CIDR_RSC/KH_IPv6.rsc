@@ -25510,6 +25510,7 @@
 :do { add list=KH address=2407:5e00::/32 } on-error={}
 :do { add list=KH address=2407:8180::/32 } on-error={}
 :do { add list=KH address=2407:c180::/32 } on-error={}
+:do { add list=KH address=2407:d340:8800::/44 } on-error={}
 :do { add list=KH address=2600:70ff:a652::/48 } on-error={}
 :do { add list=KH address=2600:70ff:ac32::/48 } on-error={}
 :do { add list=KH address=2600:70ff:b119::/48 } on-error={}

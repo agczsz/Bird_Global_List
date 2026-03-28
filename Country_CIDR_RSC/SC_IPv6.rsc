@@ -2556,7 +2556,6 @@
 :do { add list=SC address=2a0f:e247:f7ef::/48 } on-error={}
 :do { add list=SC address=2a0f:e247:f7f0::/44 } on-error={}
 :do { add list=SC address=2a0f:e247:f800::/37 } on-error={}
-:do { add list=SC address=2a0f:e6c7::/32 } on-error={}
 :do { add list=SC address=2a0f:e7c7:c7::/48 } on-error={}
 :do { add list=SC address=2a0f:e7c7:fe::/48 } on-error={}
 :do { add list=SC address=2a0f:e7c7:14e::/48 } on-error={}

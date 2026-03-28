@@ -1,6 +1,7 @@
 /log info "Loading IS IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=IS address=2001:470:19:ab::/64 } on-error={}
+:do { add list=IS address=2001:470:19:b4::/64 } on-error={}
 :do { add list=IS address=2001:470:19:fcf::/64 } on-error={}
 :do { add list=IS address=2001:470:19:10d9::/64 } on-error={}
 :do { add list=IS address=2001:470:24:34b::/64 } on-error={}
@@ -63,6 +64,7 @@
 :do { add list=IS address=2001:470:f52b::/48 } on-error={}
 :do { add list=IS address=2001:470:f586::/48 } on-error={}
 :do { add list=IS address=2001:470:f5bb::/48 } on-error={}
+:do { add list=IS address=2001:470:f868::/48 } on-error={}
 :do { add list=IS address=2001:470:f886::/48 } on-error={}
 :do { add list=IS address=2001:678:afc::/48 } on-error={}
 :do { add list=IS address=2001:678:d14::/48 } on-error={}
@@ -115,6 +117,7 @@
 :do { add list=IS address=2405:b500:38e0:8::/64 } on-error={}
 :do { add list=IS address=2405:b500:38e0:10::/64 } on-error={}
 :do { add list=IS address=2405:b500:38e0:20::/64 } on-error={}
+:do { add list=IS address=2407:d340:7940::/44 } on-error={}
 :do { add list=IS address=2600:70ff:a6f2::/48 } on-error={}
 :do { add list=IS address=2600:70ff:a7cf::/48 } on-error={}
 :do { add list=IS address=2600:70ff:a824::/48 } on-error={}
