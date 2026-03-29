@@ -2904,6 +2904,7 @@
 :do { add list=PH address=2402:4460::/32 } on-error={}
 :do { add list=PH address=2402:45a0::/32 } on-error={}
 :do { add list=PH address=2402:4f40::/32 } on-error={}
+:do { add list=PH address=2402:52a0::/32 } on-error={}
 :do { add list=PH address=2402:5500::/32 } on-error={}
 :do { add list=PH address=2402:61c0:1::/48 } on-error={}
 :do { add list=PH address=2402:61c0:2::/47 } on-error={}

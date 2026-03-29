@@ -1,5 +1,6 @@
 /log info "Loading FM IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=FM address=2001:470:24:38d::/64 } on-error={}
 :do { add list=FM address=2001:470:36:650::/64 } on-error={}
 :do { add list=FM address=2001:470:36:8e1::/64 } on-error={}
 :do { add list=FM address=2001:470:36:8f9::/64 } on-error={}

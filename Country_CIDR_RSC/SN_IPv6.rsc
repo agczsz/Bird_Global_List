@@ -168,6 +168,7 @@
 :do { add list=SN address=2a02:26f7:c4d1:8000::/49 } on-error={}
 :do { add list=SN address=2a02:26f7:c4d2::/47 } on-error={}
 :do { add list=SN address=2a02:26f7:c4d4:4000::/64 } on-error={}
+:do { add list=SN address=2a02:26f7:c4d4:8000::/50 } on-error={}
 :do { add list=SN address=2a02:26f7:c4d4:ce20::/63 } on-error={}
 :do { add list=SN address=2a02:26f7:c4d4:ce22::/64 } on-error={}
 :do { add list=SN address=2a02:26f7:c4d5::/50 } on-error={}

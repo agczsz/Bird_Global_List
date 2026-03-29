@@ -368,6 +368,7 @@
 :do { add list=TH address=2001:470:ecc1::/48 } on-error={}
 :do { add list=TH address=2001:470:eccd::/48 } on-error={}
 :do { add list=TH address=2001:470:ecf1::/48 } on-error={}
+:do { add list=TH address=2001:470:ecfa::/48 } on-error={}
 :do { add list=TH address=2001:470:ed06::/48 } on-error={}
 :do { add list=TH address=2001:470:ed21::/48 } on-error={}
 :do { add list=TH address=2001:470:ed57::/48 } on-error={}

@@ -35,7 +35,6 @@
 :do { add list=AD address=2001:470:e09f::/48 } on-error={}
 :do { add list=AD address=2001:470:edf4::/48 } on-error={}
 :do { add list=AD address=2001:470:f221::/48 } on-error={}
-:do { add list=AD address=2001:470:f34a::/48 } on-error={}
 :do { add list=AD address=2001:470:f38e::/48 } on-error={}
 :do { add list=AD address=2001:470:f418::/48 } on-error={}
 :do { add list=AD address=2001:470:f575::/48 } on-error={}

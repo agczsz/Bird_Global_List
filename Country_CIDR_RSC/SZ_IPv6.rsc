@@ -27,7 +27,6 @@
 :do { add list=SZ address=2600:70ff:a5a2::/48 } on-error={}
 :do { add list=SZ address=2600:70ff:a975::/48 } on-error={}
 :do { add list=SZ address=2600:70ff:e8c3::/48 } on-error={}
-:do { add list=SZ address=2605:59c0:5c40::/42 } on-error={}
 :do { add list=SZ address=2605:59ca:8700::/40 } on-error={}
 :do { add list=SZ address=2606:54c0:55a0::/45 } on-error={}
 :do { add list=SZ address=2606:54c3:0:15c0::/64 } on-error={}

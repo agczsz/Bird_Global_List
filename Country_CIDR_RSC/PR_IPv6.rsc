@@ -107,6 +107,7 @@
 :do { add list=PR address=2602:2a9:9c0::/44 } on-error={}
 :do { add list=PR address=2602:f781::/36 } on-error={}
 :do { add list=PR address=2602:f79f::/36 } on-error={}
+:do { add list=PR address=2602:f9f3:1:11e::/64 } on-error={}
 :do { add list=PR address=2602:faca::/40 } on-error={}
 :do { add list=PR address=2602:faca:101::/48 } on-error={}
 :do { add list=PR address=2602:faca:102::/47 } on-error={}
@@ -608,7 +609,6 @@
 :do { add list=PR address=2604:b000:a217:ec00::/54 } on-error={}
 :do { add list=PR address=2604:b000:a217:f000::/52 } on-error={}
 :do { add list=PR address=2604:b000:a218::/54 } on-error={}
-:do { add list=PR address=2604:b000:a218:45b::/64 } on-error={}
 :do { add list=PR address=2604:b000:a218:500::/56 } on-error={}
 :do { add list=PR address=2604:b000:a218:600::/55 } on-error={}
 :do { add list=PR address=2604:b000:a218:800::/55 } on-error={}
@@ -2703,6 +2703,8 @@
 :do { add list=PR address=2a0c:9a46:3b6::/48 } on-error={}
 :do { add list=PR address=2a0c:9a46:3fe:b5::/64 } on-error={}
 :do { add list=PR address=2a0d:9444:7800::/37 } on-error={}
+:do { add list=PR address=2a0e:6901:a240::/42 } on-error={}
+:do { add list=PR address=2a0e:6901:a280::/41 } on-error={}
 :do { add list=PR address=2a0f:1cc5:b10:b500::/56 } on-error={}
 :do { add list=PR address=2a0f:1cc5:b11:b500::/56 } on-error={}
 :do { add list=PR address=2a0f:1cc5:b12:b500::/56 } on-error={}

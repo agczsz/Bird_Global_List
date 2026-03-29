@@ -5129,6 +5129,7 @@
 :do { add list=BE address=2a06:6e40::/29 } on-error={}
 :do { add list=BE address=2a06:8380::/29 } on-error={}
 :do { add list=BE address=2a06:9801:214::/48 } on-error={}
+:do { add list=BE address=2a06:9801:26a::/48 } on-error={}
 :do { add list=BE address=2a06:9b80::/29 } on-error={}
 :do { add list=BE address=2a06:9f81:3914::/48 } on-error={}
 :do { add list=BE address=2a06:9f81:43ef:1300::/56 } on-error={}

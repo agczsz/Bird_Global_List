@@ -78,6 +78,7 @@
 :do { add list=NO address=2001:470:28:fb1::/64 } on-error={}
 :do { add list=NO address=2001:470:28:fbb::/64 } on-error={}
 :do { add list=NO address=2001:470:28:1024::/64 } on-error={}
+:do { add list=NO address=2001:470:28:1066::/64 } on-error={}
 :do { add list=NO address=2001:470:6d:9bc::/64 } on-error={}
 :do { add list=NO address=2001:470:6d:bd7::/64 } on-error={}
 :do { add list=NO address=2001:470:6d:10f5::/64 } on-error={}
@@ -14345,6 +14346,7 @@
 :do { add list=NO address=2a01:300:c:0:83:97:21:231/128 } on-error={}
 :do { add list=NO address=2a01:300:c:0:146:70:4:67/128 } on-error={}
 :do { add list=NO address=2a01:3e0:3100::/56 } on-error={}
+:do { add list=NO address=2a01:3e0:ff40:20::2b/128 } on-error={}
 :do { add list=NO address=2a01:460:0:100::/56 } on-error={}
 :do { add list=NO address=2a01:460:0:200::/55 } on-error={}
 :do { add list=NO address=2a01:460:0:400::/54 } on-error={}
@@ -17955,6 +17957,7 @@
 :do { add list=NO address=2a0d:9c40::/29 } on-error={}
 :do { add list=NO address=2a0d:c380::/29 } on-error={}
 :do { add list=NO address=2a0d:cac0::/29 } on-error={}
+:do { add list=NO address=2a0d:f407:104::/48 } on-error={}
 :do { add list=NO address=2a0e:dc0:4::/48 } on-error={}
 :do { add list=NO address=2a0e:1d80:31:1::/64 } on-error={}
 :do { add list=NO address=2a0e:1d80:31:2::/63 } on-error={}
