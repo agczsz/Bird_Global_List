@@ -12,12 +12,10 @@
 :do { add list=CX address=2001:470:6d:7c8::/64 } on-error={}
 :do { add list=CX address=2001:470:1f09:1b::/64 } on-error={}
 :do { add list=CX address=2001:470:1f0b:406::/64 } on-error={}
-:do { add list=CX address=2001:470:1f0b:a9f::/64 } on-error={}
 :do { add list=CX address=2001:470:1f0b:10ec::/64 } on-error={}
 :do { add list=CX address=2001:470:4818::/48 } on-error={}
 :do { add list=CX address=2001:470:69f0::/48 } on-error={}
 :do { add list=CX address=2001:470:7195::/48 } on-error={}
-:do { add list=CX address=2001:470:74cc::/48 } on-error={}
 :do { add list=CX address=2001:470:8035::/57 } on-error={}
 :do { add list=CX address=2001:470:8035:80::/58 } on-error={}
 :do { add list=CX address=2001:470:8035:c0::/59 } on-error={}

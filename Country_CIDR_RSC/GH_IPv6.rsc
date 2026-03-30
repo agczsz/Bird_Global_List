@@ -598,7 +598,6 @@
 :do { add list=GH address=2c0f:f618:6000::/35 } on-error={}
 :do { add list=GH address=2c0f:f618:8000::/33 } on-error={}
 :do { add list=GH address=2c0f:f7c0::/32 } on-error={}
-:do { add list=GH address=2c0f:f828:2::488/128 } on-error={}
 :do { add list=GH address=2c0f:f8e8::/32 } on-error={}
 :do { add list=GH address=2c0f:fa00::/32 } on-error={}
 :do { add list=GH address=2c0f:fa90:0:e::/64 } on-error={}

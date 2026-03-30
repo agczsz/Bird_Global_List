@@ -1,6 +1,7 @@
 /log info "Loading LV IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=LV address=2001:470:0:47c::/63 } on-error={}
+:do { add list=LV address=2001:470:0:6ca::/64 } on-error={}
 :do { add list=LV address=2001:470:1:69d::/64 } on-error={}
 :do { add list=LV address=2001:470:26:210::/64 } on-error={}
 :do { add list=LV address=2001:470:26:55f::/64 } on-error={}
@@ -76,6 +77,7 @@
 :do { add list=LV address=2001:470:208::/64 } on-error={}
 :do { add list=LV address=2001:470:30c:1::/64 } on-error={}
 :do { add list=LV address=2001:470:18bb::/48 } on-error={}
+:do { add list=LV address=2001:470:1f09:24::/64 } on-error={}
 :do { add list=LV address=2001:470:1f09:6b2::/64 } on-error={}
 :do { add list=LV address=2001:470:1f09:939::/64 } on-error={}
 :do { add list=LV address=2001:470:1f09:aa1::/64 } on-error={}
@@ -98,6 +100,7 @@
 :do { add list=LV address=2001:470:1f1d:6c5::/64 } on-error={}
 :do { add list=LV address=2001:470:20be::/48 } on-error={}
 :do { add list=LV address=2001:470:50a1::/48 } on-error={}
+:do { add list=LV address=2001:470:52ad::/48 } on-error={}
 :do { add list=LV address=2001:470:5443::/48 } on-error={}
 :do { add list=LV address=2001:470:5456::/48 } on-error={}
 :do { add list=LV address=2001:470:5484::/48 } on-error={}
@@ -136,7 +139,6 @@
 :do { add list=LV address=2001:550:0:1000::261c:1b3/128 } on-error={}
 :do { add list=LV address=2001:550:0:1000::9a19:801/128 } on-error={}
 :do { add list=LV address=2001:550:0:1000::9a1a:2074/128 } on-error={}
-:do { add list=LV address=2001:550:0:1000::9a1a:218a/128 } on-error={}
 :do { add list=LV address=2001:550:0:1000::9a36:49bd/128 } on-error={}
 :do { add list=LV address=2001:678:b::/48 } on-error={}
 :do { add list=LV address=2001:678:7c::/48 } on-error={}
@@ -340,7 +342,6 @@
 :do { add list=LV address=2607:8940:4170:fb00::/56 } on-error={}
 :do { add list=LV address=2607:8940:4190:5800::/56 } on-error={}
 :do { add list=LV address=2607:8940:4190:fb00::/56 } on-error={}
-:do { add list=LV address=2620:0:876:348::2/128 } on-error={}
 :do { add list=LV address=2620:0:877:4800::/64 } on-error={}
 :do { add list=LV address=2620:134:b054:100::72/127 } on-error={}
 :do { add list=LV address=2620:171:d3::/48 } on-error={}

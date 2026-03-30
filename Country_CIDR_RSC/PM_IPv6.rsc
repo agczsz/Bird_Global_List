@@ -7,7 +7,6 @@
 :do { add list=PM address=2001:470:effe::/48 } on-error={}
 :do { add list=PM address=2001:470:f560::/48 } on-error={}
 :do { add list=PM address=2001:470:fdf2::/48 } on-error={}
-:do { add list=PM address=2001:470:fe68::/48 } on-error={}
 :do { add list=PM address=2001:470:ffcc::/48 } on-error={}
 :do { add list=PM address=2001:3786:5003:200::/56 } on-error={}
 :do { add list=PM address=2001:4b28:2a00::/40 } on-error={}

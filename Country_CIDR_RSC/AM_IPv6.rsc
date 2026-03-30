@@ -150,7 +150,6 @@
 :do { add list=AM address=2001:470:f2b5::/48 } on-error={}
 :do { add list=AM address=2001:470:f4ff::/48 } on-error={}
 :do { add list=AM address=2001:470:f828::/48 } on-error={}
-:do { add list=AM address=2001:470:f883::/48 } on-error={}
 :do { add list=AM address=2001:470:f92a::/48 } on-error={}
 :do { add list=AM address=2001:470:f944::/48 } on-error={}
 :do { add list=AM address=2001:470:fd30::/48 } on-error={}

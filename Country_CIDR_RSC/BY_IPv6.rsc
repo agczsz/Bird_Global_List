@@ -340,7 +340,7 @@
 :do { add list=BY address=2a02:128:1400::/38 } on-error={}
 :do { add list=BY address=2a02:128:1800::/37 } on-error={}
 :do { add list=BY address=2a02:2d8:0:a800::/64 } on-error={}
-:do { add list=BY address=2a02:2d8:3:6000::/64 } on-error={}
+:do { add list=BY address=2a02:2d8:2:c001::/64 } on-error={}
 :do { add list=BY address=2a02:6bf:8040:100::/56 } on-error={}
 :do { add list=BY address=2a02:6bf:8040:200::/55 } on-error={}
 :do { add list=BY address=2a02:6bf:8040:400::/54 } on-error={}

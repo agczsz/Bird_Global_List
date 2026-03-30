@@ -38,8 +38,8 @@
 :do { add list=BJ address=2405:b500:e60::/64 } on-error={}
 :do { add list=BJ address=2600:70ff:a76a::/48 } on-error={}
 :do { add list=BJ address=2600:70ff:ab33::/48 } on-error={}
+:do { add list=BJ address=2603:9009:d05:c490::/64 } on-error={}
 :do { add list=BJ address=2605:59c0:1c00::/40 } on-error={}
-:do { add list=BJ address=2605:6001:e317:6a00::/64 } on-error={}
 :do { add list=BJ address=2606:40:788::/45 } on-error={}
 :do { add list=BJ address=2606:40:790::/45 } on-error={}
 :do { add list=BJ address=2606:40:1390::/44 } on-error={}

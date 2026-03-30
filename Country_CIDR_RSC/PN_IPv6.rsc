@@ -3,7 +3,6 @@
 :do { add list=PN address=2001:470:36:7bf::/64 } on-error={}
 :do { add list=PN address=2001:470:36:87e::/64 } on-error={}
 :do { add list=PN address=2001:470:efe5::/48 } on-error={}
-:do { add list=PN address=2001:470:fe67::/48 } on-error={}
 :do { add list=PN address=2001:4b28:2900::/40 } on-error={}
 :do { add list=PN address=2401:b60:1b40:4000::/50 } on-error={}
 :do { add list=PN address=2401:b60:1b40:8000::/49 } on-error={}
