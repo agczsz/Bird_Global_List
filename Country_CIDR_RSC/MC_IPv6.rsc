@@ -126,7 +126,6 @@
 :do { add list=MC address=2a01:cb0a:8035:ea80::/57 } on-error={}
 :do { add list=MC address=2a01:cb0a:8035:eb00::/56 } on-error={}
 :do { add list=MC address=2a01:cb0a:8035:ec00::/54 } on-error={}
-:do { add list=MC address=2a01:cb1e:2c:c000::/51 } on-error={}
 :do { add list=MC address=2a02:26f7:c180::/48 } on-error={}
 :do { add list=MC address=2a02:26f7:c181::/50 } on-error={}
 :do { add list=MC address=2a02:26f7:c181:4000::/64 } on-error={}

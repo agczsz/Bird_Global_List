@@ -27189,8 +27189,7 @@
 :do { add list=UY address=2804:1b8c:1900:1a0::/59 } on-error={}
 :do { add list=UY address=2804:1b8c:1900:1c0::/58 } on-error={}
 :do { add list=UY address=2804:1b8c:1900:200::/55 } on-error={}
-:do { add list=UY address=2804:1b8c:1900:400::/56 } on-error={}
-:do { add list=UY address=2804:1b8c:1900:600::/55 } on-error={}
+:do { add list=UY address=2804:1b8c:1900:400::/54 } on-error={}
 :do { add list=UY address=2804:1b8c:1900:800::/53 } on-error={}
 :do { add list=UY address=2804:1b8c:1900:1000::/52 } on-error={}
 :do { add list=UY address=2804:1b8c:1900:2000::/51 } on-error={}

@@ -73,6 +73,7 @@
 :do { add list=SV address=2800:b20:1010::/44 } on-error={}
 :do { add list=SV address=2800:b20:1060::/45 } on-error={}
 :do { add list=SV address=2800:b20:1068:a00::/56 } on-error={}
+:do { add list=SV address=2800:b20:1068:3a00::/56 } on-error={}
 :do { add list=SV address=2800:b20:1068:6b00::/56 } on-error={}
 :do { add list=SV address=2800:b20:1068:8800::/56 } on-error={}
 :do { add list=SV address=2800:b20:1068:a900::/56 } on-error={}
@@ -90,12 +91,13 @@
 :do { add list=SV address=2800:b20:106f:5d00::/56 } on-error={}
 :do { add list=SV address=2800:b20:1070::/46 } on-error={}
 :do { add list=SV address=2800:b20:1074:a200::/56 } on-error={}
+:do { add list=SV address=2800:b20:1074:d900::/56 } on-error={}
 :do { add list=SV address=2800:b20:1075:c00::/56 } on-error={}
 :do { add list=SV address=2800:b20:1075:1700::/56 } on-error={}
 :do { add list=SV address=2800:b20:1075:2200::/56 } on-error={}
 :do { add list=SV address=2800:b20:1075:4900::/56 } on-error={}
+:do { add list=SV address=2800:b20:1075:5b00::/56 } on-error={}
 :do { add list=SV address=2800:b20:1075:9d00::/56 } on-error={}
-:do { add list=SV address=2800:b20:1075:a500::/56 } on-error={}
 :do { add list=SV address=2800:b20:1075:bd00::/56 } on-error={}
 :do { add list=SV address=2800:b20:1076:1400::/56 } on-error={}
 :do { add list=SV address=2800:b20:1076:1700::/56 } on-error={}
@@ -109,7 +111,6 @@
 :do { add list=SV address=2800:b20:1077:2c00::/56 } on-error={}
 :do { add list=SV address=2800:b20:1077:3700::/56 } on-error={}
 :do { add list=SV address=2800:b20:1077:3c00::/56 } on-error={}
-:do { add list=SV address=2800:b20:1077:4600::/56 } on-error={}
 :do { add list=SV address=2800:b20:1078::/45 } on-error={}
 :do { add list=SV address=2800:b20:1080::/44 } on-error={}
 :do { add list=SV address=2800:b20:1100::/40 } on-error={}

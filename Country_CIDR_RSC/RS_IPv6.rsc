@@ -267,7 +267,6 @@
 :do { add list=RS address=2602:2a9:990::/44 } on-error={}
 :do { add list=RS address=2602:fd92:b00:127::/64 } on-error={}
 :do { add list=RS address=2603:9009:606:6fb0::/64 } on-error={}
-:do { add list=RS address=2603:9009:704:f14b::/64 } on-error={}
 :do { add list=RS address=2603:c050::/40 } on-error={}
 :do { add list=RS address=2603:c050:1000::/39 } on-error={}
 :do { add list=RS address=2603:c050:2000::/40 } on-error={}

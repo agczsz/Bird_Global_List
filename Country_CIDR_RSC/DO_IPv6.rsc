@@ -1090,6 +1090,7 @@
 :do { add list=DO address=2803:dd10:ff00::/40 } on-error={}
 :do { add list=DO address=2803:de10::/32 } on-error={}
 :do { add list=DO address=2803:de50::/47 } on-error={}
+:do { add list=DO address=2803:de50:3:100::/56 } on-error={}
 :do { add list=DO address=2803:de50:4::/46 } on-error={}
 :do { add list=DO address=2803:de50:8::/45 } on-error={}
 :do { add list=DO address=2803:de50:10::/44 } on-error={}

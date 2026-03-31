@@ -171,7 +171,6 @@
 :do { add list=VN address=2001:470:73da:4000::/50 } on-error={}
 :do { add list=VN address=2001:470:73da:8000::/49 } on-error={}
 :do { add list=VN address=2001:470:73f8::/48 } on-error={}
-:do { add list=VN address=2001:470:74d8::/48 } on-error={}
 :do { add list=VN address=2001:470:78ed::/48 } on-error={}
 :do { add list=VN address=2001:470:7996::/48 } on-error={}
 :do { add list=VN address=2001:470:80db::/48 } on-error={}

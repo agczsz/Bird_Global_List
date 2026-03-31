@@ -226,7 +226,6 @@
 :do { add list=RW address=2c0f:eb00:f00::/40 } on-error={}
 :do { add list=RW address=2c0f:eb68::/32 } on-error={}
 :do { add list=RW address=2c0f:f628::/32 } on-error={}
-:do { add list=RW address=2c0f:f830:101::/48 } on-error={}
 :do { add list=RW address=2c0f:f830:110::/64 } on-error={}
 :do { add list=RW address=2c0f:f830:8011::/64 } on-error={}
 :do { add list=RW address=2c0f:f830:8036::/64 } on-error={}

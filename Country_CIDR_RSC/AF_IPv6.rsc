@@ -603,6 +603,7 @@
 :do { add list=AF address=2a04:4e41:5606::/48 } on-error={}
 :do { add list=AF address=2a04:4e41:5e03::/48 } on-error={}
 :do { add list=AF address=2a04:4e41:7603::/48 } on-error={}
+:do { add list=AF address=2a05:b0c2:1000::/36 } on-error={}
 :do { add list=AF address=2a05:dfc1:5a0d::/48 } on-error={}
 :do { add list=AF address=2a06:9f81:3903::/48 } on-error={}
 :do { add list=AF address=2a06:9f81:43ef:200::/56 } on-error={}

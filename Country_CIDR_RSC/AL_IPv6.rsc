@@ -1404,7 +1404,6 @@
 :do { add list=AL address=2a05:541:159:4000::/50 } on-error={}
 :do { add list=AL address=2a05:541:159:8000::/49 } on-error={}
 :do { add list=AL address=2a05:8300::/29 } on-error={}
-:do { add list=AL address=2a05:b0c2::/36 } on-error={}
 :do { add list=AL address=2a05:dfc1:5a10::/48 } on-error={}
 :do { add list=AL address=2a05:dfc1:8c31::/48 } on-error={}
 :do { add list=AL address=2a05:fdc0::/29 } on-error={}

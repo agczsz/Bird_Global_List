@@ -445,7 +445,9 @@
 :do { add list=PK address=2400:14c0::/32 } on-error={}
 :do { add list=PK address=2400:1680::/32 } on-error={}
 :do { add list=PK address=2400:1760::/32 } on-error={}
-:do { add list=PK address=2400:17a0::/46 } on-error={}
+:do { add list=PK address=2400:17a0::/48 } on-error={}
+:do { add list=PK address=2400:17a0:1::/48 } on-error={}
+:do { add list=PK address=2400:17a0:2::/47 } on-error={}
 :do { add list=PK address=2400:17a0:4::/47 } on-error={}
 :do { add list=PK address=2400:17a0:6::/47 } on-error={}
 :do { add list=PK address=2400:17a0:8::/48 } on-error={}

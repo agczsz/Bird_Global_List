@@ -7,6 +7,7 @@
 :do { add list=CV address=2001:470:4ac2::/48 } on-error={}
 :do { add list=CV address=2001:470:829f::/48 } on-error={}
 :do { add list=CV address=2001:470:8821::/48 } on-error={}
+:do { add list=CV address=2001:470:8822::/48 } on-error={}
 :do { add list=CV address=2001:67c:a38:f238::/64 } on-error={}
 :do { add list=CV address=2001:43f8:16c0::/47 } on-error={}
 :do { add list=CV address=2001:43fc:1000::/48 } on-error={}

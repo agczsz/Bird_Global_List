@@ -1166,6 +1166,7 @@
 :do { add list=VE address=2804:5330:508::/48 } on-error={}
 :do { add list=VE address=2804:5330:50a::/48 } on-error={}
 :do { add list=VE address=2804:5330:604::/48 } on-error={}
+:do { add list=VE address=2804:5330:607::/48 } on-error={}
 :do { add list=VE address=2a01:528:f100::/40 } on-error={}
 :do { add list=VE address=2a01:ce90:1000::/36 } on-error={}
 :do { add list=VE address=2a02:26f7:e700:4000::/64 } on-error={}

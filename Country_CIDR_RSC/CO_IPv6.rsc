@@ -1707,8 +1707,8 @@
 :do { add list=CO address=2800:1e0:4000::/34 } on-error={}
 :do { add list=CO address=2800:1e0:8000::/33 } on-error={}
 :do { add list=CO address=2800:1e1::/40 } on-error={}
-:do { add list=CO address=2800:1e1:100::/50 } on-error={}
-:do { add list=CO address=2800:1e1:101::/48 } on-error={}
+:do { add list=CO address=2800:1e1:100::/47 } on-error={}
+:do { add list=CO address=2800:1e1:105::/48 } on-error={}
 :do { add list=CO address=2800:1e1:200::/39 } on-error={}
 :do { add list=CO address=2800:1e1:400::/38 } on-error={}
 :do { add list=CO address=2800:1e1:800::/37 } on-error={}

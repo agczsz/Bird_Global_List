@@ -106,15 +106,7 @@
 :do { add list=NI address=2803:2d60:1018:f700::/56 } on-error={}
 :do { add list=NI address=2803:2d60:1018:f800::/53 } on-error={}
 :do { add list=NI address=2803:2d60:1019::/48 } on-error={}
-:do { add list=NI address=2803:2d60:101a::/53 } on-error={}
-:do { add list=NI address=2803:2d60:101a:800::/54 } on-error={}
-:do { add list=NI address=2803:2d60:101a:d00::/56 } on-error={}
-:do { add list=NI address=2803:2d60:101a:e00::/55 } on-error={}
-:do { add list=NI address=2803:2d60:101a:1000::/52 } on-error={}
-:do { add list=NI address=2803:2d60:101a:2000::/51 } on-error={}
-:do { add list=NI address=2803:2d60:101a:4000::/50 } on-error={}
-:do { add list=NI address=2803:2d60:101a:8000::/49 } on-error={}
-:do { add list=NI address=2803:2d60:101b::/48 } on-error={}
+:do { add list=NI address=2803:2d60:101a::/47 } on-error={}
 :do { add list=NI address=2803:2d60:101c::/51 } on-error={}
 :do { add list=NI address=2803:2d60:101c:2000::/52 } on-error={}
 :do { add list=NI address=2803:2d60:101c:3000::/53 } on-error={}
@@ -168,8 +160,7 @@
 :do { add list=NI address=2803:2d60:1600::/44 } on-error={}
 :do { add list=NI address=2803:2d60:1610::/45 } on-error={}
 :do { add list=NI address=2803:2d60:1618::/48 } on-error={}
-:do { add list=NI address=2803:2d60:1619:9700::/56 } on-error={}
-:do { add list=NI address=2803:2d60:1619:b000::/56 } on-error={}
+:do { add list=NI address=2803:2d60:1619:b000::/53 } on-error={}
 :do { add list=NI address=2803:2d60:1620:1800::/56 } on-error={}
 :do { add list=NI address=2803:2d60:1620:5800::/53 } on-error={}
 :do { add list=NI address=2803:2d60:1620:8100::/56 } on-error={}
