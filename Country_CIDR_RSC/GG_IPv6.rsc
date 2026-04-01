@@ -7,6 +7,7 @@
 :do { add list=GG address=2001:470:36:8f5::/64 } on-error={}
 :do { add list=GG address=2001:470:1f09:6d6::/64 } on-error={}
 :do { add list=GG address=2001:470:1f0b:26b::/64 } on-error={}
+:do { add list=GG address=2001:470:1f13:289::/64 } on-error={}
 :do { add list=GG address=2001:470:1f13:d91::/64 } on-error={}
 :do { add list=GG address=2001:470:1f13:e1b::/64 } on-error={}
 :do { add list=GG address=2001:470:1f13:e6e::/64 } on-error={}

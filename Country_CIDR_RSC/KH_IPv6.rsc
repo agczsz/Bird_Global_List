@@ -2,6 +2,7 @@
 /ipv6 firewall address-list
 :do { add list=KH address=2001:470:0:54b::/64 } on-error={}
 :do { add list=KH address=2001:470:1:eb2::/64 } on-error={}
+:do { add list=KH address=2001:470:8:337::/64 } on-error={}
 :do { add list=KH address=2001:470:19:7c::/64 } on-error={}
 :do { add list=KH address=2001:470:19:f53::/64 } on-error={}
 :do { add list=KH address=2001:470:19:1225::/64 } on-error={}
@@ -25189,7 +25190,6 @@
 :do { add list=KH address=2402:c100:0:136::/64 } on-error={}
 :do { add list=KH address=2402:c100:0:138::/61 } on-error={}
 :do { add list=KH address=2402:c100:0:140::/62 } on-error={}
-:do { add list=KH address=2402:c100:0:145::/64 } on-error={}
 :do { add list=KH address=2402:c100:0:147::/64 } on-error={}
 :do { add list=KH address=2402:c100:0:148::/64 } on-error={}
 :do { add list=KH address=2402:c100:0:14a::/63 } on-error={}

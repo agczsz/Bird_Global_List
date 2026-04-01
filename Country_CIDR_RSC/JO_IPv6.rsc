@@ -1,5 +1,6 @@
 /log info "Loading JO IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=JO address=2001:470:19:8ca::/64 } on-error={}
 :do { add list=JO address=2001:470:26:23b::/64 } on-error={}
 :do { add list=JO address=2001:470:19b4::/48 } on-error={}
 :do { add list=JO address=2001:470:1b9d::/48 } on-error={}

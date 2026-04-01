@@ -1,6 +1,14 @@
 /log info "Loading XK IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=XK address=2001:470:19:9a::/64 } on-error={}
+:do { add list=XK address=2001:470:19:815::/64 } on-error={}
+:do { add list=XK address=2001:470:19:a60::/64 } on-error={}
+:do { add list=XK address=2001:470:19:a62::/64 } on-error={}
+:do { add list=XK address=2001:470:19:a64::/64 } on-error={}
+:do { add list=XK address=2001:470:19:a8b::/64 } on-error={}
+:do { add list=XK address=2001:470:19:a91::/64 } on-error={}
+:do { add list=XK address=2001:470:19:a92::/64 } on-error={}
+:do { add list=XK address=2001:470:19:a96::/64 } on-error={}
 :do { add list=XK address=2001:470:19:1314::/64 } on-error={}
 :do { add list=XK address=2001:470:1f0b:2a3::/64 } on-error={}
 :do { add list=XK address=2001:470:7433::/48 } on-error={}
@@ -72,11 +80,7 @@
 :do { add list=XK address=2607:8940:4191:400::/56 } on-error={}
 :do { add list=XK address=2607:8940:41f0:9300::/56 } on-error={}
 :do { add list=XK address=2607:8940:41f0:9400::/56 } on-error={}
-:do { add list=XK address=2620:0:1cff:dead:beef::3a4d/128 } on-error={}
-:do { add list=XK address=2620:0:1cff:dead:bef1:100:1:11e/128 } on-error={}
 :do { add list=XK address=2620:0:1cff:dead:bef1:100:1:203/128 } on-error={}
-:do { add list=XK address=2620:0:1cff:dead:bef1:100:1:28b/128 } on-error={}
-:do { add list=XK address=2620:0:1cff:dead:bef1:100:1:53f/128 } on-error={}
 :do { add list=XK address=2620:0:1cff:dead:bef1:100:1:541/128 } on-error={}
 :do { add list=XK address=2620:0:1cff:dead:bef1:100:2:b5/128 } on-error={}
 :do { add list=XK address=2620:0:1cff:dead:bef1:100:2:53f/128 } on-error={}
@@ -84,14 +88,13 @@
 :do { add list=XK address=2620:0:1cff:dead:bef1:100:4:115/128 } on-error={}
 :do { add list=XK address=2620:0:1cff:dead:bef1:100:4:203/128 } on-error={}
 :do { add list=XK address=2620:0:1cff:dead:bef1:100:4:28b/128 } on-error={}
-:do { add list=XK address=2620:0:1cff:dead:bef1:100:4:519/128 } on-error={}
-:do { add list=XK address=2620:0:1cff:dead:bef1:100:11:115/128 } on-error={}
-:do { add list=XK address=2620:0:1cff:dead:bef1:100:11:541/128 } on-error={}
+:do { add list=XK address=2620:0:1cff:dead:bef1:100:11:28b/128 } on-error={}
+:do { add list=XK address=2620:0:1cff:dead:bef1:100:11:53f/128 } on-error={}
 :do { add list=XK address=2620:0:1cff:dead:bef1:100:12:af/128 } on-error={}
 :do { add list=XK address=2620:0:1cff:dead:bef1:100:12:201/128 } on-error={}
-:do { add list=XK address=2620:0:1cff:dead:bef1:100:13:115/128 } on-error={}
+:do { add list=XK address=2620:0:1cff:dead:bef1:100:12:53f/128 } on-error={}
+:do { add list=XK address=2620:0:1cff:dead:bef1:100:12:541/128 } on-error={}
 :do { add list=XK address=2620:0:1cff:dead:bef1:100:13:201/128 } on-error={}
-:do { add list=XK address=2620:0:1cff:dead:bef1:100:13:40b/128 } on-error={}
 :do { add list=XK address=2620:0:1cff:dead:bef1:100:14:104/128 } on-error={}
 :do { add list=XK address=2620:0:1cff:dead:bef1:100:14:541/128 } on-error={}
 :do { add list=XK address=2a00:73a0::/32 } on-error={}

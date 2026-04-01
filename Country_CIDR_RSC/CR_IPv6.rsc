@@ -683,7 +683,6 @@
 :do { add list=CR address=2803:f800:fffe::/48 } on-error={}
 :do { add list=CR address=2803:f800:ffff::/48 } on-error={}
 :do { add list=CR address=2803:f8e0::/32 } on-error={}
-:do { add list=CR address=2803:f950:0:1402::/64 } on-error={}
 :do { add list=CR address=2803:f950:0:1404::/64 } on-error={}
 :do { add list=CR address=2803:fb40::/32 } on-error={}
 :do { add list=CR address=2803:fe40::/32 } on-error={}

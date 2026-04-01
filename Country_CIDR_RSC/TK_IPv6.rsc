@@ -5,7 +5,6 @@
 :do { add list=TK address=2001:470:1834::/48 } on-error={}
 :do { add list=TK address=2001:470:1845::/48 } on-error={}
 :do { add list=TK address=2001:470:19b5::/48 } on-error={}
-:do { add list=TK address=2001:470:1f1d:2d::/64 } on-error={}
 :do { add list=TK address=2001:470:1f1d:cd::/64 } on-error={}
 :do { add list=TK address=2001:470:1f1d:271::/64 } on-error={}
 :do { add list=TK address=2001:470:4042::/48 } on-error={}

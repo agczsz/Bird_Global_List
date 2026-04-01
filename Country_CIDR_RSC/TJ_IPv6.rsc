@@ -8,6 +8,7 @@
 :do { add list=TJ address=2001:470:1f09:cd::/64 } on-error={}
 :do { add list=TJ address=2001:470:1f0b:26e::/64 } on-error={}
 :do { add list=TJ address=2001:470:1f0b:af1::/64 } on-error={}
+:do { add list=TJ address=2001:470:1f13:205::/64 } on-error={}
 :do { add list=TJ address=2001:470:1f13:d5d::/64 } on-error={}
 :do { add list=TJ address=2001:470:1f13:e15::/64 } on-error={}
 :do { add list=TJ address=2001:470:1f13:eda::/64 } on-error={}

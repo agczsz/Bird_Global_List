@@ -1,7 +1,7 @@
 /log info "Loading PE IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=PE address=2001:470:5:181::/64 } on-error={}
 :do { add list=PE address=2001:470:5:1eb::/64 } on-error={}
+:do { add list=PE address=2001:470:5:423::/64 } on-error={}
 :do { add list=PE address=2001:470:5:65b::/64 } on-error={}
 :do { add list=PE address=2001:470:36:12fd::/64 } on-error={}
 :do { add list=PE address=2001:470:1f07:1000::/64 } on-error={}
@@ -259,7 +259,6 @@
 :do { add list=PE address=2001:1498:1:966::9991/128 } on-error={}
 :do { add list=PE address=2001:1498:1:966::9992/128 } on-error={}
 :do { add list=PE address=2001:1498:1:966::1:1/128 } on-error={}
-:do { add list=PE address=2001:1498:1:966::1:12/128 } on-error={}
 :do { add list=PE address=2001:1498:1:966::1:31/128 } on-error={}
 :do { add list=PE address=2001:1498:1:966::1:32/128 } on-error={}
 :do { add list=PE address=2001:1498:1:966:1::692/128 } on-error={}
@@ -560,6 +559,7 @@
 :do { add list=PE address=2620:0:1cff:dead:beee::15e0/127 } on-error={}
 :do { add list=PE address=2620:0:1cff:dead:beee::188a/127 } on-error={}
 :do { add list=PE address=2620:0:1cff:dead:beee::1a2e/128 } on-error={}
+:do { add list=PE address=2620:0:1cff:dead:beee::288e/128 } on-error={}
 :do { add list=PE address=2620:0:1cff:dead:beef::af3/128 } on-error={}
 :do { add list=PE address=2620:0:1cff:dead:beef::df5/128 } on-error={}
 :do { add list=PE address=2620:0:1cff:dead:beef::e4d/128 } on-error={}
@@ -1947,6 +1947,7 @@
 :do { add list=PE address=2a09:bac0:1001:52a::/64 } on-error={}
 :do { add list=PE address=2a09:bac0:1001:ecb::/64 } on-error={}
 :do { add list=PE address=2a09:bac1:1020:1e::/64 } on-error={}
+:do { add list=PE address=2a09:bac1:1020:38::/64 } on-error={}
 :do { add list=PE address=2a09:bac1:1020:78::/64 } on-error={}
 :do { add list=PE address=2a09:bac1:1020:90::/64 } on-error={}
 :do { add list=PE address=2a09:bac1:1020:e0::/64 } on-error={}
@@ -1960,7 +1961,6 @@
 :do { add list=PE address=2a09:bac1:1a20:5d::/64 } on-error={}
 :do { add list=PE address=2a09:bac1:1a30::/64 } on-error={}
 :do { add list=PE address=2a09:bac1:1a40:25::/64 } on-error={}
-:do { add list=PE address=2a09:bac1:1a40:8f::/64 } on-error={}
 :do { add list=PE address=2a09:bac1:1a60:7::/64 } on-error={}
 :do { add list=PE address=2a09:bac1:1a60:22::/64 } on-error={}
 :do { add list=PE address=2a09:bac1:1aa0:3::/64 } on-error={}
@@ -1970,7 +1970,6 @@
 :do { add list=PE address=2a09:bac1:2fa0:2::/64 } on-error={}
 :do { add list=PE address=2a09:bac1:2fa0:4::/64 } on-error={}
 :do { add list=PE address=2a09:bac1:5080:553::/64 } on-error={}
-:do { add list=PE address=2a09:bac1:5080:590::/64 } on-error={}
 :do { add list=PE address=2a09:bac1:50e0:cc::/64 } on-error={}
 :do { add list=PE address=2a09:bac1:58c0:7::/64 } on-error={}
 :do { add list=PE address=2a09:bac1:5900::/64 } on-error={}
@@ -1980,7 +1979,6 @@
 :do { add list=PE address=2a09:bac1:5900:20::/64 } on-error={}
 :do { add list=PE address=2a09:bac1:5900:28::/64 } on-error={}
 :do { add list=PE address=2a09:bac1:5900:30::/64 } on-error={}
-:do { add list=PE address=2a09:bac1:5900:35::/64 } on-error={}
 :do { add list=PE address=2a09:bac1:5900:38::/64 } on-error={}
 :do { add list=PE address=2a09:bac1:5900:40::/64 } on-error={}
 :do { add list=PE address=2a09:bac1:5900:48::/64 } on-error={}
@@ -1992,7 +1990,7 @@
 :do { add list=PE address=2a09:bac1:5920:20::/64 } on-error={}
 :do { add list=PE address=2a09:bac1:5920:28::/64 } on-error={}
 :do { add list=PE address=2a09:bac1:5920:30::/64 } on-error={}
-:do { add list=PE address=2a09:bac1:5920:38::/63 } on-error={}
+:do { add list=PE address=2a09:bac1:5920:38::/64 } on-error={}
 :do { add list=PE address=2a09:bac1:5920:40::/64 } on-error={}
 :do { add list=PE address=2a09:bac1:5920:44::/64 } on-error={}
 :do { add list=PE address=2a09:bac1:5920:48::/64 } on-error={}
@@ -2012,7 +2010,6 @@
 :do { add list=PE address=2a09:bac1:5940:40::/64 } on-error={}
 :do { add list=PE address=2a09:bac1:5940:44::/63 } on-error={}
 :do { add list=PE address=2a09:bac1:5940:48::/64 } on-error={}
-:do { add list=PE address=2a09:bac1:5940:4b::/64 } on-error={}
 :do { add list=PE address=2a09:bac1:5940:50::/64 } on-error={}
 :do { add list=PE address=2a09:bac1:5940:5d::/64 } on-error={}
 :do { add list=PE address=2a09:bac1:5940:c0::/64 } on-error={}

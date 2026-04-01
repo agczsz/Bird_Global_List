@@ -1,6 +1,7 @@
 /log info "Loading VE IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=VE address=2001:470:5:339::/64 } on-error={}
+:do { add list=VE address=2001:470:8:9f::/64 } on-error={}
 :do { add list=VE address=2001:470:19:c2::/64 } on-error={}
 :do { add list=VE address=2001:470:26:758::/64 } on-error={}
 :do { add list=VE address=2001:470:28:1b6::/64 } on-error={}
@@ -475,26 +476,7 @@
 :do { add list=VE address=2803:14e0::/32 } on-error={}
 :do { add list=VE address=2803:1650::/32 } on-error={}
 :do { add list=VE address=2803:18d0::/32 } on-error={}
-:do { add list=VE address=2803:18e0::/41 } on-error={}
-:do { add list=VE address=2803:18e0:80::/46 } on-error={}
-:do { add list=VE address=2803:18e0:84::/48 } on-error={}
-:do { add list=VE address=2803:18e0:85::/56 } on-error={}
-:do { add list=VE address=2803:18e0:86::/47 } on-error={}
-:do { add list=VE address=2803:18e0:88::/46 } on-error={}
-:do { add list=VE address=2803:18e0:8c::/47 } on-error={}
-:do { add list=VE address=2803:18e0:8e::/48 } on-error={}
-:do { add list=VE address=2803:18e0:8f::/56 } on-error={}
-:do { add list=VE address=2803:18e0:90::/44 } on-error={}
-:do { add list=VE address=2803:18e0:a0::/43 } on-error={}
-:do { add list=VE address=2803:18e0:c0::/42 } on-error={}
-:do { add list=VE address=2803:18e0:100::/40 } on-error={}
-:do { add list=VE address=2803:18e0:200::/39 } on-error={}
-:do { add list=VE address=2803:18e0:400::/38 } on-error={}
-:do { add list=VE address=2803:18e0:800::/37 } on-error={}
-:do { add list=VE address=2803:18e0:1000::/36 } on-error={}
-:do { add list=VE address=2803:18e0:2000::/35 } on-error={}
-:do { add list=VE address=2803:18e0:4000::/34 } on-error={}
-:do { add list=VE address=2803:18e0:8000::/33 } on-error={}
+:do { add list=VE address=2803:18e0::/32 } on-error={}
 :do { add list=VE address=2803:1a10::/32 } on-error={}
 :do { add list=VE address=2803:1b60::/32 } on-error={}
 :do { add list=VE address=2803:1d50::/32 } on-error={}

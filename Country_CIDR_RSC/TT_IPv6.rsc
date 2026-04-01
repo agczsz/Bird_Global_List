@@ -42,7 +42,6 @@
 :do { add list=TT address=2001:470:e3c5:2000::/51 } on-error={}
 :do { add list=TT address=2001:470:e3c5:4000::/50 } on-error={}
 :do { add list=TT address=2001:470:e3c5:8000::/49 } on-error={}
-:do { add list=TT address=2001:470:ed3d::/48 } on-error={}
 :do { add list=TT address=2001:470:fe6a::/48 } on-error={}
 :do { add list=TT address=2001:67c:a38:f468::/64 } on-error={}
 :do { add list=TT address=2001:3786:5006:300::/56 } on-error={}

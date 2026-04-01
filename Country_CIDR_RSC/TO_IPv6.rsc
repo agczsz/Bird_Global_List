@@ -39,6 +39,7 @@
 :do { add list=TO address=2400:6400:c400::/38 } on-error={}
 :do { add list=TO address=2400:6400:c800::/37 } on-error={}
 :do { add list=TO address=2400:6400:d000::/46 } on-error={}
+:do { add list=TO address=2400:6400:d004:2920::/64 } on-error={}
 :do { add list=TO address=2400:6400:d005::/48 } on-error={}
 :do { add list=TO address=2400:6400:d006::/47 } on-error={}
 :do { add list=TO address=2400:6400:d008::/45 } on-error={}

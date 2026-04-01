@@ -9,6 +9,9 @@
 :do { add list=LB address=2001:470:1f0b:290::/64 } on-error={}
 :do { add list=LB address=2001:470:1f0b:6f7::/64 } on-error={}
 :do { add list=LB address=2001:470:1f0b:7bc::/64 } on-error={}
+:do { add list=LB address=2001:470:1f13:246::/64 } on-error={}
+:do { add list=LB address=2001:470:1f13:2e1::/64 } on-error={}
+:do { add list=LB address=2001:470:1f13:2f5::/64 } on-error={}
 :do { add list=LB address=2001:470:1f1d:2ea::/64 } on-error={}
 :do { add list=LB address=2001:470:2a13::/48 } on-error={}
 :do { add list=LB address=2001:470:5028::/48 } on-error={}

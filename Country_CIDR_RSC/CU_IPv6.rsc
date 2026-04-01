@@ -1,5 +1,6 @@
 /log info "Loading CU IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=CU address=2001:470:5:f7::/64 } on-error={}
 :do { add list=CU address=2001:470:b:7a5::/64 } on-error={}
 :do { add list=CU address=2001:470:19:b8::/64 } on-error={}
 :do { add list=CU address=2001:470:19:c1::/64 } on-error={}

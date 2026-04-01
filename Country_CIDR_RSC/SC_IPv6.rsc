@@ -1,5 +1,6 @@
 /log info "Loading SC IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=SC address=2001:470:8:31c::/64 } on-error={}
 :do { add list=SC address=2001:470:36:7fb::/64 } on-error={}
 :do { add list=SC address=2001:470:1f09:239::/64 } on-error={}
 :do { add list=SC address=2001:470:1f09:243::/64 } on-error={}

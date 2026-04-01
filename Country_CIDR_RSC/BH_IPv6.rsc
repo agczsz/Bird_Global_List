@@ -9,6 +9,7 @@
 :do { add list=BH address=2001:470:1f09:7fd::/64 } on-error={}
 :do { add list=BH address=2001:470:1f0b:6d4::/64 } on-error={}
 :do { add list=BH address=2001:470:1f0b:8f1::/64 } on-error={}
+:do { add list=BH address=2001:470:1f13:218::/64 } on-error={}
 :do { add list=BH address=2001:470:1f13:f20::/64 } on-error={}
 :do { add list=BH address=2001:470:1f1d:676::/64 } on-error={}
 :do { add list=BH address=2001:470:54eb::/48 } on-error={}

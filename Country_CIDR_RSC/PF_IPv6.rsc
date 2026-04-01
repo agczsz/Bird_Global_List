@@ -1,5 +1,6 @@
 /log info "Loading PF IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=PF address=2001:470:19:a59::/64 } on-error={}
 :do { add list=PF address=2001:470:36:16c::/64 } on-error={}
 :do { add list=PF address=2001:470:1f09:5c::/64 } on-error={}
 :do { add list=PF address=2001:470:1f13:964::/64 } on-error={}
