@@ -2,8 +2,9 @@
 /ipv6 firewall address-list
 :do { add list=GS address=2001:470:19:1067::/64 } on-error={}
 :do { add list=GS address=2001:470:24:914::/64 } on-error={}
+:do { add list=GS address=2001:470:24:1003::/64 } on-error={}
+:do { add list=GS address=2001:470:36:cc9::/64 } on-error={}
 :do { add list=GS address=2001:470:36:1189::/64 } on-error={}
-:do { add list=GS address=2001:470:1f09:314::/64 } on-error={}
 :do { add list=GS address=2001:470:ed93::/48 } on-error={}
 :do { add list=GS address=2001:470:f5e3::/48 } on-error={}
 :do { add list=GS address=2001:470:fff9::/48 } on-error={}
@@ -62,7 +63,18 @@
 :do { add list=GS address=2a0f:1cc5:b15:4700::/56 } on-error={}
 :do { add list=GS address=2a0f:1cc5:b16:4700::/56 } on-error={}
 :do { add list=GS address=2a0f:1cc5:b17:4700::/56 } on-error={}
-:do { add list=GS address=2a11:a683:e000::/36 } on-error={}
+:do { add list=GS address=2a11:a683:e001::/48 } on-error={}
+:do { add list=GS address=2a11:a683:e002::/47 } on-error={}
+:do { add list=GS address=2a11:a683:e004::/46 } on-error={}
+:do { add list=GS address=2a11:a683:e008::/45 } on-error={}
+:do { add list=GS address=2a11:a683:e010::/44 } on-error={}
+:do { add list=GS address=2a11:a683:e020::/43 } on-error={}
+:do { add list=GS address=2a11:a683:e040::/42 } on-error={}
+:do { add list=GS address=2a11:a683:e080::/41 } on-error={}
+:do { add list=GS address=2a11:a683:e100::/40 } on-error={}
+:do { add list=GS address=2a11:a683:e200::/39 } on-error={}
+:do { add list=GS address=2a11:a683:e400::/38 } on-error={}
+:do { add list=GS address=2a11:a683:e800::/37 } on-error={}
 :do { add list=GS address=2a12:bec4:12a4:a5d4::/62 } on-error={}
 :do { add list=GS address=2a12:bec4:12a4:a5d8::/61 } on-error={}
 :do { add list=GS address=2a12:bec4:12a4:a5e0::/60 } on-error={}
