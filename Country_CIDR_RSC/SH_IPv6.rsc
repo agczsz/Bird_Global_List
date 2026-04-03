@@ -2,6 +2,7 @@
 /ipv6 firewall address-list
 :do { add list=SH address=2001:470:24:639::/64 } on-error={}
 :do { add list=SH address=2001:470:24:662::/64 } on-error={}
+:do { add list=SH address=2001:470:36:2bb::/64 } on-error={}
 :do { add list=SH address=2001:470:ed29::/48 } on-error={}
 :do { add list=SH address=2001:470:f5e9::/48 } on-error={}
 :do { add list=SH address=2001:470:feef::/48 } on-error={}

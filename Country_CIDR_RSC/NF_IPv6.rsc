@@ -5,7 +5,10 @@
 :do { add list=NF address=2001:470:24:f19::/64 } on-error={}
 :do { add list=NF address=2001:470:24:f94::/64 } on-error={}
 :do { add list=NF address=2001:470:28:bd4::/64 } on-error={}
+:do { add list=NF address=2001:470:36:449::/64 } on-error={}
 :do { add list=NF address=2001:470:36:51a::/64 } on-error={}
+:do { add list=NF address=2001:470:36:d3d::/64 } on-error={}
+:do { add list=NF address=2001:470:6f:10e::/64 } on-error={}
 :do { add list=NF address=2001:470:71:36d::/64 } on-error={}
 :do { add list=NF address=2001:470:1f15:146a::/64 } on-error={}
 :do { add list=NF address=2001:470:1f17:79::/64 } on-error={}

@@ -1,5 +1,6 @@
 /log info "Loading NU IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=NU address=2001:470:19:efa::/64 } on-error={}
 :do { add list=NU address=2001:470:24:8a2::/64 } on-error={}
 :do { add list=NU address=2001:470:36:15d::/64 } on-error={}
 :do { add list=NU address=2001:470:36:7b9::/64 } on-error={}
@@ -42,26 +43,10 @@
 :do { add list=NU address=2607:8940:4143:a000::/55 } on-error={}
 :do { add list=NU address=2a01:528:3400::/40 } on-error={}
 :do { add list=NU address=2a02:26f7:f480::/48 } on-error={}
-:do { add list=NU address=2a02:26f7:f481::/50 } on-error={}
-:do { add list=NU address=2a02:26f7:f481:4000::/64 } on-error={}
-:do { add list=NU address=2a02:26f7:f481:4100::/56 } on-error={}
-:do { add list=NU address=2a02:26f7:f481:4200::/55 } on-error={}
-:do { add list=NU address=2a02:26f7:f481:4400::/54 } on-error={}
-:do { add list=NU address=2a02:26f7:f481:4800::/53 } on-error={}
-:do { add list=NU address=2a02:26f7:f481:5000::/52 } on-error={}
-:do { add list=NU address=2a02:26f7:f481:6000::/51 } on-error={}
-:do { add list=NU address=2a02:26f7:f481:8000::/49 } on-error={}
+:do { add list=NU address=2a02:26f7:f481::/48 } on-error={}
 :do { add list=NU address=2a02:26f7:f482::/47 } on-error={}
 :do { add list=NU address=2a02:26f7:f484::/48 } on-error={}
-:do { add list=NU address=2a02:26f7:f485::/50 } on-error={}
-:do { add list=NU address=2a02:26f7:f485:4000::/64 } on-error={}
-:do { add list=NU address=2a02:26f7:f485:4100::/56 } on-error={}
-:do { add list=NU address=2a02:26f7:f485:4200::/55 } on-error={}
-:do { add list=NU address=2a02:26f7:f485:4400::/54 } on-error={}
-:do { add list=NU address=2a02:26f7:f485:4800::/53 } on-error={}
-:do { add list=NU address=2a02:26f7:f485:5000::/52 } on-error={}
-:do { add list=NU address=2a02:26f7:f485:6000::/51 } on-error={}
-:do { add list=NU address=2a02:26f7:f485:8000::/49 } on-error={}
+:do { add list=NU address=2a02:26f7:f485::/48 } on-error={}
 :do { add list=NU address=2a02:26f7:f486::/47 } on-error={}
 :do { add list=NU address=2a02:26f7:f488::/48 } on-error={}
 :do { add list=NU address=2a02:26f7:f489::/48 } on-error={}
