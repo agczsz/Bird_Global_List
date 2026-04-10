@@ -1,5 +1,6 @@
 /log info "Loading JE IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=JE address=2001:470:b:92::/64 } on-error={}
 :do { add list=JE address=2001:470:19:59::/64 } on-error={}
 :do { add list=JE address=2001:470:24:383::/64 } on-error={}
 :do { add list=JE address=2001:470:24:3f2::/64 } on-error={}
@@ -43,7 +44,6 @@
 :do { add list=JE address=2401:b60:1734::/46 } on-error={}
 :do { add list=JE address=2401:b60:1738::/45 } on-error={}
 :do { add list=JE address=2401:f1e0:ffff:85e1::/64 } on-error={}
-:do { add list=JE address=2401:f1e0:ffff:e43a::/64 } on-error={}
 :do { add list=JE address=2402:9880:300::/40 } on-error={}
 :do { add list=JE address=2405:b500:3980::/64 } on-error={}
 :do { add list=JE address=2405:b500:39a0::/64 } on-error={}
@@ -135,7 +135,9 @@
 :do { add list=JE address=2a02:c28:11:300::/62 } on-error={}
 :do { add list=JE address=2a02:c28:11:304::/64 } on-error={}
 :do { add list=JE address=2a02:c28:11:306::/63 } on-error={}
-:do { add list=JE address=2a02:c28:11:308::/61 } on-error={}
+:do { add list=JE address=2a02:c28:11:309::/64 } on-error={}
+:do { add list=JE address=2a02:c28:11:30a::/63 } on-error={}
+:do { add list=JE address=2a02:c28:11:30c::/62 } on-error={}
 :do { add list=JE address=2a02:c28:11:310::/60 } on-error={}
 :do { add list=JE address=2a02:c28:11:320::/59 } on-error={}
 :do { add list=JE address=2a02:c28:11:340::/58 } on-error={}
@@ -293,6 +295,7 @@
 :do { add list=JE address=2a02:c28:11:1900::/57 } on-error={}
 :do { add list=JE address=2a02:c28:11:1980::/60 } on-error={}
 :do { add list=JE address=2a02:c28:11:1990::/62 } on-error={}
+:do { add list=JE address=2a02:c28:11:1995::/64 } on-error={}
 :do { add list=JE address=2a02:c28:11:1996::/63 } on-error={}
 :do { add list=JE address=2a02:c28:11:1998::/61 } on-error={}
 :do { add list=JE address=2a02:c28:11:19a0::/59 } on-error={}
@@ -416,7 +419,6 @@
 :do { add list=JE address=2a07:d887:6e00::/40 } on-error={}
 :do { add list=JE address=2a07:ee40::/29 } on-error={}
 :do { add list=JE address=2a09:4c0:0:70::/64 } on-error={}
-:do { add list=JE address=2a09:54c7:2e71::/48 } on-error={}
 :do { add list=JE address=2a09:bac1:3980::/64 } on-error={}
 :do { add list=JE address=2a09:bac1:39a0::/64 } on-error={}
 :do { add list=JE address=2a09:bac1:39c0::/64 } on-error={}

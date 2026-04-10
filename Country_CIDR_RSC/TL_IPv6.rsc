@@ -1,5 +1,6 @@
 /log info "Loading TL IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=TL address=2001:470:d:7e3::/64 } on-error={}
 :do { add list=TL address=2001:470:19:1256::/64 } on-error={}
 :do { add list=TL address=2001:470:36:171::/64 } on-error={}
 :do { add list=TL address=2001:470:36:7da::/64 } on-error={}
@@ -106,7 +107,6 @@
 :do { add list=TL address=2a06:9f81:56db::/48 } on-error={}
 :do { add list=TL address=2a07:d887:db00::/40 } on-error={}
 :do { add list=TL address=2a09:4c0:0:de::/64 } on-error={}
-:do { add list=TL address=2a09:54c7:2ede::/48 } on-error={}
 :do { add list=TL address=2a09:bac1:7080::/64 } on-error={}
 :do { add list=TL address=2a09:bac1:70a0::/64 } on-error={}
 :do { add list=TL address=2a09:bac1:70c0::/64 } on-error={}

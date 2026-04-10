@@ -6,8 +6,6 @@
 :do { add list=MP address=2001:470:36:148::/64 } on-error={}
 :do { add list=MP address=2001:470:36:7e1::/64 } on-error={}
 :do { add list=MP address=2001:470:36:e4b::/64 } on-error={}
-:do { add list=MP address=2001:470:1f07:a11::/64 } on-error={}
-:do { add list=MP address=2001:470:1f07:a1a::/64 } on-error={}
 :do { add list=MP address=2001:470:1f0b:120e::/64 } on-error={}
 :do { add list=MP address=2001:470:3884::/48 } on-error={}
 :do { add list=MP address=2001:470:7615::/48 } on-error={}
@@ -90,7 +88,6 @@
 :do { add list=MP address=2a06:9f81:5693::/48 } on-error={}
 :do { add list=MP address=2a07:d887:9400::/40 } on-error={}
 :do { add list=MP address=2a09:4c0:0:96::/64 } on-error={}
-:do { add list=MP address=2a09:54c7:2e96::/48 } on-error={}
 :do { add list=MP address=2a09:bac1:4c80::/64 } on-error={}
 :do { add list=MP address=2a09:bac1:4ca0::/64 } on-error={}
 :do { add list=MP address=2a09:bac1:4cc0::/64 } on-error={}

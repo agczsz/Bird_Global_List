@@ -3,7 +3,6 @@
 :do { add list=MR address=2001:470:24:5d4::/64 } on-error={}
 :do { add list=MR address=2001:470:36:13b::/64 } on-error={}
 :do { add list=MR address=2001:470:36:5af::/64 } on-error={}
-:do { add list=MR address=2001:470:1f0f:426::/64 } on-error={}
 :do { add list=MR address=2001:470:ba0d::/48 } on-error={}
 :do { add list=MR address=2001:470:eca5::/48 } on-error={}
 :do { add list=MR address=2001:67c:a38:f222::/64 } on-error={}
@@ -107,7 +106,6 @@
 :do { add list=MR address=2a06:9f81:5695::/48 } on-error={}
 :do { add list=MR address=2a07:d887:9600::/40 } on-error={}
 :do { add list=MR address=2a09:4c0:0:98::/64 } on-error={}
-:do { add list=MR address=2a09:54c7:2e98::/48 } on-error={}
 :do { add list=MR address=2a09:bac1:4d80::/64 } on-error={}
 :do { add list=MR address=2a09:bac1:4da0::/64 } on-error={}
 :do { add list=MR address=2a09:bac1:4dc0::/64 } on-error={}

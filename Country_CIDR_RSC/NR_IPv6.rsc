@@ -1,6 +1,5 @@
 /log info "Loading NR IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=NR address=2001:470:24:4b6::/64 } on-error={}
 :do { add list=NR address=2001:470:36:15c::/64 } on-error={}
 :do { add list=NR address=2001:470:36:567::/64 } on-error={}
 :do { add list=NR address=2001:470:36:8cc::/64 } on-error={}
@@ -125,7 +124,6 @@
 :do { add list=NR address=2a06:9f81:56a7::/48 } on-error={}
 :do { add list=NR address=2a07:d887:a700::/40 } on-error={}
 :do { add list=NR address=2a09:4c0:0:aa::/64 } on-error={}
-:do { add list=NR address=2a09:54c7:2ea9::/48 } on-error={}
 :do { add list=NR address=2a09:bac1:5680:8::/64 } on-error={}
 :do { add list=NR address=2a09:bac1:56a0:8::/64 } on-error={}
 :do { add list=NR address=2a09:bac1:56c0:8::/64 } on-error={}

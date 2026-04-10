@@ -54,7 +54,6 @@
 :do { add list=SJ address=2a06:9f81:56c7::/48 } on-error={}
 :do { add list=SJ address=2a07:d887:c700::/40 } on-error={}
 :do { add list=SJ address=2a09:4c0:0:ca::/64 } on-error={}
-:do { add list=SJ address=2a09:54c7:2ec5::/48 } on-error={}
 :do { add list=SJ address=2a09:bac4:638::/45 } on-error={}
 :do { add list=SJ address=2a09:bac4:1638::/45 } on-error={}
 :do { add list=SJ address=2a0a:6040:f33::/48 } on-error={}

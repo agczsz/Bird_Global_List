@@ -143,7 +143,6 @@
 :do { add list=SX address=2a06:9f81:56d1::/48 } on-error={}
 :do { add list=SX address=2a07:d887:d100::/40 } on-error={}
 :do { add list=SX address=2a09:4c0:0:d4::/64 } on-error={}
-:do { add list=SX address=2a09:54c7:2ed4::/48 } on-error={}
 :do { add list=SX address=2a09:bac1:6b80::/64 } on-error={}
 :do { add list=SX address=2a09:bac1:6ba0::/64 } on-error={}
 :do { add list=SX address=2a09:bac1:6bc0::/64 } on-error={}
@@ -176,12 +175,6 @@
 :do { add list=SX address=2a11:29c0:3d88:ba77::/64 } on-error={}
 :do { add list=SX address=2a11:29c0:3d88:d845::/64 } on-error={}
 :do { add list=SX address=2a11:3a82:c000::/35 } on-error={}
-:do { add list=SX address=2a12:bec4:12a4:4e3::/64 } on-error={}
-:do { add list=SX address=2a12:bec4:12a4:4e4::/62 } on-error={}
-:do { add list=SX address=2a12:bec4:12a4:4e8::/61 } on-error={}
-:do { add list=SX address=2a12:bec4:12a4:4f0::/62 } on-error={}
-:do { add list=SX address=2a12:bec4:12a4:4f4::/63 } on-error={}
-:do { add list=SX address=2a12:bec4:12a4:4f6::/64 } on-error={}
 :do { add list=SX address=2a12:bec4:12a8:d800::/56 } on-error={}
 :do { add list=SX address=2a12:f005:2000::/36 } on-error={}
 :do { add list=SX address=2a12:f381:ec00::/40 } on-error={}

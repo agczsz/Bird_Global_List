@@ -1,5 +1,6 @@
 /log info "Loading IO IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=IO address=2001:470:d:724::/64 } on-error={}
 :do { add list=IO address=2001:470:19:2ae::/64 } on-error={}
 :do { add list=IO address=2001:470:19:7f7::/64 } on-error={}
 :do { add list=IO address=2001:470:19:10a4::/64 } on-error={}
@@ -29,7 +30,7 @@
 :do { add list=IO address=2401:b60:1204::/46 } on-error={}
 :do { add list=IO address=2401:b60:1208::/45 } on-error={}
 :do { add list=IO address=2401:a440::/32 } on-error={}
-:do { add list=IO address=2401:f1e0:ffff:7bc4::/64 } on-error={}
+:do { add list=IO address=2401:f1e0:ffff:146e::/64 } on-error={}
 :do { add list=IO address=2405:b500:3700::/64 } on-error={}
 :do { add list=IO address=2405:b500:3720::/64 } on-error={}
 :do { add list=IO address=2405:b500:3740::/64 } on-error={}
@@ -97,7 +98,6 @@
 :do { add list=IO address=2a06:9f81:5668::/48 } on-error={}
 :do { add list=IO address=2a07:d887:6900::/40 } on-error={}
 :do { add list=IO address=2a09:4c0:0:6b::/64 } on-error={}
-:do { add list=IO address=2a09:54c7:2e69::/48 } on-error={}
 :do { add list=IO address=2a09:bac1:3700::/64 } on-error={}
 :do { add list=IO address=2a09:bac1:3720::/64 } on-error={}
 :do { add list=IO address=2a09:bac1:3740::/64 } on-error={}

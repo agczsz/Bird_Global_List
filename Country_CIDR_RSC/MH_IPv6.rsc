@@ -1,15 +1,15 @@
 /log info "Loading MH IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=MH address=2001:470:d:11a6::/64 } on-error={}
 :do { add list=MH address=2001:470:19:1061::/64 } on-error={}
 :do { add list=MH address=2001:470:36:134::/64 } on-error={}
 :do { add list=MH address=2001:470:36:8e5::/64 } on-error={}
-:do { add list=MH address=2001:470:1f07:a5f::/64 } on-error={}
 :do { add list=MH address=2001:470:74a0::/48 } on-error={}
 :do { add list=MH address=2001:470:8cd3::/48 } on-error={}
 :do { add list=MH address=2001:470:f698::/48 } on-error={}
 :do { add list=MH address=2001:67c:a38:f692::/64 } on-error={}
 :do { add list=MH address=2001:4b28:4c00::/40 } on-error={}
-:do { add list=MH address=2401:f1e0:ffff:9cde::/64 } on-error={}
+:do { add list=MH address=2401:f1e0:ffff:7a0d::/64 } on-error={}
 :do { add list=MH address=2405:400::/32 } on-error={}
 :do { add list=MH address=2405:b500:4980::/64 } on-error={}
 :do { add list=MH address=2405:b500:49a0::/64 } on-error={}
@@ -18,9 +18,7 @@
 :do { add list=MH address=2406:2d40:3581::/48 } on-error={}
 :do { add list=MH address=2406:2d40:3582::/47 } on-error={}
 :do { add list=MH address=2406:2d40:3584::/46 } on-error={}
-:do { add list=MH address=2406:2d40:3588::/47 } on-error={}
-:do { add list=MH address=2406:2d40:358a::/48 } on-error={}
-:do { add list=MH address=2406:2d40:358c::/46 } on-error={}
+:do { add list=MH address=2406:2d40:3588::/45 } on-error={}
 :do { add list=MH address=2406:2d40:3590::/44 } on-error={}
 :do { add list=MH address=2406:2d40:35a0::/43 } on-error={}
 :do { add list=MH address=2406:2d40:9e00::/40 } on-error={}
@@ -94,7 +92,6 @@
 :do { add list=MH address=2a06:a005:25a0::/44 } on-error={}
 :do { add list=MH address=2a07:d887:8e00::/40 } on-error={}
 :do { add list=MH address=2a09:4c0:0:90::/64 } on-error={}
-:do { add list=MH address=2a09:54c7:2e8f::/48 } on-error={}
 :do { add list=MH address=2a09:bac1:4980::/64 } on-error={}
 :do { add list=MH address=2a09:bac1:49a0::/64 } on-error={}
 :do { add list=MH address=2a09:bac1:49c0::/64 } on-error={}

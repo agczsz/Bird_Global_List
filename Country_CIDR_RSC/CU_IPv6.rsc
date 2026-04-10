@@ -18,7 +18,6 @@
 :do { add list=CU address=2001:470:1f05:f2a::/64 } on-error={}
 :do { add list=CU address=2001:470:1f09:3f6::/64 } on-error={}
 :do { add list=CU address=2001:470:1f0b:e3f::/64 } on-error={}
-:do { add list=CU address=2001:470:1f11:193::/64 } on-error={}
 :do { add list=CU address=2001:470:1f13:9f5::/64 } on-error={}
 :do { add list=CU address=2001:470:1f15:6f7::/64 } on-error={}
 :do { add list=CU address=2001:470:1f17:cf::/64 } on-error={}
@@ -35,7 +34,6 @@
 :do { add list=CU address=2001:470:f629::/48 } on-error={}
 :do { add list=CU address=2001:470:f86c::/48 } on-error={}
 :do { add list=CU address=2001:470:f881::/48 } on-error={}
-:do { add list=CU address=2001:470:fe97::/48 } on-error={}
 :do { add list=CU address=2001:67c:a38:f053::/64 } on-error={}
 :do { add list=CU address=2001:1340::/32 } on-error={}
 :do { add list=CU address=2001:1358::/32 } on-error={}
@@ -49,6 +47,7 @@
 :do { add list=CU address=2401:b60:1384::/46 } on-error={}
 :do { add list=CU address=2401:b60:1388::/45 } on-error={}
 :do { add list=CU address=2401:f1e0:ffff:69eb::/64 } on-error={}
+:do { add list=CU address=2401:f1e0:ffff:be2b::/64 } on-error={}
 :do { add list=CU address=2405:b500:1b00::/64 } on-error={}
 :do { add list=CU address=2405:b500:1b00:8::/64 } on-error={}
 :do { add list=CU address=2405:b500:1b00:10::/64 } on-error={}
@@ -127,7 +126,6 @@
 :do { add list=CU address=2a06:9f81:6444::/48 } on-error={}
 :do { add list=CU address=2a07:d887:3200::/40 } on-error={}
 :do { add list=CU address=2a09:4c0:0:33::/64 } on-error={}
-:do { add list=CU address=2a09:54c7:2e35::/48 } on-error={}
 :do { add list=CU address=2a09:bac1:1b00::/64 } on-error={}
 :do { add list=CU address=2a09:bac1:1b00:8::/64 } on-error={}
 :do { add list=CU address=2a09:bac1:1b00:10::/64 } on-error={}
@@ -261,9 +259,6 @@
 :do { add list=CU address=2a11:f887:4001:4000::/50 } on-error={}
 :do { add list=CU address=2a11:f887:4001:8000::/49 } on-error={}
 :do { add list=CU address=2a12:bec0:682::/48 } on-error={}
-:do { add list=CU address=2a12:bec4:12a4:a9e::/64 } on-error={}
-:do { add list=CU address=2a12:bec4:12a4:aa0::/60 } on-error={}
-:do { add list=CU address=2a12:bec4:12a4:ab0::/61 } on-error={}
 :do { add list=CU address=2a12:bec4:12a8:3900::/56 } on-error={}
 :do { add list=CU address=2a12:ef86:d000::/36 } on-error={}
 :do { add list=CU address=2a12:f381:b000::/40 } on-error={}

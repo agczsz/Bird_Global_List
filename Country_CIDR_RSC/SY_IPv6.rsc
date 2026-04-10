@@ -4,6 +4,13 @@
 :do { add list=SY address=2001:470:1f13:8d::/64 } on-error={}
 :do { add list=SY address=2001:470:c9b2::/48 } on-error={}
 :do { add list=SY address=2001:67c:a38:f963::/64 } on-error={}
+:do { add list=SY address=2001:730:2600::/64 } on-error={}
+:do { add list=SY address=2001:730:2607::/64 } on-error={}
+:do { add list=SY address=2001:730:2610::/64 } on-error={}
+:do { add list=SY address=2001:730:2614::/64 } on-error={}
+:do { add list=SY address=2001:730:2630::/64 } on-error={}
+:do { add list=SY address=2001:730:2630:2::/64 } on-error={}
+:do { add list=SY address=2001:730:2c09:1::/64 } on-error={}
 :do { add list=SY address=2001:4b28:eb00::/40 } on-error={}
 :do { add list=SY address=2401:b60:1df0:4000::/50 } on-error={}
 :do { add list=SY address=2401:b60:1df0:8000::/49 } on-error={}
@@ -12,7 +19,6 @@
 :do { add list=SY address=2401:b60:1df4::/46 } on-error={}
 :do { add list=SY address=2401:b60:1df8::/45 } on-error={}
 :do { add list=SY address=2401:f1e0:ffff:4b12::/64 } on-error={}
-:do { add list=SY address=2401:f1e0:ffff:85a0::/64 } on-error={}
 :do { add list=SY address=2405:b500:6c00::/64 } on-error={}
 :do { add list=SY address=2405:b500:6c00:8::/64 } on-error={}
 :do { add list=SY address=2405:b500:6c00:10::/64 } on-error={}
@@ -36,6 +42,7 @@
 :do { add list=SY address=2606:54c3:0:835::/64 } on-error={}
 :do { add list=SY address=2606:54c3:0:1169::/64 } on-error={}
 :do { add list=SY address=2606:54c3:0:1509::/64 } on-error={}
+:do { add list=SY address=2607:ea00:3:2::/64 } on-error={}
 :do { add list=SY address=2a00:ca0:205a:5000::/52 } on-error={}
 :do { add list=SY address=2a00:1ee8::/32 } on-error={}
 :do { add list=SY address=2a00:45a0::/32 } on-error={}
@@ -96,7 +103,6 @@
 :do { add list=SY address=2a07:6980::/29 } on-error={}
 :do { add list=SY address=2a07:d887:d200::/40 } on-error={}
 :do { add list=SY address=2a09:4c0:0:d5::/64 } on-error={}
-:do { add list=SY address=2a09:54c7:2ed6::/48 } on-error={}
 :do { add list=SY address=2a09:b4c0::/29 } on-error={}
 :do { add list=SY address=2a09:bac1:6c00::/64 } on-error={}
 :do { add list=SY address=2a09:bac1:6c00:8::/64 } on-error={}

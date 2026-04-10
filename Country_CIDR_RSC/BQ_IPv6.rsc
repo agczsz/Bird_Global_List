@@ -1,5 +1,6 @@
 /log info "Loading BQ IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=BQ address=2001:470:5:542::/64 } on-error={}
 :do { add list=BQ address=2001:470:19:1283::/64 } on-error={}
 :do { add list=BQ address=2001:470:24:877::/64 } on-error={}
 :do { add list=BQ address=2001:470:36:511::/64 } on-error={}
@@ -120,7 +121,6 @@
 :do { add list=BQ address=2a06:9f81:561e::/48 } on-error={}
 :do { add list=BQ address=2a07:d887:1d00::/40 } on-error={}
 :do { add list=BQ address=2a09:4c0:0:1e::/64 } on-error={}
-:do { add list=BQ address=2a09:54c7:2e14::/48 } on-error={}
 :do { add list=BQ address=2a09:bac1:1080::/64 } on-error={}
 :do { add list=BQ address=2a09:bac1:10a0::/64 } on-error={}
 :do { add list=BQ address=2a09:bac1:10c0::/64 } on-error={}
@@ -152,12 +152,6 @@
 :do { add list=BQ address=2a11:29c0:3d88:59ce::/64 } on-error={}
 :do { add list=BQ address=2a11:29c0:3d88:a2b8::/64 } on-error={}
 :do { add list=BQ address=2a11:a681:5000::/36 } on-error={}
-:do { add list=BQ address=2a12:bec4:12a4:be2::/63 } on-error={}
-:do { add list=BQ address=2a12:bec4:12a4:be4::/62 } on-error={}
-:do { add list=BQ address=2a12:bec4:12a4:be8::/64 } on-error={}
-:do { add list=BQ address=2a12:bec4:12a4:bea::/63 } on-error={}
-:do { add list=BQ address=2a12:bec4:12a4:bec::/62 } on-error={}
-:do { add list=BQ address=2a12:bec4:12a4:bf0::/64 } on-error={}
 :do { add list=BQ address=2a12:bec4:12a8:2400::/56 } on-error={}
 :do { add list=BQ address=2a12:ef86:1000::/36 } on-error={}
 :do { add list=BQ address=2a12:f381:9c00::/40 } on-error={}

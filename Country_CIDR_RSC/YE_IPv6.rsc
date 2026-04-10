@@ -1,5 +1,6 @@
 /log info "Loading YE IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=YE address=2001:470:b:3e5::/64 } on-error={}
 :do { add list=YE address=2001:470:19:1177::/64 } on-error={}
 :do { add list=YE address=2001:470:36:7fa::/64 } on-error={}
 :do { add list=YE address=2001:470:1f0b:1d::/64 } on-error={}
@@ -109,7 +110,6 @@
 :do { add list=YE address=2a07:d887:f300::/40 } on-error={}
 :do { add list=YE address=2a07:fd40::/29 } on-error={}
 :do { add list=YE address=2a09:4c0:0:f6::/64 } on-error={}
-:do { add list=YE address=2a09:54c7:2ef5::/48 } on-error={}
 :do { add list=YE address=2a09:bac1:7c80::/64 } on-error={}
 :do { add list=YE address=2a09:bac1:7c80:8::/64 } on-error={}
 :do { add list=YE address=2a09:bac1:7c80:10::/64 } on-error={}

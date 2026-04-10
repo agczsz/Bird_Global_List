@@ -19,7 +19,7 @@
 :do { add list=NE address=2401:b60:1a52::/47 } on-error={}
 :do { add list=NE address=2401:b60:1a54::/46 } on-error={}
 :do { add list=NE address=2401:b60:1a58::/45 } on-error={}
-:do { add list=NE address=2401:f1e0:ffff:acbe::/64 } on-error={}
+:do { add list=NE address=2401:f1e0:ffff:ba43::/64 } on-error={}
 :do { add list=NE address=2405:b500:5300::/64 } on-error={}
 :do { add list=NE address=2405:b500:5320::/64 } on-error={}
 :do { add list=NE address=2405:b500:5340::/64 } on-error={}
@@ -88,7 +88,6 @@
 :do { add list=NE address=2a06:9f81:56a0::/48 } on-error={}
 :do { add list=NE address=2a07:d887:a000::/40 } on-error={}
 :do { add list=NE address=2a09:4c0:0:a3::/64 } on-error={}
-:do { add list=NE address=2a09:54c7:2ea1::/48 } on-error={}
 :do { add list=NE address=2a09:bac1:5300::/64 } on-error={}
 :do { add list=NE address=2a09:bac1:5320::/64 } on-error={}
 :do { add list=NE address=2a09:bac1:5340::/64 } on-error={}
@@ -141,7 +140,6 @@
 :do { add list=NE address=2a12:bec4:12a5:8ab0::/62 } on-error={}
 :do { add list=NE address=2a12:bec4:12a5:8ab4::/64 } on-error={}
 :do { add list=NE address=2a12:bec4:12a8:a700::/56 } on-error={}
-:do { add list=NE address=2a12:bec4:1571:fa16::/64 } on-error={}
 :do { add list=NE address=2a12:f006:f000::/36 } on-error={}
 :do { add list=NE address=2a12:f381:3900::/40 } on-error={}
 :do { add list=NE address=2a12:f382:3900::/40 } on-error={}

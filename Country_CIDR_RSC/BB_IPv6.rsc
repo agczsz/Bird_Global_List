@@ -1,11 +1,11 @@
 /log info "Loading BB IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=BB address=2001:470:d:11d7::/64 } on-error={}
 :do { add list=BB address=2001:470:28:b43::/64 } on-error={}
 :do { add list=BB address=2001:470:36:9c::/64 } on-error={}
 :do { add list=BB address=2001:470:36:3aa::/64 } on-error={}
 :do { add list=BB address=2001:470:6d:454::/64 } on-error={}
 :do { add list=BB address=2001:470:1f0b:cc6::/64 } on-error={}
-:do { add list=BB address=2001:470:1f11:537::/64 } on-error={}
 :do { add list=BB address=2001:470:1f13:1de::/64 } on-error={}
 :do { add list=BB address=2001:470:a073::/48 } on-error={}
 :do { add list=BB address=2001:470:ee14::/48 } on-error={}
@@ -22,7 +22,7 @@
 :do { add list=BB address=2401:b60:1132::/47 } on-error={}
 :do { add list=BB address=2401:b60:1134::/46 } on-error={}
 :do { add list=BB address=2401:b60:1138::/45 } on-error={}
-:do { add list=BB address=2401:f1e0:ffff:5634::/64 } on-error={}
+:do { add list=BB address=2401:f1e0:ffff:d9d5::/64 } on-error={}
 :do { add list=BB address=2405:b500:a80::/64 } on-error={}
 :do { add list=BB address=2405:b500:aa0::/64 } on-error={}
 :do { add list=BB address=2405:b500:ac0::/64 } on-error={}
@@ -128,7 +128,6 @@
 :do { add list=BB address=2a06:9f81:6108::/48 } on-error={}
 :do { add list=BB address=2a07:d887:1100::/40 } on-error={}
 :do { add list=BB address=2a09:4c0:0:12::/64 } on-error={}
-:do { add list=BB address=2a09:54c7:2e21::/48 } on-error={}
 :do { add list=BB address=2a09:bac0:1000:d2d::/64 } on-error={}
 :do { add list=BB address=2a09:bac0:1000:1246::/64 } on-error={}
 :do { add list=BB address=2a09:bac0:1000:134e::/64 } on-error={}
@@ -177,10 +176,6 @@
 :do { add list=BB address=2a11:29c0:3d88:df56::/64 } on-error={}
 :do { add list=BB address=2a11:29c0:3d88:f62b::/64 } on-error={}
 :do { add list=BB address=2a11:a680:c000::/36 } on-error={}
-:do { add list=BB address=2a12:bec4:12a4:b66::/64 } on-error={}
-:do { add list=BB address=2a12:bec4:12a4:b68::/61 } on-error={}
-:do { add list=BB address=2a12:bec4:12a4:b70::/62 } on-error={}
-:do { add list=BB address=2a12:bec4:12a4:b74::/63 } on-error={}
 :do { add list=BB address=2a12:bec4:12a8:1800::/56 } on-error={}
 :do { add list=BB address=2a12:ef85:a000::/36 } on-error={}
 :do { add list=BB address=2a12:f381:9000::/40 } on-error={}

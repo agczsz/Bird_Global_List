@@ -1,12 +1,14 @@
 /log info "Loading GW IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=GW address=2001:470:d:11a7::/64 } on-error={}
+:do { add list=GW address=2001:470:24:56d::/64 } on-error={}
 :do { add list=GW address=2001:470:36:1b8::/64 } on-error={}
 :do { add list=GW address=2001:470:36:37f::/64 } on-error={}
 :do { add list=GW address=2001:470:1f2d:148::/64 } on-error={}
 :do { add list=GW address=2001:470:ba13::/48 } on-error={}
 :do { add list=GW address=2001:470:ee29::/48 } on-error={}
 :do { add list=GW address=2001:470:f699::/48 } on-error={}
-:do { add list=GW address=2001:470:fe90::/48 } on-error={}
+:do { add list=GW address=2001:470:fed3::/48 } on-error={}
 :do { add list=GW address=2001:67c:a38:f245::/64 } on-error={}
 :do { add list=GW address=2001:4b28:7a00::/40 } on-error={}
 :do { add list=GW address=2401:b60:15c0:4000::/50 } on-error={}
@@ -17,7 +19,6 @@
 :do { add list=GW address=2401:b60:15c8::/45 } on-error={}
 :do { add list=GW address=2401:f1e0:ffff:12cc::/64 } on-error={}
 :do { add list=GW address=2401:f1e0:ffff:dacf::/64 } on-error={}
-:do { add list=GW address=2401:f1e0:ffff:e2e0::/64 } on-error={}
 :do { add list=GW address=2405:b500:3080::/64 } on-error={}
 :do { add list=GW address=2405:b500:30a0::/64 } on-error={}
 :do { add list=GW address=2405:b500:30c0::/64 } on-error={}
@@ -100,7 +101,6 @@
 :do { add list=GW address=2a07:d887:5c00::/40 } on-error={}
 :do { add list=GW address=2a09:4c0:0:5e::/64 } on-error={}
 :do { add list=GW address=2a09:4c0:6700::/40 } on-error={}
-:do { add list=GW address=2a09:54c7:2e57::/48 } on-error={}
 :do { add list=GW address=2a09:bac1:3080::/64 } on-error={}
 :do { add list=GW address=2a09:bac1:30a0::/64 } on-error={}
 :do { add list=GW address=2a09:bac1:30c0::/64 } on-error={}

@@ -6,7 +6,6 @@
 :do { add list=TO address=2001:470:36:85::/64 } on-error={}
 :do { add list=TO address=2001:470:36:8ca::/64 } on-error={}
 :do { add list=TO address=2001:470:36:10d7::/64 } on-error={}
-:do { add list=TO address=2001:470:1f07:6e3::/64 } on-error={}
 :do { add list=TO address=2001:470:1f0b:3d0::/64 } on-error={}
 :do { add list=TO address=2001:470:1f2d:d4::/64 } on-error={}
 :do { add list=TO address=2001:470:71f5::/48 } on-error={}
@@ -24,7 +23,7 @@
 :do { add list=TO address=2401:b60:1e82::/47 } on-error={}
 :do { add list=TO address=2401:b60:1e84::/46 } on-error={}
 :do { add list=TO address=2401:b60:1e88::/45 } on-error={}
-:do { add list=TO address=2401:f1e0:ffff:4ffd::/64 } on-error={}
+:do { add list=TO address=2401:f1e0:ffff:8e63::/64 } on-error={}
 :do { add list=TO address=2402:1940::/32 } on-error={}
 :do { add list=TO address=2405:b500:7200::/64 } on-error={}
 :do { add list=TO address=2405:b500:7220::/64 } on-error={}
@@ -54,10 +53,7 @@
 :do { add list=TO address=2406:2d40:430a::/47 } on-error={}
 :do { add list=TO address=2406:2d40:430c::/46 } on-error={}
 :do { add list=TO address=2406:2d40:4310::/44 } on-error={}
-:do { add list=TO address=2406:2d40:4320::/45 } on-error={}
-:do { add list=TO address=2406:2d40:4328::/48 } on-error={}
-:do { add list=TO address=2406:2d40:432a::/47 } on-error={}
-:do { add list=TO address=2406:2d40:432c::/46 } on-error={}
+:do { add list=TO address=2406:2d40:4320::/44 } on-error={}
 :do { add list=TO address=2406:2d40:4330::/45 } on-error={}
 :do { add list=TO address=2406:2d40:4338::/46 } on-error={}
 :do { add list=TO address=2406:2d40:433c::/47 } on-error={}
@@ -135,7 +131,6 @@
 :do { add list=TO address=2a06:9f81:56de::/48 } on-error={}
 :do { add list=TO address=2a07:d887:de00::/40 } on-error={}
 :do { add list=TO address=2a09:4c0:0:e1::/64 } on-error={}
-:do { add list=TO address=2a09:54c7:2edf::/48 } on-error={}
 :do { add list=TO address=2a09:bac1:7200::/64 } on-error={}
 :do { add list=TO address=2a09:bac1:7220::/64 } on-error={}
 :do { add list=TO address=2a09:bac1:7240::/64 } on-error={}

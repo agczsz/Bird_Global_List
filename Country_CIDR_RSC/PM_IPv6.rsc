@@ -1,5 +1,6 @@
 /log info "Loading PM IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=PM address=2001:470:d:708::/64 } on-error={}
 :do { add list=PM address=2001:470:24:22f::/64 } on-error={}
 :do { add list=PM address=2001:470:24:892::/64 } on-error={}
 :do { add list=PM address=2001:470:36:16e::/64 } on-error={}
@@ -8,6 +9,7 @@
 :do { add list=PM address=2001:470:36:8c1::/64 } on-error={}
 :do { add list=PM address=2001:470:89a4::/48 } on-error={}
 :do { add list=PM address=2001:470:effe::/48 } on-error={}
+:do { add list=PM address=2001:470:f3cb::/48 } on-error={}
 :do { add list=PM address=2001:470:f560::/48 } on-error={}
 :do { add list=PM address=2001:470:fdf2::/48 } on-error={}
 :do { add list=PM address=2001:470:ffcc::/48 } on-error={}
@@ -19,7 +21,7 @@
 :do { add list=PM address=2401:b60:1c22::/47 } on-error={}
 :do { add list=PM address=2401:b60:1c24::/46 } on-error={}
 :do { add list=PM address=2401:b60:1c28::/45 } on-error={}
-:do { add list=PM address=2401:f1e0:ffff:ae90::/64 } on-error={}
+:do { add list=PM address=2401:f1e0:ffff:8f1::/64 } on-error={}
 :do { add list=PM address=2405:b500:5c00::/64 } on-error={}
 :do { add list=PM address=2405:b500:5c20::/64 } on-error={}
 :do { add list=PM address=2405:b500:5c40::/64 } on-error={}
@@ -93,7 +95,6 @@
 :do { add list=PM address=2a07:d887:b200::/40 } on-error={}
 :do { add list=PM address=2a09:4c0:0:b5::/64 } on-error={}
 :do { add list=PM address=2a09:4c0:bb00::/40 } on-error={}
-:do { add list=PM address=2a09:54c7:2ecb::/48 } on-error={}
 :do { add list=PM address=2a09:bac1:5c00::/64 } on-error={}
 :do { add list=PM address=2a09:bac1:5c20::/64 } on-error={}
 :do { add list=PM address=2a09:bac1:5c40::/64 } on-error={}
@@ -127,15 +128,6 @@
 :do { add list=PM address=2a0f:1cc5:b17:c100::/56 } on-error={}
 :do { add list=PM address=2a0f:1cc5:1f40::/48 } on-error={}
 :do { add list=PM address=2a11:3a80:4000::/35 } on-error={}
-:do { add list=PM address=2a12:bec4:12a4:527::/64 } on-error={}
-:do { add list=PM address=2a12:bec4:12a4:528::/61 } on-error={}
-:do { add list=PM address=2a12:bec4:12a4:530::/62 } on-error={}
-:do { add list=PM address=2a12:bec4:12a4:534::/63 } on-error={}
-:do { add list=PM address=2a12:bec4:12a4:536::/64 } on-error={}
-:do { add list=PM address=2a12:bec4:12a4:7ff::/64 } on-error={}
-:do { add list=PM address=2a12:bec4:12a4:800::/59 } on-error={}
-:do { add list=PM address=2a12:bec4:12a4:820::/62 } on-error={}
-:do { add list=PM address=2a12:bec4:12a4:824::/63 } on-error={}
 :do { add list=PM address=2a12:bec4:12a8:b900::/56 } on-error={}
 :do { add list=PM address=2a12:f003:e000::/36 } on-error={}
 :do { add list=PM address=2a12:f381:2a00::/40 } on-error={}
