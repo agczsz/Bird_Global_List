@@ -903,9 +903,10 @@
 :do { add list=NG address=2a02:6ea0:1:4::12d/128 } on-error={}
 :do { add list=NG address=2a02:6ea0:400::/40 } on-error={}
 :do { add list=NG address=2a02:6ea0:5400::/40 } on-error={}
-:do { add list=NG address=2a03:2880:f038::/48 } on-error={}
-:do { add list=NG address=2a03:2880:f138::/48 } on-error={}
-:do { add list=NG address=2a03:2880:f238::/48 } on-error={}
+:do { add list=NG address=2a03:2880:f038::/50 } on-error={}
+:do { add list=NG address=2a03:2880:f038:c000::/50 } on-error={}
+:do { add list=NG address=2a03:2880:f138::/50 } on-error={}
+:do { add list=NG address=2a03:2880:f238::/50 } on-error={}
 :do { add list=NG address=2a03:2880:f310::/48 } on-error={}
 :do { add list=NG address=2a03:83e0:d4d::/48 } on-error={}
 :do { add list=NG address=2a03:83e0:e29::/48 } on-error={}

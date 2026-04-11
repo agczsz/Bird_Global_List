@@ -2803,7 +2803,11 @@
 :do { add list=MU address=2c0f:984::/30 } on-error={}
 :do { add list=MU address=2c0f:988::/29 } on-error={}
 :do { add list=MU address=2c0f:990::/28 } on-error={}
-:do { add list=MU address=2c0f:9a0::/27 } on-error={}
+:do { add list=MU address=2c0f:9a1::/32 } on-error={}
+:do { add list=MU address=2c0f:9a2::/31 } on-error={}
+:do { add list=MU address=2c0f:9a4::/30 } on-error={}
+:do { add list=MU address=2c0f:9a8::/29 } on-error={}
+:do { add list=MU address=2c0f:9b0::/28 } on-error={}
 :do { add list=MU address=2c0f:9c1::/32 } on-error={}
 :do { add list=MU address=2c0f:9c2::/31 } on-error={}
 :do { add list=MU address=2c0f:9c4::/30 } on-error={}

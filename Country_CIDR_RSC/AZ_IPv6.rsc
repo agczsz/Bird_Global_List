@@ -58,6 +58,7 @@
 :do { add list=AZ address=2001:470:1f0b:58b::/64 } on-error={}
 :do { add list=AZ address=2001:470:1f0b:6de::/64 } on-error={}
 :do { add list=AZ address=2001:470:1f0b:95b::/64 } on-error={}
+:do { add list=AZ address=2001:470:1f0b:b25::/64 } on-error={}
 :do { add list=AZ address=2001:470:1f0b:dd3::/64 } on-error={}
 :do { add list=AZ address=2001:470:1f0b:e5c::/64 } on-error={}
 :do { add list=AZ address=2001:470:1f0b:f0e::/64 } on-error={}
@@ -282,7 +283,6 @@
 :do { add list=AZ address=2a02:26f7:e1c1::/48 } on-error={}
 :do { add list=AZ address=2a02:26f7:e1c2::/47 } on-error={}
 :do { add list=AZ address=2a02:26f7:e1c4:4000::/64 } on-error={}
-:do { add list=AZ address=2a02:26f7:e1c4:8000::/50 } on-error={}
 :do { add list=AZ address=2a02:26f7:e1c4:ca00::/63 } on-error={}
 :do { add list=AZ address=2a02:26f7:e1c5::/48 } on-error={}
 :do { add list=AZ address=2a02:26f7:e1c6::/47 } on-error={}

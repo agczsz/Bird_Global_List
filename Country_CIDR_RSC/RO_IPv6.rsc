@@ -4320,7 +4320,6 @@
 :do { add list=RO address=2a06:4a40::/29 } on-error={}
 :do { add list=RO address=2a06:6d00::/29 } on-error={}
 :do { add list=RO address=2a06:7400::/29 } on-error={}
-:do { add list=RO address=2a06:7900::/29 } on-error={}
 :do { add list=RO address=2a06:7940::/29 } on-error={}
 :do { add list=RO address=2a06:82c5::/48 } on-error={}
 :do { add list=RO address=2a06:9801:c2:1::/64 } on-error={}

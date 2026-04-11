@@ -789,6 +789,7 @@
 :do { add list=KR address=2001:470:36:15f::/64 } on-error={}
 :do { add list=KR address=2001:470:36:163::/64 } on-error={}
 :do { add list=KR address=2001:470:36:18a::/64 } on-error={}
+:do { add list=KR address=2001:470:36:1aa::/64 } on-error={}
 :do { add list=KR address=2001:470:36:1e4::/64 } on-error={}
 :do { add list=KR address=2001:470:36:1f4::/64 } on-error={}
 :do { add list=KR address=2001:470:36:228::/64 } on-error={}
@@ -945,6 +946,8 @@
 :do { add list=KR address=2001:470:b16c::/48 } on-error={}
 :do { add list=KR address=2001:470:b16e::/48 } on-error={}
 :do { add list=KR address=2001:470:b7c0::/48 } on-error={}
+:do { add list=KR address=2001:470:ba30::/48 } on-error={}
+:do { add list=KR address=2001:470:da34::/48 } on-error={}
 :do { add list=KR address=2001:470:dcb2:100::/56 } on-error={}
 :do { add list=KR address=2001:470:dcb2:200::/55 } on-error={}
 :do { add list=KR address=2001:470:dcb2:400::/55 } on-error={}
@@ -3880,7 +3883,9 @@
 :do { add list=KR address=2a02:26f7:c2::/48 } on-error={}
 :do { add list=KR address=2a02:26f7:f8::/48 } on-error={}
 :do { add list=KR address=2a02:26f7:166::/47 } on-error={}
-:do { add list=KR address=2a02:26f7:c3c0::/46 } on-error={}
+:do { add list=KR address=2a02:26f7:c3c0::/48 } on-error={}
+:do { add list=KR address=2a02:26f7:c3c1::/48 } on-error={}
+:do { add list=KR address=2a02:26f7:c3c2::/47 } on-error={}
 :do { add list=KR address=2a02:26f7:c3c4::/53 } on-error={}
 :do { add list=KR address=2a02:26f7:c3c4:800::/56 } on-error={}
 :do { add list=KR address=2a02:26f7:c3c4:4000::/64 } on-error={}
@@ -4201,8 +4206,6 @@
 :do { add list=KR address=2a06:a005:2d28::/45 } on-error={}
 :do { add list=KR address=2a06:e881:2706::/48 } on-error={}
 :do { add list=KR address=2a07:b981:4000::/44 } on-error={}
-:do { add list=KR address=2a07:bd82::/32 } on-error={}
-:do { add list=KR address=2a07:bd86::/32 } on-error={}
 :do { add list=KR address=2a07:d887:7900::/40 } on-error={}
 :do { add list=KR address=2a07:db01::/48 } on-error={}
 :do { add list=KR address=2a07:db01:1::/64 } on-error={}

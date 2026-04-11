@@ -2620,8 +2620,6 @@
 :do { add list=ZA address=2a00:79e0:ffe4:7500::/56 } on-error={}
 :do { add list=ZA address=2a00:79e0:ffe4:ba00::/56 } on-error={}
 :do { add list=ZA address=2a00:79e0:ffe4:c900::/56 } on-error={}
-:do { add list=ZA address=2a00:79e0:ffe4:ce00::/56 } on-error={}
-:do { add list=ZA address=2a00:79e0:ffe4:d100::/56 } on-error={}
 :do { add list=ZA address=2a00:79e1:2800:7200::/56 } on-error={}
 :do { add list=ZA address=2a00:79e1:2800:8600::/56 } on-error={}
 :do { add list=ZA address=2a00:79e1:2800:8900::/56 } on-error={}

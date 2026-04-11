@@ -1,7 +1,6 @@
 /log info "Loading CF IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=CF address=2001:470:19:d93::/64 } on-error={}
-:do { add list=CF address=2001:470:24:5a9::/64 } on-error={}
 :do { add list=CF address=2001:470:26:1d5::/64 } on-error={}
 :do { add list=CF address=2001:470:36:29d::/64 } on-error={}
 :do { add list=CF address=2001:470:36:442::/64 } on-error={}

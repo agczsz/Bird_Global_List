@@ -9,6 +9,7 @@
 :do { add list=EG address=2001:470:26:2a::/64 } on-error={}
 :do { add list=EG address=2001:470:26:475::/64 } on-error={}
 :do { add list=EG address=2001:470:28:3a3::/64 } on-error={}
+:do { add list=EG address=2001:470:28:109d::/64 } on-error={}
 :do { add list=EG address=2001:470:36:12f5::/64 } on-error={}
 :do { add list=EG address=2001:470:67:34d::/64 } on-error={}
 :do { add list=EG address=2001:470:6d:43d::/64 } on-error={}

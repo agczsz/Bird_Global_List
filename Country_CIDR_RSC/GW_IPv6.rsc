@@ -3,7 +3,6 @@
 :do { add list=GW address=2001:470:d:11a7::/64 } on-error={}
 :do { add list=GW address=2001:470:24:56d::/64 } on-error={}
 :do { add list=GW address=2001:470:36:1b8::/64 } on-error={}
-:do { add list=GW address=2001:470:36:37f::/64 } on-error={}
 :do { add list=GW address=2001:470:1f2d:148::/64 } on-error={}
 :do { add list=GW address=2001:470:ba13::/48 } on-error={}
 :do { add list=GW address=2001:470:ee29::/48 } on-error={}
