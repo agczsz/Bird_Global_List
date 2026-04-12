@@ -685,6 +685,7 @@
 :do { add list=HR address=2a03:23c0::/32 } on-error={}
 :do { add list=HR address=2a03:39e0::/32 } on-error={}
 :do { add list=HR address=2a03:4280::/32 } on-error={}
+:do { add list=HR address=2a03:5840:154::/48 } on-error={}
 :do { add list=HR address=2a03:6100::/34 } on-error={}
 :do { add list=HR address=2a03:6100:4000::/35 } on-error={}
 :do { add list=HR address=2a03:6100:6000::/40 } on-error={}

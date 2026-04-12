@@ -63,6 +63,7 @@
 :do { add list=SH address=2a0b:4e07:3:6540::/60 } on-error={}
 :do { add list=SH address=2a0b:4e07:60::/48 } on-error={}
 :do { add list=SH address=2a0b:4e07:68::/47 } on-error={}
+:do { add list=SH address=2a0b:4e07:6a::/48 } on-error={}
 :do { add list=SH address=2a0c:9a40:95bb:8000::/52 } on-error={}
 :do { add list=SH address=2a0c:9a40:95bf:ffff::/64 } on-error={}
 :do { add list=SH address=2a0c:9a46:3c7::/48 } on-error={}

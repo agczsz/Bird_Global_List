@@ -23,7 +23,11 @@
 :do { add list=TH address=2001:3c8:100c::/47 } on-error={}
 :do { add list=TH address=2001:3c8:100e::/48 } on-error={}
 :do { add list=TH address=2001:3c8:100f::/48 } on-error={}
-:do { add list=TH address=2001:3c8:1010::/44 } on-error={}
+:do { add list=TH address=2001:3c8:1010::/47 } on-error={}
+:do { add list=TH address=2001:3c8:1012::/48 } on-error={}
+:do { add list=TH address=2001:3c8:1013::/48 } on-error={}
+:do { add list=TH address=2001:3c8:1014::/46 } on-error={}
+:do { add list=TH address=2001:3c8:1018::/45 } on-error={}
 :do { add list=TH address=2001:3c8:1020::/43 } on-error={}
 :do { add list=TH address=2001:3c8:1040::/42 } on-error={}
 :do { add list=TH address=2001:3c8:1080::/41 } on-error={}

@@ -192,7 +192,6 @@
 :do { add list=KZ address=2001:470:6f:399::/64 } on-error={}
 :do { add list=KZ address=2001:470:6f:3ac::/64 } on-error={}
 :do { add list=KZ address=2001:470:6f:3b1::/64 } on-error={}
-:do { add list=KZ address=2001:470:6f:3bc::/64 } on-error={}
 :do { add list=KZ address=2001:470:6f:3d5::/64 } on-error={}
 :do { add list=KZ address=2001:470:6f:3e2::/64 } on-error={}
 :do { add list=KZ address=2001:470:6f:452::/64 } on-error={}
@@ -1862,7 +1861,6 @@
 :do { add list=KZ address=2a04:4e41:4087:c000::/52 } on-error={}
 :do { add list=KZ address=2a04:4f40::/29 } on-error={}
 :do { add list=KZ address=2a04:5140::/29 } on-error={}
-:do { add list=KZ address=2a05:1640::/29 } on-error={}
 :do { add list=KZ address=2a05:d840::/29 } on-error={}
 :do { add list=KZ address=2a05:dfc1:5a88::/48 } on-error={}
 :do { add list=KZ address=2a05:e040::/29 } on-error={}

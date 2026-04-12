@@ -38,7 +38,6 @@
 :do { add list=MQ address=2607:8940:4143:9000::/56 } on-error={}
 :do { add list=MQ address=2803:9810:57c0::/42 } on-error={}
 :do { add list=MQ address=2a01:528:4500::/40 } on-error={}
-:do { add list=MQ address=2a01:cb20:108:2b00::/64 } on-error={}
 :do { add list=MQ address=2a01:cb20:124:2f00::/64 } on-error={}
 :do { add list=MQ address=2a01:cb20:127:ce00::/64 } on-error={}
 :do { add list=MQ address=2a01:cb20:12a:b300::/64 } on-error={}

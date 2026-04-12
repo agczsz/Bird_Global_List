@@ -220,6 +220,7 @@
 :do { add list=UG address=2a04:4e41:407e:6000::/52 } on-error={}
 :do { add list=UG address=2a04:4e41:408e:6000::/52 } on-error={}
 :do { add list=UG address=2a04:c340::/29 } on-error={}
+:do { add list=UG address=2a05:b0c2::/36 } on-error={}
 :do { add list=UG address=2a05:dfc1:5aee::/48 } on-error={}
 :do { add list=UG address=2a05:dfc1:8c2a::/48 } on-error={}
 :do { add list=UG address=2a06:9f81:39e5::/48 } on-error={}

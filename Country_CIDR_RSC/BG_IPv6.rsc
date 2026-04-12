@@ -4216,7 +4216,6 @@
 :do { add list=BG address=2a05:6640::/29 } on-error={}
 :do { add list=BG address=2a05:73c0::/29 } on-error={}
 :do { add list=BG address=2a05:8cc0::/29 } on-error={}
-:do { add list=BG address=2a05:b0c2:1000::/36 } on-error={}
 :do { add list=BG address=2a05:b6c2::/32 } on-error={}
 :do { add list=BG address=2a05:dfc1:5a20::/48 } on-error={}
 :do { add list=BG address=2a05:e9c0:3200::/40 } on-error={}
