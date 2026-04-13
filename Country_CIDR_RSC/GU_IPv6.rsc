@@ -1,7 +1,6 @@
 /log info "Loading GU IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=GU address=2001:2f8:ffdf:55::/64 } on-error={}
-:do { add list=GU address=2001:388:bc:e7::1/128 } on-error={}
 :do { add list=GU address=2001:388:cf85:1::/64 } on-error={}
 :do { add list=GU address=2001:388:cf85:2::/63 } on-error={}
 :do { add list=GU address=2001:388:cf85:5::/64 } on-error={}
@@ -9,7 +8,8 @@
 :do { add list=GU address=2001:470:0:49e::2/128 } on-error={}
 :do { add list=GU address=2001:470:1:b76::/64 } on-error={}
 :do { add list=GU address=2001:470:1:d05::/64 } on-error={}
-:do { add list=GU address=2001:470:1:e81::1/128 } on-error={}
+:do { add list=GU address=2001:470:1:e17::/64 } on-error={}
+:do { add list=GU address=2001:470:1:e81::/64 } on-error={}
 :do { add list=GU address=2001:470:19:26::/64 } on-error={}
 :do { add list=GU address=2001:470:19:b2::/64 } on-error={}
 :do { add list=GU address=2001:470:19:ba8::/64 } on-error={}
@@ -374,7 +374,7 @@
 :do { add list=GU address=2407:940:0:45::/64 } on-error={}
 :do { add list=GU address=2407:940:0:112::/64 } on-error={}
 :do { add list=GU address=2600:1488:5fc0::1b/128 } on-error={}
-:do { add list=GU address=2600:1488:5fc2::28/128 } on-error={}
+:do { add list=GU address=2600:1488:5fc2::26/128 } on-error={}
 :do { add list=GU address=2600:70ff:c037::/48 } on-error={}
 :do { add list=GU address=2600:70ff:c0e7::/48 } on-error={}
 :do { add list=GU address=2602:2a9:b80::/44 } on-error={}

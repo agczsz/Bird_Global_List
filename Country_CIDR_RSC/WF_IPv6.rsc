@@ -19,6 +19,7 @@
 :do { add list=WF address=2401:b60:1fc8::/45 } on-error={}
 :do { add list=WF address=2401:f1e0:ffff:1fdd::/64 } on-error={}
 :do { add list=WF address=2401:f1e0:ffff:7ef3::/64 } on-error={}
+:do { add list=WF address=2401:f1e0:ffff:aa91::/64 } on-error={}
 :do { add list=WF address=2406:2540::/32 } on-error={}
 :do { add list=WF address=2602:f93d:f4::/46 } on-error={}
 :do { add list=WF address=2602:fc30:ca::/48 } on-error={}

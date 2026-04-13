@@ -184,7 +184,7 @@
 :do { add list=NI address=2803:2d60:1600::/44 } on-error={}
 :do { add list=NI address=2803:2d60:1610::/45 } on-error={}
 :do { add list=NI address=2803:2d60:1618::/48 } on-error={}
-:do { add list=NI address=2803:2d60:1619:a000::/51 } on-error={}
+:do { add list=NI address=2803:2d60:1619:b000::/52 } on-error={}
 :do { add list=NI address=2803:2d60:1619:c200::/56 } on-error={}
 :do { add list=NI address=2803:2d60:1619:c900::/56 } on-error={}
 :do { add list=NI address=2803:2d60:1619:cb00::/56 } on-error={}

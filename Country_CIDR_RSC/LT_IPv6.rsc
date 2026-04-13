@@ -1,5 +1,6 @@
 /log info "Loading LT IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=LT address=2001:470:0:46d::2/128 } on-error={}
 :do { add list=LT address=2001:470:0:47c::2/128 } on-error={}
 :do { add list=LT address=2001:470:1:7bf::/64 } on-error={}
 :do { add list=LT address=2001:470:1:81e::/64 } on-error={}
@@ -336,6 +337,7 @@
 :do { add list=LT address=2001:1aba::/31 } on-error={}
 :do { add list=LT address=2001:2030:0:11::/64 } on-error={}
 :do { add list=LT address=2001:2034:0:230::/64 } on-error={}
+:do { add list=LT address=2001:2034:0:23c::/64 } on-error={}
 :do { add list=LT address=2001:2035:0:1351::/64 } on-error={}
 :do { add list=LT address=2001:2035:0:1eaf::2/128 } on-error={}
 :do { add list=LT address=2001:3786:6886:100::/56 } on-error={}
@@ -432,9 +434,10 @@
 :do { add list=LT address=2a00:800:191:1::15:2/128 } on-error={}
 :do { add list=LT address=2a00:800:191:1::15:11/128 } on-error={}
 :do { add list=LT address=2a00:800:191:1::15:12/128 } on-error={}
-:do { add list=LT address=2a00:800:191:1::15:66/127 } on-error={}
+:do { add list=LT address=2a00:800:191:1::15:66/128 } on-error={}
 :do { add list=LT address=2a00:800:191:1::15:6a/128 } on-error={}
 :do { add list=LT address=2a00:800:191:1::28:1/128 } on-error={}
+:do { add list=LT address=2a00:800:191:1::28:2/128 } on-error={}
 :do { add list=LT address=2a00:800:191:1::29:1/128 } on-error={}
 :do { add list=LT address=2a00:800:191:1::29:2/128 } on-error={}
 :do { add list=LT address=2a00:800:191:1::2a:1/128 } on-error={}

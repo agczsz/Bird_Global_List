@@ -289,5 +289,5 @@
 :do { add list=BW address=2c0f:f728::/32 } on-error={}
 :do { add list=BW address=2c0f:f9c0::/32 } on-error={}
 :do { add list=BW address=2c0f:fac8::/32 } on-error={}
-:do { add list=BW address=2c0f:feb0:40:2::/63 } on-error={}
+:do { add list=BW address=2c0f:feb0:40:3::/64 } on-error={}
 :do { add list=BW address=2c0f:ff00::/32 } on-error={}

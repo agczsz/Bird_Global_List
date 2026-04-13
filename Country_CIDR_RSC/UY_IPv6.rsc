@@ -24364,6 +24364,7 @@
 :do { add list=UY address=2804:4ad::/32 } on-error={}
 :do { add list=UY address=2804:4ae::/31 } on-error={}
 :do { add list=UY address=2804:4b0:1520:4c00::/56 } on-error={}
+:do { add list=UY address=2804:4b0:152c:1d00::/56 } on-error={}
 :do { add list=UY address=2804:4b0:154d:df00::/56 } on-error={}
 :do { add list=UY address=2804:4b1::/32 } on-error={}
 :do { add list=UY address=2804:4b2::/31 } on-error={}
@@ -28276,6 +28277,7 @@
 :do { add list=UY address=2804:2705::/32 } on-error={}
 :do { add list=UY address=2804:2706::/31 } on-error={}
 :do { add list=UY address=2804:2708::/29 } on-error={}
+:do { add list=UY address=2804:2710::/32 } on-error={}
 :do { add list=UY address=2804:2711::/32 } on-error={}
 :do { add list=UY address=2804:2712::/31 } on-error={}
 :do { add list=UY address=2804:2715::/32 } on-error={}
@@ -42290,8 +42292,12 @@
 :do { add list=UY address=2804:98a6::/31 } on-error={}
 :do { add list=UY address=2804:98a9::/32 } on-error={}
 :do { add list=UY address=2804:98aa::/31 } on-error={}
-:do { add list=UY address=2804:98ac::/30 } on-error={}
-:do { add list=UY address=2804:98b0::/28 } on-error={}
+:do { add list=UY address=2804:98ad::/32 } on-error={}
+:do { add list=UY address=2804:98ae::/31 } on-error={}
+:do { add list=UY address=2804:98b1::/32 } on-error={}
+:do { add list=UY address=2804:98b2::/31 } on-error={}
+:do { add list=UY address=2804:98b4::/30 } on-error={}
+:do { add list=UY address=2804:98b8::/29 } on-error={}
 :do { add list=UY address=2804:98c0::/26 } on-error={}
 :do { add list=UY address=2804:9900::/24 } on-error={}
 :do { add list=UY address=2804:9a00::/23 } on-error={}

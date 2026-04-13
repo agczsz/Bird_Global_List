@@ -204,7 +204,8 @@
 :do { add list=ML address=2c0f:e870::/32 } on-error={}
 :do { add list=ML address=2c0f:f900::/58 } on-error={}
 :do { add list=ML address=2c0f:f900:0:40::/60 } on-error={}
-:do { add list=ML address=2c0f:f900:0:50::/62 } on-error={}
+:do { add list=ML address=2c0f:f900:0:50::/63 } on-error={}
+:do { add list=ML address=2c0f:f900:0:52::/64 } on-error={}
 :do { add list=ML address=2c0f:f900:0:54::/63 } on-error={}
 :do { add list=ML address=2c0f:f900:0:56::/64 } on-error={}
 :do { add list=ML address=2c0f:f900:0:58::/61 } on-error={}

@@ -406,7 +406,6 @@
 :do { add list=GE address=2a02:26f7:e040:cda2::/64 } on-error={}
 :do { add list=GE address=2a02:26f7:e041::/48 } on-error={}
 :do { add list=GE address=2a02:26f7:e042:4000::/64 } on-error={}
-:do { add list=GE address=2a02:26f7:e042:8000::/50 } on-error={}
 :do { add list=GE address=2a02:26f7:e042:cda0::/63 } on-error={}
 :do { add list=GE address=2a02:26f7:e042:cda2::/64 } on-error={}
 :do { add list=GE address=2a02:26f7:e043::/48 } on-error={}

@@ -1045,7 +1045,6 @@
 :do { add list=VE address=2803:b5d0::/32 } on-error={}
 :do { add list=VE address=2803:b8d0::/32 } on-error={}
 :do { add list=VE address=2803:b950::/32 } on-error={}
-:do { add list=VE address=2803:b9c0:42c0:4e00::/56 } on-error={}
 :do { add list=VE address=2803:b9c0:42c3:a000::/51 } on-error={}
 :do { add list=VE address=2803:b9c0:9ccb:6600::/56 } on-error={}
 :do { add list=VE address=2803:bb80::/32 } on-error={}
