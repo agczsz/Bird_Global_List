@@ -530,6 +530,7 @@
 :do { add list=GE address=2a06:a005:116c::/46 } on-error={}
 :do { add list=GE address=2a07:65c0::/29 } on-error={}
 :do { add list=GE address=2a07:7900::/29 } on-error={}
+:do { add list=GE address=2a07:cec0:4::/48 } on-error={}
 :do { add list=GE address=2a07:d887:4e00::/40 } on-error={}
 :do { add list=GE address=2a07:df40::/29 } on-error={}
 :do { add list=GE address=2a07:ebc0::/29 } on-error={}

@@ -519,7 +519,6 @@
 :do { add list=BE address=2001:470:8:1f3::/64 } on-error={}
 :do { add list=BE address=2001:470:d:11e1::/64 } on-error={}
 :do { add list=BE address=2001:470:d:1205::/64 } on-error={}
-:do { add list=BE address=2001:470:19:170::/64 } on-error={}
 :do { add list=BE address=2001:470:19:254::/64 } on-error={}
 :do { add list=BE address=2001:470:19:277::/64 } on-error={}
 :do { add list=BE address=2001:470:19:57b::/64 } on-error={}

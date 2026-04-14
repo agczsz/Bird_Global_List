@@ -120,7 +120,6 @@
 :do { add list=RS address=2001:470:2005::/48 } on-error={}
 :do { add list=RS address=2001:470:2021::/48 } on-error={}
 :do { add list=RS address=2001:470:202c::/48 } on-error={}
-:do { add list=RS address=2001:470:203b::/48 } on-error={}
 :do { add list=RS address=2001:470:2060::/48 } on-error={}
 :do { add list=RS address=2001:470:2066::/48 } on-error={}
 :do { add list=RS address=2001:470:206a::/48 } on-error={}

@@ -10939,7 +10939,9 @@
 :do { add list=MX address=2806:3a0::/32 } on-error={}
 :do { add list=MX address=2806:3a1::/32 } on-error={}
 :do { add list=MX address=2806:3a2::/32 } on-error={}
-:do { add list=MX address=2806:3a3::/33 } on-error={}
+:do { add list=MX address=2806:3a3::/34 } on-error={}
+:do { add list=MX address=2806:3a3:4000::/35 } on-error={}
+:do { add list=MX address=2806:3a3:6000::/35 } on-error={}
 :do { add list=MX address=2806:3a3:8000::/40 } on-error={}
 :do { add list=MX address=2806:3a3:8100::/40 } on-error={}
 :do { add list=MX address=2806:3a3:8200::/39 } on-error={}

@@ -3309,7 +3309,9 @@
 :do { add list=ID address=2001:df6:e700::/48 } on-error={}
 :do { add list=ID address=2001:df6:e740::/48 } on-error={}
 :do { add list=ID address=2001:df6:e780::/48 } on-error={}
+:do { add list=ID address=2001:df6:e840::/48 } on-error={}
 :do { add list=ID address=2001:df6:e880::/48 } on-error={}
+:do { add list=ID address=2001:df6:e8c0::/48 } on-error={}
 :do { add list=ID address=2001:df6:ec00::/48 } on-error={}
 :do { add list=ID address=2001:df6:ef00::/48 } on-error={}
 :do { add list=ID address=2001:df6:f100::/48 } on-error={}

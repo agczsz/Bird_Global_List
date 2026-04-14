@@ -331,6 +331,7 @@
 :do { add list=BG address=2001:470:2141::/48 } on-error={}
 :do { add list=BG address=2001:470:2157::/48 } on-error={}
 :do { add list=BG address=2001:470:2176::/48 } on-error={}
+:do { add list=BG address=2001:470:217f::/48 } on-error={}
 :do { add list=BG address=2001:470:21b3::/48 } on-error={}
 :do { add list=BG address=2001:470:21e1::/48 } on-error={}
 :do { add list=BG address=2001:470:21ec::/48 } on-error={}

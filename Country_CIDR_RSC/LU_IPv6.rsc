@@ -2613,6 +2613,8 @@
 :do { add list=LU address=2a12:4946:1500::/48 } on-error={}
 :do { add list=LU address=2a12:4946:1800::/48 } on-error={}
 :do { add list=LU address=2a12:4946:8015::/48 } on-error={}
+:do { add list=LU address=2a12:4946:8030::/48 } on-error={}
+:do { add list=LU address=2a12:4946:e000::/40 } on-error={}
 :do { add list=LU address=2a12:5cc0::/32 } on-error={}
 :do { add list=LU address=2a12:8fc6:dae0::/48 } on-error={}
 :do { add list=LU address=2a12:b940::/29 } on-error={}

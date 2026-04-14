@@ -18403,6 +18403,8 @@
 :do { add list=FI address=2a01:ecc0:c40:1d::/64 } on-error={}
 :do { add list=FI address=2a01:ecc0:c40:1f::/64 } on-error={}
 :do { add list=FI address=2a01:ecc0:c40:25::/64 } on-error={}
+:do { add list=FI address=2a01:ecc0:c40:2e::/64 } on-error={}
+:do { add list=FI address=2a01:ecc0:c40:36::/64 } on-error={}
 :do { add list=FI address=2a01:ecc0:1000::/36 } on-error={}
 :do { add list=FI address=2a01:ecc0:4000::/36 } on-error={}
 :do { add list=FI address=2a01:ecc0:5000::/36 } on-error={}

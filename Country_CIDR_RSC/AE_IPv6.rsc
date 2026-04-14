@@ -4893,6 +4893,7 @@
 :do { add list=AE address=2a06:3d84::/30 } on-error={}
 :do { add list=AE address=2a06:5c00::/29 } on-error={}
 :do { add list=AE address=2a06:77c0::/29 } on-error={}
+:do { add list=AE address=2a06:9801:216::/48 } on-error={}
 :do { add list=AE address=2a06:9f81:3902::/48 } on-error={}
 :do { add list=AE address=2a06:9f81:43ef:100::/56 } on-error={}
 :do { add list=AE address=2a06:9f81:5602::/48 } on-error={}

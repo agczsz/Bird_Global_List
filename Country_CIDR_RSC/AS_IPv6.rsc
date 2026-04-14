@@ -285,6 +285,8 @@
 :do { add list=AS address=2001:470:f1b1::/48 } on-error={}
 :do { add list=AS address=2001:470:f2af::/48 } on-error={}
 :do { add list=AS address=2001:470:f380::/48 } on-error={}
+:do { add list=AS address=2001:470:f3e9::/48 } on-error={}
+:do { add list=AS address=2001:470:f3f1::/48 } on-error={}
 :do { add list=AS address=2001:470:f486::/48 } on-error={}
 :do { add list=AS address=2001:470:f4d5::/48 } on-error={}
 :do { add list=AS address=2001:470:f574::/48 } on-error={}

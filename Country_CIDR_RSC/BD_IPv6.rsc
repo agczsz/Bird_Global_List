@@ -1529,7 +1529,11 @@
 :do { add list=BD address=2400:c600:5480::/43 } on-error={}
 :do { add list=BD address=2400:c600:54a0::/43 } on-error={}
 :do { add list=BD address=2400:c600:54c0::/42 } on-error={}
-:do { add list=BD address=2400:c600:5500::/40 } on-error={}
+:do { add list=BD address=2400:c600:5500::/42 } on-error={}
+:do { add list=BD address=2400:c600:5540::/44 } on-error={}
+:do { add list=BD address=2400:c600:5550::/44 } on-error={}
+:do { add list=BD address=2400:c600:5560::/43 } on-error={}
+:do { add list=BD address=2400:c600:5580::/41 } on-error={}
 :do { add list=BD address=2400:c600:5600::/39 } on-error={}
 :do { add list=BD address=2400:c600:5800::/37 } on-error={}
 :do { add list=BD address=2400:c600:6000::/35 } on-error={}
@@ -2660,7 +2664,8 @@
 :do { add list=BD address=2403:140:ff3c::/46 } on-error={}
 :do { add list=BD address=2403:140:ff40::/48 } on-error={}
 :do { add list=BD address=2403:140:ff41::/48 } on-error={}
-:do { add list=BD address=2403:140:ff42::/47 } on-error={}
+:do { add list=BD address=2403:140:ff42::/48 } on-error={}
+:do { add list=BD address=2403:140:ff43::/48 } on-error={}
 :do { add list=BD address=2403:140:ff44::/48 } on-error={}
 :do { add list=BD address=2403:140:ff45::/48 } on-error={}
 :do { add list=BD address=2403:140:ff46::/47 } on-error={}
@@ -2670,12 +2675,10 @@
 :do { add list=BD address=2403:140:ff55::/48 } on-error={}
 :do { add list=BD address=2403:140:ff56::/48 } on-error={}
 :do { add list=BD address=2403:140:ff57::/48 } on-error={}
-:do { add list=BD address=2403:140:ff58::/48 } on-error={}
-:do { add list=BD address=2403:140:ff59::/48 } on-error={}
+:do { add list=BD address=2403:140:ff58::/47 } on-error={}
 :do { add list=BD address=2403:140:ff5a::/47 } on-error={}
 :do { add list=BD address=2403:140:ff5c::/46 } on-error={}
-:do { add list=BD address=2403:140:ff60::/48 } on-error={}
-:do { add list=BD address=2403:140:ff61::/48 } on-error={}
+:do { add list=BD address=2403:140:ff60::/47 } on-error={}
 :do { add list=BD address=2403:140:ff62::/48 } on-error={}
 :do { add list=BD address=2403:140:ff63::/48 } on-error={}
 :do { add list=BD address=2403:140:ff64::/47 } on-error={}
