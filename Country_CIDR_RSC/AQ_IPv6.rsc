@@ -1949,8 +1949,7 @@
 :do { add list=AQ address=2a0f:1cc5:661:2000::/51 } on-error={}
 :do { add list=AQ address=2a0f:1cc5:661:4000::/50 } on-error={}
 :do { add list=AQ address=2a0f:1cc5:661:8000::/49 } on-error={}
-:do { add list=AQ address=2a0f:1cc5:662::/48 } on-error={}
-:do { add list=AQ address=2a0f:1cc5:663::/48 } on-error={}
+:do { add list=AQ address=2a0f:1cc5:662::/47 } on-error={}
 :do { add list=AQ address=2a0f:1cc5:664::/46 } on-error={}
 :do { add list=AQ address=2a0f:1cc5:668::/45 } on-error={}
 :do { add list=AQ address=2a0f:1cc5:b10:300::/56 } on-error={}

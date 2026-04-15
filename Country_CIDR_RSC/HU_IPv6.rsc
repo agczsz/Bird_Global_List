@@ -3836,7 +3836,13 @@
 :do { add list=HU address=2a14:dd80:1006::/47 } on-error={}
 :do { add list=HU address=2a14:dd80:1008::/45 } on-error={}
 :do { add list=HU address=2a14:dd80:1010::/44 } on-error={}
-:do { add list=HU address=2a14:dd80:1020::/43 } on-error={}
+:do { add list=HU address=2a14:dd80:1020::/48 } on-error={}
+:do { add list=HU address=2a14:dd80:1021::/48 } on-error={}
+:do { add list=HU address=2a14:dd80:1022::/48 } on-error={}
+:do { add list=HU address=2a14:dd80:1023::/48 } on-error={}
+:do { add list=HU address=2a14:dd80:1024::/46 } on-error={}
+:do { add list=HU address=2a14:dd80:1028::/45 } on-error={}
+:do { add list=HU address=2a14:dd80:1030::/44 } on-error={}
 :do { add list=HU address=2a14:dd80:1040::/42 } on-error={}
 :do { add list=HU address=2a14:dd80:1080::/41 } on-error={}
 :do { add list=HU address=2a14:dd80:1100::/40 } on-error={}

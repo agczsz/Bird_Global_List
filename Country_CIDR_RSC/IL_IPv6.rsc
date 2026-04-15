@@ -3618,8 +3618,7 @@
 :do { add list=IL address=2a0b:4e07:a000::/36 } on-error={}
 :do { add list=IL address=2a0b:4e07:b000::/37 } on-error={}
 :do { add list=IL address=2a0b:4e07:b800::/37 } on-error={}
-:do { add list=IL address=2a0b:4e07:c000::/35 } on-error={}
-:do { add list=IL address=2a0b:4e07:e000::/35 } on-error={}
+:do { add list=IL address=2a0b:4e07:c000::/34 } on-error={}
 :do { add list=IL address=2a0b:5b00::/29 } on-error={}
 :do { add list=IL address=2a0b:64c6::/32 } on-error={}
 :do { add list=IL address=2a0b:7600::/29 } on-error={}

@@ -167,7 +167,6 @@
 :do { add list=AL address=2001:470:e4e8::/48 } on-error={}
 :do { add list=AL address=2001:470:ec02::/48 } on-error={}
 :do { add list=AL address=2001:470:ec6a::/48 } on-error={}
-:do { add list=AL address=2001:470:edef::/48 } on-error={}
 :do { add list=AL address=2001:470:f32e::/48 } on-error={}
 :do { add list=AL address=2001:470:f97c::/48 } on-error={}
 :do { add list=AL address=2001:470:faf4::/48 } on-error={}

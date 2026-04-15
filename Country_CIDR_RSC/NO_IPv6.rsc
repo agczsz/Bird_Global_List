@@ -3188,7 +3188,6 @@
 :do { add list=NO address=2a01:300:c:0:83:97:21:233/128 } on-error={}
 :do { add list=NO address=2a01:300:c:0:83:97:21:234/128 } on-error={}
 :do { add list=NO address=2a01:300:c:0:146:70:4:67/128 } on-error={}
-:do { add list=NO address=2a01:3e0:3100::/120 } on-error={}
 :do { add list=NO address=2a01:3e0:3100::100/127 } on-error={}
 :do { add list=NO address=2a01:3e0:3100::104/126 } on-error={}
 :do { add list=NO address=2a01:3e0:3100::108/125 } on-error={}

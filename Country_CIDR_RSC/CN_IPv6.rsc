@@ -5263,7 +5263,7 @@
 :do { add list=CN address=2001:470:41a6::/48 } on-error={}
 :do { add list=CN address=2001:470:41ac::/48 } on-error={}
 :do { add list=CN address=2001:470:4801::/48 } on-error={}
-:do { add list=CN address=2001:470:4809::/48 } on-error={}
+:do { add list=CN address=2001:470:4809:8000::/50 } on-error={}
 :do { add list=CN address=2001:470:4811::/48 } on-error={}
 :do { add list=CN address=2001:470:4817::/48 } on-error={}
 :do { add list=CN address=2001:470:4821::/48 } on-error={}

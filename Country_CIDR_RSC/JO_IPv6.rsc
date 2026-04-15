@@ -316,6 +316,7 @@
 :do { add list=JO address=2a04:6200::/29 } on-error={}
 :do { add list=JO address=2a05:74c0::/29 } on-error={}
 :do { add list=JO address=2a05:7500::/29 } on-error={}
+:do { add list=JO address=2a05:b0c2::/36 } on-error={}
 :do { add list=JO address=2a05:dfc1:5a7d::/48 } on-error={}
 :do { add list=JO address=2a06:9bc0::/29 } on-error={}
 :do { add list=JO address=2a06:9f81:396f::/48 } on-error={}

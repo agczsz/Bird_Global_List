@@ -2685,9 +2685,7 @@
 :do { add list=CO address=2800:b70:44::/47 } on-error={}
 :do { add list=CO address=2800:b70:46::/48 } on-error={}
 :do { add list=CO address=2800:b70:47::/48 } on-error={}
-:do { add list=CO address=2800:b70:48::/48 } on-error={}
-:do { add list=CO address=2800:b70:49::/48 } on-error={}
-:do { add list=CO address=2800:b70:4a::/47 } on-error={}
+:do { add list=CO address=2800:b70:48::/46 } on-error={}
 :do { add list=CO address=2800:b70:4c::/46 } on-error={}
 :do { add list=CO address=2800:b70:50::/48 } on-error={}
 :do { add list=CO address=2800:b70:51::/48 } on-error={}
