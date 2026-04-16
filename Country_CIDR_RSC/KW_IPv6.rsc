@@ -1148,8 +1148,8 @@
 :do { add list=KW address=2a12:bec4:12a6:2e88::/63 } on-error={}
 :do { add list=KW address=2a12:bec4:12a6:2e8a::/64 } on-error={}
 :do { add list=KW address=2a12:bec4:12a8:8000::/56 } on-error={}
-:do { add list=KW address=2a12:f8c3:1:7e18::/64 } on-error={}
-:do { add list=KW address=2a12:f8c3:1:7e99::/64 } on-error={}
+:do { add list=KW address=2a12:f8c3:1:7e18:b1e0:3fa2:517b:b5c2/128 } on-error={}
+:do { add list=KW address=2a12:f8c3:1:7e99:2bb0:f:870:518/128 } on-error={}
 :do { add list=KW address=2a13:3740::/29 } on-error={}
 :do { add list=KW address=2a13:3ac6:4000::/36 } on-error={}
 :do { add list=KW address=2a13:82c4:ff16::/48 } on-error={}

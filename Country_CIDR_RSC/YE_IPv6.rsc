@@ -15,7 +15,7 @@
 :do { add list=YE address=2401:b60:1fe2::/47 } on-error={}
 :do { add list=YE address=2401:b60:1fe4::/46 } on-error={}
 :do { add list=YE address=2401:b60:1fe8::/45 } on-error={}
-:do { add list=YE address=2401:f1e0:ffff:462e::/64 } on-error={}
+:do { add list=YE address=2401:f1e0:ffff:462e:2111:efe5:a8e1:db1f/128 } on-error={}
 :do { add list=YE address=2405:b500:7c80::/64 } on-error={}
 :do { add list=YE address=2405:b500:7c80:8::/64 } on-error={}
 :do { add list=YE address=2405:b500:7c80:10::/64 } on-error={}
@@ -232,8 +232,8 @@
 :do { add list=YE address=2a12:f006:8000::/36 } on-error={}
 :do { add list=YE address=2a12:f381:a00::/40 } on-error={}
 :do { add list=YE address=2a12:f382:a00::/40 } on-error={}
-:do { add list=YE address=2a12:f8c3:1:f732::/64 } on-error={}
-:do { add list=YE address=2a12:f8c3:1:f906::/64 } on-error={}
+:do { add list=YE address=2a12:f8c3:1:f732:25b8:6bb3:37f9:76a1/128 } on-error={}
+:do { add list=YE address=2a12:f8c3:1:f906:4d87:b3d6:7862:8ff2/128 } on-error={}
 :do { add list=YE address=2a13:82c4:ff2f::/48 } on-error={}
 :do { add list=YE address=2a13:a5c3:d4cc::/46 } on-error={}
 :do { add list=YE address=2a13:a5c7:25f5::/48 } on-error={}

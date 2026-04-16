@@ -434,9 +434,9 @@
 :do { add list=CR address=2803:21a0::/32 } on-error={}
 :do { add list=CR address=2803:22a0::/32 } on-error={}
 :do { add list=CR address=2803:2cc0::/32 } on-error={}
-:do { add list=CR address=2803:2d60:1011:d100::/56 } on-error={}
 :do { add list=CR address=2803:2d60:101c:f800::/56 } on-error={}
 :do { add list=CR address=2803:2d60:1034:7400::/56 } on-error={}
+:do { add list=CR address=2803:2d60:1034:8e00::/56 } on-error={}
 :do { add list=CR address=2803:2d60:1038:6700::/56 } on-error={}
 :do { add list=CR address=2803:2ed0::/32 } on-error={}
 :do { add list=CR address=2803:3100::/32 } on-error={}
@@ -832,7 +832,12 @@
 :do { add list=CR address=2804:3924:2000::/35 } on-error={}
 :do { add list=CR address=2804:3924:4000::/34 } on-error={}
 :do { add list=CR address=2804:3924:8000::/33 } on-error={}
-:do { add list=CR address=2804:5330:2:a::/64 } on-error={}
+:do { add list=CR address=2804:5330:2:a::/127 } on-error={}
+:do { add list=CR address=2804:5330:2:a::4/127 } on-error={}
+:do { add list=CR address=2804:5330:2:a::8/126 } on-error={}
+:do { add list=CR address=2804:5330:2:a::c/127 } on-error={}
+:do { add list=CR address=2804:5330:2:a::10/126 } on-error={}
+:do { add list=CR address=2804:5330:2:a::14/127 } on-error={}
 :do { add list=CR address=2a00:86c0:2056::/48 } on-error={}
 :do { add list=CR address=2a01:528:af00::/40 } on-error={}
 :do { add list=CR address=2a01:53c0:ff19::/48 } on-error={}
@@ -1063,8 +1068,8 @@
 :do { add list=CR address=2a12:ef86:c000::/36 } on-error={}
 :do { add list=CR address=2a12:f381:af00::/40 } on-error={}
 :do { add list=CR address=2a12:f382:af00::/40 } on-error={}
-:do { add list=CR address=2a12:f8c3:1:3626::/64 } on-error={}
-:do { add list=CR address=2a12:f8c3:1:36b2::/64 } on-error={}
+:do { add list=CR address=2a12:f8c3:1:3626:5eda:c03c:323a:bea3/128 } on-error={}
+:do { add list=CR address=2a12:f8c3:1:36b2:91f:f831:c84c:19ab/128 } on-error={}
 :do { add list=CR address=2a13:a5c7:2532::/48 } on-error={}
 :do { add list=CR address=2a13:a5c7:25ff:3100::/56 } on-error={}
 :do { add list=CR address=2a13:ef41:1283::/48 } on-error={}

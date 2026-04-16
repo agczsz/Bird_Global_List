@@ -502,8 +502,8 @@
 :do { add list=MT address=2a12:f003::/36 } on-error={}
 :do { add list=MT address=2a12:f381:4200::/40 } on-error={}
 :do { add list=MT address=2a12:f382:4200::/40 } on-error={}
-:do { add list=MT address=2a12:f8c3:1:a328::/64 } on-error={}
-:do { add list=MT address=2a12:f8c3:1:a3e2::/64 } on-error={}
+:do { add list=MT address=2a12:f8c3:1:a328:db6a:39e5:a600:57cb/128 } on-error={}
+:do { add list=MT address=2a12:f8c3:1:a3e2:33fb:e5ad:3990:a9da/128 } on-error={}
 :do { add list=MT address=2a13:7705:ff74::/48 } on-error={}
 :do { add list=MT address=2a13:a5c3:d064::/46 } on-error={}
 :do { add list=MT address=2a13:a5c7:2599::/48 } on-error={}

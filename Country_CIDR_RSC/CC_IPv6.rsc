@@ -105,8 +105,8 @@
 :do { add list=CC address=2a12:ef86:7000::/36 } on-error={}
 :do { add list=CC address=2a12:f381:a500::/40 } on-error={}
 :do { add list=CC address=2a12:f382:a500::/40 } on-error={}
-:do { add list=CC address=2a12:f8c3:1:2a08::/64 } on-error={}
-:do { add list=CC address=2a12:f8c3:1:2aea::/64 } on-error={}
+:do { add list=CC address=2a12:f8c3:1:2a08:691b:6b3e:f1bc:3b16/128 } on-error={}
+:do { add list=CC address=2a12:f8c3:1:2aea:75f4:8ca0:6a03:b454/128 } on-error={}
 :do { add list=CC address=2a13:82c4:ff09::/48 } on-error={}
 :do { add list=CC address=2a13:a5c3:d428::/46 } on-error={}
 :do { add list=CC address=2a13:a5c7:2527::/48 } on-error={}

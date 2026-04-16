@@ -86,6 +86,7 @@
 :do { add list=PK address=2001:470:d00c::/48 } on-error={}
 :do { add list=PK address=2001:470:dc7e::/48 } on-error={}
 :do { add list=PK address=2001:470:edbb::/48 } on-error={}
+:do { add list=PK address=2001:470:edf1::/48 } on-error={}
 :do { add list=PK address=2001:470:ee78::/48 } on-error={}
 :do { add list=PK address=2001:470:eec1::/48 } on-error={}
 :do { add list=PK address=2001:470:f133:1::/64 } on-error={}
@@ -2524,7 +2525,15 @@
 :do { add list=PK address=2a04:4e41:66:3d00::/56 } on-error={}
 :do { add list=PK address=2a04:4e41:400:e000::/51 } on-error={}
 :do { add list=PK address=2a04:4e41:401::/52 } on-error={}
+:do { add list=PK address=2a04:4e41:401:4000::/50 } on-error={}
+:do { add list=PK address=2a04:4e41:401:8000::/49 } on-error={}
 :do { add list=PK address=2a04:4e41:403::/48 } on-error={}
+:do { add list=PK address=2a04:4e41:405::/48 } on-error={}
+:do { add list=PK address=2a04:4e41:406::/47 } on-error={}
+:do { add list=PK address=2a04:4e41:408::/45 } on-error={}
+:do { add list=PK address=2a04:4e41:410::/44 } on-error={}
+:do { add list=PK address=2a04:4e41:420::/43 } on-error={}
+:do { add list=PK address=2a04:4e41:440::/42 } on-error={}
 :do { add list=PK address=2a04:4e41:d00:e000::/51 } on-error={}
 :do { add list=PK address=2a04:4e41:d01::/52 } on-error={}
 :do { add list=PK address=2a04:4e41:d02::/48 } on-error={}
@@ -3599,8 +3608,8 @@
 :do { add list=PK address=2a12:ef47::/32 } on-error={}
 :do { add list=PK address=2a12:f381:2c00::/40 } on-error={}
 :do { add list=PK address=2a12:f382:2c00::/40 } on-error={}
-:do { add list=PK address=2a12:f8c3:1:bb5b::/64 } on-error={}
-:do { add list=PK address=2a12:f8c3:1:bbb7::/64 } on-error={}
+:do { add list=PK address=2a12:f8c3:1:bb5b:bd77:aaf4:a83:9e3f/128 } on-error={}
+:do { add list=PK address=2a12:f8c3:1:bbb7:cae5:8103:ccdd:512/128 } on-error={}
 :do { add list=PK address=2a13:3ac3:6000::/35 } on-error={}
 :do { add list=PK address=2a13:6bc0::/32 } on-error={}
 :do { add list=PK address=2a13:82c4:ff22::/48 } on-error={}

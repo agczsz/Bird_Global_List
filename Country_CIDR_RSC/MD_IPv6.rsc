@@ -1284,8 +1284,8 @@
 :do { add list=MD address=2a12:e040:8000::/33 } on-error={}
 :do { add list=MD address=2a12:f381:5000::/40 } on-error={}
 :do { add list=MD address=2a12:f382:5000::/40 } on-error={}
-:do { add list=MD address=2a12:f8c3:1:8eed::/64 } on-error={}
-:do { add list=MD address=2a12:f8c3:1:93d1::/64 } on-error={}
+:do { add list=MD address=2a12:f8c3:1:8eed:6b5c:dce4:317a:8128/128 } on-error={}
+:do { add list=MD address=2a12:f8c3:1:93d1:7b86:9961:cb9b:e43c/128 } on-error={}
 :do { add list=MD address=2a13:c00::/29 } on-error={}
 :do { add list=MD address=2a13:1400::/29 } on-error={}
 :do { add list=MD address=2a13:1c00::/29 } on-error={}

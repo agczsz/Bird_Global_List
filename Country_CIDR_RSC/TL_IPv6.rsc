@@ -24,7 +24,7 @@
 :do { add list=TL address=2401:1560::/32 } on-error={}
 :do { add list=TL address=2401:4b80::/32 } on-error={}
 :do { add list=TL address=2401:b660::/32 } on-error={}
-:do { add list=TL address=2401:f1e0:ffff:3c8c::/64 } on-error={}
+:do { add list=TL address=2401:f1e0:ffff:3c8c:6b29:d5fa:d64b:2021/128 } on-error={}
 :do { add list=TL address=2401:f720::/32 } on-error={}
 :do { add list=TL address=2402:51e0::/32 } on-error={}
 :do { add list=TL address=2402:d080::/32 } on-error={}
@@ -159,8 +159,8 @@
 :do { add list=TL address=2a12:f005:a000::/36 } on-error={}
 :do { add list=TL address=2a12:f381:e200::/40 } on-error={}
 :do { add list=TL address=2a12:f382:e200::/40 } on-error={}
-:do { add list=TL address=2a12:f8c3:1:e231::/64 } on-error={}
-:do { add list=TL address=2a12:f8c3:1:e2f6::/64 } on-error={}
+:do { add list=TL address=2a12:f8c3:1:e231:3a18:aaf7:e819:33a2/128 } on-error={}
+:do { add list=TL address=2a12:f8c3:1:e2f6:76d1:cfc4:de1a:6578/128 } on-error={}
 :do { add list=TL address=2a13:82c4:ff2a::/48 } on-error={}
 :do { add list=TL address=2a13:a5c3:d4b0::/46 } on-error={}
 :do { add list=TL address=2a13:a5c7:25dc::/48 } on-error={}

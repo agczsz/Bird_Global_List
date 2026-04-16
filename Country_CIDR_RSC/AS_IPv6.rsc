@@ -277,7 +277,6 @@
 :do { add list=AS address=2001:470:ec5e:4000::/50 } on-error={}
 :do { add list=AS address=2001:470:ec5e:8000::/49 } on-error={}
 :do { add list=AS address=2001:470:ec87::/48 } on-error={}
-:do { add list=AS address=2001:470:edf1::/48 } on-error={}
 :do { add list=AS address=2001:470:ee68::/48 } on-error={}
 :do { add list=AS address=2001:470:ee9b::/48 } on-error={}
 :do { add list=AS address=2001:470:efb3::/48 } on-error={}
@@ -293,7 +292,6 @@
 :do { add list=AS address=2001:470:f576::/48 } on-error={}
 :do { add list=AS address=2001:470:f6cb::/48 } on-error={}
 :do { add list=AS address=2001:470:f888::/48 } on-error={}
-:do { add list=AS address=2001:470:f8db::/48 } on-error={}
 :do { add list=AS address=2001:470:f97d::/48 } on-error={}
 :do { add list=AS address=2001:470:fa39::/48 } on-error={}
 :do { add list=AS address=2001:470:fa56::/48 } on-error={}
@@ -312,7 +310,7 @@
 :do { add list=AS address=2401:b60:1042::/47 } on-error={}
 :do { add list=AS address=2401:b60:1044::/46 } on-error={}
 :do { add list=AS address=2401:b60:1048::/45 } on-error={}
-:do { add list=AS address=2401:f1e0:ffff:4ea2::/64 } on-error={}
+:do { add list=AS address=2401:f1e0:ffff:4ea2:5cf7:1f18:dde3:7ea8/128 } on-error={}
 :do { add list=AS address=2403:1e00::/32 } on-error={}
 :do { add list=AS address=2403:2140::/32 } on-error={}
 :do { add list=AS address=2405:b500:700::/64 } on-error={}
@@ -482,8 +480,8 @@
 :do { add list=AS address=2a12:ef85:7000::/36 } on-error={}
 :do { add list=AS address=2a12:f381:8a00::/40 } on-error={}
 :do { add list=AS address=2a12:f382:8a00::/40 } on-error={}
-:do { add list=AS address=2a12:f8c3:1:ec7::/64 } on-error={}
-:do { add list=AS address=2a12:f8c3:1:f0d::/64 } on-error={}
+:do { add list=AS address=2a12:f8c3:1:ec7:996c:62e9:2637:89f5/128 } on-error={}
+:do { add list=AS address=2a12:f8c3:1:f0d:c2dd:54a9:563c:f59a/128 } on-error={}
 :do { add list=AS address=2a13:82c4:ff47::/48 } on-error={}
 :do { add list=AS address=2a13:a5c7:250b::/48 } on-error={}
 :do { add list=AS address=2a13:a5c7:25ff:a00::/56 } on-error={}

@@ -148,7 +148,8 @@
 :do { add list=UM address=2a12:f006::/36 } on-error={}
 :do { add list=UM address=2a12:f381:f700::/40 } on-error={}
 :do { add list=UM address=2a12:f382:f700::/40 } on-error={}
-:do { add list=UM address=2a12:f8c3:1:eab5::/64 } on-error={}
+:do { add list=UM address=2a12:f8c3:1:eab5:42cf:f1ab:3879:c572/128 } on-error={}
+:do { add list=UM address=2a12:f8c3:1:eab5:9b46:81e0:2899:eb36/128 } on-error={}
 :do { add list=UM address=2a13:a5c7:25e7::/48 } on-error={}
 :do { add list=UM address=2a13:a5c7:25ff:e700::/56 } on-error={}
 :do { add list=UM address=2a13:aac4::/36 } on-error={}
@@ -184,4 +185,3 @@
 :do { add list=UM address=2a14:7c5:950::/44 } on-error={}
 :do { add list=UM address=2a14:67c1:b6e6::/48 } on-error={}
 :do { add list=UM address=2a14:7580:cfe7::/48 } on-error={}
-:do { add list=UM address=2a14:7581:3bf3::/48 } on-error={}

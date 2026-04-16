@@ -6,7 +6,6 @@
 :do { add list=DM address=2001:470:36:dbd::/64 } on-error={}
 :do { add list=DM address=2001:470:6d:692::/64 } on-error={}
 :do { add list=DM address=2001:470:6d:ab9::/64 } on-error={}
-:do { add list=DM address=2001:470:6f:3c4::/64 } on-error={}
 :do { add list=DM address=2001:470:71:787::/64 } on-error={}
 :do { add list=DM address=2001:470:1f0b:5d0::/64 } on-error={}
 :do { add list=DM address=2001:470:1f0b:807::/64 } on-error={}
@@ -25033,8 +25032,8 @@
 :do { add list=DM address=2401:b60:13d2::/47 } on-error={}
 :do { add list=DM address=2401:b60:13d4::/46 } on-error={}
 :do { add list=DM address=2401:b60:13d8::/45 } on-error={}
-:do { add list=DM address=2401:f1e0:ffff:6dfd::/64 } on-error={}
-:do { add list=DM address=2401:f1e0:ffff:d870::/64 } on-error={}
+:do { add list=DM address=2401:f1e0:ffff:6dfd:324:4a3a:122b:fcac/128 } on-error={}
+:do { add list=DM address=2401:f1e0:ffff:d870:d2f6:dbea:4f50:b6d/128 } on-error={}
 :do { add list=DM address=2405:b500:1f80::/64 } on-error={}
 :do { add list=DM address=2405:b500:1fa0::/64 } on-error={}
 :do { add list=DM address=2405:b500:1fc0::/64 } on-error={}
@@ -25189,8 +25188,8 @@
 :do { add list=DM address=2a12:ef87:3000::/36 } on-error={}
 :do { add list=DM address=2a12:f381:b700::/40 } on-error={}
 :do { add list=DM address=2a12:f382:b700::/40 } on-error={}
-:do { add list=DM address=2a12:f8c3:1:3db9::/64 } on-error={}
-:do { add list=DM address=2a12:f8c3:1:3dc9::/64 } on-error={}
+:do { add list=DM address=2a12:f8c3:1:3db9:1f9f:9bcb:3519:63d9/128 } on-error={}
+:do { add list=DM address=2a12:f8c3:1:3dc9:5f0:a032:4a85:2a1a/128 } on-error={}
 :do { add list=DM address=2a13:a5c7:253c::/48 } on-error={}
 :do { add list=DM address=2a13:a5c7:25ff:3b00::/56 } on-error={}
 :do { add list=DM address=2a13:ef41:12db::/48 } on-error={}

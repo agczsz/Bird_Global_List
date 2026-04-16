@@ -21,7 +21,7 @@
 :do { add list=PM address=2401:b60:1c22::/47 } on-error={}
 :do { add list=PM address=2401:b60:1c24::/46 } on-error={}
 :do { add list=PM address=2401:b60:1c28::/45 } on-error={}
-:do { add list=PM address=2401:f1e0:ffff:8f1::/64 } on-error={}
+:do { add list=PM address=2401:f1e0:ffff:8f1:3597:3a64:af02:46a2/128 } on-error={}
 :do { add list=PM address=2405:b500:5c00::/64 } on-error={}
 :do { add list=PM address=2405:b500:5c20::/64 } on-error={}
 :do { add list=PM address=2405:b500:5c40::/64 } on-error={}
@@ -132,8 +132,8 @@
 :do { add list=PM address=2a12:f003:e000::/36 } on-error={}
 :do { add list=PM address=2a12:f381:2a00::/40 } on-error={}
 :do { add list=PM address=2a12:f382:2a00::/40 } on-error={}
-:do { add list=PM address=2a12:f8c3:1:bc8e::/64 } on-error={}
-:do { add list=PM address=2a12:f8c3:1:bdac::/64 } on-error={}
+:do { add list=PM address=2a12:f8c3:1:bc8e:f43:f673:3873:d642/128 } on-error={}
+:do { add list=PM address=2a12:f8c3:1:bdac:feaa:44bb:c45e:d323/128 } on-error={}
 :do { add list=PM address=2a13:a5c7:25b4::/48 } on-error={}
 :do { add list=PM address=2a13:a5c7:25ff:b300::/56 } on-error={}
 :do { add list=PM address=2a13:ef41:1413::/48 } on-error={}
