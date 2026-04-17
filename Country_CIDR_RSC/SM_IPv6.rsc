@@ -1,6 +1,5 @@
 /log info "Loading SM IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=SM address=2001:470:b:3fd::/64 } on-error={}
 :do { add list=SM address=2001:470:26:7bc::/64 } on-error={}
 :do { add list=SM address=2001:470:36:194::/64 } on-error={}
 :do { add list=SM address=2001:470:71:3fd::/64 } on-error={}
@@ -54,6 +53,7 @@
 :do { add list=SM address=2401:b60:1c52::/47 } on-error={}
 :do { add list=SM address=2401:b60:1c54::/46 } on-error={}
 :do { add list=SM address=2401:b60:1c58::/45 } on-error={}
+:do { add list=SM address=2401:f1e0:ffff:c001::/64 } on-error={}
 :do { add list=SM address=2401:f1e0:ffff:e1d1:bb21:4a84:8034:49bb/128 } on-error={}
 :do { add list=SM address=2405:b500:6800::/64 } on-error={}
 :do { add list=SM address=2405:b500:6820::/64 } on-error={}
@@ -230,9 +230,12 @@
 :do { add list=SM address=2a11:3a87:2000::/35 } on-error={}
 :do { add list=SM address=2a12:bec0:39d::/48 } on-error={}
 :do { add list=SM address=2a12:bec4:12a5:28f5::/64 } on-error={}
-:do { add list=SM address=2a12:bec4:12a5:28f6::/63 } on-error={}
+:do { add list=SM address=2a12:bec4:12a5:28f7::/64 } on-error={}
 :do { add list=SM address=2a12:bec4:12a5:28f8::/61 } on-error={}
-:do { add list=SM address=2a12:bec4:12a5:2900::/60 } on-error={}
+:do { add list=SM address=2a12:bec4:12a5:2900::/62 } on-error={}
+:do { add list=SM address=2a12:bec4:12a5:2904::/63 } on-error={}
+:do { add list=SM address=2a12:bec4:12a5:2907::/64 } on-error={}
+:do { add list=SM address=2a12:bec4:12a5:2908::/61 } on-error={}
 :do { add list=SM address=2a12:bec4:12a5:2910::/62 } on-error={}
 :do { add list=SM address=2a12:bec4:12a5:2914::/64 } on-error={}
 :do { add list=SM address=2a12:bec4:12a8:d100::/56 } on-error={}

@@ -1,8 +1,10 @@
 /log info "Loading CW IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=CW address=2001:470:5:267::/64 } on-error={}
 :do { add list=CW address=2001:470:5:26b::/64 } on-error={}
 :do { add list=CW address=2001:470:19:5e1::/64 } on-error={}
 :do { add list=CW address=2001:470:19:693::/64 } on-error={}
+:do { add list=CW address=2001:470:1d:49e::/64 } on-error={}
 :do { add list=CW address=2001:470:24:20f::/64 } on-error={}
 :do { add list=CW address=2001:470:28:bab::/64 } on-error={}
 :do { add list=CW address=2001:470:36:338::/64 } on-error={}
@@ -31,7 +33,6 @@
 :do { add list=CW address=2606:40:2149:c000::/51 } on-error={}
 :do { add list=CW address=2606:54c0:2738::/45 } on-error={}
 :do { add list=CW address=2606:54c3:0:d05::/64 } on-error={}
-:do { add list=CW address=2607:2400:1968:3c90::/64 } on-error={}
 :do { add list=CW address=2607:8940:251a::/47 } on-error={}
 :do { add list=CW address=2607:8940:251e::/47 } on-error={}
 :do { add list=CW address=2607:8940:4023:7200::/55 } on-error={}
@@ -102,6 +103,7 @@
 :do { add list=CW address=2803:9f20::/32 } on-error={}
 :do { add list=CW address=2803:bed0::/32 } on-error={}
 :do { add list=CW address=2803:f950:0:202::/63 } on-error={}
+:do { add list=CW address=2803:f950:0:302::/64 } on-error={}
 :do { add list=CW address=2803:f950:0:502::/72 } on-error={}
 :do { add list=CW address=2803:f950:0:502:100::/73 } on-error={}
 :do { add list=CW address=2803:f950:0:502:180::/76 } on-error={}

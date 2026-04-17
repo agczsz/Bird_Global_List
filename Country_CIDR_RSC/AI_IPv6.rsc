@@ -1,5 +1,7 @@
 /log info "Loading AI IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=AI address=2001:470:5:45::/64 } on-error={}
+:do { add list=AI address=2001:470:5:27f::/64 } on-error={}
 :do { add list=AI address=2001:470:8:57e::/64 } on-error={}
 :do { add list=AI address=2001:470:d:1b0c::/64 } on-error={}
 :do { add list=AI address=2001:470:19:1326::/64 } on-error={}
@@ -196,22 +198,7 @@
 :do { add list=AI address=2a07:68c0:3:2000::/51 } on-error={}
 :do { add list=AI address=2a07:68c0:3:4000::/50 } on-error={}
 :do { add list=AI address=2a07:68c0:3:8000::/49 } on-error={}
-:do { add list=AI address=2a07:68c0:4:1::/64 } on-error={}
-:do { add list=AI address=2a07:68c0:4:2::/63 } on-error={}
-:do { add list=AI address=2a07:68c0:4:4::/62 } on-error={}
-:do { add list=AI address=2a07:68c0:4:8::/61 } on-error={}
-:do { add list=AI address=2a07:68c0:4:10::/60 } on-error={}
-:do { add list=AI address=2a07:68c0:4:20::/59 } on-error={}
-:do { add list=AI address=2a07:68c0:4:40::/58 } on-error={}
-:do { add list=AI address=2a07:68c0:4:80::/57 } on-error={}
-:do { add list=AI address=2a07:68c0:4:100::/56 } on-error={}
-:do { add list=AI address=2a07:68c0:4:200::/55 } on-error={}
-:do { add list=AI address=2a07:68c0:4:400::/54 } on-error={}
-:do { add list=AI address=2a07:68c0:4:800::/53 } on-error={}
-:do { add list=AI address=2a07:68c0:4:1000::/52 } on-error={}
-:do { add list=AI address=2a07:68c0:4:2000::/51 } on-error={}
-:do { add list=AI address=2a07:68c0:4:4000::/50 } on-error={}
-:do { add list=AI address=2a07:68c0:4:8000::/49 } on-error={}
+:do { add list=AI address=2a07:68c0:4::/48 } on-error={}
 :do { add list=AI address=2a07:68c0:ffff::/48 } on-error={}
 :do { add list=AI address=2a07:d887:400::/40 } on-error={}
 :do { add list=AI address=2a09:4c0:0:5::/64 } on-error={}

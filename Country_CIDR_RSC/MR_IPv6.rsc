@@ -1,6 +1,5 @@
 /log info "Loading MR IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=MR address=2001:470:24:5d4::/64 } on-error={}
 :do { add list=MR address=2001:470:36:13b::/64 } on-error={}
 :do { add list=MR address=2001:470:36:5af::/64 } on-error={}
 :do { add list=MR address=2001:470:ba0d::/48 } on-error={}
@@ -14,12 +13,14 @@
 :do { add list=MR address=2401:b60:1904::/46 } on-error={}
 :do { add list=MR address=2401:b60:1908::/45 } on-error={}
 :do { add list=MR address=2401:f1e0:ffff:6c3b:ac5e:5a50:b534:a0de/128 } on-error={}
+:do { add list=MR address=2401:f1e0:ffff:a208::/64 } on-error={}
 :do { add list=MR address=2405:b500:4d80::/64 } on-error={}
 :do { add list=MR address=2405:b500:4da0::/64 } on-error={}
 :do { add list=MR address=2405:b500:4dc0::/64 } on-error={}
 :do { add list=MR address=2405:b500:4de0::/64 } on-error={}
 :do { add list=MR address=2600:70ff:a452::/48 } on-error={}
 :do { add list=MR address=2605:59c0:4900::/40 } on-error={}
+:do { add list=MR address=2605:59c0:8500::/40 } on-error={}
 :do { add list=MR address=2606:40:918::/45 } on-error={}
 :do { add list=MR address=2606:40:920::/45 } on-error={}
 :do { add list=MR address=2606:40:1150::/44 } on-error={}

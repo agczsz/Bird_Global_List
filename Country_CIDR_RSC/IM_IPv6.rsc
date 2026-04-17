@@ -1,5 +1,6 @@
 /log info "Loading IM IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=IM address=2001:470:8:29a::/64 } on-error={}
 :do { add list=IM address=2001:470:19:12fa::/64 } on-error={}
 :do { add list=IM address=2001:470:26:53e::/64 } on-error={}
 :do { add list=IM address=2001:470:26:5cc::/64 } on-error={}
@@ -54,22 +55,7 @@
 :do { add list=IM address=2001:470:6033::/48 } on-error={}
 :do { add list=IM address=2001:470:6098::/48 } on-error={}
 :do { add list=IM address=2001:470:69cd::/48 } on-error={}
-:do { add list=IM address=2001:470:69fa:1::/64 } on-error={}
-:do { add list=IM address=2001:470:69fa:2::/63 } on-error={}
-:do { add list=IM address=2001:470:69fa:4::/62 } on-error={}
-:do { add list=IM address=2001:470:69fa:8::/61 } on-error={}
-:do { add list=IM address=2001:470:69fa:10::/60 } on-error={}
-:do { add list=IM address=2001:470:69fa:20::/59 } on-error={}
-:do { add list=IM address=2001:470:69fa:40::/58 } on-error={}
-:do { add list=IM address=2001:470:69fa:80::/57 } on-error={}
-:do { add list=IM address=2001:470:69fa:100::/56 } on-error={}
-:do { add list=IM address=2001:470:69fa:200::/55 } on-error={}
-:do { add list=IM address=2001:470:69fa:400::/54 } on-error={}
-:do { add list=IM address=2001:470:69fa:800::/53 } on-error={}
-:do { add list=IM address=2001:470:69fa:1000::/52 } on-error={}
-:do { add list=IM address=2001:470:69fa:2000::/51 } on-error={}
-:do { add list=IM address=2001:470:69fa:4000::/50 } on-error={}
-:do { add list=IM address=2001:470:69fa:8000::/49 } on-error={}
+:do { add list=IM address=2001:470:69fa::/48 } on-error={}
 :do { add list=IM address=2001:470:6b85::/50 } on-error={}
 :do { add list=IM address=2001:470:6b85:4000::/51 } on-error={}
 :do { add list=IM address=2001:470:6b85:6000::/54 } on-error={}
@@ -96,6 +82,7 @@
 :do { add list=IM address=2001:3786:5015:100::/56 } on-error={}
 :do { add list=IM address=2001:4b28:dd00::/40 } on-error={}
 :do { add list=IM address=2401:f1e0:ffff:1a02:fbc6:de31:983f:2c81/128 } on-error={}
+:do { add list=IM address=2401:f1e0:ffff:65c7::/64 } on-error={}
 :do { add list=IM address=2405:b500:3600::/64 } on-error={}
 :do { add list=IM address=2405:b500:3620::/64 } on-error={}
 :do { add list=IM address=2405:b500:3640::/64 } on-error={}
@@ -388,7 +375,9 @@
 :do { add list=IM address=2a00:5542::/31 } on-error={}
 :do { add list=IM address=2a00:5544::/30 } on-error={}
 :do { add list=IM address=2a01:528:dd00::/40 } on-error={}
-:do { add list=IM address=2a01:6a00::/61 } on-error={}
+:do { add list=IM address=2a01:6a00::/62 } on-error={}
+:do { add list=IM address=2a01:6a00:0:4::/63 } on-error={}
+:do { add list=IM address=2a01:6a00:0:7::/64 } on-error={}
 :do { add list=IM address=2a01:6a00:0:8::/64 } on-error={}
 :do { add list=IM address=2a01:6a00:0:b::/64 } on-error={}
 :do { add list=IM address=2a01:6a00:0:c::/64 } on-error={}
@@ -594,14 +583,6 @@
 :do { add list=IM address=2a03:9e00:1:450::/60 } on-error={}
 :do { add list=IM address=2a03:9e00:1:460::/59 } on-error={}
 :do { add list=IM address=2a03:9e00:1:480::/57 } on-error={}
-:do { add list=IM address=2a03:9e00:1:501::/64 } on-error={}
-:do { add list=IM address=2a03:9e00:1:502::/63 } on-error={}
-:do { add list=IM address=2a03:9e00:1:504::/62 } on-error={}
-:do { add list=IM address=2a03:9e00:1:508::/61 } on-error={}
-:do { add list=IM address=2a03:9e00:1:510::/60 } on-error={}
-:do { add list=IM address=2a03:9e00:1:520::/59 } on-error={}
-:do { add list=IM address=2a03:9e00:1:540::/58 } on-error={}
-:do { add list=IM address=2a03:9e00:1:580::/57 } on-error={}
 :do { add list=IM address=2a03:9e00:1:600::/55 } on-error={}
 :do { add list=IM address=2a03:9e00:1:800::/56 } on-error={}
 :do { add list=IM address=2a03:9e00:1:901::/64 } on-error={}

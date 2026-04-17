@@ -3,7 +3,6 @@
 :do { add list=CG address=2001:470:24:21e::/64 } on-error={}
 :do { add list=CG address=2001:470:36:a8::/64 } on-error={}
 :do { add list=CG address=2001:470:36:11d3::/64 } on-error={}
-:do { add list=CG address=2001:470:67:245::/64 } on-error={}
 :do { add list=CG address=2001:470:6f:21e::/64 } on-error={}
 :do { add list=CG address=2001:470:6f:426::/64 } on-error={}
 :do { add list=CG address=2001:470:1f09:22::/64 } on-error={}

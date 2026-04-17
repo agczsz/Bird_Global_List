@@ -5,6 +5,7 @@
 :do { add list=LB address=2001:470:6d:331::/64 } on-error={}
 :do { add list=LB address=2001:470:6d:1035::/64 } on-error={}
 :do { add list=LB address=2001:470:6d:1099::/64 } on-error={}
+:do { add list=LB address=2001:470:6f:66::/64 } on-error={}
 :do { add list=LB address=2001:470:6f:4f5::/64 } on-error={}
 :do { add list=LB address=2001:470:1f09:117::/64 } on-error={}
 :do { add list=LB address=2001:470:1f0b:4e::/64 } on-error={}
@@ -98,6 +99,7 @@
 :do { add list=LB address=2600:70ff:9809::/48 } on-error={}
 :do { add list=LB address=2600:70ff:b1b5::/48 } on-error={}
 :do { add list=LB address=2600:70ff:d160::/48 } on-error={}
+:do { add list=LB address=2604:bc80:8001:1060::/64 } on-error={}
 :do { add list=LB address=2606:40:a38::/45 } on-error={}
 :do { add list=LB address=2606:40:a40::/45 } on-error={}
 :do { add list=LB address=2606:40:12c0::/44 } on-error={}

@@ -64,6 +64,7 @@
 :do { add list=NC address=2405:b500:52c0:120::/64 } on-error={}
 :do { add list=NC address=2405:b500:52e0::/64 } on-error={}
 :do { add list=NC address=2405:b500:52e0:120::/64 } on-error={}
+:do { add list=NC address=2406:2d40:2700::/40 } on-error={}
 :do { add list=NC address=2407:1240::/48 } on-error={}
 :do { add list=NC address=2407:1240:1::/48 } on-error={}
 :do { add list=NC address=2407:1240:2::/47 } on-error={}

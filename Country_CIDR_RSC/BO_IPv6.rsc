@@ -1,6 +1,11 @@
 /log info "Loading BO IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=BO address=2001:470:5:9e::/64 } on-error={}
+:do { add list=BO address=2001:470:5:18f::/64 } on-error={}
+:do { add list=BO address=2001:470:5:1fb::/64 } on-error={}
+:do { add list=BO address=2001:470:5:462::/64 } on-error={}
 :do { add list=BO address=2001:470:5:6a2::/64 } on-error={}
+:do { add list=BO address=2001:470:8:5e3::/64 } on-error={}
 :do { add list=BO address=2001:470:19:419::/64 } on-error={}
 :do { add list=BO address=2001:470:19:fa6::/64 } on-error={}
 :do { add list=BO address=2001:470:24:e9c::/64 } on-error={}

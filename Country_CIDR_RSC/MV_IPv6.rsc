@@ -90,6 +90,7 @@
 :do { add list=MV address=2401:8300:f200::/39 } on-error={}
 :do { add list=MV address=2401:8300:f400::/38 } on-error={}
 :do { add list=MV address=2401:8300:f800::/37 } on-error={}
+:do { add list=MV address=2401:f1e0:ffff:4963::/64 } on-error={}
 :do { add list=MV address=2401:f1e0:ffff:a2dd:a7b:d65:842c:cc62/128 } on-error={}
 :do { add list=MV address=2404:ab80::/46 } on-error={}
 :do { add list=MV address=2404:ab80:4::/48 } on-error={}

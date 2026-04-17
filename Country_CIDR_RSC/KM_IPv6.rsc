@@ -7,7 +7,6 @@
 :do { add list=KM address=2001:470:36:101::/64 } on-error={}
 :do { add list=KM address=2001:470:36:816::/64 } on-error={}
 :do { add list=KM address=2001:470:36:894::/64 } on-error={}
-:do { add list=KM address=2001:470:1f13:84::/64 } on-error={}
 :do { add list=KM address=2001:470:1f29:1a7::/64 } on-error={}
 :do { add list=KM address=2001:470:1f2b:74::/64 } on-error={}
 :do { add list=KM address=2001:470:fa89::/48 } on-error={}

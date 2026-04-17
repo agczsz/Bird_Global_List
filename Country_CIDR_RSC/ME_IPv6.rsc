@@ -32,6 +32,7 @@
 :do { add list=ME address=2401:b60:1982::/47 } on-error={}
 :do { add list=ME address=2401:b60:1984::/46 } on-error={}
 :do { add list=ME address=2401:b60:1988::/45 } on-error={}
+:do { add list=ME address=2401:f1e0:ffff:93ae::/64 } on-error={}
 :do { add list=ME address=2401:f1e0:ffff:ea16:fd3b:e02e:1739:15a1/128 } on-error={}
 :do { add list=ME address=2405:b500:4800::/64 } on-error={}
 :do { add list=ME address=2405:b500:4820::/64 } on-error={}
@@ -375,7 +376,7 @@
 :do { add list=ME address=2a11:a580:5800::/40 } on-error={}
 :do { add list=ME address=2a11:a686:1000::/36 } on-error={}
 :do { add list=ME address=2a12:bec4:12a5:26e5::/64 } on-error={}
-:do { add list=ME address=2a12:bec4:12a5:26e6::/63 } on-error={}
+:do { add list=ME address=2a12:bec4:12a5:26e7::/64 } on-error={}
 :do { add list=ME address=2a12:bec4:12a5:26e8::/61 } on-error={}
 :do { add list=ME address=2a12:bec4:12a5:26f0::/61 } on-error={}
 :do { add list=ME address=2a12:bec4:12a5:26f8::/62 } on-error={}

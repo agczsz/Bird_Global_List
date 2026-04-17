@@ -13,6 +13,7 @@
 :do { add list=ML address=2405:b500:4aa0::/64 } on-error={}
 :do { add list=ML address=2405:b500:4ac0::/64 } on-error={}
 :do { add list=ML address=2405:b500:4ae0::/64 } on-error={}
+:do { add list=ML address=2605:59c0:8400::/40 } on-error={}
 :do { add list=ML address=2605:59c8:5500::/40 } on-error={}
 :do { add list=ML address=2606:40:768::/45 } on-error={}
 :do { add list=ML address=2606:40:770::/45 } on-error={}
@@ -204,7 +205,7 @@
 :do { add list=ML address=2c0f:e870::/32 } on-error={}
 :do { add list=ML address=2c0f:f900::/58 } on-error={}
 :do { add list=ML address=2c0f:f900:0:40::/60 } on-error={}
-:do { add list=ML address=2c0f:f900:0:50::/63 } on-error={}
+:do { add list=ML address=2c0f:f900:0:50::/64 } on-error={}
 :do { add list=ML address=2c0f:f900:0:52::/64 } on-error={}
 :do { add list=ML address=2c0f:f900:0:54::/63 } on-error={}
 :do { add list=ML address=2c0f:f900:0:56::/64 } on-error={}

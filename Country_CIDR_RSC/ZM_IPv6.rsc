@@ -1,6 +1,5 @@
 /log info "Loading ZM IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=ZM address=2001:470:b:ea::/64 } on-error={}
 :do { add list=ZM address=2001:470:19:731::/64 } on-error={}
 :do { add list=ZM address=2001:470:19:938::/64 } on-error={}
 :do { add list=ZM address=2001:470:19:f7f::/64 } on-error={}
@@ -24,6 +23,7 @@
 :do { add list=ZM address=2001:4218:5000::/109 } on-error={}
 :do { add list=ZM address=2001:4218:5000::8:0/124 } on-error={}
 :do { add list=ZM address=2001:4218:5000::8:10/125 } on-error={}
+:do { add list=ZM address=2001:4218:5000::8:19/128 } on-error={}
 :do { add list=ZM address=2001:4218:5000::8:1a/127 } on-error={}
 :do { add list=ZM address=2001:4218:5000::8:1c/126 } on-error={}
 :do { add list=ZM address=2001:4218:5000::8:20/123 } on-error={}
@@ -58,6 +58,7 @@
 :do { add list=ZM address=2001:4218:5000::8:570/126 } on-error={}
 :do { add list=ZM address=2001:4218:5000::8:574/127 } on-error={}
 :do { add list=ZM address=2001:4218:5000::8:578/125 } on-error={}
+:do { add list=ZM address=2001:4218:5000::8:583/128 } on-error={}
 :do { add list=ZM address=2001:4218:5000::8:584/128 } on-error={}
 :do { add list=ZM address=2001:4218:5000::8:586/127 } on-error={}
 :do { add list=ZM address=2001:4218:5000::8:588/125 } on-error={}
@@ -194,6 +195,7 @@
 :do { add list=ZM address=2401:b60:1ff2::/47 } on-error={}
 :do { add list=ZM address=2401:b60:1ff4::/46 } on-error={}
 :do { add list=ZM address=2401:b60:1ff8::/45 } on-error={}
+:do { add list=ZM address=2401:f1e0:ffff:d1da::/64 } on-error={}
 :do { add list=ZM address=2401:f1e0:ffff:e7dd:c69c:9a7a:6278:48f/128 } on-error={}
 :do { add list=ZM address=2405:b500:7e00::/64 } on-error={}
 :do { add list=ZM address=2405:b500:7e20::/64 } on-error={}
@@ -209,7 +211,6 @@
 :do { add list=ZM address=2604:b040:13::4:8:0/112 } on-error={}
 :do { add list=ZM address=2604:b040:13::5:8:0/112 } on-error={}
 :do { add list=ZM address=2605:59c0:1a00::/40 } on-error={}
-:do { add list=ZM address=2605:59c0:5d00::/41 } on-error={}
 :do { add list=ZM address=2605:59c8:6c00::/40 } on-error={}
 :do { add list=ZM address=2605:59ca:8500::/40 } on-error={}
 :do { add list=ZM address=2606:54c0:d420::/45 } on-error={}
@@ -455,7 +456,7 @@
 :do { add list=ZM address=2c0f:fa10:2:800f::/64 } on-error={}
 :do { add list=ZM address=2c0f:fa10:2:8019::/64 } on-error={}
 :do { add list=ZM address=2c0f:fa10:2:80c9::/64 } on-error={}
-:do { add list=ZM address=2c0f:fa10:2:80f2::/64 } on-error={}
+:do { add list=ZM address=2c0f:fa10:2:80f2::/63 } on-error={}
 :do { add list=ZM address=2c0f:fa10:2:8105::/64 } on-error={}
 :do { add list=ZM address=2c0f:fa10:2:8106::/63 } on-error={}
 :do { add list=ZM address=2c0f:fa10:2:8108::/64 } on-error={}

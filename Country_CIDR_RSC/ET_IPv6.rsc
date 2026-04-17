@@ -283,3 +283,4 @@
 :do { add list=ET address=2c0f:eb00:1140::/42 } on-error={}
 :do { add list=ET address=2c0f:eb00:1180::/41 } on-error={}
 :do { add list=ET address=2c0f:f348::/32 } on-error={}
+:do { add list=ET address=2c0f:fb38:0:1::/64 } on-error={}

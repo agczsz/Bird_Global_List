@@ -1,5 +1,7 @@
 /log info "Loading KY IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=KY address=2001:470:5:33::/64 } on-error={}
+:do { add list=KY address=2001:470:5:2bf::/64 } on-error={}
 :do { add list=KY address=2001:470:5:682::/64 } on-error={}
 :do { add list=KY address=2001:470:24:5cc::/64 } on-error={}
 :do { add list=KY address=2001:470:24:dad::/64 } on-error={}
@@ -28,6 +30,7 @@
 :do { add list=KY address=2401:b60:1292::/47 } on-error={}
 :do { add list=KY address=2401:b60:1294::/46 } on-error={}
 :do { add list=KY address=2401:b60:1298::/45 } on-error={}
+:do { add list=KY address=2401:f1e0:ffff:8a20::/64 } on-error={}
 :do { add list=KY address=2401:f1e0:ffff:ab47:2e1f:5e23:1477:af98/128 } on-error={}
 :do { add list=KY address=2405:b500:4000::/64 } on-error={}
 :do { add list=KY address=2405:b500:4020::/64 } on-error={}

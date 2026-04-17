@@ -1,6 +1,6 @@
 /log info "Loading BB IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=BB address=2001:470:d:11d7::/64 } on-error={}
+:do { add list=BB address=2001:470:1d:10f::/64 } on-error={}
 :do { add list=BB address=2001:470:28:b43::/64 } on-error={}
 :do { add list=BB address=2001:470:36:9c::/64 } on-error={}
 :do { add list=BB address=2001:470:6d:454::/64 } on-error={}

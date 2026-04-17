@@ -46,7 +46,6 @@
 :do { add list=TO address=2406:1500:2000::/35 } on-error={}
 :do { add list=TO address=2406:1500:4000::/34 } on-error={}
 :do { add list=TO address=2406:1500:8000::/33 } on-error={}
-:do { add list=TO address=2406:2d40:2680::/42 } on-error={}
 :do { add list=TO address=2406:2d40:4302::/47 } on-error={}
 :do { add list=TO address=2406:2d40:4304::/46 } on-error={}
 :do { add list=TO address=2406:2d40:4308::/48 } on-error={}

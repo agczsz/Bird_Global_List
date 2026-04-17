@@ -1,8 +1,11 @@
 /log info "Loading SV IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=SV address=2001:470:5:fc::/64 } on-error={}
 :do { add list=SV address=2001:470:5:220::/64 } on-error={}
+:do { add list=SV address=2001:470:5:298::/64 } on-error={}
+:do { add list=SV address=2001:470:5:428::/64 } on-error={}
+:do { add list=SV address=2001:470:5:4ff::/64 } on-error={}
 :do { add list=SV address=2001:470:8:4be::/64 } on-error={}
-:do { add list=SV address=2001:470:1f19:183::/64 } on-error={}
 :do { add list=SV address=2001:470:287d::/48 } on-error={}
 :do { add list=SV address=2001:470:d8b0::/48 } on-error={}
 :do { add list=SV address=2001:470:d987::/48 } on-error={}
@@ -36,7 +39,6 @@
 :do { add list=SV address=2405:b500:6b60:10::/64 } on-error={}
 :do { add list=SV address=2600:70ff:906f::/48 } on-error={}
 :do { add list=SV address=2602:2a9:be0::/44 } on-error={}
-:do { add list=SV address=2605:59c0:6200::/41 } on-error={}
 :do { add list=SV address=2605:59c8:7200::/42 } on-error={}
 :do { add list=SV address=2606:40:e40::/43 } on-error={}
 :do { add list=SV address=2606:40:205e:c000::/51 } on-error={}
@@ -54,6 +56,7 @@
 :do { add list=SV address=2607:8940:4200:cc00::/55 } on-error={}
 :do { add list=SV address=2607:8940:4200:ce00::/56 } on-error={}
 :do { add list=SV address=2800:90::/32 } on-error={}
+:do { add list=SV address=2800:98:1007:1e00::/56 } on-error={}
 :do { add list=SV address=2800:3d0:1180:100::/56 } on-error={}
 :do { add list=SV address=2800:3d0:118c:8000::/56 } on-error={}
 :do { add list=SV address=2800:880::/30 } on-error={}

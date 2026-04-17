@@ -1,9 +1,6 @@
 /log info "Loading DZ IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=DZ address=2001:470:8:174::/64 } on-error={}
 :do { add list=DZ address=2001:470:8:5da::/64 } on-error={}
-:do { add list=DZ address=2001:470:8:659::/64 } on-error={}
-:do { add list=DZ address=2001:470:d:12b8::/64 } on-error={}
 :do { add list=DZ address=2001:470:19:ac::/64 } on-error={}
 :do { add list=DZ address=2001:470:19:20a::/64 } on-error={}
 :do { add list=DZ address=2001:470:19:74a::/64 } on-error={}
@@ -29,6 +26,7 @@
 :do { add list=DZ address=2001:470:36:f11::/64 } on-error={}
 :do { add list=DZ address=2001:470:36:12d9::/64 } on-error={}
 :do { add list=DZ address=2001:470:67:121::/64 } on-error={}
+:do { add list=DZ address=2001:470:6d:737::/64 } on-error={}
 :do { add list=DZ address=2001:470:6d:91c::/64 } on-error={}
 :do { add list=DZ address=2001:470:6d:e8f::/64 } on-error={}
 :do { add list=DZ address=2001:470:6d:fa0::/64 } on-error={}
@@ -41,7 +39,6 @@
 :do { add list=DZ address=2001:470:1f0b:62b::/64 } on-error={}
 :do { add list=DZ address=2001:470:1f0b:dae::/64 } on-error={}
 :do { add list=DZ address=2001:470:1f0b:10f3::/64 } on-error={}
-:do { add list=DZ address=2001:470:1f11:b16::/64 } on-error={}
 :do { add list=DZ address=2001:470:1f13:10d::/64 } on-error={}
 :do { add list=DZ address=2001:470:1f13:19d::/64 } on-error={}
 :do { add list=DZ address=2001:470:1f13:242::/64 } on-error={}
@@ -63,6 +60,7 @@
 :do { add list=DZ address=2001:470:2a40::/48 } on-error={}
 :do { add list=DZ address=2001:470:48d1::/48 } on-error={}
 :do { add list=DZ address=2001:470:49c0::/48 } on-error={}
+:do { add list=DZ address=2001:470:5252::/48 } on-error={}
 :do { add list=DZ address=2001:470:727c::/48 } on-error={}
 :do { add list=DZ address=2001:470:79f4::/48 } on-error={}
 :do { add list=DZ address=2001:470:8d7d::/48 } on-error={}

@@ -1,6 +1,5 @@
 /log info "Loading IS IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=IS address=2001:470:d:1174::/64 } on-error={}
 :do { add list=IS address=2001:470:19:ab::/64 } on-error={}
 :do { add list=IS address=2001:470:19:b4::/64 } on-error={}
 :do { add list=IS address=2001:470:19:666::/64 } on-error={}
@@ -46,8 +45,6 @@
 :do { add list=IS address=2001:470:1f0b:9cf::/64 } on-error={}
 :do { add list=IS address=2001:470:1f0b:e6f::/64 } on-error={}
 :do { add list=IS address=2001:470:1f0b:127d::/64 } on-error={}
-:do { add list=IS address=2001:470:1f11:b28::/64 } on-error={}
-:do { add list=IS address=2001:470:1f11:b4b::/64 } on-error={}
 :do { add list=IS address=2001:470:1f13:3d7::/64 } on-error={}
 :do { add list=IS address=2001:470:1f13:962::/64 } on-error={}
 :do { add list=IS address=2001:470:1f15:228::/64 } on-error={}
@@ -131,7 +128,6 @@
 :do { add list=IS address=2001:1a98:6674::/47 } on-error={}
 :do { add list=IS address=2001:1a98:6676::/48 } on-error={}
 :do { add list=IS address=2001:1a98:6677::9d9d:1409/128 } on-error={}
-:do { add list=IS address=2001:1a98:6677::9d9d:40de/128 } on-error={}
 :do { add list=IS address=2001:1a98:6677:1::/64 } on-error={}
 :do { add list=IS address=2001:1a98:6677:2::/63 } on-error={}
 :do { add list=IS address=2001:1a98:6677:4::/62 } on-error={}
@@ -328,6 +324,7 @@
 :do { add list=IS address=2a01:8280:4472::/48 } on-error={}
 :do { add list=IS address=2a01:8280:4473::5bdc:8a68/128 } on-error={}
 :do { add list=IS address=2a01:8280:4473::5bdc:8ac8/128 } on-error={}
+:do { add list=IS address=2a01:8280:4473::b213:3100/128 } on-error={}
 :do { add list=IS address=2a01:8280:4473::b213:3102/128 } on-error={}
 :do { add list=IS address=2a01:8280:4473::b213:3106/128 } on-error={}
 :do { add list=IS address=2a01:8280:4473::b213:3112/128 } on-error={}
@@ -968,7 +965,9 @@
 :do { add list=IS address=2a12:bec0:39c::/48 } on-error={}
 :do { add list=IS address=2a12:bec0:683::/48 } on-error={}
 :do { add list=IS address=2a12:bec4:12a5:22b7::/64 } on-error={}
-:do { add list=IS address=2a12:bec4:12a5:22b8::/61 } on-error={}
+:do { add list=IS address=2a12:bec4:12a5:22b9::/64 } on-error={}
+:do { add list=IS address=2a12:bec4:12a5:22ba::/63 } on-error={}
+:do { add list=IS address=2a12:bec4:12a5:22bc::/62 } on-error={}
 :do { add list=IS address=2a12:bec4:12a5:22c0::/60 } on-error={}
 :do { add list=IS address=2a12:bec4:12a5:22d0::/62 } on-error={}
 :do { add list=IS address=2a12:bec4:12a5:22d4::/63 } on-error={}
