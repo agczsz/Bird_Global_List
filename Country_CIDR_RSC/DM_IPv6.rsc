@@ -25057,7 +25057,6 @@
 :do { add list=DM address=2401:b60:13d4::/46 } on-error={}
 :do { add list=DM address=2401:b60:13d8::/45 } on-error={}
 :do { add list=DM address=2401:f1e0:ffff:6dfd:324:4a3a:122b:fcac/128 } on-error={}
-:do { add list=DM address=2401:f1e0:ffff:d870:d2f6:dbea:4f50:b6d/128 } on-error={}
 :do { add list=DM address=2405:b500:1f80::/64 } on-error={}
 :do { add list=DM address=2405:b500:1fa0::/64 } on-error={}
 :do { add list=DM address=2405:b500:1fc0::/64 } on-error={}

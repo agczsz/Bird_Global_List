@@ -1,7 +1,6 @@
 /log info "Loading IR IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=IR address=2001:470:19:4::/64 } on-error={}
-:do { add list=IR address=2001:470:19:169::/64 } on-error={}
 :do { add list=IR address=2001:470:19:a43::/64 } on-error={}
 :do { add list=IR address=2001:470:19:cc7::/64 } on-error={}
 :do { add list=IR address=2001:470:19:1133::/64 } on-error={}
@@ -25,7 +24,6 @@
 :do { add list=IR address=2001:470:f802::/48 } on-error={}
 :do { add list=IR address=2001:470:f873:980::/64 } on-error={}
 :do { add list=IR address=2001:470:f87e::/48 } on-error={}
-:do { add list=IR address=2001:470:f8cc::/48 } on-error={}
 :do { add list=IR address=2001:470:f8f9:980::/64 } on-error={}
 :do { add list=IR address=2001:470:fc9b::/48 } on-error={}
 :do { add list=IR address=2001:470:fcce:980::/64 } on-error={}
@@ -107,8 +105,7 @@
 :do { add list=IR address=2001:4860:7:1614::/64 } on-error={}
 :do { add list=IR address=2001:4860:7:1714::/64 } on-error={}
 :do { add list=IR address=2001:4b28:6100::/40 } on-error={}
-:do { add list=IR address=2401:f1e0:ffff:5e69:c8aa:4a7d:f563:8ae8/128 } on-error={}
-:do { add list=IR address=2401:f1e0:ffff:fd73::/64 } on-error={}
+:do { add list=IR address=2401:f1e0:ffff:fd73:e443:54b3:728f:4cc3/128 } on-error={}
 :do { add list=IR address=2405:b500:3800::/64 } on-error={}
 :do { add list=IR address=2405:b500:3800:10::/64 } on-error={}
 :do { add list=IR address=2405:b500:3800:18::/64 } on-error={}

@@ -1,6 +1,7 @@
 /log info "Loading SI IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=SI address=2001:470:0:40c::/64 } on-error={}
+:do { add list=SI address=2001:470:0:577::2/128 } on-error={}
 :do { add list=SI address=2001:470:0:578::2/128 } on-error={}
 :do { add list=SI address=2001:470:1:5be::/64 } on-error={}
 :do { add list=SI address=2001:470:1:ea6::/64 } on-error={}
@@ -258,6 +259,7 @@
 :do { add list=SI address=2001:550:0:1000::9a19:e76/128 } on-error={}
 :do { add list=SI address=2001:550:0:1000::9a19:e79/128 } on-error={}
 :do { add list=SI address=2001:550:0:1000::9a19:e7a/128 } on-error={}
+:do { add list=SI address=2001:550:0:1000::9a19:faa/128 } on-error={}
 :do { add list=SI address=2001:550:0:1000::9a19:11a5/128 } on-error={}
 :do { add list=SI address=2001:550:0:1000::9a19:11a6/128 } on-error={}
 :do { add list=SI address=2001:550:0:1000::9a1a:2045/128 } on-error={}

@@ -9,7 +9,6 @@
 :do { add list=BZ address=2001:470:1f05:616::/64 } on-error={}
 :do { add list=BZ address=2001:470:1f09:8f1::/64 } on-error={}
 :do { add list=BZ address=2001:470:82fb::/48 } on-error={}
-:do { add list=BZ address=2001:470:d8a2:27::1/128 } on-error={}
 :do { add list=BZ address=2001:470:d988::/48 } on-error={}
 :do { add list=BZ address=2001:470:eeb0::/48 } on-error={}
 :do { add list=BZ address=2001:470:efce::/48 } on-error={}

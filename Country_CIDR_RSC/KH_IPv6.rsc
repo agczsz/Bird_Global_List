@@ -25642,7 +25642,8 @@
 :do { add list=KH address=2a06:9f81:5673::/48 } on-error={}
 :do { add list=KH address=2a07:d887:7400::/40 } on-error={}
 :do { add list=KH address=2a09:4c0:0:76::/64 } on-error={}
-:do { add list=KH address=2a09:a702:1c::/48 } on-error={}
+:do { add list=KH address=2a09:a702:1c:4000::/50 } on-error={}
+:do { add list=KH address=2a09:a702:1c:8000::/49 } on-error={}
 :do { add list=KH address=2a09:a702:1d:4000::/50 } on-error={}
 :do { add list=KH address=2a09:a702:1d:8000::/49 } on-error={}
 :do { add list=KH address=2a09:a702:ae:4000::/50 } on-error={}

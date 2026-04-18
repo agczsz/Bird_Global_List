@@ -23,6 +23,7 @@
 :do { add list=TN address=2001:500:15:772::2/128 } on-error={}
 :do { add list=TN address=2001:67c:a38:f216::/64 } on-error={}
 :do { add list=TN address=2001:1be0:102c::/56 } on-error={}
+:do { add list=TN address=2001:41a8:40:2::2/128 } on-error={}
 :do { add list=TN address=2001:4350::/35 } on-error={}
 :do { add list=TN address=2001:4350:2000::/48 } on-error={}
 :do { add list=TN address=2001:4350:2001::/48 } on-error={}

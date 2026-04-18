@@ -269,7 +269,7 @@
 :do { add list=PY address=2803:6940::/46 } on-error={}
 :do { add list=PY address=2803:6940:4::/47 } on-error={}
 :do { add list=PY address=2803:6940:6::/128 } on-error={}
-:do { add list=PY address=2803:6940:6::3/128 } on-error={}
+:do { add list=PY address=2803:6940:6::2/127 } on-error={}
 :do { add list=PY address=2803:6940:6::4/126 } on-error={}
 :do { add list=PY address=2803:6940:6::8/125 } on-error={}
 :do { add list=PY address=2803:6940:6::10/124 } on-error={}

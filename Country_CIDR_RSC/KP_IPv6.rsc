@@ -1913,7 +1913,6 @@
 :do { add list=KP address=2a12:bec4:12a6:30f8::/62 } on-error={}
 :do { add list=KP address=2a12:bec4:12a6:30fc::/64 } on-error={}
 :do { add list=KP address=2a12:bec4:12a8:7e00::/56 } on-error={}
-:do { add list=KP address=2a12:bec4:12ad::/48 } on-error={}
 :do { add list=KP address=2a12:bec4:13f2::/48 } on-error={}
 :do { add list=KP address=2a12:bec4:1441::/48 } on-error={}
 :do { add list=KP address=2a12:f381:6d00::/40 } on-error={}

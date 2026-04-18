@@ -16,6 +16,7 @@
 :do { add list=SV address=2001:470:e1e2::/48 } on-error={}
 :do { add list=SV address=2001:550:2c04::/48 } on-error={}
 :do { add list=SV address=2001:67c:a38:f503::/64 } on-error={}
+:do { add list=SV address=2001:1498:1:966:1::9432/128 } on-error={}
 :do { add list=SV address=2001:1498:1:b79::/64 } on-error={}
 :do { add list=SV address=2001:3786:5004:300::/56 } on-error={}
 :do { add list=SV address=2001:4b28:ed00::/40 } on-error={}

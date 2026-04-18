@@ -329,6 +329,8 @@
 :do { add list=IS address=2a01:8280:4473::b213:3106/128 } on-error={}
 :do { add list=IS address=2a01:8280:4473::b213:3112/128 } on-error={}
 :do { add list=IS address=2a01:8280:4473::b213:311a/128 } on-error={}
+:do { add list=IS address=2a01:8280:4473::b213:311c/128 } on-error={}
+:do { add list=IS address=2a01:8280:4473::b213:3124/128 } on-error={}
 :do { add list=IS address=2a01:8280:4473::b213:312a/128 } on-error={}
 :do { add list=IS address=2a01:8280:4473::b213:3148/128 } on-error={}
 :do { add list=IS address=2a01:8280:4473::b213:3164/128 } on-error={}

@@ -928,15 +928,6 @@
 :do { add list=MD address=2a0f:5f40:1000:458::/61 } on-error={}
 :do { add list=MD address=2a0f:5f40:1000:460::/62 } on-error={}
 :do { add list=MD address=2a0f:5f40:1000:464::/64 } on-error={}
-:do { add list=MD address=2a0f:5f40:1000:466::/63 } on-error={}
-:do { add list=MD address=2a0f:5f40:1000:468::/61 } on-error={}
-:do { add list=MD address=2a0f:5f40:1000:470::/60 } on-error={}
-:do { add list=MD address=2a0f:5f40:1000:480::/57 } on-error={}
-:do { add list=MD address=2a0f:5f40:1000:500::/56 } on-error={}
-:do { add list=MD address=2a0f:5f40:1000:600::/55 } on-error={}
-:do { add list=MD address=2a0f:5f40:1000:800::/53 } on-error={}
-:do { add list=MD address=2a0f:5f40:1000:1000::/52 } on-error={}
-:do { add list=MD address=2a0f:5f40:1000:2000::/51 } on-error={}
 :do { add list=MD address=2a0f:5f40:1000:4000::/50 } on-error={}
 :do { add list=MD address=2a0f:5f40:1000:8000::/49 } on-error={}
 :do { add list=MD address=2a0f:5f40:1001::/48 } on-error={}
