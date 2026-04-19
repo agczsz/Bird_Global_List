@@ -341,6 +341,7 @@
 :do { add list=EE address=2001:ad0:cfe:0:212:47:201:3c/126 } on-error={}
 :do { add list=EE address=2001:ad0:cfe:0:212:47:201:4a/127 } on-error={}
 :do { add list=EE address=2001:ad0:cfe:0:212:47:201:4c/126 } on-error={}
+:do { add list=EE address=2001:ad0:cfe:0:212:47:201:51/128 } on-error={}
 :do { add list=EE address=2001:ad0:cfe:0:212:47:201:5a/127 } on-error={}
 :do { add list=EE address=2001:ad0:cfe:0:212:47:201:5c/126 } on-error={}
 :do { add list=EE address=2001:ad0:cfe:0:212:47:201:60/127 } on-error={}

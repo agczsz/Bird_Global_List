@@ -24,7 +24,6 @@
 :do { add list=AI address=2001:470:1f13:8b4::/64 } on-error={}
 :do { add list=AI address=2001:470:1f13:baa::/64 } on-error={}
 :do { add list=AI address=2001:470:1f13:caf::/64 } on-error={}
-:do { add list=AI address=2001:470:1f15:1f::/64 } on-error={}
 :do { add list=AI address=2001:470:1f15:9f::/64 } on-error={}
 :do { add list=AI address=2001:470:1f15:e3::/64 } on-error={}
 :do { add list=AI address=2001:470:1f1d:16f::/64 } on-error={}

@@ -2794,6 +2794,7 @@
 :do { add list=CZ address=2620:1d6:fff0::/44 } on-error={}
 :do { add list=CZ address=2620:1ec:27:e646::/64 } on-error={}
 :do { add list=CZ address=2620:1ec:27:e70a::/64 } on-error={}
+:do { add list=CZ address=2a00:20:6043:6000::/51 } on-error={}
 :do { add list=CZ address=2a00:c40::/33 } on-error={}
 :do { add list=CZ address=2a00:c40:8000::/41 } on-error={}
 :do { add list=CZ address=2a00:c40:8080::/44 } on-error={}
@@ -7017,6 +7018,7 @@
 :do { add list=CZ address=2a0d:b880::/29 } on-error={}
 :do { add list=CZ address=2a0d:c000::/29 } on-error={}
 :do { add list=CZ address=2a0d:cf00::/29 } on-error={}
+:do { add list=CZ address=2a0d:db40::/29 } on-error={}
 :do { add list=CZ address=2a0d:e7c0::/30 } on-error={}
 :do { add list=CZ address=2a0d:e7c4::/31 } on-error={}
 :do { add list=CZ address=2a0d:e7c6::/32 } on-error={}
@@ -9579,7 +9581,6 @@
 :do { add list=CZ address=2a12:f8c3:1:39f9:63c5:720f:2753:66f7/128 } on-error={}
 :do { add list=CZ address=2a12:f8c3:1:3a7f:ae1f:e461:70d7:ee52/128 } on-error={}
 :do { add list=CZ address=2a12:fe40::/29 } on-error={}
-:do { add list=CZ address=2a13:d45::/32 } on-error={}
 :do { add list=CZ address=2a13:1180::/29 } on-error={}
 :do { add list=CZ address=2a13:2140::/43 } on-error={}
 :do { add list=CZ address=2a13:2140:20::/46 } on-error={}
@@ -9778,7 +9779,7 @@
 :do { add list=CZ address=2a14:dc80::/32 } on-error={}
 :do { add list=CZ address=2a14:dc81::/36 } on-error={}
 :do { add list=CZ address=2a14:dc81:1000::/36 } on-error={}
-:do { add list=CZ address=2a14:dc81:6000::/35 } on-error={}
+:do { add list=CZ address=2a14:dc81:7000::/36 } on-error={}
 :do { add list=CZ address=2a14:dc81:8000::/33 } on-error={}
 :do { add list=CZ address=2a14:dc82::/31 } on-error={}
 :do { add list=CZ address=2a14:dc84::/30 } on-error={}

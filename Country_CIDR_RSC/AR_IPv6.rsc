@@ -3662,7 +3662,7 @@
 :do { add list=AR address=2803:2a80:0:8000::/49 } on-error={}
 :do { add list=AR address=2803:2a80:2::/48 } on-error={}
 :do { add list=AR address=2803:2a80:20::/47 } on-error={}
-:do { add list=AR address=2803:2a80:f1::/48 } on-error={}
+:do { add list=AR address=2803:2a80:f0::/47 } on-error={}
 :do { add list=AR address=2803:2a80:800:4000::/50 } on-error={}
 :do { add list=AR address=2803:2a80:800:8000::/49 } on-error={}
 :do { add list=AR address=2803:2a80:821::/48 } on-error={}

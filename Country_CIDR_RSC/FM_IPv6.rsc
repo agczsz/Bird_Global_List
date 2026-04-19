@@ -16,7 +16,6 @@
 :do { add list=FM address=2001:470:fd88::/48 } on-error={}
 :do { add list=FM address=2001:470:fdd4::/48 } on-error={}
 :do { add list=FM address=2001:470:fe90::/48 } on-error={}
-:do { add list=FM address=2001:470:fef4::/48 } on-error={}
 :do { add list=FM address=2001:67c:a38:f691::/64 } on-error={}
 :do { add list=FM address=2001:4b28:c300::/40 } on-error={}
 :do { add list=FM address=2401:b60:1940:4000::/50 } on-error={}

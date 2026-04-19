@@ -6269,8 +6269,7 @@
 :do { add list=KR address=2a0f:6284:b::/48 } on-error={}
 :do { add list=KR address=2a0f:6284:52:1c00::/54 } on-error={}
 :do { add list=KR address=2a0f:6284:3300::/46 } on-error={}
-:do { add list=KR address=2a0f:6284:3304::/48 } on-error={}
-:do { add list=KR address=2a0f:6284:3305::/48 } on-error={}
+:do { add list=KR address=2a0f:6284:3304::/47 } on-error={}
 :do { add list=KR address=2a0f:6284:3306::/48 } on-error={}
 :do { add list=KR address=2a0f:6284:3308::/45 } on-error={}
 :do { add list=KR address=2a0f:6284:3310::/44 } on-error={}

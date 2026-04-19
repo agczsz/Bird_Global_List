@@ -67,7 +67,6 @@
 :do { add list=OM address=2001:470:b6a0::/48 } on-error={}
 :do { add list=OM address=2001:470:c854::/48 } on-error={}
 :do { add list=OM address=2001:470:ef20::/48 } on-error={}
-:do { add list=OM address=2001:470:ff01::/48 } on-error={}
 :do { add list=OM address=2001:67c:a38:f968::/64 } on-error={}
 :do { add list=OM address=2001:7f8:105::/48 } on-error={}
 :do { add list=OM address=2001:1670::/72 } on-error={}

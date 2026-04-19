@@ -660,10 +660,7 @@
 :do { add list=BO address=2a0a:6040:9880::/42 } on-error={}
 :do { add list=BO address=2a0a:6040:98c0::/43 } on-error={}
 :do { add list=BO address=2a0a:6040:98e0::/44 } on-error={}
-:do { add list=BO address=2a0a:6040:98f0::/48 } on-error={}
-:do { add list=BO address=2a0a:6040:98f1::/48 } on-error={}
-:do { add list=BO address=2a0a:6040:98f2::/47 } on-error={}
-:do { add list=BO address=2a0a:6040:98f4::/46 } on-error={}
+:do { add list=BO address=2a0a:6040:98f0::/45 } on-error={}
 :do { add list=BO address=2a0a:6040:98f8::/46 } on-error={}
 :do { add list=BO address=2a0a:6040:98fc::/47 } on-error={}
 :do { add list=BO address=2a0a:6040:98fe::/47 } on-error={}

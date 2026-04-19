@@ -685,6 +685,7 @@
 :do { add list=ZW address=2c0f:f830:112::/47 } on-error={}
 :do { add list=ZW address=2c0f:f830:114::/46 } on-error={}
 :do { add list=ZW address=2c0f:f830:118::/45 } on-error={}
+:do { add list=ZW address=2c0f:f830:120::/44 } on-error={}
 :do { add list=ZW address=2c0f:f8f0::/35 } on-error={}
 :do { add list=ZW address=2c0f:f8f0:2000::/36 } on-error={}
 :do { add list=ZW address=2c0f:f8f0:3000::/38 } on-error={}

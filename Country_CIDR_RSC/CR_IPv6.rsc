@@ -799,6 +799,12 @@
 :do { add list=CR address=2804:3924:608::/48 } on-error={}
 :do { add list=CR address=2804:3924:609::/49 } on-error={}
 :do { add list=CR address=2804:3924:609:8000::/50 } on-error={}
+:do { add list=CR address=2804:3924:609:c000::/54 } on-error={}
+:do { add list=CR address=2804:3924:609:c400::/55 } on-error={}
+:do { add list=CR address=2804:3924:609:c600::/56 } on-error={}
+:do { add list=CR address=2804:3924:609:c800::/53 } on-error={}
+:do { add list=CR address=2804:3924:609:d000::/52 } on-error={}
+:do { add list=CR address=2804:3924:609:e000::/51 } on-error={}
 :do { add list=CR address=2804:3924:60a::/47 } on-error={}
 :do { add list=CR address=2804:3924:60c::/46 } on-error={}
 :do { add list=CR address=2804:3924:610::/44 } on-error={}

@@ -429,7 +429,12 @@
 :do { add list=AM address=2a00:8740:400::/40 } on-error={}
 :do { add list=AM address=2a00:8740:800::/37 } on-error={}
 :do { add list=AM address=2a00:8740:1000::/36 } on-error={}
-:do { add list=AM address=2a00:8740:2000::/35 } on-error={}
+:do { add list=AM address=2a00:8740:2000::/40 } on-error={}
+:do { add list=AM address=2a00:8740:2100::/40 } on-error={}
+:do { add list=AM address=2a00:8740:2200::/39 } on-error={}
+:do { add list=AM address=2a00:8740:2400::/38 } on-error={}
+:do { add list=AM address=2a00:8740:2800::/37 } on-error={}
+:do { add list=AM address=2a00:8740:3000::/36 } on-error={}
 :do { add list=AM address=2a00:8740:4000::/34 } on-error={}
 :do { add list=AM address=2a00:8740:8000::/34 } on-error={}
 :do { add list=AM address=2a00:8740:c000::/35 } on-error={}

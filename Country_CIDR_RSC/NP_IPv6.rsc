@@ -1,9 +1,11 @@
 /log info "Loading NP IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=NP address=2001:470:8:4d4::/64 } on-error={}
+:do { add list=NP address=2001:470:19:18c::/64 } on-error={}
 :do { add list=NP address=2001:470:19:cbc::/64 } on-error={}
 :do { add list=NP address=2001:470:24:1355::/64 } on-error={}
 :do { add list=NP address=2001:470:36:c9::/64 } on-error={}
+:do { add list=NP address=2001:470:36:3ee::/64 } on-error={}
 :do { add list=NP address=2001:470:36:4e3::/64 } on-error={}
 :do { add list=NP address=2001:470:36:573::/64 } on-error={}
 :do { add list=NP address=2001:470:36:92c::/64 } on-error={}
@@ -321,12 +323,7 @@
 :do { add list=NP address=2407:54c0:1b18::/48 } on-error={}
 :do { add list=NP address=2407:54c0:1b21::/48 } on-error={}
 :do { add list=NP address=2407:54c0:1b22::/48 } on-error={}
-:do { add list=NP address=2407:54c0:1b24:6109::/64 } on-error={}
-:do { add list=NP address=2407:54c0:1b24:8958::/64 } on-error={}
-:do { add list=NP address=2407:54c0:1b24:89f2::/64 } on-error={}
-:do { add list=NP address=2407:54c0:1b24:b08e::/64 } on-error={}
-:do { add list=NP address=2407:54c0:1b24:c448::/64 } on-error={}
-:do { add list=NP address=2407:54c0:1b24:edba::/64 } on-error={}
+:do { add list=NP address=2407:54c0:1b24::/48 } on-error={}
 :do { add list=NP address=2407:54c0:1b25::/49 } on-error={}
 :do { add list=NP address=2407:54c0:1b26:493f::/64 } on-error={}
 :do { add list=NP address=2407:54c0:1b26:8232::/64 } on-error={}

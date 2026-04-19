@@ -12,7 +12,6 @@
 :do { add list=NE address=2001:470:b1ff::/48 } on-error={}
 :do { add list=NE address=2001:470:ee11::/48 } on-error={}
 :do { add list=NE address=2001:470:ef01::/48 } on-error={}
-:do { add list=NE address=2001:470:ff03::/48 } on-error={}
 :do { add list=NE address=2001:67c:a38:f227::/64 } on-error={}
 :do { add list=NE address=2001:4b28:3900::/40 } on-error={}
 :do { add list=NE address=2401:b60:1a50:4000::/50 } on-error={}

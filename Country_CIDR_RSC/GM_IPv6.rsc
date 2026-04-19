@@ -10,7 +10,6 @@
 :do { add list=GM address=2001:470:ec1e::/48 } on-error={}
 :do { add list=GM address=2001:470:f3e7::/48 } on-error={}
 :do { add list=GM address=2001:470:f935::/48 } on-error={}
-:do { add list=GM address=2001:470:ff06::/48 } on-error={}
 :do { add list=GM address=2001:67c:a38:f220::/64 } on-error={}
 :do { add list=GM address=2001:43f8:970::/48 } on-error={}
 :do { add list=GM address=2001:4b28:cd00::/40 } on-error={}
