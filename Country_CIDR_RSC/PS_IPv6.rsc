@@ -8,7 +8,6 @@
 :do { add list=PS address=2001:470:24:cc::/64 } on-error={}
 :do { add list=PS address=2001:470:24:110::/64 } on-error={}
 :do { add list=PS address=2001:470:24:329::/64 } on-error={}
-:do { add list=PS address=2001:470:24:5f1::/64 } on-error={}
 :do { add list=PS address=2001:470:24:69f::/64 } on-error={}
 :do { add list=PS address=2001:470:24:8ad::/64 } on-error={}
 :do { add list=PS address=2001:470:36:2d::/64 } on-error={}
@@ -253,6 +252,8 @@
 :do { add list=PS address=2a06:c701:4f72:7600::/55 } on-error={}
 :do { add list=PS address=2a06:c701:4f72:7800::/53 } on-error={}
 :do { add list=PS address=2a06:c701:4f73::/48 } on-error={}
+:do { add list=PS address=2a06:c701:4f9d:4000::/56 } on-error={}
+:do { add list=PS address=2a06:c701:4f9d:bb00::/56 } on-error={}
 :do { add list=PS address=2a06:c701:4faf:2100::/56 } on-error={}
 :do { add list=PS address=2a06:c701:4fb2:3200::/56 } on-error={}
 :do { add list=PS address=2a06:c701:9630:bc00::/56 } on-error={}

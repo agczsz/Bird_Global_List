@@ -17,7 +17,6 @@
 :do { add list=NF address=2001:470:89b0::/48 } on-error={}
 :do { add list=NF address=2001:470:ef0f::/48 } on-error={}
 :do { add list=NF address=2001:470:fbf2::/48 } on-error={}
-:do { add list=NF address=2001:470:ff1a::/48 } on-error={}
 :do { add list=NF address=2001:4b28:3800::/40 } on-error={}
 :do { add list=NF address=2401:b60:1a80:4000::/50 } on-error={}
 :do { add list=NF address=2401:b60:1a80:8000::/49 } on-error={}

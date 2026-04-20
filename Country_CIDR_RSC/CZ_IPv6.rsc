@@ -3116,6 +3116,7 @@
 :do { add list=CZ address=2a01:300:c:0:146:70:1:111/128 } on-error={}
 :do { add list=CZ address=2a01:3e0:3a00::/60 } on-error={}
 :do { add list=CZ address=2a01:3e0:3a00:10::/64 } on-error={}
+:do { add list=CZ address=2a01:3e0:ff20:400::1f/128 } on-error={}
 :do { add list=CZ address=2a01:430::/44 } on-error={}
 :do { add list=CZ address=2a01:430:10::/48 } on-error={}
 :do { add list=CZ address=2a01:430:11::/48 } on-error={}

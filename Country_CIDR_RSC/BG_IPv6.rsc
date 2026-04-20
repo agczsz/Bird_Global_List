@@ -4362,16 +4362,13 @@
 :do { add list=BG address=2620:0:1cff:dead:beef::2a64/128 } on-error={}
 :do { add list=BG address=2620:0:1cff:dead:beef::2a66/128 } on-error={}
 :do { add list=BG address=2620:0:1cff:dead:beef::2a68/128 } on-error={}
-:do { add list=BG address=2620:0:1cff:dead:beef::2b10/128 } on-error={}
-:do { add list=BG address=2620:0:1cff:dead:beef::2b12/128 } on-error={}
-:do { add list=BG address=2620:0:1cff:dead:beef::2b14/128 } on-error={}
 :do { add list=BG address=2620:0:1cff:dead:beef::2e6a/127 } on-error={}
 :do { add list=BG address=2620:0:1cff:dead:beef::2e70/126 } on-error={}
 :do { add list=BG address=2620:0:1cff:dead:beef::4186/127 } on-error={}
 :do { add list=BG address=2620:0:1cff:dead:beef::4760/126 } on-error={}
 :do { add list=BG address=2620:0:1cff:dead:beef::4764/128 } on-error={}
 :do { add list=BG address=2620:0:1cff:dead:beef::4766/127 } on-error={}
-:do { add list=BG address=2620:0:1cff:dead:beef::4ac2/127 } on-error={}
+:do { add list=BG address=2620:0:1cff:dead:beef::4ac2/128 } on-error={}
 :do { add list=BG address=2620:0:1cff:dead:beef::4bb2/127 } on-error={}
 :do { add list=BG address=2620:0:1cff:dead:beef::4e5c/127 } on-error={}
 :do { add list=BG address=2620:0:1cff:dead:beef::4f5f/128 } on-error={}
@@ -5713,7 +5710,6 @@
 :do { add list=BG address=2a01:3e0:3300::/56 } on-error={}
 :do { add list=BG address=2a01:3e2:3300::/127 } on-error={}
 :do { add list=BG address=2a01:3e4:3300::/127 } on-error={}
-:do { add list=BG address=2a01:3e6:3300::/127 } on-error={}
 :do { add list=BG address=2a01:3e8:3300::/127 } on-error={}
 :do { add list=BG address=2a01:3ea:3300::/127 } on-error={}
 :do { add list=BG address=2a01:3ec:3300::/127 } on-error={}
@@ -6521,8 +6517,6 @@
 :do { add list=BG address=2a06:4c4::/30 } on-error={}
 :do { add list=BG address=2a06:7b00::/29 } on-error={}
 :do { add list=BG address=2a06:9680::/39 } on-error={}
-:do { add list=BG address=2a06:9680:200::/48 } on-error={}
-:do { add list=BG address=2a06:9680:300::/48 } on-error={}
 :do { add list=BG address=2a06:9680:400::/38 } on-error={}
 :do { add list=BG address=2a06:9680:800::/37 } on-error={}
 :do { add list=BG address=2a06:9680:1000::/36 } on-error={}

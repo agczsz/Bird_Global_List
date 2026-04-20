@@ -494,7 +494,11 @@
 :do { add list=SA address=2001:16a2:ba6a::/48 } on-error={}
 :do { add list=SA address=2001:16a2:ba6b::/48 } on-error={}
 :do { add list=SA address=2001:16a2:ba6c::/46 } on-error={}
-:do { add list=SA address=2001:16a2:ba70::/44 } on-error={}
+:do { add list=SA address=2001:16a2:ba70::/48 } on-error={}
+:do { add list=SA address=2001:16a2:ba71::/48 } on-error={}
+:do { add list=SA address=2001:16a2:ba72::/47 } on-error={}
+:do { add list=SA address=2001:16a2:ba74::/46 } on-error={}
+:do { add list=SA address=2001:16a2:ba78::/45 } on-error={}
 :do { add list=SA address=2001:16a2:ba80::/41 } on-error={}
 :do { add list=SA address=2001:16a2:bb00::/45 } on-error={}
 :do { add list=SA address=2001:16a2:bb08::/46 } on-error={}
@@ -583,10 +587,7 @@
 :do { add list=SA address=2001:16a2:bd0e::/48 } on-error={}
 :do { add list=SA address=2001:16a2:bd0f::/48 } on-error={}
 :do { add list=SA address=2001:16a2:bd10::/44 } on-error={}
-:do { add list=SA address=2001:16a2:bd20::/45 } on-error={}
-:do { add list=SA address=2001:16a2:bd28::/46 } on-error={}
-:do { add list=SA address=2001:16a2:bd2c::/47 } on-error={}
-:do { add list=SA address=2001:16a2:bd2e::/47 } on-error={}
+:do { add list=SA address=2001:16a2:bd20::/44 } on-error={}
 :do { add list=SA address=2001:16a2:bd30::/44 } on-error={}
 :do { add list=SA address=2001:16a2:bd40::/42 } on-error={}
 :do { add list=SA address=2001:16a2:bd80::/41 } on-error={}
@@ -779,7 +780,9 @@
 :do { add list=SA address=2001:16a3:2057::/48 } on-error={}
 :do { add list=SA address=2001:16a3:2058::/45 } on-error={}
 :do { add list=SA address=2001:16a3:2060::/46 } on-error={}
-:do { add list=SA address=2001:16a3:2064::/46 } on-error={}
+:do { add list=SA address=2001:16a3:2064::/48 } on-error={}
+:do { add list=SA address=2001:16a3:2065::/48 } on-error={}
+:do { add list=SA address=2001:16a3:2066::/47 } on-error={}
 :do { add list=SA address=2001:16a3:2068::/45 } on-error={}
 :do { add list=SA address=2001:16a3:2070::/44 } on-error={}
 :do { add list=SA address=2001:16a3:2080::/41 } on-error={}

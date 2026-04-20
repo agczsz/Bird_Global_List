@@ -174,8 +174,7 @@
 :do { add list=AD address=2a01:fb05:7000::/36 } on-error={}
 :do { add list=AD address=2a01:fb05:8000::/36 } on-error={}
 :do { add list=AD address=2a01:fb05:9000::/36 } on-error={}
-:do { add list=AD address=2a01:fb05:a000::/36 } on-error={}
-:do { add list=AD address=2a01:fb05:b000::/36 } on-error={}
+:do { add list=AD address=2a01:fb05:a000::/35 } on-error={}
 :do { add list=AD address=2a01:fb05:c000::/36 } on-error={}
 :do { add list=AD address=2a01:fb05:d000::/36 } on-error={}
 :do { add list=AD address=2a01:fb05:e000::/35 } on-error={}

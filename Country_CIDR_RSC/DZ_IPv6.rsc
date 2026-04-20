@@ -34,7 +34,6 @@
 :do { add list=DZ address=2001:470:71:4a::/64 } on-error={}
 :do { add list=DZ address=2001:470:1f09:1ef::/64 } on-error={}
 :do { add list=DZ address=2001:470:1f09:5a5::/64 } on-error={}
-:do { add list=DZ address=2001:470:1f0b:d9::/64 } on-error={}
 :do { add list=DZ address=2001:470:1f0b:272::/64 } on-error={}
 :do { add list=DZ address=2001:470:1f0b:62b::/64 } on-error={}
 :do { add list=DZ address=2001:470:1f0b:dae::/64 } on-error={}
