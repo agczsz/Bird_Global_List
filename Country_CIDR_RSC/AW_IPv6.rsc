@@ -1,6 +1,7 @@
 /log info "Loading AW IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=AW address=2001:470:8:1ea::/64 } on-error={}
+:do { add list=AW address=2001:470:19:198::/64 } on-error={}
 :do { add list=AW address=2001:470:19:c9a::/64 } on-error={}
 :do { add list=AW address=2001:470:19:132c::/64 } on-error={}
 :do { add list=AW address=2001:470:1d:3d6::/64 } on-error={}
@@ -52,7 +53,7 @@
 :do { add list=AW address=2401:b60:10c2::/47 } on-error={}
 :do { add list=AW address=2401:b60:10c4::/46 } on-error={}
 :do { add list=AW address=2401:b60:10c8::/45 } on-error={}
-:do { add list=AW address=2401:f1e0:ffff:5469:53eb:9ffd:2f6c:5094/128 } on-error={}
+:do { add list=AW address=2401:f1e0:ffff:5469::/64 } on-error={}
 :do { add list=AW address=2405:b500:880::/64 } on-error={}
 :do { add list=AW address=2405:b500:8a0::/64 } on-error={}
 :do { add list=AW address=2405:b500:8c0::/64 } on-error={}
@@ -124,6 +125,7 @@
 :do { add list=AW address=2800:ad0:8000::/33 } on-error={}
 :do { add list=AW address=2801:19:5800::/48 } on-error={}
 :do { add list=AW address=2803:b640::/32 } on-error={}
+:do { add list=AW address=2a00:6d40:5::/48 } on-error={}
 :do { add list=AW address=2a01:528:8c00::/40 } on-error={}
 :do { add list=AW address=2a02:26f7:f880::/48 } on-error={}
 :do { add list=AW address=2a02:26f7:f881::/48 } on-error={}
@@ -213,8 +215,8 @@
 :do { add list=AW address=2a12:ef85:8000::/36 } on-error={}
 :do { add list=AW address=2a12:f381:8c00::/40 } on-error={}
 :do { add list=AW address=2a12:f382:8c00::/40 } on-error={}
-:do { add list=AW address=2a12:f8c3:1:1295:5af3:fbf6:fc:835b/128 } on-error={}
-:do { add list=AW address=2a12:f8c3:1:1311:8175:c6d5:8fd8:46d/128 } on-error={}
+:do { add list=AW address=2a12:f8c3:1:1295::/64 } on-error={}
+:do { add list=AW address=2a12:f8c3:1:1311::/64 } on-error={}
 :do { add list=AW address=2a13:a5c7:250e::/48 } on-error={}
 :do { add list=AW address=2a13:a5c7:25ff:d00::/56 } on-error={}
 :do { add list=AW address=2a13:b487:502b::/48 } on-error={}

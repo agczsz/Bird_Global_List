@@ -71,8 +71,8 @@
 :do { add list=GS address=2a12:bec4:12a4:a5f8::/62 } on-error={}
 :do { add list=GS address=2a12:bec4:12a8:5f00::/56 } on-error={}
 :do { add list=GS address=2a12:f000:7000::/36 } on-error={}
-:do { add list=GS address=2a12:f8c3:1:5886:5252:3b88:6187:a815/128 } on-error={}
-:do { add list=GS address=2a12:f8c3:1:58f3:d822:e36b:2f91:59ec/128 } on-error={}
+:do { add list=GS address=2a12:f8c3:1:5886::/64 } on-error={}
+:do { add list=GS address=2a12:f8c3:1:58f3::/64 } on-error={}
 :do { add list=GS address=2a13:a5c7:255a::/48 } on-error={}
 :do { add list=GS address=2a13:a5c7:25ff:5900::/56 } on-error={}
 :do { add list=GS address=2a13:b487:5034::/48 } on-error={}

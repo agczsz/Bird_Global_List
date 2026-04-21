@@ -3613,8 +3613,8 @@
 :do { add list=PK address=2a12:ef47::/32 } on-error={}
 :do { add list=PK address=2a12:f381:2c00::/40 } on-error={}
 :do { add list=PK address=2a12:f382:2c00::/40 } on-error={}
-:do { add list=PK address=2a12:f8c3:1:bb5b:bd77:aaf4:a83:9e3f/128 } on-error={}
-:do { add list=PK address=2a12:f8c3:1:bbb7:cae5:8103:ccdd:512/128 } on-error={}
+:do { add list=PK address=2a12:f8c3:1:bb5b::/64 } on-error={}
+:do { add list=PK address=2a12:f8c3:1:bbb7::/64 } on-error={}
 :do { add list=PK address=2a13:3ac3:6000::/35 } on-error={}
 :do { add list=PK address=2a13:6bc0::/32 } on-error={}
 :do { add list=PK address=2a13:82c4:ff22::/48 } on-error={}

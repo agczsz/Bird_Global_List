@@ -168,8 +168,8 @@
 :do { add list=ZM address=2401:b60:1ff2::/47 } on-error={}
 :do { add list=ZM address=2401:b60:1ff4::/46 } on-error={}
 :do { add list=ZM address=2401:b60:1ff8::/45 } on-error={}
-:do { add list=ZM address=2401:f1e0:ffff:d1da:6ea6:6523:3ccf:c55f/128 } on-error={}
-:do { add list=ZM address=2401:f1e0:ffff:e7dd:c69c:9a7a:6278:48f/128 } on-error={}
+:do { add list=ZM address=2401:f1e0:ffff:d1da::/64 } on-error={}
+:do { add list=ZM address=2401:f1e0:ffff:e7dd::/64 } on-error={}
 :do { add list=ZM address=2405:b500:7e00::/64 } on-error={}
 :do { add list=ZM address=2405:b500:7e20::/64 } on-error={}
 :do { add list=ZM address=2405:b500:7e40::/64 } on-error={}
@@ -346,8 +346,8 @@
 :do { add list=ZM address=2a12:f006:a000::/36 } on-error={}
 :do { add list=ZM address=2a12:f381:700::/40 } on-error={}
 :do { add list=ZM address=2a12:f382:700::/40 } on-error={}
-:do { add list=ZM address=2a12:f8c3:1:fcee:7885:f463:ec72:73e5/128 } on-error={}
-:do { add list=ZM address=2a12:f8c3:1:fdbd:fb1:622b:8ea:e281/128 } on-error={}
+:do { add list=ZM address=2a12:f8c3:1:fcee::/64 } on-error={}
+:do { add list=ZM address=2a12:f8c3:1:fdbd::/64 } on-error={}
 :do { add list=ZM address=2a13:a5c3:d1c8::/46 } on-error={}
 :do { add list=ZM address=2a13:a5c7:25f8::/48 } on-error={}
 :do { add list=ZM address=2a13:a5c7:25ff:f800::/56 } on-error={}

@@ -3810,8 +3810,8 @@
 :do { add list=EG address=2a12:dd47:8f40::/48 } on-error={}
 :do { add list=EG address=2a12:f381:bc00::/40 } on-error={}
 :do { add list=EG address=2a12:f382:bc00::/40 } on-error={}
-:do { add list=EG address=2a12:f8c3:1:42cf:376:1414:1497:4a33/128 } on-error={}
-:do { add list=EG address=2a12:f8c3:1:4403:64da:f1ef:3f6a:c9db/128 } on-error={}
+:do { add list=EG address=2a12:f8c3:1:42cf::/64 } on-error={}
+:do { add list=EG address=2a12:f8c3:1:4403::/64 } on-error={}
 :do { add list=EG address=2a13:3ac5:c000::/36 } on-error={}
 :do { add list=EG address=2a13:6540::/32 } on-error={}
 :do { add list=EG address=2a13:6bc1::/32 } on-error={}

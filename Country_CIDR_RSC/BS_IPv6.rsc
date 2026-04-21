@@ -507,8 +507,8 @@
 :do { add list=BS address=2a12:ef86:2000::/36 } on-error={}
 :do { add list=BS address=2a12:f381:9e00::/40 } on-error={}
 :do { add list=BS address=2a12:f382:9e00::/40 } on-error={}
-:do { add list=BS address=2a12:f8c3:1:242c:1ded:b350:793:fe07/128 } on-error={}
-:do { add list=BS address=2a12:f8c3:1:258b:fa2d:1292:8fb7:b2fa/128 } on-error={}
+:do { add list=BS address=2a12:f8c3:1:242c::/64 } on-error={}
+:do { add list=BS address=2a12:f8c3:1:258b::/64 } on-error={}
 :do { add list=BS address=2a13:a5c7:2520::/48 } on-error={}
 :do { add list=BS address=2a13:a5c7:25ff:1f00::/56 } on-error={}
 :do { add list=BS address=2a13:ef41:1169::/48 } on-error={}

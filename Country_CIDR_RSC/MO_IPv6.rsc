@@ -31,6 +31,7 @@
 :do { add list=MO address=2001:470:19:179::/64 } on-error={}
 :do { add list=MO address=2001:470:19:17a::/64 } on-error={}
 :do { add list=MO address=2001:470:19:180::/64 } on-error={}
+:do { add list=MO address=2001:470:19:18a::/64 } on-error={}
 :do { add list=MO address=2001:470:19:195::/64 } on-error={}
 :do { add list=MO address=2001:470:19:2a5::/64 } on-error={}
 :do { add list=MO address=2001:470:19:2c5::/64 } on-error={}
@@ -9617,8 +9618,8 @@
 :do { add list=MO address=2a12:f002:b000::/36 } on-error={}
 :do { add list=MO address=2a12:f381:4700::/40 } on-error={}
 :do { add list=MO address=2a12:f382:4700::/40 } on-error={}
-:do { add list=MO address=2a12:f8c3:1:9df2:c179:e8d9:8d08:dbcc/128 } on-error={}
-:do { add list=MO address=2a12:f8c3:1:9e2e:caca:d156:b4d:c055/128 } on-error={}
+:do { add list=MO address=2a12:f8c3:1:9df2::/64 } on-error={}
+:do { add list=MO address=2a12:f8c3:1:9e2e::/64 } on-error={}
 :do { add list=MO address=2a13:3ac6:7000::/36 } on-error={}
 :do { add list=MO address=2a13:82c4:ff1a::/48 } on-error={}
 :do { add list=MO address=2a13:a5c3:d46c::/46 } on-error={}
