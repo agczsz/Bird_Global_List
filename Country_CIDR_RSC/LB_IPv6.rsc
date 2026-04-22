@@ -70,7 +70,6 @@
 :do { add list=LB address=2001:7f8:2:8000::/49 } on-error={}
 :do { add list=LB address=2001:7f8:c2::/48 } on-error={}
 :do { add list=LB address=2001:7f8:121::/48 } on-error={}
-:do { add list=LB address=2001:2030:0:43::/64 } on-error={}
 :do { add list=LB address=2001:3786:5005:500::/56 } on-error={}
 :do { add list=LB address=2001:4b28:5c00::/40 } on-error={}
 :do { add list=LB address=2400:cb00:150::/48 } on-error={}

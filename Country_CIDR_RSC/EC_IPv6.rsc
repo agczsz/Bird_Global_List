@@ -2042,7 +2042,10 @@
 :do { add list=EC address=2800:bf0:a880::/41 } on-error={}
 :do { add list=EC address=2800:bf0:a900::/40 } on-error={}
 :do { add list=EC address=2800:bf0:aa00::/39 } on-error={}
-:do { add list=EC address=2800:bf0:ac00::/45 } on-error={}
+:do { add list=EC address=2800:bf0:ac00::/46 } on-error={}
+:do { add list=EC address=2800:bf0:ac04::/48 } on-error={}
+:do { add list=EC address=2800:bf0:ac05::/48 } on-error={}
+:do { add list=EC address=2800:bf0:ac06::/47 } on-error={}
 :do { add list=EC address=2800:bf0:ac08::/46 } on-error={}
 :do { add list=EC address=2800:bf0:ac0c::/47 } on-error={}
 :do { add list=EC address=2800:bf0:ac0e::/47 } on-error={}
@@ -3507,7 +3510,8 @@
 :do { add list=EC address=2803:c420:1500::/40 } on-error={}
 :do { add list=EC address=2803:c420:1600::/40 } on-error={}
 :do { add list=EC address=2803:c420:1700::/40 } on-error={}
-:do { add list=EC address=2803:c420:1800::/38 } on-error={}
+:do { add list=EC address=2803:c420:1800::/39 } on-error={}
+:do { add list=EC address=2803:c420:1a00::/39 } on-error={}
 :do { add list=EC address=2803:c420:1c00::/40 } on-error={}
 :do { add list=EC address=2803:c420:1d00::/40 } on-error={}
 :do { add list=EC address=2803:c420:1e00::/39 } on-error={}
@@ -3529,10 +3533,10 @@
 :do { add list=EC address=2803:c420:3600::/39 } on-error={}
 :do { add list=EC address=2803:c420:3800::/37 } on-error={}
 :do { add list=EC address=2803:c420:4000::/39 } on-error={}
-:do { add list=EC address=2803:c420:4200::/39 } on-error={}
+:do { add list=EC address=2803:c420:4200::/40 } on-error={}
+:do { add list=EC address=2803:c420:4300::/40 } on-error={}
 :do { add list=EC address=2803:c420:4400::/39 } on-error={}
-:do { add list=EC address=2803:c420:4600::/40 } on-error={}
-:do { add list=EC address=2803:c420:4700::/40 } on-error={}
+:do { add list=EC address=2803:c420:4600::/39 } on-error={}
 :do { add list=EC address=2803:c420:4800::/37 } on-error={}
 :do { add list=EC address=2803:c420:5000::/36 } on-error={}
 :do { add list=EC address=2803:c420:6000::/35 } on-error={}

@@ -71,9 +71,7 @@
 :do { add list=CD address=2620:0:876:8400::/56 } on-error={}
 :do { add list=CD address=2620:171:99::/48 } on-error={}
 :do { add list=CD address=2a00:ca0:2002:5000::/52 } on-error={}
-:do { add list=CD address=2a00:ca0:2004:4000::/52 } on-error={}
 :do { add list=CD address=2a00:ca0:2004:8000::/52 } on-error={}
-:do { add list=CD address=2a00:ca0:2004:f000::/52 } on-error={}
 :do { add list=CD address=2a00:ca0:2005:1000::/52 } on-error={}
 :do { add list=CD address=2a00:ca0:2005:5000::/52 } on-error={}
 :do { add list=CD address=2a00:ca0:2005:6000::/52 } on-error={}

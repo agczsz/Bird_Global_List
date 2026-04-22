@@ -403,6 +403,7 @@
 :do { add list=MD address=2a09:4440::/29 } on-error={}
 :do { add list=MD address=2a09:49c0::/30 } on-error={}
 :do { add list=MD address=2a09:4c40::/29 } on-error={}
+:do { add list=MD address=2a09:54c6:a701::/48 } on-error={}
 :do { add list=MD address=2a09:63c0::/29 } on-error={}
 :do { add list=MD address=2a09:7640::/29 } on-error={}
 :do { add list=MD address=2a09:7b40::/29 } on-error={}

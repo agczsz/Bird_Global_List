@@ -400,7 +400,7 @@
 :do { add list=UZ address=2a0e:17c0::/29 } on-error={}
 :do { add list=UZ address=2a0e:9f00::/29 } on-error={}
 :do { add list=UZ address=2a0e:fd87:8050::/48 } on-error={}
-:do { add list=UZ address=2a0e:fd87:a080::/41 } on-error={}
+:do { add list=UZ address=2a0e:fd87:a080::/47 } on-error={}
 :do { add list=UZ address=2a0f:f00:4001::/48 } on-error={}
 :do { add list=UZ address=2a0f:f00:4008::/48 } on-error={}
 :do { add list=UZ address=2a0f:f00:4015::/48 } on-error={}

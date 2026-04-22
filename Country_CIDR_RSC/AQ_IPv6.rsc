@@ -1903,7 +1903,6 @@
 :do { add list=AQ address=2a0e:46c6:20::/43 } on-error={}
 :do { add list=AQ address=2a0e:46c6:40::/42 } on-error={}
 :do { add list=AQ address=2a0e:46c6:80::/41 } on-error={}
-:do { add list=AQ address=2a0e:97c0:7c3::/48 } on-error={}
 :do { add list=AQ address=2a0e:97c0:88a:1::/64 } on-error={}
 :do { add list=AQ address=2a0e:97c0:88a:2::/63 } on-error={}
 :do { add list=AQ address=2a0e:97c0:88a:4::/62 } on-error={}

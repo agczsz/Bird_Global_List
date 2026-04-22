@@ -72,8 +72,7 @@
 :do { add list=SC address=2001:37c2::/31 } on-error={}
 :do { add list=SC address=2001:37c4::/30 } on-error={}
 :do { add list=SC address=2001:42e0::/32 } on-error={}
-:do { add list=SC address=2001:43f8:a20::/48 } on-error={}
-:do { add list=SC address=2001:43f8:a21::/48 } on-error={}
+:do { add list=SC address=2001:43f8:a20::/47 } on-error={}
 :do { add list=SC address=2001:4b28:1b00::/40 } on-error={}
 :do { add list=SC address=2401:b60:1ca0:4000::/50 } on-error={}
 :do { add list=SC address=2401:b60:1ca0:8000::/49 } on-error={}

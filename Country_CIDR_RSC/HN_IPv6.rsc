@@ -157,17 +157,15 @@
 :do { add list=HN address=2803:4600:1011:1c4a::/64 } on-error={}
 :do { add list=HN address=2803:4600:1012:5600::/56 } on-error={}
 :do { add list=HN address=2803:4600:1012:5a00::/56 } on-error={}
-:do { add list=HN address=2803:4600:1012:6800::/56 } on-error={}
-:do { add list=HN address=2803:4600:1014:b900::/56 } on-error={}
 :do { add list=HN address=2803:4600:1015:8d00::/56 } on-error={}
 :do { add list=HN address=2803:4600:1016:a00::/56 } on-error={}
+:do { add list=HN address=2803:4600:1017:2600::/56 } on-error={}
 :do { add list=HN address=2803:4600:1018:8d00::/56 } on-error={}
 :do { add list=HN address=2803:4600:1018:b600::/56 } on-error={}
 :do { add list=HN address=2803:4600:1019:b600::/56 } on-error={}
 :do { add list=HN address=2803:4600:1019:b900::/56 } on-error={}
 :do { add list=HN address=2803:4600:101a:7000::/56 } on-error={}
 :do { add list=HN address=2803:4600:101b:b200::/56 } on-error={}
-:do { add list=HN address=2803:4600:101b:dc00::/56 } on-error={}
 :do { add list=HN address=2803:4600:101c:3f00::/56 } on-error={}
 :do { add list=HN address=2803:4600:101c:4b00::/56 } on-error={}
 :do { add list=HN address=2803:4600:101c:7500::/56 } on-error={}
@@ -176,6 +174,7 @@
 :do { add list=HN address=2803:4600:101d:3100::/56 } on-error={}
 :do { add list=HN address=2803:4600:101d:6f00::/56 } on-error={}
 :do { add list=HN address=2803:4600:101d:9d00::/56 } on-error={}
+:do { add list=HN address=2803:4600:101e:600::/56 } on-error={}
 :do { add list=HN address=2803:4600:101e:1000::/56 } on-error={}
 :do { add list=HN address=2803:4600:101e:1200::/56 } on-error={}
 :do { add list=HN address=2803:4600:101e:3400::/56 } on-error={}
@@ -184,10 +183,9 @@
 :do { add list=HN address=2803:4600:101e:a100::/56 } on-error={}
 :do { add list=HN address=2803:4600:101e:f300::/56 } on-error={}
 :do { add list=HN address=2803:4600:101f:1a00::/56 } on-error={}
-:do { add list=HN address=2803:4600:101f:2000::/56 } on-error={}
 :do { add list=HN address=2803:4600:101f:3600::/56 } on-error={}
 :do { add list=HN address=2803:4600:101f:a400::/56 } on-error={}
-:do { add list=HN address=2803:4600:101f:b000::/56 } on-error={}
+:do { add list=HN address=2803:4600:1040:1000::/53 } on-error={}
 :do { add list=HN address=2803:4600:1040:f500::/56 } on-error={}
 :do { add list=HN address=2803:4600:1043:600::/56 } on-error={}
 :do { add list=HN address=2803:4600:1043:6f00::/56 } on-error={}
@@ -208,7 +206,6 @@
 :do { add list=HN address=2803:4600:1049:8f00::/56 } on-error={}
 :do { add list=HN address=2803:4600:104a:4300::/56 } on-error={}
 :do { add list=HN address=2803:4600:104b:3c00::/56 } on-error={}
-:do { add list=HN address=2803:4600:104c:cf00::/56 } on-error={}
 :do { add list=HN address=2803:4600:104c:e900::/56 } on-error={}
 :do { add list=HN address=2803:4600:104d:1600::/56 } on-error={}
 :do { add list=HN address=2803:4600:104d:7d00::/56 } on-error={}

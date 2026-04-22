@@ -946,8 +946,8 @@
 :do { add list=AM address=2a0e:6040::/29 } on-error={}
 :do { add list=AM address=2a0e:7100::/29 } on-error={}
 :do { add list=AM address=2a0e:b107:211c::/48 } on-error={}
-:do { add list=AM address=2a0e:fd87:8000::/44 } on-error={}
-:do { add list=AM address=2a0e:fd87:a040::/42 } on-error={}
+:do { add list=AM address=2a0e:fd87:8000::/48 } on-error={}
+:do { add list=AM address=2a0e:fd87:a060::/48 } on-error={}
 :do { add list=AM address=2a0f:1cc5:b10:1000::/56 } on-error={}
 :do { add list=AM address=2a0f:1cc5:b11:1000::/56 } on-error={}
 :do { add list=AM address=2a0f:1cc5:b12:1000::/56 } on-error={}

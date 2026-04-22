@@ -550,7 +550,6 @@
 :do { add list=MM address=2407:f300:2000::/35 } on-error={}
 :do { add list=MM address=2407:f300:4000::/34 } on-error={}
 :do { add list=MM address=2407:f300:8000::/33 } on-error={}
-:do { add list=MM address=2409:8a6d:7db2:6a00::/56 } on-error={}
 :do { add list=MM address=2600:1417:7c00::/48 } on-error={}
 :do { add list=MM address=2600:1417:a800::/48 } on-error={}
 :do { add list=MM address=2600:70ff:a52a::/48 } on-error={}

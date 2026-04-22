@@ -857,7 +857,6 @@
 :do { add list=RO address=2001:1be0:1000:2200::/56 } on-error={}
 :do { add list=RO address=2001:1be0:1000:3700::/56 } on-error={}
 :do { add list=RO address=2001:1be0:1010:4100::/56 } on-error={}
-:do { add list=RO address=2001:2030:0:24::/64 } on-error={}
 :do { add list=RO address=2001:2030:0:65::/64 } on-error={}
 :do { add list=RO address=2001:2030:0:85::/64 } on-error={}
 :do { add list=RO address=2001:2030:23::/64 } on-error={}

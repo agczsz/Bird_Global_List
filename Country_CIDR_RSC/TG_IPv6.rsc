@@ -193,9 +193,7 @@
 :do { add list=TG address=2c0f:2a80:840::/42 } on-error={}
 :do { add list=TG address=2c0f:4080::/32 } on-error={}
 :do { add list=TG address=2c0f:4320::/32 } on-error={}
-:do { add list=TG address=2c0f:53c0:616:2e00::/64 } on-error={}
-:do { add list=TG address=2c0f:58c0::/36 } on-error={}
-:do { add list=TG address=2c0f:58c0:1000::/36 } on-error={}
+:do { add list=TG address=2c0f:58c0::/35 } on-error={}
 :do { add list=TG address=2c0f:58c0:2000::/35 } on-error={}
 :do { add list=TG address=2c0f:58c0:4000::/34 } on-error={}
 :do { add list=TG address=2c0f:58c0:8000::/33 } on-error={}
@@ -215,7 +213,6 @@
 :do { add list=TG address=2c0f:7e00:2000::/35 } on-error={}
 :do { add list=TG address=2c0f:7e00:4000::/34 } on-error={}
 :do { add list=TG address=2c0f:7e00:8000::/33 } on-error={}
-:do { add list=TG address=2c0f:f038:834:8c00::/64 } on-error={}
 :do { add list=TG address=2c0f:f0f8::/38 } on-error={}
 :do { add list=TG address=2c0f:f0f8:400::/39 } on-error={}
 :do { add list=TG address=2c0f:f0f8:600::/42 } on-error={}

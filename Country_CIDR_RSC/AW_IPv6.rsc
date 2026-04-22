@@ -43,7 +43,6 @@
 :do { add list=AW address=2001:470:cb9b::/48 } on-error={}
 :do { add list=AW address=2001:470:e015::/48 } on-error={}
 :do { add list=AW address=2001:470:e865::/48 } on-error={}
-:do { add list=AW address=2001:470:ee01::/48 } on-error={}
 :do { add list=AW address=2001:470:f1a8::/48 } on-error={}
 :do { add list=AW address=2001:470:ff9d::/48 } on-error={}
 :do { add list=AW address=2001:4b28:8c00::/40 } on-error={}
