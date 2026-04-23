@@ -106,6 +106,7 @@
 :do { add list=BG address=2001:470:28:9cf::/64 } on-error={}
 :do { add list=BG address=2001:470:28:b25::/64 } on-error={}
 :do { add list=BG address=2001:470:28:b62::/64 } on-error={}
+:do { add list=BG address=2001:470:28:c93::/64 } on-error={}
 :do { add list=BG address=2001:470:28:dd4::/64 } on-error={}
 :do { add list=BG address=2001:470:28:e79::/64 } on-error={}
 :do { add list=BG address=2001:470:28:e98::/64 } on-error={}

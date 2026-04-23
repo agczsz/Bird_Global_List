@@ -50,7 +50,6 @@
 :do { add list=AX address=2001:470:b8af::/48 } on-error={}
 :do { add list=AX address=2001:470:b8c0::/48 } on-error={}
 :do { add list=AX address=2001:470:b8f1::/48 } on-error={}
-:do { add list=AX address=2001:470:da38::/48 } on-error={}
 :do { add list=AX address=2001:470:df5c::/48 } on-error={}
 :do { add list=AX address=2001:470:ecc4::/48 } on-error={}
 :do { add list=AX address=2001:470:f098::/48 } on-error={}

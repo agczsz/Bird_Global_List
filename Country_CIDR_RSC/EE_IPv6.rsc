@@ -106,7 +106,6 @@
 :do { add list=EE address=2001:470:6f:674::/64 } on-error={}
 :do { add list=EE address=2001:470:71:36b::/64 } on-error={}
 :do { add list=EE address=2001:470:71:3dd::/64 } on-error={}
-:do { add list=EE address=2001:470:71:60f::/64 } on-error={}
 :do { add list=EE address=2001:470:71:663::/64 } on-error={}
 :do { add list=EE address=2001:470:71:717::/64 } on-error={}
 :do { add list=EE address=2001:470:2aa:1::/64 } on-error={}

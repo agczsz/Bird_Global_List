@@ -503,7 +503,6 @@
 :do { add list=VN address=2001:470:8144::/48 } on-error={}
 :do { add list=VN address=2001:470:8434::/48 } on-error={}
 :do { add list=VN address=2001:470:850f::/48 } on-error={}
-:do { add list=VN address=2001:470:8867::/48 } on-error={}
 :do { add list=VN address=2001:470:888a::/48 } on-error={}
 :do { add list=VN address=2001:470:8a16::/48 } on-error={}
 :do { add list=VN address=2001:470:8b6f::/48 } on-error={}

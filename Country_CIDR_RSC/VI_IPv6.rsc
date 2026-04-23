@@ -7,6 +7,7 @@
 :do { add list=VI address=2001:470:24:2ee::/64 } on-error={}
 :do { add list=VI address=2001:470:24:40f::/64 } on-error={}
 :do { add list=VI address=2001:470:24:439::/64 } on-error={}
+:do { add list=VI address=2001:470:24:618::/64 } on-error={}
 :do { add list=VI address=2001:470:24:815::/64 } on-error={}
 :do { add list=VI address=2001:470:24:aff::/64 } on-error={}
 :do { add list=VI address=2001:470:24:d26::/64 } on-error={}
@@ -32,6 +33,7 @@
 :do { add list=VI address=2001:470:fe24::/48 } on-error={}
 :do { add list=VI address=2001:470:fe7a::/48 } on-error={}
 :do { add list=VI address=2001:470:fe95::/48 } on-error={}
+:do { add list=VI address=2001:470:ff28::/48 } on-error={}
 :do { add list=VI address=2001:470:ff44::/48 } on-error={}
 :do { add list=VI address=2001:4b28:f00::/40 } on-error={}
 :do { add list=VI address=2401:b60:1fb0:4000::/50 } on-error={}

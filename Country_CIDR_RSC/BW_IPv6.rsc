@@ -14,6 +14,8 @@
 :do { add list=BW address=2001:4328::/64 } on-error={}
 :do { add list=BW address=2001:43f8:2a0::/48 } on-error={}
 :do { add list=BW address=2001:43f8:17c0::/48 } on-error={}
+:do { add list=BW address=2001:43fd:8800::/48 } on-error={}
+:do { add list=BW address=2001:43ff:6800::/48 } on-error={}
 :do { add list=BW address=2001:4b28:a100::/40 } on-error={}
 :do { add list=BW address=2400:cb00:495::/48 } on-error={}
 :do { add list=BW address=2400:cb00:742::/48 } on-error={}

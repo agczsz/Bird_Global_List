@@ -7,7 +7,6 @@
 :do { add list=AM address=2001:470:8:460::/64 } on-error={}
 :do { add list=AM address=2001:470:8:4fc::/64 } on-error={}
 :do { add list=AM address=2001:470:d:1bd4::/64 } on-error={}
-:do { add list=AM address=2001:470:19:1b2::/64 } on-error={}
 :do { add list=AM address=2001:470:19:1ba::/64 } on-error={}
 :do { add list=AM address=2001:470:19:1fd::/64 } on-error={}
 :do { add list=AM address=2001:470:19:218::/64 } on-error={}

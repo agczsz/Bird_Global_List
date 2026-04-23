@@ -1684,6 +1684,7 @@
 :do { add list=LT address=2a0b:4fc2::/31 } on-error={}
 :do { add list=LT address=2a0b:4fc4::/30 } on-error={}
 :do { add list=LT address=2a0b:5600::/32 } on-error={}
+:do { add list=LT address=2a0b:9340::/29 } on-error={}
 :do { add list=LT address=2a0b:b2c0:0:109::/64 } on-error={}
 :do { add list=LT address=2a0b:b2c0:0:115::/64 } on-error={}
 :do { add list=LT address=2a0b:bc41:0:1::/64 } on-error={}

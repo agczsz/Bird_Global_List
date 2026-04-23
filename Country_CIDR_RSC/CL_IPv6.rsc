@@ -3258,7 +3258,7 @@
 :do { add list=CL address=2804:5330:2:3::2c:2/127 } on-error={}
 :do { add list=CL address=2804:5330:2:3::2c:4/126 } on-error={}
 :do { add list=CL address=2804:5330:2:3::2c:a/127 } on-error={}
-:do { add list=CL address=2804:5330:2:3::2c:c/127 } on-error={}
+:do { add list=CL address=2804:5330:2:3::2c:c/126 } on-error={}
 :do { add list=CL address=2804:5330:2:3::2c:10/124 } on-error={}
 :do { add list=CL address=2804:5330:2:3::2c:20/123 } on-error={}
 :do { add list=CL address=2804:5330:2:3::2c:40/122 } on-error={}

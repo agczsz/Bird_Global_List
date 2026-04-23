@@ -4,7 +4,6 @@
 :do { add list=UM address=2001:470:19:76::/64 } on-error={}
 :do { add list=UM address=2001:470:19:ad::/64 } on-error={}
 :do { add list=UM address=2001:470:19:19d::/64 } on-error={}
-:do { add list=UM address=2001:470:19:1af::/64 } on-error={}
 :do { add list=UM address=2001:470:19:227::/64 } on-error={}
 :do { add list=UM address=2001:470:19:2b3::/64 } on-error={}
 :do { add list=UM address=2001:470:19:323::/64 } on-error={}
