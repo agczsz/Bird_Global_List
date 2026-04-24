@@ -2895,7 +2895,6 @@
 :do { add list=CI address=2c0f:eb00:380::/41 } on-error={}
 :do { add list=CI address=2c0f:ec60::/32 } on-error={}
 :do { add list=CI address=2c0f:ecf0::/32 } on-error={}
-:do { add list=CI address=2c0f:ef58:6b0:1700::/64 } on-error={}
 :do { add list=CI address=2c0f:ef80::/32 } on-error={}
 :do { add list=CI address=2c0f:f0f8:675:cc00::/64 } on-error={}
 :do { add list=CI address=2c0f:f0f8:67d:e00::/64 } on-error={}

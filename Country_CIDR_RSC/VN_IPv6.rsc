@@ -1602,6 +1602,7 @@
 :do { add list=VN address=2001:df6:d680::/48 } on-error={}
 :do { add list=VN address=2001:df6:db00::/48 } on-error={}
 :do { add list=VN address=2001:df6:dd00::/48 } on-error={}
+:do { add list=VN address=2001:df6:f540::/48 } on-error={}
 :do { add list=VN address=2001:df6:fc80::/48 } on-error={}
 :do { add list=VN address=2001:df7:1500::/48 } on-error={}
 :do { add list=VN address=2001:df7:1700::/48 } on-error={}

@@ -16,7 +16,6 @@
 :do { add list=TM address=2001:470:1f15:49a::/64 } on-error={}
 :do { add list=TM address=2001:470:1f1b:280::/64 } on-error={}
 :do { add list=TM address=2001:470:1f1b:3dc::/64 } on-error={}
-:do { add list=TM address=2001:470:1f1d:57::/64 } on-error={}
 :do { add list=TM address=2001:470:1f29:bc::/64 } on-error={}
 :do { add list=TM address=2001:470:21cd::/48 } on-error={}
 :do { add list=TM address=2001:470:512c::/48 } on-error={}

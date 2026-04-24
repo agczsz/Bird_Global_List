@@ -42,7 +42,6 @@
 :do { add list=BS address=2001:470:d37e::/48 } on-error={}
 :do { add list=BS address=2001:470:e19f::/48 } on-error={}
 :do { add list=BS address=2001:470:eb05::/48 } on-error={}
-:do { add list=BS address=2001:470:ee08::/48 } on-error={}
 :do { add list=BS address=2001:470:f6b0::/48 } on-error={}
 :do { add list=BS address=2001:504:108::/64 } on-error={}
 :do { add list=BS address=2001:678:10ec:f003::/64 } on-error={}

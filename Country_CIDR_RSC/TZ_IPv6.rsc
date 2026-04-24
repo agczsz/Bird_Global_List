@@ -40,7 +40,6 @@
 :do { add list=TZ address=2001:470:493a::/48 } on-error={}
 :do { add list=TZ address=2001:470:dd32::/48 } on-error={}
 :do { add list=TZ address=2001:470:ee49::/48 } on-error={}
-:do { add list=TZ address=2001:470:ff2a::/48 } on-error={}
 :do { add list=TZ address=2001:470:ffbe::/48 } on-error={}
 :do { add list=TZ address=2001:67c:a38:f255::/64 } on-error={}
 :do { add list=TZ address=2001:978:2:21::f3:1b/128 } on-error={}

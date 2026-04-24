@@ -355,6 +355,7 @@
 :do { add list=AZ address=2a01:f000::/29 } on-error={}
 :do { add list=AZ address=2a02:6bf:ff70:407::/64 } on-error={}
 :do { add list=AZ address=2a02:26f7:e1c0:4000::/64 } on-error={}
+:do { add list=AZ address=2a02:26f7:e1c0:8000::/50 } on-error={}
 :do { add list=AZ address=2a02:26f7:e1c0:ca00::/63 } on-error={}
 :do { add list=AZ address=2a02:26f7:e1c1::/48 } on-error={}
 :do { add list=AZ address=2a02:26f7:e1c2::/47 } on-error={}

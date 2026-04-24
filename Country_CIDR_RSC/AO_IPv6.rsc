@@ -1626,7 +1626,6 @@
 :do { add list=AO address=2c0f:f980:5509::/48 } on-error={}
 :do { add list=AO address=2c0f:f980:550a:e00::/56 } on-error={}
 :do { add list=AO address=2c0f:f980:550a:2100::/56 } on-error={}
-:do { add list=AO address=2c0f:f980:550b:1b00::/64 } on-error={}
 :do { add list=AO address=2c0f:f980:550c:2a00::/56 } on-error={}
 :do { add list=AO address=2c0f:f980:550c:3100::/64 } on-error={}
 :do { add list=AO address=2c0f:f980:550c:8000::/49 } on-error={}

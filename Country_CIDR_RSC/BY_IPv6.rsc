@@ -123,6 +123,7 @@
 :do { add list=BY address=2001:470:1f13:436::/64 } on-error={}
 :do { add list=BY address=2001:470:1f13:849::/64 } on-error={}
 :do { add list=BY address=2001:470:1f15:18::/64 } on-error={}
+:do { add list=BY address=2001:470:1f15:60::/64 } on-error={}
 :do { add list=BY address=2001:470:1f15:341::/64 } on-error={}
 :do { add list=BY address=2001:470:1f15:5a4::/64 } on-error={}
 :do { add list=BY address=2001:470:1f15:75e::/64 } on-error={}
