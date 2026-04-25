@@ -572,6 +572,7 @@
 :do { add list=IS address=2a02:26f7:fa48:4000::/64 } on-error={}
 :do { add list=IS address=2a02:26f7:fa48:47c0::/62 } on-error={}
 :do { add list=IS address=2a02:26f7:fa48:47c4::/64 } on-error={}
+:do { add list=IS address=2a02:26f7:fa48:8000::/49 } on-error={}
 :do { add list=IS address=2a02:26f7:fa49::/48 } on-error={}
 :do { add list=IS address=2a02:26f7:fa4a::/47 } on-error={}
 :do { add list=IS address=2a02:26f7:fa4c::/46 } on-error={}

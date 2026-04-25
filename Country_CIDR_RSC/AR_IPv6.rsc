@@ -5306,7 +5306,6 @@
 :do { add list=AR address=2a00:79e0:ffe2:d000::/56 } on-error={}
 :do { add list=AR address=2a00:79e0:ffe3:f800::/56 } on-error={}
 :do { add list=AR address=2a00:79e0:ffe4:5c00::/56 } on-error={}
-:do { add list=AR address=2a00:79e1:abc:2400::/56 } on-error={}
 :do { add list=AR address=2a00:79e1:f6e::/48 } on-error={}
 :do { add list=AR address=2a00:79e1:2600:d00::/56 } on-error={}
 :do { add list=AR address=2a00:79e1:2600:f00::/56 } on-error={}

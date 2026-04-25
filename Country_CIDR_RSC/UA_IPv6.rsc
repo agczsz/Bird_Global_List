@@ -760,7 +760,6 @@
 :do { add list=UA address=2001:470:1f0b:112::/64 } on-error={}
 :do { add list=UA address=2001:470:1f0b:130::/64 } on-error={}
 :do { add list=UA address=2001:470:1f0b:15d::/64 } on-error={}
-:do { add list=UA address=2001:470:1f0b:1bf::/64 } on-error={}
 :do { add list=UA address=2001:470:1f0b:1ff::/64 } on-error={}
 :do { add list=UA address=2001:470:1f0b:209::/64 } on-error={}
 :do { add list=UA address=2001:470:1f0b:219::/64 } on-error={}
@@ -2834,7 +2833,6 @@
 :do { add list=UA address=2a00:6740::/32 } on-error={}
 :do { add list=UA address=2a00:70e0::/32 } on-error={}
 :do { add list=UA address=2a00:79e0:200:d00::/56 } on-error={}
-:do { add list=UA address=2a00:79e1:f08::/48 } on-error={}
 :do { add list=UA address=2a00:7a60::/32 } on-error={}
 :do { add list=UA address=2a00:7d00::/32 } on-error={}
 :do { add list=UA address=2a00:7e00::/32 } on-error={}
@@ -4332,18 +4330,12 @@
 :do { add list=UA address=2a03:6300:2::/63 } on-error={}
 :do { add list=UA address=2a03:69e0::/32 } on-error={}
 :do { add list=UA address=2a03:71a0::/32 } on-error={}
-:do { add list=UA address=2a03:7380::/39 } on-error={}
-:do { add list=UA address=2a03:7380:200::/42 } on-error={}
-:do { add list=UA address=2a03:7380:240::/42 } on-error={}
-:do { add list=UA address=2a03:7380:280::/42 } on-error={}
-:do { add list=UA address=2a03:7380:2c0::/42 } on-error={}
-:do { add list=UA address=2a03:7380:300::/40 } on-error={}
+:do { add list=UA address=2a03:7380::/38 } on-error={}
 :do { add list=UA address=2a03:7380:400::/40 } on-error={}
 :do { add list=UA address=2a03:7380:500::/41 } on-error={}
 :do { add list=UA address=2a03:7380:580::/42 } on-error={}
 :do { add list=UA address=2a03:7380:5c0::/42 } on-error={}
-:do { add list=UA address=2a03:7380:600::/42 } on-error={}
-:do { add list=UA address=2a03:7380:640::/42 } on-error={}
+:do { add list=UA address=2a03:7380:600::/41 } on-error={}
 :do { add list=UA address=2a03:7380:680::/41 } on-error={}
 :do { add list=UA address=2a03:7380:700::/40 } on-error={}
 :do { add list=UA address=2a03:7380:800::/42 } on-error={}

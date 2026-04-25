@@ -3343,8 +3343,6 @@
 :do { add list=CL address=2a00:79e1:840:1::505/128 } on-error={}
 :do { add list=CL address=2a00:79e1:841::92/128 } on-error={}
 :do { add list=CL address=2a00:79e1:841::96/128 } on-error={}
-:do { add list=CL address=2a00:79e1:abc:3200::/56 } on-error={}
-:do { add list=CL address=2a00:79e1:abd:6100::/56 } on-error={}
 :do { add list=CL address=2a00:79e1:2600:800::/55 } on-error={}
 :do { add list=CL address=2a00:79e1:2600:b00::/56 } on-error={}
 :do { add list=CL address=2a00:79e1:2600:c00::/56 } on-error={}

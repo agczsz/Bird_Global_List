@@ -881,7 +881,10 @@
 :do { add list=MD address=2a0f:5f40:1:364::/64 } on-error={}
 :do { add list=MD address=2a0f:5f40:1:366::/63 } on-error={}
 :do { add list=MD address=2a0f:5f40:1:368::/61 } on-error={}
-:do { add list=MD address=2a0f:5f40:1:370::/60 } on-error={}
+:do { add list=MD address=2a0f:5f40:1:370::/62 } on-error={}
+:do { add list=MD address=2a0f:5f40:1:374::/64 } on-error={}
+:do { add list=MD address=2a0f:5f40:1:376::/63 } on-error={}
+:do { add list=MD address=2a0f:5f40:1:378::/61 } on-error={}
 :do { add list=MD address=2a0f:5f40:1:380::/57 } on-error={}
 :do { add list=MD address=2a0f:5f40:1:400::/54 } on-error={}
 :do { add list=MD address=2a0f:5f40:1:800::/53 } on-error={}

@@ -455,6 +455,7 @@
 :do { add list=SI address=2001:1471::/32 } on-error={}
 :do { add list=SI address=2001:1472::/31 } on-error={}
 :do { add list=SI address=2001:1474::/30 } on-error={}
+:do { add list=SI address=2001:1498:c:2::/64 } on-error={}
 :do { add list=SI address=2001:15c0::/29 } on-error={}
 :do { add list=SI address=2001:1688::/29 } on-error={}
 :do { add list=SI address=2001:1900:5:2:2::2599/128 } on-error={}

@@ -569,7 +569,6 @@
 :do { add list=AM address=2a02:6b8:0:4::/63 } on-error={}
 :do { add list=AM address=2a02:26f0:123::/48 } on-error={}
 :do { add list=AM address=2a02:26f7:e200:4000::/64 } on-error={}
-:do { add list=AM address=2a02:26f7:e200:8000::/50 } on-error={}
 :do { add list=AM address=2a02:26f7:e200:cfa0::/62 } on-error={}
 :do { add list=AM address=2a02:26f7:e200:cfa4::/63 } on-error={}
 :do { add list=AM address=2a02:26f7:e201::/48 } on-error={}

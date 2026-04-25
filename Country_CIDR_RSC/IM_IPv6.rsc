@@ -18,6 +18,7 @@
 :do { add list=IM address=2001:470:6f:21f::/64 } on-error={}
 :do { add list=IM address=2001:470:71:90::/64 } on-error={}
 :do { add list=IM address=2001:470:71:111::/64 } on-error={}
+:do { add list=IM address=2001:470:1825::/48 } on-error={}
 :do { add list=IM address=2001:470:1f09:409::/64 } on-error={}
 :do { add list=IM address=2001:470:1f09:496::/64 } on-error={}
 :do { add list=IM address=2001:470:1f09:4e5::/64 } on-error={}

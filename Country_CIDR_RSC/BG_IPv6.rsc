@@ -172,7 +172,7 @@
 :do { add list=BG address=2001:470:1f0b:92::/64 } on-error={}
 :do { add list=BG address=2001:470:1f0b:ee::/64 } on-error={}
 :do { add list=BG address=2001:470:1f0b:16d::/64 } on-error={}
-:do { add list=BG address=2001:470:1f0b:1c2::/64 } on-error={}
+:do { add list=BG address=2001:470:1f0b:1c2::/63 } on-error={}
 :do { add list=BG address=2001:470:1f0b:214::/64 } on-error={}
 :do { add list=BG address=2001:470:1f0b:22f::/64 } on-error={}
 :do { add list=BG address=2001:470:1f0b:41e::/64 } on-error={}
@@ -4085,6 +4085,7 @@
 :do { add list=BG address=2405:b500:ce0:8::/64 } on-error={}
 :do { add list=BG address=2405:b500:ce0:10::/64 } on-error={}
 :do { add list=BG address=2405:b500:ce0:18::/64 } on-error={}
+:do { add list=BG address=2406:2d40:5900::/40 } on-error={}
 :do { add list=BG address=2600:3500:a0ac:58f5::/64 } on-error={}
 :do { add list=BG address=2600:70ff:b02e::/48 } on-error={}
 :do { add list=BG address=2600:70ff:b16e::/48 } on-error={}
@@ -4136,6 +4137,7 @@
 :do { add list=BG address=2604:cac0:52:101::/64 } on-error={}
 :do { add list=BG address=2604:cac0:52:feed::/64 } on-error={}
 :do { add list=BG address=2605:59c0:501e::/64 } on-error={}
+:do { add list=BG address=2605:59c0:8c00::/40 } on-error={}
 :do { add list=BG address=2605:59c7:9024::/64 } on-error={}
 :do { add list=BG address=2605:59c7:9065::/64 } on-error={}
 :do { add list=BG address=2605:dd40:8216::/48 } on-error={}
@@ -5581,7 +5583,6 @@
 :do { add list=BG address=2a01:3e0:3300::/56 } on-error={}
 :do { add list=BG address=2a01:3e2:3300::/64 } on-error={}
 :do { add list=BG address=2a01:3e4:3300::/64 } on-error={}
-:do { add list=BG address=2a01:3e6:3300::/64 } on-error={}
 :do { add list=BG address=2a01:3e8:3300::/64 } on-error={}
 :do { add list=BG address=2a01:3ea:3300::/64 } on-error={}
 :do { add list=BG address=2a01:3ec:3300::/64 } on-error={}

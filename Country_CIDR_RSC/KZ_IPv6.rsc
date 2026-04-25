@@ -519,6 +519,7 @@
 :do { add list=KZ address=2001:470:6362::/48 } on-error={}
 :do { add list=KZ address=2001:470:6367::/48 } on-error={}
 :do { add list=KZ address=2001:470:6368::/48 } on-error={}
+:do { add list=KZ address=2001:470:638e::/48 } on-error={}
 :do { add list=KZ address=2001:470:6910::/48 } on-error={}
 :do { add list=KZ address=2001:470:693d::/48 } on-error={}
 :do { add list=KZ address=2001:470:6af0::/48 } on-error={}

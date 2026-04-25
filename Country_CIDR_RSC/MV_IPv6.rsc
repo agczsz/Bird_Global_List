@@ -213,7 +213,6 @@
 :do { add list=MV address=2405:b500:4fc0::/64 } on-error={}
 :do { add list=MV address=2405:b500:4fe0::/64 } on-error={}
 :do { add list=MV address=2406:2d40:6000::/40 } on-error={}
-:do { add list=MV address=2406:2d40:c000::/40 } on-error={}
 :do { add list=MV address=2406:e400::/32 } on-error={}
 :do { add list=MV address=2406:e401::/32 } on-error={}
 :do { add list=MV address=2600:70ff:aa92::/48 } on-error={}
