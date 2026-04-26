@@ -29,6 +29,7 @@
 :do { add list=BD address=2001:470:36:436::/64 } on-error={}
 :do { add list=BD address=2001:470:36:455::/64 } on-error={}
 :do { add list=BD address=2001:470:36:468::/64 } on-error={}
+:do { add list=BD address=2001:470:36:4a8::/64 } on-error={}
 :do { add list=BD address=2001:470:36:4af::/64 } on-error={}
 :do { add list=BD address=2001:470:36:4ce::/64 } on-error={}
 :do { add list=BD address=2001:470:36:51c::/64 } on-error={}

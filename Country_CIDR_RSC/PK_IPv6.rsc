@@ -1692,10 +1692,11 @@
 :do { add list=PK address=2402:ad80:300::/43 } on-error={}
 :do { add list=PK address=2402:ad80:320::/44 } on-error={}
 :do { add list=PK address=2402:ad80:330::/44 } on-error={}
-:do { add list=PK address=2402:ad80:340::/43 } on-error={}
-:do { add list=PK address=2402:ad80:360::/44 } on-error={}
-:do { add list=PK address=2402:ad80:370::/44 } on-error={}
-:do { add list=PK address=2402:ad80:380::/41 } on-error={}
+:do { add list=PK address=2402:ad80:340::/42 } on-error={}
+:do { add list=PK address=2402:ad80:380::/44 } on-error={}
+:do { add list=PK address=2402:ad80:390::/44 } on-error={}
+:do { add list=PK address=2402:ad80:3a0::/43 } on-error={}
+:do { add list=PK address=2402:ad80:3c0::/42 } on-error={}
 :do { add list=PK address=2402:ad80:400::/38 } on-error={}
 :do { add list=PK address=2402:ad80:800::/37 } on-error={}
 :do { add list=PK address=2402:ad80:1000::/36 } on-error={}

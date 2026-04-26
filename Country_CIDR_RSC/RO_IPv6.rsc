@@ -4591,7 +4591,6 @@
 :do { add list=RO address=2a0b:2f07:c000::/34 } on-error={}
 :do { add list=RO address=2a0b:4480::/29 } on-error={}
 :do { add list=RO address=2a0b:4e07:3:6420::/60 } on-error={}
-:do { add list=RO address=2a0b:4e07:2f::/64 } on-error={}
 :do { add list=RO address=2a0b:4e07:c1::/48 } on-error={}
 :do { add list=RO address=2a0b:4e07:2a0a::/48 } on-error={}
 :do { add list=RO address=2a0b:4e07:2b00::/40 } on-error={}

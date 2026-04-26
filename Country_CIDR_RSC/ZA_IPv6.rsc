@@ -401,7 +401,7 @@
 :do { add list=ZA address=2001:470:1f23:6a::/64 } on-error={}
 :do { add list=ZA address=2001:470:1f23:6c::/64 } on-error={}
 :do { add list=ZA address=2001:470:1f23:6e::/63 } on-error={}
-:do { add list=ZA address=2001:470:1f23:70::/63 } on-error={}
+:do { add list=ZA address=2001:470:1f23:71::/64 } on-error={}
 :do { add list=ZA address=2001:470:1f23:72::/64 } on-error={}
 :do { add list=ZA address=2001:470:1f23:74::/63 } on-error={}
 :do { add list=ZA address=2001:470:1f23:79::/64 } on-error={}
@@ -1602,7 +1602,6 @@
 :do { add list=ZA address=2001:4860:7:152c::/64 } on-error={}
 :do { add list=ZA address=2001:4860:7:162c::/64 } on-error={}
 :do { add list=ZA address=2001:4860:7:172c::/64 } on-error={}
-:do { add list=ZA address=2001:4998:180::/64 } on-error={}
 :do { add list=ZA address=2001:49f0:d11d::/48 } on-error={}
 :do { add list=ZA address=2001:4b28:800::/40 } on-error={}
 :do { add list=ZA address=2001:4c08::c8/128 } on-error={}
@@ -2314,7 +2313,6 @@
 :do { add list=ZA address=2600:70ff:e81e::/47 } on-error={}
 :do { add list=ZA address=2600:70ff:e821::/48 } on-error={}
 :do { add list=ZA address=2600:70ff:e824::/47 } on-error={}
-:do { add list=ZA address=2600:70ff:e826::/48 } on-error={}
 :do { add list=ZA address=2600:70ff:e828::/46 } on-error={}
 :do { add list=ZA address=2600:70ff:e82c::/48 } on-error={}
 :do { add list=ZA address=2600:70ff:e82e::/47 } on-error={}
@@ -9152,6 +9150,10 @@
 :do { add list=ZA address=2c0f:fb50:4002:4::/64 } on-error={}
 :do { add list=ZA address=2c0f:fb50:4002:7::/64 } on-error={}
 :do { add list=ZA address=2c0f:fb50:4002:8::/63 } on-error={}
+:do { add list=ZA address=2c0f:fb50:4002:808::/64 } on-error={}
+:do { add list=ZA address=2c0f:fb50:4002:80b::/64 } on-error={}
+:do { add list=ZA address=2c0f:fb50:4002:812::/63 } on-error={}
+:do { add list=ZA address=2c0f:fb50:4002:81c::/62 } on-error={}
 :do { add list=ZA address=2c0f:fb50:8041:80::/64 } on-error={}
 :do { add list=ZA address=2c0f:fb50:8041:c0::/64 } on-error={}
 :do { add list=ZA address=2c0f:fb50:8042:80::/64 } on-error={}

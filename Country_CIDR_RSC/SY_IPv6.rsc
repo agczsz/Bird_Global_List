@@ -143,6 +143,7 @@
 :do { add list=SY address=2a0c:9a46:3fe:d3::/64 } on-error={}
 :do { add list=SY address=2a0c:de40::/32 } on-error={}
 :do { add list=SY address=2a0d:3341:c2c0::/42 } on-error={}
+:do { add list=SY address=2a0d:3341:c500::/40 } on-error={}
 :do { add list=SY address=2a0d:3341:df00::/40 } on-error={}
 :do { add list=SY address=2a0d:3341:f800::/40 } on-error={}
 :do { add list=SY address=2a0d:4100::/32 } on-error={}

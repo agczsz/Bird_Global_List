@@ -25403,11 +25403,7 @@
 :do { add list=KH address=2404:b300:13::/48 } on-error={}
 :do { add list=KH address=2404:b300:14::/46 } on-error={}
 :do { add list=KH address=2404:b300:18::/45 } on-error={}
-:do { add list=KH address=2404:b300:20::/47 } on-error={}
-:do { add list=KH address=2404:b300:22::/48 } on-error={}
-:do { add list=KH address=2404:b300:23::/48 } on-error={}
-:do { add list=KH address=2404:b300:24::/46 } on-error={}
-:do { add list=KH address=2404:b300:28::/45 } on-error={}
+:do { add list=KH address=2404:b300:20::/44 } on-error={}
 :do { add list=KH address=2404:b300:30::/48 } on-error={}
 :do { add list=KH address=2404:b300:31::/63 } on-error={}
 :do { add list=KH address=2404:b300:31:2::/64 } on-error={}

@@ -1074,6 +1074,7 @@
 :do { add list=SK address=2a01:c847:200::/40 } on-error={}
 :do { add list=SK address=2a01:c847:300::/41 } on-error={}
 :do { add list=SK address=2a01:c847:380::/44 } on-error={}
+:do { add list=SK address=2a01:c847:390::/49 } on-error={}
 :do { add list=SK address=2a01:c847:398::/45 } on-error={}
 :do { add list=SK address=2a01:c847:3a0::/45 } on-error={}
 :do { add list=SK address=2a01:c847:3a8::/46 } on-error={}

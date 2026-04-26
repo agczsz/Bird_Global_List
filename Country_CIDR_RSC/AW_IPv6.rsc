@@ -32,8 +32,6 @@
 :do { add list=AW address=2001:470:1f1d:7be::/64 } on-error={}
 :do { add list=AW address=2001:470:1f21:1f4::/64 } on-error={}
 :do { add list=AW address=2001:470:1f27:42::/64 } on-error={}
-:do { add list=AW address=2001:470:1f29:127::/64 } on-error={}
-:do { add list=AW address=2001:470:1f29:134::/64 } on-error={}
 :do { add list=AW address=2001:470:1f2b:14::/64 } on-error={}
 :do { add list=AW address=2001:470:5a50::/48 } on-error={}
 :do { add list=AW address=2001:470:5cd3::/48 } on-error={}

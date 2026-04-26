@@ -16,6 +16,7 @@
 :do { add list=RW address=2001:43fc:9000::/48 } on-error={}
 :do { add list=RW address=2001:43fd:8000::/48 } on-error={}
 :do { add list=RW address=2001:43fe:800::/48 } on-error={}
+:do { add list=RW address=2001:43ff:8800::/48 } on-error={}
 :do { add list=RW address=2001:43ff:c000::/48 } on-error={}
 :do { add list=RW address=2001:4b28:1f00::/40 } on-error={}
 :do { add list=RW address=2400:cb00:204::/48 } on-error={}
