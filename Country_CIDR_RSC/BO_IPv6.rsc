@@ -562,7 +562,6 @@
 :do { add list=BO address=2a02:26f7:e585::/48 } on-error={}
 :do { add list=BO address=2a02:26f7:e586::/47 } on-error={}
 :do { add list=BO address=2a02:26f7:e588:4000::/64 } on-error={}
-:do { add list=BO address=2a02:26f7:e588:8000::/50 } on-error={}
 :do { add list=BO address=2a02:26f7:e588:d080::/61 } on-error={}
 :do { add list=BO address=2a02:26f7:e589::/48 } on-error={}
 :do { add list=BO address=2a02:26f7:e58a::/47 } on-error={}

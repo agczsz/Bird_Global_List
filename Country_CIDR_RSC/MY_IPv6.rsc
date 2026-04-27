@@ -4457,6 +4457,7 @@
 :do { add list=MY address=2605:340:f044:2::/63 } on-error={}
 :do { add list=MY address=2605:340:f044:bd::/64 } on-error={}
 :do { add list=MY address=2605:340:f0c4::/56 } on-error={}
+:do { add list=MY address=2605:7a80:6802::/47 } on-error={}
 :do { add list=MY address=2605:f500:409::/48 } on-error={}
 :do { add list=MY address=2606:3dc0:1021::/48 } on-error={}
 :do { add list=MY address=2606:54c0:4c30::/44 } on-error={}
@@ -5776,6 +5777,7 @@
 :do { add list=MY address=2a0f:1cc6:babe::/48 } on-error={}
 :do { add list=MY address=2a0f:1cc7:ff35::/48 } on-error={}
 :do { add list=MY address=2a0f:5701:11::/48 } on-error={}
+:do { add list=MY address=2a0f:6284:72::/48 } on-error={}
 :do { add list=MY address=2a0f:7803:fa26::/48 } on-error={}
 :do { add list=MY address=2a0f:7803:fed5::/48 } on-error={}
 :do { add list=MY address=2a0f:85c1:340::a7:0/112 } on-error={}

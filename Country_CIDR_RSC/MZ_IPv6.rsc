@@ -1,6 +1,5 @@
 /log info "Loading MZ IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=MZ address=2001:470:24:63e::/64 } on-error={}
 :do { add list=MZ address=2001:470:36:208::/64 } on-error={}
 :do { add list=MZ address=2001:470:36:43a::/64 } on-error={}
 :do { add list=MZ address=2001:470:36:5fd::/64 } on-error={}
@@ -1066,6 +1065,7 @@
 :do { add list=MZ address=2c0f:fb90::/32 } on-error={}
 :do { add list=MZ address=2c0f:fd50:2:4000::/50 } on-error={}
 :do { add list=MZ address=2c0f:fd50:2:8000::/49 } on-error={}
+:do { add list=MZ address=2c0f:feb0:0:8::/64 } on-error={}
 :do { add list=MZ address=2c0f:feb0:1::61/128 } on-error={}
 :do { add list=MZ address=2c0f:feb0:1::62/128 } on-error={}
 :do { add list=MZ address=2c0f:feb0:1::65/128 } on-error={}
@@ -1083,3 +1083,20 @@
 :do { add list=MZ address=2c0f:feb0:1:2::87e/128 } on-error={}
 :do { add list=MZ address=2c0f:feb0:1:2::889/128 } on-error={}
 :do { add list=MZ address=2c0f:feb0:1:2::88d/128 } on-error={}
+:do { add list=MZ address=2c0f:feb0:9::/48 } on-error={}
+:do { add list=MZ address=2c0f:feb0:1d::/64 } on-error={}
+:do { add list=MZ address=2c0f:feb0:1d:2::/63 } on-error={}
+:do { add list=MZ address=2c0f:feb0:1d:4::/62 } on-error={}
+:do { add list=MZ address=2c0f:feb0:1d:8::/61 } on-error={}
+:do { add list=MZ address=2c0f:feb0:1d:10::/60 } on-error={}
+:do { add list=MZ address=2c0f:feb0:1d:20::/59 } on-error={}
+:do { add list=MZ address=2c0f:feb0:1d:40::/58 } on-error={}
+:do { add list=MZ address=2c0f:feb0:1d:80::/57 } on-error={}
+:do { add list=MZ address=2c0f:feb0:1d:100::/56 } on-error={}
+:do { add list=MZ address=2c0f:feb0:1d:200::/55 } on-error={}
+:do { add list=MZ address=2c0f:feb0:1d:400::/54 } on-error={}
+:do { add list=MZ address=2c0f:feb0:1d:800::/53 } on-error={}
+:do { add list=MZ address=2c0f:feb0:1d:1000::/52 } on-error={}
+:do { add list=MZ address=2c0f:feb0:1d:2000::/51 } on-error={}
+:do { add list=MZ address=2c0f:feb0:1d:4000::/50 } on-error={}
+:do { add list=MZ address=2c0f:feb0:1d:8000::/49 } on-error={}

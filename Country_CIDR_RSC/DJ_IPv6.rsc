@@ -405,3 +405,5 @@
 :do { add list=DJ address=2c0f:fe40:2::1b/128 } on-error={}
 :do { add list=DJ address=2c0f:fe40:2:0:5:11:12:101/128 } on-error={}
 :do { add list=DJ address=2c0f:fe40:2:0:5:11:12:103/128 } on-error={}
+:do { add list=DJ address=2c0f:feb0:6::/48 } on-error={}
+:do { add list=DJ address=2c0f:feb0:1a::/48 } on-error={}

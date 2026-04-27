@@ -11065,6 +11065,8 @@
 :do { add list=PH address=2a00:79e0:ffe4:a300::/56 } on-error={}
 :do { add list=PH address=2a00:79e0:ffe4:d300::/56 } on-error={}
 :do { add list=PH address=2a00:79e0:ffe5:7600::/56 } on-error={}
+:do { add list=PH address=2a00:79e1:abc:1800::/56 } on-error={}
+:do { add list=PH address=2a00:79e1:abd:d000::/56 } on-error={}
 :do { add list=PH address=2a00:79e1:2000:300::/56 } on-error={}
 :do { add list=PH address=2a00:79e1:2000:800::/56 } on-error={}
 :do { add list=PH address=2a00:79e1:2000:1f00::/56 } on-error={}

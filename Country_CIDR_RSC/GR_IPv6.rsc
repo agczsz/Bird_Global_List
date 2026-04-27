@@ -7,6 +7,7 @@
 :do { add list=GR address=2001:470:1:b73::/64 } on-error={}
 :do { add list=GR address=2001:470:1:c4d::/64 } on-error={}
 :do { add list=GR address=2001:470:1:f99::/64 } on-error={}
+:do { add list=GR address=2001:470:19:1ba::/64 } on-error={}
 :do { add list=GR address=2001:470:19:bd3::/64 } on-error={}
 :do { add list=GR address=2001:470:24:306::/64 } on-error={}
 :do { add list=GR address=2001:470:24:670::/64 } on-error={}
@@ -673,7 +674,9 @@
 :do { add list=GR address=2606:40:19a0::/44 } on-error={}
 :do { add list=GR address=2606:40:21c0:8000::/54 } on-error={}
 :do { add list=GR address=2606:40:21fc:a000::/51 } on-error={}
-:do { add list=GR address=2606:40:22fe:8000::/51 } on-error={}
+:do { add list=GR address=2606:40:22fe:8000::/54 } on-error={}
+:do { add list=GR address=2606:40:22fe:8800::/53 } on-error={}
+:do { add list=GR address=2606:40:22fe:9000::/52 } on-error={}
 :do { add list=GR address=2606:40:22ff:4000::/54 } on-error={}
 :do { add list=GR address=2606:40:22ff:6000::/51 } on-error={}
 :do { add list=GR address=2606:40:2860:c00::/54 } on-error={}
@@ -1036,6 +1039,7 @@
 :do { add list=GR address=2a00:79e0:3800:7c00::/55 } on-error={}
 :do { add list=GR address=2a00:79e0:ffe4:3200::/56 } on-error={}
 :do { add list=GR address=2a00:79e0:ffe5:6800::/56 } on-error={}
+:do { add list=GR address=2a00:79e1:abd:7400::/56 } on-error={}
 :do { add list=GR address=2a00:79e1:2800:3e00::/56 } on-error={}
 :do { add list=GR address=2a00:79e1:3800:3e00::/56 } on-error={}
 :do { add list=GR address=2a00:79e1:f002:3a00::/56 } on-error={}
@@ -1710,8 +1714,6 @@
 :do { add list=GR address=2a0d:3dc1:3c45::/48 } on-error={}
 :do { add list=GR address=2a0d:3dc1:3ce0::/48 } on-error={}
 :do { add list=GR address=2a0d:3dc1:3d32::/48 } on-error={}
-:do { add list=GR address=2a0d:3dc1:3d4f::/48 } on-error={}
-:do { add list=GR address=2a0d:3dc1:3d5b::/48 } on-error={}
 :do { add list=GR address=2a0d:3dc1:3ddf::/48 } on-error={}
 :do { add list=GR address=2a0d:3dc1:3deb::/48 } on-error={}
 :do { add list=GR address=2a0d:3dc1:3e6f::/48 } on-error={}
@@ -1724,6 +1726,10 @@
 :do { add list=GR address=2a0d:3dc1:3f86::/48 } on-error={}
 :do { add list=GR address=2a0d:3dc1:3f8f::/48 } on-error={}
 :do { add list=GR address=2a0d:3dc1:3f9b::/48 } on-error={}
+:do { add list=GR address=2a0d:3dc1:3fef::/48 } on-error={}
+:do { add list=GR address=2a0d:3dc1:400c::/48 } on-error={}
+:do { add list=GR address=2a0d:3dc1:401f::/48 } on-error={}
+:do { add list=GR address=2a0d:3dc1:402b::/48 } on-error={}
 :do { add list=GR address=2a0d:3dc1:6789::/48 } on-error={}
 :do { add list=GR address=2a0d:3dc1:6eda::/48 } on-error={}
 :do { add list=GR address=2a0d:3dc1:7990::/48 } on-error={}

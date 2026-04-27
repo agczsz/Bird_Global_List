@@ -1257,6 +1257,7 @@
 :do { add list=KZ address=2a02:6bf:a021:6500::/56 } on-error={}
 :do { add list=KZ address=2a02:6bf:a021:6600::/55 } on-error={}
 :do { add list=KZ address=2a02:6bf:a021:6800::/56 } on-error={}
+:do { add list=KZ address=2a02:6bf:a022:b500::/56 } on-error={}
 :do { add list=KZ address=2a02:6bf:a028::/56 } on-error={}
 :do { add list=KZ address=2a02:26f7:ce00:4000::/64 } on-error={}
 :do { add list=KZ address=2a02:26f7:ce00:d2c0::/62 } on-error={}

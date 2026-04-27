@@ -492,7 +492,10 @@
 :do { add list=HR address=2606:40:22f8:4800::/53 } on-error={}
 :do { add list=HR address=2606:40:22f8:5000::/52 } on-error={}
 :do { add list=HR address=2606:40:22fe:1000::/52 } on-error={}
-:do { add list=HR address=2606:40:22fe:a000::/51 } on-error={}
+:do { add list=HR address=2606:40:22fe:a000::/54 } on-error={}
+:do { add list=HR address=2606:40:22fe:a800::/53 } on-error={}
+:do { add list=HR address=2606:40:22fe:b000::/52 } on-error={}
+:do { add list=HR address=2606:40:2910:c000::/51 } on-error={}
 :do { add list=HR address=2606:54c0:3938::/45 } on-error={}
 :do { add list=HR address=2606:54c0:3940::/45 } on-error={}
 :do { add list=HR address=2606:54c3:0:71e::/64 } on-error={}
