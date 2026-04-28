@@ -2433,6 +2433,7 @@
 :do { add list=CZ address=2602:fbec:3dc::/46 } on-error={}
 :do { add list=CZ address=2602:fd92:b00:161::/64 } on-error={}
 :do { add list=CZ address=2602:feda:3e0::/44 } on-error={}
+:do { add list=CZ address=2605:7a80:9902::/47 } on-error={}
 :do { add list=CZ address=2605:e440:a::/48 } on-error={}
 :do { add list=CZ address=2605:e440:35::/48 } on-error={}
 :do { add list=CZ address=2605:f440:9520::/44 } on-error={}

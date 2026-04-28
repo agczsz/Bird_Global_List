@@ -37617,14 +37617,7 @@
 :do { add list=UY address=2804:6fec:2a:c000::/50 } on-error={}
 :do { add list=UY address=2804:6fec:2c::/46 } on-error={}
 :do { add list=UY address=2804:6fec:31::/48 } on-error={}
-:do { add list=UY address=2804:6fec:33::/49 } on-error={}
-:do { add list=UY address=2804:6fec:33:8000::/50 } on-error={}
-:do { add list=UY address=2804:6fec:33:c000::/51 } on-error={}
-:do { add list=UY address=2804:6fec:33:e000::/53 } on-error={}
-:do { add list=UY address=2804:6fec:33:e800::/54 } on-error={}
-:do { add list=UY address=2804:6fec:33:ec00::/56 } on-error={}
-:do { add list=UY address=2804:6fec:33:ee00::/55 } on-error={}
-:do { add list=UY address=2804:6fec:33:f000::/52 } on-error={}
+:do { add list=UY address=2804:6fec:33::/48 } on-error={}
 :do { add list=UY address=2804:6fec:38::/49 } on-error={}
 :do { add list=UY address=2804:6fec:38:8000::/50 } on-error={}
 :do { add list=UY address=2804:6fec:38:c000::/52 } on-error={}

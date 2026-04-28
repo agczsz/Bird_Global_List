@@ -124,8 +124,7 @@
 :do { add list=NF address=2a12:bec4:12a6:8360::/60 } on-error={}
 :do { add list=NF address=2a12:bec4:12a6:8370::/62 } on-error={}
 :do { add list=NF address=2a12:bec4:12a8:a800::/56 } on-error={}
-:do { add list=NF address=2a12:dd47:80b8::/48 } on-error={}
-:do { add list=NF address=2a12:dd47:80b9::/48 } on-error={}
+:do { add list=NF address=2a12:dd47:80b8::/47 } on-error={}
 :do { add list=NF address=2a12:dd47:80ba::/48 } on-error={}
 :do { add list=NF address=2a12:dd47:80bc::/48 } on-error={}
 :do { add list=NF address=2a12:dd47:80be::/47 } on-error={}

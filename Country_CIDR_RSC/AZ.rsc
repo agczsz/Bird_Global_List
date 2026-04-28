@@ -778,12 +778,7 @@
 :do { add list=AZ address=185.138.17.70/32 } on-error={}
 :do { add list=AZ address=185.143.196.0/22 } on-error={}
 :do { add list=AZ address=185.146.112.0/22 } on-error={}
-:do { add list=AZ address=185.147.24.0/25 } on-error={}
-:do { add list=AZ address=185.147.24.130/31 } on-error={}
-:do { add list=AZ address=185.147.24.136/29 } on-error={}
-:do { add list=AZ address=185.147.24.144/28 } on-error={}
-:do { add list=AZ address=185.147.24.160/27 } on-error={}
-:do { add list=AZ address=185.147.24.192/26 } on-error={}
+:do { add list=AZ address=185.147.24.0/24 } on-error={}
 :do { add list=AZ address=185.161.224.0/22 } on-error={}
 :do { add list=AZ address=185.163.131.0/24 } on-error={}
 :do { add list=AZ address=185.188.144.0/24 } on-error={}

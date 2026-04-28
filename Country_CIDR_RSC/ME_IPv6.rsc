@@ -12,7 +12,6 @@
 :do { add list=ME address=2001:470:1f1b:3a4::/64 } on-error={}
 :do { add list=ME address=2001:470:1f1b:3b5::/64 } on-error={}
 :do { add list=ME address=2001:470:1f1d:30f::/64 } on-error={}
-:do { add list=ME address=2001:470:1f2b:158::/64 } on-error={}
 :do { add list=ME address=2001:470:1f2f:2ea::/64 } on-error={}
 :do { add list=ME address=2001:470:f63d::/48 } on-error={}
 :do { add list=ME address=2001:550:0:1000::9a19:77d/128 } on-error={}

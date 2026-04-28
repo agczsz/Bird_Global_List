@@ -482,7 +482,6 @@
 :do { add list=AE address=2001:470:1f13:ea9::/64 } on-error={}
 :do { add list=AE address=2001:470:1f13:eea::/64 } on-error={}
 :do { add list=AE address=2001:470:1f13:f1b::/64 } on-error={}
-:do { add list=AE address=2001:470:1f15:8e::/64 } on-error={}
 :do { add list=AE address=2001:470:1f15:16f::/64 } on-error={}
 :do { add list=AE address=2001:470:1f15:183::/64 } on-error={}
 :do { add list=AE address=2001:470:1f15:1ba::/64 } on-error={}

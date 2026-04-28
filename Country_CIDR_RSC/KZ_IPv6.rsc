@@ -358,6 +358,7 @@
 :do { add list=KZ address=2001:470:1f13:ba8::/64 } on-error={}
 :do { add list=KZ address=2001:470:1f13:ec1::/64 } on-error={}
 :do { add list=KZ address=2001:470:1f15:34::/64 } on-error={}
+:do { add list=KZ address=2001:470:1f15:55::/64 } on-error={}
 :do { add list=KZ address=2001:470:1f15:5a::/64 } on-error={}
 :do { add list=KZ address=2001:470:1f15:75::/64 } on-error={}
 :do { add list=KZ address=2001:470:1f15:12c::/64 } on-error={}

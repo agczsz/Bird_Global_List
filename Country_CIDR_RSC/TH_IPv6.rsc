@@ -311,6 +311,7 @@
 :do { add list=TH address=2001:470:36:482::/64 } on-error={}
 :do { add list=TH address=2001:470:36:48e::/64 } on-error={}
 :do { add list=TH address=2001:470:36:4aa::/64 } on-error={}
+:do { add list=TH address=2001:470:36:4ba::/64 } on-error={}
 :do { add list=TH address=2001:470:36:4c0::/64 } on-error={}
 :do { add list=TH address=2001:470:36:4d9::/64 } on-error={}
 :do { add list=TH address=2001:470:36:50c::/63 } on-error={}
