@@ -885,8 +885,7 @@
 :do { add list=KE address=102.0.112.0/22 } on-error={}
 :do { add list=KE address=102.0.116.0/24 } on-error={}
 :do { add list=KE address=102.0.117.0/24 } on-error={}
-:do { add list=KE address=102.0.118.0/24 } on-error={}
-:do { add list=KE address=102.0.119.0/24 } on-error={}
+:do { add list=KE address=102.0.118.0/23 } on-error={}
 :do { add list=KE address=102.0.120.0/24 } on-error={}
 :do { add list=KE address=102.0.121.0/24 } on-error={}
 :do { add list=KE address=102.0.122.0/23 } on-error={}
@@ -1004,7 +1003,8 @@
 :do { add list=KE address=102.205.220.0/23 } on-error={}
 :do { add list=KE address=102.205.222.0/23 } on-error={}
 :do { add list=KE address=102.205.236.0/22 } on-error={}
-:do { add list=KE address=102.206.10.0/23 } on-error={}
+:do { add list=KE address=102.206.10.0/24 } on-error={}
+:do { add list=KE address=102.206.11.0/24 } on-error={}
 :do { add list=KE address=102.206.68.0/22 } on-error={}
 :do { add list=KE address=102.206.81.0/24 } on-error={}
 :do { add list=KE address=102.206.96.0/22 } on-error={}
@@ -1051,8 +1051,7 @@
 :do { add list=KE address=102.209.18.0/24 } on-error={}
 :do { add list=KE address=102.209.30.128/26 } on-error={}
 :do { add list=KE address=102.209.56.0/22 } on-error={}
-:do { add list=KE address=102.209.68.0/24 } on-error={}
-:do { add list=KE address=102.209.69.0/24 } on-error={}
+:do { add list=KE address=102.209.68.0/23 } on-error={}
 :do { add list=KE address=102.209.70.0/23 } on-error={}
 :do { add list=KE address=102.209.76.0/22 } on-error={}
 :do { add list=KE address=102.209.90.0/24 } on-error={}

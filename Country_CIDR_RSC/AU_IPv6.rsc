@@ -95056,7 +95056,8 @@
 :do { add list=AU address=2405:6e00:a00::/39 } on-error={}
 :do { add list=AU address=2405:6e00:c00::/42 } on-error={}
 :do { add list=AU address=2405:6e00:c40::/44 } on-error={}
-:do { add list=AU address=2405:6e00:c50::/44 } on-error={}
+:do { add list=AU address=2405:6e00:c50::/45 } on-error={}
+:do { add list=AU address=2405:6e00:c58::/45 } on-error={}
 :do { add list=AU address=2405:6e00:c60::/43 } on-error={}
 :do { add list=AU address=2405:6e00:c80::/42 } on-error={}
 :do { add list=AU address=2405:6e00:cc0::/43 } on-error={}

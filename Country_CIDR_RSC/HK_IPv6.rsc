@@ -24874,7 +24874,9 @@
 :do { add list=HK address=2a06:de01:d0::/44 } on-error={}
 :do { add list=HK address=2a06:de02:400::/48 } on-error={}
 :do { add list=HK address=2a06:de02:402::/48 } on-error={}
-:do { add list=HK address=2a06:de02:404::/46 } on-error={}
+:do { add list=HK address=2a06:de02:404::/48 } on-error={}
+:do { add list=HK address=2a06:de02:405::/48 } on-error={}
+:do { add list=HK address=2a06:de02:406::/47 } on-error={}
 :do { add list=HK address=2a06:de02:40b::/48 } on-error={}
 :do { add list=HK address=2a06:de02:411::/48 } on-error={}
 :do { add list=HK address=2a06:de02:412::/48 } on-error={}
@@ -24888,8 +24890,7 @@
 :do { add list=HK address=2a06:de02:429::/48 } on-error={}
 :do { add list=HK address=2a06:de02:430::/48 } on-error={}
 :do { add list=HK address=2a06:de02:434::/48 } on-error={}
-:do { add list=HK address=2a06:de02:436::/48 } on-error={}
-:do { add list=HK address=2a06:de02:437::/48 } on-error={}
+:do { add list=HK address=2a06:de02:436::/47 } on-error={}
 :do { add list=HK address=2a06:de02:438::/48 } on-error={}
 :do { add list=HK address=2a06:de02:43c::/48 } on-error={}
 :do { add list=HK address=2a06:de02:446::/48 } on-error={}
@@ -24977,7 +24978,8 @@
 :do { add list=HK address=2a06:de02:5be::/48 } on-error={}
 :do { add list=HK address=2a06:de02:5d3::/48 } on-error={}
 :do { add list=HK address=2a06:de02:5d5::/48 } on-error={}
-:do { add list=HK address=2a06:de02:5dc::/47 } on-error={}
+:do { add list=HK address=2a06:de02:5dc::/48 } on-error={}
+:do { add list=HK address=2a06:de02:5dd::/48 } on-error={}
 :do { add list=HK address=2a06:de02:5e2::/48 } on-error={}
 :do { add list=HK address=2a06:de02:5e5::/48 } on-error={}
 :do { add list=HK address=2a06:de02:5e7::/48 } on-error={}
@@ -25005,7 +25007,8 @@
 :do { add list=HK address=2a06:de02:654::/48 } on-error={}
 :do { add list=HK address=2a06:de02:656::/48 } on-error={}
 :do { add list=HK address=2a06:de02:65a::/47 } on-error={}
-:do { add list=HK address=2a06:de02:65c::/47 } on-error={}
+:do { add list=HK address=2a06:de02:65c::/48 } on-error={}
+:do { add list=HK address=2a06:de02:65d::/48 } on-error={}
 :do { add list=HK address=2a06:de02:65f::/48 } on-error={}
 :do { add list=HK address=2a06:de02:666::/48 } on-error={}
 :do { add list=HK address=2a06:de02:66d::/48 } on-error={}
@@ -25024,8 +25027,7 @@
 :do { add list=HK address=2a06:de02:718::/48 } on-error={}
 :do { add list=HK address=2a06:de02:71a::/48 } on-error={}
 :do { add list=HK address=2a06:de02:726::/48 } on-error={}
-:do { add list=HK address=2a06:de02:728::/48 } on-error={}
-:do { add list=HK address=2a06:de02:729::/48 } on-error={}
+:do { add list=HK address=2a06:de02:728::/47 } on-error={}
 :do { add list=HK address=2a06:de02:72f::/48 } on-error={}
 :do { add list=HK address=2a06:de02:730::/48 } on-error={}
 :do { add list=HK address=2a06:de02:735::/48 } on-error={}
@@ -25131,8 +25133,7 @@
 :do { add list=HK address=2a06:de05:6166::/48 } on-error={}
 :do { add list=HK address=2a06:de05:616d::/48 } on-error={}
 :do { add list=HK address=2a06:de05:6170::/48 } on-error={}
-:do { add list=HK address=2a06:de05:6176::/48 } on-error={}
-:do { add list=HK address=2a06:de05:6177::/48 } on-error={}
+:do { add list=HK address=2a06:de05:6176::/47 } on-error={}
 :do { add list=HK address=2a06:de05:6179::/48 } on-error={}
 :do { add list=HK address=2a06:de05:617f::/48 } on-error={}
 :do { add list=HK address=2a06:de05:6182::/48 } on-error={}
@@ -25143,8 +25144,7 @@
 :do { add list=HK address=2a06:de05:618a::/48 } on-error={}
 :do { add list=HK address=2a06:de05:618c::/48 } on-error={}
 :do { add list=HK address=2a06:de05:618e::/47 } on-error={}
-:do { add list=HK address=2a06:de05:6192::/48 } on-error={}
-:do { add list=HK address=2a06:de05:6193::/48 } on-error={}
+:do { add list=HK address=2a06:de05:6192::/47 } on-error={}
 :do { add list=HK address=2a06:de05:6194::/48 } on-error={}
 :do { add list=HK address=2a06:de05:6197::/48 } on-error={}
 :do { add list=HK address=2a06:de05:61a2::/47 } on-error={}
@@ -25174,7 +25174,8 @@
 :do { add list=HK address=2a06:de05:6217::/48 } on-error={}
 :do { add list=HK address=2a06:de05:621e::/48 } on-error={}
 :do { add list=HK address=2a06:de05:6221::/48 } on-error={}
-:do { add list=HK address=2a06:de05:6226::/47 } on-error={}
+:do { add list=HK address=2a06:de05:6226::/48 } on-error={}
+:do { add list=HK address=2a06:de05:6227::/48 } on-error={}
 :do { add list=HK address=2a06:de05:6229::/48 } on-error={}
 :do { add list=HK address=2a06:de05:622a::/48 } on-error={}
 :do { add list=HK address=2a06:de05:6232::/48 } on-error={}
@@ -25196,7 +25197,8 @@
 :do { add list=HK address=2a06:de05:628b::/48 } on-error={}
 :do { add list=HK address=2a06:de05:628d::/48 } on-error={}
 :do { add list=HK address=2a06:de05:628e::/48 } on-error={}
-:do { add list=HK address=2a06:de05:6290::/47 } on-error={}
+:do { add list=HK address=2a06:de05:6290::/48 } on-error={}
+:do { add list=HK address=2a06:de05:6291::/48 } on-error={}
 :do { add list=HK address=2a06:de05:6292::/48 } on-error={}
 :do { add list=HK address=2a06:de05:629a::/48 } on-error={}
 :do { add list=HK address=2a06:de05:629d::/48 } on-error={}
@@ -25216,7 +25218,8 @@
 :do { add list=HK address=2a06:de05:62e0::/48 } on-error={}
 :do { add list=HK address=2a06:de05:62e8::/48 } on-error={}
 :do { add list=HK address=2a06:de05:62ec::/48 } on-error={}
-:do { add list=HK address=2a06:de05:62ee::/47 } on-error={}
+:do { add list=HK address=2a06:de05:62ee::/48 } on-error={}
+:do { add list=HK address=2a06:de05:62ef::/48 } on-error={}
 :do { add list=HK address=2a06:de05:62f4::/47 } on-error={}
 :do { add list=HK address=2a06:de05:62fa::/48 } on-error={}
 :do { add list=HK address=2a06:de05:62fb::/48 } on-error={}
@@ -25245,7 +25248,8 @@
 :do { add list=HK address=2a06:de05:6370::/48 } on-error={}
 :do { add list=HK address=2a06:de05:6373::/48 } on-error={}
 :do { add list=HK address=2a06:de05:6386::/48 } on-error={}
-:do { add list=HK address=2a06:de05:6390::/47 } on-error={}
+:do { add list=HK address=2a06:de05:6390::/48 } on-error={}
+:do { add list=HK address=2a06:de05:6391::/48 } on-error={}
 :do { add list=HK address=2a06:de05:6395::/48 } on-error={}
 :do { add list=HK address=2a06:de05:6397::/48 } on-error={}
 :do { add list=HK address=2a06:de05:639f::/48 } on-error={}
@@ -25256,7 +25260,8 @@
 :do { add list=HK address=2a06:de05:63b1::/48 } on-error={}
 :do { add list=HK address=2a06:de05:63b3::/48 } on-error={}
 :do { add list=HK address=2a06:de05:63b6::/48 } on-error={}
-:do { add list=HK address=2a06:de05:63bc::/47 } on-error={}
+:do { add list=HK address=2a06:de05:63bc::/48 } on-error={}
+:do { add list=HK address=2a06:de05:63bd::/48 } on-error={}
 :do { add list=HK address=2a06:de05:63c2::/48 } on-error={}
 :do { add list=HK address=2a06:de05:63c6::/48 } on-error={}
 :do { add list=HK address=2a06:de05:63c7::/48 } on-error={}

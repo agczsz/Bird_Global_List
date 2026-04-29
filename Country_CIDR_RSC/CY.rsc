@@ -1253,9 +1253,7 @@
 :do { add list=CY address=217.27.54.0/24 } on-error={}
 :do { add list=CY address=217.27.55.0/24 } on-error={}
 :do { add list=CY address=217.27.56.0/21 } on-error={}
-:do { add list=CY address=217.72.12.0/24 } on-error={}
-:do { add list=CY address=217.72.13.0/24 } on-error={}
-:do { add list=CY address=217.72.14.0/23 } on-error={}
+:do { add list=CY address=217.72.12.0/22 } on-error={}
 :do { add list=CY address=217.175.208.0/24 } on-error={}
 :do { add list=CY address=217.175.209.0/24 } on-error={}
 :do { add list=CY address=217.175.210.0/23 } on-error={}

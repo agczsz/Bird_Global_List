@@ -46,10 +46,7 @@
 :do { add list=SY address=2a00:1ee8::/32 } on-error={}
 :do { add list=SY address=2a00:45a0::/32 } on-error={}
 :do { add list=SY address=2a00:70a0::/32 } on-error={}
-:do { add list=SY address=2a00:b800::/32 } on-error={}
-:do { add list=SY address=2a00:b801::/32 } on-error={}
-:do { add list=SY address=2a00:b802::/31 } on-error={}
-:do { add list=SY address=2a00:b804::/30 } on-error={}
+:do { add list=SY address=2a00:b800::/29 } on-error={}
 :do { add list=SY address=2a01:528:eb00::/40 } on-error={}
 :do { add list=SY address=2a01:bd60::/32 } on-error={}
 :do { add list=SY address=2a02:26f7:c8c0:e896::/64 } on-error={}

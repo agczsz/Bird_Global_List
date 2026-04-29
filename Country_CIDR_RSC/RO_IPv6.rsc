@@ -5178,7 +5178,10 @@
 :do { add list=RO address=2a0e:97c0:b01::/48 } on-error={}
 :do { add list=RO address=2a0e:97c0:b02::/47 } on-error={}
 :do { add list=RO address=2a0e:97c0:b04::/46 } on-error={}
-:do { add list=RO address=2a0e:97c0:b08::/45 } on-error={}
+:do { add list=RO address=2a0e:97c0:b08::/46 } on-error={}
+:do { add list=RO address=2a0e:97c0:b0c::/47 } on-error={}
+:do { add list=RO address=2a0e:97c0:b0e::/48 } on-error={}
+:do { add list=RO address=2a0e:97c0:b0f::/48 } on-error={}
 :do { add list=RO address=2a0e:97c0:f20::/44 } on-error={}
 :do { add list=RO address=2a0e:acc0:ac51::/48 } on-error={}
 :do { add list=RO address=2a0e:b107:23::/48 } on-error={}

@@ -2727,7 +2727,8 @@
 :do { add list=SA address=200.225.56.0/23 } on-error={}
 :do { add list=SA address=202.8.108.0/22 } on-error={}
 :do { add list=SA address=202.22.166.0/24 } on-error={}
-:do { add list=SA address=202.37.110.0/23 } on-error={}
+:do { add list=SA address=202.37.110.0/24 } on-error={}
+:do { add list=SA address=202.37.111.0/24 } on-error={}
 :do { add list=SA address=202.181.131.144/29 } on-error={}
 :do { add list=SA address=202.181.133.112/28 } on-error={}
 :do { add list=SA address=204.3.132.0/24 } on-error={}

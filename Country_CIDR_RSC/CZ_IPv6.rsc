@@ -7415,7 +7415,11 @@
 :do { add list=CZ address=2a0f:6284:7::/48 } on-error={}
 :do { add list=CZ address=2a0f:6284:d::/48 } on-error={}
 :do { add list=CZ address=2a0f:6284:10::/44 } on-error={}
-:do { add list=CZ address=2a0f:6284:500::/40 } on-error={}
+:do { add list=CZ address=2a0f:6284:500::/44 } on-error={}
+:do { add list=CZ address=2a0f:6284:510::/44 } on-error={}
+:do { add list=CZ address=2a0f:6284:520::/43 } on-error={}
+:do { add list=CZ address=2a0f:6284:540::/42 } on-error={}
+:do { add list=CZ address=2a0f:6284:580::/41 } on-error={}
 :do { add list=CZ address=2a0f:6284:610::/44 } on-error={}
 :do { add list=CZ address=2a0f:6284:620::/44 } on-error={}
 :do { add list=CZ address=2a0f:6284:630::/44 } on-error={}

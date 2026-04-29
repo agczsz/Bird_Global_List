@@ -1225,8 +1225,7 @@
 :do { add list=LV address=159.148.112.0/23 } on-error={}
 :do { add list=LV address=159.148.114.0/24 } on-error={}
 :do { add list=LV address=159.148.115.0/24 } on-error={}
-:do { add list=LV address=159.148.116.0/24 } on-error={}
-:do { add list=LV address=159.148.117.0/24 } on-error={}
+:do { add list=LV address=159.148.116.0/23 } on-error={}
 :do { add list=LV address=159.148.118.0/24 } on-error={}
 :do { add list=LV address=159.148.119.0/24 } on-error={}
 :do { add list=LV address=159.148.120.0/22 } on-error={}
