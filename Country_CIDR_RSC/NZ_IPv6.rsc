@@ -459,8 +459,7 @@
 :do { add list=NZ address=2001:df3:7c0::/48 } on-error={}
 :do { add list=NZ address=2001:df3:1900::/48 } on-error={}
 :do { add list=NZ address=2001:df3:2240::/48 } on-error={}
-:do { add list=NZ address=2001:df3:32c0::/48 } on-error={}
-:do { add list=NZ address=2001:df3:32c1::/48 } on-error={}
+:do { add list=NZ address=2001:df3:32c0::/47 } on-error={}
 :do { add list=NZ address=2001:df3:4000::/48 } on-error={}
 :do { add list=NZ address=2001:df3:4180::/48 } on-error={}
 :do { add list=NZ address=2001:df3:5100::/48 } on-error={}

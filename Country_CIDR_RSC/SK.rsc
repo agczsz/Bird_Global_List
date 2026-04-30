@@ -136,10 +136,7 @@
 :do { add list=SK address=46.228.223.0/24 } on-error={}
 :do { add list=SK address=46.229.224.0/20 } on-error={}
 :do { add list=SK address=46.231.96.0/21 } on-error={}
-:do { add list=SK address=46.243.64.0/22 } on-error={}
-:do { add list=SK address=46.243.68.0/23 } on-error={}
-:do { add list=SK address=46.243.70.0/24 } on-error={}
-:do { add list=SK address=46.243.71.0/24 } on-error={}
+:do { add list=SK address=46.243.64.0/21 } on-error={}
 :do { add list=SK address=51.10.33.56/32 } on-error={}
 :do { add list=SK address=51.10.33.58/31 } on-error={}
 :do { add list=SK address=57.90.208.0/20 } on-error={}

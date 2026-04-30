@@ -5717,11 +5717,7 @@
 :do { add list=ES address=2a00:208d::/32 } on-error={}
 :do { add list=ES address=2a00:43c0::/32 } on-error={}
 :do { add list=ES address=2a00:4560::/32 } on-error={}
-:do { add list=ES address=2a00:4920::/33 } on-error={}
-:do { add list=ES address=2a00:4920:8000::/33 } on-error={}
-:do { add list=ES address=2a00:4921::/32 } on-error={}
-:do { add list=ES address=2a00:4922::/31 } on-error={}
-:do { add list=ES address=2a00:4924::/30 } on-error={}
+:do { add list=ES address=2a00:4920::/29 } on-error={}
 :do { add list=ES address=2a00:4b80::/48 } on-error={}
 :do { add list=ES address=2a00:4b80:1::/48 } on-error={}
 :do { add list=ES address=2a00:4b80:2::/47 } on-error={}

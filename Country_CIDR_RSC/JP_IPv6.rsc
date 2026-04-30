@@ -42213,7 +42213,10 @@
 :do { add list=JP address=2a06:41:40::/44 } on-error={}
 :do { add list=JP address=2a06:41:50::/44 } on-error={}
 :do { add list=JP address=2a06:41:60::/43 } on-error={}
-:do { add list=JP address=2a06:41:80::/41 } on-error={}
+:do { add list=JP address=2a06:41:80::/42 } on-error={}
+:do { add list=JP address=2a06:41:c0::/44 } on-error={}
+:do { add list=JP address=2a06:41:d0::/44 } on-error={}
+:do { add list=JP address=2a06:41:e0::/43 } on-error={}
 :do { add list=JP address=2a06:41:100::/40 } on-error={}
 :do { add list=JP address=2a06:41:200::/39 } on-error={}
 :do { add list=JP address=2a06:41:400::/38 } on-error={}
