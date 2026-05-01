@@ -1,8 +1,11 @@
 /log info "Loading GQ IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=GQ address=2001:470:36:ea::/64 } on-error={}
+:do { add list=GQ address=2001:470:1f07:8bd::/64 } on-error={}
 :do { add list=GQ address=2001:470:8c13::/48 } on-error={}
 :do { add list=GQ address=2001:67c:a38:f240::/64 } on-error={}
+:do { add list=GQ address=2001:918:100:646::2/128 } on-error={}
+:do { add list=GQ address=2001:918:100:646::16/128 } on-error={}
 :do { add list=GQ address=2001:4b28:cf00::/40 } on-error={}
 :do { add list=GQ address=2401:b60:1420:4000::/50 } on-error={}
 :do { add list=GQ address=2401:b60:1420:8000::/49 } on-error={}
@@ -10,7 +13,7 @@
 :do { add list=GQ address=2401:b60:1422::/47 } on-error={}
 :do { add list=GQ address=2401:b60:1424::/46 } on-error={}
 :do { add list=GQ address=2401:b60:1428::/45 } on-error={}
-:do { add list=GQ address=2401:f1e0:ffff:8439::/64 } on-error={}
+:do { add list=GQ address=2401:f1e0:ffff:cfb8::/64 } on-error={}
 :do { add list=GQ address=2405:b500:2e00::/64 } on-error={}
 :do { add list=GQ address=2405:b500:2e20::/64 } on-error={}
 :do { add list=GQ address=2405:b500:2e40::/64 } on-error={}
@@ -161,22 +164,7 @@
 :do { add list=GQ address=2a13:ef45:4980::/42 } on-error={}
 :do { add list=GQ address=2a14:1c2:800::/37 } on-error={}
 :do { add list=GQ address=2a14:67c1:b656::/48 } on-error={}
-:do { add list=GQ address=2a14:67c2:8a0:1::/64 } on-error={}
-:do { add list=GQ address=2a14:67c2:8a0:2::/63 } on-error={}
-:do { add list=GQ address=2a14:67c2:8a0:4::/62 } on-error={}
-:do { add list=GQ address=2a14:67c2:8a0:8::/61 } on-error={}
-:do { add list=GQ address=2a14:67c2:8a0:10::/60 } on-error={}
-:do { add list=GQ address=2a14:67c2:8a0:20::/59 } on-error={}
-:do { add list=GQ address=2a14:67c2:8a0:40::/58 } on-error={}
-:do { add list=GQ address=2a14:67c2:8a0:80::/57 } on-error={}
-:do { add list=GQ address=2a14:67c2:8a0:100::/56 } on-error={}
-:do { add list=GQ address=2a14:67c2:8a0:200::/55 } on-error={}
-:do { add list=GQ address=2a14:67c2:8a0:400::/54 } on-error={}
-:do { add list=GQ address=2a14:67c2:8a0:800::/53 } on-error={}
-:do { add list=GQ address=2a14:67c2:8a0:1000::/52 } on-error={}
-:do { add list=GQ address=2a14:67c2:8a0:2000::/51 } on-error={}
-:do { add list=GQ address=2a14:67c2:8a0:4000::/50 } on-error={}
-:do { add list=GQ address=2a14:67c2:8a0:8000::/49 } on-error={}
+:do { add list=GQ address=2a14:67c2:8a0::/48 } on-error={}
 :do { add list=GQ address=2a14:7580:cf57::/48 } on-error={}
 :do { add list=GQ address=2a14:7581:b10:4100::/56 } on-error={}
 :do { add list=GQ address=2a14:7581:b11:4100::/56 } on-error={}
@@ -184,6 +172,7 @@
 :do { add list=GQ address=2a14:7581:b15:4100::/56 } on-error={}
 :do { add list=GQ address=2a14:7581:b16:4100::/56 } on-error={}
 :do { add list=GQ address=2a14:7581:b17:4100::/56 } on-error={}
+:do { add list=GQ address=2a14:7581:be0:3880::/58 } on-error={}
 :do { add list=GQ address=2a14:7581:3b4a::/48 } on-error={}
 :do { add list=GQ address=2c0f:f180::/32 } on-error={}
 :do { add list=GQ address=2c0f:f840::/32 } on-error={}

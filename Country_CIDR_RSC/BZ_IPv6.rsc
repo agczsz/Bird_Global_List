@@ -1,5 +1,6 @@
 /log info "Loading BZ IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=BZ address=2001:470:8:711::/64 } on-error={}
 :do { add list=BZ address=2001:470:24:31c::/64 } on-error={}
 :do { add list=BZ address=2001:470:36:a7::/64 } on-error={}
 :do { add list=BZ address=2001:470:36:804::/64 } on-error={}
@@ -25,7 +26,7 @@
 :do { add list=BZ address=2401:b60:1162::/47 } on-error={}
 :do { add list=BZ address=2401:b60:1164::/46 } on-error={}
 :do { add list=BZ address=2401:b60:1168::/45 } on-error={}
-:do { add list=BZ address=2401:f1e0:ffff:917a::/64 } on-error={}
+:do { add list=BZ address=2401:f1e0:ffff:6395::/64 } on-error={}
 :do { add list=BZ address=2404:f980:8::/48 } on-error={}
 :do { add list=BZ address=2405:b500:1400::/64 } on-error={}
 :do { add list=BZ address=2405:b500:1420::/64 } on-error={}
@@ -353,6 +354,7 @@
 :do { add list=BZ address=2a14:7581:b15:1a00::/56 } on-error={}
 :do { add list=BZ address=2a14:7581:b16:1a00::/56 } on-error={}
 :do { add list=BZ address=2a14:7581:b17:1a00::/56 } on-error={}
+:do { add list=BZ address=2a14:7581:be0:1500::/58 } on-error={}
 :do { add list=BZ address=2a14:7581:3b1d::/48 } on-error={}
 :do { add list=BZ address=2a14:7583:ff88::/48 } on-error={}
 :do { add list=BZ address=2a14:9e00:b00::/40 } on-error={}

@@ -2,6 +2,7 @@
 /ipv6 firewall address-list
 :do { add list=AG address=2001:470:19:1328::/64 } on-error={}
 :do { add list=AG address=2001:470:24:53c::/64 } on-error={}
+:do { add list=AG address=2001:470:24:650::/64 } on-error={}
 :do { add list=AG address=2001:470:24:1290::/64 } on-error={}
 :do { add list=AG address=2001:470:36:8c::/64 } on-error={}
 :do { add list=AG address=2001:470:6d:11c5::/64 } on-error={}
@@ -230,7 +231,7 @@
 :do { add list=AG address=2401:b60:1092::/47 } on-error={}
 :do { add list=AG address=2401:b60:1094::/46 } on-error={}
 :do { add list=AG address=2401:b60:1098::/45 } on-error={}
-:do { add list=AG address=2401:f1e0:ffff:2d0c::/64 } on-error={}
+:do { add list=AG address=2401:f1e0:ffff:5110::/64 } on-error={}
 :do { add list=AG address=2401:f1e0:ffff:b23b::/64 } on-error={}
 :do { add list=AG address=2405:b500:300::/64 } on-error={}
 :do { add list=AG address=2405:b500:320::/64 } on-error={}
@@ -243,6 +244,7 @@
 :do { add list=AG address=2605:9e40:8000::/34 } on-error={}
 :do { add list=AG address=2605:9e40:c000::/52 } on-error={}
 :do { add list=AG address=2605:9e40:c000:1000::/55 } on-error={}
+:do { add list=AG address=2605:9e40:c000:1300::/56 } on-error={}
 :do { add list=AG address=2605:9e40:c000:1400::/55 } on-error={}
 :do { add list=AG address=2605:9e40:c000:1600::/56 } on-error={}
 :do { add list=AG address=2605:9e40:c000:1800::/53 } on-error={}
@@ -511,4 +513,5 @@
 :do { add list=AG address=2a14:7581:b15:800::/56 } on-error={}
 :do { add list=AG address=2a14:7581:b16:800::/56 } on-error={}
 :do { add list=AG address=2a14:7581:b17:800::/56 } on-error={}
+:do { add list=AG address=2a14:7581:be0:700::/58 } on-error={}
 :do { add list=AG address=2a14:7581:3b10::/48 } on-error={}

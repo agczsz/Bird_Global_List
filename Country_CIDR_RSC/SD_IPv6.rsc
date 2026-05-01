@@ -1,6 +1,5 @@
 /log info "Loading SD IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=SD address=2001:470:1d:3d2::/64 } on-error={}
 :do { add list=SD address=2001:470:36:185::/64 } on-error={}
 :do { add list=SD address=2001:470:36:485::/64 } on-error={}
 :do { add list=SD address=2001:470:6d:26d::/64 } on-error={}
@@ -24,7 +23,7 @@
 :do { add list=SD address=2401:b60:1d92::/47 } on-error={}
 :do { add list=SD address=2401:b60:1d94::/46 } on-error={}
 :do { add list=SD address=2401:b60:1d98::/45 } on-error={}
-:do { add list=SD address=2401:f1e0:ffff:b518::/64 } on-error={}
+:do { add list=SD address=2401:f1e0:ffff:93bd::/64 } on-error={}
 :do { add list=SD address=2405:b500:6400::/64 } on-error={}
 :do { add list=SD address=2405:b500:6400:8::/64 } on-error={}
 :do { add list=SD address=2405:b500:6420::/64 } on-error={}
@@ -195,22 +194,7 @@
 :do { add list=SD address=2a14:1c3:f000::/37 } on-error={}
 :do { add list=SD address=2a14:7c5:780::/44 } on-error={}
 :do { add list=SD address=2a14:67c1:b6c2::/48 } on-error={}
-:do { add list=SD address=2a14:67c2:88d:1::/64 } on-error={}
-:do { add list=SD address=2a14:67c2:88d:2::/63 } on-error={}
-:do { add list=SD address=2a14:67c2:88d:4::/62 } on-error={}
-:do { add list=SD address=2a14:67c2:88d:8::/61 } on-error={}
-:do { add list=SD address=2a14:67c2:88d:10::/60 } on-error={}
-:do { add list=SD address=2a14:67c2:88d:20::/59 } on-error={}
-:do { add list=SD address=2a14:67c2:88d:40::/58 } on-error={}
-:do { add list=SD address=2a14:67c2:88d:80::/57 } on-error={}
-:do { add list=SD address=2a14:67c2:88d:100::/56 } on-error={}
-:do { add list=SD address=2a14:67c2:88d:200::/55 } on-error={}
-:do { add list=SD address=2a14:67c2:88d:400::/54 } on-error={}
-:do { add list=SD address=2a14:67c2:88d:800::/53 } on-error={}
-:do { add list=SD address=2a14:67c2:88d:1000::/52 } on-error={}
-:do { add list=SD address=2a14:67c2:88d:2000::/51 } on-error={}
-:do { add list=SD address=2a14:67c2:88d:4000::/50 } on-error={}
-:do { add list=SD address=2a14:67c2:88d:8000::/49 } on-error={}
+:do { add list=SD address=2a14:67c2:88d::/48 } on-error={}
 :do { add list=SD address=2a14:7580:cfc3::/48 } on-error={}
 :do { add list=SD address=2a14:7581:b10:d300::/56 } on-error={}
 :do { add list=SD address=2a14:7581:b11:d300::/56 } on-error={}
@@ -218,6 +202,7 @@
 :do { add list=SD address=2a14:7581:b15:d300::/56 } on-error={}
 :do { add list=SD address=2a14:7581:b16:d300::/56 } on-error={}
 :do { add list=SD address=2a14:7581:b17:d300::/56 } on-error={}
+:do { add list=SD address=2a14:7581:be0:b640::/58 } on-error={}
 :do { add list=SD address=2a14:7581:3bda::/48 } on-error={}
 :do { add list=SD address=2a14:7584:e7a5::/48 } on-error={}
 :do { add list=SD address=2c0f:1e40::/32 } on-error={}

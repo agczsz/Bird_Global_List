@@ -1,8 +1,5 @@
 /log info "Loading KY IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=KY address=2001:470:5:33::/64 } on-error={}
-:do { add list=KY address=2001:470:5:2bf::/64 } on-error={}
-:do { add list=KY address=2001:470:5:682::/64 } on-error={}
 :do { add list=KY address=2001:470:24:5cc::/64 } on-error={}
 :do { add list=KY address=2001:470:24:dad::/64 } on-error={}
 :do { add list=KY address=2001:470:26:5c0::/64 } on-error={}
@@ -10,6 +7,7 @@
 :do { add list=KY address=2001:470:36:108::/64 } on-error={}
 :do { add list=KY address=2001:470:36:22e::/64 } on-error={}
 :do { add list=KY address=2001:470:36:10a2::/64 } on-error={}
+:do { add list=KY address=2001:470:1f07:55a::/64 } on-error={}
 :do { add list=KY address=2001:470:1f0b:4c4::/64 } on-error={}
 :do { add list=KY address=2001:470:1f21:40::/64 } on-error={}
 :do { add list=KY address=2001:470:71f2::/48 } on-error={}
@@ -30,7 +28,6 @@
 :do { add list=KY address=2401:b60:1294::/46 } on-error={}
 :do { add list=KY address=2401:b60:1298::/45 } on-error={}
 :do { add list=KY address=2401:f1e0:ffff:8a20::/64 } on-error={}
-:do { add list=KY address=2401:f1e0:ffff:ab47::/64 } on-error={}
 :do { add list=KY address=2405:b500:4000::/64 } on-error={}
 :do { add list=KY address=2405:b500:4020::/64 } on-error={}
 :do { add list=KY address=2405:b500:4040::/64 } on-error={}
@@ -125,7 +122,8 @@
 :do { add list=KY address=2a0a:6044:f400::/46 } on-error={}
 :do { add list=KY address=2a0a:6044:f404::/48 } on-error={}
 :do { add list=KY address=2a0b:4e07:3:1360::/60 } on-error={}
-:do { add list=KY address=2a0b:4e07:6c::/48 } on-error={}
+:do { add list=KY address=2a0b:4e07:6c:4000::/50 } on-error={}
+:do { add list=KY address=2a0b:4e07:6c:8000::/49 } on-error={}
 :do { add list=KY address=2a0c:9a40:95b2:9000::/52 } on-error={}
 :do { add list=KY address=2a0c:9a46:37c::/48 } on-error={}
 :do { add list=KY address=2a0c:9a46:3fe:7b::/64 } on-error={}
@@ -191,22 +189,7 @@
 :do { add list=KY address=2a13:aac4:f018::/45 } on-error={}
 :do { add list=KY address=2a14:1c7:c000::/37 } on-error={}
 :do { add list=KY address=2a14:67c1:b67a::/48 } on-error={}
-:do { add list=KY address=2a14:67c2:80a:1::/64 } on-error={}
-:do { add list=KY address=2a14:67c2:80a:2::/63 } on-error={}
-:do { add list=KY address=2a14:67c2:80a:4::/62 } on-error={}
-:do { add list=KY address=2a14:67c2:80a:8::/61 } on-error={}
-:do { add list=KY address=2a14:67c2:80a:10::/60 } on-error={}
-:do { add list=KY address=2a14:67c2:80a:20::/59 } on-error={}
-:do { add list=KY address=2a14:67c2:80a:40::/58 } on-error={}
-:do { add list=KY address=2a14:67c2:80a:80::/57 } on-error={}
-:do { add list=KY address=2a14:67c2:80a:100::/56 } on-error={}
-:do { add list=KY address=2a14:67c2:80a:200::/55 } on-error={}
-:do { add list=KY address=2a14:67c2:80a:400::/54 } on-error={}
-:do { add list=KY address=2a14:67c2:80a:800::/53 } on-error={}
-:do { add list=KY address=2a14:67c2:80a:1000::/52 } on-error={}
-:do { add list=KY address=2a14:67c2:80a:2000::/51 } on-error={}
-:do { add list=KY address=2a14:67c2:80a:4000::/50 } on-error={}
-:do { add list=KY address=2a14:67c2:80a:8000::/49 } on-error={}
+:do { add list=KY address=2a14:67c2:80a::/48 } on-error={}
 :do { add list=KY address=2a14:7580:cf7b::/48 } on-error={}
 :do { add list=KY address=2a14:7581:b10:2700::/56 } on-error={}
 :do { add list=KY address=2a14:7581:b11:2700::/56 } on-error={}
