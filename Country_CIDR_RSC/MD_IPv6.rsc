@@ -1360,7 +1360,7 @@
 :do { add list=MD address=2a14:3880::/31 } on-error={}
 :do { add list=MD address=2a14:3882::/32 } on-error={}
 :do { add list=MD address=2a14:3883::/48 } on-error={}
-:do { add list=MD address=2a14:3883:2::/47 } on-error={}
+:do { add list=MD address=2a14:3883:2::/48 } on-error={}
 :do { add list=MD address=2a14:3883:4::/46 } on-error={}
 :do { add list=MD address=2a14:3883:8::/45 } on-error={}
 :do { add list=MD address=2a14:3883:10::/44 } on-error={}

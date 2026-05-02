@@ -175,6 +175,12 @@
 :do { add list=SX address=2a11:29c0:3d88:ba77::/64 } on-error={}
 :do { add list=SX address=2a11:29c0:3d88:d845::/64 } on-error={}
 :do { add list=SX address=2a11:3a82:c000::/35 } on-error={}
+:do { add list=SX address=2a12:bec4:12a4:4e3::/64 } on-error={}
+:do { add list=SX address=2a12:bec4:12a4:4e4::/62 } on-error={}
+:do { add list=SX address=2a12:bec4:12a4:4e8::/61 } on-error={}
+:do { add list=SX address=2a12:bec4:12a4:4f0::/62 } on-error={}
+:do { add list=SX address=2a12:bec4:12a4:4f4::/63 } on-error={}
+:do { add list=SX address=2a12:bec4:12a4:4f6::/64 } on-error={}
 :do { add list=SX address=2a12:bec4:12a8:d800::/56 } on-error={}
 :do { add list=SX address=2a12:f005:2000::/36 } on-error={}
 :do { add list=SX address=2a12:f381:ec00::/40 } on-error={}

@@ -4219,7 +4219,6 @@
 :do { add list=NZ address=2a06:a005:bf0::/44 } on-error={}
 :do { add list=NZ address=2a06:a005:c20::/43 } on-error={}
 :do { add list=NZ address=2a06:a005:c40::/43 } on-error={}
-:do { add list=NZ address=2a06:a005:c60::/44 } on-error={}
 :do { add list=NZ address=2a06:a005:c70::/44 } on-error={}
 :do { add list=NZ address=2a06:a005:c80::/48 } on-error={}
 :do { add list=NZ address=2a06:a005:c85::/48 } on-error={}

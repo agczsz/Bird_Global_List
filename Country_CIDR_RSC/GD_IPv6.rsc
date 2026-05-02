@@ -162,6 +162,10 @@
 :do { add list=GD address=2a0f:a302:d000::/37 } on-error={}
 :do { add list=GD address=2a11:29c0:3d88:e388::/64 } on-error={}
 :do { add list=GD address=2a11:a683:3000::/36 } on-error={}
+:do { add list=GD address=2a12:bec4:12a4:acf::/64 } on-error={}
+:do { add list=GD address=2a12:bec4:12a4:ad0::/60 } on-error={}
+:do { add list=GD address=2a12:bec4:12a4:ae0::/62 } on-error={}
+:do { add list=GD address=2a12:bec4:12a4:ae4::/64 } on-error={}
 :do { add list=GD address=2a12:bec4:12a8:5300::/56 } on-error={}
 :do { add list=GD address=2a12:ef87:d000::/36 } on-error={}
 :do { add list=GD address=2a12:f381:c600::/40 } on-error={}

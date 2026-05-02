@@ -25220,6 +25220,11 @@
 :do { add list=DM address=2a11:29c0:3d88:d617::/64 } on-error={}
 :do { add list=DM address=2a11:29c0:3d88:f71a::/64 } on-error={}
 :do { add list=DM address=2a11:a682:8000::/36 } on-error={}
+:do { add list=DM address=2a12:bec4:12a4:a81::/64 } on-error={}
+:do { add list=DM address=2a12:bec4:12a4:a82::/63 } on-error={}
+:do { add list=DM address=2a12:bec4:12a4:a84::/62 } on-error={}
+:do { add list=DM address=2a12:bec4:12a4:a88::/62 } on-error={}
+:do { add list=DM address=2a12:bec4:12a4:a8c::/63 } on-error={}
 :do { add list=DM address=2a12:bec4:12a8:4200::/56 } on-error={}
 :do { add list=DM address=2a12:bec4:1710::/44 } on-error={}
 :do { add list=DM address=2a12:bec4:1730::/44 } on-error={}

@@ -775,7 +775,6 @@
 :do { add list=KR address=2001:470:24:595::/64 } on-error={}
 :do { add list=KR address=2001:470:24:5b3::/64 } on-error={}
 :do { add list=KR address=2001:470:24:5dc::/64 } on-error={}
-:do { add list=KR address=2001:470:24:655::/64 } on-error={}
 :do { add list=KR address=2001:470:24:665::/64 } on-error={}
 :do { add list=KR address=2001:470:24:669::/64 } on-error={}
 :do { add list=KR address=2001:470:24:671::/64 } on-error={}
@@ -4514,6 +4513,7 @@
 :do { add list=KR address=2a06:9801:c3::/48 } on-error={}
 :do { add list=KR address=2a06:9801:22f::/48 } on-error={}
 :do { add list=KR address=2a06:9801:274::/50 } on-error={}
+:do { add list=KR address=2a06:9801:2e0::/44 } on-error={}
 :do { add list=KR address=2a06:98c0:1c3c::/48 } on-error={}
 :do { add list=KR address=2a06:98c0:1c40::/48 } on-error={}
 :do { add list=KR address=2a06:98c0:1c4e::/48 } on-error={}

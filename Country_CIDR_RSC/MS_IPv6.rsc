@@ -102,6 +102,12 @@
 :do { add list=MS address=2a0f:a303:8800::/37 } on-error={}
 :do { add list=MS address=2a11:29c0:3d88:286::/64 } on-error={}
 :do { add list=MS address=2a11:a686:c000::/36 } on-error={}
+:do { add list=MS address=2a12:bec4:12a4:8c1::/64 } on-error={}
+:do { add list=MS address=2a12:bec4:12a4:8c2::/63 } on-error={}
+:do { add list=MS address=2a12:bec4:12a4:8c4::/62 } on-error={}
+:do { add list=MS address=2a12:bec4:12a4:8c8::/61 } on-error={}
+:do { add list=MS address=2a12:bec4:12a4:8d0::/60 } on-error={}
+:do { add list=MS address=2a12:bec4:12a4:8e0::/64 } on-error={}
 :do { add list=MS address=2a12:bec4:12a8:9d00::/56 } on-error={}
 :do { add list=MS address=2a12:f002:f000::/36 } on-error={}
 :do { add list=MS address=2a12:f381:4300::/40 } on-error={}

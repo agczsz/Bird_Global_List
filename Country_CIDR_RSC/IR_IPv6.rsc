@@ -8020,7 +8020,6 @@
 :do { add list=IR address=2a0d:2880::/29 } on-error={}
 :do { add list=IR address=2a0d:3ec0::/29 } on-error={}
 :do { add list=IR address=2a0d:4680::/29 } on-error={}
-:do { add list=IR address=2a0d:6300::/29 } on-error={}
 :do { add list=IR address=2a0d:6600::/29 } on-error={}
 :do { add list=IR address=2a0d:7180::/29 } on-error={}
 :do { add list=IR address=2a0d:7780::/29 } on-error={}
@@ -8486,7 +8485,6 @@
 :do { add list=IR address=2a14:1600::/29 } on-error={}
 :do { add list=IR address=2a14:16c0::/29 } on-error={}
 :do { add list=IR address=2a14:1740::/29 } on-error={}
-:do { add list=IR address=2a14:1ac0::/29 } on-error={}
 :do { add list=IR address=2a14:1b40::/29 } on-error={}
 :do { add list=IR address=2a14:1bc0::/29 } on-error={}
 :do { add list=IR address=2a14:1c40::/29 } on-error={}

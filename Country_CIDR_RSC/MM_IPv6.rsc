@@ -338,8 +338,7 @@
 :do { add list=MM address=2403:72c0:a200::/39 } on-error={}
 :do { add list=MM address=2403:72c0:a400::/38 } on-error={}
 :do { add list=MM address=2403:72c0:a800::/38 } on-error={}
-:do { add list=MM address=2403:72c0:ac00::/40 } on-error={}
-:do { add list=MM address=2403:72c0:ad00::/40 } on-error={}
+:do { add list=MM address=2403:72c0:ac00::/39 } on-error={}
 :do { add list=MM address=2403:72c0:ae00::/40 } on-error={}
 :do { add list=MM address=2403:72c0:af00::/40 } on-error={}
 :do { add list=MM address=2403:72c0:b000::/36 } on-error={}

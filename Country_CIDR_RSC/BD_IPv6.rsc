@@ -967,6 +967,7 @@
 :do { add list=BD address=2001:df6:f840::/48 } on-error={}
 :do { add list=BD address=2001:df6:f8c0::/48 } on-error={}
 :do { add list=BD address=2001:df6:fa80::/48 } on-error={}
+:do { add list=BD address=2001:df6:fc40::/48 } on-error={}
 :do { add list=BD address=2001:df6:fe80::/48 } on-error={}
 :do { add list=BD address=2001:df7:1b80::/48 } on-error={}
 :do { add list=BD address=2001:df7:1c80::/48 } on-error={}
@@ -1086,7 +1087,9 @@
 :do { add list=BD address=2400:3dc0:58::/48 } on-error={}
 :do { add list=BD address=2400:3dc0:59::/48 } on-error={}
 :do { add list=BD address=2400:3dc0:5a::/47 } on-error={}
-:do { add list=BD address=2400:3dc0:5c::/46 } on-error={}
+:do { add list=BD address=2400:3dc0:5c::/47 } on-error={}
+:do { add list=BD address=2400:3dc0:5e::/48 } on-error={}
+:do { add list=BD address=2400:3dc0:5f::/48 } on-error={}
 :do { add list=BD address=2400:3dc0:60::/47 } on-error={}
 :do { add list=BD address=2400:3dc0:62::/47 } on-error={}
 :do { add list=BD address=2400:3dc0:64::/47 } on-error={}
@@ -2410,10 +2413,7 @@
 :do { add list=BD address=2402:54c0::/32 } on-error={}
 :do { add list=BD address=2402:55c0::/32 } on-error={}
 :do { add list=BD address=2402:5720::/32 } on-error={}
-:do { add list=BD address=2402:5840::/48 } on-error={}
-:do { add list=BD address=2402:5840:1::/48 } on-error={}
-:do { add list=BD address=2402:5840:2::/47 } on-error={}
-:do { add list=BD address=2402:5840:4::/46 } on-error={}
+:do { add list=BD address=2402:5840::/45 } on-error={}
 :do { add list=BD address=2402:5840:8::/47 } on-error={}
 :do { add list=BD address=2402:5840:a::/47 } on-error={}
 :do { add list=BD address=2402:5840:c::/46 } on-error={}

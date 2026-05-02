@@ -2007,6 +2007,10 @@
 :do { add list=PA address=2a11:f887:9001:2000::/51 } on-error={}
 :do { add list=PA address=2a11:f887:9001:4000::/50 } on-error={}
 :do { add list=PA address=2a11:f887:9001:8000::/49 } on-error={}
+:do { add list=PA address=2a12:bec4:12a4:87e::/63 } on-error={}
+:do { add list=PA address=2a12:bec4:12a4:880::/60 } on-error={}
+:do { add list=PA address=2a12:bec4:12a4:890::/61 } on-error={}
+:do { add list=PA address=2a12:bec4:12a4:898::/64 } on-error={}
 :do { add list=PA address=2a12:bec4:12a8:b200::/56 } on-error={}
 :do { add list=PA address=2a12:f003:b000::/36 } on-error={}
 :do { add list=PA address=2a12:f381:3100::/40 } on-error={}

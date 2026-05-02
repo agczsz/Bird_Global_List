@@ -175,6 +175,11 @@
 :do { add list=KY address=2a11:f887:2001:2000::/51 } on-error={}
 :do { add list=KY address=2a11:f887:2001:4000::/50 } on-error={}
 :do { add list=KY address=2a11:f887:2001:8000::/49 } on-error={}
+:do { add list=KY address=2a12:bec4:12a4:466::/63 } on-error={}
+:do { add list=KY address=2a12:bec4:12a4:468::/61 } on-error={}
+:do { add list=KY address=2a12:bec4:12a4:470::/61 } on-error={}
+:do { add list=KY address=2a12:bec4:12a4:478::/62 } on-error={}
+:do { add list=KY address=2a12:bec4:12a4:47c::/64 } on-error={}
 :do { add list=KY address=2a12:bec4:12a8:8100::/56 } on-error={}
 :do { add list=KY address=2a12:f001:c000::/36 } on-error={}
 :do { add list=KY address=2a12:f381:6f00::/40 } on-error={}

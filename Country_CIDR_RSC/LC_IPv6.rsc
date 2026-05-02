@@ -229,6 +229,12 @@
 :do { add list=LC address=2a11:29c0:3d88:deba::/64 } on-error={}
 :do { add list=LC address=2a11:29c0:3d88:ee17::/64 } on-error={}
 :do { add list=LC address=2a11:a685:7000::/36 } on-error={}
+:do { add list=LC address=2a12:bec4:12a4:48d::/64 } on-error={}
+:do { add list=LC address=2a12:bec4:12a4:48e::/63 } on-error={}
+:do { add list=LC address=2a12:bec4:12a4:490::/60 } on-error={}
+:do { add list=LC address=2a12:bec4:12a4:4a0::/61 } on-error={}
+:do { add list=LC address=2a12:bec4:12a4:4a8::/63 } on-error={}
+:do { add list=LC address=2a12:bec4:12a4:4aa::/64 } on-error={}
 :do { add list=LC address=2a12:bec4:12a8:8500::/56 } on-error={}
 :do { add list=LC address=2a12:bec4:12af::/48 } on-error={}
 :do { add list=LC address=2a12:f001:f000::/36 } on-error={}

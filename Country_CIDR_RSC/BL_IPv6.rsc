@@ -131,6 +131,12 @@
 :do { add list=BL address=2a0f:6284:42::/48 } on-error={}
 :do { add list=BL address=2a11:29c0:3d88:e5fd::/64 } on-error={}
 :do { add list=BL address=2a11:a681:1000::/36 } on-error={}
+:do { add list=BL address=2a12:bec4:12a4:83b::/64 } on-error={}
+:do { add list=BL address=2a12:bec4:12a4:83c::/62 } on-error={}
+:do { add list=BL address=2a12:bec4:12a4:840::/60 } on-error={}
+:do { add list=BL address=2a12:bec4:12a4:850::/61 } on-error={}
+:do { add list=BL address=2a12:bec4:12a4:858::/63 } on-error={}
+:do { add list=BL address=2a12:bec4:12a4:85a::/64 } on-error={}
 :do { add list=BL address=2a12:bec4:12a8:2000::/56 } on-error={}
 :do { add list=BL address=2a12:ef85:d000::/36 } on-error={}
 :do { add list=BL address=2a12:f381:9800::/40 } on-error={}

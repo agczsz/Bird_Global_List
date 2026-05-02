@@ -207,6 +207,10 @@
 :do { add list=AW address=2a11:29c0:3d88:7dc0::/64 } on-error={}
 :do { add list=AW address=2a11:a580:900::/40 } on-error={}
 :do { add list=AW address=2a11:a680:8000::/36 } on-error={}
+:do { add list=AW address=2a12:bec4:12a4:b76::/63 } on-error={}
+:do { add list=AW address=2a12:bec4:12a4:b78::/61 } on-error={}
+:do { add list=AW address=2a12:bec4:12a4:b80::/62 } on-error={}
+:do { add list=AW address=2a12:bec4:12a4:b84::/63 } on-error={}
 :do { add list=AW address=2a12:bec4:12a8:1400::/56 } on-error={}
 :do { add list=AW address=2a12:ef85:8000::/36 } on-error={}
 :do { add list=AW address=2a12:f381:8c00::/40 } on-error={}
