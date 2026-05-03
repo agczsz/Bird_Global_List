@@ -414,6 +414,9 @@
 :do { add list=HR address=2405:b500:3360:8::/64 } on-error={}
 :do { add list=HR address=2600:70ff:d0c4::/48 } on-error={}
 :do { add list=HR address=2602:2a9:c20::/44 } on-error={}
+:do { add list=HR address=2602:f7c8:141::/48 } on-error={}
+:do { add list=HR address=2602:f7c8:142::/47 } on-error={}
+:do { add list=HR address=2602:f7c8:144::/47 } on-error={}
 :do { add list=HR address=2602:feda:c20::/44 } on-error={}
 :do { add list=HR address=2604:b040:13:1400::4:0/112 } on-error={}
 :do { add list=HR address=2604:b040:13:1400:0:1:4:0/112 } on-error={}

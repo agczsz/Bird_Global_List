@@ -38,6 +38,8 @@
 :do { add list=PY address=2600:70ff:ac3b::/48 } on-error={}
 :do { add list=PY address=2600:70ff:c80f::/48 } on-error={}
 :do { add list=PY address=2602:2a9:9e0::/44 } on-error={}
+:do { add list=PY address=2602:f7c8:83c::/46 } on-error={}
+:do { add list=PY address=2602:f7c8:840::/48 } on-error={}
 :do { add list=PY address=2604:fc80:2400::/40 } on-error={}
 :do { add list=PY address=2606:54c0:5020::/44 } on-error={}
 :do { add list=PY address=2606:54c3:0:8f1::/64 } on-error={}

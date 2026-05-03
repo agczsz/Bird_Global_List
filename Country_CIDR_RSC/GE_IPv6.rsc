@@ -130,6 +130,8 @@
 :do { add list=GE address=2405:b500:29e0::/64 } on-error={}
 :do { add list=GE address=2600:70ff:b2ca::/48 } on-error={}
 :do { add list=GE address=2600:70ff:d05e::/48 } on-error={}
+:do { add list=GE address=2602:f7c8:137::/48 } on-error={}
+:do { add list=GE address=2602:f7c8:138::/46 } on-error={}
 :do { add list=GE address=2606:54c0:3838::/45 } on-error={}
 :do { add list=GE address=2606:54c3:0:13cc::/64 } on-error={}
 :do { add list=GE address=2606:f188:4000::/47 } on-error={}

@@ -2893,7 +2893,11 @@
 :do { add list=MU address=2c0f:b84::/30 } on-error={}
 :do { add list=MU address=2c0f:b88::/29 } on-error={}
 :do { add list=MU address=2c0f:b90::/28 } on-error={}
-:do { add list=MU address=2c0f:ba0::/27 } on-error={}
+:do { add list=MU address=2c0f:ba1::/32 } on-error={}
+:do { add list=MU address=2c0f:ba2::/31 } on-error={}
+:do { add list=MU address=2c0f:ba4::/30 } on-error={}
+:do { add list=MU address=2c0f:ba8::/29 } on-error={}
+:do { add list=MU address=2c0f:bb0::/28 } on-error={}
 :do { add list=MU address=2c0f:bc1::/32 } on-error={}
 :do { add list=MU address=2c0f:bc2::/31 } on-error={}
 :do { add list=MU address=2c0f:bc4::/30 } on-error={}
@@ -4452,7 +4456,11 @@
 :do { add list=MU address=2c0f:4b84::/30 } on-error={}
 :do { add list=MU address=2c0f:4b88::/29 } on-error={}
 :do { add list=MU address=2c0f:4b90::/28 } on-error={}
-:do { add list=MU address=2c0f:4ba0::/27 } on-error={}
+:do { add list=MU address=2c0f:4ba1::/32 } on-error={}
+:do { add list=MU address=2c0f:4ba2::/31 } on-error={}
+:do { add list=MU address=2c0f:4ba4::/30 } on-error={}
+:do { add list=MU address=2c0f:4ba8::/29 } on-error={}
+:do { add list=MU address=2c0f:4bb0::/28 } on-error={}
 :do { add list=MU address=2c0f:4bc1::/32 } on-error={}
 :do { add list=MU address=2c0f:4bc2::/31 } on-error={}
 :do { add list=MU address=2c0f:4bc4::/30 } on-error={}

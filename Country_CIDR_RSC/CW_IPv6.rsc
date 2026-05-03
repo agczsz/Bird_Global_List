@@ -6,7 +6,6 @@
 :do { add list=CW address=2001:470:24:20f::/64 } on-error={}
 :do { add list=CW address=2001:470:28:bab::/64 } on-error={}
 :do { add list=CW address=2001:470:36:338::/64 } on-error={}
-:do { add list=CW address=2001:470:1f07:eb::/64 } on-error={}
 :do { add list=CW address=2001:470:1f09:9ca::/64 } on-error={}
 :do { add list=CW address=2001:470:1f17:145::/64 } on-error={}
 :do { add list=CW address=2001:470:1f23:52::/64 } on-error={}

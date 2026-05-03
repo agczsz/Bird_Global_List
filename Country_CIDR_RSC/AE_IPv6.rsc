@@ -2068,6 +2068,8 @@
 :do { add list=AE address=2602:f5c1:1c::/48 } on-error={}
 :do { add list=AE address=2602:f742:1:1710::/64 } on-error={}
 :do { add list=AE address=2602:f756:40::/48 } on-error={}
+:do { add list=AE address=2602:f7c8:c00::/46 } on-error={}
+:do { add list=AE address=2602:f7c8:c04::/48 } on-error={}
 :do { add list=AE address=2602:f8c8:900::/40 } on-error={}
 :do { add list=AE address=2602:f96d:f2d::/48 } on-error={}
 :do { add list=AE address=2602:fa02:3a::/48 } on-error={}

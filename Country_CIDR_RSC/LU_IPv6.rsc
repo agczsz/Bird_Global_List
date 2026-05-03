@@ -710,6 +710,8 @@
 :do { add list=LU address=2405:b500:4560:8::/64 } on-error={}
 :do { add list=LU address=2406:840:eb08::/48 } on-error={}
 :do { add list=LU address=2602:2a9:cd0::/44 } on-error={}
+:do { add list=LU address=2602:f7c8:164::/46 } on-error={}
+:do { add list=LU address=2602:f7c8:168::/48 } on-error={}
 :do { add list=LU address=2602:f921:f03::/48 } on-error={}
 :do { add list=LU address=2602:f9a9:5:261::/64 } on-error={}
 :do { add list=LU address=2602:fa59:2::/48 } on-error={}

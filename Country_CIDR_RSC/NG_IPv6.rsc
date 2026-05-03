@@ -296,6 +296,9 @@
 :do { add list=NG address=2600:9000:1e7e::/64 } on-error={}
 :do { add list=NG address=2602:2a9:f90::/44 } on-error={}
 :do { add list=NG address=2602:f5c1:30::/48 } on-error={}
+:do { add list=NG address=2602:f7c8:c0a::/47 } on-error={}
+:do { add list=NG address=2602:f7c8:c0c::/47 } on-error={}
+:do { add list=NG address=2602:f7c8:c0e::/48 } on-error={}
 :do { add list=NG address=2602:f921:f0b::/48 } on-error={}
 :do { add list=NG address=2602:f92a:fe11::/48 } on-error={}
 :do { add list=NG address=2602:f92a:ff11::/48 } on-error={}
@@ -2108,6 +2111,7 @@
 :do { add list=NG address=2c0f:7c0::/32 } on-error={}
 :do { add list=NG address=2c0f:840::/32 } on-error={}
 :do { add list=NG address=2c0f:920::/32 } on-error={}
+:do { add list=NG address=2c0f:ba0::/32 } on-error={}
 :do { add list=NG address=2c0f:1080::/32 } on-error={}
 :do { add list=NG address=2c0f:12c0::/32 } on-error={}
 :do { add list=NG address=2c0f:13c0::/32 } on-error={}

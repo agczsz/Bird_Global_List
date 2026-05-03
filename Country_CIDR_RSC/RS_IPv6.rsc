@@ -1465,6 +1465,8 @@
 :do { add list=RS address=2600:70ff:b006::/48 } on-error={}
 :do { add list=RS address=2600:70ff:b2d2::/48 } on-error={}
 :do { add list=RS address=2602:2a9:990::/44 } on-error={}
+:do { add list=RS address=2602:f7c8:18c::/46 } on-error={}
+:do { add list=RS address=2602:f7c8:190::/48 } on-error={}
 :do { add list=RS address=2602:fd92:b00:127::/64 } on-error={}
 :do { add list=RS address=2603:c050::/40 } on-error={}
 :do { add list=RS address=2603:c050:1000::/39 } on-error={}

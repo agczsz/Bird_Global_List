@@ -6560,7 +6560,14 @@
 :do { add list=NZ address=2a10:ccc3:1312::/47 } on-error={}
 :do { add list=NZ address=2a10:ccc3:1314::/46 } on-error={}
 :do { add list=NZ address=2a10:ccc3:1318::/45 } on-error={}
-:do { add list=NZ address=2a10:ccc3:1320::/43 } on-error={}
+:do { add list=NZ address=2a10:ccc3:1321::/48 } on-error={}
+:do { add list=NZ address=2a10:ccc3:1322::/47 } on-error={}
+:do { add list=NZ address=2a10:ccc3:1324::/46 } on-error={}
+:do { add list=NZ address=2a10:ccc3:1328::/45 } on-error={}
+:do { add list=NZ address=2a10:ccc3:1331::/48 } on-error={}
+:do { add list=NZ address=2a10:ccc3:1332::/47 } on-error={}
+:do { add list=NZ address=2a10:ccc3:1334::/46 } on-error={}
+:do { add list=NZ address=2a10:ccc3:1338::/45 } on-error={}
 :do { add list=NZ address=2a10:ccc3:1340::/42 } on-error={}
 :do { add list=NZ address=2a10:ccc3:1380::/42 } on-error={}
 :do { add list=NZ address=2a10:ccc3:13c0::/43 } on-error={}

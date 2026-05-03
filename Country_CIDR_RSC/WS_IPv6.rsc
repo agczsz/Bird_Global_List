@@ -10,6 +10,7 @@
 :do { add list=WS address=2001:67c:a38:f685::/64 } on-error={}
 :do { add list=WS address=2001:de8:8000::/48 } on-error={}
 :do { add list=WS address=2001:df1:4c40::/48 } on-error={}
+:do { add list=WS address=2001:df1:8780::/48 } on-error={}
 :do { add list=WS address=2001:df7:500::/48 } on-error={}
 :do { add list=WS address=2001:3786:7001:100::/56 } on-error={}
 :do { add list=WS address=2001:4b28:b00::/40 } on-error={}

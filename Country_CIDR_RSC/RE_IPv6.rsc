@@ -14,6 +14,7 @@
 :do { add list=RE address=2001:470:1f1d:917::/64 } on-error={}
 :do { add list=RE address=2001:470:1f23:179::/64 } on-error={}
 :do { add list=RE address=2001:470:1f27:92::/64 } on-error={}
+:do { add list=RE address=2001:470:1f29:146::/64 } on-error={}
 :do { add list=RE address=2001:470:1f29:278::/64 } on-error={}
 :do { add list=RE address=2001:470:1f2d:13a::/64 } on-error={}
 :do { add list=RE address=2001:470:6b01::/48 } on-error={}

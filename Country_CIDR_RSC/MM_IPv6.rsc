@@ -526,6 +526,8 @@
 :do { add list=MM address=2600:70ff:ac58::/48 } on-error={}
 :do { add list=MM address=2600:70ff:ac64::/48 } on-error={}
 :do { add list=MM address=2602:814:ffea::/48 } on-error={}
+:do { add list=MM address=2602:f7c8:528::/46 } on-error={}
+:do { add list=MM address=2602:f7c8:52c::/48 } on-error={}
 :do { add list=MM address=2602:f92a:fe07::/48 } on-error={}
 :do { add list=MM address=2602:f92a:ff07::/48 } on-error={}
 :do { add list=MM address=2602:fa80:a::/48 } on-error={}

@@ -1775,7 +1775,6 @@
 :do { add list=BE address=2001:ac8:45::/48 } on-error={}
 :do { add list=BE address=2001:ac8:67::/48 } on-error={}
 :do { add list=BE address=2001:ac8:68::/48 } on-error={}
-:do { add list=BE address=2001:bb6:6bb9:2e00::/64 } on-error={}
 :do { add list=BE address=2001:1478:11:7::/64 } on-error={}
 :do { add list=BE address=2001:1478:11:c::/64 } on-error={}
 :do { add list=BE address=2001:1478:15:26::/64 } on-error={}
