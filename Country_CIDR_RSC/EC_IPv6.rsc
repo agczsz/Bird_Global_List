@@ -232,6 +232,8 @@
 :do { add list=EC address=2620:0:876:9200::/56 } on-error={}
 :do { add list=EC address=2620:0:1cff:dead:bef1:100:1:3d/128 } on-error={}
 :do { add list=EC address=2620:0:1cff:dead:bef1:100:2:3d/128 } on-error={}
+:do { add list=EC address=2620:0:1cff:dead:bef1:100:2:55d/128 } on-error={}
+:do { add list=EC address=2620:0:1cff:dead:bef1:100:4:655/128 } on-error={}
 :do { add list=EC address=2620:0:1cff:dead:bef1:100:11:23/128 } on-error={}
 :do { add list=EC address=2620:0:1cff:dead:bef1:100:12:67d/128 } on-error={}
 :do { add list=EC address=2620:0:1cff:dead:bef1:100:13:25/128 } on-error={}
