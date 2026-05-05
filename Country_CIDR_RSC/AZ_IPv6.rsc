@@ -53,7 +53,6 @@
 :do { add list=AZ address=2001:470:1f0b:2b6::/64 } on-error={}
 :do { add list=AZ address=2001:470:1f0b:2d5::/64 } on-error={}
 :do { add list=AZ address=2001:470:1f0b:318::/64 } on-error={}
-:do { add list=AZ address=2001:470:1f0b:359::/64 } on-error={}
 :do { add list=AZ address=2001:470:1f0b:381::/64 } on-error={}
 :do { add list=AZ address=2001:470:1f0b:3a3::/64 } on-error={}
 :do { add list=AZ address=2001:470:1f0b:58b::/64 } on-error={}

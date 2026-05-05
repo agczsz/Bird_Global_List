@@ -29,7 +29,6 @@
 :do { add list=LU address=2001:470:1f13:dc4::/64 } on-error={}
 :do { add list=LU address=2001:470:1f13:ed1::/64 } on-error={}
 :do { add list=LU address=2001:470:1f13:131a::/64 } on-error={}
-:do { add list=LU address=2001:470:1f15:c1::/64 } on-error={}
 :do { add list=LU address=2001:470:1f15:30c::/64 } on-error={}
 :do { add list=LU address=2001:470:1f15:833::/64 } on-error={}
 :do { add list=LU address=2001:470:1f15:908::/64 } on-error={}

@@ -1301,6 +1301,7 @@
 :do { add list=LV address=2a0f:6282:1000:2000::/51 } on-error={}
 :do { add list=LV address=2a0f:6282:1000:4000::/50 } on-error={}
 :do { add list=LV address=2a0f:6282:1000:8000::/49 } on-error={}
+:do { add list=LV address=2a0f:6282:1001::/48 } on-error={}
 :do { add list=LV address=2a0f:6287:a000::/36 } on-error={}
 :do { add list=LV address=2a0f:85c1:340::a0:0/112 } on-error={}
 :do { add list=LV address=2a0f:85c1:81b:f620::/60 } on-error={}

@@ -122,6 +122,7 @@
 :do { add list=AW address=2800:ad0:8000::/33 } on-error={}
 :do { add list=AW address=2801:19:5800::/48 } on-error={}
 :do { add list=AW address=2803:b640::/32 } on-error={}
+:do { add list=AW address=2a00:6d40:5::/48 } on-error={}
 :do { add list=AW address=2a01:528:8c00::/40 } on-error={}
 :do { add list=AW address=2a02:26f7:f880::/48 } on-error={}
 :do { add list=AW address=2a02:26f7:f881::/48 } on-error={}

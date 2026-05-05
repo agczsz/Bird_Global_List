@@ -43,6 +43,7 @@
 :do { add list=CY address=2001:470:1f13:196::/64 } on-error={}
 :do { add list=CY address=2001:470:1f13:41f::/64 } on-error={}
 :do { add list=CY address=2001:470:1f13:471::/64 } on-error={}
+:do { add list=CY address=2001:470:1f15:c5::/64 } on-error={}
 :do { add list=CY address=2001:470:1f15:362::/64 } on-error={}
 :do { add list=CY address=2001:470:1f15:466::/64 } on-error={}
 :do { add list=CY address=2001:470:1f15:5da::/64 } on-error={}

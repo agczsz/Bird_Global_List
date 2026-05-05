@@ -167,14 +167,7 @@
 :do { add list=GP address=2a01:cde0:102::/48 } on-error={}
 :do { add list=GP address=2a01:cde0:103::/48 } on-error={}
 :do { add list=GP address=2a01:cde0:104::/46 } on-error={}
-:do { add list=GP address=2a01:cde0:108::/49 } on-error={}
-:do { add list=GP address=2a01:cde0:108:8000::/50 } on-error={}
-:do { add list=GP address=2a01:cde0:108:c000::/52 } on-error={}
-:do { add list=GP address=2a01:cde0:108:d000::/53 } on-error={}
-:do { add list=GP address=2a01:cde0:108:e000::/51 } on-error={}
-:do { add list=GP address=2a01:cde0:109::/48 } on-error={}
-:do { add list=GP address=2a01:cde0:10a::/47 } on-error={}
-:do { add list=GP address=2a01:cde0:10c::/46 } on-error={}
+:do { add list=GP address=2a01:cde0:108::/45 } on-error={}
 :do { add list=GP address=2a01:cde0:110::/44 } on-error={}
 :do { add list=GP address=2a01:cde0:120::/43 } on-error={}
 :do { add list=GP address=2a01:cde0:140::/42 } on-error={}
