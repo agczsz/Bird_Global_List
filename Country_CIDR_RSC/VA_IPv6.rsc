@@ -15,7 +15,6 @@
 :do { add list=VA address=2001:470:6d:793::/64 } on-error={}
 :do { add list=VA address=2001:470:1f09:201::/64 } on-error={}
 :do { add list=VA address=2001:470:1f09:715::/64 } on-error={}
-:do { add list=VA address=2001:470:1f0b:36f::/64 } on-error={}
 :do { add list=VA address=2001:470:1f0b:8cf::/64 } on-error={}
 :do { add list=VA address=2001:470:1f0b:10fa::/64 } on-error={}
 :do { add list=VA address=2001:470:1f1b:4fc::/64 } on-error={}

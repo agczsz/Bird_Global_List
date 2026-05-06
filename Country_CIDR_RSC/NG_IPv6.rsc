@@ -2372,6 +2372,7 @@
 :do { add list=NG address=2c0f:fa90:300:6::/64 } on-error={}
 :do { add list=NG address=2c0f:fb50:4003::/64 } on-error={}
 :do { add list=NG address=2c0f:fb50:4003:2::/64 } on-error={}
+:do { add list=NG address=2c0f:fb50:4003:800::/63 } on-error={}
 :do { add list=NG address=2c0f:fb50:8003::/64 } on-error={}
 :do { add list=NG address=2c0f:fb50:8005::/64 } on-error={}
 :do { add list=NG address=2c0f:fb98::/32 } on-error={}

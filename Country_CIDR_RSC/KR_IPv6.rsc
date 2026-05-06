@@ -3172,6 +3172,8 @@
 :do { add list=KR address=2600:1488:5fc0::1f/128 } on-error={}
 :do { add list=KR address=2600:1488:5fc2::29/128 } on-error={}
 :do { add list=KR address=2600:1900:0:4600::/56 } on-error={}
+:do { add list=KR address=2600:1900:4250:d::/64 } on-error={}
+:do { add list=KR address=2600:1900:4250:f::/64 } on-error={}
 :do { add list=KR address=2600:1900:4250:12::/63 } on-error={}
 :do { add list=KR address=2600:1901:8180::/44 } on-error={}
 :do { add list=KR address=2600:1902:60::/44 } on-error={}

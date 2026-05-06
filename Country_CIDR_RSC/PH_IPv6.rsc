@@ -7157,8 +7157,7 @@
 :do { add list=PH address=2404:3c00:f000::/36 } on-error={}
 :do { add list=PH address=2404:6800:4017:1::/64 } on-error={}
 :do { add list=PH address=2404:6800:4017:2::/63 } on-error={}
-:do { add list=PH address=2404:6800:4017:801::/64 } on-error={}
-:do { add list=PH address=2404:6800:4017:802::/63 } on-error={}
+:do { add list=PH address=2404:6800:4017:800::/62 } on-error={}
 :do { add list=PH address=2404:6800:4017:804::/63 } on-error={}
 :do { add list=PH address=2404:6800:4017:807::/64 } on-error={}
 :do { add list=PH address=2404:6e00::/32 } on-error={}

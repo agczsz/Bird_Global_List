@@ -54,6 +54,7 @@
 :do { add list=PE address=2001:470:d989::/48 } on-error={}
 :do { add list=PE address=2001:470:d9dc::/48 } on-error={}
 :do { add list=PE address=2001:470:da3a::/48 } on-error={}
+:do { add list=PE address=2001:470:da53::/48 } on-error={}
 :do { add list=PE address=2001:470:db4d::/48 } on-error={}
 :do { add list=PE address=2001:470:db4e::/48 } on-error={}
 :do { add list=PE address=2001:470:db86::/48 } on-error={}
