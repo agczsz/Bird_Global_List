@@ -293,7 +293,6 @@
 :do { add list=AX address=2a00:5500:90f5:7c00::/54 } on-error={}
 :do { add list=AX address=2a00:5500:90f5:ba00::/56 } on-error={}
 :do { add list=AX address=2a00:5500:90f6::/47 } on-error={}
-:do { add list=AX address=2a00:5500:90fc::/51 } on-error={}
 :do { add list=AX address=2a00:5500:90fc:2000::/52 } on-error={}
 :do { add list=AX address=2a00:5500:90fc:3000::/54 } on-error={}
 :do { add list=AX address=2a00:5500:90fc:3401::/64 } on-error={}

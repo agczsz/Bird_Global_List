@@ -681,7 +681,8 @@
 :do { add list=PA address=2a06:bbc2:1:2000::/51 } on-error={}
 :do { add list=PA address=2a06:bbc2:1:4000::/50 } on-error={}
 :do { add list=PA address=2a06:bbc2:1:8000::/49 } on-error={}
-:do { add list=PA address=2a06:bbc2:2::/48 } on-error={}
+:do { add list=PA address=2a06:bbc2:2:4000::/50 } on-error={}
+:do { add list=PA address=2a06:bbc2:2:8000::/49 } on-error={}
 :do { add list=PA address=2a06:bbc2:3::/48 } on-error={}
 :do { add list=PA address=2a06:bbc2:4::/46 } on-error={}
 :do { add list=PA address=2a06:bbc2:8::/45 } on-error={}

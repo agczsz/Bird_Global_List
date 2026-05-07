@@ -1,5 +1,6 @@
 /log info "Loading CR IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=CR address=2001:470:5:443::/64 } on-error={}
 :do { add list=CR address=2001:470:19:100f::/64 } on-error={}
 :do { add list=CR address=2001:470:24:2d2::/64 } on-error={}
 :do { add list=CR address=2001:470:28:410::/64 } on-error={}
@@ -378,9 +379,7 @@
 :do { add list=CR address=2803:2d60:1031:8200::/56 } on-error={}
 :do { add list=CR address=2803:2d60:1034:7400::/56 } on-error={}
 :do { add list=CR address=2803:2d60:1034:8b00::/56 } on-error={}
-:do { add list=CR address=2803:2d60:1034:8e00::/56 } on-error={}
 :do { add list=CR address=2803:2d60:1037:1c00::/56 } on-error={}
-:do { add list=CR address=2803:2d60:1038:6700::/56 } on-error={}
 :do { add list=CR address=2803:2ed0::/32 } on-error={}
 :do { add list=CR address=2803:3100::/32 } on-error={}
 :do { add list=CR address=2803:3200::/32 } on-error={}

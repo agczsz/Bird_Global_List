@@ -54,8 +54,6 @@
 :do { add list=UG address=2001:43b8:0:25e::1/128 } on-error={}
 :do { add list=UG address=2001:43b8:0:25f::1/128 } on-error={}
 :do { add list=UG address=2001:43b8:0:260::1/128 } on-error={}
-:do { add list=UG address=2001:43b8:0:261::1/128 } on-error={}
-:do { add list=UG address=2001:43b8:0:262::1/128 } on-error={}
 :do { add list=UG address=2001:43b8:0:264::/62 } on-error={}
 :do { add list=UG address=2001:43b8:0:268::5/128 } on-error={}
 :do { add list=UG address=2001:43b8:0:269::5/128 } on-error={}
@@ -529,7 +527,6 @@
 :do { add list=UG address=2c0f:feb0:1::165/128 } on-error={}
 :do { add list=UG address=2c0f:feb0:1::166/128 } on-error={}
 :do { add list=UG address=2c0f:feb0:1::169/128 } on-error={}
-:do { add list=UG address=2c0f:feb0:1::16a/128 } on-error={}
 :do { add list=UG address=2c0f:feb0:1::1b1/128 } on-error={}
 :do { add list=UG address=2c0f:feb0:1::1e2/128 } on-error={}
 :do { add list=UG address=2c0f:feb0:1::2:55/128 } on-error={}

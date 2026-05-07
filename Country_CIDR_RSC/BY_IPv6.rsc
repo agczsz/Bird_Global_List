@@ -408,6 +408,7 @@
 :do { add list=BY address=2a02:2208:0:c8::/63 } on-error={}
 :do { add list=BY address=2a02:2208:0:ca::/64 } on-error={}
 :do { add list=BY address=2a02:2208:0:cb::/128 } on-error={}
+:do { add list=BY address=2a02:2208:0:cb::3/128 } on-error={}
 :do { add list=BY address=2a02:2208:0:cb::4/126 } on-error={}
 :do { add list=BY address=2a02:2208:0:cb::8/125 } on-error={}
 :do { add list=BY address=2a02:2208:0:cb::11/128 } on-error={}
