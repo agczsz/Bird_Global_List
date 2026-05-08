@@ -34,9 +34,7 @@
 :do { add list=BI address=2a02:26f7:e140::/48 } on-error={}
 :do { add list=BI address=2a02:26f7:e141::/48 } on-error={}
 :do { add list=BI address=2a02:26f7:e142::/47 } on-error={}
-:do { add list=BI address=2a02:26f7:e144::/48 } on-error={}
-:do { add list=BI address=2a02:26f7:e145::/48 } on-error={}
-:do { add list=BI address=2a02:26f7:e146::/47 } on-error={}
+:do { add list=BI address=2a02:26f7:e144::/46 } on-error={}
 :do { add list=BI address=2a02:26f7:e148::/48 } on-error={}
 :do { add list=BI address=2a02:26f7:e149::/48 } on-error={}
 :do { add list=BI address=2a02:26f7:e14a::/47 } on-error={}

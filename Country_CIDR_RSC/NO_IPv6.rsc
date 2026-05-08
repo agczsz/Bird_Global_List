@@ -7644,7 +7644,8 @@
 :do { add list=NO address=2a13:d8c3:0:4000::/50 } on-error={}
 :do { add list=NO address=2a13:d8c3:0:8000::/49 } on-error={}
 :do { add list=NO address=2a13:d8c3:1::/48 } on-error={}
-:do { add list=NO address=2a13:d8c3:2::/47 } on-error={}
+:do { add list=NO address=2a13:d8c3:2::/48 } on-error={}
+:do { add list=NO address=2a13:d8c3:3::/48 } on-error={}
 :do { add list=NO address=2a13:d8c3:4::/48 } on-error={}
 :do { add list=NO address=2a13:d8c3:6::/48 } on-error={}
 :do { add list=NO address=2a13:d8c3:8::/45 } on-error={}

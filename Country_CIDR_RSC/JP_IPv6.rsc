@@ -41480,13 +41480,7 @@
 :do { add list=JP address=2a14:67c2:c33::/48 } on-error={}
 :do { add list=JP address=2a14:67c2:c34::/46 } on-error={}
 :do { add list=JP address=2a14:67c2:c38::/45 } on-error={}
-:do { add list=JP address=2a14:67c2:c40::/43 } on-error={}
-:do { add list=JP address=2a14:67c2:c60::/46 } on-error={}
-:do { add list=JP address=2a14:67c2:c64::/48 } on-error={}
-:do { add list=JP address=2a14:67c2:c65::/48 } on-error={}
-:do { add list=JP address=2a14:67c2:c66::/47 } on-error={}
-:do { add list=JP address=2a14:67c2:c68::/45 } on-error={}
-:do { add list=JP address=2a14:67c2:c70::/44 } on-error={}
+:do { add list=JP address=2a14:67c2:c40::/42 } on-error={}
 :do { add list=JP address=2a14:67c2:c80::/41 } on-error={}
 :do { add list=JP address=2a14:67c3:40::/44 } on-error={}
 :do { add list=JP address=2a14:67c3:80::/44 } on-error={}

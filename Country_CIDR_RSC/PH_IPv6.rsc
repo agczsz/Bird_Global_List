@@ -5683,7 +5683,11 @@
 :do { add list=PH address=2401:40c0::/32 } on-error={}
 :do { add list=PH address=2401:4ee0::/32 } on-error={}
 :do { add list=PH address=2401:4fe0::/32 } on-error={}
-:do { add list=PH address=2401:5620::/32 } on-error={}
+:do { add list=PH address=2401:5620::/36 } on-error={}
+:do { add list=PH address=2401:5620:1000::/36 } on-error={}
+:do { add list=PH address=2401:5620:2000::/35 } on-error={}
+:do { add list=PH address=2401:5620:4000::/34 } on-error={}
+:do { add list=PH address=2401:5620:8000::/33 } on-error={}
 :do { add list=PH address=2401:5c40::/32 } on-error={}
 :do { add list=PH address=2401:70a0::/32 } on-error={}
 :do { add list=PH address=2401:8740::/32 } on-error={}

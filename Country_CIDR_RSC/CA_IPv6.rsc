@@ -20054,8 +20054,7 @@
 :do { add list=CA address=2602:fed2:7140::/42 } on-error={}
 :do { add list=CA address=2602:fed2:7180::/48 } on-error={}
 :do { add list=CA address=2602:fed2:7181::/48 } on-error={}
-:do { add list=CA address=2602:fed2:7182::/48 } on-error={}
-:do { add list=CA address=2602:fed2:7183::/48 } on-error={}
+:do { add list=CA address=2602:fed2:7182::/47 } on-error={}
 :do { add list=CA address=2602:fed2:7186::/48 } on-error={}
 :do { add list=CA address=2602:fed2:7187::/48 } on-error={}
 :do { add list=CA address=2602:fed2:718a::/48 } on-error={}

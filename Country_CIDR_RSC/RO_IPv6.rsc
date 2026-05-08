@@ -10466,8 +10466,7 @@
 :do { add list=RO address=2a13:7cc0:300::/40 } on-error={}
 :do { add list=RO address=2a13:7cc0:1000::/40 } on-error={}
 :do { add list=RO address=2a13:7cc0:1300::/40 } on-error={}
-:do { add list=RO address=2a13:7cc0:1400::/40 } on-error={}
-:do { add list=RO address=2a13:7cc0:1500::/40 } on-error={}
+:do { add list=RO address=2a13:7cc0:1400::/39 } on-error={}
 :do { add list=RO address=2a13:7cc0:2000::/40 } on-error={}
 :do { add list=RO address=2a13:7cc2::/48 } on-error={}
 :do { add list=RO address=2a13:7cc2:1:1::/64 } on-error={}

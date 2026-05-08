@@ -21512,13 +21512,7 @@
 :do { add list=IT address=2a14:7586:9800::/37 } on-error={}
 :do { add list=IT address=2a14:7586:a000::/36 } on-error={}
 :do { add list=IT address=2a14:7586:e000::/36 } on-error={}
-:do { add list=IT address=2a14:7586:f000::/39 } on-error={}
-:do { add list=IT address=2a14:7586:f200::/39 } on-error={}
-:do { add list=IT address=2a14:7586:f400::/38 } on-error={}
-:do { add list=IT address=2a14:7586:f800::/38 } on-error={}
-:do { add list=IT address=2a14:7586:fc00::/39 } on-error={}
-:do { add list=IT address=2a14:7586:fe00::/40 } on-error={}
-:do { add list=IT address=2a14:7586:ff00::/40 } on-error={}
+:do { add list=IT address=2a14:7586:f000::/36 } on-error={}
 :do { add list=IT address=2a14:8e80::/32 } on-error={}
 :do { add list=IT address=2a14:9380::/32 } on-error={}
 :do { add list=IT address=2a14:9580::/29 } on-error={}

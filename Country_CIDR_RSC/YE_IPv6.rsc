@@ -62,9 +62,7 @@
 :do { add list=YE address=2a02:26f7:c0c0::/48 } on-error={}
 :do { add list=YE address=2a02:26f7:c0c1::/48 } on-error={}
 :do { add list=YE address=2a02:26f7:c0c2::/47 } on-error={}
-:do { add list=YE address=2a02:26f7:c0c4::/48 } on-error={}
-:do { add list=YE address=2a02:26f7:c0c5::/48 } on-error={}
-:do { add list=YE address=2a02:26f7:c0c6::/47 } on-error={}
+:do { add list=YE address=2a02:26f7:c0c4::/46 } on-error={}
 :do { add list=YE address=2a02:26f7:c0c8::/48 } on-error={}
 :do { add list=YE address=2a02:26f7:c0c9::/48 } on-error={}
 :do { add list=YE address=2a02:26f7:c0ca::/47 } on-error={}

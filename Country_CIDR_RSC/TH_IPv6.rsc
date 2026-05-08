@@ -3834,7 +3834,9 @@
 :do { add list=TH address=2406:840:fc81::/48 } on-error={}
 :do { add list=TH address=2406:840:fc82::/47 } on-error={}
 :do { add list=TH address=2406:840:fc84::/46 } on-error={}
-:do { add list=TH address=2406:840:fc88::/46 } on-error={}
+:do { add list=TH address=2406:840:fc88::/48 } on-error={}
+:do { add list=TH address=2406:840:fc89::/48 } on-error={}
+:do { add list=TH address=2406:840:fc8a::/47 } on-error={}
 :do { add list=TH address=2406:840:fc8c::/47 } on-error={}
 :do { add list=TH address=2406:840:fc8e::/48 } on-error={}
 :do { add list=TH address=2406:840:fc8f:1::/64 } on-error={}

@@ -10373,7 +10373,8 @@
 :do { add list=ES address=2a03:bfc0:7700::/40 } on-error={}
 :do { add list=ES address=2a03:c600::/32 } on-error={}
 :do { add list=ES address=2a03:c7c0::/31 } on-error={}
-:do { add list=ES address=2a03:c7c2::/31 } on-error={}
+:do { add list=ES address=2a03:c7c2::/32 } on-error={}
+:do { add list=ES address=2a03:c7c3::/32 } on-error={}
 :do { add list=ES address=2a03:c7c4::/30 } on-error={}
 :do { add list=ES address=2a03:c880::/32 } on-error={}
 :do { add list=ES address=2a03:d300::/32 } on-error={}
