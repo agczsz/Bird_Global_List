@@ -1,5 +1,6 @@
 /log info "Loading ST IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=ST address=2001:470:d:121::/64 } on-error={}
 :do { add list=ST address=2001:470:19:5a::/64 } on-error={}
 :do { add list=ST address=2001:470:24:ef::/64 } on-error={}
 :do { add list=ST address=2001:470:36:19e::/64 } on-error={}
@@ -63,19 +64,24 @@
 :do { add list=ST address=2804:94bc:1002::/47 } on-error={}
 :do { add list=ST address=2804:94bc:1004::/46 } on-error={}
 :do { add list=ST address=2804:94bc:1008::/45 } on-error={}
-:do { add list=ST address=2804:94bc:1016::/47 } on-error={}
+:do { add list=ST address=2804:94bc:1017::/48 } on-error={}
 :do { add list=ST address=2804:94bc:1018:400::/62 } on-error={}
 :do { add list=ST address=2804:94bc:1018:404::/63 } on-error={}
-:do { add list=ST address=2804:94bc:1018:407::/64 } on-error={}
-:do { add list=ST address=2804:94bc:1018:408::/62 } on-error={}
-:do { add list=ST address=2804:94bc:1018:40c::/63 } on-error={}
-:do { add list=ST address=2804:94bc:1018:40f::/64 } on-error={}
-:do { add list=ST address=2804:94bc:1018:410::/60 } on-error={}
+:do { add list=ST address=2804:94bc:1018:406::/64 } on-error={}
+:do { add list=ST address=2804:94bc:1018:409::/64 } on-error={}
+:do { add list=ST address=2804:94bc:1018:40b::/64 } on-error={}
+:do { add list=ST address=2804:94bc:1018:40c::/62 } on-error={}
+:do { add list=ST address=2804:94bc:1018:410::/62 } on-error={}
+:do { add list=ST address=2804:94bc:1018:414::/63 } on-error={}
+:do { add list=ST address=2804:94bc:1018:417::/64 } on-error={}
+:do { add list=ST address=2804:94bc:1018:418::/61 } on-error={}
 :do { add list=ST address=2804:94bc:1018:420::/61 } on-error={}
 :do { add list=ST address=2804:94bc:1018:429::/64 } on-error={}
 :do { add list=ST address=2804:94bc:1018:42a::/63 } on-error={}
 :do { add list=ST address=2804:94bc:1018:42c::/62 } on-error={}
-:do { add list=ST address=2804:94bc:1018:430::/61 } on-error={}
+:do { add list=ST address=2804:94bc:1018:430::/64 } on-error={}
+:do { add list=ST address=2804:94bc:1018:432::/63 } on-error={}
+:do { add list=ST address=2804:94bc:1018:434::/62 } on-error={}
 :do { add list=ST address=2804:94bc:1018:438::/62 } on-error={}
 :do { add list=ST address=2804:94bc:1018:43c::/63 } on-error={}
 :do { add list=ST address=2804:94bc:1018:43f::/64 } on-error={}
@@ -239,6 +245,7 @@
 :do { add list=ST address=2a14:7580:cfd0::/48 } on-error={}
 :do { add list=ST address=2a14:7581:b10:c400::/56 } on-error={}
 :do { add list=ST address=2a14:7581:b11:c400::/56 } on-error={}
+:do { add list=ST address=2a14:7581:b12:c400::/56 } on-error={}
 :do { add list=ST address=2a14:7581:b13:c400::/56 } on-error={}
 :do { add list=ST address=2a14:7581:b15:c400::/56 } on-error={}
 :do { add list=ST address=2a14:7581:b16:c400::/56 } on-error={}

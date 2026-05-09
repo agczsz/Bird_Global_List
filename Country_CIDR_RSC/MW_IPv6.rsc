@@ -1,9 +1,7 @@
 /log info "Loading MW IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=MW address=2001:470:b:1be::/64 } on-error={}
 :do { add list=MW address=2001:470:36:144::/64 } on-error={}
 :do { add list=MW address=2001:470:71:6f1::/64 } on-error={}
-:do { add list=MW address=2001:470:1f07:a1::/64 } on-error={}
 :do { add list=MW address=2001:470:2898::/48 } on-error={}
 :do { add list=MW address=2001:470:43a2::/48 } on-error={}
 :do { add list=MW address=2001:470:8832::/48 } on-error={}
@@ -25,9 +23,8 @@
 :do { add list=MW address=2001:43f8:20:1000::/52 } on-error={}
 :do { add list=MW address=2001:43f8:20:2000::/52 } on-error={}
 :do { add list=MW address=2001:43f8:20:3001::/64 } on-error={}
-:do { add list=MW address=2001:43f8:20:3002::/63 } on-error={}
-:do { add list=MW address=2001:43f8:20:3004::/64 } on-error={}
-:do { add list=MW address=2001:43f8:20:3006::/63 } on-error={}
+:do { add list=MW address=2001:43f8:20:3003::/64 } on-error={}
+:do { add list=MW address=2001:43f8:20:3004::/62 } on-error={}
 :do { add list=MW address=2001:43f8:20:3009::/64 } on-error={}
 :do { add list=MW address=2001:43f8:20:300a::/63 } on-error={}
 :do { add list=MW address=2001:43f8:20:300c::/62 } on-error={}
@@ -66,7 +63,6 @@
 :do { add list=MW address=2001:4b28:3f00::/40 } on-error={}
 :do { add list=MW address=2400:cb00:1045::/48 } on-error={}
 :do { add list=MW address=2401:f1e0:ffff:a504::/64 } on-error={}
-:do { add list=MW address=2401:f1e0:ffff:fe3c::/64 } on-error={}
 :do { add list=MW address=2405:b500:5000::/64 } on-error={}
 :do { add list=MW address=2405:b500:5000:8::/64 } on-error={}
 :do { add list=MW address=2405:b500:5020::/64 } on-error={}
@@ -98,8 +94,7 @@
 :do { add list=MW address=2a02:26f7:d481::/48 } on-error={}
 :do { add list=MW address=2a02:26f7:d482::/47 } on-error={}
 :do { add list=MW address=2a02:26f7:d484::/46 } on-error={}
-:do { add list=MW address=2a02:26f7:d488:4000::/64 } on-error={}
-:do { add list=MW address=2a02:26f7:d488:cba0::/63 } on-error={}
+:do { add list=MW address=2a02:26f7:d488::/48 } on-error={}
 :do { add list=MW address=2a02:26f7:d489::/48 } on-error={}
 :do { add list=MW address=2a02:26f7:d48a::/47 } on-error={}
 :do { add list=MW address=2a02:26f7:d48c:4000::/64 } on-error={}
@@ -1073,6 +1068,7 @@
 :do { add list=MW address=2a14:7580:cf9b::/48 } on-error={}
 :do { add list=MW address=2a14:7581:b10:8300::/56 } on-error={}
 :do { add list=MW address=2a14:7581:b11:8300::/56 } on-error={}
+:do { add list=MW address=2a14:7581:b12:8300::/56 } on-error={}
 :do { add list=MW address=2a14:7581:b13:8300::/56 } on-error={}
 :do { add list=MW address=2a14:7581:b15:8300::/56 } on-error={}
 :do { add list=MW address=2a14:7581:b16:8300::/56 } on-error={}
@@ -1110,11 +1106,12 @@
 :do { add list=MW address=2c0f:fd50:0:5::/64 } on-error={}
 :do { add list=MW address=2c0f:fd50:0:6::/63 } on-error={}
 :do { add list=MW address=2c0f:fd50:0:8::/61 } on-error={}
-:do { add list=MW address=2c0f:fd50:0:10::/63 } on-error={}
-:do { add list=MW address=2c0f:fd50:0:13::/64 } on-error={}
-:do { add list=MW address=2c0f:fd50:0:14::/62 } on-error={}
-:do { add list=MW address=2c0f:fd50:0:18::/61 } on-error={}
-:do { add list=MW address=2c0f:fd50:0:20::/59 } on-error={}
+:do { add list=MW address=2c0f:fd50:0:10::/60 } on-error={}
+:do { add list=MW address=2c0f:fd50:0:21::/64 } on-error={}
+:do { add list=MW address=2c0f:fd50:0:22::/63 } on-error={}
+:do { add list=MW address=2c0f:fd50:0:24::/62 } on-error={}
+:do { add list=MW address=2c0f:fd50:0:28::/61 } on-error={}
+:do { add list=MW address=2c0f:fd50:0:30::/60 } on-error={}
 :do { add list=MW address=2c0f:fd50:0:40::/58 } on-error={}
 :do { add list=MW address=2c0f:fd50:0:80::/57 } on-error={}
 :do { add list=MW address=2c0f:fd50:0:100::/56 } on-error={}
@@ -1126,7 +1123,6 @@
 :do { add list=MW address=2c0f:fd50:0:4000::/50 } on-error={}
 :do { add list=MW address=2c0f:fd50:0:8000::/49 } on-error={}
 :do { add list=MW address=2c0f:fd50:1::/48 } on-error={}
-:do { add list=MW address=2c0f:fd50:2::13/128 } on-error={}
 :do { add list=MW address=2c0f:fd50:3::/48 } on-error={}
 :do { add list=MW address=2c0f:fd50:5::/48 } on-error={}
 :do { add list=MW address=2c0f:fd50:7::/48 } on-error={}

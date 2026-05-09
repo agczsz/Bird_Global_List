@@ -1,5 +1,9 @@
 /log info "Loading MV IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=MV address=2001:470:d:447::/64 } on-error={}
+:do { add list=MV address=2001:470:d:4fd::/64 } on-error={}
+:do { add list=MV address=2001:470:d:1301::/64 } on-error={}
+:do { add list=MV address=2001:470:d:1303::/64 } on-error={}
 :do { add list=MV address=2001:470:19:b0::/64 } on-error={}
 :do { add list=MV address=2001:470:19:d5d::/64 } on-error={}
 :do { add list=MV address=2001:470:19:f89::/64 } on-error={}
@@ -17,7 +21,6 @@
 :do { add list=MV address=2001:470:36:872::/64 } on-error={}
 :do { add list=MV address=2001:470:36:87d::/64 } on-error={}
 :do { add list=MV address=2001:470:6d:10a6::/64 } on-error={}
-:do { add list=MV address=2001:470:1f07:4ce::/64 } on-error={}
 :do { add list=MV address=2001:470:1f09:8f::/64 } on-error={}
 :do { add list=MV address=2001:470:1f09:32c::/64 } on-error={}
 :do { add list=MV address=2001:470:1f15:26c::/64 } on-error={}
@@ -227,7 +230,9 @@
 :do { add list=MV address=2620:134:b054:100::20/127 } on-error={}
 :do { add list=MV address=2620:171:4b::/64 } on-error={}
 :do { add list=MV address=2a01:528:4000::/40 } on-error={}
-:do { add list=MV address=2a02:26f7:ba80::/46 } on-error={}
+:do { add list=MV address=2a02:26f7:ba80::/48 } on-error={}
+:do { add list=MV address=2a02:26f7:ba81::/48 } on-error={}
+:do { add list=MV address=2a02:26f7:ba82::/47 } on-error={}
 :do { add list=MV address=2a02:26f7:ba84::/47 } on-error={}
 :do { add list=MV address=2a02:26f7:ba86::/47 } on-error={}
 :do { add list=MV address=2a02:26f7:ba88::/48 } on-error={}
@@ -379,6 +384,7 @@
 :do { add list=MV address=2a14:7580:cf9a::/48 } on-error={}
 :do { add list=MV address=2a14:7581:b10:8500::/56 } on-error={}
 :do { add list=MV address=2a14:7581:b11:8500::/56 } on-error={}
+:do { add list=MV address=2a14:7581:b12:8500::/56 } on-error={}
 :do { add list=MV address=2a14:7581:b13:8500::/56 } on-error={}
 :do { add list=MV address=2a14:7581:b15:8500::/56 } on-error={}
 :do { add list=MV address=2a14:7581:b16:8500::/56 } on-error={}

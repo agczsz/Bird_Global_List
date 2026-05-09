@@ -1,16 +1,25 @@
 /log info "Loading IQ IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=IQ address=2001:470:5:c6::/64 } on-error={}
+:do { add list=IQ address=2001:470:5:f3::/64 } on-error={}
+:do { add list=IQ address=2001:470:5:160::/64 } on-error={}
+:do { add list=IQ address=2001:470:5:3cb::/64 } on-error={}
+:do { add list=IQ address=2001:470:8:db::/64 } on-error={}
 :do { add list=IQ address=2001:470:8:221::/64 } on-error={}
-:do { add list=IQ address=2001:470:8:46a::/64 } on-error={}
 :do { add list=IQ address=2001:470:8:486::/64 } on-error={}
-:do { add list=IQ address=2001:470:8:662::/64 } on-error={}
-:do { add list=IQ address=2001:470:8:664::/64 } on-error={}
 :do { add list=IQ address=2001:470:8:73a::/64 } on-error={}
 :do { add list=IQ address=2001:470:8:754::/64 } on-error={}
+:do { add list=IQ address=2001:470:d:303::/64 } on-error={}
+:do { add list=IQ address=2001:470:d:a30::/64 } on-error={}
+:do { add list=IQ address=2001:470:d:1287::/64 } on-error={}
 :do { add list=IQ address=2001:470:19:76d::/64 } on-error={}
 :do { add list=IQ address=2001:470:19:d99::/64 } on-error={}
 :do { add list=IQ address=2001:470:19:11be::/64 } on-error={}
+:do { add list=IQ address=2001:470:1d:15::/64 } on-error={}
+:do { add list=IQ address=2001:470:1d:150::/64 } on-error={}
 :do { add list=IQ address=2001:470:1d:21c::/64 } on-error={}
+:do { add list=IQ address=2001:470:1d:240::/64 } on-error={}
+:do { add list=IQ address=2001:470:1d:3ee::/64 } on-error={}
 :do { add list=IQ address=2001:470:24:24b::/64 } on-error={}
 :do { add list=IQ address=2001:470:24:24c::/63 } on-error={}
 :do { add list=IQ address=2001:470:24:915::/64 } on-error={}
@@ -273,7 +282,6 @@
 :do { add list=IQ address=2001:470:6f:2ec::/64 } on-error={}
 :do { add list=IQ address=2001:470:6f:308::/64 } on-error={}
 :do { add list=IQ address=2001:470:6f:30e::/64 } on-error={}
-:do { add list=IQ address=2001:470:6f:407::/64 } on-error={}
 :do { add list=IQ address=2001:470:6f:40b::/64 } on-error={}
 :do { add list=IQ address=2001:470:6f:428::/64 } on-error={}
 :do { add list=IQ address=2001:470:6f:43f::/64 } on-error={}
@@ -325,8 +333,9 @@
 :do { add list=IQ address=2001:470:18e2::/48 } on-error={}
 :do { add list=IQ address=2001:470:1b56::/48 } on-error={}
 :do { add list=IQ address=2001:470:1bb1::/48 } on-error={}
-:do { add list=IQ address=2001:470:1f07:3fa::/64 } on-error={}
-:do { add list=IQ address=2001:470:1f07:5fe::/64 } on-error={}
+:do { add list=IQ address=2001:470:1f07:eee::/64 } on-error={}
+:do { add list=IQ address=2001:470:1f07:109a::/64 } on-error={}
+:do { add list=IQ address=2001:470:1f07:114d::/64 } on-error={}
 :do { add list=IQ address=2001:470:1f09:7::/64 } on-error={}
 :do { add list=IQ address=2001:470:1f09:3a::/64 } on-error={}
 :do { add list=IQ address=2001:470:1f09:62::/64 } on-error={}
@@ -935,7 +944,6 @@
 :do { add list=IQ address=2001:470:1f17:17f::/64 } on-error={}
 :do { add list=IQ address=2001:470:1f17:186::/64 } on-error={}
 :do { add list=IQ address=2001:470:1f17:2b8::/64 } on-error={}
-:do { add list=IQ address=2001:470:1f19:103::/64 } on-error={}
 :do { add list=IQ address=2001:470:1f1b:19::/64 } on-error={}
 :do { add list=IQ address=2001:470:1f1b:45::/64 } on-error={}
 :do { add list=IQ address=2001:470:1f1b:60::/64 } on-error={}
@@ -964,7 +972,6 @@
 :do { add list=IQ address=2001:470:1f1b:523::/64 } on-error={}
 :do { add list=IQ address=2001:470:1f1b:53b::/64 } on-error={}
 :do { add list=IQ address=2001:470:1f1b:545::/64 } on-error={}
-:do { add list=IQ address=2001:470:1f1b:5d4::/64 } on-error={}
 :do { add list=IQ address=2001:470:1f1b:624::/64 } on-error={}
 :do { add list=IQ address=2001:470:1f1b:71d::/64 } on-error={}
 :do { add list=IQ address=2001:470:1f1b:73a::/64 } on-error={}
@@ -1472,7 +1479,12 @@
 :do { add list=IQ address=2a02:b60:0:1::26/127 } on-error={}
 :do { add list=IQ address=2a02:b60:0:1::28/125 } on-error={}
 :do { add list=IQ address=2a02:b60:0:1::30/124 } on-error={}
-:do { add list=IQ address=2a02:b60:0:1::40/122 } on-error={}
+:do { add list=IQ address=2a02:b60:0:1::40/124 } on-error={}
+:do { add list=IQ address=2a02:b60:0:1::50/126 } on-error={}
+:do { add list=IQ address=2a02:b60:0:1::54/128 } on-error={}
+:do { add list=IQ address=2a02:b60:0:1::56/127 } on-error={}
+:do { add list=IQ address=2a02:b60:0:1::58/125 } on-error={}
+:do { add list=IQ address=2a02:b60:0:1::60/123 } on-error={}
 :do { add list=IQ address=2a02:b60:0:1::80/121 } on-error={}
 :do { add list=IQ address=2a02:b60:0:1::100/120 } on-error={}
 :do { add list=IQ address=2a02:b60:0:1::200/119 } on-error={}
@@ -1866,6 +1878,8 @@
 :do { add list=IQ address=2a09:2880::/29 } on-error={}
 :do { add list=IQ address=2a09:66c0::/29 } on-error={}
 :do { add list=IQ address=2a09:a0c0::/29 } on-error={}
+:do { add list=IQ address=2a09:bac1:1120:1e61::/64 } on-error={}
+:do { add list=IQ address=2a09:bac1:1120:1e66::/64 } on-error={}
 :do { add list=IQ address=2a09:bac1:3780::/64 } on-error={}
 :do { add list=IQ address=2a09:bac1:3780:8::/64 } on-error={}
 :do { add list=IQ address=2a09:bac1:3780:10::/64 } on-error={}
@@ -2363,7 +2377,8 @@
 :do { add list=IQ address=2a12:f680:900::/46 } on-error={}
 :do { add list=IQ address=2a12:f680:904::/48 } on-error={}
 :do { add list=IQ address=2a12:f680:905::/48 } on-error={}
-:do { add list=IQ address=2a12:f680:906::/47 } on-error={}
+:do { add list=IQ address=2a12:f680:906::/48 } on-error={}
+:do { add list=IQ address=2a12:f680:907::/48 } on-error={}
 :do { add list=IQ address=2a12:f680:908::/45 } on-error={}
 :do { add list=IQ address=2a12:f680:910::/44 } on-error={}
 :do { add list=IQ address=2a12:f680:920::/43 } on-error={}
@@ -2452,6 +2467,7 @@
 :do { add list=IQ address=2a14:7580:cf6a::/48 } on-error={}
 :do { add list=IQ address=2a14:7581:b10:6a00::/56 } on-error={}
 :do { add list=IQ address=2a14:7581:b11:6a00::/56 } on-error={}
+:do { add list=IQ address=2a14:7581:b12:6a00::/56 } on-error={}
 :do { add list=IQ address=2a14:7581:b13:6a00::/56 } on-error={}
 :do { add list=IQ address=2a14:7581:b15:6a00::/56 } on-error={}
 :do { add list=IQ address=2a14:7581:b16:6a00::/56 } on-error={}

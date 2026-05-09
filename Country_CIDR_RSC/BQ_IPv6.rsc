@@ -1,5 +1,7 @@
 /log info "Loading BQ IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=BQ address=2001:470:5:304::/64 } on-error={}
+:do { add list=BQ address=2001:470:5:542::/64 } on-error={}
 :do { add list=BQ address=2001:470:19:1283::/64 } on-error={}
 :do { add list=BQ address=2001:470:24:877::/64 } on-error={}
 :do { add list=BQ address=2001:470:36:511::/64 } on-error={}
@@ -179,6 +181,7 @@
 :do { add list=BQ address=2a14:7580:cf1d::/48 } on-error={}
 :do { add list=BQ address=2a14:7581:b10:9b00::/56 } on-error={}
 :do { add list=BQ address=2a14:7581:b11:9b00::/56 } on-error={}
+:do { add list=BQ address=2a14:7581:b12:9b00::/56 } on-error={}
 :do { add list=BQ address=2a14:7581:b13:9b00::/56 } on-error={}
 :do { add list=BQ address=2a14:7581:b15:9b00::/56 } on-error={}
 :do { add list=BQ address=2a14:7581:b16:9b00::/56 } on-error={}

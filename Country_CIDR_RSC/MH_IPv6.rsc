@@ -1,5 +1,6 @@
 /log info "Loading MH IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=MH address=2001:470:d:11a6::/64 } on-error={}
 :do { add list=MH address=2001:470:19:1061::/64 } on-error={}
 :do { add list=MH address=2001:470:36:134::/64 } on-error={}
 :do { add list=MH address=2001:470:36:8e5::/64 } on-error={}
@@ -21,7 +22,23 @@
 :do { add list=MH address=2606:54c0:4860::/45 } on-error={}
 :do { add list=MH address=2606:54c3:0:72d::/64 } on-error={}
 :do { add list=MH address=2607:8940:28d2::/47 } on-error={}
-:do { add list=MH address=2607:8940:28d6::/47 } on-error={}
+:do { add list=MH address=2607:8940:28d6::/52 } on-error={}
+:do { add list=MH address=2607:8940:28d6:1000::/55 } on-error={}
+:do { add list=MH address=2607:8940:28d6:1200::/56 } on-error={}
+:do { add list=MH address=2607:8940:28d6:1300::/58 } on-error={}
+:do { add list=MH address=2607:8940:28d6:1340::/61 } on-error={}
+:do { add list=MH address=2607:8940:28d6:1348::/63 } on-error={}
+:do { add list=MH address=2607:8940:28d6:134a::/64 } on-error={}
+:do { add list=MH address=2607:8940:28d6:134c::/62 } on-error={}
+:do { add list=MH address=2607:8940:28d6:1350::/60 } on-error={}
+:do { add list=MH address=2607:8940:28d6:1360::/59 } on-error={}
+:do { add list=MH address=2607:8940:28d6:1380::/57 } on-error={}
+:do { add list=MH address=2607:8940:28d6:1400::/54 } on-error={}
+:do { add list=MH address=2607:8940:28d6:1800::/53 } on-error={}
+:do { add list=MH address=2607:8940:28d6:2000::/51 } on-error={}
+:do { add list=MH address=2607:8940:28d6:4000::/50 } on-error={}
+:do { add list=MH address=2607:8940:28d6:8000::/49 } on-error={}
+:do { add list=MH address=2607:8940:28d7::/48 } on-error={}
 :do { add list=MH address=2607:8940:41a3:3700::/56 } on-error={}
 :do { add list=MH address=2607:8940:41a3:3800::/56 } on-error={}
 :do { add list=MH address=2607:8940:4290:8700::/56 } on-error={}
@@ -226,6 +243,7 @@
 :do { add list=MH address=2a14:7580:cf8e::/48 } on-error={}
 :do { add list=MH address=2a14:7581:b10:a800::/56 } on-error={}
 :do { add list=MH address=2a14:7581:b11:a800::/56 } on-error={}
+:do { add list=MH address=2a14:7581:b12:a800::/56 } on-error={}
 :do { add list=MH address=2a14:7581:b13:a800::/56 } on-error={}
 :do { add list=MH address=2a14:7581:b15:a800::/56 } on-error={}
 :do { add list=MH address=2a14:7581:b16:a800::/56 } on-error={}

@@ -143,6 +143,7 @@
 :do { add list=NU address=2a14:7580:cfa9::/48 } on-error={}
 :do { add list=NU address=2a14:7581:b10:a200::/56 } on-error={}
 :do { add list=NU address=2a14:7581:b11:a200::/56 } on-error={}
+:do { add list=NU address=2a14:7581:b12:a200::/56 } on-error={}
 :do { add list=NU address=2a14:7581:b13:a200::/56 } on-error={}
 :do { add list=NU address=2a14:7581:b15:a200::/56 } on-error={}
 :do { add list=NU address=2a14:7581:b16:a200::/56 } on-error={}

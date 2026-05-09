@@ -1,6 +1,8 @@
 /log info "Loading GL IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=GL address=2001:470:d:3cc::/64 } on-error={}
 :do { add list=GL address=2001:470:d:72b::/64 } on-error={}
+:do { add list=GL address=2001:470:d:a65::/64 } on-error={}
 :do { add list=GL address=2001:470:19:b5::/64 } on-error={}
 :do { add list=GL address=2001:470:19:27c::/64 } on-error={}
 :do { add list=GL address=2001:470:19:63c::/64 } on-error={}
@@ -17,7 +19,22 @@
 :do { add list=GL address=2001:470:711e::/48 } on-error={}
 :do { add list=GL address=2001:470:7809::/48 } on-error={}
 :do { add list=GL address=2001:470:b994::/48 } on-error={}
-:do { add list=GL address=2001:470:ee5b::/48 } on-error={}
+:do { add list=GL address=2001:470:ee5b::/49 } on-error={}
+:do { add list=GL address=2001:470:ee5b:8000::/51 } on-error={}
+:do { add list=GL address=2001:470:ee5b:a000::/56 } on-error={}
+:do { add list=GL address=2001:470:ee5b:a100::/57 } on-error={}
+:do { add list=GL address=2001:470:ee5b:a180::/59 } on-error={}
+:do { add list=GL address=2001:470:ee5b:a1a0::/60 } on-error={}
+:do { add list=GL address=2001:470:ee5b:a1b0::/63 } on-error={}
+:do { add list=GL address=2001:470:ee5b:a1b3::/64 } on-error={}
+:do { add list=GL address=2001:470:ee5b:a1b4::/62 } on-error={}
+:do { add list=GL address=2001:470:ee5b:a1b8::/61 } on-error={}
+:do { add list=GL address=2001:470:ee5b:a1c0::/58 } on-error={}
+:do { add list=GL address=2001:470:ee5b:a200::/55 } on-error={}
+:do { add list=GL address=2001:470:ee5b:a400::/54 } on-error={}
+:do { add list=GL address=2001:470:ee5b:a800::/53 } on-error={}
+:do { add list=GL address=2001:470:ee5b:b000::/52 } on-error={}
+:do { add list=GL address=2001:470:ee5b:c000::/50 } on-error={}
 :do { add list=GL address=2001:470:ef94::/48 } on-error={}
 :do { add list=GL address=2001:470:f2fc::/48 } on-error={}
 :do { add list=GL address=2001:470:f333::/48 } on-error={}
@@ -354,6 +371,7 @@
 :do { add list=GL address=2a14:7580:cf53::/48 } on-error={}
 :do { add list=GL address=2a14:7581:b10:5900::/56 } on-error={}
 :do { add list=GL address=2a14:7581:b11:5900::/56 } on-error={}
+:do { add list=GL address=2a14:7581:b12:5900::/56 } on-error={}
 :do { add list=GL address=2a14:7581:b13:5900::/56 } on-error={}
 :do { add list=GL address=2a14:7581:b15:5900::/56 } on-error={}
 :do { add list=GL address=2a14:7581:b16:5900::/56 } on-error={}

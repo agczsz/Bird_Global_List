@@ -180,6 +180,7 @@
 :do { add list=SB address=2a14:7580:cfc1::/48 } on-error={}
 :do { add list=SB address=2a14:7581:b10:1c00::/56 } on-error={}
 :do { add list=SB address=2a14:7581:b11:1c00::/56 } on-error={}
+:do { add list=SB address=2a14:7581:b12:1c00::/56 } on-error={}
 :do { add list=SB address=2a14:7581:b13:1c00::/56 } on-error={}
 :do { add list=SB address=2a14:7581:b15:1c00::/56 } on-error={}
 :do { add list=SB address=2a14:7581:b16:1c00::/56 } on-error={}

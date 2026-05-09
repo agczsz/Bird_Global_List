@@ -36,10 +36,16 @@
 :do { add list=YT address=2607:8940:4191:e500::/56 } on-error={}
 :do { add list=YT address=2607:8940:4191:e600::/56 } on-error={}
 :do { add list=YT address=2a01:528:900::/40 } on-error={}
+:do { add list=YT address=2a01:cb22:4201:7b00::/56 } on-error={}
+:do { add list=YT address=2a01:cb22:4201:9600::/56 } on-error={}
+:do { add list=YT address=2a01:cb22:4201:b200::/56 } on-error={}
+:do { add list=YT address=2a01:cb22:4201:b800::/56 } on-error={}
 :do { add list=YT address=2a02:26f7:d280::/48 } on-error={}
 :do { add list=YT address=2a02:26f7:d281::/48 } on-error={}
 :do { add list=YT address=2a02:26f7:d282::/47 } on-error={}
-:do { add list=YT address=2a02:26f7:d284::/46 } on-error={}
+:do { add list=YT address=2a02:26f7:d284::/48 } on-error={}
+:do { add list=YT address=2a02:26f7:d285::/48 } on-error={}
+:do { add list=YT address=2a02:26f7:d286::/47 } on-error={}
 :do { add list=YT address=2a02:26f7:d288::/48 } on-error={}
 :do { add list=YT address=2a02:26f7:d289::/48 } on-error={}
 :do { add list=YT address=2a02:26f7:d28a::/47 } on-error={}
@@ -162,6 +168,7 @@
 :do { add list=YT address=2a14:7580:cff5::/48 } on-error={}
 :do { add list=YT address=2a14:7581:b10:3200::/56 } on-error={}
 :do { add list=YT address=2a14:7581:b11:3200::/56 } on-error={}
+:do { add list=YT address=2a14:7581:b12:3200::/56 } on-error={}
 :do { add list=YT address=2a14:7581:b13:3200::/56 } on-error={}
 :do { add list=YT address=2a14:7581:b15:3200::/56 } on-error={}
 :do { add list=YT address=2a14:7581:b16:3200::/56 } on-error={}

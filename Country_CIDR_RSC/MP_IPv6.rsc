@@ -1791,6 +1791,7 @@
 :do { add list=MP address=2a14:7580:cf94::/48 } on-error={}
 :do { add list=MP address=2a14:7581:b10:a500::/56 } on-error={}
 :do { add list=MP address=2a14:7581:b11:a500::/56 } on-error={}
+:do { add list=MP address=2a14:7581:b12:a500::/56 } on-error={}
 :do { add list=MP address=2a14:7581:b13:a500::/56 } on-error={}
 :do { add list=MP address=2a14:7581:b15:a500::/56 } on-error={}
 :do { add list=MP address=2a14:7581:b16:a500::/56 } on-error={}

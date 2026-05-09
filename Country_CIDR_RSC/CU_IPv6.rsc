@@ -1,6 +1,8 @@
 /log info "Loading CU IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=CU address=2001:470:5:f7::/64 } on-error={}
+:do { add list=CU address=2001:470:5:1ee::/64 } on-error={}
+:do { add list=CU address=2001:470:5:3b7::/64 } on-error={}
 :do { add list=CU address=2001:470:8:5fd::/64 } on-error={}
 :do { add list=CU address=2001:470:b:7a5::/64 } on-error={}
 :do { add list=CU address=2001:470:d:736::/64 } on-error={}
@@ -13,12 +15,11 @@
 :do { add list=CU address=2001:470:19:e11::/64 } on-error={}
 :do { add list=CU address=2001:470:19:f2e::/64 } on-error={}
 :do { add list=CU address=2001:470:19:12e1::/64 } on-error={}
+:do { add list=CU address=2001:470:1d:1f1::/64 } on-error={}
 :do { add list=CU address=2001:470:24:34f::/64 } on-error={}
 :do { add list=CU address=2001:470:36:b5::/64 } on-error={}
 :do { add list=CU address=2001:470:18e9::/48 } on-error={}
 :do { add list=CU address=2001:470:1f05:f2a::/64 } on-error={}
-:do { add list=CU address=2001:470:1f07:3c::/64 } on-error={}
-:do { add list=CU address=2001:470:1f07:471::/64 } on-error={}
 :do { add list=CU address=2001:470:1f09:3f6::/64 } on-error={}
 :do { add list=CU address=2001:470:1f0b:e3f::/64 } on-error={}
 :do { add list=CU address=2001:470:1f13:9f5::/64 } on-error={}
@@ -302,6 +303,7 @@
 :do { add list=CU address=2a14:7580:cf32::/48 } on-error={}
 :do { add list=CU address=2a14:7581:b10:3800::/56 } on-error={}
 :do { add list=CU address=2a14:7581:b11:3800::/56 } on-error={}
+:do { add list=CU address=2a14:7581:b12:3800::/56 } on-error={}
 :do { add list=CU address=2a14:7581:b13:3800::/56 } on-error={}
 :do { add list=CU address=2a14:7581:b15:3800::/56 } on-error={}
 :do { add list=CU address=2a14:7581:b16:3800::/56 } on-error={}

@@ -357,6 +357,7 @@
 :do { add list=GI address=2a14:7580:cf52::/48 } on-error={}
 :do { add list=GI address=2a14:7581:b10:5600::/56 } on-error={}
 :do { add list=GI address=2a14:7581:b11:5600::/56 } on-error={}
+:do { add list=GI address=2a14:7581:b12:5600::/56 } on-error={}
 :do { add list=GI address=2a14:7581:b13:5600::/56 } on-error={}
 :do { add list=GI address=2a14:7581:b15:5600::/56 } on-error={}
 :do { add list=GI address=2a14:7581:b16:5600::/56 } on-error={}

@@ -81,6 +81,7 @@
 :do { add list=GS address=2a14:7580:cf59::/48 } on-error={}
 :do { add list=GS address=2a14:7581:b10:4700::/56 } on-error={}
 :do { add list=GS address=2a14:7581:b11:4700::/56 } on-error={}
+:do { add list=GS address=2a14:7581:b12:4700::/56 } on-error={}
 :do { add list=GS address=2a14:7581:b13:4700::/56 } on-error={}
 :do { add list=GS address=2a14:7581:b15:4700::/56 } on-error={}
 :do { add list=GS address=2a14:7581:b16:4700::/56 } on-error={}

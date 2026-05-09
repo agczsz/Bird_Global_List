@@ -1,5 +1,6 @@
 /log info "Loading FO IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=FO address=2001:470:d:6c5::/64 } on-error={}
 :do { add list=FO address=2001:470:36:c6::/64 } on-error={}
 :do { add list=FO address=2001:470:1a34::/48 } on-error={}
 :do { add list=FO address=2001:470:1c07::/48 } on-error={}
@@ -236,6 +237,7 @@
 :do { add list=FO address=2a14:7580:cf49::/48 } on-error={}
 :do { add list=FO address=2a14:7581:b10:4500::/56 } on-error={}
 :do { add list=FO address=2a14:7581:b11:4500::/56 } on-error={}
+:do { add list=FO address=2a14:7581:b12:4500::/56 } on-error={}
 :do { add list=FO address=2a14:7581:b13:4500::/56 } on-error={}
 :do { add list=FO address=2a14:7581:b15:4500::/56 } on-error={}
 :do { add list=FO address=2a14:7581:b16:4500::/56 } on-error={}

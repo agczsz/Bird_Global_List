@@ -1,14 +1,19 @@
 /log info "Loading BB IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=BB address=2001:470:d:11d7::/64 } on-error={}
 :do { add list=BB address=2001:470:19:227::/64 } on-error={}
+:do { add list=BB address=2001:470:1d:10f::/64 } on-error={}
 :do { add list=BB address=2001:470:28:b43::/64 } on-error={}
 :do { add list=BB address=2001:470:36:9c::/64 } on-error={}
 :do { add list=BB address=2001:470:6d:454::/64 } on-error={}
 :do { add list=BB address=2001:470:1f0b:cc6::/64 } on-error={}
+:do { add list=BB address=2001:470:1f11:537::/64 } on-error={}
 :do { add list=BB address=2001:470:1f13:1de::/64 } on-error={}
 :do { add list=BB address=2001:470:a073::/48 } on-error={}
+:do { add list=BB address=2001:470:f437::/48 } on-error={}
 :do { add list=BB address=2001:470:f529::/48 } on-error={}
 :do { add list=BB address=2001:470:f559::/48 } on-error={}
+:do { add list=BB address=2001:470:f926::/48 } on-error={}
 :do { add list=BB address=2001:67c:a38:f146::/64 } on-error={}
 :do { add list=BB address=2001:3786:5003:400::/56 } on-error={}
 :do { add list=BB address=2001:3786:bb02:200::/56 } on-error={}
@@ -21,7 +26,6 @@
 :do { add list=BB address=2401:b60:1134::/46 } on-error={}
 :do { add list=BB address=2401:b60:1138::/45 } on-error={}
 :do { add list=BB address=2401:f1e0:ffff:5634::/64 } on-error={}
-:do { add list=BB address=2401:f1e0:ffff:d9d5::/64 } on-error={}
 :do { add list=BB address=2405:b500:a80::/64 } on-error={}
 :do { add list=BB address=2405:b500:aa0::/64 } on-error={}
 :do { add list=BB address=2405:b500:ac0::/64 } on-error={}
@@ -391,6 +395,7 @@
 :do { add list=BB address=2a14:7580:cf11::/48 } on-error={}
 :do { add list=BB address=2a14:7581:b10:1100::/56 } on-error={}
 :do { add list=BB address=2a14:7581:b11:1100::/56 } on-error={}
+:do { add list=BB address=2a14:7581:b12:1100::/56 } on-error={}
 :do { add list=BB address=2a14:7581:b13:1100::/56 } on-error={}
 :do { add list=BB address=2a14:7581:b15:1100::/56 } on-error={}
 :do { add list=BB address=2a14:7581:b16:1100::/56 } on-error={}

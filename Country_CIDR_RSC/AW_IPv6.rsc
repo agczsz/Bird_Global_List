@@ -1,9 +1,12 @@
 /log info "Loading AW IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=AW address=2001:470:8:24::/64 } on-error={}
 :do { add list=AW address=2001:470:8:1ea::/64 } on-error={}
+:do { add list=AW address=2001:470:d:f69::/64 } on-error={}
 :do { add list=AW address=2001:470:19:198::/64 } on-error={}
 :do { add list=AW address=2001:470:19:c9a::/64 } on-error={}
 :do { add list=AW address=2001:470:19:132c::/64 } on-error={}
+:do { add list=AW address=2001:470:1d:3d6::/64 } on-error={}
 :do { add list=AW address=2001:470:24:70b::/64 } on-error={}
 :do { add list=AW address=2001:470:24:1168::/64 } on-error={}
 :do { add list=AW address=2001:470:26:125::/64 } on-error={}
@@ -15,7 +18,6 @@
 :do { add list=AW address=2001:470:1b49::/48 } on-error={}
 :do { add list=AW address=2001:470:1b8c::/48 } on-error={}
 :do { add list=AW address=2001:470:1b94::/48 } on-error={}
-:do { add list=AW address=2001:470:1f07:608::/64 } on-error={}
 :do { add list=AW address=2001:470:1f09:dc::/64 } on-error={}
 :do { add list=AW address=2001:470:1f09:2ac::/64 } on-error={}
 :do { add list=AW address=2001:470:1f09:c1f::/64 } on-error={}
@@ -70,7 +72,9 @@
 :do { add list=AW address=2607:8940:23e2:1240::/62 } on-error={}
 :do { add list=AW address=2607:8940:23e2:1244::/63 } on-error={}
 :do { add list=AW address=2607:8940:23e2:1247::/64 } on-error={}
-:do { add list=AW address=2607:8940:23e2:1248::/61 } on-error={}
+:do { add list=AW address=2607:8940:23e2:1248::/63 } on-error={}
+:do { add list=AW address=2607:8940:23e2:124b::/64 } on-error={}
+:do { add list=AW address=2607:8940:23e2:124c::/62 } on-error={}
 :do { add list=AW address=2607:8940:23e2:1250::/60 } on-error={}
 :do { add list=AW address=2607:8940:23e2:1260::/59 } on-error={}
 :do { add list=AW address=2607:8940:23e2:1280::/57 } on-error={}
@@ -227,6 +231,7 @@
 :do { add list=AW address=2a14:7580:cf0d::/48 } on-error={}
 :do { add list=AW address=2a14:7581:b10:9900::/56 } on-error={}
 :do { add list=AW address=2a14:7581:b11:9900::/56 } on-error={}
+:do { add list=AW address=2a14:7581:b12:9900::/56 } on-error={}
 :do { add list=AW address=2a14:7581:b13:9900::/56 } on-error={}
 :do { add list=AW address=2a14:7581:b15:9900::/56 } on-error={}
 :do { add list=AW address=2a14:7581:b16:9900::/56 } on-error={}

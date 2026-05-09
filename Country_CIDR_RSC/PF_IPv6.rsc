@@ -1,10 +1,11 @@
 /log info "Loading PF IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=PF address=2001:470:d:7c0::/64 } on-error={}
+:do { add list=PF address=2001:470:d:ca1::/64 } on-error={}
+:do { add list=PF address=2001:470:d:efb::/64 } on-error={}
 :do { add list=PF address=2001:470:19:a59::/64 } on-error={}
 :do { add list=PF address=2001:470:36:16c::/64 } on-error={}
 :do { add list=PF address=2001:470:28a:1::/64 } on-error={}
-:do { add list=PF address=2001:470:1f07:2b7::/64 } on-error={}
 :do { add list=PF address=2001:470:1f13:964::/64 } on-error={}
 :do { add list=PF address=2001:470:1f1f:2a1::/64 } on-error={}
 :do { add list=PF address=2001:470:2841::/48 } on-error={}
@@ -234,6 +235,7 @@
 :do { add list=PF address=2a14:7580:cfae::/48 } on-error={}
 :do { add list=PF address=2a14:7581:b10:4d00::/56 } on-error={}
 :do { add list=PF address=2a14:7581:b11:4d00::/56 } on-error={}
+:do { add list=PF address=2a14:7581:b12:4d00::/56 } on-error={}
 :do { add list=PF address=2a14:7581:b13:4d00::/56 } on-error={}
 :do { add list=PF address=2a14:7581:b15:4d00::/56 } on-error={}
 :do { add list=PF address=2a14:7581:b16:4d00::/56 } on-error={}

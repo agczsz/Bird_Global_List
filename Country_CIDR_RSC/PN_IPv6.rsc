@@ -86,6 +86,7 @@
 :do { add list=PN address=2a14:7580:cfb4::/48 } on-error={}
 :do { add list=PN address=2a14:7581:b10:b000::/56 } on-error={}
 :do { add list=PN address=2a14:7581:b11:b000::/56 } on-error={}
+:do { add list=PN address=2a14:7581:b12:b000::/56 } on-error={}
 :do { add list=PN address=2a14:7581:b13:b000::/56 } on-error={}
 :do { add list=PN address=2a14:7581:b15:b000::/56 } on-error={}
 :do { add list=PN address=2a14:7581:b16:b000::/56 } on-error={}

@@ -1,5 +1,7 @@
 /log info "Loading BT IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=BT address=2001:470:d:1e9::/64 } on-error={}
+:do { add list=BT address=2001:470:d:1160::/64 } on-error={}
 :do { add list=BT address=2001:470:19:117::/64 } on-error={}
 :do { add list=BT address=2001:470:19:4ae::/64 } on-error={}
 :do { add list=BT address=2001:470:19:cb7::/64 } on-error={}
@@ -445,6 +447,7 @@
 :do { add list=BT address=2a14:7580:cf20::/48 } on-error={}
 :do { add list=BT address=2a14:7581:b10:1400::/56 } on-error={}
 :do { add list=BT address=2a14:7581:b11:1400::/56 } on-error={}
+:do { add list=BT address=2a14:7581:b12:1400::/56 } on-error={}
 :do { add list=BT address=2a14:7581:b13:1400::/56 } on-error={}
 :do { add list=BT address=2a14:7581:b15:1400::/56 } on-error={}
 :do { add list=BT address=2a14:7581:b16:1400::/56 } on-error={}

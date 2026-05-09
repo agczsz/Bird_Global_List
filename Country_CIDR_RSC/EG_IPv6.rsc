@@ -1,7 +1,9 @@
 /log info "Loading EG IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=EG address=2001:470:8:2a2::/64 } on-error={}
 :do { add list=EG address=2001:470:19:1131::/64 } on-error={}
 :do { add list=EG address=2001:470:19:11d8::/64 } on-error={}
+:do { add list=EG address=2001:470:1d:19f::/64 } on-error={}
 :do { add list=EG address=2001:470:24:1a2::/64 } on-error={}
 :do { add list=EG address=2001:470:24:2dd::/64 } on-error={}
 :do { add list=EG address=2001:470:26:2a::/64 } on-error={}
@@ -17,6 +19,7 @@
 :do { add list=EG address=2001:470:6d:9be::/64 } on-error={}
 :do { add list=EG address=2001:470:6d:b23::/64 } on-error={}
 :do { add list=EG address=2001:470:6d:f7f::/64 } on-error={}
+:do { add list=EG address=2001:470:1f07:e50::/64 } on-error={}
 :do { add list=EG address=2001:470:1f09:3f4::/64 } on-error={}
 :do { add list=EG address=2001:470:1f09:404::/64 } on-error={}
 :do { add list=EG address=2001:470:1f09:453::/64 } on-error={}
@@ -104,6 +107,7 @@
 :do { add list=EG address=2001:4860:7:160c::/64 } on-error={}
 :do { add list=EG address=2001:4860:7:170c::/64 } on-error={}
 :do { add list=EG address=2001:4b28:bc00::/40 } on-error={}
+:do { add list=EG address=2400:58a0:d400::/40 } on-error={}
 :do { add list=EG address=2400:8800:e012::/48 } on-error={}
 :do { add list=EG address=2400:cb00:715::/48 } on-error={}
 :do { add list=EG address=2401:b60:1400:4000::/50 } on-error={}
@@ -2724,6 +2728,8 @@
 :do { add list=EG address=2620:0:1c00:5a::/64 } on-error={}
 :do { add list=EG address=2620:0:1cff:dead:beee::1d1e/128 } on-error={}
 :do { add list=EG address=2620:0:1cff:dead:beef::29e/128 } on-error={}
+:do { add list=EG address=2620:0:1cff:dead:beef::f6a/128 } on-error={}
+:do { add list=EG address=2620:0:1cff:dead:beef::52e4/127 } on-error={}
 :do { add list=EG address=2620:0:1cff:dead:beef::5a62/127 } on-error={}
 :do { add list=EG address=2620:0:1cff:dead:beef::5a64/126 } on-error={}
 :do { add list=EG address=2620:0:1cff:dead:beef::5a69/128 } on-error={}
@@ -2731,11 +2737,11 @@
 :do { add list=EG address=2620:0:1cff:dead:beef::5a6d/128 } on-error={}
 :do { add list=EG address=2620:0:1cff:dead:beef::5a6e/127 } on-error={}
 :do { add list=EG address=2620:0:1cff:dead:beef::5a70/126 } on-error={}
-:do { add list=EG address=2620:0:1cff:dead:beef::5a74/127 } on-error={}
+:do { add list=EG address=2620:0:1cff:dead:beef::5a74/128 } on-error={}
 :do { add list=EG address=2620:0:1cff:dead:beef::5a77/128 } on-error={}
 :do { add list=EG address=2620:0:1cff:dead:beef::5a79/128 } on-error={}
 :do { add list=EG address=2620:0:1cff:dead:beef::5a7a/127 } on-error={}
-:do { add list=EG address=2620:0:1cff:dead:beef::5a7e/127 } on-error={}
+:do { add list=EG address=2620:0:1cff:dead:beef::5a7e/128 } on-error={}
 :do { add list=EG address=2620:0:1cff:dead:beef::5a81/128 } on-error={}
 :do { add list=EG address=2620:0:1cff:dead:beef::5b9a/127 } on-error={}
 :do { add list=EG address=2620:0:1cff:dead:beef::5b9c/126 } on-error={}
@@ -2784,6 +2790,7 @@
 :do { add list=EG address=2a00:79e0:ffe2:c300::/56 } on-error={}
 :do { add list=EG address=2a00:79e1:abd:b00::/56 } on-error={}
 :do { add list=EG address=2a01:528:bc00::/40 } on-error={}
+:do { add list=EG address=2a01:c9c0:c01e::/48 } on-error={}
 :do { add list=EG address=2a01:ce83:2000::/36 } on-error={}
 :do { add list=EG address=2a02:26f7:ef40:4000::/64 } on-error={}
 :do { add list=EG address=2a02:26f7:ef40:d100::/62 } on-error={}
@@ -3848,7 +3855,6 @@
 :do { add list=EG address=2a12:bec4:12a5:84f8::/63 } on-error={}
 :do { add list=EG address=2a12:bec4:12a6:4b03::/64 } on-error={}
 :do { add list=EG address=2a12:bec4:12a8:4700::/56 } on-error={}
-:do { add list=EG address=2a12:dd47:8f40::/48 } on-error={}
 :do { add list=EG address=2a12:f381:bc00::/40 } on-error={}
 :do { add list=EG address=2a12:f382:bc00::/40 } on-error={}
 :do { add list=EG address=2a12:f8c3:1:42cf::/64 } on-error={}
@@ -3893,6 +3899,7 @@
 :do { add list=EG address=2a14:7580:cf40::/48 } on-error={}
 :do { add list=EG address=2a14:7581:b10:ea00::/56 } on-error={}
 :do { add list=EG address=2a14:7581:b11:ea00::/56 } on-error={}
+:do { add list=EG address=2a14:7581:b12:ea00::/56 } on-error={}
 :do { add list=EG address=2a14:7581:b13:ea00::/56 } on-error={}
 :do { add list=EG address=2a14:7581:b15:ea00::/56 } on-error={}
 :do { add list=EG address=2a14:7581:b16:ea00::/56 } on-error={}

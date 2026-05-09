@@ -1,6 +1,6 @@
 /log info "Loading NE IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=NE address=2001:470:24:67e::/64 } on-error={}
+:do { add list=NE address=2001:470:1d:382::/64 } on-error={}
 :do { add list=NE address=2001:470:36:156::/64 } on-error={}
 :do { add list=NE address=2001:470:36:389::/64 } on-error={}
 :do { add list=NE address=2001:470:36:668::/64 } on-error={}
@@ -29,7 +29,23 @@
 :do { add list=NE address=2605:59c0:3500::/40 } on-error={}
 :do { add list=NE address=2606:54c0:4cb8::/45 } on-error={}
 :do { add list=NE address=2606:54c3:0:1101::/64 } on-error={}
-:do { add list=NE address=2607:8940:2166::/47 } on-error={}
+:do { add list=NE address=2607:8940:2166::/52 } on-error={}
+:do { add list=NE address=2607:8940:2166:1000::/57 } on-error={}
+:do { add list=NE address=2607:8940:2166:1080::/58 } on-error={}
+:do { add list=NE address=2607:8940:2166:10c0::/61 } on-error={}
+:do { add list=NE address=2607:8940:2166:10c9::/64 } on-error={}
+:do { add list=NE address=2607:8940:2166:10ca::/63 } on-error={}
+:do { add list=NE address=2607:8940:2166:10cc::/62 } on-error={}
+:do { add list=NE address=2607:8940:2166:10d0::/60 } on-error={}
+:do { add list=NE address=2607:8940:2166:10e0::/59 } on-error={}
+:do { add list=NE address=2607:8940:2166:1100::/56 } on-error={}
+:do { add list=NE address=2607:8940:2166:1200::/55 } on-error={}
+:do { add list=NE address=2607:8940:2166:1400::/54 } on-error={}
+:do { add list=NE address=2607:8940:2166:1800::/53 } on-error={}
+:do { add list=NE address=2607:8940:2166:2000::/51 } on-error={}
+:do { add list=NE address=2607:8940:2166:4000::/50 } on-error={}
+:do { add list=NE address=2607:8940:2166:8000::/49 } on-error={}
+:do { add list=NE address=2607:8940:2167::/48 } on-error={}
 :do { add list=NE address=2607:8940:216a::/47 } on-error={}
 :do { add list=NE address=2607:8940:4171:8800::/55 } on-error={}
 :do { add list=NE address=2607:8940:4191:8800::/55 } on-error={}
@@ -140,6 +156,7 @@
 :do { add list=NE address=2a12:bec4:12a5:8ab0::/62 } on-error={}
 :do { add list=NE address=2a12:bec4:12a5:8ab4::/64 } on-error={}
 :do { add list=NE address=2a12:bec4:12a8:a700::/56 } on-error={}
+:do { add list=NE address=2a12:bec4:1571:fa16::/64 } on-error={}
 :do { add list=NE address=2a12:f006:f000::/36 } on-error={}
 :do { add list=NE address=2a12:f381:3900::/40 } on-error={}
 :do { add list=NE address=2a12:f382:3900::/40 } on-error={}
@@ -162,6 +179,7 @@
 :do { add list=NE address=2a14:7580:cfa1::/48 } on-error={}
 :do { add list=NE address=2a14:7581:b10:a000::/56 } on-error={}
 :do { add list=NE address=2a14:7581:b11:a000::/56 } on-error={}
+:do { add list=NE address=2a14:7581:b12:a000::/56 } on-error={}
 :do { add list=NE address=2a14:7581:b13:a000::/56 } on-error={}
 :do { add list=NE address=2a14:7581:b15:a000::/56 } on-error={}
 :do { add list=NE address=2a14:7581:b16:a000::/56 } on-error={}
