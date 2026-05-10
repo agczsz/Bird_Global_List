@@ -694,10 +694,7 @@
 :do { add list=LV address=2a01:a880::/29 } on-error={}
 :do { add list=LV address=2a01:bae0::/32 } on-error={}
 :do { add list=LV address=2a01:ce8f:2000::/36 } on-error={}
-:do { add list=LV address=2a01:ecc0:c00:1::/64 } on-error={}
-:do { add list=LV address=2a01:ecc0:c00:2::/63 } on-error={}
-:do { add list=LV address=2a01:ecc0:c00:4::/62 } on-error={}
-:do { add list=LV address=2a01:ecc0:c00:8::/61 } on-error={}
+:do { add list=LV address=2a01:ecc0:c00::/60 } on-error={}
 :do { add list=LV address=2a01:ecc0:c00:11::/64 } on-error={}
 :do { add list=LV address=2a01:ecc0:c00:12::/63 } on-error={}
 :do { add list=LV address=2a01:ecc0:c00:14::/62 } on-error={}

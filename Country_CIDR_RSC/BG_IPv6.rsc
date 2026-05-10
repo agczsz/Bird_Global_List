@@ -299,6 +299,7 @@
 :do { add list=BG address=2001:470:1f1b:59a::/64 } on-error={}
 :do { add list=BG address=2001:470:1f1b:5a3::/64 } on-error={}
 :do { add list=BG address=2001:470:1f1b:5c2::/63 } on-error={}
+:do { add list=BG address=2001:470:1f1b:5db::/64 } on-error={}
 :do { add list=BG address=2001:470:1f1b:66b::/64 } on-error={}
 :do { add list=BG address=2001:470:1f1b:683::/64 } on-error={}
 :do { add list=BG address=2001:470:1f1b:736::/63 } on-error={}

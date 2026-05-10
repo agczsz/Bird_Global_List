@@ -23,7 +23,6 @@
 :do { add list=AI address=2001:470:1f13:baa::/64 } on-error={}
 :do { add list=AI address=2001:470:1f13:caf::/64 } on-error={}
 :do { add list=AI address=2001:470:1f15:9f::/64 } on-error={}
-:do { add list=AI address=2001:470:1f15:e3::/64 } on-error={}
 :do { add list=AI address=2001:470:1f1d:16f::/64 } on-error={}
 :do { add list=AI address=2001:470:1f21:26b::/64 } on-error={}
 :do { add list=AI address=2001:470:1f29:2cc::/64 } on-error={}

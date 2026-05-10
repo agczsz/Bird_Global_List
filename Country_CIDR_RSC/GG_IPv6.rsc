@@ -16,7 +16,6 @@
 :do { add list=GG address=2001:470:1f13:d91::/64 } on-error={}
 :do { add list=GG address=2001:470:1f13:e1b::/64 } on-error={}
 :do { add list=GG address=2001:470:1f13:e6e::/64 } on-error={}
-:do { add list=GG address=2001:470:1f15:ea::/64 } on-error={}
 :do { add list=GG address=2001:470:1f1b:249::/64 } on-error={}
 :do { add list=GG address=2001:470:1f1d:586::/64 } on-error={}
 :do { add list=GG address=2001:470:1f1d:756::/64 } on-error={}

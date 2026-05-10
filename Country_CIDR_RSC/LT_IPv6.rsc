@@ -974,10 +974,7 @@
 :do { add list=LT address=2a01:ecc0:c40:4::/64 } on-error={}
 :do { add list=LT address=2a01:ecc0:c40:6::/63 } on-error={}
 :do { add list=LT address=2a01:ecc0:c40:8::/61 } on-error={}
-:do { add list=LT address=2a01:ecc0:c40:10::/61 } on-error={}
-:do { add list=LT address=2a01:ecc0:c40:18::/62 } on-error={}
-:do { add list=LT address=2a01:ecc0:c40:1c::/63 } on-error={}
-:do { add list=LT address=2a01:ecc0:c40:1e::/64 } on-error={}
+:do { add list=LT address=2a01:ecc0:c40:10::/60 } on-error={}
 :do { add list=LT address=2a01:ecc0:c40:20::/62 } on-error={}
 :do { add list=LT address=2a01:ecc0:c40:24::/64 } on-error={}
 :do { add list=LT address=2a01:ecc0:c40:26::/63 } on-error={}

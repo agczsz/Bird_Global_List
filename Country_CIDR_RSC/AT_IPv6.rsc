@@ -8223,6 +8223,7 @@
 :do { add list=AT address=2a02:26f7:dd88:4800::/53 } on-error={}
 :do { add list=AT address=2a02:26f7:dd88:5000::/52 } on-error={}
 :do { add list=AT address=2a02:26f7:dd88:6000::/51 } on-error={}
+:do { add list=AT address=2a02:26f7:dd88:8000::/50 } on-error={}
 :do { add list=AT address=2a02:26f7:dd88:c000::/53 } on-error={}
 :do { add list=AT address=2a02:26f7:dd88:c800::/54 } on-error={}
 :do { add list=AT address=2a02:26f7:dd88:cc00::/55 } on-error={}

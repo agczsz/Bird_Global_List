@@ -5024,6 +5024,7 @@
 :do { add list=IE address=2607:8940:4182:f700::/56 } on-error={}
 :do { add list=IE address=2607:8940:4182:f800::/55 } on-error={}
 :do { add list=IE address=2607:8940:4183:eb00::/56 } on-error={}
+:do { add list=IE address=2607:9240:300::/47 } on-error={}
 :do { add list=IE address=2607:f350:6:1001::/64 } on-error={}
 :do { add list=IE address=2607:fdc0:200::/42 } on-error={}
 :do { add list=IE address=2607:fdc0:840::/42 } on-error={}
@@ -6538,7 +6539,6 @@
 :do { add list=IE address=2a01:3e4:3d00::/64 } on-error={}
 :do { add list=IE address=2a01:3e6:3d00::/64 } on-error={}
 :do { add list=IE address=2a01:3e8:3d00::/64 } on-error={}
-:do { add list=IE address=2a01:3ea:3d00::/64 } on-error={}
 :do { add list=IE address=2a01:3ec:3d00::/64 } on-error={}
 :do { add list=IE address=2a01:3f0:3d00::/64 } on-error={}
 :do { add list=IE address=2a01:400::/36 } on-error={}
