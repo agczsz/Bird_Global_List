@@ -33,7 +33,6 @@
 :do { add list=PH address=2001:470:24:8e::/64 } on-error={}
 :do { add list=PH address=2001:470:24:204::/64 } on-error={}
 :do { add list=PH address=2001:470:24:273::/64 } on-error={}
-:do { add list=PH address=2001:470:24:2ac::/64 } on-error={}
 :do { add list=PH address=2001:470:24:2f6::/64 } on-error={}
 :do { add list=PH address=2001:470:24:3c8::/64 } on-error={}
 :do { add list=PH address=2001:470:24:3eb::/64 } on-error={}

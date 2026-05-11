@@ -451,7 +451,6 @@
 :do { add list=PK address=2001:fe8:8800::/38 } on-error={}
 :do { add list=PK address=2001:fe8:8c00::/39 } on-error={}
 :do { add list=PK address=2001:fe8:8e00::/40 } on-error={}
-:do { add list=PK address=2001:fe8:8f02::/48 } on-error={}
 :do { add list=PK address=2001:fe8:8f03::/48 } on-error={}
 :do { add list=PK address=2001:fe8:8f04::/46 } on-error={}
 :do { add list=PK address=2001:fe8:8f08::/45 } on-error={}

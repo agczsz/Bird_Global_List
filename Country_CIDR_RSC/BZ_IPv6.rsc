@@ -195,6 +195,7 @@
 :do { add list=BZ address=2a05:840:8000::/33 } on-error={}
 :do { add list=BZ address=2a05:841::/32 } on-error={}
 :do { add list=BZ address=2a05:842::/31 } on-error={}
+:do { add list=BZ address=2a05:2ac0::/29 } on-error={}
 :do { add list=BZ address=2a05:6200::/42 } on-error={}
 :do { add list=BZ address=2a05:6200:40::/43 } on-error={}
 :do { add list=BZ address=2a05:6200:60::/44 } on-error={}

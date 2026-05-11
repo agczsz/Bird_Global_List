@@ -492,6 +492,8 @@
 :do { add list=KP address=2001:470:f421:4000::/50 } on-error={}
 :do { add list=KP address=2001:470:f421:8000::/49 } on-error={}
 :do { add list=KP address=2001:470:f433::/48 } on-error={}
+:do { add list=KP address=2001:470:f443::/48 } on-error={}
+:do { add list=KP address=2001:470:f444::/48 } on-error={}
 :do { add list=KP address=2001:470:f4a3::/48 } on-error={}
 :do { add list=KP address=2001:470:f4cc::/48 } on-error={}
 :do { add list=KP address=2001:470:f4d6::/48 } on-error={}

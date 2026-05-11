@@ -20,7 +20,6 @@
 :do { add list=AF address=2001:470:d:d94::/64 } on-error={}
 :do { add list=AF address=2001:470:d:fb5::/64 } on-error={}
 :do { add list=AF address=2001:470:d:1154::/64 } on-error={}
-:do { add list=AF address=2001:470:d:1170::/64 } on-error={}
 :do { add list=AF address=2001:470:d:11f1::/64 } on-error={}
 :do { add list=AF address=2001:470:19:14c::/64 } on-error={}
 :do { add list=AF address=2001:470:19:1da::/64 } on-error={}
