@@ -9757,6 +9757,7 @@
 :do { add list=IT address=2a01:3e0:b00::/56 } on-error={}
 :do { add list=IT address=2a01:3e0:b00:100::/64 } on-error={}
 :do { add list=IT address=2a01:3e0:1f00::/56 } on-error={}
+:do { add list=IT address=2a01:3e0:3900::113/128 } on-error={}
 :do { add list=IT address=2a01:3e0:4400::/64 } on-error={}
 :do { add list=IT address=2a01:3e0:ff90::/56 } on-error={}
 :do { add list=IT address=2a01:3e0:ff90:8000::/60 } on-error={}
@@ -11632,6 +11633,8 @@
 :do { add list=IT address=2a02:28e8:1:ff40:3:85:0:1/128 } on-error={}
 :do { add list=IT address=2a02:28e8:1:ff40:85:86::/127 } on-error={}
 :do { add list=IT address=2a02:28e8:1:ff40:86:42::/128 } on-error={}
+:do { add list=IT address=2a02:28e8:2:a::/64 } on-error={}
+:do { add list=IT address=2a02:28e8:2:1a::/64 } on-error={}
 :do { add list=IT address=2a02:29a0::/32 } on-error={}
 :do { add list=IT address=2a02:29e0::/48 } on-error={}
 :do { add list=IT address=2a02:29e0:1::/48 } on-error={}
@@ -21621,7 +21624,14 @@
 :do { add list=IT address=2a14:7584:4100::/40 } on-error={}
 :do { add list=IT address=2a14:7584:4200::/39 } on-error={}
 :do { add list=IT address=2a14:7584:4400::/38 } on-error={}
-:do { add list=IT address=2a14:7584:4800::/37 } on-error={}
+:do { add list=IT address=2a14:7584:4800::/38 } on-error={}
+:do { add list=IT address=2a14:7584:4c00::/39 } on-error={}
+:do { add list=IT address=2a14:7584:4e00::/41 } on-error={}
+:do { add list=IT address=2a14:7584:4e80::/42 } on-error={}
+:do { add list=IT address=2a14:7584:4ec0::/44 } on-error={}
+:do { add list=IT address=2a14:7584:4ed0::/44 } on-error={}
+:do { add list=IT address=2a14:7584:4ee0::/43 } on-error={}
+:do { add list=IT address=2a14:7584:4f00::/40 } on-error={}
 :do { add list=IT address=2a14:7584:6000::/36 } on-error={}
 :do { add list=IT address=2a14:7584:e77e::/48 } on-error={}
 :do { add list=IT address=2a14:7586:0:1::/64 } on-error={}

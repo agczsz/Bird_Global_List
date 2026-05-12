@@ -73,6 +73,7 @@
 :do { add list=EG address=2001:ac8:8f:4000::/50 } on-error={}
 :do { add list=EG address=2001:ac8:8f:8000::/49 } on-error={}
 :do { add list=EG address=2001:ac8:98::/48 } on-error={}
+:do { add list=EG address=2001:3786:b10b:a00::/56 } on-error={}
 :do { add list=EG address=2001:4220::/33 } on-error={}
 :do { add list=EG address=2001:4220:8000::/33 } on-error={}
 :do { add list=EG address=2001:42b8::/32 } on-error={}

@@ -9,7 +9,6 @@
 :do { add list=PA address=2001:470:5:667::/64 } on-error={}
 :do { add list=PA address=2001:470:10:45::2/128 } on-error={}
 :do { add list=PA address=2001:470:24:31a::/64 } on-error={}
-:do { add list=PA address=2001:470:24:69e::/64 } on-error={}
 :do { add list=PA address=2001:470:28:5c7::/64 } on-error={}
 :do { add list=PA address=2001:470:36:69c::/64 } on-error={}
 :do { add list=PA address=2001:470:67:4b0::/64 } on-error={}

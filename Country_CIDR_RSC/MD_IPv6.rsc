@@ -79,6 +79,7 @@
 :do { add list=MD address=2001:470:7036::/48 } on-error={}
 :do { add list=MD address=2001:470:75dd::/48 } on-error={}
 :do { add list=MD address=2001:470:77ad::/48 } on-error={}
+:do { add list=MD address=2001:470:ba3c::/48 } on-error={}
 :do { add list=MD address=2001:470:c28f::/48 } on-error={}
 :do { add list=MD address=2001:470:c9d2::/48 } on-error={}
 :do { add list=MD address=2001:470:d011::/48 } on-error={}

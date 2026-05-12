@@ -23,6 +23,7 @@
 :do { add list=AS address=2001:470:d:16b6::/64 } on-error={}
 :do { add list=AS address=2001:470:19:c8::/64 } on-error={}
 :do { add list=AS address=2001:470:19:cc::/64 } on-error={}
+:do { add list=AS address=2001:470:19:246::/64 } on-error={}
 :do { add list=AS address=2001:470:19:27e::/64 } on-error={}
 :do { add list=AS address=2001:470:19:2cd::/64 } on-error={}
 :do { add list=AS address=2001:470:19:3fa::/64 } on-error={}

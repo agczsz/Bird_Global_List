@@ -917,7 +917,7 @@
 :do { add list=PR address=2605:ba00:5000::/39 } on-error={}
 :do { add list=PR address=2605:ba00:5200::/54 } on-error={}
 :do { add list=PR address=2605:ba00:5200:400::/56 } on-error={}
-:do { add list=PR address=2605:ba00:5200:600::/55 } on-error={}
+:do { add list=PR address=2605:ba00:5200:600::/56 } on-error={}
 :do { add list=PR address=2605:ba00:5200:800::/53 } on-error={}
 :do { add list=PR address=2605:ba00:5200:1000::/52 } on-error={}
 :do { add list=PR address=2605:ba00:5200:2000::/51 } on-error={}

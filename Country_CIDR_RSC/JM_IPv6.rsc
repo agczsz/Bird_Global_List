@@ -13,7 +13,6 @@
 :do { add list=JM address=2001:470:28:1b8::/64 } on-error={}
 :do { add list=JM address=2001:470:28:8d7::/64 } on-error={}
 :do { add list=JM address=2001:470:36:fc::/64 } on-error={}
-:do { add list=JM address=2001:470:36:522::/64 } on-error={}
 :do { add list=JM address=2001:470:67:4ad::/64 } on-error={}
 :do { add list=JM address=2001:470:6d:1198::/64 } on-error={}
 :do { add list=JM address=2001:470:18a6::/48 } on-error={}

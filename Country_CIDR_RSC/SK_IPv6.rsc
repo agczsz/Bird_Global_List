@@ -1022,7 +1022,7 @@
 :do { add list=SK address=2a01:c846:5200::/45 } on-error={}
 :do { add list=SK address=2a01:c846:5600::/40 } on-error={}
 :do { add list=SK address=2a01:c846:5700:200::/64 } on-error={}
-:do { add list=SK address=2a01:c846:5700:400::/56 } on-error={}
+:do { add list=SK address=2a01:c846:5700:400::/64 } on-error={}
 :do { add list=SK address=2a01:c846:5700:a00::/64 } on-error={}
 :do { add list=SK address=2a01:c846:5700:1100::/56 } on-error={}
 :do { add list=SK address=2a01:c846:5700:1300::/64 } on-error={}

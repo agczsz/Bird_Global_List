@@ -55,6 +55,8 @@
 :do { add list=MO address=2001:470:19:210::/64 } on-error={}
 :do { add list=MO address=2001:470:19:214::/64 } on-error={}
 :do { add list=MO address=2001:470:19:237::/64 } on-error={}
+:do { add list=MO address=2001:470:19:242::/64 } on-error={}
+:do { add list=MO address=2001:470:19:247::/64 } on-error={}
 :do { add list=MO address=2001:470:19:2a5::/64 } on-error={}
 :do { add list=MO address=2001:470:19:2c5::/64 } on-error={}
 :do { add list=MO address=2001:470:19:318::/64 } on-error={}
@@ -442,6 +444,7 @@
 :do { add list=MO address=2001:470:f908::/47 } on-error={}
 :do { add list=MO address=2001:470:f922::/48 } on-error={}
 :do { add list=MO address=2001:470:f932::/48 } on-error={}
+:do { add list=MO address=2001:470:f93d::/48 } on-error={}
 :do { add list=MO address=2001:470:f984::/48 } on-error={}
 :do { add list=MO address=2001:470:f9ed::/48 } on-error={}
 :do { add list=MO address=2001:470:fa2f::/48 } on-error={}

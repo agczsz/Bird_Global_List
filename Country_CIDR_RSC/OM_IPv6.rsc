@@ -1,7 +1,6 @@
 /log info "Loading OM IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=OM address=2001:470:1d:36e::/64 } on-error={}
-:do { add list=OM address=2001:470:24:6a2::/64 } on-error={}
 :do { add list=OM address=2001:470:26:291::/64 } on-error={}
 :do { add list=OM address=2001:470:26:2fb::/64 } on-error={}
 :do { add list=OM address=2001:470:26:479::/64 } on-error={}

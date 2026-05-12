@@ -137,6 +137,7 @@
 :do { add list=FI address=2001:470:28:c20::/64 } on-error={}
 :do { add list=FI address=2001:470:28:c8f::/64 } on-error={}
 :do { add list=FI address=2001:470:28:cc0::/64 } on-error={}
+:do { add list=FI address=2001:470:28:cee::/64 } on-error={}
 :do { add list=FI address=2001:470:28:d4c::/64 } on-error={}
 :do { add list=FI address=2001:470:28:d63::/64 } on-error={}
 :do { add list=FI address=2001:470:28:d85::/64 } on-error={}

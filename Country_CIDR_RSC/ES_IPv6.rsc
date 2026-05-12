@@ -54,6 +54,7 @@
 :do { add list=ES address=2001:470:1d:169::/64 } on-error={}
 :do { add list=ES address=2001:470:1d:2a1::/64 } on-error={}
 :do { add list=ES address=2001:470:1d:39b::/64 } on-error={}
+:do { add list=ES address=2001:470:1d:45d::/64 } on-error={}
 :do { add list=ES address=2001:470:1d:4b4::/64 } on-error={}
 :do { add list=ES address=2001:470:1d:4fe::/64 } on-error={}
 :do { add list=ES address=2001:470:24:c8b::/64 } on-error={}
@@ -713,6 +714,7 @@
 :do { add list=ES address=2001:470:9212::/48 } on-error={}
 :do { add list=ES address=2001:470:98b1::/48 } on-error={}
 :do { add list=ES address=2001:470:9973::/48 } on-error={}
+:do { add list=ES address=2001:470:b26f::/48 } on-error={}
 :do { add list=ES address=2001:470:b416::/48 } on-error={}
 :do { add list=ES address=2001:470:b4a8::/48 } on-error={}
 :do { add list=ES address=2001:470:b581::/48 } on-error={}
@@ -7441,10 +7443,11 @@
 :do { add list=ES address=2a01:3e0:1000:120::/59 } on-error={}
 :do { add list=ES address=2a01:3e0:1000:140::/58 } on-error={}
 :do { add list=ES address=2a01:3e0:1000:180::/57 } on-error={}
-:do { add list=ES address=2a01:3e0:1900::110/127 } on-error={}
+:do { add list=ES address=2a01:3e0:1900:100::/64 } on-error={}
 :do { add list=ES address=2a01:3e0:3000::/56 } on-error={}
 :do { add list=ES address=2a01:3e0:3700::/60 } on-error={}
 :do { add list=ES address=2a01:3e0:3700:10::/64 } on-error={}
+:do { add list=ES address=2a01:3e0:3900::124/128 } on-error={}
 :do { add list=ES address=2a01:3e0:4500::/63 } on-error={}
 :do { add list=ES address=2a01:3e0:ff10::/56 } on-error={}
 :do { add list=ES address=2a01:3e0:ff60::/56 } on-error={}
@@ -12581,6 +12584,7 @@
 :do { add list=ES address=2a10:2280::/29 } on-error={}
 :do { add list=ES address=2a10:22c0::/29 } on-error={}
 :do { add list=ES address=2a10:2640::/32 } on-error={}
+:do { add list=ES address=2a10:2f00:12b::/48 } on-error={}
 :do { add list=ES address=2a10:2f00:190::/48 } on-error={}
 :do { add list=ES address=2a10:3205::/32 } on-error={}
 :do { add list=ES address=2a10:3700::/29 } on-error={}

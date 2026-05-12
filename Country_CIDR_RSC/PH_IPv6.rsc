@@ -465,6 +465,7 @@
 :do { add list=PH address=2001:df6:ed80::/48 } on-error={}
 :do { add list=PH address=2001:df6:f440::/48 } on-error={}
 :do { add list=PH address=2001:df7:3c0::/48 } on-error={}
+:do { add list=PH address=2001:df7:640::/48 } on-error={}
 :do { add list=PH address=2001:df7:1300::/48 } on-error={}
 :do { add list=PH address=2001:df7:1a80::/48 } on-error={}
 :do { add list=PH address=2001:df7:4280::/48 } on-error={}

@@ -1,6 +1,5 @@
 /log info "Loading MM IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=MM address=2001:470:d:119e::/64 } on-error={}
 :do { add list=MM address=2001:470:19:86b::/64 } on-error={}
 :do { add list=MM address=2001:470:19:c26::/64 } on-error={}
 :do { add list=MM address=2001:470:19:d7a::/64 } on-error={}
@@ -38,7 +37,6 @@
 :do { add list=MM address=2001:470:518b::/48 } on-error={}
 :do { add list=MM address=2001:470:7928::/48 } on-error={}
 :do { add list=MM address=2001:470:7b47::/48 } on-error={}
-:do { add list=MM address=2001:470:8cdd::/48 } on-error={}
 :do { add list=MM address=2001:470:c0cd::/48 } on-error={}
 :do { add list=MM address=2001:470:c9a1::/48 } on-error={}
 :do { add list=MM address=2001:470:de54::/48 } on-error={}
@@ -51,7 +49,6 @@
 :do { add list=MM address=2001:470:f332:95e::/63 } on-error={}
 :do { add list=MM address=2001:470:f39a:950::/64 } on-error={}
 :do { add list=MM address=2001:470:f39a:95e::/63 } on-error={}
-:do { add list=MM address=2001:470:f692::/48 } on-error={}
 :do { add list=MM address=2001:470:f873:950::/64 } on-error={}
 :do { add list=MM address=2001:470:f873:95e::/63 } on-error={}
 :do { add list=MM address=2001:470:f8f9:950::/64 } on-error={}
@@ -602,7 +599,6 @@
 :do { add list=MM address=2407:f300:2000::/35 } on-error={}
 :do { add list=MM address=2407:f300:4000::/34 } on-error={}
 :do { add list=MM address=2407:f300:8000::/33 } on-error={}
-:do { add list=MM address=2409:8a6d:7db2:6a00::/56 } on-error={}
 :do { add list=MM address=2600:1417:7c00::/48 } on-error={}
 :do { add list=MM address=2600:1417:a800::/48 } on-error={}
 :do { add list=MM address=2600:70ff:a52a::/48 } on-error={}
