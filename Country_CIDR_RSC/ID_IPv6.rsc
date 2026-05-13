@@ -5993,7 +5993,12 @@
 :do { add list=ID address=2402:7100::/32 } on-error={}
 :do { add list=ID address=2402:7640::/32 } on-error={}
 :do { add list=ID address=2402:7980::/32 } on-error={}
-:do { add list=ID address=2402:7ac0::/33 } on-error={}
+:do { add list=ID address=2402:7ac0::/36 } on-error={}
+:do { add list=ID address=2402:7ac0:1000::/36 } on-error={}
+:do { add list=ID address=2402:7ac0:2000::/35 } on-error={}
+:do { add list=ID address=2402:7ac0:4000::/35 } on-error={}
+:do { add list=ID address=2402:7ac0:6000::/36 } on-error={}
+:do { add list=ID address=2402:7ac0:7000::/36 } on-error={}
 :do { add list=ID address=2402:7ac0:8000::/36 } on-error={}
 :do { add list=ID address=2402:7ac0:9000::/36 } on-error={}
 :do { add list=ID address=2402:7ac0:a000::/36 } on-error={}

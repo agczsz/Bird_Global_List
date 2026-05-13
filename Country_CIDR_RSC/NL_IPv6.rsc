@@ -72904,7 +72904,10 @@
 :do { add list=NL address=2a04:9f88::/29 } on-error={}
 :do { add list=NL address=2a04:9f90::/28 } on-error={}
 :do { add list=NL address=2a04:9fa0::/27 } on-error={}
-:do { add list=NL address=2a04:9fc0::/26 } on-error={}
+:do { add list=NL address=2a04:9fc0::/29 } on-error={}
+:do { add list=NL address=2a04:9fc8::/29 } on-error={}
+:do { add list=NL address=2a04:9fd0::/28 } on-error={}
+:do { add list=NL address=2a04:9fe0::/27 } on-error={}
 :do { add list=NL address=2a04:a000::/26 } on-error={}
 :do { add list=NL address=2a04:a048::/29 } on-error={}
 :do { add list=NL address=2a04:a050::/28 } on-error={}

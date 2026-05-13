@@ -299,7 +299,11 @@
 :do { add list=EC address=2800:68:43::/48 } on-error={}
 :do { add list=EC address=2800:68:44::/46 } on-error={}
 :do { add list=EC address=2800:68:48::/45 } on-error={}
-:do { add list=EC address=2800:68:50::/44 } on-error={}
+:do { add list=EC address=2800:68:50::/46 } on-error={}
+:do { add list=EC address=2800:68:54::/48 } on-error={}
+:do { add list=EC address=2800:68:55::/48 } on-error={}
+:do { add list=EC address=2800:68:56::/47 } on-error={}
+:do { add list=EC address=2800:68:58::/45 } on-error={}
 :do { add list=EC address=2800:68:60::/43 } on-error={}
 :do { add list=EC address=2800:68:80::/41 } on-error={}
 :do { add list=EC address=2800:68:100::/40 } on-error={}

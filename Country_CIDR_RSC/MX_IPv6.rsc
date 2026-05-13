@@ -1130,7 +1130,8 @@
 :do { add list=MX address=2001:1248:9e25::/48 } on-error={}
 :do { add list=MX address=2001:1248:9e26::/47 } on-error={}
 :do { add list=MX address=2001:1248:9e28::/47 } on-error={}
-:do { add list=MX address=2001:1248:9e2a::/47 } on-error={}
+:do { add list=MX address=2001:1248:9e2a::/48 } on-error={}
+:do { add list=MX address=2001:1248:9e2b::/48 } on-error={}
 :do { add list=MX address=2001:1248:9e2c::/46 } on-error={}
 :do { add list=MX address=2001:1248:9e30::/44 } on-error={}
 :do { add list=MX address=2001:1248:9e40::/42 } on-error={}

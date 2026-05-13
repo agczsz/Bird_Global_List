@@ -3986,7 +3986,11 @@
 :do { add list=AE address=2a00:d1a0:9::/48 } on-error={}
 :do { add list=AE address=2a00:d1a0:a::/47 } on-error={}
 :do { add list=AE address=2a00:d1a0:c::/46 } on-error={}
-:do { add list=AE address=2a00:d1a0:10::/44 } on-error={}
+:do { add list=AE address=2a00:d1a0:10::/48 } on-error={}
+:do { add list=AE address=2a00:d1a0:11::/48 } on-error={}
+:do { add list=AE address=2a00:d1a0:12::/47 } on-error={}
+:do { add list=AE address=2a00:d1a0:14::/46 } on-error={}
+:do { add list=AE address=2a00:d1a0:18::/45 } on-error={}
 :do { add list=AE address=2a00:d1a0:20::/43 } on-error={}
 :do { add list=AE address=2a00:d1a0:40::/42 } on-error={}
 :do { add list=AE address=2a00:d1a0:80::/41 } on-error={}
