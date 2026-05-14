@@ -44438,7 +44438,13 @@
 :do { add list=AU address=2001:df7:188::/45 } on-error={}
 :do { add list=AU address=2001:df7:190::/44 } on-error={}
 :do { add list=AU address=2001:df7:1a0::/43 } on-error={}
-:do { add list=AU address=2001:df7:1c0::/42 } on-error={}
+:do { add list=AU address=2001:df7:1c0::/48 } on-error={}
+:do { add list=AU address=2001:df7:1c1::/48 } on-error={}
+:do { add list=AU address=2001:df7:1c2::/47 } on-error={}
+:do { add list=AU address=2001:df7:1c4::/46 } on-error={}
+:do { add list=AU address=2001:df7:1c8::/45 } on-error={}
+:do { add list=AU address=2001:df7:1d0::/44 } on-error={}
+:do { add list=AU address=2001:df7:1e0::/43 } on-error={}
 :do { add list=AU address=2001:df7:204::/46 } on-error={}
 :do { add list=AU address=2001:df7:208::/45 } on-error={}
 :do { add list=AU address=2001:df7:210::/44 } on-error={}

@@ -2500,7 +2500,13 @@
 :do { add list=IL address=2a0b:40c0::/29 } on-error={}
 :do { add list=IL address=2a0b:4343:2936::/48 } on-error={}
 :do { add list=IL address=2a0b:4e00::/30 } on-error={}
-:do { add list=IL address=2a0b:4e04::/42 } on-error={}
+:do { add list=IL address=2a0b:4e04::/48 } on-error={}
+:do { add list=IL address=2a0b:4e04:1::/48 } on-error={}
+:do { add list=IL address=2a0b:4e04:2::/47 } on-error={}
+:do { add list=IL address=2a0b:4e04:4::/46 } on-error={}
+:do { add list=IL address=2a0b:4e04:8::/45 } on-error={}
+:do { add list=IL address=2a0b:4e04:10::/44 } on-error={}
+:do { add list=IL address=2a0b:4e04:20::/43 } on-error={}
 :do { add list=IL address=2a0b:4e04:40::/47 } on-error={}
 :do { add list=IL address=2a0b:4e04:42::/48 } on-error={}
 :do { add list=IL address=2a0b:4e04:43::/48 } on-error={}
@@ -3195,7 +3201,8 @@
 :do { add list=IL address=2a0b:4e07:d4::/47 } on-error={}
 :do { add list=IL address=2a0b:4e07:d6::/48 } on-error={}
 :do { add list=IL address=2a0b:4e07:d7::/48 } on-error={}
-:do { add list=IL address=2a0b:4e07:e2::/47 } on-error={}
+:do { add list=IL address=2a0b:4e07:e2::/48 } on-error={}
+:do { add list=IL address=2a0b:4e07:e3::/48 } on-error={}
 :do { add list=IL address=2a0b:4e07:e4::/47 } on-error={}
 :do { add list=IL address=2a0b:4e07:e7::/48 } on-error={}
 :do { add list=IL address=2a0b:4e07:e8::/47 } on-error={}
@@ -3312,7 +3319,10 @@
 :do { add list=IL address=2a0b:4e07:5800::/37 } on-error={}
 :do { add list=IL address=2a0b:4e07:6200::/39 } on-error={}
 :do { add list=IL address=2a0b:4e07:6400::/38 } on-error={}
-:do { add list=IL address=2a0b:4e07:6800::/37 } on-error={}
+:do { add list=IL address=2a0b:4e07:6800::/40 } on-error={}
+:do { add list=IL address=2a0b:4e07:6900::/40 } on-error={}
+:do { add list=IL address=2a0b:4e07:6a00::/39 } on-error={}
+:do { add list=IL address=2a0b:4e07:6c00::/38 } on-error={}
 :do { add list=IL address=2a0b:4e07:7000::/44 } on-error={}
 :do { add list=IL address=2a0b:4e07:7020::/43 } on-error={}
 :do { add list=IL address=2a0b:4e07:7080::/41 } on-error={}

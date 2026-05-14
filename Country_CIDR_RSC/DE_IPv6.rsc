@@ -142970,7 +142970,13 @@
 :do { add list=DE address=2a0b:25c0::/29 } on-error={}
 :do { add list=DE address=2a0b:2600::/29 } on-error={}
 :do { add list=DE address=2a0b:28c0::/29 } on-error={}
-:do { add list=DE address=2a0b:2900::/34 } on-error={}
+:do { add list=DE address=2a0b:2900::/36 } on-error={}
+:do { add list=DE address=2a0b:2900:1000::/37 } on-error={}
+:do { add list=DE address=2a0b:2900:1800::/38 } on-error={}
+:do { add list=DE address=2a0b:2900:1c00::/39 } on-error={}
+:do { add list=DE address=2a0b:2900:1e00::/40 } on-error={}
+:do { add list=DE address=2a0b:2900:1f00::/40 } on-error={}
+:do { add list=DE address=2a0b:2900:2000::/35 } on-error={}
 :do { add list=DE address=2a0b:2900:4000::/36 } on-error={}
 :do { add list=DE address=2a0b:2900:5000::/39 } on-error={}
 :do { add list=DE address=2a0b:2900:5200::/41 } on-error={}
@@ -148271,7 +148277,10 @@
 :do { add list=DE address=2a0d:2147::/32 } on-error={}
 :do { add list=DE address=2a0d:2406:510::/48 } on-error={}
 :do { add list=DE address=2a0d:2406:513::/48 } on-error={}
-:do { add list=DE address=2a0d:2500::/29 } on-error={}
+:do { add list=DE address=2a0d:2500::/32 } on-error={}
+:do { add list=DE address=2a0d:2501::/32 } on-error={}
+:do { add list=DE address=2a0d:2502::/31 } on-error={}
+:do { add list=DE address=2a0d:2504::/30 } on-error={}
 :do { add list=DE address=2a0d:2583:b79f:1f1c::/64 } on-error={}
 :do { add list=DE address=2a0d:2584::/32 } on-error={}
 :do { add list=DE address=2a0d:2587:350f::/48 } on-error={}
@@ -152606,7 +152615,9 @@
 :do { add list=DE address=2a0f:6282:100::/64 } on-error={}
 :do { add list=DE address=2a0f:6282:101::/64 } on-error={}
 :do { add list=DE address=2a0f:6282:102::/64 } on-error={}
-:do { add list=DE address=2a0f:6282:104::/46 } on-error={}
+:do { add list=DE address=2a0f:6282:104::/48 } on-error={}
+:do { add list=DE address=2a0f:6282:105::/48 } on-error={}
+:do { add list=DE address=2a0f:6282:106::/47 } on-error={}
 :do { add list=DE address=2a0f:6282:108::/45 } on-error={}
 :do { add list=DE address=2a0f:6282:110::/44 } on-error={}
 :do { add list=DE address=2a0f:6282:120::/43 } on-error={}

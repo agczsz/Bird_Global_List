@@ -15457,7 +15457,8 @@
 :do { add list=IT address=2a0d:b287:eb00::/40 } on-error={}
 :do { add list=IT address=2a0d:b287:ecc0::/42 } on-error={}
 :do { add list=IT address=2a0d:b287:ed00::/40 } on-error={}
-:do { add list=IT address=2a0d:b287:ee00::/39 } on-error={}
+:do { add list=IT address=2a0d:b287:ee00::/40 } on-error={}
+:do { add list=IT address=2a0d:b287:ef00::/40 } on-error={}
 :do { add list=IT address=2a0d:b287:f000::/36 } on-error={}
 :do { add list=IT address=2a0d:c280::/29 } on-error={}
 :do { add list=IT address=2a0d:c740:1a::/48 } on-error={}

@@ -6117,7 +6117,11 @@
 :do { add list=UA address=2a0e:7e00::/29 } on-error={}
 :do { add list=UA address=2a0e:8f01:1000:54::/64 } on-error={}
 :do { add list=UA address=2a0e:8f02:10f3:1d::/64 } on-error={}
-:do { add list=UA address=2a0e:8f02:21f0::/44 } on-error={}
+:do { add list=UA address=2a0e:8f02:21f0::/48 } on-error={}
+:do { add list=UA address=2a0e:8f02:21f1::/48 } on-error={}
+:do { add list=UA address=2a0e:8f02:21f2::/47 } on-error={}
+:do { add list=UA address=2a0e:8f02:21f4::/46 } on-error={}
+:do { add list=UA address=2a0e:8f02:21f8::/45 } on-error={}
 :do { add list=UA address=2a0e:9481::/32 } on-error={}
 :do { add list=UA address=2a0e:97c0:ad0:1::/64 } on-error={}
 :do { add list=UA address=2a0e:97c0:ad0:2::/63 } on-error={}

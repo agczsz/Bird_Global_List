@@ -1882,8 +1882,7 @@
 :do { add list=PK address=2404:3100:1400::/40 } on-error={}
 :do { add list=PK address=2404:3100:1500::/40 } on-error={}
 :do { add list=PK address=2404:3100:1600::/39 } on-error={}
-:do { add list=PK address=2404:3100:1800::/40 } on-error={}
-:do { add list=PK address=2404:3100:1900::/40 } on-error={}
+:do { add list=PK address=2404:3100:1800::/39 } on-error={}
 :do { add list=PK address=2404:3100:1a00::/39 } on-error={}
 :do { add list=PK address=2404:3100:1c00::/39 } on-error={}
 :do { add list=PK address=2404:3100:1e00::/39 } on-error={}
