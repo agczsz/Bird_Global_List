@@ -1,6 +1,5 @@
 /log info "Loading CM IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=CM address=2001:470:d:c25::/64 } on-error={}
 :do { add list=CM address=2001:470:24:675::/64 } on-error={}
 :do { add list=CM address=2001:470:36:b4::/64 } on-error={}
 :do { add list=CM address=2001:470:36:64d::/64 } on-error={}
@@ -71,6 +70,7 @@
 :do { add list=CM address=2a00:ca0:2002:3000::/52 } on-error={}
 :do { add list=CM address=2a00:ca0:202e:7000::/52 } on-error={}
 :do { add list=CM address=2a00:ca0:203c:4000::/50 } on-error={}
+:do { add list=CM address=2a00:dd60:0:1::131/128 } on-error={}
 :do { add list=CM address=2a00:dd60:0:1::18f/128 } on-error={}
 :do { add list=CM address=2a01:528:ac00::/40 } on-error={}
 :do { add list=CM address=2a02:26f7:efc0:4000::/64 } on-error={}
@@ -249,6 +249,7 @@
 :do { add list=CM address=2a14:7581:b17:2400::/56 } on-error={}
 :do { add list=CM address=2a14:7581:be0:1e00::/58 } on-error={}
 :do { add list=CM address=2a14:7581:3b2d::/48 } on-error={}
+:do { add list=CM address=2a14:7585:f509::/48 } on-error={}
 :do { add list=CM address=2c0f:a20::/32 } on-error={}
 :do { add list=CM address=2c0f:2a80:900::/40 } on-error={}
 :do { add list=CM address=2c0f:3100::/32 } on-error={}
@@ -288,13 +289,7 @@
 :do { add list=CM address=2c0f:4e00:a000::/35 } on-error={}
 :do { add list=CM address=2c0f:4e00:c000::/54 } on-error={}
 :do { add list=CM address=2c0f:4e00:c000:400::/56 } on-error={}
-:do { add list=CM address=2c0f:4e00:c000:500::/60 } on-error={}
-:do { add list=CM address=2c0f:4e00:c000:510::/61 } on-error={}
-:do { add list=CM address=2c0f:4e00:c000:518::/62 } on-error={}
-:do { add list=CM address=2c0f:4e00:c000:51c::/63 } on-error={}
-:do { add list=CM address=2c0f:4e00:c000:51f::/64 } on-error={}
-:do { add list=CM address=2c0f:4e00:c000:520::/59 } on-error={}
-:do { add list=CM address=2c0f:4e00:c000:540::/58 } on-error={}
+:do { add list=CM address=2c0f:4e00:c000:500::/57 } on-error={}
 :do { add list=CM address=2c0f:4e00:c000:580::/58 } on-error={}
 :do { add list=CM address=2c0f:4e00:c000:5c1::/64 } on-error={}
 :do { add list=CM address=2c0f:4e00:c000:5c2::/63 } on-error={}

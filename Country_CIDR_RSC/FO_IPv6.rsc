@@ -1,6 +1,5 @@
 /log info "Loading FO IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=FO address=2001:470:d:6c5::/64 } on-error={}
 :do { add list=FO address=2001:470:36:c6::/64 } on-error={}
 :do { add list=FO address=2001:470:1a34::/48 } on-error={}
 :do { add list=FO address=2001:470:1c07::/48 } on-error={}
@@ -13,7 +12,7 @@
 :do { add list=FO address=2401:b60:1472::/47 } on-error={}
 :do { add list=FO address=2401:b60:1474::/46 } on-error={}
 :do { add list=FO address=2401:b60:1478::/45 } on-error={}
-:do { add list=FO address=2401:f1e0:ffff:730::/64 } on-error={}
+:do { add list=FO address=2401:f1e0:ffff:6ce8::/64 } on-error={}
 :do { add list=FO address=2405:b500:2700::/64 } on-error={}
 :do { add list=FO address=2405:b500:2720::/64 } on-error={}
 :do { add list=FO address=2405:b500:2740::/64 } on-error={}
@@ -59,23 +58,9 @@
 :do { add list=FO address=2607:8940:4183:e600::/56 } on-error={}
 :do { add list=FO address=2a01:528:c400::/40 } on-error={}
 :do { add list=FO address=2a02:e90::/39 } on-error={}
-:do { add list=FO address=2a02:e90:200::/56 } on-error={}
-:do { add list=FO address=2a02:e90:200:103::/64 } on-error={}
-:do { add list=FO address=2a02:e90:200:105::/64 } on-error={}
-:do { add list=FO address=2a02:e90:200:10b::/64 } on-error={}
-:do { add list=FO address=2a02:e90:200:10c::/62 } on-error={}
-:do { add list=FO address=2a02:e90:200:111::/64 } on-error={}
-:do { add list=FO address=2a02:e90:200:112::/63 } on-error={}
-:do { add list=FO address=2a02:e90:200:114::/62 } on-error={}
-:do { add list=FO address=2a02:e90:200:118::/61 } on-error={}
-:do { add list=FO address=2a02:e90:200:120::/59 } on-error={}
-:do { add list=FO address=2a02:e90:200:140::/58 } on-error={}
-:do { add list=FO address=2a02:e90:200:180::/57 } on-error={}
-:do { add list=FO address=2a02:e90:200:200::/55 } on-error={}
-:do { add list=FO address=2a02:e90:200:400::/54 } on-error={}
-:do { add list=FO address=2a02:e90:200:800::/53 } on-error={}
+:do { add list=FO address=2a02:e90:200::/52 } on-error={}
 :do { add list=FO address=2a02:e90:200:1002::/63 } on-error={}
-:do { add list=FO address=2a02:e90:200:1006::/63 } on-error={}
+:do { add list=FO address=2a02:e90:200:1004::/62 } on-error={}
 :do { add list=FO address=2a02:e90:200:1008::/61 } on-error={}
 :do { add list=FO address=2a02:e90:200:1010::/60 } on-error={}
 :do { add list=FO address=2a02:e90:200:1020::/59 } on-error={}
@@ -244,5 +229,6 @@
 :do { add list=FO address=2a14:7581:b17:4500::/56 } on-error={}
 :do { add list=FO address=2a14:7581:3b50::/48 } on-error={}
 :do { add list=FO address=2a14:7584:e774::/47 } on-error={}
+:do { add list=FO address=2a14:7585:f010::/48 } on-error={}
 :do { add list=FO address=2a14:c380:367::/48 } on-error={}
 :do { add list=FO address=2a14:c380:712::/48 } on-error={}

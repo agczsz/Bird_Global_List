@@ -1,14 +1,7 @@
 /log info "Loading GM IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=GM address=2001:470:d:7df::/64 } on-error={}
 :do { add list=GM address=2001:470:36:2a::/64 } on-error={}
 :do { add list=GM address=2001:470:36:de::/64 } on-error={}
-:do { add list=GM address=2001:470:1f07:e4e::/63 } on-error={}
-:do { add list=GM address=2001:470:1f07:ed4::/64 } on-error={}
-:do { add list=GM address=2001:470:1f07:ed7::/64 } on-error={}
-:do { add list=GM address=2001:470:1f07:ef4::/64 } on-error={}
-:do { add list=GM address=2001:470:1f07:103f::/64 } on-error={}
-:do { add list=GM address=2001:470:1f07:1040::/64 } on-error={}
 :do { add list=GM address=2001:470:1f0b:66::/64 } on-error={}
 :do { add list=GM address=2001:470:7085::/48 } on-error={}
 :do { add list=GM address=2001:470:8852::/48 } on-error={}
@@ -23,7 +16,7 @@
 :do { add list=GM address=2401:b60:14f2::/47 } on-error={}
 :do { add list=GM address=2401:b60:14f4::/46 } on-error={}
 :do { add list=GM address=2401:b60:14f8::/45 } on-error={}
-:do { add list=GM address=2401:f1e0:ffff:41cd::/64 } on-error={}
+:do { add list=GM address=2401:f1e0:ffff:80bd::/64 } on-error={}
 :do { add list=GM address=2405:b500:2c80:38::/64 } on-error={}
 :do { add list=GM address=2405:b500:2ca0:38::/64 } on-error={}
 :do { add list=GM address=2405:b500:2cc0:38::/64 } on-error={}
@@ -236,6 +229,7 @@
 :do { add list=GM address=2a14:7581:be0:4380::/58 } on-error={}
 :do { add list=GM address=2a14:7581:3b58::/48 } on-error={}
 :do { add list=GM address=2a14:7584:e8ff:1e::/64 } on-error={}
+:do { add list=GM address=2a14:7585:f513::/48 } on-error={}
 :do { add list=GM address=2c0f:140::/32 } on-error={}
 :do { add list=GM address=2c0f:540::/32 } on-error={}
 :do { add list=GM address=2c0f:740::/48 } on-error={}

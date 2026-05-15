@@ -1,7 +1,5 @@
 /log info "Loading GY IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=GY address=2001:470:5:121::/64 } on-error={}
-:do { add list=GY address=2001:470:5:176::/64 } on-error={}
 :do { add list=GY address=2001:470:36:43b::/64 } on-error={}
 :do { add list=GY address=2001:470:d906::/48 } on-error={}
 :do { add list=GY address=2001:470:d940::/48 } on-error={}
@@ -18,6 +16,7 @@
 :do { add list=GY address=2401:b60:15d4::/46 } on-error={}
 :do { add list=GY address=2401:b60:15d8::/45 } on-error={}
 :do { add list=GY address=2401:f1e0:ffff:21fd::/64 } on-error={}
+:do { add list=GY address=2401:f1e0:ffff:6c32::/64 } on-error={}
 :do { add list=GY address=2405:b500:3100::/64 } on-error={}
 :do { add list=GY address=2405:b500:3120::/64 } on-error={}
 :do { add list=GY address=2405:b500:3140::/64 } on-error={}
@@ -187,4 +186,4 @@
 :do { add list=GY address=2a14:7581:b17:5f00::/56 } on-error={}
 :do { add list=GY address=2a14:7581:be0:5200::/58 } on-error={}
 :do { add list=GY address=2a14:7581:3b66::/48 } on-error={}
-:do { add list=GY address=2c0f:e818:4006::/48 } on-error={}
+:do { add list=GY address=2a14:7585:f309::/48 } on-error={}

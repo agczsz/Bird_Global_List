@@ -123,3 +123,4 @@
 :do { add list=CC address=2a14:7581:b16:2f00::/56 } on-error={}
 :do { add list=CC address=2a14:7581:b17:2f00::/56 } on-error={}
 :do { add list=CC address=2a14:7581:3b36::/48 } on-error={}
+:do { add list=CC address=2a14:7585:f402::/48 } on-error={}

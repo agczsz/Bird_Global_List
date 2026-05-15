@@ -11,7 +11,7 @@
 :do { add list=GQ address=2401:b60:1422::/47 } on-error={}
 :do { add list=GQ address=2401:b60:1424::/46 } on-error={}
 :do { add list=GQ address=2401:b60:1428::/45 } on-error={}
-:do { add list=GQ address=2401:f1e0:ffff:cfb8::/64 } on-error={}
+:do { add list=GQ address=2401:f1e0:ffff:8439::/64 } on-error={}
 :do { add list=GQ address=2405:b500:2e00::/64 } on-error={}
 :do { add list=GQ address=2405:b500:2e20::/64 } on-error={}
 :do { add list=GQ address=2405:b500:2e40::/64 } on-error={}
@@ -173,6 +173,7 @@
 :do { add list=GQ address=2a14:7581:b17:4100::/56 } on-error={}
 :do { add list=GQ address=2a14:7581:be0:3880::/58 } on-error={}
 :do { add list=GQ address=2a14:7581:3b4a::/48 } on-error={}
+:do { add list=GQ address=2a14:7585:f515::/48 } on-error={}
 :do { add list=GQ address=2c0f:f180::/32 } on-error={}
 :do { add list=GQ address=2c0f:f840::/32 } on-error={}
 :do { add list=GQ address=2c0f:f8c0:0:5::/64 } on-error={}

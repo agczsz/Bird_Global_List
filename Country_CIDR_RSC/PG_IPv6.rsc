@@ -280,4 +280,5 @@
 :do { add list=PG address=2a14:7581:be0:9580::/58 } on-error={}
 :do { add list=PG address=2a14:7581:3bb3::/48 } on-error={}
 :do { add list=PG address=2a14:7583:ff67::/48 } on-error={}
+:do { add list=PG address=2a14:7585:f412::/48 } on-error={}
 :do { add list=PG address=2a14:c380:7e3::/48 } on-error={}

@@ -27,7 +27,7 @@
 :do { add list=NR address=2401:b60:19e2::/47 } on-error={}
 :do { add list=NR address=2401:b60:19e4::/46 } on-error={}
 :do { add list=NR address=2401:b60:19e8::/45 } on-error={}
-:do { add list=NR address=2401:f1e0:ffff:acf::/64 } on-error={}
+:do { add list=NR address=2401:f1e0:ffff:e353::/64 } on-error={}
 :do { add list=NR address=2403:ae80::/32 } on-error={}
 :do { add list=NR address=2403:f600::/32 } on-error={}
 :do { add list=NR address=2405:b500:5680:8::/64 } on-error={}
@@ -200,4 +200,5 @@
 :do { add list=NR address=2a14:7581:be0:8200::/58 } on-error={}
 :do { add list=NR address=2a14:7581:3ba1::/48 } on-error={}
 :do { add list=NR address=2a14:7584:e7c5::/48 } on-error={}
+:do { add list=NR address=2a14:7585:f40e::/48 } on-error={}
 :do { add list=NR address=2a14:c380:7ec::/48 } on-error={}

@@ -1,6 +1,5 @@
 /log info "Loading PM IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=PM address=2001:470:d:708::/64 } on-error={}
 :do { add list=PM address=2001:470:24:22f::/64 } on-error={}
 :do { add list=PM address=2001:470:24:892::/64 } on-error={}
 :do { add list=PM address=2001:470:36:16e::/64 } on-error={}
@@ -22,6 +21,7 @@
 :do { add list=PM address=2401:b60:1c22::/47 } on-error={}
 :do { add list=PM address=2401:b60:1c24::/46 } on-error={}
 :do { add list=PM address=2401:b60:1c28::/45 } on-error={}
+:do { add list=PM address=2401:f1e0:ffff:8f1::/64 } on-error={}
 :do { add list=PM address=2401:f1e0:ffff:ae90::/64 } on-error={}
 :do { add list=PM address=2405:b500:5c00::/64 } on-error={}
 :do { add list=PM address=2405:b500:5c20::/64 } on-error={}
@@ -165,3 +165,4 @@
 :do { add list=PM address=2a14:7581:b17:c100::/56 } on-error={}
 :do { add list=PM address=2a14:7581:3bc5::/48 } on-error={}
 :do { add list=PM address=2a14:7584:e73e::/48 } on-error={}
+:do { add list=PM address=2a14:7585:f11e::/48 } on-error={}

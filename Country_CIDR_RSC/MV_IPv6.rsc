@@ -1,9 +1,6 @@
 /log info "Loading MV IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=MV address=2001:470:d:447::/64 } on-error={}
 :do { add list=MV address=2001:470:d:4fd::/64 } on-error={}
-:do { add list=MV address=2001:470:d:1301::/64 } on-error={}
-:do { add list=MV address=2001:470:d:1303::/64 } on-error={}
 :do { add list=MV address=2001:470:19:b0::/64 } on-error={}
 :do { add list=MV address=2001:470:19:d5d::/64 } on-error={}
 :do { add list=MV address=2001:470:19:f89::/64 } on-error={}
@@ -21,7 +18,6 @@
 :do { add list=MV address=2001:470:36:872::/64 } on-error={}
 :do { add list=MV address=2001:470:36:87d::/64 } on-error={}
 :do { add list=MV address=2001:470:6d:10a6::/64 } on-error={}
-:do { add list=MV address=2001:470:1f09:8f::/64 } on-error={}
 :do { add list=MV address=2001:470:1f09:32c::/64 } on-error={}
 :do { add list=MV address=2001:470:1f15:26c::/64 } on-error={}
 :do { add list=MV address=2001:470:68bf::/48 } on-error={}
@@ -43,6 +39,7 @@
 :do { add list=MV address=2001:470:f84b::/48 } on-error={}
 :do { add list=MV address=2001:470:fdb7::/48 } on-error={}
 :do { add list=MV address=2001:470:fe30::/48 } on-error={}
+:do { add list=MV address=2001:470:ff61::/48 } on-error={}
 :do { add list=MV address=2001:67c:a38:f960::/64 } on-error={}
 :do { add list=MV address=2001:dde::/48 } on-error={}
 :do { add list=MV address=2001:dec:c000::/48 } on-error={}
@@ -92,6 +89,7 @@
 :do { add list=MV address=2401:8300:f200::/39 } on-error={}
 :do { add list=MV address=2401:8300:f400::/38 } on-error={}
 :do { add list=MV address=2401:8300:f800::/37 } on-error={}
+:do { add list=MV address=2401:f1e0:ffff:4963::/64 } on-error={}
 :do { add list=MV address=2401:f1e0:ffff:a2dd::/64 } on-error={}
 :do { add list=MV address=2404:ab80::/46 } on-error={}
 :do { add list=MV address=2404:ab80:4::/48 } on-error={}
@@ -391,3 +389,4 @@
 :do { add list=MV address=2a14:7581:b17:8500::/56 } on-error={}
 :do { add list=MV address=2a14:7581:be0:7380::/58 } on-error={}
 :do { add list=MV address=2a14:7581:3b8e::/48 } on-error={}
+:do { add list=MV address=2a14:7585:f216::/48 } on-error={}

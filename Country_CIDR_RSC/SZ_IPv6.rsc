@@ -8,16 +8,16 @@
 :do { add list=SZ address=2001:470:36:1a5::/64 } on-error={}
 :do { add list=SZ address=2001:470:36:d49::/64 } on-error={}
 :do { add list=SZ address=2001:470:36:f0c::/64 } on-error={}
-:do { add list=SZ address=2001:470:67:1c4::/64 } on-error={}
+:do { add list=SZ address=2001:470:71:85f::/64 } on-error={}
 :do { add list=SZ address=2001:470:1940::/48 } on-error={}
 :do { add list=SZ address=2001:470:1f0b:971::/64 } on-error={}
 :do { add list=SZ address=2001:470:1f13:11d::/64 } on-error={}
 :do { add list=SZ address=2001:470:1f15:a48::/64 } on-error={}
 :do { add list=SZ address=2001:470:1f15:1267::/64 } on-error={}
-:do { add list=SZ address=2001:470:1f1b:5d7::/64 } on-error={}
 :do { add list=SZ address=2001:470:1f1d:277::/64 } on-error={}
 :do { add list=SZ address=2001:470:1f21:1eb::/64 } on-error={}
 :do { add list=SZ address=2001:470:1f23:15e::/64 } on-error={}
+:do { add list=SZ address=2001:470:2213::/48 } on-error={}
 :do { add list=SZ address=2001:470:4974::/48 } on-error={}
 :do { add list=SZ address=2001:470:724a::/48 } on-error={}
 :do { add list=SZ address=2001:470:7ad5::/48 } on-error={}
@@ -32,7 +32,7 @@
 :do { add list=SZ address=2401:b60:1dc2::/47 } on-error={}
 :do { add list=SZ address=2401:b60:1dc4::/46 } on-error={}
 :do { add list=SZ address=2401:b60:1dc8::/45 } on-error={}
-:do { add list=SZ address=2401:f1e0:ffff:9b0e::/64 } on-error={}
+:do { add list=SZ address=2401:f1e0:ffff:c7e9::/64 } on-error={}
 :do { add list=SZ address=2405:b500:6c80::/64 } on-error={}
 :do { add list=SZ address=2405:b500:6ca0::/64 } on-error={}
 :do { add list=SZ address=2405:b500:6cc0::/64 } on-error={}
@@ -220,6 +220,7 @@
 :do { add list=SZ address=2a14:7581:b17:d700::/56 } on-error={}
 :do { add list=SZ address=2a14:7581:be0:bb00::/58 } on-error={}
 :do { add list=SZ address=2a14:7581:3b4d::/48 } on-error={}
+:do { add list=SZ address=2a14:7585:f530::/48 } on-error={}
 :do { add list=SZ address=2c0f:940:0:1::/64 } on-error={}
 :do { add list=SZ address=2c0f:940:0:2::/63 } on-error={}
 :do { add list=SZ address=2c0f:940:0:4::/62 } on-error={}

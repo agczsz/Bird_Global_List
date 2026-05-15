@@ -1,6 +1,5 @@
 /log info "Loading WF IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=WF address=2001:470:d:a0a::/64 } on-error={}
 :do { add list=WF address=2001:470:24:30a::/64 } on-error={}
 :do { add list=WF address=2001:470:36:1da::/64 } on-error={}
 :do { add list=WF address=2001:470:36:7e2::/64 } on-error={}
@@ -17,8 +16,8 @@
 :do { add list=WF address=2401:b60:1fc2::/47 } on-error={}
 :do { add list=WF address=2401:b60:1fc4::/46 } on-error={}
 :do { add list=WF address=2401:b60:1fc8::/45 } on-error={}
+:do { add list=WF address=2401:f1e0:ffff:1fdd::/64 } on-error={}
 :do { add list=WF address=2401:f1e0:ffff:7ef3::/64 } on-error={}
-:do { add list=WF address=2401:f1e0:ffff:aa91::/64 } on-error={}
 :do { add list=WF address=2401:f1e0:ffff:cebe::/64 } on-error={}
 :do { add list=WF address=2406:2540::/32 } on-error={}
 :do { add list=WF address=2406:2d40:2e00::/40 } on-error={}
@@ -157,3 +156,4 @@
 :do { add list=WF address=2a14:7581:be0:db00::/58 } on-error={}
 :do { add list=WF address=2a14:7581:3bfb::/48 } on-error={}
 :do { add list=WF address=2a14:7584:e7d8::/48 } on-error={}
+:do { add list=WF address=2a14:7585:f41a::/48 } on-error={}

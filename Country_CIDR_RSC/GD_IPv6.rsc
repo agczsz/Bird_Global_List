@@ -21,7 +21,7 @@
 :do { add list=GD address=2401:b60:1562::/47 } on-error={}
 :do { add list=GD address=2401:b60:1564::/46 } on-error={}
 :do { add list=GD address=2401:b60:1568::/45 } on-error={}
-:do { add list=GD address=2401:f1e0:ffff:3d86::/64 } on-error={}
+:do { add list=GD address=2401:f1e0:ffff:775d::/64 } on-error={}
 :do { add list=GD address=2405:b500:2900::/64 } on-error={}
 :do { add list=GD address=2405:b500:2920::/64 } on-error={}
 :do { add list=GD address=2405:b500:2940::/64 } on-error={}
@@ -200,3 +200,4 @@
 :do { add list=GD address=2a14:7581:b17:5a00::/56 } on-error={}
 :do { add list=GD address=2a14:7581:be0:4d00::/58 } on-error={}
 :do { add list=GD address=2a14:7581:3b5f::/48 } on-error={}
+:do { add list=GD address=2a14:7585:f10f::/48 } on-error={}

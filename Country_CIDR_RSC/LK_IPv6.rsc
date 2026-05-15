@@ -1,10 +1,17 @@
 /log info "Loading LK IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=LK address=2001:470:d:12ea::/64 } on-error={}
+:do { add list=LK address=2001:470:b:523::/64 } on-error={}
+:do { add list=LK address=2001:470:b:525::/64 } on-error={}
+:do { add list=LK address=2001:470:b:529::/64 } on-error={}
+:do { add list=LK address=2001:470:b:52a::/63 } on-error={}
+:do { add list=LK address=2001:470:b:52d::/64 } on-error={}
+:do { add list=LK address=2001:470:b:52e::/63 } on-error={}
+:do { add list=LK address=2001:470:b:532::/63 } on-error={}
+:do { add list=LK address=2001:470:b:536::/63 } on-error={}
+:do { add list=LK address=2001:470:b:53c::/62 } on-error={}
 :do { add list=LK address=2001:470:19:d::/64 } on-error={}
 :do { add list=LK address=2001:470:19:1f2::/64 } on-error={}
 :do { add list=LK address=2001:470:19:69a::/64 } on-error={}
-:do { add list=LK address=2001:470:1d:45f::/64 } on-error={}
 :do { add list=LK address=2001:470:36:858::/64 } on-error={}
 :do { add list=LK address=2001:470:36:911::/64 } on-error={}
 :do { add list=LK address=2001:470:36:1288::/64 } on-error={}
@@ -822,4 +829,5 @@
 :do { add list=LK address=2a14:7581:be0:2400::/58 } on-error={}
 :do { add list=LK address=2a14:7581:3bd9::/48 } on-error={}
 :do { add list=LK address=2a14:7584:e760::/48 } on-error={}
+:do { add list=LK address=2a14:7585:f212::/48 } on-error={}
 :do { add list=LK address=2a14:c380:7b2::/48 } on-error={}

@@ -1,7 +1,5 @@
 /log info "Loading IR IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=IR address=2001:470:d:10b3::/64 } on-error={}
-:do { add list=IR address=2001:470:d:12d9::/64 } on-error={}
 :do { add list=IR address=2001:470:19:4::/64 } on-error={}
 :do { add list=IR address=2001:470:19:a43::/64 } on-error={}
 :do { add list=IR address=2001:470:19:cc7::/64 } on-error={}
@@ -123,7 +121,7 @@
 :do { add list=IR address=2001:4860:7:1614::/64 } on-error={}
 :do { add list=IR address=2001:4860:7:1714::/64 } on-error={}
 :do { add list=IR address=2001:4b28:6100::/40 } on-error={}
-:do { add list=IR address=2401:f1e0:ffff:5e69::/64 } on-error={}
+:do { add list=IR address=2401:f1e0:ffff:fd73::/64 } on-error={}
 :do { add list=IR address=2405:b500:3800::/64 } on-error={}
 :do { add list=IR address=2405:b500:3800:10::/64 } on-error={}
 :do { add list=IR address=2405:b500:3800:18::/64 } on-error={}
@@ -8013,6 +8011,7 @@
 :do { add list=IR address=2a0c:a7c6:2000::/35 } on-error={}
 :do { add list=IR address=2a0c:a7c6:4000::/34 } on-error={}
 :do { add list=IR address=2a0c:a7c6:8000::/33 } on-error={}
+:do { add list=IR address=2a0c:a7c7::/40 } on-error={}
 :do { add list=IR address=2a0c:a7c7:100::/40 } on-error={}
 :do { add list=IR address=2a0c:a7c7:200::/39 } on-error={}
 :do { add list=IR address=2a0c:a7c7:400::/38 } on-error={}
@@ -8037,6 +8036,7 @@
 :do { add list=IR address=2a0d:2880::/29 } on-error={}
 :do { add list=IR address=2a0d:3ec0::/29 } on-error={}
 :do { add list=IR address=2a0d:4680::/29 } on-error={}
+:do { add list=IR address=2a0d:4ac0::/40 } on-error={}
 :do { add list=IR address=2a0d:6600::/29 } on-error={}
 :do { add list=IR address=2a0d:7180::/29 } on-error={}
 :do { add list=IR address=2a0d:7780::/29 } on-error={}
@@ -8593,6 +8593,7 @@
 :do { add list=IR address=2a14:7584:e049::/48 } on-error={}
 :do { add list=IR address=2a14:7584:e74b::/48 } on-error={}
 :do { add list=IR address=2a14:7584:e8ff:18::/64 } on-error={}
+:do { add list=IR address=2a14:7585:f604::/48 } on-error={}
 :do { add list=IR address=2a14:7780::/29 } on-error={}
 :do { add list=IR address=2a14:79c0::/29 } on-error={}
 :do { add list=IR address=2a14:7c80::/29 } on-error={}
