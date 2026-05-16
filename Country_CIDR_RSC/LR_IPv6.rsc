@@ -168,7 +168,6 @@
 :do { add list=LR address=2a12:bec4:12a5:87b8::/62 } on-error={}
 :do { add list=LR address=2a12:bec4:12a5:87bc::/63 } on-error={}
 :do { add list=LR address=2a12:bec4:12a5:87be::/64 } on-error={}
-:do { add list=LR address=2a12:bec4:12a8:8800::/56 } on-error={}
 :do { add list=LR address=2a12:f002:1000::/36 } on-error={}
 :do { add list=LR address=2a12:f007:e000::/35 } on-error={}
 :do { add list=LR address=2a12:f381:5800::/40 } on-error={}

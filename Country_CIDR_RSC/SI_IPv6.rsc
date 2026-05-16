@@ -2908,7 +2908,6 @@
 :do { add list=SI address=2a12:bec4:12a5:289c::/62 } on-error={}
 :do { add list=SI address=2a12:bec4:12a5:28a0::/59 } on-error={}
 :do { add list=SI address=2a12:bec4:12a5:28c0::/63 } on-error={}
-:do { add list=SI address=2a12:bec4:12a8:cd00::/56 } on-error={}
 :do { add list=SI address=2a12:ef80::/32 } on-error={}
 :do { add list=SI address=2a12:f381:1600::/40 } on-error={}
 :do { add list=SI address=2a12:f382:1600::/40 } on-error={}

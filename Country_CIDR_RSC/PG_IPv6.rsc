@@ -240,7 +240,6 @@
 :do { add list=PG address=2a12:bec4:12a6:9640::/58 } on-error={}
 :do { add list=PG address=2a12:bec4:12a6:9680::/59 } on-error={}
 :do { add list=PG address=2a12:bec4:12a6:96a0::/64 } on-error={}
-:do { add list=PG address=2a12:bec4:12a8:b500::/56 } on-error={}
 :do { add list=PG address=2a12:f003:d000::/36 } on-error={}
 :do { add list=PG address=2a12:f381:2e00::/40 } on-error={}
 :do { add list=PG address=2a12:f382:2e00::/40 } on-error={}

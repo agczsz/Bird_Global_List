@@ -251,7 +251,6 @@
 :do { add list=VA address=2a12:bec4:12a5:2860::/60 } on-error={}
 :do { add list=VA address=2a12:bec4:12a5:2870::/62 } on-error={}
 :do { add list=VA address=2a12:bec4:12a5:2874::/63 } on-error={}
-:do { add list=VA address=2a12:bec4:12a8:f000::/56 } on-error={}
 :do { add list=VA address=2a12:f381:f300::/40 } on-error={}
 :do { add list=VA address=2a12:f382:f300::/40 } on-error={}
 :do { add list=VA address=2a12:f8c3:1:ef19::/64 } on-error={}

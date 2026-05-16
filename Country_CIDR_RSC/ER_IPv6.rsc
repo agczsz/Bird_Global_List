@@ -143,7 +143,6 @@
 :do { add list=ER address=2a12:bec4:12a5:8514::/62 } on-error={}
 :do { add list=ER address=2a12:bec4:12a5:8518::/62 } on-error={}
 :do { add list=ER address=2a12:bec4:12a5:851c::/64 } on-error={}
-:do { add list=ER address=2a12:bec4:12a8:4900::/56 } on-error={}
 :do { add list=ER address=2a12:f007:c000::/35 } on-error={}
 :do { add list=ER address=2a12:f381:be00::/40 } on-error={}
 :do { add list=ER address=2a12:f382:be00::/40 } on-error={}

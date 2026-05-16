@@ -353,7 +353,6 @@
 :do { add list=TN address=2a12:bec4:12a5:90d0::/61 } on-error={}
 :do { add list=TN address=2a12:bec4:12a5:90d8::/62 } on-error={}
 :do { add list=TN address=2a12:bec4:12a5:90dc::/64 } on-error={}
-:do { add list=TN address=2a12:bec4:12a8:e300::/56 } on-error={}
 :do { add list=TN address=2a12:ef82::/32 } on-error={}
 :do { add list=TN address=2a12:f381:ff00::/40 } on-error={}
 :do { add list=TN address=2a12:f382:ff00::/40 } on-error={}

@@ -2052,7 +2052,6 @@
 :do { add list=AM address=2a12:bec4:12a6:980::/60 } on-error={}
 :do { add list=AM address=2a12:bec4:12a6:990::/62 } on-error={}
 :do { add list=AM address=2a12:bec4:12a6:994::/64 } on-error={}
-:do { add list=AM address=2a12:bec4:12a8:d00::/56 } on-error={}
 :do { add list=AM address=2a12:bec4:1d80::/44 } on-error={}
 :do { add list=AM address=2a12:ef85:4000::/36 } on-error={}
 :do { add list=AM address=2a12:f381:8600::/40 } on-error={}

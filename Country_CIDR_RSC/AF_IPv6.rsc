@@ -914,7 +914,6 @@
 :do { add list=AF address=2a12:bec4:12a6:840::/59 } on-error={}
 :do { add list=AF address=2a12:bec4:12a6:860::/64 } on-error={}
 :do { add list=AF address=2a12:bec4:12a6:2916::/64 } on-error={}
-:do { add list=AF address=2a12:bec4:12a8:900::/56 } on-error={}
 :do { add list=AF address=2a12:ef85:1000::/36 } on-error={}
 :do { add list=AF address=2a12:f381:8200::/40 } on-error={}
 :do { add list=AF address=2a12:f382:8200::/40 } on-error={}

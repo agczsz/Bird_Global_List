@@ -291,7 +291,6 @@
 :do { add list=GL address=2a12:bec4:12a4:af0::/61 } on-error={}
 :do { add list=GL address=2a12:bec4:12a4:af8::/63 } on-error={}
 :do { add list=GL address=2a12:bec4:12a4:afa::/64 } on-error={}
-:do { add list=GL address=2a12:bec4:12a8:5900::/56 } on-error={}
 :do { add list=GL address=2a12:f000:2000::/36 } on-error={}
 :do { add list=GL address=2a12:f381:cc00::/40 } on-error={}
 :do { add list=GL address=2a12:f382:cc00::/40 } on-error={}

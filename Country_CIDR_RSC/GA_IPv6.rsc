@@ -162,7 +162,6 @@
 :do { add list=GA address=2a12:bec4:12a5:85e0::/61 } on-error={}
 :do { add list=GA address=2a12:bec4:12a5:85e8::/63 } on-error={}
 :do { add list=GA address=2a12:bec4:12a5:85ea::/64 } on-error={}
-:do { add list=GA address=2a12:bec4:12a8:5200::/56 } on-error={}
 :do { add list=GA address=2a12:ef87:c000::/36 } on-error={}
 :do { add list=GA address=2a12:f381:c500::/40 } on-error={}
 :do { add list=GA address=2a12:f382:c500::/40 } on-error={}

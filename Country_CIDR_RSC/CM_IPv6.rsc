@@ -213,7 +213,6 @@
 :do { add list=CM address=2a12:bec4:12a5:82d0::/61 } on-error={}
 :do { add list=CM address=2a12:bec4:12a5:82d8::/63 } on-error={}
 :do { add list=CM address=2a12:bec4:12a5:82da::/64 } on-error={}
-:do { add list=CM address=2a12:bec4:12a8:3500::/56 } on-error={}
 :do { add list=CM address=2a12:ef86:b000::/36 } on-error={}
 :do { add list=CM address=2a12:f381:ac00::/40 } on-error={}
 :do { add list=CM address=2a12:f382:ac00::/40 } on-error={}

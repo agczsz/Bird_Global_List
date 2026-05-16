@@ -634,7 +634,6 @@
 :do { add list=NP address=2a12:bec4:12a6:30a0::/61 } on-error={}
 :do { add list=NP address=2a12:bec4:12a6:30a8::/62 } on-error={}
 :do { add list=NP address=2a12:bec4:12a6:30ac::/64 } on-error={}
-:do { add list=NP address=2a12:bec4:12a8:ad00::/56 } on-error={}
 :do { add list=NP address=2a12:dd81::/32 } on-error={}
 :do { add list=NP address=2a12:f8c3:1:b057::/64 } on-error={}
 :do { add list=NP address=2a12:f8c3:1:b084::/64 } on-error={}

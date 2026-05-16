@@ -174,7 +174,6 @@
 :do { add list=TO address=2a12:bec4:12a6:8428::/64 } on-error={}
 :do { add list=TO address=2a12:bec4:12a6:96bc::/62 } on-error={}
 :do { add list=TO address=2a12:bec4:12a6:96c0::/62 } on-error={}
-:do { add list=TO address=2a12:bec4:12a8:e400::/56 } on-error={}
 :do { add list=TO address=2a12:f005:b000::/36 } on-error={}
 :do { add list=TO address=2a12:f381:fe00::/40 } on-error={}
 :do { add list=TO address=2a12:f382:fe00::/40 } on-error={}

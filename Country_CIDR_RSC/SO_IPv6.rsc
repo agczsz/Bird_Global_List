@@ -185,7 +185,6 @@
 :do { add list=SO address=2a12:bec4:12a5:8d68::/62 } on-error={}
 :do { add list=SO address=2a12:bec4:12a5:8d6c::/63 } on-error={}
 :do { add list=SO address=2a12:bec4:12a5:8d6e::/64 } on-error={}
-:do { add list=SO address=2a12:bec4:12a8:d300::/56 } on-error={}
 :do { add list=SO address=2a12:f004:e000::/36 } on-error={}
 :do { add list=SO address=2a12:f381:1200::/40 } on-error={}
 :do { add list=SO address=2a12:f382:1200::/40 } on-error={}

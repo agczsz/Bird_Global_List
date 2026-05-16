@@ -1166,7 +1166,6 @@
 :do { add list=AO address=2a12:bec4:12a5:8140::/59 } on-error={}
 :do { add list=AO address=2a12:bec4:12a5:8160::/60 } on-error={}
 :do { add list=AO address=2a12:bec4:12a5:8170::/62 } on-error={}
-:do { add list=AO address=2a12:bec4:12a8:e00::/56 } on-error={}
 :do { add list=AO address=2a12:ef85:5000::/36 } on-error={}
 :do { add list=AO address=2a12:f381:8700::/40 } on-error={}
 :do { add list=AO address=2a12:f382:8700::/40 } on-error={}

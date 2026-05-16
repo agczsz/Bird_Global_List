@@ -987,7 +987,6 @@
 :do { add list=MZ address=2a12:bec4:12a5:8a38::/62 } on-error={}
 :do { add list=MZ address=2a12:bec4:12a5:8a3c::/63 } on-error={}
 :do { add list=MZ address=2a12:bec4:12a5:8a3e::/64 } on-error={}
-:do { add list=MZ address=2a12:bec4:12a8:a400::/56 } on-error={}
 :do { add list=MZ address=2a12:f003:4000::/36 } on-error={}
 :do { add list=MZ address=2a12:f381:3c00::/40 } on-error={}
 :do { add list=MZ address=2a12:f382:3c00::/40 } on-error={}

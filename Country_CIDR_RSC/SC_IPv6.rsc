@@ -4411,7 +4411,6 @@
 :do { add list=SC address=2a12:bec4:12a5:8ce0::/62 } on-error={}
 :do { add list=SC address=2a12:bec4:12a5:8ce4::/63 } on-error={}
 :do { add list=SC address=2a12:bec4:12a5:8ce6::/64 } on-error={}
-:do { add list=SC address=2a12:bec4:12a8:c800::/56 } on-error={}
 :do { add list=SC address=2a12:ecc0:168::/48 } on-error={}
 :do { add list=SC address=2a12:ecc0:178::/48 } on-error={}
 :do { add list=SC address=2a12:ecc0:188::/48 } on-error={}

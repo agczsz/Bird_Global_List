@@ -443,7 +443,6 @@
 :do { add list=MT address=2a12:bec4:12a5:2718::/61 } on-error={}
 :do { add list=MT address=2a12:bec4:12a5:2720::/60 } on-error={}
 :do { add list=MT address=2a12:bec4:12a5:2730::/62 } on-error={}
-:do { add list=MT address=2a12:bec4:12a8:9e00::/56 } on-error={}
 :do { add list=MT address=2a12:f003::/36 } on-error={}
 :do { add list=MT address=2a12:f381:4200::/40 } on-error={}
 :do { add list=MT address=2a12:f382:4200::/40 } on-error={}

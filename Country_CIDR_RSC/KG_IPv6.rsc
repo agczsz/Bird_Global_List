@@ -302,7 +302,6 @@
 :do { add list=KG address=2a12:bec4:12a6:2e8c::/62 } on-error={}
 :do { add list=KG address=2a12:bec4:12a6:2e90::/60 } on-error={}
 :do { add list=KG address=2a12:bec4:12a6:2ea0::/59 } on-error={}
-:do { add list=KG address=2a12:bec4:12a8:7900::/56 } on-error={}
 :do { add list=KG address=2a12:db40::/29 } on-error={}
 :do { add list=KG address=2a12:f001:7000::/36 } on-error={}
 :do { add list=KG address=2a12:f381:6800::/40 } on-error={}

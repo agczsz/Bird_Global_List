@@ -1959,7 +1959,6 @@
 :do { add list=PA address=2a12:bec4:12a4:880::/60 } on-error={}
 :do { add list=PA address=2a12:bec4:12a4:890::/61 } on-error={}
 :do { add list=PA address=2a12:bec4:12a4:898::/64 } on-error={}
-:do { add list=PA address=2a12:bec4:12a8:b200::/56 } on-error={}
 :do { add list=PA address=2a12:f003:b000::/36 } on-error={}
 :do { add list=PA address=2a12:f381:3100::/40 } on-error={}
 :do { add list=PA address=2a12:f382:3100::/40 } on-error={}

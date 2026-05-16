@@ -7037,8 +7037,6 @@
 :do { add list=NZ address=2a12:bec4:12a6:9540::/59 } on-error={}
 :do { add list=NZ address=2a12:bec4:12a6:9560::/62 } on-error={}
 :do { add list=NZ address=2a12:bec4:12a6:9564::/63 } on-error={}
-:do { add list=NZ address=2a12:bec4:12a8:b000::/56 } on-error={}
-:do { add list=NZ address=2a12:bec4:12a8:e100::/56 } on-error={}
 :do { add list=NZ address=2a12:f381:3300::/40 } on-error={}
 :do { add list=NZ address=2a12:f382:3300::/40 } on-error={}
 :do { add list=NZ address=2a12:f8c3:1:b3fc::/64 } on-error={}

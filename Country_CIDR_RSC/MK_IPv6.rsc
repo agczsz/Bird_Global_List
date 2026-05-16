@@ -527,7 +527,6 @@
 :do { add list=MK address=2a12:bec4:12a5:26d0::/60 } on-error={}
 :do { add list=MK address=2a12:bec4:12a5:26e0::/62 } on-error={}
 :do { add list=MK address=2a12:bec4:12a5:26e4::/64 } on-error={}
-:do { add list=MK address=2a12:bec4:12a8:9500::/56 } on-error={}
 :do { add list=MK address=2a12:cd87::/32 } on-error={}
 :do { add list=MK address=2a12:f381:4b00::/40 } on-error={}
 :do { add list=MK address=2a12:f382:4b00::/40 } on-error={}

@@ -713,7 +713,6 @@
 :do { add list=PS address=2a12:bec4:12a6:3360::/62 } on-error={}
 :do { add list=PS address=2a12:bec4:12a6:3364::/63 } on-error={}
 :do { add list=PS address=2a12:bec4:12a6:3366::/64 } on-error={}
-:do { add list=PS address=2a12:bec4:12a8:bc00::/56 } on-error={}
 :do { add list=PS address=2a12:cf40::/32 } on-error={}
 :do { add list=PS address=2a13:82c4:ff11::/48 } on-error={}
 :do { add list=PS address=2a13:9500:64::/48 } on-error={}

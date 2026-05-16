@@ -309,7 +309,6 @@
 :do { add list=UG address=2a12:bec4:12a5:9100::/59 } on-error={}
 :do { add list=UG address=2a12:bec4:12a5:9120::/60 } on-error={}
 :do { add list=UG address=2a12:bec4:12a5:9130::/61 } on-error={}
-:do { add list=UG address=2a12:bec4:12a8:ec00::/56 } on-error={}
 :do { add list=UG address=2a12:f005:f000::/36 } on-error={}
 :do { add list=UG address=2a12:f007:6000::/35 } on-error={}
 :do { add list=UG address=2a12:f381:f800::/40 } on-error={}

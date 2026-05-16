@@ -368,7 +368,6 @@
 :do { add list=ZM address=2a12:bec4:12a5:9178::/62 } on-error={}
 :do { add list=ZM address=2a12:bec4:12a5:917c::/63 } on-error={}
 :do { add list=ZM address=2a12:bec4:12a5:917e::/64 } on-error={}
-:do { add list=ZM address=2a12:bec4:12a8:fe00::/56 } on-error={}
 :do { add list=ZM address=2a12:f006:a000::/36 } on-error={}
 :do { add list=ZM address=2a12:f381:700::/40 } on-error={}
 :do { add list=ZM address=2a12:f382:700::/40 } on-error={}

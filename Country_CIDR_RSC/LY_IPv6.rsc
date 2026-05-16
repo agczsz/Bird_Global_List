@@ -161,7 +161,6 @@
 :do { add list=LY address=2a12:bec4:12a5:87c0::/59 } on-error={}
 :do { add list=LY address=2a12:bec4:12a5:87e0::/60 } on-error={}
 :do { add list=LY address=2a12:bec4:12a5:87f0::/63 } on-error={}
-:do { add list=LY address=2a12:bec4:12a8:8d00::/56 } on-error={}
 :do { add list=LY address=2a12:f002:4000::/36 } on-error={}
 :do { add list=LY address=2a12:f381:5300::/40 } on-error={}
 :do { add list=LY address=2a12:f382:5300::/40 } on-error={}

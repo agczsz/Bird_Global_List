@@ -135,7 +135,6 @@
 :do { add list=GQ address=2a12:bec4:12a5:84fc::/62 } on-error={}
 :do { add list=GQ address=2a12:bec4:12a5:8500::/60 } on-error={}
 :do { add list=GQ address=2a12:bec4:12a5:8510::/63 } on-error={}
-:do { add list=GQ address=2a12:bec4:12a8:5d00::/56 } on-error={}
 :do { add list=GQ address=2a12:f000:6000::/36 } on-error={}
 :do { add list=GQ address=2a12:f381:cf00::/40 } on-error={}
 :do { add list=GQ address=2a12:f382:cf00::/40 } on-error={}

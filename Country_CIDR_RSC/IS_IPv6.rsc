@@ -1066,7 +1066,6 @@
 :do { add list=IS address=2a12:bec4:12a5:22c0::/60 } on-error={}
 :do { add list=IS address=2a12:bec4:12a5:22d0::/62 } on-error={}
 :do { add list=IS address=2a12:bec4:12a5:22d4::/63 } on-error={}
-:do { add list=IS address=2a12:bec4:12a8:7200::/56 } on-error={}
 :do { add list=IS address=2a12:bec4:1442::/48 } on-error={}
 :do { add list=IS address=2a12:bf40::/29 } on-error={}
 :do { add list=IS address=2a12:f001:3000::/36 } on-error={}

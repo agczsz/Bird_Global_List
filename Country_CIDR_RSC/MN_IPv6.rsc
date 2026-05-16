@@ -703,7 +703,6 @@
 :do { add list=MN address=2a12:bec4:12a6:3000::/60 } on-error={}
 :do { add list=MN address=2a12:bec4:12a6:3010::/62 } on-error={}
 :do { add list=MN address=2a12:bec4:12a6:3014::/63 } on-error={}
-:do { add list=MN address=2a12:bec4:12a8:9800::/56 } on-error={}
 :do { add list=MN address=2a12:f002:a000::/36 } on-error={}
 :do { add list=MN address=2a12:f381:4800::/40 } on-error={}
 :do { add list=MN address=2a12:f382:4800::/40 } on-error={}

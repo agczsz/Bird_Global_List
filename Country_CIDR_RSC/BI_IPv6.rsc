@@ -131,7 +131,6 @@
 :do { add list=BI address=2a11:f140:f000::/36 } on-error={}
 :do { add list=BI address=2a12:bec4:12a5:823f::/64 } on-error={}
 :do { add list=BI address=2a12:bec4:12a5:8240::/60 } on-error={}
-:do { add list=BI address=2a12:bec4:12a8:1e00::/56 } on-error={}
 :do { add list=BI address=2a12:f007:a000::/35 } on-error={}
 :do { add list=BI address=2a12:f381:9600::/40 } on-error={}
 :do { add list=BI address=2a12:f382:9600::/40 } on-error={}

@@ -519,7 +519,6 @@
 :do { add list=LB address=2a12:bec4:12a6:2f20::/62 } on-error={}
 :do { add list=LB address=2a12:bec4:12a6:2f24::/63 } on-error={}
 :do { add list=LB address=2a12:bec4:12a6:4b22::/64 } on-error={}
-:do { add list=LB address=2a12:bec4:12a8:8400::/56 } on-error={}
 :do { add list=LB address=2a12:f001:e000::/36 } on-error={}
 :do { add list=LB address=2a12:f381:5c00::/40 } on-error={}
 :do { add list=LB address=2a12:f382:5c00::/40 } on-error={}

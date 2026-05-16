@@ -140,7 +140,6 @@
 :do { add list=UM address=2a12:bec4:12a6:82b0::/61 } on-error={}
 :do { add list=UM address=2a12:bec4:12a6:82b8::/62 } on-error={}
 :do { add list=UM address=2a12:bec4:12a6:82bc::/64 } on-error={}
-:do { add list=UM address=2a12:bec4:12a8:ed00::/56 } on-error={}
 :do { add list=UM address=2a12:f006::/36 } on-error={}
 :do { add list=UM address=2a12:f381:f700::/40 } on-error={}
 :do { add list=UM address=2a12:f382:f700::/40 } on-error={}

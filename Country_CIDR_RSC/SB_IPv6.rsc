@@ -143,7 +143,6 @@
 :do { add list=SB address=2a12:bec4:12a6:96b5::/64 } on-error={}
 :do { add list=SB address=2a12:bec4:12a6:96b6::/63 } on-error={}
 :do { add list=SB address=2a12:bec4:12a6:96b8::/62 } on-error={}
-:do { add list=SB address=2a12:bec4:12a8:c700::/56 } on-error={}
 :do { add list=SB address=2a12:f004:6000::/36 } on-error={}
 :do { add list=SB address=2a12:f381:1c00::/40 } on-error={}
 :do { add list=SB address=2a12:f382:1c00::/40 } on-error={}

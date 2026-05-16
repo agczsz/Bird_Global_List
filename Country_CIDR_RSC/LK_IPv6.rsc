@@ -759,7 +759,6 @@
 :do { add list=LK address=2a12:bec4:12a6:4d00::/58 } on-error={}
 :do { add list=LK address=2a12:bec4:12a6:4d40::/59 } on-error={}
 :do { add list=LK address=2a12:bec4:12a6:4d60::/61 } on-error={}
-:do { add list=LK address=2a12:bec4:12a8:8700::/56 } on-error={}
 :do { add list=LK address=2a12:cd81::/32 } on-error={}
 :do { add list=LK address=2a12:f381:5900::/40 } on-error={}
 :do { add list=LK address=2a12:f382:5900::/40 } on-error={}

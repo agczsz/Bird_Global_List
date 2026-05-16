@@ -339,7 +339,6 @@
 :do { add list=DJ address=2a12:bec4:12a5:8454::/62 } on-error={}
 :do { add list=DJ address=2a12:bec4:12a5:8458::/62 } on-error={}
 :do { add list=DJ address=2a12:bec4:12a5:845c::/64 } on-error={}
-:do { add list=DJ address=2a12:bec4:12a8:4000::/56 } on-error={}
 :do { add list=DJ address=2a12:ef87:2000::/36 } on-error={}
 :do { add list=DJ address=2a12:f381:b500::/40 } on-error={}
 :do { add list=DJ address=2a12:f382:b500::/40 } on-error={}

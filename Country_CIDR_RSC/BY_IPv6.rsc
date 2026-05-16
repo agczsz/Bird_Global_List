@@ -1902,7 +1902,6 @@
 :do { add list=BY address=2a12:bec4:12a5:1f08::/61 } on-error={}
 :do { add list=BY address=2a12:bec4:12a5:1f10::/62 } on-error={}
 :do { add list=BY address=2a12:bec4:12a5:1f14::/64 } on-error={}
-:do { add list=BY address=2a12:bec4:12a8:2a00::/56 } on-error={}
 :do { add list=BY address=2a12:f381:a200::/40 } on-error={}
 :do { add list=BY address=2a12:f382:a200::/40 } on-error={}
 :do { add list=BY address=2a12:f8c3:1:2718::/64 } on-error={}

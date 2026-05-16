@@ -426,7 +426,6 @@
 :do { add list=LA address=2a12:bec4:12a6:2ec0::/58 } on-error={}
 :do { add list=LA address=2a12:bec4:12a6:2f00::/61 } on-error={}
 :do { add list=LA address=2a12:bec4:12a6:2f08::/62 } on-error={}
-:do { add list=LA address=2a12:bec4:12a8:8300::/56 } on-error={}
 :do { add list=LA address=2a12:f001:d000::/36 } on-error={}
 :do { add list=LA address=2a12:f381:5e00::/40 } on-error={}
 :do { add list=LA address=2a12:f382:5e00::/40 } on-error={}

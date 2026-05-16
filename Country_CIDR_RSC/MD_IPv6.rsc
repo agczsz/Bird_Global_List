@@ -1228,7 +1228,6 @@
 :do { add list=MD address=2a12:bec4:12a5:19e8::/61 } on-error={}
 :do { add list=MD address=2a12:bec4:12a5:19f0::/61 } on-error={}
 :do { add list=MD address=2a12:bec4:12a5:19f8::/64 } on-error={}
-:do { add list=MD address=2a12:bec4:12a8:9000::/56 } on-error={}
 :do { add list=MD address=2a12:bec4:13d0::/44 } on-error={}
 :do { add list=MD address=2a12:cd85::/32 } on-error={}
 :do { add list=MD address=2a12:e040::/48 } on-error={}

@@ -82,7 +82,6 @@
 :do { add list=SH address=2a12:bec4:12a5:9228::/61 } on-error={}
 :do { add list=SH address=2a12:bec4:12a5:9230::/60 } on-error={}
 :do { add list=SH address=2a12:bec4:12a5:9240::/62 } on-error={}
-:do { add list=SH address=2a12:bec4:12a8:cc00::/56 } on-error={}
 :do { add list=SH address=2a12:f004:9000::/36 } on-error={}
 :do { add list=SH address=2a12:f381:1700::/40 } on-error={}
 :do { add list=SH address=2a12:f382:1700::/40 } on-error={}

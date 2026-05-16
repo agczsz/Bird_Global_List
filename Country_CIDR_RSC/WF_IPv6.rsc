@@ -122,7 +122,6 @@
 :do { add list=WF address=2a12:bec4:12a6:83d0::/60 } on-error={}
 :do { add list=WF address=2a12:bec4:12a6:83e0::/61 } on-error={}
 :do { add list=WF address=2a12:bec4:12a6:83e8::/64 } on-error={}
-:do { add list=WF address=2a12:bec4:12a8:f900::/56 } on-error={}
 :do { add list=WF address=2a12:f006:6000::/36 } on-error={}
 :do { add list=WF address=2a12:f381:c00::/40 } on-error={}
 :do { add list=WF address=2a12:f382:c00::/40 } on-error={}

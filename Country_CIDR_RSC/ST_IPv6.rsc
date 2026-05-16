@@ -213,7 +213,6 @@
 :do { add list=ST address=2a12:bec4:12a5:8c91::/64 } on-error={}
 :do { add list=ST address=2a12:bec4:12a5:8c92::/63 } on-error={}
 :do { add list=ST address=2a12:bec4:12a5:8c94::/63 } on-error={}
-:do { add list=ST address=2a12:bec4:12a8:d600::/56 } on-error={}
 :do { add list=ST address=2a12:f005::/36 } on-error={}
 :do { add list=ST address=2a12:f381:ee00::/40 } on-error={}
 :do { add list=ST address=2a12:f382:ee00::/40 } on-error={}

@@ -240,7 +240,6 @@
 :do { add list=CW address=2a12:bec4:12a4:a90::/61 } on-error={}
 :do { add list=CW address=2a12:bec4:12a4:a98::/62 } on-error={}
 :do { add list=CW address=2a12:bec4:12a4:a9c::/63 } on-error={}
-:do { add list=CW address=2a12:bec4:12a8:3b00::/56 } on-error={}
 :do { add list=CW address=2a12:ef86:f000::/36 } on-error={}
 :do { add list=CW address=2a12:f381:7b00::/40 } on-error={}
 :do { add list=CW address=2a12:f382:7b00::/40 } on-error={}

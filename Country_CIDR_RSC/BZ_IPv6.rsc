@@ -313,7 +313,6 @@
 :do { add list=BZ address=2a12:bec4:12a4:bd4::/62 } on-error={}
 :do { add list=BZ address=2a12:bec4:12a4:bd8::/61 } on-error={}
 :do { add list=BZ address=2a12:bec4:12a4:be0::/64 } on-error={}
-:do { add list=BZ address=2a12:bec4:12a8:2b00::/56 } on-error={}
 :do { add list=BZ address=2a12:ef86:6000::/36 } on-error={}
 :do { add list=BZ address=2a12:f381:a300::/40 } on-error={}
 :do { add list=BZ address=2a12:f382:a300::/40 } on-error={}

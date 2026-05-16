@@ -340,7 +340,6 @@
 :do { add list=FJ address=2a12:bec4:12a6:82a0::/62 } on-error={}
 :do { add list=FJ address=2a12:bec4:12a6:82a4::/63 } on-error={}
 :do { add list=FJ address=2a12:bec4:12a6:82a6::/64 } on-error={}
-:do { add list=FJ address=2a12:bec4:12a8:4d00::/56 } on-error={}
 :do { add list=FJ address=2a12:ef87:8000::/36 } on-error={}
 :do { add list=FJ address=2a12:f381:c100::/40 } on-error={}
 :do { add list=FJ address=2a12:f382:c100::/40 } on-error={}

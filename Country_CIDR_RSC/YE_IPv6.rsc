@@ -243,7 +243,6 @@
 :do { add list=YE address=2a12:bec4:12a6:5b00::/58 } on-error={}
 :do { add list=YE address=2a12:bec4:12a6:5b40::/61 } on-error={}
 :do { add list=YE address=2a12:bec4:12a6:5b48::/64 } on-error={}
-:do { add list=YE address=2a12:bec4:12a8:fb00::/56 } on-error={}
 :do { add list=YE address=2a12:f006:8000::/36 } on-error={}
 :do { add list=YE address=2a12:f381:a00::/40 } on-error={}
 :do { add list=YE address=2a12:f382:a00::/40 } on-error={}

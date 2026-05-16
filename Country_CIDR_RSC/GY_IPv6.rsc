@@ -154,7 +154,6 @@
 :do { add list=GY address=2a12:bec4:12a4:a18c::/62 } on-error={}
 :do { add list=GY address=2a12:bec4:12a4:a190::/61 } on-error={}
 :do { add list=GY address=2a12:bec4:12a4:a198::/64 } on-error={}
-:do { add list=GY address=2a12:bec4:12a8:6300::/56 } on-error={}
 :do { add list=GY address=2a12:f000:b000::/36 } on-error={}
 :do { add list=GY address=2a12:f381:d400::/40 } on-error={}
 :do { add list=GY address=2a12:f382:d400::/40 } on-error={}

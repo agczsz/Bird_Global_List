@@ -112,7 +112,6 @@
 :do { add list=EH address=2a12:bec4:12a5:9298::/62 } on-error={}
 :do { add list=EH address=2a12:bec4:12a5:929c::/63 } on-error={}
 :do { add list=EH address=2a12:bec4:12a5:929e::/64 } on-error={}
-:do { add list=EH address=2a12:bec4:12a8:4800::/56 } on-error={}
 :do { add list=EH address=2a12:ef87:6000::/36 } on-error={}
 :do { add list=EH address=2a12:f381:bd00::/40 } on-error={}
 :do { add list=EH address=2a12:f382:bd00::/40 } on-error={}

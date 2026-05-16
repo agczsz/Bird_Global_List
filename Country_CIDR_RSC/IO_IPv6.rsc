@@ -134,7 +134,6 @@
 :do { add list=IO address=2a12:bec4:12a6:5c00::/59 } on-error={}
 :do { add list=IO address=2a12:bec4:12a6:5c20::/62 } on-error={}
 :do { add list=IO address=2a12:bec4:12a6:5c24::/63 } on-error={}
-:do { add list=IO address=2a12:bec4:12a8:6f00::/56 } on-error={}
 :do { add list=IO address=2a12:f001::/36 } on-error={}
 :do { add list=IO address=2a12:f381:df00::/40 } on-error={}
 :do { add list=IO address=2a12:f382:df00::/40 } on-error={}

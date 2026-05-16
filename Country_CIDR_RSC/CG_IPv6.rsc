@@ -162,7 +162,6 @@
 :do { add list=CG address=2a12:bec4:12a5:83ec::/62 } on-error={}
 :do { add list=CG address=2a12:bec4:12a5:83f0::/61 } on-error={}
 :do { add list=CG address=2a12:bec4:12a5:83f8::/62 } on-error={}
-:do { add list=CG address=2a12:bec4:12a8:3000::/56 } on-error={}
 :do { add list=CG address=2a12:ef86:8000::/36 } on-error={}
 :do { add list=CG address=2a12:f381:a800::/40 } on-error={}
 :do { add list=CG address=2a12:f382:a800::/40 } on-error={}

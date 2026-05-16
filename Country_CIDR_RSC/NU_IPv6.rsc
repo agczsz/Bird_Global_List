@@ -128,7 +128,6 @@
 :do { add list=NU address=2a12:bec4:12a6:8378::/61 } on-error={}
 :do { add list=NU address=2a12:bec4:12a6:8380::/61 } on-error={}
 :do { add list=NU address=2a12:bec4:12a6:8388::/62 } on-error={}
-:do { add list=NU address=2a12:bec4:12a8:af00::/56 } on-error={}
 :do { add list=NU address=2a12:f003:a000::/36 } on-error={}
 :do { add list=NU address=2a12:f381:3400::/40 } on-error={}
 :do { add list=NU address=2a12:f382:3400::/40 } on-error={}

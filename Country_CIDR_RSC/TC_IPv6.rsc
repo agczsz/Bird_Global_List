@@ -128,7 +128,6 @@
 :do { add list=TC address=2a12:bec4:12a4:480::/61 } on-error={}
 :do { add list=TC address=2a12:bec4:12a4:488::/62 } on-error={}
 :do { add list=TC address=2a12:bec4:12a4:48c::/64 } on-error={}
-:do { add list=TC address=2a12:bec4:12a8:db00::/56 } on-error={}
 :do { add list=TC address=2a12:bec4:12a9::/48 } on-error={}
 :do { add list=TC address=2a12:f005:5000::/36 } on-error={}
 :do { add list=TC address=2a12:f381:e900::/40 } on-error={}

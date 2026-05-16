@@ -2580,7 +2580,6 @@
 :do { add list=CY address=2a12:bec4:12a6:1060::/59 } on-error={}
 :do { add list=CY address=2a12:bec4:12a6:1080::/59 } on-error={}
 :do { add list=CY address=2a12:bec4:12a6:10a0::/61 } on-error={}
-:do { add list=CY address=2a12:bec4:12a8:3d00::/56 } on-error={}
 :do { add list=CY address=2a12:e740::/29 } on-error={}
 :do { add list=CY address=2a12:ef87:1000::/36 } on-error={}
 :do { add list=CY address=2a12:f381:b300::/40 } on-error={}

@@ -150,7 +150,6 @@
 :do { add list=TV address=2a12:bec4:12a6:96c4::/62 } on-error={}
 :do { add list=TV address=2a12:bec4:12a6:96c8::/62 } on-error={}
 :do { add list=TV address=2a12:bec4:12a6:96cc::/64 } on-error={}
-:do { add list=TV address=2a12:bec4:12a8:e700::/56 } on-error={}
 :do { add list=TV address=2a12:f005:d000::/36 } on-error={}
 :do { add list=TV address=2a12:f381:fc00::/40 } on-error={}
 :do { add list=TV address=2a12:f382:fc00::/40 } on-error={}

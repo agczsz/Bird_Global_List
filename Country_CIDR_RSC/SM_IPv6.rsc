@@ -238,7 +238,6 @@
 :do { add list=SM address=2a12:bec4:12a5:2908::/61 } on-error={}
 :do { add list=SM address=2a12:bec4:12a5:2910::/62 } on-error={}
 :do { add list=SM address=2a12:bec4:12a5:2914::/64 } on-error={}
-:do { add list=SM address=2a12:bec4:12a8:d100::/56 } on-error={}
 :do { add list=SM address=2a12:f004:c000::/36 } on-error={}
 :do { add list=SM address=2a12:f381:1300::/40 } on-error={}
 :do { add list=SM address=2a12:f382:1300::/40 } on-error={}

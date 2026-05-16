@@ -72,7 +72,6 @@
 :do { add list=PN address=2a12:bec4:12a6:8458::/61 } on-error={}
 :do { add list=PN address=2a12:bec4:12a6:8460::/61 } on-error={}
 :do { add list=PN address=2a12:bec4:12a6:8468::/63 } on-error={}
-:do { add list=PN address=2a12:bec4:12a8:ba00::/56 } on-error={}
 :do { add list=PN address=2a12:f003:f000::/36 } on-error={}
 :do { add list=PN address=2a12:f381:2900::/40 } on-error={}
 :do { add list=PN address=2a12:f382:2900::/40 } on-error={}

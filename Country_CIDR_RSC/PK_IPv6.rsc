@@ -3736,7 +3736,6 @@
 :do { add list=PK address=2a12:bec4:12a6:32c0::/59 } on-error={}
 :do { add list=PK address=2a12:bec4:12a6:32e0::/63 } on-error={}
 :do { add list=PK address=2a12:bec4:12a6:32e2::/64 } on-error={}
-:do { add list=PK address=2a12:bec4:12a8:b700::/56 } on-error={}
 :do { add list=PK address=2a12:dd84::/32 } on-error={}
 :do { add list=PK address=2a12:ef47::/32 } on-error={}
 :do { add list=PK address=2a12:f381:2c00::/40 } on-error={}

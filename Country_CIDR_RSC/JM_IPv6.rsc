@@ -390,7 +390,6 @@
 :do { add list=JM address=2a12:bec4:12a4:a18::/62 } on-error={}
 :do { add list=JM address=2a12:bec4:12a4:a1c::/63 } on-error={}
 :do { add list=JM address=2a12:bec4:12a4:a1e::/64 } on-error={}
-:do { add list=JM address=2a12:bec4:12a8:7500::/56 } on-error={}
 :do { add list=JM address=2a12:f001:5000::/36 } on-error={}
 :do { add list=JM address=2a12:f381:6400::/40 } on-error={}
 :do { add list=JM address=2a12:f382:6400::/40 } on-error={}

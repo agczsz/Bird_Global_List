@@ -1234,7 +1234,6 @@
 :do { add list=BA address=2a12:bec4:12a5:1fce::/64 } on-error={}
 :do { add list=BA address=2a12:bec4:12a5:1fd0::/61 } on-error={}
 :do { add list=BA address=2a12:bec4:12a5:1fd8::/62 } on-error={}
-:do { add list=BA address=2a12:bec4:12a8:1700::/56 } on-error={}
 :do { add list=BA address=2a12:f381:8f00::/40 } on-error={}
 :do { add list=BA address=2a12:f382:8f00::/40 } on-error={}
 :do { add list=BA address=2a12:f8c3:1:153a::/64 } on-error={}

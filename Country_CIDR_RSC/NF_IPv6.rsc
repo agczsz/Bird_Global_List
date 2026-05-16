@@ -123,7 +123,6 @@
 :do { add list=NF address=2a12:bec4:12a6:835c::/62 } on-error={}
 :do { add list=NF address=2a12:bec4:12a6:8360::/60 } on-error={}
 :do { add list=NF address=2a12:bec4:12a6:8370::/62 } on-error={}
-:do { add list=NF address=2a12:bec4:12a8:a800::/56 } on-error={}
 :do { add list=NF address=2a12:f003:7000::/36 } on-error={}
 :do { add list=NF address=2a12:f381:3800::/40 } on-error={}
 :do { add list=NF address=2a12:f382:3800::/40 } on-error={}
