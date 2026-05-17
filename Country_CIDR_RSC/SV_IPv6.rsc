@@ -141,7 +141,6 @@
 :do { add list=SV address=2a02:26f7:bd00:4c80::/61 } on-error={}
 :do { add list=SV address=2a02:26f7:bd00:4c88::/62 } on-error={}
 :do { add list=SV address=2a02:26f7:bd00:4c8c::/63 } on-error={}
-:do { add list=SV address=2a02:26f7:bd00:8000::/49 } on-error={}
 :do { add list=SV address=2a02:26f7:bd01::/48 } on-error={}
 :do { add list=SV address=2a02:26f7:bd02::/47 } on-error={}
 :do { add list=SV address=2a02:26f7:bd04::/46 } on-error={}

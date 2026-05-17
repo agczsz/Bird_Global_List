@@ -1823,7 +1823,6 @@
 :do { add list=KZ address=2a07:aa40::/43 } on-error={}
 :do { add list=KZ address=2a07:aa40:20::/44 } on-error={}
 :do { add list=KZ address=2a07:aa40:30::/44 } on-error={}
-:do { add list=KZ address=2a07:aa40:40::/47 } on-error={}
 :do { add list=KZ address=2a07:aa40:42::/47 } on-error={}
 :do { add list=KZ address=2a07:aa40:44::/46 } on-error={}
 :do { add list=KZ address=2a07:aa40:48::/45 } on-error={}

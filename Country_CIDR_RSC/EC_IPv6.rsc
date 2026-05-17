@@ -1825,6 +1825,7 @@
 :do { add list=EC address=2803:fc0::/32 } on-error={}
 :do { add list=EC address=2803:1050::/32 } on-error={}
 :do { add list=EC address=2803:10e0::/32 } on-error={}
+:do { add list=EC address=2803:1130::/32 } on-error={}
 :do { add list=EC address=2803:1160::/32 } on-error={}
 :do { add list=EC address=2803:11d0::/32 } on-error={}
 :do { add list=EC address=2803:1360::/32 } on-error={}

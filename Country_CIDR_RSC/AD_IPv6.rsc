@@ -482,7 +482,6 @@
 :do { add list=AD address=2a14:c380:340:2000::/51 } on-error={}
 :do { add list=AD address=2a14:c380:340:4000::/50 } on-error={}
 :do { add list=AD address=2a14:c380:340:8000::/49 } on-error={}
-:do { add list=AD address=2a14:c380:341::/48 } on-error={}
 :do { add list=AD address=2a14:c380:342::/47 } on-error={}
 :do { add list=AD address=2a14:c380:344::/46 } on-error={}
 :do { add list=AD address=2a14:c380:348::/45 } on-error={}

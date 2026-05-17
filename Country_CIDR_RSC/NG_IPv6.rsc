@@ -21,7 +21,6 @@
 :do { add list=NG address=2001:470:28:3de::/64 } on-error={}
 :do { add list=NG address=2001:470:36:1ad::/64 } on-error={}
 :do { add list=NG address=2001:470:36:34f::/64 } on-error={}
-:do { add list=NG address=2001:470:36:54d::/64 } on-error={}
 :do { add list=NG address=2001:470:36:1307::/64 } on-error={}
 :do { add list=NG address=2001:470:4b:418::/64 } on-error={}
 :do { add list=NG address=2001:470:4b:463::/64 } on-error={}

@@ -1154,6 +1154,7 @@
 :do { add list=LU address=2a01:caa0:5000::/36 } on-error={}
 :do { add list=LU address=2a01:caa0:6000::/35 } on-error={}
 :do { add list=LU address=2a01:caa0:8000::/33 } on-error={}
+:do { add list=LU address=2a01:cb01:4002:fd00::/56 } on-error={}
 :do { add list=LU address=2a01:cb06:c04a:ee00::/56 } on-error={}
 :do { add list=LU address=2a01:cb06:d034:f600::/57 } on-error={}
 :do { add list=LU address=2a01:cb06:d034:f680::/58 } on-error={}

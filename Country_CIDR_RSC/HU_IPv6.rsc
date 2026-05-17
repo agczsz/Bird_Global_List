@@ -104,6 +104,7 @@
 :do { add list=HU address=2001:470:1f09:b16::/64 } on-error={}
 :do { add list=HU address=2001:470:1f09:e7f::/64 } on-error={}
 :do { add list=HU address=2001:470:1f0b:3d8::/64 } on-error={}
+:do { add list=HU address=2001:470:1f0b:447::/64 } on-error={}
 :do { add list=HU address=2001:470:1f0b:5ae::/64 } on-error={}
 :do { add list=HU address=2001:470:1f0b:65c::/64 } on-error={}
 :do { add list=HU address=2001:470:1f0b:86f::/64 } on-error={}
