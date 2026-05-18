@@ -1,5 +1,6 @@
 /log info "Loading MQ IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=MQ address=2001:470:8:17f::/64 } on-error={}
 :do { add list=MQ address=2001:470:19:eba::/64 } on-error={}
 :do { add list=MQ address=2001:470:24:18d::/64 } on-error={}
 :do { add list=MQ address=2001:470:24:49c::/64 } on-error={}
@@ -52,7 +53,12 @@
 :do { add list=MQ address=2a01:cde0:8100::/48 } on-error={}
 :do { add list=MQ address=2a01:cde0:8103::/48 } on-error={}
 :do { add list=MQ address=2a01:cde0:8104::/46 } on-error={}
-:do { add list=MQ address=2a01:cde0:8108::/45 } on-error={}
+:do { add list=MQ address=2a01:cde0:8108::/49 } on-error={}
+:do { add list=MQ address=2a01:cde0:8108:a000::/51 } on-error={}
+:do { add list=MQ address=2a01:cde0:8108:c000::/50 } on-error={}
+:do { add list=MQ address=2a01:cde0:8109::/48 } on-error={}
+:do { add list=MQ address=2a01:cde0:810a::/47 } on-error={}
+:do { add list=MQ address=2a01:cde0:810c::/46 } on-error={}
 :do { add list=MQ address=2a01:cde0:8110::/44 } on-error={}
 :do { add list=MQ address=2a01:cde0:8120::/43 } on-error={}
 :do { add list=MQ address=2a01:cde0:8140::/42 } on-error={}

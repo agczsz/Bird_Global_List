@@ -32,6 +32,7 @@
 :do { add list=CM address=2401:b60:1264::/46 } on-error={}
 :do { add list=CM address=2401:b60:1268::/45 } on-error={}
 :do { add list=CM address=2401:f1e0:ffff:45cc::/64 } on-error={}
+:do { add list=CM address=2401:f1e0:ffff:6954::/64 } on-error={}
 :do { add list=CM address=2401:f1e0:ffff:df5f::/64 } on-error={}
 :do { add list=CM address=2405:b500:1900::/64 } on-error={}
 :do { add list=CM address=2405:b500:1900:8::/64 } on-error={}
@@ -71,7 +72,6 @@
 :do { add list=CM address=2a00:ca0:202e:7000::/52 } on-error={}
 :do { add list=CM address=2a00:ca0:203c:4000::/50 } on-error={}
 :do { add list=CM address=2a00:dd60:0:1::131/128 } on-error={}
-:do { add list=CM address=2a00:dd60:0:1::18f/128 } on-error={}
 :do { add list=CM address=2a01:528:ac00::/40 } on-error={}
 :do { add list=CM address=2a02:26f7:efc0:4000::/64 } on-error={}
 :do { add list=CM address=2a02:26f7:efc0:d1c0::/61 } on-error={}
@@ -346,7 +346,20 @@
 :do { add list=CM address=2c0f:5900::/32 } on-error={}
 :do { add list=CM address=2c0f:7c40::/32 } on-error={}
 :do { add list=CM address=2c0f:eb00:d00::/40 } on-error={}
-:do { add list=CM address=2c0f:eb00:1500::/40 } on-error={}
+:do { add list=CM address=2c0f:eb00:1501::/48 } on-error={}
+:do { add list=CM address=2c0f:eb00:1502::/47 } on-error={}
+:do { add list=CM address=2c0f:eb00:1504::/47 } on-error={}
+:do { add list=CM address=2c0f:eb00:1507::/48 } on-error={}
+:do { add list=CM address=2c0f:eb00:1508::/46 } on-error={}
+:do { add list=CM address=2c0f:eb00:150c::/47 } on-error={}
+:do { add list=CM address=2c0f:eb00:150f::/48 } on-error={}
+:do { add list=CM address=2c0f:eb00:1511::/48 } on-error={}
+:do { add list=CM address=2c0f:eb00:1512::/47 } on-error={}
+:do { add list=CM address=2c0f:eb00:1514::/46 } on-error={}
+:do { add list=CM address=2c0f:eb00:1518::/45 } on-error={}
+:do { add list=CM address=2c0f:eb00:1520::/43 } on-error={}
+:do { add list=CM address=2c0f:eb00:1540::/42 } on-error={}
+:do { add list=CM address=2c0f:eb00:1580::/41 } on-error={}
 :do { add list=CM address=2c0f:f070::/32 } on-error={}
 :do { add list=CM address=2c0f:f3d8::/32 } on-error={}
 :do { add list=CM address=2c0f:f4d8::/32 } on-error={}

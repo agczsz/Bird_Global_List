@@ -1,5 +1,6 @@
 /log info "Loading CV IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=CV address=2001:470:8:63e::/64 } on-error={}
 :do { add list=CV address=2001:470:19:d80::/64 } on-error={}
 :do { add list=CV address=2001:470:36:b6::/64 } on-error={}
 :do { add list=CV address=2001:470:67:5e1::/64 } on-error={}

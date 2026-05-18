@@ -1,6 +1,6 @@
 /log info "Loading UM IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=UM address=2001:470:d:3e1::/64 } on-error={}
+:do { add list=UM address=2001:470:8:231::/64 } on-error={}
 :do { add list=UM address=2001:470:19:76::/64 } on-error={}
 :do { add list=UM address=2001:470:19:ad::/64 } on-error={}
 :do { add list=UM address=2001:470:19:218::/64 } on-error={}
@@ -31,13 +31,13 @@
 :do { add list=UM address=2001:470:1f09:186::/64 } on-error={}
 :do { add list=UM address=2001:470:1f0b:19a::/64 } on-error={}
 :do { add list=UM address=2001:470:1f0b:4fd::/64 } on-error={}
-:do { add list=UM address=2001:470:1f11:324::/64 } on-error={}
 :do { add list=UM address=2001:470:1f13:8d9::/64 } on-error={}
 :do { add list=UM address=2001:470:1f13:ac2::/64 } on-error={}
 :do { add list=UM address=2001:470:1f13:b15::/64 } on-error={}
 :do { add list=UM address=2001:470:1f13:eac::/64 } on-error={}
 :do { add list=UM address=2001:470:1f13:f16::/63 } on-error={}
 :do { add list=UM address=2001:470:1f13:f18::/64 } on-error={}
+:do { add list=UM address=2001:470:1f19:1d8::/64 } on-error={}
 :do { add list=UM address=2001:470:1f1d:d6::/64 } on-error={}
 :do { add list=UM address=2001:470:1f1d:6aa::/64 } on-error={}
 :do { add list=UM address=2001:470:1f21:203::/64 } on-error={}
@@ -52,7 +52,6 @@
 :do { add list=UM address=2001:470:f848::/48 } on-error={}
 :do { add list=UM address=2001:470:f91f::/48 } on-error={}
 :do { add list=UM address=2001:470:f941::/48 } on-error={}
-:do { add list=UM address=2001:470:f957::/48 } on-error={}
 :do { add list=UM address=2001:470:fe7e::/48 } on-error={}
 :do { add list=UM address=2001:4b28:f700::/40 } on-error={}
 :do { add list=UM address=2401:b60:1f40:4000::/50 } on-error={}

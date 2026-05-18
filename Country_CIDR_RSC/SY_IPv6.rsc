@@ -1,5 +1,6 @@
 /log info "Loading SY IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=SY address=2001:470:d:afa::/64 } on-error={}
 :do { add list=SY address=2001:470:36:115b::/64 } on-error={}
 :do { add list=SY address=2001:470:1f13:8d::/64 } on-error={}
 :do { add list=SY address=2001:470:c9b2::/48 } on-error={}
@@ -7,7 +8,6 @@
 :do { add list=SY address=2001:730:2600::/64 } on-error={}
 :do { add list=SY address=2001:730:2607::/64 } on-error={}
 :do { add list=SY address=2001:730:260b::/64 } on-error={}
-:do { add list=SY address=2001:730:2610::/64 } on-error={}
 :do { add list=SY address=2001:730:2614::/64 } on-error={}
 :do { add list=SY address=2001:730:2630::/64 } on-error={}
 :do { add list=SY address=2001:730:2630:2::/64 } on-error={}
@@ -43,7 +43,16 @@
 :do { add list=SY address=2606:54c3:0:1169::/64 } on-error={}
 :do { add list=SY address=2606:54c3:0:1509::/64 } on-error={}
 :do { add list=SY address=2607:ea00:3:2::/63 } on-error={}
+:do { add list=SY address=2607:ea00:103::/64 } on-error={}
 :do { add list=SY address=2607:ea00:1fa::/64 } on-error={}
+:do { add list=SY address=2620:102:4000:4003::/64 } on-error={}
+:do { add list=SY address=2620:102:4000:4005::/64 } on-error={}
+:do { add list=SY address=2620:102:4000:4006::/64 } on-error={}
+:do { add list=SY address=2620:102:4000:4800::/61 } on-error={}
+:do { add list=SY address=2620:102:4000:4809::/64 } on-error={}
+:do { add list=SY address=2620:102:4000:480b::/64 } on-error={}
+:do { add list=SY address=2620:102:4000:48f0::/64 } on-error={}
+:do { add list=SY address=2620:102:4000:4c00::/64 } on-error={}
 :do { add list=SY address=2a00:ca0:205a:5000::/52 } on-error={}
 :do { add list=SY address=2a00:1ee8::/32 } on-error={}
 :do { add list=SY address=2a00:45a0::/32 } on-error={}
@@ -70,7 +79,6 @@
 :do { add list=SY address=2a02:5746:186::/48 } on-error={}
 :do { add list=SY address=2a02:5747:186::/48 } on-error={}
 :do { add list=SY address=2a02:67c0::/32 } on-error={}
-:do { add list=SY address=2a02:8070:ff:2e3::/64 } on-error={}
 :do { add list=SY address=2a02:8071:20ff:3e4::/64 } on-error={}
 :do { add list=SY address=2a02:8071:20ff:4e4::/64 } on-error={}
 :do { add list=SY address=2a03:8b60::/32 } on-error={}

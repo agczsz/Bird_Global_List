@@ -1,5 +1,6 @@
 /log info "Loading NI IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=NI address=2001:470:8:169::/64 } on-error={}
 :do { add list=NI address=2001:470:24:678::/64 } on-error={}
 :do { add list=NI address=2001:470:1f1d:8c6::/64 } on-error={}
 :do { add list=NI address=2001:470:1f29:303::/64 } on-error={}
@@ -17,6 +18,7 @@
 :do { add list=NI address=2401:b60:1a42::/47 } on-error={}
 :do { add list=NI address=2401:b60:1a44::/46 } on-error={}
 :do { add list=NI address=2401:b60:1a48::/45 } on-error={}
+:do { add list=NI address=2401:f1e0:ffff:3318::/64 } on-error={}
 :do { add list=NI address=2401:f1e0:ffff:93a6::/64 } on-error={}
 :do { add list=NI address=2405:b500:5480::/64 } on-error={}
 :do { add list=NI address=2405:b500:5480:8::/64 } on-error={}
@@ -84,7 +86,15 @@
 :do { add list=NI address=2803:2d60:1011:6e00::/56 } on-error={}
 :do { add list=NI address=2803:2d60:1011:7000::/52 } on-error={}
 :do { add list=NI address=2803:2d60:1011:8000::/49 } on-error={}
-:do { add list=NI address=2803:2d60:1012::/47 } on-error={}
+:do { add list=NI address=2803:2d60:1012::/48 } on-error={}
+:do { add list=NI address=2803:2d60:1013::/51 } on-error={}
+:do { add list=NI address=2803:2d60:1013:2000::/52 } on-error={}
+:do { add list=NI address=2803:2d60:1013:3000::/53 } on-error={}
+:do { add list=NI address=2803:2d60:1013:3800::/54 } on-error={}
+:do { add list=NI address=2803:2d60:1013:3c00::/56 } on-error={}
+:do { add list=NI address=2803:2d60:1013:3e00::/55 } on-error={}
+:do { add list=NI address=2803:2d60:1013:4000::/50 } on-error={}
+:do { add list=NI address=2803:2d60:1013:8000::/49 } on-error={}
 :do { add list=NI address=2803:2d60:1014::/46 } on-error={}
 :do { add list=NI address=2803:2d60:1018::/50 } on-error={}
 :do { add list=NI address=2803:2d60:1018:4000::/52 } on-error={}
@@ -109,7 +119,14 @@
 :do { add list=NI address=2803:2d60:101a:af00::/56 } on-error={}
 :do { add list=NI address=2803:2d60:101a:b000::/52 } on-error={}
 :do { add list=NI address=2803:2d60:101a:c000::/50 } on-error={}
-:do { add list=NI address=2803:2d60:101b::/48 } on-error={}
+:do { add list=NI address=2803:2d60:101b::/49 } on-error={}
+:do { add list=NI address=2803:2d60:101b:8000::/50 } on-error={}
+:do { add list=NI address=2803:2d60:101b:c000::/51 } on-error={}
+:do { add list=NI address=2803:2d60:101b:e000::/55 } on-error={}
+:do { add list=NI address=2803:2d60:101b:e200::/56 } on-error={}
+:do { add list=NI address=2803:2d60:101b:e400::/54 } on-error={}
+:do { add list=NI address=2803:2d60:101b:e800::/53 } on-error={}
+:do { add list=NI address=2803:2d60:101b:f000::/52 } on-error={}
 :do { add list=NI address=2803:2d60:101c::/54 } on-error={}
 :do { add list=NI address=2803:2d60:101c:400::/56 } on-error={}
 :do { add list=NI address=2803:2d60:101c:600::/55 } on-error={}
@@ -124,7 +141,14 @@
 :do { add list=NI address=2803:2d60:101c:b400::/54 } on-error={}
 :do { add list=NI address=2803:2d60:101c:b800::/53 } on-error={}
 :do { add list=NI address=2803:2d60:101c:c000::/50 } on-error={}
-:do { add list=NI address=2803:2d60:101d::/48 } on-error={}
+:do { add list=NI address=2803:2d60:101d::/50 } on-error={}
+:do { add list=NI address=2803:2d60:101d:4000::/51 } on-error={}
+:do { add list=NI address=2803:2d60:101d:6000::/53 } on-error={}
+:do { add list=NI address=2803:2d60:101d:6900::/56 } on-error={}
+:do { add list=NI address=2803:2d60:101d:6a00::/55 } on-error={}
+:do { add list=NI address=2803:2d60:101d:6c00::/54 } on-error={}
+:do { add list=NI address=2803:2d60:101d:7000::/52 } on-error={}
+:do { add list=NI address=2803:2d60:101d:8000::/49 } on-error={}
 :do { add list=NI address=2803:2d60:101e::/47 } on-error={}
 :do { add list=NI address=2803:2d60:1020::/44 } on-error={}
 :do { add list=NI address=2803:2d60:1030::/53 } on-error={}
@@ -185,7 +209,13 @@
 :do { add list=NI address=2803:2d60:1039:5800::/53 } on-error={}
 :do { add list=NI address=2803:2d60:1039:6000::/51 } on-error={}
 :do { add list=NI address=2803:2d60:1039:8000::/49 } on-error={}
-:do { add list=NI address=2803:2d60:103a::/49 } on-error={}
+:do { add list=NI address=2803:2d60:103a::/52 } on-error={}
+:do { add list=NI address=2803:2d60:103a:1000::/54 } on-error={}
+:do { add list=NI address=2803:2d60:103a:1500::/56 } on-error={}
+:do { add list=NI address=2803:2d60:103a:1600::/55 } on-error={}
+:do { add list=NI address=2803:2d60:103a:1800::/53 } on-error={}
+:do { add list=NI address=2803:2d60:103a:2000::/51 } on-error={}
+:do { add list=NI address=2803:2d60:103a:4000::/50 } on-error={}
 :do { add list=NI address=2803:2d60:103a:8000::/53 } on-error={}
 :do { add list=NI address=2803:2d60:103a:8800::/56 } on-error={}
 :do { add list=NI address=2803:2d60:103a:8a00::/55 } on-error={}
@@ -220,7 +250,6 @@
 :do { add list=NI address=2803:2d60:1218:2b00::/56 } on-error={}
 :do { add list=NI address=2803:2d60:1218:4000::/53 } on-error={}
 :do { add list=NI address=2803:2d60:1218:5100::/56 } on-error={}
-:do { add list=NI address=2803:2d60:1218:5800::/55 } on-error={}
 :do { add list=NI address=2803:2d60:1218:5c00::/56 } on-error={}
 :do { add list=NI address=2803:2d60:1218:6400::/56 } on-error={}
 :do { add list=NI address=2803:2d60:1218:7200::/56 } on-error={}
@@ -265,7 +294,6 @@
 :do { add list=NI address=2803:2d60:1620:2c00::/56 } on-error={}
 :do { add list=NI address=2803:2d60:1620:3400::/56 } on-error={}
 :do { add list=NI address=2803:2d60:1620:7800::/56 } on-error={}
-:do { add list=NI address=2803:2d60:1620:8600::/56 } on-error={}
 :do { add list=NI address=2803:2d60:1621::/48 } on-error={}
 :do { add list=NI address=2803:2d60:1700::/40 } on-error={}
 :do { add list=NI address=2803:2d60:1800::/37 } on-error={}

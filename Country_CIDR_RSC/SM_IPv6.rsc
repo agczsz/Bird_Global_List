@@ -230,12 +230,9 @@
 :do { add list=SM address=2a11:3a87:2000::/35 } on-error={}
 :do { add list=SM address=2a12:bec0:39d::/48 } on-error={}
 :do { add list=SM address=2a12:bec4:12a5:28f5::/64 } on-error={}
-:do { add list=SM address=2a12:bec4:12a5:28f7::/64 } on-error={}
+:do { add list=SM address=2a12:bec4:12a5:28f6::/63 } on-error={}
 :do { add list=SM address=2a12:bec4:12a5:28f8::/61 } on-error={}
-:do { add list=SM address=2a12:bec4:12a5:2900::/62 } on-error={}
-:do { add list=SM address=2a12:bec4:12a5:2904::/63 } on-error={}
-:do { add list=SM address=2a12:bec4:12a5:2907::/64 } on-error={}
-:do { add list=SM address=2a12:bec4:12a5:2908::/61 } on-error={}
+:do { add list=SM address=2a12:bec4:12a5:2900::/60 } on-error={}
 :do { add list=SM address=2a12:bec4:12a5:2910::/62 } on-error={}
 :do { add list=SM address=2a12:bec4:12a5:2914::/64 } on-error={}
 :do { add list=SM address=2a12:f004:c000::/36 } on-error={}

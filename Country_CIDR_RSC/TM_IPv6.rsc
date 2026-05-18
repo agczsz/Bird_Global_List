@@ -1,5 +1,6 @@
 /log info "Loading TM IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=TM address=2001:470:8:60d::/64 } on-error={}
 :do { add list=TM address=2001:470:28:9dd::/64 } on-error={}
 :do { add list=TM address=2001:470:36:7f1::/64 } on-error={}
 :do { add list=TM address=2001:470:36:1206::/64 } on-error={}
@@ -23,6 +24,7 @@
 :do { add list=TM address=2001:7f8:165::/48 } on-error={}
 :do { add list=TM address=2001:3786:4444:200::/56 } on-error={}
 :do { add list=TM address=2001:4b28:e100::/40 } on-error={}
+:do { add list=TM address=2001:5014:b00::/63 } on-error={}
 :do { add list=TM address=2001:5014:b00:3::/64 } on-error={}
 :do { add list=TM address=2001:5014:b00:4::/64 } on-error={}
 :do { add list=TM address=2001:5014:b00:6::/64 } on-error={}
@@ -59,7 +61,8 @@
 :do { add list=TM address=2a02:26f7:da44:ccc0::/63 } on-error={}
 :do { add list=TM address=2a02:26f7:da45::/48 } on-error={}
 :do { add list=TM address=2a02:26f7:da46::/47 } on-error={}
-:do { add list=TM address=2a02:26f7:da48::/48 } on-error={}
+:do { add list=TM address=2a02:26f7:da48:4000::/64 } on-error={}
+:do { add list=TM address=2a02:26f7:da48:ccc0::/63 } on-error={}
 :do { add list=TM address=2a02:26f7:da49::/48 } on-error={}
 :do { add list=TM address=2a02:26f7:da4a::/47 } on-error={}
 :do { add list=TM address=2a02:26f7:da4c::/46 } on-error={}

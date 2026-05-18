@@ -7,7 +7,6 @@
 :do { add list=HT address=2001:470:24:3ef::/64 } on-error={}
 :do { add list=HT address=2001:470:36:ec::/64 } on-error={}
 :do { add list=HT address=2001:470:36:923::/64 } on-error={}
-:do { add list=HT address=2001:470:7c:157::/64 } on-error={}
 :do { add list=HT address=2001:470:1f0b:424::/64 } on-error={}
 :do { add list=HT address=2001:470:1f17:16f::/64 } on-error={}
 :do { add list=HT address=2001:470:1f27:7::/64 } on-error={}
