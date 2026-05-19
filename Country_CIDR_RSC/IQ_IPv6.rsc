@@ -979,8 +979,6 @@
 :do { add list=IQ address=2001:470:1f1b:82e::/64 } on-error={}
 :do { add list=IQ address=2001:470:1f1d:20::/64 } on-error={}
 :do { add list=IQ address=2001:470:1f1d:66::/64 } on-error={}
-:do { add list=IQ address=2001:470:1f1d:87::/64 } on-error={}
-:do { add list=IQ address=2001:470:1f1d:8b::/64 } on-error={}
 :do { add list=IQ address=2001:470:1f1d:a1::/64 } on-error={}
 :do { add list=IQ address=2001:470:1f1d:d1::/64 } on-error={}
 :do { add list=IQ address=2001:470:1f1d:103::/64 } on-error={}

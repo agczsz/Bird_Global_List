@@ -80,7 +80,8 @@
 :do { add list=SX address=201.220.4.0/22 } on-error={}
 :do { add list=SX address=201.220.8.0/27 } on-error={}
 :do { add list=SX address=201.220.8.32/32 } on-error={}
-:do { add list=SX address=201.220.8.38/31 } on-error={}
+:do { add list=SX address=201.220.8.34/31 } on-error={}
+:do { add list=SX address=201.220.8.36/30 } on-error={}
 :do { add list=SX address=201.220.8.40/29 } on-error={}
 :do { add list=SX address=201.220.8.48/28 } on-error={}
 :do { add list=SX address=201.220.8.64/26 } on-error={}

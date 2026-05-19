@@ -61,7 +61,6 @@
 :do { add list=BB address=65.48.212.0/24 } on-error={}
 :do { add list=BB address=65.48.213.0/24 } on-error={}
 :do { add list=BB address=65.48.214.0/24 } on-error={}
-:do { add list=BB address=65.48.217.0/24 } on-error={}
 :do { add list=BB address=65.48.221.0/24 } on-error={}
 :do { add list=BB address=65.48.222.0/24 } on-error={}
 :do { add list=BB address=65.48.223.0/24 } on-error={}

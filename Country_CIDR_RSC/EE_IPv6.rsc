@@ -1785,7 +1785,6 @@
 :do { add list=EE address=2a0b:4e07:d1:2000::/51 } on-error={}
 :do { add list=EE address=2a0b:4e07:d1:4000::/50 } on-error={}
 :do { add list=EE address=2a0b:4e07:d1:8000::/49 } on-error={}
-:do { add list=EE address=2a0b:4e07:e2::/48 } on-error={}
 :do { add list=EE address=2a0b:4e07:100::/40 } on-error={}
 :do { add list=EE address=2a0b:6140::/48 } on-error={}
 :do { add list=EE address=2a0b:6140:1::/48 } on-error={}

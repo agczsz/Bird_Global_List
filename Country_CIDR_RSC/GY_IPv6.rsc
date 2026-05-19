@@ -15,7 +15,6 @@
 :do { add list=GY address=2401:b60:15d2::/47 } on-error={}
 :do { add list=GY address=2401:b60:15d4::/46 } on-error={}
 :do { add list=GY address=2401:b60:15d8::/45 } on-error={}
-:do { add list=GY address=2401:f1e0:ffff:21fd::/64 } on-error={}
 :do { add list=GY address=2401:f1e0:ffff:6c32::/64 } on-error={}
 :do { add list=GY address=2405:b500:3100::/64 } on-error={}
 :do { add list=GY address=2405:b500:3120::/64 } on-error={}

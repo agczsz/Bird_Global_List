@@ -959,7 +959,6 @@
 :do { add list=QA address=2600:1900:4260:400::/60 } on-error={}
 :do { add list=QA address=2600:1901:81c0::/44 } on-error={}
 :do { add list=QA address=2600:1902:1a0::/44 } on-error={}
-:do { add list=QA address=2600:70ff:b213::/48 } on-error={}
 :do { add list=QA address=2602:2a9:9b0::/44 } on-error={}
 :do { add list=QA address=2602:f6e9::/48 } on-error={}
 :do { add list=QA address=2602:f742:2:2610::/64 } on-error={}

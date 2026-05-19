@@ -54,7 +54,6 @@
 :do { add list=SM address=2401:b60:1c54::/46 } on-error={}
 :do { add list=SM address=2401:b60:1c58::/45 } on-error={}
 :do { add list=SM address=2401:f1e0:ffff:c001::/64 } on-error={}
-:do { add list=SM address=2401:f1e0:ffff:e1d1::/64 } on-error={}
 :do { add list=SM address=2405:b500:6800::/64 } on-error={}
 :do { add list=SM address=2405:b500:6820::/64 } on-error={}
 :do { add list=SM address=2405:b500:6840::/64 } on-error={}

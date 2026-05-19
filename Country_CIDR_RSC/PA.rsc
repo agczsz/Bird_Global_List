@@ -214,11 +214,11 @@
 :do { add list=PA address=63.245.5.38/31 } on-error={}
 :do { add list=PA address=63.245.5.42/32 } on-error={}
 :do { add list=PA address=63.245.5.70/31 } on-error={}
-:do { add list=PA address=63.245.5.74/31 } on-error={}
-:do { add list=PA address=63.245.5.77/32 } on-error={}
-:do { add list=PA address=63.245.5.78/31 } on-error={}
-:do { add list=PA address=63.245.5.84/30 } on-error={}
-:do { add list=PA address=63.245.5.88/32 } on-error={}
+:do { add list=PA address=63.245.5.74/32 } on-error={}
+:do { add list=PA address=63.245.5.76/31 } on-error={}
+:do { add list=PA address=63.245.5.78/32 } on-error={}
+:do { add list=PA address=63.245.5.84/32 } on-error={}
+:do { add list=PA address=63.245.5.86/31 } on-error={}
 :do { add list=PA address=63.245.5.100/30 } on-error={}
 :do { add list=PA address=63.245.5.108/32 } on-error={}
 :do { add list=PA address=63.245.5.110/32 } on-error={}

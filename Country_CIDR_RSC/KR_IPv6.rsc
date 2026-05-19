@@ -578,6 +578,7 @@
 :do { add list=KR address=2001:470:19:85::/64 } on-error={}
 :do { add list=KR address=2001:470:19:13b::/64 } on-error={}
 :do { add list=KR address=2001:470:19:16a::/64 } on-error={}
+:do { add list=KR address=2001:470:19:285::/64 } on-error={}
 :do { add list=KR address=2001:470:19:2b9::/64 } on-error={}
 :do { add list=KR address=2001:470:19:389::/64 } on-error={}
 :do { add list=KR address=2001:470:19:399::/64 } on-error={}

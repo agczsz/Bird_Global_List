@@ -742,7 +742,6 @@
 :do { add list=CR address=2803:fe40::/32 } on-error={}
 :do { add list=CR address=2804:3924::/38 } on-error={}
 :do { add list=CR address=2804:3924:400::/39 } on-error={}
-:do { add list=CR address=2804:3924:601::/48 } on-error={}
 :do { add list=CR address=2804:3924:602::/47 } on-error={}
 :do { add list=CR address=2804:3924:604::/46 } on-error={}
 :do { add list=CR address=2804:3924:608::/45 } on-error={}

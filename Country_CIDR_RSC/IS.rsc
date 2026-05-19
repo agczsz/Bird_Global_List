@@ -693,7 +693,6 @@
 :do { add list=IS address=194.247.182.0/23 } on-error={}
 :do { add list=IS address=195.130.211.0/24 } on-error={}
 :do { add list=IS address=195.162.68.0/24 } on-error={}
-:do { add list=IS address=195.212.188.0/23 } on-error={}
 :do { add list=IS address=195.246.230.0/23 } on-error={}
 :do { add list=IS address=196.48.100.0/24 } on-error={}
 :do { add list=IS address=196.56.100.0/24 } on-error={}

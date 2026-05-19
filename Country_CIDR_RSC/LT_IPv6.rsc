@@ -1729,7 +1729,6 @@
 :do { add list=LT address=2a0a:6044:f580::/48 } on-error={}
 :do { add list=LT address=2a0a:79c7:f581::/48 } on-error={}
 :do { add list=LT address=2a0a:c280::/29 } on-error={}
-:do { add list=LT address=2a0a:ce01:b001::/48 } on-error={}
 :do { add list=LT address=2a0b:c00::/32 } on-error={}
 :do { add list=LT address=2a0b:2e40::/29 } on-error={}
 :do { add list=LT address=2a0b:4343:1891::/48 } on-error={}

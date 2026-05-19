@@ -6737,7 +6737,8 @@
 :do { add list=CO address=2a0a:6044:fc58::/46 } on-error={}
 :do { add list=CO address=2a0a:6044:fc5c::/47 } on-error={}
 :do { add list=CO address=2a0a:79c7:f530::/48 } on-error={}
-:do { add list=CO address=2a0a:8f40:5::/48 } on-error={}
+:do { add list=CO address=2a0a:8f40:5:4000::/50 } on-error={}
+:do { add list=CO address=2a0a:8f40:5:8000::/49 } on-error={}
 :do { add list=CO address=2a0a:e9c4::/32 } on-error={}
 :do { add list=CO address=2a0b:3c40:10:8001::/64 } on-error={}
 :do { add list=CO address=2a0b:3c40:10:8002::/63 } on-error={}

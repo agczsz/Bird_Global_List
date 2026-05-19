@@ -1112,11 +1112,10 @@
 :do { add list=TH address=2001:44c8:43e0::/43 } on-error={}
 :do { add list=TH address=2001:44c8:4400::/44 } on-error={}
 :do { add list=TH address=2001:44c8:4410::/44 } on-error={}
-:do { add list=TH address=2001:44c8:4420::/44 } on-error={}
-:do { add list=TH address=2001:44c8:4430::/44 } on-error={}
-:do { add list=TH address=2001:44c8:4440::/44 } on-error={}
-:do { add list=TH address=2001:44c8:4450::/44 } on-error={}
-:do { add list=TH address=2001:44c8:4460::/43 } on-error={}
+:do { add list=TH address=2001:44c8:4420::/43 } on-error={}
+:do { add list=TH address=2001:44c8:4440::/43 } on-error={}
+:do { add list=TH address=2001:44c8:4460::/44 } on-error={}
+:do { add list=TH address=2001:44c8:4470::/44 } on-error={}
 :do { add list=TH address=2001:44c8:4480::/42 } on-error={}
 :do { add list=TH address=2001:44c8:44c0::/43 } on-error={}
 :do { add list=TH address=2001:44c8:44e0::/44 } on-error={}

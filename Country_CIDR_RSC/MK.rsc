@@ -451,6 +451,7 @@
 :do { add list=MK address=188.117.204.0/22 } on-error={}
 :do { add list=MK address=188.117.212.0/22 } on-error={}
 :do { add list=MK address=193.36.90.0/24 } on-error={}
+:do { add list=MK address=193.77.47.241/32 } on-error={}
 :do { add list=MK address=193.77.47.242/32 } on-error={}
 :do { add list=MK address=193.169.198.247/32 } on-error={}
 :do { add list=MK address=193.189.168.101/32 } on-error={}

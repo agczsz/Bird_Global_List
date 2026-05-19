@@ -322,10 +322,7 @@
 :do { add list=RW address=2c0f:fe30:c000::/34 } on-error={}
 :do { add list=RW address=2c0f:fe40:2::11f/128 } on-error={}
 :do { add list=RW address=2c0f:fe60::/32 } on-error={}
-:do { add list=RW address=2c0f:feb0:0:4::/64 } on-error={}
 :do { add list=RW address=2c0f:feb0:1::2e/128 } on-error={}
 :do { add list=RW address=2c0f:feb0:1:2::52/128 } on-error={}
 :do { add list=RW address=2c0f:feb0:1:2::79/128 } on-error={}
 :do { add list=RW address=2c0f:feb0:1:2::181/128 } on-error={}
-:do { add list=RW address=2c0f:feb0:5::/48 } on-error={}
-:do { add list=RW address=2c0f:feb0:19::/48 } on-error={}
