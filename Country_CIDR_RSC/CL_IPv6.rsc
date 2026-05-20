@@ -444,7 +444,6 @@
 :do { add list=CL address=2001:1498:1:2d2::/64 } on-error={}
 :do { add list=CL address=2001:1498:1:42e::/64 } on-error={}
 :do { add list=CL address=2001:1498:1:701::/64 } on-error={}
-:do { add list=CL address=2001:1498:1:7b0::/64 } on-error={}
 :do { add list=CL address=2001:1498:1:81d::aa/128 } on-error={}
 :do { add list=CL address=2001:1498:1:957::7e1/128 } on-error={}
 :do { add list=CL address=2001:1498:1:957::7e2/128 } on-error={}

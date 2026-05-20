@@ -986,7 +986,6 @@
 :do { add list=IS address=2a0d:3344:1680::/42 } on-error={}
 :do { add list=IS address=2a0d:9440:8000::/37 } on-error={}
 :do { add list=IS address=2a0d:cf80::/29 } on-error={}
-:do { add list=IS address=2a0e:4940:1:2::/64 } on-error={}
 :do { add list=IS address=2a0e:acc0:ac95::/48 } on-error={}
 :do { add list=IS address=2a0e:b107:bc0::/44 } on-error={}
 :do { add list=IS address=2a0e:b107:db3::/48 } on-error={}

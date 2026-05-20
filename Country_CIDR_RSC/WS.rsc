@@ -2,6 +2,7 @@
 /ip firewall address-list
 :do { add list=WS address=5.62.56.208/30 } on-error={}
 :do { add list=WS address=5.62.58.188/30 } on-error={}
+:do { add list=WS address=45.127.228.19/32 } on-error={}
 :do { add list=WS address=57.70.168.0/23 } on-error={}
 :do { add list=WS address=57.71.16.0/20 } on-error={}
 :do { add list=WS address=103.9.230.0/23 } on-error={}

@@ -294,8 +294,7 @@
 :do { add list=BM address=207.228.162.96/28 } on-error={}
 :do { add list=BM address=207.228.162.112/32 } on-error={}
 :do { add list=BM address=207.228.162.115/32 } on-error={}
-:do { add list=BM address=207.228.162.116/31 } on-error={}
-:do { add list=BM address=207.228.162.119/32 } on-error={}
+:do { add list=BM address=207.228.162.116/30 } on-error={}
 :do { add list=BM address=207.228.162.120/29 } on-error={}
 :do { add list=BM address=207.228.162.128/25 } on-error={}
 :do { add list=BM address=207.228.163.0/24 } on-error={}

@@ -32,6 +32,7 @@
 :do { add list=GH address=41.194.26.16/28 } on-error={}
 :do { add list=GH address=41.204.32.0/19 } on-error={}
 :do { add list=GH address=41.207.252.0/23 } on-error={}
+:do { add list=GH address=41.207.254.51/32 } on-error={}
 :do { add list=GH address=41.207.254.90/32 } on-error={}
 :do { add list=GH address=41.207.254.122/32 } on-error={}
 :do { add list=GH address=41.207.254.138/32 } on-error={}
@@ -136,6 +137,7 @@
 :do { add list=GH address=45.222.197.18/32 } on-error={}
 :do { add list=GH address=45.222.197.36/32 } on-error={}
 :do { add list=GH address=45.222.197.162/32 } on-error={}
+:do { add list=GH address=45.222.197.194/32 } on-error={}
 :do { add list=GH address=45.222.198.173/32 } on-error={}
 :do { add list=GH address=45.222.199.0/24 } on-error={}
 :do { add list=GH address=45.222.200.8/30 } on-error={}
@@ -144,6 +146,7 @@
 :do { add list=GH address=45.222.202.60/30 } on-error={}
 :do { add list=GH address=45.222.202.65/32 } on-error={}
 :do { add list=GH address=45.222.202.66/32 } on-error={}
+:do { add list=GH address=45.222.203.42/32 } on-error={}
 :do { add list=GH address=45.222.203.120/29 } on-error={}
 :do { add list=GH address=45.222.204.0/24 } on-error={}
 :do { add list=GH address=45.222.207.0/24 } on-error={}
@@ -213,6 +216,7 @@
 :do { add list=GH address=66.37.98.0/23 } on-error={}
 :do { add list=GH address=66.37.100.0/24 } on-error={}
 :do { add list=GH address=66.37.103.0/24 } on-error={}
+:do { add list=GH address=66.37.104.4/32 } on-error={}
 :do { add list=GH address=66.37.109.0/24 } on-error={}
 :do { add list=GH address=66.37.110.0/24 } on-error={}
 :do { add list=GH address=66.102.35.192/26 } on-error={}
@@ -444,7 +448,6 @@
 :do { add list=GH address=140.248.61.81/32 } on-error={}
 :do { add list=GH address=140.248.62.81/32 } on-error={}
 :do { add list=GH address=140.248.63.81/32 } on-error={}
-:do { add list=GH address=142.111.40.0/24 } on-error={}
 :do { add list=GH address=143.105.208.0/23 } on-error={}
 :do { add list=GH address=144.125.139.0/27 } on-error={}
 :do { add list=GH address=144.125.142.0/26 } on-error={}

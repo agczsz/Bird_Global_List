@@ -2,6 +2,7 @@
 /ip firewall address-list
 :do { add list=VU address=5.62.57.96/30 } on-error={}
 :do { add list=VU address=5.62.59.76/30 } on-error={}
+:do { add list=VU address=14.137.37.150/32 } on-error={}
 :do { add list=VU address=57.70.164.0/23 } on-error={}
 :do { add list=VU address=57.71.80.0/20 } on-error={}
 :do { add list=VU address=66.96.121.192/26 } on-error={}
@@ -13,8 +14,7 @@
 :do { add list=VU address=103.36.144.0/23 } on-error={}
 :do { add list=VU address=103.65.141.0/24 } on-error={}
 :do { add list=VU address=103.72.90.0/23 } on-error={}
-:do { add list=VU address=103.75.20.0/25 } on-error={}
-:do { add list=VU address=103.75.21.0/24 } on-error={}
+:do { add list=VU address=103.75.20.0/23 } on-error={}
 :do { add list=VU address=103.100.10.0/24 } on-error={}
 :do { add list=VU address=103.226.22.0/24 } on-error={}
 :do { add list=VU address=103.226.23.0/24 } on-error={}
@@ -72,6 +72,12 @@
 :do { add list=VU address=196.198.203.0/24 } on-error={}
 :do { add list=VU address=196.199.203.0/24 } on-error={}
 :do { add list=VU address=199.60.215.160/27 } on-error={}
+:do { add list=VU address=202.4.251.0/25 } on-error={}
+:do { add list=VU address=202.4.251.128/27 } on-error={}
+:do { add list=VU address=202.4.251.160/29 } on-error={}
+:do { add list=VU address=202.4.251.168/30 } on-error={}
+:do { add list=VU address=202.4.251.176/28 } on-error={}
+:do { add list=VU address=202.4.251.192/26 } on-error={}
 :do { add list=VU address=202.61.106.0/23 } on-error={}
 :do { add list=VU address=202.77.64.0/20 } on-error={}
 :do { add list=VU address=202.80.32.0/20 } on-error={}

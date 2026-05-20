@@ -5191,6 +5191,7 @@
 :do { add list=SC address=2c0f:f530:f003::/48 } on-error={}
 :do { add list=SC address=2c0f:f530:f00c::/48 } on-error={}
 :do { add list=SC address=2c0f:f530:f023::/48 } on-error={}
+:do { add list=SC address=2c0f:f530:f040::/48 } on-error={}
 :do { add list=SC address=2c0f:f530:f05e::/47 } on-error={}
 :do { add list=SC address=2c0f:f530:f060::/46 } on-error={}
 :do { add list=SC address=2c0f:f530:f067::/48 } on-error={}

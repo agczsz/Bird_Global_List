@@ -3,7 +3,16 @@
 :do { add list=MP address=5.62.60.165/32 } on-error={}
 :do { add list=MP address=8.3.112.0/20 } on-error={}
 :do { add list=MP address=45.117.196.0/22 } on-error={}
-:do { add list=MP address=64.86.72.0/22 } on-error={}
+:do { add list=MP address=64.86.72.0/23 } on-error={}
+:do { add list=MP address=64.86.74.0/24 } on-error={}
+:do { add list=MP address=64.86.75.0/28 } on-error={}
+:do { add list=MP address=64.86.75.16/30 } on-error={}
+:do { add list=MP address=64.86.75.20/31 } on-error={}
+:do { add list=MP address=64.86.75.23/32 } on-error={}
+:do { add list=MP address=64.86.75.24/29 } on-error={}
+:do { add list=MP address=64.86.75.32/27 } on-error={}
+:do { add list=MP address=64.86.75.64/26 } on-error={}
+:do { add list=MP address=64.86.75.128/25 } on-error={}
 :do { add list=MP address=65.181.29.0/24 } on-error={}
 :do { add list=MP address=69.44.202.0/24 } on-error={}
 :do { add list=MP address=69.44.203.172/30 } on-error={}
@@ -60,7 +69,7 @@
 :do { add list=MP address=210.23.84.0/23 } on-error={}
 :do { add list=MP address=210.23.86.0/24 } on-error={}
 :do { add list=MP address=210.23.87.0/30 } on-error={}
-:do { add list=MP address=210.23.87.6/31 } on-error={}
+:do { add list=MP address=210.23.87.7/32 } on-error={}
 :do { add list=MP address=210.23.87.8/29 } on-error={}
 :do { add list=MP address=210.23.87.16/28 } on-error={}
 :do { add list=MP address=210.23.87.32/27 } on-error={}

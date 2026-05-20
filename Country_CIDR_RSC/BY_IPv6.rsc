@@ -190,6 +190,7 @@
 :do { add list=BY address=2001:470:8d6b::/48 } on-error={}
 :do { add list=BY address=2001:470:99b1::/48 } on-error={}
 :do { add list=BY address=2001:470:9b05::/48 } on-error={}
+:do { add list=BY address=2001:470:b420::/48 } on-error={}
 :do { add list=BY address=2001:470:b550::/48 } on-error={}
 :do { add list=BY address=2001:470:c05c:1::/64 } on-error={}
 :do { add list=BY address=2001:470:c05c:2::/63 } on-error={}

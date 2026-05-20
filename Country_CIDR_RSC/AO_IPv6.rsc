@@ -34,7 +34,6 @@
 :do { add list=AO address=2001:470:1f21:2cd::/64 } on-error={}
 :do { add list=AO address=2001:470:1f23:ff::/64 } on-error={}
 :do { add list=AO address=2001:470:1f27:54::/64 } on-error={}
-:do { add list=AO address=2001:470:1f29:1b7::/64 } on-error={}
 :do { add list=AO address=2001:470:1f29:324::/64 } on-error={}
 :do { add list=AO address=2001:470:282d::/48 } on-error={}
 :do { add list=AO address=2001:470:3827::/48 } on-error={}

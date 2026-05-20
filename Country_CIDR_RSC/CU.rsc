@@ -2,7 +2,9 @@
 /ip firewall address-list
 :do { add list=CU address=5.62.56.72/30 } on-error={}
 :do { add list=CU address=5.62.58.68/30 } on-error={}
+:do { add list=CU address=15.204.243.158/32 } on-error={}
 :do { add list=CU address=41.194.23.160/28 } on-error={}
+:do { add list=CU address=45.61.188.75/32 } on-error={}
 :do { add list=CU address=57.74.110.0/23 } on-error={}
 :do { add list=CU address=57.91.32.0/20 } on-error={}
 :do { add list=CU address=67.205.106.178/32 } on-error={}

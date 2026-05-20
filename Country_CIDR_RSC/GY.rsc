@@ -2,6 +2,7 @@
 /ip firewall address-list
 :do { add list=GY address=5.62.56.116/30 } on-error={}
 :do { add list=GY address=5.62.58.108/30 } on-error={}
+:do { add list=GY address=45.169.160.202/32 } on-error={}
 :do { add list=GY address=57.74.246.0/23 } on-error={}
 :do { add list=GY address=57.75.112.0/21 } on-error={}
 :do { add list=GY address=80.255.63.32/29 } on-error={}
@@ -73,11 +74,7 @@
 :do { add list=GY address=190.80.0.32/27 } on-error={}
 :do { add list=GY address=190.80.0.64/26 } on-error={}
 :do { add list=GY address=190.80.0.128/25 } on-error={}
-:do { add list=GY address=190.80.1.0/28 } on-error={}
-:do { add list=GY address=190.80.1.16/32 } on-error={}
-:do { add list=GY address=190.80.1.18/31 } on-error={}
-:do { add list=GY address=190.80.1.20/30 } on-error={}
-:do { add list=GY address=190.80.1.24/29 } on-error={}
+:do { add list=GY address=190.80.1.0/27 } on-error={}
 :do { add list=GY address=190.80.1.32/30 } on-error={}
 :do { add list=GY address=190.80.1.36/32 } on-error={}
 :do { add list=GY address=190.80.1.38/31 } on-error={}
@@ -94,12 +91,9 @@
 :do { add list=GY address=190.80.1.88/30 } on-error={}
 :do { add list=GY address=190.80.1.92/32 } on-error={}
 :do { add list=GY address=190.80.1.94/31 } on-error={}
-:do { add list=GY address=190.80.1.98/31 } on-error={}
-:do { add list=GY address=190.80.1.100/30 } on-error={}
-:do { add list=GY address=190.80.1.104/29 } on-error={}
-:do { add list=GY address=190.80.1.112/28 } on-error={}
+:do { add list=GY address=190.80.1.96/27 } on-error={}
 :do { add list=GY address=190.80.1.138/31 } on-error={}
-:do { add list=GY address=190.80.1.140/32 } on-error={}
+:do { add list=GY address=190.80.1.140/31 } on-error={}
 :do { add list=GY address=190.80.1.144/30 } on-error={}
 :do { add list=GY address=190.80.1.149/32 } on-error={}
 :do { add list=GY address=190.80.1.150/31 } on-error={}
@@ -141,4 +135,3 @@
 :do { add list=GY address=196.198.96.0/24 } on-error={}
 :do { add list=GY address=196.199.96.0/24 } on-error={}
 :do { add list=GY address=198.45.242.0/27 } on-error={}
-:do { add list=GY address=204.124.218.0/24 } on-error={}

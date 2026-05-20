@@ -454,6 +454,7 @@
 :do { add list=AQ address=2001:470:eee1::/48 } on-error={}
 :do { add list=AQ address=2001:470:ef7b::/48 } on-error={}
 :do { add list=AQ address=2001:470:efe1::/48 } on-error={}
+:do { add list=AQ address=2001:470:f021::/48 } on-error={}
 :do { add list=AQ address=2001:470:f04a::/48 } on-error={}
 :do { add list=AQ address=2001:470:f06a::/48 } on-error={}
 :do { add list=AQ address=2001:470:f0d3:5::/64 } on-error={}

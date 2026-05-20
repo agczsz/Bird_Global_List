@@ -1,6 +1,5 @@
 /log info "Loading AD IPv4 Address List"
 /ip firewall address-list
-:do { add list=AD address=2.27.138.0/24 } on-error={}
 :do { add list=AD address=5.62.60.5/32 } on-error={}
 :do { add list=AD address=5.62.60.6/31 } on-error={}
 :do { add list=AD address=5.62.62.4/30 } on-error={}

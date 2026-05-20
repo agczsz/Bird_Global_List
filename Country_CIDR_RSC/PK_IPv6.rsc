@@ -1568,7 +1568,10 @@
 :do { add list=PK address=2402:3b60:8::/45 } on-error={}
 :do { add list=PK address=2402:3b60:10::/44 } on-error={}
 :do { add list=PK address=2402:3b60:20::/44 } on-error={}
-:do { add list=PK address=2402:3b60:30::/45 } on-error={}
+:do { add list=PK address=2402:3b60:30::/48 } on-error={}
+:do { add list=PK address=2402:3b60:31::/48 } on-error={}
+:do { add list=PK address=2402:3b60:32::/47 } on-error={}
+:do { add list=PK address=2402:3b60:34::/46 } on-error={}
 :do { add list=PK address=2402:3b60:38::/47 } on-error={}
 :do { add list=PK address=2402:3b60:3a::/47 } on-error={}
 :do { add list=PK address=2402:3b60:3c::/46 } on-error={}

@@ -7447,6 +7447,7 @@
 :do { add list=RO address=2a06:a881::/32 } on-error={}
 :do { add list=RO address=2a06:a882::/31 } on-error={}
 :do { add list=RO address=2a06:a884::/30 } on-error={}
+:do { add list=RO address=2a06:c5c0:2500::/48 } on-error={}
 :do { add list=RO address=2a06:cc00::/29 } on-error={}
 :do { add list=RO address=2a06:cd40::/48 } on-error={}
 :do { add list=RO address=2a06:cd40:1::/48 } on-error={}
