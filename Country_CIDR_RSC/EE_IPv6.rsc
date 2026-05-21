@@ -253,6 +253,7 @@
 :do { add list=EE address=2001:7f8:39::/48 } on-error={}
 :do { add list=EE address=2001:7f8:50::/48 } on-error={}
 :do { add list=EE address=2001:7f8:125::/48 } on-error={}
+:do { add list=EE address=2001:7f8:17a::/48 } on-error={}
 :do { add list=EE address=2001:948:2:16::/64 } on-error={}
 :do { add list=EE address=2001:978:1:324::/64 } on-error={}
 :do { add list=EE address=2001:978:2:e::/64 } on-error={}

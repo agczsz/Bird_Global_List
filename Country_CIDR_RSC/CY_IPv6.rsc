@@ -1,6 +1,7 @@
 /log info "Loading CY IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=CY address=2001:470:24:25f::/64 } on-error={}
+:do { add list=CY address=2001:470:26:825::/64 } on-error={}
 :do { add list=CY address=2001:470:28:4b::/64 } on-error={}
 :do { add list=CY address=2001:470:28:28c::/64 } on-error={}
 :do { add list=CY address=2001:470:28:50e::/64 } on-error={}

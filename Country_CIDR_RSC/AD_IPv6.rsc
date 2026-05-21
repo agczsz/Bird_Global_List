@@ -341,7 +341,11 @@
 :do { add list=AD address=2a13:c900:23::/48 } on-error={}
 :do { add list=AD address=2a13:c900:24::/46 } on-error={}
 :do { add list=AD address=2a13:c900:28::/45 } on-error={}
-:do { add list=AD address=2a13:c900:30::/44 } on-error={}
+:do { add list=AD address=2a13:c900:30::/47 } on-error={}
+:do { add list=AD address=2a13:c900:32::/48 } on-error={}
+:do { add list=AD address=2a13:c900:33::/48 } on-error={}
+:do { add list=AD address=2a13:c900:34::/46 } on-error={}
+:do { add list=AD address=2a13:c900:38::/45 } on-error={}
 :do { add list=AD address=2a13:c900:40::/44 } on-error={}
 :do { add list=AD address=2a13:c900:50::/46 } on-error={}
 :do { add list=AD address=2a13:c900:54::/48 } on-error={}

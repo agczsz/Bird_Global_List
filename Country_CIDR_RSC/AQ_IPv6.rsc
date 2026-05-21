@@ -2,6 +2,8 @@
 /ipv6 firewall address-list
 :do { add list=AQ address=2001:470:5:60d::/64 } on-error={}
 :do { add list=AQ address=2001:470:8:3e::/64 } on-error={}
+:do { add list=AQ address=2001:470:8:181::/64 } on-error={}
+:do { add list=AQ address=2001:470:8:20d::/64 } on-error={}
 :do { add list=AQ address=2001:470:8:444::/64 } on-error={}
 :do { add list=AQ address=2001:470:8:45c::/64 } on-error={}
 :do { add list=AQ address=2001:470:8:635::/64 } on-error={}
@@ -390,6 +392,8 @@
 :do { add list=AQ address=2001:470:ca85::/48 } on-error={}
 :do { add list=AQ address=2001:470:d983::/48 } on-error={}
 :do { add list=AQ address=2001:470:dec5::/48 } on-error={}
+:do { add list=AQ address=2001:470:e15b::/48 } on-error={}
+:do { add list=AQ address=2001:470:e177::/48 } on-error={}
 :do { add list=AQ address=2001:470:e2e1::/48 } on-error={}
 :do { add list=AQ address=2001:470:e34b::/48 } on-error={}
 :do { add list=AQ address=2001:470:eae8::/48 } on-error={}

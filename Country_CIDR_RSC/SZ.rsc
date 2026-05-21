@@ -19,11 +19,13 @@
 :do { add list=SZ address=69.63.65.0/24 } on-error={}
 :do { add list=SZ address=69.63.66.0/25 } on-error={}
 :do { add list=SZ address=69.63.66.146/32 } on-error={}
+:do { add list=SZ address=69.63.66.218/32 } on-error={}
 :do { add list=SZ address=69.63.66.229/32 } on-error={}
 :do { add list=SZ address=69.63.66.242/32 } on-error={}
 :do { add list=SZ address=69.63.67.0/24 } on-error={}
 :do { add list=SZ address=69.63.68.0/24 } on-error={}
 :do { add list=SZ address=69.63.69.17/32 } on-error={}
+:do { add list=SZ address=69.63.69.18/32 } on-error={}
 :do { add list=SZ address=69.63.69.64/26 } on-error={}
 :do { add list=SZ address=69.63.69.153/32 } on-error={}
 :do { add list=SZ address=69.63.69.181/32 } on-error={}
@@ -56,6 +58,7 @@
 :do { add list=SZ address=69.63.75.248/30 } on-error={}
 :do { add list=SZ address=69.63.75.252/32 } on-error={}
 :do { add list=SZ address=69.63.75.255/32 } on-error={}
+:do { add list=SZ address=69.63.76.83/32 } on-error={}
 :do { add list=SZ address=69.63.76.88/32 } on-error={}
 :do { add list=SZ address=69.63.76.133/32 } on-error={}
 :do { add list=SZ address=69.63.77.128/27 } on-error={}

@@ -511,7 +511,6 @@
 :do { add list=IT address=2001:470:1f0b:3bf::/64 } on-error={}
 :do { add list=IT address=2001:470:1f0b:403::/64 } on-error={}
 :do { add list=IT address=2001:470:1f0b:4b1::/64 } on-error={}
-:do { add list=IT address=2001:470:1f0b:4bf::/64 } on-error={}
 :do { add list=IT address=2001:470:1f0b:4c2::/64 } on-error={}
 :do { add list=IT address=2001:470:1f0b:4d0::/64 } on-error={}
 :do { add list=IT address=2001:470:1f0b:51e::/64 } on-error={}
@@ -10566,7 +10565,6 @@
 :do { add list=IT address=2a01:3e0:b00::/56 } on-error={}
 :do { add list=IT address=2a01:3e0:b00:100::/64 } on-error={}
 :do { add list=IT address=2a01:3e0:1f00::/56 } on-error={}
-:do { add list=IT address=2a01:3e0:3900::113/128 } on-error={}
 :do { add list=IT address=2a01:3e0:4400::/64 } on-error={}
 :do { add list=IT address=2a01:3e0:ff90::/48 } on-error={}
 :do { add list=IT address=2a01:528:7800::/40 } on-error={}

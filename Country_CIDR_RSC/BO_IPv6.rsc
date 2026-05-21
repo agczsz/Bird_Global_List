@@ -443,7 +443,10 @@
 :do { add list=BO address=2803:b60::/32 } on-error={}
 :do { add list=BO address=2803:be0::/32 } on-error={}
 :do { add list=BO address=2803:1180::/45 } on-error={}
-:do { add list=BO address=2803:1180:8::/45 } on-error={}
+:do { add list=BO address=2803:1180:8::/48 } on-error={}
+:do { add list=BO address=2803:1180:9::/48 } on-error={}
+:do { add list=BO address=2803:1180:a::/47 } on-error={}
+:do { add list=BO address=2803:1180:c::/46 } on-error={}
 :do { add list=BO address=2803:1180:10::/44 } on-error={}
 :do { add list=BO address=2803:1180:20::/43 } on-error={}
 :do { add list=BO address=2803:1180:40::/42 } on-error={}

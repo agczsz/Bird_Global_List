@@ -6,6 +6,7 @@
 :do { add list=TL address=2001:470:36:7da::/64 } on-error={}
 :do { add list=TL address=2001:470:36:917::/64 } on-error={}
 :do { add list=TL address=2001:470:6d:1194::/64 } on-error={}
+:do { add list=TL address=2001:470:1f2d:64::/64 } on-error={}
 :do { add list=TL address=2001:470:1f2d:e8::/64 } on-error={}
 :do { add list=TL address=2001:470:f2c7::/48 } on-error={}
 :do { add list=TL address=2001:67c:a38:f670::/64 } on-error={}
@@ -39,6 +40,7 @@
 :do { add list=TL address=2406:2d40:8140::/42 } on-error={}
 :do { add list=TL address=2406:2d40:9d00::/40 } on-error={}
 :do { add list=TL address=2407:f2c0::/32 } on-error={}
+:do { add list=TL address=2600:70ff:c01d::/48 } on-error={}
 :do { add list=TL address=2606:54c0:5788::/45 } on-error={}
 :do { add list=TL address=2606:54c3:0:c71::/64 } on-error={}
 :do { add list=TL address=2607:8940:3d2c::/46 } on-error={}

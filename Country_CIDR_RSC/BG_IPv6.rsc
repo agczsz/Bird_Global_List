@@ -3241,8 +3241,7 @@
 :do { add list=BG address=2a04:5b81:2192::/47 } on-error={}
 :do { add list=BG address=2a04:5b81:2194::/46 } on-error={}
 :do { add list=BG address=2a04:5b81:2198::/45 } on-error={}
-:do { add list=BG address=2a04:5b81:21a0::/44 } on-error={}
-:do { add list=BG address=2a04:5b81:21b0::/44 } on-error={}
+:do { add list=BG address=2a04:5b81:21a0::/43 } on-error={}
 :do { add list=BG address=2a04:5b81:21e0::/43 } on-error={}
 :do { add list=BG address=2a04:5b81:2200::/39 } on-error={}
 :do { add list=BG address=2a04:5b81:2400::/38 } on-error={}

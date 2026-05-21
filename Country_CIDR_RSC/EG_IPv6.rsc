@@ -40,7 +40,6 @@
 :do { add list=EG address=2001:470:1f13:eb4::/64 } on-error={}
 :do { add list=EG address=2001:470:1f15:140::/64 } on-error={}
 :do { add list=EG address=2001:470:1f15:91c::/64 } on-error={}
-:do { add list=EG address=2001:470:1f19:2aa::/64 } on-error={}
 :do { add list=EG address=2001:470:1f1b:2c1::/64 } on-error={}
 :do { add list=EG address=2001:470:1f1d:23e::/64 } on-error={}
 :do { add list=EG address=2001:470:1f1d:672::/64 } on-error={}

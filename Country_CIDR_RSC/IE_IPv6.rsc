@@ -2261,6 +2261,7 @@
 :do { add list=IE address=2001:1be0:14a0::/55 } on-error={}
 :do { add list=IE address=2001:1be0:14b0::/62 } on-error={}
 :do { add list=IE address=2001:2030:0:66::/64 } on-error={}
+:do { add list=IE address=2001:2030:3d::/48 } on-error={}
 :do { add list=IE address=2001:2030:42:1::/64 } on-error={}
 :do { add list=IE address=2001:2030:42:2::/63 } on-error={}
 :do { add list=IE address=2001:2030:42:4::/62 } on-error={}
