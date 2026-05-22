@@ -355,6 +355,7 @@
 :do { add list=OM address=108.177.37.244/32 } on-error={}
 :do { add list=OM address=110.93.192.202/31 } on-error={}
 :do { add list=OM address=113.30.129.64/27 } on-error={}
+:do { add list=OM address=115.167.0.0/24 } on-error={}
 :do { add list=OM address=115.186.0.0/24 } on-error={}
 :do { add list=OM address=129.134.32.241/32 } on-error={}
 :do { add list=OM address=129.134.33.131/32 } on-error={}

@@ -4,6 +4,8 @@
 :do { add list=TM address=2001:470:28:9dd::/64 } on-error={}
 :do { add list=TM address=2001:470:36:7f1::/64 } on-error={}
 :do { add list=TM address=2001:470:36:1206::/64 } on-error={}
+:do { add list=TM address=2001:470:6d:114::/64 } on-error={}
+:do { add list=TM address=2001:470:6d:11f::/64 } on-error={}
 :do { add list=TM address=2001:470:6d:31e::/64 } on-error={}
 :do { add list=TM address=2001:470:6d:347::/64 } on-error={}
 :do { add list=TM address=2001:470:6d:d64::/64 } on-error={}

@@ -2643,6 +2643,7 @@
 :do { add list=CL address=162.10.24.176/28 } on-error={}
 :do { add list=CL address=162.10.24.192/26 } on-error={}
 :do { add list=CL address=162.10.245.0/24 } on-error={}
+:do { add list=CL address=162.18.47.241/32 } on-error={}
 :do { add list=CL address=162.44.36.5/32 } on-error={}
 :do { add list=CL address=162.120.185.172/31 } on-error={}
 :do { add list=CL address=162.120.185.236/31 } on-error={}

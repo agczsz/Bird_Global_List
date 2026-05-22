@@ -582,7 +582,6 @@
 :do { add list=GR address=82.23.233.0/24 } on-error={}
 :do { add list=GR address=82.24.243.0/24 } on-error={}
 :do { add list=GR address=82.25.243.0/24 } on-error={}
-:do { add list=GR address=82.29.43.0/24 } on-error={}
 :do { add list=GR address=82.29.50.0/24 } on-error={}
 :do { add list=GR address=82.29.243.0/24 } on-error={}
 :do { add list=GR address=82.38.43.224/28 } on-error={}

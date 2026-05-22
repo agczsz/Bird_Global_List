@@ -5613,10 +5613,8 @@
 :do { add list=BG address=184.104.203.144/29 } on-error={}
 :do { add list=BG address=184.104.204.64/32 } on-error={}
 :do { add list=BG address=184.104.204.66/31 } on-error={}
-:do { add list=BG address=184.104.204.191/32 } on-error={}
 :do { add list=BG address=184.104.224.189/32 } on-error={}
 :do { add list=BG address=184.104.224.190/32 } on-error={}
-:do { add list=BG address=184.104.224.224/28 } on-error={}
 :do { add list=BG address=184.104.227.175/32 } on-error={}
 :do { add list=BG address=184.105.64.53/32 } on-error={}
 :do { add list=BG address=184.105.64.169/32 } on-error={}

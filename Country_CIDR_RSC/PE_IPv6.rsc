@@ -1618,9 +1618,7 @@
 :do { add list=PE address=2804:5330:2:7::5:0/112 } on-error={}
 :do { add list=PE address=2804:5330:2:7::6:0/111 } on-error={}
 :do { add list=PE address=2804:5330:2:7::9:0/112 } on-error={}
-:do { add list=PE address=2804:5330:2:9::2:0/125 } on-error={}
-:do { add list=PE address=2804:5330:2:9::2:a/127 } on-error={}
-:do { add list=PE address=2804:5330:2:9::2:c/126 } on-error={}
+:do { add list=PE address=2804:5330:2:9::2:0/124 } on-error={}
 :do { add list=PE address=2804:5330:2:9::2:10/127 } on-error={}
 :do { add list=PE address=2804:5330:2:9::2:14/126 } on-error={}
 :do { add list=PE address=2804:5330:2:9::2:1a/127 } on-error={}

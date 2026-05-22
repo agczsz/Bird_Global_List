@@ -3,7 +3,6 @@
 :do { add list=LY address=2001:470:19:eb0::/64 } on-error={}
 :do { add list=LY address=2001:470:36:11b::/64 } on-error={}
 :do { add list=LY address=2001:470:36:202::/64 } on-error={}
-:do { add list=LY address=2001:470:36:583::/64 } on-error={}
 :do { add list=LY address=2001:470:1f0b:a72::/64 } on-error={}
 :do { add list=LY address=2001:470:1f29:36f::/64 } on-error={}
 :do { add list=LY address=2001:470:74b6::/48 } on-error={}

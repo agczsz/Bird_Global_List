@@ -103,7 +103,9 @@
 :do { add list=GY address=190.80.1.200/30 } on-error={}
 :do { add list=GY address=190.80.1.204/32 } on-error={}
 :do { add list=GY address=190.80.1.206/31 } on-error={}
-:do { add list=GY address=190.80.1.208/29 } on-error={}
+:do { add list=GY address=190.80.1.208/30 } on-error={}
+:do { add list=GY address=190.80.1.212/32 } on-error={}
+:do { add list=GY address=190.80.1.214/31 } on-error={}
 :do { add list=GY address=190.80.1.216/32 } on-error={}
 :do { add list=GY address=190.80.1.218/31 } on-error={}
 :do { add list=GY address=190.80.1.220/30 } on-error={}

@@ -1655,6 +1655,7 @@
 :do { add list=TH address=64.235.246.77/32 } on-error={}
 :do { add list=TH address=64.253.92.0/24 } on-error={}
 :do { add list=TH address=65.8.0.0/23 } on-error={}
+:do { add list=TH address=65.49.108.16/32 } on-error={}
 :do { add list=TH address=65.178.0.0/15 } on-error={}
 :do { add list=TH address=65.181.104.0/22 } on-error={}
 :do { add list=TH address=66.51.73.0/24 } on-error={}
@@ -4988,6 +4989,7 @@
 :do { add list=TH address=168.222.28.0/23 } on-error={}
 :do { add list=TH address=168.222.55.0/24 } on-error={}
 :do { add list=TH address=168.222.60.0/24 } on-error={}
+:do { add list=TH address=168.222.92.0/24 } on-error={}
 :do { add list=TH address=168.222.111.0/24 } on-error={}
 :do { add list=TH address=169.224.154.0/25 } on-error={}
 :do { add list=TH address=170.40.250.0/24 } on-error={}
@@ -5251,7 +5253,6 @@
 :do { add list=TH address=172.253.97.160/28 } on-error={}
 :do { add list=TH address=172.253.97.176/31 } on-error={}
 :do { add list=TH address=172.253.97.216/32 } on-error={}
-:do { add list=TH address=173.82.20.0/24 } on-error={}
 :do { add list=TH address=173.82.67.0/24 } on-error={}
 :do { add list=TH address=173.82.76.0/24 } on-error={}
 :do { add list=TH address=173.82.104.0/24 } on-error={}
@@ -5340,6 +5341,7 @@
 :do { add list=TH address=178.94.243.0/24 } on-error={}
 :do { add list=TH address=178.95.247.0/24 } on-error={}
 :do { add list=TH address=180.87.1.64/28 } on-error={}
+:do { add list=TH address=180.87.3.48/29 } on-error={}
 :do { add list=TH address=180.87.69.0/26 } on-error={}
 :do { add list=TH address=180.87.93.194/32 } on-error={}
 :do { add list=TH address=180.87.125.26/32 } on-error={}
@@ -5654,8 +5656,6 @@
 :do { add list=TH address=184.104.198.86/32 } on-error={}
 :do { add list=TH address=184.104.209.235/32 } on-error={}
 :do { add list=TH address=184.104.210.172/32 } on-error={}
-:do { add list=TH address=184.104.216.36/32 } on-error={}
-:do { add list=TH address=184.104.216.39/32 } on-error={}
 :do { add list=TH address=184.107.99.240/29 } on-error={}
 :do { add list=TH address=184.107.155.224/29 } on-error={}
 :do { add list=TH address=184.107.159.216/29 } on-error={}

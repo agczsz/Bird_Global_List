@@ -7380,10 +7380,7 @@
 :do { add list=RO address=2a06:9801:c2:18::/62 } on-error={}
 :do { add list=RO address=2a06:9801:c2:1c::/63 } on-error={}
 :do { add list=RO address=2a06:9801:c2:1e::/64 } on-error={}
-:do { add list=RO address=2a06:9801:c2:20::/61 } on-error={}
-:do { add list=RO address=2a06:9801:c2:28::/63 } on-error={}
-:do { add list=RO address=2a06:9801:c2:2a::/64 } on-error={}
-:do { add list=RO address=2a06:9801:c2:2c::/62 } on-error={}
+:do { add list=RO address=2a06:9801:c2:20::/60 } on-error={}
 :do { add list=RO address=2a06:9801:c2:30::/61 } on-error={}
 :do { add list=RO address=2a06:9801:c2:38::/64 } on-error={}
 :do { add list=RO address=2a06:9801:c2:3a::/63 } on-error={}
@@ -9642,7 +9639,6 @@
 :do { add list=RO address=2a10:fa80:5c::/46 } on-error={}
 :do { add list=RO address=2a10:fa80:60::/43 } on-error={}
 :do { add list=RO address=2a10:fa80:80::/41 } on-error={}
-:do { add list=RO address=2a10:fa80:100::/44 } on-error={}
 :do { add list=RO address=2a10:fa80:110::/44 } on-error={}
 :do { add list=RO address=2a10:fa80:120::/43 } on-error={}
 :do { add list=RO address=2a10:fa80:140::/42 } on-error={}
@@ -12381,6 +12377,7 @@
 :do { add list=RO address=2a13:7cc0:1000::/40 } on-error={}
 :do { add list=RO address=2a13:7cc0:1300::/40 } on-error={}
 :do { add list=RO address=2a13:7cc0:1400::/39 } on-error={}
+:do { add list=RO address=2a13:7cc0:1ba1::/48 } on-error={}
 :do { add list=RO address=2a13:7cc0:2000::/40 } on-error={}
 :do { add list=RO address=2a13:7cc2::/47 } on-error={}
 :do { add list=RO address=2a13:7cc2:2:1::/64 } on-error={}
@@ -12429,7 +12426,7 @@
 :do { add list=RO address=2a13:c8c4:2000::/35 } on-error={}
 :do { add list=RO address=2a13:c8c4:4000::/35 } on-error={}
 :do { add list=RO address=2a13:c8c4:6000::/36 } on-error={}
-:do { add list=RO address=2a13:c8c4:8000::/34 } on-error={}
+:do { add list=RO address=2a13:c8c4:8000::/35 } on-error={}
 :do { add list=RO address=2a13:c8c4:c000::/35 } on-error={}
 :do { add list=RO address=2a13:c8c4:e000::/36 } on-error={}
 :do { add list=RO address=2a13:c8c4:f000::/38 } on-error={}

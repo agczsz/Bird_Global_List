@@ -46,7 +46,6 @@
 :do { add list=SI address=2001:470:1f0b:18d7::/64 } on-error={}
 :do { add list=SI address=2001:470:1f13:1a0::/64 } on-error={}
 :do { add list=SI address=2001:470:1f13:364::/64 } on-error={}
-:do { add list=SI address=2001:470:1f15:152::/64 } on-error={}
 :do { add list=SI address=2001:470:1f15:189::/64 } on-error={}
 :do { add list=SI address=2001:470:1f15:451::/64 } on-error={}
 :do { add list=SI address=2001:470:1f15:538::/64 } on-error={}

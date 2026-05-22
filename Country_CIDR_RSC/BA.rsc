@@ -309,7 +309,6 @@
 :do { add list=BA address=95.133.140.128/25 } on-error={}
 :do { add list=BA address=95.133.141.0/24 } on-error={}
 :do { add list=BA address=95.133.142.64/26 } on-error={}
-:do { add list=BA address=95.133.142.128/25 } on-error={}
 :do { add list=BA address=95.133.143.128/25 } on-error={}
 :do { add list=BA address=95.133.232.0/22 } on-error={}
 :do { add list=BA address=95.156.128.0/18 } on-error={}

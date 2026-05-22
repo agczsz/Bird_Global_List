@@ -77,7 +77,6 @@
 :do { add list=PH address=2001:470:6d:de7::/64 } on-error={}
 :do { add list=PH address=2001:470:6d:de8::/64 } on-error={}
 :do { add list=PH address=2001:470:7c:69c::/64 } on-error={}
-:do { add list=PH address=2001:470:1f09:9a::/64 } on-error={}
 :do { add list=PH address=2001:470:1f09:438::/64 } on-error={}
 :do { add list=PH address=2001:470:1f09:53f::/64 } on-error={}
 :do { add list=PH address=2001:470:1f09:693::/64 } on-error={}

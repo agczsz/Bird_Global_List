@@ -4,15 +4,7 @@
 :do { add list=SK address=2.255.251.231/32 } on-error={}
 :do { add list=SK address=5.22.154.0/24 } on-error={}
 :do { add list=SK address=5.35.103.0/24 } on-error={}
-:do { add list=SK address=5.42.148.0/27 } on-error={}
-:do { add list=SK address=5.42.148.32/29 } on-error={}
-:do { add list=SK address=5.42.148.40/31 } on-error={}
-:do { add list=SK address=5.42.148.42/32 } on-error={}
-:do { add list=SK address=5.42.148.44/30 } on-error={}
-:do { add list=SK address=5.42.148.48/28 } on-error={}
-:do { add list=SK address=5.42.148.64/26 } on-error={}
-:do { add list=SK address=5.42.148.128/25 } on-error={}
-:do { add list=SK address=5.42.149.0/24 } on-error={}
+:do { add list=SK address=5.42.148.0/23 } on-error={}
 :do { add list=SK address=5.42.150.0/24 } on-error={}
 :do { add list=SK address=5.42.151.0/24 } on-error={}
 :do { add list=SK address=5.59.10.0/24 } on-error={}

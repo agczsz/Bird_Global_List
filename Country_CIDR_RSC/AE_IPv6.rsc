@@ -6033,6 +6033,7 @@
 :do { add list=AE address=2a0f:8d80::/29 } on-error={}
 :do { add list=AE address=2a0f:8e00::/29 } on-error={}
 :do { add list=AE address=2a0f:9400:61a0::/44 } on-error={}
+:do { add list=AE address=2a0f:9400:6900::/48 } on-error={}
 :do { add list=AE address=2a0f:9403:920::/44 } on-error={}
 :do { add list=AE address=2a0f:9407:a000::/36 } on-error={}
 :do { add list=AE address=2a0f:94c0:200::/48 } on-error={}
