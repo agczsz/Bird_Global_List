@@ -238,6 +238,7 @@
 :do { add list=ST address=2a13:ef45:cbe0::/43 } on-error={}
 :do { add list=ST address=2a13:ef45:cc00::/44 } on-error={}
 :do { add list=ST address=2a14:1c6:8000::/37 } on-error={}
+:do { add list=ST address=2a14:2d45:cf00::/40 } on-error={}
 :do { add list=ST address=2a14:67c1:b6cf::/48 } on-error={}
 :do { add list=ST address=2a14:67c2:865::/48 } on-error={}
 :do { add list=ST address=2a14:7580:cfd0::/48 } on-error={}

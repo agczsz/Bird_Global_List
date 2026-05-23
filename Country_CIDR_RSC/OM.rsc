@@ -1,5 +1,6 @@
 /log info "Loading OM IPv4 Address List"
 /ip firewall address-list
+:do { add list=OM address=1.39.125.95/32 } on-error={}
 :do { add list=OM address=2.56.253.0/24 } on-error={}
 :do { add list=OM address=3.161.103.0/24 } on-error={}
 :do { add list=OM address=3.161.104.0/21 } on-error={}
@@ -638,6 +639,8 @@
 :do { add list=OM address=142.250.165.127/32 } on-error={}
 :do { add list=OM address=142.250.165.164/32 } on-error={}
 :do { add list=OM address=142.250.184.96/27 } on-error={}
+:do { add list=OM address=142.250.186.0/27 } on-error={}
+:do { add list=OM address=142.250.186.224/27 } on-error={}
 :do { add list=OM address=142.250.187.0/28 } on-error={}
 :do { add list=OM address=142.250.187.16/32 } on-error={}
 :do { add list=OM address=142.250.187.18/32 } on-error={}
@@ -650,6 +653,17 @@
 :do { add list=OM address=142.250.202.44/31 } on-error={}
 :do { add list=OM address=142.250.202.46/32 } on-error={}
 :do { add list=OM address=142.250.202.48/28 } on-error={}
+:do { add list=OM address=142.250.202.160/30 } on-error={}
+:do { add list=OM address=142.250.202.165/32 } on-error={}
+:do { add list=OM address=142.250.202.166/31 } on-error={}
+:do { add list=OM address=142.250.202.168/29 } on-error={}
+:do { add list=OM address=142.250.202.176/28 } on-error={}
+:do { add list=OM address=142.250.202.192/28 } on-error={}
+:do { add list=OM address=142.250.202.208/31 } on-error={}
+:do { add list=OM address=142.250.202.211/32 } on-error={}
+:do { add list=OM address=142.250.202.212/30 } on-error={}
+:do { add list=OM address=142.250.202.216/29 } on-error={}
+:do { add list=OM address=142.250.202.224/27 } on-error={}
 :do { add list=OM address=142.250.208.62/32 } on-error={}
 :do { add list=OM address=142.250.211.114/31 } on-error={}
 :do { add list=OM address=142.250.211.122/31 } on-error={}

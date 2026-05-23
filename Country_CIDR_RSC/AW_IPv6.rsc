@@ -253,6 +253,7 @@
 :do { add list=AW address=2a13:a5c7:25ff:d00::/56 } on-error={}
 :do { add list=AW address=2a13:b487:502b::/48 } on-error={}
 :do { add list=AW address=2a14:1c1:c000::/37 } on-error={}
+:do { add list=AW address=2a14:2d45:d00::/40 } on-error={}
 :do { add list=AW address=2a14:67c1:b60e::/48 } on-error={}
 :do { add list=AW address=2a14:67c2:8d7::/48 } on-error={}
 :do { add list=AW address=2a14:7580:cf0d::/48 } on-error={}

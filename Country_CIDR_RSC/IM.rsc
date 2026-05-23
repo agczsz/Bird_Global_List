@@ -289,6 +289,7 @@
 :do { add list=IM address=92.39.192.0/20 } on-error={}
 :do { add list=IM address=92.114.55.0/24 } on-error={}
 :do { add list=IM address=93.114.188.0/23 } on-error={}
+:do { add list=IM address=94.119.179.74/32 } on-error={}
 :do { add list=IM address=94.125.56.0/24 } on-error={}
 :do { add list=IM address=94.125.57.0/25 } on-error={}
 :do { add list=IM address=94.125.57.128/26 } on-error={}

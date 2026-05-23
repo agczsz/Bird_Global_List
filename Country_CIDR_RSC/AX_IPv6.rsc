@@ -501,6 +501,7 @@
 :do { add list=AX address=2a13:a5c7:250f::/48 } on-error={}
 :do { add list=AX address=2a13:a5c7:25ff:e00::/56 } on-error={}
 :do { add list=AX address=2a14:1c2:6000::/37 } on-error={}
+:do { add list=AX address=2a14:2d45:e00::/40 } on-error={}
 :do { add list=AX address=2a14:67c1:b60f::/48 } on-error={}
 :do { add list=AX address=2a14:7580:cf0e::/48 } on-error={}
 :do { add list=AX address=2a14:7581:b10:4a00::/56 } on-error={}

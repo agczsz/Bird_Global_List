@@ -1,7 +1,6 @@
 /log info "Loading SK IPv4 Address List"
 /ip firewall address-list
 :do { add list=SK address=2.57.64.0/22 } on-error={}
-:do { add list=SK address=2.255.251.231/32 } on-error={}
 :do { add list=SK address=5.22.154.0/24 } on-error={}
 :do { add list=SK address=5.35.103.0/24 } on-error={}
 :do { add list=SK address=5.42.148.0/23 } on-error={}
@@ -1571,14 +1570,7 @@
 :do { add list=SK address=195.146.3.0/24 } on-error={}
 :do { add list=SK address=195.146.4.0/24 } on-error={}
 :do { add list=SK address=195.146.5.0/24 } on-error={}
-:do { add list=SK address=195.146.6.0/26 } on-error={}
-:do { add list=SK address=195.146.6.64/27 } on-error={}
-:do { add list=SK address=195.146.6.96/28 } on-error={}
-:do { add list=SK address=195.146.6.112/29 } on-error={}
-:do { add list=SK address=195.146.6.120/30 } on-error={}
-:do { add list=SK address=195.146.6.124/31 } on-error={}
-:do { add list=SK address=195.146.6.126/32 } on-error={}
-:do { add list=SK address=195.146.6.128/25 } on-error={}
+:do { add list=SK address=195.146.6.0/24 } on-error={}
 :do { add list=SK address=195.146.7.0/24 } on-error={}
 :do { add list=SK address=195.146.8.0/23 } on-error={}
 :do { add list=SK address=195.146.10.0/24 } on-error={}

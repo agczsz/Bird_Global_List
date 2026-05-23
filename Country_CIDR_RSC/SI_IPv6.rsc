@@ -3079,6 +3079,7 @@
 :do { add list=SI address=2a14:7c5:7b0::/44 } on-error={}
 :do { add list=SI address=2a14:7c5:7c0::/42 } on-error={}
 :do { add list=SI address=2a14:7c5:800::/41 } on-error={}
+:do { add list=SI address=2a14:2d45:c600::/40 } on-error={}
 :do { add list=SI address=2a14:2d83::/32 } on-error={}
 :do { add list=SI address=2a14:3d07:2000::/36 } on-error={}
 :do { add list=SI address=2a14:41c0:0:1::/64 } on-error={}

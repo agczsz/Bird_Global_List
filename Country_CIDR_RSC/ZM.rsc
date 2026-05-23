@@ -157,7 +157,13 @@
 :do { add list=ZM address=41.77.151.56/29 } on-error={}
 :do { add list=ZM address=41.77.151.64/26 } on-error={}
 :do { add list=ZM address=41.77.151.128/25 } on-error={}
-:do { add list=ZM address=41.173.20.0/24 } on-error={}
+:do { add list=ZM address=41.173.20.0/25 } on-error={}
+:do { add list=ZM address=41.173.20.128/28 } on-error={}
+:do { add list=ZM address=41.173.20.144/31 } on-error={}
+:do { add list=ZM address=41.173.20.146/32 } on-error={}
+:do { add list=ZM address=41.173.20.152/29 } on-error={}
+:do { add list=ZM address=41.173.20.160/27 } on-error={}
+:do { add list=ZM address=41.173.20.192/26 } on-error={}
 :do { add list=ZM address=41.173.21.0/27 } on-error={}
 :do { add list=ZM address=41.173.21.32/28 } on-error={}
 :do { add list=ZM address=41.173.21.48/29 } on-error={}
@@ -208,12 +214,7 @@
 :do { add list=ZM address=41.173.43.112/29 } on-error={}
 :do { add list=ZM address=41.173.43.120/31 } on-error={}
 :do { add list=ZM address=41.173.43.124/30 } on-error={}
-:do { add list=ZM address=41.173.43.128/27 } on-error={}
-:do { add list=ZM address=41.173.43.160/28 } on-error={}
-:do { add list=ZM address=41.173.43.176/29 } on-error={}
-:do { add list=ZM address=41.173.43.184/30 } on-error={}
-:do { add list=ZM address=41.173.43.188/31 } on-error={}
-:do { add list=ZM address=41.173.43.192/26 } on-error={}
+:do { add list=ZM address=41.173.43.128/25 } on-error={}
 :do { add list=ZM address=41.173.44.0/28 } on-error={}
 :do { add list=ZM address=41.173.44.16/31 } on-error={}
 :do { add list=ZM address=41.173.44.20/30 } on-error={}
@@ -260,7 +261,7 @@
 :do { add list=ZM address=41.173.245.192/28 } on-error={}
 :do { add list=ZM address=41.173.245.208/29 } on-error={}
 :do { add list=ZM address=41.173.245.216/31 } on-error={}
-:do { add list=ZM address=41.173.245.220/30 } on-error={}
+:do { add list=ZM address=41.173.245.220/31 } on-error={}
 :do { add list=ZM address=41.173.245.224/27 } on-error={}
 :do { add list=ZM address=41.173.246.0/24 } on-error={}
 :do { add list=ZM address=41.173.247.0/28 } on-error={}

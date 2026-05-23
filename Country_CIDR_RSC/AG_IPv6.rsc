@@ -458,6 +458,7 @@
 :do { add list=AG address=2a13:ef45:340::/42 } on-error={}
 :do { add list=AG address=2a13:ef45:380::/46 } on-error={}
 :do { add list=AG address=2a14:1c5:c800::/37 } on-error={}
+:do { add list=AG address=2a14:2d45:300::/40 } on-error={}
 :do { add list=AG address=2a14:67c1:b604::/48 } on-error={}
 :do { add list=AG address=2a14:67c2:8e2:1::/64 } on-error={}
 :do { add list=AG address=2a14:67c2:8e2:2::/63 } on-error={}

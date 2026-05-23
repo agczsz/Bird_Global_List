@@ -1373,6 +1373,7 @@
 :do { add list=MD address=2a13:ef45:81a0::/46 } on-error={}
 :do { add list=MD address=2a13:ef45:81a4::/47 } on-error={}
 :do { add list=MD address=2a14:1c5:a800::/37 } on-error={}
+:do { add list=MD address=2a14:2d45:8a00::/40 } on-error={}
 :do { add list=MD address=2a14:2e81::/32 } on-error={}
 :do { add list=MD address=2a14:2e82::/31 } on-error={}
 :do { add list=MD address=2a14:2e84::/30 } on-error={}

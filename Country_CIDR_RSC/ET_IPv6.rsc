@@ -239,6 +239,7 @@
 :do { add list=ET address=2a13:ef45:34f0::/45 } on-error={}
 :do { add list=ET address=2a14:1c0:1800::/37 } on-error={}
 :do { add list=ET address=2a14:7c5:2d0::/44 } on-error={}
+:do { add list=ET address=2a14:2d45:4400::/40 } on-error={}
 :do { add list=ET address=2a14:67c1:b643::/48 } on-error={}
 :do { add list=ET address=2a14:67c2:861::/48 } on-error={}
 :do { add list=ET address=2a14:7580:cf44::/48 } on-error={}

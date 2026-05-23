@@ -3517,6 +3517,8 @@
 :do { add list=ID address=2001:df7:a40::/48 } on-error={}
 :do { add list=ID address=2001:df7:ac0::/48 } on-error={}
 :do { add list=ID address=2001:df7:b00::/48 } on-error={}
+:do { add list=ID address=2001:df7:c40::/48 } on-error={}
+:do { add list=ID address=2001:df7:cc0::/48 } on-error={}
 :do { add list=ID address=2001:df7:1100::/48 } on-error={}
 :do { add list=ID address=2001:df7:1280::/48 } on-error={}
 :do { add list=ID address=2001:df7:1a00::/61 } on-error={}
@@ -7314,8 +7316,7 @@
 :do { add list=ID address=2404:fd00:20::/47 } on-error={}
 :do { add list=ID address=2404:fd00:22::/48 } on-error={}
 :do { add list=ID address=2404:fd00:23::/48 } on-error={}
-:do { add list=ID address=2404:fd00:24::/48 } on-error={}
-:do { add list=ID address=2404:fd00:25::/48 } on-error={}
+:do { add list=ID address=2404:fd00:24::/47 } on-error={}
 :do { add list=ID address=2404:fd00:26::/48 } on-error={}
 :do { add list=ID address=2404:fd00:27::/48 } on-error={}
 :do { add list=ID address=2404:fd00:28::/45 } on-error={}
@@ -9144,6 +9145,9 @@
 :do { add list=ID address=2600:1488:5fc0::2a/128 } on-error={}
 :do { add list=ID address=2600:1488:5fc0::5a/128 } on-error={}
 :do { add list=ID address=2600:1900:0:4400::/56 } on-error={}
+:do { add list=ID address=2600:1900:4250:b::/64 } on-error={}
+:do { add list=ID address=2600:1900:4250:c::/64 } on-error={}
+:do { add list=ID address=2600:1900:4250:10::/63 } on-error={}
 :do { add list=ID address=2600:1901:8170::/44 } on-error={}
 :do { add list=ID address=2600:1902:a0::/44 } on-error={}
 :do { add list=ID address=2600:1f01:481a::/47 } on-error={}
@@ -12211,6 +12215,7 @@
 :do { add list=ID address=2a13:ef45:51b0::/45 } on-error={}
 :do { add list=ID address=2a14:1c6:b800::/37 } on-error={}
 :do { add list=ID address=2a14:7c0:5203::/48 } on-error={}
+:do { add list=ID address=2a14:2d45:6400::/40 } on-error={}
 :do { add list=ID address=2a14:3d02:6000::/35 } on-error={}
 :do { add list=ID address=2a14:67c1:b663::/48 } on-error={}
 :do { add list=ID address=2a14:67c2:80c::/48 } on-error={}

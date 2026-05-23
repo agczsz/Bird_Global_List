@@ -151,6 +151,7 @@
 :do { add list=CX address=2a13:a5c7:25ff:3500::/56 } on-error={}
 :do { add list=CX address=2a13:b487:5027::/48 } on-error={}
 :do { add list=CX address=2a14:1c3:a000::/37 } on-error={}
+:do { add list=CX address=2a14:2d45:3500::/40 } on-error={}
 :do { add list=CX address=2a14:67c1:a129::/48 } on-error={}
 :do { add list=CX address=2a14:67c1:b561::/49 } on-error={}
 :do { add list=CX address=2a14:67c1:b561:8000::/51 } on-error={}

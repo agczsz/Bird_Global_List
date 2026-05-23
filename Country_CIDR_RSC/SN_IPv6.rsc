@@ -1042,6 +1042,7 @@
 :do { add list=SN address=2a13:ef45:ca4c::/47 } on-error={}
 :do { add list=SN address=2a14:1c7:3800::/37 } on-error={}
 :do { add list=SN address=2a14:7c5:890::/44 } on-error={}
+:do { add list=SN address=2a14:2d45:cb00::/40 } on-error={}
 :do { add list=SN address=2a14:3d07:3000::/36 } on-error={}
 :do { add list=SN address=2a14:67c1:b6cb::/48 } on-error={}
 :do { add list=SN address=2a14:67c2:86b::/48 } on-error={}

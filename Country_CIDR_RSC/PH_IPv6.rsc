@@ -9147,6 +9147,12 @@
 :do { add list=PH address=2602:fa80:2c::/48 } on-error={}
 :do { add list=PH address=2602:fa93:e:511::/64 } on-error={}
 :do { add list=PH address=2602:faa8:455:511::/64 } on-error={}
+:do { add list=PH address=2602:fb26::/38 } on-error={}
+:do { add list=PH address=2602:fb26:400::/39 } on-error={}
+:do { add list=PH address=2602:fb26:814::/47 } on-error={}
+:do { add list=PH address=2602:fb26:816::/48 } on-error={}
+:do { add list=PH address=2602:fb26:8d8::/45 } on-error={}
+:do { add list=PH address=2602:fb26:8e0::/43 } on-error={}
 :do { add list=PH address=2602:fbdb:160::/44 } on-error={}
 :do { add list=PH address=2602:fd92:b00:136::/64 } on-error={}
 :do { add list=PH address=2602:ffe4:c06::/48 } on-error={}
@@ -12620,6 +12626,7 @@
 :do { add list=PH address=2a13:ef45:aae0::/44 } on-error={}
 :do { add list=PH address=2a14:1c4:6000::/37 } on-error={}
 :do { add list=PH address=2a14:7c0:5204::/48 } on-error={}
+:do { add list=PH address=2a14:2d45:af00::/40 } on-error={}
 :do { add list=PH address=2a14:3d03:8000::/35 } on-error={}
 :do { add list=PH address=2a14:67c1:b6af::/48 } on-error={}
 :do { add list=PH address=2a14:67c2:81e::/48 } on-error={}

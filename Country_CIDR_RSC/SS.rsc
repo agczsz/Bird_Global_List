@@ -2,10 +2,7 @@
 /ip firewall address-list
 :do { add list=SS address=38.43.72.0/22 } on-error={}
 :do { add list=SS address=41.79.24.0/22 } on-error={}
-:do { add list=SS address=41.79.120.0/24 } on-error={}
-:do { add list=SS address=41.79.121.0/24 } on-error={}
-:do { add list=SS address=41.79.122.0/24 } on-error={}
-:do { add list=SS address=41.79.123.0/24 } on-error={}
+:do { add list=SS address=41.79.120.0/22 } on-error={}
 :do { add list=SS address=41.194.83.0/24 } on-error={}
 :do { add list=SS address=41.222.72.0/22 } on-error={}
 :do { add list=SS address=74.244.83.0/24 } on-error={}

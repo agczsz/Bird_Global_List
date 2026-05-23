@@ -180,6 +180,7 @@
 :do { add list=TM address=2a13:ef45:d3f0::/46 } on-error={}
 :do { add list=TM address=2a14:1c2:7000::/37 } on-error={}
 :do { add list=TM address=2a14:340::/29 } on-error={}
+:do { add list=TM address=2a14:2d45:dc00::/40 } on-error={}
 :do { add list=TM address=2a14:67c1:b6dc::/48 } on-error={}
 :do { add list=TM address=2a14:67c1:c703::/48 } on-error={}
 :do { add list=TM address=2a14:67c2:838::/48 } on-error={}

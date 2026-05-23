@@ -2800,6 +2800,7 @@
 :do { add list=CI address=2a13:ef45:1ec0::/43 } on-error={}
 :do { add list=CI address=2a13:ef45:1ee0::/44 } on-error={}
 :do { add list=CI address=2a14:1c2:9000::/37 } on-error={}
+:do { add list=CI address=2a14:2d45:2b00::/40 } on-error={}
 :do { add list=CI address=2a14:3d05:8000::/36 } on-error={}
 :do { add list=CI address=2a14:67c1:b62a::/48 } on-error={}
 :do { add list=CI address=2a14:67c2:86c::/48 } on-error={}

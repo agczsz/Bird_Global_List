@@ -2222,6 +2222,7 @@
 :do { add list=AQ address=2a14:7c0:5200:2000::/51 } on-error={}
 :do { add list=AQ address=2a14:7c0:5200:4000::/50 } on-error={}
 :do { add list=AQ address=2a14:7c0:5200:8000::/49 } on-error={}
+:do { add list=AQ address=2a14:2d45:800::/40 } on-error={}
 :do { add list=AQ address=2a14:67c1:91::/48 } on-error={}
 :do { add list=AQ address=2a14:67c1:a024::/48 } on-error={}
 :do { add list=AQ address=2a14:67c1:a060::/47 } on-error={}

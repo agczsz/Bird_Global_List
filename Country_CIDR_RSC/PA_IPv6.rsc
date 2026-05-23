@@ -2125,6 +2125,7 @@
 :do { add list=PA address=2a13:ef45:9f60::/45 } on-error={}
 :do { add list=PA address=2a13:ef45:9f68::/47 } on-error={}
 :do { add list=PA address=2a14:1c4:4800::/37 } on-error={}
+:do { add list=PA address=2a14:2d45:ab00::/40 } on-error={}
 :do { add list=PA address=2a14:3d06:c000::/36 } on-error={}
 :do { add list=PA address=2a14:67c1:b6ab::/48 } on-error={}
 :do { add list=PA address=2a14:67c2:884::/48 } on-error={}

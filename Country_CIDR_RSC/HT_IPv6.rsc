@@ -235,6 +235,7 @@
 :do { add list=HT address=2a13:ef45:4e40::/44 } on-error={}
 :do { add list=HT address=2a13:ef45:4e50::/47 } on-error={}
 :do { add list=HT address=2a14:1c5:d800::/37 } on-error={}
+:do { add list=HT address=2a14:2d45:6200::/40 } on-error={}
 :do { add list=HT address=2a14:67c1:b661::/48 } on-error={}
 :do { add list=HT address=2a14:67c2:8d4::/48 } on-error={}
 :do { add list=HT address=2a14:7580:cf62::/48 } on-error={}

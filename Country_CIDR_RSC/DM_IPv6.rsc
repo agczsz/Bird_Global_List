@@ -25251,6 +25251,7 @@
 :do { add list=DM address=2a13:ef45:2a80::/44 } on-error={}
 :do { add list=DM address=2a13:ef45:2a90::/46 } on-error={}
 :do { add list=DM address=2a14:1c0:f800::/37 } on-error={}
+:do { add list=DM address=2a14:2d45:3b00::/40 } on-error={}
 :do { add list=DM address=2a14:67c1:b63a::/48 } on-error={}
 :do { add list=DM address=2a14:67c2:810::/48 } on-error={}
 :do { add list=DM address=2a14:7580:cf3b::/48 } on-error={}

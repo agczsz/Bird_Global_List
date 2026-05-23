@@ -230,6 +230,7 @@
 :do { add list=TD address=2a13:ef45:cf40::/46 } on-error={}
 :do { add list=TD address=2a14:1c2:1000::/37 } on-error={}
 :do { add list=TD address=2a14:7c5:8e0::/43 } on-error={}
+:do { add list=TD address=2a14:2d45:d500::/40 } on-error={}
 :do { add list=TD address=2a14:67c0:403::/48 } on-error={}
 :do { add list=TD address=2a14:67c2:874::/48 } on-error={}
 :do { add list=TD address=2a14:7580:cfd6::/48 } on-error={}

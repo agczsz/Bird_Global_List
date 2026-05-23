@@ -229,6 +229,7 @@
 :do { add list=PF address=2a13:ef45:3b00::/46 } on-error={}
 :do { add list=PF address=2a13:ef45:3b04::/47 } on-error={}
 :do { add list=PF address=2a14:1c6:1800::/37 } on-error={}
+:do { add list=PF address=2a14:2d45:ad00::/40 } on-error={}
 :do { add list=PF address=2a14:67c1:b6ad::/48 } on-error={}
 :do { add list=PF address=2a14:67c2:82d::/48 } on-error={}
 :do { add list=PF address=2a14:7580:cfae::/48 } on-error={}

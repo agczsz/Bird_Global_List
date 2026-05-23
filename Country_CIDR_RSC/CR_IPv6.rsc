@@ -1013,6 +1013,7 @@
 :do { add list=CR address=2a13:ef45:2358::/47 } on-error={}
 :do { add list=CR address=2a14:1c5:9000::/37 } on-error={}
 :do { add list=CR address=2a14:7c5:190::/44 } on-error={}
+:do { add list=CR address=2a14:2d45:3100::/40 } on-error={}
 :do { add list=CR address=2a14:67c1:b630::/48 } on-error={}
 :do { add list=CR address=2a14:67c2:85b::/48 } on-error={}
 :do { add list=CR address=2a14:7580:cf31::/48 } on-error={}

@@ -211,6 +211,7 @@
 :do { add list=RW address=2a13:ef45:ba00::/44 } on-error={}
 :do { add list=RW address=2a13:ef45:ba10::/45 } on-error={}
 :do { add list=RW address=2a14:1c4:1000::/37 } on-error={}
+:do { add list=RW address=2a14:2d45:be00::/40 } on-error={}
 :do { add list=RW address=2a14:67c1:b6be::/48 } on-error={}
 :do { add list=RW address=2a14:67c2:8e7:1::/64 } on-error={}
 :do { add list=RW address=2a14:67c2:8e7:2::/63 } on-error={}

@@ -2334,6 +2334,7 @@
 :do { add list=VE address=2a13:ef45:e580::/42 } on-error={}
 :do { add list=VE address=2a13:ef45:e5c0::/46 } on-error={}
 :do { add list=VE address=2a14:1c3:3000::/37 } on-error={}
+:do { add list=VE address=2a14:2d45:ec00::/40 } on-error={}
 :do { add list=VE address=2a14:3d07:7000::/36 } on-error={}
 :do { add list=VE address=2a14:67c1:b6ec::/48 } on-error={}
 :do { add list=VE address=2a14:67c2:899::/48 } on-error={}
