@@ -2,7 +2,6 @@
 /ipv6 firewall address-list
 :do { add list=CD address=2001:470:24:a8::/64 } on-error={}
 :do { add list=CD address=2001:470:24:1f4::/64 } on-error={}
-:do { add list=CD address=2001:470:36:474::/64 } on-error={}
 :do { add list=CD address=2001:470:36:11d4::/64 } on-error={}
 :do { add list=CD address=2001:470:1f09:464::/64 } on-error={}
 :do { add list=CD address=2001:470:1f09:cc3::/64 } on-error={}
@@ -40,6 +39,7 @@
 :do { add list=CD address=2401:b60:1334::/46 } on-error={}
 :do { add list=CD address=2401:b60:1338::/45 } on-error={}
 :do { add list=CD address=2401:f1e0:ffff:1ea::/64 } on-error={}
+:do { add list=CD address=2401:f1e0:ffff:f340::/64 } on-error={}
 :do { add list=CD address=2405:b500:1580:8::/64 } on-error={}
 :do { add list=CD address=2405:b500:1580:10::/64 } on-error={}
 :do { add list=CD address=2405:b500:1580:18::/64 } on-error={}

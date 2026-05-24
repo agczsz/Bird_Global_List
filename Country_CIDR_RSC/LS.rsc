@@ -9,11 +9,11 @@
 :do { add list=LS address=57.82.82.0/23 } on-error={}
 :do { add list=LS address=57.83.160.0/20 } on-error={}
 :do { add list=LS address=64.57.112.0/20 } on-error={}
-:do { add list=LS address=73.219.246.112/32 } on-error={}
 :do { add list=LS address=74.244.80.0/23 } on-error={}
 :do { add list=LS address=84.254.163.0/24 } on-error={}
 :do { add list=LS address=95.210.52.0/24 } on-error={}
 :do { add list=LS address=102.36.240.0/23 } on-error={}
+:do { add list=LS address=102.36.242.1/32 } on-error={}
 :do { add list=LS address=102.36.243.0/24 } on-error={}
 :do { add list=LS address=102.203.194.0/23 } on-error={}
 :do { add list=LS address=102.214.112.0/23 } on-error={}

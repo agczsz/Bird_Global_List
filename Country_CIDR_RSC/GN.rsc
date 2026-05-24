@@ -117,3 +117,4 @@
 :do { add list=GN address=197.149.251.0/24 } on-error={}
 :do { add list=GN address=197.149.252.0/23 } on-error={}
 :do { add list=GN address=197.149.254.0/23 } on-error={}
+:do { add list=GN address=200.106.63.118/32 } on-error={}

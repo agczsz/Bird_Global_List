@@ -2,7 +2,6 @@
 /ipv6 firewall address-list
 :do { add list=BH address=2001:470:8:203::/64 } on-error={}
 :do { add list=BH address=2001:470:8:424::/64 } on-error={}
-:do { add list=BH address=2001:470:b:271::/64 } on-error={}
 :do { add list=BH address=2001:470:19:d43::/64 } on-error={}
 :do { add list=BH address=2001:470:26:740::/64 } on-error={}
 :do { add list=BH address=2001:470:36:c6e::/64 } on-error={}
@@ -12,6 +11,7 @@
 :do { add list=BH address=2001:470:6d:11a2::/64 } on-error={}
 :do { add list=BH address=2001:470:71:1f1::/64 } on-error={}
 :do { add list=BH address=2001:470:71:66e::/64 } on-error={}
+:do { add list=BH address=2001:470:1f07:7dd::/64 } on-error={}
 :do { add list=BH address=2001:470:1f09:6cc::/64 } on-error={}
 :do { add list=BH address=2001:470:1f09:7c4::/64 } on-error={}
 :do { add list=BH address=2001:470:1f09:7fd::/64 } on-error={}
@@ -165,9 +165,7 @@
 :do { add list=BH address=2001:1a00:acca:1506:2000::/67 } on-error={}
 :do { add list=BH address=2001:1a00:acca:1506:4000::/66 } on-error={}
 :do { add list=BH address=2001:1a00:acca:1506:8000::/65 } on-error={}
-:do { add list=BH address=2001:1a10:100:c:8781::21/128 } on-error={}
 :do { add list=BH address=2001:1a10:100:c:8781::47/128 } on-error={}
-:do { add list=BH address=2001:1a10:100:c:8781::60/128 } on-error={}
 :do { add list=BH address=2001:1a40::/32 } on-error={}
 :do { add list=BH address=2001:1a41::/32 } on-error={}
 :do { add list=BH address=2001:1a42::/31 } on-error={}

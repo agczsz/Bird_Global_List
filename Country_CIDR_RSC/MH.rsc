@@ -28,7 +28,11 @@
 :do { add list=MH address=85.149.150.240/28 } on-error={}
 :do { add list=MH address=85.149.151.0/24 } on-error={}
 :do { add list=MH address=85.149.152.0/21 } on-error={}
-:do { add list=MH address=85.149.160.0/19 } on-error={}
+:do { add list=MH address=85.149.160.0/20 } on-error={}
+:do { add list=MH address=85.149.176.0/21 } on-error={}
+:do { add list=MH address=85.149.184.0/22 } on-error={}
+:do { add list=MH address=85.149.188.0/24 } on-error={}
+:do { add list=MH address=85.149.191.0/24 } on-error={}
 :do { add list=MH address=89.185.83.0/32 } on-error={}
 :do { add list=MH address=89.185.83.9/32 } on-error={}
 :do { add list=MH address=89.185.83.10/31 } on-error={}

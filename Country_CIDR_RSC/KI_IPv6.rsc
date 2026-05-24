@@ -6,6 +6,7 @@
 :do { add list=KI address=2001:470:36:fd::/64 } on-error={}
 :do { add list=KI address=2001:470:36:909::/64 } on-error={}
 :do { add list=KI address=2001:470:36:929::/64 } on-error={}
+:do { add list=KI address=2001:470:1f07:9c5::/64 } on-error={}
 :do { add list=KI address=2001:470:1f0b:5cc::/64 } on-error={}
 :do { add list=KI address=2001:470:49a1::/48 } on-error={}
 :do { add list=KI address=2001:470:8cdc::/48 } on-error={}

@@ -2,7 +2,6 @@
 /ipv6 firewall address-list
 :do { add list=SV address=2001:470:5:220::/64 } on-error={}
 :do { add list=SV address=2001:470:8:4be::/64 } on-error={}
-:do { add list=SV address=2001:470:1f19:183::/64 } on-error={}
 :do { add list=SV address=2001:470:287d::/48 } on-error={}
 :do { add list=SV address=2001:470:d8b0::/48 } on-error={}
 :do { add list=SV address=2001:470:d987::/48 } on-error={}
@@ -99,10 +98,11 @@
 :do { add list=SV address=2801:1e:e000::/48 } on-error={}
 :do { add list=SV address=2803:1000::/32 } on-error={}
 :do { add list=SV address=2803:1c10::/32 } on-error={}
-:do { add list=SV address=2803:2d60:101d:dd00::/56 } on-error={}
 :do { add list=SV address=2803:2d60:1030:800::/56 } on-error={}
+:do { add list=SV address=2803:2d60:1033:bc00::/56 } on-error={}
 :do { add list=SV address=2803:2d60:103c:fb00::/56 } on-error={}
 :do { add list=SV address=2803:3150::/32 } on-error={}
+:do { add list=SV address=2803:4600:104d:7300::/56 } on-error={}
 :do { add list=SV address=2803:5040::/32 } on-error={}
 :do { add list=SV address=2803:5320:a000::/36 } on-error={}
 :do { add list=SV address=2803:59a0::/32 } on-error={}
@@ -114,7 +114,7 @@
 :do { add list=SV address=2803:82d0::/32 } on-error={}
 :do { add list=SV address=2803:8840::/32 } on-error={}
 :do { add list=SV address=2803:9200::/32 } on-error={}
-:do { add list=SV address=2803:9610::/33 } on-error={}
+:do { add list=SV address=2803:9610::/32 } on-error={}
 :do { add list=SV address=2803:96a0::/32 } on-error={}
 :do { add list=SV address=2803:9810:6300::/40 } on-error={}
 :do { add list=SV address=2803:9d00::/32 } on-error={}

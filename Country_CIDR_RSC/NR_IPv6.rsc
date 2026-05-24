@@ -27,6 +27,7 @@
 :do { add list=NR address=2401:b60:19e2::/47 } on-error={}
 :do { add list=NR address=2401:b60:19e4::/46 } on-error={}
 :do { add list=NR address=2401:b60:19e8::/45 } on-error={}
+:do { add list=NR address=2401:f1e0:ffff:acf::/64 } on-error={}
 :do { add list=NR address=2401:f1e0:ffff:e353::/64 } on-error={}
 :do { add list=NR address=2403:ae80::/32 } on-error={}
 :do { add list=NR address=2403:f600::/32 } on-error={}

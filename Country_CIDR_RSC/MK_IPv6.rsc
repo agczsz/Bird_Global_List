@@ -1,18 +1,17 @@
 /log info "Loading MK IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=MK address=2001:470:0:648::/64 } on-error={}
-:do { add list=MK address=2001:470:0:70d::2/128 } on-error={}
 :do { add list=MK address=2001:470:0:728::/64 } on-error={}
 :do { add list=MK address=2001:470:6d:a20::/64 } on-error={}
 :do { add list=MK address=2001:470:6f:397::/64 } on-error={}
 :do { add list=MK address=2001:470:6f:685::/64 } on-error={}
 :do { add list=MK address=2001:470:1f0::/64 } on-error={}
+:do { add list=MK address=2001:470:1f07:4f7::/64 } on-error={}
 :do { add list=MK address=2001:470:1f09:4b4::/64 } on-error={}
 :do { add list=MK address=2001:470:1f1b:59b::/64 } on-error={}
 :do { add list=MK address=2001:470:21ea::/48 } on-error={}
 :do { add list=MK address=2001:470:59e3::/48 } on-error={}
 :do { add list=MK address=2001:470:6acf::/48 } on-error={}
-:do { add list=MK address=2001:550:0:1000::8275:132/128 } on-error={}
 :do { add list=MK address=2001:550:0:1000::8275:308d/128 } on-error={}
 :do { add list=MK address=2001:550:0:1000::8275:3325/128 } on-error={}
 :do { add list=MK address=2001:550:0:1000::9a19:182/128 } on-error={}
@@ -188,6 +187,7 @@
 :do { add list=MK address=2a09:a702:2c:8000::/49 } on-error={}
 :do { add list=MK address=2a09:a702:2d:4000::/50 } on-error={}
 :do { add list=MK address=2a09:a702:2d:8000::/49 } on-error={}
+:do { add list=MK address=2a09:bac0:1000:15d0::/64 } on-error={}
 :do { add list=MK address=2a09:bac0:1001:53a::/64 } on-error={}
 :do { add list=MK address=2a09:bac1:4a00::/64 } on-error={}
 :do { add list=MK address=2a09:bac1:4a20::/64 } on-error={}

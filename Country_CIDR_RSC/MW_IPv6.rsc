@@ -2,6 +2,7 @@
 /ipv6 firewall address-list
 :do { add list=MW address=2001:470:36:144::/64 } on-error={}
 :do { add list=MW address=2001:470:71:6f1::/64 } on-error={}
+:do { add list=MW address=2001:470:1f07:a1::/64 } on-error={}
 :do { add list=MW address=2001:470:1f19:461::/64 } on-error={}
 :do { add list=MW address=2001:470:2898::/48 } on-error={}
 :do { add list=MW address=2001:470:43a2::/48 } on-error={}
@@ -24,7 +25,7 @@
 :do { add list=MW address=2001:43f8:20:1000::/52 } on-error={}
 :do { add list=MW address=2001:43f8:20:2000::/52 } on-error={}
 :do { add list=MW address=2001:43f8:20:3001::/64 } on-error={}
-:do { add list=MW address=2001:43f8:20:3002::/63 } on-error={}
+:do { add list=MW address=2001:43f8:20:3003::/64 } on-error={}
 :do { add list=MW address=2001:43f8:20:3004::/64 } on-error={}
 :do { add list=MW address=2001:43f8:20:3006::/63 } on-error={}
 :do { add list=MW address=2001:43f8:20:3009::/64 } on-error={}
@@ -1111,12 +1112,9 @@
 :do { add list=MW address=2c0f:fd50:0:5::/64 } on-error={}
 :do { add list=MW address=2c0f:fd50:0:6::/63 } on-error={}
 :do { add list=MW address=2c0f:fd50:0:8::/61 } on-error={}
-:do { add list=MW address=2c0f:fd50:0:10::/63 } on-error={}
-:do { add list=MW address=2c0f:fd50:0:13::/64 } on-error={}
-:do { add list=MW address=2c0f:fd50:0:14::/62 } on-error={}
-:do { add list=MW address=2c0f:fd50:0:18::/61 } on-error={}
+:do { add list=MW address=2c0f:fd50:0:10::/60 } on-error={}
 :do { add list=MW address=2c0f:fd50:0:21::/64 } on-error={}
-:do { add list=MW address=2c0f:fd50:0:22::/64 } on-error={}
+:do { add list=MW address=2c0f:fd50:0:22::/63 } on-error={}
 :do { add list=MW address=2c0f:fd50:0:24::/62 } on-error={}
 :do { add list=MW address=2c0f:fd50:0:28::/61 } on-error={}
 :do { add list=MW address=2c0f:fd50:0:30::/60 } on-error={}

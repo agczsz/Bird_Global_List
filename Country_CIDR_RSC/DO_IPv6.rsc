@@ -1,8 +1,9 @@
 /log info "Loading DO IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=DO address=2001:470:5:164::/64 } on-error={}
+:do { add list=DO address=2001:470:5:14d::/64 } on-error={}
 :do { add list=DO address=2001:470:5:3c5::/64 } on-error={}
 :do { add list=DO address=2001:470:5:464::/64 } on-error={}
+:do { add list=DO address=2001:470:5:4a5::/64 } on-error={}
 :do { add list=DO address=2001:470:5:674::/64 } on-error={}
 :do { add list=DO address=2001:470:8:248::/64 } on-error={}
 :do { add list=DO address=2001:470:8:3dc::/64 } on-error={}
@@ -13,6 +14,9 @@
 :do { add list=DO address=2001:470:36:1f2::/64 } on-error={}
 :do { add list=DO address=2001:470:36:11ef::/64 } on-error={}
 :do { add list=DO address=2001:470:67:359::/64 } on-error={}
+:do { add list=DO address=2001:470:1f05:6b4::/64 } on-error={}
+:do { add list=DO address=2001:470:1f07:3a9::/64 } on-error={}
+:do { add list=DO address=2001:470:1f07:d60::/64 } on-error={}
 :do { add list=DO address=2001:470:1f13:6d5::/64 } on-error={}
 :do { add list=DO address=2001:470:1f2b:e::/64 } on-error={}
 :do { add list=DO address=2001:470:3840::/48 } on-error={}
@@ -92,6 +96,7 @@
 :do { add list=DO address=2401:b60:13e4::/46 } on-error={}
 :do { add list=DO address=2401:b60:13e8::/45 } on-error={}
 :do { add list=DO address=2401:f1e0:ffff:a9e::/64 } on-error={}
+:do { add list=DO address=2401:f1e0:ffff:f3b4::/64 } on-error={}
 :do { add list=DO address=2405:b500:2000::/64 } on-error={}
 :do { add list=DO address=2405:b500:2000:10::/64 } on-error={}
 :do { add list=DO address=2405:b500:2020::/64 } on-error={}
@@ -793,7 +798,6 @@
 :do { add list=DO address=2a02:5745:78::/48 } on-error={}
 :do { add list=DO address=2a02:5746:78::/48 } on-error={}
 :do { add list=DO address=2a02:5747:78::/48 } on-error={}
-:do { add list=DO address=2a03:2887:ff06::/64 } on-error={}
 :do { add list=DO address=2a03:b600:0:c03::/64 } on-error={}
 :do { add list=DO address=2a03:b600:0:c04::/62 } on-error={}
 :do { add list=DO address=2a03:b600:0:c08::/61 } on-error={}
@@ -852,6 +856,7 @@
 :do { add list=DO address=2a09:bac0:1000:cfa::/64 } on-error={}
 :do { add list=DO address=2a09:bac0:1000:1218::/64 } on-error={}
 :do { add list=DO address=2a09:bac0:1000:136d::/64 } on-error={}
+:do { add list=DO address=2a09:bac1:1480:510f::/64 } on-error={}
 :do { add list=DO address=2a09:bac1:2000::/64 } on-error={}
 :do { add list=DO address=2a09:bac1:2000:10::/64 } on-error={}
 :do { add list=DO address=2a09:bac1:2000:158::/64 } on-error={}

@@ -1,12 +1,5 @@
 /log info "Loading VA IPv4 Address List"
 /ip firewall address-list
-:do { add list=VA address=2.56.112.64/28 } on-error={}
-:do { add list=VA address=2.56.112.80/30 } on-error={}
-:do { add list=VA address=2.56.112.84/31 } on-error={}
-:do { add list=VA address=2.56.112.86/32 } on-error={}
-:do { add list=VA address=2.56.112.88/29 } on-error={}
-:do { add list=VA address=2.56.112.96/27 } on-error={}
-:do { add list=VA address=2.56.112.128/25 } on-error={}
 :do { add list=VA address=5.62.61.209/32 } on-error={}
 :do { add list=VA address=5.62.61.210/31 } on-error={}
 :do { add list=VA address=5.62.63.196/30 } on-error={}
@@ -77,10 +70,7 @@
 :do { add list=VA address=212.77.2.18/31 } on-error={}
 :do { add list=VA address=212.77.2.20/30 } on-error={}
 :do { add list=VA address=212.77.2.24/29 } on-error={}
-:do { add list=VA address=212.77.2.32/29 } on-error={}
-:do { add list=VA address=212.77.2.40/31 } on-error={}
-:do { add list=VA address=212.77.2.43/32 } on-error={}
-:do { add list=VA address=212.77.2.44/30 } on-error={}
+:do { add list=VA address=212.77.2.32/28 } on-error={}
 :do { add list=VA address=212.77.2.48/29 } on-error={}
 :do { add list=VA address=212.77.2.56/30 } on-error={}
 :do { add list=VA address=212.77.2.60/31 } on-error={}
