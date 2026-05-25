@@ -16,7 +16,6 @@
 :do { add list=BQ address=2401:b60:11b2::/47 } on-error={}
 :do { add list=BQ address=2401:b60:11b4::/46 } on-error={}
 :do { add list=BQ address=2401:b60:11b8::/45 } on-error={}
-:do { add list=BQ address=2401:f1e0:ffff:d4c::/64 } on-error={}
 :do { add list=BQ address=2401:f1e0:ffff:8a12::/64 } on-error={}
 :do { add list=BQ address=2405:b500:1080::/64 } on-error={}
 :do { add list=BQ address=2405:b500:10a0::/64 } on-error={}
@@ -153,11 +152,6 @@
 :do { add list=BQ address=2a11:29c0:3d88:59ce::/64 } on-error={}
 :do { add list=BQ address=2a11:29c0:3d88:a2b8::/64 } on-error={}
 :do { add list=BQ address=2a11:a681:5000::/36 } on-error={}
-:do { add list=BQ address=2a12:bec4:12a4:be1::/64 } on-error={}
-:do { add list=BQ address=2a12:bec4:12a4:be2::/63 } on-error={}
-:do { add list=BQ address=2a12:bec4:12a4:be4::/62 } on-error={}
-:do { add list=BQ address=2a12:bec4:12a4:be8::/61 } on-error={}
-:do { add list=BQ address=2a12:bec4:12a4:bf0::/64 } on-error={}
 :do { add list=BQ address=2a12:ef86:1000::/36 } on-error={}
 :do { add list=BQ address=2a12:f381:9c00::/40 } on-error={}
 :do { add list=BQ address=2a12:f382:9c00::/40 } on-error={}
@@ -183,6 +177,7 @@
 :do { add list=BQ address=2a14:7581:b11:9b00::/56 } on-error={}
 :do { add list=BQ address=2a14:7581:b12:9b00::/56 } on-error={}
 :do { add list=BQ address=2a14:7581:b13:9b00::/56 } on-error={}
+:do { add list=BQ address=2a14:7581:b14:9b00::/56 } on-error={}
 :do { add list=BQ address=2a14:7581:b15:9b00::/56 } on-error={}
 :do { add list=BQ address=2a14:7581:b16:9b00::/56 } on-error={}
 :do { add list=BQ address=2a14:7581:b17:9b00::/56 } on-error={}

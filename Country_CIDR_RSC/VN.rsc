@@ -21,7 +21,6 @@
 :do { add list=VN address=5.62.61.213/32 } on-error={}
 :do { add list=VN address=5.62.61.214/31 } on-error={}
 :do { add list=VN address=5.62.63.200/30 } on-error={}
-:do { add list=VN address=5.175.190.95/32 } on-error={}
 :do { add list=VN address=8.209.44.0/22 } on-error={}
 :do { add list=VN address=8.212.192.0/18 } on-error={}
 :do { add list=VN address=13.104.184.224/28 } on-error={}
@@ -493,6 +492,7 @@
 :do { add list=VN address=85.28.33.0/24 } on-error={}
 :do { add list=VN address=85.117.229.0/24 } on-error={}
 :do { add list=VN address=87.84.7.0/24 } on-error={}
+:do { add list=VN address=87.84.34.0/23 } on-error={}
 :do { add list=VN address=87.119.12.0/24 } on-error={}
 :do { add list=VN address=93.174.165.0/24 } on-error={}
 :do { add list=VN address=93.188.131.0/24 } on-error={}
@@ -2644,6 +2644,7 @@
 :do { add list=VN address=131.229.248.154/32 } on-error={}
 :do { add list=VN address=131.229.255.26/32 } on-error={}
 :do { add list=VN address=131.229.255.154/32 } on-error={}
+:do { add list=VN address=134.82.74.112/29 } on-error={}
 :do { add list=VN address=134.159.240.0/23 } on-error={}
 :do { add list=VN address=134.231.132.0/25 } on-error={}
 :do { add list=VN address=134.238.22.96/27 } on-error={}
@@ -2724,7 +2725,6 @@
 :do { add list=VN address=148.222.93.0/24 } on-error={}
 :do { add list=VN address=148.222.94.0/24 } on-error={}
 :do { add list=VN address=148.222.95.0/24 } on-error={}
-:do { add list=VN address=148.222.243.0/24 } on-error={}
 :do { add list=VN address=149.87.153.0/24 } on-error={}
 :do { add list=VN address=149.87.169.0/24 } on-error={}
 :do { add list=VN address=149.87.181.0/24 } on-error={}
@@ -3614,6 +3614,7 @@
 :do { add list=VN address=193.186.4.135/32 } on-error={}
 :do { add list=VN address=193.186.4.156/31 } on-error={}
 :do { add list=VN address=193.203.215.0/24 } on-error={}
+:do { add list=VN address=194.34.253.0/24 } on-error={}
 :do { add list=VN address=194.77.217.0/24 } on-error={}
 :do { add list=VN address=194.110.138.0/24 } on-error={}
 :do { add list=VN address=195.86.72.0/21 } on-error={}

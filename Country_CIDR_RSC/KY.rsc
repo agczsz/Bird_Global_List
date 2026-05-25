@@ -2,7 +2,7 @@
 /ip firewall address-list
 :do { add list=KY address=5.62.56.48/30 } on-error={}
 :do { add list=KY address=5.62.58.48/30 } on-error={}
-:do { add list=KY address=5.175.190.44/31 } on-error={}
+:do { add list=KY address=5.175.190.232/29 } on-error={}
 :do { add list=KY address=23.188.0.0/24 } on-error={}
 :do { add list=KY address=45.62.191.80/28 } on-error={}
 :do { add list=KY address=63.136.112.0/21 } on-error={}
@@ -63,6 +63,7 @@
 :do { add list=KY address=104.28.233.62/31 } on-error={}
 :do { add list=KY address=104.28.233.64/31 } on-error={}
 :do { add list=KY address=104.28.233.66/32 } on-error={}
+:do { add list=KY address=134.82.73.248/29 } on-error={}
 :do { add list=KY address=136.23.22.46/32 } on-error={}
 :do { add list=KY address=136.23.26.30/32 } on-error={}
 :do { add list=KY address=138.43.115.0/24 } on-error={}

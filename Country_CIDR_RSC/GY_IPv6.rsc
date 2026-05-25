@@ -4,6 +4,7 @@
 :do { add list=GY address=2001:470:d906::/48 } on-error={}
 :do { add list=GY address=2001:470:d940::/48 } on-error={}
 :do { add list=GY address=2001:470:eaab::/48 } on-error={}
+:do { add list=GY address=2001:504:27::2802:0:1/128 } on-error={}
 :do { add list=GY address=2001:67c:a38:f592::/64 } on-error={}
 :do { add list=GY address=2001:3786:b0b1:100::/56 } on-error={}
 :do { add list=GY address=2001:4b28:d400::/40 } on-error={}
@@ -180,10 +181,6 @@
 :do { add list=GY address=2a11:29c0:3d88:ea9b::/64 } on-error={}
 :do { add list=GY address=2a11:a580:3900::/40 } on-error={}
 :do { add list=GY address=2a11:a684:2000::/36 } on-error={}
-:do { add list=GY address=2a12:bec4:12a4:a18b::/64 } on-error={}
-:do { add list=GY address=2a12:bec4:12a4:a18c::/62 } on-error={}
-:do { add list=GY address=2a12:bec4:12a4:a190::/61 } on-error={}
-:do { add list=GY address=2a12:bec4:12a4:a198::/64 } on-error={}
 :do { add list=GY address=2a12:f000:b000::/36 } on-error={}
 :do { add list=GY address=2a12:f381:d400::/40 } on-error={}
 :do { add list=GY address=2a12:f382:d400::/40 } on-error={}
@@ -211,6 +208,7 @@
 :do { add list=GY address=2a14:7581:b11:5f00::/56 } on-error={}
 :do { add list=GY address=2a14:7581:b12:5f00::/56 } on-error={}
 :do { add list=GY address=2a14:7581:b13:5f00::/56 } on-error={}
+:do { add list=GY address=2a14:7581:b14:5f00::/56 } on-error={}
 :do { add list=GY address=2a14:7581:b15:5f00::/56 } on-error={}
 :do { add list=GY address=2a14:7581:b16:5f00::/56 } on-error={}
 :do { add list=GY address=2a14:7581:b17:5f00::/56 } on-error={}

@@ -5,7 +5,6 @@
 :do { add list=GI address=5.62.62.148/30 } on-error={}
 :do { add list=GI address=5.62.92.0/23 } on-error={}
 :do { add list=GI address=5.150.152.0/23 } on-error={}
-:do { add list=GI address=5.175.190.110/31 } on-error={}
 :do { add list=GI address=23.255.14.184/29 } on-error={}
 :do { add list=GI address=23.255.47.64/29 } on-error={}
 :do { add list=GI address=23.255.71.128/29 } on-error={}

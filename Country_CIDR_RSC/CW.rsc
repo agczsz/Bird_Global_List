@@ -1,7 +1,6 @@
 /log info "Loading CW IPv4 Address List"
 /ip firewall address-list
 :do { add list=CW address=5.10.244.0/22 } on-error={}
-:do { add list=CW address=5.175.190.54/31 } on-error={}
 :do { add list=CW address=38.18.232.0/22 } on-error={}
 :do { add list=CW address=38.43.69.0/24 } on-error={}
 :do { add list=CW address=38.65.58.0/24 } on-error={}
@@ -52,6 +51,7 @@
 :do { add list=CW address=104.28.239.226/32 } on-error={}
 :do { add list=CW address=131.72.112.0/22 } on-error={}
 :do { add list=CW address=131.221.144.0/22 } on-error={}
+:do { add list=CW address=134.82.73.240/29 } on-error={}
 :do { add list=CW address=136.23.22.37/32 } on-error={}
 :do { add list=CW address=136.23.26.21/32 } on-error={}
 :do { add list=CW address=138.99.212.0/25 } on-error={}

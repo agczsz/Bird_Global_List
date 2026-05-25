@@ -254,10 +254,6 @@
 :do { add list=AI address=2a11:29c0:3d88:f409::/64 } on-error={}
 :do { add list=AI address=2a11:a580:600::/40 } on-error={}
 :do { add list=AI address=2a11:a680:2000::/36 } on-error={}
-:do { add list=AI address=2a12:bec4:12a4:b92::/63 } on-error={}
-:do { add list=AI address=2a12:bec4:12a4:b94::/62 } on-error={}
-:do { add list=AI address=2a12:bec4:12a4:b98::/61 } on-error={}
-:do { add list=AI address=2a12:bec4:12a4:ba0::/63 } on-error={}
 :do { add list=AI address=2a12:ef85:3000::/36 } on-error={}
 :do { add list=AI address=2a12:f381:8400::/40 } on-error={}
 :do { add list=AI address=2a12:f382:8400::/40 } on-error={}
@@ -274,6 +270,7 @@
 :do { add list=AI address=2a14:7581:b11:be00::/56 } on-error={}
 :do { add list=AI address=2a14:7581:b12:be00::/56 } on-error={}
 :do { add list=AI address=2a14:7581:b13:be00::/56 } on-error={}
+:do { add list=AI address=2a14:7581:b14:be00::/56 } on-error={}
 :do { add list=AI address=2a14:7581:b15:be00::/56 } on-error={}
 :do { add list=AI address=2a14:7581:b16:be00::/56 } on-error={}
 :do { add list=AI address=2a14:7581:b17:be00::/56 } on-error={}

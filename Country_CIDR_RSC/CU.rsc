@@ -93,6 +93,7 @@
 :do { add list=CU address=104.28.244.63/32 } on-error={}
 :do { add list=CU address=104.28.244.64/29 } on-error={}
 :do { add list=CU address=104.28.244.72/32 } on-error={}
+:do { add list=CU address=134.82.73.8/29 } on-error={}
 :do { add list=CU address=149.18.41.0/24 } on-error={}
 :do { add list=CU address=152.206.0.0/15 } on-error={}
 :do { add list=CU address=163.116.134.184/31 } on-error={}

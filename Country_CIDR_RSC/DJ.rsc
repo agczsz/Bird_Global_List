@@ -1,12 +1,8 @@
 /log info "Loading DJ IPv4 Address List"
 /ip firewall address-list
-:do { add list=DJ address=5.11.12.101/32 } on-error={}
-:do { add list=DJ address=5.11.12.103/32 } on-error={}
-:do { add list=DJ address=5.11.12.224/32 } on-error={}
 :do { add list=DJ address=5.62.61.97/32 } on-error={}
 :do { add list=DJ address=5.62.61.98/31 } on-error={}
 :do { add list=DJ address=5.62.63.72/30 } on-error={}
-:do { add list=DJ address=41.175.212.3/32 } on-error={}
 :do { add list=DJ address=41.189.224.0/22 } on-error={}
 :do { add list=DJ address=41.189.228.0/24 } on-error={}
 :do { add list=DJ address=41.189.229.0/24 } on-error={}
@@ -49,6 +45,10 @@
 :do { add list=DJ address=104.28.231.70/31 } on-error={}
 :do { add list=DJ address=104.28.231.72/31 } on-error={}
 :do { add list=DJ address=104.28.231.74/32 } on-error={}
+:do { add list=DJ address=105.16.20.0/23 } on-error={}
+:do { add list=DJ address=105.16.128.0/21 } on-error={}
+:do { add list=DJ address=105.18.16.0/20 } on-error={}
+:do { add list=DJ address=105.28.16.0/20 } on-error={}
 :do { add list=DJ address=136.23.0.147/32 } on-error={}
 :do { add list=DJ address=136.23.3.239/32 } on-error={}
 :do { add list=DJ address=140.248.34.70/31 } on-error={}
@@ -133,7 +133,6 @@
 :do { add list=DJ address=216.66.87.97/32 } on-error={}
 :do { add list=DJ address=216.66.87.98/32 } on-error={}
 :do { add list=DJ address=216.218.253.222/32 } on-error={}
-:do { add list=DJ address=217.15.112.218/32 } on-error={}
 :do { add list=DJ address=217.28.40.0/23 } on-error={}
 :do { add list=DJ address=223.118.3.18/32 } on-error={}
 :do { add list=DJ address=223.118.3.254/32 } on-error={}

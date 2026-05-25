@@ -2,7 +2,6 @@
 /ip firewall address-list
 :do { add list=FJ address=5.62.56.96/30 } on-error={}
 :do { add list=FJ address=5.62.58.92/30 } on-error={}
-:do { add list=FJ address=5.175.190.160/32 } on-error={}
 :do { add list=FJ address=14.137.51.0/24 } on-error={}
 :do { add list=FJ address=27.123.128.0/18 } on-error={}
 :do { add list=FJ address=45.112.224.0/22 } on-error={}

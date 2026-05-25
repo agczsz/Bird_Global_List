@@ -143,14 +143,6 @@
 :do { add list=TV address=2a11:29c0:3d88:d01e::/64 } on-error={}
 :do { add list=TV address=2a11:29c0:3d88:e452::/64 } on-error={}
 :do { add list=TV address=2a11:3a84:6000::/35 } on-error={}
-:do { add list=TV address=2a12:bec4:12a6:83fd::/64 } on-error={}
-:do { add list=TV address=2a12:bec4:12a6:83fe::/63 } on-error={}
-:do { add list=TV address=2a12:bec4:12a6:8400::/60 } on-error={}
-:do { add list=TV address=2a12:bec4:12a6:8410::/62 } on-error={}
-:do { add list=TV address=2a12:bec4:12a6:8414::/64 } on-error={}
-:do { add list=TV address=2a12:bec4:12a6:96c4::/62 } on-error={}
-:do { add list=TV address=2a12:bec4:12a6:96c8::/62 } on-error={}
-:do { add list=TV address=2a12:bec4:12a6:96cc::/64 } on-error={}
 :do { add list=TV address=2a12:f005:d000::/36 } on-error={}
 :do { add list=TV address=2a12:f381:fc00::/40 } on-error={}
 :do { add list=TV address=2a12:f382:fc00::/40 } on-error={}
@@ -181,6 +173,7 @@
 :do { add list=TV address=2a14:7581:b11:e600::/56 } on-error={}
 :do { add list=TV address=2a14:7581:b12:e600::/56 } on-error={}
 :do { add list=TV address=2a14:7581:b13:e600::/56 } on-error={}
+:do { add list=TV address=2a14:7581:b14:e600::/56 } on-error={}
 :do { add list=TV address=2a14:7581:b15:e600::/56 } on-error={}
 :do { add list=TV address=2a14:7581:b16:e600::/56 } on-error={}
 :do { add list=TV address=2a14:7581:b17:e600::/56 } on-error={}

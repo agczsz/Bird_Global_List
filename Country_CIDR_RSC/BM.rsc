@@ -2,7 +2,7 @@
 /ip firewall address-list
 :do { add list=BM address=5.62.56.36/30 } on-error={}
 :do { add list=BM address=5.62.58.36/30 } on-error={}
-:do { add list=BM address=5.175.190.52/31 } on-error={}
+:do { add list=BM address=5.175.190.200/29 } on-error={}
 :do { add list=BM address=45.15.177.60/30 } on-error={}
 :do { add list=BM address=45.15.177.124/30 } on-error={}
 :do { add list=BM address=45.89.99.60/30 } on-error={}

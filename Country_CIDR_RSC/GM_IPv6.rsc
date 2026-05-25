@@ -195,13 +195,6 @@
 :do { add list=GM address=2a11:29c0:3d88:fd10::/64 } on-error={}
 :do { add list=GM address=2a11:a683:a000::/36 } on-error={}
 :do { add list=GM address=2a11:f141:d000::/36 } on-error={}
-:do { add list=GM address=2a12:bec4:12a5:85eb::/64 } on-error={}
-:do { add list=GM address=2a12:bec4:12a5:85ec::/62 } on-error={}
-:do { add list=GM address=2a12:bec4:12a5:85f0::/60 } on-error={}
-:do { add list=GM address=2a12:bec4:12a5:8600::/58 } on-error={}
-:do { add list=GM address=2a12:bec4:12a5:8640::/60 } on-error={}
-:do { add list=GM address=2a12:bec4:12a5:8650::/63 } on-error={}
-:do { add list=GM address=2a12:bec4:12a5:8652::/64 } on-error={}
 :do { add list=GM address=2a12:f000:3000::/36 } on-error={}
 :do { add list=GM address=2a12:f381:cd00::/40 } on-error={}
 :do { add list=GM address=2a12:f382:cd00::/40 } on-error={}
@@ -232,6 +225,7 @@
 :do { add list=GM address=2a14:7581:b11:5200::/56 } on-error={}
 :do { add list=GM address=2a14:7581:b12:5200::/56 } on-error={}
 :do { add list=GM address=2a14:7581:b13:5200::/56 } on-error={}
+:do { add list=GM address=2a14:7581:b14:5200::/56 } on-error={}
 :do { add list=GM address=2a14:7581:b15:5200::/56 } on-error={}
 :do { add list=GM address=2a14:7581:b16:5200::/56 } on-error={}
 :do { add list=GM address=2a14:7581:b17:5200::/56 } on-error={}

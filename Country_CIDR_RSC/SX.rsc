@@ -1,6 +1,6 @@
 /log info "Loading SX IPv4 Address List"
 /ip firewall address-list
-:do { add list=SX address=5.175.190.60/32 } on-error={}
+:do { add list=SX address=5.175.190.96/30 } on-error={}
 :do { add list=SX address=65.198.230.0/24 } on-error={}
 :do { add list=SX address=65.208.123.136/30 } on-error={}
 :do { add list=SX address=65.217.50.0/24 } on-error={}
@@ -53,10 +53,7 @@
 :do { add list=SX address=190.4.152.113/32 } on-error={}
 :do { add list=SX address=190.4.175.10/32 } on-error={}
 :do { add list=SX address=190.102.0.0/19 } on-error={}
-:do { add list=SX address=190.123.16.128/29 } on-error={}
-:do { add list=SX address=190.123.16.136/32 } on-error={}
-:do { add list=SX address=190.123.16.138/31 } on-error={}
-:do { add list=SX address=190.123.16.140/30 } on-error={}
+:do { add list=SX address=190.123.16.128/28 } on-error={}
 :do { add list=SX address=190.124.216.0/22 } on-error={}
 :do { add list=SX address=190.185.88.0/22 } on-error={}
 :do { add list=SX address=190.185.92.0/23 } on-error={}

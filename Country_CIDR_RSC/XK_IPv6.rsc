@@ -163,7 +163,6 @@
 :do { add list=XK address=2620:0:1cff:dead:bef1:100:12:541/128 } on-error={}
 :do { add list=XK address=2620:0:1cff:dead:bef1:100:13:28b/128 } on-error={}
 :do { add list=XK address=2620:0:1cff:dead:bef1:100:14:104/128 } on-error={}
-:do { add list=XK address=2620:0:1cff:dead:bef1:100:14:53f/128 } on-error={}
 :do { add list=XK address=2a00:73a0::/32 } on-error={}
 :do { add list=XK address=2a02:26f7:dc80:d887::/64 } on-error={}
 :do { add list=XK address=2a02:26f7:dc80:d8a2::/64 } on-error={}

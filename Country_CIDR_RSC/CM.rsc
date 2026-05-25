@@ -20,7 +20,6 @@
 :do { add list=CM address=23.255.95.16/29 } on-error={}
 :do { add list=CM address=23.255.99.32/29 } on-error={}
 :do { add list=CM address=23.255.99.48/29 } on-error={}
-:do { add list=CM address=38.109.102.0/24 } on-error={}
 :do { add list=CM address=38.110.123.0/24 } on-error={}
 :do { add list=CM address=41.77.80.0/22 } on-error={}
 :do { add list=CM address=41.77.84.0/24 } on-error={}

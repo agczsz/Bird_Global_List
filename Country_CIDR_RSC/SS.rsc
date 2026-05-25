@@ -73,6 +73,7 @@
 :do { add list=SS address=105.235.209.80/28 } on-error={}
 :do { add list=SS address=105.235.209.96/27 } on-error={}
 :do { add list=SS address=105.235.209.128/25 } on-error={}
+:do { add list=SS address=105.235.210.24/30 } on-error={}
 :do { add list=SS address=105.235.211.0/28 } on-error={}
 :do { add list=SS address=105.235.211.16/30 } on-error={}
 :do { add list=SS address=105.235.211.20/32 } on-error={}
@@ -88,6 +89,7 @@
 :do { add list=SS address=105.235.211.160/28 } on-error={}
 :do { add list=SS address=105.235.211.176/30 } on-error={}
 :do { add list=SS address=105.235.211.180/31 } on-error={}
+:do { add list=SS address=105.235.211.182/32 } on-error={}
 :do { add list=SS address=105.235.211.184/29 } on-error={}
 :do { add list=SS address=105.235.211.192/26 } on-error={}
 :do { add list=SS address=105.235.212.0/28 } on-error={}

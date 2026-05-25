@@ -916,13 +916,6 @@
 :do { add list=AF address=2a11:a580:100::/40 } on-error={}
 :do { add list=AF address=2a11:a680::/36 } on-error={}
 :do { add list=AF address=2a11:f143:f000::/36 } on-error={}
-:do { add list=AF address=2a12:bec4:12a6:806::/63 } on-error={}
-:do { add list=AF address=2a12:bec4:12a6:808::/61 } on-error={}
-:do { add list=AF address=2a12:bec4:12a6:810::/60 } on-error={}
-:do { add list=AF address=2a12:bec4:12a6:820::/59 } on-error={}
-:do { add list=AF address=2a12:bec4:12a6:840::/59 } on-error={}
-:do { add list=AF address=2a12:bec4:12a6:860::/64 } on-error={}
-:do { add list=AF address=2a12:bec4:12a6:2916::/64 } on-error={}
 :do { add list=AF address=2a12:ef85:1000::/36 } on-error={}
 :do { add list=AF address=2a12:f381:8200::/40 } on-error={}
 :do { add list=AF address=2a12:f382:8200::/40 } on-error={}
@@ -978,6 +971,7 @@
 :do { add list=AF address=2a14:7581:b11:100::/56 } on-error={}
 :do { add list=AF address=2a14:7581:b12:100::/56 } on-error={}
 :do { add list=AF address=2a14:7581:b13:100::/56 } on-error={}
+:do { add list=AF address=2a14:7581:b14:100::/56 } on-error={}
 :do { add list=AF address=2a14:7581:b15:100::/56 } on-error={}
 :do { add list=AF address=2a14:7581:b16:100::/56 } on-error={}
 :do { add list=AF address=2a14:7581:b17:100::/56 } on-error={}

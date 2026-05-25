@@ -186,6 +186,7 @@
 :do { add list=AS address=2001:470:2900::/48 } on-error={}
 :do { add list=AS address=2001:470:291d::/48 } on-error={}
 :do { add list=AS address=2001:470:291e::/48 } on-error={}
+:do { add list=AS address=2001:470:300a::/48 } on-error={}
 :do { add list=AS address=2001:470:39cf::/48 } on-error={}
 :do { add list=AS address=2001:470:4091::/48 } on-error={}
 :do { add list=AS address=2001:470:4843::/48 } on-error={}
@@ -212,7 +213,6 @@
 :do { add list=AS address=2001:470:497c::/48 } on-error={}
 :do { add list=AS address=2001:470:4983::/48 } on-error={}
 :do { add list=AS address=2001:470:49a0::/48 } on-error={}
-:do { add list=AS address=2001:470:5101::/48 } on-error={}
 :do { add list=AS address=2001:470:5808::/48 } on-error={}
 :do { add list=AS address=2001:470:62e3::/48 } on-error={}
 :do { add list=AS address=2001:470:6984::/48 } on-error={}
@@ -468,11 +468,6 @@
 :do { add list=AS address=2a11:29c0:3d88:f1e7::/64 } on-error={}
 :do { add list=AS address=2a11:29c0:3d88:f5cb::/64 } on-error={}
 :do { add list=AS address=2a11:a680:7000::/36 } on-error={}
-:do { add list=AS address=2a12:bec4:12a6:8318::/61 } on-error={}
-:do { add list=AS address=2a12:bec4:12a6:8320::/60 } on-error={}
-:do { add list=AS address=2a12:bec4:12a6:9566::/63 } on-error={}
-:do { add list=AS address=2a12:bec4:12a6:9568::/61 } on-error={}
-:do { add list=AS address=2a12:bec4:12a6:9570::/62 } on-error={}
 :do { add list=AS address=2a12:ef85:7000::/36 } on-error={}
 :do { add list=AS address=2a12:f381:8a00::/40 } on-error={}
 :do { add list=AS address=2a12:f382:8a00::/40 } on-error={}
@@ -490,6 +485,7 @@
 :do { add list=AS address=2a14:7581:b11:500::/56 } on-error={}
 :do { add list=AS address=2a14:7581:b12:500::/56 } on-error={}
 :do { add list=AS address=2a14:7581:b13:500::/56 } on-error={}
+:do { add list=AS address=2a14:7581:b14:500::/56 } on-error={}
 :do { add list=AS address=2a14:7581:b15:500::/56 } on-error={}
 :do { add list=AS address=2a14:7581:b16:500::/56 } on-error={}
 :do { add list=AS address=2a14:7581:b17:500::/56 } on-error={}
