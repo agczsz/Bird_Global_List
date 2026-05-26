@@ -5,6 +5,7 @@
 :do { add list=GE address=2001:470:26:39a::/64 } on-error={}
 :do { add list=GE address=2001:470:26:427::/64 } on-error={}
 :do { add list=GE address=2001:470:26:747::/64 } on-error={}
+:do { add list=GE address=2001:470:26:7a8::/64 } on-error={}
 :do { add list=GE address=2001:470:26:922::/64 } on-error={}
 :do { add list=GE address=2001:470:28:121::/64 } on-error={}
 :do { add list=GE address=2001:470:28:8a4::/64 } on-error={}

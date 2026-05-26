@@ -687,6 +687,7 @@
 :do { add list=BS address=2a14:7581:be0:b00::/58 } on-error={}
 :do { add list=BS address=2a14:7581:3b17::/48 } on-error={}
 :do { add list=BS address=2a14:7584:e015::/48 } on-error={}
+:do { add list=BS address=2a14:7584:e3f8::/48 } on-error={}
 :do { add list=BS address=2a14:7584:e400::/48 } on-error={}
 :do { add list=BS address=2a14:7584:e732::/47 } on-error={}
 :do { add list=BS address=2a14:7584:e930::/44 } on-error={}

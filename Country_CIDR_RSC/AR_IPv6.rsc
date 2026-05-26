@@ -336,7 +336,7 @@
 :do { add list=AR address=2001:13b1:e000::/35 } on-error={}
 :do { add list=AR address=2001:13b2::/34 } on-error={}
 :do { add list=AR address=2001:13b4::/48 } on-error={}
-:do { add list=AR address=2001:13b4:1::/48 } on-error={}
+:do { add list=AR address=2001:13b4:1::/64 } on-error={}
 :do { add list=AR address=2001:13b4:2::/47 } on-error={}
 :do { add list=AR address=2001:13b4:4::/46 } on-error={}
 :do { add list=AR address=2001:13b4:8::/45 } on-error={}

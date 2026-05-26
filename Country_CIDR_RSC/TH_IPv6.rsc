@@ -462,6 +462,7 @@
 :do { add list=TH address=2001:470:ed57::/48 } on-error={}
 :do { add list=TH address=2001:470:ed79::/48 } on-error={}
 :do { add list=TH address=2001:470:ed80::/48 } on-error={}
+:do { add list=TH address=2001:470:ee97::/48 } on-error={}
 :do { add list=TH address=2001:470:eec5::/48 } on-error={}
 :do { add list=TH address=2001:470:eecf::/48 } on-error={}
 :do { add list=TH address=2001:470:eef1::/48 } on-error={}

@@ -209,7 +209,13 @@
 :do { add list=GE address=91.207.180.60/30 } on-error={}
 :do { add list=GE address=91.207.180.64/26 } on-error={}
 :do { add list=GE address=91.207.180.128/25 } on-error={}
-:do { add list=GE address=91.207.181.0/24 } on-error={}
+:do { add list=GE address=91.207.181.0/25 } on-error={}
+:do { add list=GE address=91.207.181.128/26 } on-error={}
+:do { add list=GE address=91.207.181.192/28 } on-error={}
+:do { add list=GE address=91.207.181.208/31 } on-error={}
+:do { add list=GE address=91.207.181.212/30 } on-error={}
+:do { add list=GE address=91.207.181.216/29 } on-error={}
+:do { add list=GE address=91.207.181.224/27 } on-error={}
 :do { add list=GE address=91.208.144.0/24 } on-error={}
 :do { add list=GE address=91.209.131.0/24 } on-error={}
 :do { add list=GE address=91.211.86.0/24 } on-error={}

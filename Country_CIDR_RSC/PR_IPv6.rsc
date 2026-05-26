@@ -779,6 +779,7 @@
 :do { add list=PR address=2605:ba00:4128:a00::/56 } on-error={}
 :do { add list=PR address=2605:ba00:4128:c00::/54 } on-error={}
 :do { add list=PR address=2605:ba00:4207::/48 } on-error={}
+:do { add list=PR address=2605:ba00:4208::/56 } on-error={}
 :do { add list=PR address=2605:ba00:4208:200::/56 } on-error={}
 :do { add list=PR address=2605:ba00:4208:400::/55 } on-error={}
 :do { add list=PR address=2605:ba00:4208:700::/56 } on-error={}

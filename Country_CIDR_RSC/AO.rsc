@@ -8,7 +8,6 @@
 :do { add list=AO address=41.70.128.0/17 } on-error={}
 :do { add list=AO address=41.74.240.0/20 } on-error={}
 :do { add list=AO address=41.78.16.0/22 } on-error={}
-:do { add list=AO address=41.194.72.0/24 } on-error={}
 :do { add list=AO address=41.205.32.0/19 } on-error={}
 :do { add list=AO address=41.210.192.0/18 } on-error={}
 :do { add list=AO address=41.216.236.0/22 } on-error={}

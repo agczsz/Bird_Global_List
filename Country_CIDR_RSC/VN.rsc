@@ -2123,7 +2123,9 @@
 :do { add list=VN address=116.102.0.0/19 } on-error={}
 :do { add list=VN address=116.102.32.0/20 } on-error={}
 :do { add list=VN address=116.102.48.0/20 } on-error={}
-:do { add list=VN address=116.102.64.0/19 } on-error={}
+:do { add list=VN address=116.102.64.0/20 } on-error={}
+:do { add list=VN address=116.102.80.0/21 } on-error={}
+:do { add list=VN address=116.102.88.0/21 } on-error={}
 :do { add list=VN address=116.102.96.0/20 } on-error={}
 :do { add list=VN address=116.102.112.0/20 } on-error={}
 :do { add list=VN address=116.102.128.0/19 } on-error={}
@@ -2211,8 +2213,7 @@
 :do { add list=VN address=116.106.24.0/22 } on-error={}
 :do { add list=VN address=116.106.28.0/22 } on-error={}
 :do { add list=VN address=116.106.32.0/21 } on-error={}
-:do { add list=VN address=116.106.40.0/22 } on-error={}
-:do { add list=VN address=116.106.44.0/22 } on-error={}
+:do { add list=VN address=116.106.40.0/21 } on-error={}
 :do { add list=VN address=116.106.48.0/20 } on-error={}
 :do { add list=VN address=116.106.64.0/20 } on-error={}
 :do { add list=VN address=116.106.80.0/21 } on-error={}
@@ -2250,8 +2251,7 @@
 :do { add list=VN address=116.108.160.0/21 } on-error={}
 :do { add list=VN address=116.108.168.0/21 } on-error={}
 :do { add list=VN address=116.108.176.0/21 } on-error={}
-:do { add list=VN address=116.108.184.0/22 } on-error={}
-:do { add list=VN address=116.108.188.0/22 } on-error={}
+:do { add list=VN address=116.108.184.0/21 } on-error={}
 :do { add list=VN address=116.108.192.0/21 } on-error={}
 :do { add list=VN address=116.108.200.0/21 } on-error={}
 :do { add list=VN address=116.108.208.0/20 } on-error={}

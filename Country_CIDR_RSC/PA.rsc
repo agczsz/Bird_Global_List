@@ -247,7 +247,6 @@
 :do { add list=PA address=66.96.39.0/24 } on-error={}
 :do { add list=PA address=66.96.40.0/23 } on-error={}
 :do { add list=PA address=66.119.81.0/25 } on-error={}
-:do { add list=PA address=66.205.29.0/24 } on-error={}
 :do { add list=PA address=66.250.250.193/32 } on-error={}
 :do { add list=PA address=66.250.250.194/32 } on-error={}
 :do { add list=PA address=67.17.202.0/23 } on-error={}
