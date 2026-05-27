@@ -213,8 +213,6 @@
 :do { add list=PS address=2a06:9f81:39b5::/48 } on-error={}
 :do { add list=PS address=2a06:9f81:43ef:b800::/56 } on-error={}
 :do { add list=PS address=2a06:9f81:56b5::/48 } on-error={}
-:do { add list=PS address=2a06:c701:4f78::/47 } on-error={}
-:do { add list=PS address=2a06:c701:4f7a::/48 } on-error={}
 :do { add list=PS address=2a06:c701:4f80::/45 } on-error={}
 :do { add list=PS address=2a06:c701:4f88::/50 } on-error={}
 :do { add list=PS address=2a06:c701:4f88:4000::/52 } on-error={}

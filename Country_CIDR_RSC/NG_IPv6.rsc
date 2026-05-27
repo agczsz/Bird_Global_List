@@ -517,6 +517,7 @@
 :do { add list=NG address=2620:0:1078::/48 } on-error={}
 :do { add list=NG address=2620:0:1c00:3f::/64 } on-error={}
 :do { add list=NG address=2620:0:1cff:dead:beee::2706/128 } on-error={}
+:do { add list=NG address=2620:0:1cff:dead:beef::25a4/128 } on-error={}
 :do { add list=NG address=2620:0:1cff:dead:beef::2bac/127 } on-error={}
 :do { add list=NG address=2620:0:1cff:dead:beef::2baf/128 } on-error={}
 :do { add list=NG address=2620:0:1cff:dead:beef::2bb0/126 } on-error={}
@@ -541,8 +542,6 @@
 :do { add list=NG address=2620:0:1cff:dead:beef::2d60/127 } on-error={}
 :do { add list=NG address=2620:0:1cff:dead:beef::2dc8/126 } on-error={}
 :do { add list=NG address=2620:0:1cff:dead:beef::2dcc/127 } on-error={}
-:do { add list=NG address=2620:0:1cff:dead:beef::332c/127 } on-error={}
-:do { add list=NG address=2620:0:1cff:dead:beef::332f/128 } on-error={}
 :do { add list=NG address=2620:0:1cff:dead:beef::36d3/128 } on-error={}
 :do { add list=NG address=2620:0:1cff:dead:beef::36d8/126 } on-error={}
 :do { add list=NG address=2620:0:1cff:dead:beef::36e0/127 } on-error={}

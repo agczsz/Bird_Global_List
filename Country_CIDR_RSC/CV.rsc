@@ -22,7 +22,16 @@
 :do { add list=CV address=102.216.132.0/24 } on-error={}
 :do { add list=CV address=102.219.86.0/23 } on-error={}
 :do { add list=CV address=102.220.164.0/22 } on-error={}
-:do { add list=CV address=102.222.140.0/22 } on-error={}
+:do { add list=CV address=102.222.140.0/24 } on-error={}
+:do { add list=CV address=102.222.141.0/25 } on-error={}
+:do { add list=CV address=102.222.141.128/27 } on-error={}
+:do { add list=CV address=102.222.141.160/30 } on-error={}
+:do { add list=CV address=102.222.141.165/32 } on-error={}
+:do { add list=CV address=102.222.141.166/31 } on-error={}
+:do { add list=CV address=102.222.141.168/29 } on-error={}
+:do { add list=CV address=102.222.141.176/28 } on-error={}
+:do { add list=CV address=102.222.141.192/26 } on-error={}
+:do { add list=CV address=102.222.142.0/23 } on-error={}
 :do { add list=CV address=104.28.9.60/31 } on-error={}
 :do { add list=CV address=104.28.9.62/32 } on-error={}
 :do { add list=CV address=104.28.34.15/32 } on-error={}

@@ -1,5 +1,6 @@
 /log info "Loading KP IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=KP address=2001:288:6414:2902::/64 } on-error={}
 :do { add list=KP address=2001:470:8:ce::/64 } on-error={}
 :do { add list=KP address=2001:470:8:442::/64 } on-error={}
 :do { add list=KP address=2001:470:8:5b4::/64 } on-error={}
@@ -191,6 +192,7 @@
 :do { add list=KP address=2001:470:36:4c3::/64 } on-error={}
 :do { add list=KP address=2001:470:36:4d6::/64 } on-error={}
 :do { add list=KP address=2001:470:36:4ed::/64 } on-error={}
+:do { add list=KP address=2001:470:36:5a0::/64 } on-error={}
 :do { add list=KP address=2001:470:36:5d1::/64 } on-error={}
 :do { add list=KP address=2001:470:36:660::/64 } on-error={}
 :do { add list=KP address=2001:470:36:66e::/64 } on-error={}

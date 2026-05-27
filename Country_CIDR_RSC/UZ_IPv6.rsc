@@ -47,7 +47,6 @@
 :do { add list=UZ address=2001:470:1f13:d4f::/64 } on-error={}
 :do { add list=UZ address=2001:470:1f13:f2e::/64 } on-error={}
 :do { add list=UZ address=2001:470:1f15:13d::/64 } on-error={}
-:do { add list=UZ address=2001:470:1f15:143::/64 } on-error={}
 :do { add list=UZ address=2001:470:1f15:1dd::/64 } on-error={}
 :do { add list=UZ address=2001:470:1f15:3a7::/64 } on-error={}
 :do { add list=UZ address=2001:470:1f15:ae5::/64 } on-error={}

@@ -23,6 +23,7 @@
 :do { add list=VA address=2001:470:73b1::/48 } on-error={}
 :do { add list=VA address=2001:470:7440::/48 } on-error={}
 :do { add list=VA address=2001:470:80a2::/48 } on-error={}
+:do { add list=VA address=2001:470:b727::/48 } on-error={}
 :do { add list=VA address=2001:470:ca7d::/48 } on-error={}
 :do { add list=VA address=2001:470:dfa4::/48 } on-error={}
 :do { add list=VA address=2001:470:ef92::/48 } on-error={}

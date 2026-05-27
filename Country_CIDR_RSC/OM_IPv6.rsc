@@ -992,7 +992,11 @@
 :do { add list=OM address=2620:0:1cff:dead:beef::18e4/128 } on-error={}
 :do { add list=OM address=2620:0:1cff:dead:beef::1cef/128 } on-error={}
 :do { add list=OM address=2620:0:1cff:dead:beef::1d14/128 } on-error={}
-:do { add list=OM address=2620:0:1cff:dead:beef::25bb/128 } on-error={}
+:do { add list=OM address=2620:0:1cff:dead:beef::22c9/128 } on-error={}
+:do { add list=OM address=2620:0:1cff:dead:beef::23ed/128 } on-error={}
+:do { add list=OM address=2620:0:1cff:dead:beef::2536/127 } on-error={}
+:do { add list=OM address=2620:0:1cff:dead:beef::25ba/127 } on-error={}
+:do { add list=OM address=2620:0:1cff:dead:beef::25bc/126 } on-error={}
 :do { add list=OM address=2620:0:1cff:dead:beef::29f0/127 } on-error={}
 :do { add list=OM address=2620:0:1cff:dead:beef::2a75/128 } on-error={}
 :do { add list=OM address=2620:0:1cff:dead:beef::2a78/127 } on-error={}

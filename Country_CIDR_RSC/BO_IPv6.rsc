@@ -395,6 +395,7 @@
 :do { add list=BO address=2800:cd0:4000::/34 } on-error={}
 :do { add list=BO address=2800:cd0:8000::/33 } on-error={}
 :do { add list=BO address=2800:2502:2:b000::/56 } on-error={}
+:do { add list=BO address=2800:2502:6:8500::/56 } on-error={}
 :do { add list=BO address=2800:2502:6:a100::/56 } on-error={}
 :do { add list=BO address=2801:0:170::/48 } on-error={}
 :do { add list=BO address=2801:10:2800::/48 } on-error={}

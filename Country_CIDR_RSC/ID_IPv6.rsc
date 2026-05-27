@@ -571,7 +571,6 @@
 :do { add list=ID address=2001:470:1f09:bfc::/64 } on-error={}
 :do { add list=ID address=2001:470:1f09:d52::/64 } on-error={}
 :do { add list=ID address=2001:470:1f0b:e3::/64 } on-error={}
-:do { add list=ID address=2001:470:1f0b:177::/64 } on-error={}
 :do { add list=ID address=2001:470:1f0b:1fe::/64 } on-error={}
 :do { add list=ID address=2001:470:1f0b:230::/64 } on-error={}
 :do { add list=ID address=2001:470:1f0b:3b1::/64 } on-error={}
@@ -729,7 +728,6 @@
 :do { add list=ID address=2001:470:6073::/48 } on-error={}
 :do { add list=ID address=2001:470:6a08::/48 } on-error={}
 :do { add list=ID address=2001:470:6bd8::/48 } on-error={}
-:do { add list=ID address=2001:470:7099::/48 } on-error={}
 :do { add list=ID address=2001:470:74b3::/48 } on-error={}
 :do { add list=ID address=2001:470:751c::/48 } on-error={}
 :do { add list=ID address=2001:470:7606::/48 } on-error={}
@@ -9578,7 +9576,7 @@
 :do { add list=ID address=2620:0:1cff:dead:beef::f20/128 } on-error={}
 :do { add list=ID address=2620:0:1cff:dead:beef::1026/128 } on-error={}
 :do { add list=ID address=2620:0:1cff:dead:beef::1a72/128 } on-error={}
-:do { add list=ID address=2620:0:1cff:dead:beef::246b/128 } on-error={}
+:do { add list=ID address=2620:0:1cff:dead:beef::246a/127 } on-error={}
 :do { add list=ID address=2620:0:1cff:dead:beef::2773/128 } on-error={}
 :do { add list=ID address=2620:0:1cff:dead:beef::2780/127 } on-error={}
 :do { add list=ID address=2620:0:1cff:dead:beef::2798/126 } on-error={}
@@ -9744,13 +9742,11 @@
 :do { add list=ID address=2620:0:1cff:dead:beef::90c1/128 } on-error={}
 :do { add list=ID address=2620:0:1cff:dead:beef::90c3/128 } on-error={}
 :do { add list=ID address=2620:0:1cff:dead:beef::90c5/128 } on-error={}
-:do { add list=ID address=2620:0:1cff:dead:beef::921a/127 } on-error={}
-:do { add list=ID address=2620:0:1cff:dead:beef::921c/127 } on-error={}
+:do { add list=ID address=2620:0:1cff:dead:beef::921c/128 } on-error={}
 :do { add list=ID address=2620:0:1cff:dead:beef::921e/128 } on-error={}
 :do { add list=ID address=2620:0:1cff:dead:beef::9220/128 } on-error={}
-:do { add list=ID address=2620:0:1cff:dead:beef::9222/127 } on-error={}
-:do { add list=ID address=2620:0:1cff:dead:beef::9224/126 } on-error={}
-:do { add list=ID address=2620:0:1cff:dead:beef::9228/127 } on-error={}
+:do { add list=ID address=2620:0:1cff:dead:beef::9224/128 } on-error={}
+:do { add list=ID address=2620:0:1cff:dead:beef::9226/128 } on-error={}
 :do { add list=ID address=2620:0:1cff:dead:beef::922b/128 } on-error={}
 :do { add list=ID address=2620:0:1cff:dead:beef::922d/128 } on-error={}
 :do { add list=ID address=2620:0:1cff:dead:beef::922f/128 } on-error={}
@@ -9785,12 +9781,10 @@
 :do { add list=ID address=2620:0:1cff:dead:beef::9295/128 } on-error={}
 :do { add list=ID address=2620:0:1cff:dead:beef::9297/128 } on-error={}
 :do { add list=ID address=2620:0:1cff:dead:beef::9299/128 } on-error={}
-:do { add list=ID address=2620:0:1cff:dead:beef::929b/128 } on-error={}
 :do { add list=ID address=2620:0:1cff:dead:beef::929d/128 } on-error={}
 :do { add list=ID address=2620:0:1cff:dead:beef::929f/128 } on-error={}
 :do { add list=ID address=2620:0:1cff:dead:beef::92a1/128 } on-error={}
 :do { add list=ID address=2620:0:1cff:dead:beef::92a3/128 } on-error={}
-:do { add list=ID address=2620:0:1cff:dead:beef::92a5/128 } on-error={}
 :do { add list=ID address=2620:0:1cff:dead:beef::92a7/128 } on-error={}
 :do { add list=ID address=2620:0:1cff:dead:beef::92a9/128 } on-error={}
 :do { add list=ID address=2620:0:1cff:dead:beef::92ab/128 } on-error={}
@@ -9806,7 +9800,6 @@
 :do { add list=ID address=2620:0:1cff:dead:beef::92bf/128 } on-error={}
 :do { add list=ID address=2620:0:1cff:dead:beef::92c1/128 } on-error={}
 :do { add list=ID address=2620:0:1cff:dead:beef::92c3/128 } on-error={}
-:do { add list=ID address=2620:0:1cff:dead:beef::92c5/128 } on-error={}
 :do { add list=ID address=2620:0:1cff:dead:beef::92c7/128 } on-error={}
 :do { add list=ID address=2620:0:1cff:dead:beef::92c9/128 } on-error={}
 :do { add list=ID address=2620:0:1cff:dead:beef::92d3/128 } on-error={}

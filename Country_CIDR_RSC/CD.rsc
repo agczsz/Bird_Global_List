@@ -311,7 +311,6 @@
 :do { add list=CD address=63.246.41.64/26 } on-error={}
 :do { add list=CD address=66.102.35.0/26 } on-error={}
 :do { add list=CD address=74.244.82.0/24 } on-error={}
-:do { add list=CD address=77.70.157.200/29 } on-error={}
 :do { add list=CD address=77.246.60.0/24 } on-error={}
 :do { add list=CD address=80.15.242.0/24 } on-error={}
 :do { add list=CD address=88.202.55.0/24 } on-error={}

@@ -1917,8 +1917,7 @@
 :do { add list=CL address=2600:9000:1eab::/64 } on-error={}
 :do { add list=CL address=2600:f0f0:6026::/48 } on-error={}
 :do { add list=CL address=2602:2a9:fb0::/44 } on-error={}
-:do { add list=CL address=2602:801:f009::/50 } on-error={}
-:do { add list=CL address=2602:801:f009:c000::/50 } on-error={}
+:do { add list=CL address=2602:801:f009::/48 } on-error={}
 :do { add list=CL address=2602:f5c1:33::/48 } on-error={}
 :do { add list=CL address=2602:fa80:1c::/48 } on-error={}
 :do { add list=CL address=2602:fa80:41::/48 } on-error={}
@@ -2377,6 +2376,7 @@
 :do { add list=CL address=2620:0:1cff:dead:beef::1f5f/128 } on-error={}
 :do { add list=CL address=2620:0:1cff:dead:beef::1f63/128 } on-error={}
 :do { add list=CL address=2620:0:1cff:dead:beef::1fab/128 } on-error={}
+:do { add list=CL address=2620:0:1cff:dead:beef::2443/128 } on-error={}
 :do { add list=CL address=2620:0:1cff:dead:beef::2e9c/127 } on-error={}
 :do { add list=CL address=2620:0:1cff:dead:beef::34f6/128 } on-error={}
 :do { add list=CL address=2620:0:1cff:dead:beef::350e/127 } on-error={}

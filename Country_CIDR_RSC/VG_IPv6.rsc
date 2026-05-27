@@ -501,11 +501,6 @@
 :do { add list=VG address=2605:7a80:120::/43 } on-error={}
 :do { add list=VG address=2605:7a80:140::/42 } on-error={}
 :do { add list=VG address=2605:7a80:180::/41 } on-error={}
-:do { add list=VG address=2605:7a80:214::/46 } on-error={}
-:do { add list=VG address=2605:7a80:218::/45 } on-error={}
-:do { add list=VG address=2605:7a80:220::/43 } on-error={}
-:do { add list=VG address=2605:7a80:240::/42 } on-error={}
-:do { add list=VG address=2605:7a80:280::/41 } on-error={}
 :do { add list=VG address=2605:7a80:300::/40 } on-error={}
 :do { add list=VG address=2605:7a80:400::/38 } on-error={}
 :do { add list=VG address=2605:7a80:800::/37 } on-error={}
