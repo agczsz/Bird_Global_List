@@ -144,6 +144,7 @@
 :do { add list=KP address=2001:470:24:336::/64 } on-error={}
 :do { add list=KP address=2001:470:24:377::/64 } on-error={}
 :do { add list=KP address=2001:470:24:3bd::/64 } on-error={}
+:do { add list=KP address=2001:470:24:435::/64 } on-error={}
 :do { add list=KP address=2001:470:24:4e2::/64 } on-error={}
 :do { add list=KP address=2001:470:24:522::/64 } on-error={}
 :do { add list=KP address=2001:470:24:524::/64 } on-error={}

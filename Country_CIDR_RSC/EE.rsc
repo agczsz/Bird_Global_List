@@ -49,6 +49,7 @@
 :do { add list=EE address=23.161.104.128/32 } on-error={}
 :do { add list=EE address=23.230.179.0/24 } on-error={}
 :do { add list=EE address=31.24.56.0/21 } on-error={}
+:do { add list=EE address=31.57.25.0/24 } on-error={}
 :do { add list=EE address=31.77.254.0/24 } on-error={}
 :do { add list=EE address=31.213.216.0/23 } on-error={}
 :do { add list=EE address=31.213.218.0/24 } on-error={}

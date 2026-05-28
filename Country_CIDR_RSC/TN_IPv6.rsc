@@ -427,7 +427,6 @@
 :do { add list=TN address=2a14:7581:b17:e200::/56 } on-error={}
 :do { add list=TN address=2a14:7581:be0:c500::/58 } on-error={}
 :do { add list=TN address=2a14:7581:3be9::/48 } on-error={}
-:do { add list=TN address=2a14:7584:e7a3::/48 } on-error={}
 :do { add list=TN address=2a14:7584:e800:2100::/56 } on-error={}
 :do { add list=TN address=2a14:7585:f533::/48 } on-error={}
 :do { add list=TN address=2a14:c380:7fb::/48 } on-error={}

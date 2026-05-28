@@ -24,10 +24,10 @@
 :do { add list=MC address=2001:470:1f1d:ea::/64 } on-error={}
 :do { add list=MC address=2001:470:1f1d:806::/64 } on-error={}
 :do { add list=MC address=2001:470:1f27:39::/64 } on-error={}
+:do { add list=MC address=2001:470:221c::/48 } on-error={}
 :do { add list=MC address=2001:470:6d24::/48 } on-error={}
 :do { add list=MC address=2001:470:747a::/48 } on-error={}
 :do { add list=MC address=2001:470:757f::/48 } on-error={}
-:do { add list=MC address=2001:470:80d0::/48 } on-error={}
 :do { add list=MC address=2001:470:b420::/48 } on-error={}
 :do { add list=MC address=2001:470:b528::/48 } on-error={}
 :do { add list=MC address=2001:470:c97d::/48 } on-error={}

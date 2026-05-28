@@ -42846,8 +42846,12 @@
 :do { add list=UY address=2804:9906::/31 } on-error={}
 :do { add list=UY address=2804:9909::/32 } on-error={}
 :do { add list=UY address=2804:990a::/31 } on-error={}
-:do { add list=UY address=2804:990c::/30 } on-error={}
-:do { add list=UY address=2804:9910::/28 } on-error={}
+:do { add list=UY address=2804:990d::/32 } on-error={}
+:do { add list=UY address=2804:990e::/31 } on-error={}
+:do { add list=UY address=2804:9911::/32 } on-error={}
+:do { add list=UY address=2804:9912::/31 } on-error={}
+:do { add list=UY address=2804:9914::/30 } on-error={}
+:do { add list=UY address=2804:9918::/29 } on-error={}
 :do { add list=UY address=2804:9920::/27 } on-error={}
 :do { add list=UY address=2804:9940::/26 } on-error={}
 :do { add list=UY address=2804:9980::/25 } on-error={}

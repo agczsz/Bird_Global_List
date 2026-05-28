@@ -200,5 +200,4 @@
 :do { add list=KY address=2a14:7581:b17:2700::/56 } on-error={}
 :do { add list=KY address=2a14:7581:3b30::/48 } on-error={}
 :do { add list=KY address=2a14:7584:e6c0::/43 } on-error={}
-:do { add list=KY address=2a14:7584:e72c::/47 } on-error={}
 :do { add list=KY address=2a14:7585:f116::/48 } on-error={}

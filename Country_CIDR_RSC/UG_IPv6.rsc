@@ -1,5 +1,6 @@
 /log info "Loading UG IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=UG address=2001:470:19:2c8::/64 } on-error={}
 :do { add list=UG address=2001:470:19:344::/64 } on-error={}
 :do { add list=UG address=2001:470:19:5b8::/64 } on-error={}
 :do { add list=UG address=2001:470:19:f7b::/64 } on-error={}

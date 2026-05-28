@@ -2351,9 +2351,7 @@
 :do { add list=IQ address=2a12:f382:6000::/40 } on-error={}
 :do { add list=IQ address=2a12:f680::/41 } on-error={}
 :do { add list=IQ address=2a12:f680:80::/46 } on-error={}
-:do { add list=IQ address=2a12:f680:84::/47 } on-error={}
-:do { add list=IQ address=2a12:f680:86::/48 } on-error={}
-:do { add list=IQ address=2a12:f680:87::/48 } on-error={}
+:do { add list=IQ address=2a12:f680:84::/46 } on-error={}
 :do { add list=IQ address=2a12:f680:88::/45 } on-error={}
 :do { add list=IQ address=2a12:f680:90::/44 } on-error={}
 :do { add list=IQ address=2a12:f680:a0::/43 } on-error={}
@@ -2577,6 +2575,5 @@
 :do { add list=IQ address=2a14:7581:be0:5c00::/58 } on-error={}
 :do { add list=IQ address=2a14:7581:fe5::/48 } on-error={}
 :do { add list=IQ address=2a14:7581:3b71::/48 } on-error={}
-:do { add list=IQ address=2a14:7584:e74c::/48 } on-error={}
 :do { add list=IQ address=2a14:7585:f603::/48 } on-error={}
 :do { add list=IQ address=2a14:c380:7a5::/48 } on-error={}

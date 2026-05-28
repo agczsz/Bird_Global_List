@@ -196,5 +196,4 @@
 :do { add list=VC address=2a14:7581:be0:a780::/58 } on-error={}
 :do { add list=VC address=2a14:7581:3bc6::/48 } on-error={}
 :do { add list=VC address=2a14:7583:eff7::/48 } on-error={}
-:do { add list=VC address=2a14:7584:e7cf::/48 } on-error={}
 :do { add list=VC address=2a14:7585:f126::/48 } on-error={}

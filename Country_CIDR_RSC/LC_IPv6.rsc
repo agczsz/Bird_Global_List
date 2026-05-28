@@ -237,6 +237,5 @@
 :do { add list=LC address=2a14:7581:be0:a580::/58 } on-error={}
 :do { add list=LC address=2a14:7581:3bc3::/48 } on-error={}
 :do { add list=LC address=2a14:7584:e013::/48 } on-error={}
-:do { add list=LC address=2a14:7584:e730::/47 } on-error={}
 :do { add list=LC address=2a14:7584:e800:500::/56 } on-error={}
 :do { add list=LC address=2a14:7585:f117::/48 } on-error={}

@@ -25,11 +25,11 @@
 :do { add list=BN address=2401:b60:1212::/47 } on-error={}
 :do { add list=BN address=2401:b60:1214::/46 } on-error={}
 :do { add list=BN address=2401:b60:1218::/45 } on-error={}
-:do { add list=BN address=2401:cf80:6044::/48 } on-error={}
 :do { add list=BN address=2404:8980::/32 } on-error={}
 :do { add list=BN address=2405:1c0:6044::/48 } on-error={}
 :do { add list=BN address=2405:1700::/32 } on-error={}
 :do { add list=BN address=2405:2000:2e00::/64 } on-error={}
+:do { add list=BN address=2405:202a:400::/64 } on-error={}
 :do { add list=BN address=2405:b500:f80::/64 } on-error={}
 :do { add list=BN address=2405:b500:fa0::/64 } on-error={}
 :do { add list=BN address=2405:b500:fc0::/64 } on-error={}

@@ -2343,7 +2343,6 @@
 :do { add list=SK address=2a14:7581:b17:cb00::/56 } on-error={}
 :do { add list=SK address=2a14:7581:be0:afc0::/58 } on-error={}
 :do { add list=SK address=2a14:7581:3bd1::/48 } on-error={}
-:do { add list=SK address=2a14:7584:e78e::/48 } on-error={}
 :do { add list=SK address=2a14:7585:f031::/48 } on-error={}
 :do { add list=SK address=2a14:9d80::/29 } on-error={}
 :do { add list=SK address=2a14:c380:74e::/48 } on-error={}

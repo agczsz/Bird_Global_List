@@ -9,10 +9,9 @@
 :do { add list=XK address=45.84.116.64/26 } on-error={}
 :do { add list=XK address=45.84.117.1/32 } on-error={}
 :do { add list=XK address=45.84.117.13/32 } on-error={}
-:do { add list=XK address=45.84.118.0/27 } on-error={}
-:do { add list=XK address=45.84.118.226/32 } on-error={}
+:do { add list=XK address=45.84.118.6/32 } on-error={}
+:do { add list=XK address=45.84.118.128/25 } on-error={}
 :do { add list=XK address=45.84.119.10/32 } on-error={}
-:do { add list=XK address=45.84.119.96/27 } on-error={}
 :do { add list=XK address=45.84.119.145/32 } on-error={}
 :do { add list=XK address=45.84.119.146/32 } on-error={}
 :do { add list=XK address=45.84.119.242/31 } on-error={}
@@ -30,7 +29,6 @@
 :do { add list=XK address=77.247.248.0/21 } on-error={}
 :do { add list=XK address=79.106.48.25/32 } on-error={}
 :do { add list=XK address=80.80.160.0/20 } on-error={}
-:do { add list=XK address=82.22.124.0/24 } on-error={}
 :do { add list=XK address=82.22.143.0/24 } on-error={}
 :do { add list=XK address=82.22.157.0/24 } on-error={}
 :do { add list=XK address=82.22.161.0/24 } on-error={}
@@ -107,10 +105,12 @@
 :do { add list=XK address=185.182.158.0/24 } on-error={}
 :do { add list=XK address=185.184.217.0/24 } on-error={}
 :do { add list=XK address=185.186.80.0/22 } on-error={}
-:do { add list=XK address=185.188.216.0/25 } on-error={}
 :do { add list=XK address=185.188.216.190/32 } on-error={}
 :do { add list=XK address=185.188.217.0/24 } on-error={}
-:do { add list=XK address=185.188.218.0/23 } on-error={}
+:do { add list=XK address=185.188.218.1/32 } on-error={}
+:do { add list=XK address=185.188.218.2/32 } on-error={}
+:do { add list=XK address=185.188.218.193/32 } on-error={}
+:do { add list=XK address=185.188.218.194/32 } on-error={}
 :do { add list=XK address=185.188.248.0/24 } on-error={}
 :do { add list=XK address=185.190.38.0/24 } on-error={}
 :do { add list=XK address=185.190.132.0/22 } on-error={}

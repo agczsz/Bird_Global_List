@@ -111,6 +111,5 @@
 :do { add list=SH address=2a14:7581:b17:bc00::/56 } on-error={}
 :do { add list=SH address=2a14:7581:be0:a380::/58 } on-error={}
 :do { add list=SH address=2a14:7581:3bc1::/48 } on-error={}
-:do { add list=SH address=2a14:7584:e7ae::/47 } on-error={}
 :do { add list=SH address=2a14:7584:eff3::/48 } on-error={}
 :do { add list=SH address=2a14:7585:f52a::/48 } on-error={}

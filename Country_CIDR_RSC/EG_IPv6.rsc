@@ -4074,7 +4074,6 @@
 :do { add list=EG address=2a14:7581:b17:ea00::/56 } on-error={}
 :do { add list=EG address=2a14:7581:be0:cc80::/58 } on-error={}
 :do { add list=EG address=2a14:7581:3b48::/48 } on-error={}
-:do { add list=EG address=2a14:7584:e753::/48 } on-error={}
 :do { add list=EG address=2a14:7584:e800:2500::/56 } on-error={}
 :do { add list=EG address=2a14:7585:f50d::/48 } on-error={}
 :do { add list=EG address=2a14:c380:7ac::/47 } on-error={}

@@ -142,5 +142,4 @@
 :do { add list=NF address=2a14:7581:b16:a300::/56 } on-error={}
 :do { add list=NF address=2a14:7581:b17:a300::/56 } on-error={}
 :do { add list=NF address=2a14:7581:3baa::/48 } on-error={}
-:do { add list=NF address=2a14:7584:e79c::/48 } on-error={}
 :do { add list=NF address=2a14:7585:f40d::/48 } on-error={}

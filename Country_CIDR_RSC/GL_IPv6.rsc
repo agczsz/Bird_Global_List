@@ -370,5 +370,4 @@
 :do { add list=GL address=2a14:7581:b17:5900::/56 } on-error={}
 :do { add list=GL address=2a14:7581:be0:4c00::/58 } on-error={}
 :do { add list=GL address=2a14:7581:3b5e::/48 } on-error={}
-:do { add list=GL address=2a14:7584:e738::/47 } on-error={}
 :do { add list=GL address=2a14:7585:f015::/48 } on-error={}

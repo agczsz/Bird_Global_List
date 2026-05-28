@@ -2878,7 +2878,6 @@
 :do { add list=RS address=2a14:7581:be0:ac00::/58 } on-error={}
 :do { add list=RS address=2a14:7581:3bcc::/48 } on-error={}
 :do { add list=RS address=2a14:7584:e046::/48 } on-error={}
-:do { add list=RS address=2a14:7584:e77d::/48 } on-error={}
 :do { add list=RS address=2a14:7585:f02c::/48 } on-error={}
 :do { add list=RS address=2a14:bf80::/29 } on-error={}
 :do { add list=RS address=2a14:c380:759::/48 } on-error={}

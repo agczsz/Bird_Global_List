@@ -1149,6 +1149,5 @@
 :do { add list=IS address=2a14:7581:be0:5800::/58 } on-error={}
 :do { add list=IS address=2a14:7581:3b6d::/48 } on-error={}
 :do { add list=IS address=2a14:7584:e050::/48 } on-error={}
-:do { add list=IS address=2a14:7584:e783::/48 } on-error={}
 :do { add list=IS address=2a14:7585:f01b::/48 } on-error={}
 :do { add list=IS address=2a14:c380:715::/48 } on-error={}

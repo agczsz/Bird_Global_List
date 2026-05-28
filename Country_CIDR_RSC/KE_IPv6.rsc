@@ -1968,7 +1968,6 @@
 :do { add list=KE address=2a14:7581:b17:7300::/56 } on-error={}
 :do { add list=KE address=2a14:7581:be0:6500::/58 } on-error={}
 :do { add list=KE address=2a14:7581:3b7b::/48 } on-error={}
-:do { add list=KE address=2a14:7584:e7a7::/48 } on-error={}
 :do { add list=KE address=2a14:7584:e8ff:e::/64 } on-error={}
 :do { add list=KE address=2a14:7585:f517::/48 } on-error={}
 :do { add list=KE address=2a14:c380:7f7::/48 } on-error={}

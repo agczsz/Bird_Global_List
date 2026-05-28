@@ -1217,8 +1217,6 @@
 :do { add list=VG address=2a14:7581:3bf9::/48 } on-error={}
 :do { add list=VG address=2a14:7584:e011::/48 } on-error={}
 :do { add list=VG address=2a14:7584:e6a0::/43 } on-error={}
-:do { add list=VG address=2a14:7584:e72a::/47 } on-error={}
-:do { add list=VG address=2a14:7584:e7da::/47 } on-error={}
 :do { add list=VG address=2a14:7584:e800:400::/56 } on-error={}
 :do { add list=VG address=2a14:7584:e800:1c00::/54 } on-error={}
 :do { add list=VG address=2a14:7584:e920:1::/64 } on-error={}

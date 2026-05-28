@@ -1,6 +1,7 @@
 /log info "Loading SK IPv4 Address List"
 /ip firewall address-list
 :do { add list=SK address=2.57.64.0/22 } on-error={}
+:do { add list=SK address=2.255.251.231/32 } on-error={}
 :do { add list=SK address=5.22.154.0/24 } on-error={}
 :do { add list=SK address=5.35.103.0/24 } on-error={}
 :do { add list=SK address=5.42.148.0/23 } on-error={}
@@ -275,8 +276,6 @@
 :do { add list=SK address=79.140.90.127/32 } on-error={}
 :do { add list=SK address=80.81.193.195/32 } on-error={}
 :do { add list=SK address=80.81.224.0/20 } on-error={}
-:do { add list=SK address=80.82.155.20/32 } on-error={}
-:do { add list=SK address=80.82.155.203/32 } on-error={}
 :do { add list=SK address=80.86.240.0/20 } on-error={}
 :do { add list=SK address=80.87.208.0/20 } on-error={}
 :do { add list=SK address=80.94.48.0/20 } on-error={}
@@ -437,7 +436,22 @@
 :do { add list=SK address=87.119.125.160/28 } on-error={}
 :do { add list=SK address=87.119.125.192/29 } on-error={}
 :do { add list=SK address=87.119.125.208/29 } on-error={}
-:do { add list=SK address=87.197.0.0/16 } on-error={}
+:do { add list=SK address=87.197.0.0/18 } on-error={}
+:do { add list=SK address=87.197.64.0/19 } on-error={}
+:do { add list=SK address=87.197.96.0/20 } on-error={}
+:do { add list=SK address=87.197.112.0/22 } on-error={}
+:do { add list=SK address=87.197.116.0/24 } on-error={}
+:do { add list=SK address=87.197.117.0/28 } on-error={}
+:do { add list=SK address=87.197.117.16/30 } on-error={}
+:do { add list=SK address=87.197.117.21/32 } on-error={}
+:do { add list=SK address=87.197.117.22/31 } on-error={}
+:do { add list=SK address=87.197.117.24/29 } on-error={}
+:do { add list=SK address=87.197.117.32/27 } on-error={}
+:do { add list=SK address=87.197.117.64/26 } on-error={}
+:do { add list=SK address=87.197.117.128/25 } on-error={}
+:do { add list=SK address=87.197.118.0/23 } on-error={}
+:do { add list=SK address=87.197.120.0/21 } on-error={}
+:do { add list=SK address=87.197.128.0/17 } on-error={}
 :do { add list=SK address=87.239.56.0/21 } on-error={}
 :do { add list=SK address=87.244.192.0/18 } on-error={}
 :do { add list=SK address=87.245.224.174/32 } on-error={}

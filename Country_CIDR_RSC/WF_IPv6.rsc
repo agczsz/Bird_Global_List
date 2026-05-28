@@ -152,5 +152,4 @@
 :do { add list=WF address=2a14:7581:b17:f600::/56 } on-error={}
 :do { add list=WF address=2a14:7581:be0:db00::/58 } on-error={}
 :do { add list=WF address=2a14:7581:3bfb::/48 } on-error={}
-:do { add list=WF address=2a14:7584:e7d8::/48 } on-error={}
 :do { add list=WF address=2a14:7585:f41a::/48 } on-error={}

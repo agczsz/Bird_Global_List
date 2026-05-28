@@ -2751,7 +2751,6 @@
 :do { add list=CY address=2a14:7581:be0:3100::/58 } on-error={}
 :do { add list=CY address=2a14:7581:3b41::/48 } on-error={}
 :do { add list=CY address=2a14:7581:9fe0::/44 } on-error={}
-:do { add list=CY address=2a14:7584:e782::/48 } on-error={}
 :do { add list=CY address=2a14:7585:f009::/48 } on-error={}
 :do { add list=CY address=2a14:8200::/29 } on-error={}
 :do { add list=CY address=2a14:8300:1::/48 } on-error={}

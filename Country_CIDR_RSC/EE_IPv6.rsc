@@ -1030,6 +1030,7 @@
 :do { add list=EE address=2600:70ff:b1d8::/48 } on-error={}
 :do { add list=EE address=2600:70ff:b257::/48 } on-error={}
 :do { add list=EE address=2600:70ff:b2f7::/48 } on-error={}
+:do { add list=EE address=2600:70ff:b31f::/48 } on-error={}
 :do { add list=EE address=2600:70ff:d037::/48 } on-error={}
 :do { add list=EE address=2602:2a9:bd0::/44 } on-error={}
 :do { add list=EE address=2602:f590::23:161:104:128/128 } on-error={}

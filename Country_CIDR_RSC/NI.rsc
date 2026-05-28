@@ -9,7 +9,8 @@
 :do { add list=NI address=45.5.216.0/22 } on-error={}
 :do { add list=NI address=45.170.224.0/22 } on-error={}
 :do { add list=NI address=45.182.142.0/24 } on-error={}
-:do { add list=NI address=45.238.28.0/22 } on-error={}
+:do { add list=NI address=45.238.28.0/23 } on-error={}
+:do { add list=NI address=45.238.31.0/24 } on-error={}
 :do { add list=NI address=51.81.222.234/32 } on-error={}
 :do { add list=NI address=57.74.72.0/22 } on-error={}
 :do { add list=NI address=57.75.176.0/20 } on-error={}
