@@ -323,6 +323,7 @@
 :do { add list=PY address=148.227.110.0/23 } on-error={}
 :do { add list=PY address=149.126.9.152/29 } on-error={}
 :do { add list=PY address=150.195.192.0/27 } on-error={}
+:do { add list=PY address=153.51.254.0/23 } on-error={}
 :do { add list=PY address=153.72.33.64/26 } on-error={}
 :do { add list=PY address=154.3.61.0/24 } on-error={}
 :do { add list=PY address=154.51.4.0/22 } on-error={}

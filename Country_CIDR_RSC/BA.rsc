@@ -488,7 +488,9 @@
 :do { add list=BA address=185.202.76.0/23 } on-error={}
 :do { add list=BA address=185.202.78.0/24 } on-error={}
 :do { add list=BA address=185.202.79.0/24 } on-error={}
-:do { add list=BA address=185.210.180.0/22 } on-error={}
+:do { add list=BA address=185.210.180.0/24 } on-error={}
+:do { add list=BA address=185.210.181.0/25 } on-error={}
+:do { add list=BA address=185.210.182.0/23 } on-error={}
 :do { add list=BA address=185.212.108.0/22 } on-error={}
 :do { add list=BA address=185.237.128.0/23 } on-error={}
 :do { add list=BA address=185.237.130.0/24 } on-error={}

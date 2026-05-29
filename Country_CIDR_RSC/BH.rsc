@@ -129,7 +129,6 @@
 :do { add list=BH address=84.255.128.0/18 } on-error={}
 :do { add list=BH address=85.95.26.225/32 } on-error={}
 :do { add list=BH address=85.158.128.0/21 } on-error={}
-:do { add list=BH address=87.232.86.40/31 } on-error={}
 :do { add list=BH address=87.236.48.0/21 } on-error={}
 :do { add list=BH address=87.236.136.0/21 } on-error={}
 :do { add list=BH address=87.237.192.0/21 } on-error={}

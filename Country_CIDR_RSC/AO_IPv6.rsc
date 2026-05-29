@@ -40,6 +40,7 @@
 :do { add list=AO address=2001:470:f1ab::/48 } on-error={}
 :do { add list=AO address=2001:67c:a38:f244::/64 } on-error={}
 :do { add list=AO address=2001:15d8:2:5::2/128 } on-error={}
+:do { add list=AO address=2001:4210:200:3::/64 } on-error={}
 :do { add list=AO address=2001:4250::/32 } on-error={}
 :do { add list=AO address=2001:43f8:390::/48 } on-error={}
 :do { add list=AO address=2001:43f8:391::/48 } on-error={}

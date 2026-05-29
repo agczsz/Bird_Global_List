@@ -208,6 +208,7 @@
 :do { add list=LT address=2001:470:1f09:9c3::/64 } on-error={}
 :do { add list=LT address=2001:470:1f0b:83::/64 } on-error={}
 :do { add list=LT address=2001:470:1f0b:338::/64 } on-error={}
+:do { add list=LT address=2001:470:1f0b:4fb::/64 } on-error={}
 :do { add list=LT address=2001:470:1f0b:89e::/64 } on-error={}
 :do { add list=LT address=2001:470:1f0b:b8d::/64 } on-error={}
 :do { add list=LT address=2001:470:1f0b:c44::/64 } on-error={}

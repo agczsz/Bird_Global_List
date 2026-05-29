@@ -182,7 +182,7 @@
 :do { add list=BZ address=186.2.168.0/24 } on-error={}
 :do { add list=BZ address=186.2.169.0/24 } on-error={}
 :do { add list=BZ address=186.2.171.8/29 } on-error={}
-:do { add list=BZ address=186.2.175.0/25 } on-error={}
+:do { add list=BZ address=186.2.175.0/26 } on-error={}
 :do { add list=BZ address=186.65.88.0/22 } on-error={}
 :do { add list=BZ address=188.211.168.0/24 } on-error={}
 :do { add list=BZ address=188.213.204.0/24 } on-error={}

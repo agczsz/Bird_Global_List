@@ -201,6 +201,7 @@
 :do { add list=BB address=2a12:f8c3:1:15fe::/64 } on-error={}
 :do { add list=BB address=2a13:a5c7:2512::/48 } on-error={}
 :do { add list=BB address=2a13:a5c7:25ff:1100::/56 } on-error={}
+:do { add list=BB address=2a13:a5c7:3174::/48 } on-error={}
 :do { add list=BB address=2a13:a5c7:31b5::/48 } on-error={}
 :do { add list=BB address=2a13:b487:500c::/48 } on-error={}
 :do { add list=BB address=2a13:df80:3809::/48 } on-error={}

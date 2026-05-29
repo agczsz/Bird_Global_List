@@ -1062,6 +1062,7 @@
 :do { add list=MU address=2001:43f8:1142::/47 } on-error={}
 :do { add list=MU address=2001:43f8:1144::/46 } on-error={}
 :do { add list=MU address=2001:43f8:1148::/45 } on-error={}
+:do { add list=MU address=2001:43f8:1150::/47 } on-error={}
 :do { add list=MU address=2001:43f8:1152::/47 } on-error={}
 :do { add list=MU address=2001:43f8:1154::/46 } on-error={}
 :do { add list=MU address=2001:43f8:1158::/45 } on-error={}

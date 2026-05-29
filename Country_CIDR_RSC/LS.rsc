@@ -67,7 +67,6 @@
 :do { add list=LS address=172.225.100.32/28 } on-error={}
 :do { add list=LS address=172.225.136.192/28 } on-error={}
 :do { add list=LS address=172.225.221.0/28 } on-error={}
-:do { add list=LS address=177.221.146.44/32 } on-error={}
 :do { add list=LS address=185.138.17.161/32 } on-error={}
 :do { add list=LS address=196.4.255.0/24 } on-error={}
 :do { add list=LS address=196.11.175.0/24 } on-error={}

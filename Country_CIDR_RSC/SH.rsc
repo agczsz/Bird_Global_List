@@ -12,6 +12,7 @@
 :do { add list=SH address=80.73.220.192/26 } on-error={}
 :do { add list=SH address=80.73.221.61/32 } on-error={}
 :do { add list=SH address=80.73.221.62/32 } on-error={}
+:do { add list=SH address=80.73.221.64/26 } on-error={}
 :do { add list=SH address=80.73.221.214/32 } on-error={}
 :do { add list=SH address=80.73.222.35/32 } on-error={}
 :do { add list=SH address=80.73.222.64/26 } on-error={}

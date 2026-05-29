@@ -690,6 +690,7 @@
 :do { add list=VG address=2620:d1:e00e:2000::/51 } on-error={}
 :do { add list=VG address=2620:d1:e00e:4000::/50 } on-error={}
 :do { add list=VG address=2620:d1:e00e:8000::/49 } on-error={}
+:do { add list=VG address=2620:d1:e00f::/48 } on-error={}
 :do { add list=VG address=2620:e1:c000::/48 } on-error={}
 :do { add list=VG address=2620:171:b9::/48 } on-error={}
 :do { add list=VG address=2a01:528:f000::/40 } on-error={}

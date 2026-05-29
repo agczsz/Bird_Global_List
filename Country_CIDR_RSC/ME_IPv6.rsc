@@ -17,13 +17,6 @@
 :do { add list=ME address=2001:470:1f1d:30f::/64 } on-error={}
 :do { add list=ME address=2001:470:1f2f:2ea::/64 } on-error={}
 :do { add list=ME address=2001:470:f63d::/48 } on-error={}
-:do { add list=ME address=2001:550:0:1000::9a19:77d/128 } on-error={}
-:do { add list=ME address=2001:550:0:1000::9a19:77e/128 } on-error={}
-:do { add list=ME address=2001:550:0:1000::9a19:781/128 } on-error={}
-:do { add list=ME address=2001:550:0:1000::9a19:782/128 } on-error={}
-:do { add list=ME address=2001:550:0:1000::9a1a:20c6/128 } on-error={}
-:do { add list=ME address=2001:550:0:1000::9a36:38aa/128 } on-error={}
-:do { add list=ME address=2001:550:0:1000::9a36:3cd2/128 } on-error={}
 :do { add list=ME address=2001:678:408::/48 } on-error={}
 :do { add list=ME address=2001:67c:a38:f382::/64 } on-error={}
 :do { add list=ME address=2001:67c:f94::/48 } on-error={}

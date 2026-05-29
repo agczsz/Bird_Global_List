@@ -40,6 +40,7 @@
 :do { add list=NP address=2001:df1:2c0::/48 } on-error={}
 :do { add list=NP address=2001:df1:5c0::/48 } on-error={}
 :do { add list=NP address=2001:df1:ac0::/48 } on-error={}
+:do { add list=NP address=2001:df1:6cc0::/48 } on-error={}
 :do { add list=NP address=2001:df1:7a00::/48 } on-error={}
 :do { add list=NP address=2001:df1:9880::/48 } on-error={}
 :do { add list=NP address=2001:df1:b7c0::/48 } on-error={}
