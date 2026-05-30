@@ -169,12 +169,7 @@
 :do { add list=BN address=202.86.24.0/21 } on-error={}
 :do { add list=BN address=202.90.36.0/24 } on-error={}
 :do { add list=BN address=202.93.208.0/20 } on-error={}
-:do { add list=BN address=202.152.64.0/21 } on-error={}
-:do { add list=BN address=202.152.72.0/22 } on-error={}
-:do { add list=BN address=202.152.76.0/24 } on-error={}
-:do { add list=BN address=202.152.77.0/24 } on-error={}
-:do { add list=BN address=202.152.78.0/23 } on-error={}
-:do { add list=BN address=202.152.80.0/20 } on-error={}
+:do { add list=BN address=202.152.64.0/19 } on-error={}
 :do { add list=BN address=202.160.0.0/19 } on-error={}
 :do { add list=BN address=202.160.32.0/20 } on-error={}
 :do { add list=BN address=203.101.135.0/24 } on-error={}

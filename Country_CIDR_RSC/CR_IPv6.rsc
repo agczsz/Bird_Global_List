@@ -750,7 +750,6 @@
 :do { add list=CR address=2a02:26f7:becc:42c8::/62 } on-error={}
 :do { add list=CR address=2a02:26f7:becc:42cc::/63 } on-error={}
 :do { add list=CR address=2a02:26f7:becc:42ce::/64 } on-error={}
-:do { add list=CR address=2a02:26f7:becc:8000::/49 } on-error={}
 :do { add list=CR address=2a02:26f7:becd::/48 } on-error={}
 :do { add list=CR address=2a02:26f7:bece::/47 } on-error={}
 :do { add list=CR address=2a02:26f7:bed0::/44 } on-error={}

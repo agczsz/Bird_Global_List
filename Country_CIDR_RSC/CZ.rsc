@@ -2316,6 +2316,7 @@
 :do { add list=CZ address=91.245.20.0/22 } on-error={}
 :do { add list=CZ address=91.245.24.0/21 } on-error={}
 :do { add list=CZ address=92.38.6.0/23 } on-error={}
+:do { add list=CZ address=92.38.46.0/23 } on-error={}
 :do { add list=CZ address=92.38.93.0/24 } on-error={}
 :do { add list=CZ address=92.38.96.0/19 } on-error={}
 :do { add list=CZ address=92.42.98.0/24 } on-error={}

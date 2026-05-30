@@ -80,9 +80,7 @@
 :do { add list=RW address=2a02:26f7:db80::/48 } on-error={}
 :do { add list=RW address=2a02:26f7:db81::/48 } on-error={}
 :do { add list=RW address=2a02:26f7:db82::/47 } on-error={}
-:do { add list=RW address=2a02:26f7:db84::/48 } on-error={}
-:do { add list=RW address=2a02:26f7:db85::/48 } on-error={}
-:do { add list=RW address=2a02:26f7:db86::/47 } on-error={}
+:do { add list=RW address=2a02:26f7:db84::/46 } on-error={}
 :do { add list=RW address=2a02:26f7:db88::/48 } on-error={}
 :do { add list=RW address=2a02:26f7:db89::/48 } on-error={}
 :do { add list=RW address=2a02:26f7:db8a::/47 } on-error={}

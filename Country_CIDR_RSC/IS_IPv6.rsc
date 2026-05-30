@@ -931,8 +931,14 @@
 :do { add list=IS address=2a10:9840:1::/48 } on-error={}
 :do { add list=IS address=2a10:9840:2::/48 } on-error={}
 :do { add list=IS address=2a10:9840:3::/48 } on-error={}
-:do { add list=IS address=2a10:9840:4::/46 } on-error={}
-:do { add list=IS address=2a10:9840:8::/45 } on-error={}
+:do { add list=IS address=2a10:9840:4::/48 } on-error={}
+:do { add list=IS address=2a10:9840:5::/48 } on-error={}
+:do { add list=IS address=2a10:9840:6::/48 } on-error={}
+:do { add list=IS address=2a10:9840:7::/48 } on-error={}
+:do { add list=IS address=2a10:9840:8::/47 } on-error={}
+:do { add list=IS address=2a10:9840:a::/48 } on-error={}
+:do { add list=IS address=2a10:9840:b::/48 } on-error={}
+:do { add list=IS address=2a10:9840:c::/46 } on-error={}
 :do { add list=IS address=2a10:9840:10::/44 } on-error={}
 :do { add list=IS address=2a10:9840:20::/43 } on-error={}
 :do { add list=IS address=2a10:9840:40::/42 } on-error={}

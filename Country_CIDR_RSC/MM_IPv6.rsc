@@ -824,6 +824,7 @@
 :do { add list=MM address=2a13:a5c3:d648::/46 } on-error={}
 :do { add list=MM address=2a13:a5c7:2592::/48 } on-error={}
 :do { add list=MM address=2a13:a5c7:25ff:9100::/56 } on-error={}
+:do { add list=MM address=2a13:a5c7:3110::/48 } on-error={}
 :do { add list=MM address=2a13:a5c7:31be::/48 } on-error={}
 :do { add list=MM address=2a13:b487:5004::/48 } on-error={}
 :do { add list=MM address=2a13:ef41:17ef::/48 } on-error={}

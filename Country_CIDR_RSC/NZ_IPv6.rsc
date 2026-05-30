@@ -5114,6 +5114,7 @@
 :do { add list=NZ address=2a09:bac0:1000:fc1::/64 } on-error={}
 :do { add list=NZ address=2a09:bac0:1000:1110::/64 } on-error={}
 :do { add list=NZ address=2a09:bac0:1000:1162::/64 } on-error={}
+:do { add list=NZ address=2a09:bac0:1000:11ba::/64 } on-error={}
 :do { add list=NZ address=2a09:bac0:1000:124f::/64 } on-error={}
 :do { add list=NZ address=2a09:bac0:1000:1252::/64 } on-error={}
 :do { add list=NZ address=2a09:bac0:1000:125b::/64 } on-error={}
@@ -6768,6 +6769,7 @@
 :do { add list=NZ address=2a13:a5c5:f14c::/46 } on-error={}
 :do { add list=NZ address=2a13:a5c7:25ab::/48 } on-error={}
 :do { add list=NZ address=2a13:a5c7:25ff:aa00::/56 } on-error={}
+:do { add list=NZ address=2a13:a5c7:310c::/48 } on-error={}
 :do { add list=NZ address=2a13:a5c7:31b4::/48 } on-error={}
 :do { add list=NZ address=2a13:c680:1::/48 } on-error={}
 :do { add list=NZ address=2a13:c680:2::/47 } on-error={}

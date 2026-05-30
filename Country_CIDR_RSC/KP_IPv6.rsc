@@ -2,6 +2,7 @@
 /ipv6 firewall address-list
 :do { add list=KP address=2001:288:6414:2902::/64 } on-error={}
 :do { add list=KP address=2001:470:8:ce::/64 } on-error={}
+:do { add list=KP address=2001:470:8:23a::/64 } on-error={}
 :do { add list=KP address=2001:470:8:442::/64 } on-error={}
 :do { add list=KP address=2001:470:8:5b4::/64 } on-error={}
 :do { add list=KP address=2001:470:8:5f3::/64 } on-error={}
@@ -145,6 +146,7 @@
 :do { add list=KP address=2001:470:24:377::/64 } on-error={}
 :do { add list=KP address=2001:470:24:3bd::/64 } on-error={}
 :do { add list=KP address=2001:470:24:435::/64 } on-error={}
+:do { add list=KP address=2001:470:24:4d9::/64 } on-error={}
 :do { add list=KP address=2001:470:24:4e2::/64 } on-error={}
 :do { add list=KP address=2001:470:24:522::/64 } on-error={}
 :do { add list=KP address=2001:470:24:524::/64 } on-error={}
@@ -336,6 +338,7 @@
 :do { add list=KP address=2001:470:7bbe::/48 } on-error={}
 :do { add list=KP address=2001:470:8091::/48 } on-error={}
 :do { add list=KP address=2001:470:80f6::/48 } on-error={}
+:do { add list=KP address=2001:470:8131::/48 } on-error={}
 :do { add list=KP address=2001:470:827d::/48 } on-error={}
 :do { add list=KP address=2001:470:82ab::/48 } on-error={}
 :do { add list=KP address=2001:470:831c::/48 } on-error={}
@@ -372,6 +375,22 @@
 :do { add list=KP address=2001:470:c985::/48 } on-error={}
 :do { add list=KP address=2001:470:d88b::/48 } on-error={}
 :do { add list=KP address=2001:470:e090::/48 } on-error={}
+:do { add list=KP address=2001:470:e0dd:1::/64 } on-error={}
+:do { add list=KP address=2001:470:e0dd:2::/63 } on-error={}
+:do { add list=KP address=2001:470:e0dd:4::/62 } on-error={}
+:do { add list=KP address=2001:470:e0dd:8::/61 } on-error={}
+:do { add list=KP address=2001:470:e0dd:10::/60 } on-error={}
+:do { add list=KP address=2001:470:e0dd:20::/59 } on-error={}
+:do { add list=KP address=2001:470:e0dd:40::/58 } on-error={}
+:do { add list=KP address=2001:470:e0dd:80::/57 } on-error={}
+:do { add list=KP address=2001:470:e0dd:100::/56 } on-error={}
+:do { add list=KP address=2001:470:e0dd:200::/55 } on-error={}
+:do { add list=KP address=2001:470:e0dd:400::/54 } on-error={}
+:do { add list=KP address=2001:470:e0dd:800::/53 } on-error={}
+:do { add list=KP address=2001:470:e0dd:1000::/52 } on-error={}
+:do { add list=KP address=2001:470:e0dd:2000::/51 } on-error={}
+:do { add list=KP address=2001:470:e0dd:4000::/50 } on-error={}
+:do { add list=KP address=2001:470:e0dd:8000::/49 } on-error={}
 :do { add list=KP address=2001:470:e2db::/48 } on-error={}
 :do { add list=KP address=2001:470:e347::/48 } on-error={}
 :do { add list=KP address=2001:470:e868::/48 } on-error={}
@@ -397,6 +416,7 @@
 :do { add list=KP address=2001:470:ed98::/48 } on-error={}
 :do { add list=KP address=2001:470:edbb::/48 } on-error={}
 :do { add list=KP address=2001:470:edea::/48 } on-error={}
+:do { add list=KP address=2001:470:ee9f::/48 } on-error={}
 :do { add list=KP address=2001:470:eeb3::/48 } on-error={}
 :do { add list=KP address=2001:470:eed3::/48 } on-error={}
 :do { add list=KP address=2001:470:eefb::/48 } on-error={}
@@ -569,7 +589,7 @@
 :do { add list=KP address=2001:470:fe87::/48 } on-error={}
 :do { add list=KP address=2001:470:fe98::/48 } on-error={}
 :do { add list=KP address=2001:470:fea9::/48 } on-error={}
-:do { add list=KP address=2001:470:fead::/48 } on-error={}
+:do { add list=KP address=2001:470:feac::/47 } on-error={}
 :do { add list=KP address=2001:470:febd::/48 } on-error={}
 :do { add list=KP address=2001:470:fec0::/48 } on-error={}
 :do { add list=KP address=2001:470:fed9::/48 } on-error={}
@@ -2405,6 +2425,7 @@
 :do { add list=KP address=2a14:7583:e05d:bcdc::/64 } on-error={}
 :do { add list=KP address=2a14:7583:e0e0:19a3::/64 } on-error={}
 :do { add list=KP address=2a14:7583:e0e9:b7::/64 } on-error={}
+:do { add list=KP address=2a14:7583:ef4f::/48 } on-error={}
 :do { add list=KP address=2a14:7583:f701::/48 } on-error={}
 :do { add list=KP address=2a14:7585:f20e::/48 } on-error={}
 :do { add list=KP address=2a14:7dc0:52e::/48 } on-error={}

@@ -190,9 +190,7 @@
 :do { add list=DJ address=2a02:26f7:c844::/48 } on-error={}
 :do { add list=DJ address=2a02:26f7:c845::/48 } on-error={}
 :do { add list=DJ address=2a02:26f7:c846::/47 } on-error={}
-:do { add list=DJ address=2a02:26f7:c848::/48 } on-error={}
-:do { add list=DJ address=2a02:26f7:c849::/48 } on-error={}
-:do { add list=DJ address=2a02:26f7:c84a::/47 } on-error={}
+:do { add list=DJ address=2a02:26f7:c848::/46 } on-error={}
 :do { add list=DJ address=2a02:26f7:c84c::/48 } on-error={}
 :do { add list=DJ address=2a02:26f7:c84d::/48 } on-error={}
 :do { add list=DJ address=2a02:26f7:c84e::/47 } on-error={}

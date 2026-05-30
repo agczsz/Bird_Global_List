@@ -9,7 +9,6 @@
 :do { add list=PE address=2001:470:19:1141::/64 } on-error={}
 :do { add list=PE address=2001:470:24:f82::/64 } on-error={}
 :do { add list=PE address=2001:470:36:12fd::/64 } on-error={}
-:do { add list=PE address=2001:470:1f07:14f::/64 } on-error={}
 :do { add list=PE address=2001:470:1f07:216::/64 } on-error={}
 :do { add list=PE address=2001:470:1f07:29d::/64 } on-error={}
 :do { add list=PE address=2001:470:1f07:2dd::/64 } on-error={}

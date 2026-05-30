@@ -190,7 +190,6 @@
 :do { add list=AR address=2001:470:1f2b:147::/64 } on-error={}
 :do { add list=AR address=2001:470:1f2b:14a::/64 } on-error={}
 :do { add list=AR address=2001:470:1f2b:161::/64 } on-error={}
-:do { add list=AR address=2001:470:1f2b:164::/64 } on-error={}
 :do { add list=AR address=2001:470:1f2b:192::/64 } on-error={}
 :do { add list=AR address=2001:470:1f2b:1b6::/64 } on-error={}
 :do { add list=AR address=2001:470:1f2b:1ec::/64 } on-error={}
@@ -268,7 +267,6 @@
 :do { add list=AR address=2001:470:db53::/48 } on-error={}
 :do { add list=AR address=2001:470:db90::/48 } on-error={}
 :do { add list=AR address=2001:470:e0a5::/48 } on-error={}
-:do { add list=AR address=2001:470:e1c9::/48 } on-error={}
 :do { add list=AR address=2001:470:e256::/48 } on-error={}
 :do { add list=AR address=2001:470:e331::/48 } on-error={}
 :do { add list=AR address=2001:470:e332::/48 } on-error={}

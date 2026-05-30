@@ -228,9 +228,7 @@
 :do { add list=MV address=2620:134:b054:100::20/127 } on-error={}
 :do { add list=MV address=2620:171:4b::/64 } on-error={}
 :do { add list=MV address=2a01:528:4000::/40 } on-error={}
-:do { add list=MV address=2a02:26f7:ba80::/48 } on-error={}
-:do { add list=MV address=2a02:26f7:ba81::/48 } on-error={}
-:do { add list=MV address=2a02:26f7:ba82::/47 } on-error={}
+:do { add list=MV address=2a02:26f7:ba80::/46 } on-error={}
 :do { add list=MV address=2a02:26f7:ba84::/47 } on-error={}
 :do { add list=MV address=2a02:26f7:ba86::/47 } on-error={}
 :do { add list=MV address=2a02:26f7:ba88::/48 } on-error={}

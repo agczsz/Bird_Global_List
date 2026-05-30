@@ -9,7 +9,6 @@
 :do { add list=JE address=2001:470:18f3::/48 } on-error={}
 :do { add list=JE address=2001:470:18f8::/48 } on-error={}
 :do { add list=JE address=2001:470:1f09:a73::/64 } on-error={}
-:do { add list=JE address=2001:470:1f0b:524::/64 } on-error={}
 :do { add list=JE address=2001:470:1f0b:697::/64 } on-error={}
 :do { add list=JE address=2001:470:1f1d:ab::/64 } on-error={}
 :do { add list=JE address=2001:470:1f1d:9c9::/64 } on-error={}

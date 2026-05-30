@@ -2,7 +2,6 @@
 /ipv6 firewall address-list
 :do { add list=AF address=2001:470:5:675::/64 } on-error={}
 :do { add list=AF address=2001:470:8:91::/64 } on-error={}
-:do { add list=AF address=2001:470:8:101::/64 } on-error={}
 :do { add list=AF address=2001:470:8:2d5::/64 } on-error={}
 :do { add list=AF address=2001:470:8:308::/64 } on-error={}
 :do { add list=AF address=2001:470:8:347::/64 } on-error={}
@@ -47,7 +46,6 @@
 :do { add list=AF address=2001:470:26:653::/64 } on-error={}
 :do { add list=AF address=2001:470:26:661::/64 } on-error={}
 :do { add list=AF address=2001:470:26:678::/64 } on-error={}
-:do { add list=AF address=2001:470:26:6c3::/64 } on-error={}
 :do { add list=AF address=2001:470:26:6f5::/64 } on-error={}
 :do { add list=AF address=2001:470:26:82f::/64 } on-error={}
 :do { add list=AF address=2001:470:28:381::/64 } on-error={}
@@ -479,12 +477,14 @@
 :do { add list=AF address=2001:470:1f27:30::/64 } on-error={}
 :do { add list=AF address=2001:470:1f27:98::/64 } on-error={}
 :do { add list=AF address=2001:470:1f27:a4::/64 } on-error={}
+:do { add list=AF address=2001:470:1f29:d1::/64 } on-error={}
 :do { add list=AF address=2001:470:1f29:f5::/64 } on-error={}
 :do { add list=AF address=2001:470:1f29:110::/64 } on-error={}
 :do { add list=AF address=2001:470:1f29:118::/64 } on-error={}
 :do { add list=AF address=2001:470:1f29:1ae::/64 } on-error={}
 :do { add list=AF address=2001:470:1f29:1e2::/64 } on-error={}
 :do { add list=AF address=2001:470:1f29:1ed::/64 } on-error={}
+:do { add list=AF address=2001:470:1f29:208::/64 } on-error={}
 :do { add list=AF address=2001:470:1f29:216::/64 } on-error={}
 :do { add list=AF address=2001:470:1f29:22e::/64 } on-error={}
 :do { add list=AF address=2001:470:1f29:269::/64 } on-error={}
@@ -554,7 +554,6 @@
 :do { add list=AF address=2001:470:b111::/48 } on-error={}
 :do { add list=AF address=2001:470:b112::/48 } on-error={}
 :do { add list=AF address=2001:470:b4c4::/48 } on-error={}
-:do { add list=AF address=2001:470:b4ec::/48 } on-error={}
 :do { add list=AF address=2001:470:b551::/48 } on-error={}
 :do { add list=AF address=2001:470:b827::/48 } on-error={}
 :do { add list=AF address=2001:470:b854::/48 } on-error={}
