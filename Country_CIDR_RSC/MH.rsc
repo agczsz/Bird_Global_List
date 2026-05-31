@@ -1,9 +1,8 @@
 /log info "Loading MH IPv4 Address List"
 /ip firewall address-list
 :do { add list=MH address=23.181.56.0/24 } on-error={}
-:do { add list=MH address=45.254.247.48/29 } on-error={}
-:do { add list=MH address=45.254.247.60/30 } on-error={}
-:do { add list=MH address=45.254.247.208/28 } on-error={}
+:do { add list=MH address=45.254.247.0/27 } on-error={}
+:do { add list=MH address=45.254.247.48/28 } on-error={}
 :do { add list=MH address=45.254.247.224/28 } on-error={}
 :do { add list=MH address=57.70.178.0/23 } on-error={}
 :do { add list=MH address=57.70.186.0/23 } on-error={}
@@ -27,7 +26,15 @@
 :do { add list=MH address=85.149.176.0/21 } on-error={}
 :do { add list=MH address=85.149.184.0/22 } on-error={}
 :do { add list=MH address=85.149.188.0/24 } on-error={}
-:do { add list=MH address=85.149.191.0/24 } on-error={}
+:do { add list=MH address=85.149.191.112/31 } on-error={}
+:do { add list=MH address=85.149.191.115/32 } on-error={}
+:do { add list=MH address=85.149.191.116/30 } on-error={}
+:do { add list=MH address=85.149.191.120/29 } on-error={}
+:do { add list=MH address=85.149.191.136/30 } on-error={}
+:do { add list=MH address=85.149.191.140/31 } on-error={}
+:do { add list=MH address=85.149.191.142/32 } on-error={}
+:do { add list=MH address=85.149.191.228/32 } on-error={}
+:do { add list=MH address=85.149.191.230/31 } on-error={}
 :do { add list=MH address=89.185.83.0/32 } on-error={}
 :do { add list=MH address=89.185.83.9/32 } on-error={}
 :do { add list=MH address=89.185.83.10/31 } on-error={}
@@ -94,7 +101,8 @@
 :do { add list=MH address=196.197.131.0/24 } on-error={}
 :do { add list=MH address=196.199.131.0/24 } on-error={}
 :do { add list=MH address=202.171.240.141/32 } on-error={}
-:do { add list=MH address=202.171.240.154/31 } on-error={}
-:do { add list=MH address=202.171.240.161/32 } on-error={}
-:do { add list=MH address=202.171.240.163/32 } on-error={}
 :do { add list=MH address=203.78.152.0/22 } on-error={}
+:do { add list=MH address=204.236.6.35/32 } on-error={}
+:do { add list=MH address=204.236.8.14/32 } on-error={}
+:do { add list=MH address=204.236.8.30/32 } on-error={}
+:do { add list=MH address=204.236.9.21/32 } on-error={}

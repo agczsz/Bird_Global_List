@@ -1,12 +1,11 @@
 /log info "Loading SR IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=SR address=2001:470:5:430::/64 } on-error={}
 :do { add list=SR address=2001:470:d:5e7::/64 } on-error={}
 :do { add list=SR address=2001:470:19:77c::/64 } on-error={}
 :do { add list=SR address=2001:470:28:fdf::/64 } on-error={}
 :do { add list=SR address=2001:470:36:35::/64 } on-error={}
 :do { add list=SR address=2001:470:36:d46::/64 } on-error={}
-:do { add list=SR address=2001:470:1f07:20::/64 } on-error={}
-:do { add list=SR address=2001:470:1f07:26::/64 } on-error={}
 :do { add list=SR address=2001:470:1f09:4b7::/64 } on-error={}
 :do { add list=SR address=2001:470:1f2b:1ab::/64 } on-error={}
 :do { add list=SR address=2001:470:6a00::/48 } on-error={}

@@ -1,5 +1,6 @@
 /log info "Loading AG IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=AG address=2001:470:d:a33::/64 } on-error={}
 :do { add list=AG address=2001:470:19:1328::/64 } on-error={}
 :do { add list=AG address=2001:470:24:53c::/64 } on-error={}
 :do { add list=AG address=2001:470:24:650::/64 } on-error={}
@@ -9,8 +10,6 @@
 :do { add list=AG address=2001:470:6d:11c5::/64 } on-error={}
 :do { add list=AG address=2001:470:71:6a6::/64 } on-error={}
 :do { add list=AG address=2001:470:1ad1::/48 } on-error={}
-:do { add list=AG address=2001:470:1f07:267::/64 } on-error={}
-:do { add list=AG address=2001:470:1f07:6ee::/64 } on-error={}
 :do { add list=AG address=2001:470:1f09:d82::/64 } on-error={}
 :do { add list=AG address=2001:470:1f13:33c::/64 } on-error={}
 :do { add list=AG address=2001:470:1f15:411::/64 } on-error={}
@@ -62,6 +61,7 @@
 :do { add list=AG address=2401:b60:1098::/45 } on-error={}
 :do { add list=AG address=2401:f1e0:ffff:2d0c::/64 } on-error={}
 :do { add list=AG address=2401:f1e0:ffff:5110::/64 } on-error={}
+:do { add list=AG address=2401:f1e0:ffff:b23b::/64 } on-error={}
 :do { add list=AG address=2405:b500:300::/64 } on-error={}
 :do { add list=AG address=2405:b500:320::/64 } on-error={}
 :do { add list=AG address=2405:b500:340::/64 } on-error={}
@@ -149,14 +149,6 @@
 :do { add list=AG address=2a02:5745:37::/48 } on-error={}
 :do { add list=AG address=2a02:5746:37::/48 } on-error={}
 :do { add list=AG address=2a02:5747:37::/48 } on-error={}
-:do { add list=AG address=2a03:5f80::/64 } on-error={}
-:do { add list=AG address=2a03:5f80:0:2::/63 } on-error={}
-:do { add list=AG address=2a03:5f80:0:4::/62 } on-error={}
-:do { add list=AG address=2a03:5f80:0:8::/61 } on-error={}
-:do { add list=AG address=2a03:5f80:0:10::/60 } on-error={}
-:do { add list=AG address=2a03:5f80:0:20::/59 } on-error={}
-:do { add list=AG address=2a03:5f80:0:40::/58 } on-error={}
-:do { add list=AG address=2a03:5f80:0:80::/57 } on-error={}
 :do { add list=AG address=2a03:5f80:0:100::/56 } on-error={}
 :do { add list=AG address=2a03:5f80:0:200::/55 } on-error={}
 :do { add list=AG address=2a03:5f80:0:400::/54 } on-error={}

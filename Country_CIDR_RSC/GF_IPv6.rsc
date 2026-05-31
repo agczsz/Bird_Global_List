@@ -52,12 +52,12 @@
 :do { add list=GF address=2803:9810:a300::/42 } on-error={}
 :do { add list=GF address=2803:c700::/32 } on-error={}
 :do { add list=GF address=2a01:528:c800::/40 } on-error={}
-:do { add list=GF address=2a01:c918:8000::/64 } on-error={}
 :do { add list=GF address=2a01:c918:8600::/64 } on-error={}
 :do { add list=GF address=2a01:c918:9e40::/64 } on-error={}
 :do { add list=GF address=2a01:c918:a000::/64 } on-error={}
 :do { add list=GF address=2a01:cb08:a004:21b:80:10:166:220/128 } on-error={}
 :do { add list=GF address=2a01:cb08:a004:21b:193:253:77:180/128 } on-error={}
+:do { add list=GF address=2a01:cb08:a004:21c::/64 } on-error={}
 :do { add list=GF address=2a01:cb08:a004:21d::/73 } on-error={}
 :do { add list=GF address=2a01:cb08:a004:21d:80::/92 } on-error={}
 :do { add list=GF address=2a01:cb08:a004:21d:80:10::/104 } on-error={}
@@ -180,10 +180,10 @@
 :do { add list=GF address=2a01:cb20:8019:a400::/64 } on-error={}
 :do { add list=GF address=2a01:cb20:801f:8700::/64 } on-error={}
 :do { add list=GF address=2a01:cb20:8020:2b00::/64 } on-error={}
+:do { add list=GF address=2a01:cb20:804d:7a00::/64 } on-error={}
 :do { add list=GF address=2a01:cb20:8057:ac00::/64 } on-error={}
 :do { add list=GF address=2a01:cb20:8080:f300::/64 } on-error={}
 :do { add list=GF address=2a01:cb20:808f:c00::/64 } on-error={}
-:do { add list=GF address=2a01:cb20:80a5:6b00::/64 } on-error={}
 :do { add list=GF address=2a01:cb20:80af:9b00::/64 } on-error={}
 :do { add list=GF address=2a01:cb20:80b1:f000::/64 } on-error={}
 :do { add list=GF address=2a01:cb20:80cd:e000::/64 } on-error={}
@@ -191,7 +191,6 @@
 :do { add list=GF address=2a01:cb20:80d3:af00::/64 } on-error={}
 :do { add list=GF address=2a01:cb20:883f:af00::/64 } on-error={}
 :do { add list=GF address=2a01:cb20:a004:4000::/64 } on-error={}
-:do { add list=GF address=2a01:cde0:8108:c000::/51 } on-error={}
 :do { add list=GF address=2a01:cde0:8109:8000::/52 } on-error={}
 :do { add list=GF address=2a01:cde0:8109:c000::/50 } on-error={}
 :do { add list=GF address=2a01:cde0:c000::/34 } on-error={}

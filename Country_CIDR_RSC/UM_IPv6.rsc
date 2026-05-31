@@ -1,6 +1,6 @@
 /log info "Loading UM IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=UM address=2001:470:d:7e3::/64 } on-error={}
+:do { add list=UM address=2001:470:d:3e1::/64 } on-error={}
 :do { add list=UM address=2001:470:19:76::/64 } on-error={}
 :do { add list=UM address=2001:470:19:ad::/64 } on-error={}
 :do { add list=UM address=2001:470:19:218::/64 } on-error={}
@@ -28,9 +28,6 @@
 :do { add list=UM address=2001:470:180a::/48 } on-error={}
 :do { add list=UM address=2001:470:1876::/48 } on-error={}
 :do { add list=UM address=2001:470:1aaf::/48 } on-error={}
-:do { add list=UM address=2001:470:1f07:e8::/64 } on-error={}
-:do { add list=UM address=2001:470:1f07:27e::/64 } on-error={}
-:do { add list=UM address=2001:470:1f07:4be::/64 } on-error={}
 :do { add list=UM address=2001:470:1f09:186::/64 } on-error={}
 :do { add list=UM address=2001:470:1f0b:19a::/64 } on-error={}
 :do { add list=UM address=2001:470:1f0b:4fd::/64 } on-error={}
@@ -57,7 +54,22 @@
 :do { add list=UM address=2001:470:f848::/48 } on-error={}
 :do { add list=UM address=2001:470:f91f::/48 } on-error={}
 :do { add list=UM address=2001:470:f930::/48 } on-error={}
-:do { add list=UM address=2001:470:f941::/48 } on-error={}
+:do { add list=UM address=2001:470:f941:1::/64 } on-error={}
+:do { add list=UM address=2001:470:f941:2::/63 } on-error={}
+:do { add list=UM address=2001:470:f941:4::/62 } on-error={}
+:do { add list=UM address=2001:470:f941:8::/61 } on-error={}
+:do { add list=UM address=2001:470:f941:10::/60 } on-error={}
+:do { add list=UM address=2001:470:f941:20::/59 } on-error={}
+:do { add list=UM address=2001:470:f941:40::/58 } on-error={}
+:do { add list=UM address=2001:470:f941:80::/57 } on-error={}
+:do { add list=UM address=2001:470:f941:100::/56 } on-error={}
+:do { add list=UM address=2001:470:f941:200::/55 } on-error={}
+:do { add list=UM address=2001:470:f941:400::/54 } on-error={}
+:do { add list=UM address=2001:470:f941:800::/53 } on-error={}
+:do { add list=UM address=2001:470:f941:1000::/52 } on-error={}
+:do { add list=UM address=2001:470:f941:2000::/51 } on-error={}
+:do { add list=UM address=2001:470:f941:4000::/50 } on-error={}
+:do { add list=UM address=2001:470:f941:8000::/49 } on-error={}
 :do { add list=UM address=2001:470:fe7e::/48 } on-error={}
 :do { add list=UM address=2001:4b28:f700::/40 } on-error={}
 :do { add list=UM address=2401:b60:1f40:4000::/50 } on-error={}

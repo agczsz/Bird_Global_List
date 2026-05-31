@@ -2873,8 +2873,11 @@
 :do { add list=CI address=2c0f:ec60::/32 } on-error={}
 :do { add list=CI address=2c0f:ecf0::/32 } on-error={}
 :do { add list=CI address=2c0f:ef80::/32 } on-error={}
-:do { add list=CI address=2c0f:f0f8:519:a000::/64 } on-error={}
+:do { add list=CI address=2c0f:f0f8:209:400::/64 } on-error={}
+:do { add list=CI address=2c0f:f0f8:605:f100::/64 } on-error={}
+:do { add list=CI address=2c0f:f0f8:630:8c00::/64 } on-error={}
 :do { add list=CI address=2c0f:f0f8:80b:7a00::/64 } on-error={}
+:do { add list=CI address=2c0f:f0f8:8b3:300::/64 } on-error={}
 :do { add list=CI address=2c0f:f230::/32 } on-error={}
 :do { add list=CI address=2c0f:f4d0::/32 } on-error={}
 :do { add list=CI address=2c0f:f5d8::/39 } on-error={}

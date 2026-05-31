@@ -1073,6 +1073,7 @@
 :do { add list=MZ address=2c0f:feb0:1:2::b9/128 } on-error={}
 :do { add list=MZ address=2c0f:feb0:1:2::be/128 } on-error={}
 :do { add list=MZ address=2c0f:feb0:1:2::45a/128 } on-error={}
+:do { add list=MZ address=2c0f:feb0:1:2::475/128 } on-error={}
 :do { add list=MZ address=2c0f:feb0:1:2::479/128 } on-error={}
 :do { add list=MZ address=2c0f:feb0:1:2::47e/128 } on-error={}
 :do { add list=MZ address=2c0f:feb0:1:2::87e/128 } on-error={}

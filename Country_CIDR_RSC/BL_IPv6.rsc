@@ -137,6 +137,7 @@
 :do { add list=BL address=2a12:f8c3:1:1d87::/64 } on-error={}
 :do { add list=BL address=2a13:a5c7:251a::/48 } on-error={}
 :do { add list=BL address=2a13:a5c7:25ff:1900::/56 } on-error={}
+:do { add list=BL address=2a13:b487:1b10::/47 } on-error={}
 :do { add list=BL address=2a14:1c3:c800::/37 } on-error={}
 :do { add list=BL address=2a14:2d45:1900::/40 } on-error={}
 :do { add list=BL address=2a14:67c1:b61a::/48 } on-error={}

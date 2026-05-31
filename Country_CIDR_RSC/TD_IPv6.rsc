@@ -13,7 +13,6 @@
 :do { add list=TD address=2001:470:fbdb::/48 } on-error={}
 :do { add list=TD address=2001:470:fe45::/48 } on-error={}
 :do { add list=TD address=2001:67c:a38:f235::/64 } on-error={}
-:do { add list=TD address=2001:b88:0:cc9::/64 } on-error={}
 :do { add list=TD address=2001:43f8:16a0::/47 } on-error={}
 :do { add list=TD address=2001:43fd:2000::/48 } on-error={}
 :do { add list=TD address=2001:4b28:e800::/40 } on-error={}

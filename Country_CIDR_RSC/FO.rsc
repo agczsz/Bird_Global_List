@@ -3,7 +3,6 @@
 :do { add list=FO address=5.62.60.133/32 } on-error={}
 :do { add list=FO address=5.62.60.134/31 } on-error={}
 :do { add list=FO address=5.62.62.128/30 } on-error={}
-:do { add list=FO address=8.38.18.200/32 } on-error={}
 :do { add list=FO address=37.120.252.0/23 } on-error={}
 :do { add list=FO address=46.227.112.0/24 } on-error={}
 :do { add list=FO address=46.227.113.0/26 } on-error={}
@@ -12,13 +11,7 @@
 :do { add list=FO address=46.227.113.88/30 } on-error={}
 :do { add list=FO address=46.227.113.95/32 } on-error={}
 :do { add list=FO address=46.227.113.96/27 } on-error={}
-:do { add list=FO address=46.227.113.128/28 } on-error={}
-:do { add list=FO address=46.227.113.144/29 } on-error={}
-:do { add list=FO address=46.227.113.152/30 } on-error={}
-:do { add list=FO address=46.227.113.157/32 } on-error={}
-:do { add list=FO address=46.227.113.158/31 } on-error={}
-:do { add list=FO address=46.227.113.160/27 } on-error={}
-:do { add list=FO address=46.227.113.192/26 } on-error={}
+:do { add list=FO address=46.227.113.128/25 } on-error={}
 :do { add list=FO address=46.227.114.0/23 } on-error={}
 :do { add list=FO address=46.227.116.0/22 } on-error={}
 :do { add list=FO address=80.77.128.0/20 } on-error={}
@@ -71,7 +64,8 @@
 :do { add list=FO address=193.34.104.13/32 } on-error={}
 :do { add list=FO address=193.34.104.14/31 } on-error={}
 :do { add list=FO address=193.34.104.32/30 } on-error={}
-:do { add list=FO address=193.34.104.100/30 } on-error={}
+:do { add list=FO address=193.34.104.38/31 } on-error={}
+:do { add list=FO address=193.34.104.130/31 } on-error={}
 :do { add list=FO address=193.34.104.136/29 } on-error={}
 :do { add list=FO address=193.34.104.144/28 } on-error={}
 :do { add list=FO address=193.34.104.160/27 } on-error={}

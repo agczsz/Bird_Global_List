@@ -158,13 +158,8 @@
 :do { add list=YE address=209.198.132.0/24 } on-error={}
 :do { add list=YE address=209.198.150.0/23 } on-error={}
 :do { add list=YE address=212.32.95.4/30 } on-error={}
-:do { add list=YE address=212.32.95.8/31 } on-error={}
-:do { add list=YE address=212.32.95.12/30 } on-error={}
-:do { add list=YE address=212.32.95.17/32 } on-error={}
-:do { add list=YE address=212.32.95.18/31 } on-error={}
-:do { add list=YE address=212.32.95.24/31 } on-error={}
-:do { add list=YE address=212.32.95.26/32 } on-error={}
-:do { add list=YE address=212.32.95.29/32 } on-error={}
-:do { add list=YE address=212.32.95.30/31 } on-error={}
-:do { add list=YE address=212.32.95.32/27 } on-error={}
+:do { add list=YE address=212.32.95.8/29 } on-error={}
+:do { add list=YE address=212.32.95.24/29 } on-error={}
+:do { add list=YE address=212.32.95.36/30 } on-error={}
+:do { add list=YE address=212.32.95.48/28 } on-error={}
 :do { add list=YE address=213.246.0.0/19 } on-error={}

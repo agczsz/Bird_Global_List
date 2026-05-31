@@ -1,11 +1,11 @@
 /log info "Loading NC IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=NC address=2001:470:d:3e8::/64 } on-error={}
 :do { add list=NC address=2001:470:19:bd7::/64 } on-error={}
 :do { add list=NC address=2001:470:36:147::/64 } on-error={}
 :do { add list=NC address=2001:470:36:84b::/64 } on-error={}
 :do { add list=NC address=2001:470:36:aa3::/64 } on-error={}
 :do { add list=NC address=2001:470:36:f40::/64 } on-error={}
-:do { add list=NC address=2001:470:1f07:33::/64 } on-error={}
 :do { add list=NC address=2001:470:f397::/48 } on-error={}
 :do { add list=NC address=2001:df0:77c0::/48 } on-error={}
 :do { add list=NC address=2001:df3:8900::/48 } on-error={}

@@ -1,14 +1,19 @@
 /log info "Loading HN IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=HN address=2001:470:5:4d::/64 } on-error={}
+:do { add list=HN address=2001:470:5:58::/64 } on-error={}
+:do { add list=HN address=2001:470:5:fa::/64 } on-error={}
+:do { add list=HN address=2001:470:5:fd::/64 } on-error={}
 :do { add list=HN address=2001:470:5:1f9::/64 } on-error={}
 :do { add list=HN address=2001:470:5:23f::/64 } on-error={}
+:do { add list=HN address=2001:470:5:242::/64 } on-error={}
+:do { add list=HN address=2001:470:5:458::/64 } on-error={}
 :do { add list=HN address=2001:470:5:500::/64 } on-error={}
 :do { add list=HN address=2001:470:5:65c::/64 } on-error={}
 :do { add list=HN address=2001:470:5:731::/64 } on-error={}
 :do { add list=HN address=2001:470:8:229::/64 } on-error={}
 :do { add list=HN address=2001:470:19:c01::/64 } on-error={}
 :do { add list=HN address=2001:470:71:429::/64 } on-error={}
-:do { add list=HN address=2001:470:1f07:3c4::/64 } on-error={}
 :do { add list=HN address=2001:470:1f11:1b3::/64 } on-error={}
 :do { add list=HN address=2001:470:1f15:4e9::/64 } on-error={}
 :do { add list=HN address=2001:470:1f21:2cb::/64 } on-error={}
@@ -124,6 +129,7 @@
 :do { add list=HN address=2607:8940:25ae::/47 } on-error={}
 :do { add list=HN address=2607:8940:4200:a800::/55 } on-error={}
 :do { add list=HN address=2607:8940:4200:aa00::/56 } on-error={}
+:do { add list=HN address=2607:f438:0:1:69:79:100:93/128 } on-error={}
 :do { add list=HN address=2607:f438:0:1:69:79:100:171/128 } on-error={}
 :do { add list=HN address=2607:f438:0:1:69:79:100:187/128 } on-error={}
 :do { add list=HN address=2607:f438:0:1:69:79:100:189/128 } on-error={}
@@ -212,6 +218,7 @@
 :do { add list=HN address=2803:4580:9100:16::/63 } on-error={}
 :do { add list=HN address=2803:4580:91ff::/64 } on-error={}
 :do { add list=HN address=2803:4600::/36 } on-error={}
+:do { add list=HN address=2803:4600:101f:7941::/64 } on-error={}
 :do { add list=HN address=2803:4600:1060::/44 } on-error={}
 :do { add list=HN address=2803:4600:1100::/40 } on-error={}
 :do { add list=HN address=2803:4600:1200::/39 } on-error={}

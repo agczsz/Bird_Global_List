@@ -1,5 +1,6 @@
 /log info "Loading DM IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=DM address=2001:470:5:106::/64 } on-error={}
 :do { add list=DM address=2001:470:19:f74::/64 } on-error={}
 :do { add list=DM address=2001:470:24:963::/64 } on-error={}
 :do { add list=DM address=2001:470:36:dbd::/64 } on-error={}

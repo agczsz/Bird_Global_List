@@ -1,5 +1,10 @@
 /log info "Loading JM IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=JM address=2001:470:5:cc::/64 } on-error={}
+:do { add list=JM address=2001:470:5:186::/64 } on-error={}
+:do { add list=JM address=2001:470:5:203::/64 } on-error={}
+:do { add list=JM address=2001:470:5:37f::/64 } on-error={}
+:do { add list=JM address=2001:470:5:459::/64 } on-error={}
 :do { add list=JM address=2001:470:19:c1e::/64 } on-error={}
 :do { add list=JM address=2001:470:19:d6d::/64 } on-error={}
 :do { add list=JM address=2001:470:26:240::/64 } on-error={}
@@ -117,7 +122,9 @@
 :do { add list=JM address=2605:a200:2000:1::/64 } on-error={}
 :do { add list=JM address=2605:a200:2000:2::/63 } on-error={}
 :do { add list=JM address=2605:a200:2000:4::/62 } on-error={}
-:do { add list=JM address=2605:a200:2000:8::/61 } on-error={}
+:do { add list=JM address=2605:a200:2000:8::/63 } on-error={}
+:do { add list=JM address=2605:a200:2000:b::/64 } on-error={}
+:do { add list=JM address=2605:a200:2000:c::/62 } on-error={}
 :do { add list=JM address=2605:a200:2000:10::/60 } on-error={}
 :do { add list=JM address=2605:a200:2000:20::/59 } on-error={}
 :do { add list=JM address=2605:a200:2000:40::/58 } on-error={}
@@ -126,7 +133,6 @@
 :do { add list=JM address=2605:a200:2000:200::/55 } on-error={}
 :do { add list=JM address=2605:a200:2000:400::/54 } on-error={}
 :do { add list=JM address=2605:a200:2000:800::/53 } on-error={}
-:do { add list=JM address=2605:a200:2000:1000::/64 } on-error={}
 :do { add list=JM address=2605:a200:2000:1002::/63 } on-error={}
 :do { add list=JM address=2605:a200:2000:1004::/62 } on-error={}
 :do { add list=JM address=2605:a200:2000:1008::/61 } on-error={}
@@ -153,10 +159,22 @@
 :do { add list=JM address=2605:a200:2200::/39 } on-error={}
 :do { add list=JM address=2605:a200:2400::/38 } on-error={}
 :do { add list=JM address=2605:a200:2800::/37 } on-error={}
-:do { add list=JM address=2605:a200:3000::/36 } on-error={}
+:do { add list=JM address=2605:a200:3000::/48 } on-error={}
+:do { add list=JM address=2605:a200:3001::/50 } on-error={}
+:do { add list=JM address=2605:a200:3002::/47 } on-error={}
+:do { add list=JM address=2605:a200:3004::/46 } on-error={}
+:do { add list=JM address=2605:a200:3008::/45 } on-error={}
+:do { add list=JM address=2605:a200:3010::/44 } on-error={}
+:do { add list=JM address=2605:a200:3020::/43 } on-error={}
+:do { add list=JM address=2605:a200:3040::/42 } on-error={}
+:do { add list=JM address=2605:a200:3080::/41 } on-error={}
+:do { add list=JM address=2605:a200:3100::/40 } on-error={}
+:do { add list=JM address=2605:a200:3200::/39 } on-error={}
+:do { add list=JM address=2605:a200:3400::/38 } on-error={}
+:do { add list=JM address=2605:a200:3800::/37 } on-error={}
 :do { add list=JM address=2605:a200:4000::/34 } on-error={}
 :do { add list=JM address=2605:a200:8000::/64 } on-error={}
-:do { add list=JM address=2605:a200:8000:2::/63 } on-error={}
+:do { add list=JM address=2605:a200:8000:3::/64 } on-error={}
 :do { add list=JM address=2605:a200:8000:4::/64 } on-error={}
 :do { add list=JM address=2605:a200:8000:7::/64 } on-error={}
 :do { add list=JM address=2605:a200:8000:8::/61 } on-error={}
@@ -187,7 +205,6 @@
 :do { add list=JM address=2605:a200:9000::/36 } on-error={}
 :do { add list=JM address=2605:a200:a000::/35 } on-error={}
 :do { add list=JM address=2605:a200:c000::/34 } on-error={}
-:do { add list=JM address=2605:c080::/32 } on-error={}
 :do { add list=JM address=2606:40:e00::/43 } on-error={}
 :do { add list=JM address=2606:40:20f5:a000::/51 } on-error={}
 :do { add list=JM address=2606:40:214b::/51 } on-error={}

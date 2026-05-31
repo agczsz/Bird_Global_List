@@ -2,7 +2,6 @@
 /ipv6 firewall address-list
 :do { add list=NI address=2001:470:8:169::/64 } on-error={}
 :do { add list=NI address=2001:470:24:678::/64 } on-error={}
-:do { add list=NI address=2001:470:1f07:a61::/64 } on-error={}
 :do { add list=NI address=2001:470:1f1d:8c6::/64 } on-error={}
 :do { add list=NI address=2001:470:1f29:303::/64 } on-error={}
 :do { add list=NI address=2001:470:1f2b:19::/64 } on-error={}
