@@ -118,7 +118,6 @@
 :do { add list=BW address=77.246.62.64/26 } on-error={}
 :do { add list=BW address=83.143.24.0/21 } on-error={}
 :do { add list=BW address=84.254.148.0/24 } on-error={}
-:do { add list=BW address=88.202.91.0/24 } on-error={}
 :do { add list=BW address=98.97.183.88/32 } on-error={}
 :do { add list=BW address=98.97.183.95/32 } on-error={}
 :do { add list=BW address=98.97.183.137/32 } on-error={}

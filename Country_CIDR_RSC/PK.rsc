@@ -329,7 +329,6 @@
 :do { add list=PK address=61.5.156.0/24 } on-error={}
 :do { add list=PK address=61.5.157.0/24 } on-error={}
 :do { add list=PK address=61.5.158.0/23 } on-error={}
-:do { add list=PK address=64.64.121.248/29 } on-error={}
 :do { add list=PK address=64.86.121.0/24 } on-error={}
 :do { add list=PK address=64.86.122.0/24 } on-error={}
 :do { add list=PK address=64.86.131.0/24 } on-error={}
@@ -1342,7 +1341,7 @@
 :do { add list=PK address=115.186.60.0/23 } on-error={}
 :do { add list=PK address=115.186.62.0/23 } on-error={}
 :do { add list=PK address=115.186.64.0/21 } on-error={}
-:do { add list=PK address=115.186.72.0/22 } on-error={}
+:do { add list=PK address=115.186.72.0/23 } on-error={}
 :do { add list=PK address=115.186.76.0/22 } on-error={}
 :do { add list=PK address=115.186.80.0/21 } on-error={}
 :do { add list=PK address=115.186.88.0/23 } on-error={}
@@ -1865,6 +1864,7 @@
 :do { add list=PK address=134.0.219.213/32 } on-error={}
 :do { add list=PK address=134.82.74.56/29 } on-error={}
 :do { add list=PK address=134.144.244.0/23 } on-error={}
+:do { add list=PK address=134.168.241.0/24 } on-error={}
 :do { add list=PK address=134.168.251.0/24 } on-error={}
 :do { add list=PK address=134.231.139.128/25 } on-error={}
 :do { add list=PK address=134.231.196.192/26 } on-error={}
@@ -1950,6 +1950,7 @@
 :do { add list=PK address=147.90.100.0/24 } on-error={}
 :do { add list=PK address=147.90.101.0/24 } on-error={}
 :do { add list=PK address=147.90.102.0/23 } on-error={}
+:do { add list=PK address=147.90.200.176/28 } on-error={}
 :do { add list=PK address=147.189.175.171/32 } on-error={}
 :do { add list=PK address=148.64.22.160/27 } on-error={}
 :do { add list=PK address=149.14.125.90/32 } on-error={}
@@ -1963,6 +1964,7 @@
 :do { add list=PK address=149.40.225.0/24 } on-error={}
 :do { add list=PK address=149.40.230.0/23 } on-error={}
 :do { add list=PK address=149.40.233.0/24 } on-error={}
+:do { add list=PK address=149.40.236.0/24 } on-error={}
 :do { add list=PK address=149.40.240.0/22 } on-error={}
 :do { add list=PK address=149.40.247.0/24 } on-error={}
 :do { add list=PK address=149.40.248.0/23 } on-error={}
@@ -2179,6 +2181,7 @@
 :do { add list=PK address=162.128.32.0/23 } on-error={}
 :do { add list=PK address=162.128.40.0/24 } on-error={}
 :do { add list=PK address=162.128.54.0/24 } on-error={}
+:do { add list=PK address=162.128.96.0/24 } on-error={}
 :do { add list=PK address=162.128.241.0/24 } on-error={}
 :do { add list=PK address=162.128.252.0/24 } on-error={}
 :do { add list=PK address=163.61.0.0/23 } on-error={}
@@ -2428,6 +2431,7 @@
 :do { add list=PK address=185.239.148.240/29 } on-error={}
 :do { add list=PK address=185.239.148.248/30 } on-error={}
 :do { add list=PK address=185.239.148.255/32 } on-error={}
+:do { add list=PK address=187.40.236.0/24 } on-error={}
 :do { add list=PK address=192.23.19.1/32 } on-error={}
 :do { add list=PK address=192.23.19.2/31 } on-error={}
 :do { add list=PK address=192.23.19.4/32 } on-error={}

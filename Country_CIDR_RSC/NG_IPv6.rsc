@@ -776,7 +776,6 @@
 :do { add list=NG address=2a02:26f7:ed40:d5ec::/64 } on-error={}
 :do { add list=NG address=2a02:26f7:ed41::/48 } on-error={}
 :do { add list=NG address=2a02:26f7:ed42:4000::/64 } on-error={}
-:do { add list=NG address=2a02:26f7:ed42:8000::/50 } on-error={}
 :do { add list=NG address=2a02:26f7:ed42:d5c0::/59 } on-error={}
 :do { add list=NG address=2a02:26f7:ed42:d5e0::/61 } on-error={}
 :do { add list=NG address=2a02:26f7:ed42:d5e8::/62 } on-error={}

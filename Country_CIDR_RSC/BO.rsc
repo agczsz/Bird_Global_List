@@ -411,6 +411,7 @@
 :do { add list=BO address=186.121.236.0/22 } on-error={}
 :do { add list=BO address=186.121.240.0/20 } on-error={}
 :do { add list=BO address=186.195.247.0/24 } on-error={}
+:do { add list=BO address=187.40.242.0/24 } on-error={}
 :do { add list=BO address=187.102.200.0/22 } on-error={}
 :do { add list=BO address=189.28.64.0/19 } on-error={}
 :do { add list=BO address=190.0.248.0/22 } on-error={}
@@ -519,6 +520,7 @@
 :do { add list=BO address=196.197.52.0/24 } on-error={}
 :do { add list=BO address=196.198.52.0/24 } on-error={}
 :do { add list=BO address=196.199.52.0/24 } on-error={}
+:do { add list=BO address=198.55.115.0/24 } on-error={}
 :do { add list=BO address=198.64.124.0/22 } on-error={}
 :do { add list=BO address=198.64.213.0/24 } on-error={}
 :do { add list=BO address=200.7.160.0/20 } on-error={}

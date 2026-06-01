@@ -44,7 +44,6 @@
 :do { add list=AE address=2001:470:26:5e::/64 } on-error={}
 :do { add list=AE address=2001:470:26:de::/64 } on-error={}
 :do { add list=AE address=2001:470:26:12b::/64 } on-error={}
-:do { add list=AE address=2001:470:26:13f::/64 } on-error={}
 :do { add list=AE address=2001:470:26:14e::/64 } on-error={}
 :do { add list=AE address=2001:470:26:1ea::/64 } on-error={}
 :do { add list=AE address=2001:470:26:21c::/64 } on-error={}
@@ -338,6 +337,7 @@
 :do { add list=AE address=2001:470:1f0b:420::/64 } on-error={}
 :do { add list=AE address=2001:470:1f0b:4c0::/63 } on-error={}
 :do { add list=AE address=2001:470:1f0b:51f::/64 } on-error={}
+:do { add list=AE address=2001:470:1f0b:524::/64 } on-error={}
 :do { add list=AE address=2001:470:1f0b:5bd::/64 } on-error={}
 :do { add list=AE address=2001:470:1f0b:6f5::/64 } on-error={}
 :do { add list=AE address=2001:470:1f0b:7d4::/64 } on-error={}
@@ -6412,7 +6412,11 @@
 :do { add list=AE address=2a0f:f00:400c::/46 } on-error={}
 :do { add list=AE address=2a0f:f00:401a::/47 } on-error={}
 :do { add list=AE address=2a0f:f00:401c::/46 } on-error={}
-:do { add list=AE address=2a0f:f00:4020::/43 } on-error={}
+:do { add list=AE address=2a0f:f00:4021::/48 } on-error={}
+:do { add list=AE address=2a0f:f00:4022::/47 } on-error={}
+:do { add list=AE address=2a0f:f00:4024::/46 } on-error={}
+:do { add list=AE address=2a0f:f00:4028::/45 } on-error={}
+:do { add list=AE address=2a0f:f00:4030::/44 } on-error={}
 :do { add list=AE address=2a0f:f00:4040::/42 } on-error={}
 :do { add list=AE address=2a0f:f00:4080::/41 } on-error={}
 :do { add list=AE address=2a0f:f00:4100::/40 } on-error={}
@@ -7746,7 +7750,7 @@
 :do { add list=AE address=2a14:7581:fe0::/48 } on-error={}
 :do { add list=AE address=2a14:7581:3bf0::/48 } on-error={}
 :do { add list=AE address=2a14:7581:c080::/44 } on-error={}
-:do { add list=AE address=2a14:7582::/32 } on-error={}
+:do { add list=AE address=2a14:7582::/36 } on-error={}
 :do { add list=AE address=2a14:7583:1000::/36 } on-error={}
 :do { add list=AE address=2a14:7583:8911::/48 } on-error={}
 :do { add list=AE address=2a14:7583:8912::/47 } on-error={}

@@ -7,7 +7,6 @@
 :do { add list=AW address=2001:470:19:252::/64 } on-error={}
 :do { add list=AW address=2001:470:19:c9a::/64 } on-error={}
 :do { add list=AW address=2001:470:19:132c::/64 } on-error={}
-:do { add list=AW address=2001:470:24:70b::/64 } on-error={}
 :do { add list=AW address=2001:470:24:1168::/64 } on-error={}
 :do { add list=AW address=2001:470:26:125::/64 } on-error={}
 :do { add list=AW address=2001:470:36:96::/64 } on-error={}

@@ -36,8 +36,8 @@
 :do { add list=MQ address=2803:9810:57c0::/42 } on-error={}
 :do { add list=MQ address=2a01:528:4500::/40 } on-error={}
 :do { add list=MQ address=2a01:cb20:1a:be00::/64 } on-error={}
-:do { add list=MQ address=2a01:cb20:4d:3a00::/64 } on-error={}
 :do { add list=MQ address=2a01:cb20:127:ce00::/64 } on-error={}
+:do { add list=MQ address=2a01:cb20:187:3300::/64 } on-error={}
 :do { add list=MQ address=2a01:cb20:18b:2b00::/64 } on-error={}
 :do { add list=MQ address=2a01:cb20:193:4c00::/64 } on-error={}
 :do { add list=MQ address=2a01:cb20:193:4cd5::/64 } on-error={}
@@ -45,6 +45,7 @@
 :do { add list=MQ address=2a01:cb20:818:2f00::/64 } on-error={}
 :do { add list=MQ address=2a01:cb20:81a:3500::/64 } on-error={}
 :do { add list=MQ address=2a01:cb20:842:f200::/64 } on-error={}
+:do { add list=MQ address=2a01:cb20:84e:c300::/64 } on-error={}
 :do { add list=MQ address=2a01:cde0:8000::/42 } on-error={}
 :do { add list=MQ address=2a01:cde0:8041::/48 } on-error={}
 :do { add list=MQ address=2a01:cde0:8042::/47 } on-error={}

@@ -328,6 +328,7 @@
 :do { add list=JM address=173.253.121.168/29 } on-error={}
 :do { add list=JM address=184.170.0.0/18 } on-error={}
 :do { add list=JM address=185.138.17.23/32 } on-error={}
+:do { add list=JM address=187.40.239.0/24 } on-error={}
 :do { add list=JM address=192.131.32.0/21 } on-error={}
 :do { add list=JM address=193.9.34.0/32 } on-error={}
 :do { add list=JM address=193.9.34.48/28 } on-error={}

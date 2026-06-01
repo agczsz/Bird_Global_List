@@ -128,6 +128,7 @@
 :do { add list=TJ address=2a04:4e41:5e24::/48 } on-error={}
 :do { add list=TJ address=2a04:4e41:7624::/48 } on-error={}
 :do { add list=TJ address=2a04:6f40::/29 } on-error={}
+:do { add list=TJ address=2a04:8281:3000::/36 } on-error={}
 :do { add list=TJ address=2a05:540:9999::/48 } on-error={}
 :do { add list=TJ address=2a05:2480::/29 } on-error={}
 :do { add list=TJ address=2a05:da00::/29 } on-error={}

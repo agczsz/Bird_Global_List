@@ -383,6 +383,7 @@
 :do { add list=AF address=185.112.134.1/32 } on-error={}
 :do { add list=AF address=185.178.144.0/22 } on-error={}
 :do { add list=AF address=185.193.212.0/22 } on-error={}
+:do { add list=AF address=187.40.233.0/24 } on-error={}
 :do { add list=AF address=188.164.69.64/26 } on-error={}
 :do { add list=AF address=194.50.99.3/32 } on-error={}
 :do { add list=AF address=195.242.241.0/32 } on-error={}

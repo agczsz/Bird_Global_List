@@ -2,7 +2,6 @@
 /ipv6 firewall address-list
 :do { add list=CX address=2001:470:d:390::/64 } on-error={}
 :do { add list=CX address=2001:470:19:aa::/64 } on-error={}
-:do { add list=CX address=2001:470:19:2cd::/64 } on-error={}
 :do { add list=CX address=2001:470:19:793::/64 } on-error={}
 :do { add list=CX address=2001:470:19:cd3::/64 } on-error={}
 :do { add list=CX address=2001:470:19:cd4::/64 } on-error={}
@@ -10,7 +9,6 @@
 :do { add list=CX address=2001:470:19:109b::/64 } on-error={}
 :do { add list=CX address=2001:470:24:d6::/64 } on-error={}
 :do { add list=CX address=2001:470:24:2b1::/64 } on-error={}
-:do { add list=CX address=2001:470:24:312::/64 } on-error={}
 :do { add list=CX address=2001:470:24:4e0::/64 } on-error={}
 :do { add list=CX address=2001:470:24:968::/64 } on-error={}
 :do { add list=CX address=2001:470:36:103::/64 } on-error={}
@@ -40,7 +38,6 @@
 :do { add list=CX address=2001:470:fc49::/48 } on-error={}
 :do { add list=CX address=2001:470:fcbe::/48 } on-error={}
 :do { add list=CX address=2001:470:fdd1::/48 } on-error={}
-:do { add list=CX address=2001:470:fdfa::/48 } on-error={}
 :do { add list=CX address=2001:470:fe69::/48 } on-error={}
 :do { add list=CX address=2001:4b28:b200::/40 } on-error={}
 :do { add list=CX address=2401:b60:12e0:4000::/50 } on-error={}

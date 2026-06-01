@@ -789,7 +789,7 @@
 :do { add list=MP address=2401:ce80:1:13f::1c/128 } on-error={}
 :do { add list=MP address=2401:ce80:1:13f::1e/128 } on-error={}
 :do { add list=MP address=2401:f1e0:ffff:a17e::/64 } on-error={}
-:do { add list=MP address=2401:f1e0:ffff:e313::/64 } on-error={}
+:do { add list=MP address=2401:f1e0:ffff:e313:4390:29b1:1471:f444/128 } on-error={}
 :do { add list=MP address=2405:b500:4c80::/64 } on-error={}
 :do { add list=MP address=2405:b500:4ca0::/64 } on-error={}
 :do { add list=MP address=2405:b500:4cc0::/64 } on-error={}

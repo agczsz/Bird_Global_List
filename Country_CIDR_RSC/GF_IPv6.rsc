@@ -177,7 +177,6 @@
 :do { add list=GF address=2a01:cb08:a004:21d:2000::/67 } on-error={}
 :do { add list=GF address=2a01:cb08:a004:21d:4000::/66 } on-error={}
 :do { add list=GF address=2a01:cb08:a004:21d:8000::/65 } on-error={}
-:do { add list=GF address=2a01:cb20:8019:a400::/64 } on-error={}
 :do { add list=GF address=2a01:cb20:801f:8700::/64 } on-error={}
 :do { add list=GF address=2a01:cb20:8020:2b00::/64 } on-error={}
 :do { add list=GF address=2a01:cb20:804d:7a00::/64 } on-error={}
@@ -188,7 +187,6 @@
 :do { add list=GF address=2a01:cb20:80b1:f000::/64 } on-error={}
 :do { add list=GF address=2a01:cb20:80cd:e000::/64 } on-error={}
 :do { add list=GF address=2a01:cb20:80d3:5400::/64 } on-error={}
-:do { add list=GF address=2a01:cb20:80d3:af00::/64 } on-error={}
 :do { add list=GF address=2a01:cb20:883f:af00::/64 } on-error={}
 :do { add list=GF address=2a01:cb20:a004:4000::/64 } on-error={}
 :do { add list=GF address=2a01:cde0:8109:8000::/52 } on-error={}

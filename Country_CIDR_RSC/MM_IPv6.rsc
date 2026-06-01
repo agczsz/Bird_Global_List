@@ -813,7 +813,7 @@
 :do { add list=MM address=2a12:f382:4900::/40 } on-error={}
 :do { add list=MM address=2a12:f8c3:1:4ae::/64 } on-error={}
 :do { add list=MM address=2a12:f8c3:1:4ee::/64 } on-error={}
-:do { add list=MM address=2a12:f8c3:1:9a0c::/64 } on-error={}
+:do { add list=MM address=2a12:f8c3:1:9a0c:5088:6eee:56da:8d1a/128 } on-error={}
 :do { add list=MM address=2a12:f8c3:1:9bf2::/64 } on-error={}
 :do { add list=MM address=2a13:82c4:ff1e::/48 } on-error={}
 :do { add list=MM address=2a13:a5c3:d47c::/46 } on-error={}

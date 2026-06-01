@@ -5425,6 +5425,7 @@
 :do { add list=VN address=2a04:4e41:640f::/48 } on-error={}
 :do { add list=VN address=2a04:4e41:7602:8000::/51 } on-error={}
 :do { add list=VN address=2a04:4e41:762c::/48 } on-error={}
+:do { add list=VN address=2a04:8281:4000::/36 } on-error={}
 :do { add list=VN address=2a05:dfc1:5af9::/48 } on-error={}
 :do { add list=VN address=2a06:9801:21f::/48 } on-error={}
 :do { add list=VN address=2a06:9f81:39ef::/48 } on-error={}

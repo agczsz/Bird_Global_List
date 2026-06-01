@@ -283,7 +283,7 @@
 :do { add list=RE address=109.122.176.0/23 } on-error={}
 :do { add list=RE address=109.122.178.0/27 } on-error={}
 :do { add list=RE address=109.122.178.32/30 } on-error={}
-:do { add list=RE address=109.122.178.39/32 } on-error={}
+:do { add list=RE address=109.122.178.38/31 } on-error={}
 :do { add list=RE address=109.122.178.40/30 } on-error={}
 :do { add list=RE address=109.122.178.48/31 } on-error={}
 :do { add list=RE address=109.122.178.51/32 } on-error={}
