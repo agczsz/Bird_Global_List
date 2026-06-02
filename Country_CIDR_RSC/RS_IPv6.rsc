@@ -111,6 +111,7 @@
 :do { add list=RS address=2001:470:1f1b:51d::/64 } on-error={}
 :do { add list=RS address=2001:470:1f1b:51e::/64 } on-error={}
 :do { add list=RS address=2001:470:1f1b:529::/64 } on-error={}
+:do { add list=RS address=2001:470:1f1b:533::/64 } on-error={}
 :do { add list=RS address=2001:470:1f1b:564::/64 } on-error={}
 :do { add list=RS address=2001:470:1f1b:573::/64 } on-error={}
 :do { add list=RS address=2001:470:1f1b:5c4::/64 } on-error={}

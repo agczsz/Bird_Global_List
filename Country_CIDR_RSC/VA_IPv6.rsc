@@ -7,7 +7,6 @@
 :do { add list=VA address=2001:470:19:1143::/64 } on-error={}
 :do { add list=VA address=2001:470:24:a2::/64 } on-error={}
 :do { add list=VA address=2001:470:24:76d::/64 } on-error={}
-:do { add list=VA address=2001:470:26:822::/64 } on-error={}
 :do { add list=VA address=2001:470:28:e36::/64 } on-error={}
 :do { add list=VA address=2001:470:36:7e5::/64 } on-error={}
 :do { add list=VA address=2001:470:36:1308::/64 } on-error={}
@@ -23,7 +22,6 @@
 :do { add list=VA address=2001:470:73b1::/48 } on-error={}
 :do { add list=VA address=2001:470:7440::/48 } on-error={}
 :do { add list=VA address=2001:470:80a2::/48 } on-error={}
-:do { add list=VA address=2001:470:b727::/48 } on-error={}
 :do { add list=VA address=2001:470:ca7d::/48 } on-error={}
 :do { add list=VA address=2001:470:dfa4::/48 } on-error={}
 :do { add list=VA address=2001:470:ef92::/48 } on-error={}

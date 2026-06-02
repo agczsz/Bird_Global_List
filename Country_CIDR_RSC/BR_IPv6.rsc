@@ -9003,7 +9003,9 @@
 :do { add list=BR address=2606:ca00:101:3d00::/64 } on-error={}
 :do { add list=BR address=2606:f100:30ff:fffe::/63 } on-error={}
 :do { add list=BR address=2606:f180:12::/48 } on-error={}
-:do { add list=BR address=2606:f184:5100::/46 } on-error={}
+:do { add list=BR address=2606:f184:5100::/48 } on-error={}
+:do { add list=BR address=2606:f184:5101::/48 } on-error={}
+:do { add list=BR address=2606:f184:5102::/47 } on-error={}
 :do { add list=BR address=2606:f184:5104::/48 } on-error={}
 :do { add list=BR address=2606:f4c0:2410::/44 } on-error={}
 :do { add list=BR address=2606:f4c0:2430::/44 } on-error={}

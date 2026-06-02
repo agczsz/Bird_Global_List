@@ -7,7 +7,6 @@
 :do { add list=LR address=2001:470:1a21::/48 } on-error={}
 :do { add list=LR address=2001:470:1f13:832::/64 } on-error={}
 :do { add list=LR address=2001:470:1f13:83f::/64 } on-error={}
-:do { add list=LR address=2001:470:1f15:1da::/64 } on-error={}
 :do { add list=LR address=2001:470:1f15:bc1::/64 } on-error={}
 :do { add list=LR address=2001:470:1f1d:8ae::/64 } on-error={}
 :do { add list=LR address=2001:470:79b4::/48 } on-error={}

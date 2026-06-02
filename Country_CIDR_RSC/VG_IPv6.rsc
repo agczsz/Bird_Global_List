@@ -1,6 +1,5 @@
 /log info "Loading VG IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=VG address=2001:470:8:272::/64 } on-error={}
 :do { add list=VG address=2001:470:19:99f::/64 } on-error={}
 :do { add list=VG address=2001:470:24:4d::/64 } on-error={}
 :do { add list=VG address=2001:470:24:73a::/64 } on-error={}

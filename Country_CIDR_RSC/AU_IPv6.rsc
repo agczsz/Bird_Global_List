@@ -1191,6 +1191,7 @@
 :do { add list=AU address=2001:470:1f0b:38a::/64 } on-error={}
 :do { add list=AU address=2001:470:1f0b:525::/64 } on-error={}
 :do { add list=AU address=2001:470:1f0b:538::/64 } on-error={}
+:do { add list=AU address=2001:470:1f0b:55d::/64 } on-error={}
 :do { add list=AU address=2001:470:1f0b:58e::/64 } on-error={}
 :do { add list=AU address=2001:470:1f0b:629::/64 } on-error={}
 :do { add list=AU address=2001:470:1f0b:66b::/64 } on-error={}
@@ -1583,6 +1584,7 @@
 :do { add list=AU address=2001:470:1f2d:80::/64 } on-error={}
 :do { add list=AU address=2001:470:1f2d:82::/64 } on-error={}
 :do { add list=AU address=2001:470:1f2d:8a::/63 } on-error={}
+:do { add list=AU address=2001:470:1f2d:8c::/64 } on-error={}
 :do { add list=AU address=2001:470:1f2d:8e::/63 } on-error={}
 :do { add list=AU address=2001:470:1f2d:92::/63 } on-error={}
 :do { add list=AU address=2001:470:1f2d:96::/64 } on-error={}

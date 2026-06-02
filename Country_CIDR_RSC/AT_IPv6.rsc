@@ -4724,7 +4724,6 @@
 :do { add list=AT address=2803:ad80:aa1:2000::/51 } on-error={}
 :do { add list=AT address=2803:ad80:aa1:4000::/50 } on-error={}
 :do { add list=AT address=2803:ad80:aa1:8000::/49 } on-error={}
-:do { add list=AT address=2a00:20:73c6:c000::/52 } on-error={}
 :do { add list=AT address=2a00:20:c340:d000::/52 } on-error={}
 :do { add list=AT address=2a00:20:c343:c000::/51 } on-error={}
 :do { add list=AT address=2a00:20:c355:3800::/53 } on-error={}
@@ -4732,7 +4731,6 @@
 :do { add list=AT address=2a00:20:c35b::/52 } on-error={}
 :do { add list=AT address=2a00:20:c35d:e000::/51 } on-error={}
 :do { add list=AT address=2a00:20:c361:2000::/53 } on-error={}
-:do { add list=AT address=2a00:20:c366:2800::/54 } on-error={}
 :do { add list=AT address=2a00:20:c367:f000::/54 } on-error={}
 :do { add list=AT address=2a00:20:c368:5000::/52 } on-error={}
 :do { add list=AT address=2a00:ca0:2007::/50 } on-error={}
@@ -9355,8 +9353,6 @@
 :do { add list=AT address=2a02:2ad0:918::/48 } on-error={}
 :do { add list=AT address=2a02:2b10::/32 } on-error={}
 :do { add list=AT address=2a02:3033:26c:9000::/52 } on-error={}
-:do { add list=AT address=2a02:3033:276::/52 } on-error={}
-:do { add list=AT address=2a02:3033:27a::/53 } on-error={}
 :do { add list=AT address=2a02:3033:27c:c000::/52 } on-error={}
 :do { add list=AT address=2a02:3033:28a:6c00::/54 } on-error={}
 :do { add list=AT address=2a02:3033:6d1:f800::/53 } on-error={}

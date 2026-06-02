@@ -9493,7 +9493,10 @@
 :do { add list=RO address=2a10:fa81:400::/40 } on-error={}
 :do { add list=RO address=2a10:fa81:500::/40 } on-error={}
 :do { add list=RO address=2a10:fa81:700::/40 } on-error={}
-:do { add list=RO address=2a10:fa81:800::/37 } on-error={}
+:do { add list=RO address=2a10:fa81:800::/40 } on-error={}
+:do { add list=RO address=2a10:fa81:900::/40 } on-error={}
+:do { add list=RO address=2a10:fa81:a00::/39 } on-error={}
+:do { add list=RO address=2a10:fa81:c00::/38 } on-error={}
 :do { add list=RO address=2a10:fa81:1000::/36 } on-error={}
 :do { add list=RO address=2a10:fa81:2000::/35 } on-error={}
 :do { add list=RO address=2a10:fa81:4000::/34 } on-error={}

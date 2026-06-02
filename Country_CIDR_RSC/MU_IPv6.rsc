@@ -5,7 +5,6 @@
 :do { add list=MU address=2001:470:28:94f::/64 } on-error={}
 :do { add list=MU address=2001:470:36:2::/64 } on-error={}
 :do { add list=MU address=2001:470:36:4a1::/64 } on-error={}
-:do { add list=MU address=2001:470:36:5cb::/64 } on-error={}
 :do { add list=MU address=2001:470:1f0b:3b2::/64 } on-error={}
 :do { add list=MU address=2001:470:1f0b:a6b::/64 } on-error={}
 :do { add list=MU address=2001:470:1f13:72::/64 } on-error={}
