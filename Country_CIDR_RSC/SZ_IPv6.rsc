@@ -1,5 +1,6 @@
 /log info "Loading SZ IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=SZ address=2001:470:8:273::/64 } on-error={}
 :do { add list=SZ address=2001:470:19:beb::/64 } on-error={}
 :do { add list=SZ address=2001:470:24:e90::/64 } on-error={}
 :do { add list=SZ address=2001:470:24:1314::/64 } on-error={}

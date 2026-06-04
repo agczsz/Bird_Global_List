@@ -3,6 +3,7 @@
 :do { add list=ZW address=2001:470:26:460::/64 } on-error={}
 :do { add list=ZW address=2001:470:28:69f::/64 } on-error={}
 :do { add list=ZW address=2001:470:28:8ad::/64 } on-error={}
+:do { add list=ZW address=2001:470:28:fd4::/64 } on-error={}
 :do { add list=ZW address=2001:470:28:109a::/64 } on-error={}
 :do { add list=ZW address=2001:470:36:22c::/64 } on-error={}
 :do { add list=ZW address=2001:470:67:67a::/64 } on-error={}

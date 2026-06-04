@@ -1,6 +1,7 @@
 /log info "Loading TG IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=TG address=2001:67c:a38:f228::/64 } on-error={}
+:do { add list=TG address=2001:978:2:21::f3:17/128 } on-error={}
 :do { add list=TG address=2001:43f8:d10::/47 } on-error={}
 :do { add list=TG address=2001:43f8:1110::/48 } on-error={}
 :do { add list=TG address=2001:4b28:e600::/40 } on-error={}
@@ -33,6 +34,7 @@
 :do { add list=TG address=2620:0:876:8900::/56 } on-error={}
 :do { add list=TG address=2a00:ca0:2003:2000::/52 } on-error={}
 :do { add list=TG address=2a00:ca0:203b:4000::/50 } on-error={}
+:do { add list=TG address=2a01:3e0:10:1000::112/128 } on-error={}
 :do { add list=TG address=2a01:528:e600::/40 } on-error={}
 :do { add list=TG address=2a02:26f7:c440::/48 } on-error={}
 :do { add list=TG address=2a02:26f7:c441::/48 } on-error={}

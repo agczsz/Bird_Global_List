@@ -10,7 +10,6 @@
 :do { add list=TK address=2001:470:1f13:185::/64 } on-error={}
 :do { add list=TK address=2001:470:1f1d:cd::/64 } on-error={}
 :do { add list=TK address=2001:470:1f1d:271::/64 } on-error={}
-:do { add list=TK address=2001:470:1f2d:74::/64 } on-error={}
 :do { add list=TK address=2001:470:1f2d:a1::/64 } on-error={}
 :do { add list=TK address=2001:470:4042::/48 } on-error={}
 :do { add list=TK address=2001:470:c1a5::/48 } on-error={}

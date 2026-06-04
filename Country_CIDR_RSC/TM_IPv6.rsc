@@ -14,6 +14,7 @@
 :do { add list=TM address=2001:470:1f0b:5de::/64 } on-error={}
 :do { add list=TM address=2001:470:1f0b:76a::/64 } on-error={}
 :do { add list=TM address=2001:470:1f0b:da6::/64 } on-error={}
+:do { add list=TM address=2001:470:1f0b:117a::/64 } on-error={}
 :do { add list=TM address=2001:470:1f15:49a::/64 } on-error={}
 :do { add list=TM address=2001:470:1f1b:280::/64 } on-error={}
 :do { add list=TM address=2001:470:1f1b:3dc::/64 } on-error={}
@@ -35,7 +36,6 @@
 :do { add list=TM address=2401:b60:1ec4::/46 } on-error={}
 :do { add list=TM address=2401:b60:1ec8::/45 } on-error={}
 :do { add list=TM address=2401:f1e0:ffff:48f5::/64 } on-error={}
-:do { add list=TM address=2401:f1e0:ffff:4bdf:a3b1:3f34:2fbe:fe4c/128 } on-error={}
 :do { add list=TM address=2405:b500:7100::/64 } on-error={}
 :do { add list=TM address=2405:b500:7120::/64 } on-error={}
 :do { add list=TM address=2405:b500:7140::/64 } on-error={}

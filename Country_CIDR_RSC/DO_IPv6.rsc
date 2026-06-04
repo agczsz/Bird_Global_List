@@ -776,7 +776,6 @@
 :do { add list=DO address=2803:e090::/32 } on-error={}
 :do { add list=DO address=2803:e2d0::/32 } on-error={}
 :do { add list=DO address=2803:e610::/32 } on-error={}
-:do { add list=DO address=2803:e630::/48 } on-error={}
 :do { add list=DO address=2803:e820::/32 } on-error={}
 :do { add list=DO address=2803:e950::/32 } on-error={}
 :do { add list=DO address=2803:ebd0::/32 } on-error={}

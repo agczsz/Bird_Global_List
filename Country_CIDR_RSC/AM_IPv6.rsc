@@ -13,8 +13,6 @@
 :do { add list=AM address=2001:470:19:1dc::/64 } on-error={}
 :do { add list=AM address=2001:470:19:241::/64 } on-error={}
 :do { add list=AM address=2001:470:19:2eb::/64 } on-error={}
-:do { add list=AM address=2001:470:19:2f4::/64 } on-error={}
-:do { add list=AM address=2001:470:19:2fe::/64 } on-error={}
 :do { add list=AM address=2001:470:19:328::/64 } on-error={}
 :do { add list=AM address=2001:470:19:338::/64 } on-error={}
 :do { add list=AM address=2001:470:19:3cb::/64 } on-error={}
