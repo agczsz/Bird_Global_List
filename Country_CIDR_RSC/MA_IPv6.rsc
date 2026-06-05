@@ -443,6 +443,14 @@
 :do { add list=MA address=2600:70ff:f127::/48 } on-error={}
 :do { add list=MA address=2600:70ff:f148::/48 } on-error={}
 :do { add list=MA address=2602:2a9:a20::/44 } on-error={}
+:do { add list=MA address=2602:fa02:16f::/48 } on-error={}
+:do { add list=MA address=2602:fa02:170::/48 } on-error={}
+:do { add list=MA address=2602:fa02:206::/47 } on-error={}
+:do { add list=MA address=2602:fa02:29d::/48 } on-error={}
+:do { add list=MA address=2602:fa02:29e::/48 } on-error={}
+:do { add list=MA address=2602:fa02:334::/47 } on-error={}
+:do { add list=MA address=2602:fa02:3cb::/48 } on-error={}
+:do { add list=MA address=2602:fa02:3cc::/48 } on-error={}
 :do { add list=MA address=2602:fd92:b00:55::/64 } on-error={}
 :do { add list=MA address=2602:fd92:b00:56::/63 } on-error={}
 :do { add list=MA address=2602:fd92:b00:59::/64 } on-error={}

@@ -81,6 +81,11 @@
 :do { add list=TN address=2405:b500:71e0::/64 } on-error={}
 :do { add list=TN address=2405:b500:71e0:530::/64 } on-error={}
 :do { add list=TN address=2600:70ff:b804::/48 } on-error={}
+:do { add list=TN address=2602:fa02:171::/48 } on-error={}
+:do { add list=TN address=2602:fa02:208::/48 } on-error={}
+:do { add list=TN address=2602:fa02:29f::/48 } on-error={}
+:do { add list=TN address=2602:fa02:336::/48 } on-error={}
+:do { add list=TN address=2602:fa02:3cd::/48 } on-error={}
 :do { add list=TN address=2602:fd92:b00:92::/64 } on-error={}
 :do { add list=TN address=2602:fed2:7305:fb::/64 } on-error={}
 :do { add list=TN address=2602:fed2:7305:fc::/63 } on-error={}

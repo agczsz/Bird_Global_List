@@ -302,6 +302,13 @@
 :do { add list=NG address=2602:f92a:fe11::/48 } on-error={}
 :do { add list=NG address=2602:f92a:ff11::/48 } on-error={}
 :do { add list=NG address=2602:f9a9:5:321::/64 } on-error={}
+:do { add list=NG address=2602:fa02:16c::/47 } on-error={}
+:do { add list=NG address=2602:fa02:203::/48 } on-error={}
+:do { add list=NG address=2602:fa02:204::/48 } on-error={}
+:do { add list=NG address=2602:fa02:29a::/47 } on-error={}
+:do { add list=NG address=2602:fa02:331::/48 } on-error={}
+:do { add list=NG address=2602:fa02:332::/48 } on-error={}
+:do { add list=NG address=2602:fa02:3c8::/47 } on-error={}
 :do { add list=NG address=2602:fa93:e:321::/64 } on-error={}
 :do { add list=NG address=2602:faa8:451:221::/64 } on-error={}
 :do { add list=NG address=2602:faa8:455:321::/64 } on-error={}

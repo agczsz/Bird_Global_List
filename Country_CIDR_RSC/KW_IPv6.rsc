@@ -48,6 +48,11 @@
 :do { add list=KW address=2600:70ff:d061::/48 } on-error={}
 :do { add list=KW address=2600:70ff:d168::/48 } on-error={}
 :do { add list=KW address=2602:2a9:aa0::/44 } on-error={}
+:do { add list=KW address=2602:fa02:166::/48 } on-error={}
+:do { add list=KW address=2602:fa02:1fd::/48 } on-error={}
+:do { add list=KW address=2602:fa02:294::/48 } on-error={}
+:do { add list=KW address=2602:fa02:32b::/48 } on-error={}
+:do { add list=KW address=2602:fa02:3c2::/48 } on-error={}
 :do { add list=KW address=2602:fa80:27::/48 } on-error={}
 :do { add list=KW address=2604:980:e03e::/48 } on-error={}
 :do { add list=KW address=2606:54c0:4718::/45 } on-error={}

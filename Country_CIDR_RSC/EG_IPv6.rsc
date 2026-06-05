@@ -1080,6 +1080,11 @@
 :do { add list=EG address=2602:f5c1:31::/48 } on-error={}
 :do { add list=EG address=2602:f92a:fe16::/48 } on-error={}
 :do { add list=EG address=2602:f92a:ff16::/48 } on-error={}
+:do { add list=EG address=2602:fa02:16e::/48 } on-error={}
+:do { add list=EG address=2602:fa02:205::/48 } on-error={}
+:do { add list=EG address=2602:fa02:29c::/48 } on-error={}
+:do { add list=EG address=2602:fa02:333::/48 } on-error={}
+:do { add list=EG address=2602:fa02:3ca::/48 } on-error={}
 :do { add list=EG address=2602:fa80:1e::/48 } on-error={}
 :do { add list=EG address=2602:fa80:34::/48 } on-error={}
 :do { add list=EG address=2602:faa8:451:261::/64 } on-error={}

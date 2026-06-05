@@ -602,6 +602,11 @@
 :do { add list=KE address=2602:f7c8:c05::/48 } on-error={}
 :do { add list=KE address=2602:f7c8:c06::/47 } on-error={}
 :do { add list=KE address=2602:f7c8:c08::/47 } on-error={}
+:do { add list=KE address=2602:fa02:16b::/48 } on-error={}
+:do { add list=KE address=2602:fa02:202::/48 } on-error={}
+:do { add list=KE address=2602:fa02:299::/48 } on-error={}
+:do { add list=KE address=2602:fa02:330::/48 } on-error={}
+:do { add list=KE address=2602:fa02:3c7::/48 } on-error={}
 :do { add list=KE address=2602:fd92:b00:131::/64 } on-error={}
 :do { add list=KE address=2604:b040:13::3:0/112 } on-error={}
 :do { add list=KE address=2604:b040:13::1:3:0/112 } on-error={}

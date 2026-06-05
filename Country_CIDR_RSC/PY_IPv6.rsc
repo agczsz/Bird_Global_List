@@ -720,6 +720,7 @@
 :do { add list=PY address=2803:8160::/32 } on-error={}
 :do { add list=PY address=2803:85d0::/32 } on-error={}
 :do { add list=PY address=2803:8920::/32 } on-error={}
+:do { add list=PY address=2803:8930::/32 } on-error={}
 :do { add list=PY address=2803:8ba0::/32 } on-error={}
 :do { add list=PY address=2803:8e60::/32 } on-error={}
 :do { add list=PY address=2803:8e80::/32 } on-error={}

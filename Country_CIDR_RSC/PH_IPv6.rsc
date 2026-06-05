@@ -13429,6 +13429,11 @@
 :do { add list=PH address=2602:f7c8:530::/47 } on-error={}
 :do { add list=PH address=2602:f838::/40 } on-error={}
 :do { add list=PH address=2602:f9a9:5:511::/64 } on-error={}
+:do { add list=PH address=2602:fa02:18e::/48 } on-error={}
+:do { add list=PH address=2602:fa02:225::/48 } on-error={}
+:do { add list=PH address=2602:fa02:2bc::/48 } on-error={}
+:do { add list=PH address=2602:fa02:353::/48 } on-error={}
+:do { add list=PH address=2602:fa02:3ea::/48 } on-error={}
 :do { add list=PH address=2602:fa63::/36 } on-error={}
 :do { add list=PH address=2602:fa80:2c::/48 } on-error={}
 :do { add list=PH address=2602:fa93:e:511::/64 } on-error={}

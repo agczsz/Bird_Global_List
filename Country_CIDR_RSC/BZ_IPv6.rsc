@@ -10,13 +10,11 @@
 :do { add list=BZ address=2001:470:1f09:8f1::/64 } on-error={}
 :do { add list=BZ address=2001:470:82fb::/48 } on-error={}
 :do { add list=BZ address=2001:470:d988::/48 } on-error={}
-:do { add list=BZ address=2001:470:eeb0::/48 } on-error={}
 :do { add list=BZ address=2001:470:efce::/48 } on-error={}
 :do { add list=BZ address=2001:470:f536::/48 } on-error={}
 :do { add list=BZ address=2001:470:f60b::/48 } on-error={}
 :do { add list=BZ address=2001:470:fe82::/48 } on-error={}
 :do { add list=BZ address=2001:67c:a38:f501::/64 } on-error={}
-:do { add list=BZ address=2001:67c:255c::/48 } on-error={}
 :do { add list=BZ address=2001:3786:2929:200::/56 } on-error={}
 :do { add list=BZ address=2001:3786:bb03:300::/56 } on-error={}
 :do { add list=BZ address=2001:4b28:a300::/40 } on-error={}

@@ -374,7 +374,15 @@
 :do { add list=AG address=2a03:5f80:40::/42 } on-error={}
 :do { add list=AG address=2a03:5f80:80::/41 } on-error={}
 :do { add list=AG address=2a03:5f80:100::/40 } on-error={}
-:do { add list=AG address=2a03:5f80:200::/39 } on-error={}
+:do { add list=AG address=2a03:5f80:200::/42 } on-error={}
+:do { add list=AG address=2a03:5f80:240::/46 } on-error={}
+:do { add list=AG address=2a03:5f80:245::/48 } on-error={}
+:do { add list=AG address=2a03:5f80:246::/47 } on-error={}
+:do { add list=AG address=2a03:5f80:248::/45 } on-error={}
+:do { add list=AG address=2a03:5f80:250::/44 } on-error={}
+:do { add list=AG address=2a03:5f80:260::/43 } on-error={}
+:do { add list=AG address=2a03:5f80:280::/41 } on-error={}
+:do { add list=AG address=2a03:5f80:300::/40 } on-error={}
 :do { add list=AG address=2a03:5f80:400::/38 } on-error={}
 :do { add list=AG address=2a03:5f80:800::/37 } on-error={}
 :do { add list=AG address=2a03:5f80:1000::/36 } on-error={}

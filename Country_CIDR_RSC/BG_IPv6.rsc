@@ -2518,6 +2518,11 @@
 :do { add list=BG address=2602:f50c:654::/46 } on-error={}
 :do { add list=BG address=2602:f50c:658::/45 } on-error={}
 :do { add list=BG address=2602:f9a9:5:401::/64 } on-error={}
+:do { add list=BG address=2602:fa02:153::/48 } on-error={}
+:do { add list=BG address=2602:fa02:1ea::/48 } on-error={}
+:do { add list=BG address=2602:fa02:281::/48 } on-error={}
+:do { add list=BG address=2602:fa02:318::/48 } on-error={}
+:do { add list=BG address=2602:fa02:3af::/48 } on-error={}
 :do { add list=BG address=2602:fa80:17::/48 } on-error={}
 :do { add list=BG address=2602:fa93:e:401::/64 } on-error={}
 :do { add list=BG address=2602:faa8:455:401::/64 } on-error={}

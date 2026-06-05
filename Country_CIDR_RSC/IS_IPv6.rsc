@@ -218,6 +218,11 @@
 :do { add list=IS address=2602:f921:f04::/48 } on-error={}
 :do { add list=IS address=2602:f92a:fe10::/48 } on-error={}
 :do { add list=IS address=2602:f92a:ff10::/48 } on-error={}
+:do { add list=IS address=2602:fa02:159::/48 } on-error={}
+:do { add list=IS address=2602:fa02:1f0::/48 } on-error={}
+:do { add list=IS address=2602:fa02:287::/48 } on-error={}
+:do { add list=IS address=2602:fa02:31e::/48 } on-error={}
+:do { add list=IS address=2602:fa02:3b5::/48 } on-error={}
 :do { add list=IS address=2604:ca00:186::/49 } on-error={}
 :do { add list=IS address=2604:ca00:196:1::/64 } on-error={}
 :do { add list=IS address=2604:ca00:196:2::/63 } on-error={}

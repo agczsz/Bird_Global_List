@@ -1,6 +1,7 @@
 /log info "Loading MF IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=MF address=2001:470:19:35e::/64 } on-error={}
+:do { add list=MF address=2001:470:28:56::/64 } on-error={}
 :do { add list=MF address=2001:470:28:e64::/64 } on-error={}
 :do { add list=MF address=2001:470:28:f07::/64 } on-error={}
 :do { add list=MF address=2001:470:36:12c::/64 } on-error={}
