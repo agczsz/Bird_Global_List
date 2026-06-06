@@ -8955,6 +8955,12 @@
 :do { add list=ZA address=2c0f:fb50:4002::/62 } on-error={}
 :do { add list=ZA address=2c0f:fb50:4002:4::/64 } on-error={}
 :do { add list=ZA address=2c0f:fb50:4002:8::/63 } on-error={}
+:do { add list=ZA address=2c0f:fb50:4002:800::/63 } on-error={}
+:do { add list=ZA address=2c0f:fb50:4002:804::/63 } on-error={}
+:do { add list=ZA address=2c0f:fb50:4002:806::/64 } on-error={}
+:do { add list=ZA address=2c0f:fb50:4002:80a::/63 } on-error={}
+:do { add list=ZA address=2c0f:fb50:4002:812::/63 } on-error={}
+:do { add list=ZA address=2c0f:fb50:4002:81c::/62 } on-error={}
 :do { add list=ZA address=2c0f:fb50:8041:80::/64 } on-error={}
 :do { add list=ZA address=2c0f:fb50:8041:c0::/64 } on-error={}
 :do { add list=ZA address=2c0f:fb50:8041:100::/64 } on-error={}

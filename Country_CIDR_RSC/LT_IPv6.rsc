@@ -1236,6 +1236,7 @@
 :do { add list=LT address=2a02:26f7:cfc5::/48 } on-error={}
 :do { add list=LT address=2a02:26f7:cfc6::/47 } on-error={}
 :do { add list=LT address=2a02:26f7:cfc8:4000::/64 } on-error={}
+:do { add list=LT address=2a02:26f7:cfc8:8000::/50 } on-error={}
 :do { add list=LT address=2a02:26f7:cfc8:d500::/60 } on-error={}
 :do { add list=LT address=2a02:26f7:cfc8:d510::/61 } on-error={}
 :do { add list=LT address=2a02:26f7:cfc8:d518::/62 } on-error={}

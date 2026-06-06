@@ -1637,7 +1637,6 @@
 :do { add list=PK address=2402:48a0::/32 } on-error={}
 :do { add list=PK address=2402:4960::/32 } on-error={}
 :do { add list=PK address=2402:4ea0::/32 } on-error={}
-:do { add list=PK address=2402:5860::/32 } on-error={}
 :do { add list=PK address=2402:5a60::/47 } on-error={}
 :do { add list=PK address=2402:5a60:2::/48 } on-error={}
 :do { add list=PK address=2402:5a60:3::/48 } on-error={}

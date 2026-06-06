@@ -58,6 +58,7 @@
 :do { add list=LB address=2001:3786:5005:500::/56 } on-error={}
 :do { add list=LB address=2001:4b28:5c00::/40 } on-error={}
 :do { add list=LB address=2400:cb00:150::/48 } on-error={}
+:do { add list=LB address=2400:cb00:1251::/48 } on-error={}
 :do { add list=LB address=2401:b60:17f0:4000::/50 } on-error={}
 :do { add list=LB address=2401:b60:17f0:8000::/49 } on-error={}
 :do { add list=LB address=2401:b60:17f1::/48 } on-error={}

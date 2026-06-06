@@ -2380,7 +2380,6 @@
 :do { add list=HU address=2a05:f5c4::/30 } on-error={}
 :do { add list=HU address=2a06:5c80::/29 } on-error={}
 :do { add list=HU address=2a06:9801:213::/48 } on-error={}
-:do { add list=HU address=2a06:9801:797::/48 } on-error={}
 :do { add list=HU address=2a06:9f81:3962::/48 } on-error={}
 :do { add list=HU address=2a06:9f81:43ef:6500::/56 } on-error={}
 :do { add list=HU address=2a06:9f81:5662::/48 } on-error={}

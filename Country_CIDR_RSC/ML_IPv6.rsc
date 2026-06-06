@@ -1,7 +1,6 @@
 /log info "Loading ML IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=ML address=2001:470:36:136::/64 } on-error={}
-:do { add list=ML address=2001:470:f47e::/48 } on-error={}
 :do { add list=ML address=2001:67c:a38:f223::/64 } on-error={}
 :do { add list=ML address=2001:42c0::/32 } on-error={}
 :do { add list=ML address=2001:43f8:10d0::/48 } on-error={}

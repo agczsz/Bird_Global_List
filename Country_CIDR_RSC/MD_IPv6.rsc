@@ -33,6 +33,7 @@
 :do { add list=MD address=2001:470:1f0b:486::/64 } on-error={}
 :do { add list=MD address=2001:470:1f0b:4d5::/64 } on-error={}
 :do { add list=MD address=2001:470:1f0b:5c5::/64 } on-error={}
+:do { add list=MD address=2001:470:1f0b:5e7::/64 } on-error={}
 :do { add list=MD address=2001:470:1f0b:85f::/64 } on-error={}
 :do { add list=MD address=2001:470:1f0b:b6b::/64 } on-error={}
 :do { add list=MD address=2001:470:1f0b:ca8::/64 } on-error={}

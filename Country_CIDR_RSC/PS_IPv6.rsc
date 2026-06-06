@@ -182,7 +182,7 @@
 :do { add list=PS address=2a06:9f81:39b5::/48 } on-error={}
 :do { add list=PS address=2a06:9f81:43ef:b800::/56 } on-error={}
 :do { add list=PS address=2a06:9f81:56b5::/48 } on-error={}
-:do { add list=PS address=2a06:c701:9928::/45 } on-error={}
+:do { add list=PS address=2a06:c701:9920::/45 } on-error={}
 :do { add list=PS address=2a07:8780::/29 } on-error={}
 :do { add list=PS address=2a09:4c0:0:b8::/64 } on-error={}
 :do { add list=PS address=2a09:9900::/32 } on-error={}

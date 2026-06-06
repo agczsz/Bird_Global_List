@@ -156,7 +156,7 @@
 :do { add list=SK address=2001:470:1f0b:2be::/64 } on-error={}
 :do { add list=SK address=2001:470:1f0b:334::/64 } on-error={}
 :do { add list=SK address=2001:470:1f0b:408::/64 } on-error={}
-:do { add list=SK address=2001:470:1f0b:55a::/64 } on-error={}
+:do { add list=SK address=2001:470:1f0b:538::/64 } on-error={}
 :do { add list=SK address=2001:470:1f0b:70c::/64 } on-error={}
 :do { add list=SK address=2001:470:1f0b:8bf::/64 } on-error={}
 :do { add list=SK address=2001:470:1f0b:992::/64 } on-error={}

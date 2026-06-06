@@ -354,6 +354,7 @@
 :do { add list=TH address=2001:470:36:1318::/64 } on-error={}
 :do { add list=TH address=2001:470:36:134f::/64 } on-error={}
 :do { add list=TH address=2001:470:36:135b::/64 } on-error={}
+:do { add list=TH address=2001:470:6d:1ed::/64 } on-error={}
 :do { add list=TH address=2001:470:6d:435::/64 } on-error={}
 :do { add list=TH address=2001:470:6d:4e9::/64 } on-error={}
 :do { add list=TH address=2001:470:6d:702::/64 } on-error={}

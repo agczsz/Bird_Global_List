@@ -28,7 +28,6 @@
 :do { add list=MG address=2001:470:c034:4000::/50 } on-error={}
 :do { add list=MG address=2001:470:c034:8000::/49 } on-error={}
 :do { add list=MG address=2001:470:c06e::/48 } on-error={}
-:do { add list=MG address=2001:470:c085::/48 } on-error={}
 :do { add list=MG address=2001:470:c2bf::/48 } on-error={}
 :do { add list=MG address=2001:470:ffa3::/48 } on-error={}
 :do { add list=MG address=2001:470:ffc1::/48 } on-error={}

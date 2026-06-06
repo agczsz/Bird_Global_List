@@ -871,6 +871,8 @@
 :do { add list=CL address=2603:c029:4000::/35 } on-error={}
 :do { add list=CL address=2604:980:e005::/48 } on-error={}
 :do { add list=CL address=2604:980:e00f::/48 } on-error={}
+:do { add list=CL address=2604:980:e03a::/47 } on-error={}
+:do { add list=CL address=2604:980:e03c::/47 } on-error={}
 :do { add list=CL address=2604:c980:800::/40 } on-error={}
 :do { add list=CL address=2604:ca00:f016::/63 } on-error={}
 :do { add list=CL address=2604:ca00:f016:101::/64 } on-error={}
