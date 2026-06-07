@@ -1,6 +1,5 @@
 /log info "Loading HT IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=HT address=2001:470:5:371::/64 } on-error={}
 :do { add list=HT address=2001:470:5:5e2::/64 } on-error={}
 :do { add list=HT address=2001:470:24:46::/64 } on-error={}
 :do { add list=HT address=2001:470:24:138::/64 } on-error={}
@@ -34,7 +33,7 @@
 :do { add list=HT address=2401:b60:15e2::/47 } on-error={}
 :do { add list=HT address=2401:b60:15e4::/46 } on-error={}
 :do { add list=HT address=2401:b60:15e8::/45 } on-error={}
-:do { add list=HT address=2401:f1e0:ffff:849b::/64 } on-error={}
+:do { add list=HT address=2401:f1e0:ffff:6b44::/64 } on-error={}
 :do { add list=HT address=2405:b500:3380::/64 } on-error={}
 :do { add list=HT address=2405:b500:33a0::/64 } on-error={}
 :do { add list=HT address=2405:b500:33c0::/64 } on-error={}
@@ -150,7 +149,6 @@
 :do { add list=HT address=2a0a:6044:f7d0::/46 } on-error={}
 :do { add list=HT address=2a0a:6044:f7d4::/47 } on-error={}
 :do { add list=HT address=2a0a:6044:f7d6::/48 } on-error={}
-:do { add list=HT address=2a0a:79c7:f560::/48 } on-error={}
 :do { add list=HT address=2a0a:90c0:1084::/48 } on-error={}
 :do { add list=HT address=2a0b:4e07:3:3320::/60 } on-error={}
 :do { add list=HT address=2a0c:9a40:95b5:f000::/52 } on-error={}

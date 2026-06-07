@@ -1,6 +1,5 @@
 /log info "Loading AG IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=AG address=2001:470:d:a33::/64 } on-error={}
 :do { add list=AG address=2001:470:19:1328::/64 } on-error={}
 :do { add list=AG address=2001:470:24:53c::/64 } on-error={}
 :do { add list=AG address=2001:470:24:650::/64 } on-error={}
@@ -97,22 +96,6 @@
 :do { add list=AG address=2001:b28:2:be80::/57 } on-error={}
 :do { add list=AG address=2001:b28:2:bf00::/56 } on-error={}
 :do { add list=AG address=2001:b28:2:c000::/50 } on-error={}
-:do { add list=AG address=2001:b28:3::/49 } on-error={}
-:do { add list=AG address=2001:b28:3:8000::/51 } on-error={}
-:do { add list=AG address=2001:b28:3:a000::/52 } on-error={}
-:do { add list=AG address=2001:b28:3:b000::/53 } on-error={}
-:do { add list=AG address=2001:b28:3:b800::/54 } on-error={}
-:do { add list=AG address=2001:b28:3:bc00::/55 } on-error={}
-:do { add list=AG address=2001:b28:3:be00::/60 } on-error={}
-:do { add list=AG address=2001:b28:3:be10::/61 } on-error={}
-:do { add list=AG address=2001:b28:3:be18::/62 } on-error={}
-:do { add list=AG address=2001:b28:3:be1c::/63 } on-error={}
-:do { add list=AG address=2001:b28:3:be1f::/64 } on-error={}
-:do { add list=AG address=2001:b28:3:be20::/59 } on-error={}
-:do { add list=AG address=2001:b28:3:be40::/58 } on-error={}
-:do { add list=AG address=2001:b28:3:be80::/57 } on-error={}
-:do { add list=AG address=2001:b28:3:bf00::/56 } on-error={}
-:do { add list=AG address=2001:b28:3:c000::/50 } on-error={}
 :do { add list=AG address=2001:b28:5::/48 } on-error={}
 :do { add list=AG address=2001:b28:6::/47 } on-error={}
 :do { add list=AG address=2001:b28:8::/45 } on-error={}
@@ -241,6 +224,8 @@
 :do { add list=AG address=2405:b500:360::/64 } on-error={}
 :do { add list=AG address=2600:70ff:c82a::/48 } on-error={}
 :do { add list=AG address=2602:f6b5::/36 } on-error={}
+:do { add list=AG address=2602:fd72:0:3::/64 } on-error={}
+:do { add list=AG address=2602:fd72:0:5::/64 } on-error={}
 :do { add list=AG address=2604:a180::/36 } on-error={}
 :do { add list=AG address=2605:9e40::/32 } on-error={}
 :do { add list=AG address=2606:40:c40::/43 } on-error={}
@@ -322,6 +307,14 @@
 :do { add list=AG address=2a02:5745:37::/48 } on-error={}
 :do { add list=AG address=2a02:5746:37::/48 } on-error={}
 :do { add list=AG address=2a02:5747:37::/48 } on-error={}
+:do { add list=AG address=2a03:5f80::/64 } on-error={}
+:do { add list=AG address=2a03:5f80:0:2::/63 } on-error={}
+:do { add list=AG address=2a03:5f80:0:4::/62 } on-error={}
+:do { add list=AG address=2a03:5f80:0:8::/61 } on-error={}
+:do { add list=AG address=2a03:5f80:0:10::/60 } on-error={}
+:do { add list=AG address=2a03:5f80:0:20::/59 } on-error={}
+:do { add list=AG address=2a03:5f80:0:40::/58 } on-error={}
+:do { add list=AG address=2a03:5f80:0:80::/57 } on-error={}
 :do { add list=AG address=2a03:5f80:0:100::/56 } on-error={}
 :do { add list=AG address=2a03:5f80:0:200::/55 } on-error={}
 :do { add list=AG address=2a03:5f80:0:400::/54 } on-error={}
@@ -440,7 +433,6 @@
 :do { add list=AG address=2a0a:6044:f718::/45 } on-error={}
 :do { add list=AG address=2a0a:6044:f720::/47 } on-error={}
 :do { add list=AG address=2a0a:6044:f722::/48 } on-error={}
-:do { add list=AG address=2a0a:79c7:f509::/48 } on-error={}
 :do { add list=AG address=2a0b:4e07:3:280::/60 } on-error={}
 :do { add list=AG address=2a0c:9a40:95b0:9000::/52 } on-error={}
 :do { add list=AG address=2a0c:9a46:304::/48 } on-error={}

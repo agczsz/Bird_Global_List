@@ -2,7 +2,6 @@
 /ipv6 firewall address-list
 :do { add list=MZ address=2001:470:36:208::/64 } on-error={}
 :do { add list=MZ address=2001:470:36:43a::/64 } on-error={}
-:do { add list=MZ address=2001:470:36:5fd::/64 } on-error={}
 :do { add list=MZ address=2001:470:6d:649::/64 } on-error={}
 :do { add list=MZ address=2001:470:1f09:acf::/64 } on-error={}
 :do { add list=MZ address=2001:470:1f0b:a71::/64 } on-error={}
@@ -11,6 +10,7 @@
 :do { add list=MZ address=2001:470:6b72::/48 } on-error={}
 :do { add list=MZ address=2001:470:6d4f::/48 } on-error={}
 :do { add list=MZ address=2001:470:74b5::/48 } on-error={}
+:do { add list=MZ address=2001:470:ecd2::/48 } on-error={}
 :do { add list=MZ address=2001:67c:a38:f258::/64 } on-error={}
 :do { add list=MZ address=2001:4378::/32 } on-error={}
 :do { add list=MZ address=2001:43f8:640::/48 } on-error={}
@@ -26,6 +26,7 @@
 :do { add list=MZ address=2401:b60:19b2::/47 } on-error={}
 :do { add list=MZ address=2401:b60:19b4::/46 } on-error={}
 :do { add list=MZ address=2401:b60:19b8::/45 } on-error={}
+:do { add list=MZ address=2401:f1e0:ffff:31f7::/64 } on-error={}
 :do { add list=MZ address=2401:f1e0:ffff:7a3c::/64 } on-error={}
 :do { add list=MZ address=2405:b500:5180::/64 } on-error={}
 :do { add list=MZ address=2405:b500:51a0::/64 } on-error={}

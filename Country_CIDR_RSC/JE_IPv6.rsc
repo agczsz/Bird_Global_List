@@ -10,7 +10,6 @@
 :do { add list=JE address=2001:470:18f8::/48 } on-error={}
 :do { add list=JE address=2001:470:1f09:a73::/64 } on-error={}
 :do { add list=JE address=2001:470:1f0b:697::/64 } on-error={}
-:do { add list=JE address=2001:470:1f1d:ab::/64 } on-error={}
 :do { add list=JE address=2001:470:1f1d:9c9::/64 } on-error={}
 :do { add list=JE address=2001:470:4072::/48 } on-error={}
 :do { add list=JE address=2001:470:68ea::/48 } on-error={}
@@ -40,7 +39,7 @@
 :do { add list=JE address=2401:b60:1732::/47 } on-error={}
 :do { add list=JE address=2401:b60:1734::/46 } on-error={}
 :do { add list=JE address=2401:b60:1738::/45 } on-error={}
-:do { add list=JE address=2401:f1e0:ffff:e43a::/64 } on-error={}
+:do { add list=JE address=2401:f1e0:ffff:85e1::/64 } on-error={}
 :do { add list=JE address=2402:9880:300::/40 } on-error={}
 :do { add list=JE address=2405:b500:3980::/64 } on-error={}
 :do { add list=JE address=2405:b500:39a0::/64 } on-error={}
@@ -143,7 +142,7 @@
 :do { add list=JE address=2a02:c28:11:520::/60 } on-error={}
 :do { add list=JE address=2a02:c28:11:530::/62 } on-error={}
 :do { add list=JE address=2a02:c28:11:535::/64 } on-error={}
-:do { add list=JE address=2a02:c28:11:537::/64 } on-error={}
+:do { add list=JE address=2a02:c28:11:536::/63 } on-error={}
 :do { add list=JE address=2a02:c28:11:538::/61 } on-error={}
 :do { add list=JE address=2a02:c28:11:540::/58 } on-error={}
 :do { add list=JE address=2a02:c28:11:580::/57 } on-error={}
@@ -341,7 +340,8 @@
 :do { add list=JE address=2a02:c2c::/30 } on-error={}
 :do { add list=JE address=2a02:26f7:e2c0::/48 } on-error={}
 :do { add list=JE address=2a02:26f7:e2c1::/48 } on-error={}
-:do { add list=JE address=2a02:26f7:e2c2::/47 } on-error={}
+:do { add list=JE address=2a02:26f7:e2c2::/48 } on-error={}
+:do { add list=JE address=2a02:26f7:e2c3::/48 } on-error={}
 :do { add list=JE address=2a02:26f7:e2c4::/48 } on-error={}
 :do { add list=JE address=2a02:26f7:e2c5::/48 } on-error={}
 :do { add list=JE address=2a02:26f7:e2c6::/47 } on-error={}
@@ -401,7 +401,6 @@
 :do { add list=JE address=2a0a:6044:f538::/45 } on-error={}
 :do { add list=JE address=2a0a:6044:f540::/46 } on-error={}
 :do { add list=JE address=2a0a:6044:f544::/48 } on-error={}
-:do { add list=JE address=2a0a:79c7:f571::/48 } on-error={}
 :do { add list=JE address=2a0a:9607:5000:1::/64 } on-error={}
 :do { add list=JE address=2a0a:9607:5000:2::/63 } on-error={}
 :do { add list=JE address=2a0a:9607:5000:4::/62 } on-error={}

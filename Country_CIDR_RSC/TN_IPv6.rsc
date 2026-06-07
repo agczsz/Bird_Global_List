@@ -1,5 +1,6 @@
 /log info "Loading TN IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=TN address=2001:470:1d:376::/64 } on-error={}
 :do { add list=TN address=2001:470:26:2a2::/64 } on-error={}
 :do { add list=TN address=2001:470:1f13:237::/64 } on-error={}
 :do { add list=TN address=2001:470:1f13:395::/64 } on-error={}
@@ -87,8 +88,6 @@
 :do { add list=TN address=2602:fa02:336::/48 } on-error={}
 :do { add list=TN address=2602:fa02:3cd::/48 } on-error={}
 :do { add list=TN address=2602:fd92:b00:92::/64 } on-error={}
-:do { add list=TN address=2602:fed2:7305:fb::/64 } on-error={}
-:do { add list=TN address=2602:fed2:7305:fc::/63 } on-error={}
 :do { add list=TN address=2604:b040:13:1400::3:0/112 } on-error={}
 :do { add list=TN address=2604:b040:13:1400:0:1:3:0/112 } on-error={}
 :do { add list=TN address=2604:b040:13:1400:0:2:3:0/112 } on-error={}
@@ -132,9 +131,6 @@
 :do { add list=TN address=2607:8940:4171:b600::/55 } on-error={}
 :do { add list=TN address=2607:8940:4191:b500::/56 } on-error={}
 :do { add list=TN address=2607:8940:4191:b600::/55 } on-error={}
-:do { add list=TN address=2620:0:876:418::/64 } on-error={}
-:do { add list=TN address=2620:0:876:476::/64 } on-error={}
-:do { add list=TN address=2620:0:876:496::/64 } on-error={}
 :do { add list=TN address=2620:0:876:822::2/128 } on-error={}
 :do { add list=TN address=2620:0:876:827::/64 } on-error={}
 :do { add list=TN address=2620:0:876:830::2/128 } on-error={}
@@ -143,7 +139,6 @@
 :do { add list=TN address=2620:0:876:930::2/128 } on-error={}
 :do { add list=TN address=2620:0:876:3000::/56 } on-error={}
 :do { add list=TN address=2a01:528:ff00::/40 } on-error={}
-:do { add list=TN address=2a01:5d0:812a:be2d::/64 } on-error={}
 :do { add list=TN address=2a01:c9c0:c009:1::/64 } on-error={}
 :do { add list=TN address=2a01:c9c0:c009:2::/63 } on-error={}
 :do { add list=TN address=2a01:c9c0:c009:4::/62 } on-error={}
@@ -250,7 +245,6 @@
 :do { add list=TN address=2a0a:6044:fb7a::/47 } on-error={}
 :do { add list=TN address=2a0a:6044:fb7c::/46 } on-error={}
 :do { add list=TN address=2a0a:6044:fb80::/45 } on-error={}
-:do { add list=TN address=2a0a:79c7:f5e2::/48 } on-error={}
 :do { add list=TN address=2a0b:4e07:3:7880::/60 } on-error={}
 :do { add list=TN address=2a0c:9a40:95be::/52 } on-error={}
 :do { add list=TN address=2a0c:9a46:3df::/48 } on-error={}

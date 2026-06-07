@@ -1,5 +1,7 @@
 /log info "Loading SD IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=SD address=2001:470:d:13b::/64 } on-error={}
+:do { add list=SD address=2001:470:1d:3d2::/64 } on-error={}
 :do { add list=SD address=2001:470:36:185::/64 } on-error={}
 :do { add list=SD address=2001:470:36:485::/64 } on-error={}
 :do { add list=SD address=2001:470:6d:26d::/64 } on-error={}
@@ -23,7 +25,7 @@
 :do { add list=SD address=2401:b60:1d92::/47 } on-error={}
 :do { add list=SD address=2401:b60:1d94::/46 } on-error={}
 :do { add list=SD address=2401:b60:1d98::/45 } on-error={}
-:do { add list=SD address=2401:f1e0:ffff:93bd::/64 } on-error={}
+:do { add list=SD address=2401:f1e0:ffff:b518::/64 } on-error={}
 :do { add list=SD address=2405:b500:6400::/64 } on-error={}
 :do { add list=SD address=2405:b500:6400:8::/64 } on-error={}
 :do { add list=SD address=2405:b500:6420::/64 } on-error={}
@@ -100,6 +102,8 @@
 :do { add list=SD address=2a06:9f81:39c2::/48 } on-error={}
 :do { add list=SD address=2a06:9f81:43ef:c500::/56 } on-error={}
 :do { add list=SD address=2a06:9f81:56c2::/48 } on-error={}
+:do { add list=SD address=2a06:b440:105::/48 } on-error={}
+:do { add list=SD address=2a06:b440:177::/48 } on-error={}
 :do { add list=SD address=2a07:d887:c200::/40 } on-error={}
 :do { add list=SD address=2a09:4c0:0:c5::/64 } on-error={}
 :do { add list=SD address=2a09:bac1:6400::/64 } on-error={}

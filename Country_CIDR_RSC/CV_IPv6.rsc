@@ -22,6 +22,7 @@
 :do { add list=CV address=2401:b60:1282::/47 } on-error={}
 :do { add list=CV address=2401:b60:1284::/46 } on-error={}
 :do { add list=CV address=2401:b60:1288::/45 } on-error={}
+:do { add list=CV address=2401:f1e0:ffff:6a29::/64 } on-error={}
 :do { add list=CV address=2401:f1e0:ffff:786d::/64 } on-error={}
 :do { add list=CV address=2405:b500:1b80::/64 } on-error={}
 :do { add list=CV address=2405:b500:1ba0::/64 } on-error={}

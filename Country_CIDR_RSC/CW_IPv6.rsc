@@ -1,12 +1,13 @@
 /log info "Loading CW IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=CW address=2001:470:5:267::/64 } on-error={}
 :do { add list=CW address=2001:470:5:26b::/64 } on-error={}
 :do { add list=CW address=2001:470:19:5e1::/64 } on-error={}
 :do { add list=CW address=2001:470:19:693::/64 } on-error={}
+:do { add list=CW address=2001:470:1d:49e::/64 } on-error={}
 :do { add list=CW address=2001:470:24:20f::/64 } on-error={}
 :do { add list=CW address=2001:470:28:bab::/64 } on-error={}
 :do { add list=CW address=2001:470:36:338::/64 } on-error={}
+:do { add list=CW address=2001:470:1f07:12::/64 } on-error={}
 :do { add list=CW address=2001:470:1f09:9ca::/64 } on-error={}
 :do { add list=CW address=2001:470:1f17:145::/64 } on-error={}
 :do { add list=CW address=2001:470:1f23:52::/64 } on-error={}
@@ -198,6 +199,7 @@
 :do { add list=CW address=2803:f950:0:502:2000::/67 } on-error={}
 :do { add list=CW address=2803:f950:0:502:4000::/66 } on-error={}
 :do { add list=CW address=2803:f950:0:502:8000::/65 } on-error={}
+:do { add list=CW address=2803:f950:0:602::/64 } on-error={}
 :do { add list=CW address=2a01:528:7b00::/40 } on-error={}
 :do { add list=CW address=2a02:26f7:b540::/48 } on-error={}
 :do { add list=CW address=2a02:26f7:b541::/48 } on-error={}
@@ -243,6 +245,7 @@
 :do { add list=CW address=2a06:9f81:3933::/48 } on-error={}
 :do { add list=CW address=2a06:9f81:43ef:3400::/56 } on-error={}
 :do { add list=CW address=2a06:9f81:5633::/48 } on-error={}
+:do { add list=CW address=2a06:b440:197::/48 } on-error={}
 :do { add list=CW address=2a06:de06:385::/48 } on-error={}
 :do { add list=CW address=2a07:54c1:dead::/48 } on-error={}
 :do { add list=CW address=2a07:54c4:a60::/44 } on-error={}
@@ -261,7 +264,6 @@
 :do { add list=CW address=2a09:bac6:2770::/45 } on-error={}
 :do { add list=CW address=2a0a:6044:7735::/48 } on-error={}
 :do { add list=CW address=2a0a:6044:77fe:34::/64 } on-error={}
-:do { add list=CW address=2a0a:79c7:f539::/48 } on-error={}
 :do { add list=CW address=2a0b:4e07:3:5310::/60 } on-error={}
 :do { add list=CW address=2a0c:9a40:95b3:8000::/52 } on-error={}
 :do { add list=CW address=2a0c:9a46:335::/48 } on-error={}

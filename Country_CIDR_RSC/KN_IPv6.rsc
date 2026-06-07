@@ -19,7 +19,7 @@
 :do { add list=KN address=2401:b60:1bf2::/47 } on-error={}
 :do { add list=KN address=2401:b60:1bf4::/46 } on-error={}
 :do { add list=KN address=2401:b60:1bf8::/45 } on-error={}
-:do { add list=KN address=2401:f1e0:ffff:8918::/64 } on-error={}
+:do { add list=KN address=2401:f1e0:ffff:f10b::/64 } on-error={}
 :do { add list=KN address=2405:b500:3e00::/64 } on-error={}
 :do { add list=KN address=2405:b500:3e20::/64 } on-error={}
 :do { add list=KN address=2405:b500:3e40::/64 } on-error={}
@@ -50,7 +50,7 @@
 :do { add list=KN address=2620:18:c000::/48 } on-error={}
 :do { add list=KN address=2620:6b:2000::/48 } on-error={}
 :do { add list=KN address=2620:171:b2::/48 } on-error={}
-:do { add list=KN address=2a01:d0:7fff:226::/64 } on-error={}
+:do { add list=KN address=2a01:d0:7fff:234::/64 } on-error={}
 :do { add list=KN address=2a01:528:6c00::/40 } on-error={}
 :do { add list=KN address=2a02:26f7:e8c0:4000::/64 } on-error={}
 :do { add list=KN address=2a02:26f7:e8c0:cb20::/63 } on-error={}

@@ -1,6 +1,5 @@
 /log info "Loading LR IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=LR address=2001:470:5:23d::/64 } on-error={}
 :do { add list=LR address=2001:470:19:e8e::/64 } on-error={}
 :do { add list=LR address=2001:470:26:3bd::/64 } on-error={}
 :do { add list=LR address=2001:470:36:220::/64 } on-error={}
@@ -15,7 +14,7 @@
 :do { add list=LR address=2001:43f8:a60::/47 } on-error={}
 :do { add list=LR address=2001:4b28:5800::/40 } on-error={}
 :do { add list=LR address=2400:cb00:240::/48 } on-error={}
-:do { add list=LR address=2401:f1e0:ffff:5083::/64 } on-error={}
+:do { add list=LR address=2401:f1e0:ffff:d1ec::/64 } on-error={}
 :do { add list=LR address=2405:b500:4380::/64 } on-error={}
 :do { add list=LR address=2405:b500:4380:140::/64 } on-error={}
 :do { add list=LR address=2405:b500:43a0::/64 } on-error={}
