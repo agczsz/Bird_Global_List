@@ -721,8 +721,6 @@
 :do { add list=PY address=2a04:4e41:33:2::/63 } on-error={}
 :do { add list=PY address=2a04:4e41:43:2::/63 } on-error={}
 :do { add list=PY address=2a04:4e41:43:1100::/56 } on-error={}
-:do { add list=PY address=2a04:4e41:58:2::/63 } on-error={}
-:do { add list=PY address=2a04:4e41:58:1100::/56 } on-error={}
 :do { add list=PY address=2a04:4e41:5e:7::/64 } on-error={}
 :do { add list=PY address=2a04:4e41:5e:8::/64 } on-error={}
 :do { add list=PY address=2a04:4e41:5e:1400::/56 } on-error={}

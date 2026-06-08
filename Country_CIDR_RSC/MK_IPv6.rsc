@@ -205,8 +205,6 @@
 :do { add list=MK address=2a04:1d45:4b00::/40 } on-error={}
 :do { add list=MK address=2a04:1d46:4b00::/40 } on-error={}
 :do { add list=MK address=2a04:1d47:4b00::/40 } on-error={}
-:do { add list=MK address=2a04:4e41:20:18::/64 } on-error={}
-:do { add list=MK address=2a04:4e41:20:1b00::/56 } on-error={}
 :do { add list=MK address=2a04:4e41:4e:4d::/64 } on-error={}
 :do { add list=MK address=2a04:4e41:4e:2b00::/56 } on-error={}
 :do { add list=MK address=2a04:4e41:57:15::/64 } on-error={}

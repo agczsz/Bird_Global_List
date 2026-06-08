@@ -99,8 +99,6 @@
 :do { add list=BQ address=2a04:1d47:9c00::/40 } on-error={}
 :do { add list=BQ address=2a04:4e41:16:6::/64 } on-error={}
 :do { add list=BQ address=2a04:4e41:16:1600::/56 } on-error={}
-:do { add list=BQ address=2a04:4e41:18:2::/64 } on-error={}
-:do { add list=BQ address=2a04:4e41:18:1200::/56 } on-error={}
 :do { add list=BQ address=2a04:4e41:51:3::/64 } on-error={}
 :do { add list=BQ address=2a04:4e41:51:1300::/56 } on-error={}
 :do { add list=BQ address=2a04:4e41:611::/48 } on-error={}

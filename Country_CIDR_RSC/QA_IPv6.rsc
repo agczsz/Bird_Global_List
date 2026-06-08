@@ -1284,8 +1284,6 @@
 :do { add list=QA address=2a04:4e41:12:2900::/56 } on-error={}
 :do { add list=QA address=2a04:4e41:3f:8::/63 } on-error={}
 :do { add list=QA address=2a04:4e41:3f:1300::/56 } on-error={}
-:do { add list=QA address=2a04:4e41:60:8::/63 } on-error={}
-:do { add list=QA address=2a04:4e41:60:1300::/56 } on-error={}
 :do { add list=QA address=2a04:4e41:66:75::/64 } on-error={}
 :do { add list=QA address=2a04:4e41:66:76::/64 } on-error={}
 :do { add list=QA address=2a04:4e41:66:4000::/56 } on-error={}

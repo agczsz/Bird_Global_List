@@ -95,7 +95,6 @@
 :do { add list=KN address=2a04:4e41:16:2700::/56 } on-error={}
 :do { add list=KN address=2a04:4e41:23:5::/64 } on-error={}
 :do { add list=KN address=2a04:4e41:23:1300::/56 } on-error={}
-:do { add list=KN address=2a04:4e41:54:1900::/56 } on-error={}
 :do { add list=KN address=2a04:4e41:3a27::/48 } on-error={}
 :do { add list=KN address=2a04:4e41:3e19::/48 } on-error={}
 :do { add list=KN address=2a04:4e41:4017:7000::/52 } on-error={}

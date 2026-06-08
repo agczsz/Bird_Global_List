@@ -80,8 +80,6 @@
 :do { add list=TK address=2a04:1d47:e300::/40 } on-error={}
 :do { add list=TK address=2a04:4e41:f:48::/64 } on-error={}
 :do { add list=TK address=2a04:4e41:f:3400::/56 } on-error={}
-:do { add list=TK address=2a04:4e41:1c:b::/64 } on-error={}
-:do { add list=TK address=2a04:4e41:1c:1500::/56 } on-error={}
 :do { add list=TK address=2a04:4e41:2a:c::/64 } on-error={}
 :do { add list=TK address=2a04:4e41:2a:1800::/56 } on-error={}
 :do { add list=TK address=2a04:4e41:401d:b000::/52 } on-error={}

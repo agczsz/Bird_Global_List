@@ -1,6 +1,7 @@
 /log info "Loading GE IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=GE address=2001:470:24:e::/64 } on-error={}
+:do { add list=GE address=2001:470:24:737::/64 } on-error={}
 :do { add list=GE address=2001:470:26:33f::/64 } on-error={}
 :do { add list=GE address=2001:470:26:39a::/64 } on-error={}
 :do { add list=GE address=2001:470:26:427::/64 } on-error={}
@@ -453,7 +454,21 @@
 :do { add list=GE address=2a03:4820::/32 } on-error={}
 :do { add list=GE address=2a03:4e80::/32 } on-error={}
 :do { add list=GE address=2a03:4ec0::/32 } on-error={}
-:do { add list=GE address=2a03:6947:900::/40 } on-error={}
+:do { add list=GE address=2a03:6947:901::/48 } on-error={}
+:do { add list=GE address=2a03:6947:902::/47 } on-error={}
+:do { add list=GE address=2a03:6947:904::/47 } on-error={}
+:do { add list=GE address=2a03:6947:907::/48 } on-error={}
+:do { add list=GE address=2a03:6947:908::/46 } on-error={}
+:do { add list=GE address=2a03:6947:90c::/47 } on-error={}
+:do { add list=GE address=2a03:6947:90f::/48 } on-error={}
+:do { add list=GE address=2a03:6947:910::/50 } on-error={}
+:do { add list=GE address=2a03:6947:911::/48 } on-error={}
+:do { add list=GE address=2a03:6947:912::/47 } on-error={}
+:do { add list=GE address=2a03:6947:914::/46 } on-error={}
+:do { add list=GE address=2a03:6947:918::/45 } on-error={}
+:do { add list=GE address=2a03:6947:920::/43 } on-error={}
+:do { add list=GE address=2a03:6947:940::/42 } on-error={}
+:do { add list=GE address=2a03:6947:980::/41 } on-error={}
 :do { add list=GE address=2a03:b601:903::/48 } on-error={}
 :do { add list=GE address=2a03:b601:904::/46 } on-error={}
 :do { add list=GE address=2a03:c240::/32 } on-error={}
@@ -464,8 +479,6 @@
 :do { add list=GE address=2a04:1d45:c700::/40 } on-error={}
 :do { add list=GE address=2a04:1d46:c700::/40 } on-error={}
 :do { add list=GE address=2a04:1d47:c700::/40 } on-error={}
-:do { add list=GE address=2a04:4e41:20:c::/63 } on-error={}
-:do { add list=GE address=2a04:4e41:20:1500::/56 } on-error={}
 :do { add list=GE address=2a04:4e41:4e:32::/63 } on-error={}
 :do { add list=GE address=2a04:4e41:4e:1e00::/56 } on-error={}
 :do { add list=GE address=2a04:4e41:65:32::/63 } on-error={}

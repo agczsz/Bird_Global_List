@@ -40,10 +40,12 @@
 :do { add list=AD address=2001:470:1f15:907::/64 } on-error={}
 :do { add list=AD address=2001:470:1f1b:4b::/64 } on-error={}
 :do { add list=AD address=2001:470:1f1b:20d::/64 } on-error={}
+:do { add list=AD address=2001:470:1f1b:410::/64 } on-error={}
 :do { add list=AD address=2001:470:1f1d:149::/64 } on-error={}
 :do { add list=AD address=2001:470:1f27:26f::/64 } on-error={}
 :do { add list=AD address=2001:470:1f2f:3b::/64 } on-error={}
 :do { add list=AD address=2001:470:1f2f:178::/64 } on-error={}
+:do { add list=AD address=2001:470:2186::/48 } on-error={}
 :do { add list=AD address=2001:470:2921::/48 } on-error={}
 :do { add list=AD address=2001:470:401d::/48 } on-error={}
 :do { add list=AD address=2001:470:498c::/48 } on-error={}

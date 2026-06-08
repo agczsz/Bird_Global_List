@@ -116,7 +116,6 @@
 :do { add list=CU address=2a04:1d46:b000::/40 } on-error={}
 :do { add list=CU address=2a04:1d47:b000::/40 } on-error={}
 :do { add list=CU address=2a04:4e41:16:1b00::/56 } on-error={}
-:do { add list=CU address=2a04:4e41:3c:6::/64 } on-error={}
 :do { add list=CU address=2a04:4e41:63:3::/64 } on-error={}
 :do { add list=CU address=2a05:dfc1:5a3d::/48 } on-error={}
 :do { add list=CU address=2a05:dfc1:8c04::/48 } on-error={}

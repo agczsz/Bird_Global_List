@@ -74,8 +74,6 @@
 :do { add list=PM address=2a04:1d47:2a00::/40 } on-error={}
 :do { add list=PM address=2a04:4e41:2:9::/64 } on-error={}
 :do { add list=PM address=2a04:4e41:2:1600::/56 } on-error={}
-:do { add list=PM address=2a04:4e41:28::/64 } on-error={}
-:do { add list=PM address=2a04:4e41:28:1000::/56 } on-error={}
 :do { add list=PM address=2a04:4e41:2e:1::/64 } on-error={}
 :do { add list=PM address=2a04:4e41:2e:1100::/56 } on-error={}
 :do { add list=PM address=2a04:4e41:3416::/48 } on-error={}

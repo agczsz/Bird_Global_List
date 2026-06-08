@@ -3041,10 +3041,6 @@
 :do { add list=PK address=2a04:4e41:42:1100::/56 } on-error={}
 :do { add list=PK address=2a04:4e41:42:15e0::/59 } on-error={}
 :do { add list=PK address=2a04:4e41:42:1600::/60 } on-error={}
-:do { add list=PK address=2a04:4e41:60:3::/64 } on-error={}
-:do { add list=PK address=2a04:4e41:60:4::/63 } on-error={}
-:do { add list=PK address=2a04:4e41:60:6::/64 } on-error={}
-:do { add list=PK address=2a04:4e41:60:1100::/56 } on-error={}
 :do { add list=PK address=2a04:4e41:66:65::/64 } on-error={}
 :do { add list=PK address=2a04:4e41:66:66::/63 } on-error={}
 :do { add list=PK address=2a04:4e41:66:68::/64 } on-error={}
