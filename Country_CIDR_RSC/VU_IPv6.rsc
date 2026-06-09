@@ -197,6 +197,7 @@
 :do { add list=VU address=2607:8940:41e0:4900::/56 } on-error={}
 :do { add list=VU address=2607:8940:41e0:4a00::/56 } on-error={}
 :do { add list=VU address=2620:0:876:4600::/56 } on-error={}
+:do { add list=VU address=2620:134:b054:100::90/127 } on-error={}
 :do { add list=VU address=2a01:528:d00::/40 } on-error={}
 :do { add list=VU address=2a02:26f7:f200::/48 } on-error={}
 :do { add list=VU address=2a02:26f7:f201::/48 } on-error={}

@@ -8,7 +8,9 @@
 :do { add list=MK address=2001:470:1f0::/64 } on-error={}
 :do { add list=MK address=2001:470:1f09:4b4::/64 } on-error={}
 :do { add list=MK address=2001:470:1f1b:59b::/64 } on-error={}
+:do { add list=MK address=2001:470:1f1b:5fa::/64 } on-error={}
 :do { add list=MK address=2001:470:21ea::/48 } on-error={}
+:do { add list=MK address=2001:470:2221::/48 } on-error={}
 :do { add list=MK address=2001:470:59e3::/48 } on-error={}
 :do { add list=MK address=2001:470:6acf::/48 } on-error={}
 :do { add list=MK address=2001:550:0:1000::8275:132/128 } on-error={}

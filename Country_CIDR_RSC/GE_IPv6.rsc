@@ -10,6 +10,7 @@
 :do { add list=GE address=2001:470:26:922::/64 } on-error={}
 :do { add list=GE address=2001:470:28:121::/64 } on-error={}
 :do { add list=GE address=2001:470:28:8a4::/64 } on-error={}
+:do { add list=GE address=2001:470:28:981::/64 } on-error={}
 :do { add list=GE address=2001:470:28:c72::/64 } on-error={}
 :do { add list=GE address=2001:470:28:dd7::/64 } on-error={}
 :do { add list=GE address=2001:470:28:f96::/64 } on-error={}

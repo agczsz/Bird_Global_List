@@ -42,6 +42,7 @@
 :do { add list=NU address=2607:8940:4060:e200::/56 } on-error={}
 :do { add list=NU address=2607:8940:40d0:d000::/55 } on-error={}
 :do { add list=NU address=2607:8940:4143:a000::/55 } on-error={}
+:do { add list=NU address=2620:134:b054:100::92/127 } on-error={}
 :do { add list=NU address=2a01:528:3400::/40 } on-error={}
 :do { add list=NU address=2a02:26f7:f480::/48 } on-error={}
 :do { add list=NU address=2a02:26f7:f481::/48 } on-error={}

@@ -382,7 +382,6 @@
 :do { add list=CR address=2803:21a0::/32 } on-error={}
 :do { add list=CR address=2803:22a0::/32 } on-error={}
 :do { add list=CR address=2803:2cc0::/32 } on-error={}
-:do { add list=CR address=2803:2d60:1011:6f00::/56 } on-error={}
 :do { add list=CR address=2803:2d60:1018:b700::/56 } on-error={}
 :do { add list=CR address=2803:2d60:101d:6800::/56 } on-error={}
 :do { add list=CR address=2803:2d60:103c:ae00::/56 } on-error={}

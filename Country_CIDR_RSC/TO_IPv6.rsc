@@ -60,6 +60,7 @@
 :do { add list=TO address=2607:8940:41a2:e200::/55 } on-error={}
 :do { add list=TO address=2607:8940:41e0:4700::/56 } on-error={}
 :do { add list=TO address=2607:8940:41e0:4800::/56 } on-error={}
+:do { add list=TO address=2620:134:b054:100::86/127 } on-error={}
 :do { add list=TO address=2a01:528:fe00::/40 } on-error={}
 :do { add list=TO address=2a02:26f7:f280::/48 } on-error={}
 :do { add list=TO address=2a02:26f7:f281::/48 } on-error={}

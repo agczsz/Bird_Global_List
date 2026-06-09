@@ -1168,7 +1168,7 @@
 :do { add list=ID address=2001:470:eed8::/48 } on-error={}
 :do { add list=ID address=2001:470:eee8::/48 } on-error={}
 :do { add list=ID address=2001:470:eeef::/64 } on-error={}
-:do { add list=ID address=2001:470:eef4::/48 } on-error={}
+:do { add list=ID address=2001:470:eef4::/47 } on-error={}
 :do { add list=ID address=2001:470:eefd::/48 } on-error={}
 :do { add list=ID address=2001:470:eeff::/48 } on-error={}
 :do { add list=ID address=2001:470:ef0a::/48 } on-error={}
@@ -6907,8 +6907,7 @@
 :do { add list=ID address=2401:7e20::/32 } on-error={}
 :do { add list=ID address=2401:8040::/32 } on-error={}
 :do { add list=ID address=2401:8160::/32 } on-error={}
-:do { add list=ID address=2401:8240::/48 } on-error={}
-:do { add list=ID address=2401:8240:1::/48 } on-error={}
+:do { add list=ID address=2401:8240::/47 } on-error={}
 :do { add list=ID address=2401:8240:2::/48 } on-error={}
 :do { add list=ID address=2401:8240:3::/48 } on-error={}
 :do { add list=ID address=2401:8240:4::/46 } on-error={}
@@ -13535,7 +13534,6 @@
 :do { add list=ID address=2a11:f900::/29 } on-error={}
 :do { add list=ID address=2a11:fb00::/29 } on-error={}
 :do { add list=ID address=2a12:3fc2:df12::/48 } on-error={}
-:do { add list=ID address=2a12:5240:1:a8::/64 } on-error={}
 :do { add list=ID address=2a12:5240:1:d3::/64 } on-error={}
 :do { add list=ID address=2a12:6e80::/32 } on-error={}
 :do { add list=ID address=2a12:a5c7:f200::/48 } on-error={}
@@ -13701,9 +13699,7 @@
 :do { add list=ID address=2a14:7581:4830::/44 } on-error={}
 :do { add list=ID address=2a14:7581:4840::/44 } on-error={}
 :do { add list=ID address=2a14:7581:4850::/45 } on-error={}
-:do { add list=ID address=2a14:7581:4858::/47 } on-error={}
-:do { add list=ID address=2a14:7581:485a::/48 } on-error={}
-:do { add list=ID address=2a14:7581:485b::/48 } on-error={}
+:do { add list=ID address=2a14:7581:4858::/46 } on-error={}
 :do { add list=ID address=2a14:7581:485c::/48 } on-error={}
 :do { add list=ID address=2a14:7581:485d::/48 } on-error={}
 :do { add list=ID address=2a14:7581:485f::/48 } on-error={}

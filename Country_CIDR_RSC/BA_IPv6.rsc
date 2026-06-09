@@ -31,7 +31,6 @@
 :do { add list=BA address=2001:470:2192::/48 } on-error={}
 :do { add list=BA address=2001:470:21d1::/48 } on-error={}
 :do { add list=BA address=2001:470:224a::/48 } on-error={}
-:do { add list=BA address=2001:470:51aa::/48 } on-error={}
 :do { add list=BA address=2001:470:5539::/48 } on-error={}
 :do { add list=BA address=2001:470:70cb::/48 } on-error={}
 :do { add list=BA address=2001:470:7565::/48 } on-error={}

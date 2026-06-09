@@ -3464,6 +3464,8 @@
 :do { add list=BG address=2a06:4c4::/30 } on-error={}
 :do { add list=BG address=2a06:7b00::/29 } on-error={}
 :do { add list=BG address=2a06:9680::/39 } on-error={}
+:do { add list=BG address=2a06:9680:200::/48 } on-error={}
+:do { add list=BG address=2a06:9680:300::/48 } on-error={}
 :do { add list=BG address=2a06:9680:400::/38 } on-error={}
 :do { add list=BG address=2a06:9680:800::/37 } on-error={}
 :do { add list=BG address=2a06:9680:1000::/36 } on-error={}

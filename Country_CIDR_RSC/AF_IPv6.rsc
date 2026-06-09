@@ -1,6 +1,7 @@
 /log info "Loading AF IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=AF address=2001:470:8:91::/64 } on-error={}
+:do { add list=AF address=2001:470:8:2d1::/64 } on-error={}
 :do { add list=AF address=2001:470:8:2d5::/64 } on-error={}
 :do { add list=AF address=2001:470:8:308::/64 } on-error={}
 :do { add list=AF address=2001:470:8:347::/64 } on-error={}
@@ -161,6 +162,7 @@
 :do { add list=AF address=2001:470:1f05:d4a::/64 } on-error={}
 :do { add list=AF address=2001:470:1f09:78::/64 } on-error={}
 :do { add list=AF address=2001:470:1f09:99::/64 } on-error={}
+:do { add list=AF address=2001:470:1f09:b7::/64 } on-error={}
 :do { add list=AF address=2001:470:1f09:c6::/64 } on-error={}
 :do { add list=AF address=2001:470:1f09:118::/64 } on-error={}
 :do { add list=AF address=2001:470:1f09:126::/64 } on-error={}

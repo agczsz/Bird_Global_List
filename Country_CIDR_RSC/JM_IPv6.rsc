@@ -240,7 +240,7 @@
 :do { add list=JM address=2605:a200:3000:6800::/53 } on-error={}
 :do { add list=JM address=2605:a200:3000:7000::/52 } on-error={}
 :do { add list=JM address=2605:a200:3000:8000::/49 } on-error={}
-:do { add list=JM address=2605:a200:3001::/50 } on-error={}
+:do { add list=JM address=2605:a200:3001::/48 } on-error={}
 :do { add list=JM address=2605:a200:3002::/47 } on-error={}
 :do { add list=JM address=2605:a200:3004::/46 } on-error={}
 :do { add list=JM address=2605:a200:3008::/45 } on-error={}

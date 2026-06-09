@@ -128,6 +128,7 @@
 :do { add list=PG address=2607:8940:41a1:e400::/55 } on-error={}
 :do { add list=PG address=2607:8940:41e0:4000::/55 } on-error={}
 :do { add list=PG address=2607:8940:41e0:4200::/56 } on-error={}
+:do { add list=PG address=2620:134:b054:100::82/127 } on-error={}
 :do { add list=PG address=2a01:528:2e00::/40 } on-error={}
 :do { add list=PG address=2a02:26f7:e380::/48 } on-error={}
 :do { add list=PG address=2a02:26f7:e381::/48 } on-error={}

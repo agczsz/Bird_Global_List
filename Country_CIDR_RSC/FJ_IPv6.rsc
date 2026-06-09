@@ -90,7 +90,6 @@
 :do { add list=FJ address=2401:5100:200::/40 } on-error={}
 :do { add list=FJ address=2401:5100:300::/44 } on-error={}
 :do { add list=FJ address=2401:5100:311::/49 } on-error={}
-:do { add list=FJ address=2401:5100:311:8000::/51 } on-error={}
 :do { add list=FJ address=2401:5100:311:d800::/56 } on-error={}
 :do { add list=FJ address=2401:5100:311:e000::/51 } on-error={}
 :do { add list=FJ address=2401:5100:312:1500::/56 } on-error={}
