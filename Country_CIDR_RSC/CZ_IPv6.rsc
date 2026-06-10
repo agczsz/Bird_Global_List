@@ -1364,6 +1364,7 @@
 :do { add list=CZ address=2001:470:59ea::/47 } on-error={}
 :do { add list=CZ address=2001:470:59f3:30d::/64 } on-error={}
 :do { add list=CZ address=2001:470:59f7::/48 } on-error={}
+:do { add list=CZ address=2001:470:59fc::/48 } on-error={}
 :do { add list=CZ address=2001:470:59fe::/48 } on-error={}
 :do { add list=CZ address=2001:470:5a00::/48 } on-error={}
 :do { add list=CZ address=2001:470:5a02::/48 } on-error={}
@@ -2013,8 +2014,6 @@
 :do { add list=CZ address=2001:1be0:1310::/55 } on-error={}
 :do { add list=CZ address=2001:1be0:1320::/55 } on-error={}
 :do { add list=CZ address=2001:2030:0:76::/64 } on-error={}
-:do { add list=CZ address=2001:2030:13::/48 } on-error={}
-:do { add list=CZ address=2001:2030:1d::/48 } on-error={}
 :do { add list=CZ address=2001:2030:31::/50 } on-error={}
 :do { add list=CZ address=2001:2034:0:5::/64 } on-error={}
 :do { add list=CZ address=2001:2034:0:2ab::/64 } on-error={}
@@ -3168,11 +3167,13 @@
 :do { add list=CZ address=2a00:1ed1:8000::/33 } on-error={}
 :do { add list=CZ address=2a00:1ed2::/31 } on-error={}
 :do { add list=CZ address=2a00:1ed4::/30 } on-error={}
+:do { add list=CZ address=2a00:2000:0:84::/64 } on-error={}
 :do { add list=CZ address=2a00:2000:0:4084::/64 } on-error={}
 :do { add list=CZ address=2a00:2000:0:8040::b6/127 } on-error={}
 :do { add list=CZ address=2a00:2000:0:8080::c8/128 } on-error={}
 :do { add list=CZ address=2a00:2000:0:8080::ca/128 } on-error={}
 :do { add list=CZ address=2a00:2000:84::/64 } on-error={}
+:do { add list=CZ address=2a00:2000:2000:84::/64 } on-error={}
 :do { add list=CZ address=2a00:4880::/32 } on-error={}
 :do { add list=CZ address=2a00:4d00::/29 } on-error={}
 :do { add list=CZ address=2a00:5100::/32 } on-error={}
@@ -3203,7 +3204,6 @@
 :do { add list=CZ address=2a00:79e0:2819::/48 } on-error={}
 :do { add list=CZ address=2a00:79e0:3800:3200::/55 } on-error={}
 :do { add list=CZ address=2a00:79e0:ffe4:b700::/56 } on-error={}
-:do { add list=CZ address=2a00:79e1:abc:9400::/56 } on-error={}
 :do { add list=CZ address=2a00:79e1:abd:5900::/56 } on-error={}
 :do { add list=CZ address=2a00:79e1:f76::/48 } on-error={}
 :do { add list=CZ address=2a00:79e1:2800:1900::/56 } on-error={}

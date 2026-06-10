@@ -7158,10 +7158,7 @@
 :do { add list=ID address=2401:dcc0::/32 } on-error={}
 :do { add list=ID address=2401:de80::/32 } on-error={}
 :do { add list=ID address=2401:e040::/32 } on-error={}
-:do { add list=ID address=2401:e320::/39 } on-error={}
-:do { add list=ID address=2401:e320:200::/39 } on-error={}
-:do { add list=ID address=2401:e320:400::/38 } on-error={}
-:do { add list=ID address=2401:e320:800::/37 } on-error={}
+:do { add list=ID address=2401:e320::/36 } on-error={}
 :do { add list=ID address=2401:e320:1000::/47 } on-error={}
 :do { add list=ID address=2401:e320:1002::/48 } on-error={}
 :do { add list=ID address=2401:e320:1003::/48 } on-error={}

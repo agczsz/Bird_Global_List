@@ -2,6 +2,7 @@
 /ipv6 firewall address-list
 :do { add list=PW address=2001:470:19:881::/64 } on-error={}
 :do { add list=PW address=2001:470:19:8f1::/64 } on-error={}
+:do { add list=PW address=2001:470:24:749::/64 } on-error={}
 :do { add list=PW address=2001:470:36:180::/64 } on-error={}
 :do { add list=PW address=2001:470:36:1c8::/64 } on-error={}
 :do { add list=PW address=2001:470:36:7d3::/64 } on-error={}

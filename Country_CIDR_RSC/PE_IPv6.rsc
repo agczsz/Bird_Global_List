@@ -1739,7 +1739,9 @@
 :do { add list=PE address=2803:e0d0::/32 } on-error={}
 :do { add list=PE address=2803:e390::/32 } on-error={}
 :do { add list=PE address=2803:e430::/32 } on-error={}
-:do { add list=PE address=2803:e4d0::/33 } on-error={}
+:do { add list=PE address=2803:e4d0::/35 } on-error={}
+:do { add list=PE address=2803:e4d0:2000::/35 } on-error={}
+:do { add list=PE address=2803:e4d0:4000::/34 } on-error={}
 :do { add list=PE address=2803:e4d0:8000::/34 } on-error={}
 :do { add list=PE address=2803:e4d0:c000::/34 } on-error={}
 :do { add list=PE address=2803:e500::/32 } on-error={}

@@ -10,7 +10,6 @@
 :do { add list=MT address=2001:470:1b7a::/48 } on-error={}
 :do { add list=MT address=2001:470:1f0b:4fe::/64 } on-error={}
 :do { add list=MT address=2001:470:1f0b:108c::/64 } on-error={}
-:do { add list=MT address=2001:470:1f0b:1147::/64 } on-error={}
 :do { add list=MT address=2001:470:1f13:2ea::/64 } on-error={}
 :do { add list=MT address=2001:470:1f15:ffe::/64 } on-error={}
 :do { add list=MT address=2001:470:1f1b:732::/64 } on-error={}
