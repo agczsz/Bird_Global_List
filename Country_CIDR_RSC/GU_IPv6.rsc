@@ -435,7 +435,8 @@
 :do { add list=GU address=2407:940:0:142:8000::/65 } on-error={}
 :do { add list=GU address=2407:4800:0:d::/64 } on-error={}
 :do { add list=GU address=2600:1488:5fc0::1b/128 } on-error={}
-:do { add list=GU address=2600:1488:5fc0::1f/128 } on-error={}
+:do { add list=GU address=2600:1488:5fc0::1d/128 } on-error={}
+:do { add list=GU address=2600:1488:5fc2::26/128 } on-error={}
 :do { add list=GU address=2600:1488:5fc2::28/128 } on-error={}
 :do { add list=GU address=2600:70ff:c037::/48 } on-error={}
 :do { add list=GU address=2600:70ff:c0e7::/48 } on-error={}

@@ -28,7 +28,6 @@
 :do { add list=HU address=2001:470:6f:19a::/64 } on-error={}
 :do { add list=HU address=2001:470:6f:1ac::/64 } on-error={}
 :do { add list=HU address=2001:470:6f:326::/64 } on-error={}
-:do { add list=HU address=2001:470:6f:469::/64 } on-error={}
 :do { add list=HU address=2001:470:6f:665::/64 } on-error={}
 :do { add list=HU address=2001:470:6f:b88::/64 } on-error={}
 :do { add list=HU address=2001:470:6f:c88::/64 } on-error={}
@@ -1696,7 +1695,6 @@
 :do { add list=HU address=2001:2035:0:274::/64 } on-error={}
 :do { add list=HU address=2001:2035:0:5b3::/64 } on-error={}
 :do { add list=HU address=2001:2035:0:5c5::/64 } on-error={}
-:do { add list=HU address=2001:2035:0:6fe::/64 } on-error={}
 :do { add list=HU address=2001:2035:0:7aa::/64 } on-error={}
 :do { add list=HU address=2001:2035:0:8f9::/64 } on-error={}
 :do { add list=HU address=2001:2035:0:971::/64 } on-error={}
@@ -2992,8 +2990,8 @@
 :do { add list=HU address=2607:8940:41f0:2000::/52 } on-error={}
 :do { add list=HU address=2607:8940:41f0:3000::/55 } on-error={}
 :do { add list=HU address=2607:8940:41f0:3200::/56 } on-error={}
-:do { add list=HU address=2620:0:876:459::2/128 } on-error={}
 :do { add list=HU address=2620:0:1065::/48 } on-error={}
+:do { add list=HU address=2620:132:f541::/48 } on-error={}
 :do { add list=HU address=2620:171:9c::/48 } on-error={}
 :do { add list=HU address=2803:5120:c000::/64 } on-error={}
 :do { add list=HU address=2a00:ca0:2050:4000::/52 } on-error={}
@@ -3025,8 +3023,8 @@
 :do { add list=HU address=2a00:1b90::/32 } on-error={}
 :do { add list=HU address=2a00:1f40::/29 } on-error={}
 :do { add list=HU address=2a00:2000:0:83::/64 } on-error={}
+:do { add list=HU address=2a00:2000:0:8040::ba/128 } on-error={}
 :do { add list=HU address=2a00:2000:0:8080::76/128 } on-error={}
-:do { add list=HU address=2a00:2000:0:80c0::26/128 } on-error={}
 :do { add list=HU address=2a00:2000:83::/48 } on-error={}
 :do { add list=HU address=2a00:2000:5d03::/48 } on-error={}
 :do { add list=HU address=2a00:5940::/32 } on-error={}
@@ -3119,6 +3117,7 @@
 :do { add list=HU address=2a01:3e0:3400::/56 } on-error={}
 :do { add list=HU address=2a01:3e0:3400:100::/60 } on-error={}
 :do { add list=HU address=2a01:3e0:3401::/48 } on-error={}
+:do { add list=HU address=2a01:3e2:3400::/64 } on-error={}
 :do { add list=HU address=2a01:3e4:3400::/64 } on-error={}
 :do { add list=HU address=2a01:3e6:3400::/64 } on-error={}
 :do { add list=HU address=2a01:4a0::23/128 } on-error={}

@@ -585,7 +585,6 @@
 :do { add list=HR address=2607:8940:4250:8800::/54 } on-error={}
 :do { add list=HR address=2607:8940:4250:8c00::/55 } on-error={}
 :do { add list=HR address=2607:8940:4250:9700::/56 } on-error={}
-:do { add list=HR address=2620:0:876:343::2/128 } on-error={}
 :do { add list=HR address=2620:171:d1::/48 } on-error={}
 :do { add list=HR address=2a00:800:191:1::9:4/128 } on-error={}
 :do { add list=HR address=2a00:800:191:1::9:31/128 } on-error={}

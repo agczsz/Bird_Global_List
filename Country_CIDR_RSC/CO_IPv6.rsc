@@ -1409,8 +1409,7 @@
 :do { add list=CO address=2620:0:1cff:dead:beee::20de/128 } on-error={}
 :do { add list=CO address=2620:0:1cff:dead:beef::1b7e/128 } on-error={}
 :do { add list=CO address=2620:0:1cff:dead:beef::1c70/128 } on-error={}
-:do { add list=CO address=2620:0:1cff:dead:beef::2262/127 } on-error={}
-:do { add list=CO address=2620:0:1cff:dead:beef::2264/127 } on-error={}
+:do { add list=CO address=2620:0:1cff:dead:beef::2264/128 } on-error={}
 :do { add list=CO address=2620:0:1cff:dead:beef::256a/127 } on-error={}
 :do { add list=CO address=2620:0:1cff:dead:beef::256c/127 } on-error={}
 :do { add list=CO address=2620:0:1cff:dead:beef::37a4/127 } on-error={}
@@ -1422,7 +1421,7 @@
 :do { add list=CO address=2620:0:1cff:dead:beef::37e0/127 } on-error={}
 :do { add list=CO address=2620:0:1cff:dead:beef::37e4/127 } on-error={}
 :do { add list=CO address=2620:0:1cff:dead:beef::3996/128 } on-error={}
-:do { add list=CO address=2620:0:1cff:dead:beef::39a4/128 } on-error={}
+:do { add list=CO address=2620:0:1cff:dead:beef::39a4/127 } on-error={}
 :do { add list=CO address=2620:0:1cff:dead:beef::39aa/127 } on-error={}
 :do { add list=CO address=2620:0:1cff:dead:beef::39ad/128 } on-error={}
 :do { add list=CO address=2620:0:1cff:dead:beef::3c00/127 } on-error={}

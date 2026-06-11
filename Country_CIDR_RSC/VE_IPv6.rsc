@@ -9,6 +9,7 @@
 :do { add list=VE address=2001:470:5:3a8::/64 } on-error={}
 :do { add list=VE address=2001:470:5:3b6::/64 } on-error={}
 :do { add list=VE address=2001:470:8:9f::/64 } on-error={}
+:do { add list=VE address=2001:470:8:2e3::/64 } on-error={}
 :do { add list=VE address=2001:470:8:57c::/64 } on-error={}
 :do { add list=VE address=2001:470:19:c2::/64 } on-error={}
 :do { add list=VE address=2001:470:19:f81::/64 } on-error={}

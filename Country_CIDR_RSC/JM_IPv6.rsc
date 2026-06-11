@@ -307,6 +307,8 @@
 :do { add list=JM address=2607:fe00:2000::/35 } on-error={}
 :do { add list=JM address=2607:fe00:4000::/34 } on-error={}
 :do { add list=JM address=2607:fe00:8000::/33 } on-error={}
+:do { add list=JM address=2620:0:876:829::2/128 } on-error={}
+:do { add list=JM address=2620:0:876:929::2/128 } on-error={}
 :do { add list=JM address=2620:0:876:2900::/56 } on-error={}
 :do { add list=JM address=2620:59:6000::/48 } on-error={}
 :do { add list=JM address=2a01:528:6400::/40 } on-error={}

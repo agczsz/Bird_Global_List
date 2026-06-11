@@ -1203,6 +1203,7 @@
 :do { add list=LT address=2a02:26f7:cfc9::/48 } on-error={}
 :do { add list=LT address=2a02:26f7:cfca::/47 } on-error={}
 :do { add list=LT address=2a02:26f7:cfcc:4000::/64 } on-error={}
+:do { add list=LT address=2a02:26f7:cfcc:8000::/50 } on-error={}
 :do { add list=LT address=2a02:26f7:cfcc:d500::/60 } on-error={}
 :do { add list=LT address=2a02:26f7:cfcc:d510::/61 } on-error={}
 :do { add list=LT address=2a02:26f7:cfcc:d518::/62 } on-error={}

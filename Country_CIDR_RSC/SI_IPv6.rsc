@@ -715,7 +715,6 @@
 :do { add list=SI address=2607:fae0:2001::/64 } on-error={}
 :do { add list=SI address=2607:fae0:a000::/56 } on-error={}
 :do { add list=SI address=2607:fae0:a666::/64 } on-error={}
-:do { add list=SI address=2620:0:876:424::2/128 } on-error={}
 :do { add list=SI address=2620:171:9b::/48 } on-error={}
 :do { add list=SI address=2a00:ca0:2054:7000::/52 } on-error={}
 :do { add list=SI address=2a00:ca0:2057:8000::/50 } on-error={}

@@ -32,7 +32,6 @@
 :do { add list=OM address=2001:470:1f09:cbe::/64 } on-error={}
 :do { add list=OM address=2001:470:1f09:cd2::/64 } on-error={}
 :do { add list=OM address=2001:470:1f0b:339::/64 } on-error={}
-:do { add list=OM address=2001:470:1f0b:84d::/64 } on-error={}
 :do { add list=OM address=2001:470:1f0b:857::/64 } on-error={}
 :do { add list=OM address=2001:470:1f0b:b70::/64 } on-error={}
 :do { add list=OM address=2001:470:1f13:a7::/64 } on-error={}
@@ -896,7 +895,7 @@
 :do { add list=OM address=2620:0:1cff:dead:beef::25ba/127 } on-error={}
 :do { add list=OM address=2620:0:1cff:dead:beef::25bc/126 } on-error={}
 :do { add list=OM address=2620:0:1cff:dead:beef::29f0/127 } on-error={}
-:do { add list=OM address=2620:0:1cff:dead:beef::2a75/128 } on-error={}
+:do { add list=OM address=2620:0:1cff:dead:beef::2a74/127 } on-error={}
 :do { add list=OM address=2620:0:1cff:dead:beef::2a78/128 } on-error={}
 :do { add list=OM address=2620:0:1cff:dead:beef::3546/127 } on-error={}
 :do { add list=OM address=2620:0:1cff:dead:beef::35c6/127 } on-error={}
@@ -913,7 +912,7 @@
 :do { add list=OM address=2620:0:1cff:dead:beef::45aa/127 } on-error={}
 :do { add list=OM address=2620:0:1cff:dead:beef::4a03/128 } on-error={}
 :do { add list=OM address=2620:0:1cff:dead:beef::4dae/127 } on-error={}
-:do { add list=OM address=2620:0:1cff:dead:beef::53ad/128 } on-error={}
+:do { add list=OM address=2620:0:1cff:dead:beef::53ac/127 } on-error={}
 :do { add list=OM address=2620:0:1cff:dead:beef::6605/128 } on-error={}
 :do { add list=OM address=2620:0:1cff:dead:beef::6611/128 } on-error={}
 :do { add list=OM address=2620:0:1cff:dead:beef::6613/128 } on-error={}
