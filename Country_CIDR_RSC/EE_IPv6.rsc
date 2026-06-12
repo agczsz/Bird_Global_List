@@ -973,7 +973,6 @@
 :do { add list=EE address=2602:f72e:90::/44 } on-error={}
 :do { add list=EE address=2602:f72e:a0::/43 } on-error={}
 :do { add list=EE address=2602:f72e:c0::/42 } on-error={}
-:do { add list=EE address=2602:f72e:179::/48 } on-error={}
 :do { add list=EE address=2602:f7c8:123::/48 } on-error={}
 :do { add list=EE address=2602:f7c8:124::/46 } on-error={}
 :do { add list=EE address=2602:f9a9:5:411::/64 } on-error={}

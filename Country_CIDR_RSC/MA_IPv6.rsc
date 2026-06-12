@@ -370,6 +370,7 @@
 :do { add list=MA address=2001:43fd:7000::/48 } on-error={}
 :do { add list=MA address=2001:43ff:1000::/48 } on-error={}
 :do { add list=MA address=2001:43ff:3000::/48 } on-error={}
+:do { add list=MA address=2001:43ff:c800::/48 } on-error={}
 :do { add list=MA address=2001:4860:7:21e::/64 } on-error={}
 :do { add list=MA address=2001:4860:7:61e::/64 } on-error={}
 :do { add list=MA address=2001:4860:7:141e::/64 } on-error={}

@@ -1320,6 +1320,7 @@
 :do { add list=EG address=2a09:bac0:1000:47e::/64 } on-error={}
 :do { add list=EG address=2a09:bac0:1000:9dc::/64 } on-error={}
 :do { add list=EG address=2a09:bac0:1000:cfc::/64 } on-error={}
+:do { add list=EG address=2a09:bac0:1000:15cf::/64 } on-error={}
 :do { add list=EG address=2a09:bac0:1001:3f1::/64 } on-error={}
 :do { add list=EG address=2a09:bac1:2200::/64 } on-error={}
 :do { add list=EG address=2a09:bac1:2200:8::/64 } on-error={}

@@ -17489,8 +17489,6 @@
 :do { add list=SE address=2a01:3e0:1b01::/56 } on-error={}
 :do { add list=SE address=2a01:3e0:1b01:100::/60 } on-error={}
 :do { add list=SE address=2a01:3e0:1b01:110::/63 } on-error={}
-:do { add list=SE address=2a01:3e0:3100::/120 } on-error={}
-:do { add list=SE address=2a01:3e0:3100::102/127 } on-error={}
 :do { add list=SE address=2a01:3f0::/36 } on-error={}
 :do { add list=SE address=2a01:3f0:1000::/38 } on-error={}
 :do { add list=SE address=2a01:3f0:1400::/39 } on-error={}
@@ -18632,6 +18630,7 @@
 :do { add list=SE address=2a02:aa7:4642:f400::/56 } on-error={}
 :do { add list=SE address=2a02:aa7:4642:f600::/55 } on-error={}
 :do { add list=SE address=2a02:aa7:4643:4600::/56 } on-error={}
+:do { add list=SE address=2a02:aa7:464e:5d00::/56 } on-error={}
 :do { add list=SE address=2a02:aa7:4659:5300::/56 } on-error={}
 :do { add list=SE address=2a02:ae8::/29 } on-error={}
 :do { add list=SE address=2a02:c58::/32 } on-error={}

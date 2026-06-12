@@ -3022,7 +3022,6 @@
 :do { add list=HU address=2a00:1878::/29 } on-error={}
 :do { add list=HU address=2a00:1b90::/32 } on-error={}
 :do { add list=HU address=2a00:1f40::/29 } on-error={}
-:do { add list=HU address=2a00:2000:0:83::/64 } on-error={}
 :do { add list=HU address=2a00:2000:0:8040::ba/128 } on-error={}
 :do { add list=HU address=2a00:2000:0:8080::76/128 } on-error={}
 :do { add list=HU address=2a00:2000:83::/48 } on-error={}

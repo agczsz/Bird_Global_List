@@ -1188,7 +1188,7 @@
 :do { add list=RS address=2602:2a9:990::/44 } on-error={}
 :do { add list=RS address=2602:f7c8:18c::/46 } on-error={}
 :do { add list=RS address=2602:f7c8:190::/48 } on-error={}
-:do { add list=RS address=2602:f873:12:801::/64 } on-error={}
+:do { add list=RS address=2602:f873:12:800::/63 } on-error={}
 :do { add list=RS address=2602:fd92:b00:127::/64 } on-error={}
 :do { add list=RS address=2603:c050::/40 } on-error={}
 :do { add list=RS address=2603:c050:1000::/39 } on-error={}

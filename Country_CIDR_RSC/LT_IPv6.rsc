@@ -872,7 +872,10 @@
 :do { add list=LT address=2a00:f500:10:1008::/64 } on-error={}
 :do { add list=LT address=2a00:f500:10:100a::/63 } on-error={}
 :do { add list=LT address=2a00:f500:10:100c::/62 } on-error={}
-:do { add list=LT address=2a00:f500:10:1010::/60 } on-error={}
+:do { add list=LT address=2a00:f500:10:1010::/62 } on-error={}
+:do { add list=LT address=2a00:f500:10:1014::/64 } on-error={}
+:do { add list=LT address=2a00:f500:10:1016::/63 } on-error={}
+:do { add list=LT address=2a00:f500:10:1018::/61 } on-error={}
 :do { add list=LT address=2a00:f500:10:1020::/59 } on-error={}
 :do { add list=LT address=2a00:f500:10:1040::/58 } on-error={}
 :do { add list=LT address=2a00:f500:10:1080::/57 } on-error={}

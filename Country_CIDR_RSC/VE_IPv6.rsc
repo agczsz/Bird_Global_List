@@ -105,6 +105,7 @@
 :do { add list=VE address=2001:470:dde0::/48 } on-error={}
 :do { add list=VE address=2001:470:e099::/48 } on-error={}
 :do { add list=VE address=2001:470:e258::/48 } on-error={}
+:do { add list=VE address=2001:470:e25c::/48 } on-error={}
 :do { add list=VE address=2001:470:ee38::/48 } on-error={}
 :do { add list=VE address=2001:470:f1f2::/48 } on-error={}
 :do { add list=VE address=2001:470:faba::/48 } on-error={}

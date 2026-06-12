@@ -337,7 +337,6 @@
 :do { add list=AF address=2001:470:1f15:1c3::/64 } on-error={}
 :do { add list=AF address=2001:470:1f15:1df::/64 } on-error={}
 :do { add list=AF address=2001:470:1f15:1e1::/64 } on-error={}
-:do { add list=AF address=2001:470:1f15:22d::/64 } on-error={}
 :do { add list=AF address=2001:470:1f15:258::/64 } on-error={}
 :do { add list=AF address=2001:470:1f15:2af::/64 } on-error={}
 :do { add list=AF address=2001:470:1f15:2d8::/64 } on-error={}

@@ -884,7 +884,14 @@
 :do { add list=NG address=2a03:b601:a70::/46 } on-error={}
 :do { add list=NG address=2a03:b601:a74::/48 } on-error={}
 :do { add list=NG address=2a03:c9c0:57a:3c90::/64 } on-error={}
-:do { add list=NG address=2a03:eec0:2f00::/40 } on-error={}
+:do { add list=NG address=2a03:eec0:2f01::/48 } on-error={}
+:do { add list=NG address=2a03:eec0:2f02::/47 } on-error={}
+:do { add list=NG address=2a03:eec0:2f04::/46 } on-error={}
+:do { add list=NG address=2a03:eec0:2f08::/45 } on-error={}
+:do { add list=NG address=2a03:eec0:2f10::/44 } on-error={}
+:do { add list=NG address=2a03:eec0:2f20::/43 } on-error={}
+:do { add list=NG address=2a03:eec0:2f40::/42 } on-error={}
+:do { add list=NG address=2a03:eec0:2f80::/41 } on-error={}
 :do { add list=NG address=2a04:1d41:7c00::/40 } on-error={}
 :do { add list=NG address=2a04:1d42:7c00::/40 } on-error={}
 :do { add list=NG address=2a04:1d43:7c00::/40 } on-error={}

@@ -18,7 +18,6 @@
 :do { add list=SZ address=2001:470:1f23:15e::/64 } on-error={}
 :do { add list=SZ address=2001:470:4974::/48 } on-error={}
 :do { add list=SZ address=2001:470:7ad5::/48 } on-error={}
-:do { add list=SZ address=2001:470:88aa::/48 } on-error={}
 :do { add list=SZ address=2001:470:c8e8::/48 } on-error={}
 :do { add list=SZ address=2001:470:e24b::/48 } on-error={}
 :do { add list=SZ address=2001:67c:a38:f268::/64 } on-error={}
