@@ -1341,6 +1341,7 @@
 :do { add list=EE address=2a02:7980:105:8000::/49 } on-error={}
 :do { add list=EE address=2a02:7980:200::/46 } on-error={}
 :do { add list=EE address=2a02:7980:204::/48 } on-error={}
+:do { add list=EE address=2a02:7980:209::/48 } on-error={}
 :do { add list=EE address=2a02:7980:300::/46 } on-error={}
 :do { add list=EE address=2a02:7980:308::/47 } on-error={}
 :do { add list=EE address=2a03:f80:372::/48 } on-error={}
@@ -3315,7 +3316,6 @@
 :do { add list=EE address=2a14:7581:a800::/37 } on-error={}
 :do { add list=EE address=2a14:7585:f00d::/48 } on-error={}
 :do { add list=EE address=2a14:8c80::/32 } on-error={}
-:do { add list=EE address=2a14:a087:7::/48 } on-error={}
 :do { add list=EE address=2a14:b680::/48 } on-error={}
 :do { add list=EE address=2a14:b680:1::/48 } on-error={}
 :do { add list=EE address=2a14:b680:2::/47 } on-error={}

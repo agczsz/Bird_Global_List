@@ -1042,6 +1042,9 @@
 :do { add list=LT address=2a01:7220::/32 } on-error={}
 :do { add list=LT address=2a01:7c80::/33 } on-error={}
 :do { add list=LT address=2a01:7c80:8000::/33 } on-error={}
+:do { add list=LT address=2a01:7c81::/32 } on-error={}
+:do { add list=LT address=2a01:7c82::/31 } on-error={}
+:do { add list=LT address=2a01:7c84::/30 } on-error={}
 :do { add list=LT address=2a01:8700::/32 } on-error={}
 :do { add list=LT address=2a01:a1c0::/32 } on-error={}
 :do { add list=LT address=2a01:ce8f:1000::/36 } on-error={}

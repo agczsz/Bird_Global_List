@@ -354,7 +354,8 @@
 :do { add list=MD address=2a03:f80:373::/48 } on-error={}
 :do { add list=MD address=2a03:6947:1301::/48 } on-error={}
 :do { add list=MD address=2a03:6947:1302::/47 } on-error={}
-:do { add list=MD address=2a03:6947:1304::/46 } on-error={}
+:do { add list=MD address=2a03:6947:1304::/47 } on-error={}
+:do { add list=MD address=2a03:6947:1307::/48 } on-error={}
 :do { add list=MD address=2a03:6947:1308::/46 } on-error={}
 :do { add list=MD address=2a03:6947:130c::/47 } on-error={}
 :do { add list=MD address=2a03:6947:130f::/48 } on-error={}

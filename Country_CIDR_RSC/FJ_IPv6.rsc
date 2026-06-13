@@ -89,8 +89,10 @@
 :do { add list=FJ address=2401:5100:100::/40 } on-error={}
 :do { add list=FJ address=2401:5100:200::/40 } on-error={}
 :do { add list=FJ address=2401:5100:300::/44 } on-error={}
+:do { add list=FJ address=2401:5100:310::/50 } on-error={}
 :do { add list=FJ address=2401:5100:310:6c00::/54 } on-error={}
 :do { add list=FJ address=2401:5100:310:7b00::/56 } on-error={}
+:do { add list=FJ address=2401:5100:310:c000::/50 } on-error={}
 :do { add list=FJ address=2401:5100:311::/49 } on-error={}
 :do { add list=FJ address=2401:5100:311:d800::/56 } on-error={}
 :do { add list=FJ address=2401:5100:311:e000::/51 } on-error={}

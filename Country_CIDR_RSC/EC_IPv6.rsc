@@ -1804,7 +1804,10 @@
 :do { add list=EC address=2803:4d0:1500::/40 } on-error={}
 :do { add list=EC address=2803:4d0:1600::/40 } on-error={}
 :do { add list=EC address=2803:4d0:1700::/40 } on-error={}
-:do { add list=EC address=2803:4d0:1800::/37 } on-error={}
+:do { add list=EC address=2803:4d0:1800::/40 } on-error={}
+:do { add list=EC address=2803:4d0:1900::/40 } on-error={}
+:do { add list=EC address=2803:4d0:1a00::/39 } on-error={}
+:do { add list=EC address=2803:4d0:1c00::/38 } on-error={}
 :do { add list=EC address=2803:4d0:2000::/35 } on-error={}
 :do { add list=EC address=2803:4d0:4000::/34 } on-error={}
 :do { add list=EC address=2803:4d0:8000::/33 } on-error={}

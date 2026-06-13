@@ -2344,6 +2344,7 @@
 :do { add list=PT address=2a00:79e0:ffe4:a600::/56 } on-error={}
 :do { add list=PT address=2a00:79e0:ffe4:f300::/56 } on-error={}
 :do { add list=PT address=2a00:79e0:ffe5:1600::/56 } on-error={}
+:do { add list=PT address=2a00:79e1:abc:a600::/56 } on-error={}
 :do { add list=PT address=2a00:79e1:abd:eb00::/56 } on-error={}
 :do { add list=PT address=2a00:79e1:2800:1100::/56 } on-error={}
 :do { add list=PT address=2a00:79e1:3800:1100::/56 } on-error={}

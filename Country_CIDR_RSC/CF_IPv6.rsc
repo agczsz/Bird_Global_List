@@ -244,7 +244,9 @@
 :do { add list=CF address=2c0f:eb00:102::/47 } on-error={}
 :do { add list=CF address=2c0f:eb00:104::/47 } on-error={}
 :do { add list=CF address=2c0f:eb00:107::/48 } on-error={}
-:do { add list=CF address=2c0f:eb00:108::/45 } on-error={}
+:do { add list=CF address=2c0f:eb00:108::/46 } on-error={}
+:do { add list=CF address=2c0f:eb00:10c::/47 } on-error={}
+:do { add list=CF address=2c0f:eb00:10f::/48 } on-error={}
 :do { add list=CF address=2c0f:eb00:111::/48 } on-error={}
 :do { add list=CF address=2c0f:eb00:112::/47 } on-error={}
 :do { add list=CF address=2c0f:eb00:114::/46 } on-error={}
