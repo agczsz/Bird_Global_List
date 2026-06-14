@@ -1,13 +1,5 @@
 /log info "Loading TO IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=TO address=2001:470:19:434::/64 } on-error={}
-:do { add list=TO address=2001:470:19:d12::/64 } on-error={}
-:do { add list=TO address=2001:470:24:860::/64 } on-error={}
-:do { add list=TO address=2001:470:36:85::/64 } on-error={}
-:do { add list=TO address=2001:470:36:8ca::/64 } on-error={}
-:do { add list=TO address=2001:470:36:10d7::/64 } on-error={}
-:do { add list=TO address=2001:470:1f0b:3d0::/64 } on-error={}
-:do { add list=TO address=2001:470:1f2d:d4::/64 } on-error={}
 :do { add list=TO address=2001:470:71f5::/48 } on-error={}
 :do { add list=TO address=2001:470:8c0f::/48 } on-error={}
 :do { add list=TO address=2001:470:fbf6::/48 } on-error={}
@@ -191,20 +183,6 @@
 :do { add list=TO address=2a14:7c5:910::/44 } on-error={}
 :do { add list=TO address=2a14:2d45:de00::/40 } on-error={}
 :do { add list=TO address=2a14:67c1:b6de::/48 } on-error={}
-:do { add list=TO address=2a14:67c2:8e3:1::/64 } on-error={}
-:do { add list=TO address=2a14:67c2:8e3:2::/63 } on-error={}
-:do { add list=TO address=2a14:67c2:8e3:4::/62 } on-error={}
-:do { add list=TO address=2a14:67c2:8e3:8::/61 } on-error={}
-:do { add list=TO address=2a14:67c2:8e3:10::/60 } on-error={}
-:do { add list=TO address=2a14:67c2:8e3:20::/59 } on-error={}
-:do { add list=TO address=2a14:67c2:8e3:40::/58 } on-error={}
-:do { add list=TO address=2a14:67c2:8e3:80::/57 } on-error={}
-:do { add list=TO address=2a14:67c2:8e3:100::/56 } on-error={}
-:do { add list=TO address=2a14:67c2:8e3:200::/55 } on-error={}
-:do { add list=TO address=2a14:67c2:8e3:400::/54 } on-error={}
-:do { add list=TO address=2a14:67c2:8e3:800::/53 } on-error={}
-:do { add list=TO address=2a14:67c2:8e3:1000::/52 } on-error={}
-:do { add list=TO address=2a14:67c2:8e3:2000::/51 } on-error={}
 :do { add list=TO address=2a14:67c2:8e3:4000::/50 } on-error={}
 :do { add list=TO address=2a14:67c2:8e3:8000::/49 } on-error={}
 :do { add list=TO address=2a14:7580:cfdf::/48 } on-error={}

@@ -1,8 +1,5 @@
 /log info "Loading LC IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=LC address=2001:470:24:676::/64 } on-error={}
-:do { add list=LC address=2001:470:36:10a::/64 } on-error={}
-:do { add list=LC address=2001:470:36:648::/64 } on-error={}
 :do { add list=LC address=2001:470:eee3::/48 } on-error={}
 :do { add list=LC address=2001:470:fefc::/48 } on-error={}
 :do { add list=LC address=2001:505:150::/48 } on-error={}

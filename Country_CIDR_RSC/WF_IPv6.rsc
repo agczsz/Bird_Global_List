@@ -1,6 +1,5 @@
 /log info "Loading WF IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=WF address=2001:470:24:30a::/64 } on-error={}
 :do { add list=WF address=2001:470:36:7e2::/64 } on-error={}
 :do { add list=WF address=2001:470:36:897::/64 } on-error={}
 :do { add list=WF address=2001:470:f0ac::/48 } on-error={}

@@ -1,13 +1,7 @@
 /log info "Loading CC IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=CC address=2001:470:19:2cd::/64 } on-error={}
 :do { add list=CC address=2001:470:19:10b4::/64 } on-error={}
-:do { add list=CC address=2001:470:24:312::/64 } on-error={}
-:do { add list=CC address=2001:470:6d:ad2::/64 } on-error={}
-:do { add list=CC address=2001:470:6d:d78::/64 } on-error={}
-:do { add list=CC address=2001:470:6d:e6b::/64 } on-error={}
 :do { add list=CC address=2001:470:18fd::/48 } on-error={}
-:do { add list=CC address=2001:470:1f1d:1ce::/64 } on-error={}
 :do { add list=CC address=2001:470:1f29:44e::/64 } on-error={}
 :do { add list=CC address=2001:470:f97d::/48 } on-error={}
 :do { add list=CC address=2001:470:fdfa::/48 } on-error={}
@@ -28,20 +22,6 @@
 :do { add list=CC address=2606:40:230a:4000::/51 } on-error={}
 :do { add list=CC address=2606:40:2939:8c00::/54 } on-error={}
 :do { add list=CC address=2607:8940:28a2::/47 } on-error={}
-:do { add list=CC address=2607:8940:28a6::/52 } on-error={}
-:do { add list=CC address=2607:8940:28a6:1000::/55 } on-error={}
-:do { add list=CC address=2607:8940:28a6:1200::/56 } on-error={}
-:do { add list=CC address=2607:8940:28a6:1300::/58 } on-error={}
-:do { add list=CC address=2607:8940:28a6:1340::/61 } on-error={}
-:do { add list=CC address=2607:8940:28a6:1348::/63 } on-error={}
-:do { add list=CC address=2607:8940:28a6:134a::/64 } on-error={}
-:do { add list=CC address=2607:8940:28a6:134c::/62 } on-error={}
-:do { add list=CC address=2607:8940:28a6:1350::/60 } on-error={}
-:do { add list=CC address=2607:8940:28a6:1360::/59 } on-error={}
-:do { add list=CC address=2607:8940:28a6:1380::/57 } on-error={}
-:do { add list=CC address=2607:8940:28a6:1400::/54 } on-error={}
-:do { add list=CC address=2607:8940:28a6:1800::/53 } on-error={}
-:do { add list=CC address=2607:8940:28a6:2000::/51 } on-error={}
 :do { add list=CC address=2607:8940:28a6:4000::/50 } on-error={}
 :do { add list=CC address=2607:8940:28a6:8000::/49 } on-error={}
 :do { add list=CC address=2607:8940:28a7::/48 } on-error={}

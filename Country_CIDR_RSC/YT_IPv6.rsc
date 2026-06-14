@@ -1,17 +1,11 @@
 /log info "Loading YT IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=YT address=2001:470:19:299::/64 } on-error={}
-:do { add list=YT address=2001:470:36:1de::/64 } on-error={}
-:do { add list=YT address=2001:470:36:3e7::/64 } on-error={}
-:do { add list=YT address=2001:470:36:8cb::/64 } on-error={}
-:do { add list=YT address=2001:470:6d:17b::/64 } on-error={}
-:do { add list=YT address=2001:470:1f09:a3e::/64 } on-error={}
-:do { add list=YT address=2001:470:1f09:e33::/64 } on-error={}
 :do { add list=YT address=2001:470:5077::/48 } on-error={}
 :do { add list=YT address=2001:470:6d23::/48 } on-error={}
 :do { add list=YT address=2001:470:93e1::/48 } on-error={}
 :do { add list=YT address=2001:470:ee2d::/48 } on-error={}
-:do { add list=YT address=2001:470:f854::/48 } on-error={}
+:do { add list=YT address=2001:470:f854:4000::/50 } on-error={}
+:do { add list=YT address=2001:470:f854:8000::/49 } on-error={}
 :do { add list=YT address=2001:4b28:900::/40 } on-error={}
 :do { add list=YT address=2401:b60:1920:4000::/50 } on-error={}
 :do { add list=YT address=2401:b60:1920:8000::/49 } on-error={}
@@ -38,12 +32,13 @@
 :do { add list=YT address=2607:8940:4191:e500::/56 } on-error={}
 :do { add list=YT address=2607:8940:4191:e600::/56 } on-error={}
 :do { add list=YT address=2a01:528:900::/40 } on-error={}
+:do { add list=YT address=2a01:cb22:4200:4a00::/56 } on-error={}
+:do { add list=YT address=2a01:cb22:4200:5400::/56 } on-error={}
+:do { add list=YT address=2a01:cb22:4200:d200::/56 } on-error={}
+:do { add list=YT address=2a01:cb22:4200:dc00::/56 } on-error={}
 :do { add list=YT address=2a01:cb22:4201:c00::/56 } on-error={}
-:do { add list=YT address=2a01:cb22:4201:b200::/56 } on-error={}
 :do { add list=YT address=2a01:cb22:4202:500::/56 } on-error={}
 :do { add list=YT address=2a01:cb22:4301:8d00::/56 } on-error={}
-:do { add list=YT address=2a01:cb22:8009::/50 } on-error={}
-:do { add list=YT address=2a01:cb22:800d:8000::/50 } on-error={}
 :do { add list=YT address=2a02:26f7:d280::/48 } on-error={}
 :do { add list=YT address=2a02:26f7:d281::/48 } on-error={}
 :do { add list=YT address=2a02:26f7:d282::/47 } on-error={}

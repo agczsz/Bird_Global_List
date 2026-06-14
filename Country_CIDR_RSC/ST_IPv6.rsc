@@ -1,11 +1,5 @@
 /log info "Loading ST IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=ST address=2001:470:d:121::/64 } on-error={}
-:do { add list=ST address=2001:470:19:5a::/64 } on-error={}
-:do { add list=ST address=2001:470:24:ef::/64 } on-error={}
-:do { add list=ST address=2001:470:36:19e::/64 } on-error={}
-:do { add list=ST address=2001:470:36:257::/64 } on-error={}
-:do { add list=ST address=2001:470:36:2bd::/64 } on-error={}
 :do { add list=ST address=2001:470:1f1b:42b::/64 } on-error={}
 :do { add list=ST address=2001:470:ed00::/48 } on-error={}
 :do { add list=ST address=2001:470:ed59::/48 } on-error={}
@@ -23,7 +17,6 @@
 :do { add list=ST address=2401:f1e0:ffff:c6b2::/64 } on-error={}
 :do { add list=ST address=2405:b500:6a80::/64 } on-error={}
 :do { add list=ST address=2405:b500:6aa0::/64 } on-error={}
-:do { add list=ST address=2405:b500:6ac0::/64 } on-error={}
 :do { add list=ST address=2405:b500:6ae0::/64 } on-error={}
 :do { add list=ST address=2606:40:758::/45 } on-error={}
 :do { add list=ST address=2606:40:760::/45 } on-error={}
@@ -64,6 +57,8 @@
 :do { add list=ST address=2804:94bc:1002::/47 } on-error={}
 :do { add list=ST address=2804:94bc:1004::/46 } on-error={}
 :do { add list=ST address=2804:94bc:1008::/45 } on-error={}
+:do { add list=ST address=2804:94bc:1014::/48 } on-error={}
+:do { add list=ST address=2804:94bc:1017::/48 } on-error={}
 :do { add list=ST address=2804:94bc:1018:500::/56 } on-error={}
 :do { add list=ST address=2804:94bc:1018:600::/55 } on-error={}
 :do { add list=ST address=2804:94bc:1018:800::/53 } on-error={}

@@ -1,8 +1,5 @@
 /log info "Loading ET IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=ET address=2001:470:36:c0::/64 } on-error={}
-:do { add list=ET address=2001:470:36:38a::/64 } on-error={}
-:do { add list=ET address=2001:470:1f0b:218::/64 } on-error={}
 :do { add list=ET address=2001:470:7158::/48 } on-error={}
 :do { add list=ET address=2001:470:ede7::/48 } on-error={}
 :do { add list=ET address=2001:67c:a38:f251::/64 } on-error={}
@@ -48,20 +45,6 @@
 :do { add list=ET address=2606:54c3:0:33c::/64 } on-error={}
 :do { add list=ET address=2606:54c3:0:8b5::/64 } on-error={}
 :do { add list=ET address=2607:8940:209e::/47 } on-error={}
-:do { add list=ET address=2607:8940:20a2::/52 } on-error={}
-:do { add list=ET address=2607:8940:20a2:1000::/53 } on-error={}
-:do { add list=ET address=2607:8940:20a2:1800::/54 } on-error={}
-:do { add list=ET address=2607:8940:20a2:1c00::/57 } on-error={}
-:do { add list=ET address=2607:8940:20a2:1c80::/59 } on-error={}
-:do { add list=ET address=2607:8940:20a2:1ca0::/62 } on-error={}
-:do { add list=ET address=2607:8940:20a2:1ca4::/64 } on-error={}
-:do { add list=ET address=2607:8940:20a2:1ca6::/63 } on-error={}
-:do { add list=ET address=2607:8940:20a2:1ca8::/61 } on-error={}
-:do { add list=ET address=2607:8940:20a2:1cb0::/60 } on-error={}
-:do { add list=ET address=2607:8940:20a2:1cc0::/58 } on-error={}
-:do { add list=ET address=2607:8940:20a2:1d00::/56 } on-error={}
-:do { add list=ET address=2607:8940:20a2:1e00::/55 } on-error={}
-:do { add list=ET address=2607:8940:20a2:2000::/51 } on-error={}
 :do { add list=ET address=2607:8940:20a2:4000::/50 } on-error={}
 :do { add list=ET address=2607:8940:20a2:8000::/49 } on-error={}
 :do { add list=ET address=2607:8940:20a3::/48 } on-error={}
@@ -168,7 +151,6 @@
 :do { add list=ET address=2a0f:9403:a80::/44 } on-error={}
 :do { add list=ET address=2a0f:a300:e000::/37 } on-error={}
 :do { add list=ET address=2a10:500:1b00::/40 } on-error={}
-:do { add list=ET address=2a10:9007:2:7::/64 } on-error={}
 :do { add list=ET address=2a11:29c0:3d88:4d1::/64 } on-error={}
 :do { add list=ET address=2a11:29c0:3d88:537::/64 } on-error={}
 :do { add list=ET address=2a11:29c0:3d88:63c::/64 } on-error={}
@@ -274,7 +256,6 @@
 :do { add list=ET address=2c0f:eb00:1108::/46 } on-error={}
 :do { add list=ET address=2c0f:eb00:110c::/47 } on-error={}
 :do { add list=ET address=2c0f:eb00:110f::/48 } on-error={}
-:do { add list=ET address=2c0f:eb00:1110::/50 } on-error={}
 :do { add list=ET address=2c0f:eb00:1111::/48 } on-error={}
 :do { add list=ET address=2c0f:eb00:1112::/47 } on-error={}
 :do { add list=ET address=2c0f:eb00:1114::/46 } on-error={}

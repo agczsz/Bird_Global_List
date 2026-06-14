@@ -1,7 +1,5 @@
 /log info "Loading MR IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=MR address=2001:470:36:13b::/64 } on-error={}
-:do { add list=MR address=2001:470:36:5af::/64 } on-error={}
 :do { add list=MR address=2001:470:ba0d::/48 } on-error={}
 :do { add list=MR address=2001:470:eca5::/48 } on-error={}
 :do { add list=MR address=2001:67c:a38:f222::/64 } on-error={}
@@ -29,20 +27,6 @@
 :do { add list=MR address=2606:54c3:0:14c8::/64 } on-error={}
 :do { add list=MR address=2607:8940:2136::/47 } on-error={}
 :do { add list=MR address=2607:8940:213a::/48 } on-error={}
-:do { add list=MR address=2607:8940:213b::/52 } on-error={}
-:do { add list=MR address=2607:8940:213b:1000::/57 } on-error={}
-:do { add list=MR address=2607:8940:213b:1080::/58 } on-error={}
-:do { add list=MR address=2607:8940:213b:10c0::/61 } on-error={}
-:do { add list=MR address=2607:8940:213b:10c9::/64 } on-error={}
-:do { add list=MR address=2607:8940:213b:10ca::/63 } on-error={}
-:do { add list=MR address=2607:8940:213b:10cc::/62 } on-error={}
-:do { add list=MR address=2607:8940:213b:10d0::/60 } on-error={}
-:do { add list=MR address=2607:8940:213b:10e0::/59 } on-error={}
-:do { add list=MR address=2607:8940:213b:1100::/56 } on-error={}
-:do { add list=MR address=2607:8940:213b:1200::/55 } on-error={}
-:do { add list=MR address=2607:8940:213b:1400::/54 } on-error={}
-:do { add list=MR address=2607:8940:213b:1800::/53 } on-error={}
-:do { add list=MR address=2607:8940:213b:2000::/51 } on-error={}
 :do { add list=MR address=2607:8940:213b:4000::/50 } on-error={}
 :do { add list=MR address=2607:8940:213b:8000::/49 } on-error={}
 :do { add list=MR address=2607:8940:4171:7d00::/56 } on-error={}
@@ -140,7 +124,6 @@
 :do { add list=MR address=2a0f:9403:b50::/44 } on-error={}
 :do { add list=MR address=2a0f:a301:f000::/37 } on-error={}
 :do { add list=MR address=2a10:500:2900::/40 } on-error={}
-:do { add list=MR address=2a10:9007:2:f::/64 } on-error={}
 :do { add list=MR address=2a11:29c0:3d88:474a::/64 } on-error={}
 :do { add list=MR address=2a11:29c0:3d88:5e92::/64 } on-error={}
 :do { add list=MR address=2a11:29c0:3d88:5f02::/64 } on-error={}

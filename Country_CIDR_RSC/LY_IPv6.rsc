@@ -1,9 +1,5 @@
 /log info "Loading LY IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=LY address=2001:470:19:eb0::/64 } on-error={}
-:do { add list=LY address=2001:470:36:11b::/64 } on-error={}
-:do { add list=LY address=2001:470:36:202::/64 } on-error={}
-:do { add list=LY address=2001:470:1f0b:a72::/64 } on-error={}
 :do { add list=LY address=2001:470:1f29:36f::/64 } on-error={}
 :do { add list=LY address=2001:470:74b6::/48 } on-error={}
 :do { add list=LY address=2001:470:ecae::/48 } on-error={}
@@ -129,7 +125,6 @@
 :do { add list=LY address=2a0f:85c1:81b:f660::/60 } on-error={}
 :do { add list=LY address=2a0f:9403:b10::/44 } on-error={}
 :do { add list=LY address=2a10:500:2500::/40 } on-error={}
-:do { add list=LY address=2a10:9007:2:e::/64 } on-error={}
 :do { add list=LY address=2a11:29c0:3d88:10f5::/64 } on-error={}
 :do { add list=LY address=2a11:29c0:3d88:11c1::/64 } on-error={}
 :do { add list=LY address=2a11:29c0:3d88:150c::/64 } on-error={}
@@ -186,20 +181,6 @@
 :do { add list=LY address=2a14:7c5:4e0::/43 } on-error={}
 :do { add list=LY address=2a14:2d45:8700::/40 } on-error={}
 :do { add list=LY address=2a14:67c1:b686::/48 } on-error={}
-:do { add list=LY address=2a14:67c2:8fc:1::/64 } on-error={}
-:do { add list=LY address=2a14:67c2:8fc:2::/63 } on-error={}
-:do { add list=LY address=2a14:67c2:8fc:4::/62 } on-error={}
-:do { add list=LY address=2a14:67c2:8fc:8::/61 } on-error={}
-:do { add list=LY address=2a14:67c2:8fc:10::/60 } on-error={}
-:do { add list=LY address=2a14:67c2:8fc:20::/59 } on-error={}
-:do { add list=LY address=2a14:67c2:8fc:40::/58 } on-error={}
-:do { add list=LY address=2a14:67c2:8fc:80::/57 } on-error={}
-:do { add list=LY address=2a14:67c2:8fc:100::/56 } on-error={}
-:do { add list=LY address=2a14:67c2:8fc:200::/55 } on-error={}
-:do { add list=LY address=2a14:67c2:8fc:400::/54 } on-error={}
-:do { add list=LY address=2a14:67c2:8fc:800::/53 } on-error={}
-:do { add list=LY address=2a14:67c2:8fc:1000::/52 } on-error={}
-:do { add list=LY address=2a14:67c2:8fc:2000::/51 } on-error={}
 :do { add list=LY address=2a14:67c2:8fc:4000::/50 } on-error={}
 :do { add list=LY address=2a14:67c2:8fc:8000::/49 } on-error={}
 :do { add list=LY address=2a14:7580:cf87::/48 } on-error={}

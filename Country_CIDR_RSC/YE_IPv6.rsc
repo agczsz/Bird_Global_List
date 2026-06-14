@@ -1,26 +1,8 @@
 /log info "Loading YE IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=YE address=2001:470:19:1177::/64 } on-error={}
-:do { add list=YE address=2001:470:1d:40b::/64 } on-error={}
-:do { add list=YE address=2001:470:24:52a::/64 } on-error={}
 :do { add list=YE address=2001:470:36:7fa::/64 } on-error={}
-:do { add list=YE address=2001:470:1f0b:1d::/64 } on-error={}
 :do { add list=YE address=2001:470:1f27:1fd::/64 } on-error={}
 :do { add list=YE address=2001:470:1f29:2ce::/64 } on-error={}
-:do { add list=YE address=2001:470:b23c:1::/64 } on-error={}
-:do { add list=YE address=2001:470:b23c:2::/63 } on-error={}
-:do { add list=YE address=2001:470:b23c:4::/62 } on-error={}
-:do { add list=YE address=2001:470:b23c:8::/61 } on-error={}
-:do { add list=YE address=2001:470:b23c:10::/60 } on-error={}
-:do { add list=YE address=2001:470:b23c:20::/59 } on-error={}
-:do { add list=YE address=2001:470:b23c:40::/58 } on-error={}
-:do { add list=YE address=2001:470:b23c:80::/57 } on-error={}
-:do { add list=YE address=2001:470:b23c:100::/56 } on-error={}
-:do { add list=YE address=2001:470:b23c:200::/55 } on-error={}
-:do { add list=YE address=2001:470:b23c:400::/54 } on-error={}
-:do { add list=YE address=2001:470:b23c:800::/53 } on-error={}
-:do { add list=YE address=2001:470:b23c:1000::/52 } on-error={}
-:do { add list=YE address=2001:470:b23c:2000::/51 } on-error={}
 :do { add list=YE address=2001:470:b23c:4000::/50 } on-error={}
 :do { add list=YE address=2001:470:b23c:8000::/49 } on-error={}
 :do { add list=YE address=2001:67c:a38:f967::/64 } on-error={}
@@ -193,7 +175,6 @@
 :do { add list=YE address=2a0f:9403:950::/44 } on-error={}
 :do { add list=YE address=2a0f:a301:6800::/37 } on-error={}
 :do { add list=YE address=2a10:500:6a00::/40 } on-error={}
-:do { add list=YE address=2a10:9007:2:22::/64 } on-error={}
 :do { add list=YE address=2a11:29c0:3d88:d2::/64 } on-error={}
 :do { add list=YE address=2a11:29c0:3d88:243::/64 } on-error={}
 :do { add list=YE address=2a11:29c0:3d88:2bb::/64 } on-error={}

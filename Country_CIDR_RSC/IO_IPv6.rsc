@@ -1,16 +1,8 @@
 /log info "Loading IO IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=IO address=2001:470:19:2ae::/64 } on-error={}
 :do { add list=IO address=2001:470:19:7f7::/64 } on-error={}
-:do { add list=IO address=2001:470:19:10a4::/64 } on-error={}
-:do { add list=IO address=2001:470:24:8bc::/64 } on-error={}
-:do { add list=IO address=2001:470:24:f0d::/64 } on-error={}
-:do { add list=IO address=2001:470:24:1277::/64 } on-error={}
 :do { add list=IO address=2001:470:36:87c::/64 } on-error={}
-:do { add list=IO address=2001:470:36:b55::/64 } on-error={}
 :do { add list=IO address=2001:470:18d1::/48 } on-error={}
-:do { add list=IO address=2001:470:1f1d:17a::/64 } on-error={}
-:do { add list=IO address=2001:470:1f1d:454::/64 } on-error={}
 :do { add list=IO address=2001:470:1f27:84::/64 } on-error={}
 :do { add list=IO address=2001:470:c050::/48 } on-error={}
 :do { add list=IO address=2001:470:e967::/48 } on-error={}
@@ -35,20 +27,6 @@
 :do { add list=IO address=2405:b500:3760::/64 } on-error={}
 :do { add list=IO address=2600:70ff:a4e0::/48 } on-error={}
 :do { add list=IO address=2600:70ff:a96a::/48 } on-error={}
-:do { add list=IO address=2600:70ff:ac6e:1::/64 } on-error={}
-:do { add list=IO address=2600:70ff:ac6e:2::/63 } on-error={}
-:do { add list=IO address=2600:70ff:ac6e:4::/62 } on-error={}
-:do { add list=IO address=2600:70ff:ac6e:8::/61 } on-error={}
-:do { add list=IO address=2600:70ff:ac6e:10::/60 } on-error={}
-:do { add list=IO address=2600:70ff:ac6e:20::/59 } on-error={}
-:do { add list=IO address=2600:70ff:ac6e:40::/58 } on-error={}
-:do { add list=IO address=2600:70ff:ac6e:80::/57 } on-error={}
-:do { add list=IO address=2600:70ff:ac6e:100::/56 } on-error={}
-:do { add list=IO address=2600:70ff:ac6e:200::/55 } on-error={}
-:do { add list=IO address=2600:70ff:ac6e:400::/54 } on-error={}
-:do { add list=IO address=2600:70ff:ac6e:800::/53 } on-error={}
-:do { add list=IO address=2600:70ff:ac6e:1000::/52 } on-error={}
-:do { add list=IO address=2600:70ff:ac6e:2000::/51 } on-error={}
 :do { add list=IO address=2600:70ff:ac6e:4000::/50 } on-error={}
 :do { add list=IO address=2600:70ff:ac6e:8000::/49 } on-error={}
 :do { add list=IO address=2600:70ff:d802::/48 } on-error={}

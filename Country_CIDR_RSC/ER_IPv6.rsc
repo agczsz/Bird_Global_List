@@ -1,9 +1,5 @@
 /log info "Loading ER IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=ER address=2001:470:24:207::/64 } on-error={}
-:do { add list=ER address=2001:470:24:8bf::/64 } on-error={}
-:do { add list=ER address=2001:470:26:756::/64 } on-error={}
-:do { add list=ER address=2001:470:36:bf::/64 } on-error={}
 :do { add list=ER address=2001:470:1f27:73::/64 } on-error={}
 :do { add list=ER address=2001:470:b6e9::/48 } on-error={}
 :do { add list=ER address=2001:470:f372::/48 } on-error={}
@@ -120,20 +116,6 @@
 :do { add list=ER address=2a0c:9a46:343::/48 } on-error={}
 :do { add list=ER address=2a0c:9a46:3fe:42::/64 } on-error={}
 :do { add list=ER address=2a0d:9444:7000::/37 } on-error={}
-:do { add list=ER address=2a0e:97c1:8a20::/51 } on-error={}
-:do { add list=ER address=2a0e:97c1:8a20:2000::/53 } on-error={}
-:do { add list=ER address=2a0e:97c1:8a20:2800::/54 } on-error={}
-:do { add list=ER address=2a0e:97c1:8a20:2c00::/55 } on-error={}
-:do { add list=ER address=2a0e:97c1:8a20:2e00::/56 } on-error={}
-:do { add list=ER address=2a0e:97c1:8a20:2f00::/57 } on-error={}
-:do { add list=ER address=2a0e:97c1:8a20:2f80::/62 } on-error={}
-:do { add list=ER address=2a0e:97c1:8a20:2f84::/63 } on-error={}
-:do { add list=ER address=2a0e:97c1:8a20:2f86::/64 } on-error={}
-:do { add list=ER address=2a0e:97c1:8a20:2f88::/61 } on-error={}
-:do { add list=ER address=2a0e:97c1:8a20:2f90::/60 } on-error={}
-:do { add list=ER address=2a0e:97c1:8a20:2fa0::/59 } on-error={}
-:do { add list=ER address=2a0e:97c1:8a20:2fc0::/58 } on-error={}
-:do { add list=ER address=2a0e:97c1:8a20:3000::/52 } on-error={}
 :do { add list=ER address=2a0e:97c1:8a20:4000::/50 } on-error={}
 :do { add list=ER address=2a0e:97c1:8a20:8000::/49 } on-error={}
 :do { add list=ER address=2a0e:b107:23f0::/45 } on-error={}
@@ -149,7 +131,6 @@
 :do { add list=ER address=2a0f:9403:a60::/44 } on-error={}
 :do { add list=ER address=2a0f:a303:8000::/37 } on-error={}
 :do { add list=ER address=2a10:500:1a00::/40 } on-error={}
-:do { add list=ER address=2a10:9007:2:6::/64 } on-error={}
 :do { add list=ER address=2a11:29c0:3d88:2a3e::/64 } on-error={}
 :do { add list=ER address=2a11:29c0:3d88:8c45::/64 } on-error={}
 :do { add list=ER address=2a11:f141:a000::/36 } on-error={}

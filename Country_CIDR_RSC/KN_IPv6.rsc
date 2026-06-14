@@ -1,11 +1,6 @@
 /log info "Loading KN IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=KN address=2001:470:5:320::/64 } on-error={}
-:do { add list=KN address=2001:470:5:388::/64 } on-error={}
-:do { add list=KN address=2001:470:19:35d::/64 } on-error={}
-:do { add list=KN address=2001:470:36:104::/64 } on-error={}
-:do { add list=KN address=2001:470:36:9b5::/64 } on-error={}
-:do { add list=KN address=2001:470:1f1b:221::/64 } on-error={}
 :do { add list=KN address=2001:470:2023::/48 } on-error={}
 :do { add list=KN address=2001:470:d90c::/48 } on-error={}
 :do { add list=KN address=2001:470:da19::/48 } on-error={}
@@ -49,7 +44,7 @@
 :do { add list=KN address=2620:18:c000::/48 } on-error={}
 :do { add list=KN address=2620:6b:2000::/48 } on-error={}
 :do { add list=KN address=2620:171:b2::/48 } on-error={}
-:do { add list=KN address=2a01:d0:7fff:234::/64 } on-error={}
+:do { add list=KN address=2a01:d0:7fff:230::/61 } on-error={}
 :do { add list=KN address=2a01:528:6c00::/40 } on-error={}
 :do { add list=KN address=2a02:26f7:e8c0:4000::/64 } on-error={}
 :do { add list=KN address=2a02:26f7:e8c0:cb20::/63 } on-error={}

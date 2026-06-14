@@ -1,15 +1,6 @@
 /log info "Loading CG IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=CG address=2001:470:24:21e::/64 } on-error={}
-:do { add list=CG address=2001:470:36:a8::/64 } on-error={}
-:do { add list=CG address=2001:470:36:11d3::/64 } on-error={}
 :do { add list=CG address=2001:470:6f:21e::/64 } on-error={}
-:do { add list=CG address=2001:470:6f:426::/64 } on-error={}
-:do { add list=CG address=2001:470:1f09:22::/64 } on-error={}
-:do { add list=CG address=2001:470:1f0b:68d::/64 } on-error={}
-:do { add list=CG address=2001:470:1f15:3e4::/64 } on-error={}
-:do { add list=CG address=2001:470:1f1b:c3::/64 } on-error={}
-:do { add list=CG address=2001:470:1f1b:fb::/64 } on-error={}
 :do { add list=CG address=2001:470:215b::/48 } on-error={}
 :do { add list=CG address=2001:470:58ea::/48 } on-error={}
 :do { add list=CG address=2001:470:72d6::/48 } on-error={}
@@ -26,7 +17,6 @@
 :do { add list=CG address=2401:b60:1328::/45 } on-error={}
 :do { add list=CG address=2401:f1e0:ffff:4e63::/64 } on-error={}
 :do { add list=CG address=2405:b500:1680::/64 } on-error={}
-:do { add list=CG address=2405:b500:16a0::/64 } on-error={}
 :do { add list=CG address=2405:b500:16c0::/64 } on-error={}
 :do { add list=CG address=2405:b500:16e0::/64 } on-error={}
 :do { add list=CG address=2600:70ff:a76c::/48 } on-error={}

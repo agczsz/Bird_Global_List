@@ -1,8 +1,5 @@
 /log info "Loading GW IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=GW address=2001:470:24:56d::/64 } on-error={}
-:do { add list=GW address=2001:470:36:1b8::/64 } on-error={}
-:do { add list=GW address=2001:470:1f2d:148::/64 } on-error={}
 :do { add list=GW address=2001:470:4827::/48 } on-error={}
 :do { add list=GW address=2001:470:ba13::/48 } on-error={}
 :do { add list=GW address=2001:470:f699::/48 } on-error={}

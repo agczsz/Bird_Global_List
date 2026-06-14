@@ -1,12 +1,6 @@
 /log info "Loading PW IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=PW address=2001:470:19:881::/64 } on-error={}
-:do { add list=PW address=2001:470:19:8f1::/64 } on-error={}
-:do { add list=PW address=2001:470:24:749::/64 } on-error={}
-:do { add list=PW address=2001:470:36:180::/64 } on-error={}
-:do { add list=PW address=2001:470:36:1c8::/64 } on-error={}
 :do { add list=PW address=2001:470:36:7d3::/64 } on-error={}
-:do { add list=PW address=2001:470:6d:b8d::/64 } on-error={}
 :do { add list=PW address=2001:470:887f::/48 } on-error={}
 :do { add list=PW address=2001:470:efca::/48 } on-error={}
 :do { add list=PW address=2001:470:fbe1::/48 } on-error={}
@@ -185,20 +179,6 @@
 :do { add list=PW address=2a14:7c5:700::/44 } on-error={}
 :do { add list=PW address=2a14:2d45:b700::/40 } on-error={}
 :do { add list=PW address=2a14:67c1:b6b7::/48 } on-error={}
-:do { add list=PW address=2a14:67c2:8fd:1::/64 } on-error={}
-:do { add list=PW address=2a14:67c2:8fd:2::/63 } on-error={}
-:do { add list=PW address=2a14:67c2:8fd:4::/62 } on-error={}
-:do { add list=PW address=2a14:67c2:8fd:8::/61 } on-error={}
-:do { add list=PW address=2a14:67c2:8fd:10::/60 } on-error={}
-:do { add list=PW address=2a14:67c2:8fd:20::/59 } on-error={}
-:do { add list=PW address=2a14:67c2:8fd:40::/58 } on-error={}
-:do { add list=PW address=2a14:67c2:8fd:80::/57 } on-error={}
-:do { add list=PW address=2a14:67c2:8fd:100::/56 } on-error={}
-:do { add list=PW address=2a14:67c2:8fd:200::/55 } on-error={}
-:do { add list=PW address=2a14:67c2:8fd:400::/54 } on-error={}
-:do { add list=PW address=2a14:67c2:8fd:800::/53 } on-error={}
-:do { add list=PW address=2a14:67c2:8fd:1000::/52 } on-error={}
-:do { add list=PW address=2a14:67c2:8fd:2000::/51 } on-error={}
 :do { add list=PW address=2a14:67c2:8fd:4000::/50 } on-error={}
 :do { add list=PW address=2a14:67c2:8fd:8000::/49 } on-error={}
 :do { add list=PW address=2a14:7580:cfb8::/48 } on-error={}

@@ -1,12 +1,6 @@
 /log info "Loading FK IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=FK address=2001:470:19:b::/64 } on-error={}
-:do { add list=FK address=2001:470:19:1330::/64 } on-error={}
 :do { add list=FK address=2001:470:24:137a::/64 } on-error={}
-:do { add list=FK address=2001:470:36:313::/64 } on-error={}
-:do { add list=FK address=2001:470:36:446::/64 } on-error={}
-:do { add list=FK address=2001:470:6d:1045::/64 } on-error={}
-:do { add list=FK address=2001:470:1f0b:6eb::/64 } on-error={}
 :do { add list=FK address=2001:470:1f2b:168::/64 } on-error={}
 :do { add list=FK address=2001:470:ed70::/48 } on-error={}
 :do { add list=FK address=2001:470:f80a::/48 } on-error={}
@@ -22,7 +16,6 @@
 :do { add list=FK address=2405:b500:2600::/64 } on-error={}
 :do { add list=FK address=2405:b500:2620::/64 } on-error={}
 :do { add list=FK address=2405:b500:2640::/64 } on-error={}
-:do { add list=FK address=2405:b500:2660::/64 } on-error={}
 :do { add list=FK address=2600:70ff:980b::/48 } on-error={}
 :do { add list=FK address=2600:70ff:981f::/48 } on-error={}
 :do { add list=FK address=2600:70ff:984e::/48 } on-error={}
@@ -113,6 +106,7 @@
 :do { add list=FK address=2a0c:9a40:95b4:7000::/52 } on-error={}
 :do { add list=FK address=2a0c:9a46:348::/48 } on-error={}
 :do { add list=FK address=2a0c:9a46:3fe:47::/64 } on-error={}
+:do { add list=FK address=2a0d:2587:7f2f::/48 } on-error={}
 :do { add list=FK address=2a0d:9444:e000::/37 } on-error={}
 :do { add list=FK address=2a0f:1cc5:b10:4600::/56 } on-error={}
 :do { add list=FK address=2a0f:1cc5:b11:4600::/56 } on-error={}

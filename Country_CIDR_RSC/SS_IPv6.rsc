@@ -1,9 +1,5 @@
 /log info "Loading SS IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=SS address=2001:470:24:ec::/64 } on-error={}
-:do { add list=SS address=2001:470:24:122::/64 } on-error={}
-:do { add list=SS address=2001:470:36:2c8::/64 } on-error={}
-:do { add list=SS address=2001:470:1f0b:a93::/64 } on-error={}
 :do { add list=SS address=2001:470:74d6::/48 } on-error={}
 :do { add list=SS address=2001:470:ed40::/48 } on-error={}
 :do { add list=SS address=2001:470:fcc6::/48 } on-error={}
@@ -130,7 +126,6 @@
 :do { add list=SS address=2a0f:9403:c30::/44 } on-error={}
 :do { add list=SS address=2a0f:a303:3000::/37 } on-error={}
 :do { add list=SS address=2a10:500:3700::/40 } on-error={}
-:do { add list=SS address=2a10:9007:2:1b::/64 } on-error={}
 :do { add list=SS address=2a11:29c0:3d88:de6::/64 } on-error={}
 :do { add list=SS address=2a11:29c0:3d88:7238::/64 } on-error={}
 :do { add list=SS address=2a11:29c0:3d88:c686::/64 } on-error={}

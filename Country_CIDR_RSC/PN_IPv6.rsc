@@ -1,7 +1,6 @@
 /log info "Loading PN IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=PN address=2001:470:36:7bf::/64 } on-error={}
-:do { add list=PN address=2001:470:36:87e::/64 } on-error={}
 :do { add list=PN address=2001:470:1f29:a5::/64 } on-error={}
 :do { add list=PN address=2001:470:efe5::/48 } on-error={}
 :do { add list=PN address=2001:4b28:2900::/40 } on-error={}

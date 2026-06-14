@@ -1,11 +1,6 @@
 /log info "Loading GS IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=GS address=2001:470:19:1067::/64 } on-error={}
-:do { add list=GS address=2001:470:24:914::/64 } on-error={}
-:do { add list=GS address=2001:470:24:1003::/64 } on-error={}
-:do { add list=GS address=2001:470:36:cc9::/64 } on-error={}
-:do { add list=GS address=2001:470:36:1189::/64 } on-error={}
-:do { add list=GS address=2001:470:1f09:314::/64 } on-error={}
 :do { add list=GS address=2001:470:f5e3::/48 } on-error={}
 :do { add list=GS address=2001:470:fff9::/48 } on-error={}
 :do { add list=GS address=2001:4b28:d100::/40 } on-error={}

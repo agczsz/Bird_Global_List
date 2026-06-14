@@ -1,16 +1,6 @@
 /log info "Loading VU IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=VU address=2001:470:19:40::/64 } on-error={}
-:do { add list=VU address=2001:470:19:8c::/64 } on-error={}
-:do { add list=VU address=2001:470:24:2e5::/64 } on-error={}
-:do { add list=VU address=2001:470:24:440::/64 } on-error={}
 :do { add list=VU address=2001:470:24:90f::/64 } on-error={}
-:do { add list=VU address=2001:470:36:1d6::/64 } on-error={}
-:do { add list=VU address=2001:470:36:84d::/64 } on-error={}
-:do { add list=VU address=2001:470:36:11be::/64 } on-error={}
-:do { add list=VU address=2001:470:1f0b:475::/64 } on-error={}
-:do { add list=VU address=2001:470:1f2d:189::/64 } on-error={}
-:do { add list=VU address=2001:470:1f2d:1b9::/64 } on-error={}
 :do { add list=VU address=2001:470:7458::/48 } on-error={}
 :do { add list=VU address=2001:470:eb2b::/48 } on-error={}
 :do { add list=VU address=2001:470:f457::/48 } on-error={}
@@ -20,20 +10,6 @@
 :do { add list=VU address=2001:67c:a38:f678::/64 } on-error={}
 :do { add list=VU address=2001:dec::/48 } on-error={}
 :do { add list=VU address=2001:df0:410::/48 } on-error={}
-:do { add list=VU address=2001:df2:a700:1::/64 } on-error={}
-:do { add list=VU address=2001:df2:a700:2::/63 } on-error={}
-:do { add list=VU address=2001:df2:a700:4::/62 } on-error={}
-:do { add list=VU address=2001:df2:a700:8::/61 } on-error={}
-:do { add list=VU address=2001:df2:a700:10::/60 } on-error={}
-:do { add list=VU address=2001:df2:a700:20::/59 } on-error={}
-:do { add list=VU address=2001:df2:a700:40::/58 } on-error={}
-:do { add list=VU address=2001:df2:a700:80::/57 } on-error={}
-:do { add list=VU address=2001:df2:a700:100::/56 } on-error={}
-:do { add list=VU address=2001:df2:a700:200::/55 } on-error={}
-:do { add list=VU address=2001:df2:a700:400::/54 } on-error={}
-:do { add list=VU address=2001:df2:a700:800::/53 } on-error={}
-:do { add list=VU address=2001:df2:a700:1000::/52 } on-error={}
-:do { add list=VU address=2001:df2:a700:2000::/51 } on-error={}
 :do { add list=VU address=2001:df2:a700:4000::/50 } on-error={}
 :do { add list=VU address=2001:df2:a700:8000::/49 } on-error={}
 :do { add list=VU address=2001:df5:6d40::/44 } on-error={}

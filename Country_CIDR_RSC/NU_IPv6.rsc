@@ -1,8 +1,5 @@
 /log info "Loading NU IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=NU address=2001:470:19:efa::/64 } on-error={}
-:do { add list=NU address=2001:470:24:8a2::/64 } on-error={}
-:do { add list=NU address=2001:470:36:15d::/64 } on-error={}
 :do { add list=NU address=2001:470:36:7b9::/64 } on-error={}
 :do { add list=NU address=2001:470:36:887::/64 } on-error={}
 :do { add list=NU address=2001:470:efcb::/48 } on-error={}
