@@ -4979,6 +4979,7 @@
 :do { add list=MY address=2a0e:a942:9110::/50 } on-error={}
 :do { add list=MY address=2a0e:a942:9120::/50 } on-error={}
 :do { add list=MY address=2a0e:a942:9130::/50 } on-error={}
+:do { add list=MY address=2a0e:aa07:e257::/48 } on-error={}
 :do { add list=MY address=2a0e:acc0:ac37::/48 } on-error={}
 :do { add list=MY address=2a0e:fd40:be10::/48 } on-error={}
 :do { add list=MY address=2a0f:1cc5:207::/48 } on-error={}

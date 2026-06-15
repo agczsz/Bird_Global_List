@@ -157,7 +157,7 @@
 :do { add list=SV address=2803:1c10::/32 } on-error={}
 :do { add list=SV address=2803:3150::/32 } on-error={}
 :do { add list=SV address=2803:5040::/32 } on-error={}
-:do { add list=SV address=2803:5320:a000::/40 } on-error={}
+:do { add list=SV address=2803:5320:a000::/36 } on-error={}
 :do { add list=SV address=2803:59a0::/32 } on-error={}
 :do { add list=SV address=2803:5d00::/32 } on-error={}
 :do { add list=SV address=2803:6780::/32 } on-error={}

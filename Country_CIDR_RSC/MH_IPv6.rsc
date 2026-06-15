@@ -6,7 +6,7 @@
 :do { add list=MH address=2001:470:f698::/48 } on-error={}
 :do { add list=MH address=2001:67c:a38:f692::/64 } on-error={}
 :do { add list=MH address=2001:4b28:4c00::/40 } on-error={}
-:do { add list=MH address=2401:f1e0:ffff:9cde::/64 } on-error={}
+:do { add list=MH address=2401:f1e0:ffff:7a0d::/64 } on-error={}
 :do { add list=MH address=2405:400::/32 } on-error={}
 :do { add list=MH address=2405:b500:4980::/64 } on-error={}
 :do { add list=MH address=2405:b500:49a0::/64 } on-error={}

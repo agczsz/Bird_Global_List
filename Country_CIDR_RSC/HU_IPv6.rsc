@@ -2474,7 +2474,8 @@
 :do { add list=HU address=2a0b:e43:40::/42 } on-error={}
 :do { add list=HU address=2a0b:e43:80::/41 } on-error={}
 :do { add list=HU address=2a0b:e44::/48 } on-error={}
-:do { add list=HU address=2a0b:e44:6::/48 } on-error={}
+:do { add list=HU address=2a0b:e44:6::/50 } on-error={}
+:do { add list=HU address=2a0b:e44:6:8000::/49 } on-error={}
 :do { add list=HU address=2a0b:e44:9::/48 } on-error={}
 :do { add list=HU address=2a0b:e44:a::/47 } on-error={}
 :do { add list=HU address=2a0b:e44:c::/46 } on-error={}

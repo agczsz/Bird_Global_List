@@ -18,6 +18,7 @@
 :do { add list=MN address=2001:470:8c1c::/48 } on-error={}
 :do { add list=MN address=2001:470:b570::/48 } on-error={}
 :do { add list=MN address=2001:470:edcc::/48 } on-error={}
+:do { add list=MN address=2001:470:eefe::/48 } on-error={}
 :do { add list=MN address=2001:470:f053::/48 } on-error={}
 :do { add list=MN address=2001:470:f10a::/48 } on-error={}
 :do { add list=MN address=2001:470:f110::/48 } on-error={}
