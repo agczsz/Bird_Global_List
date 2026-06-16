@@ -1466,6 +1466,7 @@
 :do { add list=QA address=2a06:9f81:39b9::/48 } on-error={}
 :do { add list=QA address=2a06:9f81:43ef:bc00::/56 } on-error={}
 :do { add list=QA address=2a06:9f81:56b9::/48 } on-error={}
+:do { add list=QA address=2a06:b440:117::/48 } on-error={}
 :do { add list=QA address=2a06:cfc0::/32 } on-error={}
 :do { add list=QA address=2a07:4340::/33 } on-error={}
 :do { add list=QA address=2a07:4340:8000::/34 } on-error={}

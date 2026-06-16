@@ -259,7 +259,6 @@
 :do { add list=AE address=2001:470:72fc::/48 } on-error={}
 :do { add list=AE address=2001:470:73ae::/48 } on-error={}
 :do { add list=AE address=2001:470:748c::/48 } on-error={}
-:do { add list=AE address=2001:470:7521::/48 } on-error={}
 :do { add list=AE address=2001:470:75b5::/48 } on-error={}
 :do { add list=AE address=2001:470:777f::/48 } on-error={}
 :do { add list=AE address=2001:470:7926::/48 } on-error={}
@@ -3470,6 +3469,7 @@
 :do { add list=AE address=2a06:a005:1cb0::/44 } on-error={}
 :do { add list=AE address=2a06:a180:70::/48 } on-error={}
 :do { add list=AE address=2a06:b180::/29 } on-error={}
+:do { add list=AE address=2a06:b440:64::/48 } on-error={}
 :do { add list=AE address=2a06:cac2::/32 } on-error={}
 :do { add list=AE address=2a06:f902:4000::/36 } on-error={}
 :do { add list=AE address=2a07:1980:29::/48 } on-error={}

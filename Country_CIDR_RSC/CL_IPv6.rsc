@@ -3434,6 +3434,7 @@
 :do { add list=CL address=2a06:a006:cf00::/40 } on-error={}
 :do { add list=CL address=2a06:a006:d000::/36 } on-error={}
 :do { add list=CL address=2a06:a006:e000::/35 } on-error={}
+:do { add list=CL address=2a06:b440:82::/48 } on-error={}
 :do { add list=CL address=2a06:b440:107::/48 } on-error={}
 :do { add list=CL address=2a06:b440:109::/48 } on-error={}
 :do { add list=CL address=2a07:d887:2d00::/40 } on-error={}

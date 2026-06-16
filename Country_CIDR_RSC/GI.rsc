@@ -20,14 +20,7 @@
 :do { add list=GI address=45.94.8.0/22 } on-error={}
 :do { add list=GI address=64.124.102.79/32 } on-error={}
 :do { add list=GI address=85.115.128.0/19 } on-error={}
-:do { add list=GI address=85.159.120.0/24 } on-error={}
-:do { add list=GI address=85.159.121.0/24 } on-error={}
-:do { add list=GI address=85.159.122.0/24 } on-error={}
-:do { add list=GI address=85.159.123.0/24 } on-error={}
-:do { add list=GI address=85.159.124.0/24 } on-error={}
-:do { add list=GI address=85.159.125.0/24 } on-error={}
-:do { add list=GI address=85.159.126.0/24 } on-error={}
-:do { add list=GI address=85.159.127.0/24 } on-error={}
+:do { add list=GI address=85.159.120.0/21 } on-error={}
 :do { add list=GI address=85.208.61.0/24 } on-error={}
 :do { add list=GI address=85.208.62.0/24 } on-error={}
 :do { add list=GI address=89.124.253.0/24 } on-error={}

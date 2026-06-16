@@ -215,6 +215,17 @@
 :do { add list=SY address=2606:54c3:0:835::/64 } on-error={}
 :do { add list=SY address=2606:54c3:0:1169::/64 } on-error={}
 :do { add list=SY address=2606:54c3:0:1509::/64 } on-error={}
+:do { add list=SY address=2606:6e80:1000::/104 } on-error={}
+:do { add list=SY address=2606:6e80:1000::100:0/106 } on-error={}
+:do { add list=SY address=2606:6e80:1000::140:0/110 } on-error={}
+:do { add list=SY address=2606:6e80:1000::144:52/128 } on-error={}
+:do { add list=SY address=2606:6e80:1000::144:54/127 } on-error={}
+:do { add list=SY address=2606:6e80:1000::144:80/127 } on-error={}
+:do { add list=SY address=2606:6e80:1000::144:100/127 } on-error={}
+:do { add list=SY address=2606:6e80:1000::144:104/126 } on-error={}
+:do { add list=SY address=2606:6e80:1000::144:116/128 } on-error={}
+:do { add list=SY address=2606:6e80:1000::144:174/126 } on-error={}
+:do { add list=SY address=2606:6e80:1000::144:178/125 } on-error={}
 :do { add list=SY address=2607:ea00:3:1::8/125 } on-error={}
 :do { add list=SY address=2607:ea00:3:1::10/124 } on-error={}
 :do { add list=SY address=2607:ea00:3:1::20/123 } on-error={}

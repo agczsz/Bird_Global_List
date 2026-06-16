@@ -1321,6 +1321,8 @@
 :do { add list=EG address=2a06:9f81:43ef:4000::/56 } on-error={}
 :do { add list=EG address=2a06:9f81:563f::/48 } on-error={}
 :do { add list=EG address=2a06:a005:78d::/48 } on-error={}
+:do { add list=EG address=2a06:b440:50::/46 } on-error={}
+:do { add list=EG address=2a06:b440:54::/48 } on-error={}
 :do { add list=EG address=2a06:b440:103::/48 } on-error={}
 :do { add list=EG address=2a06:de06:389::/48 } on-error={}
 :do { add list=EG address=2a07:d887:4000::/40 } on-error={}

@@ -559,6 +559,9 @@
 :do { add list=MA address=2a06:9f81:3987::/48 } on-error={}
 :do { add list=MA address=2a06:9f81:43ef:8a00::/56 } on-error={}
 :do { add list=MA address=2a06:9f81:5687::/48 } on-error={}
+:do { add list=MA address=2a06:b440:55::/48 } on-error={}
+:do { add list=MA address=2a06:b440:56::/47 } on-error={}
+:do { add list=MA address=2a06:b440:59::/48 } on-error={}
 :do { add list=MA address=2a06:b440:167::/48 } on-error={}
 :do { add list=MA address=2a07:d887:8800::/40 } on-error={}
 :do { add list=MA address=2a09:4c0:0:8a::/64 } on-error={}

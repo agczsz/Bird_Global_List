@@ -1135,6 +1135,7 @@
 :do { add list=EE address=2a06:9c0::/29 } on-error={}
 :do { add list=EE address=2a06:1301:4100::/48 } on-error={}
 :do { add list=EE address=2a06:22c0::/29 } on-error={}
+:do { add list=EE address=2a06:3040:6:210::/64 } on-error={}
 :do { add list=EE address=2a06:9801:282::/48 } on-error={}
 :do { add list=EE address=2a06:9f81:393e::/48 } on-error={}
 :do { add list=EE address=2a06:9f81:43ef:3f00::/56 } on-error={}

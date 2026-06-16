@@ -366,7 +366,6 @@
 :do { add list=TW address=2001:470:f429::/48 } on-error={}
 :do { add list=TW address=2001:470:f45b::/48 } on-error={}
 :do { add list=TW address=2001:470:f466::/48 } on-error={}
-:do { add list=TW address=2001:470:f469::/48 } on-error={}
 :do { add list=TW address=2001:470:f483::/48 } on-error={}
 :do { add list=TW address=2001:470:f4a9::/48 } on-error={}
 :do { add list=TW address=2001:470:f517::/48 } on-error={}
@@ -423,10 +422,10 @@
 :do { add list=TW address=2001:470:f975::/48 } on-error={}
 :do { add list=TW address=2001:470:f97e::/48 } on-error={}
 :do { add list=TW address=2001:470:f983::/48 } on-error={}
-:do { add list=TW address=2001:470:f985::/48 } on-error={}
 :do { add list=TW address=2001:470:f9a9::/48 } on-error={}
 :do { add list=TW address=2001:470:f9b1::/48 } on-error={}
 :do { add list=TW address=2001:470:f9b7::/48 } on-error={}
+:do { add list=TW address=2001:470:f9bc::/48 } on-error={}
 :do { add list=TW address=2001:470:f9f6::/48 } on-error={}
 :do { add list=TW address=2001:470:fa03::/48 } on-error={}
 :do { add list=TW address=2001:470:fa43::/48 } on-error={}
@@ -2436,14 +2435,7 @@
 :do { add list=TW address=2400:70e1::/32 } on-error={}
 :do { add list=TW address=2400:71a0::/32 } on-error={}
 :do { add list=TW address=2400:7420::/32 } on-error={}
-:do { add list=TW address=2400:7aa0:1d01::/48 } on-error={}
-:do { add list=TW address=2400:7aa0:1d02::/47 } on-error={}
-:do { add list=TW address=2400:7aa0:1d04::/46 } on-error={}
-:do { add list=TW address=2400:7aa0:1d08::/45 } on-error={}
-:do { add list=TW address=2400:7aa0:1d10::/44 } on-error={}
-:do { add list=TW address=2400:7aa0:1d20::/43 } on-error={}
-:do { add list=TW address=2400:7aa0:1d40::/42 } on-error={}
-:do { add list=TW address=2400:7aa0:1d80::/41 } on-error={}
+:do { add list=TW address=2400:7aa0:1d00::/40 } on-error={}
 :do { add list=TW address=2400:8260::/32 } on-error={}
 :do { add list=TW address=2400:8560::/32 } on-error={}
 :do { add list=TW address=2400:85a0::/32 } on-error={}
@@ -7588,6 +7580,7 @@
 :do { add list=TW address=2a06:a005:2b94::/46 } on-error={}
 :do { add list=TW address=2a06:a005:2b98::/45 } on-error={}
 :do { add list=TW address=2a06:a005:2f10::/44 } on-error={}
+:do { add list=TW address=2a06:b440:88::/48 } on-error={}
 :do { add list=TW address=2a07:1980:6:4000::/50 } on-error={}
 :do { add list=TW address=2a07:1980:6:8000::/49 } on-error={}
 :do { add list=TW address=2a07:54c1:8c60::/48 } on-error={}
@@ -8949,6 +8942,7 @@
 :do { add list=TW address=2a0f:85c1:801::/48 } on-error={}
 :do { add list=TW address=2a0f:85c1:806::/48 } on-error={}
 :do { add list=TW address=2a0f:85c1:81b:fac0::/60 } on-error={}
+:do { add list=TW address=2a0f:85c1:83c::68:0/112 } on-error={}
 :do { add list=TW address=2a0f:85c1:8b7::/48 } on-error={}
 :do { add list=TW address=2a0f:85c1:b4d::/48 } on-error={}
 :do { add list=TW address=2a0f:85c1:ba4::/48 } on-error={}

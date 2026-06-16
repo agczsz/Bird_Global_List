@@ -84,6 +84,7 @@
 :do { add list=CU address=169.158.0.0/16 } on-error={}
 :do { add list=CU address=181.225.224.0/19 } on-error={}
 :do { add list=CU address=185.112.133.12/32 } on-error={}
+:do { add list=CU address=186.211.216.0/24 } on-error={}
 :do { add list=CU address=190.6.64.0/19 } on-error={}
 :do { add list=CU address=190.15.144.0/20 } on-error={}
 :do { add list=CU address=190.92.112.0/20 } on-error={}

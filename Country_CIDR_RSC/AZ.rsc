@@ -622,7 +622,10 @@
 :do { add list=AZ address=109.235.196.0/24 } on-error={}
 :do { add list=AZ address=109.235.197.0/24 } on-error={}
 :do { add list=AZ address=109.235.198.0/23 } on-error={}
-:do { add list=AZ address=109.237.112.0/21 } on-error={}
+:do { add list=AZ address=109.237.112.0/23 } on-error={}
+:do { add list=AZ address=109.237.114.0/24 } on-error={}
+:do { add list=AZ address=109.237.115.0/24 } on-error={}
+:do { add list=AZ address=109.237.116.0/22 } on-error={}
 :do { add list=AZ address=109.237.120.0/23 } on-error={}
 :do { add list=AZ address=109.237.122.0/24 } on-error={}
 :do { add list=AZ address=109.237.123.0/24 } on-error={}

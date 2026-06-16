@@ -154,5 +154,6 @@
 :do { add list=FJ address=202.170.32.0/20 } on-error={}
 :do { add list=FJ address=203.55.68.0/24 } on-error={}
 :do { add list=FJ address=203.83.251.0/24 } on-error={}
+:do { add list=FJ address=203.119.51.0/24 } on-error={}
 :do { add list=FJ address=203.202.235.0/24 } on-error={}
 :do { add list=FJ address=210.7.0.0/19 } on-error={}

@@ -880,6 +880,7 @@
 :do { add list=TN address=2a06:9f81:39dd::/48 } on-error={}
 :do { add list=TN address=2a06:9f81:43ef:df00::/56 } on-error={}
 :do { add list=TN address=2a06:9f81:56dd::/48 } on-error={}
+:do { add list=TN address=2a06:b440:92::/48 } on-error={}
 :do { add list=TN address=2a07:d887:dd00::/40 } on-error={}
 :do { add list=TN address=2a09:4c0:0:e0::/64 } on-error={}
 :do { add list=TN address=2a09:bac0:1000:48a::/63 } on-error={}

@@ -4946,6 +4946,9 @@
 :do { add list=AR address=2a06:a005:1634::/48 } on-error={}
 :do { add list=AR address=2a06:a005:1b30::/44 } on-error={}
 :do { add list=AR address=2a06:a005:1b40::/44 } on-error={}
+:do { add list=AR address=2a06:b440:27::/48 } on-error={}
+:do { add list=AR address=2a06:b440:29::/48 } on-error={}
+:do { add list=AR address=2a06:b440:30::/48 } on-error={}
 :do { add list=AR address=2a07:1c44:39f3:8::/63 } on-error={}
 :do { add list=AR address=2a07:1c44:39f3:15::/64 } on-error={}
 :do { add list=AR address=2a07:1c44:39f3:1e::/64 } on-error={}

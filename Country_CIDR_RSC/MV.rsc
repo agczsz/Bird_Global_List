@@ -152,7 +152,8 @@
 :do { add list=MV address=202.21.180.0/24 } on-error={}
 :do { add list=MV address=202.21.181.0/24 } on-error={}
 :do { add list=MV address=202.21.182.0/23 } on-error={}
-:do { add list=MV address=202.21.184.0/23 } on-error={}
+:do { add list=MV address=202.21.184.0/24 } on-error={}
+:do { add list=MV address=202.21.185.0/24 } on-error={}
 :do { add list=MV address=202.21.186.0/24 } on-error={}
 :do { add list=MV address=202.21.187.0/24 } on-error={}
 :do { add list=MV address=202.21.188.0/22 } on-error={}
