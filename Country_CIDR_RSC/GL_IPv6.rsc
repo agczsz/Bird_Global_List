@@ -250,12 +250,6 @@
 :do { add list=GL address=2a0f:1cc5:b17:5900::/56 } on-error={}
 :do { add list=GL address=2a0f:1cc5:1f34::/48 } on-error={}
 :do { add list=GL address=2a0f:1cc5:1f43::/48 } on-error={}
-:do { add list=GL address=2a0f:2747:2000:4000::/50 } on-error={}
-:do { add list=GL address=2a0f:2747:2000:8000::/49 } on-error={}
-:do { add list=GL address=2a0f:2747:2001:4000::/50 } on-error={}
-:do { add list=GL address=2a0f:2747:2001:8000::/49 } on-error={}
-:do { add list=GL address=2a0f:2747:2002:4000::/50 } on-error={}
-:do { add list=GL address=2a0f:2747:2002:8000::/49 } on-error={}
 :do { add list=GL address=2a0f:a302:4000::/37 } on-error={}
 :do { add list=GL address=2a11:29c0:3d88:23c2::/64 } on-error={}
 :do { add list=GL address=2a11:29c0:3d88:426c::/64 } on-error={}

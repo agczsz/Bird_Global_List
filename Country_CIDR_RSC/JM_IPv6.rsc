@@ -396,10 +396,6 @@
 :do { add list=JM address=2a11:29c0:3d88:f800::/64 } on-error={}
 :do { add list=JM address=2a11:a580:4300::/40 } on-error={}
 :do { add list=JM address=2a11:a684:c000::/36 } on-error={}
-:do { add list=JM address=2a11:f887:8000:4000::/50 } on-error={}
-:do { add list=JM address=2a11:f887:8000:8000::/49 } on-error={}
-:do { add list=JM address=2a11:f887:8001:4000::/50 } on-error={}
-:do { add list=JM address=2a11:f887:8001:8000::/49 } on-error={}
 :do { add list=JM address=2a12:f001:5000::/36 } on-error={}
 :do { add list=JM address=2a12:f381:6400::/40 } on-error={}
 :do { add list=JM address=2a12:f382:6400::/40 } on-error={}

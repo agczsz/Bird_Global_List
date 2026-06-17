@@ -10,6 +10,8 @@
 :do { add list=BI address=66.102.38.192/26 } on-error={}
 :do { add list=BI address=80.255.46.32/28 } on-error={}
 :do { add list=BI address=82.206.140.0/24 } on-error={}
+:do { add list=BI address=87.255.97.202/32 } on-error={}
+:do { add list=BI address=87.255.98.202/32 } on-error={}
 :do { add list=BI address=102.132.116.0/24 } on-error={}
 :do { add list=BI address=102.134.96.0/20 } on-error={}
 :do { add list=BI address=104.28.8.119/32 } on-error={}

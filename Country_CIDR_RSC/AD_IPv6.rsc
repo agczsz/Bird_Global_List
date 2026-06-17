@@ -180,10 +180,6 @@
 :do { add list=AD address=2a0a:6044:f38c::/47 } on-error={}
 :do { add list=AD address=2a0a:8f40:8:4000::/50 } on-error={}
 :do { add list=AD address=2a0a:8f40:8:8000::/49 } on-error={}
-:do { add list=AD address=2a0a:9607:0:4000::/50 } on-error={}
-:do { add list=AD address=2a0a:9607:0:8000::/49 } on-error={}
-:do { add list=AD address=2a0a:9607:1:4000::/50 } on-error={}
-:do { add list=AD address=2a0a:9607:1:8000::/49 } on-error={}
 :do { add list=AD address=2a0b:4e07:3:200::/60 } on-error={}
 :do { add list=AD address=2a0c:9a40:8c8d:4000::/50 } on-error={}
 :do { add list=AD address=2a0c:9a40:8c8d:8000::/49 } on-error={}

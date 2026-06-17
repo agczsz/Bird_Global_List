@@ -223,11 +223,6 @@
 :do { add list=VG address=2605:7a80:9820::/43 } on-error={}
 :do { add list=VG address=2605:7a80:9840::/42 } on-error={}
 :do { add list=VG address=2605:7a80:9880::/41 } on-error={}
-:do { add list=VG address=2605:7a80:991a::/47 } on-error={}
-:do { add list=VG address=2605:7a80:991c::/46 } on-error={}
-:do { add list=VG address=2605:7a80:9920::/43 } on-error={}
-:do { add list=VG address=2605:7a80:9940::/42 } on-error={}
-:do { add list=VG address=2605:7a80:9980::/41 } on-error={}
 :do { add list=VG address=2605:7a80:9a00::/39 } on-error={}
 :do { add list=VG address=2605:7a80:9c00::/38 } on-error={}
 :do { add list=VG address=2605:7a80:a000::/35 } on-error={}

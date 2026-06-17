@@ -79,6 +79,7 @@
 :do { add list=VE address=2001:470:da28::/48 } on-error={}
 :do { add list=VE address=2001:470:da38::/48 } on-error={}
 :do { add list=VE address=2001:470:da5a::/48 } on-error={}
+:do { add list=VE address=2001:470:da68::/48 } on-error={}
 :do { add list=VE address=2001:470:dbad::/48 } on-error={}
 :do { add list=VE address=2001:470:dde0::/48 } on-error={}
 :do { add list=VE address=2001:470:e099::/48 } on-error={}

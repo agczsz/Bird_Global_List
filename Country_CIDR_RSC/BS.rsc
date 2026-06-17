@@ -299,7 +299,8 @@
 :do { add list=BS address=202.181.177.184/32 } on-error={}
 :do { add list=BS address=202.181.177.213/32 } on-error={}
 :do { add list=BS address=202.181.177.215/32 } on-error={}
-:do { add list=BS address=204.119.139.0/24 } on-error={}
+:do { add list=BS address=204.119.139.2/32 } on-error={}
+:do { add list=BS address=204.119.139.245/32 } on-error={}
 :do { add list=BS address=204.236.64.0/18 } on-error={}
 :do { add list=BS address=206.48.0.0/22 } on-error={}
 :do { add list=BS address=206.138.16.0/20 } on-error={}
