@@ -412,7 +412,6 @@
 :do { add list=TZ address=2a13:ef41:ad8e::/48 } on-error={}
 :do { add list=TZ address=2a14:1c7:b000::/37 } on-error={}
 :do { add list=TZ address=2a14:2d45:e300::/40 } on-error={}
-:do { add list=TZ address=2a14:67c1:b6e3::/48 } on-error={}
 :do { add list=TZ address=2a14:67c2:81a::/48 } on-error={}
 :do { add list=TZ address=2a14:7580:cfe4::/48 } on-error={}
 :do { add list=TZ address=2a14:7581:b10:ef00::/56 } on-error={}
@@ -690,9 +689,9 @@
 :do { add list=TZ address=2c0f:feb0:1:2::99a/127 } on-error={}
 :do { add list=TZ address=2c0f:feb0:1:2::acc/128 } on-error={}
 :do { add list=TZ address=2c0f:feb0:1:2::ad0/128 } on-error={}
-:do { add list=TZ address=2c0f:feb0:7::/48 } on-error={}
-:do { add list=TZ address=2c0f:feb0:1b::/48 } on-error={}
-:do { add list=TZ address=2c0f:feb1::/48 } on-error={}
+:do { add list=TZ address=2c0f:feb0:7::/50 } on-error={}
+:do { add list=TZ address=2c0f:feb0:1b::/50 } on-error={}
+:do { add list=TZ address=2c0f:feb1::/50 } on-error={}
 :do { add list=TZ address=2c0f:feb1:2::/64 } on-error={}
 :do { add list=TZ address=2c0f:feb1:5::/64 } on-error={}
 :do { add list=TZ address=2c0f:feb1:c::/64 } on-error={}

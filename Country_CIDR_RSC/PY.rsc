@@ -71,7 +71,6 @@
 :do { add list=PY address=45.170.128.0/22 } on-error={}
 :do { add list=PY address=45.172.228.0/22 } on-error={}
 :do { add list=PY address=45.175.156.0/22 } on-error={}
-:do { add list=PY address=45.176.86.0/23 } on-error={}
 :do { add list=PY address=45.177.16.0/23 } on-error={}
 :do { add list=PY address=45.177.18.0/24 } on-error={}
 :do { add list=PY address=45.177.204.0/22 } on-error={}
@@ -118,11 +117,8 @@
 :do { add list=PY address=45.239.44.0/22 } on-error={}
 :do { add list=PY address=57.74.216.0/22 } on-error={}
 :do { add list=PY address=57.75.64.0/20 } on-error={}
-:do { add list=PY address=64.39.23.152/29 } on-error={}
 :do { add list=PY address=66.102.32.128/26 } on-error={}
-:do { add list=PY address=66.205.19.208/28 } on-error={}
 :do { add list=PY address=66.249.220.0/22 } on-error={}
-:do { add list=PY address=72.32.218.216/29 } on-error={}
 :do { add list=PY address=83.137.198.88/29 } on-error={}
 :do { add list=PY address=83.137.199.88/29 } on-error={}
 :do { add list=PY address=96.126.162.0/23 } on-error={}

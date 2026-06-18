@@ -7,7 +7,11 @@
 :do { add list=RE address=5.57.100.8/30 } on-error={}
 :do { add list=RE address=5.57.100.16/28 } on-error={}
 :do { add list=RE address=5.57.100.32/27 } on-error={}
-:do { add list=RE address=5.57.100.64/27 } on-error={}
+:do { add list=RE address=5.57.100.64/30 } on-error={}
+:do { add list=RE address=5.57.100.69/32 } on-error={}
+:do { add list=RE address=5.57.100.70/31 } on-error={}
+:do { add list=RE address=5.57.100.72/29 } on-error={}
+:do { add list=RE address=5.57.100.80/28 } on-error={}
 :do { add list=RE address=5.57.100.96/28 } on-error={}
 :do { add list=RE address=5.57.100.116/30 } on-error={}
 :do { add list=RE address=5.57.100.120/29 } on-error={}

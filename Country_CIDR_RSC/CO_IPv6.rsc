@@ -1039,7 +1039,8 @@
 :do { add list=CO address=2607:f438:0:4100::/56 } on-error={}
 :do { add list=CO address=2607:f438:0:4200::/63 } on-error={}
 :do { add list=CO address=2607:f6f0:3800::/40 } on-error={}
-:do { add list=CO address=2607:f740:110::/47 } on-error={}
+:do { add list=CO address=2607:f740:110::/50 } on-error={}
+:do { add list=CO address=2607:f740:111::/48 } on-error={}
 :do { add list=CO address=2610:a1:304c::/55 } on-error={}
 :do { add list=CO address=2610:a1:304c:200::/58 } on-error={}
 :do { add list=CO address=2610:a1:304c:240::/60 } on-error={}
@@ -4054,7 +4055,10 @@
 :do { add list=CO address=2803:5c80:5057:8000::/49 } on-error={}
 :do { add list=CO address=2803:5c80:6057:4000::/50 } on-error={}
 :do { add list=CO address=2803:5c80:6057:8000::/49 } on-error={}
-:do { add list=CO address=2803:5ce0:510::/50 } on-error={}
+:do { add list=CO address=2803:5ce0:500::/48 } on-error={}
+:do { add list=CO address=2803:5ce0:506::/48 } on-error={}
+:do { add list=CO address=2803:5ce0:50e::/48 } on-error={}
+:do { add list=CO address=2803:5ce0:510::/48 } on-error={}
 :do { add list=CO address=2803:5d20::/32 } on-error={}
 :do { add list=CO address=2803:5ea0::/32 } on-error={}
 :do { add list=CO address=2803:5ee0::/32 } on-error={}
@@ -4958,7 +4962,8 @@
 :do { add list=CO address=2803:b9c0:6000::/47 } on-error={}
 :do { add list=CO address=2803:b9c0:6010::/45 } on-error={}
 :do { add list=CO address=2803:b9c0:6020::/46 } on-error={}
-:do { add list=CO address=2803:b9c0:6030::/44 } on-error={}
+:do { add list=CO address=2803:b9c0:6030::/47 } on-error={}
+:do { add list=CO address=2803:b9c0:6032::/48 } on-error={}
 :do { add list=CO address=2803:b9c0:6040::/47 } on-error={}
 :do { add list=CO address=2803:b9c0:6050::/44 } on-error={}
 :do { add list=CO address=2803:b9c0:6060::/44 } on-error={}
@@ -5769,10 +5774,7 @@
 :do { add list=CO address=2803:ffe0::/32 } on-error={}
 :do { add list=CO address=2804:490:8600::/48 } on-error={}
 :do { add list=CO address=2804:5330:2:2::/64 } on-error={}
-:do { add list=CO address=2804:5330:2:6::/112 } on-error={}
-:do { add list=CO address=2804:5330:2:6::2:0/127 } on-error={}
-:do { add list=CO address=2804:5330:2:6::2:8/126 } on-error={}
-:do { add list=CO address=2804:5330:2:6::5:0/112 } on-error={}
+:do { add list=CO address=2804:5330:2:6::/64 } on-error={}
 :do { add list=CO address=2804:5330:2:d::/64 } on-error={}
 :do { add list=CO address=2804:5330:402::/50 } on-error={}
 :do { add list=CO address=2804:5330:404::/48 } on-error={}
@@ -6718,8 +6720,6 @@
 :do { add list=CO address=2a0a:6044:fc50::/45 } on-error={}
 :do { add list=CO address=2a0a:6044:fc58::/46 } on-error={}
 :do { add list=CO address=2a0a:6044:fc5c::/47 } on-error={}
-:do { add list=CO address=2a0a:8f40:5:4000::/50 } on-error={}
-:do { add list=CO address=2a0a:8f40:5:8000::/49 } on-error={}
 :do { add list=CO address=2a0a:e9c4::/32 } on-error={}
 :do { add list=CO address=2a0b:3c40:10:8001::/64 } on-error={}
 :do { add list=CO address=2a0b:3c40:10:8002::/63 } on-error={}
@@ -6752,10 +6752,6 @@
 :do { add list=CO address=2a0d:5600:95:4000::/50 } on-error={}
 :do { add list=CO address=2a0d:5600:95:8000::/49 } on-error={}
 :do { add list=CO address=2a0d:9444:2000::/37 } on-error={}
-:do { add list=CO address=2a0e:4207:3000:4000::/50 } on-error={}
-:do { add list=CO address=2a0e:4207:3000:8000::/49 } on-error={}
-:do { add list=CO address=2a0e:4207:3001:4000::/50 } on-error={}
-:do { add list=CO address=2a0e:4207:3001:8000::/49 } on-error={}
 :do { add list=CO address=2a0e:92c0:3::/48 } on-error={}
 :do { add list=CO address=2a0e:97c0:4b31::/48 } on-error={}
 :do { add list=CO address=2a0e:acc0:ac89::/48 } on-error={}
@@ -7938,7 +7934,6 @@
 :do { add list=CO address=2a14:7c5:180::/44 } on-error={}
 :do { add list=CO address=2a14:2d45:3000::/40 } on-error={}
 :do { add list=CO address=2a14:3d05:a000::/36 } on-error={}
-:do { add list=CO address=2a14:67c1:b62f::/48 } on-error={}
 :do { add list=CO address=2a14:67c2:849::/48 } on-error={}
 :do { add list=CO address=2a14:67c2:8a5::/48 } on-error={}
 :do { add list=CO address=2a14:7580:cf30::/48 } on-error={}

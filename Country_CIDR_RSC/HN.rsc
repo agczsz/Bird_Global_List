@@ -92,7 +92,6 @@
 :do { add list=HN address=63.245.79.12/32 } on-error={}
 :do { add list=HN address=63.245.79.136/29 } on-error={}
 :do { add list=HN address=63.246.44.192/26 } on-error={}
-:do { add list=HN address=64.86.145.0/24 } on-error={}
 :do { add list=HN address=65.182.0.0/22 } on-error={}
 :do { add list=HN address=65.182.4.0/23 } on-error={}
 :do { add list=HN address=65.182.6.0/24 } on-error={}
@@ -164,7 +163,6 @@
 :do { add list=HN address=104.28.251.22/32 } on-error={}
 :do { add list=HN address=104.30.161.81/32 } on-error={}
 :do { add list=HN address=104.30.168.40/32 } on-error={}
-:do { add list=HN address=108.163.176.104/29 } on-error={}
 :do { add list=HN address=131.72.208.0/22 } on-error={}
 :do { add list=HN address=131.108.232.0/22 } on-error={}
 :do { add list=HN address=131.161.52.0/22 } on-error={}
@@ -275,7 +273,6 @@
 :do { add list=HN address=172.225.171.0/27 } on-error={}
 :do { add list=HN address=172.226.11.0/28 } on-error={}
 :do { add list=HN address=172.226.78.80/28 } on-error={}
-:do { add list=HN address=174.142.100.184/29 } on-error={}
 :do { add list=HN address=176.52.248.156/30 } on-error={}
 :do { add list=HN address=177.10.184.0/23 } on-error={}
 :do { add list=HN address=177.10.186.0/24 } on-error={}
@@ -336,7 +333,6 @@
 :do { add list=HN address=186.32.240.0/21 } on-error={}
 :do { add list=HN address=186.33.20.0/22 } on-error={}
 :do { add list=HN address=186.96.252.0/22 } on-error={}
-:do { add list=HN address=187.15.127.0/24 } on-error={}
 :do { add list=HN address=187.49.188.0/22 } on-error={}
 :do { add list=HN address=190.4.0.0/20 } on-error={}
 :do { add list=HN address=190.4.16.0/22 } on-error={}
@@ -577,7 +573,6 @@
 :do { add list=HN address=205.211.224.0/24 } on-error={}
 :do { add list=HN address=205.211.247.0/24 } on-error={}
 :do { add list=HN address=205.211.248.0/21 } on-error={}
-:do { add list=HN address=205.214.93.24/29 } on-error={}
 :do { add list=HN address=206.105.116.0/24 } on-error={}
 :do { add list=HN address=206.203.38.0/23 } on-error={}
 :do { add list=HN address=206.203.40.0/21 } on-error={}

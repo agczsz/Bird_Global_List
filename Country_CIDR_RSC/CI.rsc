@@ -82,11 +82,9 @@
 :do { add list=CI address=57.83.128.0/20 } on-error={}
 :do { add list=CI address=62.193.160.0/19 } on-error={}
 :do { add list=CI address=66.102.34.192/26 } on-error={}
-:do { add list=CI address=70.38.75.104/29 } on-error={}
 :do { add list=CI address=80.15.244.0/24 } on-error={}
 :do { add list=CI address=81.22.64.0/19 } on-error={}
 :do { add list=CI address=81.52.186.118/32 } on-error={}
-:do { add list=CI address=82.206.187.0/24 } on-error={}
 :do { add list=CI address=84.254.161.0/24 } on-error={}
 :do { add list=CI address=84.254.177.0/24 } on-error={}
 :do { add list=CI address=85.255.21.192/28 } on-error={}
@@ -263,10 +261,8 @@
 :do { add list=CI address=172.225.120.0/27 } on-error={}
 :do { add list=CI address=172.225.144.64/27 } on-error={}
 :do { add list=CI address=172.225.160.80/28 } on-error={}
-:do { add list=CI address=174.142.142.40/29 } on-error={}
 :do { add list=CI address=179.64.84.0/23 } on-error={}
 :do { add list=CI address=184.25.239.0/24 } on-error={}
-:do { add list=CI address=184.107.200.72/29 } on-error={}
 :do { add list=CI address=185.56.51.0/25 } on-error={}
 :do { add list=CI address=185.56.51.128/26 } on-error={}
 :do { add list=CI address=185.56.51.224/28 } on-error={}
@@ -288,7 +284,6 @@
 :do { add list=CI address=185.199.166.224/30 } on-error={}
 :do { add list=CI address=185.223.180.212/32 } on-error={}
 :do { add list=CI address=187.15.166.0/24 } on-error={}
-:do { add list=CI address=188.164.66.0/27 } on-error={}
 :do { add list=CI address=192.12.110.0/24 } on-error={}
 :do { add list=CI address=192.47.36.0/24 } on-error={}
 :do { add list=CI address=192.51.240.0/24 } on-error={}
@@ -402,7 +397,6 @@
 :do { add list=CI address=197.239.192.0/18 } on-error={}
 :do { add list=CI address=197.242.208.0/20 } on-error={}
 :do { add list=CI address=197.242.224.0/20 } on-error={}
-:do { add list=CI address=198.50.97.120/29 } on-error={}
 :do { add list=CI address=212.115.188.76/30 } on-error={}
 :do { add list=CI address=212.115.189.224/29 } on-error={}
 :do { add list=CI address=212.133.84.20/32 } on-error={}

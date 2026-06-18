@@ -4,10 +4,8 @@
 :do { add list=SS address=41.79.24.0/22 } on-error={}
 :do { add list=SS address=41.79.120.0/22 } on-error={}
 :do { add list=SS address=41.138.248.218/32 } on-error={}
-:do { add list=SS address=41.194.83.0/24 } on-error={}
 :do { add list=SS address=41.222.72.0/22 } on-error={}
 :do { add list=SS address=74.244.83.0/24 } on-error={}
-:do { add list=SS address=80.255.41.16/29 } on-error={}
 :do { add list=SS address=84.254.180.0/24 } on-error={}
 :do { add list=SS address=102.22.232.0/24 } on-error={}
 :do { add list=SS address=102.22.233.0/24 } on-error={}

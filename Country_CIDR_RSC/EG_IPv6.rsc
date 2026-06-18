@@ -2290,7 +2290,6 @@
 :do { add list=EG address=2a14:940::/29 } on-error={}
 :do { add list=EG address=2a14:2d45:4000::/40 } on-error={}
 :do { add list=EG address=2a14:3d05:c000::/36 } on-error={}
-:do { add list=EG address=2a14:67c1:b63f::/48 } on-error={}
 :do { add list=EG address=2a14:67c2:805::/48 } on-error={}
 :do { add list=EG address=2a14:67c2:816::/48 } on-error={}
 :do { add list=EG address=2a14:7580:cf40::/48 } on-error={}

@@ -162,7 +162,6 @@
 :do { add list=TG address=2a13:ef45:cf74::/47 } on-error={}
 :do { add list=TG address=2a14:1c1:e800::/37 } on-error={}
 :do { add list=TG address=2a14:2d45:d700::/40 } on-error={}
-:do { add list=TG address=2a14:67c1:b6d7::/48 } on-error={}
 :do { add list=TG address=2a14:67c2:87d::/48 } on-error={}
 :do { add list=TG address=2a14:7580:cfd8::/48 } on-error={}
 :do { add list=TG address=2a14:7581:b10:dd00::/56 } on-error={}

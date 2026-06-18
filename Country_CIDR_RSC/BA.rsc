@@ -566,6 +566,7 @@
 :do { add list=BA address=196.198.53.0/24 } on-error={}
 :do { add list=BA address=196.199.53.0/24 } on-error={}
 :do { add list=BA address=199.247.33.64/27 } on-error={}
+:do { add list=BA address=200.162.155.0/24 } on-error={}
 :do { add list=BA address=209.162.200.0/24 } on-error={}
 :do { add list=BA address=209.206.22.128/27 } on-error={}
 :do { add list=BA address=209.206.29.48/28 } on-error={}

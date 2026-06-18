@@ -424,7 +424,6 @@
 :do { add list=BY address=2a02:e300:0:216::/64 } on-error={}
 :do { add list=BY address=2a02:e300:0:218::/64 } on-error={}
 :do { add list=BY address=2a02:e300:0:21a::/63 } on-error={}
-:do { add list=BY address=2a02:e300:0:21c::/64 } on-error={}
 :do { add list=BY address=2a02:e300:0:220::/59 } on-error={}
 :do { add list=BY address=2a02:e300:0:240::/58 } on-error={}
 :do { add list=BY address=2a02:e300:0:280::/57 } on-error={}
