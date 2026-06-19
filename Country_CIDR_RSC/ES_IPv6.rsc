@@ -2252,7 +2252,7 @@
 :do { add list=ES address=2001:1be0:1380:400::/54 } on-error={}
 :do { add list=ES address=2001:1be0:1380:800::/53 } on-error={}
 :do { add list=ES address=2001:1be0:1380:1000::/53 } on-error={}
-:do { add list=ES address=2001:1be0:1380:1800::/55 } on-error={}
+:do { add list=ES address=2001:1be0:1380:1800::/54 } on-error={}
 :do { add list=ES address=2001:1be0:1380:8000::/55 } on-error={}
 :do { add list=ES address=2001:1be0:138b::/55 } on-error={}
 :do { add list=ES address=2001:1be0:138b:8100::/56 } on-error={}
@@ -7180,6 +7180,7 @@
 :do { add list=ES address=2a01:3e0:1000:1000::/52 } on-error={}
 :do { add list=ES address=2a01:3e0:1000:2000::/51 } on-error={}
 :do { add list=ES address=2a01:3e0:1900::110/128 } on-error={}
+:do { add list=ES address=2a01:3e0:1900:100::/64 } on-error={}
 :do { add list=ES address=2a01:3e0:1900:200::/55 } on-error={}
 :do { add list=ES address=2a01:3e0:1900:400::/54 } on-error={}
 :do { add list=ES address=2a01:3e0:1900:800::/53 } on-error={}
@@ -13706,7 +13707,7 @@
 :do { add list=ES address=2a0e:1480::/29 } on-error={}
 :do { add list=ES address=2a0e:1900::/29 } on-error={}
 :do { add list=ES address=2a0e:1940::/29 } on-error={}
-:do { add list=ES address=2a0e:1c80:3::/50 } on-error={}
+:do { add list=ES address=2a0e:1c80:3::/48 } on-error={}
 :do { add list=ES address=2a0e:1c80:e::/48 } on-error={}
 :do { add list=ES address=2a0e:1d80:13::/48 } on-error={}
 :do { add list=ES address=2a0e:1f80::/32 } on-error={}
@@ -14037,7 +14038,6 @@
 :do { add list=ES address=2a10:2280::/29 } on-error={}
 :do { add list=ES address=2a10:22c0::/29 } on-error={}
 :do { add list=ES address=2a10:2640::/32 } on-error={}
-:do { add list=ES address=2a10:2f00:12b::/48 } on-error={}
 :do { add list=ES address=2a10:2f00:190::/48 } on-error={}
 :do { add list=ES address=2a10:3205::/32 } on-error={}
 :do { add list=ES address=2a10:3700::/29 } on-error={}

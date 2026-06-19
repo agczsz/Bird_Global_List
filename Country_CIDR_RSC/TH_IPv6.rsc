@@ -3035,6 +3035,7 @@
 :do { add list=TH address=2405:2000:ffe2::/47 } on-error={}
 :do { add list=TH address=2405:2000:ffe4::/46 } on-error={}
 :do { add list=TH address=2405:2000:ffe8::/45 } on-error={}
+:do { add list=TH address=2405:204e:400::/64 } on-error={}
 :do { add list=TH address=2405:2500::/46 } on-error={}
 :do { add list=TH address=2405:2500:4::/48 } on-error={}
 :do { add list=TH address=2405:2500:5::/48 } on-error={}

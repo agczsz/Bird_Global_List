@@ -215,7 +215,6 @@
 :do { add list=LT address=2001:7f8:c4::/48 } on-error={}
 :do { add list=LT address=2001:978:2:91::/64 } on-error={}
 :do { add list=LT address=2001:ad0:c18::/64 } on-error={}
-:do { add list=LT address=2001:ad0:cfe:0:212:47:201:34/128 } on-error={}
 :do { add list=LT address=2001:ad0:cfe:0:212:47:201:38/128 } on-error={}
 :do { add list=LT address=2001:ad0:cfe:0:212:47:201:71/128 } on-error={}
 :do { add list=LT address=2001:ad0:cfe:0:212:47:201:73/128 } on-error={}
@@ -1574,6 +1573,8 @@
 :do { add list=LT address=2a00:f503:8000::/33 } on-error={}
 :do { add list=LT address=2a00:f504::/30 } on-error={}
 :do { add list=LT address=2a01:528:5600::/40 } on-error={}
+:do { add list=LT address=2a01:6f0:201::/48 } on-error={}
+:do { add list=LT address=2a01:6f0:2ff::/48 } on-error={}
 :do { add list=LT address=2a01:41a0::/32 } on-error={}
 :do { add list=LT address=2a01:7220::/32 } on-error={}
 :do { add list=LT address=2a01:7c80::/33 } on-error={}

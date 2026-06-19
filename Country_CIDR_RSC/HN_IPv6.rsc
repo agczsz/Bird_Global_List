@@ -267,13 +267,14 @@
 :do { add list=HN address=2803:4600:1012:c000::/50 } on-error={}
 :do { add list=HN address=2803:4600:1014:a400::/56 } on-error={}
 :do { add list=HN address=2803:4600:1014:b8d9::/64 } on-error={}
-:do { add list=HN address=2803:4600:1015:8800::/56 } on-error={}
 :do { add list=HN address=2803:4600:1015:b500::/56 } on-error={}
 :do { add list=HN address=2803:4600:1016:2d00::/56 } on-error={}
 :do { add list=HN address=2803:4600:1016:7b00::/56 } on-error={}
 :do { add list=HN address=2803:4600:1016:c600::/56 } on-error={}
+:do { add list=HN address=2803:4600:1017:d200::/56 } on-error={}
 :do { add list=HN address=2803:4600:1018:7900::/56 } on-error={}
 :do { add list=HN address=2803:4600:1018:eb00::/56 } on-error={}
+:do { add list=HN address=2803:4600:1019:5000::/52 } on-error={}
 :do { add list=HN address=2803:4600:101b:a00::/56 } on-error={}
 :do { add list=HN address=2803:4600:101b:7200::/56 } on-error={}
 :do { add list=HN address=2803:4600:101c:a800::/56 } on-error={}

@@ -1,6 +1,5 @@
 /log info "Loading AL IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=AL address=2001:2f8:fff0:15::2/128 } on-error={}
 :do { add list=AL address=2001:470:0:360::/64 } on-error={}
 :do { add list=AL address=2001:470:0:45a::2/128 } on-error={}
 :do { add list=AL address=2001:470:0:53c::2/128 } on-error={}
@@ -1498,7 +1497,6 @@
 :do { add list=AL address=2a0d:42c0::/29 } on-error={}
 :do { add list=AL address=2a0d:4940::/29 } on-error={}
 :do { add list=AL address=2a0d:4a40::/29 } on-error={}
-:do { add list=AL address=2a0d:5600:269::/48 } on-error={}
 :do { add list=AL address=2a0d:9446:e800::/37 } on-error={}
 :do { add list=AL address=2a0d:ab40::/32 } on-error={}
 :do { add list=AL address=2a0d:cc00::/29 } on-error={}
@@ -3861,7 +3859,7 @@
 :do { add list=AL address=2a14:7583:400::/39 } on-error={}
 :do { add list=AL address=2a14:7583:600::/40 } on-error={}
 :do { add list=AL address=2a14:7583:5000::/37 } on-error={}
-:do { add list=AL address=2a14:7583:5800::/39 } on-error={}
+:do { add list=AL address=2a14:7583:5800::/40 } on-error={}
 :do { add list=AL address=2a14:7583:5d00::/40 } on-error={}
 :do { add list=AL address=2a14:7583:a1f8::/45 } on-error={}
 :do { add list=AL address=2a14:7583:a800:4000::/50 } on-error={}

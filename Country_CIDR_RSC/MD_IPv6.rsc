@@ -699,7 +699,6 @@
 :do { add list=MD address=2a0d:5600:97:4000::/50 } on-error={}
 :do { add list=MD address=2a0d:5600:97:8000::/49 } on-error={}
 :do { add list=MD address=2a0d:9445:b000::/37 } on-error={}
-:do { add list=MD address=2a0d:d940:90a6::/48 } on-error={}
 :do { add list=MD address=2a0e:5180::/29 } on-error={}
 :do { add list=MD address=2a0e:ac40::/29 } on-error={}
 :do { add list=MD address=2a0e:acc0:ac36::/48 } on-error={}

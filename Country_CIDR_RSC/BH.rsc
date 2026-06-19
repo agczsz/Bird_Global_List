@@ -65,6 +65,7 @@
 :do { add list=BH address=57.88.32.0/20 } on-error={}
 :do { add list=BH address=57.98.96.0/21 } on-error={}
 :do { add list=BH address=57.98.108.0/22 } on-error={}
+:do { add list=BH address=57.190.1.14/32 } on-error={}
 :do { add list=BH address=62.209.0.0/19 } on-error={}
 :do { add list=BH address=62.216.134.129/32 } on-error={}
 :do { add list=BH address=62.216.155.58/31 } on-error={}

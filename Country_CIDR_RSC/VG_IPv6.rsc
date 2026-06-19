@@ -4,6 +4,7 @@
 :do { add list=VG address=2001:470:1f17:336::/64 } on-error={}
 :do { add list=VG address=2001:470:1f27:46::/64 } on-error={}
 :do { add list=VG address=2001:470:3259::/48 } on-error={}
+:do { add list=VG address=2001:470:88ce::/48 } on-error={}
 :do { add list=VG address=2001:470:e964::/48 } on-error={}
 :do { add list=VG address=2001:470:ee7f::/48 } on-error={}
 :do { add list=VG address=2001:470:f4df::/48 } on-error={}

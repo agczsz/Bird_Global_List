@@ -1,6 +1,5 @@
 /log info "Loading GU IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=GU address=2001:2f8:ffdf:55::/64 } on-error={}
 :do { add list=GU address=2001:388:cf85::/50 } on-error={}
 :do { add list=GU address=2001:470:0:49d::/64 } on-error={}
 :do { add list=GU address=2001:470:0:49e::2/128 } on-error={}

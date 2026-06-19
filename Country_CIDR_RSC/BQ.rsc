@@ -2,7 +2,6 @@
 /ip firewall address-list
 :do { add list=BQ address=65.208.123.77/32 } on-error={}
 :do { add list=BQ address=65.208.123.115/32 } on-error={}
-:do { add list=BQ address=65.208.123.125/32 } on-error={}
 :do { add list=BQ address=69.79.121.0/24 } on-error={}
 :do { add list=BQ address=69.79.122.0/24 } on-error={}
 :do { add list=BQ address=104.28.8.137/32 } on-error={}
@@ -18,9 +17,6 @@
 :do { add list=BQ address=104.28.236.136/32 } on-error={}
 :do { add list=BQ address=136.23.22.51/32 } on-error={}
 :do { add list=BQ address=136.23.26.35/32 } on-error={}
-:do { add list=BQ address=138.99.212.54/32 } on-error={}
-:do { add list=BQ address=138.99.212.171/32 } on-error={}
-:do { add list=BQ address=138.99.212.197/32 } on-error={}
 :do { add list=BQ address=138.99.214.85/32 } on-error={}
 :do { add list=BQ address=138.99.215.160/28 } on-error={}
 :do { add list=BQ address=140.248.4.6/31 } on-error={}
