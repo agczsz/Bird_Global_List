@@ -1,5 +1,6 @@
 /log info "Loading NI IPv4 Address List"
 /ip firewall address-list
+:do { add list=NI address=4.59.88.98/32 } on-error={}
 :do { add list=NI address=5.62.56.148/30 } on-error={}
 :do { add list=NI address=5.62.58.140/30 } on-error={}
 :do { add list=NI address=8.243.238.184/31 } on-error={}
@@ -30,6 +31,7 @@
 :do { add list=NI address=69.167.93.48/29 } on-error={}
 :do { add list=NI address=70.35.150.192/26 } on-error={}
 :do { add list=NI address=75.104.111.150/32 } on-error={}
+:do { add list=NI address=94.142.116.94/32 } on-error={}
 :do { add list=NI address=98.97.50.0/23 } on-error={}
 :do { add list=NI address=104.28.12.27/32 } on-error={}
 :do { add list=NI address=104.28.12.28/31 } on-error={}

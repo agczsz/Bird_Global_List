@@ -1,7 +1,16 @@
 /log info "Loading MH IPv4 Address List"
 /ip firewall address-list
 :do { add list=MH address=23.181.56.0/24 } on-error={}
-:do { add list=MH address=31.76.108.3/32 } on-error={}
+:do { add list=MH address=31.76.108.0/25 } on-error={}
+:do { add list=MH address=31.76.108.128/26 } on-error={}
+:do { add list=MH address=31.76.108.192/27 } on-error={}
+:do { add list=MH address=31.76.108.224/29 } on-error={}
+:do { add list=MH address=31.76.108.232/30 } on-error={}
+:do { add list=MH address=31.76.108.236/31 } on-error={}
+:do { add list=MH address=31.76.108.238/32 } on-error={}
+:do { add list=MH address=31.76.108.243/32 } on-error={}
+:do { add list=MH address=31.76.108.244/30 } on-error={}
+:do { add list=MH address=31.76.108.248/29 } on-error={}
 :do { add list=MH address=45.12.71.0/24 } on-error={}
 :do { add list=MH address=45.254.247.0/26 } on-error={}
 :do { add list=MH address=45.254.247.96/28 } on-error={}

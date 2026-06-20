@@ -11,6 +11,7 @@
 :do { add list=ML address=66.102.47.192/26 } on-error={}
 :do { add list=ML address=74.244.86.0/23 } on-error={}
 :do { add list=ML address=80.15.246.0/24 } on-error={}
+:do { add list=ML address=81.192.254.118/32 } on-error={}
 :do { add list=ML address=85.255.21.112/28 } on-error={}
 :do { add list=ML address=96.62.2.0/24 } on-error={}
 :do { add list=ML address=102.68.176.0/22 } on-error={}

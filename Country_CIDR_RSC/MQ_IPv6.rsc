@@ -140,8 +140,7 @@
 :do { add list=MQ address=2a01:cde0:8109:8000::/49 } on-error={}
 :do { add list=MQ address=2a01:cde0:810a:400::/54 } on-error={}
 :do { add list=MQ address=2a01:cde0:810a:800::/53 } on-error={}
-:do { add list=MQ address=2a01:cde0:810a:1000::/54 } on-error={}
-:do { add list=MQ address=2a01:cde0:810a:1800::/53 } on-error={}
+:do { add list=MQ address=2a01:cde0:810a:1000::/52 } on-error={}
 :do { add list=MQ address=2a01:cde0:810a:2000::/51 } on-error={}
 :do { add list=MQ address=2a01:cde0:810a:4000::/50 } on-error={}
 :do { add list=MQ address=2a01:cde0:810a:8000::/49 } on-error={}

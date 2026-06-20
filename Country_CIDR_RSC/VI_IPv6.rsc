@@ -233,8 +233,7 @@
 :do { add list=VI address=2a14:7584:e8ff:1c::/64 } on-error={}
 :do { add list=VI address=2a14:7584:e910::/44 } on-error={}
 :do { add list=VI address=2a14:7584:e9f0::/44 } on-error={}
-:do { add list=VI address=2a14:7584:ea00::/40 } on-error={}
-:do { add list=VI address=2a14:7584:eb00::/40 } on-error={}
+:do { add list=VI address=2a14:7584:ea00::/39 } on-error={}
 :do { add list=VI address=2a14:7585:f128::/48 } on-error={}
 :do { add list=VI address=2a14:c380:27::/48 } on-error={}
 :do { add list=VI address=2a14:c380:28::/48 } on-error={}

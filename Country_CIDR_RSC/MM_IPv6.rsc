@@ -61,7 +61,6 @@
 :do { add list=MM address=2001:df1:f0c0::/48 } on-error={}
 :do { add list=MM address=2001:df2:b80::/48 } on-error={}
 :do { add list=MM address=2001:df2:1a40::/48 } on-error={}
-:do { add list=MM address=2001:df2:2840::/48 } on-error={}
 :do { add list=MM address=2001:df2:4e80::/48 } on-error={}
 :do { add list=MM address=2001:df2:50c0::/48 } on-error={}
 :do { add list=MM address=2001:df2:5fc0::/48 } on-error={}

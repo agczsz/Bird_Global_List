@@ -2,6 +2,7 @@
 /ipv6 firewall address-list
 :do { add list=MK address=2001:470:0:648::/64 } on-error={}
 :do { add list=MK address=2001:470:0:728::/64 } on-error={}
+:do { add list=MK address=2001:470:11:a::2/128 } on-error={}
 :do { add list=MK address=2001:470:6f:397::/64 } on-error={}
 :do { add list=MK address=2001:470:6f:685::/64 } on-error={}
 :do { add list=MK address=2001:470:1f0::/64 } on-error={}
@@ -15,19 +16,15 @@
 :do { add list=MK address=2001:550:0:1000::8275:3325/128 } on-error={}
 :do { add list=MK address=2001:550:0:1000::9a19:181/128 } on-error={}
 :do { add list=MK address=2001:550:0:1000::9a19:182/128 } on-error={}
-:do { add list=MK address=2001:550:0:1000::9a19:199/128 } on-error={}
+:do { add list=MK address=2001:550:0:1000::9a19:19a/128 } on-error={}
 :do { add list=MK address=2001:550:0:1000::9a19:3f9/128 } on-error={}
-:do { add list=MK address=2001:550:0:1000::9a19:3fa/128 } on-error={}
 :do { add list=MK address=2001:550:0:1000::9a19:579/128 } on-error={}
-:do { add list=MK address=2001:550:0:1000::9a19:57a/128 } on-error={}
-:do { add list=MK address=2001:550:0:1000::9a19:58a/128 } on-error={}
+:do { add list=MK address=2001:550:0:1000::9a19:589/128 } on-error={}
 :do { add list=MK address=2001:550:0:1000::9a19:60a/128 } on-error={}
 :do { add list=MK address=2001:550:0:1000::9a19:6f9/128 } on-error={}
-:do { add list=MK address=2001:550:0:1000::9a19:6fa/128 } on-error={}
 :do { add list=MK address=2001:550:0:1000::9a19:6fd/128 } on-error={}
 :do { add list=MK address=2001:550:0:1000::9a19:6fe/128 } on-error={}
 :do { add list=MK address=2001:550:0:1000::9a36:2755/128 } on-error={}
-:do { add list=MK address=2001:550:0:1000::9a36:278a/128 } on-error={}
 :do { add list=MK address=2001:550:0:1000::9a36:3806/128 } on-error={}
 :do { add list=MK address=2001:550:0:1000::9a36:3b4d/128 } on-error={}
 :do { add list=MK address=2001:550:0:1000::9a36:3b4e/128 } on-error={}
@@ -35,7 +32,6 @@
 :do { add list=MK address=2001:550:0:1000::9a36:3b7e/128 } on-error={}
 :do { add list=MK address=2001:550:0:1000::9a36:3c1d/128 } on-error={}
 :do { add list=MK address=2001:550:0:1000::9a36:3c21/128 } on-error={}
-:do { add list=MK address=2001:550:0:1000::9a36:3c26/128 } on-error={}
 :do { add list=MK address=2001:550:0:1000::9a36:3c2a/128 } on-error={}
 :do { add list=MK address=2001:550:0:1000::9a36:3c35/128 } on-error={}
 :do { add list=MK address=2001:668:1f:fe60::/64 } on-error={}
@@ -218,6 +214,10 @@
 :do { add list=MK address=2a0a:6044:f618::/46 } on-error={}
 :do { add list=MK address=2a0a:6044:f61c::/47 } on-error={}
 :do { add list=MK address=2a0a:6044:f61e::/48 } on-error={}
+:do { add list=MK address=2a0a:9607:a000:4000::/50 } on-error={}
+:do { add list=MK address=2a0a:9607:a000:8000::/49 } on-error={}
+:do { add list=MK address=2a0a:9607:a001:4000::/50 } on-error={}
+:do { add list=MK address=2a0a:9607:a001:8000::/49 } on-error={}
 :do { add list=MK address=2a0a:b140::/32 } on-error={}
 :do { add list=MK address=2a0a:f7c0::/29 } on-error={}
 :do { add list=MK address=2a0b:4e07:3:8070::/60 } on-error={}

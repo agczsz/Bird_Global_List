@@ -3,6 +3,7 @@
 :do { add list=CI address=5.62.60.105/32 } on-error={}
 :do { add list=CI address=5.62.60.106/31 } on-error={}
 :do { add list=CI address=5.62.62.100/30 } on-error={}
+:do { add list=CI address=38.230.128.0/17 } on-error={}
 :do { add list=CI address=41.66.0.0/18 } on-error={}
 :do { add list=CI address=41.67.64.0/20 } on-error={}
 :do { add list=CI address=41.67.88.0/21 } on-error={}
@@ -37,6 +38,7 @@
 :do { add list=CI address=41.84.160.0/19 } on-error={}
 :do { add list=CI address=41.87.32.0/19 } on-error={}
 :do { add list=CI address=41.139.64.0/18 } on-error={}
+:do { add list=CI address=41.181.246.178/32 } on-error={}
 :do { add list=CI address=41.189.32.0/19 } on-error={}
 :do { add list=CI address=41.189.96.0/19 } on-error={}
 :do { add list=CI address=41.189.128.0/19 } on-error={}
@@ -58,6 +60,7 @@
 :do { add list=CI address=41.207.0.0/19 } on-error={}
 :do { add list=CI address=41.207.192.0/19 } on-error={}
 :do { add list=CI address=41.207.224.0/22 } on-error={}
+:do { add list=CI address=41.208.29.199/32 } on-error={}
 :do { add list=CI address=41.209.128.0/18 } on-error={}
 :do { add list=CI address=41.211.192.0/18 } on-error={}
 :do { add list=CI address=41.215.192.0/20 } on-error={}
@@ -85,6 +88,7 @@
 :do { add list=CI address=80.15.244.0/24 } on-error={}
 :do { add list=CI address=81.22.64.0/19 } on-error={}
 :do { add list=CI address=81.52.186.118/32 } on-error={}
+:do { add list=CI address=81.192.254.162/32 } on-error={}
 :do { add list=CI address=84.254.161.0/24 } on-error={}
 :do { add list=CI address=84.254.177.0/24 } on-error={}
 :do { add list=CI address=85.255.21.192/28 } on-error={}
@@ -298,6 +302,8 @@
 :do { add list=CI address=193.251.144.28/30 } on-error={}
 :do { add list=CI address=193.251.240.66/32 } on-error={}
 :do { add list=CI address=193.251.245.186/32 } on-error={}
+:do { add list=CI address=195.22.209.175/32 } on-error={}
+:do { add list=CI address=195.89.99.178/32 } on-error={}
 :do { add list=CI address=195.166.224.0/19 } on-error={}
 :do { add list=CI address=195.219.129.44/32 } on-error={}
 :do { add list=CI address=196.1.119.0/24 } on-error={}
@@ -401,4 +407,5 @@
 :do { add list=CI address=212.115.189.224/29 } on-error={}
 :do { add list=CI address=212.133.84.20/32 } on-error={}
 :do { add list=CI address=213.136.96.0/19 } on-error={}
+:do { add list=CI address=213.144.168.151/32 } on-error={}
 :do { add list=CI address=213.156.254.6/32 } on-error={}

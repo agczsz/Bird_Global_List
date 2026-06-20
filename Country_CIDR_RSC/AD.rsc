@@ -64,8 +64,10 @@
 :do { add list=AD address=57.79.240.0/21 } on-error={}
 :do { add list=AD address=69.84.202.128/26 } on-error={}
 :do { add list=AD address=69.91.172.0/24 } on-error={}
+:do { add list=AD address=75.125.118.0/24 } on-error={}
 :do { add list=AD address=80.80.84.0/22 } on-error={}
 :do { add list=AD address=80.80.92.0/22 } on-error={}
+:do { add list=AD address=81.52.179.66/32 } on-error={}
 :do { add list=AD address=82.38.43.240/28 } on-error={}
 :do { add list=AD address=85.94.160.0/19 } on-error={}
 :do { add list=AD address=89.150.2.0/23 } on-error={}

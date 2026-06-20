@@ -120,6 +120,7 @@
 :do { add list=MG address=2620:0:1cff:dead:bef1:100:2:13d/128 } on-error={}
 :do { add list=MG address=2620:0:1cff:dead:bef1:100:2:483/128 } on-error={}
 :do { add list=MG address=2620:0:1cff:dead:bef1:100:2:487/128 } on-error={}
+:do { add list=MG address=2620:0:1cff:dead:bef1:100:2:5d7/128 } on-error={}
 :do { add list=MG address=2620:0:1cff:dead:bef1:100:3:481/128 } on-error={}
 :do { add list=MG address=2620:0:1cff:dead:bef1:100:4:461/128 } on-error={}
 :do { add list=MG address=2620:0:1cff:dead:bef1:100:12:45d/128 } on-error={}

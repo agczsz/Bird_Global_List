@@ -23,6 +23,12 @@
 :do { add list=DZ address=2001:470:f895::/48 } on-error={}
 :do { add list=DZ address=2001:470:ffdf::/48 } on-error={}
 :do { add list=DZ address=2001:67c:a38:f213::/64 } on-error={}
+:do { add list=DZ address=2001:918:100:d::/64 } on-error={}
+:do { add list=DZ address=2001:918:100:18::/64 } on-error={}
+:do { add list=DZ address=2001:918:100:29::/64 } on-error={}
+:do { add list=DZ address=2001:918:100:2c::/63 } on-error={}
+:do { add list=DZ address=2001:918:100:34::/62 } on-error={}
+:do { add list=DZ address=2001:918:107::/64 } on-error={}
 :do { add list=DZ address=2001:1b10:1003::/48 } on-error={}
 :do { add list=DZ address=2001:4340::/32 } on-error={}
 :do { add list=DZ address=2001:4860:7:201::/64 } on-error={}
@@ -230,6 +236,10 @@
 :do { add list=DZ address=2a0a:6044:f910::/47 } on-error={}
 :do { add list=DZ address=2a0a:8f40:13::/48 } on-error={}
 :do { add list=DZ address=2a0a:8f40:3c::/48 } on-error={}
+:do { add list=DZ address=2a0a:be00:0:4000::/50 } on-error={}
+:do { add list=DZ address=2a0a:be00:0:8000::/49 } on-error={}
+:do { add list=DZ address=2a0a:be00:1:4000::/50 } on-error={}
+:do { add list=DZ address=2a0a:be00:1:8000::/49 } on-error={}
 :do { add list=DZ address=2a0b:4e07:3:120::/60 } on-error={}
 :do { add list=DZ address=2a0c:9a40:95b0:3000::/52 } on-error={}
 :do { add list=DZ address=2a0c:9a46:33e::/48 } on-error={}

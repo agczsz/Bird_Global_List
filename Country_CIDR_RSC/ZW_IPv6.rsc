@@ -54,6 +54,7 @@
 :do { add list=ZW address=2620:0:876:9700::/56 } on-error={}
 :do { add list=ZW address=2a00:ca0:2004:1000::/52 } on-error={}
 :do { add list=ZW address=2a00:ca0:202c::/50 } on-error={}
+:do { add list=ZW address=2a01:410:1::1/128 } on-error={}
 :do { add list=ZW address=2a01:410:1::8/126 } on-error={}
 :do { add list=ZW address=2a01:410:1::f/128 } on-error={}
 :do { add list=ZW address=2a01:410:1::10/124 } on-error={}
@@ -120,7 +121,6 @@
 :do { add list=ZW address=2a01:410:1:1::88/125 } on-error={}
 :do { add list=ZW address=2a01:410:1:1::90/124 } on-error={}
 :do { add list=ZW address=2a01:410:1:1::c1/128 } on-error={}
-:do { add list=ZW address=2a01:410:1:1::c2/128 } on-error={}
 :do { add list=ZW address=2a01:410:1:1::e6/128 } on-error={}
 :do { add list=ZW address=2a01:410:1:1::ea/128 } on-error={}
 :do { add list=ZW address=2a01:410:1:1::100/125 } on-error={}
@@ -145,7 +145,7 @@
 :do { add list=ZW address=2a01:410:1:1::1da/127 } on-error={}
 :do { add list=ZW address=2a01:410:1:1::1e0/125 } on-error={}
 :do { add list=ZW address=2a01:410:1:1::1ea/128 } on-error={}
-:do { add list=ZW address=2a01:410:1:1::1f4/127 } on-error={}
+:do { add list=ZW address=2a01:410:1:1::1f5/128 } on-error={}
 :do { add list=ZW address=2a01:410:1:1::1f6/128 } on-error={}
 :do { add list=ZW address=2a01:410:1:1::1f8/128 } on-error={}
 :do { add list=ZW address=2a01:410:1:1::1fc/128 } on-error={}

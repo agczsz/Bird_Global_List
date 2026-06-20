@@ -205,6 +205,10 @@
 :do { add list=CU address=2a11:29c0:3d88:fd04::/64 } on-error={}
 :do { add list=CU address=2a11:a580:2800::/40 } on-error={}
 :do { add list=CU address=2a11:a682:2000::/36 } on-error={}
+:do { add list=CU address=2a11:f887:4000:4000::/50 } on-error={}
+:do { add list=CU address=2a11:f887:4000:8000::/49 } on-error={}
+:do { add list=CU address=2a11:f887:4001:4000::/50 } on-error={}
+:do { add list=CU address=2a11:f887:4001:8000::/49 } on-error={}
 :do { add list=CU address=2a12:bec0:682::/48 } on-error={}
 :do { add list=CU address=2a12:ef86:d000::/36 } on-error={}
 :do { add list=CU address=2a12:f381:b000::/40 } on-error={}

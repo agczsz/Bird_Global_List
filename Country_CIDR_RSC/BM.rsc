@@ -1,5 +1,6 @@
 /log info "Loading BM IPv4 Address List"
 /ip firewall address-list
+:do { add list=BM address=4.43.114.8/29 } on-error={}
 :do { add list=BM address=5.62.56.36/30 } on-error={}
 :do { add list=BM address=5.62.58.36/30 } on-error={}
 :do { add list=BM address=45.15.177.60/30 } on-error={}
@@ -16,6 +17,19 @@
 :do { add list=BM address=64.89.169.0/24 } on-error={}
 :do { add list=BM address=64.89.170.0/23 } on-error={}
 :do { add list=BM address=64.147.80.0/20 } on-error={}
+:do { add list=BM address=65.171.98.0/25 } on-error={}
+:do { add list=BM address=65.171.98.136/29 } on-error={}
+:do { add list=BM address=65.171.98.144/28 } on-error={}
+:do { add list=BM address=65.171.98.162/31 } on-error={}
+:do { add list=BM address=65.171.98.164/30 } on-error={}
+:do { add list=BM address=65.171.98.168/29 } on-error={}
+:do { add list=BM address=65.171.98.176/28 } on-error={}
+:do { add list=BM address=65.171.98.192/29 } on-error={}
+:do { add list=BM address=65.171.98.202/31 } on-error={}
+:do { add list=BM address=65.171.98.204/30 } on-error={}
+:do { add list=BM address=65.171.98.208/28 } on-error={}
+:do { add list=BM address=65.171.98.224/27 } on-error={}
+:do { add list=BM address=65.171.99.0/24 } on-error={}
 :do { add list=BM address=66.55.112.0/20 } on-error={}
 :do { add list=BM address=66.97.172.0/23 } on-error={}
 :do { add list=BM address=69.17.192.0/21 } on-error={}

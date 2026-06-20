@@ -12,10 +12,11 @@
 :do { add list=PA address=2001:470:d816::/48 } on-error={}
 :do { add list=PA address=2001:470:d8c8::/48 } on-error={}
 :do { add list=PA address=2001:470:ef1e::/48 } on-error={}
-:do { add list=PA address=2001:550:0:1000::261c:1425/128 } on-error={}
-:do { add list=PA address=2001:550:0:1000::9a36:a242/128 } on-error={}
 :do { add list=PA address=2001:550:2:19::118:0/112 } on-error={}
 :do { add list=PA address=2001:67c:a38:f507::/64 } on-error={}
+:do { add list=PA address=2001:1348::14/128 } on-error={}
+:do { add list=PA address=2001:1348::24/128 } on-error={}
+:do { add list=PA address=2001:1348:1:7::57/128 } on-error={}
 :do { add list=PA address=2001:13b3:4000::/34 } on-error={}
 :do { add list=PA address=2001:13b4:1400::/64 } on-error={}
 :do { add list=PA address=2001:13b4:1800:4::4/128 } on-error={}
@@ -143,8 +144,7 @@
 :do { add list=PA address=2607:f438:0:1002:63:245:90:195/128 } on-error={}
 :do { add list=PA address=2607:f438:0:1011:67:230:101:45/128 } on-error={}
 :do { add list=PA address=2607:f438:0:1012:69:79:101:55/128 } on-error={}
-:do { add list=PA address=2607:f438:0:3403:190:242:140:124/127 } on-error={}
-:do { add list=PA address=2607:f438:0:3403:190:242:140:127/128 } on-error={}
+:do { add list=PA address=2607:f438:0:3403:190:242:140:124/126 } on-error={}
 :do { add list=PA address=2607:f438:0:3403:190:242:140:150/126 } on-error={}
 :do { add list=PA address=2620:171:c6::/48 } on-error={}
 :do { add list=PA address=2800:140:1::/48 } on-error={}
@@ -1692,6 +1692,10 @@
 :do { add list=PA address=2a11:29c0:3d88:fcd8::/64 } on-error={}
 :do { add list=PA address=2a11:a580:6300::/40 } on-error={}
 :do { add list=PA address=2a11:a687:c000::/36 } on-error={}
+:do { add list=PA address=2a11:f887:9000:4000::/50 } on-error={}
+:do { add list=PA address=2a11:f887:9000:8000::/49 } on-error={}
+:do { add list=PA address=2a11:f887:9001:4000::/50 } on-error={}
+:do { add list=PA address=2a11:f887:9001:8000::/49 } on-error={}
 :do { add list=PA address=2a12:f003:b000::/36 } on-error={}
 :do { add list=PA address=2a12:f381:3100::/40 } on-error={}
 :do { add list=PA address=2a12:f382:3100::/40 } on-error={}

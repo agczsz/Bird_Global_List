@@ -1,10 +1,6 @@
 /log info "Loading AG IPv4 Address List"
 /ip firewall address-list
-:do { add list=AG address=2.153.0.0/17 } on-error={}
-:do { add list=AG address=2.153.128.0/18 } on-error={}
-:do { add list=AG address=2.153.192.0/19 } on-error={}
-:do { add list=AG address=2.153.224.0/20 } on-error={}
-:do { add list=AG address=2.153.240.0/21 } on-error={}
+:do { add list=AG address=2.153.0.0/16 } on-error={}
 :do { add list=AG address=5.62.56.12/30 } on-error={}
 :do { add list=AG address=5.62.58.12/30 } on-error={}
 :do { add list=AG address=23.132.144.0/24 } on-error={}
