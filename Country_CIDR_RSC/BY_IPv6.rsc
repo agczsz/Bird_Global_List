@@ -9,6 +9,7 @@
 :do { add list=BY address=2001:470:28:c1d::/64 } on-error={}
 :do { add list=BY address=2001:470:28:d03::/64 } on-error={}
 :do { add list=BY address=2001:470:28:10e4::/64 } on-error={}
+:do { add list=BY address=2001:470:28:10f1::/64 } on-error={}
 :do { add list=BY address=2001:470:36:1ec::/64 } on-error={}
 :do { add list=BY address=2001:470:36:885::/64 } on-error={}
 :do { add list=BY address=2001:470:6d:62a::/64 } on-error={}

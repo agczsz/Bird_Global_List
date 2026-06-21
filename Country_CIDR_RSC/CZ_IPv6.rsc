@@ -944,6 +944,7 @@
 :do { add list=CZ address=2001:470:59fc::/48 } on-error={}
 :do { add list=CZ address=2001:470:5a01::/48 } on-error={}
 :do { add list=CZ address=2001:470:5a02::/48 } on-error={}
+:do { add list=CZ address=2001:470:5a08::/48 } on-error={}
 :do { add list=CZ address=2001:470:5a0a::/48 } on-error={}
 :do { add list=CZ address=2001:470:5a0c::/48 } on-error={}
 :do { add list=CZ address=2001:470:5a11::/48 } on-error={}

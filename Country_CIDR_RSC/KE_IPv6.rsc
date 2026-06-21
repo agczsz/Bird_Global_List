@@ -994,7 +994,6 @@
 :do { add list=KE address=2a0c:9a46:3fe:72::/64 } on-error={}
 :do { add list=KE address=2a0d:9441:7800::/37 } on-error={}
 :do { add list=KE address=2a0e:8f01:1000:95::/64 } on-error={}
-:do { add list=KE address=2a0f:f47:6000::/47 } on-error={}
 :do { add list=KE address=2a0f:1cc5:b10:7300::/56 } on-error={}
 :do { add list=KE address=2a0f:1cc5:b11:7300::/56 } on-error={}
 :do { add list=KE address=2a0f:1cc5:b12:7300::/56 } on-error={}

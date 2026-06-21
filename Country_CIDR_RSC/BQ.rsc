@@ -1,5 +1,6 @@
 /log info "Loading BQ IPv4 Address List"
 /ip firewall address-list
+:do { add list=BQ address=65.208.123.73/32 } on-error={}
 :do { add list=BQ address=65.208.123.77/32 } on-error={}
 :do { add list=BQ address=65.208.123.82/32 } on-error={}
 :do { add list=BQ address=65.208.123.115/32 } on-error={}

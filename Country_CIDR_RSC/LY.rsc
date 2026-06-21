@@ -122,7 +122,9 @@
 :do { add list=LY address=102.221.56.0/22 } on-error={}
 :do { add list=LY address=102.221.224.0/22 } on-error={}
 :do { add list=LY address=102.222.252.0/23 } on-error={}
-:do { add list=LY address=102.223.156.0/22 } on-error={}
+:do { add list=LY address=102.223.156.0/23 } on-error={}
+:do { add list=LY address=102.223.158.0/24 } on-error={}
+:do { add list=LY address=102.223.159.0/24 } on-error={}
 :do { add list=LY address=104.28.11.189/32 } on-error={}
 :do { add list=LY address=104.28.11.190/31 } on-error={}
 :do { add list=LY address=104.28.34.71/32 } on-error={}

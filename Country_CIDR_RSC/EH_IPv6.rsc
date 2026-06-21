@@ -4,10 +4,7 @@
 :do { add list=EH address=2001:470:54a6::/48 } on-error={}
 :do { add list=EH address=2001:470:73f9::/48 } on-error={}
 :do { add list=EH address=2001:470:f1ef::/48 } on-error={}
-:do { add list=EH address=2001:470:f986::/48 } on-error={}
 :do { add list=EH address=2001:470:fbed::/48 } on-error={}
-:do { add list=EH address=2001:470:fdbc:4000::/50 } on-error={}
-:do { add list=EH address=2001:470:fdbc:8000::/49 } on-error={}
 :do { add list=EH address=2001:470:fdf5::/48 } on-error={}
 :do { add list=EH address=2001:4b28:bd00::/40 } on-error={}
 :do { add list=EH address=2401:b60:1fd0:4000::/50 } on-error={}

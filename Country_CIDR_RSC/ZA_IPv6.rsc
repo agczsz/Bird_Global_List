@@ -6665,7 +6665,6 @@
 :do { add list=ZA address=2a0e:b107:1b32::/47 } on-error={}
 :do { add list=ZA address=2a0e:b107:1b34::/46 } on-error={}
 :do { add list=ZA address=2a0e:b107:1b38::/45 } on-error={}
-:do { add list=ZA address=2a0f:f47:a000::/47 } on-error={}
 :do { add list=ZA address=2a0f:1cc5:b10:cf00::/56 } on-error={}
 :do { add list=ZA address=2a0f:1cc5:b11:cf00::/56 } on-error={}
 :do { add list=ZA address=2a0f:1cc5:b12:cf00::/56 } on-error={}

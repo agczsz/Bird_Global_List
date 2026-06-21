@@ -7685,7 +7685,16 @@
 :do { add list=DK address=2a02:aa7:410d:bc00::/54 } on-error={}
 :do { add list=DK address=2a02:aa7:410d:c000::/50 } on-error={}
 :do { add list=DK address=2a02:aa7:410e::/47 } on-error={}
-:do { add list=DK address=2a02:aa7:4110::/46 } on-error={}
+:do { add list=DK address=2a02:aa7:4110::/49 } on-error={}
+:do { add list=DK address=2a02:aa7:4110:8000::/53 } on-error={}
+:do { add list=DK address=2a02:aa7:4110:8800::/55 } on-error={}
+:do { add list=DK address=2a02:aa7:4110:8a00::/56 } on-error={}
+:do { add list=DK address=2a02:aa7:4110:8c00::/54 } on-error={}
+:do { add list=DK address=2a02:aa7:4110:9000::/52 } on-error={}
+:do { add list=DK address=2a02:aa7:4110:a000::/51 } on-error={}
+:do { add list=DK address=2a02:aa7:4110:c000::/50 } on-error={}
+:do { add list=DK address=2a02:aa7:4111::/48 } on-error={}
+:do { add list=DK address=2a02:aa7:4112::/47 } on-error={}
 :do { add list=DK address=2a02:aa7:4114::/48 } on-error={}
 :do { add list=DK address=2a02:aa7:4115::/49 } on-error={}
 :do { add list=DK address=2a02:aa7:4115:8000::/52 } on-error={}

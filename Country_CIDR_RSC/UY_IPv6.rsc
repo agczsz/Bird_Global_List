@@ -29184,7 +29184,9 @@
 :do { add list=UY address=2804:2a22::/31 } on-error={}
 :do { add list=UY address=2804:2a25::/32 } on-error={}
 :do { add list=UY address=2804:2a26::/31 } on-error={}
-:do { add list=UY address=2804:2a28::/30 } on-error={}
+:do { add list=UY address=2804:2a28::/32 } on-error={}
+:do { add list=UY address=2804:2a29::/32 } on-error={}
+:do { add list=UY address=2804:2a2a::/31 } on-error={}
 :do { add list=UY address=2804:2a2d::/32 } on-error={}
 :do { add list=UY address=2804:2a2e::/31 } on-error={}
 :do { add list=UY address=2804:2a31::/32 } on-error={}

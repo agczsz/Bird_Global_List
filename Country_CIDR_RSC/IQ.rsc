@@ -151,8 +151,7 @@
 :do { add list=IQ address=37.238.239.0/24 } on-error={}
 :do { add list=IQ address=37.238.240.0/22 } on-error={}
 :do { add list=IQ address=37.238.244.0/23 } on-error={}
-:do { add list=IQ address=37.238.246.0/24 } on-error={}
-:do { add list=IQ address=37.238.247.0/24 } on-error={}
+:do { add list=IQ address=37.238.246.0/23 } on-error={}
 :do { add list=IQ address=37.238.248.0/21 } on-error={}
 :do { add list=IQ address=37.239.0.0/17 } on-error={}
 :do { add list=IQ address=37.239.128.0/20 } on-error={}
@@ -238,7 +237,8 @@
 :do { add list=IQ address=46.21.251.0/24 } on-error={}
 :do { add list=IQ address=46.30.224.0/21 } on-error={}
 :do { add list=IQ address=46.149.96.0/24 } on-error={}
-:do { add list=IQ address=46.161.192.0/24 } on-error={}
+:do { add list=IQ address=46.161.192.0/25 } on-error={}
+:do { add list=IQ address=46.161.192.128/26 } on-error={}
 :do { add list=IQ address=46.161.193.0/26 } on-error={}
 :do { add list=IQ address=46.161.193.64/27 } on-error={}
 :do { add list=IQ address=46.161.193.96/29 } on-error={}
@@ -251,7 +251,7 @@
 :do { add list=IQ address=46.161.195.128/25 } on-error={}
 :do { add list=IQ address=46.161.196.0/29 } on-error={}
 :do { add list=IQ address=46.161.196.8/30 } on-error={}
-:do { add list=IQ address=46.161.196.15/32 } on-error={}
+:do { add list=IQ address=46.161.196.14/31 } on-error={}
 :do { add list=IQ address=46.161.196.17/32 } on-error={}
 :do { add list=IQ address=46.161.196.18/31 } on-error={}
 :do { add list=IQ address=46.161.196.20/32 } on-error={}
@@ -378,8 +378,7 @@
 :do { add list=IQ address=79.132.199.0/24 } on-error={}
 :do { add list=IQ address=80.76.50.0/24 } on-error={}
 :do { add list=IQ address=80.81.196.98/32 } on-error={}
-:do { add list=IQ address=80.173.228.0/25 } on-error={}
-:do { add list=IQ address=80.173.228.128/26 } on-error={}
+:do { add list=IQ address=80.173.228.0/24 } on-error={}
 :do { add list=IQ address=80.231.203.38/31 } on-error={}
 :do { add list=IQ address=81.22.32.0/24 } on-error={}
 :do { add list=IQ address=81.22.33.0/24 } on-error={}

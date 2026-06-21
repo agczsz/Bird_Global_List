@@ -224,6 +224,7 @@
 :do { add list=MO address=2001:470:f93d:8000::/49 } on-error={}
 :do { add list=MO address=2001:470:f948::/48 } on-error={}
 :do { add list=MO address=2001:470:f97c::/48 } on-error={}
+:do { add list=MO address=2001:470:f9a9::/48 } on-error={}
 :do { add list=MO address=2001:470:f9ae::/48 } on-error={}
 :do { add list=MO address=2001:470:f9ed::/48 } on-error={}
 :do { add list=MO address=2001:470:fa2f::/48 } on-error={}

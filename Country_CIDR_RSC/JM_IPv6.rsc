@@ -73,7 +73,6 @@
 :do { add list=JM address=2001:470:b52a::/48 } on-error={}
 :do { add list=JM address=2001:470:d8e2::/48 } on-error={}
 :do { add list=JM address=2001:470:d9ac::/48 } on-error={}
-:do { add list=JM address=2001:470:ef15::/48 } on-error={}
 :do { add list=JM address=2001:504:3e::/48 } on-error={}
 :do { add list=JM address=2001:67c:a38:f476::/64 } on-error={}
 :do { add list=JM address=2001:3786:5006:200::/56 } on-error={}

@@ -94,7 +94,6 @@
 :do { add list=VG address=104.28.229.101/32 } on-error={}
 :do { add list=VG address=104.28.229.102/31 } on-error={}
 :do { add list=VG address=104.28.229.104/31 } on-error={}
-:do { add list=VG address=104.165.194.0/24 } on-error={}
 :do { add list=VG address=104.234.239.0/24 } on-error={}
 :do { add list=VG address=104.254.96.46/31 } on-error={}
 :do { add list=VG address=104.254.96.48/32 } on-error={}

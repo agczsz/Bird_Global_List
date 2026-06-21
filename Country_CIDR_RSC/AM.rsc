@@ -99,6 +99,7 @@
 :do { add list=AM address=45.143.206.0/24 } on-error={}
 :do { add list=AM address=45.143.207.0/24 } on-error={}
 :do { add list=AM address=45.146.36.0/22 } on-error={}
+:do { add list=AM address=45.150.173.0/24 } on-error={}
 :do { add list=AM address=45.153.212.0/22 } on-error={}
 :do { add list=AM address=45.159.72.0/24 } on-error={}
 :do { add list=AM address=45.159.73.0/24 } on-error={}

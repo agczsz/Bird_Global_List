@@ -1,11 +1,19 @@
 /log info "Loading LU IPv4 Address List"
 /ip firewall address-list
 :do { add list=LU address=2.18.250.0/24 } on-error={}
-:do { add list=LU address=2.56.104.0/22 } on-error={}
+:do { add list=LU address=2.56.104.0/28 } on-error={}
+:do { add list=LU address=2.56.104.16/29 } on-error={}
+:do { add list=LU address=2.56.104.32/27 } on-error={}
+:do { add list=LU address=2.56.104.64/26 } on-error={}
+:do { add list=LU address=2.56.104.128/25 } on-error={}
+:do { add list=LU address=2.56.105.0/24 } on-error={}
+:do { add list=LU address=2.56.106.0/23 } on-error={}
 :do { add list=LU address=2.56.220.0/24 } on-error={}
 :do { add list=LU address=2.57.172.0/22 } on-error={}
 :do { add list=LU address=2.58.35.0/24 } on-error={}
-:do { add list=LU address=2.152.68.0/22 } on-error={}
+:do { add list=LU address=2.152.68.0/24 } on-error={}
+:do { add list=LU address=2.152.69.0/24 } on-error={}
+:do { add list=LU address=2.152.70.0/23 } on-error={}
 :do { add list=LU address=2.255.249.45/32 } on-error={}
 :do { add list=LU address=5.23.10.0/24 } on-error={}
 :do { add list=LU address=5.23.11.0/30 } on-error={}
@@ -486,8 +494,11 @@
 :do { add list=LU address=85.94.226.0/23 } on-error={}
 :do { add list=LU address=85.94.228.0/22 } on-error={}
 :do { add list=LU address=85.94.232.0/21 } on-error={}
+:do { add list=LU address=85.94.240.3/32 } on-error={}
 :do { add list=LU address=85.94.240.6/32 } on-error={}
-:do { add list=LU address=85.94.240.8/29 } on-error={}
+:do { add list=LU address=85.94.240.8/30 } on-error={}
+:do { add list=LU address=85.94.240.12/32 } on-error={}
+:do { add list=LU address=85.94.240.14/31 } on-error={}
 :do { add list=LU address=85.94.240.16/31 } on-error={}
 :do { add list=LU address=85.94.240.19/32 } on-error={}
 :do { add list=LU address=85.94.240.20/30 } on-error={}
@@ -499,8 +510,9 @@
 :do { add list=LU address=85.94.240.49/32 } on-error={}
 :do { add list=LU address=85.94.240.53/32 } on-error={}
 :do { add list=LU address=85.94.240.56/31 } on-error={}
-:do { add list=LU address=85.94.240.62/32 } on-error={}
-:do { add list=LU address=85.94.240.64/30 } on-error={}
+:do { add list=LU address=85.94.240.62/31 } on-error={}
+:do { add list=LU address=85.94.240.64/32 } on-error={}
+:do { add list=LU address=85.94.240.66/31 } on-error={}
 :do { add list=LU address=85.94.240.96/27 } on-error={}
 :do { add list=LU address=85.94.240.128/31 } on-error={}
 :do { add list=LU address=85.94.240.140/30 } on-error={}

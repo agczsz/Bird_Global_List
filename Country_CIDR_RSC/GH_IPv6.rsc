@@ -397,7 +397,6 @@
 :do { add list=GH address=2a0c:9a46:3fe:51::/64 } on-error={}
 :do { add list=GH address=2a0d:3344:26c0::/42 } on-error={}
 :do { add list=GH address=2a0d:9443:3000::/37 } on-error={}
-:do { add list=GH address=2a0f:f47:4000::/47 } on-error={}
 :do { add list=GH address=2a0f:1cc5:b10:5500::/56 } on-error={}
 :do { add list=GH address=2a0f:1cc5:b11:5500::/56 } on-error={}
 :do { add list=GH address=2a0f:1cc5:b12:5500::/56 } on-error={}

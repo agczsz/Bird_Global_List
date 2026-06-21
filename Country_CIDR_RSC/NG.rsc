@@ -337,7 +337,12 @@
 :do { add list=NG address=41.203.124.0/24 } on-error={}
 :do { add list=NG address=41.203.125.0/24 } on-error={}
 :do { add list=NG address=41.203.126.0/23 } on-error={}
-:do { add list=NG address=41.204.224.0/19 } on-error={}
+:do { add list=NG address=41.204.224.0/20 } on-error={}
+:do { add list=NG address=41.204.240.0/21 } on-error={}
+:do { add list=NG address=41.204.248.0/23 } on-error={}
+:do { add list=NG address=41.204.250.0/24 } on-error={}
+:do { add list=NG address=41.204.251.0/24 } on-error={}
+:do { add list=NG address=41.204.252.0/22 } on-error={}
 :do { add list=NG address=41.206.0.0/19 } on-error={}
 :do { add list=NG address=41.207.248.0/22 } on-error={}
 :do { add list=NG address=41.207.255.160/29 } on-error={}
