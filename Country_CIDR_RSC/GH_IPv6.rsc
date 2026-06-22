@@ -519,6 +519,7 @@
 :do { add list=GH address=2c0f:ee00::96:220/125 } on-error={}
 :do { add list=GH address=2c0f:ee00::96:22a/127 } on-error={}
 :do { add list=GH address=2c0f:ee00::96:22c/126 } on-error={}
+:do { add list=GH address=2c0f:ee00::96:248/125 } on-error={}
 :do { add list=GH address=2c0f:ee00::97:12/128 } on-error={}
 :do { add list=GH address=2c0f:ee00::97:24/126 } on-error={}
 :do { add list=GH address=2c0f:ee00::97:28/128 } on-error={}

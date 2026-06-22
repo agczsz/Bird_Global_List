@@ -2,10 +2,7 @@
 /ipv6 firewall address-list
 :do { add list=IR address=2001:470:36:22d::/64 } on-error={}
 :do { add list=IR address=2001:470:1f29:21a::/64 } on-error={}
-:do { add list=IR address=2001:470:482d:1000::/52 } on-error={}
-:do { add list=IR address=2001:470:482d:2000::/51 } on-error={}
-:do { add list=IR address=2001:470:482d:4000::/50 } on-error={}
-:do { add list=IR address=2001:470:482d:8000::/49 } on-error={}
+:do { add list=IR address=2001:470:482d::/48 } on-error={}
 :do { add list=IR address=2001:470:72ca::/48 } on-error={}
 :do { add list=IR address=2001:470:72e3::/48 } on-error={}
 :do { add list=IR address=2001:470:8325::/48 } on-error={}

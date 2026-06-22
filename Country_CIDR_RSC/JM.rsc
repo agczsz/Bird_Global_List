@@ -5,9 +5,9 @@
 :do { add list=JM address=17.118.108.0/22 } on-error={}
 :do { add list=JM address=23.156.32.0/24 } on-error={}
 :do { add list=JM address=32.59.116.0/28 } on-error={}
-:do { add list=JM address=38.50.164.43/32 } on-error={}
-:do { add list=JM address=38.50.164.161/32 } on-error={}
+:do { add list=JM address=38.50.164.77/32 } on-error={}
 :do { add list=JM address=38.57.6.0/23 } on-error={}
+:do { add list=JM address=38.76.136.249/32 } on-error={}
 :do { add list=JM address=38.96.70.0/24 } on-error={}
 :do { add list=JM address=45.62.191.64/28 } on-error={}
 :do { add list=JM address=57.74.98.0/23 } on-error={}
@@ -312,6 +312,7 @@
 :do { add list=JM address=209.14.255.52/30 } on-error={}
 :do { add list=JM address=209.112.84.0/22 } on-error={}
 :do { add list=JM address=209.120.206.240/29 } on-error={}
+:do { add list=JM address=209.198.216.223/32 } on-error={}
 :do { add list=JM address=209.236.0.0/21 } on-error={}
 :do { add list=JM address=209.236.8.0/21 } on-error={}
 :do { add list=JM address=209.236.16.0/20 } on-error={}

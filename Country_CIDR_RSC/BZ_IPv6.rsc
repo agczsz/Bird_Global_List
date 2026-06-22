@@ -299,10 +299,4 @@
 :do { add list=BZ address=2a14:7581:3b1d::/48 } on-error={}
 :do { add list=BZ address=2a14:7583:ff88::/48 } on-error={}
 :do { add list=BZ address=2a14:7585:f108::/48 } on-error={}
-:do { add list=BZ address=2a14:c380:240:4000::/50 } on-error={}
-:do { add list=BZ address=2a14:c380:240:8000::/49 } on-error={}
-:do { add list=BZ address=2a14:c380:241::/48 } on-error={}
-:do { add list=BZ address=2a14:c380:242::/47 } on-error={}
-:do { add list=BZ address=2a14:c380:244::/46 } on-error={}
-:do { add list=BZ address=2a14:c380:248::/45 } on-error={}
 :do { add list=BZ address=2a14:c380:796::/48 } on-error={}

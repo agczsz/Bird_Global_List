@@ -35,7 +35,7 @@
 :do { add list=PW address=2a02:26f7:b8c1::/48 } on-error={}
 :do { add list=PW address=2a02:26f7:b8c2::/47 } on-error={}
 :do { add list=PW address=2a02:26f7:b8c4:4000::/64 } on-error={}
-:do { add list=PW address=2a02:26f7:b8c4:cbe0::/63 } on-error={}
+:do { add list=PW address=2a02:26f7:b8c4:c000::/50 } on-error={}
 :do { add list=PW address=2a02:26f7:b8c5::/48 } on-error={}
 :do { add list=PW address=2a02:26f7:b8c6::/47 } on-error={}
 :do { add list=PW address=2a02:26f7:b8c8:4000::/64 } on-error={}

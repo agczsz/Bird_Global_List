@@ -302,7 +302,6 @@
 :do { add list=BF address=2c0f:ee00::96:228/127 } on-error={}
 :do { add list=BF address=2c0f:ee00::96:230/124 } on-error={}
 :do { add list=BF address=2c0f:ee00::96:240/126 } on-error={}
-:do { add list=BF address=2c0f:ee00::96:248/125 } on-error={}
 :do { add list=BF address=2c0f:ee00::96:250/127 } on-error={}
 :do { add list=BF address=2c0f:ee00::96:256/127 } on-error={}
 :do { add list=BF address=2c0f:ee00::96:258/125 } on-error={}

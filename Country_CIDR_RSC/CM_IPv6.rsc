@@ -16,6 +16,7 @@
 :do { add list=CM address=2001:43ff:b000::/48 } on-error={}
 :do { add list=CM address=2001:4b28:ac00::/40 } on-error={}
 :do { add list=CM address=2400:cb00:603::/48 } on-error={}
+:do { add list=CM address=2400:cb00:1289::/48 } on-error={}
 :do { add list=CM address=2401:b60:1260:4000::/50 } on-error={}
 :do { add list=CM address=2401:b60:1260:8000::/49 } on-error={}
 :do { add list=CM address=2401:b60:1261::/48 } on-error={}

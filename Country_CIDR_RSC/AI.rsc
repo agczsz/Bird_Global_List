@@ -67,6 +67,7 @@
 :do { add list=AI address=208.66.48.178/31 } on-error={}
 :do { add list=AI address=208.66.48.180/30 } on-error={}
 :do { add list=AI address=208.66.48.184/29 } on-error={}
+:do { add list=AI address=208.66.48.192/26 } on-error={}
 :do { add list=AI address=208.66.49.0/24 } on-error={}
 :do { add list=AI address=208.66.50.0/23 } on-error={}
 :do { add list=AI address=208.66.52.0/23 } on-error={}

@@ -397,6 +397,7 @@
 :do { add list=MM address=2406:ea00::/32 } on-error={}
 :do { add list=MM address=2407:780::/32 } on-error={}
 :do { add list=MM address=2407:2a80::/32 } on-error={}
+:do { add list=MM address=2407:6100:0:8::/62 } on-error={}
 :do { add list=MM address=2407:6100:0:c::2/127 } on-error={}
 :do { add list=MM address=2407:6100:0:c::8/125 } on-error={}
 :do { add list=MM address=2407:6100:0:c::10/124 } on-error={}

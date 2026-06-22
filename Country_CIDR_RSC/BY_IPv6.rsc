@@ -1,5 +1,6 @@
 /log info "Loading BY IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=BY address=2001:470:5:5f::/64 } on-error={}
 :do { add list=BY address=2001:470:5:2b8::/64 } on-error={}
 :do { add list=BY address=2001:470:28:308::/64 } on-error={}
 :do { add list=BY address=2001:470:28:483::/64 } on-error={}
@@ -24,6 +25,7 @@
 :do { add list=BY address=2001:470:1bd4::/48 } on-error={}
 :do { add list=BY address=2001:470:1f0b:5be::/64 } on-error={}
 :do { add list=BY address=2001:470:1f0b:887::/64 } on-error={}
+:do { add list=BY address=2001:470:1f0b:9a3::/64 } on-error={}
 :do { add list=BY address=2001:470:1f0b:ad0::/64 } on-error={}
 :do { add list=BY address=2001:470:1f13:363::/64 } on-error={}
 :do { add list=BY address=2001:470:1f1d:e::/64 } on-error={}
@@ -67,6 +69,7 @@
 :do { add list=BY address=2001:470:7318::/48 } on-error={}
 :do { add list=BY address=2001:470:74f1::/48 } on-error={}
 :do { add list=BY address=2001:470:7853::/48 } on-error={}
+:do { add list=BY address=2001:470:7861::/48 } on-error={}
 :do { add list=BY address=2001:470:788a::/48 } on-error={}
 :do { add list=BY address=2001:470:7b1d::/48 } on-error={}
 :do { add list=BY address=2001:470:7bd6::/48 } on-error={}
@@ -197,13 +200,11 @@
 :do { add list=BY address=2a02:2d8:3:a100::/56 } on-error={}
 :do { add list=BY address=2a02:2d8:3:a200::/55 } on-error={}
 :do { add list=BY address=2a02:2d8:3:a400::/54 } on-error={}
-:do { add list=BY address=2a02:6b8:c02:45c::/64 } on-error={}
 :do { add list=BY address=2a02:6bf:8040::/48 } on-error={}
 :do { add list=BY address=2a02:6bf:a05d::/48 } on-error={}
 :do { add list=BY address=2a02:bf0::/32 } on-error={}
 :do { add list=BY address=2a02:2208::/60 } on-error={}
 :do { add list=BY address=2a02:2208:0:10::/63 } on-error={}
-:do { add list=BY address=2a02:2208:0:12::/127 } on-error={}
 :do { add list=BY address=2a02:2208:0:13::/64 } on-error={}
 :do { add list=BY address=2a02:2208:0:14::/62 } on-error={}
 :do { add list=BY address=2a02:2208:0:18::/61 } on-error={}

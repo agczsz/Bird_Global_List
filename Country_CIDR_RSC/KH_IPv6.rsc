@@ -5,7 +5,6 @@
 :do { add list=KH address=2001:470:1:eb2::/64 } on-error={}
 :do { add list=KH address=2001:470:19:1c9::/64 } on-error={}
 :do { add list=KH address=2001:470:36:4ee::/64 } on-error={}
-:do { add list=KH address=2001:470:4b:237::/64 } on-error={}
 :do { add list=KH address=2001:470:1809::/48 } on-error={}
 :do { add list=KH address=2001:470:187e::/48 } on-error={}
 :do { add list=KH address=2001:470:195c::/48 } on-error={}

@@ -1,6 +1,7 @@
 /log info "Loading ZW IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=ZW address=2001:470:28:69f::/64 } on-error={}
+:do { add list=ZW address=2001:470:28:109a::/64 } on-error={}
 :do { add list=ZW address=2001:470:1f1f:56::/64 } on-error={}
 :do { add list=ZW address=2001:470:1f23:b::/64 } on-error={}
 :do { add list=ZW address=2001:470:5577::/48 } on-error={}
@@ -132,7 +133,6 @@
 :do { add list=ZW address=2a01:410:1:1::160/128 } on-error={}
 :do { add list=ZW address=2a01:410:1:1::164/126 } on-error={}
 :do { add list=ZW address=2a01:410:1:1::178/125 } on-error={}
-:do { add list=ZW address=2a01:410:1:1::194/128 } on-error={}
 :do { add list=ZW address=2a01:410:1:1::1a0/124 } on-error={}
 :do { add list=ZW address=2a01:410:1:1::1b0/126 } on-error={}
 :do { add list=ZW address=2a01:410:1:1::1b4/127 } on-error={}
@@ -147,7 +147,6 @@
 :do { add list=ZW address=2a01:410:1:1::1ea/128 } on-error={}
 :do { add list=ZW address=2a01:410:1:1::1f5/128 } on-error={}
 :do { add list=ZW address=2a01:410:1:1::1f6/128 } on-error={}
-:do { add list=ZW address=2a01:410:1:1::1f8/128 } on-error={}
 :do { add list=ZW address=2a01:410:1:1::1fc/128 } on-error={}
 :do { add list=ZW address=2a01:410:1:1::222/127 } on-error={}
 :do { add list=ZW address=2a01:410:1:1::240/124 } on-error={}
@@ -507,7 +506,6 @@
 :do { add list=ZW address=2a01:410:1:4400::/54 } on-error={}
 :do { add list=ZW address=2a01:410:1:4800::/53 } on-error={}
 :do { add list=ZW address=2a01:410:1:5006::/64 } on-error={}
-:do { add list=ZW address=2a01:410:1:5010::/124 } on-error={}
 :do { add list=ZW address=2a01:410:1:5010::25/128 } on-error={}
 :do { add list=ZW address=2a01:410:1:5010::26/127 } on-error={}
 :do { add list=ZW address=2a01:410:1:5010::28/125 } on-error={}
@@ -577,10 +575,6 @@
 :do { add list=ZW address=2a01:410:1:506a::/63 } on-error={}
 :do { add list=ZW address=2a01:410:1:5080::/64 } on-error={}
 :do { add list=ZW address=2a01:410:1:5081::300/120 } on-error={}
-:do { add list=ZW address=2a01:410:1:5081::400/118 } on-error={}
-:do { add list=ZW address=2a01:410:1:5081::800/117 } on-error={}
-:do { add list=ZW address=2a01:410:1:5081::1000/116 } on-error={}
-:do { add list=ZW address=2a01:410:1:5081::2000/115 } on-error={}
 :do { add list=ZW address=2a01:410:1:5081::4000/114 } on-error={}
 :do { add list=ZW address=2a01:410:1:5081::8000/113 } on-error={}
 :do { add list=ZW address=2a01:410:1:5081::1:0/112 } on-error={}

@@ -591,15 +591,14 @@
 :do { add list=PR address=2604:b000:a218:400::/55 } on-error={}
 :do { add list=PR address=2604:b000:a218:800::/56 } on-error={}
 :do { add list=PR address=2604:b000:a218:a00::/55 } on-error={}
-:do { add list=PR address=2604:b000:a218:c00::/55 } on-error={}
+:do { add list=PR address=2604:b000:a218:c00::/56 } on-error={}
 :do { add list=PR address=2604:b000:a218:fd7::/64 } on-error={}
 :do { add list=PR address=2604:b000:a218:1000::/55 } on-error={}
 :do { add list=PR address=2604:b000:a218:1400::/56 } on-error={}
 :do { add list=PR address=2604:b000:a218:1600::/56 } on-error={}
 :do { add list=PR address=2604:b000:a218:1a00::/55 } on-error={}
 :do { add list=PR address=2604:b000:a218:1da8::/64 } on-error={}
-:do { add list=PR address=2604:b000:a220::/55 } on-error={}
-:do { add list=PR address=2604:b000:a220:200::/56 } on-error={}
+:do { add list=PR address=2604:b000:a220::/54 } on-error={}
 :do { add list=PR address=2604:b000:a220:500::/56 } on-error={}
 :do { add list=PR address=2604:b000:a220:600::/56 } on-error={}
 :do { add list=PR address=2604:b000:a220:a00::/56 } on-error={}
@@ -617,7 +616,7 @@
 :do { add list=PR address=2604:b000:a23f:ff00::/56 } on-error={}
 :do { add list=PR address=2604:b000:a248:300::/56 } on-error={}
 :do { add list=PR address=2604:b000:a248:400::/56 } on-error={}
-:do { add list=PR address=2604:b000:a248:600::/55 } on-error={}
+:do { add list=PR address=2604:b000:a248:700::/56 } on-error={}
 :do { add list=PR address=2604:b000:a248:800::/56 } on-error={}
 :do { add list=PR address=2604:b000:a250:400::/56 } on-error={}
 :do { add list=PR address=2604:b000:a250:900::/56 } on-error={}
@@ -883,7 +882,6 @@
 :do { add list=PR address=2605:ba00:40a0::/50 } on-error={}
 :do { add list=PR address=2605:ba00:4107:e700::/56 } on-error={}
 :do { add list=PR address=2605:ba00:4107:ee00::/55 } on-error={}
-:do { add list=PR address=2605:ba00:4107:f400::/56 } on-error={}
 :do { add list=PR address=2605:ba00:4107:fc00::/56 } on-error={}
 :do { add list=PR address=2605:ba00:4108:100::/56 } on-error={}
 :do { add list=PR address=2605:ba00:4108:400::/56 } on-error={}

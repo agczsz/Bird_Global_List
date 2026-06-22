@@ -102,4 +102,3 @@
 :do { add list=GM address=197.242.128.0/20 } on-error={}
 :do { add list=GM address=197.255.192.0/20 } on-error={}
 :do { add list=GM address=212.60.64.0/19 } on-error={}
-:do { add list=GM address=213.144.168.213/32 } on-error={}

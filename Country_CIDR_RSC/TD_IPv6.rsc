@@ -204,4 +204,3 @@
 :do { add list=TD address=2c0f:5a80::/32 } on-error={}
 :do { add list=TD address=2c0f:eb98::/32 } on-error={}
 :do { add list=TD address=2c0f:f5c8::/32 } on-error={}
-:do { add list=TD address=2c0f:feb0:1:2::7ec/128 } on-error={}

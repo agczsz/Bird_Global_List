@@ -12,9 +12,9 @@
 :do { add list=MT address=2001:67c:a38:f356::/64 } on-error={}
 :do { add list=MT address=2001:67c:dbc::/48 } on-error={}
 :do { add list=MT address=2001:798:1::9e/127 } on-error={}
-:do { add list=MT address=2001:798:1::a2/127 } on-error={}
+:do { add list=MT address=2001:798:1::a3/128 } on-error={}
 :do { add list=MT address=2001:798:99:1::112/127 } on-error={}
-:do { add list=MT address=2001:798:99:1::116/127 } on-error={}
+:do { add list=MT address=2001:798:99:1::117/128 } on-error={}
 :do { add list=MT address=2001:1a70::/32 } on-error={}
 :do { add list=MT address=2001:1a71::/32 } on-error={}
 :do { add list=MT address=2001:1a72::/31 } on-error={}
