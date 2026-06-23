@@ -119,7 +119,7 @@
 :do { add list=WS address=2401:ae60:2000::/35 } on-error={}
 :do { add list=WS address=2401:ae60:4000::/34 } on-error={}
 :do { add list=WS address=2401:ae60:8000::/33 } on-error={}
-:do { add list=WS address=2401:f1e0:ffff:a0a4::/64 } on-error={}
+:do { add list=WS address=2401:f1e0:ffff:cef2::/64 } on-error={}
 :do { add list=WS address=2402:ae80::7/128 } on-error={}
 :do { add list=WS address=2402:ae80::8/125 } on-error={}
 :do { add list=WS address=2402:ae80::10/124 } on-error={}

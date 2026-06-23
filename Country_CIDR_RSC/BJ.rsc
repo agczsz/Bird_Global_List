@@ -125,7 +125,10 @@
 :do { add list=BJ address=154.65.28.0/22 } on-error={}
 :do { add list=BJ address=154.66.128.0/23 } on-error={}
 :do { add list=BJ address=154.66.130.0/25 } on-error={}
-:do { add list=BJ address=154.66.130.128/26 } on-error={}
+:do { add list=BJ address=154.66.130.130/31 } on-error={}
+:do { add list=BJ address=154.66.130.132/30 } on-error={}
+:do { add list=BJ address=154.66.130.136/29 } on-error={}
+:do { add list=BJ address=154.66.130.160/27 } on-error={}
 :do { add list=BJ address=154.66.130.192/27 } on-error={}
 :do { add list=BJ address=154.66.130.224/31 } on-error={}
 :do { add list=BJ address=154.66.130.227/32 } on-error={}

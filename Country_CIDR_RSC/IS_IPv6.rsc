@@ -44,7 +44,6 @@
 :do { add list=IS address=2001:7f8:48::/48 } on-error={}
 :do { add list=IS address=2001:7f8:10c::/48 } on-error={}
 :do { add list=IS address=2001:948:0:bad:c0de::8/127 } on-error={}
-:do { add list=IS address=2001:948:0:f006::15/128 } on-error={}
 :do { add list=IS address=2001:948:0:f006::16/128 } on-error={}
 :do { add list=IS address=2001:948:1:1::2f/128 } on-error={}
 :do { add list=IS address=2001:948:1:1::46/127 } on-error={}

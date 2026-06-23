@@ -9,7 +9,6 @@
 :do { add list=IM address=5.62.86.96/27 } on-error={}
 :do { add list=IM address=5.62.86.128/25 } on-error={}
 :do { add list=IM address=5.62.87.0/24 } on-error={}
-:do { add list=IM address=5.175.190.118/31 } on-error={}
 :do { add list=IM address=5.253.76.0/24 } on-error={}
 :do { add list=IM address=5.253.77.0/24 } on-error={}
 :do { add list=IM address=5.253.78.0/23 } on-error={}
@@ -50,6 +49,7 @@
 :do { add list=IM address=78.24.212.0/23 } on-error={}
 :do { add list=IM address=78.24.214.1/32 } on-error={}
 :do { add list=IM address=78.24.215.0/24 } on-error={}
+:do { add list=IM address=78.108.62.128/28 } on-error={}
 :do { add list=IM address=79.170.32.0/23 } on-error={}
 :do { add list=IM address=79.170.34.0/24 } on-error={}
 :do { add list=IM address=79.170.36.0/24 } on-error={}
@@ -119,7 +119,6 @@
 :do { add list=IM address=92.39.192.0/20 } on-error={}
 :do { add list=IM address=92.114.55.0/24 } on-error={}
 :do { add list=IM address=93.114.188.0/23 } on-error={}
-:do { add list=IM address=94.119.179.74/32 } on-error={}
 :do { add list=IM address=94.125.56.0/24 } on-error={}
 :do { add list=IM address=94.125.57.0/25 } on-error={}
 :do { add list=IM address=94.125.57.128/26 } on-error={}
@@ -169,7 +168,7 @@
 :do { add list=IM address=149.126.9.232/29 } on-error={}
 :do { add list=IM address=151.240.79.128/28 } on-error={}
 :do { add list=IM address=151.242.28.0/24 } on-error={}
-:do { add list=IM address=160.225.27.0/24 } on-error={}
+:do { add list=IM address=160.225.26.0/23 } on-error={}
 :do { add list=IM address=162.120.214.10/32 } on-error={}
 :do { add list=IM address=162.120.235.70/32 } on-error={}
 :do { add list=IM address=163.116.162.177/32 } on-error={}
@@ -274,7 +273,7 @@
 :do { add list=IM address=195.10.110.40/29 } on-error={}
 :do { add list=IM address=195.10.110.60/30 } on-error={}
 :do { add list=IM address=195.10.110.64/26 } on-error={}
-:do { add list=IM address=195.10.110.160/28 } on-error={}
+:do { add list=IM address=195.10.110.160/27 } on-error={}
 :do { add list=IM address=195.10.111.0/24 } on-error={}
 :do { add list=IM address=195.10.112.0/20 } on-error={}
 :do { add list=IM address=199.45.177.0/26 } on-error={}

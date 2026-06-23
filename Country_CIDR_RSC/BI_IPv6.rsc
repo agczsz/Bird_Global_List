@@ -13,7 +13,7 @@
 :do { add list=BI address=2401:b60:1242::/47 } on-error={}
 :do { add list=BI address=2401:b60:1244::/46 } on-error={}
 :do { add list=BI address=2401:b60:1248::/45 } on-error={}
-:do { add list=BI address=2401:f1e0:ffff:55d2::/64 } on-error={}
+:do { add list=BI address=2401:f1e0:ffff:5826::/64 } on-error={}
 :do { add list=BI address=2405:b500:d80::/64 } on-error={}
 :do { add list=BI address=2405:b500:da0::/64 } on-error={}
 :do { add list=BI address=2405:b500:dc0::/64 } on-error={}

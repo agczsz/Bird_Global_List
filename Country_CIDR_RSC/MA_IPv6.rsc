@@ -349,7 +349,7 @@
 :do { add list=MA address=2401:b60:19a2::/47 } on-error={}
 :do { add list=MA address=2401:b60:19a4::/46 } on-error={}
 :do { add list=MA address=2401:b60:19a8::/45 } on-error={}
-:do { add list=MA address=2401:f1e0:ffff:c298::/64 } on-error={}
+:do { add list=MA address=2401:f1e0:ffff:3217::/64 } on-error={}
 :do { add list=MA address=2405:b500:46c0::/64 } on-error={}
 :do { add list=MA address=2405:b500:46c0:10::/64 } on-error={}
 :do { add list=MA address=2405:b500:46c0:18::/64 } on-error={}

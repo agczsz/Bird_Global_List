@@ -2,7 +2,6 @@
 /ip firewall address-list
 :do { add list=VC address=5.62.56.204/30 } on-error={}
 :do { add list=VC address=5.62.58.184/30 } on-error={}
-:do { add list=VC address=5.175.190.207/32 } on-error={}
 :do { add list=VC address=23.170.80.0/24 } on-error={}
 :do { add list=VC address=45.42.232.0/22 } on-error={}
 :do { add list=VC address=45.62.191.224/28 } on-error={}
@@ -19,23 +18,20 @@
 :do { add list=VC address=69.73.202.0/24 } on-error={}
 :do { add list=VC address=69.73.237.0/24 } on-error={}
 :do { add list=VC address=69.73.238.0/23 } on-error={}
-:do { add list=VC address=69.79.12.15/32 } on-error={}
-:do { add list=VC address=69.79.12.16/31 } on-error={}
+:do { add list=VC address=69.79.12.16/30 } on-error={}
 :do { add list=VC address=69.79.12.24/31 } on-error={}
-:do { add list=VC address=69.79.12.38/31 } on-error={}
+:do { add list=VC address=69.79.12.36/30 } on-error={}
 :do { add list=VC address=69.79.12.71/32 } on-error={}
 :do { add list=VC address=69.79.12.112/31 } on-error={}
 :do { add list=VC address=69.79.12.116/30 } on-error={}
-:do { add list=VC address=69.79.12.132/32 } on-error={}
+:do { add list=VC address=69.79.12.132/31 } on-error={}
 :do { add list=VC address=69.79.12.162/31 } on-error={}
 :do { add list=VC address=69.79.12.170/31 } on-error={}
 :do { add list=VC address=69.79.12.172/30 } on-error={}
-:do { add list=VC address=69.79.12.176/30 } on-error={}
 :do { add list=VC address=69.79.12.211/32 } on-error={}
 :do { add list=VC address=69.79.12.219/32 } on-error={}
 :do { add list=VC address=69.79.12.228/30 } on-error={}
 :do { add list=VC address=69.79.12.234/32 } on-error={}
-:do { add list=VC address=69.79.12.240/29 } on-error={}
 :do { add list=VC address=69.79.13.0/24 } on-error={}
 :do { add list=VC address=69.80.55.0/24 } on-error={}
 :do { add list=VC address=69.80.56.0/23 } on-error={}

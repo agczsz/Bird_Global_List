@@ -118,6 +118,7 @@
 :do { add list=AS address=2001:470:face::/48 } on-error={}
 :do { add list=AS address=2001:470:fdd6::/48 } on-error={}
 :do { add list=AS address=2001:470:fecf::/48 } on-error={}
+:do { add list=AS address=2001:470:ffa1::/48 } on-error={}
 :do { add list=AS address=2001:470:ffa6::/48 } on-error={}
 :do { add list=AS address=2001:470:ffde::/48 } on-error={}
 :do { add list=AS address=2001:4b28:8a00::/40 } on-error={}

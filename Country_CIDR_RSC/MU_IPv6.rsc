@@ -8419,7 +8419,7 @@
 :do { add list=MU address=2c0f:feb0:2b::14:80/122 } on-error={}
 :do { add list=MU address=2c0f:feb0:2b::14:c0/125 } on-error={}
 :do { add list=MU address=2c0f:feb0:2b::14:c8/128 } on-error={}
-:do { add list=MU address=2c0f:feb0:2b::14:ca/127 } on-error={}
+:do { add list=MU address=2c0f:feb0:2b::14:cb/128 } on-error={}
 :do { add list=MU address=2c0f:feb0:2b::14:cc/126 } on-error={}
 :do { add list=MU address=2c0f:feb0:2b::14:d0/124 } on-error={}
 :do { add list=MU address=2c0f:feb0:2b::14:e0/123 } on-error={}

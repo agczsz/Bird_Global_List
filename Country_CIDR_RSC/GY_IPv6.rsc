@@ -4,6 +4,7 @@
 :do { add list=GY address=2001:470:d940::/48 } on-error={}
 :do { add list=GY address=2001:470:eaab::/48 } on-error={}
 :do { add list=GY address=2001:470:ef03::/48 } on-error={}
+:do { add list=GY address=2001:504:27::2802:0:1/128 } on-error={}
 :do { add list=GY address=2001:67c:a38:f592::/64 } on-error={}
 :do { add list=GY address=2001:3786:b0b1:100::/56 } on-error={}
 :do { add list=GY address=2001:4b28:d400::/40 } on-error={}
@@ -14,7 +15,7 @@
 :do { add list=GY address=2401:b60:15d2::/47 } on-error={}
 :do { add list=GY address=2401:b60:15d4::/46 } on-error={}
 :do { add list=GY address=2401:b60:15d8::/45 } on-error={}
-:do { add list=GY address=2401:f1e0:ffff:21fd::/64 } on-error={}
+:do { add list=GY address=2401:f1e0:ffff:6c32::/64 } on-error={}
 :do { add list=GY address=2405:b500:3100::/64 } on-error={}
 :do { add list=GY address=2405:b500:3120::/64 } on-error={}
 :do { add list=GY address=2405:b500:3140::/64 } on-error={}

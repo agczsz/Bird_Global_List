@@ -1,6 +1,7 @@
 /log info "Loading CW IPv4 Address List"
 /ip firewall address-list
 :do { add list=CW address=5.10.244.0/22 } on-error={}
+:do { add list=CW address=5.175.190.54/31 } on-error={}
 :do { add list=CW address=38.18.232.0/22 } on-error={}
 :do { add list=CW address=38.43.69.0/24 } on-error={}
 :do { add list=CW address=38.65.58.0/24 } on-error={}
@@ -29,10 +30,11 @@
 :do { add list=CW address=65.208.123.80/31 } on-error={}
 :do { add list=CW address=65.208.123.83/32 } on-error={}
 :do { add list=CW address=65.208.123.84/30 } on-error={}
-:do { add list=CW address=65.208.123.88/29 } on-error={}
+:do { add list=CW address=65.208.123.88/30 } on-error={}
+:do { add list=CW address=65.208.123.92/31 } on-error={}
+:do { add list=CW address=65.208.123.95/32 } on-error={}
 :do { add list=CW address=65.208.123.96/28 } on-error={}
-:do { add list=CW address=65.208.123.112/31 } on-error={}
-:do { add list=CW address=65.208.123.114/32 } on-error={}
+:do { add list=CW address=65.208.123.112/30 } on-error={}
 :do { add list=CW address=65.208.123.117/32 } on-error={}
 :do { add list=CW address=65.208.123.118/31 } on-error={}
 :do { add list=CW address=65.208.123.120/29 } on-error={}
@@ -142,14 +144,7 @@
 :do { add list=CW address=177.93.140.0/23 } on-error={}
 :do { add list=CW address=186.2.176.0/20 } on-error={}
 :do { add list=CW address=186.148.220.0/22 } on-error={}
-:do { add list=CW address=186.190.233.0/26 } on-error={}
-:do { add list=CW address=186.190.233.64/28 } on-error={}
-:do { add list=CW address=186.190.233.80/31 } on-error={}
-:do { add list=CW address=186.190.233.83/32 } on-error={}
-:do { add list=CW address=186.190.233.84/30 } on-error={}
-:do { add list=CW address=186.190.233.88/29 } on-error={}
-:do { add list=CW address=186.190.233.96/27 } on-error={}
-:do { add list=CW address=186.190.233.128/25 } on-error={}
+:do { add list=CW address=186.190.233.0/24 } on-error={}
 :do { add list=CW address=186.190.234.0/24 } on-error={}
 :do { add list=CW address=186.190.235.0/24 } on-error={}
 :do { add list=CW address=186.190.240.0/21 } on-error={}

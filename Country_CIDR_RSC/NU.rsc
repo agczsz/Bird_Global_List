@@ -2,7 +2,6 @@
 /ip firewall address-list
 :do { add list=NU address=5.62.56.152/30 } on-error={}
 :do { add list=NU address=5.62.58.144/30 } on-error={}
-:do { add list=NU address=5.175.190.158/31 } on-error={}
 :do { add list=NU address=14.1.76.0/23 } on-error={}
 :do { add list=NU address=49.156.48.0/22 } on-error={}
 :do { add list=NU address=104.28.12.83/32 } on-error={}

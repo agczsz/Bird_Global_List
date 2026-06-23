@@ -42,7 +42,6 @@
 :do { add list=SO address=2401:b60:1d32::/47 } on-error={}
 :do { add list=SO address=2401:b60:1d34::/46 } on-error={}
 :do { add list=SO address=2401:b60:1d38::/45 } on-error={}
-:do { add list=SO address=2401:f1e0:ffff:2d43::/64 } on-error={}
 :do { add list=SO address=2401:f1e0:ffff:c27c::/64 } on-error={}
 :do { add list=SO address=2405:b500:6900::/64 } on-error={}
 :do { add list=SO address=2405:b500:6920::/64 } on-error={}

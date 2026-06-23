@@ -12,7 +12,7 @@
 :do { add list=NE address=2401:b60:1a52::/47 } on-error={}
 :do { add list=NE address=2401:b60:1a54::/46 } on-error={}
 :do { add list=NE address=2401:b60:1a58::/45 } on-error={}
-:do { add list=NE address=2401:f1e0:ffff:ba43::/64 } on-error={}
+:do { add list=NE address=2401:f1e0:ffff:acbe::/64 } on-error={}
 :do { add list=NE address=2405:b500:5300::/64 } on-error={}
 :do { add list=NE address=2405:b500:5320::/64 } on-error={}
 :do { add list=NE address=2405:b500:5340::/64 } on-error={}

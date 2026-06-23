@@ -654,6 +654,7 @@
 :do { add list=PY address=2803:f440::/32 } on-error={}
 :do { add list=PY address=2803:f6e0::/32 } on-error={}
 :do { add list=PY address=2803:fc00::/32 } on-error={}
+:do { add list=PY address=2804:4afc:851e:6100::/56 } on-error={}
 :do { add list=PY address=2804:4afc:8549:a800::/56 } on-error={}
 :do { add list=PY address=2804:9220:f008:1000::/53 } on-error={}
 :do { add list=PY address=2804:9220:f008:1800::/56 } on-error={}
