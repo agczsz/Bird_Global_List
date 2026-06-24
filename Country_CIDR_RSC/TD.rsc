@@ -9,8 +9,7 @@
 :do { add list=TD address=63.246.45.0/26 } on-error={}
 :do { add list=TD address=74.244.68.0/23 } on-error={}
 :do { add list=TD address=85.255.21.96/28 } on-error={}
-:do { add list=TD address=86.62.31.12/30 } on-error={}
-:do { add list=TD address=86.62.31.20/32 } on-error={}
+:do { add list=TD address=86.62.31.23/32 } on-error={}
 :do { add list=TD address=87.255.97.204/32 } on-error={}
 :do { add list=TD address=87.255.98.204/32 } on-error={}
 :do { add list=TD address=102.23.84.0/22 } on-error={}

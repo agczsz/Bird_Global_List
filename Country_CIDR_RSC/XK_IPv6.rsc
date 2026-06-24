@@ -51,13 +51,11 @@
 :do { add list=XK address=2607:8940:4191:400::/56 } on-error={}
 :do { add list=XK address=2607:8940:41f0:9300::/56 } on-error={}
 :do { add list=XK address=2607:8940:41f0:9400::/56 } on-error={}
+:do { add list=XK address=2620:0:1cff:dead:beef::a3e/128 } on-error={}
 :do { add list=XK address=2620:0:1cff:dead:beef::3409/128 } on-error={}
 :do { add list=XK address=2620:0:1cff:dead:beef::340b/128 } on-error={}
 :do { add list=XK address=2620:0:1cff:dead:beef::340d/128 } on-error={}
 :do { add list=XK address=2620:0:1cff:dead:beef::340f/128 } on-error={}
-:do { add list=XK address=2620:0:1cff:dead:beef::3411/128 } on-error={}
-:do { add list=XK address=2620:0:1cff:dead:beef::3413/128 } on-error={}
-:do { add list=XK address=2620:0:1cff:dead:beef::3415/128 } on-error={}
 :do { add list=XK address=2620:0:1cff:dead:beef::3417/128 } on-error={}
 :do { add list=XK address=2620:0:1cff:dead:bef1:100:2:262/128 } on-error={}
 :do { add list=XK address=2620:0:1cff:dead:bef1:100:2:53f/128 } on-error={}
@@ -96,6 +94,7 @@
 :do { add list=XK address=2a06:9f81:43ef:fa00::/56 } on-error={}
 :do { add list=XK address=2a06:b440:186::/48 } on-error={}
 :do { add list=XK address=2a07:e0c0::/29 } on-error={}
+:do { add list=XK address=2a0b:4e07:6f::/64 } on-error={}
 :do { add list=XK address=2a0b:6300::/29 } on-error={}
 :do { add list=XK address=2a0c:b240::/32 } on-error={}
 :do { add list=XK address=2a0c:b340::/29 } on-error={}
@@ -146,4 +145,4 @@
 :do { add list=XK address=2a13:a5c7:25f4::/48 } on-error={}
 :do { add list=XK address=2a13:a5c7:25ff:f400::/56 } on-error={}
 :do { add list=XK address=2a14:1c3:8800::/37 } on-error={}
-:do { add list=XK address=2a14:3400::/29 } on-error={}
+:do { add list=XK address=2a14:3400::/30 } on-error={}

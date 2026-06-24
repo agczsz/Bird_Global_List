@@ -1,8 +1,8 @@
 /log info "Loading UZ IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=UZ address=2001:470:28:607::/64 } on-error={}
-:do { add list=UZ address=2001:470:28:82e::/64 } on-error={}
 :do { add list=UZ address=2001:470:28:dfb::/64 } on-error={}
+:do { add list=UZ address=2001:470:28:f92::/64 } on-error={}
 :do { add list=UZ address=2001:470:6f:166::/64 } on-error={}
 :do { add list=UZ address=2001:470:6f:5ec::/64 } on-error={}
 :do { add list=UZ address=2001:470:1861::/48 } on-error={}
@@ -315,6 +315,16 @@
 :do { add list=UZ address=2a0c:9a46:3eb::/48 } on-error={}
 :do { add list=UZ address=2a0c:9a46:3fe:ea::/64 } on-error={}
 :do { add list=UZ address=2a0c:fd40::/29 } on-error={}
+:do { add list=UZ address=2a0d:2681:3100:4000::/50 } on-error={}
+:do { add list=UZ address=2a0d:2681:3100:8000::/49 } on-error={}
+:do { add list=UZ address=2a0d:2681:3101::/48 } on-error={}
+:do { add list=UZ address=2a0d:2681:3102::/47 } on-error={}
+:do { add list=UZ address=2a0d:2681:3104::/46 } on-error={}
+:do { add list=UZ address=2a0d:2681:3108::/45 } on-error={}
+:do { add list=UZ address=2a0d:2681:3110::/44 } on-error={}
+:do { add list=UZ address=2a0d:2681:3120::/43 } on-error={}
+:do { add list=UZ address=2a0d:2681:3140::/42 } on-error={}
+:do { add list=UZ address=2a0d:2681:3180::/41 } on-error={}
 :do { add list=UZ address=2a0d:5600:165:4000::/50 } on-error={}
 :do { add list=UZ address=2a0d:5600:165:8000::/49 } on-error={}
 :do { add list=UZ address=2a0d:9445:5000::/37 } on-error={}

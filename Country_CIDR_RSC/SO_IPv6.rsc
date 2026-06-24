@@ -1,6 +1,7 @@
 /log info "Loading SO IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=SO address=2001:470:19a6::/48 } on-error={}
+:do { add list=SO address=2001:470:1f15:334::/64 } on-error={}
 :do { add list=SO address=2001:470:1f17:d4::/64 } on-error={}
 :do { add list=SO address=2001:470:1f17:de::/64 } on-error={}
 :do { add list=SO address=2001:470:1f17:143::/64 } on-error={}
@@ -140,6 +141,16 @@
 :do { add list=SO address=2a0c:9a40:95bc:b000::/52 } on-error={}
 :do { add list=SO address=2a0c:9a46:3ce::/48 } on-error={}
 :do { add list=SO address=2a0c:9a46:3fe:cd::/64 } on-error={}
+:do { add list=SO address=2a0d:2681:4d00:4000::/50 } on-error={}
+:do { add list=SO address=2a0d:2681:4d00:8000::/49 } on-error={}
+:do { add list=SO address=2a0d:2681:4d01::/48 } on-error={}
+:do { add list=SO address=2a0d:2681:4d02::/47 } on-error={}
+:do { add list=SO address=2a0d:2681:4d04::/46 } on-error={}
+:do { add list=SO address=2a0d:2681:4d08::/45 } on-error={}
+:do { add list=SO address=2a0d:2681:4d10::/44 } on-error={}
+:do { add list=SO address=2a0d:2681:4d20::/43 } on-error={}
+:do { add list=SO address=2a0d:2681:4d40::/42 } on-error={}
+:do { add list=SO address=2a0d:2681:4d80::/41 } on-error={}
 :do { add list=SO address=2a0d:9442:8800::/37 } on-error={}
 :do { add list=SO address=2a0e:b107:1f70::/45 } on-error={}
 :do { add list=SO address=2a0f:1cc5:b10:ce00::/56 } on-error={}
@@ -249,6 +260,20 @@
 :do { add list=SO address=2c0f:fb38:200::/39 } on-error={}
 :do { add list=SO address=2c0f:fb38:400::/38 } on-error={}
 :do { add list=SO address=2c0f:fb38:800::/37 } on-error={}
+:do { add list=SO address=2c0f:fb38:1000:1::/64 } on-error={}
+:do { add list=SO address=2c0f:fb38:1000:2::/63 } on-error={}
+:do { add list=SO address=2c0f:fb38:1000:4::/62 } on-error={}
+:do { add list=SO address=2c0f:fb38:1000:8::/61 } on-error={}
+:do { add list=SO address=2c0f:fb38:1000:10::/60 } on-error={}
+:do { add list=SO address=2c0f:fb38:1000:20::/59 } on-error={}
+:do { add list=SO address=2c0f:fb38:1000:40::/58 } on-error={}
+:do { add list=SO address=2c0f:fb38:1000:80::/57 } on-error={}
+:do { add list=SO address=2c0f:fb38:1000:100::/56 } on-error={}
+:do { add list=SO address=2c0f:fb38:1000:200::/55 } on-error={}
+:do { add list=SO address=2c0f:fb38:1000:400::/54 } on-error={}
+:do { add list=SO address=2c0f:fb38:1000:800::/53 } on-error={}
+:do { add list=SO address=2c0f:fb38:1000:1000::/52 } on-error={}
+:do { add list=SO address=2c0f:fb38:1000:2000::/51 } on-error={}
 :do { add list=SO address=2c0f:fb38:1000:4000::/50 } on-error={}
 :do { add list=SO address=2c0f:fb38:1000:8000::/49 } on-error={}
 :do { add list=SO address=2c0f:fb38:1001::/48 } on-error={}

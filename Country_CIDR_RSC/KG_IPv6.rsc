@@ -1,11 +1,9 @@
 /log info "Loading KG IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=KG address=2001:470:28:f71::/64 } on-error={}
 :do { add list=KG address=2001:470:28:10e8::/64 } on-error={}
 :do { add list=KG address=2001:470:28:10f4::/64 } on-error={}
 :do { add list=KG address=2001:470:6d:46d::/64 } on-error={}
 :do { add list=KG address=2001:470:71:731::/64 } on-error={}
-:do { add list=KG address=2001:470:7c:635::/64 } on-error={}
 :do { add list=KG address=2001:470:1f27:8e::/64 } on-error={}
 :do { add list=KG address=2001:470:20f5::/48 } on-error={}
 :do { add list=KG address=2001:470:5164::/48 } on-error={}
@@ -67,16 +65,6 @@
 :do { add list=KG address=2607:740:5f:8000::/49 } on-error={}
 :do { add list=KG address=2607:740:75:4000::/50 } on-error={}
 :do { add list=KG address=2607:740:75:8000::/49 } on-error={}
-:do { add list=KG address=2607:6b80:51:1::/64 } on-error={}
-:do { add list=KG address=2607:6b80:51:10::/60 } on-error={}
-:do { add list=KG address=2607:6b80:51:20::/59 } on-error={}
-:do { add list=KG address=2607:6b80:51:40::/58 } on-error={}
-:do { add list=KG address=2607:6b80:51:80::/57 } on-error={}
-:do { add list=KG address=2607:6b80:51:100::/56 } on-error={}
-:do { add list=KG address=2607:6b80:51:200::/55 } on-error={}
-:do { add list=KG address=2607:6b80:51:400::/54 } on-error={}
-:do { add list=KG address=2607:6b80:51:1000::/52 } on-error={}
-:do { add list=KG address=2607:6b80:51:2000::/51 } on-error={}
 :do { add list=KG address=2607:6b80:51:4000::/50 } on-error={}
 :do { add list=KG address=2607:6b80:51:8000::/49 } on-error={}
 :do { add list=KG address=2607:8940:39d0::/46 } on-error={}
@@ -202,6 +190,16 @@
 :do { add list=KG address=2a0c:9a46:3fe:73::/64 } on-error={}
 :do { add list=KG address=2a0d:6c2:18::/48 } on-error={}
 :do { add list=KG address=2a0d:1d80::/29 } on-error={}
+:do { add list=KG address=2a0d:2681:5b00:4000::/50 } on-error={}
+:do { add list=KG address=2a0d:2681:5b00:8000::/49 } on-error={}
+:do { add list=KG address=2a0d:2681:5b01::/48 } on-error={}
+:do { add list=KG address=2a0d:2681:5b02::/47 } on-error={}
+:do { add list=KG address=2a0d:2681:5b04::/46 } on-error={}
+:do { add list=KG address=2a0d:2681:5b08::/45 } on-error={}
+:do { add list=KG address=2a0d:2681:5b10::/44 } on-error={}
+:do { add list=KG address=2a0d:2681:5b20::/43 } on-error={}
+:do { add list=KG address=2a0d:2681:5b40::/42 } on-error={}
+:do { add list=KG address=2a0d:2681:5b80::/41 } on-error={}
 :do { add list=KG address=2a0d:5600:57::/48 } on-error={}
 :do { add list=KG address=2a0d:5600:264::/48 } on-error={}
 :do { add list=KG address=2a0d:9444:1000::/37 } on-error={}

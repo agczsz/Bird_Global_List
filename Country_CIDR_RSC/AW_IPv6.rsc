@@ -5,6 +5,7 @@
 :do { add list=AW address=2001:470:1b8c::/48 } on-error={}
 :do { add list=AW address=2001:470:1b94::/48 } on-error={}
 :do { add list=AW address=2001:470:1f0b:ff5::/64 } on-error={}
+:do { add list=AW address=2001:470:1f15:252::/64 } on-error={}
 :do { add list=AW address=2001:470:1f27:42::/64 } on-error={}
 :do { add list=AW address=2001:470:1f2b:14::/64 } on-error={}
 :do { add list=AW address=2001:470:5a50::/48 } on-error={}

@@ -75,7 +75,6 @@
 :do { add list=ET address=140.248.63.68/32 } on-error={}
 :do { add list=ET address=146.75.166.46/31 } on-error={}
 :do { add list=ET address=146.75.174.8/31 } on-error={}
-:do { add list=ET address=149.11.240.191/32 } on-error={}
 :do { add list=ET address=154.209.21.8/30 } on-error={}
 :do { add list=ET address=157.167.99.0/24 } on-error={}
 :do { add list=ET address=159.26.127.44/30 } on-error={}
@@ -123,4 +122,5 @@
 :do { add list=ET address=197.156.64.0/18 } on-error={}
 :do { add list=ET address=197.234.95.0/24 } on-error={}
 :do { add list=ET address=203.82.18.18/32 } on-error={}
+:do { add list=ET address=212.32.81.16/32 } on-error={}
 :do { add list=ET address=213.55.64.0/18 } on-error={}

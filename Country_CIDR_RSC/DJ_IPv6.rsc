@@ -146,6 +146,7 @@
 :do { add list=DJ address=2001:470:e1fb::/48 } on-error={}
 :do { add list=DJ address=2001:470:e205::/48 } on-error={}
 :do { add list=DJ address=2001:470:eb38::/48 } on-error={}
+:do { add list=DJ address=2001:470:ef19::/48 } on-error={}
 :do { add list=DJ address=2001:470:fe71::/48 } on-error={}
 :do { add list=DJ address=2001:67c:a38:f253::/64 } on-error={}
 :do { add list=DJ address=2001:688:0:3:8::2f2/128 } on-error={}

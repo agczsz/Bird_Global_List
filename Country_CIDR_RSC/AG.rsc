@@ -1,6 +1,7 @@
 /log info "Loading AG IPv4 Address List"
 /ip firewall address-list
-:do { add list=AG address=2.153.0.0/16 } on-error={}
+:do { add list=AG address=2.153.0.0/17 } on-error={}
+:do { add list=AG address=2.153.192.0/18 } on-error={}
 :do { add list=AG address=5.62.56.12/30 } on-error={}
 :do { add list=AG address=5.62.58.12/30 } on-error={}
 :do { add list=AG address=23.132.144.0/24 } on-error={}
@@ -25,7 +26,8 @@
 :do { add list=AG address=69.57.235.0/24 } on-error={}
 :do { add list=AG address=69.57.242.0/24 } on-error={}
 :do { add list=AG address=69.57.244.0/22 } on-error={}
-:do { add list=AG address=69.57.250.0/23 } on-error={}
+:do { add list=AG address=69.57.250.128/25 } on-error={}
+:do { add list=AG address=69.57.251.0/24 } on-error={}
 :do { add list=AG address=69.57.252.0/24 } on-error={}
 :do { add list=AG address=76.76.160.0/22 } on-error={}
 :do { add list=AG address=76.76.181.0/24 } on-error={}
@@ -33,9 +35,7 @@
 :do { add list=AG address=76.76.184.0/24 } on-error={}
 :do { add list=AG address=76.76.187.0/24 } on-error={}
 :do { add list=AG address=76.76.190.0/23 } on-error={}
-:do { add list=AG address=91.108.40.0/24 } on-error={}
 :do { add list=AG address=91.212.88.0/24 } on-error={}
-:do { add list=AG address=95.140.81.0/24 } on-error={}
 :do { add list=AG address=95.161.244.0/22 } on-error={}
 :do { add list=AG address=104.28.8.10/31 } on-error={}
 :do { add list=AG address=104.28.8.12/32 } on-error={}
@@ -143,6 +143,7 @@
 :do { add list=AG address=146.75.232.2/31 } on-error={}
 :do { add list=AG address=146.75.248.2/31 } on-error={}
 :do { add list=AG address=149.112.100.0/24 } on-error={}
+:do { add list=AG address=149.154.160.0/24 } on-error={}
 :do { add list=AG address=149.154.168.0/23 } on-error={}
 :do { add list=AG address=149.154.172.0/24 } on-error={}
 :do { add list=AG address=162.120.199.168/32 } on-error={}
@@ -221,7 +222,6 @@
 :do { add list=AG address=204.16.113.0/24 } on-error={}
 :do { add list=AG address=204.16.114.0/23 } on-error={}
 :do { add list=AG address=205.138.16.0/23 } on-error={}
-:do { add list=AG address=205.160.233.0/24 } on-error={}
 :do { add list=AG address=205.217.240.0/23 } on-error={}
 :do { add list=AG address=205.217.244.192/28 } on-error={}
 :do { add list=AG address=205.217.244.208/29 } on-error={}
@@ -230,7 +230,6 @@
 :do { add list=AG address=205.217.245.0/24 } on-error={}
 :do { add list=AG address=205.217.246.0/23 } on-error={}
 :do { add list=AG address=205.217.248.0/22 } on-error={}
-:do { add list=AG address=205.217.252.0/24 } on-error={}
 :do { add list=AG address=206.83.13.0/24 } on-error={}
 :do { add list=AG address=206.214.0.0/21 } on-error={}
 :do { add list=AG address=206.214.8.0/23 } on-error={}
@@ -247,9 +246,22 @@
 :do { add list=AG address=206.214.20.0/22 } on-error={}
 :do { add list=AG address=208.0.227.0/24 } on-error={}
 :do { add list=AG address=208.0.228.0/24 } on-error={}
-:do { add list=AG address=208.66.48.48/30 } on-error={}
-:do { add list=AG address=208.66.48.176/31 } on-error={}
+:do { add list=AG address=208.66.48.0/27 } on-error={}
+:do { add list=AG address=208.66.48.32/30 } on-error={}
+:do { add list=AG address=208.66.48.37/32 } on-error={}
+:do { add list=AG address=208.66.48.38/31 } on-error={}
+:do { add list=AG address=208.66.48.40/29 } on-error={}
+:do { add list=AG address=208.66.48.48/28 } on-error={}
+:do { add list=AG address=208.66.48.64/26 } on-error={}
+:do { add list=AG address=208.66.48.128/25 } on-error={}
 :do { add list=AG address=208.66.54.8/31 } on-error={}
+:do { add list=AG address=208.66.54.174/31 } on-error={}
+:do { add list=AG address=208.66.54.176/30 } on-error={}
+:do { add list=AG address=208.66.54.208/29 } on-error={}
+:do { add list=AG address=208.66.54.216/31 } on-error={}
+:do { add list=AG address=208.66.54.220/30 } on-error={}
+:do { add list=AG address=208.66.54.224/31 } on-error={}
+:do { add list=AG address=208.66.54.228/30 } on-error={}
 :do { add list=AG address=208.66.54.244/31 } on-error={}
 :do { add list=AG address=208.66.54.248/31 } on-error={}
 :do { add list=AG address=208.66.54.252/30 } on-error={}

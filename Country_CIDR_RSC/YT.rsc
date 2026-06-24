@@ -1,8 +1,8 @@
 /log info "Loading YT IPv4 Address List"
 /ip firewall address-list
-:do { add list=YT address=5.57.100.0/26 } on-error={}
-:do { add list=YT address=5.57.100.64/27 } on-error={}
-:do { add list=YT address=5.57.100.96/28 } on-error={}
+:do { add list=YT address=5.57.100.68/32 } on-error={}
+:do { add list=YT address=5.57.100.75/32 } on-error={}
+:do { add list=YT address=5.57.100.96/32 } on-error={}
 :do { add list=YT address=41.242.116.0/22 } on-error={}
 :do { add list=YT address=46.193.53.121/32 } on-error={}
 :do { add list=YT address=46.193.53.149/32 } on-error={}
@@ -14,8 +14,7 @@
 :do { add list=YT address=92.142.148.0/23 } on-error={}
 :do { add list=YT address=92.142.151.0/24 } on-error={}
 :do { add list=YT address=92.142.152.0/24 } on-error={}
-:do { add list=YT address=92.142.154.0/24 } on-error={}
-:do { add list=YT address=92.142.155.128/25 } on-error={}
+:do { add list=YT address=92.142.154.0/23 } on-error={}
 :do { add list=YT address=92.142.159.0/24 } on-error={}
 :do { add list=YT address=92.142.168.0/24 } on-error={}
 :do { add list=YT address=92.142.169.128/25 } on-error={}
@@ -27,8 +26,14 @@
 :do { add list=YT address=92.142.196.0/22 } on-error={}
 :do { add list=YT address=92.142.208.128/25 } on-error={}
 :do { add list=YT address=92.142.209.0/24 } on-error={}
-:do { add list=YT address=92.142.211.0/24 } on-error={}
-:do { add list=YT address=92.142.212.0/22 } on-error={}
+:do { add list=YT address=92.142.211.128/25 } on-error={}
+:do { add list=YT address=92.142.212.0/24 } on-error={}
+:do { add list=YT address=92.142.213.0/26 } on-error={}
+:do { add list=YT address=92.142.213.64/27 } on-error={}
+:do { add list=YT address=92.142.213.96/28 } on-error={}
+:do { add list=YT address=92.142.213.112/29 } on-error={}
+:do { add list=YT address=92.142.213.128/25 } on-error={}
+:do { add list=YT address=92.142.214.0/23 } on-error={}
 :do { add list=YT address=92.142.216.0/24 } on-error={}
 :do { add list=YT address=92.142.218.0/23 } on-error={}
 :do { add list=YT address=92.142.220.64/26 } on-error={}

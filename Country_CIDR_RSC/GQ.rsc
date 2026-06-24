@@ -76,7 +76,7 @@
 :do { add list=GQ address=196.251.240.0/22 } on-error={}
 :do { add list=GQ address=197.149.168.0/22 } on-error={}
 :do { add list=GQ address=197.214.64.0/30 } on-error={}
-:do { add list=GQ address=197.214.64.12/30 } on-error={}
+:do { add list=GQ address=197.214.64.8/29 } on-error={}
 :do { add list=GQ address=197.214.64.17/32 } on-error={}
 :do { add list=GQ address=197.214.64.18/31 } on-error={}
 :do { add list=GQ address=197.214.64.20/30 } on-error={}
@@ -84,11 +84,8 @@
 :do { add list=GQ address=197.214.64.28/32 } on-error={}
 :do { add list=GQ address=197.214.64.30/31 } on-error={}
 :do { add list=GQ address=197.214.64.32/27 } on-error={}
-:do { add list=GQ address=197.214.64.66/32 } on-error={}
-:do { add list=GQ address=197.214.64.68/30 } on-error={}
 :do { add list=GQ address=197.214.64.72/29 } on-error={}
-:do { add list=GQ address=197.214.64.81/32 } on-error={}
-:do { add list=GQ address=197.214.64.82/31 } on-error={}
+:do { add list=GQ address=197.214.64.88/30 } on-error={}
 :do { add list=GQ address=197.214.64.93/32 } on-error={}
 :do { add list=GQ address=197.214.64.94/31 } on-error={}
 :do { add list=GQ address=197.214.64.96/31 } on-error={}
@@ -101,7 +98,8 @@
 :do { add list=GQ address=197.214.64.120/30 } on-error={}
 :do { add list=GQ address=197.214.64.128/25 } on-error={}
 :do { add list=GQ address=197.214.65.0/24 } on-error={}
-:do { add list=GQ address=197.214.66.4/30 } on-error={}
+:do { add list=GQ address=197.214.66.4/31 } on-error={}
+:do { add list=GQ address=197.214.66.11/32 } on-error={}
 :do { add list=GQ address=197.214.66.17/32 } on-error={}
 :do { add list=GQ address=197.214.66.18/31 } on-error={}
 :do { add list=GQ address=197.214.66.20/30 } on-error={}
@@ -109,6 +107,7 @@
 :do { add list=GQ address=197.214.66.36/30 } on-error={}
 :do { add list=GQ address=197.214.66.40/30 } on-error={}
 :do { add list=GQ address=197.214.66.44/31 } on-error={}
+:do { add list=GQ address=197.214.66.48/30 } on-error={}
 :do { add list=GQ address=197.214.66.56/31 } on-error={}
 :do { add list=GQ address=197.214.66.128/25 } on-error={}
 :do { add list=GQ address=197.214.67.0/24 } on-error={}

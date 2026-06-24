@@ -1,5 +1,6 @@
 /log info "Loading BH IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=BH address=2001:470:1f15:598::/64 } on-error={}
 :do { add list=BH address=2001:470:1f29:1d5::/64 } on-error={}
 :do { add list=BH address=2001:470:1f29:3a2::/64 } on-error={}
 :do { add list=BH address=2001:470:1f29:3e9::/64 } on-error={}
@@ -322,11 +323,21 @@
 :do { add list=BH address=2a0a:be01:9000:8000::/49 } on-error={}
 :do { add list=BH address=2a0a:be01:9001:4000::/50 } on-error={}
 :do { add list=BH address=2a0a:be01:9001:8000::/49 } on-error={}
-:do { add list=BH address=2a0a:e5c0:2:10::3ed8:9b3e/128 } on-error={}
+:do { add list=BH address=2a0a:e5c0:2:10::3ed8:9000/116 } on-error={}
 :do { add list=BH address=2a0b:4e07:3:480::/60 } on-error={}
 :do { add list=BH address=2a0c:9a40:95b1:1000::/52 } on-error={}
 :do { add list=BH address=2a0c:9a46:317::/48 } on-error={}
 :do { add list=BH address=2a0c:9a46:3fe:16::/64 } on-error={}
+:do { add list=BH address=2a0d:2681:4400:4000::/50 } on-error={}
+:do { add list=BH address=2a0d:2681:4400:8000::/49 } on-error={}
+:do { add list=BH address=2a0d:2681:4401::/48 } on-error={}
+:do { add list=BH address=2a0d:2681:4402::/47 } on-error={}
+:do { add list=BH address=2a0d:2681:4404::/46 } on-error={}
+:do { add list=BH address=2a0d:2681:4408::/45 } on-error={}
+:do { add list=BH address=2a0d:2681:4410::/44 } on-error={}
+:do { add list=BH address=2a0d:2681:4420::/43 } on-error={}
+:do { add list=BH address=2a0d:2681:4440::/42 } on-error={}
+:do { add list=BH address=2a0d:2681:4480::/41 } on-error={}
 :do { add list=BH address=2a0d:3341:c300::/42 } on-error={}
 :do { add list=BH address=2a0d:3341:f100::/40 } on-error={}
 :do { add list=BH address=2a0d:3344:1200::/42 } on-error={}

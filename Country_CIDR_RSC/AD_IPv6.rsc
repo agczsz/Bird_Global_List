@@ -1,9 +1,7 @@
 /log info "Loading AD IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=AD address=2001:470:1d:361::/64 } on-error={}
-:do { add list=AD address=2001:470:24:4f4::/64 } on-error={}
 :do { add list=AD address=2001:470:24:1345::/64 } on-error={}
-:do { add list=AD address=2001:470:28:e54::/64 } on-error={}
 :do { add list=AD address=2001:470:6f:f4::/64 } on-error={}
 :do { add list=AD address=2001:470:1860::/48 } on-error={}
 :do { add list=AD address=2001:470:1f1b:20d::/64 } on-error={}
@@ -21,7 +19,7 @@
 :do { add list=AD address=2001:470:70d0::/48 } on-error={}
 :do { add list=AD address=2001:470:80c0::/48 } on-error={}
 :do { add list=AD address=2001:470:80e9::/48 } on-error={}
-:do { add list=AD address=2001:470:b727::/48 } on-error={}
+:do { add list=AD address=2001:470:b6e9::/48 } on-error={}
 :do { add list=AD address=2001:470:b8fc::/48 } on-error={}
 :do { add list=AD address=2001:470:c160::/48 } on-error={}
 :do { add list=AD address=2001:470:c816::/48 } on-error={}
@@ -57,6 +55,8 @@
 :do { add list=AD address=2600:70ff:ab15::/48 } on-error={}
 :do { add list=AD address=2600:70ff:b982::/48 } on-error={}
 :do { add list=AD address=2606:40:610::/44 } on-error={}
+:do { add list=AD address=2606:40:620::/46 } on-error={}
+:do { add list=AD address=2606:40:678::/45 } on-error={}
 :do { add list=AD address=2606:40:720::/44 } on-error={}
 :do { add list=AD address=2606:40:8d0::/45 } on-error={}
 :do { add list=AD address=2606:40:94c::/46 } on-error={}
