@@ -249,7 +249,7 @@
 :do { add list=MD address=2a03:6947:1320::/43 } on-error={}
 :do { add list=MD address=2a03:6947:1340::/42 } on-error={}
 :do { add list=MD address=2a03:6947:1380::/41 } on-error={}
-:do { add list=MD address=2a03:90c0:420::/44 } on-error={}
+:do { add list=MD address=2a03:90c0:425::/64 } on-error={}
 :do { add list=MD address=2a03:b600:0:10fb::/64 } on-error={}
 :do { add list=MD address=2a03:b600:0:10fc::/62 } on-error={}
 :do { add list=MD address=2a03:b600:0:1100::/61 } on-error={}

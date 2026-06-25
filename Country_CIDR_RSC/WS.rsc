@@ -8,6 +8,7 @@
 :do { add list=WS address=43.241.164.192/26 } on-error={}
 :do { add list=WS address=57.70.168.0/23 } on-error={}
 :do { add list=WS address=57.71.16.0/20 } on-error={}
+:do { add list=WS address=82.25.20.0/24 } on-error={}
 :do { add list=WS address=103.9.230.0/23 } on-error={}
 :do { add list=WS address=103.55.178.0/24 } on-error={}
 :do { add list=WS address=103.63.27.0/24 } on-error={}

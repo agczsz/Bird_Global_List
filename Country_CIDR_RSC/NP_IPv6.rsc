@@ -166,7 +166,6 @@
 :do { add list=NP address=2401:c220::/32 } on-error={}
 :do { add list=NP address=2401:f8a0::/32 } on-error={}
 :do { add list=NP address=2401:f9e0::/32 } on-error={}
-:do { add list=NP address=2401:fbe0::/32 } on-error={}
 :do { add list=NP address=2401:ff40::/32 } on-error={}
 :do { add list=NP address=2402:16a0::/32 } on-error={}
 :do { add list=NP address=2402:1dc0::/32 } on-error={}

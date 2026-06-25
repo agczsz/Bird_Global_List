@@ -151,6 +151,7 @@
 :do { add list=TZ address=2405:b500:74c0:1778::/64 } on-error={}
 :do { add list=TZ address=2405:b500:74e0::/64 } on-error={}
 :do { add list=TZ address=2405:b500:74e0:1778::/64 } on-error={}
+:do { add list=TZ address=2600:1416:1002::/48 } on-error={}
 :do { add list=TZ address=2600:70ff:a5be::/48 } on-error={}
 :do { add list=TZ address=2600:70ff:e83f::/48 } on-error={}
 :do { add list=TZ address=2602:fd92:b00:172::/64 } on-error={}

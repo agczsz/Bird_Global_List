@@ -238,6 +238,7 @@
 :do { add list=RS address=77.247.200.0/21 } on-error={}
 :do { add list=RS address=78.24.104.0/21 } on-error={}
 :do { add list=RS address=78.30.128.0/18 } on-error={}
+:do { add list=RS address=78.105.239.0/24 } on-error={}
 :do { add list=RS address=78.109.96.0/24 } on-error={}
 :do { add list=RS address=78.109.97.0/24 } on-error={}
 :do { add list=RS address=78.109.98.0/23 } on-error={}
@@ -1612,7 +1613,6 @@
 :do { add list=RS address=188.255.226.0/24 } on-error={}
 :do { add list=RS address=188.255.228.0/23 } on-error={}
 :do { add list=RS address=188.255.232.0/22 } on-error={}
-:do { add list=RS address=188.255.236.0/24 } on-error={}
 :do { add list=RS address=188.255.237.0/24 } on-error={}
 :do { add list=RS address=188.255.238.0/24 } on-error={}
 :do { add list=RS address=188.255.239.0/24 } on-error={}

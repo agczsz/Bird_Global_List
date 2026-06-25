@@ -5416,9 +5416,6 @@
 :do { add list=CO address=2803:b9c0:43c1::/48 } on-error={}
 :do { add list=CO address=2803:b9c0:43c2::/47 } on-error={}
 :do { add list=CO address=2803:b9c0:43c4::/46 } on-error={}
-:do { add list=CO address=2803:b9c0:43c8::/45 } on-error={}
-:do { add list=CO address=2803:b9c0:43d0::/44 } on-error={}
-:do { add list=CO address=2803:b9c0:43e0::/43 } on-error={}
 :do { add list=CO address=2803:b9c0:4400::/38 } on-error={}
 :do { add list=CO address=2803:b9c0:4820::/43 } on-error={}
 :do { add list=CO address=2803:b9c0:4840::/42 } on-error={}

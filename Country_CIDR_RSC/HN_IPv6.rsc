@@ -216,6 +216,7 @@
 :do { add list=HN address=2803:4600:1014:b8d9::/64 } on-error={}
 :do { add list=HN address=2803:4600:1015:b500::/56 } on-error={}
 :do { add list=HN address=2803:4600:1016:4000::/50 } on-error={}
+:do { add list=HN address=2803:4600:1017:4e00::/56 } on-error={}
 :do { add list=HN address=2803:4600:1017:d200::/56 } on-error={}
 :do { add list=HN address=2803:4600:101a:b700::/56 } on-error={}
 :do { add list=HN address=2803:4600:101b:a00::/56 } on-error={}

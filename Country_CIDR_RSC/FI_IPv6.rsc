@@ -21122,6 +21122,8 @@
 :do { add list=FI address=2a0b:dbc0::/29 } on-error={}
 :do { add list=FI address=2a0b:e6c0::/29 } on-error={}
 :do { add list=FI address=2a0b:f240::/29 } on-error={}
+:do { add list=FI address=2a0c:5c5:ffff:4000::/50 } on-error={}
+:do { add list=FI address=2a0c:5c5:ffff:8000::/49 } on-error={}
 :do { add list=FI address=2a0c:dc0::/29 } on-error={}
 :do { add list=FI address=2a0c:1540::/29 } on-error={}
 :do { add list=FI address=2a0c:1940::/44 } on-error={}
