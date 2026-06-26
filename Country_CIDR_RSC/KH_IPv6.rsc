@@ -962,7 +962,11 @@
 :do { add list=KH address=2405:1a00::/32 } on-error={}
 :do { add list=KH address=2405:3900::/32 } on-error={}
 :do { add list=KH address=2405:4200:5200::/40 } on-error={}
-:do { add list=KH address=2405:8380::/32 } on-error={}
+:do { add list=KH address=2405:8380::/36 } on-error={}
+:do { add list=KH address=2405:8380:1000::/36 } on-error={}
+:do { add list=KH address=2405:8380:2000::/35 } on-error={}
+:do { add list=KH address=2405:8380:4000::/34 } on-error={}
+:do { add list=KH address=2405:8380:8000::/33 } on-error={}
 :do { add list=KH address=2405:aa00::/32 } on-error={}
 :do { add list=KH address=2405:b500:3c80::/64 } on-error={}
 :do { add list=KH address=2405:b500:3ca0::/64 } on-error={}

@@ -64,7 +64,7 @@
 :do { add list=VA address=2a01:b9::/32 } on-error={}
 :do { add list=VA address=2a01:ba::/31 } on-error={}
 :do { add list=VA address=2a01:bc::/30 } on-error={}
-:do { add list=VA address=2a01:4f9:2a:14e2:310::ce69/128 } on-error={}
+:do { add list=VA address=2a01:4f9:2a:14e2::/64 } on-error={}
 :do { add list=VA address=2a01:528:f300::/40 } on-error={}
 :do { add list=VA address=2a02:26f7:c100::/48 } on-error={}
 :do { add list=VA address=2a02:26f7:c101::/48 } on-error={}

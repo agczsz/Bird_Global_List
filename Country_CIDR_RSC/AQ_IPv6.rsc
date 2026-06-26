@@ -1266,8 +1266,6 @@
 :do { add list=AQ address=2602:f43b:ff::/48 } on-error={}
 :do { add list=AQ address=2602:f72e:23::/48 } on-error={}
 :do { add list=AQ address=2602:f72e:26::/48 } on-error={}
-:do { add list=AQ address=2602:f77c:100:4000::/50 } on-error={}
-:do { add list=AQ address=2602:f77c:100:8000::/49 } on-error={}
 :do { add list=AQ address=2602:f77c:109::/48 } on-error={}
 :do { add list=AQ address=2602:f77c:10a:4000::/50 } on-error={}
 :do { add list=AQ address=2602:f77c:10a:8000::/49 } on-error={}

@@ -357,7 +357,6 @@
 :do { add list=FI address=23.103.144.0/27 } on-error={}
 :do { add list=FI address=23.103.230.128/25 } on-error={}
 :do { add list=FI address=23.103.245.32/27 } on-error={}
-:do { add list=FI address=23.161.104.134/32 } on-error={}
 :do { add list=FI address=23.164.240.0/24 } on-error={}
 :do { add list=FI address=23.236.111.0/24 } on-error={}
 :do { add list=FI address=23.246.60.20/32 } on-error={}
@@ -934,6 +933,7 @@
 :do { add list=FI address=44.32.70.12/30 } on-error={}
 :do { add list=FI address=44.32.70.16/28 } on-error={}
 :do { add list=FI address=44.32.70.253/32 } on-error={}
+:do { add list=FI address=44.61.18.208/28 } on-error={}
 :do { add list=FI address=44.61.31.160/27 } on-error={}
 :do { add list=FI address=44.139.11.0/24 } on-error={}
 :do { add list=FI address=44.139.48.0/24 } on-error={}
@@ -942,6 +942,7 @@
 :do { add list=FI address=44.139.50.122/31 } on-error={}
 :do { add list=FI address=44.139.50.124/30 } on-error={}
 :do { add list=FI address=44.139.50.128/25 } on-error={}
+:do { add list=FI address=45.8.23.0/24 } on-error={}
 :do { add list=FI address=45.8.52.0/24 } on-error={}
 :do { add list=FI address=45.8.53.0/24 } on-error={}
 :do { add list=FI address=45.8.54.0/23 } on-error={}
@@ -3370,8 +3371,7 @@
 :do { add list=FI address=89.169.96.0/20 } on-error={}
 :do { add list=FI address=89.169.112.0/22 } on-error={}
 :do { add list=FI address=89.169.116.0/22 } on-error={}
-:do { add list=FI address=89.169.120.0/22 } on-error={}
-:do { add list=FI address=89.169.124.0/22 } on-error={}
+:do { add list=FI address=89.169.120.0/21 } on-error={}
 :do { add list=FI address=89.190.0.0/22 } on-error={}
 :do { add list=FI address=89.190.4.0/23 } on-error={}
 :do { add list=FI address=89.190.6.0/24 } on-error={}
@@ -5871,6 +5871,7 @@
 :do { add list=FI address=167.148.86.254/31 } on-error={}
 :do { add list=FI address=167.150.223.32/29 } on-error={}
 :do { add list=FI address=167.150.223.40/30 } on-error={}
+:do { add list=FI address=167.150.223.48/30 } on-error={}
 :do { add list=FI address=167.167.170.0/24 } on-error={}
 :do { add list=FI address=168.222.253.0/24 } on-error={}
 :do { add list=FI address=170.168.28.0/25 } on-error={}
@@ -7991,6 +7992,7 @@
 :do { add list=FI address=195.8.63.0/24 } on-error={}
 :do { add list=FI address=195.10.128.0/18 } on-error={}
 :do { add list=FI address=195.12.227.80/28 } on-error={}
+:do { add list=FI address=195.12.228.0/29 } on-error={}
 :do { add list=FI address=195.12.229.120/29 } on-error={}
 :do { add list=FI address=195.12.230.208/29 } on-error={}
 :do { add list=FI address=195.12.233.0/24 } on-error={}

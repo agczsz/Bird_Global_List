@@ -3,10 +3,12 @@
 :do { add list=CV address=2001:470:67:5e1::/64 } on-error={}
 :do { add list=CV address=2001:470:71:6ef::/64 } on-error={}
 :do { add list=CV address=2001:470:1f05:229::/64 } on-error={}
+:do { add list=CV address=2001:470:293d::/48 } on-error={}
 :do { add list=CV address=2001:470:4ac2::/48 } on-error={}
 :do { add list=CV address=2001:470:829f::/48 } on-error={}
 :do { add list=CV address=2001:470:8821::/48 } on-error={}
 :do { add list=CV address=2001:470:8822::/48 } on-error={}
+:do { add list=CV address=2001:470:8886::/48 } on-error={}
 :do { add list=CV address=2001:67c:a38:f238::/64 } on-error={}
 :do { add list=CV address=2001:43f8:16c0::/47 } on-error={}
 :do { add list=CV address=2001:43fc:1000::/48 } on-error={}

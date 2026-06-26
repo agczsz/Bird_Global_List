@@ -173,7 +173,6 @@
 :do { add list=TZ address=2607:8940:4290:8600::/56 } on-error={}
 :do { add list=TZ address=2620:0:876:840::2/128 } on-error={}
 :do { add list=TZ address=2620:0:876:4000::/55 } on-error={}
-:do { add list=TZ address=2620:0:1cff:dead:beee::1ac5/128 } on-error={}
 :do { add list=TZ address=2620:171:85::/48 } on-error={}
 :do { add list=TZ address=2a00:ca0:2003:4000::/52 } on-error={}
 :do { add list=TZ address=2a00:ca0:2005:4000::/52 } on-error={}
