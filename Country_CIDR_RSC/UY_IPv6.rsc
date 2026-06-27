@@ -21176,7 +21176,11 @@
 :do { add list=UY address=2803:c522::/31 } on-error={}
 :do { add list=UY address=2803:c524::/30 } on-error={}
 :do { add list=UY address=2803:c528::/29 } on-error={}
-:do { add list=UY address=2803:c530::/28 } on-error={}
+:do { add list=UY address=2803:c530::/32 } on-error={}
+:do { add list=UY address=2803:c531::/32 } on-error={}
+:do { add list=UY address=2803:c532::/31 } on-error={}
+:do { add list=UY address=2803:c534::/30 } on-error={}
+:do { add list=UY address=2803:c538::/29 } on-error={}
 :do { add list=UY address=2803:c541::/32 } on-error={}
 :do { add list=UY address=2803:c542::/31 } on-error={}
 :do { add list=UY address=2803:c544::/30 } on-error={}

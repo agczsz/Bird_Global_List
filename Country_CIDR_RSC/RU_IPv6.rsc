@@ -14869,7 +14869,9 @@
 :do { add list=RU address=2a04:5202:4000::/34 } on-error={}
 :do { add list=RU address=2a04:5202:8000::/33 } on-error={}
 :do { add list=RU address=2a04:5203::/32 } on-error={}
-:do { add list=RU address=2a04:5204::/30 } on-error={}
+:do { add list=RU address=2a04:5204::/31 } on-error={}
+:do { add list=RU address=2a04:5206::/32 } on-error={}
+:do { add list=RU address=2a04:5207::/32 } on-error={}
 :do { add list=RU address=2a04:5500::/29 } on-error={}
 :do { add list=RU address=2a04:6000::/29 } on-error={}
 :do { add list=RU address=2a04:61c0::/29 } on-error={}
@@ -17022,8 +17024,7 @@
 :do { add list=RU address=2a09:bac6:5160::/43 } on-error={}
 :do { add list=RU address=2a09:bac6:5180::/41 } on-error={}
 :do { add list=RU address=2a09:bac6:d948::/45 } on-error={}
-:do { add list=RU address=2a09:bd00::/48 } on-error={}
-:do { add list=RU address=2a09:bd00:1::/48 } on-error={}
+:do { add list=RU address=2a09:bd00::/47 } on-error={}
 :do { add list=RU address=2a09:bd00:2::/47 } on-error={}
 :do { add list=RU address=2a09:bd00:4::/46 } on-error={}
 :do { add list=RU address=2a09:bd00:8::/45 } on-error={}

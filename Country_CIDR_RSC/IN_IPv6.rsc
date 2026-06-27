@@ -9361,7 +9361,8 @@
 :do { add list=IN address=2402:6160::/32 } on-error={}
 :do { add list=IN address=2402:61a0::/36 } on-error={}
 :do { add list=IN address=2402:61a0:1000::/36 } on-error={}
-:do { add list=IN address=2402:61a0:2000::/35 } on-error={}
+:do { add list=IN address=2402:61a0:2000::/36 } on-error={}
+:do { add list=IN address=2402:61a0:3000::/36 } on-error={}
 :do { add list=IN address=2402:61a0:4000::/34 } on-error={}
 :do { add list=IN address=2402:61a0:8000::/33 } on-error={}
 :do { add list=IN address=2402:62e0::/32 } on-error={}

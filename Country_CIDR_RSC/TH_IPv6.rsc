@@ -2075,7 +2075,11 @@
 :do { add list=TH address=2400:ea00:d000::/36 } on-error={}
 :do { add list=TH address=2400:ea00:e000::/35 } on-error={}
 :do { add list=TH address=2400:f4c0::/32 } on-error={}
-:do { add list=TH address=2401:500::/32 } on-error={}
+:do { add list=TH address=2401:500::/36 } on-error={}
+:do { add list=TH address=2401:500:1000::/36 } on-error={}
+:do { add list=TH address=2401:500:2000::/35 } on-error={}
+:do { add list=TH address=2401:500:4000::/34 } on-error={}
+:do { add list=TH address=2401:500:8000::/33 } on-error={}
 :do { add list=TH address=2401:8e0:a::/47 } on-error={}
 :do { add list=TH address=2401:8e0:c::/46 } on-error={}
 :do { add list=TH address=2401:8e0:10::/44 } on-error={}

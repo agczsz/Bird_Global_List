@@ -935,10 +935,7 @@
 :do { add list=MX address=38.210.13.0/24 } on-error={}
 :do { add list=MX address=38.210.20.0/23 } on-error={}
 :do { add list=MX address=38.210.68.0/22 } on-error={}
-:do { add list=MX address=38.210.176.0/24 } on-error={}
-:do { add list=MX address=38.210.177.0/24 } on-error={}
-:do { add list=MX address=38.210.178.0/24 } on-error={}
-:do { add list=MX address=38.210.179.0/24 } on-error={}
+:do { add list=MX address=38.210.176.0/22 } on-error={}
 :do { add list=MX address=38.210.188.0/24 } on-error={}
 :do { add list=MX address=38.210.200.0/22 } on-error={}
 :do { add list=MX address=38.210.252.0/23 } on-error={}

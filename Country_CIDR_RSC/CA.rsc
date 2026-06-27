@@ -7311,7 +7311,10 @@
 :do { add list=CA address=65.111.144.0/23 } on-error={}
 :do { add list=CA address=65.111.146.0/23 } on-error={}
 :do { add list=CA address=65.111.148.0/22 } on-error={}
-:do { add list=CA address=65.111.152.0/21 } on-error={}
+:do { add list=CA address=65.111.152.0/24 } on-error={}
+:do { add list=CA address=65.111.153.0/24 } on-error={}
+:do { add list=CA address=65.111.154.0/23 } on-error={}
+:do { add list=CA address=65.111.156.0/22 } on-error={}
 :do { add list=CA address=65.151.128.0/21 } on-error={}
 :do { add list=CA address=65.151.136.0/22 } on-error={}
 :do { add list=CA address=65.153.109.26/32 } on-error={}

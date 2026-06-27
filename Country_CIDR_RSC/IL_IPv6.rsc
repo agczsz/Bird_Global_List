@@ -4910,9 +4910,7 @@
 :do { add list=IL address=2a13:b280::/29 } on-error={}
 :do { add list=IL address=2a13:b680::/29 } on-error={}
 :do { add list=IL address=2a13:c480::/46 } on-error={}
-:do { add list=IL address=2a13:c480:4::/47 } on-error={}
-:do { add list=IL address=2a13:c480:6::/48 } on-error={}
-:do { add list=IL address=2a13:c480:7::/48 } on-error={}
+:do { add list=IL address=2a13:c480:4::/46 } on-error={}
 :do { add list=IL address=2a13:c480:8::/45 } on-error={}
 :do { add list=IL address=2a13:c480:10::/44 } on-error={}
 :do { add list=IL address=2a13:c480:20::/43 } on-error={}

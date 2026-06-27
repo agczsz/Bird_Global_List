@@ -393,7 +393,8 @@
 :do { add list=AL address=2001:3786:4400::/42 } on-error={}
 :do { add list=AL address=2001:3786:4440::/46 } on-error={}
 :do { add list=AL address=2001:3786:4445::/48 } on-error={}
-:do { add list=AL address=2001:3786:4446::/47 } on-error={}
+:do { add list=AL address=2001:3786:4446::/48 } on-error={}
+:do { add list=AL address=2001:3786:4447::/48 } on-error={}
 :do { add list=AL address=2001:3786:4448::/45 } on-error={}
 :do { add list=AL address=2001:3786:4450::/46 } on-error={}
 :do { add list=AL address=2001:3786:4454::/48 } on-error={}

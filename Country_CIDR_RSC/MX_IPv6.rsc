@@ -3633,7 +3633,8 @@
 :do { add list=MX address=2801:c4:e5::/48 } on-error={}
 :do { add list=MX address=2801:c4:e6::/47 } on-error={}
 :do { add list=MX address=2801:c4:e8::/46 } on-error={}
-:do { add list=MX address=2801:c4:ec::/46 } on-error={}
+:do { add list=MX address=2801:c4:ec::/47 } on-error={}
+:do { add list=MX address=2801:c4:ee::/47 } on-error={}
 :do { add list=MX address=2801:c4:f0::/44 } on-error={}
 :do { add list=MX address=2801:c4:200::/44 } on-error={}
 :do { add list=MX address=2801:c4:210::/47 } on-error={}

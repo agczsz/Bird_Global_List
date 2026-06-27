@@ -6621,7 +6621,11 @@
 :do { add list=TR address=2a0a:280:1520::/43 } on-error={}
 :do { add list=TR address=2a0a:280:1540::/42 } on-error={}
 :do { add list=TR address=2a0a:280:1580::/41 } on-error={}
-:do { add list=TR address=2a0a:280:3700::/40 } on-error={}
+:do { add list=TR address=2a0a:280:3700::/44 } on-error={}
+:do { add list=TR address=2a0a:280:3710::/44 } on-error={}
+:do { add list=TR address=2a0a:280:3720::/43 } on-error={}
+:do { add list=TR address=2a0a:280:3740::/42 } on-error={}
+:do { add list=TR address=2a0a:280:3780::/41 } on-error={}
 :do { add list=TR address=2a0a:1900::/29 } on-error={}
 :do { add list=TR address=2a0a:1bc0::/29 } on-error={}
 :do { add list=TR address=2a0a:1f46:0:4000::/50 } on-error={}
