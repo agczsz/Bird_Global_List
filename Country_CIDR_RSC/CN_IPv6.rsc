@@ -12267,8 +12267,7 @@
 :do { add list=CN address=2408:400c::/30 } on-error={}
 :do { add list=CN address=2408:4010::/30 } on-error={}
 :do { add list=CN address=2408:4014::/31 } on-error={}
-:do { add list=CN address=2408:4016::/48 } on-error={}
-:do { add list=CN address=2408:4016:1::/48 } on-error={}
+:do { add list=CN address=2408:4016::/47 } on-error={}
 :do { add list=CN address=2408:4016:2::/48 } on-error={}
 :do { add list=CN address=2408:4016:3::/48 } on-error={}
 :do { add list=CN address=2408:4016:4::/46 } on-error={}
@@ -52358,10 +52357,7 @@
 :do { add list=CN address=240e:982:dad4::/47 } on-error={}
 :do { add list=CN address=240e:982:dad6::/48 } on-error={}
 :do { add list=CN address=240e:982:dad7::/48 } on-error={}
-:do { add list=CN address=240e:982:dad8::/47 } on-error={}
-:do { add list=CN address=240e:982:dada::/48 } on-error={}
-:do { add list=CN address=240e:982:dadb::/48 } on-error={}
-:do { add list=CN address=240e:982:dadc::/46 } on-error={}
+:do { add list=CN address=240e:982:dad8::/45 } on-error={}
 :do { add list=CN address=240e:982:dae0::/44 } on-error={}
 :do { add list=CN address=240e:982:daf0::/48 } on-error={}
 :do { add list=CN address=240e:982:daf1::/48 } on-error={}
@@ -56739,7 +56735,13 @@
 :do { add list=CN address=2a0f:1cc5:1c32::/47 } on-error={}
 :do { add list=CN address=2a0f:1cc5:1c34::/46 } on-error={}
 :do { add list=CN address=2a0f:1cc5:1c38::/45 } on-error={}
-:do { add list=CN address=2a0f:1cc5:1c40::/42 } on-error={}
+:do { add list=CN address=2a0f:1cc5:1c40::/48 } on-error={}
+:do { add list=CN address=2a0f:1cc5:1c41::/48 } on-error={}
+:do { add list=CN address=2a0f:1cc5:1c42::/47 } on-error={}
+:do { add list=CN address=2a0f:1cc5:1c44::/46 } on-error={}
+:do { add list=CN address=2a0f:1cc5:1c48::/45 } on-error={}
+:do { add list=CN address=2a0f:1cc5:1c50::/44 } on-error={}
+:do { add list=CN address=2a0f:1cc5:1c60::/43 } on-error={}
 :do { add list=CN address=2a0f:1cc5:1c80::/42 } on-error={}
 :do { add list=CN address=2a0f:1cc5:1cc1::/48 } on-error={}
 :do { add list=CN address=2a0f:1cc5:1cc2::/47 } on-error={}

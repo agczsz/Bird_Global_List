@@ -856,10 +856,10 @@
 :do { add list=KE address=99.82.11.198/31 } on-error={}
 :do { add list=KE address=99.83.116.88/31 } on-error={}
 :do { add list=KE address=102.0.0.0/19 } on-error={}
-:do { add list=KE address=102.0.32.0/23 } on-error={}
-:do { add list=KE address=102.0.34.0/24 } on-error={}
-:do { add list=KE address=102.0.35.0/24 } on-error={}
-:do { add list=KE address=102.0.36.0/22 } on-error={}
+:do { add list=KE address=102.0.32.0/22 } on-error={}
+:do { add list=KE address=102.0.36.0/24 } on-error={}
+:do { add list=KE address=102.0.37.0/24 } on-error={}
+:do { add list=KE address=102.0.38.0/23 } on-error={}
 :do { add list=KE address=102.0.40.0/21 } on-error={}
 :do { add list=KE address=102.0.48.0/20 } on-error={}
 :do { add list=KE address=102.0.64.0/19 } on-error={}

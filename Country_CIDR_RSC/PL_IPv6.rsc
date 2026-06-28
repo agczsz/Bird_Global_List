@@ -15200,8 +15200,7 @@
 :do { add list=PL address=2a0d:1ac6::/32 } on-error={}
 :do { add list=PL address=2a0d:1d40::/29 } on-error={}
 :do { add list=PL address=2a0d:2406:514::/48 } on-error={}
-:do { add list=PL address=2a0d:2406:516::/48 } on-error={}
-:do { add list=PL address=2a0d:2406:517::/48 } on-error={}
+:do { add list=PL address=2a0d:2406:516::/47 } on-error={}
 :do { add list=PL address=2a0d:2406:518::/45 } on-error={}
 :do { add list=PL address=2a0d:2681:3300:4000::/50 } on-error={}
 :do { add list=PL address=2a0d:2681:3300:8000::/49 } on-error={}

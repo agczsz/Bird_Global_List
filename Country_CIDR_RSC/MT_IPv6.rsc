@@ -104,7 +104,11 @@
 :do { add list=MT address=2a02:dd0:a00c::/48 } on-error={}
 :do { add list=MT address=2a02:dd0:a00d::/48 } on-error={}
 :do { add list=MT address=2a02:dd0:a00e::/47 } on-error={}
-:do { add list=MT address=2a02:dd0:a010::/44 } on-error={}
+:do { add list=MT address=2a02:dd0:a010::/46 } on-error={}
+:do { add list=MT address=2a02:dd0:a014::/48 } on-error={}
+:do { add list=MT address=2a02:dd0:a015::/48 } on-error={}
+:do { add list=MT address=2a02:dd0:a016::/47 } on-error={}
+:do { add list=MT address=2a02:dd0:a018::/45 } on-error={}
 :do { add list=MT address=2a02:dd0:a020::/43 } on-error={}
 :do { add list=MT address=2a02:dd0:a040::/42 } on-error={}
 :do { add list=MT address=2a02:dd0:a080::/41 } on-error={}

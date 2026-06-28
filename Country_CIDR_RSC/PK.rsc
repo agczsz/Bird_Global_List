@@ -72,7 +72,8 @@
 :do { add list=PK address=38.10.172.0/23 } on-error={}
 :do { add list=PK address=38.10.174.0/23 } on-error={}
 :do { add list=PK address=38.54.21.0/24 } on-error={}
-:do { add list=PK address=38.54.78.0/23 } on-error={}
+:do { add list=PK address=38.54.78.0/24 } on-error={}
+:do { add list=PK address=38.54.79.0/24 } on-error={}
 :do { add list=PK address=38.54.121.0/24 } on-error={}
 :do { add list=PK address=38.60.139.0/24 } on-error={}
 :do { add list=PK address=38.60.217.0/24 } on-error={}

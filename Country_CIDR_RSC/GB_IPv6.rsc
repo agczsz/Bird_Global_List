@@ -81087,7 +81087,8 @@
 :do { add list=GB address=2a0a:54c0::/32 } on-error={}
 :do { add list=GB address=2a0a:54c1::/43 } on-error={}
 :do { add list=GB address=2a0a:54c1:20::/45 } on-error={}
-:do { add list=GB address=2a0a:54c1:28::/47 } on-error={}
+:do { add list=GB address=2a0a:54c1:28::/48 } on-error={}
+:do { add list=GB address=2a0a:54c1:29::/48 } on-error={}
 :do { add list=GB address=2a0a:54c1:2a::/47 } on-error={}
 :do { add list=GB address=2a0a:54c1:2c::/46 } on-error={}
 :do { add list=GB address=2a0a:54c1:30::/44 } on-error={}
@@ -92230,9 +92231,7 @@
 :do { add list=GB address=2a13:2200:2::/47 } on-error={}
 :do { add list=GB address=2a13:2200:4::/46 } on-error={}
 :do { add list=GB address=2a13:2200:a::/47 } on-error={}
-:do { add list=GB address=2a13:2200:c::/47 } on-error={}
-:do { add list=GB address=2a13:2200:e::/48 } on-error={}
-:do { add list=GB address=2a13:2200:f::/48 } on-error={}
+:do { add list=GB address=2a13:2200:c::/46 } on-error={}
 :do { add list=GB address=2a13:2200:10:4000::/50 } on-error={}
 :do { add list=GB address=2a13:2200:10:8000::/49 } on-error={}
 :do { add list=GB address=2a13:2200:11:4000::/50 } on-error={}

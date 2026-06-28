@@ -1937,8 +1937,7 @@
 :do { add list=EC address=204.199.152.0/21 } on-error={}
 :do { add list=EC address=204.199.240.0/21 } on-error={}
 :do { add list=EC address=205.235.0.0/23 } on-error={}
-:do { add list=EC address=205.235.2.0/24 } on-error={}
-:do { add list=EC address=205.235.3.0/24 } on-error={}
+:do { add list=EC address=205.235.2.0/23 } on-error={}
 :do { add list=EC address=205.235.4.0/24 } on-error={}
 :do { add list=EC address=205.235.5.0/24 } on-error={}
 :do { add list=EC address=205.235.6.0/23 } on-error={}

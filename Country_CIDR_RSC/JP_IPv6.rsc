@@ -49299,8 +49299,7 @@
 :do { add list=JP address=2a0f:1cc5:350::/44 } on-error={}
 :do { add list=JP address=2a0f:1cc5:403:4000::/50 } on-error={}
 :do { add list=JP address=2a0f:1cc5:403:8000::/49 } on-error={}
-:do { add list=JP address=2a0f:1cc5:6a0::/48 } on-error={}
-:do { add list=JP address=2a0f:1cc5:6a1::/48 } on-error={}
+:do { add list=JP address=2a0f:1cc5:6a0::/47 } on-error={}
 :do { add list=JP address=2a0f:1cc5:6a2::/47 } on-error={}
 :do { add list=JP address=2a0f:1cc5:6a4::/46 } on-error={}
 :do { add list=JP address=2a0f:1cc5:6a8::/45 } on-error={}

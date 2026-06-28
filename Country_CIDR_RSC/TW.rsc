@@ -8588,12 +8588,8 @@
 :do { add list=TW address=211.79.192.0/20 } on-error={}
 :do { add list=TW address=211.79.208.0/20 } on-error={}
 :do { add list=TW address=211.79.224.0/19 } on-error={}
-:do { add list=TW address=211.155.192.0/22 } on-error={}
-:do { add list=TW address=211.155.196.0/22 } on-error={}
-:do { add list=TW address=211.155.200.0/21 } on-error={}
-:do { add list=TW address=211.167.32.0/21 } on-error={}
-:do { add list=TW address=211.167.40.0/21 } on-error={}
-:do { add list=TW address=211.167.48.0/20 } on-error={}
+:do { add list=TW address=211.155.192.0/20 } on-error={}
+:do { add list=TW address=211.167.32.0/19 } on-error={}
 :do { add list=TW address=211.188.20.0/24 } on-error={}
 :do { add list=TW address=211.188.26.0/24 } on-error={}
 :do { add list=TW address=212.11.42.0/23 } on-error={}
