@@ -1120,7 +1120,8 @@
 :do { add list=NZ address=2401:3bc0:100::/40 } on-error={}
 :do { add list=NZ address=2401:3bc0:200::/40 } on-error={}
 :do { add list=NZ address=2401:3bc0:301::/48 } on-error={}
-:do { add list=NZ address=2401:3bc0:302::/47 } on-error={}
+:do { add list=NZ address=2401:3bc0:302::/48 } on-error={}
+:do { add list=NZ address=2401:3bc0:303::/48 } on-error={}
 :do { add list=NZ address=2401:3bc0:304::/46 } on-error={}
 :do { add list=NZ address=2401:3bc0:308::/45 } on-error={}
 :do { add list=NZ address=2401:3bc0:310::/44 } on-error={}

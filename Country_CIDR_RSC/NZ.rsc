@@ -1980,12 +1980,7 @@
 :do { add list=NZ address=125.237.144.0/21 } on-error={}
 :do { add list=NZ address=125.237.152.0/21 } on-error={}
 :do { add list=NZ address=125.237.160.0/19 } on-error={}
-:do { add list=NZ address=125.237.192.0/21 } on-error={}
-:do { add list=NZ address=125.237.200.0/21 } on-error={}
-:do { add list=NZ address=125.237.208.0/20 } on-error={}
-:do { add list=NZ address=125.237.224.0/20 } on-error={}
-:do { add list=NZ address=125.237.240.0/21 } on-error={}
-:do { add list=NZ address=125.237.248.0/21 } on-error={}
+:do { add list=NZ address=125.237.192.0/18 } on-error={}
 :do { add list=NZ address=125.238.0.0/19 } on-error={}
 :do { add list=NZ address=125.238.32.0/20 } on-error={}
 :do { add list=NZ address=125.238.48.0/20 } on-error={}

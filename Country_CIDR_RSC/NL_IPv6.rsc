@@ -4845,7 +4845,11 @@
 :do { add list=NL address=2001:678:12aa::/47 } on-error={}
 :do { add list=NL address=2001:678:12ad::/48 } on-error={}
 :do { add list=NL address=2001:678:12ae::/47 } on-error={}
-:do { add list=NL address=2001:678:12b0::/44 } on-error={}
+:do { add list=NL address=2001:678:12b0::/46 } on-error={}
+:do { add list=NL address=2001:678:12b4::/48 } on-error={}
+:do { add list=NL address=2001:678:12b5::/48 } on-error={}
+:do { add list=NL address=2001:678:12b6::/47 } on-error={}
+:do { add list=NL address=2001:678:12b8::/45 } on-error={}
 :do { add list=NL address=2001:678:12c0::/42 } on-error={}
 :do { add list=NL address=2001:678:1300::/40 } on-error={}
 :do { add list=NL address=2001:678:1400::/38 } on-error={}

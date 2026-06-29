@@ -24002,7 +24002,10 @@
 :do { add list=BR address=2804:8638::/32 } on-error={}
 :do { add list=BR address=2804:8640::/32 } on-error={}
 :do { add list=BR address=2804:8648::/32 } on-error={}
-:do { add list=BR address=2804:864c::/32 } on-error={}
+:do { add list=BR address=2804:864c::/34 } on-error={}
+:do { add list=BR address=2804:864c:4000::/34 } on-error={}
+:do { add list=BR address=2804:864c:8000::/34 } on-error={}
+:do { add list=BR address=2804:864c:c000::/34 } on-error={}
 :do { add list=BR address=2804:8650::/32 } on-error={}
 :do { add list=BR address=2804:8654::/32 } on-error={}
 :do { add list=BR address=2804:8658::/32 } on-error={}

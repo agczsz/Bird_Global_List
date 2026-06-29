@@ -10117,8 +10117,7 @@
 :do { add list=SE address=129.178.69.0/24 } on-error={}
 :do { add list=SE address=129.178.70.0/23 } on-error={}
 :do { add list=SE address=129.178.72.0/22 } on-error={}
-:do { add list=SE address=129.178.76.0/24 } on-error={}
-:do { add list=SE address=129.178.77.0/24 } on-error={}
+:do { add list=SE address=129.178.76.0/23 } on-error={}
 :do { add list=SE address=129.178.78.0/23 } on-error={}
 :do { add list=SE address=129.178.80.0/24 } on-error={}
 :do { add list=SE address=129.178.81.0/24 } on-error={}

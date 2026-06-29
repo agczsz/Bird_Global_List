@@ -1022,7 +1022,10 @@
 :do { add list=EG address=105.198.32.0/19 } on-error={}
 :do { add list=EG address=105.198.64.0/18 } on-error={}
 :do { add list=EG address=105.198.128.0/18 } on-error={}
-:do { add list=EG address=105.198.192.0/19 } on-error={}
+:do { add list=EG address=105.198.192.0/22 } on-error={}
+:do { add list=EG address=105.198.196.0/22 } on-error={}
+:do { add list=EG address=105.198.200.0/21 } on-error={}
+:do { add list=EG address=105.198.208.0/20 } on-error={}
 :do { add list=EG address=105.198.224.0/20 } on-error={}
 :do { add list=EG address=105.198.240.0/22 } on-error={}
 :do { add list=EG address=105.198.244.0/23 } on-error={}

@@ -508,7 +508,8 @@
 :do { add list=PA address=166.88.113.0/24 } on-error={}
 :do { add list=PA address=166.88.115.0/24 } on-error={}
 :do { add list=PA address=166.88.201.0/24 } on-error={}
-:do { add list=PA address=166.88.202.0/23 } on-error={}
+:do { add list=PA address=166.88.202.0/24 } on-error={}
+:do { add list=PA address=166.88.203.0/24 } on-error={}
 :do { add list=PA address=166.88.205.0/24 } on-error={}
 :do { add list=PA address=166.88.206.0/23 } on-error={}
 :do { add list=PA address=167.150.153.0/24 } on-error={}
