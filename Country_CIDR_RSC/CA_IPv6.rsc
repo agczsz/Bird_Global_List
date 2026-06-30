@@ -15204,7 +15204,13 @@
 :do { add list=CA address=2602:f382:8::/45 } on-error={}
 :do { add list=CA address=2602:f382:10::/44 } on-error={}
 :do { add list=CA address=2602:f382:20::/43 } on-error={}
-:do { add list=CA address=2602:f382:40::/42 } on-error={}
+:do { add list=CA address=2602:f382:40::/48 } on-error={}
+:do { add list=CA address=2602:f382:41::/48 } on-error={}
+:do { add list=CA address=2602:f382:42::/47 } on-error={}
+:do { add list=CA address=2602:f382:44::/46 } on-error={}
+:do { add list=CA address=2602:f382:48::/45 } on-error={}
+:do { add list=CA address=2602:f382:50::/44 } on-error={}
+:do { add list=CA address=2602:f382:60::/43 } on-error={}
 :do { add list=CA address=2602:f382:80::/41 } on-error={}
 :do { add list=CA address=2602:f384::/36 } on-error={}
 :do { add list=CA address=2602:f38d::/36 } on-error={}

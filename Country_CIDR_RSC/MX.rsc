@@ -965,14 +965,8 @@
 :do { add list=MX address=38.213.229.0/24 } on-error={}
 :do { add list=MX address=38.213.230.0/24 } on-error={}
 :do { add list=MX address=38.213.231.0/24 } on-error={}
-:do { add list=MX address=38.213.232.0/23 } on-error={}
-:do { add list=MX address=38.213.234.0/24 } on-error={}
-:do { add list=MX address=38.213.235.0/24 } on-error={}
-:do { add list=MX address=38.213.236.0/22 } on-error={}
-:do { add list=MX address=38.213.240.0/23 } on-error={}
-:do { add list=MX address=38.213.242.0/24 } on-error={}
-:do { add list=MX address=38.213.243.0/24 } on-error={}
-:do { add list=MX address=38.213.244.0/22 } on-error={}
+:do { add list=MX address=38.213.232.0/21 } on-error={}
+:do { add list=MX address=38.213.240.0/21 } on-error={}
 :do { add list=MX address=38.224.25.0/24 } on-error={}
 :do { add list=MX address=38.224.27.0/24 } on-error={}
 :do { add list=MX address=38.224.28.0/24 } on-error={}
