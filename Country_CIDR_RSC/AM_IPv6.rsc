@@ -1,6 +1,5 @@
 /log info "Loading AM IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=AM address=2001:470:1d:31a::/64 } on-error={}
 :do { add list=AM address=2001:470:24:1377::/64 } on-error={}
 :do { add list=AM address=2001:470:24:1380::/64 } on-error={}
 :do { add list=AM address=2001:470:28:9f6::/64 } on-error={}
@@ -1096,7 +1095,6 @@
 :do { add list=AM address=2a02:5746:39::/48 } on-error={}
 :do { add list=AM address=2a02:5747:39::/48 } on-error={}
 :do { add list=AM address=2a02:5960::/32 } on-error={}
-:do { add list=AM address=2a03:5e0::/32 } on-error={}
 :do { add list=AM address=2a03:1080::/32 } on-error={}
 :do { add list=AM address=2a03:1900::/29 } on-error={}
 :do { add list=AM address=2a03:2300::/29 } on-error={}
@@ -2417,7 +2415,6 @@
 :do { add list=AM address=2a12:5947:2000::/35 } on-error={}
 :do { add list=AM address=2a12:5947:4000::/34 } on-error={}
 :do { add list=AM address=2a12:5947:8000::/33 } on-error={}
-:do { add list=AM address=2a12:5d40::/29 } on-error={}
 :do { add list=AM address=2a12:bec4:1d80::/44 } on-error={}
 :do { add list=AM address=2a12:ef85:4000::/36 } on-error={}
 :do { add list=AM address=2a12:f381:8600::/40 } on-error={}
@@ -2481,6 +2478,7 @@
 :do { add list=AM address=2a14:2d85::/32 } on-error={}
 :do { add list=AM address=2a14:3d04:e000::/35 } on-error={}
 :do { add list=AM address=2a14:4800::/29 } on-error={}
+:do { add list=AM address=2a14:67c1:b607::/48 } on-error={}
 :do { add list=AM address=2a14:67c2:82c::/48 } on-error={}
 :do { add list=AM address=2a14:7580:cf06::/48 } on-error={}
 :do { add list=AM address=2a14:7581:b10:1000::/56 } on-error={}

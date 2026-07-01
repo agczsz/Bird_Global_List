@@ -317,7 +317,8 @@
 :do { add list=IR address=2a02:4540:120::/44 } on-error={}
 :do { add list=IR address=2a02:4540:130::/45 } on-error={}
 :do { add list=IR address=2a02:4540:138::/45 } on-error={}
-:do { add list=IR address=2a02:4540:140::/42 } on-error={}
+:do { add list=IR address=2a02:4540:140::/43 } on-error={}
+:do { add list=IR address=2a02:4540:160::/43 } on-error={}
 :do { add list=IR address=2a02:4540:180::/41 } on-error={}
 :do { add list=IR address=2a02:4540:200::/39 } on-error={}
 :do { add list=IR address=2a02:4540:400::/38 } on-error={}
@@ -8349,6 +8350,7 @@
 :do { add list=IR address=2a14:6140::/29 } on-error={}
 :do { add list=IR address=2a14:67c0:402::/48 } on-error={}
 :do { add list=IR address=2a14:67c1:93::/48 } on-error={}
+:do { add list=IR address=2a14:67c1:b66a::/48 } on-error={}
 :do { add list=IR address=2a14:67c2:850::/48 } on-error={}
 :do { add list=IR address=2a14:67c2:8f5:4000::/50 } on-error={}
 :do { add list=IR address=2a14:67c2:8f5:8000::/49 } on-error={}

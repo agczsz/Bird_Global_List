@@ -107,8 +107,6 @@
 :do { add list=VI address=104.28.236.4/32 } on-error={}
 :do { add list=VI address=104.192.184.0/21 } on-error={}
 :do { add list=VI address=131.143.68.0/22 } on-error={}
-:do { add list=VI address=136.23.22.47/32 } on-error={}
-:do { add list=VI address=136.23.26.31/32 } on-error={}
 :do { add list=VI address=136.143.195.0/24 } on-error={}
 :do { add list=VI address=140.248.4.68/31 } on-error={}
 :do { add list=VI address=140.248.12.36/31 } on-error={}

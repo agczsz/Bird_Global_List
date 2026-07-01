@@ -1,6 +1,5 @@
 /log info "Loading SV IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=SV address=2001:470:5:220::/64 } on-error={}
 :do { add list=SV address=2001:470:287d::/48 } on-error={}
 :do { add list=SV address=2001:470:d8b0::/48 } on-error={}
 :do { add list=SV address=2001:470:d987::/48 } on-error={}
@@ -37,7 +36,6 @@
 :do { add list=SV address=2600:70ff:906f::/48 } on-error={}
 :do { add list=SV address=2602:2a9:be0::/44 } on-error={}
 :do { add list=SV address=2605:59c8:7200::/42 } on-error={}
-:do { add list=SV address=2606:40:e40::/43 } on-error={}
 :do { add list=SV address=2606:40:205e:c000::/51 } on-error={}
 :do { add list=SV address=2606:40:214c:4000::/51 } on-error={}
 :do { add list=SV address=2606:54c0:5560::/44 } on-error={}
@@ -116,11 +114,10 @@
 :do { add list=SV address=2607:f438:0:1008:4000::/66 } on-error={}
 :do { add list=SV address=2607:f438:0:1008:8000::/65 } on-error={}
 :do { add list=SV address=2800:90::/32 } on-error={}
-:do { add list=SV address=2800:98:1092:6d00::/56 } on-error={}
-:do { add list=SV address=2800:98:1093:bf00::/56 } on-error={}
-:do { add list=SV address=2800:98:10b0:c800::/56 } on-error={}
+:do { add list=SV address=2800:98:1b10:8500::/56 } on-error={}
 :do { add list=SV address=2800:98:1b24:7700::/56 } on-error={}
 :do { add list=SV address=2800:98:1b53:b700::/56 } on-error={}
+:do { add list=SV address=2800:98:1b70:9000::/56 } on-error={}
 :do { add list=SV address=2800:3d0:1180:100::/56 } on-error={}
 :do { add list=SV address=2800:3d0:118c:8000::/56 } on-error={}
 :do { add list=SV address=2800:880::/30 } on-error={}
@@ -1270,6 +1267,7 @@
 :do { add list=SV address=2a14:7c5:8d0::/44 } on-error={}
 :do { add list=SV address=2a14:2d45:d000::/40 } on-error={}
 :do { add list=SV address=2a14:3d07:4000::/36 } on-error={}
+:do { add list=SV address=2a14:67c1:b6d0::/48 } on-error={}
 :do { add list=SV address=2a14:67c2:880::/48 } on-error={}
 :do { add list=SV address=2a14:7580:cfd1::/48 } on-error={}
 :do { add list=SV address=2a14:7581:b10:4000::/56 } on-error={}

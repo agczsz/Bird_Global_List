@@ -15,8 +15,6 @@
 :do { add list=IO address=104.28.194.236/32 } on-error={}
 :do { add list=IO address=104.28.226.232/30 } on-error={}
 :do { add list=IO address=104.28.226.236/32 } on-error={}
-:do { add list=IO address=136.23.0.154/32 } on-error={}
-:do { add list=IO address=136.23.20.6/32 } on-error={}
 :do { add list=IO address=140.248.40.136/31 } on-error={}
 :do { add list=IO address=140.248.56.105/32 } on-error={}
 :do { add list=IO address=140.248.57.105/32 } on-error={}

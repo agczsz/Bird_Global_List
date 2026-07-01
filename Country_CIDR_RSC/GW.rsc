@@ -25,8 +25,6 @@
 :do { add list=GW address=104.28.214.192/30 } on-error={}
 :do { add list=GW address=104.28.246.190/31 } on-error={}
 :do { add list=GW address=104.28.246.192/30 } on-error={}
-:do { add list=GW address=136.23.0.157/32 } on-error={}
-:do { add list=GW address=136.23.5.163/32 } on-error={}
 :do { add list=GW address=140.248.40.128/31 } on-error={}
 :do { add list=GW address=140.248.56.92/32 } on-error={}
 :do { add list=GW address=140.248.57.92/32 } on-error={}

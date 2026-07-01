@@ -2,7 +2,7 @@
 /ipv6 firewall address-list
 :do { add list=KE address=2001:470:0:a6::1/128 } on-error={}
 :do { add list=KE address=2001:470:0:a6::2/128 } on-error={}
-:do { add list=KE address=2001:470:0:2d7::/64 } on-error={}
+:do { add list=KE address=2001:470:0:2d7::2/128 } on-error={}
 :do { add list=KE address=2001:470:0:338::1/128 } on-error={}
 :do { add list=KE address=2001:470:0:338::2/128 } on-error={}
 :do { add list=KE address=2001:470:0:3d8::/64 } on-error={}
@@ -13,7 +13,8 @@
 :do { add list=KE address=2001:470:0:5e2::/64 } on-error={}
 :do { add list=KE address=2001:470:0:60d::1/128 } on-error={}
 :do { add list=KE address=2001:470:0:649::2/128 } on-error={}
-:do { add list=KE address=2001:470:0:764::1/128 } on-error={}
+:do { add list=KE address=2001:470:0:764::/64 } on-error={}
+:do { add list=KE address=2001:470:0:783::/64 } on-error={}
 :do { add list=KE address=2001:470:0:7b0::2/128 } on-error={}
 :do { add list=KE address=2001:470:0:7f9::/64 } on-error={}
 :do { add list=KE address=2001:470:1:5fb::/64 } on-error={}
@@ -476,7 +477,6 @@
 :do { add list=KE address=2a00:86c0:6:173::/64 } on-error={}
 :do { add list=KE address=2a00:86c0:f:a5::/64 } on-error={}
 :do { add list=KE address=2a00:86c0:f:152::/64 } on-error={}
-:do { add list=KE address=2a00:86c0:f:16f::/64 } on-error={}
 :do { add list=KE address=2a00:86c0:f:1a8::/64 } on-error={}
 :do { add list=KE address=2a00:86c0:f:1c2::/63 } on-error={}
 :do { add list=KE address=2a00:86c0:2116::/47 } on-error={}
@@ -1851,6 +1851,7 @@
 :do { add list=KE address=2a14:7c5:460::/44 } on-error={}
 :do { add list=KE address=2a14:2d45:7200::/40 } on-error={}
 :do { add list=KE address=2a14:3d06:3000::/36 } on-error={}
+:do { add list=KE address=2a14:67c1:b671::/48 } on-error={}
 :do { add list=KE address=2a14:67c2:8ef:4000::/50 } on-error={}
 :do { add list=KE address=2a14:67c2:8ef:8000::/49 } on-error={}
 :do { add list=KE address=2a14:7580:cf72::/48 } on-error={}
@@ -2019,20 +2020,7 @@
 :do { add list=KE address=2c0f:e818:1000::/36 } on-error={}
 :do { add list=KE address=2c0f:e818:2000::/36 } on-error={}
 :do { add list=KE address=2c0f:e818:3000::/36 } on-error={}
-:do { add list=KE address=2c0f:e818:4000::/46 } on-error={}
-:do { add list=KE address=2c0f:e818:4004::/47 } on-error={}
-:do { add list=KE address=2c0f:e818:4007::/48 } on-error={}
-:do { add list=KE address=2c0f:e818:4008::/45 } on-error={}
-:do { add list=KE address=2c0f:e818:4010::/44 } on-error={}
-:do { add list=KE address=2c0f:e818:4020::/43 } on-error={}
-:do { add list=KE address=2c0f:e818:4040::/42 } on-error={}
-:do { add list=KE address=2c0f:e818:4080::/41 } on-error={}
-:do { add list=KE address=2c0f:e818:4100::/40 } on-error={}
-:do { add list=KE address=2c0f:e818:4200::/39 } on-error={}
-:do { add list=KE address=2c0f:e818:4400::/38 } on-error={}
-:do { add list=KE address=2c0f:e818:4800::/37 } on-error={}
-:do { add list=KE address=2c0f:e818:5000::/36 } on-error={}
-:do { add list=KE address=2c0f:e818:6000::/35 } on-error={}
+:do { add list=KE address=2c0f:e818:4000::/34 } on-error={}
 :do { add list=KE address=2c0f:e818:8000::/36 } on-error={}
 :do { add list=KE address=2c0f:e818:9000::/36 } on-error={}
 :do { add list=KE address=2c0f:e818:a000::/48 } on-error={}
@@ -2763,7 +2751,10 @@
 :do { add list=KE address=2c0f:fe40:1:2000::/51 } on-error={}
 :do { add list=KE address=2c0f:fe40:1:4000::/50 } on-error={}
 :do { add list=KE address=2c0f:fe40:1:8000::/49 } on-error={}
-:do { add list=KE address=2c0f:fe40:2::/124 } on-error={}
+:do { add list=KE address=2c0f:fe40:2::/126 } on-error={}
+:do { add list=KE address=2c0f:fe40:2::4/127 } on-error={}
+:do { add list=KE address=2c0f:fe40:2::6/128 } on-error={}
+:do { add list=KE address=2c0f:fe40:2::8/125 } on-error={}
 :do { add list=KE address=2c0f:fe40:2::10/126 } on-error={}
 :do { add list=KE address=2c0f:fe40:2::14/127 } on-error={}
 :do { add list=KE address=2c0f:fe40:2::19/128 } on-error={}
@@ -2792,6 +2783,7 @@
 :do { add list=KE address=2c0f:fe40:2::70/124 } on-error={}
 :do { add list=KE address=2c0f:fe40:2::80/125 } on-error={}
 :do { add list=KE address=2c0f:fe40:2::88/127 } on-error={}
+:do { add list=KE address=2c0f:fe40:2::8b/128 } on-error={}
 :do { add list=KE address=2c0f:fe40:2::8e/127 } on-error={}
 :do { add list=KE address=2c0f:fe40:2::90/127 } on-error={}
 :do { add list=KE address=2c0f:fe40:2::9a/127 } on-error={}
@@ -2800,7 +2792,7 @@
 :do { add list=KE address=2c0f:fe40:2::c0/122 } on-error={}
 :do { add list=KE address=2c0f:fe40:2::110/125 } on-error={}
 :do { add list=KE address=2c0f:fe40:2::118/126 } on-error={}
-:do { add list=KE address=2c0f:fe40:2::11c/128 } on-error={}
+:do { add list=KE address=2c0f:fe40:2::11c/127 } on-error={}
 :do { add list=KE address=2c0f:fe40:2::120/127 } on-error={}
 :do { add list=KE address=2c0f:fe40:2::124/127 } on-error={}
 :do { add list=KE address=2c0f:fe40:2::129/128 } on-error={}
@@ -3505,7 +3497,7 @@
 :do { add list=KE address=2c0f:feb0:1::27/128 } on-error={}
 :do { add list=KE address=2c0f:feb0:1::28/128 } on-error={}
 :do { add list=KE address=2c0f:feb0:1::2b/128 } on-error={}
-:do { add list=KE address=2c0f:feb0:1::2c/127 } on-error={}
+:do { add list=KE address=2c0f:feb0:1::2c/128 } on-error={}
 :do { add list=KE address=2c0f:feb0:1::2f/128 } on-error={}
 :do { add list=KE address=2c0f:feb0:1::30/124 } on-error={}
 :do { add list=KE address=2c0f:feb0:1::47/128 } on-error={}
@@ -3544,16 +3536,18 @@
 :do { add list=KE address=2c0f:feb0:1:2::30/124 } on-error={}
 :do { add list=KE address=2c0f:feb0:1:2::40/124 } on-error={}
 :do { add list=KE address=2c0f:feb0:1:2::50/128 } on-error={}
-:do { add list=KE address=2c0f:feb0:1:2::52/127 } on-error={}
+:do { add list=KE address=2c0f:feb0:1:2::53/128 } on-error={}
 :do { add list=KE address=2c0f:feb0:1:2::54/126 } on-error={}
 :do { add list=KE address=2c0f:feb0:1:2::58/128 } on-error={}
 :do { add list=KE address=2c0f:feb0:1:2::5a/127 } on-error={}
-:do { add list=KE address=2c0f:feb0:1:2::5c/126 } on-error={}
+:do { add list=KE address=2c0f:feb0:1:2::5c/128 } on-error={}
+:do { add list=KE address=2c0f:feb0:1:2::5e/127 } on-error={}
 :do { add list=KE address=2c0f:feb0:1:2::60/128 } on-error={}
 :do { add list=KE address=2c0f:feb0:1:2::63/128 } on-error={}
 :do { add list=KE address=2c0f:feb0:1:2::64/128 } on-error={}
 :do { add list=KE address=2c0f:feb0:1:2::67/128 } on-error={}
-:do { add list=KE address=2c0f:feb0:1:2::68/126 } on-error={}
+:do { add list=KE address=2c0f:feb0:1:2::68/128 } on-error={}
+:do { add list=KE address=2c0f:feb0:1:2::6a/127 } on-error={}
 :do { add list=KE address=2c0f:feb0:1:2::6c/128 } on-error={}
 :do { add list=KE address=2c0f:feb0:1:2::6e/127 } on-error={}
 :do { add list=KE address=2c0f:feb0:1:2::70/128 } on-error={}
@@ -3562,7 +3556,7 @@
 :do { add list=KE address=2c0f:feb0:1:2::78/128 } on-error={}
 :do { add list=KE address=2c0f:feb0:1:2::7a/127 } on-error={}
 :do { add list=KE address=2c0f:feb0:1:2::7c/126 } on-error={}
-:do { add list=KE address=2c0f:feb0:1:2::9f/128 } on-error={}
+:do { add list=KE address=2c0f:feb0:1:2::9e/127 } on-error={}
 :do { add list=KE address=2c0f:feb0:1:2::a8/128 } on-error={}
 :do { add list=KE address=2c0f:feb0:1:2::c0/128 } on-error={}
 :do { add list=KE address=2c0f:feb0:1:2::c2/127 } on-error={}

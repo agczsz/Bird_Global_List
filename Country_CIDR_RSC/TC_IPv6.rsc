@@ -21,8 +21,6 @@
 :do { add list=TC address=2602:ff48::/36 } on-error={}
 :do { add list=TC address=2605:59c0:7500::/40 } on-error={}
 :do { add list=TC address=2606:40:1720::/44 } on-error={}
-:do { add list=TC address=2606:40:1a90::/44 } on-error={}
-:do { add list=TC address=2606:40:1aa0::/44 } on-error={}
 :do { add list=TC address=2606:40:20f6:2000::/51 } on-error={}
 :do { add list=TC address=2606:40:214c:8000::/51 } on-error={}
 :do { add list=TC address=2606:54c0:55a8::/45 } on-error={}
@@ -49,6 +47,18 @@
 :do { add list=TC address=2a02:26f7:f74e::/47 } on-error={}
 :do { add list=TC address=2a02:26f7:f750::/44 } on-error={}
 :do { add list=TC address=2a02:26f7:f760::/43 } on-error={}
+:do { add list=TC address=2a02:cbf3:100:c900::4/128 } on-error={}
+:do { add list=TC address=2a02:cbf3:100:c900::8/128 } on-error={}
+:do { add list=TC address=2a02:cbf3:100:c900::10/128 } on-error={}
+:do { add list=TC address=2a02:cbf3:100:c900::14/128 } on-error={}
+:do { add list=TC address=2a02:cbf3:100:c900::16/128 } on-error={}
+:do { add list=TC address=2a02:cbf3:100:c900::18/128 } on-error={}
+:do { add list=TC address=2a02:cbf3:100:c900::22/128 } on-error={}
+:do { add list=TC address=2a02:cbf3:100:c900::24/128 } on-error={}
+:do { add list=TC address=2a02:cbf3:100:c900::32/128 } on-error={}
+:do { add list=TC address=2a02:cbf3:100:c900::34/128 } on-error={}
+:do { add list=TC address=2a02:cbf3:100:c900::40/128 } on-error={}
+:do { add list=TC address=2a02:cbf3:100:c900::42/128 } on-error={}
 :do { add list=TC address=2a03:b600:0:1219::/64 } on-error={}
 :do { add list=TC address=2a03:b600:0:121a::/63 } on-error={}
 :do { add list=TC address=2a03:b600:0:121c::/62 } on-error={}
@@ -127,6 +137,7 @@
 :do { add list=TC address=2a13:a5c7:25ff:d500::/56 } on-error={}
 :do { add list=TC address=2a14:1c2:3800::/37 } on-error={}
 :do { add list=TC address=2a14:2d45:d400::/40 } on-error={}
+:do { add list=TC address=2a14:67c1:b6d4::/47 } on-error={}
 :do { add list=TC address=2a14:67c2:8d6::/48 } on-error={}
 :do { add list=TC address=2a14:7580:cfd5::/48 } on-error={}
 :do { add list=TC address=2a14:7581:b10:e500::/56 } on-error={}

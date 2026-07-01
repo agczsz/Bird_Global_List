@@ -134,7 +134,6 @@
 :do { add list=TJ address=2a0a:6044:f320::/46 } on-error={}
 :do { add list=TJ address=2a0a:6044:f324::/48 } on-error={}
 :do { add list=TJ address=2a0a:7500::/32 } on-error={}
-:do { add list=TJ address=2a0b:3340::/29 } on-error={}
 :do { add list=TJ address=2a0b:4e07:3:7620::/60 } on-error={}
 :do { add list=TJ address=2a0b:6bc0::/32 } on-error={}
 :do { add list=TJ address=2a0b:6bc1::/32 } on-error={}
@@ -263,6 +262,7 @@
 :do { add list=TJ address=2a14:1c1:8000::/37 } on-error={}
 :do { add list=TJ address=2a14:1700::/29 } on-error={}
 :do { add list=TJ address=2a14:2d45:d900::/40 } on-error={}
+:do { add list=TJ address=2a14:67c1:b6d9::/48 } on-error={}
 :do { add list=TJ address=2a14:67c2:833::/48 } on-error={}
 :do { add list=TJ address=2a14:7580:cfda::/48 } on-error={}
 :do { add list=TJ address=2a14:7581:b10:db00::/56 } on-error={}

@@ -50,7 +50,6 @@
 :do { add list=BS address=2605:ecc0:500::/40 } on-error={}
 :do { add list=BS address=2605:ecc0:800::/40 } on-error={}
 :do { add list=BS address=2605:ecc0:ff00::/40 } on-error={}
-:do { add list=BS address=2606:40:c20::/43 } on-error={}
 :do { add list=BS address=2606:40:205d:c000::/51 } on-error={}
 :do { add list=BS address=2606:40:2149:6000::/51 } on-error={}
 :do { add list=BS address=2606:54c0:fd0::/45 } on-error={}
@@ -957,6 +956,7 @@
 :do { add list=BS address=2a14:1c2:1800::/37 } on-error={}
 :do { add list=BS address=2a14:7c5:e0::/43 } on-error={}
 :do { add list=BS address=2a14:2d45:1f00::/40 } on-error={}
+:do { add list=BS address=2a14:67c1:b620::/48 } on-error={}
 :do { add list=BS address=2a14:67c2:882::/48 } on-error={}
 :do { add list=BS address=2a14:7580:cf1f::/48 } on-error={}
 :do { add list=BS address=2a14:7581:b10:d00::/56 } on-error={}

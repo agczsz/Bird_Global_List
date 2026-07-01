@@ -35,6 +35,12 @@
 :do { add list=GF address=82.123.134.176/28 } on-error={}
 :do { add list=GF address=82.123.134.192/27 } on-error={}
 :do { add list=GF address=82.123.134.240/28 } on-error={}
+:do { add list=GF address=82.123.135.1/32 } on-error={}
+:do { add list=GF address=82.123.135.2/31 } on-error={}
+:do { add list=GF address=82.123.135.4/30 } on-error={}
+:do { add list=GF address=82.123.135.8/29 } on-error={}
+:do { add list=GF address=82.123.135.16/28 } on-error={}
+:do { add list=GF address=82.123.135.32/27 } on-error={}
 :do { add list=GF address=82.123.135.192/27 } on-error={}
 :do { add list=GF address=82.123.135.248/29 } on-error={}
 :do { add list=GF address=82.123.137.0/25 } on-error={}
@@ -257,8 +263,7 @@
 :do { add list=GF address=92.142.73.128/25 } on-error={}
 :do { add list=GF address=92.142.74.0/24 } on-error={}
 :do { add list=GF address=92.142.75.128/25 } on-error={}
-:do { add list=GF address=92.142.76.128/25 } on-error={}
-:do { add list=GF address=92.142.77.0/24 } on-error={}
+:do { add list=GF address=92.142.76.0/23 } on-error={}
 :do { add list=GF address=92.142.78.128/25 } on-error={}
 :do { add list=GF address=92.142.79.0/24 } on-error={}
 :do { add list=GF address=92.142.80.128/26 } on-error={}
@@ -293,7 +298,6 @@
 :do { add list=GF address=92.142.122.192/26 } on-error={}
 :do { add list=GF address=92.142.124.0/24 } on-error={}
 :do { add list=GF address=93.176.32.7/32 } on-error={}
-:do { add list=GF address=93.176.33.90/32 } on-error={}
 :do { add list=GF address=94.124.156.0/24 } on-error={}
 :do { add list=GF address=94.198.182.0/26 } on-error={}
 :do { add list=GF address=104.28.10.67/32 } on-error={}
@@ -382,12 +386,14 @@
 :do { add list=GF address=172.225.165.128/27 } on-error={}
 :do { add list=GF address=172.225.238.192/28 } on-error={}
 :do { add list=GF address=172.226.10.128/28 } on-error={}
+:do { add list=GF address=179.238.50.0/23 } on-error={}
 :do { add list=GF address=185.21.213.0/29 } on-error={}
 :do { add list=GF address=185.21.213.12/30 } on-error={}
 :do { add list=GF address=185.21.213.16/28 } on-error={}
 :do { add list=GF address=185.21.213.64/31 } on-error={}
 :do { add list=GF address=185.21.213.80/28 } on-error={}
 :do { add list=GF address=186.2.244.0/22 } on-error={}
+:do { add list=GF address=188.115.76.0/25 } on-error={}
 :do { add list=GF address=193.48.161.0/24 } on-error={}
 :do { add list=GF address=193.48.162.0/24 } on-error={}
 :do { add list=GF address=193.49.230.0/26 } on-error={}
@@ -402,7 +408,9 @@
 :do { add list=GF address=193.51.118.104/30 } on-error={}
 :do { add list=GF address=193.51.118.128/25 } on-error={}
 :do { add list=GF address=193.220.88.0/21 } on-error={}
-:do { add list=GF address=193.251.163.160/28 } on-error={}
+:do { add list=GF address=193.251.163.161/32 } on-error={}
+:do { add list=GF address=193.251.163.164/30 } on-error={}
+:do { add list=GF address=193.251.163.168/29 } on-error={}
 :do { add list=GF address=193.251.163.176/30 } on-error={}
 :do { add list=GF address=193.251.163.181/32 } on-error={}
 :do { add list=GF address=193.251.163.184/31 } on-error={}
@@ -411,8 +419,7 @@
 :do { add list=GF address=193.251.163.192/29 } on-error={}
 :do { add list=GF address=193.251.163.200/30 } on-error={}
 :do { add list=GF address=193.251.163.206/31 } on-error={}
-:do { add list=GF address=193.251.163.208/30 } on-error={}
-:do { add list=GF address=193.251.163.214/31 } on-error={}
+:do { add list=GF address=193.251.163.208/29 } on-error={}
 :do { add list=GF address=193.251.163.216/30 } on-error={}
 :do { add list=GF address=193.251.163.220/31 } on-error={}
 :do { add list=GF address=193.251.231.112/29 } on-error={}
@@ -442,7 +449,6 @@
 :do { add list=GF address=213.16.25.156/31 } on-error={}
 :do { add list=GF address=213.188.161.0/24 } on-error={}
 :do { add list=GF address=213.188.162.0/23 } on-error={}
-:do { add list=GF address=216.250.210.161/32 } on-error={}
 :do { add list=GF address=217.108.130.72/29 } on-error={}
 :do { add list=GF address=217.175.167.141/32 } on-error={}
 :do { add list=GF address=217.175.169.0/24 } on-error={}

@@ -1,6 +1,5 @@
 /log info "Loading TZ IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=TZ address=2001:470:67:312::/64 } on-error={}
 :do { add list=TZ address=2001:470:1ca0::/47 } on-error={}
 :do { add list=TZ address=2001:470:1ca2::/48 } on-error={}
 :do { add list=TZ address=2001:470:1f17:82::/64 } on-error={}
@@ -14,6 +13,8 @@
 :do { add list=TZ address=2001:470:ee49::/48 } on-error={}
 :do { add list=TZ address=2001:470:ffbe::/48 } on-error={}
 :do { add list=TZ address=2001:67c:a38:f255::/64 } on-error={}
+:do { add list=TZ address=2001:918:107:1::35/128 } on-error={}
+:do { add list=TZ address=2001:918:107:1::37/128 } on-error={}
 :do { add list=TZ address=2001:978:2:21::f3:1b/128 } on-error={}
 :do { add list=TZ address=2001:41a8:3020::/48 } on-error={}
 :do { add list=TZ address=2001:4258::/95 } on-error={}
@@ -410,6 +411,7 @@
 :do { add list=TZ address=2a13:ef41:ad8e::/48 } on-error={}
 :do { add list=TZ address=2a14:1c7:b000::/37 } on-error={}
 :do { add list=TZ address=2a14:2d45:e300::/40 } on-error={}
+:do { add list=TZ address=2a14:67c1:b6e3::/48 } on-error={}
 :do { add list=TZ address=2a14:67c2:81a::/48 } on-error={}
 :do { add list=TZ address=2a14:7580:cfe4::/48 } on-error={}
 :do { add list=TZ address=2a14:7581:b10:ef00::/56 } on-error={}
@@ -703,7 +705,6 @@
 :do { add list=TZ address=2c0f:feb0:1::ee/127 } on-error={}
 :do { add list=TZ address=2c0f:feb0:1::164/128 } on-error={}
 :do { add list=TZ address=2c0f:feb0:1:2::12/128 } on-error={}
-:do { add list=TZ address=2c0f:feb0:1:2::9e/128 } on-error={}
 :do { add list=TZ address=2c0f:feb0:1:2::a9/128 } on-error={}
 :do { add list=TZ address=2c0f:feb0:1:2::258/128 } on-error={}
 :do { add list=TZ address=2c0f:feb0:1:2::274/128 } on-error={}

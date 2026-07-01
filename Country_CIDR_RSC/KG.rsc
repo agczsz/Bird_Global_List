@@ -68,6 +68,7 @@
 :do { add list=KG address=87.245.232.132/32 } on-error={}
 :do { add list=KG address=87.245.232.219/32 } on-error={}
 :do { add list=KG address=87.245.238.7/32 } on-error={}
+:do { add list=KG address=89.126.226.0/24 } on-error={}
 :do { add list=KG address=89.126.234.0/24 } on-error={}
 :do { add list=KG address=89.237.192.0/18 } on-error={}
 :do { add list=KG address=91.192.64.0/22 } on-error={}
@@ -143,8 +144,6 @@
 :do { add list=KG address=109.201.160.0/19 } on-error={}
 :do { add list=KG address=131.222.133.0/24 } on-error={}
 :do { add list=KG address=134.82.74.40/29 } on-error={}
-:do { add list=KG address=136.23.1.170/32 } on-error={}
-:do { add list=KG address=136.23.4.110/32 } on-error={}
 :do { add list=KG address=137.83.12.0/24 } on-error={}
 :do { add list=KG address=138.249.115.0/24 } on-error={}
 :do { add list=KG address=139.28.28.0/22 } on-error={}
@@ -196,13 +195,6 @@
 :do { add list=KG address=185.29.184.0/22 } on-error={}
 :do { add list=KG address=185.39.79.0/24 } on-error={}
 :do { add list=KG address=185.48.136.0/22 } on-error={}
-:do { add list=KG address=185.50.4.0/23 } on-error={}
-:do { add list=KG address=185.50.6.4/30 } on-error={}
-:do { add list=KG address=185.50.6.8/29 } on-error={}
-:do { add list=KG address=185.50.6.16/28 } on-error={}
-:do { add list=KG address=185.50.6.32/27 } on-error={}
-:do { add list=KG address=185.50.6.64/26 } on-error={}
-:do { add list=KG address=185.50.6.128/25 } on-error={}
 :do { add list=KG address=185.53.228.0/22 } on-error={}
 :do { add list=KG address=185.54.252.0/24 } on-error={}
 :do { add list=KG address=185.54.253.0/24 } on-error={}
@@ -222,6 +214,7 @@
 :do { add list=KG address=185.248.26.0/24 } on-error={}
 :do { add list=KG address=188.240.213.0/24 } on-error={}
 :do { add list=KG address=188.244.124.0/24 } on-error={}
+:do { add list=KG address=191.44.39.0/24 } on-error={}
 :do { add list=KG address=193.27.36.0/24 } on-error={}
 :do { add list=KG address=193.34.225.0/24 } on-error={}
 :do { add list=KG address=193.36.95.0/24 } on-error={}

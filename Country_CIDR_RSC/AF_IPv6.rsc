@@ -508,6 +508,7 @@
 :do { add list=AF address=2a14:1c5:6800::/37 } on-error={}
 :do { add list=AF address=2a14:2d45:200::/40 } on-error={}
 :do { add list=AF address=2a14:67c1:92::/48 } on-error={}
+:do { add list=AF address=2a14:67c1:b603::/48 } on-error={}
 :do { add list=AF address=2a14:67c2:8f9:4000::/50 } on-error={}
 :do { add list=AF address=2a14:67c2:8f9:8000::/49 } on-error={}
 :do { add list=AF address=2a14:7580:cf02::/48 } on-error={}

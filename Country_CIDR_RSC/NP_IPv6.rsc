@@ -279,6 +279,11 @@
 :do { add list=NP address=2405:c540:4000::/34 } on-error={}
 :do { add list=NP address=2405:c540:8000::/33 } on-error={}
 :do { add list=NP address=2405:c840::/32 } on-error={}
+:do { add list=NP address=2405:ec00:0:2011::/64 } on-error={}
+:do { add list=NP address=2405:ec00:1:c::/64 } on-error={}
+:do { add list=NP address=2405:ec00:1:12::/64 } on-error={}
+:do { add list=NP address=2405:ec00:8000:6::/64 } on-error={}
+:do { add list=NP address=2405:ec00:8000:c::/63 } on-error={}
 :do { add list=NP address=2405:f880::/32 } on-error={}
 :do { add list=NP address=2406:2d40:2100::/40 } on-error={}
 :do { add list=NP address=2406:4a40::/32 } on-error={}
@@ -552,6 +557,7 @@
 :do { add list=NP address=2a13:ef45:9c0c::/47 } on-error={}
 :do { add list=NP address=2a14:1c1:2800::/37 } on-error={}
 :do { add list=NP address=2a14:2d45:a600::/40 } on-error={}
+:do { add list=NP address=2a14:67c1:b6a6::/48 } on-error={}
 :do { add list=NP address=2a14:67c2:886::/48 } on-error={}
 :do { add list=NP address=2a14:7580:cfa7::/48 } on-error={}
 :do { add list=NP address=2a14:7581:b10:9600::/56 } on-error={}

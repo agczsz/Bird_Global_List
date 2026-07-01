@@ -31,8 +31,6 @@
 :do { add list=PM address=104.28.239.86/31 } on-error={}
 :do { add list=PM address=104.28.239.88/31 } on-error={}
 :do { add list=PM address=104.28.239.90/32 } on-error={}
-:do { add list=PM address=136.23.9.32/32 } on-error={}
-:do { add list=PM address=136.23.15.32/32 } on-error={}
 :do { add list=PM address=140.248.56.179/32 } on-error={}
 :do { add list=PM address=140.248.57.179/32 } on-error={}
 :do { add list=PM address=140.248.58.179/32 } on-error={}

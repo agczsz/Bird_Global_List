@@ -1,6 +1,5 @@
 /log info "Loading OM IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=OM address=2001:470:1d:36e::/64 } on-error={}
 :do { add list=OM address=2001:470:28:f1c::/64 } on-error={}
 :do { add list=OM address=2001:470:6d:b3c::/64 } on-error={}
 :do { add list=OM address=2001:470:1f29:7c::/64 } on-error={}
@@ -17,7 +16,6 @@
 :do { add list=OM address=2001:470:b275::/48 } on-error={}
 :do { add list=OM address=2001:470:b6a0::/48 } on-error={}
 :do { add list=OM address=2001:470:c854::/48 } on-error={}
-:do { add list=OM address=2001:470:ef20::/48 } on-error={}
 :do { add list=OM address=2001:610:f16:0:145:145:166:39/128 } on-error={}
 :do { add list=OM address=2001:67c:a38:f968::/64 } on-error={}
 :do { add list=OM address=2001:798:99:1::8a/127 } on-error={}
@@ -1023,9 +1021,8 @@
 :do { add list=OM address=2401:b60:1ab8::/45 } on-error={}
 :do { add list=OM address=2401:3cc0::4:419/128 } on-error={}
 :do { add list=OM address=2401:3cc0::4:47e/128 } on-error={}
-:do { add list=OM address=2401:3cc0:10:50::1:252/128 } on-error={}
+:do { add list=OM address=2401:3cc0:10:50::1:252/127 } on-error={}
 :do { add list=OM address=2401:3cc0:10:50::1:254/128 } on-error={}
-:do { add list=OM address=2401:3cc0:10:50::1:256/128 } on-error={}
 :do { add list=OM address=2401:3cc0:10:50::1:258/128 } on-error={}
 :do { add list=OM address=2401:3cc0:1017::/64 } on-error={}
 :do { add list=OM address=2402:6800:6::/48 } on-error={}
@@ -1361,6 +1358,7 @@
 :do { add list=OM address=2a14:1c7:6000::/37 } on-error={}
 :do { add list=OM address=2a14:1000:2::/63 } on-error={}
 :do { add list=OM address=2a14:2d45:aa00::/40 } on-error={}
+:do { add list=OM address=2a14:67c1:b6aa::/48 } on-error={}
 :do { add list=OM address=2a14:67c2:80b::/48 } on-error={}
 :do { add list=OM address=2a14:7580:cfab::/48 } on-error={}
 :do { add list=OM address=2a14:7581:b10:9300::/56 } on-error={}

@@ -1,6 +1,5 @@
 /log info "Loading HN IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=HN address=2001:470:5:23f::/64 } on-error={}
 :do { add list=HN address=2001:470:1f2b:f2::/64 } on-error={}
 :do { add list=HN address=2001:470:8b4c::/48 } on-error={}
 :do { add list=HN address=2001:470:c094::/48 } on-error={}
@@ -39,7 +38,6 @@
 :do { add list=HN address=2600:70ff:9070::/48 } on-error={}
 :do { add list=HN address=2600:70ff:a98b::/48 } on-error={}
 :do { add list=HN address=2602:2a9:b50::/44 } on-error={}
-:do { add list=HN address=2606:40:d40::/43 } on-error={}
 :do { add list=HN address=2606:40:205e:8000::/51 } on-error={}
 :do { add list=HN address=2606:40:214a:c000::/51 } on-error={}
 :do { add list=HN address=2606:54c0:3920::/44 } on-error={}
@@ -146,15 +144,16 @@
 :do { add list=HN address=2607:f438:0:1013:69:79:102:55/128 } on-error={}
 :do { add list=HN address=2607:f438:0:3000::/54 } on-error={}
 :do { add list=HN address=2620:0:876:5600::/56 } on-error={}
+:do { add list=HN address=2620:0:877:300::/64 } on-error={}
 :do { add list=HN address=2620:134:b0ff::b23/128 } on-error={}
 :do { add list=HN address=2620:134:b0ff::b29/128 } on-error={}
 :do { add list=HN address=2620:134:b0ff::b2d/128 } on-error={}
 :do { add list=HN address=2620:134:b0ff::b39/128 } on-error={}
 :do { add list=HN address=2620:171:3f::/48 } on-error={}
-:do { add list=HN address=2800:98:1081:8800::/56 } on-error={}
 :do { add list=HN address=2800:98:1093:e00::/56 } on-error={}
 :do { add list=HN address=2800:98:1b07:7700::/56 } on-error={}
 :do { add list=HN address=2800:98:1b0b:1900::/56 } on-error={}
+:do { add list=HN address=2800:98:1b14:4700::/56 } on-error={}
 :do { add list=HN address=2800:6a0::/32 } on-error={}
 :do { add list=HN address=2800:b10::/32 } on-error={}
 :do { add list=HN address=2801:0:30::/48 } on-error={}
@@ -213,17 +212,17 @@
 :do { add list=HN address=2803:4600:1011:c500::/56 } on-error={}
 :do { add list=HN address=2803:4600:1013:3c00::/56 } on-error={}
 :do { add list=HN address=2803:4600:1014:a400::/56 } on-error={}
-:do { add list=HN address=2803:4600:1014:b8d9::/64 } on-error={}
-:do { add list=HN address=2803:4600:1015:b500::/56 } on-error={}
 :do { add list=HN address=2803:4600:1016:4000::/50 } on-error={}
 :do { add list=HN address=2803:4600:1017:4e00::/56 } on-error={}
 :do { add list=HN address=2803:4600:1017:d200::/56 } on-error={}
 :do { add list=HN address=2803:4600:101a:b700::/56 } on-error={}
+:do { add list=HN address=2803:4600:101a:ea00::/56 } on-error={}
 :do { add list=HN address=2803:4600:101b:a00::/56 } on-error={}
 :do { add list=HN address=2803:4600:101c:a800::/56 } on-error={}
 :do { add list=HN address=2803:4600:101d:1900::/56 } on-error={}
 :do { add list=HN address=2803:4600:101d:9500::/56 } on-error={}
 :do { add list=HN address=2803:4600:101e:9200::/56 } on-error={}
+:do { add list=HN address=2803:4600:101f:3b00::/56 } on-error={}
 :do { add list=HN address=2803:4600:101f:cc00::/56 } on-error={}
 :do { add list=HN address=2803:4600:1040::/44 } on-error={}
 :do { add list=HN address=2803:4600:1060::/44 } on-error={}
@@ -377,7 +376,6 @@
 :do { add list=HN address=2803:f400:8000::/40 } on-error={}
 :do { add list=HN address=2803:f400:8100::/48 } on-error={}
 :do { add list=HN address=2803:f400:8200::/48 } on-error={}
-:do { add list=HN address=2803:f400:8300:8000::/53 } on-error={}
 :do { add list=HN address=2803:f400:83ff::/48 } on-error={}
 :do { add list=HN address=2803:f400:8400::/40 } on-error={}
 :do { add list=HN address=2803:f400:8500::/48 } on-error={}
@@ -805,6 +803,7 @@
 :do { add list=HN address=2a14:1c3:7800::/37 } on-error={}
 :do { add list=HN address=2a14:7c5:370::/44 } on-error={}
 :do { add list=HN address=2a14:2d45:6000::/40 } on-error={}
+:do { add list=HN address=2a14:67c1:b65f::/48 } on-error={}
 :do { add list=HN address=2a14:67c2:8db::/48 } on-error={}
 :do { add list=HN address=2a14:7580:cf60::/48 } on-error={}
 :do { add list=HN address=2a14:7581:b10:6300::/56 } on-error={}

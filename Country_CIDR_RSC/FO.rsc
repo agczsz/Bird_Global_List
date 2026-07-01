@@ -39,8 +39,6 @@
 :do { add list=FO address=104.28.238.98/31 } on-error={}
 :do { add list=FO address=104.28.238.100/30 } on-error={}
 :do { add list=FO address=104.28.238.104/30 } on-error={}
-:do { add list=FO address=136.23.1.161/32 } on-error={}
-:do { add list=FO address=136.23.4.101/32 } on-error={}
 :do { add list=FO address=140.248.40.22/31 } on-error={}
 :do { add list=FO address=140.248.56.73/32 } on-error={}
 :do { add list=FO address=140.248.57.73/32 } on-error={}

@@ -27,8 +27,6 @@
 :do { add list=GQ address=104.28.252.146/31 } on-error={}
 :do { add list=GQ address=104.28.252.148/31 } on-error={}
 :do { add list=GQ address=105.235.224.0/20 } on-error={}
-:do { add list=GQ address=136.23.1.136/32 } on-error={}
-:do { add list=GQ address=136.23.21.36/32 } on-error={}
 :do { add list=GQ address=140.248.40.120/31 } on-error={}
 :do { add list=GQ address=140.248.56.87/32 } on-error={}
 :do { add list=GQ address=140.248.57.87/32 } on-error={}
