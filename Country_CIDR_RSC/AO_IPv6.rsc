@@ -1816,14 +1816,7 @@
 :do { add list=AO address=2c0f:f980:5020::/43 } on-error={}
 :do { add list=AO address=2c0f:f980:5040::/42 } on-error={}
 :do { add list=AO address=2c0f:f980:5080::/41 } on-error={}
-:do { add list=AO address=2c0f:f980:5100::/48 } on-error={}
-:do { add list=AO address=2c0f:f980:5102::/47 } on-error={}
-:do { add list=AO address=2c0f:f980:5104::/46 } on-error={}
-:do { add list=AO address=2c0f:f980:5108::/45 } on-error={}
-:do { add list=AO address=2c0f:f980:5110::/44 } on-error={}
-:do { add list=AO address=2c0f:f980:5120::/43 } on-error={}
-:do { add list=AO address=2c0f:f980:5140::/42 } on-error={}
-:do { add list=AO address=2c0f:f980:5180::/41 } on-error={}
+:do { add list=AO address=2c0f:f980:5100::/40 } on-error={}
 :do { add list=AO address=2c0f:f980:5200::/39 } on-error={}
 :do { add list=AO address=2c0f:f980:5400::/39 } on-error={}
 :do { add list=AO address=2c0f:f980:5600::/40 } on-error={}

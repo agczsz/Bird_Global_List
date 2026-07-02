@@ -180,8 +180,6 @@
 :do { add list=CI address=2a0d:2681:3b80::/41 } on-error={}
 :do { add list=CI address=2a0d:9442:9800::/37 } on-error={}
 :do { add list=CI address=2a0e:b107:2340::/45 } on-error={}
-:do { add list=CI address=2a0e:fd87:8070::/48 } on-error={}
-:do { add list=CI address=2a0e:fd87:a0b0::/48 } on-error={}
 :do { add list=CI address=2a0f:1cc5:b10:6e00::/56 } on-error={}
 :do { add list=CI address=2a0f:1cc5:b11:6e00::/56 } on-error={}
 :do { add list=CI address=2a0f:1cc5:b12:6e00::/56 } on-error={}

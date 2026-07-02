@@ -2882,7 +2882,6 @@
 :do { add list=BG address=2a01:3e0:3300::/56 } on-error={}
 :do { add list=BG address=2a01:3e2:3300::/64 } on-error={}
 :do { add list=BG address=2a01:3e4:3300::/64 } on-error={}
-:do { add list=BG address=2a01:3e6:3300::/64 } on-error={}
 :do { add list=BG address=2a01:3e8:3300::/64 } on-error={}
 :do { add list=BG address=2a01:3ea:3300::/64 } on-error={}
 :do { add list=BG address=2a01:3ec:3300::/64 } on-error={}
@@ -5218,6 +5217,7 @@
 :do { add list=BG address=2a0d:5600:224::/46 } on-error={}
 :do { add list=BG address=2a0d:5600:228::/47 } on-error={}
 :do { add list=BG address=2a0d:5600:230::/47 } on-error={}
+:do { add list=BG address=2a0d:5600:31b::/48 } on-error={}
 :do { add list=BG address=2a0d:5642:105::/48 } on-error={}
 :do { add list=BG address=2a0d:5642:125::/48 } on-error={}
 :do { add list=BG address=2a0d:8d04:5:1::/64 } on-error={}

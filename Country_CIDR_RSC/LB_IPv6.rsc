@@ -50,6 +50,12 @@
 :do { add list=LB address=2600:70ff:d160::/48 } on-error={}
 :do { add list=LB address=2606:40:a38::/45 } on-error={}
 :do { add list=LB address=2606:40:a40::/45 } on-error={}
+:do { add list=LB address=2606:40:12c0:4000::/50 } on-error={}
+:do { add list=LB address=2606:40:12c0:8000::/49 } on-error={}
+:do { add list=LB address=2606:40:12c1::/48 } on-error={}
+:do { add list=LB address=2606:40:12c2::/47 } on-error={}
+:do { add list=LB address=2606:40:12c4::/46 } on-error={}
+:do { add list=LB address=2606:40:12c8::/45 } on-error={}
 :do { add list=LB address=2606:54c0:4780::/44 } on-error={}
 :do { add list=LB address=2606:54c0:4790::/45 } on-error={}
 :do { add list=LB address=2606:54c3:0:5dc::/64 } on-error={}

@@ -69,9 +69,6 @@
 :do { add list=AD address=2600:70ff:aae3::/48 } on-error={}
 :do { add list=AD address=2600:70ff:ab15::/48 } on-error={}
 :do { add list=AD address=2600:70ff:b982::/48 } on-error={}
-:do { add list=AD address=2606:40:610::/44 } on-error={}
-:do { add list=AD address=2606:40:620::/46 } on-error={}
-:do { add list=AD address=2606:40:678::/45 } on-error={}
 :do { add list=AD address=2606:40:720::/44 } on-error={}
 :do { add list=AD address=2606:40:8d0::/45 } on-error={}
 :do { add list=AD address=2606:40:94c::/46 } on-error={}

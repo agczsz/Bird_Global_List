@@ -192,6 +192,7 @@
 :do { add list=MR address=2a14:7581:be0:7780::/58 } on-error={}
 :do { add list=MR address=2a14:7581:3b93::/48 } on-error={}
 :do { add list=MR address=2a14:7585:f51f::/48 } on-error={}
+:do { add list=MR address=2c0f:fa0::/32 } on-error={}
 :do { add list=MR address=2c0f:2240::/32 } on-error={}
 :do { add list=MR address=2c0f:2540::/32 } on-error={}
 :do { add list=MR address=2c0f:2640::/32 } on-error={}

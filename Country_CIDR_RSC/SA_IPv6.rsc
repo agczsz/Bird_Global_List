@@ -43,6 +43,7 @@
 :do { add list=SA address=2001:470:724a::/48 } on-error={}
 :do { add list=SA address=2001:470:73ed::/48 } on-error={}
 :do { add list=SA address=2001:470:7497::/48 } on-error={}
+:do { add list=SA address=2001:470:756f::/48 } on-error={}
 :do { add list=SA address=2001:470:75c2::/48 } on-error={}
 :do { add list=SA address=2001:470:7b39::/48 } on-error={}
 :do { add list=SA address=2001:470:7be3::/48 } on-error={}
@@ -381,9 +382,7 @@
 :do { add list=SA address=2001:16a2:bda0::/43 } on-error={}
 :do { add list=SA address=2001:16a2:bdc0::/42 } on-error={}
 :do { add list=SA address=2001:16a2:be00::/44 } on-error={}
-:do { add list=SA address=2001:16a2:be10::/47 } on-error={}
-:do { add list=SA address=2001:16a2:be12::/48 } on-error={}
-:do { add list=SA address=2001:16a2:be13::/48 } on-error={}
+:do { add list=SA address=2001:16a2:be10::/46 } on-error={}
 :do { add list=SA address=2001:16a2:be14::/47 } on-error={}
 :do { add list=SA address=2001:16a2:be16::/48 } on-error={}
 :do { add list=SA address=2001:16a2:be17::/48 } on-error={}
@@ -415,7 +414,9 @@
 :do { add list=SA address=2001:16a2:be70::/48 } on-error={}
 :do { add list=SA address=2001:16a2:be71::/48 } on-error={}
 :do { add list=SA address=2001:16a2:be72::/47 } on-error={}
-:do { add list=SA address=2001:16a2:be74::/46 } on-error={}
+:do { add list=SA address=2001:16a2:be74::/48 } on-error={}
+:do { add list=SA address=2001:16a2:be75::/48 } on-error={}
+:do { add list=SA address=2001:16a2:be76::/47 } on-error={}
 :do { add list=SA address=2001:16a2:be78::/45 } on-error={}
 :do { add list=SA address=2001:16a2:be80::/41 } on-error={}
 :do { add list=SA address=2001:16a2:bf00::/46 } on-error={}
@@ -1212,6 +1213,8 @@
 :do { add list=SA address=2a01:3e0:3700:20::/59 } on-error={}
 :do { add list=SA address=2a01:3e0:3700:40::/58 } on-error={}
 :do { add list=SA address=2a01:3e0:3700:80::/57 } on-error={}
+:do { add list=SA address=2a01:3e0:ff50:200::14/128 } on-error={}
+:do { add list=SA address=2a01:3e0:ff50:200::2e/127 } on-error={}
 :do { add list=SA address=2a01:528:1e00::/40 } on-error={}
 :do { add list=SA address=2a01:578:0:7a00::/56 } on-error={}
 :do { add list=SA address=2a01:46a0::/32 } on-error={}

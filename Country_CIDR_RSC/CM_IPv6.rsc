@@ -40,6 +40,7 @@
 :do { add list=CM address=2600:70ff:ea1d::/48 } on-error={}
 :do { add list=CM address=2602:2a9:c60::/44 } on-error={}
 :do { add list=CM address=2605:59c0:1e00::/40 } on-error={}
+:do { add list=CM address=2606:40:13f0::/44 } on-error={}
 :do { add list=CM address=2606:40:1400::/44 } on-error={}
 :do { add list=CM address=2606:40:203c:4000::/51 } on-error={}
 :do { add list=CM address=2606:40:22a0::/54 } on-error={}

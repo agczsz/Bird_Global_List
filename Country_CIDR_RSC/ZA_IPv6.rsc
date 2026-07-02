@@ -1679,6 +1679,7 @@
 :do { add list=ZA address=2401:b60:1d42::/47 } on-error={}
 :do { add list=ZA address=2401:b60:1d44::/46 } on-error={}
 :do { add list=ZA address=2401:b60:1d48::/45 } on-error={}
+:do { add list=ZA address=2401:2060:b010::/47 } on-error={}
 :do { add list=ZA address=2401:2060:b10b:93::/64 } on-error={}
 :do { add list=ZA address=2401:fa00:400:9a00::/55 } on-error={}
 :do { add list=ZA address=2402:4f00:2000::58/126 } on-error={}
