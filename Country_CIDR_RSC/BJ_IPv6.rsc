@@ -2,6 +2,7 @@
 /ipv6 firewall address-list
 :do { add list=BJ address=2001:470:28:ce2::/64 } on-error={}
 :do { add list=BJ address=2001:470:6d:b28::/64 } on-error={}
+:do { add list=BJ address=2001:470:b72d::/48 } on-error={}
 :do { add list=BJ address=2001:470:f537::/48 } on-error={}
 :do { add list=BJ address=2001:67c:a38:f229::/64 } on-error={}
 :do { add list=BJ address=2001:4320::/43 } on-error={}

@@ -4,6 +4,7 @@
 :do { add list=MM address=2001:470:35:590::/64 } on-error={}
 :do { add list=MM address=2001:470:36:913::/64 } on-error={}
 :do { add list=MM address=2001:470:217c::/48 } on-error={}
+:do { add list=MM address=2001:470:2227::/48 } on-error={}
 :do { add list=MM address=2001:470:2956::/48 } on-error={}
 :do { add list=MM address=2001:470:518b::/48 } on-error={}
 :do { add list=MM address=2001:470:7928::/48 } on-error={}

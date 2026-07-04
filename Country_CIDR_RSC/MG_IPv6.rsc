@@ -1,5 +1,6 @@
 /log info "Loading MG IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=MG address=2001:470:28:10f9::/64 } on-error={}
 :do { add list=MG address=2001:470:1f23:15c::/64 } on-error={}
 :do { add list=MG address=2001:470:1f23:166::/64 } on-error={}
 :do { add list=MG address=2001:470:1f23:1d7::/64 } on-error={}
@@ -102,6 +103,7 @@
 :do { add list=MG address=2405:b500:4940::/64 } on-error={}
 :do { add list=MG address=2405:b500:4960::/64 } on-error={}
 :do { add list=MG address=2600:70ff:a927::/48 } on-error={}
+:do { add list=MG address=2600:70ff:b0e5::/48 } on-error={}
 :do { add list=MG address=2602:2a9:a70::/44 } on-error={}
 :do { add list=MG address=2602:fd92:b00:147::64/128 } on-error={}
 :do { add list=MG address=2602:fd92:b00:165::/64 } on-error={}

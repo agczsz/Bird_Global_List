@@ -2,6 +2,7 @@
 /ipv6 firewall address-list
 :do { add list=ZM address=2001:470:1f29:111::/64 } on-error={}
 :do { add list=ZM address=2001:470:5928::/48 } on-error={}
+:do { add list=ZM address=2001:470:7911::/48 } on-error={}
 :do { add list=ZM address=2001:470:ede2::/48 } on-error={}
 :do { add list=ZM address=2001:67c:a38:f260::/64 } on-error={}
 :do { add list=ZM address=2001:4218:5000::c:8a/127 } on-error={}

@@ -1139,11 +1139,12 @@
 :do { add list=MP address=2a0a:6044:7795::/48 } on-error={}
 :do { add list=MP address=2a0a:6044:77fe:94::/64 } on-error={}
 :do { add list=MP address=2a0a:6044:f813::/48 } on-error={}
-:do { add list=MP address=2a0a:6044:f814::/46 } on-error={}
-:do { add list=MP address=2a0a:6044:f818::/45 } on-error={}
+:do { add list=MP address=2a0a:6044:f815::/48 } on-error={}
+:do { add list=MP address=2a0a:6044:f816::/47 } on-error={}
+:do { add list=MP address=2a0a:6044:f818::/46 } on-error={}
+:do { add list=MP address=2a0a:6044:f81e::/47 } on-error={}
 :do { add list=MP address=2a0a:6044:f820::/47 } on-error={}
 :do { add list=MP address=2a0b:4e07:3:5800::/60 } on-error={}
-:do { add list=MP address=2a0c:9a40:95ba:3000::/52 } on-error={}
 :do { add list=MP address=2a0c:9a46:395::/48 } on-error={}
 :do { add list=MP address=2a0c:9a46:3fe:94::/64 } on-error={}
 :do { add list=MP address=2a0d:9443:b000::/37 } on-error={}

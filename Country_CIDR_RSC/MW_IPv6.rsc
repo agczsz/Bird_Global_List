@@ -192,6 +192,7 @@
 :do { add list=MW address=2405:b500:5040:8::/64 } on-error={}
 :do { add list=MW address=2405:b500:5060::/64 } on-error={}
 :do { add list=MW address=2405:b500:5060:8::/64 } on-error={}
+:do { add list=MW address=2600:70ff:f087::/48 } on-error={}
 :do { add list=MW address=2604:b040:13::4:0/112 } on-error={}
 :do { add list=MW address=2604:b040:13::1:4:0/112 } on-error={}
 :do { add list=MW address=2604:b040:13::2:4:0/112 } on-error={}

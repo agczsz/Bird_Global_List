@@ -9,6 +9,7 @@
 :do { add list=DZ address=2001:470:2a40::/48 } on-error={}
 :do { add list=DZ address=2001:470:48d1::/48 } on-error={}
 :do { add list=DZ address=2001:470:49c0::/48 } on-error={}
+:do { add list=DZ address=2001:470:52bf::/48 } on-error={}
 :do { add list=DZ address=2001:470:727c::/48 } on-error={}
 :do { add list=DZ address=2001:470:79f4::/48 } on-error={}
 :do { add list=DZ address=2001:470:8d7d::/48 } on-error={}

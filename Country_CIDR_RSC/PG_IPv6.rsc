@@ -5,6 +5,7 @@
 :do { add list=PG address=2001:470:36:883::/64 } on-error={}
 :do { add list=PG address=2001:470:19d::/50 } on-error={}
 :do { add list=PG address=2001:470:1f1f:1e::/64 } on-error={}
+:do { add list=PG address=2001:470:5a19::/48 } on-error={}
 :do { add list=PG address=2001:470:eea2::/48 } on-error={}
 :do { add list=PG address=2001:470:f6e1::/48 } on-error={}
 :do { add list=PG address=2001:470:fa9c::/48 } on-error={}

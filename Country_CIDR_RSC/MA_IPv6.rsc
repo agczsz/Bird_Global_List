@@ -11,6 +11,8 @@
 :do { add list=MA address=2001:470:1f2f:164::/64 } on-error={}
 :do { add list=MA address=2001:470:4479::/48 } on-error={}
 :do { add list=MA address=2001:470:58d7::/48 } on-error={}
+:do { add list=MA address=2001:470:790e::/48 } on-error={}
+:do { add list=MA address=2001:470:ca1b::/48 } on-error={}
 :do { add list=MA address=2001:470:cc0a::/48 } on-error={}
 :do { add list=MA address=2001:470:ccda::/48 } on-error={}
 :do { add list=MA address=2001:470:cd48::/48 } on-error={}

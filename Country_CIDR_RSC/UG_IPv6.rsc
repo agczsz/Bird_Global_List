@@ -747,6 +747,7 @@
 :do { add list=UG address=2600:70ff:a5e5::/48 } on-error={}
 :do { add list=UG address=2600:70ff:ab1b::/48 } on-error={}
 :do { add list=UG address=2600:70ff:d059::/48 } on-error={}
+:do { add list=UG address=2600:70ff:f07e::/48 } on-error={}
 :do { add list=UG address=2600:70ff:f9c1::/48 } on-error={}
 :do { add list=UG address=2602:2a9:940::/44 } on-error={}
 :do { add list=UG address=2602:fd92:b00:173::/64 } on-error={}

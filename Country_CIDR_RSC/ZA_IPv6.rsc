@@ -156,6 +156,7 @@
 :do { add list=ZA address=2001:470:1f23:71::/64 } on-error={}
 :do { add list=ZA address=2001:470:1f23:72::/63 } on-error={}
 :do { add list=ZA address=2001:470:1f23:74::/63 } on-error={}
+:do { add list=ZA address=2001:470:1f23:77::/64 } on-error={}
 :do { add list=ZA address=2001:470:1f23:78::/63 } on-error={}
 :do { add list=ZA address=2001:470:1f23:7a::/64 } on-error={}
 :do { add list=ZA address=2001:470:1f23:7c::/64 } on-error={}
@@ -332,7 +333,11 @@
 :do { add list=ZA address=2001:978:2:32::26/127 } on-error={}
 :do { add list=ZA address=2001:978:2:32::2e/127 } on-error={}
 :do { add list=ZA address=2001:978:2:32::3c/127 } on-error={}
-:do { add list=ZA address=2001:978:2:32::40/122 } on-error={}
+:do { add list=ZA address=2001:978:2:32::42/127 } on-error={}
+:do { add list=ZA address=2001:978:2:32::44/126 } on-error={}
+:do { add list=ZA address=2001:978:2:32::48/125 } on-error={}
+:do { add list=ZA address=2001:978:2:32::50/124 } on-error={}
+:do { add list=ZA address=2001:978:2:32::60/123 } on-error={}
 :do { add list=ZA address=2001:978:2:32::80/121 } on-error={}
 :do { add list=ZA address=2001:978:2:32::100/120 } on-error={}
 :do { add list=ZA address=2001:978:2:32::200/119 } on-error={}
@@ -557,6 +562,7 @@
 :do { add list=ZA address=2001:1be0:1280:300::/56 } on-error={}
 :do { add list=ZA address=2001:1be0:1640::/50 } on-error={}
 :do { add list=ZA address=2001:1be0:1648::/55 } on-error={}
+:do { add list=ZA address=2001:1be0:1648:800::/53 } on-error={}
 :do { add list=ZA address=2001:1be0:1650::/55 } on-error={}
 :do { add list=ZA address=2001:1be0:1658::/62 } on-error={}
 :do { add list=ZA address=2001:3786:2323::/48 } on-error={}
@@ -1848,6 +1854,7 @@
 :do { add list=ZA address=2600:70ff:ae51::/48 } on-error={}
 :do { add list=ZA address=2600:70ff:ae52::/47 } on-error={}
 :do { add list=ZA address=2600:70ff:c018::/48 } on-error={}
+:do { add list=ZA address=2600:70ff:e802::/48 } on-error={}
 :do { add list=ZA address=2600:70ff:e804::/48 } on-error={}
 :do { add list=ZA address=2600:70ff:e806::/47 } on-error={}
 :do { add list=ZA address=2600:70ff:e808::/46 } on-error={}
@@ -2927,8 +2934,6 @@
 :do { add list=ZA address=2a01:528:800::/40 } on-error={}
 :do { add list=ZA address=2a01:5b0:2c::/50 } on-error={}
 :do { add list=ZA address=2a01:5380::/32 } on-error={}
-:do { add list=ZA address=2a01:6c60:3:4000::/50 } on-error={}
-:do { add list=ZA address=2a01:6c60:3:8000::/50 } on-error={}
 :do { add list=ZA address=2a01:b740:1:2008::/61 } on-error={}
 :do { add list=ZA address=2a01:b740:1:2010::/64 } on-error={}
 :do { add list=ZA address=2a01:b740:1:2020::/64 } on-error={}
@@ -7326,7 +7331,6 @@
 :do { add list=ZA address=2a0d:5642:122::/47 } on-error={}
 :do { add list=ZA address=2a0d:7100:d:4000::/50 } on-error={}
 :do { add list=ZA address=2a0d:7100:d:8000::/49 } on-error={}
-:do { add list=ZA address=2a0d:7100:f::/48 } on-error={}
 :do { add list=ZA address=2a0d:7100:10::/44 } on-error={}
 :do { add list=ZA address=2a0d:7100:20::/43 } on-error={}
 :do { add list=ZA address=2a0d:7100:40::/42 } on-error={}
@@ -8535,7 +8539,10 @@
 :do { add list=ZA address=2a13:ef41:f774::/46 } on-error={}
 :do { add list=ZA address=2a13:ef41:f778::/45 } on-error={}
 :do { add list=ZA address=2a13:ef41:f780::/42 } on-error={}
-:do { add list=ZA address=2a13:ef41:f7c0::/44 } on-error={}
+:do { add list=ZA address=2a13:ef41:f7c0::/46 } on-error={}
+:do { add list=ZA address=2a13:ef41:f7c4::/48 } on-error={}
+:do { add list=ZA address=2a13:ef41:f7c6::/47 } on-error={}
+:do { add list=ZA address=2a13:ef41:f7c8::/45 } on-error={}
 :do { add list=ZA address=2a13:ef41:f7d0::/48 } on-error={}
 :do { add list=ZA address=2a13:ef45:ea88::/45 } on-error={}
 :do { add list=ZA address=2a13:ef45:ea90::/44 } on-error={}

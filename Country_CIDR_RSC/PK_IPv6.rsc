@@ -83,14 +83,12 @@
 :do { add list=PK address=2001:470:49d6::/48 } on-error={}
 :do { add list=PK address=2001:470:52a0::/48 } on-error={}
 :do { add list=PK address=2001:470:69ea::/48 } on-error={}
-:do { add list=PK address=2001:470:790e::/48 } on-error={}
 :do { add list=PK address=2001:470:b113::/48 } on-error={}
 :do { add list=PK address=2001:470:b34d::/48 } on-error={}
 :do { add list=PK address=2001:470:b724::/48 } on-error={}
 :do { add list=PK address=2001:470:c179::/48 } on-error={}
 :do { add list=PK address=2001:470:d00c::/48 } on-error={}
 :do { add list=PK address=2001:470:dc7e::/48 } on-error={}
-:do { add list=PK address=2001:470:e270::/48 } on-error={}
 :do { add list=PK address=2001:470:edf1::/48 } on-error={}
 :do { add list=PK address=2001:470:ee78::/48 } on-error={}
 :do { add list=PK address=2001:470:f133::/48 } on-error={}

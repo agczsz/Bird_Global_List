@@ -1,6 +1,7 @@
 /log info "Loading GP IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=GP address=2001:470:2937::/48 } on-error={}
+:do { add list=GP address=2001:470:7923::/48 } on-error={}
 :do { add list=GP address=2001:470:8cd5::/48 } on-error={}
 :do { add list=GP address=2001:470:ba4d::/48 } on-error={}
 :do { add list=GP address=2001:470:ede5::/48 } on-error={}
@@ -140,8 +141,8 @@
 :do { add list=GP address=2a01:cde0:8040::/48 } on-error={}
 :do { add list=GP address=2a01:cde0:8101::/48 } on-error={}
 :do { add list=GP address=2a01:cde0:8102::/48 } on-error={}
+:do { add list=GP address=2a01:cde0:8108:5800::/53 } on-error={}
 :do { add list=GP address=2a01:cde0:8108:c000::/52 } on-error={}
-:do { add list=GP address=2a01:cde0:8109:6000::/54 } on-error={}
 :do { add list=GP address=2a01:cde0:8109:cc00::/54 } on-error={}
 :do { add list=GP address=2a01:cde0:8109:d000::/52 } on-error={}
 :do { add list=GP address=2a02:1390::/36 } on-error={}
