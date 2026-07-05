@@ -305,7 +305,7 @@
 :do { add list=PS address=185.40.192.0/22 } on-error={}
 :do { add list=PS address=185.46.77.93/32 } on-error={}
 :do { add list=PS address=185.46.78.4/32 } on-error={}
-:do { add list=PS address=185.46.78.48/29 } on-error={}
+:do { add list=PS address=185.46.78.48/28 } on-error={}
 :do { add list=PS address=185.46.78.131/32 } on-error={}
 :do { add list=PS address=185.46.78.190/32 } on-error={}
 :do { add list=PS address=185.61.20.0/22 } on-error={}

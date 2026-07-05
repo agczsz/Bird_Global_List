@@ -2,6 +2,7 @@
 /ipv6 firewall address-list
 :do { add list=GG address=2001:470:36:7ad::/64 } on-error={}
 :do { add list=GG address=2001:470:36:8f5::/64 } on-error={}
+:do { add list=GG address=2001:470:1868::/48 } on-error={}
 :do { add list=GG address=2001:470:1f2f:42a::/64 } on-error={}
 :do { add list=GG address=2001:470:5571::/48 } on-error={}
 :do { add list=GG address=2001:470:5576::/48 } on-error={}

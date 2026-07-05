@@ -5,11 +5,11 @@
 :do { add list=GL address=2001:470:1f2b:90::/64 } on-error={}
 :do { add list=GL address=2001:470:4161::/48 } on-error={}
 :do { add list=GL address=2001:470:711e::/48 } on-error={}
+:do { add list=GL address=2001:470:88dc::/48 } on-error={}
 :do { add list=GL address=2001:470:b994::/48 } on-error={}
 :do { add list=GL address=2001:470:ee5b::/49 } on-error={}
 :do { add list=GL address=2001:470:ee5b:c000::/50 } on-error={}
 :do { add list=GL address=2001:470:ef94::/48 } on-error={}
-:do { add list=GL address=2001:470:f2fc::/48 } on-error={}
 :do { add list=GL address=2001:470:f333::/48 } on-error={}
 :do { add list=GL address=2001:470:f42a::/48 } on-error={}
 :do { add list=GL address=2001:470:f4c9::/48 } on-error={}

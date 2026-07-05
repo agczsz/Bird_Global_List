@@ -5,7 +5,12 @@
 :do { add list=BW address=2001:470:81fb::/48 } on-error={}
 :do { add list=BW address=2001:470:fd34::/48 } on-error={}
 :do { add list=BW address=2001:67c:a38:f267::/64 } on-error={}
-:do { add list=BW address=2001:4328::/60 } on-error={}
+:do { add list=BW address=2001:4328::/62 } on-error={}
+:do { add list=BW address=2001:4328:0:4::/64 } on-error={}
+:do { add list=BW address=2001:4328:0:6::/63 } on-error={}
+:do { add list=BW address=2001:4328:0:8::/63 } on-error={}
+:do { add list=BW address=2001:4328:0:a::/64 } on-error={}
+:do { add list=BW address=2001:4328:0:c::/62 } on-error={}
 :do { add list=BW address=2001:4328:0:10::/62 } on-error={}
 :do { add list=BW address=2001:4328:0:14::/63 } on-error={}
 :do { add list=BW address=2001:4328:0:16::/127 } on-error={}

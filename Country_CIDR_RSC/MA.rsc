@@ -170,8 +170,13 @@
 :do { add list=MA address=81.192.254.176/28 } on-error={}
 :do { add list=MA address=81.192.254.192/26 } on-error={}
 :do { add list=MA address=81.192.255.0/24 } on-error={}
-:do { add list=MA address=82.38.112.0/24 } on-error={}
-:do { add list=MA address=82.38.114.0/23 } on-error={}
+:do { add list=MA address=82.38.112.0/25 } on-error={}
+:do { add list=MA address=82.38.112.128/27 } on-error={}
+:do { add list=MA address=82.38.112.160/30 } on-error={}
+:do { add list=MA address=82.38.112.164/31 } on-error={}
+:do { add list=MA address=82.38.112.168/29 } on-error={}
+:do { add list=MA address=82.38.112.192/26 } on-error={}
+:do { add list=MA address=82.38.115.0/25 } on-error={}
 :do { add list=MA address=82.153.138.153/32 } on-error={}
 :do { add list=MA address=84.8.192.0/21 } on-error={}
 :do { add list=MA address=84.8.200.0/22 } on-error={}

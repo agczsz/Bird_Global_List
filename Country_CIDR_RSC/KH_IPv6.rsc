@@ -23,6 +23,7 @@
 :do { add list=KH address=2001:470:f62a::/48 } on-error={}
 :do { add list=KH address=2001:470:f90c::/48 } on-error={}
 :do { add list=KH address=2001:470:f945::/48 } on-error={}
+:do { add list=KH address=2001:470:f9ea::/48 } on-error={}
 :do { add list=KH address=2001:470:fa01::/48 } on-error={}
 :do { add list=KH address=2001:67c:a38:f855::/64 } on-error={}
 :do { add list=KH address=2001:ac8:4:4000::/50 } on-error={}

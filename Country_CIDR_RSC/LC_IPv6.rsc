@@ -29,7 +29,11 @@
 :do { add list=LC address=2606:3c80:1600:800::/55 } on-error={}
 :do { add list=LC address=2606:3c80:1600:c00::/54 } on-error={}
 :do { add list=LC address=2606:3c80:1600:1000::/52 } on-error={}
-:do { add list=LC address=2606:3c80:1600:2000::/51 } on-error={}
+:do { add list=LC address=2606:3c80:1600:2000::/53 } on-error={}
+:do { add list=LC address=2606:3c80:1600:2800::/55 } on-error={}
+:do { add list=LC address=2606:3c80:1600:2b00::/56 } on-error={}
+:do { add list=LC address=2606:3c80:1600:2c00::/54 } on-error={}
+:do { add list=LC address=2606:3c80:1600:3000::/52 } on-error={}
 :do { add list=LC address=2606:3c80:1600:4000::/51 } on-error={}
 :do { add list=LC address=2606:3c80:1600:6000::/52 } on-error={}
 :do { add list=LC address=2606:3c80:1600:7000::/56 } on-error={}

@@ -567,6 +567,8 @@
 :do { add list=RO address=2001:978:3::d4/126 } on-error={}
 :do { add list=RO address=2001:978:3::130/125 } on-error={}
 :do { add list=RO address=2001:978:3::1a9/128 } on-error={}
+:do { add list=RO address=2001:978:3400:4000::/50 } on-error={}
+:do { add list=RO address=2001:978:3400:8000::/49 } on-error={}
 :do { add list=RO address=2001:978:3401::/48 } on-error={}
 :do { add list=RO address=2001:978:3402::/48 } on-error={}
 :do { add list=RO address=2001:ac8:10:10::1d/128 } on-error={}

@@ -1025,7 +1025,6 @@
 :do { add list=HR address=2a02:26f7:c980:4620::/60 } on-error={}
 :do { add list=HR address=2a02:26f7:c980:4630::/61 } on-error={}
 :do { add list=HR address=2a02:26f7:c980:4638::/64 } on-error={}
-:do { add list=HR address=2a02:26f7:c980:8000::/49 } on-error={}
 :do { add list=HR address=2a02:26f7:c981::/48 } on-error={}
 :do { add list=HR address=2a02:26f7:c982::/47 } on-error={}
 :do { add list=HR address=2a02:26f7:c984::/48 } on-error={}

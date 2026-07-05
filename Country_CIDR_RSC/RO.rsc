@@ -1327,7 +1327,6 @@
 :do { add list=RO address=82.208.128.0/18 } on-error={}
 :do { add list=RO address=82.210.128.0/18 } on-error={}
 :do { add list=RO address=83.97.20.0/24 } on-error={}
-:do { add list=RO address=83.97.21.41/32 } on-error={}
 :do { add list=RO address=83.97.21.56/31 } on-error={}
 :do { add list=RO address=83.97.21.80/30 } on-error={}
 :do { add list=RO address=83.97.21.84/31 } on-error={}

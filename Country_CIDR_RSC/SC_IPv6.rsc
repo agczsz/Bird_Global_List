@@ -2,7 +2,6 @@
 /ipv6 firewall address-list
 :do { add list=SC address=2001:470:6a42::/48 } on-error={}
 :do { add list=SC address=2001:470:7169::/48 } on-error={}
-:do { add list=SC address=2001:470:e27a::/48 } on-error={}
 :do { add list=SC address=2001:470:fb41::/48 } on-error={}
 :do { add list=SC address=2001:470:fd16::/48 } on-error={}
 :do { add list=SC address=2001:590:3803:f::253/128 } on-error={}
@@ -3148,8 +3147,6 @@
 :do { add list=SC address=2c0f:f530:8000::/34 } on-error={}
 :do { add list=SC address=2c0f:f530:c000::/35 } on-error={}
 :do { add list=SC address=2c0f:f530:e000::/36 } on-error={}
-:do { add list=SC address=2c0f:f530:f012::/48 } on-error={}
-:do { add list=SC address=2c0f:f530:f02f::/48 } on-error={}
 :do { add list=SC address=2c0f:f530:f030::/48 } on-error={}
 :do { add list=SC address=2c0f:f530:f033::/48 } on-error={}
 :do { add list=SC address=2c0f:f530:f03b::/48 } on-error={}
@@ -3161,6 +3158,7 @@
 :do { add list=SC address=2c0f:f530:f048::/48 } on-error={}
 :do { add list=SC address=2c0f:f530:f04a::/47 } on-error={}
 :do { add list=SC address=2c0f:f530:f057::/48 } on-error={}
+:do { add list=SC address=2c0f:f530:f058::/48 } on-error={}
 :do { add list=SC address=2c0f:f530:f05c::/48 } on-error={}
 :do { add list=SC address=2c0f:f530:f061::/48 } on-error={}
 :do { add list=SC address=2c0f:f530:f062::/47 } on-error={}

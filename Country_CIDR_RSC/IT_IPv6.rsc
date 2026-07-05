@@ -218,6 +218,7 @@
 :do { add list=IT address=2001:470:7515::/48 } on-error={}
 :do { add list=IT address=2001:470:7548::/48 } on-error={}
 :do { add list=IT address=2001:470:7552::/48 } on-error={}
+:do { add list=IT address=2001:470:7574::/48 } on-error={}
 :do { add list=IT address=2001:470:7576::/48 } on-error={}
 :do { add list=IT address=2001:470:757c::/48 } on-error={}
 :do { add list=IT address=2001:470:758e::/48 } on-error={}

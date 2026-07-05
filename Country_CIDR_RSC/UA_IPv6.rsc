@@ -540,6 +540,7 @@
 :do { add list=UA address=2001:470:72c8::/48 } on-error={}
 :do { add list=UA address=2001:470:72d1::/48 } on-error={}
 :do { add list=UA address=2001:470:72ef::/48 } on-error={}
+:do { add list=UA address=2001:470:72fb::/48 } on-error={}
 :do { add list=UA address=2001:470:7309::/48 } on-error={}
 :do { add list=UA address=2001:470:730f::/48 } on-error={}
 :do { add list=UA address=2001:470:7312::/48 } on-error={}
@@ -3386,6 +3387,7 @@
 :do { add list=UA address=2a02:2378::/32 } on-error={}
 :do { add list=UA address=2a02:2518:0:bd:0:1:2876:2/127 } on-error={}
 :do { add list=UA address=2a02:2518:0:d0::/60 } on-error={}
+:do { add list=UA address=2a02:2518:38:3139::/64 } on-error={}
 :do { add list=UA address=2a02:2540::/32 } on-error={}
 :do { add list=UA address=2a02:2610::/32 } on-error={}
 :do { add list=UA address=2a02:26f0:4800::/48 } on-error={}
@@ -5736,6 +5738,7 @@
 :do { add list=UA address=2a0f:4100::/29 } on-error={}
 :do { add list=UA address=2a0f:41c0::/29 } on-error={}
 :do { add list=UA address=2a0f:4b80::/29 } on-error={}
+:do { add list=UA address=2a0f:6280:6000::/36 } on-error={}
 :do { add list=UA address=2a0f:6284:2040::/43 } on-error={}
 :do { add list=UA address=2a0f:6680::/29 } on-error={}
 :do { add list=UA address=2a0f:7a40::/29 } on-error={}

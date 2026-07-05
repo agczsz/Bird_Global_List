@@ -393,6 +393,7 @@
 :do { add list=PA address=2a02:26f7:e802:4ac0::/62 } on-error={}
 :do { add list=PA address=2a02:26f7:e802:4ac4::/63 } on-error={}
 :do { add list=PA address=2a02:26f7:e802:4ac7::/64 } on-error={}
+:do { add list=PA address=2a02:26f7:e802:8000::/49 } on-error={}
 :do { add list=PA address=2a02:26f7:e803::/48 } on-error={}
 :do { add list=PA address=2a02:26f7:e804:4000::/64 } on-error={}
 :do { add list=PA address=2a02:26f7:e804:4ac0::/62 } on-error={}

@@ -5,9 +5,9 @@
 :do { add list=QA address=2001:470:1f29:cf::/64 } on-error={}
 :do { add list=QA address=2001:470:1f29:381::/64 } on-error={}
 :do { add list=QA address=2001:470:2155::/48 } on-error={}
-:do { add list=QA address=2001:470:72fb::/48 } on-error={}
 :do { add list=QA address=2001:470:756a::/48 } on-error={}
 :do { add list=QA address=2001:470:787c::/48 } on-error={}
+:do { add list=QA address=2001:470:f9e7::/48 } on-error={}
 :do { add list=QA address=2001:678:ed8::/48 } on-error={}
 :do { add list=QA address=2001:67c:a38:f974::/64 } on-error={}
 :do { add list=QA address=2001:7f8:ed::/48 } on-error={}

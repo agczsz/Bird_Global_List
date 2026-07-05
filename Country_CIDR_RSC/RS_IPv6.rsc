@@ -154,6 +154,7 @@
 :do { add list=RS address=2001:470:1f1b:4bf::/64 } on-error={}
 :do { add list=RS address=2001:470:1f1b:7ff::/64 } on-error={}
 :do { add list=RS address=2001:470:1f29:ea::/64 } on-error={}
+:do { add list=RS address=2001:470:1f29:260::/64 } on-error={}
 :do { add list=RS address=2001:470:2005::/48 } on-error={}
 :do { add list=RS address=2001:470:2021::/48 } on-error={}
 :do { add list=RS address=2001:470:202c::/48 } on-error={}

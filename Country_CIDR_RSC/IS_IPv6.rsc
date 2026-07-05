@@ -3,6 +3,7 @@
 :do { add list=IS address=2001:470:19:fcf::/64 } on-error={}
 :do { add list=IS address=2001:470:28:137::/64 } on-error={}
 :do { add list=IS address=2001:470:28:595::/64 } on-error={}
+:do { add list=IS address=2001:470:1879::/48 } on-error={}
 :do { add list=IS address=2001:470:19b0::/48 } on-error={}
 :do { add list=IS address=2001:470:1af3::/48 } on-error={}
 :do { add list=IS address=2001:470:1f0b:9cf::/64 } on-error={}

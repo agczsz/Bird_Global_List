@@ -414,8 +414,6 @@
 :do { add list=AF address=196.56.32.0/24 } on-error={}
 :do { add list=AF address=196.57.32.0/24 } on-error={}
 :do { add list=AF address=196.58.32.0/24 } on-error={}
-:do { add list=AF address=196.195.4.0/24 } on-error={}
-:do { add list=AF address=196.195.15.0/24 } on-error={}
 :do { add list=AF address=196.197.32.0/24 } on-error={}
 :do { add list=AF address=196.198.32.0/24 } on-error={}
 :do { add list=AF address=196.199.32.0/24 } on-error={}

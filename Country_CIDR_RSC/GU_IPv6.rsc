@@ -5,7 +5,6 @@
 :do { add list=GU address=2001:470:1:e81::/64 } on-error={}
 :do { add list=GU address=2001:470:19:ba8::/64 } on-error={}
 :do { add list=GU address=2001:470:36:855::/64 } on-error={}
-:do { add list=GU address=2001:470:f546::/48 } on-error={}
 :do { add list=GU address=2001:470:f814::/48 } on-error={}
 :do { add list=GU address=2001:470:f857::/48 } on-error={}
 :do { add list=GU address=2001:470:f986::/48 } on-error={}

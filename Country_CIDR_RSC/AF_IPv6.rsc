@@ -133,6 +133,7 @@
 :do { add list=AF address=2001:470:f2f0::/48 } on-error={}
 :do { add list=AF address=2001:470:f4cd::/48 } on-error={}
 :do { add list=AF address=2001:470:f4e8::/48 } on-error={}
+:do { add list=AF address=2001:470:f9f0::/48 } on-error={}
 :do { add list=AF address=2001:470:fc2a::/48 } on-error={}
 :do { add list=AF address=2001:470:fdf6::/48 } on-error={}
 :do { add list=AF address=2001:470:ffc7::/48 } on-error={}

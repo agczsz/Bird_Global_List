@@ -1303,6 +1303,7 @@
 :do { add list=EE address=2a04:c280::/29 } on-error={}
 :do { add list=EE address=2a04:d400::/29 } on-error={}
 :do { add list=EE address=2a05:541:129::/48 } on-error={}
+:do { add list=EE address=2a05:1640:1::/48 } on-error={}
 :do { add list=EE address=2a05:1cc0::/29 } on-error={}
 :do { add list=EE address=2a05:4080::/29 } on-error={}
 :do { add list=EE address=2a05:4280::/29 } on-error={}

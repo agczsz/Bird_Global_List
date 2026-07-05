@@ -3154,6 +3154,7 @@
 :do { add list=EC address=2a02:26f7:ea44::/46 } on-error={}
 :do { add list=EC address=2a02:26f7:ea48:4000::/64 } on-error={}
 :do { add list=EC address=2a02:26f7:ea48:4400::/58 } on-error={}
+:do { add list=EC address=2a02:26f7:ea48:8000::/50 } on-error={}
 :do { add list=EC address=2a02:26f7:ea48:d800::/61 } on-error={}
 :do { add list=EC address=2a02:26f7:ea48:d808::/63 } on-error={}
 :do { add list=EC address=2a02:26f7:ea49::/48 } on-error={}
