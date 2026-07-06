@@ -4696,7 +4696,11 @@
 :do { add list=CN address=2401:2a00:8000::/34 } on-error={}
 :do { add list=CN address=2401:2a00:c000::/35 } on-error={}
 :do { add list=CN address=2401:2a00:e000::/36 } on-error={}
-:do { add list=CN address=2401:2a00:f000::/43 } on-error={}
+:do { add list=CN address=2401:2a00:f000::/44 } on-error={}
+:do { add list=CN address=2401:2a00:f010::/46 } on-error={}
+:do { add list=CN address=2401:2a00:f014::/47 } on-error={}
+:do { add list=CN address=2401:2a00:f016::/47 } on-error={}
+:do { add list=CN address=2401:2a00:f018::/45 } on-error={}
 :do { add list=CN address=2401:2a00:f020::/43 } on-error={}
 :do { add list=CN address=2401:2a00:f040::/42 } on-error={}
 :do { add list=CN address=2401:2a00:f080::/41 } on-error={}
@@ -53640,7 +53644,9 @@
 :do { add list=CN address=2602:feda:20::/44 } on-error={}
 :do { add list=CN address=2602:feda:c3::/48 } on-error={}
 :do { add list=CN address=2602:feda:c4::/48 } on-error={}
-:do { add list=CN address=2602:feda:d0::/44 } on-error={}
+:do { add list=CN address=2602:feda:d0::/46 } on-error={}
+:do { add list=CN address=2602:feda:d4::/46 } on-error={}
+:do { add list=CN address=2602:feda:d8::/45 } on-error={}
 :do { add list=CN address=2602:feda:1a0::/44 } on-error={}
 :do { add list=CN address=2602:feda:1b0::/45 } on-error={}
 :do { add list=CN address=2602:feda:1b8::/46 } on-error={}

@@ -93,7 +93,9 @@
 :do { add list=SY address=93.118.48.0/20 } on-error={}
 :do { add list=SY address=93.175.48.130/32 } on-error={}
 :do { add list=SY address=93.175.48.132/32 } on-error={}
-:do { add list=SY address=94.47.0.0/16 } on-error={}
+:do { add list=SY address=94.47.0.0/17 } on-error={}
+:do { add list=SY address=94.47.128.0/18 } on-error={}
+:do { add list=SY address=94.47.192.0/18 } on-error={}
 :do { add list=SY address=94.102.80.0/21 } on-error={}
 :do { add list=SY address=94.102.92.0/22 } on-error={}
 :do { add list=SY address=94.141.192.0/19 } on-error={}

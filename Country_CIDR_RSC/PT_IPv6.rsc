@@ -2977,7 +2977,9 @@
 :do { add list=PT address=2a03:b601:7f8::/47 } on-error={}
 :do { add list=PT address=2a03:bb80::/47 } on-error={}
 :do { add list=PT address=2a03:bb80:3::/48 } on-error={}
-:do { add list=PT address=2a03:bb80:4::/46 } on-error={}
+:do { add list=PT address=2a03:bb80:4::/48 } on-error={}
+:do { add list=PT address=2a03:bb80:5::/48 } on-error={}
+:do { add list=PT address=2a03:bb80:6::/47 } on-error={}
 :do { add list=PT address=2a03:bb80:8::/45 } on-error={}
 :do { add list=PT address=2a03:bb80:20::/43 } on-error={}
 :do { add list=PT address=2a03:bb80:40::/42 } on-error={}

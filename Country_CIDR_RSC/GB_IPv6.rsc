@@ -82397,8 +82397,7 @@
 :do { add list=GB address=2a0a:4a40:2200::/42 } on-error={}
 :do { add list=GB address=2a0a:4a40:2240::/43 } on-error={}
 :do { add list=GB address=2a0a:4a40:2260::/44 } on-error={}
-:do { add list=GB address=2a0a:4a40:2270::/48 } on-error={}
-:do { add list=GB address=2a0a:4a40:2271::/48 } on-error={}
+:do { add list=GB address=2a0a:4a40:2270::/47 } on-error={}
 :do { add list=GB address=2a0a:4a40:2272::/47 } on-error={}
 :do { add list=GB address=2a0a:4a40:2274::/46 } on-error={}
 :do { add list=GB address=2a0a:4a40:2278::/45 } on-error={}

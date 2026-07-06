@@ -3610,8 +3610,7 @@
 :do { add list=TH address=122.155.239.0/24 } on-error={}
 :do { add list=TH address=122.155.240.0/24 } on-error={}
 :do { add list=TH address=122.155.241.0/24 } on-error={}
-:do { add list=TH address=122.155.242.0/24 } on-error={}
-:do { add list=TH address=122.155.243.0/24 } on-error={}
+:do { add list=TH address=122.155.242.0/23 } on-error={}
 :do { add list=TH address=122.155.244.0/22 } on-error={}
 :do { add list=TH address=122.155.248.0/21 } on-error={}
 :do { add list=TH address=123.242.128.0/18 } on-error={}

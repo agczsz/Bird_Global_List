@@ -7008,7 +7008,9 @@
 :do { add list=IE address=2a05:5300::/29 } on-error={}
 :do { add list=IE address=2a05:7640::/36 } on-error={}
 :do { add list=IE address=2a05:7640:2000::/42 } on-error={}
-:do { add list=IE address=2a05:7640:2080::/42 } on-error={}
+:do { add list=IE address=2a05:7640:2080::/44 } on-error={}
+:do { add list=IE address=2a05:7640:2090::/44 } on-error={}
+:do { add list=IE address=2a05:7640:20a0::/43 } on-error={}
 :do { add list=IE address=2a05:7640:20c0::/44 } on-error={}
 :do { add list=IE address=2a05:7640:20e0::/43 } on-error={}
 :do { add list=IE address=2a05:7640:2100::/42 } on-error={}

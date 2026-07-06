@@ -11385,9 +11385,7 @@
 :do { add list=ID address=202.56.170.0/23 } on-error={}
 :do { add list=ID address=202.56.172.0/22 } on-error={}
 :do { add list=ID address=202.57.0.0/20 } on-error={}
-:do { add list=ID address=202.57.16.0/24 } on-error={}
-:do { add list=ID address=202.57.17.0/24 } on-error={}
-:do { add list=ID address=202.57.18.0/23 } on-error={}
+:do { add list=ID address=202.57.16.0/22 } on-error={}
 :do { add list=ID address=202.57.20.0/23 } on-error={}
 :do { add list=ID address=202.57.22.0/23 } on-error={}
 :do { add list=ID address=202.57.24.0/22 } on-error={}

@@ -9025,11 +9025,7 @@
 :do { add list=ZA address=2c0f:28c0::/32 } on-error={}
 :do { add list=ZA address=2c0f:2900::/32 } on-error={}
 :do { add list=ZA address=2c0f:2a40::/32 } on-error={}
-:do { add list=ZA address=2c0f:2b40::/35 } on-error={}
-:do { add list=ZA address=2c0f:2b40:2000::/36 } on-error={}
-:do { add list=ZA address=2c0f:2b40:3000::/36 } on-error={}
-:do { add list=ZA address=2c0f:2b40:4000::/34 } on-error={}
-:do { add list=ZA address=2c0f:2b40:8000::/33 } on-error={}
+:do { add list=ZA address=2c0f:2b40::/32 } on-error={}
 :do { add list=ZA address=2c0f:2c00::/32 } on-error={}
 :do { add list=ZA address=2c0f:2c40::/43 } on-error={}
 :do { add list=ZA address=2c0f:2c40:20::/44 } on-error={}

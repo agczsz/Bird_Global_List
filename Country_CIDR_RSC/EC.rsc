@@ -741,12 +741,7 @@
 :do { add list=EC address=181.39.55.0/24 } on-error={}
 :do { add list=EC address=181.39.56.0/21 } on-error={}
 :do { add list=EC address=181.39.64.0/18 } on-error={}
-:do { add list=EC address=181.39.128.0/18 } on-error={}
-:do { add list=EC address=181.39.192.0/21 } on-error={}
-:do { add list=EC address=181.39.200.0/22 } on-error={}
-:do { add list=EC address=181.39.204.0/22 } on-error={}
-:do { add list=EC address=181.39.208.0/20 } on-error={}
-:do { add list=EC address=181.39.224.0/19 } on-error={}
+:do { add list=EC address=181.39.128.0/17 } on-error={}
 :do { add list=EC address=181.78.26.0/24 } on-error={}
 :do { add list=EC address=181.78.29.0/24 } on-error={}
 :do { add list=EC address=181.78.31.0/24 } on-error={}

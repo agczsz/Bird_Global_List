@@ -8585,7 +8585,8 @@
 :do { add list=RO address=2a10:fa80:200::/39 } on-error={}
 :do { add list=RO address=2a10:fa80:400::/38 } on-error={}
 :do { add list=RO address=2a10:fa80:800::/37 } on-error={}
-:do { add list=RO address=2a10:fa80:2000::/35 } on-error={}
+:do { add list=RO address=2a10:fa80:2000::/36 } on-error={}
+:do { add list=RO address=2a10:fa80:3000::/36 } on-error={}
 :do { add list=RO address=2a10:fa80:4000::/34 } on-error={}
 :do { add list=RO address=2a10:fa80:8000::/33 } on-error={}
 :do { add list=RO address=2a10:fa81::/48 } on-error={}

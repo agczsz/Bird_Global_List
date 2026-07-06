@@ -8480,7 +8480,10 @@
 :do { add list=NO address=2a13:d8c4:3::/48 } on-error={}
 :do { add list=NO address=2a13:d8c4:4::/47 } on-error={}
 :do { add list=NO address=2a13:d8c4:6::/48 } on-error={}
-:do { add list=NO address=2a13:d8c4:8::/45 } on-error={}
+:do { add list=NO address=2a13:d8c4:8::/48 } on-error={}
+:do { add list=NO address=2a13:d8c4:9::/48 } on-error={}
+:do { add list=NO address=2a13:d8c4:a::/47 } on-error={}
+:do { add list=NO address=2a13:d8c4:c::/46 } on-error={}
 :do { add list=NO address=2a13:d8c4:10::/44 } on-error={}
 :do { add list=NO address=2a13:d8c4:20::/44 } on-error={}
 :do { add list=NO address=2a13:d8c4:30:4000::/50 } on-error={}

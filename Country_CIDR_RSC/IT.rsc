@@ -3444,7 +3444,8 @@
 :do { add list=IT address=79.99.8.0/21 } on-error={}
 :do { add list=IT address=79.99.93.5/32 } on-error={}
 :do { add list=IT address=79.99.112.0/21 } on-error={}
-:do { add list=IT address=79.108.128.0/20 } on-error={}
+:do { add list=IT address=79.108.128.0/21 } on-error={}
+:do { add list=IT address=79.108.136.0/21 } on-error={}
 :do { add list=IT address=79.108.152.0/21 } on-error={}
 :do { add list=IT address=79.108.208.0/21 } on-error={}
 :do { add list=IT address=79.127.246.0/24 } on-error={}

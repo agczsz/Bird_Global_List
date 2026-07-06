@@ -66881,7 +66881,8 @@
 :do { add list=AU address=2001:9600:200::/40 } on-error={}
 :do { add list=AU address=2001:9600:300::/48 } on-error={}
 :do { add list=AU address=2001:9600:301::/48 } on-error={}
-:do { add list=AU address=2001:9600:302::/47 } on-error={}
+:do { add list=AU address=2001:9600:302::/48 } on-error={}
+:do { add list=AU address=2001:9600:303::/48 } on-error={}
 :do { add list=AU address=2001:9600:304::/46 } on-error={}
 :do { add list=AU address=2001:9600:308::/45 } on-error={}
 :do { add list=AU address=2001:9600:310::/44 } on-error={}
