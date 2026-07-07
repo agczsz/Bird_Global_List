@@ -42,7 +42,7 @@
 :do { add list=MK address=2001:798:99:1::5b/128 } on-error={}
 :do { add list=MK address=2001:798:99:1::68/128 } on-error={}
 :do { add list=MK address=2001:798:99:1::6c/128 } on-error={}
-:do { add list=MK address=2001:798:99:1::6f/128 } on-error={}
+:do { add list=MK address=2001:798:99:1::6e/127 } on-error={}
 :do { add list=MK address=2001:798:99:1::f6/127 } on-error={}
 :do { add list=MK address=2001:798:cc::8/128 } on-error={}
 :do { add list=MK address=2001:798:cc::b/128 } on-error={}

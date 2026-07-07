@@ -5400,7 +5400,6 @@
 :do { add list=VN address=2a0c:9a46:3fe:f0::/64 } on-error={}
 :do { add list=VN address=2a0d:6c2:2b00::/40 } on-error={}
 :do { add list=VN address=2a0d:9440:5000::/37 } on-error={}
-:do { add list=VN address=2a0e:97c0:d7f::/48 } on-error={}
 :do { add list=VN address=2a0e:97c0:daf::/48 } on-error={}
 :do { add list=VN address=2a0e:a942::/38 } on-error={}
 :do { add list=VN address=2a0e:a942:400::/40 } on-error={}

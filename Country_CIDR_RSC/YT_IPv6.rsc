@@ -4,8 +4,6 @@
 :do { add list=YT address=2001:470:6d23::/48 } on-error={}
 :do { add list=YT address=2001:470:93e1::/48 } on-error={}
 :do { add list=YT address=2001:470:ee2d::/48 } on-error={}
-:do { add list=YT address=2001:470:f854:4000::/50 } on-error={}
-:do { add list=YT address=2001:470:f854:8000::/49 } on-error={}
 :do { add list=YT address=2001:4b28:900::/40 } on-error={}
 :do { add list=YT address=2401:b60:1920:4000::/50 } on-error={}
 :do { add list=YT address=2401:b60:1920:8000::/49 } on-error={}

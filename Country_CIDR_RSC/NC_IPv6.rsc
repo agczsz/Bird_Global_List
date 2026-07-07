@@ -25,13 +25,10 @@
 :do { add list=NC address=2404:2a00::/32 } on-error={}
 :do { add list=NC address=2404:e400::/45 } on-error={}
 :do { add list=NC address=2404:e400:8::/46 } on-error={}
-:do { add list=NC address=2404:e400:c::/64 } on-error={}
-:do { add list=NC address=2404:e400:c:2::/63 } on-error={}
+:do { add list=NC address=2404:e400:c::/62 } on-error={}
 :do { add list=NC address=2404:e400:c:5::/64 } on-error={}
 :do { add list=NC address=2404:e400:c:6::/63 } on-error={}
-:do { add list=NC address=2404:e400:c:8::/64 } on-error={}
-:do { add list=NC address=2404:e400:c:a::/63 } on-error={}
-:do { add list=NC address=2404:e400:c:c::/62 } on-error={}
+:do { add list=NC address=2404:e400:c:8::/61 } on-error={}
 :do { add list=NC address=2404:e400:c:10::/60 } on-error={}
 :do { add list=NC address=2404:e400:c:20::/59 } on-error={}
 :do { add list=NC address=2404:e400:c:40::/63 } on-error={}

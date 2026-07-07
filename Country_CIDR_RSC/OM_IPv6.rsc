@@ -951,6 +951,7 @@
 :do { add list=OM address=2401:3cc0::4:47e/128 } on-error={}
 :do { add list=OM address=2401:3cc0:10:50::1:252/127 } on-error={}
 :do { add list=OM address=2401:3cc0:10:50::1:254/128 } on-error={}
+:do { add list=OM address=2401:3cc0:10:50::1:256/128 } on-error={}
 :do { add list=OM address=2401:3cc0:10:50::1:258/128 } on-error={}
 :do { add list=OM address=2401:3cc0:1017::/64 } on-error={}
 :do { add list=OM address=2402:6800:6::/48 } on-error={}

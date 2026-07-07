@@ -994,6 +994,7 @@
 :do { add list=BD address=2001:4860:7:c02::/64 } on-error={}
 :do { add list=BD address=2001:4860:7:d02::/64 } on-error={}
 :do { add list=BD address=2001:4b28:9100::/40 } on-error={}
+:do { add list=BD address=2001:b011:6c03:f880::/59 } on-error={}
 :do { add list=BD address=2400:1020::/32 } on-error={}
 :do { add list=BD address=2400:10c0::/32 } on-error={}
 :do { add list=BD address=2400:1140::/32 } on-error={}

@@ -282,7 +282,6 @@
 :do { add list=ZM address=2c0f:fa10:2:8004::/64 } on-error={}
 :do { add list=ZM address=2c0f:fa10:2:8006::/64 } on-error={}
 :do { add list=ZM address=2c0f:fa10:2:8009::/64 } on-error={}
-:do { add list=ZM address=2c0f:fa10:2:800a::/64 } on-error={}
 :do { add list=ZM address=2c0f:fa10:2:800c::/64 } on-error={}
 :do { add list=ZM address=2c0f:fa10:2:800f::/64 } on-error={}
 :do { add list=ZM address=2c0f:fa10:2:8019::/64 } on-error={}

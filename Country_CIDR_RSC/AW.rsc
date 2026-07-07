@@ -5,9 +5,6 @@
 :do { add list=AW address=5.175.190.80/32 } on-error={}
 :do { add list=AW address=57.74.102.0/23 } on-error={}
 :do { add list=AW address=57.91.224.0/21 } on-error={}
-:do { add list=AW address=75.104.92.221/32 } on-error={}
-:do { add list=AW address=75.104.94.147/32 } on-error={}
-:do { add list=AW address=99.196.133.152/32 } on-error={}
 :do { add list=AW address=104.28.8.81/32 } on-error={}
 :do { add list=AW address=104.28.8.82/31 } on-error={}
 :do { add list=AW address=104.28.24.150/31 } on-error={}

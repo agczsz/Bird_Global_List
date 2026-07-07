@@ -2271,7 +2271,6 @@
 :do { add list=PK address=2602:f7c8:534::/47 } on-error={}
 :do { add list=PK address=2602:f7c8:536::/48 } on-error={}
 :do { add list=PK address=2602:f992:a0::/44 } on-error={}
-:do { add list=PK address=2602:f992:f8::/48 } on-error={}
 :do { add list=PK address=2602:fa80:12::/48 } on-error={}
 :do { add list=PK address=2602:fa80:30::/48 } on-error={}
 :do { add list=PK address=2602:fd92:b00:118::/64 } on-error={}
