@@ -1388,9 +1388,6 @@
 :do { add list=AO address=2c0f:f828:0:0:1000::/68 } on-error={}
 :do { add list=AO address=2c0f:f828:0:0:2000::/67 } on-error={}
 :do { add list=AO address=2c0f:f828:0:0:4000::/66 } on-error={}
-:do { add list=AO address=2c0f:f828:0:1::/64 } on-error={}
-:do { add list=AO address=2c0f:f828:0:2::/63 } on-error={}
-:do { add list=AO address=2c0f:f828:0:4::/62 } on-error={}
 :do { add list=AO address=2c0f:f828:0:8::/61 } on-error={}
 :do { add list=AO address=2c0f:f828:0:10::/60 } on-error={}
 :do { add list=AO address=2c0f:f828:0:20::/59 } on-error={}

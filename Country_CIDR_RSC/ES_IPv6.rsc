@@ -9153,8 +9153,7 @@
 :do { add list=ES address=2a09:bac0:1000:1512::/64 } on-error={}
 :do { add list=ES address=2a09:bac0:1000:1615::/64 } on-error={}
 :do { add list=ES address=2a09:bac0:1000:164e::/64 } on-error={}
-:do { add list=ES address=2a09:bac0:1000:16b7::/64 } on-error={}
-:do { add list=ES address=2a09:bac0:1000:16b8::/61 } on-error={}
+:do { add list=ES address=2a09:bac0:1000:16bf::/64 } on-error={}
 :do { add list=ES address=2a09:bac0:1000:16c0::/58 } on-error={}
 :do { add list=ES address=2a09:bac0:1000:200c::/64 } on-error={}
 :do { add list=ES address=2a09:bac0:1001:1b::/64 } on-error={}

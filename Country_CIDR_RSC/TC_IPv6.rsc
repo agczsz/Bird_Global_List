@@ -123,7 +123,6 @@
 :do { add list=TC address=2a0f:a303:d800::/37 } on-error={}
 :do { add list=TC address=2a11:29c0:3d88:2ba6::/64 } on-error={}
 :do { add list=TC address=2a11:3a83:2000::/35 } on-error={}
-:do { add list=TC address=2a12:bec4:12a9::/48 } on-error={}
 :do { add list=TC address=2a12:f005:5000::/36 } on-error={}
 :do { add list=TC address=2a12:f381:e900::/40 } on-error={}
 :do { add list=TC address=2a12:f382:e900::/40 } on-error={}

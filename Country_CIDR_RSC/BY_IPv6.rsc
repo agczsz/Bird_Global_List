@@ -135,8 +135,6 @@
 :do { add list=BY address=2600:70ff:b2f9::/48 } on-error={}
 :do { add list=BY address=2600:70ff:f055::/48 } on-error={}
 :do { add list=BY address=2600:70ff:f083::/48 } on-error={}
-:do { add list=BY address=2602:815:0:4000::/50 } on-error={}
-:do { add list=BY address=2602:815:0:8000::/49 } on-error={}
 :do { add list=BY address=2606:40:890::/44 } on-error={}
 :do { add list=BY address=2606:40:980::/45 } on-error={}
 :do { add list=BY address=2606:40:988::/46 } on-error={}

@@ -1688,7 +1688,12 @@
 :do { add list=TH address=2001:44c8:4910::/44 } on-error={}
 :do { add list=TH address=2001:44c8:4920::/43 } on-error={}
 :do { add list=TH address=2001:44c8:4940::/42 } on-error={}
-:do { add list=TH address=2001:44c8:4980::/41 } on-error={}
+:do { add list=TH address=2001:44c8:4980::/44 } on-error={}
+:do { add list=TH address=2001:44c8:4990::/44 } on-error={}
+:do { add list=TH address=2001:44c8:49a0::/43 } on-error={}
+:do { add list=TH address=2001:44c8:49c0::/44 } on-error={}
+:do { add list=TH address=2001:44c8:49d0::/44 } on-error={}
+:do { add list=TH address=2001:44c8:49e0::/43 } on-error={}
 :do { add list=TH address=2001:44c8:4a00::/39 } on-error={}
 :do { add list=TH address=2001:44c8:4c00::/38 } on-error={}
 :do { add list=TH address=2001:44c8:5000::/36 } on-error={}
@@ -2539,7 +2544,10 @@
 :do { add list=TH address=2403:6200:7000::/37 } on-error={}
 :do { add list=TH address=2403:6200:7800::/40 } on-error={}
 :do { add list=TH address=2403:6200:7900::/43 } on-error={}
-:do { add list=TH address=2403:6200:7920::/45 } on-error={}
+:do { add list=TH address=2403:6200:7920::/46 } on-error={}
+:do { add list=TH address=2403:6200:7924::/47 } on-error={}
+:do { add list=TH address=2403:6200:7926::/48 } on-error={}
+:do { add list=TH address=2403:6200:7927::/48 } on-error={}
 :do { add list=TH address=2403:6200:7928::/46 } on-error={}
 :do { add list=TH address=2403:6200:792c::/48 } on-error={}
 :do { add list=TH address=2403:6200:792d::/48 } on-error={}

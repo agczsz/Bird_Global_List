@@ -50,7 +50,6 @@
 :do { add list=NE address=2a02:5745:148::/48 } on-error={}
 :do { add list=NE address=2a02:5746:148::/48 } on-error={}
 :do { add list=NE address=2a02:5747:148::/48 } on-error={}
-:do { add list=NE address=2a02:d780::/29 } on-error={}
 :do { add list=NE address=2a03:b601:854::/46 } on-error={}
 :do { add list=NE address=2a03:b601:858::/48 } on-error={}
 :do { add list=NE address=2a04:1d41:3900::/40 } on-error={}

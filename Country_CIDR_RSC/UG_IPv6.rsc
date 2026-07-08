@@ -1124,17 +1124,13 @@
 :do { add list=UG address=2c0f:fe30:8001:9c::2/128 } on-error={}
 :do { add list=UG address=2c0f:fe40:2::7/128 } on-error={}
 :do { add list=UG address=2c0f:fe40:2::16/127 } on-error={}
-:do { add list=UG address=2c0f:fe40:2::18/128 } on-error={}
-:do { add list=UG address=2c0f:fe40:2::1f/128 } on-error={}
 :do { add list=UG address=2c0f:fe40:2::2b/128 } on-error={}
 :do { add list=UG address=2c0f:fe40:2::36/128 } on-error={}
 :do { add list=UG address=2c0f:fe40:2::3b/128 } on-error={}
 :do { add list=UG address=2c0f:fe40:2::43/128 } on-error={}
 :do { add list=UG address=2c0f:fe40:2::50/127 } on-error={}
-:do { add list=UG address=2c0f:fe40:2::8a/127 } on-error={}
 :do { add list=UG address=2c0f:fe40:2::8c/127 } on-error={}
 :do { add list=UG address=2c0f:fe40:2::92/127 } on-error={}
-:do { add list=UG address=2c0f:fe40:2::94/127 } on-error={}
 :do { add list=UG address=2c0f:fe40:2::96/128 } on-error={}
 :do { add list=UG address=2c0f:fe40:2::98/128 } on-error={}
 :do { add list=UG address=2c0f:fe40:2::11d/128 } on-error={}

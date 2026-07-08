@@ -403,6 +403,7 @@
 :do { add list=IR address=2a02:cd80::/29 } on-error={}
 :do { add list=IR address=2a02:d2c0::/29 } on-error={}
 :do { add list=IR address=2a02:d380::/29 } on-error={}
+:do { add list=IR address=2a02:d780::/29 } on-error={}
 :do { add list=IR address=2a02:df00::/29 } on-error={}
 :do { add list=IR address=2a02:dfc0::/48 } on-error={}
 :do { add list=IR address=2a02:dfc0:1::/48 } on-error={}

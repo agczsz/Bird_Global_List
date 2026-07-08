@@ -2,6 +2,7 @@
 /ipv6 firewall address-list
 :do { add list=MQ address=2001:470:709b::/48 } on-error={}
 :do { add list=MQ address=2001:470:e0ec::/48 } on-error={}
+:do { add list=MQ address=2001:470:f4af::/48 } on-error={}
 :do { add list=MQ address=2001:470:fca6::/48 } on-error={}
 :do { add list=MQ address=2001:470:fdc8::/48 } on-error={}
 :do { add list=MQ address=2001:661:2901:10::2/127 } on-error={}
@@ -137,14 +138,16 @@
 :do { add list=MQ address=2a01:cde0:8109:2c00::/54 } on-error={}
 :do { add list=MQ address=2a01:cde0:8109:3000::/52 } on-error={}
 :do { add list=MQ address=2a01:cde0:8109:4000::/51 } on-error={}
-:do { add list=MQ address=2a01:cde0:8109:6000::/52 } on-error={}
+:do { add list=MQ address=2a01:cde0:8109:6000::/53 } on-error={}
 :do { add list=MQ address=2a01:cde0:8109:7400::/54 } on-error={}
-:do { add list=MQ address=2a01:cde0:8109:7800::/54 } on-error={}
+:do { add list=MQ address=2a01:cde0:8109:7800::/53 } on-error={}
 :do { add list=MQ address=2a01:cde0:8109:8000::/49 } on-error={}
+:do { add list=MQ address=2a01:cde0:810a::/54 } on-error={}
 :do { add list=MQ address=2a01:cde0:810a:600::/55 } on-error={}
 :do { add list=MQ address=2a01:cde0:810a:c00::/54 } on-error={}
 :do { add list=MQ address=2a01:cde0:810a:1000::/52 } on-error={}
-:do { add list=MQ address=2a01:cde0:810a:2000::/51 } on-error={}
+:do { add list=MQ address=2a01:cde0:810a:2000::/53 } on-error={}
+:do { add list=MQ address=2a01:cde0:810a:3000::/52 } on-error={}
 :do { add list=MQ address=2a01:cde0:810a:4000::/50 } on-error={}
 :do { add list=MQ address=2a01:cde0:810a:8000::/49 } on-error={}
 :do { add list=MQ address=2a01:cde0:810b::/48 } on-error={}

@@ -719,6 +719,7 @@
 :do { add list=GE address=2a0d:d940:e8::/45 } on-error={}
 :do { add list=GE address=2a0d:d940:5f2::/48 } on-error={}
 :do { add list=GE address=2a0e:2700::/29 } on-error={}
+:do { add list=GE address=2a0e:fd87:a090::/48 } on-error={}
 :do { add list=GE address=2a0f:8c0::/32 } on-error={}
 :do { add list=GE address=2a0f:1cc5:b10:5100::/56 } on-error={}
 :do { add list=GE address=2a0f:1cc5:b11:5100::/56 } on-error={}
