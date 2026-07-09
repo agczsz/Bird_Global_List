@@ -3311,9 +3311,7 @@
 :do { add list=SG address=2001:c20:48a5::/48 } on-error={}
 :do { add list=SG address=2001:c20:48a6::/48 } on-error={}
 :do { add list=SG address=2001:c20:48a7::/48 } on-error={}
-:do { add list=SG address=2001:c20:48a8::/47 } on-error={}
-:do { add list=SG address=2001:c20:48aa::/48 } on-error={}
-:do { add list=SG address=2001:c20:48ab::/48 } on-error={}
+:do { add list=SG address=2001:c20:48a8::/46 } on-error={}
 :do { add list=SG address=2001:c20:48ac::/47 } on-error={}
 :do { add list=SG address=2001:c20:48ae::/47 } on-error={}
 :do { add list=SG address=2001:c20:48b0::/48 } on-error={}
@@ -29725,7 +29723,9 @@
 :do { add list=SG address=2404:2280:2f4::/47 } on-error={}
 :do { add list=SG address=2404:2280:2f9::/64 } on-error={}
 :do { add list=SG address=2404:2280:2fa::/48 } on-error={}
-:do { add list=SG address=2404:2280:2fc::/46 } on-error={}
+:do { add list=SG address=2404:2280:2fc::/48 } on-error={}
+:do { add list=SG address=2404:2280:2fd::/48 } on-error={}
+:do { add list=SG address=2404:2280:2fe::/47 } on-error={}
 :do { add list=SG address=2404:2280:300::/45 } on-error={}
 :do { add list=SG address=2404:2280:30c::/48 } on-error={}
 :do { add list=SG address=2404:2280:30e::/47 } on-error={}

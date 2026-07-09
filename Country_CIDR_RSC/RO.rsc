@@ -7891,7 +7891,8 @@
 :do { add list=RO address=217.156.85.0/24 } on-error={}
 :do { add list=RO address=217.156.86.0/24 } on-error={}
 :do { add list=RO address=217.156.87.0/24 } on-error={}
-:do { add list=RO address=217.156.88.0/23 } on-error={}
+:do { add list=RO address=217.156.88.0/24 } on-error={}
+:do { add list=RO address=217.156.89.0/24 } on-error={}
 :do { add list=RO address=217.156.90.0/24 } on-error={}
 :do { add list=RO address=217.156.92.0/24 } on-error={}
 :do { add list=RO address=217.156.93.0/24 } on-error={}

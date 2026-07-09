@@ -8,7 +8,8 @@
 :do { add list=EE address=2.255.249.210/32 } on-error={}
 :do { add list=EE address=2.255.251.191/32 } on-error={}
 :do { add list=EE address=2.255.254.32/30 } on-error={}
-:do { add list=EE address=5.8.0.0/21 } on-error={}
+:do { add list=EE address=5.8.0.0/22 } on-error={}
+:do { add list=EE address=5.8.4.0/22 } on-error={}
 :do { add list=EE address=5.8.44.0/24 } on-error={}
 :do { add list=EE address=5.10.218.49/32 } on-error={}
 :do { add list=EE address=5.10.218.129/32 } on-error={}

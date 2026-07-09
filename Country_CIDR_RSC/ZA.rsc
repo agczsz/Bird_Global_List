@@ -8184,7 +8184,9 @@
 :do { add list=ZA address=165.49.241.0/24 } on-error={}
 :do { add list=ZA address=165.49.242.0/24 } on-error={}
 :do { add list=ZA address=165.49.243.0/24 } on-error={}
-:do { add list=ZA address=165.49.244.0/22 } on-error={}
+:do { add list=ZA address=165.49.244.0/24 } on-error={}
+:do { add list=ZA address=165.49.245.0/24 } on-error={}
+:do { add list=ZA address=165.49.246.0/23 } on-error={}
 :do { add list=ZA address=165.49.248.0/24 } on-error={}
 :do { add list=ZA address=165.49.249.0/24 } on-error={}
 :do { add list=ZA address=165.49.250.0/24 } on-error={}

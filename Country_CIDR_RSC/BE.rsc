@@ -5294,8 +5294,7 @@
 :do { add list=BE address=185.194.185.160/28 } on-error={}
 :do { add list=BE address=185.194.185.224/28 } on-error={}
 :do { add list=BE address=185.195.28.0/22 } on-error={}
-:do { add list=BE address=185.195.136.0/24 } on-error={}
-:do { add list=BE address=185.195.137.0/24 } on-error={}
+:do { add list=BE address=185.195.136.0/23 } on-error={}
 :do { add list=BE address=185.195.138.0/23 } on-error={}
 :do { add list=BE address=185.197.36.0/25 } on-error={}
 :do { add list=BE address=185.197.36.128/26 } on-error={}

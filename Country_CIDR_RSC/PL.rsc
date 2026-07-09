@@ -2665,11 +2665,7 @@
 :do { add list=PL address=77.79.205.0/24 } on-error={}
 :do { add list=PL address=77.79.206.0/24 } on-error={}
 :do { add list=PL address=77.79.207.0/24 } on-error={}
-:do { add list=PL address=77.79.208.0/23 } on-error={}
-:do { add list=PL address=77.79.210.0/24 } on-error={}
-:do { add list=PL address=77.79.211.0/24 } on-error={}
-:do { add list=PL address=77.79.212.0/22 } on-error={}
-:do { add list=PL address=77.79.216.0/21 } on-error={}
+:do { add list=PL address=77.79.208.0/20 } on-error={}
 :do { add list=PL address=77.79.224.0/23 } on-error={}
 :do { add list=PL address=77.79.226.0/24 } on-error={}
 :do { add list=PL address=77.79.227.0/24 } on-error={}

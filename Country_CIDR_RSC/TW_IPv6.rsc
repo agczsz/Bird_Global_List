@@ -3184,7 +3184,8 @@
 :do { add list=TW address=2402:4f20::/46 } on-error={}
 :do { add list=TW address=2402:4f20:4::/48 } on-error={}
 :do { add list=TW address=2402:4f20:5::/48 } on-error={}
-:do { add list=TW address=2402:4f20:6::/47 } on-error={}
+:do { add list=TW address=2402:4f20:6::/48 } on-error={}
+:do { add list=TW address=2402:4f20:7::/48 } on-error={}
 :do { add list=TW address=2402:4f20:8::/45 } on-error={}
 :do { add list=TW address=2402:4f20:10::/44 } on-error={}
 :do { add list=TW address=2402:4f20:20::/43 } on-error={}

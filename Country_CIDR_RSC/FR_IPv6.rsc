@@ -3547,7 +3547,8 @@
 :do { add list=FR address=2001:912:6000::/35 } on-error={}
 :do { add list=FR address=2001:912:8000::/33 } on-error={}
 :do { add list=FR address=2001:913::/36 } on-error={}
-:do { add list=FR address=2001:913:2000::/35 } on-error={}
+:do { add list=FR address=2001:913:2000::/36 } on-error={}
+:do { add list=FR address=2001:913:3000::/36 } on-error={}
 :do { add list=FR address=2001:913:4000::/36 } on-error={}
 :do { add list=FR address=2001:913:5000::/36 } on-error={}
 :do { add list=FR address=2001:913:6000::/36 } on-error={}

@@ -7483,7 +7483,11 @@
 :do { add list=BE address=2a0b:7900:12::/47 } on-error={}
 :do { add list=BE address=2a0b:7900:14::/46 } on-error={}
 :do { add list=BE address=2a0b:7900:18::/45 } on-error={}
-:do { add list=BE address=2a0b:7900:20::/43 } on-error={}
+:do { add list=BE address=2a0b:7900:20::/45 } on-error={}
+:do { add list=BE address=2a0b:7900:28::/47 } on-error={}
+:do { add list=BE address=2a0b:7900:2a::/47 } on-error={}
+:do { add list=BE address=2a0b:7900:2c::/46 } on-error={}
+:do { add list=BE address=2a0b:7900:30::/44 } on-error={}
 :do { add list=BE address=2a0b:7900:40::/43 } on-error={}
 :do { add list=BE address=2a0b:7900:60::/48 } on-error={}
 :do { add list=BE address=2a0b:7900:61::/48 } on-error={}

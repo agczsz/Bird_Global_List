@@ -2131,11 +2131,7 @@
 :do { add list=LT address=2a0e:4007:fff2::/48 } on-error={}
 :do { add list=LT address=2a0e:5080::/29 } on-error={}
 :do { add list=LT address=2a0e:8f02:1028:1::/64 } on-error={}
-:do { add list=LT address=2a0e:97c0:9c0::/48 } on-error={}
-:do { add list=LT address=2a0e:97c0:9c1::/48 } on-error={}
-:do { add list=LT address=2a0e:97c0:9c2::/47 } on-error={}
-:do { add list=LT address=2a0e:97c0:9c4::/46 } on-error={}
-:do { add list=LT address=2a0e:97c0:9c8::/45 } on-error={}
+:do { add list=LT address=2a0e:97c0:9c0::/44 } on-error={}
 :do { add list=LT address=2a0e:a244:0:4000::/50 } on-error={}
 :do { add list=LT address=2a0e:a244:0:8000::/49 } on-error={}
 :do { add list=LT address=2a0e:acc0:ac70::/48 } on-error={}
