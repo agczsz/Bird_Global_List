@@ -7,11 +7,6 @@
 :do { add list=TM address=2001:470:8cb7::/48 } on-error={}
 :do { add list=TM address=2001:67c:a38:f993::/64 } on-error={}
 :do { add list=TM address=2001:7f8:165::/48 } on-error={}
-:do { add list=TM address=2001:bb6:4a1f:b400::/64 } on-error={}
-:do { add list=TM address=2001:bb6:4a21:8700::/64 } on-error={}
-:do { add list=TM address=2001:bb6:4a2a:6600::/64 } on-error={}
-:do { add list=TM address=2001:bb6:4a35:6e00::/64 } on-error={}
-:do { add list=TM address=2001:bb6:4a9f:e300::/64 } on-error={}
 :do { add list=TM address=2001:3786:4444:200::/56 } on-error={}
 :do { add list=TM address=2001:4b28:e100::/40 } on-error={}
 :do { add list=TM address=2001:5014:700:1::/64 } on-error={}

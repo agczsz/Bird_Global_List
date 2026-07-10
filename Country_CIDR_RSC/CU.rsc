@@ -2,6 +2,7 @@
 /ip firewall address-list
 :do { add list=CU address=5.62.56.72/30 } on-error={}
 :do { add list=CU address=5.62.58.68/30 } on-error={}
+:do { add list=CU address=41.194.23.160/28 } on-error={}
 :do { add list=CU address=57.74.110.0/23 } on-error={}
 :do { add list=CU address=57.91.32.0/20 } on-error={}
 :do { add list=CU address=62.115.128.209/32 } on-error={}
@@ -78,6 +79,10 @@
 :do { add list=CU address=163.116.134.184/31 } on-error={}
 :do { add list=CU address=163.116.250.141/32 } on-error={}
 :do { add list=CU address=163.116.250.142/32 } on-error={}
+:do { add list=CU address=168.113.13.0/24 } on-error={}
+:do { add list=CU address=168.113.40.0/24 } on-error={}
+:do { add list=CU address=168.113.88.0/24 } on-error={}
+:do { add list=CU address=168.113.124.0/24 } on-error={}
 :do { add list=CU address=169.158.0.0/16 } on-error={}
 :do { add list=CU address=173.244.210.64/32 } on-error={}
 :do { add list=CU address=177.104.60.202/32 } on-error={}

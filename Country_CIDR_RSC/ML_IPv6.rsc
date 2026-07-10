@@ -15,7 +15,6 @@
 :do { add list=ML address=2605:59c8:5500::/40 } on-error={}
 :do { add list=ML address=2606:40:768::/45 } on-error={}
 :do { add list=ML address=2606:40:770::/45 } on-error={}
-:do { add list=ML address=2606:40:10d0::/44 } on-error={}
 :do { add list=ML address=2606:54c0:4870::/45 } on-error={}
 :do { add list=ML address=2606:54c3:0:194::/64 } on-error={}
 :do { add list=ML address=2607:8940:4171:7b00::/56 } on-error={}

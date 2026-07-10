@@ -135,7 +135,6 @@
 :do { add list=VN address=2001:470:2a63::/48 } on-error={}
 :do { add list=VN address=2001:470:2aad::/48 } on-error={}
 :do { add list=VN address=2001:470:2acf::/48 } on-error={}
-:do { add list=VN address=2001:470:30bf::/48 } on-error={}
 :do { add list=VN address=2001:470:3896::/48 } on-error={}
 :do { add list=VN address=2001:470:38d8::/48 } on-error={}
 :do { add list=VN address=2001:470:408f::/48 } on-error={}
@@ -151,7 +150,6 @@
 :do { add list=VN address=2001:470:6e48::/47 } on-error={}
 :do { add list=VN address=2001:470:715f::/48 } on-error={}
 :do { add list=VN address=2001:470:73da::/48 } on-error={}
-:do { add list=VN address=2001:470:754e::/48 } on-error={}
 :do { add list=VN address=2001:470:78ed::/48 } on-error={}
 :do { add list=VN address=2001:470:7996::/48 } on-error={}
 :do { add list=VN address=2001:470:80db::/48 } on-error={}

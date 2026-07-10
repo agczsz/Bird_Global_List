@@ -96,6 +96,7 @@
 :do { add list=CD address=41.60.30.49/32 } on-error={}
 :do { add list=CD address=41.77.220.0/22 } on-error={}
 :do { add list=CD address=41.78.192.0/22 } on-error={}
+:do { add list=CD address=41.78.196.0/24 } on-error={}
 :do { add list=CD address=41.78.197.0/24 } on-error={}
 :do { add list=CD address=41.78.198.0/24 } on-error={}
 :do { add list=CD address=41.78.199.0/24 } on-error={}
@@ -211,6 +212,11 @@
 :do { add list=CD address=41.189.216.0/21 } on-error={}
 :do { add list=CD address=41.190.80.0/22 } on-error={}
 :do { add list=CD address=41.190.232.0/22 } on-error={}
+:do { add list=CD address=41.194.14.8/29 } on-error={}
+:do { add list=CD address=41.194.14.16/28 } on-error={}
+:do { add list=CD address=41.194.14.112/29 } on-error={}
+:do { add list=CD address=41.194.60.0/22 } on-error={}
+:do { add list=CD address=41.194.80.0/28 } on-error={}
 :do { add list=CD address=41.215.252.0/22 } on-error={}
 :do { add list=CD address=41.222.196.0/24 } on-error={}
 :do { add list=CD address=41.222.197.0/24 } on-error={}
@@ -542,6 +548,7 @@
 :do { add list=CD address=164.137.55.0/24 } on-error={}
 :do { add list=CD address=164.137.158.0/24 } on-error={}
 :do { add list=CD address=164.160.48.0/22 } on-error={}
+:do { add list=CD address=168.113.37.0/24 } on-error={}
 :do { add list=CD address=169.159.208.0/21 } on-error={}
 :do { add list=CD address=169.159.216.0/22 } on-error={}
 :do { add list=CD address=169.159.220.0/23 } on-error={}

@@ -32,6 +32,7 @@
 :do { add list=RW address=41.186.108.0/22 } on-error={}
 :do { add list=RW address=41.186.112.0/20 } on-error={}
 :do { add list=RW address=41.186.128.0/17 } on-error={}
+:do { add list=RW address=41.194.36.0/25 } on-error={}
 :do { add list=RW address=41.197.0.0/16 } on-error={}
 :do { add list=RW address=41.215.248.0/22 } on-error={}
 :do { add list=RW address=41.216.96.0/21 } on-error={}

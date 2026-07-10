@@ -27,13 +27,6 @@
 :do { add list=MF address=2604:25c0::/32 } on-error={}
 :do { add list=MF address=2604:25e0::/32 } on-error={}
 :do { add list=MF address=2605:59ca:8c00::/40 } on-error={}
-:do { add list=MF address=2606:40:1770:4000::/50 } on-error={}
-:do { add list=MF address=2606:40:1770:8000::/49 } on-error={}
-:do { add list=MF address=2606:40:1771::/48 } on-error={}
-:do { add list=MF address=2606:40:1772::/47 } on-error={}
-:do { add list=MF address=2606:40:1774::/46 } on-error={}
-:do { add list=MF address=2606:40:1778::/45 } on-error={}
-:do { add list=MF address=2606:40:1780::/44 } on-error={}
 :do { add list=MF address=2606:40:203c:a000::/51 } on-error={}
 :do { add list=MF address=2606:40:214b:8000::/51 } on-error={}
 :do { add list=MF address=2606:54c0:4850::/45 } on-error={}

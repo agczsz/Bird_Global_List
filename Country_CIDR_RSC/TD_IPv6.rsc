@@ -22,9 +22,6 @@
 :do { add list=TD address=2600:70ff:a48e::/48 } on-error={}
 :do { add list=TD address=2600:70ff:a830::/48 } on-error={}
 :do { add list=TD address=2605:59c0:a00::/40 } on-error={}
-:do { add list=TD address=2606:40:17bd::/48 } on-error={}
-:do { add list=TD address=2606:40:17be::/47 } on-error={}
-:do { add list=TD address=2606:40:17c0::/44 } on-error={}
 :do { add list=TD address=2606:40:22a1:8000::/51 } on-error={}
 :do { add list=TD address=2606:40:22c1:e000::/54 } on-error={}
 :do { add list=TD address=2606:40:22c1:e800::/53 } on-error={}

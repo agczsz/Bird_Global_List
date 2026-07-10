@@ -78,12 +78,12 @@
 :do { add list=JO address=62.72.187.0/24 } on-error={}
 :do { add list=JO address=62.72.191.0/24 } on-error={}
 :do { add list=JO address=62.115.198.135/32 } on-error={}
-:do { add list=JO address=63.220.66.220/31 } on-error={}
+:do { add list=JO address=63.220.66.220/32 } on-error={}
 :do { add list=JO address=63.220.69.225/32 } on-error={}
 :do { add list=JO address=63.220.70.201/32 } on-error={}
 :do { add list=JO address=63.220.70.203/32 } on-error={}
 :do { add list=JO address=63.220.70.209/32 } on-error={}
-:do { add list=JO address=63.220.70.212/31 } on-error={}
+:do { add list=JO address=63.220.70.212/32 } on-error={}
 :do { add list=JO address=63.246.33.64/26 } on-error={}
 :do { add list=JO address=66.103.19.239/32 } on-error={}
 :do { add list=JO address=69.84.203.128/26 } on-error={}

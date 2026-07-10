@@ -351,6 +351,8 @@
 :do { add list=BO address=166.114.128.0/17 } on-error={}
 :do { add list=BO address=167.157.0.0/16 } on-error={}
 :do { add list=BO address=167.250.135.0/24 } on-error={}
+:do { add list=BO address=168.113.45.0/24 } on-error={}
+:do { add list=BO address=168.113.82.0/24 } on-error={}
 :do { add list=BO address=168.197.240.0/22 } on-error={}
 :do { add list=BO address=168.205.96.0/22 } on-error={}
 :do { add list=BO address=168.228.132.0/22 } on-error={}

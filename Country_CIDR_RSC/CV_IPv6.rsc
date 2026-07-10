@@ -29,7 +29,6 @@
 :do { add list=CV address=2606:40:700::/46 } on-error={}
 :do { add list=CV address=2606:40:74c::/46 } on-error={}
 :do { add list=CV address=2606:40:750::/45 } on-error={}
-:do { add list=CV address=2606:40:10b0::/44 } on-error={}
 :do { add list=CV address=2606:40:21a0:2000::/54 } on-error={}
 :do { add list=CV address=2606:40:21a0:2800::/53 } on-error={}
 :do { add list=CV address=2606:40:22e0:8000::/54 } on-error={}

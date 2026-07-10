@@ -1726,16 +1726,6 @@
 :do { add list=DO address=2a0c:9a46:33d::/48 } on-error={}
 :do { add list=DO address=2a0c:9a46:3fe:3c::/64 } on-error={}
 :do { add list=DO address=2a0c:b641:3d0::/44 } on-error={}
-:do { add list=DO address=2a0d:2681:2000:4000::/50 } on-error={}
-:do { add list=DO address=2a0d:2681:2000:8000::/49 } on-error={}
-:do { add list=DO address=2a0d:2681:2001::/48 } on-error={}
-:do { add list=DO address=2a0d:2681:2002::/47 } on-error={}
-:do { add list=DO address=2a0d:2681:2004::/46 } on-error={}
-:do { add list=DO address=2a0d:2681:2008::/45 } on-error={}
-:do { add list=DO address=2a0d:2681:2010::/44 } on-error={}
-:do { add list=DO address=2a0d:2681:2020::/43 } on-error={}
-:do { add list=DO address=2a0d:2681:2040::/42 } on-error={}
-:do { add list=DO address=2a0d:2681:2080::/41 } on-error={}
 :do { add list=DO address=2a0d:9445:6800::/37 } on-error={}
 :do { add list=DO address=2a0e:4206:2::/47 } on-error={}
 :do { add list=DO address=2a0e:4206:4::/46 } on-error={}

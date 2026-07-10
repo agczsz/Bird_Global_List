@@ -369,3 +369,4 @@
 :do { add list=NI address=213.140.50.120/30 } on-error={}
 :do { add list=NI address=216.119.156.112/32 } on-error={}
 :do { add list=NI address=216.194.96.80/28 } on-error={}
+:do { add list=NI address=216.250.194.0/24 } on-error={}

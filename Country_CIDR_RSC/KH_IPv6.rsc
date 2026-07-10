@@ -741,8 +741,14 @@
 :do { add list=KH address=2404:b300:13::/48 } on-error={}
 :do { add list=KH address=2404:b300:14::/46 } on-error={}
 :do { add list=KH address=2404:b300:18::/45 } on-error={}
-:do { add list=KH address=2404:b300:20::/44 } on-error={}
-:do { add list=KH address=2404:b300:30::/46 } on-error={}
+:do { add list=KH address=2404:b300:20::/47 } on-error={}
+:do { add list=KH address=2404:b300:22::/48 } on-error={}
+:do { add list=KH address=2404:b300:23::/48 } on-error={}
+:do { add list=KH address=2404:b300:24::/46 } on-error={}
+:do { add list=KH address=2404:b300:28::/45 } on-error={}
+:do { add list=KH address=2404:b300:30::/48 } on-error={}
+:do { add list=KH address=2404:b300:31::/48 } on-error={}
+:do { add list=KH address=2404:b300:32::/47 } on-error={}
 :do { add list=KH address=2404:b300:35::/48 } on-error={}
 :do { add list=KH address=2404:b300:36::/47 } on-error={}
 :do { add list=KH address=2404:b300:38::/45 } on-error={}
@@ -750,7 +756,9 @@
 :do { add list=KH address=2404:b300:80::/41 } on-error={}
 :do { add list=KH address=2404:b300:100::/47 } on-error={}
 :do { add list=KH address=2404:b300:102::/47 } on-error={}
-:do { add list=KH address=2404:b300:104::/46 } on-error={}
+:do { add list=KH address=2404:b300:104::/48 } on-error={}
+:do { add list=KH address=2404:b300:105::/48 } on-error={}
+:do { add list=KH address=2404:b300:106::/47 } on-error={}
 :do { add list=KH address=2404:b300:108::/45 } on-error={}
 :do { add list=KH address=2404:b300:110::/44 } on-error={}
 :do { add list=KH address=2404:b300:120::/44 } on-error={}
@@ -1017,7 +1025,7 @@
 :do { add list=KH address=2407:8180::/32 } on-error={}
 :do { add list=KH address=2407:c180::/32 } on-error={}
 :do { add list=KH address=2407:d340:8800::/44 } on-error={}
-:do { add list=KH address=240d:c010:198::/63 } on-error={}
+:do { add list=KH address=240d:c010:198::/64 } on-error={}
 :do { add list=KH address=2600:70ff:a652::/48 } on-error={}
 :do { add list=KH address=2600:70ff:ac32::/48 } on-error={}
 :do { add list=KH address=2600:70ff:b119::/48 } on-error={}

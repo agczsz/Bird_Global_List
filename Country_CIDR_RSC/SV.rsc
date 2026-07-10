@@ -67,7 +67,7 @@
 :do { add list=SV address=63.245.106.0/29 } on-error={}
 :do { add list=SV address=63.245.106.16/30 } on-error={}
 :do { add list=SV address=63.245.106.23/32 } on-error={}
-:do { add list=SV address=63.245.106.32/31 } on-error={}
+:do { add list=SV address=63.245.106.33/32 } on-error={}
 :do { add list=SV address=63.245.106.34/32 } on-error={}
 :do { add list=SV address=63.245.106.37/32 } on-error={}
 :do { add list=SV address=63.245.106.38/31 } on-error={}

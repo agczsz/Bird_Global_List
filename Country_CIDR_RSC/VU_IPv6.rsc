@@ -252,7 +252,7 @@
 :do { add list=VU address=2a07:d883:240::/42 } on-error={}
 :do { add list=VU address=2a07:d883:280::/41 } on-error={}
 :do { add list=VU address=2a07:d883:500::/40 } on-error={}
-:do { add list=VU address=2a07:d883:600::/39 } on-error={}
+:do { add list=VU address=2a07:d883:700::/40 } on-error={}
 :do { add list=VU address=2a07:d883:800::/37 } on-error={}
 :do { add list=VU address=2a07:d883:1000::/36 } on-error={}
 :do { add list=VU address=2a07:d883:2000::/35 } on-error={}

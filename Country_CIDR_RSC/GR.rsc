@@ -383,8 +383,9 @@
 :do { add list=GR address=62.217.64.0/18 } on-error={}
 :do { add list=GR address=63.216.240.0/26 } on-error={}
 :do { add list=GR address=63.218.172.0/23 } on-error={}
-:do { add list=GR address=63.219.52.67/32 } on-error={}
+:do { add list=GR address=63.219.52.66/31 } on-error={}
 :do { add list=GR address=63.219.52.135/32 } on-error={}
+:do { add list=GR address=63.219.52.136/32 } on-error={}
 :do { add list=GR address=63.220.65.224/28 } on-error={}
 :do { add list=GR address=63.220.65.240/29 } on-error={}
 :do { add list=GR address=63.220.66.60/32 } on-error={}
@@ -1359,6 +1360,7 @@
 :do { add list=GR address=166.1.246.0/24 } on-error={}
 :do { add list=GR address=166.88.239.0/24 } on-error={}
 :do { add list=GR address=167.167.183.0/24 } on-error={}
+:do { add list=GR address=168.113.46.0/24 } on-error={}
 :do { add list=GR address=169.150.252.0/24 } on-error={}
 :do { add list=GR address=171.75.52.75/32 } on-error={}
 :do { add list=GR address=172.68.60.0/22 } on-error={}
@@ -1472,10 +1474,10 @@
 :do { add list=GR address=185.4.238.0/23 } on-error={}
 :do { add list=GR address=185.5.76.0/22 } on-error={}
 :do { add list=GR address=185.6.76.0/22 } on-error={}
+:do { add list=GR address=185.13.8.52/32 } on-error={}
 :do { add list=GR address=185.14.96.0/24 } on-error={}
 :do { add list=GR address=185.14.200.0/22 } on-error={}
 :do { add list=GR address=185.16.164.0/22 } on-error={}
-:do { add list=GR address=185.18.12.175/32 } on-error={}
 :do { add list=GR address=185.18.12.176/32 } on-error={}
 :do { add list=GR address=185.18.151.0/24 } on-error={}
 :do { add list=GR address=185.19.44.0/22 } on-error={}
@@ -1819,6 +1821,7 @@
 :do { add list=GR address=194.110.218.0/24 } on-error={}
 :do { add list=GR address=194.116.146.0/24 } on-error={}
 :do { add list=GR address=194.125.252.0/23 } on-error={}
+:do { add list=GR address=194.126.235.18/32 } on-error={}
 :do { add list=GR address=194.126.255.0/24 } on-error={}
 :do { add list=GR address=194.150.167.0/24 } on-error={}
 :do { add list=GR address=194.153.81.0/24 } on-error={}

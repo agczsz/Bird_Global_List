@@ -42,6 +42,7 @@
 :do { add list=GF address=2a01:cb08:a004:21b::/72 } on-error={}
 :do { add list=GF address=2a01:cb08:a004:21c::/64 } on-error={}
 :do { add list=GF address=2a01:cb08:a004:21d:100::/72 } on-error={}
+:do { add list=GF address=2a01:cb20:8007:b500::/64 } on-error={}
 :do { add list=GF address=2a01:cb20:8020:2b00::/64 } on-error={}
 :do { add list=GF address=2a01:cb20:808b:9900::/64 } on-error={}
 :do { add list=GF address=2a01:cb20:809b:7800::/64 } on-error={}
