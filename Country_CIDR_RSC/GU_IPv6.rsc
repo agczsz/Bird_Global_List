@@ -2,6 +2,9 @@
 /ipv6 firewall address-list
 :do { add list=GU address=2001:388:cf85:5::/64 } on-error={}
 :do { add list=GU address=2001:470:0:49d::/64 } on-error={}
+:do { add list=GU address=2001:470:1:b76::/64 } on-error={}
+:do { add list=GU address=2001:470:1:d05::/64 } on-error={}
+:do { add list=GU address=2001:470:1:e17::/64 } on-error={}
 :do { add list=GU address=2001:470:1:e81::/64 } on-error={}
 :do { add list=GU address=2001:470:19:ba8::/64 } on-error={}
 :do { add list=GU address=2001:470:36:855::/64 } on-error={}

@@ -1,5 +1,6 @@
 /log info "Loading TN IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=TN address=2001:470:1d:376::/64 } on-error={}
 :do { add list=TN address=2001:470:1f27:41::/64 } on-error={}
 :do { add list=TN address=2001:470:1f29:479::/64 } on-error={}
 :do { add list=TN address=2001:470:1f2f:21::/64 } on-error={}

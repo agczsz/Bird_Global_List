@@ -3,6 +3,7 @@
 :do { add list=SL address=2001:470:ec4e::/48 } on-error={}
 :do { add list=SL address=2001:470:fb29::/48 } on-error={}
 :do { add list=SL address=2001:470:fb4c::/48 } on-error={}
+:do { add list=SL address=2001:470:ffbb::/48 } on-error={}
 :do { add list=SL address=2001:67c:a38:f232::/64 } on-error={}
 :do { add list=SL address=2001:978:3301::/48 } on-error={}
 :do { add list=SL address=2001:43f8:b0::/48 } on-error={}

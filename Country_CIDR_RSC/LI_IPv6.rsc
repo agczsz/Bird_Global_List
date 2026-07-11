@@ -2,8 +2,8 @@
 /ipv6 firewall address-list
 :do { add list=LI address=2001:470:26:7be::/64 } on-error={}
 :do { add list=LI address=2001:470:1f0b:b7::/64 } on-error={}
-:do { add list=LI address=2001:470:1f0b:719::/64 } on-error={}
-:do { add list=LI address=2001:470:730b::/48 } on-error={}
+:do { add list=LI address=2001:470:730b:4000::/50 } on-error={}
+:do { add list=LI address=2001:470:730b:8000::/49 } on-error={}
 :do { add list=LI address=2001:550:2:9::7a:0/112 } on-error={}
 :do { add list=LI address=2001:678:bbc::/48 } on-error={}
 :do { add list=LI address=2001:67c:a38:f423::/64 } on-error={}

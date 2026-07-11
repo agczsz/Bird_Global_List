@@ -1,6 +1,5 @@
 /log info "Loading KW IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=KW address=2001:470:1f23:59::/64 } on-error={}
 :do { add list=KW address=2001:470:1f29:25::/64 } on-error={}
 :do { add list=KW address=2001:470:1f29:96::/64 } on-error={}
 :do { add list=KW address=2001:470:1f29:211::/64 } on-error={}
@@ -149,7 +148,6 @@
 :do { add list=KW address=2a02:16b0::/32 } on-error={}
 :do { add list=KW address=2a02:26f7:dec0:4000::/64 } on-error={}
 :do { add list=KW address=2a02:26f7:dec0:4880::/63 } on-error={}
-:do { add list=KW address=2a02:26f7:dec0:8000::/49 } on-error={}
 :do { add list=KW address=2a02:26f7:dec1::/48 } on-error={}
 :do { add list=KW address=2a02:26f7:dec2::/47 } on-error={}
 :do { add list=KW address=2a02:26f7:dec4:4000::/64 } on-error={}

@@ -1,5 +1,6 @@
 /log info "Loading UY IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=UY address=2001:470:5:19f::/64 } on-error={}
 :do { add list=UY address=2001:470:1f2b:11e::/64 } on-error={}
 :do { add list=UY address=2001:470:1f2b:1fe::/64 } on-error={}
 :do { add list=UY address=2001:470:1f2b:463::/64 } on-error={}
@@ -19950,7 +19951,10 @@
 :do { add list=UY address=2803:ad22::/31 } on-error={}
 :do { add list=UY address=2803:ad24::/30 } on-error={}
 :do { add list=UY address=2803:ad28::/29 } on-error={}
-:do { add list=UY address=2803:ad30::/28 } on-error={}
+:do { add list=UY address=2803:ad31::/32 } on-error={}
+:do { add list=UY address=2803:ad32::/31 } on-error={}
+:do { add list=UY address=2803:ad34::/30 } on-error={}
+:do { add list=UY address=2803:ad38::/29 } on-error={}
 :do { add list=UY address=2803:ad41::/32 } on-error={}
 :do { add list=UY address=2803:ad42::/31 } on-error={}
 :do { add list=UY address=2803:ad44::/30 } on-error={}
@@ -25482,8 +25486,7 @@
 :do { add list=UY address=2804:af6::/31 } on-error={}
 :do { add list=UY address=2804:af9::/32 } on-error={}
 :do { add list=UY address=2804:afa::/31 } on-error={}
-:do { add list=UY address=2804:afd::/32 } on-error={}
-:do { add list=UY address=2804:afe::/31 } on-error={}
+:do { add list=UY address=2804:afc::/30 } on-error={}
 :do { add list=UY address=2804:b01::/32 } on-error={}
 :do { add list=UY address=2804:b02::/31 } on-error={}
 :do { add list=UY address=2804:b05::/32 } on-error={}
@@ -38195,6 +38198,7 @@
 :do { add list=UY address=2804:741e::/31 } on-error={}
 :do { add list=UY address=2804:7421::/32 } on-error={}
 :do { add list=UY address=2804:7422::/31 } on-error={}
+:do { add list=UY address=2804:7424::/32 } on-error={}
 :do { add list=UY address=2804:7425::/32 } on-error={}
 :do { add list=UY address=2804:7426::/31 } on-error={}
 :do { add list=UY address=2804:7429::/32 } on-error={}

@@ -1,12 +1,11 @@
 /log info "Loading KZ IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=KZ address=2001:470:8:78b::/64 } on-error={}
+:do { add list=KZ address=2001:470:1d:36a::/64 } on-error={}
 :do { add list=KZ address=2001:470:26:56a::/64 } on-error={}
-:do { add list=KZ address=2001:470:28:e9::/64 } on-error={}
 :do { add list=KZ address=2001:470:28:113::/64 } on-error={}
 :do { add list=KZ address=2001:470:28:1f6::/64 } on-error={}
 :do { add list=KZ address=2001:470:28:3c3::/64 } on-error={}
-:do { add list=KZ address=2001:470:28:406::/64 } on-error={}
-:do { add list=KZ address=2001:470:28:4d7::/64 } on-error={}
 :do { add list=KZ address=2001:470:28:511::/64 } on-error={}
 :do { add list=KZ address=2001:470:28:555::/64 } on-error={}
 :do { add list=KZ address=2001:470:28:55c::/64 } on-error={}
@@ -37,10 +36,6 @@
 :do { add list=KZ address=2001:470:28:10e3::/64 } on-error={}
 :do { add list=KZ address=2001:470:28:10ea::/64 } on-error={}
 :do { add list=KZ address=2001:470:28:10f0::/64 } on-error={}
-:do { add list=KZ address=2001:470:6d:304::/64 } on-error={}
-:do { add list=KZ address=2001:470:6d:33f::/64 } on-error={}
-:do { add list=KZ address=2001:470:6d:681::/64 } on-error={}
-:do { add list=KZ address=2001:470:6d:b54::/64 } on-error={}
 :do { add list=KZ address=2001:470:6f:9b::/64 } on-error={}
 :do { add list=KZ address=2001:470:6f:262::/64 } on-error={}
 :do { add list=KZ address=2001:470:6f:26e::/64 } on-error={}
@@ -62,11 +57,9 @@
 :do { add list=KZ address=2001:470:1914::/48 } on-error={}
 :do { add list=KZ address=2001:470:1a0f::/48 } on-error={}
 :do { add list=KZ address=2001:470:1bd0::/48 } on-error={}
-:do { add list=KZ address=2001:470:1f0b:3c4::/64 } on-error={}
-:do { add list=KZ address=2001:470:1f0b:607::/64 } on-error={}
-:do { add list=KZ address=2001:470:1f0b:6c3::/64 } on-error={}
 :do { add list=KZ address=2001:470:1f0b:884::/64 } on-error={}
-:do { add list=KZ address=2001:470:1f0b:9cd::/64 } on-error={}
+:do { add list=KZ address=2001:470:1f0f:254::/64 } on-error={}
+:do { add list=KZ address=2001:470:1f11:570::/64 } on-error={}
 :do { add list=KZ address=2001:470:1f15:5a::/64 } on-error={}
 :do { add list=KZ address=2001:470:1f15:e3::/64 } on-error={}
 :do { add list=KZ address=2001:470:1f15:1b9::/64 } on-error={}

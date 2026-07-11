@@ -81,9 +81,6 @@
 :do { add list=RS address=2001:470:56e::/50 } on-error={}
 :do { add list=RS address=2001:470:1e36::/48 } on-error={}
 :do { add list=RS address=2001:470:1f09:219::/64 } on-error={}
-:do { add list=RS address=2001:470:1f0b:e5::/64 } on-error={}
-:do { add list=RS address=2001:470:1f0b:1a1::/64 } on-error={}
-:do { add list=RS address=2001:470:1f0b:336::/64 } on-error={}
 :do { add list=RS address=2001:470:1f15:1fc::/64 } on-error={}
 :do { add list=RS address=2001:470:1f15:d8c::/64 } on-error={}
 :do { add list=RS address=2001:470:1f1b:20::/64 } on-error={}

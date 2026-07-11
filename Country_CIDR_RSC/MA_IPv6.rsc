@@ -2,8 +2,6 @@
 /ipv6 firewall address-list
 :do { add list=MA address=2001:470:28:598::/64 } on-error={}
 :do { add list=MA address=2001:470:6f:1bb::/64 } on-error={}
-:do { add list=MA address=2001:470:1f0b:283::/64 } on-error={}
-:do { add list=MA address=2001:470:1f0b:9cc::/64 } on-error={}
 :do { add list=MA address=2001:470:1f13:814::/64 } on-error={}
 :do { add list=MA address=2001:470:1f21:af::/64 } on-error={}
 :do { add list=MA address=2001:470:1f23:364::/64 } on-error={}
@@ -491,7 +489,6 @@
 :do { add list=MA address=2a02:26f7:c308:4940::/60 } on-error={}
 :do { add list=MA address=2a02:26f7:c308:4950::/62 } on-error={}
 :do { add list=MA address=2a02:26f7:c308:4954::/63 } on-error={}
-:do { add list=MA address=2a02:26f7:c308:8000::/49 } on-error={}
 :do { add list=MA address=2a02:26f7:c309::/48 } on-error={}
 :do { add list=MA address=2a02:26f7:c30a::/47 } on-error={}
 :do { add list=MA address=2a02:26f7:c30c:4000::/64 } on-error={}

@@ -28,8 +28,10 @@
 :do { add list=VC address=2606:40:203c:e000::/51 } on-error={}
 :do { add list=VC address=2606:40:214c:c000::/51 } on-error={}
 :do { add list=VC address=2606:3c80:1600:2a00::/56 } on-error={}
+:do { add list=VC address=2606:3c80:1600:5600::/56 } on-error={}
 :do { add list=VC address=2606:3c80:1600:7100::/56 } on-error={}
 :do { add list=VC address=2606:3c80:1600:7c00::/56 } on-error={}
+:do { add list=VC address=2606:3c80:1600:8000::/54 } on-error={}
 :do { add list=VC address=2606:54c0:d258::/45 } on-error={}
 :do { add list=VC address=2606:54c3:0:226::/64 } on-error={}
 :do { add list=VC address=2607:8940:26d6::/47 } on-error={}

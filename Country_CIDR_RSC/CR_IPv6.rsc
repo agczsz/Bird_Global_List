@@ -2,7 +2,6 @@
 /ipv6 firewall address-list
 :do { add list=CR address=2001:470:19:100f::/64 } on-error={}
 :do { add list=CR address=2001:470:24:2d2::/64 } on-error={}
-:do { add list=CR address=2001:470:28:410::/64 } on-error={}
 :do { add list=CR address=2001:470:36:895::/64 } on-error={}
 :do { add list=CR address=2001:470:6f:5d8::/64 } on-error={}
 :do { add list=CR address=2001:470:187f::/48 } on-error={}
@@ -327,7 +326,9 @@
 :do { add list=CR address=2803:22a0::/32 } on-error={}
 :do { add list=CR address=2803:2cc0::/32 } on-error={}
 :do { add list=CR address=2803:2d60:1031:2100::/56 } on-error={}
+:do { add list=CR address=2803:2d60:1033:db00::/56 } on-error={}
 :do { add list=CR address=2803:2d60:1036:1200::/56 } on-error={}
+:do { add list=CR address=2803:2d60:103e:4f00::/56 } on-error={}
 :do { add list=CR address=2803:2ed0::/32 } on-error={}
 :do { add list=CR address=2803:3100::/32 } on-error={}
 :do { add list=CR address=2803:3200::/32 } on-error={}
@@ -668,6 +669,7 @@
 :do { add list=CR address=2a02:26f7:becc:42c8::/62 } on-error={}
 :do { add list=CR address=2a02:26f7:becc:42cc::/63 } on-error={}
 :do { add list=CR address=2a02:26f7:becc:42ce::/64 } on-error={}
+:do { add list=CR address=2a02:26f7:becc:8000::/49 } on-error={}
 :do { add list=CR address=2a02:26f7:becd::/48 } on-error={}
 :do { add list=CR address=2a02:26f7:bece::/47 } on-error={}
 :do { add list=CR address=2a02:26f7:bed0::/44 } on-error={}
