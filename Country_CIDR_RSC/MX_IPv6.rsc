@@ -12485,6 +12485,7 @@
 :do { add list=MX address=2a04:4e42:c067::/48 } on-error={}
 :do { add list=MX address=2a04:4e42:d067::/48 } on-error={}
 :do { add list=MX address=2a04:4e42:f067::/48 } on-error={}
+:do { add list=MX address=2a04:8280:d000::/36 } on-error={}
 :do { add list=MX address=2a04:e4c0:52::/48 } on-error={}
 :do { add list=MX address=2a05:dfc1:5360::/43 } on-error={}
 :do { add list=MX address=2a05:dfc1:5aa5::/48 } on-error={}

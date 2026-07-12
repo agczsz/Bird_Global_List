@@ -280,6 +280,16 @@
 :do { add list=BZ address=2a14:7581:b17:1a00::/56 } on-error={}
 :do { add list=BZ address=2a14:7581:be0:1500::/58 } on-error={}
 :do { add list=BZ address=2a14:7581:3b1d::/48 } on-error={}
-:do { add list=BZ address=2a14:7583:ff88::/48 } on-error={}
+:do { add list=BZ address=2a14:7583:ff80::/48 } on-error={}
+:do { add list=BZ address=2a14:7583:ff87::/56 } on-error={}
+:do { add list=BZ address=2a14:7583:ff87:1100::/56 } on-error={}
+:do { add list=BZ address=2a14:7583:ff87:1200::/55 } on-error={}
+:do { add list=BZ address=2a14:7583:ff87:1400::/54 } on-error={}
+:do { add list=BZ address=2a14:7583:ff87:1800::/53 } on-error={}
+:do { add list=BZ address=2a14:7583:ff87:2000::/51 } on-error={}
+:do { add list=BZ address=2a14:7583:ff87:4000::/50 } on-error={}
+:do { add list=BZ address=2a14:7583:ff87:8000::/49 } on-error={}
+:do { add list=BZ address=2a14:7583:ff88::/45 } on-error={}
+:do { add list=BZ address=2a14:7583:ff90::cafe/128 } on-error={}
 :do { add list=BZ address=2a14:7585:f108::/48 } on-error={}
 :do { add list=BZ address=2a14:c380:796::/48 } on-error={}

@@ -1,6 +1,7 @@
 /log info "Loading GF IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=GF address=2001:470:1f29:2fa::/64 } on-error={}
+:do { add list=GF address=2001:470:6897::/48 } on-error={}
 :do { add list=GF address=2001:3786:b0b1:200::/56 } on-error={}
 :do { add list=GF address=2001:4b28:c800::/40 } on-error={}
 :do { add list=GF address=2401:b60:14b0:4000::/50 } on-error={}
@@ -52,8 +53,8 @@
 :do { add list=GF address=2a01:cb20:80da:8000::/50 } on-error={}
 :do { add list=GF address=2a01:cb20:883f:af00::/64 } on-error={}
 :do { add list=GF address=2a01:cb20:a004:4000::/50 } on-error={}
-:do { add list=GF address=2a01:cde0:8109:1800::/53 } on-error={}
 :do { add list=GF address=2a01:cde0:8109:7000::/54 } on-error={}
+:do { add list=GF address=2a01:cde0:8109:c800::/53 } on-error={}
 :do { add list=GF address=2a01:cde0:c000::/34 } on-error={}
 :do { add list=GF address=2a02:26f7:e980::/48 } on-error={}
 :do { add list=GF address=2a02:26f7:e981::/48 } on-error={}

@@ -378,6 +378,6 @@
 :do { add list=LA address=2a14:7581:b17:7800::/56 } on-error={}
 :do { add list=LA address=2a14:7581:be0:6880::/58 } on-error={}
 :do { add list=LA address=2a14:7581:3b81::/48 } on-error={}
-:do { add list=LA address=2a14:7583:ff8a::/48 } on-error={}
+:do { add list=LA address=2a14:7583:ff87:e00::/56 } on-error={}
 :do { add list=LA address=2a14:7585:f211::/48 } on-error={}
 :do { add list=LA address=2a14:c380:7d7::/48 } on-error={}

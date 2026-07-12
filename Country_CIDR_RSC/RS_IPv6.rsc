@@ -1673,7 +1673,7 @@
 :do { add list=RS address=2a09:ab00::/29 } on-error={}
 :do { add list=RS address=2a09:ab80::/29 } on-error={}
 :do { add list=RS address=2a09:bac0:120::/48 } on-error={}
-:do { add list=RS address=2a09:bac0:1000:22b::/64 } on-error={}
+:do { add list=RS address=2a09:bac0:1000:22a::/63 } on-error={}
 :do { add list=RS address=2a09:bac0:1000:324::/64 } on-error={}
 :do { add list=RS address=2a09:bac0:1000:775::/64 } on-error={}
 :do { add list=RS address=2a09:bac0:1000:879::/64 } on-error={}

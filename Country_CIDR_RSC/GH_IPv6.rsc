@@ -170,8 +170,6 @@
 :do { add list=GH address=2620:0:876:8700::/56 } on-error={}
 :do { add list=GH address=2620:171:5f::/48 } on-error={}
 :do { add list=GH address=2a00:ca0:2002:8000::/52 } on-error={}
-:do { add list=GH address=2a00:ca0:202d:d000::/52 } on-error={}
-:do { add list=GH address=2a00:ca0:2034::/52 } on-error={}
 :do { add list=GH address=2a00:ca0:2038:8000::/50 } on-error={}
 :do { add list=GH address=2a00:79e0:bf::/48 } on-error={}
 :do { add list=GH address=2a00:79e0:285e::/48 } on-error={}

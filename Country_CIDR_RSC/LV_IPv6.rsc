@@ -743,7 +743,6 @@
 :do { add list=LV address=2a00:f500:10:4::2/127 } on-error={}
 :do { add list=LV address=2a00:f500:10:7::2/127 } on-error={}
 :do { add list=LV address=2a00:f500:10:8::/64 } on-error={}
-:do { add list=LV address=2a00:f500:10:1015::/64 } on-error={}
 :do { add list=LV address=2a00:f500:11:d:213:252:199:168/128 } on-error={}
 :do { add list=LV address=2a00:f500:11:e:213:252:199:170/128 } on-error={}
 :do { add list=LV address=2a00:f500:11:26::2/127 } on-error={}
