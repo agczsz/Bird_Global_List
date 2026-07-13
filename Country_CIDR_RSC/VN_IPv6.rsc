@@ -7499,10 +7499,10 @@
 :do { add list=VN address=2a14:7583:f000::/45 } on-error={}
 :do { add list=VN address=2a14:7583:f008::/46 } on-error={}
 :do { add list=VN address=2a14:7583:f00c::/46 } on-error={}
-:do { add list=VN address=2a14:7583:f010::/45 } on-error={}
-:do { add list=VN address=2a14:7583:f018::/45 } on-error={}
+:do { add list=VN address=2a14:7583:f010::/44 } on-error={}
 :do { add list=VN address=2a14:7583:f020::/45 } on-error={}
-:do { add list=VN address=2a14:7583:f028::/45 } on-error={}
+:do { add list=VN address=2a14:7583:f028::/46 } on-error={}
+:do { add list=VN address=2a14:7583:f02c::/46 } on-error={}
 :do { add list=VN address=2a14:7583:f030::/44 } on-error={}
 :do { add list=VN address=2a14:7583:f040::/42 } on-error={}
 :do { add list=VN address=2a14:7583:f080::/41 } on-error={}

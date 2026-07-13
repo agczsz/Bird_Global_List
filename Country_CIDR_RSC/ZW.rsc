@@ -820,7 +820,8 @@
 :do { add list=ZW address=196.43.112.0/21 } on-error={}
 :do { add list=ZW address=196.43.124.0/22 } on-error={}
 :do { add list=ZW address=196.43.199.0/24 } on-error={}
-:do { add list=ZW address=196.44.176.0/22 } on-error={}
+:do { add list=ZW address=196.44.176.0/23 } on-error={}
+:do { add list=ZW address=196.44.178.0/23 } on-error={}
 :do { add list=ZW address=196.44.180.0/24 } on-error={}
 :do { add list=ZW address=196.44.181.0/24 } on-error={}
 :do { add list=ZW address=196.44.182.0/23 } on-error={}

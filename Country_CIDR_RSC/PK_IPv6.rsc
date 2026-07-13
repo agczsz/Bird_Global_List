@@ -1810,7 +1810,11 @@
 :do { add list=PK address=2404:3100:a::/47 } on-error={}
 :do { add list=PK address=2404:3100:c::/47 } on-error={}
 :do { add list=PK address=2404:3100:e::/47 } on-error={}
-:do { add list=PK address=2404:3100:10::/44 } on-error={}
+:do { add list=PK address=2404:3100:10::/46 } on-error={}
+:do { add list=PK address=2404:3100:14::/47 } on-error={}
+:do { add list=PK address=2404:3100:16::/48 } on-error={}
+:do { add list=PK address=2404:3100:17::/48 } on-error={}
+:do { add list=PK address=2404:3100:18::/45 } on-error={}
 :do { add list=PK address=2404:3100:20::/48 } on-error={}
 :do { add list=PK address=2404:3100:21::/48 } on-error={}
 :do { add list=PK address=2404:3100:22::/47 } on-error={}

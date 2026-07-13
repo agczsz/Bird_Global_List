@@ -21079,15 +21079,7 @@
 :do { add list=FR address=2602:faa8:455:301::/64 } on-error={}
 :do { add list=FR address=2602:fab0:27::/48 } on-error={}
 :do { add list=FR address=2602:fab0:31::/48 } on-error={}
-:do { add list=FR address=2602:fb08::/48 } on-error={}
-:do { add list=FR address=2602:fb08:1::/48 } on-error={}
-:do { add list=FR address=2602:fb08:2::/47 } on-error={}
-:do { add list=FR address=2602:fb08:4::/46 } on-error={}
-:do { add list=FR address=2602:fb08:8::/45 } on-error={}
-:do { add list=FR address=2602:fb08:10::/44 } on-error={}
-:do { add list=FR address=2602:fb08:20::/43 } on-error={}
-:do { add list=FR address=2602:fb08:40::/42 } on-error={}
-:do { add list=FR address=2602:fb08:80::/41 } on-error={}
+:do { add list=FR address=2602:fb08::/40 } on-error={}
 :do { add list=FR address=2602:fb68:900::3e73:970/125 } on-error={}
 :do { add list=FR address=2602:fb68:900::b979:19ce/127 } on-error={}
 :do { add list=FR address=2602:fb76:33::/48 } on-error={}

@@ -1110,10 +1110,7 @@
 :do { add list=TR address=45.195.105.0/31 } on-error={}
 :do { add list=TR address=45.195.144.0/24 } on-error={}
 :do { add list=TR address=45.195.156.0/24 } on-error={}
-:do { add list=TR address=45.195.224.0/24 } on-error={}
-:do { add list=TR address=45.195.225.0/24 } on-error={}
-:do { add list=TR address=45.195.226.0/24 } on-error={}
-:do { add list=TR address=45.195.227.0/24 } on-error={}
+:do { add list=TR address=45.195.224.0/22 } on-error={}
 :do { add list=TR address=45.195.231.0/24 } on-error={}
 :do { add list=TR address=45.196.106.0/23 } on-error={}
 :do { add list=TR address=45.196.132.0/24 } on-error={}

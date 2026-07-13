@@ -3031,9 +3031,7 @@
 :do { add list=NZ address=202.7.4.0/24 } on-error={}
 :do { add list=NZ address=202.7.5.0/24 } on-error={}
 :do { add list=NZ address=202.7.6.0/23 } on-error={}
-:do { add list=NZ address=202.7.32.0/23 } on-error={}
-:do { add list=NZ address=202.7.34.0/24 } on-error={}
-:do { add list=NZ address=202.7.35.0/24 } on-error={}
+:do { add list=NZ address=202.7.32.0/22 } on-error={}
 :do { add list=NZ address=202.7.36.0/24 } on-error={}
 :do { add list=NZ address=202.7.37.0/24 } on-error={}
 :do { add list=NZ address=202.7.38.0/23 } on-error={}

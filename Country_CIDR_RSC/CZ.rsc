@@ -2020,7 +2020,9 @@
 :do { add list=CZ address=91.134.223.232/30 } on-error={}
 :do { add list=CZ address=91.139.0.0/17 } on-error={}
 :do { add list=CZ address=91.146.120.0/22 } on-error={}
-:do { add list=CZ address=91.146.124.0/22 } on-error={}
+:do { add list=CZ address=91.146.124.0/24 } on-error={}
+:do { add list=CZ address=91.146.125.0/24 } on-error={}
+:do { add list=CZ address=91.146.126.0/23 } on-error={}
 :do { add list=CZ address=91.148.228.32/28 } on-error={}
 :do { add list=CZ address=91.184.248.0/22 } on-error={}
 :do { add list=CZ address=91.187.32.0/19 } on-error={}

@@ -314,8 +314,7 @@
 :do { add list=RS address=79.175.119.0/24 } on-error={}
 :do { add list=RS address=79.175.120.0/24 } on-error={}
 :do { add list=RS address=79.175.121.0/24 } on-error={}
-:do { add list=RS address=79.175.122.0/24 } on-error={}
-:do { add list=RS address=79.175.123.0/24 } on-error={}
+:do { add list=RS address=79.175.122.0/23 } on-error={}
 :do { add list=RS address=79.175.124.0/22 } on-error={}
 :do { add list=RS address=80.70.240.0/20 } on-error={}
 :do { add list=RS address=80.74.160.0/20 } on-error={}

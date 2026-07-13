@@ -193,8 +193,7 @@
 :do { add list=PA address=2801:17:9000::/48 } on-error={}
 :do { add list=PA address=2801:17:c000::/48 } on-error={}
 :do { add list=PA address=2801:17:c001::/48 } on-error={}
-:do { add list=PA address=2801:17:c002::/48 } on-error={}
-:do { add list=PA address=2801:17:c003::/48 } on-error={}
+:do { add list=PA address=2801:17:c002::/47 } on-error={}
 :do { add list=PA address=2801:17:c004::/46 } on-error={}
 :do { add list=PA address=2801:17:c008::/45 } on-error={}
 :do { add list=PA address=2801:19:1000::/48 } on-error={}

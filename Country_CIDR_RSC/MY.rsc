@@ -4162,8 +4162,7 @@
 :do { add list=MY address=202.162.16.0/22 } on-error={}
 :do { add list=MY address=202.162.20.0/24 } on-error={}
 :do { add list=MY address=202.162.21.0/24 } on-error={}
-:do { add list=MY address=202.162.22.0/24 } on-error={}
-:do { add list=MY address=202.162.23.0/24 } on-error={}
+:do { add list=MY address=202.162.22.0/23 } on-error={}
 :do { add list=MY address=202.162.24.0/22 } on-error={}
 :do { add list=MY address=202.162.28.0/23 } on-error={}
 :do { add list=MY address=202.162.30.0/23 } on-error={}

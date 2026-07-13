@@ -5000,7 +5000,9 @@
 :do { add list=PH address=203.131.128.0/18 } on-error={}
 :do { add list=PH address=203.131.240.145/32 } on-error={}
 :do { add list=PH address=203.143.176.0/24 } on-error={}
-:do { add list=PH address=203.144.0.0/22 } on-error={}
+:do { add list=PH address=203.144.0.0/24 } on-error={}
+:do { add list=PH address=203.144.1.0/24 } on-error={}
+:do { add list=PH address=203.144.2.0/23 } on-error={}
 :do { add list=PH address=203.148.92.0/24 } on-error={}
 :do { add list=PH address=203.153.6.0/23 } on-error={}
 :do { add list=PH address=203.153.10.0/24 } on-error={}

@@ -4066,7 +4066,10 @@
 :do { add list=ES address=80.209.255.0/24 } on-error={}
 :do { add list=ES address=80.224.0.0/17 } on-error={}
 :do { add list=ES address=80.224.128.0/18 } on-error={}
-:do { add list=ES address=80.224.192.0/19 } on-error={}
+:do { add list=ES address=80.224.192.0/22 } on-error={}
+:do { add list=ES address=80.224.196.0/22 } on-error={}
+:do { add list=ES address=80.224.200.0/21 } on-error={}
+:do { add list=ES address=80.224.208.0/20 } on-error={}
 :do { add list=ES address=80.224.224.0/20 } on-error={}
 :do { add list=ES address=80.224.240.0/22 } on-error={}
 :do { add list=ES address=80.224.244.0/22 } on-error={}
