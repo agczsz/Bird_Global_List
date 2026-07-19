@@ -241,5 +241,5 @@
 :do { add list=HT address=2a14:7581:b16:6000::/56 } on-error={}
 :do { add list=HT address=2a14:7581:b17:6000::/56 } on-error={}
 :do { add list=HT address=2a14:7581:be0:5300::/58 } on-error={}
+:do { add list=HT address=2a14:7581:be1:4c00::/56 } on-error={}
 :do { add list=HT address=2a14:7581:3b67::/48 } on-error={}
-:do { add list=HT address=2a14:7585:f113::/48 } on-error={}

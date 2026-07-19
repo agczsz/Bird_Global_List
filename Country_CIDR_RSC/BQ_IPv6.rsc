@@ -230,5 +230,6 @@
 :do { add list=BQ address=2a14:7581:b16:9b00::/56 } on-error={}
 :do { add list=BQ address=2a14:7581:b17:9b00::/56 } on-error={}
 :do { add list=BQ address=2a14:7581:be0:85c0::/58 } on-error={}
+:do { add list=BQ address=2a14:7581:be2:1700::/56 } on-error={}
 :do { add list=BQ address=2a14:7581:3b22::/48 } on-error={}
 :do { add list=BQ address=2a14:7585:f106::/48 } on-error={}

@@ -189,6 +189,7 @@
 :do { add list=PW address=2a14:7581:b16:a900::/56 } on-error={}
 :do { add list=PW address=2a14:7581:b17:a900::/56 } on-error={}
 :do { add list=PW address=2a14:7581:be0:9240::/58 } on-error={}
+:do { add list=PW address=2a14:7581:be2:4900::/56 } on-error={}
 :do { add list=PW address=2a14:7581:3bb0::/48 } on-error={}
 :do { add list=PW address=2a14:7585:f414::/48 } on-error={}
 :do { add list=PW address=2a14:c380:7ea::/48 } on-error={}

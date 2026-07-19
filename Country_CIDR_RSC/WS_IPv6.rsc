@@ -391,6 +391,7 @@
 :do { add list=WS address=2a14:7581:b16:f700::/56 } on-error={}
 :do { add list=WS address=2a14:7581:b17:f700::/56 } on-error={}
 :do { add list=WS address=2a14:7581:be0:dc80::/58 } on-error={}
+:do { add list=WS address=2a14:7581:be3:7200::/56 } on-error={}
 :do { add list=WS address=2a14:7581:3bc7::/48 } on-error={}
 :do { add list=WS address=2a14:7585:f41b::/48 } on-error={}
 :do { add list=WS address=2a14:c380:7e6::/48 } on-error={}

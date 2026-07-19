@@ -161,5 +161,5 @@
 :do { add list=CK address=2a14:7581:b15:3500::/56 } on-error={}
 :do { add list=CK address=2a14:7581:b16:3500::/56 } on-error={}
 :do { add list=CK address=2a14:7581:b17:3500::/56 } on-error={}
+:do { add list=CK address=2a14:7581:be0:b800::/56 } on-error={}
 :do { add list=CK address=2a14:7581:3b3b::/48 } on-error={}
-:do { add list=CK address=2a14:7585:f403::/48 } on-error={}

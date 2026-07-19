@@ -2,7 +2,6 @@
 /ipv6 firewall address-list
 :do { add list=BW address=2001:470:1f29:3f8::/64 } on-error={}
 :do { add list=BW address=2001:470:74f8::/48 } on-error={}
-:do { add list=BW address=2001:470:81fb::/48 } on-error={}
 :do { add list=BW address=2001:470:fd34::/48 } on-error={}
 :do { add list=BW address=2001:67c:a38:f267::/64 } on-error={}
 :do { add list=BW address=2001:4328::/62 } on-error={}
@@ -101,7 +100,6 @@
 :do { add list=BW address=2405:b500:1320::/64 } on-error={}
 :do { add list=BW address=2405:b500:1340::/64 } on-error={}
 :do { add list=BW address=2405:b500:1360::/64 } on-error={}
-:do { add list=BW address=2600:70ff:f003::/48 } on-error={}
 :do { add list=BW address=2604:b040:13::2:0/112 } on-error={}
 :do { add list=BW address=2604:b040:13::1:2:0/112 } on-error={}
 :do { add list=BW address=2604:b040:13::2:2:0/112 } on-error={}
@@ -293,6 +291,7 @@
 :do { add list=BW address=2a14:7581:b16:1700::/56 } on-error={}
 :do { add list=BW address=2a14:7581:b17:1700::/56 } on-error={}
 :do { add list=BW address=2a14:7581:be0:1200::/58 } on-error={}
+:do { add list=BW address=2a14:7581:be0:4800::/56 } on-error={}
 :do { add list=BW address=2a14:7581:3b24::/48 } on-error={}
 :do { add list=BW address=2a14:7585:f504::/48 } on-error={}
 :do { add list=BW address=2a14:c380:7fc::/48 } on-error={}
@@ -333,5 +332,4 @@
 :do { add list=BW address=2c0f:f728::/32 } on-error={}
 :do { add list=BW address=2c0f:f9c0::/32 } on-error={}
 :do { add list=BW address=2c0f:fac8::/32 } on-error={}
-:do { add list=BW address=2c0f:feb0:40:2::/63 } on-error={}
 :do { add list=BW address=2c0f:ff00::/32 } on-error={}

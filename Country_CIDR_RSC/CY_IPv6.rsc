@@ -149,7 +149,6 @@
 :do { add list=CY address=2600:70ff:b077::/48 } on-error={}
 :do { add list=CY address=2600:70ff:c017::/48 } on-error={}
 :do { add list=CY address=2600:70ff:d834::/48 } on-error={}
-:do { add list=CY address=2600:70ff:f0a2::/48 } on-error={}
 :do { add list=CY address=2602:2a9:c10::/44 } on-error={}
 :do { add list=CY address=2602:f69a:a::/48 } on-error={}
 :do { add list=CY address=2602:f7c8:10f::/48 } on-error={}
@@ -943,6 +942,16 @@
 :do { add list=CY address=2a0d:11c0:2000::/35 } on-error={}
 :do { add list=CY address=2a0d:11c0:4000::/34 } on-error={}
 :do { add list=CY address=2a0d:11c0:8000::/33 } on-error={}
+:do { add list=CY address=2a0d:2681:5f00:4000::/50 } on-error={}
+:do { add list=CY address=2a0d:2681:5f00:8000::/49 } on-error={}
+:do { add list=CY address=2a0d:2681:5f01::/48 } on-error={}
+:do { add list=CY address=2a0d:2681:5f02::/47 } on-error={}
+:do { add list=CY address=2a0d:2681:5f04::/46 } on-error={}
+:do { add list=CY address=2a0d:2681:5f08::/45 } on-error={}
+:do { add list=CY address=2a0d:2681:5f10::/44 } on-error={}
+:do { add list=CY address=2a0d:2681:5f20::/43 } on-error={}
+:do { add list=CY address=2a0d:2681:5f40::/42 } on-error={}
+:do { add list=CY address=2a0d:2681:5f80::/41 } on-error={}
 :do { add list=CY address=2a0d:3344:3640::/42 } on-error={}
 :do { add list=CY address=2a0d:3344:3940::/42 } on-error={}
 :do { add list=CY address=2a0d:3344:6d00::/40 } on-error={}
@@ -1339,9 +1348,9 @@
 :do { add list=CY address=2a14:7581:b16:3900::/56 } on-error={}
 :do { add list=CY address=2a14:7581:b17:3900::/56 } on-error={}
 :do { add list=CY address=2a14:7581:be0:3100::/58 } on-error={}
+:do { add list=CY address=2a14:7581:be0:c400::/56 } on-error={}
 :do { add list=CY address=2a14:7581:3b41::/48 } on-error={}
 :do { add list=CY address=2a14:7581:9fe0::/44 } on-error={}
-:do { add list=CY address=2a14:7585:f009::/48 } on-error={}
 :do { add list=CY address=2a14:8200::/29 } on-error={}
 :do { add list=CY address=2a14:8300:1::/48 } on-error={}
 :do { add list=CY address=2a14:c380:756::/48 } on-error={}

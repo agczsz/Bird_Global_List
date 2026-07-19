@@ -1,9 +1,8 @@
 /log info "Loading GQ IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=GQ address=2001:470:8c13::/48 } on-error={}
-:do { add list=GQ address=2001:608:802:fffe::/63 } on-error={}
 :do { add list=GQ address=2001:67c:a38:f240::/64 } on-error={}
-:do { add list=GQ address=2001:918:105:1::22/128 } on-error={}
+:do { add list=GQ address=2001:918:105:1::/64 } on-error={}
 :do { add list=GQ address=2001:4b28:cf00::/40 } on-error={}
 :do { add list=GQ address=2401:b60:1420:4000::/50 } on-error={}
 :do { add list=GQ address=2401:b60:1420:8000::/49 } on-error={}
@@ -168,7 +167,7 @@
 :do { add list=GQ address=2a14:7581:b15:4100::/56 } on-error={}
 :do { add list=GQ address=2a14:7581:b16:4100::/56 } on-error={}
 :do { add list=GQ address=2a14:7581:b17:4100::/56 } on-error={}
-:do { add list=GQ address=2a14:7581:be0:3880::/58 } on-error={}
+:do { add list=GQ address=2a14:7581:be0:e200::/56 } on-error={}
 :do { add list=GQ address=2a14:7581:3b4a::/48 } on-error={}
 :do { add list=GQ address=2a14:7585:f515::/48 } on-error={}
 :do { add list=GQ address=2c0f:f180::/32 } on-error={}

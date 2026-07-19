@@ -162,6 +162,6 @@
 :do { add list=BM address=2a14:7581:b15:1300::/56 } on-error={}
 :do { add list=BM address=2a14:7581:b16:1300::/56 } on-error={}
 :do { add list=BM address=2a14:7581:b17:1300::/56 } on-error={}
+:do { add list=BM address=2a14:7581:be0:3c00::/56 } on-error={}
 :do { add list=BM address=2a14:7581:3b1f::/48 } on-error={}
 :do { add list=BM address=2a14:7584:e012::/48 } on-error={}
-:do { add list=BM address=2a14:7585:f105::/48 } on-error={}

@@ -1,9 +1,9 @@
 /log info "Loading MG IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=MG address=2001:470:28:10f9::/64 } on-error={}
+:do { add list=MG address=2001:470:758e::/48 } on-error={}
 :do { add list=MG address=2001:470:c034:4000::/50 } on-error={}
 :do { add list=MG address=2001:470:c034:8000::/49 } on-error={}
-:do { add list=MG address=2001:470:c06e::/48 } on-error={}
 :do { add list=MG address=2001:470:c2bf::/48 } on-error={}
 :do { add list=MG address=2001:470:ffa3::/48 } on-error={}
 :do { add list=MG address=2001:470:ffc1::/48 } on-error={}
@@ -100,7 +100,6 @@
 :do { add list=MG address=2405:b500:4940::/64 } on-error={}
 :do { add list=MG address=2405:b500:4960::/64 } on-error={}
 :do { add list=MG address=2600:70ff:a927::/48 } on-error={}
-:do { add list=MG address=2600:70ff:b0e5::/48 } on-error={}
 :do { add list=MG address=2602:2a9:a70::/44 } on-error={}
 :do { add list=MG address=2602:fd92:b00:147::64/128 } on-error={}
 :do { add list=MG address=2602:fd92:b00:165::/64 } on-error={}
@@ -185,7 +184,7 @@
 :do { add list=MG address=2a06:9f81:398c::/48 } on-error={}
 :do { add list=MG address=2a06:9f81:43ef:8f00::/56 } on-error={}
 :do { add list=MG address=2a06:9f81:568c::/48 } on-error={}
-:do { add list=MG address=2a06:b440:147::/64 } on-error={}
+:do { add list=MG address=2a06:b440:147::48/128 } on-error={}
 :do { add list=MG address=2a07:d887:8d00::/40 } on-error={}
 :do { add list=MG address=2a09:4c0:0:8f::/64 } on-error={}
 :do { add list=MG address=2a09:bac1:4900::/64 } on-error={}
@@ -279,7 +278,7 @@
 :do { add list=MG address=2a14:7581:b15:8200::/56 } on-error={}
 :do { add list=MG address=2a14:7581:b16:8200::/56 } on-error={}
 :do { add list=MG address=2a14:7581:b17:8200::/56 } on-error={}
-:do { add list=MG address=2a14:7581:be0:7080::/58 } on-error={}
+:do { add list=MG address=2a14:7581:be1:c200::/56 } on-error={}
 :do { add list=MG address=2a14:7581:3b8b::/48 } on-error={}
 :do { add list=MG address=2a14:7583:ff3f:600::/56 } on-error={}
 :do { add list=MG address=2a14:7585:f51d::/48 } on-error={}
@@ -287,7 +286,17 @@
 :do { add list=MG address=2c0f:2a80:700::/42 } on-error={}
 :do { add list=MG address=2c0f:2a80:1280::/42 } on-error={}
 :do { add list=MG address=2c0f:2a80:2180::/42 } on-error={}
-:do { add list=MG address=2c0f:eb00:600::/40 } on-error={}
+:do { add list=MG address=2c0f:eb00:601::/48 } on-error={}
+:do { add list=MG address=2c0f:eb00:602::/47 } on-error={}
+:do { add list=MG address=2c0f:eb00:604::/47 } on-error={}
+:do { add list=MG address=2c0f:eb00:607::/48 } on-error={}
+:do { add list=MG address=2c0f:eb00:608::/46 } on-error={}
+:do { add list=MG address=2c0f:eb00:60c::/47 } on-error={}
+:do { add list=MG address=2c0f:eb00:60f::/48 } on-error={}
+:do { add list=MG address=2c0f:eb00:610::/44 } on-error={}
+:do { add list=MG address=2c0f:eb00:620::/43 } on-error={}
+:do { add list=MG address=2c0f:eb00:640::/42 } on-error={}
+:do { add list=MG address=2c0f:eb00:680::/41 } on-error={}
 :do { add list=MG address=2c0f:f1c8::/32 } on-error={}
 :do { add list=MG address=2c0f:f9f0::/32 } on-error={}
 :do { add list=MG address=2c0f:fa28::/56 } on-error={}

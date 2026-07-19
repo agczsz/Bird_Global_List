@@ -6,7 +6,6 @@
 :do { add list=KY address=2001:470:b6dc::/48 } on-error={}
 :do { add list=KY address=2001:470:d839::/48 } on-error={}
 :do { add list=KY address=2001:470:d902::/48 } on-error={}
-:do { add list=KY address=2001:470:e023::/48 } on-error={}
 :do { add list=KY address=2001:470:e87f::/48 } on-error={}
 :do { add list=KY address=2001:470:eb2c::/48 } on-error={}
 :do { add list=KY address=2001:470:eca9::/48 } on-error={}
@@ -161,6 +160,6 @@
 :do { add list=KY address=2a14:7581:b15:2700::/56 } on-error={}
 :do { add list=KY address=2a14:7581:b16:2700::/56 } on-error={}
 :do { add list=KY address=2a14:7581:b17:2700::/56 } on-error={}
+:do { add list=KY address=2a14:7581:be0:8800::/56 } on-error={}
 :do { add list=KY address=2a14:7581:3b30::/48 } on-error={}
 :do { add list=KY address=2a14:7584:e6c0::/43 } on-error={}
-:do { add list=KY address=2a14:7585:f116::/48 } on-error={}

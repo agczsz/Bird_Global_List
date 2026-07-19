@@ -2,6 +2,7 @@
 /ipv6 firewall address-list
 :do { add list=SS address=2001:470:74d6::/48 } on-error={}
 :do { add list=SS address=2001:470:ed40::/48 } on-error={}
+:do { add list=SS address=2001:470:fa09::/48 } on-error={}
 :do { add list=SS address=2001:470:fcc6::/48 } on-error={}
 :do { add list=SS address=2001:470:fd54::/48 } on-error={}
 :do { add list=SS address=2001:67c:a38:f211::/64 } on-error={}
@@ -171,6 +172,7 @@
 :do { add list=SS address=2a14:7581:b16:d200::/56 } on-error={}
 :do { add list=SS address=2a14:7581:b17:d200::/56 } on-error={}
 :do { add list=SS address=2a14:7581:be0:b600::/58 } on-error={}
+:do { add list=SS address=2a14:7581:be2:d800::/56 } on-error={}
 :do { add list=SS address=2a14:7581:3bd7::/48 } on-error={}
 :do { add list=SS address=2a14:7585:f52e::/48 } on-error={}
 :do { add list=SS address=2c0f:5a0::/32 } on-error={}

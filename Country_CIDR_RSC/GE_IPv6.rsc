@@ -2,7 +2,6 @@
 /ipv6 firewall address-list
 :do { add list=GE address=2001:470:28:c72::/64 } on-error={}
 :do { add list=GE address=2001:470:28:f96::/64 } on-error={}
-:do { add list=GE address=2001:470:6f:37d::/64 } on-error={}
 :do { add list=GE address=2001:470:1f13:570::/64 } on-error={}
 :do { add list=GE address=2001:470:1f15:c0::/64 } on-error={}
 :do { add list=GE address=2001:470:1f15:172::/64 } on-error={}
@@ -692,6 +691,16 @@
 :do { add list=GE address=2a0c:b641:d20::/44 } on-error={}
 :do { add list=GE address=2a0c:c280:3::/48 } on-error={}
 :do { add list=GE address=2a0c:f641::/48 } on-error={}
+:do { add list=GE address=2a0d:2681:2200:4000::/50 } on-error={}
+:do { add list=GE address=2a0d:2681:2200:8000::/49 } on-error={}
+:do { add list=GE address=2a0d:2681:2201::/48 } on-error={}
+:do { add list=GE address=2a0d:2681:2202::/47 } on-error={}
+:do { add list=GE address=2a0d:2681:2204::/46 } on-error={}
+:do { add list=GE address=2a0d:2681:2208::/45 } on-error={}
+:do { add list=GE address=2a0d:2681:2210::/44 } on-error={}
+:do { add list=GE address=2a0d:2681:2220::/43 } on-error={}
+:do { add list=GE address=2a0d:2681:2240::/42 } on-error={}
+:do { add list=GE address=2a0d:2681:2280::/41 } on-error={}
 :do { add list=GE address=2a0d:3344:1740::/42 } on-error={}
 :do { add list=GE address=2a0d:3344:3400::/42 } on-error={}
 :do { add list=GE address=2a0d:3344:6900::/40 } on-error={}
@@ -1692,6 +1701,7 @@
 :do { add list=GE address=2a14:7581:b16:5100::/56 } on-error={}
 :do { add list=GE address=2a14:7581:b17:5100::/56 } on-error={}
 :do { add list=GE address=2a14:7581:be0:4300::/58 } on-error={}
+:do { add list=GE address=2a14:7581:be1:c00::/56 } on-error={}
 :do { add list=GE address=2a14:7581:3b59::/48 } on-error={}
 :do { add list=GE address=2a14:7585:f207::/48 } on-error={}
 :do { add list=GE address=2a14:e380::/29 } on-error={}

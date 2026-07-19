@@ -180,7 +180,7 @@
 :do { add list=GW address=2a14:7581:b15:b300::/56 } on-error={}
 :do { add list=GW address=2a14:7581:b16:b300::/56 } on-error={}
 :do { add list=GW address=2a14:7581:b17:b300::/56 } on-error={}
-:do { add list=GW address=2a14:7581:be0:9c00::/58 } on-error={}
+:do { add list=GW address=2a14:7581:be2:7000::/56 } on-error={}
 :do { add list=GW address=2a14:7581:3b65::/48 } on-error={}
 :do { add list=GW address=2a14:7585:f516::/48 } on-error={}
 :do { add list=GW address=2c0f:2a80:b80::/42 } on-error={}

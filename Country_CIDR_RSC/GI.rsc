@@ -5,7 +5,7 @@
 :do { add list=GI address=5.62.62.148/30 } on-error={}
 :do { add list=GI address=5.62.85.98/32 } on-error={}
 :do { add list=GI address=5.62.92.0/23 } on-error={}
-:do { add list=GI address=5.150.152.0/23 } on-error={}
+:do { add list=GI address=5.150.152.0/22 } on-error={}
 :do { add list=GI address=31.222.48.0/23 } on-error={}
 :do { add list=GI address=31.222.50.0/24 } on-error={}
 :do { add list=GI address=31.222.59.0/24 } on-error={}
@@ -31,6 +31,7 @@
 :do { add list=GI address=94.26.98.0/23 } on-error={}
 :do { add list=GI address=94.26.101.0/24 } on-error={}
 :do { add list=GI address=94.26.103.0/24 } on-error={}
+:do { add list=GI address=94.26.107.0/24 } on-error={}
 :do { add list=GI address=94.26.109.0/24 } on-error={}
 :do { add list=GI address=94.131.21.80/32 } on-error={}
 :do { add list=GI address=94.131.21.156/32 } on-error={}

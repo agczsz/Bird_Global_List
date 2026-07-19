@@ -154,5 +154,5 @@
 :do { add list=PM address=2a14:7581:b15:c100::/56 } on-error={}
 :do { add list=PM address=2a14:7581:b16:c100::/56 } on-error={}
 :do { add list=PM address=2a14:7581:b17:c100::/56 } on-error={}
+:do { add list=PM address=2a14:7581:be2:9a00::/56 } on-error={}
 :do { add list=PM address=2a14:7581:3bc5::/48 } on-error={}
-:do { add list=PM address=2a14:7585:f11e::/48 } on-error={}

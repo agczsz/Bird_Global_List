@@ -376,5 +376,5 @@
 :do { add list=BB address=2a14:7581:b16:1100::/56 } on-error={}
 :do { add list=BB address=2a14:7581:b17:1100::/56 } on-error={}
 :do { add list=BB address=2a14:7581:be0:d00::/58 } on-error={}
+:do { add list=BB address=2a14:7581:be0:3400::/56 } on-error={}
 :do { add list=BB address=2a14:7581:3b1a::/48 } on-error={}
-:do { add list=BB address=2a14:7585:f103::/48 } on-error={}

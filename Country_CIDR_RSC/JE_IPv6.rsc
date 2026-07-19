@@ -232,5 +232,5 @@
 :do { add list=JE address=2a14:7581:b15:ed00::/56 } on-error={}
 :do { add list=JE address=2a14:7581:b16:ed00::/56 } on-error={}
 :do { add list=JE address=2a14:7581:b17:ed00::/56 } on-error={}
+:do { add list=JE address=2a14:7581:be3:4000::/56 } on-error={}
 :do { add list=JE address=2a14:7581:3b78::/48 } on-error={}
-:do { add list=JE address=2a14:7585:f01d::/48 } on-error={}

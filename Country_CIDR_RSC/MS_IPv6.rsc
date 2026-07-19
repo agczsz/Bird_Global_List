@@ -1,6 +1,7 @@
 /log info "Loading MS IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=MS address=2001:470:ec3a::/48 } on-error={}
+:do { add list=MS address=2001:470:fa05::/48 } on-error={}
 :do { add list=MS address=2001:4b28:4300::/40 } on-error={}
 :do { add list=MS address=2401:b60:1990:4000::/50 } on-error={}
 :do { add list=MS address=2401:b60:1990:8000::/49 } on-error={}
@@ -15,7 +16,6 @@
 :do { add list=MS address=2605:59c0:f00::/40 } on-error={}
 :do { add list=MS address=2605:9e40:c000:1400::/56 } on-error={}
 :do { add list=MS address=2605:9e40:c000:1700::/56 } on-error={}
-:do { add list=MS address=2606:40:1200::/43 } on-error={}
 :do { add list=MS address=2606:40:20f5:e000::/51 } on-error={}
 :do { add list=MS address=2606:40:214b:c000::/51 } on-error={}
 :do { add list=MS address=2606:54c0:48c8::/45 } on-error={}
@@ -117,6 +117,6 @@
 :do { add list=MS address=2a14:7581:b15:9000::/56 } on-error={}
 :do { add list=MS address=2a14:7581:b16:9000::/56 } on-error={}
 :do { add list=MS address=2a14:7581:b17:9000::/56 } on-error={}
+:do { add list=MS address=2a14:7581:be1:f400::/56 } on-error={}
 :do { add list=MS address=2a14:7581:3b9c::/48 } on-error={}
 :do { add list=MS address=2a14:7584:e017::/48 } on-error={}
-:do { add list=MS address=2a14:7585:f11a::/48 } on-error={}
