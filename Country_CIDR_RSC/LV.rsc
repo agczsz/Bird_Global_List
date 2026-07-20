@@ -854,7 +854,11 @@
 :do { add list=LV address=92.118.148.0/24 } on-error={}
 :do { add list=LV address=92.118.170.0/24 } on-error={}
 :do { add list=LV address=92.122.108.0/22 } on-error={}
-:do { add list=LV address=92.240.64.0/19 } on-error={}
+:do { add list=LV address=92.240.64.0/20 } on-error={}
+:do { add list=LV address=92.240.80.0/21 } on-error={}
+:do { add list=LV address=92.240.88.0/23 } on-error={}
+:do { add list=LV address=92.240.90.0/23 } on-error={}
+:do { add list=LV address=92.240.92.0/22 } on-error={}
 :do { add list=LV address=93.92.81.0/24 } on-error={}
 :do { add list=LV address=93.123.38.0/24 } on-error={}
 :do { add list=LV address=93.171.207.0/24 } on-error={}

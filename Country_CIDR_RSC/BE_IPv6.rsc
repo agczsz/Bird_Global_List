@@ -8218,7 +8218,11 @@
 :do { add list=BE address=2a0c:b641:cae::/48 } on-error={}
 :do { add list=BE address=2a0c:b641:caf::/48 } on-error={}
 :do { add list=BE address=2a0c:b641:cb0::/44 } on-error={}
-:do { add list=BE address=2a0c:b641:e00::/44 } on-error={}
+:do { add list=BE address=2a0c:b641:e00::/48 } on-error={}
+:do { add list=BE address=2a0c:b641:e01::/48 } on-error={}
+:do { add list=BE address=2a0c:b641:e02::/47 } on-error={}
+:do { add list=BE address=2a0c:b641:e04::/46 } on-error={}
+:do { add list=BE address=2a0c:b641:e08::/45 } on-error={}
 :do { add list=BE address=2a0c:b641:e30::/44 } on-error={}
 :do { add list=BE address=2a0c:b641:e40::/42 } on-error={}
 :do { add list=BE address=2a0c:b641:e80::/41 } on-error={}

@@ -3278,9 +3278,7 @@
 :do { add list=IN address=45.120.139.0/24 } on-error={}
 :do { add list=IN address=45.120.144.0/23 } on-error={}
 :do { add list=IN address=45.120.146.0/24 } on-error={}
-:do { add list=IN address=45.120.160.0/23 } on-error={}
-:do { add list=IN address=45.120.162.0/24 } on-error={}
-:do { add list=IN address=45.120.163.0/24 } on-error={}
+:do { add list=IN address=45.120.160.0/22 } on-error={}
 :do { add list=IN address=45.120.175.0/24 } on-error={}
 :do { add list=IN address=45.120.212.0/22 } on-error={}
 :do { add list=IN address=45.120.232.0/21 } on-error={}

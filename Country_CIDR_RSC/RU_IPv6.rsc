@@ -21808,7 +21808,11 @@
 :do { add list=RU address=2a0e:91c0:fbf0::/44 } on-error={}
 :do { add list=RU address=2a0e:91c0:fc00::/38 } on-error={}
 :do { add list=RU address=2a0e:92c0:10::/44 } on-error={}
-:do { add list=RU address=2a0e:97c0:d70::/44 } on-error={}
+:do { add list=RU address=2a0e:97c0:d70::/48 } on-error={}
+:do { add list=RU address=2a0e:97c0:d71::/48 } on-error={}
+:do { add list=RU address=2a0e:97c0:d72::/47 } on-error={}
+:do { add list=RU address=2a0e:97c0:d74::/46 } on-error={}
+:do { add list=RU address=2a0e:97c0:d78::/45 } on-error={}
 :do { add list=RU address=2a0e:97c0:da2::/48 } on-error={}
 :do { add list=RU address=2a0e:97c1::/48 } on-error={}
 :do { add list=RU address=2a0e:97c1:d::/48 } on-error={}

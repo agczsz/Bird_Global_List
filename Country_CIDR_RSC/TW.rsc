@@ -6402,7 +6402,10 @@
 :do { add list=TW address=180.214.182.0/23 } on-error={}
 :do { add list=TW address=180.214.184.0/21 } on-error={}
 :do { add list=TW address=180.217.0.0/16 } on-error={}
-:do { add list=TW address=180.218.0.0/18 } on-error={}
+:do { add list=TW address=180.218.0.0/19 } on-error={}
+:do { add list=TW address=180.218.32.0/21 } on-error={}
+:do { add list=TW address=180.218.40.0/21 } on-error={}
+:do { add list=TW address=180.218.48.0/20 } on-error={}
 :do { add list=TW address=180.218.64.0/20 } on-error={}
 :do { add list=TW address=180.218.80.0/22 } on-error={}
 :do { add list=TW address=180.218.84.0/22 } on-error={}

@@ -4869,8 +4869,7 @@
 :do { add list=TW address=2406:2000:b0::/44 } on-error={}
 :do { add list=TW address=2406:2000:c0::/43 } on-error={}
 :do { add list=TW address=2406:2000:e0::/46 } on-error={}
-:do { add list=TW address=2406:2000:e8::/46 } on-error={}
-:do { add list=TW address=2406:2000:ec::/46 } on-error={}
+:do { add list=TW address=2406:2000:e8::/45 } on-error={}
 :do { add list=TW address=2406:2000:f0::/45 } on-error={}
 :do { add list=TW address=2406:2000:f8::/46 } on-error={}
 :do { add list=TW address=2406:2000:fc::/46 } on-error={}

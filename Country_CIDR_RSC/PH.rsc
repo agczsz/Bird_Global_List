@@ -5054,7 +5054,11 @@
 :do { add list=PH address=203.177.60.0/24 } on-error={}
 :do { add list=PH address=203.177.61.0/24 } on-error={}
 :do { add list=PH address=203.177.62.0/23 } on-error={}
-:do { add list=PH address=203.177.64.0/20 } on-error={}
+:do { add list=PH address=203.177.64.0/21 } on-error={}
+:do { add list=PH address=203.177.72.0/23 } on-error={}
+:do { add list=PH address=203.177.74.0/24 } on-error={}
+:do { add list=PH address=203.177.75.0/24 } on-error={}
+:do { add list=PH address=203.177.76.0/22 } on-error={}
 :do { add list=PH address=203.177.80.0/24 } on-error={}
 :do { add list=PH address=203.177.81.0/24 } on-error={}
 :do { add list=PH address=203.177.82.0/23 } on-error={}
