@@ -6110,8 +6110,7 @@
 :do { add list=KR address=2a09:3f00:2010::/45 } on-error={}
 :do { add list=KR address=2a09:3f00:2018::/46 } on-error={}
 :do { add list=KR address=2a09:3f00:201c::/47 } on-error={}
-:do { add list=KR address=2a09:3f00:201e::/48 } on-error={}
-:do { add list=KR address=2a09:3f00:201f::/48 } on-error={}
+:do { add list=KR address=2a09:3f00:201e::/47 } on-error={}
 :do { add list=KR address=2a09:3f01:8888::/48 } on-error={}
 :do { add list=KR address=2a09:57c1::/39 } on-error={}
 :do { add list=KR address=2a09:57c1:200::/40 } on-error={}

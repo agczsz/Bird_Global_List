@@ -73729,7 +73729,10 @@
 :do { add list=DE address=2a05:e740:9000::/40 } on-error={}
 :do { add list=DE address=2a05:e740:9100::/42 } on-error={}
 :do { add list=DE address=2a05:e740:9140::/43 } on-error={}
-:do { add list=DE address=2a05:e740:9160::/45 } on-error={}
+:do { add list=DE address=2a05:e740:9160::/46 } on-error={}
+:do { add list=DE address=2a05:e740:9164::/48 } on-error={}
+:do { add list=DE address=2a05:e740:9165::/48 } on-error={}
+:do { add list=DE address=2a05:e740:9166::/47 } on-error={}
 :do { add list=DE address=2a05:e740:9168::/45 } on-error={}
 :do { add list=DE address=2a05:e740:9170::/44 } on-error={}
 :do { add list=DE address=2a05:e740:9180::/41 } on-error={}
@@ -79065,7 +79068,12 @@
 :do { add list=DE address=2a09:3f00:4400::/38 } on-error={}
 :do { add list=DE address=2a09:3f00:4800::/37 } on-error={}
 :do { add list=DE address=2a09:3f00:5000::/36 } on-error={}
-:do { add list=DE address=2a09:3f00:6000::/35 } on-error={}
+:do { add list=DE address=2a09:3f00:6000::/40 } on-error={}
+:do { add list=DE address=2a09:3f00:6100::/40 } on-error={}
+:do { add list=DE address=2a09:3f00:6200::/39 } on-error={}
+:do { add list=DE address=2a09:3f00:6400::/38 } on-error={}
+:do { add list=DE address=2a09:3f00:6800::/37 } on-error={}
+:do { add list=DE address=2a09:3f00:7000::/36 } on-error={}
 :do { add list=DE address=2a09:3f00:8000::/33 } on-error={}
 :do { add list=DE address=2a09:3f01::/33 } on-error={}
 :do { add list=DE address=2a09:3f01:8000::/37 } on-error={}

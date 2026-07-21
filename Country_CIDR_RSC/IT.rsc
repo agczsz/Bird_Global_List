@@ -13096,8 +13096,7 @@
 :do { add list=IT address=194.177.64.0/19 } on-error={}
 :do { add list=IT address=194.177.96.0/19 } on-error={}
 :do { add list=IT address=194.179.128.0/22 } on-error={}
-:do { add list=IT address=194.179.146.0/24 } on-error={}
-:do { add list=IT address=194.179.147.0/24 } on-error={}
+:do { add list=IT address=194.179.146.0/23 } on-error={}
 :do { add list=IT address=194.179.152.0/24 } on-error={}
 :do { add list=IT address=194.179.153.0/24 } on-error={}
 :do { add list=IT address=194.179.154.0/23 } on-error={}

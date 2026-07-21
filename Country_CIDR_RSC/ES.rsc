@@ -11847,7 +11847,8 @@
 :do { add list=ES address=170.251.74.104/31 } on-error={}
 :do { add list=ES address=170.251.74.108/30 } on-error={}
 :do { add list=ES address=170.251.75.0/24 } on-error={}
-:do { add list=ES address=170.252.72.0/23 } on-error={}
+:do { add list=ES address=170.252.72.0/24 } on-error={}
+:do { add list=ES address=170.252.73.0/24 } on-error={}
 :do { add list=ES address=170.252.76.176/28 } on-error={}
 :do { add list=ES address=170.252.76.192/26 } on-error={}
 :do { add list=ES address=170.253.0.0/18 } on-error={}

@@ -18123,7 +18123,10 @@
 :do { add list=FR address=92.205.128.0/20 } on-error={}
 :do { add list=FR address=92.205.144.0/21 } on-error={}
 :do { add list=FR address=92.205.160.0/19 } on-error={}
-:do { add list=FR address=92.205.208.0/21 } on-error={}
+:do { add list=FR address=92.205.208.0/22 } on-error={}
+:do { add list=FR address=92.205.212.0/23 } on-error={}
+:do { add list=FR address=92.205.214.0/24 } on-error={}
+:do { add list=FR address=92.205.215.0/24 } on-error={}
 :do { add list=FR address=92.205.216.0/22 } on-error={}
 :do { add list=FR address=92.205.224.0/19 } on-error={}
 :do { add list=FR address=92.222.0.0/19 } on-error={}

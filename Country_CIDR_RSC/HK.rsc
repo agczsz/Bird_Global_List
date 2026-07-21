@@ -15683,8 +15683,7 @@
 :do { add list=HK address=141.11.199.0/24 } on-error={}
 :do { add list=HK address=141.11.217.0/24 } on-error={}
 :do { add list=HK address=141.11.219.0/24 } on-error={}
-:do { add list=HK address=141.11.238.0/24 } on-error={}
-:do { add list=HK address=141.11.239.0/24 } on-error={}
+:do { add list=HK address=141.11.238.0/23 } on-error={}
 :do { add list=HK address=141.11.251.0/24 } on-error={}
 :do { add list=HK address=141.98.1.0/24 } on-error={}
 :do { add list=HK address=141.98.75.0/24 } on-error={}
@@ -18502,8 +18501,7 @@
 :do { add list=HK address=156.247.8.0/21 } on-error={}
 :do { add list=HK address=156.247.24.0/21 } on-error={}
 :do { add list=HK address=156.247.32.0/22 } on-error={}
-:do { add list=HK address=156.247.36.0/24 } on-error={}
-:do { add list=HK address=156.247.37.0/24 } on-error={}
+:do { add list=HK address=156.247.36.0/23 } on-error={}
 :do { add list=HK address=156.247.39.0/24 } on-error={}
 :do { add list=HK address=156.247.40.0/23 } on-error={}
 :do { add list=HK address=156.247.42.0/24 } on-error={}
@@ -23413,10 +23411,7 @@
 :do { add list=HK address=202.85.44.0/24 } on-error={}
 :do { add list=HK address=202.85.45.0/24 } on-error={}
 :do { add list=HK address=202.85.46.0/23 } on-error={}
-:do { add list=HK address=202.85.48.0/22 } on-error={}
-:do { add list=HK address=202.85.52.0/24 } on-error={}
-:do { add list=HK address=202.85.53.0/24 } on-error={}
-:do { add list=HK address=202.85.54.0/23 } on-error={}
+:do { add list=HK address=202.85.48.0/21 } on-error={}
 :do { add list=HK address=202.85.56.0/22 } on-error={}
 :do { add list=HK address=202.85.60.0/24 } on-error={}
 :do { add list=HK address=202.85.61.0/24 } on-error={}
@@ -23428,8 +23423,7 @@
 :do { add list=HK address=202.85.72.0/23 } on-error={}
 :do { add list=HK address=202.85.74.0/24 } on-error={}
 :do { add list=HK address=202.85.75.0/24 } on-error={}
-:do { add list=HK address=202.85.76.0/24 } on-error={}
-:do { add list=HK address=202.85.77.0/24 } on-error={}
+:do { add list=HK address=202.85.76.0/23 } on-error={}
 :do { add list=HK address=202.85.78.0/24 } on-error={}
 :do { add list=HK address=202.85.79.0/24 } on-error={}
 :do { add list=HK address=202.85.80.0/20 } on-error={}

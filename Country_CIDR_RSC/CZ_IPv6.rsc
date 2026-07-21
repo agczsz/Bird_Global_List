@@ -1768,7 +1768,8 @@
 :do { add list=CZ address=2602:fbec:334:4000::/50 } on-error={}
 :do { add list=CZ address=2602:fbec:334:8000::/49 } on-error={}
 :do { add list=CZ address=2602:fbec:335::/48 } on-error={}
-:do { add list=CZ address=2602:fbec:336::/47 } on-error={}
+:do { add list=CZ address=2602:fbec:336::/48 } on-error={}
+:do { add list=CZ address=2602:fbec:337::/48 } on-error={}
 :do { add list=CZ address=2602:fbec:338:1::/64 } on-error={}
 :do { add list=CZ address=2602:fbec:338:2::/63 } on-error={}
 :do { add list=CZ address=2602:fbec:338:4::/62 } on-error={}
