@@ -1510,7 +1510,12 @@
 :do { add list=TH address=2001:fb0:1035::/48 } on-error={}
 :do { add list=TH address=2001:fb0:1036::/47 } on-error={}
 :do { add list=TH address=2001:fb0:1038::/45 } on-error={}
-:do { add list=TH address=2001:fb0:1040::/43 } on-error={}
+:do { add list=TH address=2001:fb0:1040::/44 } on-error={}
+:do { add list=TH address=2001:fb0:1050::/46 } on-error={}
+:do { add list=TH address=2001:fb0:1054::/47 } on-error={}
+:do { add list=TH address=2001:fb0:1056::/48 } on-error={}
+:do { add list=TH address=2001:fb0:1057::/48 } on-error={}
+:do { add list=TH address=2001:fb0:1058::/45 } on-error={}
 :do { add list=TH address=2001:fb0:1060::/44 } on-error={}
 :do { add list=TH address=2001:fb0:1070::/48 } on-error={}
 :do { add list=TH address=2001:fb0:1071::/48 } on-error={}

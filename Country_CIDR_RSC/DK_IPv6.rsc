@@ -8383,8 +8383,7 @@
 :do { add list=DK address=2a06:9180::/29 } on-error={}
 :do { add list=DK address=2a06:9801:2a0::/47 } on-error={}
 :do { add list=DK address=2a06:9801:2a4::/48 } on-error={}
-:do { add list=DK address=2a06:9801:2a6::/48 } on-error={}
-:do { add list=DK address=2a06:9801:2a7::/48 } on-error={}
+:do { add list=DK address=2a06:9801:2a6::/47 } on-error={}
 :do { add list=DK address=2a06:9801:2a8::/45 } on-error={}
 :do { add list=DK address=2a06:9801:7d9::/48 } on-error={}
 :do { add list=DK address=2a06:9f81:2908::/48 } on-error={}

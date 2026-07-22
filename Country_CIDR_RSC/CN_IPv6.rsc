@@ -11492,7 +11492,8 @@
 :do { add list=CN address=2408:400c::/30 } on-error={}
 :do { add list=CN address=2408:4010::/30 } on-error={}
 :do { add list=CN address=2408:4014::/31 } on-error={}
-:do { add list=CN address=2408:4016::/47 } on-error={}
+:do { add list=CN address=2408:4016::/48 } on-error={}
+:do { add list=CN address=2408:4016:1::/48 } on-error={}
 :do { add list=CN address=2408:4016:2::/48 } on-error={}
 :do { add list=CN address=2408:4016:3::/48 } on-error={}
 :do { add list=CN address=2408:4016:4::/46 } on-error={}

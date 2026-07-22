@@ -483,7 +483,8 @@
 :do { add list=BG address=46.252.48.0/20 } on-error={}
 :do { add list=BG address=46.253.0.0/23 } on-error={}
 :do { add list=BG address=46.253.2.0/23 } on-error={}
-:do { add list=BG address=46.253.4.0/23 } on-error={}
+:do { add list=BG address=46.253.4.0/24 } on-error={}
+:do { add list=BG address=46.253.5.0/24 } on-error={}
 :do { add list=BG address=46.253.6.0/23 } on-error={}
 :do { add list=BG address=46.253.8.0/24 } on-error={}
 :do { add list=BG address=46.253.9.0/24 } on-error={}

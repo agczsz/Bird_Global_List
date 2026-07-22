@@ -2854,7 +2854,8 @@
 :do { add list=IL address=2a0a:3980:80::/44 } on-error={}
 :do { add list=IL address=2a0a:3980:90::/45 } on-error={}
 :do { add list=IL address=2a0a:3980:99::/48 } on-error={}
-:do { add list=IL address=2a0a:3980:9a::/47 } on-error={}
+:do { add list=IL address=2a0a:3980:9a::/48 } on-error={}
+:do { add list=IL address=2a0a:3980:9b::/48 } on-error={}
 :do { add list=IL address=2a0a:3980:9c::/46 } on-error={}
 :do { add list=IL address=2a0a:3980:a0::/43 } on-error={}
 :do { add list=IL address=2a0a:3980:c0::/42 } on-error={}

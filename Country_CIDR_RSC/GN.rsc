@@ -106,8 +106,13 @@
 :do { add list=GN address=197.149.232.0/23 } on-error={}
 :do { add list=GN address=197.149.234.0/24 } on-error={}
 :do { add list=GN address=197.149.235.0/24 } on-error={}
-:do { add list=GN address=197.149.236.0/22 } on-error={}
-:do { add list=GN address=197.149.240.0/21 } on-error={}
+:do { add list=GN address=197.149.236.0/24 } on-error={}
+:do { add list=GN address=197.149.237.0/24 } on-error={}
+:do { add list=GN address=197.149.238.0/23 } on-error={}
+:do { add list=GN address=197.149.240.0/24 } on-error={}
+:do { add list=GN address=197.149.241.0/24 } on-error={}
+:do { add list=GN address=197.149.242.0/23 } on-error={}
+:do { add list=GN address=197.149.244.0/22 } on-error={}
 :do { add list=GN address=197.149.248.0/23 } on-error={}
 :do { add list=GN address=197.149.250.0/24 } on-error={}
 :do { add list=GN address=197.149.251.0/24 } on-error={}

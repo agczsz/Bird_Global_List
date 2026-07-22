@@ -4129,7 +4129,8 @@
 :do { add list=AL address=2a13:c8c3:e8e0::/44 } on-error={}
 :do { add list=AL address=2a13:c8c3:e8f0::/45 } on-error={}
 :do { add list=AL address=2a13:c8c3:e8f8::/46 } on-error={}
-:do { add list=AL address=2a13:c8c3:e8fc::/47 } on-error={}
+:do { add list=AL address=2a13:c8c3:e8fc::/48 } on-error={}
+:do { add list=AL address=2a13:c8c3:e8fd::/48 } on-error={}
 :do { add list=AL address=2a13:c8c3:e8ff::/48 } on-error={}
 :do { add list=AL address=2a13:c8c3:e900::/40 } on-error={}
 :do { add list=AL address=2a13:c8c3:ea00::/39 } on-error={}

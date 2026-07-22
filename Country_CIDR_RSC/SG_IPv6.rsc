@@ -3102,8 +3102,7 @@
 :do { add list=SG address=2001:c20:48a0::/48 } on-error={}
 :do { add list=SG address=2001:c20:48a1::/48 } on-error={}
 :do { add list=SG address=2001:c20:48a2::/47 } on-error={}
-:do { add list=SG address=2001:c20:48a4::/48 } on-error={}
-:do { add list=SG address=2001:c20:48a5::/48 } on-error={}
+:do { add list=SG address=2001:c20:48a4::/47 } on-error={}
 :do { add list=SG address=2001:c20:48a6::/48 } on-error={}
 :do { add list=SG address=2001:c20:48a7::/48 } on-error={}
 :do { add list=SG address=2001:c20:48a8::/46 } on-error={}

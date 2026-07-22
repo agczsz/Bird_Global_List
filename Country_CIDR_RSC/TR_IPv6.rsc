@@ -4709,8 +4709,7 @@
 :do { add list=TR address=2a02:ac80:80::/44 } on-error={}
 :do { add list=TR address=2a02:ac80:90::/46 } on-error={}
 :do { add list=TR address=2a02:ac80:94::/47 } on-error={}
-:do { add list=TR address=2a02:ac80:96::/48 } on-error={}
-:do { add list=TR address=2a02:ac80:97::/48 } on-error={}
+:do { add list=TR address=2a02:ac80:96::/47 } on-error={}
 :do { add list=TR address=2a02:ac80:98::/48 } on-error={}
 :do { add list=TR address=2a02:ac80:99::/48 } on-error={}
 :do { add list=TR address=2a02:ac80:9a::/47 } on-error={}

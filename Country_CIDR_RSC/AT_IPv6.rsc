@@ -10496,10 +10496,7 @@
 :do { add list=AT address=2a07:6cc2::/32 } on-error={}
 :do { add list=AT address=2a07:7540::/29 } on-error={}
 :do { add list=AT address=2a07:9300::/32 } on-error={}
-:do { add list=AT address=2a07:a980::/32 } on-error={}
-:do { add list=AT address=2a07:a981::/32 } on-error={}
-:do { add list=AT address=2a07:a982::/31 } on-error={}
-:do { add list=AT address=2a07:a984::/30 } on-error={}
+:do { add list=AT address=2a07:a980::/29 } on-error={}
 :do { add list=AT address=2a07:b6c0::/29 } on-error={}
 :do { add list=AT address=2a07:bcc0:1::/50 } on-error={}
 :do { add list=AT address=2a07:c0c0::/29 } on-error={}

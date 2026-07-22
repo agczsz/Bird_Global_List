@@ -8500,8 +8500,7 @@
 :do { add list=TW address=218.35.208.0/23 } on-error={}
 :do { add list=TW address=218.35.210.0/23 } on-error={}
 :do { add list=TW address=218.35.212.0/23 } on-error={}
-:do { add list=TW address=218.35.214.0/24 } on-error={}
-:do { add list=TW address=218.35.215.0/24 } on-error={}
+:do { add list=TW address=218.35.214.0/23 } on-error={}
 :do { add list=TW address=218.35.216.0/21 } on-error={}
 :do { add list=TW address=218.35.224.0/20 } on-error={}
 :do { add list=TW address=218.35.240.0/22 } on-error={}
