@@ -47,6 +47,7 @@
 :do { add list=PY address=45.150.85.0/24 } on-error={}
 :do { add list=PY address=45.160.32.0/22 } on-error={}
 :do { add list=PY address=45.161.236.0/22 } on-error={}
+:do { add list=PY address=45.162.7.238/32 } on-error={}
 :do { add list=PY address=45.162.7.253/32 } on-error={}
 :do { add list=PY address=45.162.7.255/32 } on-error={}
 :do { add list=PY address=45.162.180.0/22 } on-error={}
@@ -70,7 +71,6 @@
 :do { add list=PY address=45.170.238.27/32 } on-error={}
 :do { add list=PY address=45.172.228.0/22 } on-error={}
 :do { add list=PY address=45.175.156.0/22 } on-error={}
-:do { add list=PY address=45.176.86.0/23 } on-error={}
 :do { add list=PY address=45.177.16.0/24 } on-error={}
 :do { add list=PY address=45.177.17.6/31 } on-error={}
 :do { add list=PY address=45.177.17.16/31 } on-error={}
@@ -220,6 +220,7 @@
 :do { add list=PY address=134.238.150.0/25 } on-error={}
 :do { add list=PY address=134.238.150.128/27 } on-error={}
 :do { add list=PY address=134.238.231.224/27 } on-error={}
+:do { add list=PY address=136.175.23.41/32 } on-error={}
 :do { add list=PY address=136.227.141.32/30 } on-error={}
 :do { add list=PY address=136.227.141.36/31 } on-error={}
 :do { add list=PY address=138.59.164.0/22 } on-error={}
@@ -249,7 +250,6 @@
 :do { add list=PY address=143.255.143.176/28 } on-error={}
 :do { add list=PY address=143.255.143.192/28 } on-error={}
 :do { add list=PY address=143.255.143.208/29 } on-error={}
-:do { add list=PY address=143.255.143.216/31 } on-error={}
 :do { add list=PY address=143.255.143.224/27 } on-error={}
 :do { add list=PY address=144.125.31.64/27 } on-error={}
 :do { add list=PY address=144.125.132.224/27 } on-error={}
@@ -739,6 +739,7 @@
 :do { add list=PY address=190.221.188.0/23 } on-error={}
 :do { add list=PY address=190.221.237.0/25 } on-error={}
 :do { add list=PY address=191.37.199.66/32 } on-error={}
+:do { add list=PY address=191.37.199.74/32 } on-error={}
 :do { add list=PY address=191.97.120.0/21 } on-error={}
 :do { add list=PY address=192.231.116.0/24 } on-error={}
 :do { add list=PY address=194.93.60.0/24 } on-error={}

@@ -1,9 +1,12 @@
 /log info "Loading MT IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=MT address=2001:470:28:f90::/64 } on-error={}
+:do { add list=MT address=2001:470:28:1146::/64 } on-error={}
 :do { add list=MT address=2001:470:1869::/48 } on-error={}
 :do { add list=MT address=2001:470:1b7a::/48 } on-error={}
+:do { add list=MT address=2001:470:1f23:3c::/64 } on-error={}
 :do { add list=MT address=2001:470:720c::/48 } on-error={}
+:do { add list=MT address=2001:470:7998::/48 } on-error={}
 :do { add list=MT address=2001:470:7fe0::/48 } on-error={}
 :do { add list=MT address=2001:470:dd9a::/48 } on-error={}
 :do { add list=MT address=2001:470:f6cc::/48 } on-error={}
@@ -25,6 +28,8 @@
 :do { add list=MT address=2405:b500:4ee0::/64 } on-error={}
 :do { add list=MT address=2600:70ff:9006::/48 } on-error={}
 :do { add list=MT address=2600:70ff:a75f::/48 } on-error={}
+:do { add list=MT address=2600:70ff:b39a::/48 } on-error={}
+:do { add list=MT address=2600:70ff:f02a::/48 } on-error={}
 :do { add list=MT address=2602:2a9:a60::/44 } on-error={}
 :do { add list=MT address=2602:f7c8:16e::/47 } on-error={}
 :do { add list=MT address=2602:f7c8:170::/47 } on-error={}

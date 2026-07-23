@@ -5,6 +5,7 @@
 :do { add list=IS address=2001:470:28:595::/64 } on-error={}
 :do { add list=IS address=2001:470:19b0::/48 } on-error={}
 :do { add list=IS address=2001:470:1af3::/48 } on-error={}
+:do { add list=IS address=2001:470:1f0b:9cf::/64 } on-error={}
 :do { add list=IS address=2001:470:1f21:1bc::/64 } on-error={}
 :do { add list=IS address=2001:470:1f29:10::/64 } on-error={}
 :do { add list=IS address=2001:470:1f29:18e::/64 } on-error={}
@@ -48,7 +49,8 @@
 :do { add list=IS address=2001:67c:2aac::/48 } on-error={}
 :do { add list=IS address=2001:7f8:48::/48 } on-error={}
 :do { add list=IS address=2001:7f8:10c::/48 } on-error={}
-:do { add list=IS address=2001:948:0:bad:c0de::8/128 } on-error={}
+:do { add list=IS address=2001:948:0:bad:c0de::8/127 } on-error={}
+:do { add list=IS address=2001:948:0:f006::15/128 } on-error={}
 :do { add list=IS address=2001:948:0:f006::16/128 } on-error={}
 :do { add list=IS address=2001:948:1:1::2f/128 } on-error={}
 :do { add list=IS address=2001:948:1:1::46/127 } on-error={}

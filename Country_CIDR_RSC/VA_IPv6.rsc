@@ -1,18 +1,18 @@
 /log info "Loading VA IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=VA address=2001:470:28:114d::/64 } on-error={}
 :do { add list=VA address=2001:470:1f0b:10fa::/64 } on-error={}
 :do { add list=VA address=2001:470:211c::/48 } on-error={}
 :do { add list=VA address=2001:470:6937::/48 } on-error={}
 :do { add list=VA address=2001:470:6ac0::/48 } on-error={}
 :do { add list=VA address=2001:470:7440::/48 } on-error={}
+:do { add list=VA address=2001:470:79a2::/48 } on-error={}
 :do { add list=VA address=2001:470:80a2::/48 } on-error={}
 :do { add list=VA address=2001:470:b727::/48 } on-error={}
 :do { add list=VA address=2001:470:c8e4::/48 } on-error={}
 :do { add list=VA address=2001:470:ca7d::/48 } on-error={}
 :do { add list=VA address=2001:470:dfa4::/48 } on-error={}
 :do { add list=VA address=2001:470:ef92::/48 } on-error={}
-:do { add list=VA address=2001:470:f0b1:4000::/50 } on-error={}
-:do { add list=VA address=2001:470:f0b1:8000::/49 } on-error={}
 :do { add list=VA address=2001:470:f4ca::/48 } on-error={}
 :do { add list=VA address=2001:470:fb39::/48 } on-error={}
 :do { add list=VA address=2001:470:fe89::/48 } on-error={}
@@ -26,6 +26,7 @@
 :do { add list=VA address=2600:70ff:a7da::/48 } on-error={}
 :do { add list=VA address=2600:70ff:aa5b::/48 } on-error={}
 :do { add list=VA address=2600:70ff:abc1::/48 } on-error={}
+:do { add list=VA address=2600:70ff:b3a0::/48 } on-error={}
 :do { add list=VA address=2606:40:2190:e000::/54 } on-error={}
 :do { add list=VA address=2606:40:2190:e800::/53 } on-error={}
 :do { add list=VA address=2606:40:2190:f000::/52 } on-error={}

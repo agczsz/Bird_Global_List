@@ -1,7 +1,7 @@
 /log info "Loading VE IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=VE address=2001:470:5:339::/64 } on-error={}
 :do { add list=VE address=2001:470:26:758::/64 } on-error={}
+:do { add list=VE address=2001:470:28:115e::/64 } on-error={}
 :do { add list=VE address=2001:470:1f17:d7::/64 } on-error={}
 :do { add list=VE address=2001:470:1f29:22d::/64 } on-error={}
 :do { add list=VE address=2001:470:1f2b:5f::/64 } on-error={}
@@ -22,6 +22,7 @@
 :do { add list=VE address=2001:470:1f2b:266::/64 } on-error={}
 :do { add list=VE address=2001:470:7556::/48 } on-error={}
 :do { add list=VE address=2001:470:75b7::/48 } on-error={}
+:do { add list=VE address=2001:470:79b8::/48 } on-error={}
 :do { add list=VE address=2001:470:88ac::/48 } on-error={}
 :do { add list=VE address=2001:470:88af::/48 } on-error={}
 :do { add list=VE address=2001:470:b03c::/48 } on-error={}
@@ -42,7 +43,22 @@
 :do { add list=VE address=2001:470:d866::/48 } on-error={}
 :do { add list=VE address=2001:470:d871::/48 } on-error={}
 :do { add list=VE address=2001:470:d877::/48 } on-error={}
-:do { add list=VE address=2001:470:d87d::/48 } on-error={}
+:do { add list=VE address=2001:470:d87d:1::/64 } on-error={}
+:do { add list=VE address=2001:470:d87d:2::/63 } on-error={}
+:do { add list=VE address=2001:470:d87d:4::/62 } on-error={}
+:do { add list=VE address=2001:470:d87d:8::/61 } on-error={}
+:do { add list=VE address=2001:470:d87d:10::/60 } on-error={}
+:do { add list=VE address=2001:470:d87d:20::/59 } on-error={}
+:do { add list=VE address=2001:470:d87d:40::/58 } on-error={}
+:do { add list=VE address=2001:470:d87d:80::/57 } on-error={}
+:do { add list=VE address=2001:470:d87d:100::/56 } on-error={}
+:do { add list=VE address=2001:470:d87d:200::/55 } on-error={}
+:do { add list=VE address=2001:470:d87d:400::/54 } on-error={}
+:do { add list=VE address=2001:470:d87d:800::/53 } on-error={}
+:do { add list=VE address=2001:470:d87d:1000::/52 } on-error={}
+:do { add list=VE address=2001:470:d87d:2000::/51 } on-error={}
+:do { add list=VE address=2001:470:d87d:4000::/50 } on-error={}
+:do { add list=VE address=2001:470:d87d:8000::/49 } on-error={}
 :do { add list=VE address=2001:470:d895::/48 } on-error={}
 :do { add list=VE address=2001:470:d898::/48 } on-error={}
 :do { add list=VE address=2001:470:d8b3::/48 } on-error={}
@@ -78,8 +94,10 @@
 :do { add list=VE address=2001:470:da75::/48 } on-error={}
 :do { add list=VE address=2001:470:dbad::/48 } on-error={}
 :do { add list=VE address=2001:470:dde0::/48 } on-error={}
+:do { add list=VE address=2001:470:e099::/48 } on-error={}
 :do { add list=VE address=2001:470:e258::/48 } on-error={}
 :do { add list=VE address=2001:470:e25c::/48 } on-error={}
+:do { add list=VE address=2001:470:e289::/48 } on-error={}
 :do { add list=VE address=2001:470:ee38::/48 } on-error={}
 :do { add list=VE address=2001:470:f1f2::/48 } on-error={}
 :do { add list=VE address=2001:470:f8b9:4000::/50 } on-error={}
@@ -191,6 +209,7 @@
 :do { add list=VE address=2600:70ff:a413::/48 } on-error={}
 :do { add list=VE address=2600:70ff:a5e4::/48 } on-error={}
 :do { add list=VE address=2600:70ff:ab1d::/48 } on-error={}
+:do { add list=VE address=2600:70ff:b3b1::/48 } on-error={}
 :do { add list=VE address=2600:70ff:c847::/48 } on-error={}
 :do { add list=VE address=2600:70ff:c84c::/48 } on-error={}
 :do { add list=VE address=2600:70ff:c855::/48 } on-error={}
@@ -1033,6 +1052,7 @@
 :do { add list=VE address=2803:b5d0::/32 } on-error={}
 :do { add list=VE address=2803:b8d0::/32 } on-error={}
 :do { add list=VE address=2803:b950::/32 } on-error={}
+:do { add list=VE address=2803:b9c0:9dc2:fd00::/56 } on-error={}
 :do { add list=VE address=2803:bb80::/32 } on-error={}
 :do { add list=VE address=2803:bfe0::/40 } on-error={}
 :do { add list=VE address=2803:bfe0:100::/40 } on-error={}

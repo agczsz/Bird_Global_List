@@ -7,9 +7,9 @@
 :do { add list=SH address=80.73.219.0/25 } on-error={}
 :do { add list=SH address=80.73.219.192/27 } on-error={}
 :do { add list=SH address=80.73.220.0/27 } on-error={}
-:do { add list=SH address=80.73.220.96/27 } on-error={}
 :do { add list=SH address=80.73.220.208/30 } on-error={}
 :do { add list=SH address=80.73.221.0/24 } on-error={}
+:do { add list=SH address=80.73.222.160/29 } on-error={}
 :do { add list=SH address=91.232.198.0/24 } on-error={}
 :do { add list=SH address=91.232.235.128/26 } on-error={}
 :do { add list=SH address=104.28.13.16/31 } on-error={}
@@ -22,7 +22,6 @@
 :do { add list=SH address=140.248.61.198/32 } on-error={}
 :do { add list=SH address=140.248.62.198/32 } on-error={}
 :do { add list=SH address=140.248.63.198/32 } on-error={}
-:do { add list=SH address=144.79.167.97/32 } on-error={}
 :do { add list=SH address=144.79.167.102/32 } on-error={}
 :do { add list=SH address=162.120.206.15/32 } on-error={}
 :do { add list=SH address=162.120.214.14/32 } on-error={}

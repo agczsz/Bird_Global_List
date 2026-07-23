@@ -2,8 +2,8 @@
 /ipv6 firewall address-list
 :do { add list=LI address=2001:470:26:7be::/64 } on-error={}
 :do { add list=LI address=2001:470:1f0b:b7::/64 } on-error={}
-:do { add list=LI address=2001:470:730b:4000::/50 } on-error={}
-:do { add list=LI address=2001:470:730b:8000::/49 } on-error={}
+:do { add list=LI address=2001:470:1f0b:719::/64 } on-error={}
+:do { add list=LI address=2001:470:730b::/48 } on-error={}
 :do { add list=LI address=2001:550:2:9::7a:0/112 } on-error={}
 :do { add list=LI address=2001:678:bbc::/48 } on-error={}
 :do { add list=LI address=2001:67c:a38:f423::/64 } on-error={}
@@ -488,7 +488,6 @@
 :do { add list=LI address=2a00:f8c0:2000::/35 } on-error={}
 :do { add list=LI address=2a00:f8c0:4000::/34 } on-error={}
 :do { add list=LI address=2a00:f8c0:8000::/33 } on-error={}
-:do { add list=LI address=2a01:239:47a:8e00::/64 } on-error={}
 :do { add list=LI address=2a01:528:5a00::/40 } on-error={}
 :do { add list=LI address=2a02:380::/31 } on-error={}
 :do { add list=LI address=2a02:26f7:ba40::/48 } on-error={}
@@ -788,6 +787,7 @@
 :do { add list=LI address=2a14:3083::/32 } on-error={}
 :do { add list=LI address=2a14:67c1:b67f::/48 } on-error={}
 :do { add list=LI address=2a14:67c2:831::/48 } on-error={}
+:do { add list=LI address=2a14:67c3:417::/48 } on-error={}
 :do { add list=LI address=2a14:7580:cf80::/48 } on-error={}
 :do { add list=LI address=2a14:7581:b10:7e00::/56 } on-error={}
 :do { add list=LI address=2a14:7581:b11:7e00::/56 } on-error={}

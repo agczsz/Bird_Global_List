@@ -1,5 +1,6 @@
 /log info "Loading PK IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=PK address=2001:470:6f:109::/64 } on-error={}
 :do { add list=PK address=2001:470:18f4::/48 } on-error={}
 :do { add list=PK address=2001:470:1f15:429::1/128 } on-error={}
 :do { add list=PK address=2001:470:1f15:429::4/126 } on-error={}
@@ -1206,6 +1207,7 @@
 :do { add list=PK address=2400:dce0:2000::/35 } on-error={}
 :do { add list=PK address=2400:dce0:4000::/34 } on-error={}
 :do { add list=PK address=2400:dce0:8000::/33 } on-error={}
+:do { add list=PK address=2400:f160::/32 } on-error={}
 :do { add list=PK address=2400:fc00::/32 } on-error={}
 :do { add list=PK address=2401::/34 } on-error={}
 :do { add list=PK address=2401:0:4000::/40 } on-error={}
@@ -1615,6 +1617,7 @@
 :do { add list=PK address=2402:5a60:4000::/34 } on-error={}
 :do { add list=PK address=2402:5a60:8000::/33 } on-error={}
 :do { add list=PK address=2402:5b60::/32 } on-error={}
+:do { add list=PK address=2402:67a0::/32 } on-error={}
 :do { add list=PK address=2402:7c00::/32 } on-error={}
 :do { add list=PK address=2402:9640::/32 } on-error={}
 :do { add list=PK address=2402:9ec0::/32 } on-error={}
@@ -1874,7 +1877,7 @@
 :do { add list=PK address=2404:6f40::/32 } on-error={}
 :do { add list=PK address=2404:7000::/32 } on-error={}
 :do { add list=PK address=2404:8300::/32 } on-error={}
-:do { add list=PK address=2404:a140:24::/48 } on-error={}
+:do { add list=PK address=2404:a140:24::/50 } on-error={}
 :do { add list=PK address=2404:a140:4b::/48 } on-error={}
 :do { add list=PK address=2404:c040::/32 } on-error={}
 :do { add list=PK address=2404:d400::/60 } on-error={}

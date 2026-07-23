@@ -13,6 +13,7 @@
 :do { add list=AW address=2001:470:7ebf::/48 } on-error={}
 :do { add list=AW address=2001:470:ca28::/48 } on-error={}
 :do { add list=AW address=2001:470:cb9b::/48 } on-error={}
+:do { add list=AW address=2001:470:e015::/48 } on-error={}
 :do { add list=AW address=2001:470:e865::/48 } on-error={}
 :do { add list=AW address=2001:470:f1a8::/48 } on-error={}
 :do { add list=AW address=2001:470:f951:4000::/50 } on-error={}

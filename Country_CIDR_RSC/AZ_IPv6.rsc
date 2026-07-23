@@ -1,6 +1,10 @@
 /log info "Loading AZ IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=AZ address=2001:470:28:f21::/64 } on-error={}
+:do { add list=AZ address=2001:470:28:1163::/64 } on-error={}
+:do { add list=AZ address=2001:470:6d:3c1::/64 } on-error={}
+:do { add list=AZ address=2001:470:1f0b:6de::/64 } on-error={}
+:do { add list=AZ address=2001:470:1f0b:f0e::/64 } on-error={}
 :do { add list=AZ address=2001:470:1f13:549::/64 } on-error={}
 :do { add list=AZ address=2001:470:1f15:cc::/64 } on-error={}
 :do { add list=AZ address=2001:470:1f17:15b::/64 } on-error={}
@@ -15,7 +19,6 @@
 :do { add list=AZ address=2001:470:1f2f:2e1::/64 } on-error={}
 :do { add list=AZ address=2001:470:2201::/48 } on-error={}
 :do { add list=AZ address=2001:470:2958::/48 } on-error={}
-:do { add list=AZ address=2001:470:30d1::/50 } on-error={}
 :do { add list=AZ address=2001:470:5277::/48 } on-error={}
 :do { add list=AZ address=2001:470:546a::/48 } on-error={}
 :do { add list=AZ address=2001:470:566e::/48 } on-error={}
@@ -26,6 +29,7 @@
 :do { add list=AZ address=2001:470:7243::/48 } on-error={}
 :do { add list=AZ address=2001:470:73fd::/48 } on-error={}
 :do { add list=AZ address=2001:470:760c::/48 } on-error={}
+:do { add list=AZ address=2001:470:79bd::/48 } on-error={}
 :do { add list=AZ address=2001:470:b1cd::/48 } on-error={}
 :do { add list=AZ address=2001:470:e270::/48 } on-error={}
 :do { add list=AZ address=2001:470:e4f6::/48 } on-error={}
@@ -58,7 +62,7 @@
 :do { add list=AZ address=2401:b60:10f2::/47 } on-error={}
 :do { add list=AZ address=2401:b60:10f4::/46 } on-error={}
 :do { add list=AZ address=2401:b60:10f8::/45 } on-error={}
-:do { add list=AZ address=2404:a140:50::/48 } on-error={}
+:do { add list=AZ address=2404:a140:50::/50 } on-error={}
 :do { add list=AZ address=2405:b500:980::/64 } on-error={}
 :do { add list=AZ address=2405:b500:980:98::/64 } on-error={}
 :do { add list=AZ address=2405:b500:980:448::/64 } on-error={}
@@ -73,6 +77,7 @@
 :do { add list=AZ address=2405:b500:9e0:448::/64 } on-error={}
 :do { add list=AZ address=2407:2440:e010::/50 } on-error={}
 :do { add list=AZ address=2600:70ff:ab43::/48 } on-error={}
+:do { add list=AZ address=2600:70ff:b3b5::/48 } on-error={}
 :do { add list=AZ address=2600:70ff:d06d::/48 } on-error={}
 :do { add list=AZ address=2600:70ff:d159::/48 } on-error={}
 :do { add list=AZ address=2600:70ff:d162::/47 } on-error={}

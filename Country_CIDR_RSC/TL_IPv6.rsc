@@ -33,6 +33,7 @@
 :do { add list=TL address=2406:2d40:8140::/42 } on-error={}
 :do { add list=TL address=2406:2d40:9d00::/40 } on-error={}
 :do { add list=TL address=2407:f2c0::/32 } on-error={}
+:do { add list=TL address=2600:70ff:f088::/48 } on-error={}
 :do { add list=TL address=2606:54c0:5788::/45 } on-error={}
 :do { add list=TL address=2606:54c3:0:c71::/64 } on-error={}
 :do { add list=TL address=2607:8940:3d2c::/46 } on-error={}

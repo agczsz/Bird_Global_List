@@ -636,6 +636,7 @@
 :do { add list=EC address=172.68.176.0/24 } on-error={}
 :do { add list=EC address=172.68.230.0/24 } on-error={}
 :do { add list=EC address=172.70.224.0/24 } on-error={}
+:do { add list=EC address=172.94.116.128/27 } on-error={}
 :do { add list=EC address=172.225.84.80/28 } on-error={}
 :do { add list=EC address=172.225.84.160/29 } on-error={}
 :do { add list=EC address=172.225.154.32/27 } on-error={}
@@ -1600,7 +1601,6 @@
 :do { add list=EC address=200.0.75.0/24 } on-error={}
 :do { add list=EC address=200.0.76.0/23 } on-error={}
 :do { add list=EC address=200.0.78.0/24 } on-error={}
-:do { add list=EC address=200.0.204.27/32 } on-error={}
 :do { add list=EC address=200.0.204.232/31 } on-error={}
 :do { add list=EC address=200.0.204.234/32 } on-error={}
 :do { add list=EC address=200.1.6.0/24 } on-error={}
@@ -1842,10 +1842,7 @@
 :do { add list=EC address=200.125.244.0/22 } on-error={}
 :do { add list=EC address=200.125.248.0/22 } on-error={}
 :do { add list=EC address=200.125.252.0/22 } on-error={}
-:do { add list=EC address=200.126.3.0/24 } on-error={}
-:do { add list=EC address=200.126.10.4/32 } on-error={}
-:do { add list=EC address=200.126.14.0/24 } on-error={}
-:do { add list=EC address=200.126.24.0/25 } on-error={}
+:do { add list=EC address=200.126.0.0/19 } on-error={}
 :do { add list=EC address=200.126.48.0/24 } on-error={}
 :do { add list=EC address=200.229.146.0/24 } on-error={}
 :do { add list=EC address=200.229.217.0/24 } on-error={}

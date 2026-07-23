@@ -1,5 +1,6 @@
 /log info "Loading CM IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=CM address=2001:470:1f23:138::/64 } on-error={}
 :do { add list=CM address=2001:470:1f27:53::/64 } on-error={}
 :do { add list=CM address=2001:470:7323::/48 } on-error={}
 :do { add list=CM address=2001:470:791a::/48 } on-error={}

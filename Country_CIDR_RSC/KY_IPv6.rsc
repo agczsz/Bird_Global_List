@@ -6,6 +6,7 @@
 :do { add list=KY address=2001:470:b6dc::/48 } on-error={}
 :do { add list=KY address=2001:470:d839::/48 } on-error={}
 :do { add list=KY address=2001:470:d902::/48 } on-error={}
+:do { add list=KY address=2001:470:e023::/48 } on-error={}
 :do { add list=KY address=2001:470:e87f::/48 } on-error={}
 :do { add list=KY address=2001:470:eb2c::/48 } on-error={}
 :do { add list=KY address=2001:470:eca9::/48 } on-error={}

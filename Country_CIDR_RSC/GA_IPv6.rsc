@@ -19,6 +19,7 @@
 :do { add list=GA address=2405:b500:2860::/64 } on-error={}
 :do { add list=GA address=2600:70ff:a76e::/48 } on-error={}
 :do { add list=GA address=2600:70ff:aa52::/48 } on-error={}
+:do { add list=GA address=2600:70ff:b12c::/48 } on-error={}
 :do { add list=GA address=2605:59c0:6b00::/40 } on-error={}
 :do { add list=GA address=2606:40:a18::/46 } on-error={}
 :do { add list=GA address=2606:40:a2c::/46 } on-error={}

@@ -1,6 +1,7 @@
 /log info "Loading CI IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=CI address=2001:470:71:69d::/64 } on-error={}
+:do { add list=CI address=2001:470:1f23:76::/64 } on-error={}
 :do { add list=CI address=2001:470:1f23:369::/64 } on-error={}
 :do { add list=CI address=2001:470:1f27:60::/64 } on-error={}
 :do { add list=CI address=2001:470:1f27:d4::/64 } on-error={}
@@ -40,6 +41,7 @@
 :do { add list=CI address=2600:70ff:a5e1::/48 } on-error={}
 :do { add list=CI address=2600:70ff:ab18::/48 } on-error={}
 :do { add list=CI address=2600:70ff:ab46::/48 } on-error={}
+:do { add list=CI address=2600:70ff:f084::/48 } on-error={}
 :do { add list=CI address=2602:fd92:b00:141::/64 } on-error={}
 :do { add list=CI address=2605:59c0:1d00::/40 } on-error={}
 :do { add list=CI address=2605:59c0:7d00::/40 } on-error={}
@@ -2899,8 +2901,8 @@
 :do { add list=CI address=2c0f:ec60:4000::/34 } on-error={}
 :do { add list=CI address=2c0f:ec60:8000::/33 } on-error={}
 :do { add list=CI address=2c0f:ecf0::/32 } on-error={}
+:do { add list=CI address=2c0f:ee00::73:1/128 } on-error={}
 :do { add list=CI address=2c0f:ee00::96:2/127 } on-error={}
-:do { add list=CI address=2c0f:ee00::96:23/128 } on-error={}
 :do { add list=CI address=2c0f:ee00::96:24/126 } on-error={}
 :do { add list=CI address=2c0f:ee00::96:46/128 } on-error={}
 :do { add list=CI address=2c0f:ee00::96:244/128 } on-error={}
@@ -2952,6 +2954,17 @@
 :do { add list=CI address=2c0f:f0f8:20b:6a80::/57 } on-error={}
 :do { add list=CI address=2c0f:f0f8:20b:6b00::/56 } on-error={}
 :do { add list=CI address=2c0f:f0f8:20b:6c00::/54 } on-error={}
+:do { add list=CI address=2c0f:f0f8:808::/53 } on-error={}
+:do { add list=CI address=2c0f:f0f8:808:800::/54 } on-error={}
+:do { add list=CI address=2c0f:f0f8:808:c00::/55 } on-error={}
+:do { add list=CI address=2c0f:f0f8:808:e01::/64 } on-error={}
+:do { add list=CI address=2c0f:f0f8:808:e02::/63 } on-error={}
+:do { add list=CI address=2c0f:f0f8:808:e04::/62 } on-error={}
+:do { add list=CI address=2c0f:f0f8:808:e08::/61 } on-error={}
+:do { add list=CI address=2c0f:f0f8:808:e10::/60 } on-error={}
+:do { add list=CI address=2c0f:f0f8:808:e20::/59 } on-error={}
+:do { add list=CI address=2c0f:f0f8:808:e40::/58 } on-error={}
+:do { add list=CI address=2c0f:f0f8:808:e80::/57 } on-error={}
 :do { add list=CI address=2c0f:f0f8:809::/52 } on-error={}
 :do { add list=CI address=2c0f:f0f8:809:1000::/53 } on-error={}
 :do { add list=CI address=2c0f:f0f8:809:1800::/54 } on-error={}
@@ -3023,6 +3036,7 @@
 :do { add list=CI address=2c0f:f0f8:814:e980::/57 } on-error={}
 :do { add list=CI address=2c0f:f0f8:814:ea00::/55 } on-error={}
 :do { add list=CI address=2c0f:f0f8:814:ec00::/54 } on-error={}
+:do { add list=CI address=2c0f:f0f8:815:bb00::/56 } on-error={}
 :do { add list=CI address=2c0f:f0f8:816:f800::/54 } on-error={}
 :do { add list=CI address=2c0f:f0f8:816:fc01::/64 } on-error={}
 :do { add list=CI address=2c0f:f0f8:816:fc02::/63 } on-error={}
@@ -3183,6 +3197,8 @@
 :do { add list=CI address=2c0f:f0f8:885:6400::/54 } on-error={}
 :do { add list=CI address=2c0f:f0f8:885:6800::/53 } on-error={}
 :do { add list=CI address=2c0f:f0f8:885:7000::/52 } on-error={}
+:do { add list=CI address=2c0f:f0f8:891:e000::/56 } on-error={}
+:do { add list=CI address=2c0f:f0f8:891:e200::/55 } on-error={}
 :do { add list=CI address=2c0f:f0f8:892:8000::/55 } on-error={}
 :do { add list=CI address=2c0f:f0f8:892:8200::/56 } on-error={}
 :do { add list=CI address=2c0f:f0f8:892:8301::/64 } on-error={}

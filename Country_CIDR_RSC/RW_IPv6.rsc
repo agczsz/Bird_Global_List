@@ -1,5 +1,6 @@
 /log info "Loading RW IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=RW address=2001:470:1f23:23::/64 } on-error={}
 :do { add list=RW address=2001:470:6888::/48 } on-error={}
 :do { add list=RW address=2001:470:f9ad::/48 } on-error={}
 :do { add list=RW address=2001:67c:a38:f250::/64 } on-error={}
@@ -425,7 +426,6 @@
 :do { add list=RW address=2c0f:feb0:0:4::/64 } on-error={}
 :do { add list=RW address=2c0f:feb0:1::2d/128 } on-error={}
 :do { add list=RW address=2c0f:feb0:1::2e/128 } on-error={}
-:do { add list=RW address=2c0f:feb0:1:2::52/128 } on-error={}
 :do { add list=RW address=2c0f:feb0:1:2::79/128 } on-error={}
 :do { add list=RW address=2c0f:feb0:1:2::181/128 } on-error={}
 :do { add list=RW address=2c0f:feb0:5::/63 } on-error={}

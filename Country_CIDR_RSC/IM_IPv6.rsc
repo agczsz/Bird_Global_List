@@ -1,5 +1,6 @@
 /log info "Loading IM IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=IM address=2001:470:60::/48 } on-error={}
 :do { add list=IM address=2001:470:1825::/48 } on-error={}
 :do { add list=IM address=2001:470:1847::/48 } on-error={}
 :do { add list=IM address=2001:470:1865::/48 } on-error={}
@@ -52,6 +53,7 @@
 :do { add list=IM address=2405:b500:3620::/64 } on-error={}
 :do { add list=IM address=2405:b500:3640::/64 } on-error={}
 :do { add list=IM address=2600:70ff:a949::/48 } on-error={}
+:do { add list=IM address=2600:70ff:b013::/48 } on-error={}
 :do { add list=IM address=2600:70ff:d024::/48 } on-error={}
 :do { add list=IM address=2606:40:1530::/44 } on-error={}
 :do { add list=IM address=2606:40:1540::/44 } on-error={}
@@ -128,18 +130,7 @@
 :do { add list=IM address=2a00:5540:3c0::/42 } on-error={}
 :do { add list=IM address=2a00:5540:400::/38 } on-error={}
 :do { add list=IM address=2a00:5540:800::/37 } on-error={}
-:do { add list=IM address=2a00:5540:1000::/38 } on-error={}
-:do { add list=IM address=2a00:5540:1400::/39 } on-error={}
-:do { add list=IM address=2a00:5540:1600::/43 } on-error={}
-:do { add list=IM address=2a00:5540:1620::/46 } on-error={}
-:do { add list=IM address=2a00:5540:1625::/48 } on-error={}
-:do { add list=IM address=2a00:5540:1626::/47 } on-error={}
-:do { add list=IM address=2a00:5540:1628::/45 } on-error={}
-:do { add list=IM address=2a00:5540:1630::/44 } on-error={}
-:do { add list=IM address=2a00:5540:1640::/42 } on-error={}
-:do { add list=IM address=2a00:5540:1680::/41 } on-error={}
-:do { add list=IM address=2a00:5540:1700::/40 } on-error={}
-:do { add list=IM address=2a00:5540:1800::/37 } on-error={}
+:do { add list=IM address=2a00:5540:1000::/36 } on-error={}
 :do { add list=IM address=2a00:5540:2000::/35 } on-error={}
 :do { add list=IM address=2a00:5540:4000::/36 } on-error={}
 :do { add list=IM address=2a00:5540:5000::/44 } on-error={}

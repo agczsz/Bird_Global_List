@@ -1,9 +1,12 @@
 /log info "Loading UG IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=UG address=2001:470:28:115c::/64 } on-error={}
+:do { add list=UG address=2001:470:1f0b:95d::/64 } on-error={}
 :do { add list=UG address=2001:470:1f1f:29d::/64 } on-error={}
 :do { add list=UG address=2001:470:1f29:36b::/64 } on-error={}
 :do { add list=UG address=2001:470:2128::/48 } on-error={}
 :do { add list=UG address=2001:470:71f1::/48 } on-error={}
+:do { add list=UG address=2001:470:79b6::/48 } on-error={}
 :do { add list=UG address=2001:470:7b01::/48 } on-error={}
 :do { add list=UG address=2001:470:ee33::/48 } on-error={}
 :do { add list=UG address=2001:470:fdb8::/48 } on-error={}
@@ -744,6 +747,7 @@
 :do { add list=UG address=2405:b500:75e0::/64 } on-error={}
 :do { add list=UG address=2600:70ff:a5e5::/48 } on-error={}
 :do { add list=UG address=2600:70ff:ab1b::/48 } on-error={}
+:do { add list=UG address=2600:70ff:b3af::/48 } on-error={}
 :do { add list=UG address=2600:70ff:d059::/48 } on-error={}
 :do { add list=UG address=2600:70ff:f07e::/48 } on-error={}
 :do { add list=UG address=2600:70ff:f9c1::/48 } on-error={}
@@ -1151,9 +1155,9 @@
 :do { add list=UG address=2c0f:fe40:fffe::/64 } on-error={}
 :do { add list=UG address=2c0f:feb0:0:3::/64 } on-error={}
 :do { add list=UG address=2c0f:feb0:1::25/128 } on-error={}
-:do { add list=UG address=2c0f:feb0:1::26/128 } on-error={}
 :do { add list=UG address=2c0f:feb0:1::29/128 } on-error={}
 :do { add list=UG address=2c0f:feb0:1::2a/128 } on-error={}
+:do { add list=UG address=2c0f:feb0:1::de/128 } on-error={}
 :do { add list=UG address=2c0f:feb0:1::165/128 } on-error={}
 :do { add list=UG address=2c0f:feb0:1::166/128 } on-error={}
 :do { add list=UG address=2c0f:feb0:1::169/128 } on-error={}
@@ -1163,7 +1167,6 @@
 :do { add list=UG address=2c0f:feb0:1:2::51/128 } on-error={}
 :do { add list=UG address=2c0f:feb0:1:2::59/128 } on-error={}
 :do { add list=UG address=2c0f:feb0:1:2::5d/128 } on-error={}
-:do { add list=UG address=2c0f:feb0:1:2::61/128 } on-error={}
 :do { add list=UG address=2c0f:feb0:1:2::62/128 } on-error={}
 :do { add list=UG address=2c0f:feb0:1:2::65/128 } on-error={}
 :do { add list=UG address=2c0f:feb0:1:2::66/128 } on-error={}
@@ -1176,8 +1179,7 @@
 :do { add list=UG address=2c0f:feb0:1:2::3ea/128 } on-error={}
 :do { add list=UG address=2c0f:feb0:1:2::3ed/128 } on-error={}
 :do { add list=UG address=2c0f:feb0:1:2::3ee/128 } on-error={}
-:do { add list=UG address=2c0f:feb0:1:2::3f1/128 } on-error={}
-:do { add list=UG address=2c0f:feb0:1:2::3f9/128 } on-error={}
+:do { add list=UG address=2c0f:feb0:1:2::3f2/128 } on-error={}
 :do { add list=UG address=2c0f:feb0:1:2::548/128 } on-error={}
 :do { add list=UG address=2c0f:feb0:1:2::54a/128 } on-error={}
 :do { add list=UG address=2c0f:feb0:1:2::597/128 } on-error={}

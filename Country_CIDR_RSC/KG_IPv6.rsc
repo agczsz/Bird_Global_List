@@ -2,6 +2,8 @@
 /ipv6 firewall address-list
 :do { add list=KG address=2001:470:28:10e8::/64 } on-error={}
 :do { add list=KG address=2001:470:28:10f4::/64 } on-error={}
+:do { add list=KG address=2001:470:28:1148::/64 } on-error={}
+:do { add list=KG address=2001:470:6d:46d::/64 } on-error={}
 :do { add list=KG address=2001:470:71:731::/64 } on-error={}
 :do { add list=KG address=2001:470:1f27:8e::/64 } on-error={}
 :do { add list=KG address=2001:470:20f5::/48 } on-error={}
@@ -15,6 +17,7 @@
 :do { add list=KG address=2001:470:752f::/48 } on-error={}
 :do { add list=KG address=2001:470:761a::/48 } on-error={}
 :do { add list=KG address=2001:470:78c2::/48 } on-error={}
+:do { add list=KG address=2001:470:799b::/48 } on-error={}
 :do { add list=KG address=2001:470:7abf::/48 } on-error={}
 :do { add list=KG address=2001:470:7aca::/48 } on-error={}
 :do { add list=KG address=2001:470:7ba5::/48 } on-error={}
@@ -22,6 +25,7 @@
 :do { add list=KG address=2001:470:7d1c::/48 } on-error={}
 :do { add list=KG address=2001:470:7e44::/48 } on-error={}
 :do { add list=KG address=2001:470:7ed7::/48 } on-error={}
+:do { add list=KG address=2001:470:e011::/48 } on-error={}
 :do { add list=KG address=2001:678:5fc::/48 } on-error={}
 :do { add list=KG address=2001:67c:87c::/48 } on-error={}
 :do { add list=KG address=2001:67c:a38:f996::/64 } on-error={}
@@ -48,6 +52,7 @@
 :do { add list=KG address=2405:b500:3c40::/64 } on-error={}
 :do { add list=KG address=2405:b500:3c60::/64 } on-error={}
 :do { add list=KG address=2406:2d40:3e00::/40 } on-error={}
+:do { add list=KG address=2600:70ff:b2bc::/48 } on-error={}
 :do { add list=KG address=2600:70ff:d808::/48 } on-error={}
 :do { add list=KG address=2600:70ff:f140::/48 } on-error={}
 :do { add list=KG address=2606:40:14b0::/44 } on-error={}
