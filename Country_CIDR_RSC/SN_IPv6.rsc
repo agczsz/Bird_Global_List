@@ -185,6 +185,7 @@
 :do { add list=SN address=2a0f:1cc5:b15:c600::/56 } on-error={}
 :do { add list=SN address=2a0f:1cc5:b16:c600::/56 } on-error={}
 :do { add list=SN address=2a0f:1cc5:b17:c600::/56 } on-error={}
+:do { add list=SN address=2a0f:6280:ce80::/48 } on-error={}
 :do { add list=SN address=2a0f:85c1:340::c1:0/112 } on-error={}
 :do { add list=SN address=2a0f:85c1:81b:f9a0::/60 } on-error={}
 :do { add list=SN address=2a0f:9403:be0::/44 } on-error={}

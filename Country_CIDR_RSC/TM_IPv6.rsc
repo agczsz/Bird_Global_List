@@ -120,6 +120,7 @@
 :do { add list=TM address=2a0f:1cc5:b15:e400::/56 } on-error={}
 :do { add list=TM address=2a0f:1cc5:b16:e400::/56 } on-error={}
 :do { add list=TM address=2a0f:1cc5:b17:e400::/56 } on-error={}
+:do { add list=TM address=2a0f:6280:cef9::/48 } on-error={}
 :do { add list=TM address=2a0f:85c1:81b:fb60::/60 } on-error={}
 :do { add list=TM address=2a0f:9403:910::/44 } on-error={}
 :do { add list=TM address=2a0f:a303:4800::/37 } on-error={}

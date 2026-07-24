@@ -315,6 +315,7 @@
 :do { add list=TZ address=2a0f:1cc5:b15:ef00::/56 } on-error={}
 :do { add list=TZ address=2a0f:1cc5:b16:ef00::/56 } on-error={}
 :do { add list=TZ address=2a0f:1cc5:b17:ef00::/56 } on-error={}
+:do { add list=TZ address=2a0f:6280:cecb::/48 } on-error={}
 :do { add list=TZ address=2a0f:6284:190::/44 } on-error={}
 :do { add list=TZ address=2a0f:85c1:340::c7:0/112 } on-error={}
 :do { add list=TZ address=2a0f:85c1:81b:fae0::/60 } on-error={}

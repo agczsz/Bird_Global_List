@@ -30,12 +30,7 @@
 :do { add list=MF address=104.28.244.94/31 } on-error={}
 :do { add list=MF address=104.28.244.96/30 } on-error={}
 :do { add list=MF address=104.250.0.0/21 } on-error={}
-:do { add list=MF address=104.250.16.48/28 } on-error={}
-:do { add list=MF address=104.250.16.64/27 } on-error={}
-:do { add list=MF address=104.250.16.96/29 } on-error={}
-:do { add list=MF address=104.250.16.112/28 } on-error={}
-:do { add list=MF address=104.250.16.128/26 } on-error={}
-:do { add list=MF address=104.250.16.196/30 } on-error={}
+:do { add list=MF address=104.250.16.0/24 } on-error={}
 :do { add list=MF address=104.250.21.0/24 } on-error={}
 :do { add list=MF address=104.250.22.124/30 } on-error={}
 :do { add list=MF address=104.250.25.0/24 } on-error={}

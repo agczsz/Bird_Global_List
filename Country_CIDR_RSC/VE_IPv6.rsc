@@ -758,7 +758,17 @@
 :do { add list=VE address=2803:5680:8000::/33 } on-error={}
 :do { add list=VE address=2803:58d0::/32 } on-error={}
 :do { add list=VE address=2803:5990::/32 } on-error={}
-:do { add list=VE address=2803:5a30::/32 } on-error={}
+:do { add list=VE address=2803:5a30::/33 } on-error={}
+:do { add list=VE address=2803:5a30:8000::/34 } on-error={}
+:do { add list=VE address=2803:5a30:c000::/35 } on-error={}
+:do { add list=VE address=2803:5a30:e000::/36 } on-error={}
+:do { add list=VE address=2803:5a30:f000::/37 } on-error={}
+:do { add list=VE address=2803:5a30:f800::/42 } on-error={}
+:do { add list=VE address=2803:5a30:f840::/42 } on-error={}
+:do { add list=VE address=2803:5a30:f880::/41 } on-error={}
+:do { add list=VE address=2803:5a30:f900::/40 } on-error={}
+:do { add list=VE address=2803:5a30:fa00::/39 } on-error={}
+:do { add list=VE address=2803:5a30:fc00::/38 } on-error={}
 :do { add list=VE address=2803:5ac0::/32 } on-error={}
 :do { add list=VE address=2803:5c50::/32 } on-error={}
 :do { add list=VE address=2803:5ce0:e00::/40 } on-error={}
@@ -1028,7 +1038,8 @@
 :do { add list=VE address=2803:9d60::/32 } on-error={}
 :do { add list=VE address=2803:9e90::/32 } on-error={}
 :do { add list=VE address=2803:a3d0::/32 } on-error={}
-:do { add list=VE address=2803:a630::/33 } on-error={}
+:do { add list=VE address=2803:a630::/34 } on-error={}
+:do { add list=VE address=2803:a630:4000::/34 } on-error={}
 :do { add list=VE address=2803:a630:8000::/34 } on-error={}
 :do { add list=VE address=2803:a630:c000::/34 } on-error={}
 :do { add list=VE address=2803:a690::/32 } on-error={}
@@ -1440,6 +1451,7 @@
 :do { add list=VE address=2a0f:1cc5:b16:f500::/56 } on-error={}
 :do { add list=VE address=2a0f:1cc5:b17:f500::/56 } on-error={}
 :do { add list=VE address=2a0f:1cc5:1f82::/48 } on-error={}
+:do { add list=VE address=2a0f:6280:cee3::/48 } on-error={}
 :do { add list=VE address=2a0f:85c1:340::cc:0/112 } on-error={}
 :do { add list=VE address=2a0f:85c1:81b:fc10::/60 } on-error={}
 :do { add list=VE address=2a0f:9403:c0::/44 } on-error={}

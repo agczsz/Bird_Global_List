@@ -396,6 +396,7 @@
 :do { add list=AO address=2a0f:1cc5:b16:700::/56 } on-error={}
 :do { add list=AO address=2a0f:1cc5:b17:700::/56 } on-error={}
 :do { add list=AO address=2a0f:1cc5:1f61::/48 } on-error={}
+:do { add list=AO address=2a0f:6280:cef2::/48 } on-error={}
 :do { add list=AO address=2a0f:85c1:81b:f050::/60 } on-error={}
 :do { add list=AO address=2a0f:9403:970::/44 } on-error={}
 :do { add list=AO address=2a10:500:b00::/40 } on-error={}

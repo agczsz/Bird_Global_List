@@ -787,7 +787,6 @@
 :do { add list=LI address=2a14:3083::/32 } on-error={}
 :do { add list=LI address=2a14:67c1:b67f::/48 } on-error={}
 :do { add list=LI address=2a14:67c2:831::/48 } on-error={}
-:do { add list=LI address=2a14:67c3:417::/48 } on-error={}
 :do { add list=LI address=2a14:7580:cf80::/48 } on-error={}
 :do { add list=LI address=2a14:7581:b10:7e00::/56 } on-error={}
 :do { add list=LI address=2a14:7581:b11:7e00::/56 } on-error={}

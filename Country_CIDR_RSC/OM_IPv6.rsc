@@ -1148,6 +1148,7 @@
 :do { add list=OM address=2a0f:1cc5:b16:9300::/56 } on-error={}
 :do { add list=OM address=2a0f:1cc5:b17:9300::/56 } on-error={}
 :do { add list=OM address=2a0f:1cc5:1f9a::/48 } on-error={}
+:do { add list=OM address=2a0f:6280:ce75::/48 } on-error={}
 :do { add list=OM address=2a0f:85c1:340::ae:0/112 } on-error={}
 :do { add list=OM address=2a0f:85c1:81b:f850::/60 } on-error={}
 :do { add list=OM address=2a0f:9403:820::/44 } on-error={}

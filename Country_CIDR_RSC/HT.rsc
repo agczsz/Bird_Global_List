@@ -2,6 +2,7 @@
 /ip firewall address-list
 :do { add list=HT address=5.62.56.120/30 } on-error={}
 :do { add list=HT address=5.62.58.112/30 } on-error={}
+:do { add list=HT address=9.170.70.0/23 } on-error={}
 :do { add list=HT address=38.88.57.47/32 } on-error={}
 :do { add list=HT address=38.92.116.0/22 } on-error={}
 :do { add list=HT address=38.93.248.0/23 } on-error={}

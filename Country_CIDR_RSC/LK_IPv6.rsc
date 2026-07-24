@@ -1062,6 +1062,7 @@
 :do { add list=LK address=2a0f:1cc5:b16:2900::/56 } on-error={}
 :do { add list=LK address=2a0f:1cc5:b17:2900::/56 } on-error={}
 :do { add list=LK address=2a0f:1cc5:1fb6::/48 } on-error={}
+:do { add list=LK address=2a0f:6280:ced0::/48 } on-error={}
 :do { add list=LK address=2a0f:6284:fe9::/48 } on-error={}
 :do { add list=LK address=2a0f:6284:fea::/47 } on-error={}
 :do { add list=LK address=2a0f:6284:fec::/48 } on-error={}

@@ -50,6 +50,7 @@
 :do { add list=GF address=2a01:cb20:80a6:8000::/50 } on-error={}
 :do { add list=GF address=2a01:cb20:80a7::/50 } on-error={}
 :do { add list=GF address=2a01:cb20:80cd:8000::/50 } on-error={}
+:do { add list=GF address=2a01:cb20:80d0:b300::/64 } on-error={}
 :do { add list=GF address=2a01:cb20:80da:8000::/50 } on-error={}
 :do { add list=GF address=2a01:cb20:80dd:2c00::/64 } on-error={}
 :do { add list=GF address=2a01:cb20:883f:af00::/64 } on-error={}

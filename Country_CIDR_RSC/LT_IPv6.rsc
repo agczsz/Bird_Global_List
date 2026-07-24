@@ -2370,6 +2370,7 @@
 :do { add list=LT address=2a0f:3cc7:2000::/35 } on-error={}
 :do { add list=LT address=2a0f:3cc7:4000::/34 } on-error={}
 :do { add list=LT address=2a0f:3cc7:8000::/33 } on-error={}
+:do { add list=LT address=2a0f:6280:cebc::/48 } on-error={}
 :do { add list=LT address=2a0f:85c1:334::/48 } on-error={}
 :do { add list=LT address=2a0f:85c1:340::9e:0/112 } on-error={}
 :do { add list=LT address=2a0f:85c1:81b:f680::/60 } on-error={}

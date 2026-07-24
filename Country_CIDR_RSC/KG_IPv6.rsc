@@ -220,6 +220,7 @@
 :do { add list=KG address=2a0f:1cc5:b16:7700::/56 } on-error={}
 :do { add list=KG address=2a0f:1cc5:b17:7700::/56 } on-error={}
 :do { add list=KG address=2a0f:5240::/32 } on-error={}
+:do { add list=KG address=2a0f:6280:cefb::/48 } on-error={}
 :do { add list=KG address=2a0f:85c1:81b:f600::/60 } on-error={}
 :do { add list=KG address=2a0f:9403:780::/44 } on-error={}
 :do { add list=KG address=2a10:500:5300::/40 } on-error={}

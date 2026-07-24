@@ -1714,6 +1714,8 @@
 :do { add list=AL address=2a0f:1cc5:b17:200::/56 } on-error={}
 :do { add list=AL address=2a0f:1cc5:1f2f::/48 } on-error={}
 :do { add list=AL address=2a0f:4780::/29 } on-error={}
+:do { add list=AL address=2a0f:6280:cefd::/48 } on-error={}
+:do { add list=AL address=2a0f:6280:cfac::/48 } on-error={}
 :do { add list=AL address=2a0f:85c1:81b:f010::/60 } on-error={}
 :do { add list=AL address=2a0f:9403:370::/44 } on-error={}
 :do { add list=AL address=2a0f:a880::/29 } on-error={}

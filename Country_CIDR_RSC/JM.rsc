@@ -2,6 +2,7 @@
 /ip firewall address-list
 :do { add list=JM address=5.62.56.128/30 } on-error={}
 :do { add list=JM address=5.62.58.120/30 } on-error={}
+:do { add list=JM address=9.170.64.0/23 } on-error={}
 :do { add list=JM address=17.118.108.0/22 } on-error={}
 :do { add list=JM address=23.156.32.0/24 } on-error={}
 :do { add list=JM address=32.59.116.0/28 } on-error={}
@@ -203,6 +204,7 @@
 :do { add list=JM address=157.167.234.31/32 } on-error={}
 :do { add list=JM address=157.167.234.32/32 } on-error={}
 :do { add list=JM address=157.167.234.70/32 } on-error={}
+:do { add list=JM address=158.173.192.192/27 } on-error={}
 :do { add list=JM address=158.220.70.0/24 } on-error={}
 :do { add list=JM address=160.225.37.0/24 } on-error={}
 :do { add list=JM address=160.225.38.0/24 } on-error={}

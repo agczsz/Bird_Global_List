@@ -51,6 +51,7 @@
 :do { add list=QA address=34.1.32.0/20 } on-error={}
 :do { add list=QA address=34.1.99.0/24 } on-error={}
 :do { add list=QA address=34.18.0.0/16 } on-error={}
+:do { add list=QA address=34.34.230.0/24 } on-error={}
 :do { add list=QA address=34.98.141.0/24 } on-error={}
 :do { add list=QA address=34.104.25.128/27 } on-error={}
 :do { add list=QA address=34.116.30.0/31 } on-error={}
@@ -104,6 +105,7 @@
 :do { add list=QA address=38.182.27.0/24 } on-error={}
 :do { add list=QA address=38.210.189.0/24 } on-error={}
 :do { add list=QA address=38.210.191.0/24 } on-error={}
+:do { add list=QA address=40.64.148.160/27 } on-error={}
 :do { add list=QA address=40.64.185.128/25 } on-error={}
 :do { add list=QA address=40.90.65.71/32 } on-error={}
 :do { add list=QA address=40.90.65.123/32 } on-error={}
@@ -523,6 +525,7 @@
 :do { add list=QA address=92.4.32.80/32 } on-error={}
 :do { add list=QA address=92.4.32.82/32 } on-error={}
 :do { add list=QA address=92.4.32.84/32 } on-error={}
+:do { add list=QA address=92.4.45.0/24 } on-error={}
 :do { add list=QA address=92.42.103.0/24 } on-error={}
 :do { add list=QA address=94.125.224.0/21 } on-error={}
 :do { add list=QA address=94.207.232.32/29 } on-error={}
@@ -846,7 +849,8 @@
 :do { add list=QA address=146.75.211.16/30 } on-error={}
 :do { add list=QA address=147.243.4.192/26 } on-error={}
 :do { add list=QA address=147.243.112.224/27 } on-error={}
-:do { add list=QA address=147.243.113.0/25 } on-error={}
+:do { add list=QA address=147.243.113.0/26 } on-error={}
+:do { add list=QA address=147.243.113.64/27 } on-error={}
 :do { add list=QA address=147.243.126.0/27 } on-error={}
 :do { add list=QA address=148.64.14.0/28 } on-error={}
 :do { add list=QA address=149.104.98.0/24 } on-error={}

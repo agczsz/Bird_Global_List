@@ -197,6 +197,7 @@
 :do { add list=TT address=2a0f:1cc5:b17:e000::/56 } on-error={}
 :do { add list=TT address=2a0f:1cc5:1f4d::/48 } on-error={}
 :do { add list=TT address=2a0f:1cc5:1f8e::/48 } on-error={}
+:do { add list=TT address=2a0f:6280:ceee::/48 } on-error={}
 :do { add list=TT address=2a0f:85c1:81b:fb30::/60 } on-error={}
 :do { add list=TT address=2a0f:9403:340::/44 } on-error={}
 :do { add list=TT address=2a0f:a300:c800::/37 } on-error={}

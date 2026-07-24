@@ -1461,6 +1461,9 @@
 :do { add list=BS address=2a0f:1cc5:b15:d00::/56 } on-error={}
 :do { add list=BS address=2a0f:1cc5:b16:d00::/56 } on-error={}
 :do { add list=BS address=2a0f:1cc5:b17:d00::/56 } on-error={}
+:do { add list=BS address=2a0f:6280:cf10::/44 } on-error={}
+:do { add list=BS address=2a0f:6280:cf20::/45 } on-error={}
+:do { add list=BS address=2a0f:6280:cf28::/47 } on-error={}
 :do { add list=BS address=2a0f:85c1:81b:f0f0::/60 } on-error={}
 :do { add list=BS address=2a0f:9403:1e0::/44 } on-error={}
 :do { add list=BS address=2a0f:a301:a000::/37 } on-error={}

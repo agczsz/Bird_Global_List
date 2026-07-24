@@ -5,7 +5,6 @@
 :do { add list=CX address=2001:470:69f0::/48 } on-error={}
 :do { add list=CX address=2001:470:8035::/48 } on-error={}
 :do { add list=CX address=2001:470:b805::/48 } on-error={}
-:do { add list=CX address=2001:470:b920::/48 } on-error={}
 :do { add list=CX address=2001:470:c3a5::/48 } on-error={}
 :do { add list=CX address=2001:470:ebc9::/48 } on-error={}
 :do { add list=CX address=2001:470:ef91::/48 } on-error={}

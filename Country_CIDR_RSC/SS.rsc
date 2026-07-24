@@ -1,5 +1,6 @@
 /log info "Loading SS IPv4 Address List"
 /ip firewall address-list
+:do { add list=SS address=9.170.68.0/23 } on-error={}
 :do { add list=SS address=38.43.72.0/22 } on-error={}
 :do { add list=SS address=41.79.24.0/22 } on-error={}
 :do { add list=SS address=41.79.120.0/22 } on-error={}

@@ -285,6 +285,7 @@
 :do { add list=PG address=2a0f:1cc5:b16:ac00::/56 } on-error={}
 :do { add list=PG address=2a0f:1cc5:b17:ac00::/56 } on-error={}
 :do { add list=PG address=2a0f:1cc5:1fe1::/48 } on-error={}
+:do { add list=PG address=2a0f:6280:cef7::/48 } on-error={}
 :do { add list=PG address=2a0f:6284:ff4::/47 } on-error={}
 :do { add list=PG address=2a0f:6284:ff6::/48 } on-error={}
 :do { add list=PG address=2a0f:85c1:340::b1:0/112 } on-error={}

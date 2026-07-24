@@ -2017,6 +2017,7 @@
 :do { add list=RS address=2a0f:2742:9002:8000::/49 } on-error={}
 :do { add list=RS address=2a0f:2742:9003:4000::/50 } on-error={}
 :do { add list=RS address=2a0f:2742:9003:8000::/49 } on-error={}
+:do { add list=RS address=2a0f:6280:cec1::/48 } on-error={}
 :do { add list=RS address=2a0f:7bc0::/29 } on-error={}
 :do { add list=RS address=2a0f:85c1:340::ba:0/112 } on-error={}
 :do { add list=RS address=2a0f:85c1:81b:f9b0::/60 } on-error={}

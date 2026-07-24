@@ -1610,6 +1610,7 @@
 :do { add list=SI address=2a0f:1cc5:b17:cd00::/56 } on-error={}
 :do { add list=SI address=2a0f:1cc5:1f2b::/48 } on-error={}
 :do { add list=SI address=2a0f:4fc0::/29 } on-error={}
+:do { add list=SI address=2a0f:6280:cebf::/48 } on-error={}
 :do { add list=SI address=2a0f:7840::/29 } on-error={}
 :do { add list=SI address=2a0f:85c1:340::bf:0/112 } on-error={}
 :do { add list=SI address=2a0f:85c1:3fc::/48 } on-error={}

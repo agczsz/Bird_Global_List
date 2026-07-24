@@ -8,6 +8,9 @@
 :do { add list=GF address=46.193.54.15/32 } on-error={}
 :do { add list=GF address=46.193.201.66/32 } on-error={}
 :do { add list=GF address=46.193.201.229/32 } on-error={}
+:do { add list=GF address=46.193.204.51/32 } on-error={}
+:do { add list=GF address=46.193.204.54/32 } on-error={}
+:do { add list=GF address=46.193.205.92/32 } on-error={}
 :do { add list=GF address=57.74.248.0/23 } on-error={}
 :do { add list=GF address=57.75.96.0/20 } on-error={}
 :do { add list=GF address=81.248.32.0/23 } on-error={}
