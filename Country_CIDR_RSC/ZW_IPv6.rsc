@@ -9,7 +9,6 @@
 :do { add list=ZW address=2001:470:79b9::/48 } on-error={}
 :do { add list=ZW address=2001:470:89c3::/48 } on-error={}
 :do { add list=ZW address=2001:470:d384::/48 } on-error={}
-:do { add list=ZW address=2001:470:f4cb::/48 } on-error={}
 :do { add list=ZW address=2001:67c:a38:f263::/64 } on-error={}
 :do { add list=ZW address=2001:42b0::/32 } on-error={}
 :do { add list=ZW address=2001:43f0::/32 } on-error={}

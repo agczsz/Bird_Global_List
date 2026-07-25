@@ -16,7 +16,6 @@
 :do { add list=GL address=2001:470:f333::/48 } on-error={}
 :do { add list=GL address=2001:470:f42a::/48 } on-error={}
 :do { add list=GL address=2001:470:f4a5::/48 } on-error={}
-:do { add list=GL address=2001:470:f4c9::/48 } on-error={}
 :do { add list=GL address=2001:470:f86b::/48 } on-error={}
 :do { add list=GL address=2001:470:fae0::/48 } on-error={}
 :do { add list=GL address=2001:470:fe00::/48 } on-error={}

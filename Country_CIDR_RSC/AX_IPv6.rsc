@@ -156,6 +156,7 @@
 :do { add list=AX address=2a00:5500:90ea::/56 } on-error={}
 :do { add list=AX address=2a00:5500:90eb:5300::/56 } on-error={}
 :do { add list=AX address=2a00:5500:90ec:8700::/56 } on-error={}
+:do { add list=AX address=2a00:5500:90f1:6200::/56 } on-error={}
 :do { add list=AX address=2a00:5500:90f6:8000::/51 } on-error={}
 :do { add list=AX address=2a00:5500:90f6:a000::/55 } on-error={}
 :do { add list=AX address=2a00:5500:90f6:a201::/64 } on-error={}

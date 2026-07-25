@@ -64,6 +64,7 @@
 :do { add list=ME address=2a02:26f7:dd85::/48 } on-error={}
 :do { add list=ME address=2a02:26f7:dd86::/47 } on-error={}
 :do { add list=ME address=2a02:26f7:dd88:4000::/64 } on-error={}
+:do { add list=ME address=2a02:26f7:dd88:8000::/50 } on-error={}
 :do { add list=ME address=2a02:26f7:dd88:cf40::/62 } on-error={}
 :do { add list=ME address=2a02:26f7:dd88:cf44::/64 } on-error={}
 :do { add list=ME address=2a02:26f7:dd89::/48 } on-error={}

@@ -104,7 +104,6 @@
 :do { add list=PR address=24.55.164.0/22 } on-error={}
 :do { add list=PR address=24.55.168.0/22 } on-error={}
 :do { add list=PR address=24.55.172.0/24 } on-error={}
-:do { add list=PR address=24.55.173.128/25 } on-error={}
 :do { add list=PR address=24.55.174.0/23 } on-error={}
 :do { add list=PR address=24.55.176.0/20 } on-error={}
 :do { add list=PR address=24.137.224.0/19 } on-error={}

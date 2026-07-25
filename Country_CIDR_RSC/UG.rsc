@@ -752,7 +752,8 @@
 :do { add list=UG address=165.90.26.192/27 } on-error={}
 :do { add list=UG address=165.90.27.0/24 } on-error={}
 :do { add list=UG address=165.90.29.60/30 } on-error={}
-:do { add list=UG address=165.90.31.136/29 } on-error={}
+:do { add list=UG address=165.90.31.136/31 } on-error={}
+:do { add list=UG address=165.90.31.140/30 } on-error={}
 :do { add list=UG address=172.69.5.0/24 } on-error={}
 :do { add list=UG address=172.224.231.96/28 } on-error={}
 :do { add list=UG address=172.225.26.224/27 } on-error={}

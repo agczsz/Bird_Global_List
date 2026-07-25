@@ -25,7 +25,11 @@
 :do { add list=CW address=63.245.107.12/31 } on-error={}
 :do { add list=CW address=65.208.122.0/24 } on-error={}
 :do { add list=CW address=65.208.123.0/25 } on-error={}
-:do { add list=CW address=65.208.123.128/26 } on-error={}
+:do { add list=CW address=65.208.123.128/27 } on-error={}
+:do { add list=CW address=65.208.123.162/31 } on-error={}
+:do { add list=CW address=65.208.123.164/30 } on-error={}
+:do { add list=CW address=65.208.123.168/29 } on-error={}
+:do { add list=CW address=65.208.123.176/28 } on-error={}
 :do { add list=CW address=65.208.123.192/28 } on-error={}
 :do { add list=CW address=65.208.123.208/29 } on-error={}
 :do { add list=CW address=65.208.123.224/29 } on-error={}
@@ -36,7 +40,6 @@
 :do { add list=CW address=66.84.65.0/25 } on-error={}
 :do { add list=CW address=69.79.24.0/24 } on-error={}
 :do { add list=CW address=69.79.100.39/32 } on-error={}
-:do { add list=CW address=69.79.100.118/32 } on-error={}
 :do { add list=CW address=69.79.100.130/31 } on-error={}
 :do { add list=CW address=69.79.100.183/32 } on-error={}
 :do { add list=CW address=77.95.216.0/24 } on-error={}
@@ -154,7 +157,6 @@
 :do { add list=CW address=190.2.160.0/20 } on-error={}
 :do { add list=CW address=190.2.176.0/21 } on-error={}
 :do { add list=CW address=190.2.188.0/23 } on-error={}
-:do { add list=CW address=190.2.191.0/24 } on-error={}
 :do { add list=CW address=190.4.128.0/20 } on-error={}
 :do { add list=CW address=190.4.144.0/24 } on-error={}
 :do { add list=CW address=190.4.145.0/24 } on-error={}

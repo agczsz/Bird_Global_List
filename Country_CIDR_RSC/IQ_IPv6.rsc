@@ -909,9 +909,10 @@
 :do { add list=IQ address=2a03:4b40::/30 } on-error={}
 :do { add list=IQ address=2a03:4b47::/39 } on-error={}
 :do { add list=IQ address=2a03:4b47:200:c600::/56 } on-error={}
+:do { add list=IQ address=2a03:4b47:200:db00::/56 } on-error={}
 :do { add list=IQ address=2a03:4b47:240:1600::/56 } on-error={}
-:do { add list=IQ address=2a03:4b47:260::/50 } on-error={}
-:do { add list=IQ address=2a03:4b47:280::/48 } on-error={}
+:do { add list=IQ address=2a03:4b47:260::/49 } on-error={}
+:do { add list=IQ address=2a03:4b47:280::/41 } on-error={}
 :do { add list=IQ address=2a03:4b47:300::/40 } on-error={}
 :do { add list=IQ address=2a03:4b47:400::/39 } on-error={}
 :do { add list=IQ address=2a03:4b47:700::/46 } on-error={}

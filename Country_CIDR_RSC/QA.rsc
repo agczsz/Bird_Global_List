@@ -525,7 +525,7 @@
 :do { add list=QA address=92.4.32.80/32 } on-error={}
 :do { add list=QA address=92.4.32.82/32 } on-error={}
 :do { add list=QA address=92.4.32.84/32 } on-error={}
-:do { add list=QA address=92.4.45.0/24 } on-error={}
+:do { add list=QA address=92.4.35.0/24 } on-error={}
 :do { add list=QA address=92.42.103.0/24 } on-error={}
 :do { add list=QA address=94.125.224.0/21 } on-error={}
 :do { add list=QA address=94.207.232.32/29 } on-error={}

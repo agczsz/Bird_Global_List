@@ -36,6 +36,7 @@
 :do { add list=HR address=2001:470:215c::/48 } on-error={}
 :do { add list=HR address=2001:470:21aa::/48 } on-error={}
 :do { add list=HR address=2001:470:21bc::/48 } on-error={}
+:do { add list=HR address=2001:470:2231::/48 } on-error={}
 :do { add list=HR address=2001:470:22d9::/48 } on-error={}
 :do { add list=HR address=2001:470:232a::/48 } on-error={}
 :do { add list=HR address=2001:470:520d::/48 } on-error={}

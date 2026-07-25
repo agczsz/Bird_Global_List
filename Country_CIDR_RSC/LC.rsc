@@ -90,10 +90,10 @@
 :do { add list=LC address=192.147.231.4/32 } on-error={}
 :do { add list=LC address=192.147.231.6/31 } on-error={}
 :do { add list=LC address=192.147.231.8/29 } on-error={}
-:do { add list=LC address=192.147.231.16/29 } on-error={}
-:do { add list=LC address=192.147.231.24/30 } on-error={}
-:do { add list=LC address=192.147.231.29/32 } on-error={}
-:do { add list=LC address=192.147.231.30/31 } on-error={}
+:do { add list=LC address=192.147.231.16/31 } on-error={}
+:do { add list=LC address=192.147.231.18/32 } on-error={}
+:do { add list=LC address=192.147.231.20/30 } on-error={}
+:do { add list=LC address=192.147.231.24/29 } on-error={}
 :do { add list=LC address=192.147.231.96/30 } on-error={}
 :do { add list=LC address=192.147.231.226/32 } on-error={}
 :do { add list=LC address=196.48.166.0/24 } on-error={}

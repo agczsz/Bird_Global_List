@@ -43,6 +43,7 @@
 :do { add list=ME address=62.197.159.64/26 } on-error={}
 :do { add list=ME address=62.197.159.128/25 } on-error={}
 :do { add list=ME address=67.203.37.0/24 } on-error={}
+:do { add list=ME address=67.227.6.0/24 } on-error={}
 :do { add list=ME address=77.46.162.192/26 } on-error={}
 :do { add list=ME address=77.222.0.0/19 } on-error={}
 :do { add list=ME address=78.155.32.0/19 } on-error={}

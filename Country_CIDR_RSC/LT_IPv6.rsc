@@ -121,6 +121,7 @@
 :do { add list=LT address=2001:470:c972::/48 } on-error={}
 :do { add list=LT address=2001:470:dc87::/48 } on-error={}
 :do { add list=LT address=2001:470:dca1::/48 } on-error={}
+:do { add list=LT address=2001:470:ddaa::/48 } on-error={}
 :do { add list=LT address=2001:470:de66::/48 } on-error={}
 :do { add list=LT address=2001:470:de7b::/48 } on-error={}
 :do { add list=LT address=2001:550:2:15b::/127 } on-error={}

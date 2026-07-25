@@ -332,7 +332,7 @@
 :do { add list=CZ address=31.148.218.0/23 } on-error={}
 :do { add list=CZ address=31.148.220.0/24 } on-error={}
 :do { add list=CZ address=31.148.222.0/24 } on-error={}
-:do { add list=CZ address=31.148.242.0/23 } on-error={}
+:do { add list=CZ address=31.148.243.0/24 } on-error={}
 :do { add list=CZ address=31.169.128.0/17 } on-error={}
 :do { add list=CZ address=31.170.176.0/21 } on-error={}
 :do { add list=CZ address=31.177.24.0/21 } on-error={}
@@ -1926,7 +1926,6 @@
 :do { add list=CZ address=89.239.0.0/20 } on-error={}
 :do { add list=CZ address=89.239.16.0/21 } on-error={}
 :do { add list=CZ address=89.239.24.0/21 } on-error={}
-:do { add list=CZ address=89.248.227.0/32 } on-error={}
 :do { add list=CZ address=89.248.240.0/20 } on-error={}
 :do { add list=CZ address=89.250.96.0/21 } on-error={}
 :do { add list=CZ address=89.250.104.0/21 } on-error={}

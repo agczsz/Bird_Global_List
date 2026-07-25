@@ -80,7 +80,7 @@
 :do { add list=VC address=192.147.231.0/31 } on-error={}
 :do { add list=VC address=192.147.231.2/32 } on-error={}
 :do { add list=VC address=192.147.231.5/32 } on-error={}
-:do { add list=VC address=192.147.231.28/32 } on-error={}
+:do { add list=VC address=192.147.231.19/32 } on-error={}
 :do { add list=VC address=192.147.231.32/27 } on-error={}
 :do { add list=VC address=192.147.231.64/27 } on-error={}
 :do { add list=VC address=192.147.231.100/30 } on-error={}

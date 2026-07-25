@@ -4411,7 +4411,10 @@
 :do { add list=ID address=2001:df7:39c0::/48 } on-error={}
 :do { add list=ID address=2001:df7:3b00::/48 } on-error={}
 :do { add list=ID address=2001:df7:3b40::/48 } on-error={}
+:do { add list=ID address=2001:df7:3bc0::/48 } on-error={}
 :do { add list=ID address=2001:df7:3c00::/48 } on-error={}
+:do { add list=ID address=2001:df7:3c40::/48 } on-error={}
+:do { add list=ID address=2001:df7:3cc0::/48 } on-error={}
 :do { add list=ID address=2001:df7:3f00::/48 } on-error={}
 :do { add list=ID address=2001:df7:5300::/48 } on-error={}
 :do { add list=ID address=2001:df7:5400::/48 } on-error={}

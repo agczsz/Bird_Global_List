@@ -793,6 +793,9 @@
 :do { add list=MY address=2400:18a0:4000::/34 } on-error={}
 :do { add list=MY address=2400:18a0:8000::/33 } on-error={}
 :do { add list=MY address=2400:1ae0::/32 } on-error={}
+:do { add list=MY address=2400:1c00:163::/48 } on-error={}
+:do { add list=MY address=2400:1c00:164::/46 } on-error={}
+:do { add list=MY address=2400:1c00:168::/45 } on-error={}
 :do { add list=MY address=2400:3a60::/32 } on-error={}
 :do { add list=MY address=2400:4400::/32 } on-error={}
 :do { add list=MY address=2400:4c60::/32 } on-error={}
