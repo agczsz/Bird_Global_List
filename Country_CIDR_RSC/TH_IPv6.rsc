@@ -322,6 +322,7 @@
 :do { add list=TH address=2001:470:eef1::/48 } on-error={}
 :do { add list=TH address=2001:470:ef07::/48 } on-error={}
 :do { add list=TH address=2001:470:ef2c::/48 } on-error={}
+:do { add list=TH address=2001:470:ef3e::/48 } on-error={}
 :do { add list=TH address=2001:470:ef63::/48 } on-error={}
 :do { add list=TH address=2001:470:ef7d::/48 } on-error={}
 :do { add list=TH address=2001:470:ef85::/48 } on-error={}
@@ -3096,6 +3097,7 @@
 :do { add list=TH address=2405:2000:3300:0:4000::/66 } on-error={}
 :do { add list=TH address=2405:2000:3300:0:8000::/65 } on-error={}
 :do { add list=TH address=2405:2000:ffe0::/44 } on-error={}
+:do { add list=TH address=2405:204e:400::/64 } on-error={}
 :do { add list=TH address=2405:2500::/46 } on-error={}
 :do { add list=TH address=2405:2500:4::/48 } on-error={}
 :do { add list=TH address=2405:2500:5::/48 } on-error={}
@@ -4827,7 +4829,6 @@
 :do { add list=TH address=240d:c010:17d::/50 } on-error={}
 :do { add list=TH address=240d:c010:1a3::/50 } on-error={}
 :do { add list=TH address=240d:c010:1a4::/50 } on-error={}
-:do { add list=TH address=2427:2000:ffa0:200::/64 } on-error={}
 :do { add list=TH address=2600:0:2:1239:203:222:33:31/128 } on-error={}
 :do { add list=TH address=2600:0:2:1239:203:222:33:54/128 } on-error={}
 :do { add list=TH address=2600:0:2:1239:203:222:40:88/127 } on-error={}
@@ -5087,10 +5088,7 @@
 :do { add list=TH address=2606:54c3:0:18d8::/64 } on-error={}
 :do { add list=TH address=2606:54c3:0:191b::/64 } on-error={}
 :do { add list=TH address=2606:54c3:0:1956::/64 } on-error={}
-:do { add list=TH address=2606:58c0:a:1000::/52 } on-error={}
-:do { add list=TH address=2606:58c0:a:7000::/52 } on-error={}
-:do { add list=TH address=2606:58c0:a:8000::/50 } on-error={}
-:do { add list=TH address=2606:58c0:a:e000::/52 } on-error={}
+:do { add list=TH address=2606:58c0:a::/48 } on-error={}
 :do { add list=TH address=2606:7b40:1b05:4000::/56 } on-error={}
 :do { add list=TH address=2606:f184:3380:4000::/50 } on-error={}
 :do { add list=TH address=2606:f184:3380:8000::/49 } on-error={}

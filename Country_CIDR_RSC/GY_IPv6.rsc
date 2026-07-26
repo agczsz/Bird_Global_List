@@ -50,7 +50,8 @@
 :do { add list=GY address=2800:3c0:2000::/42 } on-error={}
 :do { add list=GY address=2800:3c0:2040::/44 } on-error={}
 :do { add list=GY address=2800:3c0:2050::/48 } on-error={}
-:do { add list=GY address=2800:3c0:2060::/43 } on-error={}
+:do { add list=GY address=2800:3c0:2060::/44 } on-error={}
+:do { add list=GY address=2800:3c0:2070::/48 } on-error={}
 :do { add list=GY address=2800:3c0:2080::/41 } on-error={}
 :do { add list=GY address=2800:3c0:2100::/40 } on-error={}
 :do { add list=GY address=2800:3c0:2200::/39 } on-error={}

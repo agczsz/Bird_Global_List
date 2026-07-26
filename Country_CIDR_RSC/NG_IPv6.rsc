@@ -394,8 +394,7 @@
 :do { add list=NG address=2606:54c3:0:15b1::/64 } on-error={}
 :do { add list=NG address=2606:54c3:0:1861::/64 } on-error={}
 :do { add list=NG address=2606:54c3:0:18e9::/64 } on-error={}
-:do { add list=NG address=2606:58c0:d:4000::/50 } on-error={}
-:do { add list=NG address=2606:58c0:d:8000::/49 } on-error={}
+:do { add list=NG address=2606:58c0:d::/48 } on-error={}
 :do { add list=NG address=2606:f4c0:20f0::/44 } on-error={}
 :do { add list=NG address=2606:f4c0:b6e0::/44 } on-error={}
 :do { add list=NG address=2607:3f40:ff1b::/50 } on-error={}

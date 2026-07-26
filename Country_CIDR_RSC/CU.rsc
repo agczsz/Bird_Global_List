@@ -97,5 +97,15 @@
 :do { add list=CU address=200.25.51.163/32 } on-error={}
 :do { add list=CU address=200.55.128.0/18 } on-error={}
 :do { add list=CU address=200.123.198.224/27 } on-error={}
+:do { add list=CU address=201.157.196.40/29 } on-error={}
+:do { add list=CU address=201.157.196.48/29 } on-error={}
+:do { add list=CU address=201.157.196.60/31 } on-error={}
+:do { add list=CU address=201.157.196.64/31 } on-error={}
+:do { add list=CU address=201.157.196.80/30 } on-error={}
+:do { add list=CU address=201.157.196.88/29 } on-error={}
+:do { add list=CU address=201.157.196.96/28 } on-error={}
+:do { add list=CU address=201.157.196.112/32 } on-error={}
+:do { add list=CU address=201.157.196.144/28 } on-error={}
+:do { add list=CU address=201.157.196.200/30 } on-error={}
 :do { add list=CU address=201.220.192.0/19 } on-error={}
 :do { add list=CU address=213.248.67.201/32 } on-error={}

@@ -471,7 +471,11 @@
 :do { add list=EE address=91.129.100.0/22 } on-error={}
 :do { add list=EE address=91.129.104.0/22 } on-error={}
 :do { add list=EE address=91.129.108.0/24 } on-error={}
-:do { add list=EE address=91.129.109.0/25 } on-error={}
+:do { add list=EE address=91.129.109.0/29 } on-error={}
+:do { add list=EE address=91.129.109.12/30 } on-error={}
+:do { add list=EE address=91.129.109.16/28 } on-error={}
+:do { add list=EE address=91.129.109.32/27 } on-error={}
+:do { add list=EE address=91.129.109.64/26 } on-error={}
 :do { add list=EE address=91.129.109.192/26 } on-error={}
 :do { add list=EE address=91.129.110.0/24 } on-error={}
 :do { add list=EE address=91.129.111.0/26 } on-error={}

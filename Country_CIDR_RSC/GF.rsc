@@ -161,7 +161,6 @@
 :do { add list=GF address=82.123.254.0/24 } on-error={}
 :do { add list=GF address=82.123.255.0/27 } on-error={}
 :do { add list=GF address=82.123.255.128/25 } on-error={}
-:do { add list=GF address=82.197.115.0/25 } on-error={}
 :do { add list=GF address=83.137.198.144/29 } on-error={}
 :do { add list=GF address=83.137.199.144/29 } on-error={}
 :do { add list=GF address=90.82.56.0/30 } on-error={}

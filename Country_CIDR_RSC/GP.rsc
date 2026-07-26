@@ -515,7 +515,6 @@
 :do { add list=GP address=109.62.38.46/32 } on-error={}
 :do { add list=GP address=109.62.38.145/32 } on-error={}
 :do { add list=GP address=109.62.38.221/32 } on-error={}
-:do { add list=GP address=109.62.42.128/25 } on-error={}
 :do { add list=GP address=109.62.47.42/32 } on-error={}
 :do { add list=GP address=109.62.69.32/27 } on-error={}
 :do { add list=GP address=109.62.71.0/24 } on-error={}

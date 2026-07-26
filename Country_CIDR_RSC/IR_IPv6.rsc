@@ -7793,6 +7793,7 @@
 :do { add list=IR address=2a0a:79c0:f2e0::/44 } on-error={}
 :do { add list=IR address=2a0a:97c0::/29 } on-error={}
 :do { add list=IR address=2a0a:a480::/29 } on-error={}
+:do { add list=IR address=2a0a:ac00::/29 } on-error={}
 :do { add list=IR address=2a0a:bc40::/32 } on-error={}
 :do { add list=IR address=2a0a:bc80::/29 } on-error={}
 :do { add list=IR address=2a0a:d340::/29 } on-error={}

@@ -3324,7 +3324,6 @@
 :do { add list=EE address=2a12:bec4:1483:bd::/64 } on-error={}
 :do { add list=EE address=2a12:bec4:1483:307::/64 } on-error={}
 :do { add list=EE address=2a12:bec4:16a0::/44 } on-error={}
-:do { add list=EE address=2a12:bec4:1f90::/44 } on-error={}
 :do { add list=EE address=2a12:c740::/48 } on-error={}
 :do { add list=EE address=2a12:c740:3::/48 } on-error={}
 :do { add list=EE address=2a12:c740:4::/46 } on-error={}

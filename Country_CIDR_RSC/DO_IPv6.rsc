@@ -2,7 +2,6 @@
 /ipv6 firewall address-list
 :do { add list=DO address=2001:418:0:5000::8c3/128 } on-error={}
 :do { add list=DO address=2001:470:1f2b:e::/64 } on-error={}
-:do { add list=DO address=2001:470:3840::/48 } on-error={}
 :do { add list=DO address=2001:470:39a3::/48 } on-error={}
 :do { add list=DO address=2001:470:791e::/48 } on-error={}
 :do { add list=DO address=2001:470:80ad::/48 } on-error={}
@@ -663,6 +662,7 @@
 :do { add list=DO address=2803:fad0:4000::/34 } on-error={}
 :do { add list=DO address=2803:fad0:8000::/33 } on-error={}
 :do { add list=DO address=2803:fd20::/32 } on-error={}
+:do { add list=DO address=2803:fd30::/32 } on-error={}
 :do { add list=DO address=2803:fe10::/32 } on-error={}
 :do { add list=DO address=2803:fe30::/32 } on-error={}
 :do { add list=DO address=2803:fe50::/32 } on-error={}

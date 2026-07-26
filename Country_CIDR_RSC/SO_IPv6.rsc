@@ -13,6 +13,15 @@
 :do { add list=SO address=2001:470:1f17:15e::/64 } on-error={}
 :do { add list=SO address=2001:470:1f17:178::/64 } on-error={}
 :do { add list=SO address=2001:470:1f27:37::/64 } on-error={}
+:do { add list=SO address=2001:470:3096::/48 } on-error={}
+:do { add list=SO address=2001:470:30ab::/48 } on-error={}
+:do { add list=SO address=2001:470:30ae::/48 } on-error={}
+:do { add list=SO address=2001:470:30b1::/48 } on-error={}
+:do { add list=SO address=2001:470:30b3::/48 } on-error={}
+:do { add list=SO address=2001:470:30b8::/48 } on-error={}
+:do { add list=SO address=2001:470:30ba::/47 } on-error={}
+:do { add list=SO address=2001:470:30bd::/48 } on-error={}
+:do { add list=SO address=2001:470:30de::/48 } on-error={}
 :do { add list=SO address=2001:470:3999::/48 } on-error={}
 :do { add list=SO address=2001:470:39e3::/48 } on-error={}
 :do { add list=SO address=2001:470:39e7::/48 } on-error={}

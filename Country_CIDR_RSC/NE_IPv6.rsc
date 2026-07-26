@@ -1,7 +1,6 @@
 /log info "Loading NE IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=NE address=2001:470:1d07::/48 } on-error={}
-:do { add list=NE address=2001:470:68ab::/48 } on-error={}
 :do { add list=NE address=2001:470:b1ff::/48 } on-error={}
 :do { add list=NE address=2001:470:ee11::/48 } on-error={}
 :do { add list=NE address=2001:67c:a38:f227::/64 } on-error={}

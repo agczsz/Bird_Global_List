@@ -24,6 +24,7 @@
 :do { add list=DO address=38.10.132.0/22 } on-error={}
 :do { add list=DO address=38.10.176.0/23 } on-error={}
 :do { add list=DO address=38.10.178.0/23 } on-error={}
+:do { add list=DO address=38.21.0.0/19 } on-error={}
 :do { add list=DO address=38.41.160.0/20 } on-error={}
 :do { add list=DO address=38.41.184.0/23 } on-error={}
 :do { add list=DO address=38.43.80.0/23 } on-error={}

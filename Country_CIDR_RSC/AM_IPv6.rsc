@@ -41,6 +41,9 @@
 :do { add list=AM address=2001:470:21c5::/48 } on-error={}
 :do { add list=AM address=2001:470:22c2::/48 } on-error={}
 :do { add list=AM address=2001:470:2894::/48 } on-error={}
+:do { add list=AM address=2001:470:3065::/48 } on-error={}
+:do { add list=AM address=2001:470:30d4::/48 } on-error={}
+:do { add list=AM address=2001:470:30ef::/48 } on-error={}
 :do { add list=AM address=2001:470:48ac:1::/64 } on-error={}
 :do { add list=AM address=2001:470:48ac:2::/63 } on-error={}
 :do { add list=AM address=2001:470:48ac:4::/62 } on-error={}

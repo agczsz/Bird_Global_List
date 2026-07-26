@@ -20,6 +20,7 @@
 :do { add list=VE address=2001:470:1f2b:24e::/64 } on-error={}
 :do { add list=VE address=2001:470:1f2b:255::/64 } on-error={}
 :do { add list=VE address=2001:470:1f2b:266::/64 } on-error={}
+:do { add list=VE address=2001:470:3084::/48 } on-error={}
 :do { add list=VE address=2001:470:7556::/48 } on-error={}
 :do { add list=VE address=2001:470:75b7::/48 } on-error={}
 :do { add list=VE address=2001:470:79b8::/48 } on-error={}

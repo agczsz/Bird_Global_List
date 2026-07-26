@@ -2820,6 +2820,7 @@
 :do { add list=CI address=2a14:7585:f508::/48 } on-error={}
 :do { add list=CI address=2a14:c380:7f4::/48 } on-error={}
 :do { add list=CI address=2c0e:7f80::/27 } on-error={}
+:do { add list=CI address=2c0f:1120::/32 } on-error={}
 :do { add list=CI address=2c0f:2a80:b00::/41 } on-error={}
 :do { add list=CI address=2c0f:4c40::/37 } on-error={}
 :do { add list=CI address=2c0f:4c40:800::/40 } on-error={}
