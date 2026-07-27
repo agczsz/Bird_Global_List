@@ -92,6 +92,7 @@
 :do { add list=UZ address=2606:f187:b000::/47 } on-error={}
 :do { add list=UZ address=2606:f4c0:2170::/44 } on-error={}
 :do { add list=UZ address=2606:f4c0:b4e0::/44 } on-error={}
+:do { add list=UZ address=2606:f4c0:bb60::/44 } on-error={}
 :do { add list=UZ address=2607:8940:3dc4::/46 } on-error={}
 :do { add list=UZ address=2607:8940:3dc8::/47 } on-error={}
 :do { add list=UZ address=2607:8940:4172:3000::/55 } on-error={}

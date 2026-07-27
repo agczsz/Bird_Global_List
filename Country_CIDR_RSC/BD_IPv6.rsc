@@ -1,6 +1,5 @@
 /log info "Loading BD IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=BD address=2001:470:36:8e::/64 } on-error={}
 :do { add list=BD address=2001:470:36:436::/64 } on-error={}
 :do { add list=BD address=2001:470:36:455::/64 } on-error={}
 :do { add list=BD address=2001:470:36:1205::/64 } on-error={}
@@ -3183,12 +3182,7 @@
 :do { add list=BD address=2404:4f80:c::/46 } on-error={}
 :do { add list=BD address=2404:4f80:10::/44 } on-error={}
 :do { add list=BD address=2404:4f80:20::/43 } on-error={}
-:do { add list=BD address=2404:4f80:40::/43 } on-error={}
-:do { add list=BD address=2404:4f80:60::/44 } on-error={}
-:do { add list=BD address=2404:4f80:70::/48 } on-error={}
-:do { add list=BD address=2404:4f80:72::/47 } on-error={}
-:do { add list=BD address=2404:4f80:74::/46 } on-error={}
-:do { add list=BD address=2404:4f80:78::/45 } on-error={}
+:do { add list=BD address=2404:4f80:40::/42 } on-error={}
 :do { add list=BD address=2404:4f80:80::/43 } on-error={}
 :do { add list=BD address=2404:4f80:a0::/44 } on-error={}
 :do { add list=BD address=2404:4f80:b0::/119 } on-error={}
@@ -5282,6 +5276,7 @@
 :do { add list=BD address=2606:f188:1000::/47 } on-error={}
 :do { add list=BD address=2606:f4c0:2310::/44 } on-error={}
 :do { add list=BD address=2606:f4c0:b4f0::/44 } on-error={}
+:do { add list=BD address=2606:f4c0:baa0::/44 } on-error={}
 :do { add list=BD address=2607:740:a::/48 } on-error={}
 :do { add list=BD address=2607:740:54:4000::/50 } on-error={}
 :do { add list=BD address=2607:740:54:8000::/49 } on-error={}

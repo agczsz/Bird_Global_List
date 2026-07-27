@@ -58,8 +58,8 @@
 :do { add list=GI address=2a01:8c40:8000::/33 } on-error={}
 :do { add list=GI address=2a02:638::/48 } on-error={}
 :do { add list=GI address=2a02:638:1:5::/64 } on-error={}
-:do { add list=GI address=2a02:638:1:6::/63 } on-error={}
-:do { add list=GI address=2a02:638:1:3c::/63 } on-error={}
+:do { add list=GI address=2a02:638:1:6::/64 } on-error={}
+:do { add list=GI address=2a02:638:1:3d::/64 } on-error={}
 :do { add list=GI address=2a02:638:1:54::/62 } on-error={}
 :do { add list=GI address=2a02:638:1:4000::/50 } on-error={}
 :do { add list=GI address=2a02:638:1:8000::/49 } on-error={}

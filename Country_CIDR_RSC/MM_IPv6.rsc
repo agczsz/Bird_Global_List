@@ -611,6 +611,7 @@
 :do { add list=MM address=2606:f188:7000::/47 } on-error={}
 :do { add list=MM address=2606:f4c0:2280::/44 } on-error={}
 :do { add list=MM address=2606:f4c0:b5a0::/44 } on-error={}
+:do { add list=MM address=2606:f4c0:bb30::/44 } on-error={}
 :do { add list=MM address=2607:74c0:130::/44 } on-error={}
 :do { add list=MM address=2607:8940:3a7a::/47 } on-error={}
 :do { add list=MM address=2607:8940:3a7c::/47 } on-error={}

@@ -1,6 +1,6 @@
 /log info "Loading KH IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=KH address=2001:470:0:5b2::/64 } on-error={}
+:do { add list=KH address=2001:470:0:54b::/64 } on-error={}
 :do { add list=KH address=2001:470:1:eb2::/64 } on-error={}
 :do { add list=KH address=2001:470:19:1c9::/64 } on-error={}
 :do { add list=KH address=2001:470:36:4ee::/64 } on-error={}
@@ -1032,6 +1032,7 @@
 :do { add list=KH address=2606:f188:3000::/47 } on-error={}
 :do { add list=KH address=2606:f4c0:2250::/44 } on-error={}
 :do { add list=KH address=2606:f4c0:b580::/44 } on-error={}
+:do { add list=KH address=2606:f4c0:bb10::/44 } on-error={}
 :do { add list=KH address=2607:740:2d:4000::/50 } on-error={}
 :do { add list=KH address=2607:740:2d:8000::/49 } on-error={}
 :do { add list=KH address=2607:740:7f:4000::/50 } on-error={}

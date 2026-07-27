@@ -475,7 +475,6 @@
 :do { add list=BB address=214.77.168.36/32 } on-error={}
 :do { add list=BB address=214.77.228.82/32 } on-error={}
 :do { add list=BB address=214.78.227.98/31 } on-error={}
-:do { add list=BB address=214.79.146.174/32 } on-error={}
 :do { add list=BB address=214.81.11.73/32 } on-error={}
 :do { add list=BB address=214.81.57.30/32 } on-error={}
 :do { add list=BB address=214.81.114.38/32 } on-error={}

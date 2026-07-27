@@ -84,6 +84,7 @@
 :do { add list=AD address=2606:f18b:1000::/46 } on-error={}
 :do { add list=AD address=2606:f4c0:24c0::/44 } on-error={}
 :do { add list=AD address=2606:f4c0:b710::/44 } on-error={}
+:do { add list=AD address=2606:f4c0:bc20::/44 } on-error={}
 :do { add list=AD address=2607:740:17::/48 } on-error={}
 :do { add list=AD address=2607:740:180:4000::/50 } on-error={}
 :do { add list=AD address=2607:740:180:8000::/49 } on-error={}

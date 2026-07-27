@@ -847,6 +847,7 @@
 :do { add list=DO address=206.1.94.0/24 } on-error={}
 :do { add list=DO address=206.2.128.0/18 } on-error={}
 :do { add list=DO address=206.2.192.0/18 } on-error={}
+:do { add list=DO address=206.26.185.0/24 } on-error={}
 :do { add list=DO address=206.53.50.0/24 } on-error={}
 :do { add list=DO address=206.84.82.0/23 } on-error={}
 :do { add list=DO address=206.84.94.0/23 } on-error={}

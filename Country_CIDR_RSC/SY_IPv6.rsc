@@ -6,10 +6,9 @@
 :do { add list=SY address=2001:730:2607::/64 } on-error={}
 :do { add list=SY address=2001:730:260b::/64 } on-error={}
 :do { add list=SY address=2001:730:2610::/64 } on-error={}
-:do { add list=SY address=2001:730:2614::/64 } on-error={}
-:do { add list=SY address=2001:4478:1:1::9/128 } on-error={}
+:do { add list=SY address=2001:730:2630::/64 } on-error={}
+:do { add list=SY address=2001:4478:1:1::11/128 } on-error={}
 :do { add list=SY address=2001:4478:1:1::40/126 } on-error={}
-:do { add list=SY address=2001:4478:1:1::44/127 } on-error={}
 :do { add list=SY address=2001:4478:1:1::46/128 } on-error={}
 :do { add list=SY address=2001:4478:1:1::48/126 } on-error={}
 :do { add list=SY address=2001:4478:1:1::a0/123 } on-error={}
@@ -20,7 +19,6 @@
 :do { add list=SY address=2001:4478:1:1::106/127 } on-error={}
 :do { add list=SY address=2001:4478:1:1::10a/127 } on-error={}
 :do { add list=SY address=2001:4478:1:1::10c/126 } on-error={}
-:do { add list=SY address=2001:4478:1:1::110/128 } on-error={}
 :do { add list=SY address=2001:4478:1:1::202/127 } on-error={}
 :do { add list=SY address=2001:4478:1:1::204/126 } on-error={}
 :do { add list=SY address=2001:4478:1:1::208/125 } on-error={}
@@ -28,6 +26,7 @@
 :do { add list=SY address=2001:4478:1:1::348/125 } on-error={}
 :do { add list=SY address=2001:4478:1:1::800/124 } on-error={}
 :do { add list=SY address=2001:4478:1:1::81f/128 } on-error={}
+:do { add list=SY address=2001:4478:1:1::823/128 } on-error={}
 :do { add list=SY address=2001:4478:1:1::828/125 } on-error={}
 :do { add list=SY address=2001:4478:1:1::830/124 } on-error={}
 :do { add list=SY address=2001:4478:1:1::840/122 } on-error={}

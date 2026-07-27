@@ -94,7 +94,6 @@
 :do { add list=PR address=2001:550:2:146::8/127 } on-error={}
 :do { add list=PR address=2001:550:2:146::c/127 } on-error={}
 :do { add list=PR address=2001:1498:1:966:1::1052/127 } on-error={}
-:do { add list=PR address=2001:1890:ff:ffff:12:123:241:161/128 } on-error={}
 :do { add list=PR address=2001:4860:7:30c::/64 } on-error={}
 :do { add list=PR address=2001:4860:7:70c::/64 } on-error={}
 :do { add list=PR address=2001:4860:7:e0c::/64 } on-error={}

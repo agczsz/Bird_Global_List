@@ -11,7 +11,6 @@
 :do { add list=GU address=2001:470:fdbc:4000::/50 } on-error={}
 :do { add list=GU address=2001:470:fdbc:8000::/49 } on-error={}
 :do { add list=GU address=2001:5a0:d00::426e:ae/128 } on-error={}
-:do { add list=GU address=2001:5a0:2200:300::d/128 } on-error={}
 :do { add list=GU address=2001:5a0:2200:400::59/128 } on-error={}
 :do { add list=GU address=2001:de9:4000::/48 } on-error={}
 :do { add list=GU address=2001:def:c000::/48 } on-error={}

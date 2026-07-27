@@ -3237,7 +3237,7 @@
 :do { add list=PT address=195.219.32.178/32 } on-error={}
 :do { add list=PT address=195.219.38.240/31 } on-error={}
 :do { add list=PT address=195.219.65.0/29 } on-error={}
-:do { add list=PT address=195.219.65.8/31 } on-error={}
+:do { add list=PT address=195.219.65.8/30 } on-error={}
 :do { add list=PT address=195.219.91.0/30 } on-error={}
 :do { add list=PT address=195.219.91.12/30 } on-error={}
 :do { add list=PT address=195.219.129.0/29 } on-error={}

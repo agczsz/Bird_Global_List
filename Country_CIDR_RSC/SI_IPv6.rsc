@@ -2,7 +2,8 @@
 /ipv6 firewall address-list
 :do { add list=SI address=2001:470:0:40c::/64 } on-error={}
 :do { add list=SI address=2001:470:0:578::2/128 } on-error={}
-:do { add list=SI address=2001:470:1:5be::2/127 } on-error={}
+:do { add list=SI address=2001:470:1:5be::/64 } on-error={}
+:do { add list=SI address=2001:470:1:ea6::/64 } on-error={}
 :do { add list=SI address=2001:470:26:587::/64 } on-error={}
 :do { add list=SI address=2001:470:28:553::/64 } on-error={}
 :do { add list=SI address=2001:470:28:59f::/64 } on-error={}
@@ -177,7 +178,6 @@
 :do { add list=SI address=2001:1498:c:2::/64 } on-error={}
 :do { add list=SI address=2001:15c0::/29 } on-error={}
 :do { add list=SI address=2001:1688::/29 } on-error={}
-:do { add list=SI address=2001:1900:2::3:45/128 } on-error={}
 :do { add list=SI address=2001:1900:5:2:2::2598/127 } on-error={}
 :do { add list=SI address=2001:1900:5:2:2:0:8:47f0/125 } on-error={}
 :do { add list=SI address=2001:3786:4848:100::/56 } on-error={}
@@ -332,6 +332,7 @@
 :do { add list=SI address=2606:f18b:b000::/46 } on-error={}
 :do { add list=SI address=2606:f4c0:2100::/44 } on-error={}
 :do { add list=SI address=2606:f4c0:b460::/44 } on-error={}
+:do { add list=SI address=2606:f4c0:ba70::/44 } on-error={}
 :do { add list=SI address=2607:740:66::/51 } on-error={}
 :do { add list=SI address=2607:740:66:2000::/64 } on-error={}
 :do { add list=SI address=2607:740:66:2004::/62 } on-error={}

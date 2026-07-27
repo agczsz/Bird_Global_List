@@ -132,7 +132,16 @@
 :do { add list=CG address=197.157.253.244/31 } on-error={}
 :do { add list=CG address=197.157.253.247/32 } on-error={}
 :do { add list=CG address=197.157.253.248/29 } on-error={}
-:do { add list=CG address=197.157.254.0/23 } on-error={}
+:do { add list=CG address=197.157.254.0/25 } on-error={}
+:do { add list=CG address=197.157.254.128/27 } on-error={}
+:do { add list=CG address=197.157.254.160/28 } on-error={}
+:do { add list=CG address=197.157.254.178/31 } on-error={}
+:do { add list=CG address=197.157.254.180/30 } on-error={}
+:do { add list=CG address=197.157.254.184/29 } on-error={}
+:do { add list=CG address=197.157.254.192/27 } on-error={}
+:do { add list=CG address=197.157.254.224/28 } on-error={}
+:do { add list=CG address=197.157.254.240/29 } on-error={}
+:do { add list=CG address=197.157.255.0/24 } on-error={}
 :do { add list=CG address=197.214.128.0/17 } on-error={}
 :do { add list=CG address=197.255.176.0/20 } on-error={}
 :do { add list=CG address=217.113.65.0/24 } on-error={}

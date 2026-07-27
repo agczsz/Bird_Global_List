@@ -300,11 +300,13 @@
 :do { add list=NP address=2405:ec00::/64 } on-error={}
 :do { add list=NP address=2405:ec00:0:2011::/64 } on-error={}
 :do { add list=NP address=2405:ec00:0:2012::/63 } on-error={}
-:do { add list=NP address=2405:ec00:0:2017::/64 } on-error={}
+:do { add list=NP address=2405:ec00:0:2017::1/128 } on-error={}
+:do { add list=NP address=2405:ec00:0:2017::2/128 } on-error={}
 :do { add list=NP address=2405:ec00:0:201a::/64 } on-error={}
 :do { add list=NP address=2405:ec00:1::/64 } on-error={}
 :do { add list=NP address=2405:ec00:1:5::/64 } on-error={}
 :do { add list=NP address=2405:ec00:1:6::/64 } on-error={}
+:do { add list=NP address=2405:ec00:1:8::/63 } on-error={}
 :do { add list=NP address=2405:ec00:1:a::/64 } on-error={}
 :do { add list=NP address=2405:ec00:1:c::/62 } on-error={}
 :do { add list=NP address=2405:ec00:1:11::/64 } on-error={}
