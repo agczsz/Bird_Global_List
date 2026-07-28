@@ -1,7 +1,6 @@
 /log info "Loading CI IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=CI address=2001:470:71:69d::/64 } on-error={}
-:do { add list=CI address=2001:470:1f23:76::/64 } on-error={}
 :do { add list=CI address=2001:470:1f23:369::/64 } on-error={}
 :do { add list=CI address=2001:470:1f27:60::/64 } on-error={}
 :do { add list=CI address=2001:470:1f27:d4::/64 } on-error={}

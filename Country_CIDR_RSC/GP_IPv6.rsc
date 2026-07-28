@@ -91,8 +91,7 @@
 :do { add list=GP address=2a01:e08:140::/42 } on-error={}
 :do { add list=GP address=2a01:cb08:a004:21d::/72 } on-error={}
 :do { add list=GP address=2a01:cb20:4011:9b00::/64 } on-error={}
-:do { add list=GP address=2a01:cb20:40d0:1600::/64 } on-error={}
-:do { add list=GP address=2a01:cb20:40f6:f301::/64 } on-error={}
+:do { add list=GP address=2a01:cb20:40e7:3a00::/64 } on-error={}
 :do { add list=GP address=2a01:cb20:410b:7d00::/64 } on-error={}
 :do { add list=GP address=2a01:cb20:412c:1100::/64 } on-error={}
 :do { add list=GP address=2a01:cb20:413e:f900::/64 } on-error={}

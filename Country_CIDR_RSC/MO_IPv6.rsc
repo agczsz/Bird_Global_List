@@ -1,5 +1,6 @@
 /log info "Loading MO IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=MO address=2001:470:d:12b3::/64 } on-error={}
 :do { add list=MO address=2001:470:19:118::/64 } on-error={}
 :do { add list=MO address=2001:470:19:174::/64 } on-error={}
 :do { add list=MO address=2001:470:19:237::/64 } on-error={}
@@ -10,6 +11,7 @@
 :do { add list=MO address=2001:470:19:ce0::/64 } on-error={}
 :do { add list=MO address=2001:470:19:102b::/64 } on-error={}
 :do { add list=MO address=2001:470:19:10e8::/64 } on-error={}
+:do { add list=MO address=2001:470:1d:37a::/64 } on-error={}
 :do { add list=MO address=2001:470:24:352::/64 } on-error={}
 :do { add list=MO address=2001:470:24:45b::/64 } on-error={}
 :do { add list=MO address=2001:470:24:66b::/64 } on-error={}
@@ -81,6 +83,7 @@
 :do { add list=MO address=2001:470:812e:2000::/51 } on-error={}
 :do { add list=MO address=2001:470:812e:4000::/50 } on-error={}
 :do { add list=MO address=2001:470:812e:8000::/49 } on-error={}
+:do { add list=MO address=2001:470:8162::/48 } on-error={}
 :do { add list=MO address=2001:470:81f0::/48 } on-error={}
 :do { add list=MO address=2001:470:827e::/48 } on-error={}
 :do { add list=MO address=2001:470:82e2::/48 } on-error={}
@@ -161,6 +164,8 @@
 :do { add list=MO address=2001:470:f1da::/48 } on-error={}
 :do { add list=MO address=2001:470:f205::/48 } on-error={}
 :do { add list=MO address=2001:470:f20d::/48 } on-error={}
+:do { add list=MO address=2001:470:f257:4000::/50 } on-error={}
+:do { add list=MO address=2001:470:f257:8000::/49 } on-error={}
 :do { add list=MO address=2001:470:f2c5::/48 } on-error={}
 :do { add list=MO address=2001:470:f2d5::/48 } on-error={}
 :do { add list=MO address=2001:470:f32b::/48 } on-error={}
@@ -3935,11 +3940,7 @@
 :do { add list=MO address=2a14:67c2:80e::/48 } on-error={}
 :do { add list=MO address=2a14:67c3::/44 } on-error={}
 :do { add list=MO address=2a14:67c3:770:8700::/56 } on-error={}
-:do { add list=MO address=2a14:7580:6100::/44 } on-error={}
-:do { add list=MO address=2a14:7580:6110::/44 } on-error={}
-:do { add list=MO address=2a14:7580:6120::/43 } on-error={}
-:do { add list=MO address=2a14:7580:6140::/42 } on-error={}
-:do { add list=MO address=2a14:7580:6180::/41 } on-error={}
+:do { add list=MO address=2a14:7580:6100::/40 } on-error={}
 :do { add list=MO address=2a14:7580:cf93::/48 } on-error={}
 :do { add list=MO address=2a14:7580:e472::/48 } on-error={}
 :do { add list=MO address=2a14:7581:b10:8100::/56 } on-error={}

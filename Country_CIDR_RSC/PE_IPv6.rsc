@@ -3,6 +3,8 @@
 :do { add list=PE address=2001:418:0:5000::535/128 } on-error={}
 :do { add list=PE address=2001:418:0:5000::65d/128 } on-error={}
 :do { add list=PE address=2001:450:2002:236::768/125 } on-error={}
+:do { add list=PE address=2001:470:5:1eb::/64 } on-error={}
+:do { add list=PE address=2001:470:5:65b::/64 } on-error={}
 :do { add list=PE address=2001:470:1f2b:5::/64 } on-error={}
 :do { add list=PE address=2001:470:1f2b:8::/64 } on-error={}
 :do { add list=PE address=2001:470:1f2b:25::/64 } on-error={}

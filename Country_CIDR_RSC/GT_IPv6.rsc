@@ -4373,10 +4373,7 @@
 :do { add list=GT address=2803:7000:2000::/35 } on-error={}
 :do { add list=GT address=2803:7000:4000::/35 } on-error={}
 :do { add list=GT address=2803:7000:6000::/35 } on-error={}
-:do { add list=GT address=2803:7000:8000::/36 } on-error={}
-:do { add list=GT address=2803:7000:9000::/36 } on-error={}
-:do { add list=GT address=2803:7000:a000::/35 } on-error={}
-:do { add list=GT address=2803:7000:c000::/34 } on-error={}
+:do { add list=GT address=2803:7000:8000::/33 } on-error={}
 :do { add list=GT address=2803:7140::/32 } on-error={}
 :do { add list=GT address=2803:7920::/32 } on-error={}
 :do { add list=GT address=2803:7d60::/32 } on-error={}

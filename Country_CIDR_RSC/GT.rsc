@@ -751,7 +751,6 @@
 :do { add list=GT address=198.45.242.64/27 } on-error={}
 :do { add list=GT address=198.59.156.30/32 } on-error={}
 :do { add list=GT address=198.64.211.0/24 } on-error={}
-:do { add list=GT address=199.60.215.112/29 } on-error={}
 :do { add list=GT address=199.100.36.0/27 } on-error={}
 :do { add list=GT address=199.100.36.32/31 } on-error={}
 :do { add list=GT address=199.100.36.36/30 } on-error={}

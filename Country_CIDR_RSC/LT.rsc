@@ -1307,6 +1307,7 @@
 :do { add list=LT address=151.246.33.0/24 } on-error={}
 :do { add list=LT address=151.246.34.0/23 } on-error={}
 :do { add list=LT address=151.246.36.0/22 } on-error={}
+:do { add list=LT address=152.89.251.0/24 } on-error={}
 :do { add list=LT address=153.72.26.192/26 } on-error={}
 :do { add list=LT address=153.92.0.0/24 } on-error={}
 :do { add list=LT address=153.92.1.0/24 } on-error={}

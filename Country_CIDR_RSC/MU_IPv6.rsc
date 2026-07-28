@@ -1,6 +1,5 @@
 /log info "Loading MU IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=MU address=2001:470:1f23:21::/64 } on-error={}
 :do { add list=MU address=2001:470:1f23:4c1::/64 } on-error={}
 :do { add list=MU address=2001:470:2205::/48 } on-error={}
 :do { add list=MU address=2001:470:715e::/48 } on-error={}

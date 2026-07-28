@@ -465,7 +465,6 @@
 :do { add list=AE address=31.57.8.0/24 } on-error={}
 :do { add list=AE address=31.57.200.0/24 } on-error={}
 :do { add list=AE address=31.57.228.0/24 } on-error={}
-:do { add list=AE address=31.58.60.0/24 } on-error={}
 :do { add list=AE address=31.58.237.0/24 } on-error={}
 :do { add list=AE address=31.58.245.0/25 } on-error={}
 :do { add list=AE address=31.58.245.128/26 } on-error={}

@@ -2,8 +2,6 @@
 /ipv6 firewall address-list
 :do { add list=EG address=2001:470:24:2dd::/64 } on-error={}
 :do { add list=EG address=2001:470:28:109d::/64 } on-error={}
-:do { add list=EG address=2001:470:1f0b:6a7::/64 } on-error={}
-:do { add list=EG address=2001:470:1f0b:b43::/64 } on-error={}
 :do { add list=EG address=2001:470:1f15:91c::/64 } on-error={}
 :do { add list=EG address=2001:470:1f27:f::/64 } on-error={}
 :do { add list=EG address=2001:470:1f29:129::/64 } on-error={}

@@ -90,15 +90,3 @@
 :do { add list=YT address=194.3.202.32/30 } on-error={}
 :do { add list=YT address=194.3.202.40/29 } on-error={}
 :do { add list=YT address=194.3.202.64/27 } on-error={}
-:do { add list=YT address=194.3.222.0/28 } on-error={}
-:do { add list=YT address=194.3.222.24/29 } on-error={}
-:do { add list=YT address=194.3.222.64/30 } on-error={}
-:do { add list=YT address=194.3.222.96/28 } on-error={}
-:do { add list=YT address=194.3.222.112/29 } on-error={}
-:do { add list=YT address=194.3.222.136/29 } on-error={}
-:do { add list=YT address=194.3.222.152/29 } on-error={}
-:do { add list=YT address=194.3.222.160/29 } on-error={}
-:do { add list=YT address=194.3.222.176/29 } on-error={}
-:do { add list=YT address=194.3.222.200/29 } on-error={}
-:do { add list=YT address=194.3.222.208/29 } on-error={}
-:do { add list=YT address=194.3.222.232/30 } on-error={}

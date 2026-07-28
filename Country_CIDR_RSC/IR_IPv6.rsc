@@ -169,7 +169,6 @@
 :do { add list=IR address=2a00:4000::/29 } on-error={}
 :do { add list=IR address=2a00:4c60::/32 } on-error={}
 :do { add list=IR address=2a00:52e0::/32 } on-error={}
-:do { add list=IR address=2a00:5540:1::/48 } on-error={}
 :do { add list=IR address=2a00:5ca0::/29 } on-error={}
 :do { add list=IR address=2a00:6380::/32 } on-error={}
 :do { add list=IR address=2a00:63a0::/32 } on-error={}

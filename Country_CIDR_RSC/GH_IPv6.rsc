@@ -3,7 +3,6 @@
 :do { add list=GH address=2001:470:19:b5b::/64 } on-error={}
 :do { add list=GH address=2001:470:36:868::/64 } on-error={}
 :do { add list=GH address=2001:470:1f21:a4::/64 } on-error={}
-:do { add list=GH address=2001:470:1f23:13b::/64 } on-error={}
 :do { add list=GH address=2001:470:503a::/48 } on-error={}
 :do { add list=GH address=2001:470:6a05::/48 } on-error={}
 :do { add list=GH address=2001:470:7055::/48 } on-error={}
@@ -328,7 +327,6 @@
 :do { add list=GH address=2a02:26f7:c54c:44c0::/62 } on-error={}
 :do { add list=GH address=2a02:26f7:c54c:44c4::/63 } on-error={}
 :do { add list=GH address=2a02:26f7:c54c:44c6::/64 } on-error={}
-:do { add list=GH address=2a02:26f7:c54c:8000::/49 } on-error={}
 :do { add list=GH address=2a02:26f7:c54d::/48 } on-error={}
 :do { add list=GH address=2a02:26f7:c54e::/47 } on-error={}
 :do { add list=GH address=2a02:26f7:c550:4000::/64 } on-error={}

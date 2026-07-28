@@ -34,11 +34,9 @@
 :do { add list=NO address=2001:470:28:f7c::/64 } on-error={}
 :do { add list=NO address=2001:470:28:10ec::/64 } on-error={}
 :do { add list=NO address=2001:470:28:1165::/64 } on-error={}
-:do { add list=NO address=2001:470:6d:bd7::/64 } on-error={}
 :do { add list=NO address=2001:470:6f:481::/64 } on-error={}
 :do { add list=NO address=2001:470:6f:4c5::/64 } on-error={}
 :do { add list=NO address=2001:470:1836::/48 } on-error={}
-:do { add list=NO address=2001:470:1f0b:aee::/64 } on-error={}
 :do { add list=NO address=2001:470:1f15:45::/64 } on-error={}
 :do { add list=NO address=2001:470:1f15:bb::/64 } on-error={}
 :do { add list=NO address=2001:470:1f15:43a::/64 } on-error={}

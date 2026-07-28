@@ -2109,8 +2109,6 @@
 :do { add list=EC address=2803:53e0:0:4000::/50 } on-error={}
 :do { add list=EC address=2803:53e0:0:8000::/49 } on-error={}
 :do { add list=EC address=2803:53e0:1000::/48 } on-error={}
-:do { add list=EC address=2803:53e0:1003:4000::/50 } on-error={}
-:do { add list=EC address=2803:53e0:1003:8000::/49 } on-error={}
 :do { add list=EC address=2803:53e0:1005::/48 } on-error={}
 :do { add list=EC address=2803:56a0::/35 } on-error={}
 :do { add list=EC address=2803:56a0:2300::/40 } on-error={}

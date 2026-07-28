@@ -22,8 +22,6 @@
 :do { add list=KE address=2001:470:1:ebe::/64 } on-error={}
 :do { add list=KE address=2001:470:28:114a::/64 } on-error={}
 :do { add list=KE address=2001:470:422::/50 } on-error={}
-:do { add list=KE address=2001:470:1f23:47::/64 } on-error={}
-:do { add list=KE address=2001:470:1f23:58::/64 } on-error={}
 :do { add list=KE address=2001:470:1f27:27::/64 } on-error={}
 :do { add list=KE address=2001:470:1f27:34::/64 } on-error={}
 :do { add list=KE address=2001:470:1f27:95::/64 } on-error={}

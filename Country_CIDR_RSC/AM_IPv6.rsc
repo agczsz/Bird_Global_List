@@ -1,5 +1,6 @@
 /log info "Loading AM IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=AM address=2001:470:1d:31a::/64 } on-error={}
 :do { add list=AM address=2001:470:24:1377::/64 } on-error={}
 :do { add list=AM address=2001:470:24:1380::/64 } on-error={}
 :do { add list=AM address=2001:470:28:9f6::/64 } on-error={}
@@ -8,8 +9,6 @@
 :do { add list=AM address=2001:470:28:f9b::/64 } on-error={}
 :do { add list=AM address=2001:470:28:1156::/64 } on-error={}
 :do { add list=AM address=2001:470:36:7e7::/64 } on-error={}
-:do { add list=AM address=2001:470:1f0b:35a::/64 } on-error={}
-:do { add list=AM address=2001:470:1f0b:612::/64 } on-error={}
 :do { add list=AM address=2001:470:1f15:2e::/64 } on-error={}
 :do { add list=AM address=2001:470:1f15:e4::/64 } on-error={}
 :do { add list=AM address=2001:470:1f15:212::/64 } on-error={}
