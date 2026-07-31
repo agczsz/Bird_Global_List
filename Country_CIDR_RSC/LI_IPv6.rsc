@@ -24,6 +24,14 @@
 :do { add list=LI address=2405:b500:42c0::/64 } on-error={}
 :do { add list=LI address=2405:b500:42e0::/64 } on-error={}
 :do { add list=LI address=2606:40:800::/44 } on-error={}
+:do { add list=LI address=2606:40:1a10:4000::/50 } on-error={}
+:do { add list=LI address=2606:40:1a10:8000::/49 } on-error={}
+:do { add list=LI address=2606:40:1a11::/48 } on-error={}
+:do { add list=LI address=2606:40:1a12::/47 } on-error={}
+:do { add list=LI address=2606:40:1a14::/46 } on-error={}
+:do { add list=LI address=2606:40:1a18::/45 } on-error={}
+:do { add list=LI address=2606:40:1a20::/43 } on-error={}
+:do { add list=LI address=2606:40:1a40::/44 } on-error={}
 :do { add list=LI address=2606:40:21c0:e000::/54 } on-error={}
 :do { add list=LI address=2606:40:21c0:f000::/52 } on-error={}
 :do { add list=LI address=2606:40:22f0:2000::/54 } on-error={}

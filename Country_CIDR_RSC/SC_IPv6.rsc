@@ -966,6 +966,8 @@
 :do { add list=SC address=2a0e:5a80:27e0::/43 } on-error={}
 :do { add list=SC address=2a0e:5a80:2800::/41 } on-error={}
 :do { add list=SC address=2a0e:5a80:2880::/44 } on-error={}
+:do { add list=SC address=2a0e:5a80:2890::/49 } on-error={}
+:do { add list=SC address=2a0e:5a80:2890:8000::/50 } on-error={}
 :do { add list=SC address=2a0e:5a80:2891::/48 } on-error={}
 :do { add list=SC address=2a0e:5a80:2892::/47 } on-error={}
 :do { add list=SC address=2a0e:5a80:2894::/46 } on-error={}

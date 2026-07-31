@@ -1,5 +1,6 @@
 /log info "Loading BO IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=BO address=2001:470:1f2b:45::/64 } on-error={}
 :do { add list=BO address=2001:470:1f2b:cd::/64 } on-error={}
 :do { add list=BO address=2001:470:1f2b:f3::/64 } on-error={}
 :do { add list=BO address=2001:470:1f2b:17d::/64 } on-error={}
@@ -332,7 +333,8 @@
 :do { add list=BO address=2800:320:ce80::/42 } on-error={}
 :do { add list=BO address=2800:320:cec0::/42 } on-error={}
 :do { add list=BO address=2800:320:cf00::/41 } on-error={}
-:do { add list=BO address=2800:320:cf80::/41 } on-error={}
+:do { add list=BO address=2800:320:cf80::/42 } on-error={}
+:do { add list=BO address=2800:320:cfc0::/42 } on-error={}
 :do { add list=BO address=2800:320:d000::/36 } on-error={}
 :do { add list=BO address=2800:320:e000::/35 } on-error={}
 :do { add list=BO address=2800:390::/32 } on-error={}
@@ -379,8 +381,8 @@
 :do { add list=BO address=2800:2502:6:8700::/56 } on-error={}
 :do { add list=BO address=2800:2502:6:a300::/56 } on-error={}
 :do { add list=BO address=2800:2502:7:1f00::/56 } on-error={}
-:do { add list=BO address=2800:2502:7:3a00::/55 } on-error={}
-:do { add list=BO address=2800:2502:8:7700::/56 } on-error={}
+:do { add list=BO address=2800:2502:7:3800::/54 } on-error={}
+:do { add list=BO address=2800:2502:8:7600::/55 } on-error={}
 :do { add list=BO address=2801:0:170::/48 } on-error={}
 :do { add list=BO address=2801:10:2800::/48 } on-error={}
 :do { add list=BO address=2801:10:5000::/48 } on-error={}

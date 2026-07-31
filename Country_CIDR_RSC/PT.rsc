@@ -401,6 +401,7 @@
 :do { add list=PT address=58.97.130.128/25 } on-error={}
 :do { add list=PT address=58.97.131.0/24 } on-error={}
 :do { add list=PT address=58.97.132.0/22 } on-error={}
+:do { add list=PT address=62.22.146.26/32 } on-error={}
 :do { add list=PT address=62.22.244.246/32 } on-error={}
 :do { add list=PT address=62.23.61.60/30 } on-error={}
 :do { add list=PT address=62.28.0.0/16 } on-error={}
@@ -460,9 +461,11 @@
 :do { add list=PT address=62.249.2.104/29 } on-error={}
 :do { add list=PT address=62.249.2.112/28 } on-error={}
 :do { add list=PT address=62.249.2.128/25 } on-error={}
+:do { add list=PT address=62.249.6.209/32 } on-error={}
 :do { add list=PT address=62.249.8.0/25 } on-error={}
 :do { add list=PT address=62.249.8.128/28 } on-error={}
 :do { add list=PT address=62.249.8.192/26 } on-error={}
+:do { add list=PT address=62.249.12.130/32 } on-error={}
 :do { add list=PT address=62.249.14.110/32 } on-error={}
 :do { add list=PT address=63.219.52.221/32 } on-error={}
 :do { add list=PT address=63.220.70.13/32 } on-error={}
@@ -3236,7 +3239,7 @@
 :do { add list=PT address=195.219.32.178/32 } on-error={}
 :do { add list=PT address=195.219.38.240/31 } on-error={}
 :do { add list=PT address=195.219.65.0/29 } on-error={}
-:do { add list=PT address=195.219.65.8/31 } on-error={}
+:do { add list=PT address=195.219.65.8/30 } on-error={}
 :do { add list=PT address=195.219.91.0/30 } on-error={}
 :do { add list=PT address=195.219.91.12/30 } on-error={}
 :do { add list=PT address=195.219.129.0/29 } on-error={}
@@ -3336,7 +3339,8 @@
 :do { add list=PT address=197.234.66.192/32 } on-error={}
 :do { add list=PT address=197.234.67.184/32 } on-error={}
 :do { add list=PT address=197.234.113.4/32 } on-error={}
-:do { add list=PT address=197.242.32.0/30 } on-error={}
+:do { add list=PT address=197.242.32.1/32 } on-error={}
+:do { add list=PT address=197.242.32.2/31 } on-error={}
 :do { add list=PT address=198.54.100.42/31 } on-error={}
 :do { add list=PT address=198.56.128.0/17 } on-error={}
 :do { add list=PT address=198.64.129.0/24 } on-error={}

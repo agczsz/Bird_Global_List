@@ -6696,7 +6696,6 @@
 :do { add list=MU address=2c0f:ef68:3:8000::/49 } on-error={}
 :do { add list=MU address=2c0f:ef68:5:4000::/50 } on-error={}
 :do { add list=MU address=2c0f:ef68:5:8000::/49 } on-error={}
-:do { add list=MU address=2c0f:ef68:10::/48 } on-error={}
 :do { add list=MU address=2c0f:ef69::/32 } on-error={}
 :do { add list=MU address=2c0f:ef6a::/31 } on-error={}
 :do { add list=MU address=2c0f:ef6c::/30 } on-error={}

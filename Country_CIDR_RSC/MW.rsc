@@ -46,7 +46,16 @@
 :do { add list=MW address=102.68.113.88/29 } on-error={}
 :do { add list=MW address=102.68.113.96/29 } on-error={}
 :do { add list=MW address=102.68.113.128/25 } on-error={}
-:do { add list=MW address=102.70.0.0/15 } on-error={}
+:do { add list=MW address=102.70.0.0/18 } on-error={}
+:do { add list=MW address=102.70.64.0/20 } on-error={}
+:do { add list=MW address=102.70.80.0/22 } on-error={}
+:do { add list=MW address=102.70.84.0/23 } on-error={}
+:do { add list=MW address=102.70.86.0/24 } on-error={}
+:do { add list=MW address=102.70.87.0/24 } on-error={}
+:do { add list=MW address=102.70.88.0/21 } on-error={}
+:do { add list=MW address=102.70.96.0/19 } on-error={}
+:do { add list=MW address=102.70.128.0/17 } on-error={}
+:do { add list=MW address=102.71.0.0/16 } on-error={}
 :do { add list=MW address=102.130.101.0/24 } on-error={}
 :do { add list=MW address=102.132.122.0/24 } on-error={}
 :do { add list=MW address=102.176.250.0/24 } on-error={}

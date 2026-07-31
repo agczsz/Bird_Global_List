@@ -24,6 +24,12 @@
 :do { add list=SS address=2605:59c8:6d00::/40 } on-error={}
 :do { add list=SS address=2606:40:a88::/45 } on-error={}
 :do { add list=SS address=2606:40:a90::/45 } on-error={}
+:do { add list=SS address=2606:40:1310:4000::/50 } on-error={}
+:do { add list=SS address=2606:40:1310:8000::/49 } on-error={}
+:do { add list=SS address=2606:40:1311::/48 } on-error={}
+:do { add list=SS address=2606:40:1312::/47 } on-error={}
+:do { add list=SS address=2606:40:1314::/46 } on-error={}
+:do { add list=SS address=2606:40:1318::/45 } on-error={}
 :do { add list=SS address=2606:54c0:5550::/45 } on-error={}
 :do { add list=SS address=2606:54c3:0:dc0::/64 } on-error={}
 :do { add list=SS address=2a00:ca0:2004:2000::/52 } on-error={}

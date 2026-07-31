@@ -278,7 +278,8 @@
 :do { add list=VG address=2620:4e:2000::/48 } on-error={}
 :do { add list=VG address=2620:d1:e002::/47 } on-error={}
 :do { add list=VG address=2620:d1:e004::/46 } on-error={}
-:do { add list=VG address=2620:d1:e008::/46 } on-error={}
+:do { add list=VG address=2620:d1:e008::/47 } on-error={}
+:do { add list=VG address=2620:d1:e00a::/48 } on-error={}
 :do { add list=VG address=2620:d1:e00c::/47 } on-error={}
 :do { add list=VG address=2620:e1:c000::/48 } on-error={}
 :do { add list=VG address=2620:171:b9::/48 } on-error={}

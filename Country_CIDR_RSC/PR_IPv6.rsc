@@ -1179,7 +1179,6 @@
 :do { add list=PR address=2a02:26f7:e7c2:4b88::/62 } on-error={}
 :do { add list=PR address=2a02:26f7:e7c2:4b8c::/63 } on-error={}
 :do { add list=PR address=2a02:26f7:e7c2:4b8e::/64 } on-error={}
-:do { add list=PR address=2a02:26f7:e7c2:8000::/49 } on-error={}
 :do { add list=PR address=2a02:26f7:e7c3::/48 } on-error={}
 :do { add list=PR address=2a02:26f7:e7c4:4000::/64 } on-error={}
 :do { add list=PR address=2a02:26f7:e7c4:4b80::/61 } on-error={}

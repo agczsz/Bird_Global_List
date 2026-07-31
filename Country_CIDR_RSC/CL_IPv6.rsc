@@ -6,7 +6,6 @@
 :do { add list=CL address=2001:470:0:738::2/128 } on-error={}
 :do { add list=CL address=2001:470:0:767::2/128 } on-error={}
 :do { add list=CL address=2001:470:5:977::/64 } on-error={}
-:do { add list=CL address=2001:470:8:388::/64 } on-error={}
 :do { add list=CL address=2001:470:28:114f::/64 } on-error={}
 :do { add list=CL address=2001:470:1f1f:12c::/64 } on-error={}
 :do { add list=CL address=2001:470:1f2b:6::/63 } on-error={}
