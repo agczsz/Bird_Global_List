@@ -1311,6 +1311,7 @@
 :do { add list=AO address=2c0f:2bc0::/32 } on-error={}
 :do { add list=AO address=2c0f:43a0::/32 } on-error={}
 :do { add list=AO address=2c0f:4520::/32 } on-error={}
+:do { add list=AO address=2c0f:51a0::/32 } on-error={}
 :do { add list=AO address=2c0f:5600::/32 } on-error={}
 :do { add list=AO address=2c0f:6540::/32 } on-error={}
 :do { add list=AO address=2c0f:73c0::/32 } on-error={}

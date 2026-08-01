@@ -2246,12 +2246,12 @@
 :do { add list=NG address=2c0f:ee00::97:90/128 } on-error={}
 :do { add list=NG address=2c0f:ee00::97:97/128 } on-error={}
 :do { add list=NG address=2c0f:ee00::97:178/125 } on-error={}
-:do { add list=NG address=2c0f:ee00::97:202/127 } on-error={}
+:do { add list=NG address=2c0f:ee00::97:202/128 } on-error={}
 :do { add list=NG address=2c0f:ee00::97:204/127 } on-error={}
 :do { add list=NG address=2c0f:ee00::97:222/127 } on-error={}
 :do { add list=NG address=2c0f:ee00::97:225/128 } on-error={}
 :do { add list=NG address=2c0f:ee00::97:230/126 } on-error={}
-:do { add list=NG address=2c0f:ee00::97:236/127 } on-error={}
+:do { add list=NG address=2c0f:ee00::97:236/128 } on-error={}
 :do { add list=NG address=2c0f:ee00::97:238/125 } on-error={}
 :do { add list=NG address=2c0f:ee00::97:240/126 } on-error={}
 :do { add list=NG address=2c0f:ee00::97:253/128 } on-error={}

@@ -8393,6 +8393,7 @@
 :do { add list=NO address=2a12:ff06::/31 } on-error={}
 :do { add list=NO address=2a13:240:1::/48 } on-error={}
 :do { add list=NO address=2a13:240:4400::/40 } on-error={}
+:do { add list=NO address=2a13:240:4f00::/40 } on-error={}
 :do { add list=NO address=2a13:240:8000::/50 } on-error={}
 :do { add list=NO address=2a13:240:8001::/50 } on-error={}
 :do { add list=NO address=2a13:a40::/29 } on-error={}

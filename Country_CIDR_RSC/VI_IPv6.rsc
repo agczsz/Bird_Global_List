@@ -174,7 +174,6 @@
 :do { add list=VI address=2a0f:6280:c200::/39 } on-error={}
 :do { add list=VI address=2a0f:6280:c400::/38 } on-error={}
 :do { add list=VI address=2a0f:6280:c800::/38 } on-error={}
-:do { add list=VI address=2a0f:6280:cc00::/40 } on-error={}
 :do { add list=VI address=2a0f:6280:cf6f::/48 } on-error={}
 :do { add list=VI address=2a0f:6280:cf70::/45 } on-error={}
 :do { add list=VI address=2a0f:6280:cf78::/47 } on-error={}
@@ -227,6 +226,5 @@
 :do { add list=VI address=2a14:7584:e800:1800::/54 } on-error={}
 :do { add list=VI address=2a14:7584:e8ff:14::/64 } on-error={}
 :do { add list=VI address=2a14:7584:e8ff:1c::/64 } on-error={}
-:do { add list=VI address=2a14:7584:e910::/44 } on-error={}
 :do { add list=VI address=2a14:7584:ea00::/39 } on-error={}
 :do { add list=VI address=2a14:c380:27::/48 } on-error={}

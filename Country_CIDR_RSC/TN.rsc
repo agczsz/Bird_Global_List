@@ -343,8 +343,7 @@
 :do { add list=TN address=193.95.0.0/23 } on-error={}
 :do { add list=TN address=193.95.2.0/24 } on-error={}
 :do { add list=TN address=193.95.3.0/24 } on-error={}
-:do { add list=TN address=193.95.4.0/24 } on-error={}
-:do { add list=TN address=193.95.5.0/24 } on-error={}
+:do { add list=TN address=193.95.4.0/23 } on-error={}
 :do { add list=TN address=193.95.6.0/23 } on-error={}
 :do { add list=TN address=193.95.8.0/22 } on-error={}
 :do { add list=TN address=193.95.12.0/23 } on-error={}
@@ -557,7 +556,10 @@
 :do { add list=TN address=197.10.120.0/24 } on-error={}
 :do { add list=TN address=197.10.121.0/24 } on-error={}
 :do { add list=TN address=197.10.122.0/23 } on-error={}
-:do { add list=TN address=197.10.124.0/22 } on-error={}
+:do { add list=TN address=197.10.124.0/24 } on-error={}
+:do { add list=TN address=197.10.125.0/24 } on-error={}
+:do { add list=TN address=197.10.126.0/24 } on-error={}
+:do { add list=TN address=197.10.127.0/24 } on-error={}
 :do { add list=TN address=197.10.128.0/19 } on-error={}
 :do { add list=TN address=197.10.160.0/19 } on-error={}
 :do { add list=TN address=197.10.192.0/19 } on-error={}

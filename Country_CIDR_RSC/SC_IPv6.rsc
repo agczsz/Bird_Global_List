@@ -1708,7 +1708,6 @@
 :do { add list=SC address=2a0f:e247:f800::/37 } on-error={}
 :do { add list=SC address=2a0f:e7c7:c7::/48 } on-error={}
 :do { add list=SC address=2a0f:e7c7:fe::/48 } on-error={}
-:do { add list=SC address=2a0f:e7c7:14e::/48 } on-error={}
 :do { add list=SC address=2a0f:e7c7:189::/48 } on-error={}
 :do { add list=SC address=2a0f:e7c7:216::/48 } on-error={}
 :do { add list=SC address=2a0f:e7c7:236::/48 } on-error={}
