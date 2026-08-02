@@ -10340,8 +10340,8 @@
 :do { add list=KR address=2a14:60c7:8064:4000::/50 } on-error={}
 :do { add list=KR address=2a14:60c7:8064:8000::/49 } on-error={}
 :do { add list=KR address=2a14:67c1:b678::/48 } on-error={}
-:do { add list=KR address=2a14:67c1:b700::/50 } on-error={}
-:do { add list=KR address=2a14:67c1:b800::/50 } on-error={}
+:do { add list=KR address=2a14:67c1:b700::/40 } on-error={}
+:do { add list=KR address=2a14:67c1:b800::/40 } on-error={}
 :do { add list=KR address=2a14:67c2:3f0::/48 } on-error={}
 :do { add list=KR address=2a14:67c2:89a::/48 } on-error={}
 :do { add list=KR address=2a14:67c2:8ad::/48 } on-error={}

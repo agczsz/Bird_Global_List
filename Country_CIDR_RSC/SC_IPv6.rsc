@@ -850,6 +850,7 @@
 :do { add list=SC address=2a0c:7886:211::/48 } on-error={}
 :do { add list=SC address=2a0c:7886:24c::/48 } on-error={}
 :do { add list=SC address=2a0c:9a40:868c::/48 } on-error={}
+:do { add list=SC address=2a0c:9a40:8bd0::/48 } on-error={}
 :do { add list=SC address=2a0c:9a40:95bc:4000::/52 } on-error={}
 :do { add list=SC address=2a0c:9a46:3c3::/48 } on-error={}
 :do { add list=SC address=2a0c:9a46:3fe:c2::/64 } on-error={}

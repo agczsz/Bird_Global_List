@@ -1296,7 +1296,7 @@
 :do { add list=HR address=2a0d:9440:6000::/37 } on-error={}
 :do { add list=HR address=2a0d:f440::/29 } on-error={}
 :do { add list=HR address=2a0e:46c3:703::/48 } on-error={}
-:do { add list=HR address=2a0e:acc0:ac54::/48 } on-error={}
+:do { add list=HR address=2a0e:acc0:ac54::/50 } on-error={}
 :do { add list=HR address=2a0e:b107:5cc::/48 } on-error={}
 :do { add list=HR address=2a0e:b107:1ad0::/44 } on-error={}
 :do { add list=HR address=2a0e:bfc0::/31 } on-error={}

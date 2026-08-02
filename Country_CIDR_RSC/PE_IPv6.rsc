@@ -3087,7 +3087,7 @@
 :do { add list=PE address=2a0d:9440:a000::/37 } on-error={}
 :do { add list=PE address=2a0e:8f01:1000:65::/64 } on-error={}
 :do { add list=PE address=2a0e:92c0::/48 } on-error={}
-:do { add list=PE address=2a0e:acc0:ac92::/48 } on-error={}
+:do { add list=PE address=2a0e:acc0:ac92::/50 } on-error={}
 :do { add list=PE address=2a0f:1cc5:b10:ae00::/56 } on-error={}
 :do { add list=PE address=2a0f:1cc5:b11:ae00::/56 } on-error={}
 :do { add list=PE address=2a0f:1cc5:b12:ae00::/56 } on-error={}

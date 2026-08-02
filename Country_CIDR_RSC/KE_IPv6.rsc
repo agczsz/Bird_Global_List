@@ -2009,6 +2009,7 @@
 :do { add list=KE address=2c0f:880:8000::/33 } on-error={}
 :do { add list=KE address=2c0f:b40::/32 } on-error={}
 :do { add list=KE address=2c0f:d40::/32 } on-error={}
+:do { add list=KE address=2c0f:1220::/32 } on-error={}
 :do { add list=KE address=2c0f:15c0::/32 } on-error={}
 :do { add list=KE address=2c0f:1a80::/32 } on-error={}
 :do { add list=KE address=2c0f:1d00::/128 } on-error={}

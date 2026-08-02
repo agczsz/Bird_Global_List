@@ -1539,7 +1539,7 @@
 :do { add list=LV address=2a0e:6300::/29 } on-error={}
 :do { add list=LV address=2a0e:9bc0::/29 } on-error={}
 :do { add list=LV address=2a0e:a100::/29 } on-error={}
-:do { add list=LV address=2a0e:acc0:ac55::/48 } on-error={}
+:do { add list=LV address=2a0e:acc0:ac55::/50 } on-error={}
 :do { add list=LV address=2a0e:b3c0::/29 } on-error={}
 :do { add list=LV address=2a0e:cf80::/29 } on-error={}
 :do { add list=LV address=2a0e:e200::/29 } on-error={}
@@ -2583,7 +2583,8 @@
 :do { add list=LV address=2a13:240:3500::/40 } on-error={}
 :do { add list=LV address=2a13:240:4800::/40 } on-error={}
 :do { add list=LV address=2a13:3ac6:5000::/36 } on-error={}
-:do { add list=LV address=2a13:4ac0:30::/44 } on-error={}
+:do { add list=LV address=2a13:4ac0:34::/46 } on-error={}
+:do { add list=LV address=2a13:4ac0:38::/45 } on-error={}
 :do { add list=LV address=2a13:4ac0:40::/42 } on-error={}
 :do { add list=LV address=2a13:4ac0:80::/41 } on-error={}
 :do { add list=LV address=2a13:4ac0:100::/40 } on-error={}

@@ -2195,7 +2195,7 @@
 :do { add list=EE address=2a0e:a840:2000::/35 } on-error={}
 :do { add list=EE address=2a0e:a840:4000::/34 } on-error={}
 :do { add list=EE address=2a0e:a840:8000::/33 } on-error={}
-:do { add list=EE address=2a0e:acc0:ac61::/48 } on-error={}
+:do { add list=EE address=2a0e:acc0:ac61::/50 } on-error={}
 :do { add list=EE address=2a0e:b107:23d8::/45 } on-error={}
 :do { add list=EE address=2a0e:e740::/30 } on-error={}
 :do { add list=EE address=2a0e:e744::/30 } on-error={}

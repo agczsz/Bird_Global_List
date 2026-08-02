@@ -5126,8 +5126,8 @@
 :do { add list=AR address=2a0e:8f02:10f3:26::/64 } on-error={}
 :do { add list=AR address=2a0e:8f02:f03d:1800::/56 } on-error={}
 :do { add list=AR address=2a0e:92c0:4::/48 } on-error={}
-:do { add list=AR address=2a0e:acc0:ac77::/48 } on-error={}
-:do { add list=AR address=2a0e:acc0:ac78::/48 } on-error={}
+:do { add list=AR address=2a0e:acc0:ac77::/50 } on-error={}
+:do { add list=AR address=2a0e:acc0:ac78::/50 } on-error={}
 :do { add list=AR address=2a0e:b107:1a32:8000::/52 } on-error={}
 :do { add list=AR address=2a0e:b107:2240::/45 } on-error={}
 :do { add list=AR address=2a0e:b107:2693::/48 } on-error={}

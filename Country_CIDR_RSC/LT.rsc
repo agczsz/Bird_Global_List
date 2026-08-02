@@ -1977,7 +1977,6 @@
 :do { add list=LT address=212.47.122.0/24 } on-error={}
 :do { add list=LT address=212.47.123.0/24 } on-error={}
 :do { add list=LT address=212.47.124.0/22 } on-error={}
-:do { add list=LT address=212.47.201.34/32 } on-error={}
 :do { add list=LT address=212.47.201.38/32 } on-error={}
 :do { add list=LT address=212.47.201.71/32 } on-error={}
 :do { add list=LT address=212.47.201.73/32 } on-error={}

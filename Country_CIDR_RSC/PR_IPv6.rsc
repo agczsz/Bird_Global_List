@@ -833,6 +833,7 @@
 :do { add list=PR address=2605:3940::/32 } on-error={}
 :do { add list=PR address=2605:4700::/32 } on-error={}
 :do { add list=PR address=2605:59c0:1300::/40 } on-error={}
+:do { add list=PR address=2605:59c0:8d00::/40 } on-error={}
 :do { add list=PR address=2605:5d40::/32 } on-error={}
 :do { add list=PR address=2605:7340::/32 } on-error={}
 :do { add list=PR address=2605:b800::/40 } on-error={}
