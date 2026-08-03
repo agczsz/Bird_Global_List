@@ -768,8 +768,7 @@
 :do { add list=PA address=200.0.178.0/24 } on-error={}
 :do { add list=PA address=200.0.204.15/32 } on-error={}
 :do { add list=PA address=200.0.204.25/32 } on-error={}
-:do { add list=PA address=200.0.204.26/31 } on-error={}
-:do { add list=PA address=200.0.204.30/32 } on-error={}
+:do { add list=PA address=200.0.204.26/32 } on-error={}
 :do { add list=PA address=200.0.204.173/32 } on-error={}
 :do { add list=PA address=200.0.204.174/32 } on-error={}
 :do { add list=PA address=200.0.204.245/32 } on-error={}

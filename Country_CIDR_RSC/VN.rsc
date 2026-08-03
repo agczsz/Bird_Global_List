@@ -3072,7 +3072,8 @@
 :do { add list=VN address=160.191.88.0/23 } on-error={}
 :do { add list=VN address=160.191.90.0/23 } on-error={}
 :do { add list=VN address=160.191.92.0/22 } on-error={}
-:do { add list=VN address=160.191.96.0/22 } on-error={}
+:do { add list=VN address=160.191.96.0/23 } on-error={}
+:do { add list=VN address=160.191.98.0/23 } on-error={}
 :do { add list=VN address=160.191.100.0/23 } on-error={}
 :do { add list=VN address=160.191.112.0/23 } on-error={}
 :do { add list=VN address=160.191.138.0/23 } on-error={}
@@ -3085,7 +3086,8 @@
 :do { add list=VN address=160.191.174.0/23 } on-error={}
 :do { add list=VN address=160.191.176.0/23 } on-error={}
 :do { add list=VN address=160.191.214.0/23 } on-error={}
-:do { add list=VN address=160.191.216.0/22 } on-error={}
+:do { add list=VN address=160.191.216.0/23 } on-error={}
+:do { add list=VN address=160.191.218.0/23 } on-error={}
 :do { add list=VN address=160.191.220.0/23 } on-error={}
 :do { add list=VN address=160.191.222.0/23 } on-error={}
 :do { add list=VN address=160.191.230.0/23 } on-error={}

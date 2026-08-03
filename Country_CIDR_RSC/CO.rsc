@@ -260,6 +260,7 @@
 :do { add list=CO address=37.10.108.0/24 } on-error={}
 :do { add list=CO address=37.221.69.27/32 } on-error={}
 :do { add list=CO address=37.221.69.28/32 } on-error={}
+:do { add list=CO address=38.3.223.0/24 } on-error={}
 :do { add list=CO address=38.4.96.0/20 } on-error={}
 :do { add list=CO address=38.5.1.158/32 } on-error={}
 :do { add list=CO address=38.7.105.0/24 } on-error={}
@@ -343,9 +344,7 @@
 :do { add list=CO address=38.190.26.0/23 } on-error={}
 :do { add list=CO address=38.190.72.0/24 } on-error={}
 :do { add list=CO address=38.190.74.0/23 } on-error={}
-:do { add list=CO address=38.190.120.0/23 } on-error={}
-:do { add list=CO address=38.190.122.0/24 } on-error={}
-:do { add list=CO address=38.190.123.0/24 } on-error={}
+:do { add list=CO address=38.190.120.0/22 } on-error={}
 :do { add list=CO address=38.191.41.0/24 } on-error={}
 :do { add list=CO address=38.191.42.0/24 } on-error={}
 :do { add list=CO address=38.191.43.0/24 } on-error={}
@@ -1358,9 +1357,6 @@
 :do { add list=CO address=129.134.57.54/32 } on-error={}
 :do { add list=CO address=129.134.57.140/31 } on-error={}
 :do { add list=CO address=129.134.57.153/32 } on-error={}
-:do { add list=CO address=129.134.57.154/32 } on-error={}
-:do { add list=CO address=129.134.57.180/31 } on-error={}
-:do { add list=CO address=129.134.57.190/32 } on-error={}
 :do { add list=CO address=129.134.59.36/32 } on-error={}
 :do { add list=CO address=129.134.59.45/32 } on-error={}
 :do { add list=CO address=129.134.59.46/32 } on-error={}
@@ -6357,17 +6353,7 @@
 :do { add list=CO address=201.228.192.0/20 } on-error={}
 :do { add list=CO address=201.228.208.0/20 } on-error={}
 :do { add list=CO address=201.228.224.0/19 } on-error={}
-:do { add list=CO address=201.232.0.0/17 } on-error={}
-:do { add list=CO address=201.232.128.0/18 } on-error={}
-:do { add list=CO address=201.232.192.0/21 } on-error={}
-:do { add list=CO address=201.232.200.0/23 } on-error={}
-:do { add list=CO address=201.232.202.64/26 } on-error={}
-:do { add list=CO address=201.232.202.128/25 } on-error={}
-:do { add list=CO address=201.232.203.0/24 } on-error={}
-:do { add list=CO address=201.232.204.0/22 } on-error={}
-:do { add list=CO address=201.232.208.0/20 } on-error={}
-:do { add list=CO address=201.232.224.0/19 } on-error={}
-:do { add list=CO address=201.233.0.0/16 } on-error={}
+:do { add list=CO address=201.232.0.0/15 } on-error={}
 :do { add list=CO address=201.234.64.0/24 } on-error={}
 :do { add list=CO address=201.234.65.0/24 } on-error={}
 :do { add list=CO address=201.234.66.0/23 } on-error={}

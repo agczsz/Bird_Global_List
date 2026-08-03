@@ -50,7 +50,6 @@
 :do { add list=YE address=2606:54c3:0:164b::/64 } on-error={}
 :do { add list=YE address=2a01:528:a00::/40 } on-error={}
 :do { add list=YE address=2a02:28:1:1::1:c5/128 } on-error={}
-:do { add list=YE address=2a02:28:1:1:195:34:52:65/128 } on-error={}
 :do { add list=YE address=2a02:26f7:c0c0::/48 } on-error={}
 :do { add list=YE address=2a02:26f7:c0c1::/48 } on-error={}
 :do { add list=YE address=2a02:26f7:c0c2::/47 } on-error={}

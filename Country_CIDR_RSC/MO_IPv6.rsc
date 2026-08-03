@@ -252,6 +252,7 @@
 :do { add list=MO address=2001:470:fa14::/48 } on-error={}
 :do { add list=MO address=2001:470:fa2f::/48 } on-error={}
 :do { add list=MO address=2001:470:fa38::/47 } on-error={}
+:do { add list=MO address=2001:470:fa3d::/48 } on-error={}
 :do { add list=MO address=2001:470:fa6d::/48 } on-error={}
 :do { add list=MO address=2001:470:fa76::/48 } on-error={}
 :do { add list=MO address=2001:470:fa79:446::/64 } on-error={}

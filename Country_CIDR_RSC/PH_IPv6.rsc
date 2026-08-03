@@ -1,12 +1,12 @@
 /log info "Loading PH IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=PH address=2001:470:0:148::/64 } on-error={}
+:do { add list=PH address=2001:470:0:178::2/128 } on-error={}
 :do { add list=PH address=2001:470:0:1b0::2/128 } on-error={}
 :do { add list=PH address=2001:470:0:395::/64 } on-error={}
-:do { add list=PH address=2001:470:0:512::/64 } on-error={}
+:do { add list=PH address=2001:470:0:512::2/128 } on-error={}
 :do { add list=PH address=2001:470:0:72f::/64 } on-error={}
 :do { add list=PH address=2001:470:1:476::2/127 } on-error={}
-:do { add list=PH address=2001:470:1:794::/64 } on-error={}
 :do { add list=PH address=2001:470:1:859::2/127 } on-error={}
 :do { add list=PH address=2001:470:e:bb::/64 } on-error={}
 :do { add list=PH address=2001:470:1d:33b::/64 } on-error={}
@@ -18621,7 +18621,8 @@
 :do { add list=PH address=2600:0:2:1239:203:222:33:33/128 } on-error={}
 :do { add list=PH address=2600:0:2:1239:203:222:33:110/127 } on-error={}
 :do { add list=PH address=2600:0:2:1239:203:222:33:142/127 } on-error={}
-:do { add list=PH address=2600:0:2:1239:203:222:33:144/126 } on-error={}
+:do { add list=PH address=2600:0:2:1239:203:222:33:145/128 } on-error={}
+:do { add list=PH address=2600:0:2:1239:203:222:33:146/127 } on-error={}
 :do { add list=PH address=2600:0:2:1239:203:222:36:200/127 } on-error={}
 :do { add list=PH address=2600:0:2:1239:203:222:36:205/128 } on-error={}
 :do { add list=PH address=2600:0:2:1239:203:222:36:208/127 } on-error={}
@@ -19080,7 +19081,6 @@
 :do { add list=PH address=2a01:111:2000:2:8000::1129/128 } on-error={}
 :do { add list=PH address=2a01:111:2000:2:8000::11f9/128 } on-error={}
 :do { add list=PH address=2a01:111:2000:2:8000::1285/128 } on-error={}
-:do { add list=PH address=2a01:111:2000:2:8000::1399/128 } on-error={}
 :do { add list=PH address=2a01:528:2d00::/40 } on-error={}
 :do { add list=PH address=2a01:ce9d:8000::/36 } on-error={}
 :do { add list=PH address=2a01:e281:aafa::/48 } on-error={}

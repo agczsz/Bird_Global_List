@@ -276,6 +276,16 @@
 :do { add list=KE address=41.173.176.128/25 } on-error={}
 :do { add list=KE address=41.173.177.0/24 } on-error={}
 :do { add list=KE address=41.173.178.0/23 } on-error={}
+:do { add list=KE address=41.173.241.80/29 } on-error={}
+:do { add list=KE address=41.173.241.88/31 } on-error={}
+:do { add list=KE address=41.173.241.91/32 } on-error={}
+:do { add list=KE address=41.173.241.170/31 } on-error={}
+:do { add list=KE address=41.173.241.172/30 } on-error={}
+:do { add list=KE address=41.173.241.194/31 } on-error={}
+:do { add list=KE address=41.173.241.198/31 } on-error={}
+:do { add list=KE address=41.173.243.25/32 } on-error={}
+:do { add list=KE address=41.173.243.32/27 } on-error={}
+:do { add list=KE address=41.173.243.64/26 } on-error={}
 :do { add list=KE address=41.174.128.118/31 } on-error={}
 :do { add list=KE address=41.174.185.192/30 } on-error={}
 :do { add list=KE address=41.174.192.0/19 } on-error={}
