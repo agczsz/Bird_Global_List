@@ -404,6 +404,7 @@
 :do { add list=DO address=2803:5e50::/32 } on-error={}
 :do { add list=DO address=2803:6110::/32 } on-error={}
 :do { add list=DO address=2803:6190::/32 } on-error={}
+:do { add list=DO address=2803:6330::/32 } on-error={}
 :do { add list=DO address=2803:6400::/32 } on-error={}
 :do { add list=DO address=2803:6590::/32 } on-error={}
 :do { add list=DO address=2803:6650::/32 } on-error={}

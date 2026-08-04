@@ -3930,6 +3930,8 @@
 :do { add list=TH address=144.178.15.32/30 } on-error={}
 :do { add list=TH address=144.178.15.128/25 } on-error={}
 :do { add list=TH address=144.208.207.0/24 } on-error={}
+:do { add list=TH address=144.249.157.0/24 } on-error={}
+:do { add list=TH address=144.249.158.0/24 } on-error={}
 :do { add list=TH address=145.79.83.0/24 } on-error={}
 :do { add list=TH address=145.79.92.0/24 } on-error={}
 :do { add list=TH address=145.79.100.0/24 } on-error={}

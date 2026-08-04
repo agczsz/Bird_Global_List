@@ -1271,7 +1271,6 @@
 :do { add list=BS address=2a02:26f7:f803:4000::/64 } on-error={}
 :do { add list=BS address=2a02:26f7:f803:41c0::/63 } on-error={}
 :do { add list=BS address=2a02:26f7:f803:41c2::/64 } on-error={}
-:do { add list=BS address=2a02:26f7:f803:8000::/49 } on-error={}
 :do { add list=BS address=2a02:26f7:f804::/46 } on-error={}
 :do { add list=BS address=2a02:26f7:f808::/46 } on-error={}
 :do { add list=BS address=2a02:26f7:f80c:4000::/64 } on-error={}

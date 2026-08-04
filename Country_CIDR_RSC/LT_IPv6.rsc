@@ -1430,6 +1430,7 @@
 :do { add list=LT address=2a02:2d8:1:2800::/56 } on-error={}
 :do { add list=LT address=2a02:2d8:1:8000::/52 } on-error={}
 :do { add list=LT address=2a02:2d8:2:3800::/53 } on-error={}
+:do { add list=LT address=2a02:610:ffff::/48 } on-error={}
 :do { add list=LT address=2a02:e00:ffe7::/48 } on-error={}
 :do { add list=LT address=2a02:2518:0:c000::/51 } on-error={}
 :do { add list=LT address=2a02:2518:0:e000::/52 } on-error={}

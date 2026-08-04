@@ -410,7 +410,6 @@
 :do { add list=PH address=45.196.138.0/24 } on-error={}
 :do { add list=PH address=45.196.153.0/24 } on-error={}
 :do { add list=PH address=45.196.154.0/23 } on-error={}
-:do { add list=PH address=45.196.182.0/24 } on-error={}
 :do { add list=PH address=45.196.192.0/24 } on-error={}
 :do { add list=PH address=45.197.74.0/23 } on-error={}
 :do { add list=PH address=45.197.117.0/24 } on-error={}

@@ -2864,6 +2864,7 @@
 :do { add list=NZ address=173.82.77.0/24 } on-error={}
 :do { add list=NZ address=173.82.124.0/24 } on-error={}
 :do { add list=NZ address=173.82.125.0/24 } on-error={}
+:do { add list=NZ address=173.82.173.0/24 } on-error={}
 :do { add list=NZ address=173.82.228.0/24 } on-error={}
 :do { add list=NZ address=173.223.228.0/22 } on-error={}
 :do { add list=NZ address=175.45.87.0/24 } on-error={}

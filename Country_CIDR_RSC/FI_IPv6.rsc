@@ -20389,6 +20389,7 @@
 :do { add list=FI address=2a01:b960:230f::/50 } on-error={}
 :do { add list=FI address=2a01:ce8e:8000::/36 } on-error={}
 :do { add list=FI address=2a01:e5c0:3000::/36 } on-error={}
+:do { add list=FI address=2a01:e5c0:8000::/48 } on-error={}
 :do { add list=FI address=2a01:e5c0:8005::/48 } on-error={}
 :do { add list=FI address=2a01:e5c0:8006::/47 } on-error={}
 :do { add list=FI address=2a01:e5c0:8009::/48 } on-error={}

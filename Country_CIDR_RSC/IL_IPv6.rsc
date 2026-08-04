@@ -2980,8 +2980,6 @@
 :do { add list=IL address=2a0a:3980:80::/44 } on-error={}
 :do { add list=IL address=2a0a:3980:90::/45 } on-error={}
 :do { add list=IL address=2a0a:3980:99::/48 } on-error={}
-:do { add list=IL address=2a0a:3980:9a::/48 } on-error={}
-:do { add list=IL address=2a0a:3980:9b::/48 } on-error={}
 :do { add list=IL address=2a0a:3980:a5::/48 } on-error={}
 :do { add list=IL address=2a0a:3980:a6::/47 } on-error={}
 :do { add list=IL address=2a0a:3980:a8::/45 } on-error={}

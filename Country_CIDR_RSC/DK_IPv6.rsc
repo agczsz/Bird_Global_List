@@ -9281,8 +9281,6 @@
 :do { add list=DK address=2a0c:9a46:33b::/48 } on-error={}
 :do { add list=DK address=2a0c:9a46:3fe:3a::/64 } on-error={}
 :do { add list=DK address=2a0c:ad00::/29 } on-error={}
-:do { add list=DK address=2a0c:b641:917::/48 } on-error={}
-:do { add list=DK address=2a0c:b641:918::/48 } on-error={}
 :do { add list=DK address=2a0c:c540::/29 } on-error={}
 :do { add list=DK address=2a0c:cc00::/32 } on-error={}
 :do { add list=DK address=2a0c:dd00::/29 } on-error={}

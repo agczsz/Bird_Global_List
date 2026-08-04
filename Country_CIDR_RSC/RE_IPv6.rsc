@@ -116,6 +116,7 @@
 :do { add list=RE address=2a02:26f7:d349::/48 } on-error={}
 :do { add list=RE address=2a02:26f7:d34a::/47 } on-error={}
 :do { add list=RE address=2a02:26f7:d34c:4000::/64 } on-error={}
+:do { add list=RE address=2a02:26f7:d34c:8000::/50 } on-error={}
 :do { add list=RE address=2a02:26f7:d34c:cee0::/62 } on-error={}
 :do { add list=RE address=2a02:26f7:d34d::/48 } on-error={}
 :do { add list=RE address=2a02:26f7:d34e::/47 } on-error={}

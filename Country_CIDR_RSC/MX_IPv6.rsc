@@ -95,7 +95,6 @@
 :do { add list=MX address=2001:470:b928::/47 } on-error={}
 :do { add list=MX address=2001:470:b956::/48 } on-error={}
 :do { add list=MX address=2001:470:b958::/48 } on-error={}
-:do { add list=MX address=2001:470:b962::/48 } on-error={}
 :do { add list=MX address=2001:470:b975::/48 } on-error={}
 :do { add list=MX address=2001:470:b990::/48 } on-error={}
 :do { add list=MX address=2001:470:b9a1::/48 } on-error={}
@@ -1831,7 +1830,7 @@
 :do { add list=MX address=2402:9e80:20a:8000::/49 } on-error={}
 :do { add list=MX address=2402:9e80:210::/48 } on-error={}
 :do { add list=MX address=2404:2280:201::/50 } on-error={}
-:do { add list=MX address=2404:a140:3c::/50 } on-error={}
+:do { add list=MX address=2404:a140:3c::/48 } on-error={}
 :do { add list=MX address=2405:b500:5080::/64 } on-error={}
 :do { add list=MX address=2405:b500:5080:8::/64 } on-error={}
 :do { add list=MX address=2405:b500:5080:10::/64 } on-error={}
@@ -2584,7 +2583,7 @@
 :do { add list=MX address=2605:6440:9000::/36 } on-error={}
 :do { add list=MX address=2605:6440:f000::/36 } on-error={}
 :do { add list=MX address=2605:8380:1a00::/40 } on-error={}
-:do { add list=MX address=2605:a7c0:20:4000::/50 } on-error={}
+:do { add list=MX address=2605:a7c0:20::/48 } on-error={}
 :do { add list=MX address=2605:c640:911:114::/64 } on-error={}
 :do { add list=MX address=2605:ef80:2::/48 } on-error={}
 :do { add list=MX address=2605:ef80:12::/48 } on-error={}
@@ -12261,6 +12260,7 @@
 :do { add list=MX address=2a02:26f7:bfc2:cea0::/62 } on-error={}
 :do { add list=MX address=2a02:26f7:bfc3::/48 } on-error={}
 :do { add list=MX address=2a02:26f7:bfc4:4000::/64 } on-error={}
+:do { add list=MX address=2a02:26f7:bfc4:8000::/50 } on-error={}
 :do { add list=MX address=2a02:26f7:bfc4:cea0::/62 } on-error={}
 :do { add list=MX address=2a02:26f7:bfc5::/48 } on-error={}
 :do { add list=MX address=2a02:26f7:bfc6::/47 } on-error={}

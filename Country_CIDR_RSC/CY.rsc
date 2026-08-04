@@ -53,6 +53,7 @@
 :do { add list=CY address=38.19.168.0/22 } on-error={}
 :do { add list=CY address=38.43.68.0/24 } on-error={}
 :do { add list=CY address=38.108.224.0/24 } on-error={}
+:do { add list=CY address=45.9.0.0/24 } on-error={}
 :do { add list=CY address=45.9.18.0/23 } on-error={}
 :do { add list=CY address=45.12.112.0/23 } on-error={}
 :do { add list=CY address=45.12.128.0/24 } on-error={}

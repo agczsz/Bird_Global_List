@@ -1418,7 +1418,7 @@
 :do { add list=AE address=2403:e800:fd78::/47 } on-error={}
 :do { add list=AE address=2404:2280:181::/50 } on-error={}
 :do { add list=AE address=2404:a140:2c::/50 } on-error={}
-:do { add list=AE address=2404:a140:32::/50 } on-error={}
+:do { add list=AE address=2404:a140:32::/48 } on-error={}
 :do { add list=AE address=2405:2000:d00::11d/128 } on-error={}
 :do { add list=AE address=2405:b500:200::/64 } on-error={}
 :do { add list=AE address=2405:b500:200:8::/64 } on-error={}

@@ -1960,13 +1960,8 @@
 :do { add list=KZ address=212.116.224.0/24 } on-error={}
 :do { add list=KZ address=212.116.225.0/24 } on-error={}
 :do { add list=KZ address=212.116.232.0/22 } on-error={}
-:do { add list=KZ address=212.116.237.0/27 } on-error={}
-:do { add list=KZ address=212.116.237.48/28 } on-error={}
-:do { add list=KZ address=212.116.237.64/28 } on-error={}
-:do { add list=KZ address=212.116.237.112/28 } on-error={}
-:do { add list=KZ address=212.116.237.128/28 } on-error={}
-:do { add list=KZ address=212.116.237.160/28 } on-error={}
-:do { add list=KZ address=212.116.237.176/29 } on-error={}
+:do { add list=KZ address=212.116.237.0/24 } on-error={}
+:do { add list=KZ address=212.116.238.0/24 } on-error={}
 :do { add list=KZ address=212.116.240.0/24 } on-error={}
 :do { add list=KZ address=212.116.241.0/24 } on-error={}
 :do { add list=KZ address=212.116.247.0/24 } on-error={}

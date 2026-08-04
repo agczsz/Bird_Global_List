@@ -217,7 +217,6 @@
 :do { add list=IT address=2001:470:1f13:275::/64 } on-error={}
 :do { add list=IT address=2001:470:1f13:34a::/64 } on-error={}
 :do { add list=IT address=2001:470:1f13:a2a::/64 } on-error={}
-:do { add list=IT address=2001:470:1f15:3fc::/64 } on-error={}
 :do { add list=IT address=2001:470:1f15:5c9::/64 } on-error={}
 :do { add list=IT address=2001:470:1f15:7b6::/64 } on-error={}
 :do { add list=IT address=2001:470:1f15:98d::/64 } on-error={}

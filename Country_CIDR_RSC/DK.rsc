@@ -3836,7 +3836,6 @@
 :do { add list=DK address=184.104.198.0/31 } on-error={}
 :do { add list=DK address=184.104.198.57/32 } on-error={}
 :do { add list=DK address=184.104.198.146/32 } on-error={}
-:do { add list=DK address=184.104.219.7/32 } on-error={}
 :do { add list=DK address=184.105.64.132/30 } on-error={}
 :do { add list=DK address=184.105.80.158/31 } on-error={}
 :do { add list=DK address=184.105.213.198/31 } on-error={}
