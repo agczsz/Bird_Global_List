@@ -2,9 +2,7 @@
 /ipv6 firewall address-list
 :do { add list=MG address=2001:470:28:10f9::/64 } on-error={}
 :do { add list=MG address=2001:470:758e::/48 } on-error={}
-:do { add list=MG address=2001:470:c034:4000::/50 } on-error={}
-:do { add list=MG address=2001:470:c034:8000::/49 } on-error={}
-:do { add list=MG address=2001:470:c06e::/48 } on-error={}
+:do { add list=MG address=2001:470:c034::/48 } on-error={}
 :do { add list=MG address=2001:470:c2bf::/48 } on-error={}
 :do { add list=MG address=2001:470:ffa3::/48 } on-error={}
 :do { add list=MG address=2001:470:ffc1::/48 } on-error={}
@@ -101,14 +99,6 @@
 :do { add list=MG address=2405:b500:4940::/64 } on-error={}
 :do { add list=MG address=2405:b500:4960::/64 } on-error={}
 :do { add list=MG address=2600:70ff:a927::/48 } on-error={}
-:do { add list=MG address=2600:70ff:b0e5:100::/56 } on-error={}
-:do { add list=MG address=2600:70ff:b0e5:200::/55 } on-error={}
-:do { add list=MG address=2600:70ff:b0e5:400::/54 } on-error={}
-:do { add list=MG address=2600:70ff:b0e5:800::/53 } on-error={}
-:do { add list=MG address=2600:70ff:b0e5:1000::/52 } on-error={}
-:do { add list=MG address=2600:70ff:b0e5:2000::/51 } on-error={}
-:do { add list=MG address=2600:70ff:b0e5:4000::/50 } on-error={}
-:do { add list=MG address=2600:70ff:b0e5:8000::/49 } on-error={}
 :do { add list=MG address=2602:2a9:a70::/44 } on-error={}
 :do { add list=MG address=2602:fd92:b00:147::64/128 } on-error={}
 :do { add list=MG address=2602:fd92:b00:165::/64 } on-error={}

@@ -1,6 +1,7 @@
 /log info "Loading TJ IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=TJ address=2001:470:28:12b::/64 } on-error={}
+:do { add list=TJ address=2001:470:28:f72::/64 } on-error={}
 :do { add list=TJ address=2001:470:2101::/48 } on-error={}
 :do { add list=TJ address=2001:470:2107::/48 } on-error={}
 :do { add list=TJ address=2001:470:70bd::/48 } on-error={}
@@ -49,7 +50,6 @@
 :do { add list=TJ address=2607:8940:41f0:6400::/55 } on-error={}
 :do { add list=TJ address=2a00:1248:5000:1::232/127 } on-error={}
 :do { add list=TJ address=2a01:528:e400::/40 } on-error={}
-:do { add list=TJ address=2a01:620:1:2257::/64 } on-error={}
 :do { add list=TJ address=2a01:5d60::/30 } on-error={}
 :do { add list=TJ address=2a01:5d64::/30 } on-error={}
 :do { add list=TJ address=2a02:26f7:da80:4000::/64 } on-error={}
@@ -106,7 +106,6 @@
 :do { add list=TJ address=2a04:4e41:5e24::/48 } on-error={}
 :do { add list=TJ address=2a04:4e41:7624::/48 } on-error={}
 :do { add list=TJ address=2a04:6f40::/29 } on-error={}
-:do { add list=TJ address=2a04:8281:3000::/36 } on-error={}
 :do { add list=TJ address=2a05:540:9999::/48 } on-error={}
 :do { add list=TJ address=2a05:2480::/29 } on-error={}
 :do { add list=TJ address=2a05:da00::/29 } on-error={}
@@ -143,7 +142,6 @@
 :do { add list=TJ address=2a0b:6bc2::/31 } on-error={}
 :do { add list=TJ address=2a0b:6bc4::/30 } on-error={}
 :do { add list=TJ address=2a0b:ae80::/32 } on-error={}
-:do { add list=TJ address=2a0c:500:a456:b83c::24/126 } on-error={}
 :do { add list=TJ address=2a0c:9a40:95bd:8000::/52 } on-error={}
 :do { add list=TJ address=2a0c:9a46:3db::/48 } on-error={}
 :do { add list=TJ address=2a0c:9a46:3fe:da::/64 } on-error={}

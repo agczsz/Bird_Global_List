@@ -1,10 +1,10 @@
 /log info "Loading AS IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=AS address=2001:470:19:10ce::/64 } on-error={}
-:do { add list=AS address=2001:470:24:1343::/64 } on-error={}
 :do { add list=AS address=2001:470:28:ac0::/64 } on-error={}
 :do { add list=AS address=2001:470:36:893::/64 } on-error={}
 :do { add list=AS address=2001:470:1957::/48 } on-error={}
+:do { add list=AS address=2001:470:1f13:2b0::/64 } on-error={}
 :do { add list=AS address=2001:470:1f17:f::/64 } on-error={}
 :do { add list=AS address=2001:470:1f1f:8::/64 } on-error={}
 :do { add list=AS address=2001:470:1f1f:62::/64 } on-error={}
@@ -95,8 +95,7 @@
 :do { add list=AS address=2001:470:e2d9::/48 } on-error={}
 :do { add list=AS address=2001:470:e2f2::/48 } on-error={}
 :do { add list=AS address=2001:470:e9f5::/48 } on-error={}
-:do { add list=AS address=2001:470:ec5e:4000::/50 } on-error={}
-:do { add list=AS address=2001:470:ec5e:8000::/49 } on-error={}
+:do { add list=AS address=2001:470:ec5e::/48 } on-error={}
 :do { add list=AS address=2001:470:ec87::/48 } on-error={}
 :do { add list=AS address=2001:470:ee5c::/48 } on-error={}
 :do { add list=AS address=2001:470:ee68::/48 } on-error={}
@@ -108,7 +107,6 @@
 :do { add list=AS address=2001:470:f380::/48 } on-error={}
 :do { add list=AS address=2001:470:f3e9::/48 } on-error={}
 :do { add list=AS address=2001:470:f3f1::/48 } on-error={}
-:do { add list=AS address=2001:470:f4d5::/48 } on-error={}
 :do { add list=AS address=2001:470:f574::/48 } on-error={}
 :do { add list=AS address=2001:470:f576::/48 } on-error={}
 :do { add list=AS address=2001:470:f6cb::/48 } on-error={}
@@ -128,7 +126,7 @@
 :do { add list=AS address=2401:b60:1042::/47 } on-error={}
 :do { add list=AS address=2401:b60:1044::/46 } on-error={}
 :do { add list=AS address=2401:b60:1048::/45 } on-error={}
-:do { add list=AS address=2401:f1e0:ffff:4ea2::/64 } on-error={}
+:do { add list=AS address=2401:f1e0:ffff:53ad::/64 } on-error={}
 :do { add list=AS address=2403:1e00::/32 } on-error={}
 :do { add list=AS address=2403:2140::/32 } on-error={}
 :do { add list=AS address=2405:b500:700::/64 } on-error={}
@@ -160,7 +158,6 @@
 :do { add list=AS address=2600:70ff:a74a::/48 } on-error={}
 :do { add list=AS address=2600:70ff:a795::/48 } on-error={}
 :do { add list=AS address=2600:70ff:a941::/48 } on-error={}
-:do { add list=AS address=2600:70ff:b188::/48 } on-error={}
 :do { add list=AS address=2600:70ff:b852::/48 } on-error={}
 :do { add list=AS address=2600:70ff:b876::/48 } on-error={}
 :do { add list=AS address=2600:70ff:c86e::/48 } on-error={}

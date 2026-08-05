@@ -7,7 +7,6 @@
 :do { add list=ST address=57.84.128.0/20 } on-error={}
 :do { add list=ST address=102.202.92.0/22 } on-error={}
 :do { add list=ST address=102.206.44.0/22 } on-error={}
-:do { add list=ST address=102.220.216.149/32 } on-error={}
 :do { add list=ST address=104.28.13.46/31 } on-error={}
 :do { add list=ST address=104.28.13.48/32 } on-error={}
 :do { add list=ST address=104.28.21.211/32 } on-error={}

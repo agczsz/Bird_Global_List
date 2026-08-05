@@ -1,7 +1,9 @@
 /log info "Loading SH IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=SH address=2001:470:8cd8::/48 } on-error={}
 :do { add list=SH address=2001:470:ed29::/48 } on-error={}
 :do { add list=SH address=2001:470:f5e9::/48 } on-error={}
+:do { add list=SH address=2001:470:f69a::/48 } on-error={}
 :do { add list=SH address=2001:4b28:1700::/40 } on-error={}
 :do { add list=SH address=2401:b60:1be0:4000::/50 } on-error={}
 :do { add list=SH address=2401:b60:1be0:8000::/49 } on-error={}
@@ -12,7 +14,6 @@
 :do { add list=SH address=2401:f1e0:ffff:302e::/64 } on-error={}
 :do { add list=SH address=2401:f1e0:ffff:ba3e::/64 } on-error={}
 :do { add list=SH address=2605:59c0:8700::/40 } on-error={}
-:do { add list=SH address=2606:40:1240::/43 } on-error={}
 :do { add list=SH address=2606:40:21c1:e000::/54 } on-error={}
 :do { add list=SH address=2606:40:21c1:e800::/53 } on-error={}
 :do { add list=SH address=2606:40:21c1:f000::/52 } on-error={}

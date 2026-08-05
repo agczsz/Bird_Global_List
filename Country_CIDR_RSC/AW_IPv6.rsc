@@ -3,7 +3,6 @@
 :do { add list=AW address=2001:470:1b49::/48 } on-error={}
 :do { add list=AW address=2001:470:1b8c::/48 } on-error={}
 :do { add list=AW address=2001:470:1b94::/48 } on-error={}
-:do { add list=AW address=2001:470:1f0b:ff5::/64 } on-error={}
 :do { add list=AW address=2001:470:1f15:252::/64 } on-error={}
 :do { add list=AW address=2001:470:1f27:42::/64 } on-error={}
 :do { add list=AW address=2001:470:1f2b:14::/64 } on-error={}
@@ -12,11 +11,9 @@
 :do { add list=AW address=2001:470:7ebf::/48 } on-error={}
 :do { add list=AW address=2001:470:ca28::/48 } on-error={}
 :do { add list=AW address=2001:470:cb9b::/48 } on-error={}
-:do { add list=AW address=2001:470:e015::/48 } on-error={}
 :do { add list=AW address=2001:470:e865::/48 } on-error={}
 :do { add list=AW address=2001:470:f1a8::/48 } on-error={}
-:do { add list=AW address=2001:470:f951:4000::/50 } on-error={}
-:do { add list=AW address=2001:470:f951:8000::/49 } on-error={}
+:do { add list=AW address=2001:470:f951::/48 } on-error={}
 :do { add list=AW address=2001:470:f9aa::/48 } on-error={}
 :do { add list=AW address=2001:4b28:8c00::/40 } on-error={}
 :do { add list=AW address=2401:b60:10c0:4000::/50 } on-error={}
@@ -26,7 +23,6 @@
 :do { add list=AW address=2401:b60:10c4::/46 } on-error={}
 :do { add list=AW address=2401:b60:10c8::/45 } on-error={}
 :do { add list=AW address=2401:f1e0:ffff:2259::/64 } on-error={}
-:do { add list=AW address=2401:f1e0:ffff:5469::/64 } on-error={}
 :do { add list=AW address=2405:b500:880::/64 } on-error={}
 :do { add list=AW address=2405:b500:8a0::/64 } on-error={}
 :do { add list=AW address=2405:b500:8c0::/64 } on-error={}
@@ -42,7 +38,6 @@
 :do { add list=AW address=2607:8940:23de:8000::/49 } on-error={}
 :do { add list=AW address=2607:8940:23df::/48 } on-error={}
 :do { add list=AW address=2607:8940:23e2:4000::/50 } on-error={}
-:do { add list=AW address=2607:8940:23e2:8000::/49 } on-error={}
 :do { add list=AW address=2607:8940:23e3::/48 } on-error={}
 :do { add list=AW address=2607:8940:4023:6800::/55 } on-error={}
 :do { add list=AW address=2607:8940:4080:f200::/55 } on-error={}

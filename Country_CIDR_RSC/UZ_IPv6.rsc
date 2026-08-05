@@ -1,11 +1,15 @@
 /log info "Loading UZ IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=UZ address=2001:470:28:607::/64 } on-error={}
+:do { add list=UZ address=2001:470:28:3ab::/64 } on-error={}
+:do { add list=UZ address=2001:470:28:794::/64 } on-error={}
+:do { add list=UZ address=2001:470:28:8fd::/64 } on-error={}
+:do { add list=UZ address=2001:470:28:9cd::/64 } on-error={}
 :do { add list=UZ address=2001:470:28:dfb::/64 } on-error={}
 :do { add list=UZ address=2001:470:28:f92::/64 } on-error={}
 :do { add list=UZ address=2001:470:6f:166::/64 } on-error={}
 :do { add list=UZ address=2001:470:6f:5ec::/64 } on-error={}
 :do { add list=UZ address=2001:470:1861::/48 } on-error={}
+:do { add list=UZ address=2001:470:1f13:33a::/64 } on-error={}
 :do { add list=UZ address=2001:470:1f13:4d5::/64 } on-error={}
 :do { add list=UZ address=2001:470:1f17:b3::/64 } on-error={}
 :do { add list=UZ address=2001:470:1f29:76::/64 } on-error={}
@@ -69,7 +73,6 @@
 :do { add list=UZ address=2405:b500:77e0:18::/64 } on-error={}
 :do { add list=UZ address=2406:2d40:5800::/40 } on-error={}
 :do { add list=UZ address=2600:70ff:ab81::/48 } on-error={}
-:do { add list=UZ address=2600:70ff:b0aa::/48 } on-error={}
 :do { add list=UZ address=2600:70ff:b1f4::/48 } on-error={}
 :do { add list=UZ address=2602:f7c8:1aa::/47 } on-error={}
 :do { add list=UZ address=2602:f7c8:1ac::/47 } on-error={}
@@ -88,7 +91,6 @@
 :do { add list=UZ address=2606:8e00:b000::/47 } on-error={}
 :do { add list=UZ address=2606:9606:b000::/47 } on-error={}
 :do { add list=UZ address=2606:9607:b000::/47 } on-error={}
-:do { add list=UZ address=2606:f187:b000::/47 } on-error={}
 :do { add list=UZ address=2606:f4c0:2170::/44 } on-error={}
 :do { add list=UZ address=2606:f4c0:b4e0::/44 } on-error={}
 :do { add list=UZ address=2606:f4c0:bb60::/44 } on-error={}
@@ -314,16 +316,7 @@
 :do { add list=UZ address=2a0c:9a40:95be:c000::/52 } on-error={}
 :do { add list=UZ address=2a0c:9a46:3eb::/48 } on-error={}
 :do { add list=UZ address=2a0c:9a46:3fe:ea::/64 } on-error={}
-:do { add list=UZ address=2a0d:2681:3100:4000::/50 } on-error={}
-:do { add list=UZ address=2a0d:2681:3100:8000::/49 } on-error={}
-:do { add list=UZ address=2a0d:2681:3101::/48 } on-error={}
-:do { add list=UZ address=2a0d:2681:3102::/47 } on-error={}
-:do { add list=UZ address=2a0d:2681:3104::/46 } on-error={}
-:do { add list=UZ address=2a0d:2681:3108::/45 } on-error={}
-:do { add list=UZ address=2a0d:2681:3110::/44 } on-error={}
-:do { add list=UZ address=2a0d:2681:3120::/43 } on-error={}
-:do { add list=UZ address=2a0d:2681:3140::/42 } on-error={}
-:do { add list=UZ address=2a0d:2681:3180::/41 } on-error={}
+:do { add list=UZ address=2a0d:2681:3100::/40 } on-error={}
 :do { add list=UZ address=2a0d:5600:165:4000::/50 } on-error={}
 :do { add list=UZ address=2a0d:5600:165:8000::/49 } on-error={}
 :do { add list=UZ address=2a0d:9445:5000::/37 } on-error={}

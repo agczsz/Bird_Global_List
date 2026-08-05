@@ -114,7 +114,7 @@
 :do { add list=CK address=2401:4d20:2000::/35 } on-error={}
 :do { add list=CK address=2401:4d20:4000::/34 } on-error={}
 :do { add list=CK address=2401:4d20:8000::/33 } on-error={}
-:do { add list=CK address=2401:f1e0:ffff:1898::/64 } on-error={}
+:do { add list=CK address=2401:f1e0:ffff:2b6b::/64 } on-error={}
 :do { add list=CK address=2405:b500:1800::/64 } on-error={}
 :do { add list=CK address=2405:b500:1820::/64 } on-error={}
 :do { add list=CK address=2405:b500:1840::/64 } on-error={}

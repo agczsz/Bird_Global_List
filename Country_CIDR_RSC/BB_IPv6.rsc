@@ -2,7 +2,8 @@
 /ipv6 firewall address-list
 :do { add list=BB address=2001:470:1f13:1de::/64 } on-error={}
 :do { add list=BB address=2001:470:a073::/48 } on-error={}
-:do { add list=BB address=2001:470:f437::/48 } on-error={}
+:do { add list=BB address=2001:470:f437:4000::/50 } on-error={}
+:do { add list=BB address=2001:470:f437:8000::/49 } on-error={}
 :do { add list=BB address=2001:470:f529::/48 } on-error={}
 :do { add list=BB address=2001:470:f559::/48 } on-error={}
 :do { add list=BB address=2001:470:f926::/48 } on-error={}
@@ -17,7 +18,7 @@
 :do { add list=BB address=2401:b60:1132::/47 } on-error={}
 :do { add list=BB address=2401:b60:1134::/46 } on-error={}
 :do { add list=BB address=2401:b60:1138::/45 } on-error={}
-:do { add list=BB address=2401:f1e0:ffff:d9d5::/64 } on-error={}
+:do { add list=BB address=2401:f1e0:ffff:5634::/64 } on-error={}
 :do { add list=BB address=2405:b500:a80::/64 } on-error={}
 :do { add list=BB address=2405:b500:aa0::/64 } on-error={}
 :do { add list=BB address=2405:b500:ac0::/64 } on-error={}
@@ -25,15 +26,6 @@
 :do { add list=BB address=2600:70ff:906d::/48 } on-error={}
 :do { add list=BB address=2600:8400::/28 } on-error={}
 :do { add list=BB address=2602:fe45::/36 } on-error={}
-:do { add list=BB address=2604:a180:1000::/36 } on-error={}
-:do { add list=BB address=2604:a180:2000::/35 } on-error={}
-:do { add list=BB address=2604:a180:4000::/36 } on-error={}
-:do { add list=BB address=2604:a180:5000::/36 } on-error={}
-:do { add list=BB address=2604:a180:7000::/36 } on-error={}
-:do { add list=BB address=2604:a180:9000::/36 } on-error={}
-:do { add list=BB address=2604:a180:a000::/35 } on-error={}
-:do { add list=BB address=2604:a180:d000::/36 } on-error={}
-:do { add list=BB address=2604:a180:e000::/35 } on-error={}
 :do { add list=BB address=2605:59c8:66c0::/42 } on-error={}
 :do { add list=BB address=2606:40:205d:a000::/51 } on-error={}
 :do { add list=BB address=2606:40:2149::/51 } on-error={}
@@ -51,15 +43,6 @@
 :do { add list=BB address=2607:8940:4143:6900::/56 } on-error={}
 :do { add list=BB address=2607:8940:4143:6a00::/56 } on-error={}
 :do { add list=BB address=2620:0:876:5200::/56 } on-error={}
-:do { add list=BB address=2620:11c:1000::/48 } on-error={}
-:do { add list=BB address=2620:11c:1001::/48 } on-error={}
-:do { add list=BB address=2620:11c:1002::/47 } on-error={}
-:do { add list=BB address=2620:11c:1004::/46 } on-error={}
-:do { add list=BB address=2620:11c:1008::/45 } on-error={}
-:do { add list=BB address=2620:11c:1010::/44 } on-error={}
-:do { add list=BB address=2620:11c:1020::/43 } on-error={}
-:do { add list=BB address=2620:11c:1040::/42 } on-error={}
-:do { add list=BB address=2620:11c:1080::/41 } on-error={}
 :do { add list=BB address=2803:9810:5700::/42 } on-error={}
 :do { add list=BB address=2803:9810:be00::/40 } on-error={}
 :do { add list=BB address=2a01:528:9000::/40 } on-error={}

@@ -1,6 +1,5 @@
 /log info "Loading BA IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=BA address=2001:470:1f13:727::/64 } on-error={}
 :do { add list=BA address=2001:470:1f15:322::/64 } on-error={}
 :do { add list=BA address=2001:470:1f1b:1f8::/64 } on-error={}
 :do { add list=BA address=2001:470:207d::/48 } on-error={}
@@ -19,8 +18,9 @@
 :do { add list=BA address=2001:668:1f:fe62::/64 } on-error={}
 :do { add list=BA address=2001:678:1108::/48 } on-error={}
 :do { add list=BA address=2001:67c:a38:f387::/64 } on-error={}
+:do { add list=BA address=2001:798:1::8/127 } on-error={}
 :do { add list=BA address=2001:798:99:1::122/127 } on-error={}
-:do { add list=BA address=2001:798:cc::130/128 } on-error={}
+:do { add list=BA address=2001:798:cc::130/127 } on-error={}
 :do { add list=BA address=2001:7f8:d7::/48 } on-error={}
 :do { add list=BA address=2001:978:2:25::6:9/128 } on-error={}
 :do { add list=BA address=2001:1900:5:2:2::41a2/127 } on-error={}
