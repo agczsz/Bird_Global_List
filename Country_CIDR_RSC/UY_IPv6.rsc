@@ -14962,7 +14962,8 @@
 :do { add list=UY address=2803:4a90:8000::/39 } on-error={}
 :do { add list=UY address=2803:4a90:8200::/40 } on-error={}
 :do { add list=UY address=2803:4a90:8300::/46 } on-error={}
-:do { add list=UY address=2803:4a90:8304::/47 } on-error={}
+:do { add list=UY address=2803:4a90:8304::/48 } on-error={}
+:do { add list=UY address=2803:4a90:8305::/48 } on-error={}
 :do { add list=UY address=2803:4a90:8307::/48 } on-error={}
 :do { add list=UY address=2803:4a90:8308::/45 } on-error={}
 :do { add list=UY address=2803:4a90:8310::/44 } on-error={}
@@ -18975,6 +18976,7 @@
 :do { add list=UY address=2803:97f0::/28 } on-error={}
 :do { add list=UY address=2803:9800:41a9:d000::/56 } on-error={}
 :do { add list=UY address=2803:9800:f2a4:fd00::/56 } on-error={}
+:do { add list=UY address=2803:9800:f79b:7a00::/56 } on-error={}
 :do { add list=UY address=2803:9801::/32 } on-error={}
 :do { add list=UY address=2803:9802::/31 } on-error={}
 :do { add list=UY address=2803:9804::/30 } on-error={}
@@ -28828,7 +28830,6 @@
 :do { add list=UY address=2804:2705::/32 } on-error={}
 :do { add list=UY address=2804:2706::/31 } on-error={}
 :do { add list=UY address=2804:2708::/29 } on-error={}
-:do { add list=UY address=2804:2710::/32 } on-error={}
 :do { add list=UY address=2804:2711::/32 } on-error={}
 :do { add list=UY address=2804:2712::/31 } on-error={}
 :do { add list=UY address=2804:2715::/32 } on-error={}
@@ -38386,6 +38387,16 @@
 :do { add list=UY address=2804:5bbc:1100::/40 } on-error={}
 :do { add list=UY address=2804:5bbc:1200::/39 } on-error={}
 :do { add list=UY address=2804:5bbc:1400::/40 } on-error={}
+:do { add list=UY address=2804:5bbc:1502:100::/56 } on-error={}
+:do { add list=UY address=2804:5bbc:1502:200::/55 } on-error={}
+:do { add list=UY address=2804:5bbc:1502:400::/54 } on-error={}
+:do { add list=UY address=2804:5bbc:1502:900::/56 } on-error={}
+:do { add list=UY address=2804:5bbc:1502:a00::/55 } on-error={}
+:do { add list=UY address=2804:5bbc:1502:c00::/54 } on-error={}
+:do { add list=UY address=2804:5bbc:1502:1000::/52 } on-error={}
+:do { add list=UY address=2804:5bbc:1502:2000::/51 } on-error={}
+:do { add list=UY address=2804:5bbc:1502:4000::/50 } on-error={}
+:do { add list=UY address=2804:5bbc:1502:8000::/49 } on-error={}
 :do { add list=UY address=2804:5bbc:1503::/50 } on-error={}
 :do { add list=UY address=2804:5bbc:1503:4000::/52 } on-error={}
 :do { add list=UY address=2804:5bbc:1503:5000::/54 } on-error={}

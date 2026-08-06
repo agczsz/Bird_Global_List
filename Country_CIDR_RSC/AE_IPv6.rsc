@@ -5637,6 +5637,7 @@
 :do { add list=AE address=2a12:3847::/32 } on-error={}
 :do { add list=AE address=2a12:3944::/31 } on-error={}
 :do { add list=AE address=2a12:3946::/32 } on-error={}
+:do { add list=AE address=2a12:3fc2:aa40::/44 } on-error={}
 :do { add list=AE address=2a12:4041:1::/48 } on-error={}
 :do { add list=AE address=2a12:4041:2::/48 } on-error={}
 :do { add list=AE address=2a12:4bc0::/29 } on-error={}

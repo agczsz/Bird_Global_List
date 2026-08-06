@@ -160,6 +160,7 @@
 :do { add list=BG address=31.210.8.206/31 } on-error={}
 :do { add list=BG address=31.210.9.92/30 } on-error={}
 :do { add list=BG address=31.210.11.232/31 } on-error={}
+:do { add list=BG address=31.210.11.236/31 } on-error={}
 :do { add list=BG address=31.210.12.56/30 } on-error={}
 :do { add list=BG address=31.210.12.76/31 } on-error={}
 :do { add list=BG address=31.210.12.96/28 } on-error={}

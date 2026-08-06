@@ -1242,12 +1242,14 @@
 :do { add list=OM address=2a06:dac0:80::/41 } on-error={}
 :do { add list=OM address=2a06:dac0:100::/44 } on-error={}
 :do { add list=OM address=2a06:dac0:110::/44 } on-error={}
-:do { add list=OM address=2a06:dac0:120::/43 } on-error={}
+:do { add list=OM address=2a06:dac0:120::/44 } on-error={}
+:do { add list=OM address=2a06:dac0:130::/44 } on-error={}
 :do { add list=OM address=2a06:dac0:140::/42 } on-error={}
 :do { add list=OM address=2a06:dac0:180::/41 } on-error={}
 :do { add list=OM address=2a06:dac0:200::/44 } on-error={}
 :do { add list=OM address=2a06:dac0:210::/44 } on-error={}
-:do { add list=OM address=2a06:dac0:220::/43 } on-error={}
+:do { add list=OM address=2a06:dac0:220::/44 } on-error={}
+:do { add list=OM address=2a06:dac0:230::/44 } on-error={}
 :do { add list=OM address=2a06:dac0:240::/42 } on-error={}
 :do { add list=OM address=2a06:dac0:280::/41 } on-error={}
 :do { add list=OM address=2a06:dac0:300::/40 } on-error={}

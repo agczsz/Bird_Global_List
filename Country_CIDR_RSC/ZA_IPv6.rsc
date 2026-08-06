@@ -7411,7 +7411,6 @@
 :do { add list=ZA address=2c0f:f830:20::/43 } on-error={}
 :do { add list=ZA address=2c0f:f830:40::/42 } on-error={}
 :do { add list=ZA address=2c0f:f830:80::/41 } on-error={}
-:do { add list=ZA address=2c0f:f830:130::/44 } on-error={}
 :do { add list=ZA address=2c0f:f830:140::/42 } on-error={}
 :do { add list=ZA address=2c0f:f830:180::/41 } on-error={}
 :do { add list=ZA address=2c0f:f830:200::/39 } on-error={}

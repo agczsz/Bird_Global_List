@@ -87,10 +87,7 @@
 :do { add list=DO address=38.80.12.0/23 } on-error={}
 :do { add list=DO address=38.83.55.0/24 } on-error={}
 :do { add list=DO address=38.83.56.0/24 } on-error={}
-:do { add list=DO address=38.87.217.0/25 } on-error={}
-:do { add list=DO address=38.87.217.128/29 } on-error={}
-:do { add list=DO address=38.87.217.144/28 } on-error={}
-:do { add list=DO address=38.87.217.160/27 } on-error={}
+:do { add list=DO address=38.87.217.0/24 } on-error={}
 :do { add list=DO address=38.89.92.0/22 } on-error={}
 :do { add list=DO address=38.93.248.0/23 } on-error={}
 :do { add list=DO address=38.93.250.4/30 } on-error={}

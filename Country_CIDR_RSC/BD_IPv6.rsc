@@ -670,7 +670,6 @@
 :do { add list=BD address=2001:df4:e040::/48 } on-error={}
 :do { add list=BD address=2001:df4:e080::/48 } on-error={}
 :do { add list=BD address=2001:df4:e940::/48 } on-error={}
-:do { add list=BD address=2001:df4:ec40::/48 } on-error={}
 :do { add list=BD address=2001:df4:ed40::/48 } on-error={}
 :do { add list=BD address=2001:df4:ed80::/48 } on-error={}
 :do { add list=BD address=2001:df4:ef00::/48 } on-error={}

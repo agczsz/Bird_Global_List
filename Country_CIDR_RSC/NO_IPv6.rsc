@@ -3547,6 +3547,7 @@
 :do { add list=NO address=2a00:1450:4030::/48 } on-error={}
 :do { add list=NO address=2a00:14d8::/29 } on-error={}
 :do { add list=NO address=2a00:1548::/32 } on-error={}
+:do { add list=NO address=2a00:1578:113::/48 } on-error={}
 :do { add list=NO address=2a00:15a0::/32 } on-error={}
 :do { add list=NO address=2a00:15a1::/32 } on-error={}
 :do { add list=NO address=2a00:15a2::/31 } on-error={}

@@ -1659,6 +1659,7 @@
 :do { add list=FI address=2a00:14c0:2000::/35 } on-error={}
 :do { add list=FI address=2a00:14c0:4000::/34 } on-error={}
 :do { add list=FI address=2a00:14c0:8000::/33 } on-error={}
+:do { add list=FI address=2a00:1578:110::/48 } on-error={}
 :do { add list=FI address=2a00:16a0::/32 } on-error={}
 :do { add list=FI address=2a00:1778::/32 } on-error={}
 :do { add list=FI address=2a00:17b8::/29 } on-error={}
