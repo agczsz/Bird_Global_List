@@ -90509,7 +90509,12 @@
 :do { add list=AU address=2402:6c04::/30 } on-error={}
 :do { add list=AU address=2402:6c08::/29 } on-error={}
 :do { add list=AU address=2402:6c10::/28 } on-error={}
-:do { add list=AU address=2402:6c20::/27 } on-error={}
+:do { add list=AU address=2402:6c20::/32 } on-error={}
+:do { add list=AU address=2402:6c21::/32 } on-error={}
+:do { add list=AU address=2402:6c22::/31 } on-error={}
+:do { add list=AU address=2402:6c24::/30 } on-error={}
+:do { add list=AU address=2402:6c28::/29 } on-error={}
+:do { add list=AU address=2402:6c30::/28 } on-error={}
 :do { add list=AU address=2402:6c40::/32 } on-error={}
 :do { add list=AU address=2402:6c41::/32 } on-error={}
 :do { add list=AU address=2402:6c42::/31 } on-error={}

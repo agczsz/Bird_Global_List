@@ -36846,8 +36846,7 @@
 :do { add list=FR address=2a03:a240:8000::/33 } on-error={}
 :do { add list=FR address=2a03:a2c0::/48 } on-error={}
 :do { add list=FR address=2a03:a2c0:1::/48 } on-error={}
-:do { add list=FR address=2a03:a2c0:2::/48 } on-error={}
-:do { add list=FR address=2a03:a2c0:3::/48 } on-error={}
+:do { add list=FR address=2a03:a2c0:2::/47 } on-error={}
 :do { add list=FR address=2a03:a2c0:4::/48 } on-error={}
 :do { add list=FR address=2a03:a2c0:5::/48 } on-error={}
 :do { add list=FR address=2a03:a2c0:6::/47 } on-error={}

@@ -15086,7 +15086,10 @@
 :do { add list=RU address=2a04:2bc2::/31 } on-error={}
 :do { add list=RU address=2a04:2bc4::/30 } on-error={}
 :do { add list=RU address=2a04:2c80::/29 } on-error={}
-:do { add list=RU address=2a04:2cc0::/29 } on-error={}
+:do { add list=RU address=2a04:2cc0::/32 } on-error={}
+:do { add list=RU address=2a04:2cc1::/32 } on-error={}
+:do { add list=RU address=2a04:2cc2::/31 } on-error={}
+:do { add list=RU address=2a04:2cc4::/30 } on-error={}
 :do { add list=RU address=2a04:2fc0::/32 } on-error={}
 :do { add list=RU address=2a04:2fc1::/32 } on-error={}
 :do { add list=RU address=2a04:2fc2::/31 } on-error={}

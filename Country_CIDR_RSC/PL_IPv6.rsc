@@ -9544,7 +9544,8 @@
 :do { add list=PL address=2a06:1e00:28::/46 } on-error={}
 :do { add list=PL address=2a06:1e00:2c::/48 } on-error={}
 :do { add list=PL address=2a06:1e00:2d::/48 } on-error={}
-:do { add list=PL address=2a06:1e00:2e::/47 } on-error={}
+:do { add list=PL address=2a06:1e00:2e::/48 } on-error={}
+:do { add list=PL address=2a06:1e00:2f::/48 } on-error={}
 :do { add list=PL address=2a06:1e00:30::/48 } on-error={}
 :do { add list=PL address=2a06:1e00:31::/48 } on-error={}
 :do { add list=PL address=2a06:1e00:32::/47 } on-error={}

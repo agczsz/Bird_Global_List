@@ -5533,7 +5533,10 @@
 :do { add list=UA address=178.94.194.0/24 } on-error={}
 :do { add list=UA address=178.94.197.0/24 } on-error={}
 :do { add list=UA address=178.94.198.0/23 } on-error={}
-:do { add list=UA address=178.94.200.0/21 } on-error={}
+:do { add list=UA address=178.94.200.0/22 } on-error={}
+:do { add list=UA address=178.94.204.0/24 } on-error={}
+:do { add list=UA address=178.94.205.0/24 } on-error={}
+:do { add list=UA address=178.94.206.0/23 } on-error={}
 :do { add list=UA address=178.94.215.0/24 } on-error={}
 :do { add list=UA address=178.94.232.0/24 } on-error={}
 :do { add list=UA address=178.94.237.0/24 } on-error={}

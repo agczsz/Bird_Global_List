@@ -30940,8 +30940,7 @@
 :do { add list=NL address=2607:f188:2::/48 } on-error={}
 :do { add list=NL address=2607:f298:7::/48 } on-error={}
 :do { add list=NL address=2607:f3a0:a009::/50 } on-error={}
-:do { add list=NL address=2607:f5b5::/47 } on-error={}
-:do { add list=NL address=2607:f5b5:2::/47 } on-error={}
+:do { add list=NL address=2607:f5b5::/46 } on-error={}
 :do { add list=NL address=2607:f740:d::/48 } on-error={}
 :do { add list=NL address=2607:f740:e04e::/50 } on-error={}
 :do { add list=NL address=2607:f7a0:13::/48 } on-error={}
@@ -138858,7 +138857,8 @@
 :do { add list=NL address=2a11:60d0::/28 } on-error={}
 :do { add list=NL address=2a11:60e0::/27 } on-error={}
 :do { add list=NL address=2a11:6100::/31 } on-error={}
-:do { add list=NL address=2a11:6102::/31 } on-error={}
+:do { add list=NL address=2a11:6102::/32 } on-error={}
+:do { add list=NL address=2a11:6103::/32 } on-error={}
 :do { add list=NL address=2a11:6104::/30 } on-error={}
 :do { add list=NL address=2a11:6108::/29 } on-error={}
 :do { add list=NL address=2a11:6110::/28 } on-error={}

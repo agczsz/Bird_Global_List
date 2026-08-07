@@ -1308,7 +1308,11 @@
 :do { add list=NO address=81.26.32.0/19 } on-error={}
 :do { add list=NO address=81.27.32.0/20 } on-error={}
 :do { add list=NO address=81.27.104.0/23 } on-error={}
-:do { add list=NO address=81.29.32.0/20 } on-error={}
+:do { add list=NO address=81.29.32.0/22 } on-error={}
+:do { add list=NO address=81.29.36.0/23 } on-error={}
+:do { add list=NO address=81.29.38.0/24 } on-error={}
+:do { add list=NO address=81.29.39.0/24 } on-error={}
+:do { add list=NO address=81.29.40.0/21 } on-error={}
 :do { add list=NO address=81.29.149.0/24 } on-error={}
 :do { add list=NO address=81.88.64.0/21 } on-error={}
 :do { add list=NO address=81.88.72.0/22 } on-error={}

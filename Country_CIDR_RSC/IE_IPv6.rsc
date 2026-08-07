@@ -9287,7 +9287,11 @@
 :do { add list=IE address=2a0a:1800:1::/48 } on-error={}
 :do { add list=IE address=2a0a:1800:2::/47 } on-error={}
 :do { add list=IE address=2a0a:1800:1f::/48 } on-error={}
-:do { add list=IE address=2a0a:1800:30::/44 } on-error={}
+:do { add list=IE address=2a0a:1800:30::/48 } on-error={}
+:do { add list=IE address=2a0a:1800:31::/48 } on-error={}
+:do { add list=IE address=2a0a:1800:32::/47 } on-error={}
+:do { add list=IE address=2a0a:1800:34::/46 } on-error={}
+:do { add list=IE address=2a0a:1800:38::/45 } on-error={}
 :do { add list=IE address=2a0a:1800:40::/42 } on-error={}
 :do { add list=IE address=2a0a:1800:80::/41 } on-error={}
 :do { add list=IE address=2a0a:1800:100::/40 } on-error={}

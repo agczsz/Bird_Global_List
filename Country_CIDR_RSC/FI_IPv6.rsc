@@ -23337,7 +23337,12 @@
 :do { add list=FI address=2a06:9801:e12::/47 } on-error={}
 :do { add list=FI address=2a06:9801:e14::/46 } on-error={}
 :do { add list=FI address=2a06:9801:e18::/45 } on-error={}
-:do { add list=FI address=2a06:9801:e20::/43 } on-error={}
+:do { add list=FI address=2a06:9801:e20::/48 } on-error={}
+:do { add list=FI address=2a06:9801:e21::/48 } on-error={}
+:do { add list=FI address=2a06:9801:e22::/47 } on-error={}
+:do { add list=FI address=2a06:9801:e24::/46 } on-error={}
+:do { add list=FI address=2a06:9801:e28::/45 } on-error={}
+:do { add list=FI address=2a06:9801:e30::/44 } on-error={}
 :do { add list=FI address=2a06:9801:e40::/42 } on-error={}
 :do { add list=FI address=2a06:9801:e80::/41 } on-error={}
 :do { add list=FI address=2a06:9801:f46::/48 } on-error={}

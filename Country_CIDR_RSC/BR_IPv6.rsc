@@ -17105,8 +17105,7 @@
 :do { add list=BR address=2804:3d74:20::/43 } on-error={}
 :do { add list=BR address=2804:3d74:40::/42 } on-error={}
 :do { add list=BR address=2804:3d74:80::/41 } on-error={}
-:do { add list=BR address=2804:3d74:100::/48 } on-error={}
-:do { add list=BR address=2804:3d74:101::/48 } on-error={}
+:do { add list=BR address=2804:3d74:100::/47 } on-error={}
 :do { add list=BR address=2804:3d74:102::/48 } on-error={}
 :do { add list=BR address=2804:3d74:103::/48 } on-error={}
 :do { add list=BR address=2804:3d74:104::/46 } on-error={}
