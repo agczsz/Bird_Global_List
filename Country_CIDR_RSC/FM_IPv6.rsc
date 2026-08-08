@@ -222,7 +222,6 @@
 :do { add list=FM address=2a14:7581:b15:a700::/56 } on-error={}
 :do { add list=FM address=2a14:7581:b16:a700::/56 } on-error={}
 :do { add list=FM address=2a14:7581:b17:a700::/56 } on-error={}
-:do { add list=FM address=2a14:7581:be0:91c0::/58 } on-error={}
 :do { add list=FM address=2a14:7581:be2:4700::/56 } on-error={}
 :do { add list=FM address=2a14:7581:3b97::/48 } on-error={}
 :do { add list=FM address=2a14:7585:f406::/48 } on-error={}

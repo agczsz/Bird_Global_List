@@ -175,7 +175,6 @@
 :do { add list=NR address=2a14:7581:b15:9500::/56 } on-error={}
 :do { add list=NR address=2a14:7581:b16:9500::/56 } on-error={}
 :do { add list=NR address=2a14:7581:b17:9500::/56 } on-error={}
-:do { add list=NR address=2a14:7581:be0:8200::/58 } on-error={}
 :do { add list=NR address=2a14:7581:be2:800::/56 } on-error={}
 :do { add list=NR address=2a14:7581:3ba1::/48 } on-error={}
 :do { add list=NR address=2a14:7585:f40e::/48 } on-error={}

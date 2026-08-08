@@ -253,7 +253,6 @@
 :do { add list=TT address=2a14:7581:b15:e000::/56 } on-error={}
 :do { add list=TT address=2a14:7581:b16:e000::/56 } on-error={}
 :do { add list=TT address=2a14:7581:b17:e000::/56 } on-error={}
-:do { add list=TT address=2a14:7581:be0:c300::/58 } on-error={}
 :do { add list=TT address=2a14:7581:be3:c00::/56 } on-error={}
 :do { add list=TT address=2a14:7581:3be8::/48 } on-error={}
 :do { add list=TT address=2a14:7585:f123::/48 } on-error={}

@@ -3434,7 +3434,12 @@
 :do { add list=MU address=2c0f:1248::/29 } on-error={}
 :do { add list=MU address=2c0f:1250::/28 } on-error={}
 :do { add list=MU address=2c0f:1260::/27 } on-error={}
-:do { add list=MU address=2c0f:1280::/26 } on-error={}
+:do { add list=MU address=2c0f:1280::/27 } on-error={}
+:do { add list=MU address=2c0f:12a1::/32 } on-error={}
+:do { add list=MU address=2c0f:12a2::/31 } on-error={}
+:do { add list=MU address=2c0f:12a4::/30 } on-error={}
+:do { add list=MU address=2c0f:12a8::/29 } on-error={}
+:do { add list=MU address=2c0f:12b0::/28 } on-error={}
 :do { add list=MU address=2c0f:12c1::/32 } on-error={}
 :do { add list=MU address=2c0f:12c2::/31 } on-error={}
 :do { add list=MU address=2c0f:12c4::/30 } on-error={}

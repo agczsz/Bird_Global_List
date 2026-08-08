@@ -173,7 +173,6 @@
 :do { add list=TM address=2a14:7581:b15:e400::/56 } on-error={}
 :do { add list=TM address=2a14:7581:b16:e400::/56 } on-error={}
 :do { add list=TM address=2a14:7581:b17:e400::/56 } on-error={}
-:do { add list=TM address=2a14:7581:be0:c6c0::/58 } on-error={}
 :do { add list=TM address=2a14:7581:be3:1b00::/56 } on-error={}
 :do { add list=TM address=2a14:7581:3beb::/48 } on-error={}
 :do { add list=TM address=2a14:7585:f21f::/48 } on-error={}

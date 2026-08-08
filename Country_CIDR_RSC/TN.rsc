@@ -145,7 +145,6 @@
 :do { add list=TN address=57.82.40.0/22 } on-error={}
 :do { add list=TN address=57.85.32.0/20 } on-error={}
 :do { add list=TN address=62.200.103.144/29 } on-error={}
-:do { add list=TN address=65.169.217.101/32 } on-error={}
 :do { add list=TN address=66.96.118.0/26 } on-error={}
 :do { add list=TN address=72.14.201.102/32 } on-error={}
 :do { add list=TN address=81.52.186.218/32 } on-error={}

@@ -899,7 +899,6 @@
 :do { add list=PY address=2a14:7581:b15:ad00::/56 } on-error={}
 :do { add list=PY address=2a14:7581:b16:ad00::/56 } on-error={}
 :do { add list=PY address=2a14:7581:b17:ad00::/56 } on-error={}
-:do { add list=PY address=2a14:7581:be0:9600::/58 } on-error={}
 :do { add list=PY address=2a14:7581:be2:5800::/56 } on-error={}
 :do { add list=PY address=2a14:7581:3bb4::/48 } on-error={}
 :do { add list=PY address=2a14:7585:f30b::/48 } on-error={}

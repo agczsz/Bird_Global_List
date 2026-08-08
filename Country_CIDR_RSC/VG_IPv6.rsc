@@ -698,3 +698,4 @@
 :do { add list=VG address=2a14:7584:e922::/47 } on-error={}
 :do { add list=VG address=2a14:7584:e924::/46 } on-error={}
 :do { add list=VG address=2a14:7584:e928::/45 } on-error={}
+:do { add list=VG address=2a14:7585:f127::/48 } on-error={}

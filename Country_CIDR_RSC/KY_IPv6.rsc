@@ -163,3 +163,4 @@
 :do { add list=KY address=2a14:7581:be0:8800::/56 } on-error={}
 :do { add list=KY address=2a14:7581:3b30::/48 } on-error={}
 :do { add list=KY address=2a14:7584:e6c0::/43 } on-error={}
+:do { add list=KY address=2a14:7585:f116::/48 } on-error={}

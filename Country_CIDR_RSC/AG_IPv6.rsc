@@ -916,6 +916,6 @@
 :do { add list=AG address=2a14:7581:b15:800::/56 } on-error={}
 :do { add list=AG address=2a14:7581:b16:800::/56 } on-error={}
 :do { add list=AG address=2a14:7581:b17:800::/56 } on-error={}
-:do { add list=AG address=2a14:7581:be0:700::/58 } on-error={}
 :do { add list=AG address=2a14:7581:be0:1c00::/56 } on-error={}
 :do { add list=AG address=2a14:7581:3b10::/48 } on-error={}
+:do { add list=AG address=2a14:7585:f100::/48 } on-error={}

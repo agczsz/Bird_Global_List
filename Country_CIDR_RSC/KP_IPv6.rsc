@@ -1,6 +1,6 @@
 /log info "Loading KP IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=KP address=2001:288:6414:2902::/64 } on-error={}
+:do { add list=KP address=2001:288:6414:2902:84f3:edd1:8f87:6671/128 } on-error={}
 :do { add list=KP address=2001:470:b:58::/64 } on-error={}
 :do { add list=KP address=2001:470:b:511::/64 } on-error={}
 :do { add list=KP address=2001:470:d:5::/64 } on-error={}
@@ -428,7 +428,7 @@
 :do { add list=KP address=2602:f92a:fe05::/48 } on-error={}
 :do { add list=KP address=2602:f92a:ff05::/48 } on-error={}
 :do { add list=KP address=2602:f9a9:5:341::/64 } on-error={}
-:do { add list=KP address=2602:fa4f:900:4557::/64 } on-error={}
+:do { add list=KP address=2602:fa4f:900:4557:372d:eaaf:104a:3b6f/128 } on-error={}
 :do { add list=KP address=2602:fa93:e:341::/64 } on-error={}
 :do { add list=KP address=2602:faa8:445::/48 } on-error={}
 :do { add list=KP address=2602:faa8:455:341::/64 } on-error={}
@@ -1515,7 +1515,6 @@
 :do { add list=KP address=2a14:7581:b15:7400::/56 } on-error={}
 :do { add list=KP address=2a14:7581:b16:7400::/56 } on-error={}
 :do { add list=KP address=2a14:7581:b17:7400::/56 } on-error={}
-:do { add list=KP address=2a14:7581:be0:6600::/58 } on-error={}
 :do { add list=KP address=2a14:7581:be1:9800::/56 } on-error={}
 :do { add list=KP address=2a14:7581:fe6:53f8::/64 } on-error={}
 :do { add list=KP address=2a14:7581:3002::/48 } on-error={}

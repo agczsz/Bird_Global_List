@@ -1410,7 +1410,6 @@
 :do { add list=AZ address=2a14:7581:b15:900::/56 } on-error={}
 :do { add list=AZ address=2a14:7581:b16:900::/56 } on-error={}
 :do { add list=AZ address=2a14:7581:b17:900::/56 } on-error={}
-:do { add list=AZ address=2a14:7581:be0:7c0::/58 } on-error={}
 :do { add list=AZ address=2a14:7581:be0:1f00::/56 } on-error={}
 :do { add list=AZ address=2a14:7581:3b16::/48 } on-error={}
 :do { add list=AZ address=2a14:7585:f202::/48 } on-error={}

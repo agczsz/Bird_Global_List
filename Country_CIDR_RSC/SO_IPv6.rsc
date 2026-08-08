@@ -220,7 +220,6 @@
 :do { add list=SO address=2a14:7581:b15:ce00::/56 } on-error={}
 :do { add list=SO address=2a14:7581:b16:ce00::/56 } on-error={}
 :do { add list=SO address=2a14:7581:b17:ce00::/56 } on-error={}
-:do { add list=SO address=2a14:7581:be0:b080::/58 } on-error={}
 :do { add list=SO address=2a14:7581:be2:c200::/56 } on-error={}
 :do { add list=SO address=2a14:7581:3bd4::/48 } on-error={}
 :do { add list=SO address=2a14:7585:f52d::/48 } on-error={}

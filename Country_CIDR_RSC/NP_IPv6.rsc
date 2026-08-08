@@ -623,6 +623,6 @@
 :do { add list=NP address=2a14:7581:b15:9600::/56 } on-error={}
 :do { add list=NP address=2a14:7581:b16:9600::/56 } on-error={}
 :do { add list=NP address=2a14:7581:b17:9600::/56 } on-error={}
-:do { add list=NP address=2a14:7581:be0:8300::/58 } on-error={}
 :do { add list=NP address=2a14:7581:be2:c00::/56 } on-error={}
 :do { add list=NP address=2a14:7581:3ba2::/48 } on-error={}
+:do { add list=NP address=2a14:7585:f218::/48 } on-error={}

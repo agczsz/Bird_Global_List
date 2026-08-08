@@ -840,6 +840,6 @@
 :do { add list=LI address=2a14:7581:b15:7e00::/56 } on-error={}
 :do { add list=LI address=2a14:7581:b16:7e00::/56 } on-error={}
 :do { add list=LI address=2a14:7581:b17:7e00::/56 } on-error={}
-:do { add list=LI address=2a14:7581:be0:6d80::/58 } on-error={}
 :do { add list=LI address=2a14:7581:be1:b600::/56 } on-error={}
 :do { add list=LI address=2a14:7581:3b87::/48 } on-error={}
+:do { add list=LI address=2a14:7585:f01e::/48 } on-error={}

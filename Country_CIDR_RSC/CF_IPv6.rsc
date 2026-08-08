@@ -190,7 +190,6 @@
 :do { add list=CF address=2a14:7581:b15:2800::/56 } on-error={}
 :do { add list=CF address=2a14:7581:b16:2800::/56 } on-error={}
 :do { add list=CF address=2a14:7581:b17:2800::/56 } on-error={}
-:do { add list=CF address=2a14:7581:be0:2300::/58 } on-error={}
 :do { add list=CF address=2a14:7581:be0:8c00::/56 } on-error={}
 :do { add list=CF address=2a14:7581:3b31::/48 } on-error={}
 :do { add list=CF address=2a14:7585:f506::/48 } on-error={}

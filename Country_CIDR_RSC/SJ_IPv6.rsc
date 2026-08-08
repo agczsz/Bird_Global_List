@@ -96,3 +96,4 @@
 :do { add list=SJ address=2a14:7581:be2:e800::/56 } on-error={}
 :do { add list=SJ address=2a14:7581:3bdc::/48 } on-error={}
 :do { add list=SJ address=2a14:7584:eff5::/48 } on-error={}
+:do { add list=SJ address=2a14:7585:f030::/48 } on-error={}

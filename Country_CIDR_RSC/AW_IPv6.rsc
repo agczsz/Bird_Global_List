@@ -190,3 +190,4 @@
 :do { add list=AW address=2a14:7581:b17:9900::/56 } on-error={}
 :do { add list=AW address=2a14:7581:be2:1500::/56 } on-error={}
 :do { add list=AW address=2a14:7581:3b13::/48 } on-error={}
+:do { add list=AW address=2a14:7585:f102::/48 } on-error={}

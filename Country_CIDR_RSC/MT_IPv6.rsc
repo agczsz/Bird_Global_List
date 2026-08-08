@@ -392,6 +392,6 @@
 :do { add list=MT address=2a14:7581:b15:8700::/56 } on-error={}
 :do { add list=MT address=2a14:7581:b16:8700::/56 } on-error={}
 :do { add list=MT address=2a14:7581:b17:8700::/56 } on-error={}
-:do { add list=MT address=2a14:7581:be0:7580::/58 } on-error={}
 :do { add list=MT address=2a14:7581:be1:d600::/56 } on-error={}
 :do { add list=MT address=2a14:7581:3b90::/48 } on-error={}
+:do { add list=MT address=2a14:7585:f026::/48 } on-error={}

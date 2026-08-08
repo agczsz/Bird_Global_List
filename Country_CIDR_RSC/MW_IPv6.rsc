@@ -1257,7 +1257,6 @@
 :do { add list=MW address=2a14:7581:b15:8300::/56 } on-error={}
 :do { add list=MW address=2a14:7581:b16:8300::/56 } on-error={}
 :do { add list=MW address=2a14:7581:b17:8300::/56 } on-error={}
-:do { add list=MW address=2a14:7581:be0:7180::/58 } on-error={}
 :do { add list=MW address=2a14:7581:be1:c600::/56 } on-error={}
 :do { add list=MW address=2a14:7581:3b8c::/48 } on-error={}
 :do { add list=MW address=2a14:7585:f521::/48 } on-error={}

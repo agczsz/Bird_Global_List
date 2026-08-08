@@ -1325,7 +1325,6 @@
 :do { add list=KH address=2a14:7581:b15:2300::/56 } on-error={}
 :do { add list=KH address=2a14:7581:b16:2300::/56 } on-error={}
 :do { add list=KH address=2a14:7581:b17:2300::/56 } on-error={}
-:do { add list=KH address=2a14:7581:be0:1d00::/58 } on-error={}
 :do { add list=KH address=2a14:7581:be0:7400::/56 } on-error={}
 :do { add list=KH address=2a14:7581:3b2c::/48 } on-error={}
 :do { add list=KH address=2a14:7585:f20d::/48 } on-error={}

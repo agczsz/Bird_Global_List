@@ -200,3 +200,4 @@
 :do { add list=AI address=2a14:7581:be2:9400::/56 } on-error={}
 :do { add list=AI address=2a14:7581:3b0e::/48 } on-error={}
 :do { add list=AI address=2a14:7584:e016::/48 } on-error={}
+:do { add list=AI address=2a14:7585:f101::/48 } on-error={}

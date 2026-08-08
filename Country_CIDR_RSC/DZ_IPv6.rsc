@@ -379,7 +379,6 @@
 :do { add list=DZ address=2a14:7581:b15:400::/56 } on-error={}
 :do { add list=DZ address=2a14:7581:b16:400::/56 } on-error={}
 :do { add list=DZ address=2a14:7581:b17:400::/56 } on-error={}
-:do { add list=DZ address=2a14:7581:be0:300::/58 } on-error={}
 :do { add list=DZ address=2a14:7581:be0:c00::/56 } on-error={}
 :do { add list=DZ address=2a14:7581:3b0a::/48 } on-error={}
 :do { add list=DZ address=2a14:7585:f50c::/48 } on-error={}

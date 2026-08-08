@@ -402,7 +402,6 @@
 :do { add list=DJ address=2a14:7581:b15:4f00::/56 } on-error={}
 :do { add list=DJ address=2a14:7581:b16:4f00::/56 } on-error={}
 :do { add list=DJ address=2a14:7581:b17:4f00::/56 } on-error={}
-:do { add list=DJ address=2a14:7581:be0:4180::/58 } on-error={}
 :do { add list=DJ address=2a14:7581:be1:600::/56 } on-error={}
 :do { add list=DJ address=2a14:7581:3b44::/48 } on-error={}
 :do { add list=DJ address=2a14:7585:f50b::/48 } on-error={}

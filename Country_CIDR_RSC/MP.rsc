@@ -2,7 +2,6 @@
 /ip firewall address-list
 :do { add list=MP address=5.62.60.165/32 } on-error={}
 :do { add list=MP address=8.3.119.192/26 } on-error={}
-:do { add list=MP address=8.3.123.8/32 } on-error={}
 :do { add list=MP address=8.3.123.12/31 } on-error={}
 :do { add list=MP address=8.3.123.21/32 } on-error={}
 :do { add list=MP address=8.3.123.28/32 } on-error={}
@@ -14,12 +13,17 @@
 :do { add list=MP address=8.3.123.123/32 } on-error={}
 :do { add list=MP address=8.3.123.137/32 } on-error={}
 :do { add list=MP address=8.3.123.138/32 } on-error={}
+:do { add list=MP address=8.3.123.140/32 } on-error={}
 :do { add list=MP address=8.3.123.144/32 } on-error={}
+:do { add list=MP address=8.3.123.148/31 } on-error={}
+:do { add list=MP address=8.3.123.194/32 } on-error={}
 :do { add list=MP address=8.3.123.198/32 } on-error={}
 :do { add list=MP address=8.3.123.240/32 } on-error={}
 :do { add list=MP address=8.3.123.246/31 } on-error={}
 :do { add list=MP address=8.3.126.82/32 } on-error={}
 :do { add list=MP address=8.3.127.32/27 } on-error={}
+:do { add list=MP address=8.3.127.78/32 } on-error={}
+:do { add list=MP address=8.3.127.112/30 } on-error={}
 :do { add list=MP address=8.3.127.148/31 } on-error={}
 :do { add list=MP address=8.3.127.244/30 } on-error={}
 :do { add list=MP address=45.117.196.0/28 } on-error={}

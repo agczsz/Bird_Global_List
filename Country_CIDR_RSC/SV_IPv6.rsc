@@ -76,7 +76,18 @@
 :do { add list=SV address=2800:b20:1082::/47 } on-error={}
 :do { add list=SV address=2800:b20:1084::/46 } on-error={}
 :do { add list=SV address=2800:b20:1088::/45 } on-error={}
-:do { add list=SV address=2800:b20:1090::/44 } on-error={}
+:do { add list=SV address=2800:b20:1090::/50 } on-error={}
+:do { add list=SV address=2800:b20:1090:4000::/53 } on-error={}
+:do { add list=SV address=2800:b20:1090:4900::/56 } on-error={}
+:do { add list=SV address=2800:b20:1090:4a00::/55 } on-error={}
+:do { add list=SV address=2800:b20:1090:4c00::/54 } on-error={}
+:do { add list=SV address=2800:b20:1090:5000::/52 } on-error={}
+:do { add list=SV address=2800:b20:1090:6000::/51 } on-error={}
+:do { add list=SV address=2800:b20:1090:8000::/49 } on-error={}
+:do { add list=SV address=2800:b20:1091::/48 } on-error={}
+:do { add list=SV address=2800:b20:1092::/47 } on-error={}
+:do { add list=SV address=2800:b20:1094::/46 } on-error={}
+:do { add list=SV address=2800:b20:1098::/45 } on-error={}
 :do { add list=SV address=2800:b20:10a0::/43 } on-error={}
 :do { add list=SV address=2800:b20:10c0::/42 } on-error={}
 :do { add list=SV address=2800:b20:1100::/40 } on-error={}
@@ -113,7 +124,7 @@
 :do { add list=SV address=2803:3150::/32 } on-error={}
 :do { add list=SV address=2803:4600:101b:5600::/56 } on-error={}
 :do { add list=SV address=2803:4600:101d:7800::/56 } on-error={}
-:do { add list=SV address=2803:4600:1060:4700::/56 } on-error={}
+:do { add list=SV address=2803:4600:1047:5900::/56 } on-error={}
 :do { add list=SV address=2803:5040::/32 } on-error={}
 :do { add list=SV address=2803:5320:a000::/40 } on-error={}
 :do { add list=SV address=2803:59a0::/32 } on-error={}
@@ -1236,7 +1247,6 @@
 :do { add list=SV address=2a14:7581:b15:4000::/56 } on-error={}
 :do { add list=SV address=2a14:7581:b16:4000::/56 } on-error={}
 :do { add list=SV address=2a14:7581:b17:4000::/56 } on-error={}
-:do { add list=SV address=2a14:7581:be0:3780::/58 } on-error={}
 :do { add list=SV address=2a14:7581:be0:de00::/56 } on-error={}
 :do { add list=SV address=2a14:7581:3b49::/48 } on-error={}
 :do { add list=SV address=2a14:7585:f120::/48 } on-error={}

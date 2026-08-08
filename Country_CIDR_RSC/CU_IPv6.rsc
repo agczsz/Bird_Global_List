@@ -2,7 +2,6 @@
 /ipv6 firewall address-list
 :do { add list=CU address=2001:470:b:7a5::/64 } on-error={}
 :do { add list=CU address=2001:470:18e9::/48 } on-error={}
-:do { add list=CU address=2001:470:1f15:6f7::/64 } on-error={}
 :do { add list=CU address=2001:470:1f2b:f1::/64 } on-error={}
 :do { add list=CU address=2001:470:1f2b:465::/64 } on-error={}
 :do { add list=CU address=2001:470:6940::/48 } on-error={}
@@ -62,6 +61,7 @@
 :do { add list=CU address=2606:54c3:0:164f::/64 } on-error={}
 :do { add list=CU address=2606:54c3:0:1a75::/64 } on-error={}
 :do { add list=CU address=2606:f183:4000::/47 } on-error={}
+:do { add list=CU address=2606:f188:116::/48 } on-error={}
 :do { add list=CU address=2620:134:b0ff::c48/128 } on-error={}
 :do { add list=CU address=2620:134:b0ff::c4a/128 } on-error={}
 :do { add list=CU address=2800:230::/32 } on-error={}

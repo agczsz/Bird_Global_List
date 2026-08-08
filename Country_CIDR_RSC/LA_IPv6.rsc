@@ -3,6 +3,7 @@
 :do { add list=LA address=2001:470:19:6ec::/64 } on-error={}
 :do { add list=LA address=2001:470:691c::/48 } on-error={}
 :do { add list=LA address=2001:470:7599::/48 } on-error={}
+:do { add list=LA address=2001:470:75ac::/48 } on-error={}
 :do { add list=LA address=2001:470:b99a::/48 } on-error={}
 :do { add list=LA address=2001:470:b9c2::/48 } on-error={}
 :do { add list=LA address=2001:470:c935::/48 } on-error={}

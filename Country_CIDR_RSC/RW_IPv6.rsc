@@ -199,7 +199,6 @@
 :do { add list=RW address=2a14:7581:b15:ba00::/56 } on-error={}
 :do { add list=RW address=2a14:7581:b16:ba00::/56 } on-error={}
 :do { add list=RW address=2a14:7581:b17:ba00::/56 } on-error={}
-:do { add list=RW address=2a14:7581:be0:a180::/58 } on-error={}
 :do { add list=RW address=2a14:7581:be2:8600::/56 } on-error={}
 :do { add list=RW address=2a14:7581:3bbf::/48 } on-error={}
 :do { add list=RW address=2a14:7585:f527::/48 } on-error={}

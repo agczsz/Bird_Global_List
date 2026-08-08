@@ -151,4 +151,5 @@
 :do { add list=NU address=2a14:7581:b17:a200::/56 } on-error={}
 :do { add list=NU address=2a14:7581:be2:3a00::/56 } on-error={}
 :do { add list=NU address=2a14:7581:3ba9::/48 } on-error={}
+:do { add list=NU address=2a14:7585:f40f::/48 } on-error={}
 :do { add list=NU address=2a14:c380:7ee::/48 } on-error={}

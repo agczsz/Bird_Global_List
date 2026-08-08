@@ -287,7 +287,6 @@
 :do { add list=BW address=2a14:7581:b15:1700::/56 } on-error={}
 :do { add list=BW address=2a14:7581:b16:1700::/56 } on-error={}
 :do { add list=BW address=2a14:7581:b17:1700::/56 } on-error={}
-:do { add list=BW address=2a14:7581:be0:1200::/58 } on-error={}
 :do { add list=BW address=2a14:7581:be0:4800::/56 } on-error={}
 :do { add list=BW address=2a14:7581:3b24::/48 } on-error={}
 :do { add list=BW address=2a14:7585:f504::/48 } on-error={}
