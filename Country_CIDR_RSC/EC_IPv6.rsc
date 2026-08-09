@@ -2012,6 +2012,8 @@
 :do { add list=EC address=2803:3f60::/32 } on-error={}
 :do { add list=EC address=2803:4180::/32 } on-error={}
 :do { add list=EC address=2803:4350::/32 } on-error={}
+:do { add list=EC address=2803:4580:821c::1/128 } on-error={}
+:do { add list=EC address=2803:4580:821c::2/128 } on-error={}
 :do { add list=EC address=2803:4690::/32 } on-error={}
 :do { add list=EC address=2803:46c0::/32 } on-error={}
 :do { add list=EC address=2803:46e0::/47 } on-error={}

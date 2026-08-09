@@ -798,10 +798,6 @@
 :do { add list=EE address=2604:b040:13:d00:1:4:1:0/112 } on-error={}
 :do { add list=EE address=2604:b040:13:d00:1:5:1:0/112 } on-error={}
 :do { add list=EE address=2604:ea80:6200::/40 } on-error={}
-:do { add list=EE address=2605:7a80:9914:4000::/50 } on-error={}
-:do { add list=EE address=2605:7a80:9914:8000::/49 } on-error={}
-:do { add list=EE address=2605:7a80:9915:4000::/50 } on-error={}
-:do { add list=EE address=2605:7a80:9915:8000::/49 } on-error={}
 :do { add list=EE address=2606:40:9d0::/44 } on-error={}
 :do { add list=EE address=2606:40:1870::/44 } on-error={}
 :do { add list=EE address=2606:40:1880::/44 } on-error={}

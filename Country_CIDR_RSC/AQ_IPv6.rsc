@@ -1480,7 +1480,11 @@
 :do { add list=AQ address=2a0a:d685:100::/41 } on-error={}
 :do { add list=AQ address=2a0a:d685:180::/42 } on-error={}
 :do { add list=AQ address=2a0a:d685:1c0::/43 } on-error={}
-:do { add list=AQ address=2a0a:d685:1e0::/44 } on-error={}
+:do { add list=AQ address=2a0a:d685:1e0::/48 } on-error={}
+:do { add list=AQ address=2a0a:d685:1e1::/48 } on-error={}
+:do { add list=AQ address=2a0a:d685:1e2::/47 } on-error={}
+:do { add list=AQ address=2a0a:d685:1e4::/46 } on-error={}
+:do { add list=AQ address=2a0a:d685:1e8::/45 } on-error={}
 :do { add list=AQ address=2a0a:d685:1f0::/45 } on-error={}
 :do { add list=AQ address=2a0a:d685:1f8::/46 } on-error={}
 :do { add list=AQ address=2a0a:d685:1fc::/48 } on-error={}

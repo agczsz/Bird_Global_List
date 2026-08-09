@@ -313,6 +313,7 @@
 :do { add list=MX address=2001:550:4a06::/48 } on-error={}
 :do { add list=MX address=2001:550:bb00::/47 } on-error={}
 :do { add list=MX address=2001:550:bb03::/48 } on-error={}
+:do { add list=MX address=2001:5a0:4a00::4/127 } on-error={}
 :do { add list=MX address=2001:5b0:5200:fffa::104/126 } on-error={}
 :do { add list=MX address=2001:5b0:5200:fffa::108/125 } on-error={}
 :do { add list=MX address=2001:5b0:5200:fffa::200/119 } on-error={}
@@ -8864,7 +8865,13 @@
 :do { add list=MX address=2806:2f0:4c24::/46 } on-error={}
 :do { add list=MX address=2806:2f0:4c28::/45 } on-error={}
 :do { add list=MX address=2806:2f0:4c30::/44 } on-error={}
-:do { add list=MX address=2806:2f0:4c40::/42 } on-error={}
+:do { add list=MX address=2806:2f0:4c40::/47 } on-error={}
+:do { add list=MX address=2806:2f0:4c42::/48 } on-error={}
+:do { add list=MX address=2806:2f0:4c43::/48 } on-error={}
+:do { add list=MX address=2806:2f0:4c44::/46 } on-error={}
+:do { add list=MX address=2806:2f0:4c48::/45 } on-error={}
+:do { add list=MX address=2806:2f0:4c50::/44 } on-error={}
+:do { add list=MX address=2806:2f0:4c60::/43 } on-error={}
 :do { add list=MX address=2806:2f0:4c80::/41 } on-error={}
 :do { add list=MX address=2806:2f0:4d00::/40 } on-error={}
 :do { add list=MX address=2806:2f0:4e00::/39 } on-error={}

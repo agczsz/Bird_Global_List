@@ -1787,10 +1787,6 @@
 :do { add list=PT address=2604:ca00:198:4000::/50 } on-error={}
 :do { add list=PT address=2604:ca00:1a8::/49 } on-error={}
 :do { add list=PT address=2604:ca00:1b8::/49 } on-error={}
-:do { add list=PT address=2605:7a80:9708:4000::/50 } on-error={}
-:do { add list=PT address=2605:7a80:9708:8000::/49 } on-error={}
-:do { add list=PT address=2605:7a80:9709:4000::/50 } on-error={}
-:do { add list=PT address=2605:7a80:9709:8000::/49 } on-error={}
 :do { add list=PT address=2605:e440:30::/48 } on-error={}
 :do { add list=PT address=2606:40:730::/44 } on-error={}
 :do { add list=PT address=2606:40:8e0::/45 } on-error={}

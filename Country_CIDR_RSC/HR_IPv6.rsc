@@ -422,10 +422,6 @@
 :do { add list=HR address=2604:cac0:52:4000::/50 } on-error={}
 :do { add list=HR address=2604:cac0:53::/50 } on-error={}
 :do { add list=HR address=2604:cac0:53:c000::/50 } on-error={}
-:do { add list=HR address=2605:7a80:9910:4000::/50 } on-error={}
-:do { add list=HR address=2605:7a80:9910:8000::/49 } on-error={}
-:do { add list=HR address=2605:7a80:9911:4000::/50 } on-error={}
-:do { add list=HR address=2605:7a80:9911:8000::/49 } on-error={}
 :do { add list=HR address=2605:e440:42::/50 } on-error={}
 :do { add list=HR address=2606:40:740::/45 } on-error={}
 :do { add list=HR address=2606:40:748::/46 } on-error={}

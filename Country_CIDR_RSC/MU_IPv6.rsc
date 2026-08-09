@@ -5047,7 +5047,12 @@
 :do { add list=MU address=2c0f:5248::/29 } on-error={}
 :do { add list=MU address=2c0f:5250::/28 } on-error={}
 :do { add list=MU address=2c0f:5260::/27 } on-error={}
-:do { add list=MU address=2c0f:5280::/26 } on-error={}
+:do { add list=MU address=2c0f:5280::/27 } on-error={}
+:do { add list=MU address=2c0f:52a1::/32 } on-error={}
+:do { add list=MU address=2c0f:52a2::/31 } on-error={}
+:do { add list=MU address=2c0f:52a4::/30 } on-error={}
+:do { add list=MU address=2c0f:52a8::/29 } on-error={}
+:do { add list=MU address=2c0f:52b0::/28 } on-error={}
 :do { add list=MU address=2c0f:52c1::/32 } on-error={}
 :do { add list=MU address=2c0f:52c2::/31 } on-error={}
 :do { add list=MU address=2c0f:52c4::/30 } on-error={}

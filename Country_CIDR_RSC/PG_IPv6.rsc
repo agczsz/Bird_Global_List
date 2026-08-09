@@ -150,10 +150,6 @@
 :do { add list=PG address=2600:70ff:a964::/48 } on-error={}
 :do { add list=PG address=2600:70ff:f811::/48 } on-error={}
 :do { add list=PG address=2605:59c7:f0c1::/48 } on-error={}
-:do { add list=PG address=2605:7a80:6300:4000::/50 } on-error={}
-:do { add list=PG address=2605:7a80:6300:8000::/49 } on-error={}
-:do { add list=PG address=2605:7a80:6301:4000::/50 } on-error={}
-:do { add list=PG address=2605:7a80:6301:8000::/49 } on-error={}
 :do { add list=PG address=2606:54c0:4ec8::/45 } on-error={}
 :do { add list=PG address=2606:54c0:4ed0::/45 } on-error={}
 :do { add list=PG address=2606:54c3:0:7b3::/64 } on-error={}

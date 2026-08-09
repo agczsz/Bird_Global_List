@@ -83,9 +83,7 @@
 :do { add list=GD address=2606:5dc0:8500:30e::/64 } on-error={}
 :do { add list=GD address=2606:5dc0:8500:31f::/64 } on-error={}
 :do { add list=GD address=2606:5dc0:8500:329::/64 } on-error={}
-:do { add list=GD address=2606:5dc0:8500:412::/64 } on-error={}
-:do { add list=GD address=2606:5dc0:8500:4bd::/64 } on-error={}
-:do { add list=GD address=2606:5dc0:8500:4f5::/64 } on-error={}
+:do { add list=GD address=2606:5dc0:8500:400::/56 } on-error={}
 :do { add list=GD address=2606:5dc0:8500:59e::/64 } on-error={}
 :do { add list=GD address=2606:5dc0:8500:5c5::/64 } on-error={}
 :do { add list=GD address=2606:5dc0:8500:60f::/64 } on-error={}
