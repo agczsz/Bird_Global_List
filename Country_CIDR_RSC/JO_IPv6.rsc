@@ -39,8 +39,6 @@
 :do { add list=JO address=2001:67c:2124:2000::/51 } on-error={}
 :do { add list=JO address=2001:67c:2124:4000::/51 } on-error={}
 :do { add list=JO address=2001:67c:2124:8000::/49 } on-error={}
-:do { add list=JO address=2001:688:0:2::d0/128 } on-error={}
-:do { add list=JO address=2001:688:0:2::d2/128 } on-error={}
 :do { add list=JO address=2001:688:0:2:8::21f/128 } on-error={}
 :do { add list=JO address=2001:688:0:3:3::86/127 } on-error={}
 :do { add list=JO address=2001:688:0:3:3::88/127 } on-error={}

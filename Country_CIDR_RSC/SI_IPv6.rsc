@@ -130,6 +130,7 @@
 :do { add list=SI address=2001:798:aa:1::2a/128 } on-error={}
 :do { add list=SI address=2001:798:cc:1::15/128 } on-error={}
 :do { add list=SI address=2001:798:cc:1::17/128 } on-error={}
+:do { add list=SI address=2001:798:cc:1::125/128 } on-error={}
 :do { add list=SI address=2001:798:cc:1::127/128 } on-error={}
 :do { add list=SI address=2001:7f8:30:0:1:1:2:1283/128 } on-error={}
 :do { add list=SI address=2001:7f8:46::/48 } on-error={}

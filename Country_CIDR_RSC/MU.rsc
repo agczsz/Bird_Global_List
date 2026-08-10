@@ -852,7 +852,11 @@
 :do { add list=MU address=196.20.225.120/30 } on-error={}
 :do { add list=MU address=196.20.225.124/31 } on-error={}
 :do { add list=MU address=196.20.225.126/32 } on-error={}
-:do { add list=MU address=196.20.225.128/25 } on-error={}
+:do { add list=MU address=196.20.225.128/26 } on-error={}
+:do { add list=MU address=196.20.225.192/27 } on-error={}
+:do { add list=MU address=196.20.225.224/28 } on-error={}
+:do { add list=MU address=196.20.225.240/29 } on-error={}
+:do { add list=MU address=196.20.225.252/30 } on-error={}
 :do { add list=MU address=196.20.226.0/23 } on-error={}
 :do { add list=MU address=196.20.228.0/22 } on-error={}
 :do { add list=MU address=196.20.232.0/22 } on-error={}

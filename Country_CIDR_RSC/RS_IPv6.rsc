@@ -1,6 +1,8 @@
 /log info "Loading RS IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=RS address=2001:470:0:33f::1/128 } on-error={}
+:do { add list=RS address=2001:470:0:3f9::2/128 } on-error={}
+:do { add list=RS address=2001:470:0:59d::/64 } on-error={}
 :do { add list=RS address=2001:470:0:70d::/64 } on-error={}
 :do { add list=RS address=2001:470:1:46::/64 } on-error={}
 :do { add list=RS address=2001:470:1:61d::/64 } on-error={}
@@ -9,7 +11,6 @@
 :do { add list=RS address=2001:470:28:775::/64 } on-error={}
 :do { add list=RS address=2001:470:28:bc0::/64 } on-error={}
 :do { add list=RS address=2001:470:28:1141::/64 } on-error={}
-:do { add list=RS address=2001:470:6e:8ee::/64 } on-error={}
 :do { add list=RS address=2001:470:6f:3e8::/64 } on-error={}
 :do { add list=RS address=2001:470:6f:410::/64 } on-error={}
 :do { add list=RS address=2001:470:6f:952::/64 } on-error={}
@@ -230,7 +231,6 @@
 :do { add list=RS address=2001:2034:a:328::/64 } on-error={}
 :do { add list=RS address=2001:2035:0:1c6::/64 } on-error={}
 :do { add list=RS address=2001:2035:0:a01::/64 } on-error={}
-:do { add list=RS address=2001:2035:0:c11::/64 } on-error={}
 :do { add list=RS address=2001:2035:0:c76::/64 } on-error={}
 :do { add list=RS address=2001:2035:0:139d::/64 } on-error={}
 :do { add list=RS address=2001:2035:0:14b7::/64 } on-error={}

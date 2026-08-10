@@ -3,6 +3,7 @@
 :do { add list=XK address=2001:470:19:1314::/64 } on-error={}
 :do { add list=XK address=2001:470:7433::/48 } on-error={}
 :do { add list=XK address=2001:470:ed31::/48 } on-error={}
+:do { add list=XK address=2001:470:f425::/48 } on-error={}
 :do { add list=XK address=2001:470:f5b9::/48 } on-error={}
 :do { add list=XK address=2001:67c:a38:f383::/64 } on-error={}
 :do { add list=XK address=2001:7f8:16a::/48 } on-error={}

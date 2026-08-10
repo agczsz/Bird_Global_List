@@ -75,8 +75,9 @@
 :do { add list=YT address=109.122.179.48/30 } on-error={}
 :do { add list=YT address=109.122.179.144/30 } on-error={}
 :do { add list=YT address=139.26.1.0/25 } on-error={}
-:do { add list=YT address=139.26.3.0/25 } on-error={}
+:do { add list=YT address=139.26.3.0/24 } on-error={}
 :do { add list=YT address=139.26.22.0/25 } on-error={}
+:do { add list=YT address=139.26.23.0/25 } on-error={}
 :do { add list=YT address=140.248.24.92/31 } on-error={}
 :do { add list=YT address=140.248.41.92/31 } on-error={}
 :do { add list=YT address=140.248.56.245/32 } on-error={}

@@ -16,8 +16,7 @@
 :do { add list=MK address=2001:67c:a38:f389::/64 } on-error={}
 :do { add list=MK address=2001:67c:a60::/48 } on-error={}
 :do { add list=MK address=2001:798:1::1a/127 } on-error={}
-:do { add list=MK address=2001:798:1::34/128 } on-error={}
-:do { add list=MK address=2001:798:1::36/127 } on-error={}
+:do { add list=MK address=2001:798:1::34/126 } on-error={}
 :do { add list=MK address=2001:798:1::7c/128 } on-error={}
 :do { add list=MK address=2001:798:1::7e/127 } on-error={}
 :do { add list=MK address=2001:798:1::82/127 } on-error={}

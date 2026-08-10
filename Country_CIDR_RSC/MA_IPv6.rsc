@@ -448,10 +448,10 @@
 :do { add list=MA address=2607:8940:4191:7800::/56 } on-error={}
 :do { add list=MA address=2620:0:877:5600::/64 } on-error={}
 :do { add list=MA address=2620:171:9a::/48 } on-error={}
+:do { add list=MA address=2a00:c38::3:0:2c1/128 } on-error={}
 :do { add list=MA address=2a00:ca0:2034:8000::/52 } on-error={}
 :do { add list=MA address=2a00:ca0:2050:6000::/52 } on-error={}
 :do { add list=MA address=2a00:ca0:2052::/50 } on-error={}
-:do { add list=MA address=2a01:111:2000:2:8000::a52/128 } on-error={}
 :do { add list=MA address=2a01:528:5200::/40 } on-error={}
 :do { add list=MA address=2a01:ce88:8000::/36 } on-error={}
 :do { add list=MA address=2a02:26f7:c300::/46 } on-error={}

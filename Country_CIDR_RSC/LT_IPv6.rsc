@@ -1,10 +1,9 @@
 /log info "Loading LT IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=LT address=2001:470:0:46d::2/128 } on-error={}
-:do { add list=LT address=2001:470:0:47c::2/128 } on-error={}
 :do { add list=LT address=2001:470:1:7bf::/64 } on-error={}
 :do { add list=LT address=2001:470:1:81e::1/128 } on-error={}
-:do { add list=LT address=2001:470:1:abf::1/128 } on-error={}
+:do { add list=LT address=2001:470:1:abf::/64 } on-error={}
 :do { add list=LT address=2001:470:1:acb::1/128 } on-error={}
 :do { add list=LT address=2001:470:1:ca2::/64 } on-error={}
 :do { add list=LT address=2001:470:28:f::/64 } on-error={}
@@ -228,6 +227,8 @@
 :do { add list=LT address=2001:2034:0:23c::/64 } on-error={}
 :do { add list=LT address=2001:2034:a:79::/64 } on-error={}
 :do { add list=LT address=2001:2034:a:af::/64 } on-error={}
+:do { add list=LT address=2001:2034:a:186::/64 } on-error={}
+:do { add list=LT address=2001:2034:a:2d5::/64 } on-error={}
 :do { add list=LT address=2001:2035:0:1351::/64 } on-error={}
 :do { add list=LT address=2001:2035:0:1724::2/128 } on-error={}
 :do { add list=LT address=2001:2035:0:1eaf::2/128 } on-error={}
@@ -325,11 +326,14 @@
 :do { add list=LT address=2a00:800:191:1::15:1/128 } on-error={}
 :do { add list=LT address=2a00:800:191:1::15:2/128 } on-error={}
 :do { add list=LT address=2a00:800:191:1::15:11/128 } on-error={}
+:do { add list=LT address=2a00:800:191:1::15:12/128 } on-error={}
+:do { add list=LT address=2a00:800:191:1::15:66/127 } on-error={}
 :do { add list=LT address=2a00:800:191:1::15:6a/128 } on-error={}
 :do { add list=LT address=2a00:800:191:1::28:1/128 } on-error={}
 :do { add list=LT address=2a00:800:191:1::28:2/128 } on-error={}
 :do { add list=LT address=2a00:800:191:1::29:1/128 } on-error={}
 :do { add list=LT address=2a00:800:191:1::29:2/128 } on-error={}
+:do { add list=LT address=2a00:800:191:1::2a:1/128 } on-error={}
 :do { add list=LT address=2a00:800:191:1::2a:2/128 } on-error={}
 :do { add list=LT address=2a00:800:191:1::2b:1/128 } on-error={}
 :do { add list=LT address=2a00:800:191:1::2b:2/128 } on-error={}
@@ -437,6 +441,7 @@
 :do { add list=LT address=2a00:800:1100:1000::/52 } on-error={}
 :do { add list=LT address=2a00:800:1100:2000::/51 } on-error={}
 :do { add list=LT address=2a00:800:2000:22ff::20/123 } on-error={}
+:do { add list=LT address=2a00:800:2000:22ff::66/128 } on-error={}
 :do { add list=LT address=2a00:800:2000:22ff::6e/128 } on-error={}
 :do { add list=LT address=2a00:800:2000:22ff::70/128 } on-error={}
 :do { add list=LT address=2a00:800:2000:22ff::72/128 } on-error={}
@@ -1066,7 +1071,6 @@
 :do { add list=LT address=2a02:2d8::57f5:e041/128 } on-error={}
 :do { add list=LT address=2a02:2d8::57f5:e09c/128 } on-error={}
 :do { add list=LT address=2a02:2d8::57f5:e09e/127 } on-error={}
-:do { add list=LT address=2a02:2d8:1:2002::/126 } on-error={}
 :do { add list=LT address=2a02:2d8:1:2800::/53 } on-error={}
 :do { add list=LT address=2a02:2d8:1:8000::/52 } on-error={}
 :do { add list=LT address=2a02:2d8:2:3800::/53 } on-error={}
