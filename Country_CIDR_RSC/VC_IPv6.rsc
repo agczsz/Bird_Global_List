@@ -1,6 +1,7 @@
 /log info "Loading VC IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=VC address=2001:470:1f21:23d::/64 } on-error={}
+:do { add list=VC address=2001:470:ef4f::/48 } on-error={}
 :do { add list=VC address=2001:470:f694::/48 } on-error={}
 :do { add list=VC address=2001:470:ffc3::/48 } on-error={}
 :do { add list=VC address=2001:505:141::/48 } on-error={}

@@ -113,6 +113,7 @@
 :do { add list=XK address=2a0c:b340::/29 } on-error={}
 :do { add list=XK address=2a0d:9443:9000::/37 } on-error={}
 :do { add list=XK address=2a0d:ccc0::/29 } on-error={}
+:do { add list=XK address=2a0f:6280:ca2b::/48 } on-error={}
 :do { add list=XK address=2a0f:6280:ceff::/48 } on-error={}
 :do { add list=XK address=2a0f:8880::/29 } on-error={}
 :do { add list=XK address=2a0f:a301:1800::/37 } on-error={}

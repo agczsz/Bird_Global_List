@@ -21,7 +21,7 @@
 :do { add list=BF address=41.203.224.0/20 } on-error={}
 :do { add list=BF address=41.216.144.0/20 } on-error={}
 :do { add list=BF address=41.223.232.0/22 } on-error={}
-:do { add list=BF address=45.222.205.34/31 } on-error={}
+:do { add list=BF address=45.222.205.34/32 } on-error={}
 :do { add list=BF address=45.222.212.112/28 } on-error={}
 :do { add list=BF address=57.82.152.0/23 } on-error={}
 :do { add list=BF address=63.246.45.192/26 } on-error={}

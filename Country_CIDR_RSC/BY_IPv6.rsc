@@ -734,6 +734,7 @@
 :do { add list=BY address=2a0f:1cc5:b16:2200::/56 } on-error={}
 :do { add list=BY address=2a0f:1cc5:b17:2200::/56 } on-error={}
 :do { add list=BY address=2a0f:1cc5:1f23::/48 } on-error={}
+:do { add list=BY address=2a0f:6280:ca19::/48 } on-error={}
 :do { add list=BY address=2a0f:85c1:340::70:0/112 } on-error={}
 :do { add list=BY address=2a0f:85c1:81b:f130::/60 } on-error={}
 :do { add list=BY address=2a0f:9403:3a0::/44 } on-error={}

@@ -1873,7 +1873,6 @@
 :do { add list=ZA address=2600:70ff:e827::/48 } on-error={}
 :do { add list=ZA address=2600:70ff:e828::/45 } on-error={}
 :do { add list=ZA address=2600:70ff:e831::/48 } on-error={}
-:do { add list=ZA address=2600:70ff:e833::/48 } on-error={}
 :do { add list=ZA address=2600:70ff:e834::/47 } on-error={}
 :do { add list=ZA address=2600:70ff:e838::/47 } on-error={}
 :do { add list=ZA address=2600:70ff:e83c::/48 } on-error={}

@@ -350,6 +350,7 @@
 :do { add list=KE address=41.173.250.142/31 } on-error={}
 :do { add list=KE address=41.173.250.226/31 } on-error={}
 :do { add list=KE address=41.174.131.32/31 } on-error={}
+:do { add list=KE address=41.174.170.116/30 } on-error={}
 :do { add list=KE address=41.174.192.0/19 } on-error={}
 :do { add list=KE address=41.174.224.0/21 } on-error={}
 :do { add list=KE address=41.174.232.0/22 } on-error={}
@@ -1192,7 +1193,7 @@
 :do { add list=KE address=102.211.162.0/24 } on-error={}
 :do { add list=KE address=102.211.177.18/32 } on-error={}
 :do { add list=KE address=102.211.177.20/31 } on-error={}
-:do { add list=KE address=102.211.177.142/31 } on-error={}
+:do { add list=KE address=102.211.177.143/32 } on-error={}
 :do { add list=KE address=102.211.179.53/32 } on-error={}
 :do { add list=KE address=102.211.179.56/31 } on-error={}
 :do { add list=KE address=102.211.179.60/30 } on-error={}
@@ -3072,19 +3073,7 @@
 :do { add list=KE address=197.248.156.192/26 } on-error={}
 :do { add list=KE address=197.248.157.0/24 } on-error={}
 :do { add list=KE address=197.248.158.0/23 } on-error={}
-:do { add list=KE address=197.248.160.0/21 } on-error={}
-:do { add list=KE address=197.248.168.0/27 } on-error={}
-:do { add list=KE address=197.248.168.32/32 } on-error={}
-:do { add list=KE address=197.248.168.36/32 } on-error={}
-:do { add list=KE address=197.248.168.38/32 } on-error={}
-:do { add list=KE address=197.248.168.40/29 } on-error={}
-:do { add list=KE address=197.248.168.48/28 } on-error={}
-:do { add list=KE address=197.248.168.64/26 } on-error={}
-:do { add list=KE address=197.248.168.128/25 } on-error={}
-:do { add list=KE address=197.248.169.0/24 } on-error={}
-:do { add list=KE address=197.248.170.0/23 } on-error={}
-:do { add list=KE address=197.248.172.0/22 } on-error={}
-:do { add list=KE address=197.248.176.0/20 } on-error={}
+:do { add list=KE address=197.248.160.0/19 } on-error={}
 :do { add list=KE address=197.248.192.0/18 } on-error={}
 :do { add list=KE address=197.254.0.0/17 } on-error={}
 :do { add list=KE address=198.64.219.0/24 } on-error={}

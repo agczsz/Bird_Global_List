@@ -4027,6 +4027,7 @@
 :do { add list=CO address=2803:3250:eb00::/40 } on-error={}
 :do { add list=CO address=2803:3250:ec00::/38 } on-error={}
 :do { add list=CO address=2803:3250:f000::/36 } on-error={}
+:do { add list=CO address=2803:3330::/32 } on-error={}
 :do { add list=CO address=2803:33e0::/32 } on-error={}
 :do { add list=CO address=2803:3450::/32 } on-error={}
 :do { add list=CO address=2803:3630::/32 } on-error={}

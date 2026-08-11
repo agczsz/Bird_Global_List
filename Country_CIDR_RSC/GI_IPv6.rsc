@@ -225,6 +225,7 @@
 :do { add list=GI address=2a0f:1cc5:b15:5600::/56 } on-error={}
 :do { add list=GI address=2a0f:1cc5:b16:5600::/56 } on-error={}
 :do { add list=GI address=2a0f:1cc5:b17:5600::/56 } on-error={}
+:do { add list=GI address=2a0f:6280:ca08::/48 } on-error={}
 :do { add list=GI address=2a0f:7803:fecd::/48 } on-error={}
 :do { add list=GI address=2a0f:a302:a800::/37 } on-error={}
 :do { add list=GI address=2a10:cec0::/32 } on-error={}

@@ -1137,6 +1137,7 @@
 :do { add list=AM address=2a0f:1cc5:b16:1000::/56 } on-error={}
 :do { add list=AM address=2a0f:1cc5:b17:1000::/56 } on-error={}
 :do { add list=AM address=2a0f:1cc5:1f98::/48 } on-error={}
+:do { add list=AM address=2a0f:6280:ca16::/48 } on-error={}
 :do { add list=AM address=2a0f:6280:cedd::/48 } on-error={}
 :do { add list=AM address=2a0f:85c1:81b:f0a0::/60 } on-error={}
 :do { add list=AM address=2a0f:9403:640::/44 } on-error={}

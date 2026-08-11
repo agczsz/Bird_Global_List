@@ -73,7 +73,6 @@
 :do { add list=CL address=2001:550:0:1000::9a36:a00d/128 } on-error={}
 :do { add list=CL address=2001:550:0:1000::9a36:a00e/128 } on-error={}
 :do { add list=CL address=2001:550:0:1000::9a36:a3be/128 } on-error={}
-:do { add list=CL address=2001:5a0:3800::5a/128 } on-error={}
 :do { add list=CL address=2001:668:1f:fed2::/64 } on-error={}
 :do { add list=CL address=2001:668:1f:fef9::/64 } on-error={}
 :do { add list=CL address=2001:67c:a38:f056::/64 } on-error={}

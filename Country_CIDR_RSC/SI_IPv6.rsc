@@ -861,6 +861,9 @@
 :do { add list=SI address=2a00:1420::/32 } on-error={}
 :do { add list=SI address=2a00:1600::/29 } on-error={}
 :do { add list=SI address=2a00:1a20::/29 } on-error={}
+:do { add list=SI address=2a00:5540:385::/48 } on-error={}
+:do { add list=SI address=2a00:5540:386::/47 } on-error={}
+:do { add list=SI address=2a00:5540:388::/48 } on-error={}
 :do { add list=SI address=2a00:7360::/32 } on-error={}
 :do { add list=SI address=2a00:a360::/32 } on-error={}
 :do { add list=SI address=2a00:a361::/32 } on-error={}
@@ -1745,6 +1748,7 @@
 :do { add list=SI address=2a0f:1cc5:b17:cd00::/56 } on-error={}
 :do { add list=SI address=2a0f:1cc5:1f2b::/48 } on-error={}
 :do { add list=SI address=2a0f:4fc0::/29 } on-error={}
+:do { add list=SI address=2a0f:6280:ca3a::/48 } on-error={}
 :do { add list=SI address=2a0f:6280:cebf::/48 } on-error={}
 :do { add list=SI address=2a0f:7840::/29 } on-error={}
 :do { add list=SI address=2a0f:85c1:340::bf:0/112 } on-error={}
@@ -1760,6 +1764,7 @@
 :do { add list=SI address=2a0f:a6c1::/32 } on-error={}
 :do { add list=SI address=2a0f:a6c2::/31 } on-error={}
 :do { add list=SI address=2a0f:a6c4::/30 } on-error={}
+:do { add list=SI address=2a0f:b240:7300::/40 } on-error={}
 :do { add list=SI address=2a0f:c0c0::/29 } on-error={}
 :do { add list=SI address=2a10:180:0:4000::/50 } on-error={}
 :do { add list=SI address=2a10:180:0:8000::/49 } on-error={}

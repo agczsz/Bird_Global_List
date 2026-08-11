@@ -4,15 +4,14 @@
 :do { add list=MP address=8.3.119.192/26 } on-error={}
 :do { add list=MP address=8.3.123.12/31 } on-error={}
 :do { add list=MP address=8.3.123.28/32 } on-error={}
-:do { add list=MP address=8.3.123.53/32 } on-error={}
 :do { add list=MP address=8.3.123.58/31 } on-error={}
 :do { add list=MP address=8.3.123.75/32 } on-error={}
+:do { add list=MP address=8.3.123.92/32 } on-error={}
+:do { add list=MP address=8.3.123.119/32 } on-error={}
 :do { add list=MP address=8.3.123.124/32 } on-error={}
-:do { add list=MP address=8.3.123.126/32 } on-error={}
 :do { add list=MP address=8.3.123.137/32 } on-error={}
 :do { add list=MP address=8.3.123.138/32 } on-error={}
 :do { add list=MP address=8.3.123.164/32 } on-error={}
-:do { add list=MP address=8.3.123.171/32 } on-error={}
 :do { add list=MP address=8.3.123.173/32 } on-error={}
 :do { add list=MP address=8.3.123.194/32 } on-error={}
 :do { add list=MP address=8.3.123.208/28 } on-error={}

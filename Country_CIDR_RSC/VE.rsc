@@ -5,7 +5,7 @@
 :do { add list=VE address=8.242.232.0/21 } on-error={}
 :do { add list=VE address=8.243.248.0/21 } on-error={}
 :do { add list=VE address=13.143.240.0/24 } on-error={}
-:do { add list=VE address=23.146.236.128/25 } on-error={}
+:do { add list=VE address=23.146.236.240/28 } on-error={}
 :do { add list=VE address=34.100.40.0/22 } on-error={}
 :do { add list=VE address=34.103.96.0/23 } on-error={}
 :do { add list=VE address=38.3.192.0/22 } on-error={}
