@@ -1235,9 +1235,6 @@
 :do { add list=AQ address=2406:2d40:4500::/42 } on-error={}
 :do { add list=AQ address=2406:ef80:1:38::/64 } on-error={}
 :do { add list=AQ address=2407:d340:7200::/40 } on-error={}
-:do { add list=AQ address=2408:8214:4119:2f90::/64 } on-error={}
-:do { add list=AQ address=2408:8266:5003:92f4::/64 } on-error={}
-:do { add list=AQ address=2408:8438:a90:37a6::/64 } on-error={}
 :do { add list=AQ address=2600:70ff:a427::/48 } on-error={}
 :do { add list=AQ address=2600:70ff:a43f::/48 } on-error={}
 :do { add list=AQ address=2600:70ff:a600::/48 } on-error={}

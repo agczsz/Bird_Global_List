@@ -3774,10 +3774,6 @@
 :do { add list=UA address=2a01:f501::/32 } on-error={}
 :do { add list=UA address=2a01:f502::/31 } on-error={}
 :do { add list=UA address=2a01:f504::/30 } on-error={}
-:do { add list=UA address=2a02:28:1::1f6:2/128 } on-error={}
-:do { add list=UA address=2a02:28:1::205:0/128 } on-error={}
-:do { add list=UA address=2a02:28:1:2::40/128 } on-error={}
-:do { add list=UA address=2a02:28:1:2::70:d/128 } on-error={}
 :do { add list=UA address=2a02:70::/32 } on-error={}
 :do { add list=UA address=2a02:128:2::/48 } on-error={}
 :do { add list=UA address=2a02:128:3::/48 } on-error={}

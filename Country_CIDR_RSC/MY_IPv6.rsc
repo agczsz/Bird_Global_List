@@ -2357,6 +2357,7 @@
 :do { add list=MY address=2404:6f00::/32 } on-error={}
 :do { add list=MY address=2404:8100::/32 } on-error={}
 :do { add list=MY address=2404:99c0::/32 } on-error={}
+:do { add list=MY address=2404:a800::226/128 } on-error={}
 :do { add list=MY address=2404:b040::/32 } on-error={}
 :do { add list=MY address=2404:be00::/32 } on-error={}
 :do { add list=MY address=2404:c340::/32 } on-error={}

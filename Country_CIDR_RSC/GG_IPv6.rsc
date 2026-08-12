@@ -156,7 +156,10 @@
 :do { add list=GG address=2a02:26f7:cd0c::/46 } on-error={}
 :do { add list=GG address=2a02:26f7:cd10::/44 } on-error={}
 :do { add list=GG address=2a02:26f7:cd20::/43 } on-error={}
-:do { add list=GG address=2a02:7380::57/128 } on-error={}
+:do { add list=GG address=2a02:7380::54/126 } on-error={}
+:do { add list=GG address=2a02:7380::58/125 } on-error={}
+:do { add list=GG address=2a02:7380:0:101::/64 } on-error={}
+:do { add list=GG address=2a02:7380:0:2007::/64 } on-error={}
 :do { add list=GG address=2a02:7380:0:2008::/61 } on-error={}
 :do { add list=GG address=2a02:7380:0:2010::/60 } on-error={}
 :do { add list=GG address=2a02:7380:0:2020::/59 } on-error={}

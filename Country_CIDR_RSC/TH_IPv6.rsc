@@ -2919,7 +2919,6 @@
 :do { add list=TH address=2404:2280:1cb::/50 } on-error={}
 :do { add list=TH address=2404:2280:2ce::/50 } on-error={}
 :do { add list=TH address=2404:2600::/32 } on-error={}
-:do { add list=TH address=2404:2e00:2::1/128 } on-error={}
 :do { add list=TH address=2404:3280::/32 } on-error={}
 :do { add list=TH address=2404:3a80::/32 } on-error={}
 :do { add list=TH address=2404:4a00::/36 } on-error={}
