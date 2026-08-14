@@ -21,7 +21,7 @@
 :do { add list=TV address=2406:2d40:a700::/40 } on-error={}
 :do { add list=TV address=2600:70ff:a5e6::/48 } on-error={}
 :do { add list=TV address=2602:2a9:950::/44 } on-error={}
-:do { add list=TV address=2605:59c7:9032::38/125 } on-error={}
+:do { add list=TV address=2605:59c7:9032::3c/128 } on-error={}
 :do { add list=TV address=2606:40:95c::/46 } on-error={}
 :do { add list=TV address=2606:40:960::/45 } on-error={}
 :do { add list=TV address=2606:40:f70::/44 } on-error={}

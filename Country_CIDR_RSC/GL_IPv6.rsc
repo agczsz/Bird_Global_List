@@ -1,16 +1,13 @@
 /log info "Loading GL IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=GL address=2001:470:d:72b::/64 } on-error={}
-:do { add list=GL address=2001:470:28:110c::/64 } on-error={}
-:do { add list=GL address=2001:470:28:114e::/64 } on-error={}
 :do { add list=GL address=2001:470:1f2b:90::/64 } on-error={}
 :do { add list=GL address=2001:470:4161::/48 } on-error={}
 :do { add list=GL address=2001:470:711e::/48 } on-error={}
 :do { add list=GL address=2001:470:79a3::/48 } on-error={}
-:do { add list=GL address=2001:470:88dc::/48 } on-error={}
-:do { add list=GL address=2001:470:88e2::/48 } on-error={}
 :do { add list=GL address=2001:470:b994::/48 } on-error={}
-:do { add list=GL address=2001:470:ee5b::/48 } on-error={}
+:do { add list=GL address=2001:470:ee5b:4000::/50 } on-error={}
+:do { add list=GL address=2001:470:ee5b:8000::/49 } on-error={}
 :do { add list=GL address=2001:470:ef94::/48 } on-error={}
 :do { add list=GL address=2001:470:f333::/48 } on-error={}
 :do { add list=GL address=2001:470:f42a::/48 } on-error={}
@@ -46,7 +43,9 @@
 :do { add list=GL address=2407:d340:7010::/44 } on-error={}
 :do { add list=GL address=2407:d340:7a00::/40 } on-error={}
 :do { add list=GL address=2600:70ff:a6bc::/48 } on-error={}
+:do { add list=GL address=2600:70ff:b373::/48 } on-error={}
 :do { add list=GL address=2600:70ff:b3a2::/48 } on-error={}
+:do { add list=GL address=2600:70ff:b3c2:d::/64 } on-error={}
 :do { add list=GL address=2602:2a9:b90::/44 } on-error={}
 :do { add list=GL address=2606:54c0:3870::/44 } on-error={}
 :do { add list=GL address=2606:54c0:3880::/44 } on-error={}

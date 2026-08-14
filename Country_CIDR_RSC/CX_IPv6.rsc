@@ -1,9 +1,7 @@
 /log info "Loading CX IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=CX address=2001:470:36:1eb::/64 } on-error={}
-:do { add list=CX address=2001:470:1f2d:3b1::/64 } on-error={}
 :do { add list=CX address=2001:470:69f0::/48 } on-error={}
-:do { add list=CX address=2001:470:8035::/48 } on-error={}
 :do { add list=CX address=2001:470:b805::/48 } on-error={}
 :do { add list=CX address=2001:470:c3a5::/48 } on-error={}
 :do { add list=CX address=2001:470:ebc9::/48 } on-error={}
@@ -12,8 +10,7 @@
 :do { add list=CX address=2001:470:f56c::/48 } on-error={}
 :do { add list=CX address=2001:470:f5a6::/48 } on-error={}
 :do { add list=CX address=2001:470:f83e::/48 } on-error={}
-:do { add list=CX address=2001:470:f854:4000::/50 } on-error={}
-:do { add list=CX address=2001:470:f854:8000::/49 } on-error={}
+:do { add list=CX address=2001:470:f854::/48 } on-error={}
 :do { add list=CX address=2001:470:f92b::/48 } on-error={}
 :do { add list=CX address=2001:470:fb6a::/48 } on-error={}
 :do { add list=CX address=2001:470:fc49::/48 } on-error={}
@@ -33,6 +30,7 @@
 :do { add list=CX address=2600:70ff:a780::/48 } on-error={}
 :do { add list=CX address=2600:70ff:a7bd::/48 } on-error={}
 :do { add list=CX address=2600:70ff:aa5d::/48 } on-error={}
+:do { add list=CX address=2600:70ff:b3c2:3::/64 } on-error={}
 :do { add list=CX address=2600:70ff:c02f::/48 } on-error={}
 :do { add list=CX address=2600:70ff:c101::/48 } on-error={}
 :do { add list=CX address=2600:70ff:c1f5::/48 } on-error={}

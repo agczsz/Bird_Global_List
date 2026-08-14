@@ -1,6 +1,5 @@
 /log info "Loading NC IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=NC address=2001:470:882f::/48 } on-error={}
 :do { add list=NC address=2001:470:f397::/48 } on-error={}
 :do { add list=NC address=2001:df0:77c0::/48 } on-error={}
 :do { add list=NC address=2001:df3:8900::/48 } on-error={}
@@ -17,7 +16,7 @@
 :do { add list=NC address=2401:c00::/32 } on-error={}
 :do { add list=NC address=2401:c01::/32 } on-error={}
 :do { add list=NC address=2401:af00::/32 } on-error={}
-:do { add list=NC address=2401:d000:3101::152/127 } on-error={}
+:do { add list=NC address=2401:d000:3101::152/128 } on-error={}
 :do { add list=NC address=2401:f1e0:ffff:2df6::/64 } on-error={}
 :do { add list=NC address=2402:4480:8002::2:19/128 } on-error={}
 :do { add list=NC address=2403:200::/32 } on-error={}
@@ -116,7 +115,6 @@
 :do { add list=NC address=2607:8940:3af4::/47 } on-error={}
 :do { add list=NC address=2607:8940:41a1:ca00::/55 } on-error={}
 :do { add list=NC address=2607:8940:41e0:200::/55 } on-error={}
-:do { add list=NC address=2607:fb90:ee1a:2cfd:1192:4015:143:62d1/128 } on-error={}
 :do { add list=NC address=2a01:528:3a00::/40 } on-error={}
 :do { add list=NC address=2a01:ce99:1000::/36 } on-error={}
 :do { add list=NC address=2a02:26f7:fb80::/48 } on-error={}

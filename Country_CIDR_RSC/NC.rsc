@@ -8,7 +8,6 @@
 :do { add list=NC address=43.245.214.0/23 } on-error={}
 :do { add list=NC address=43.255.236.0/22 } on-error={}
 :do { add list=NC address=45.114.232.0/23 } on-error={}
-:do { add list=NC address=46.193.202.139/32 } on-error={}
 :do { add list=NC address=57.70.160.0/23 } on-error={}
 :do { add list=NC address=57.71.96.0/20 } on-error={}
 :do { add list=NC address=61.5.208.0/20 } on-error={}
@@ -50,6 +49,7 @@
 :do { add list=NC address=114.69.223.0/24 } on-error={}
 :do { add list=NC address=115.126.160.0/19 } on-error={}
 :do { add list=NC address=118.179.224.0/19 } on-error={}
+:do { add list=NC address=125.63.12.158/32 } on-error={}
 :do { add list=NC address=140.248.20.14/31 } on-error={}
 :do { add list=NC address=140.248.56.160/32 } on-error={}
 :do { add list=NC address=140.248.57.160/32 } on-error={}
@@ -68,13 +68,9 @@
 :do { add list=NC address=162.120.228.79/32 } on-error={}
 :do { add list=NC address=163.47.224.0/22 } on-error={}
 :do { add list=NC address=163.47.248.0/22 } on-error={}
-:do { add list=NC address=163.116.192.191/32 } on-error={}
-:do { add list=NC address=163.116.192.192/32 } on-error={}
 :do { add list=NC address=163.116.198.91/32 } on-error={}
 :do { add list=NC address=163.116.198.92/32 } on-error={}
 :do { add list=NC address=163.116.203.98/31 } on-error={}
-:do { add list=NC address=163.116.211.23/32 } on-error={}
-:do { add list=NC address=163.116.211.24/32 } on-error={}
 :do { add list=NC address=164.137.174.0/24 } on-error={}
 :do { add list=NC address=164.137.179.0/24 } on-error={}
 :do { add list=NC address=172.69.47.0/24 } on-error={}
@@ -100,16 +96,7 @@
 :do { add list=NC address=202.22.128.0/19 } on-error={}
 :do { add list=NC address=202.22.224.0/20 } on-error={}
 :do { add list=NC address=202.62.6.0/23 } on-error={}
-:do { add list=NC address=202.87.128.0/28 } on-error={}
-:do { add list=NC address=202.87.128.16/29 } on-error={}
-:do { add list=NC address=202.87.128.24/30 } on-error={}
-:do { add list=NC address=202.87.128.28/32 } on-error={}
-:do { add list=NC address=202.87.128.30/31 } on-error={}
-:do { add list=NC address=202.87.128.32/27 } on-error={}
-:do { add list=NC address=202.87.128.64/26 } on-error={}
-:do { add list=NC address=202.87.128.128/25 } on-error={}
-:do { add list=NC address=202.87.129.0/24 } on-error={}
-:do { add list=NC address=202.87.130.0/23 } on-error={}
+:do { add list=NC address=202.87.128.0/22 } on-error={}
 :do { add list=NC address=202.87.132.0/24 } on-error={}
 :do { add list=NC address=202.87.133.0/24 } on-error={}
 :do { add list=NC address=202.87.134.0/23 } on-error={}

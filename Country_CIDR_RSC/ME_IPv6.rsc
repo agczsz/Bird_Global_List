@@ -1,7 +1,6 @@
 /log info "Loading ME IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=ME address=2001:470:1853::/48 } on-error={}
-:do { add list=ME address=2001:470:1f2f:2ea::/64 } on-error={}
 :do { add list=ME address=2001:470:f63d::/48 } on-error={}
 :do { add list=ME address=2001:678:408::/48 } on-error={}
 :do { add list=ME address=2001:67c:a38:f382::/64 } on-error={}
@@ -33,19 +32,6 @@
 :do { add list=ME address=2606:54c0:4848::/45 } on-error={}
 :do { add list=ME address=2606:54c3:0:c8f::/64 } on-error={}
 :do { add list=ME address=2606:f18b:9000::/46 } on-error={}
-:do { add list=ME address=2607:740:3f::/51 } on-error={}
-:do { add list=ME address=2607:740:3f:2000::/52 } on-error={}
-:do { add list=ME address=2607:740:3f:3002::/64 } on-error={}
-:do { add list=ME address=2607:740:3f:3004::/62 } on-error={}
-:do { add list=ME address=2607:740:3f:3008::/61 } on-error={}
-:do { add list=ME address=2607:740:3f:3010::/60 } on-error={}
-:do { add list=ME address=2607:740:3f:3020::/59 } on-error={}
-:do { add list=ME address=2607:740:3f:3040::/58 } on-error={}
-:do { add list=ME address=2607:740:3f:3080::/57 } on-error={}
-:do { add list=ME address=2607:740:3f:3100::/56 } on-error={}
-:do { add list=ME address=2607:740:3f:3200::/55 } on-error={}
-:do { add list=ME address=2607:740:3f:3400::/54 } on-error={}
-:do { add list=ME address=2607:740:3f:3800::/53 } on-error={}
 :do { add list=ME address=2607:740:3f:4000::/50 } on-error={}
 :do { add list=ME address=2607:740:3f:8000::/49 } on-error={}
 :do { add list=ME address=2607:6b80:29::/48 } on-error={}

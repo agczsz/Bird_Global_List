@@ -1,24 +1,9 @@
 /log info "Loading LS IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=LS address=2001:470:36:7b8::/64 } on-error={}
-:do { add list=LS address=2001:470:1f23:57c::/64 } on-error={}
 :do { add list=LS address=2001:470:d8f3::/48 } on-error={}
-:do { add list=LS address=2001:470:f2f6:1::/64 } on-error={}
-:do { add list=LS address=2001:470:f2f6:2::/63 } on-error={}
-:do { add list=LS address=2001:470:f2f6:4::/62 } on-error={}
-:do { add list=LS address=2001:470:f2f6:8::/61 } on-error={}
-:do { add list=LS address=2001:470:f2f6:10::/60 } on-error={}
-:do { add list=LS address=2001:470:f2f6:20::/59 } on-error={}
-:do { add list=LS address=2001:470:f2f6:40::/58 } on-error={}
-:do { add list=LS address=2001:470:f2f6:80::/57 } on-error={}
-:do { add list=LS address=2001:470:f2f6:100::/56 } on-error={}
-:do { add list=LS address=2001:470:f2f6:200::/55 } on-error={}
-:do { add list=LS address=2001:470:f2f6:400::/54 } on-error={}
-:do { add list=LS address=2001:470:f2f6:800::/53 } on-error={}
-:do { add list=LS address=2001:470:f2f6:1000::/52 } on-error={}
-:do { add list=LS address=2001:470:f2f6:2000::/51 } on-error={}
 :do { add list=LS address=2001:470:f2f6:4000::/50 } on-error={}
-:do { add list=LS address=2001:470:f2f6:8000::/49 } on-error={}
+:do { add list=LS address=2001:470:f2f6:c000::/50 } on-error={}
 :do { add list=LS address=2001:470:fff4::/48 } on-error={}
 :do { add list=LS address=2001:67c:a38:f266::/64 } on-error={}
 :do { add list=LS address=2001:43f8:210::/48 } on-error={}

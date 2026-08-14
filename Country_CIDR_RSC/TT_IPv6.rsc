@@ -37,8 +37,7 @@
 :do { add list=TT address=2405:b500:7360::/64 } on-error={}
 :do { add list=TT address=2600:70ff:a41d::/48 } on-error={}
 :do { add list=TT address=2600:70ff:a425::/48 } on-error={}
-:do { add list=TT address=2602:fe41:3ff:fffe::26/127 } on-error={}
-:do { add list=TT address=2602:fe41:3ff:fffe::43/128 } on-error={}
+:do { add list=TT address=2602:fe41:3ff:fffe::26/128 } on-error={}
 :do { add list=TT address=2606:40:20f6:4000::/51 } on-error={}
 :do { add list=TT address=2606:40:214c:a000::/51 } on-error={}
 :do { add list=TT address=2606:54c0:57d8::/45 } on-error={}
@@ -76,7 +75,6 @@
 :do { add list=TT address=2803:5ce0:d00::/40 } on-error={}
 :do { add list=TT address=2803:90a0::/32 } on-error={}
 :do { add list=TT address=2803:9360::/32 } on-error={}
-:do { add list=TT address=2803:9810:5440::/42 } on-error={}
 :do { add list=TT address=2803:9810:a340::/42 } on-error={}
 :do { add list=TT address=2803:9810:bb00::/40 } on-error={}
 :do { add list=TT address=2803:c0d0::/32 } on-error={}

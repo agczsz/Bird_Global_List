@@ -4,7 +4,6 @@
 :do { add list=IO address=2001:470:36:87c::/64 } on-error={}
 :do { add list=IO address=2001:470:18d1::/48 } on-error={}
 :do { add list=IO address=2001:470:1f27:84::/64 } on-error={}
-:do { add list=IO address=2001:470:c050::/48 } on-error={}
 :do { add list=IO address=2001:470:e967::/48 } on-error={}
 :do { add list=IO address=2001:470:efd8::/48 } on-error={}
 :do { add list=IO address=2001:470:f51b::/48 } on-error={}

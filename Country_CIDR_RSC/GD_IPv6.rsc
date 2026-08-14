@@ -2,8 +2,8 @@
 /ipv6 firewall address-list
 :do { add list=GD address=2001:470:1f1b:423::/64 } on-error={}
 :do { add list=GD address=2001:470:1f29:3dd::/64 } on-error={}
+:do { add list=GD address=2001:470:8914::/48 } on-error={}
 :do { add list=GD address=2001:470:f849::/48 } on-error={}
-:do { add list=GD address=2001:470:fe88::/48 } on-error={}
 :do { add list=GD address=2001:504:35::/48 } on-error={}
 :do { add list=GD address=2001:67c:a38:f173::/64 } on-error={}
 :do { add list=GD address=2001:1808::/32 } on-error={}
@@ -40,6 +40,7 @@
 :do { add list=GD address=2606:5dc0:8400::/56 } on-error={}
 :do { add list=GD address=2606:5dc0:8500:400::/56 } on-error={}
 :do { add list=GD address=2606:5dc0:8600::/54 } on-error={}
+:do { add list=GD address=2606:5dc0:8600:400::/56 } on-error={}
 :do { add list=GD address=2606:5dc0:8700::/40 } on-error={}
 :do { add list=GD address=2606:5dc0:8800::/39 } on-error={}
 :do { add list=GD address=2606:5dc0:8a00::/48 } on-error={}
@@ -58,12 +59,10 @@
 :do { add list=GD address=2607:8940:2576::/47 } on-error={}
 :do { add list=GD address=2607:8940:4200:a200::/55 } on-error={}
 :do { add list=GD address=2607:f438:0:2202:190:242:166:33/128 } on-error={}
-:do { add list=GD address=2607:f438:0:2302:67:230:96:42/128 } on-error={}
 :do { add list=GD address=2620:0:876:3500::/56 } on-error={}
 :do { add list=GD address=2620:61:e000::/48 } on-error={}
 :do { add list=GD address=2620:a2:e000::/48 } on-error={}
 :do { add list=GD address=2620:171:7e::/48 } on-error={}
-:do { add list=GD address=2803:9810:54c0::/42 } on-error={}
 :do { add list=GD address=2803:9810:bd00::/40 } on-error={}
 :do { add list=GD address=2a01:528:c600::/40 } on-error={}
 :do { add list=GD address=2a02:26f7:e9c0::/48 } on-error={}

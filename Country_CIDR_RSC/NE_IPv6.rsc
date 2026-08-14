@@ -126,7 +126,6 @@
 :do { add list=NE address=2a11:29c0:3d88:dc28::/64 } on-error={}
 :do { add list=NE address=2a11:29c0:3d88:de9b::/64 } on-error={}
 :do { add list=NE address=2a11:29c0:3d88:f5c0::/64 } on-error={}
-:do { add list=NE address=2a12:bec4:1571:fa16::/64 } on-error={}
 :do { add list=NE address=2a12:f006:f000::/36 } on-error={}
 :do { add list=NE address=2a12:f381:3900::/40 } on-error={}
 :do { add list=NE address=2a12:f382:3900::/40 } on-error={}

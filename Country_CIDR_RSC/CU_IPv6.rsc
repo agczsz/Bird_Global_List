@@ -1,13 +1,12 @@
 /log info "Loading CU IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=CU address=2001:470:5:f7::/64 } on-error={}
 :do { add list=CU address=2001:470:b:7a5::/64 } on-error={}
 :do { add list=CU address=2001:470:18e9::/48 } on-error={}
 :do { add list=CU address=2001:470:1f2b:f1::/64 } on-error={}
 :do { add list=CU address=2001:470:1f2b:465::/64 } on-error={}
 :do { add list=CU address=2001:470:6940::/48 } on-error={}
 :do { add list=CU address=2001:470:7b4c::/48 } on-error={}
-:do { add list=CU address=2001:470:88de::/48 } on-error={}
-:do { add list=CU address=2001:470:88e5::/48 } on-error={}
 :do { add list=CU address=2001:470:8947::/48 } on-error={}
 :do { add list=CU address=2001:470:d869::/48 } on-error={}
 :do { add list=CU address=2001:470:d9ca::/48 } on-error={}
@@ -20,9 +19,7 @@
 :do { add list=CU address=2001:1340::/32 } on-error={}
 :do { add list=CU address=2001:1358::/32 } on-error={}
 :do { add list=CU address=2001:13c8::/32 } on-error={}
-:do { add list=CU address=2001:1498:1::32:146/128 } on-error={}
-:do { add list=CU address=2001:1498:1::100:128/128 } on-error={}
-:do { add list=CU address=2001:1498:1:79d::/64 } on-error={}
+:do { add list=CU address=2001:1498:1:966::432/128 } on-error={}
 :do { add list=CU address=2001:3786:5004:100::/56 } on-error={}
 :do { add list=CU address=2001:4b28:b000::/40 } on-error={}
 :do { add list=CU address=2401:b60:1380:4000::/50 } on-error={}
@@ -68,20 +65,6 @@
 :do { add list=CU address=2800:360::/32 } on-error={}
 :do { add list=CU address=2800:910::/32 } on-error={}
 :do { add list=CU address=2803:5ce0:600::/40 } on-error={}
-:do { add list=CU address=2804:6bc4:0:1::/64 } on-error={}
-:do { add list=CU address=2804:6bc4:0:2::/63 } on-error={}
-:do { add list=CU address=2804:6bc4:0:4::/62 } on-error={}
-:do { add list=CU address=2804:6bc4:0:8::/61 } on-error={}
-:do { add list=CU address=2804:6bc4:0:10::/60 } on-error={}
-:do { add list=CU address=2804:6bc4:0:20::/59 } on-error={}
-:do { add list=CU address=2804:6bc4:0:40::/58 } on-error={}
-:do { add list=CU address=2804:6bc4:0:80::/57 } on-error={}
-:do { add list=CU address=2804:6bc4:0:100::/56 } on-error={}
-:do { add list=CU address=2804:6bc4:0:200::/55 } on-error={}
-:do { add list=CU address=2804:6bc4:0:400::/54 } on-error={}
-:do { add list=CU address=2804:6bc4:0:800::/53 } on-error={}
-:do { add list=CU address=2804:6bc4:0:1000::/52 } on-error={}
-:do { add list=CU address=2804:6bc4:0:2000::/51 } on-error={}
 :do { add list=CU address=2a01:528:b000::/40 } on-error={}
 :do { add list=CU address=2a02:26f7:eac0::/42 } on-error={}
 :do { add list=CU address=2a02:5740:72::/48 } on-error={}
@@ -161,6 +144,7 @@
 :do { add list=CU address=2a0c:9a46:3fe:32::/64 } on-error={}
 :do { add list=CU address=2a0d:9446:4000::/37 } on-error={}
 :do { add list=CU address=2a0e:b107:2378::/45 } on-error={}
+:do { add list=CU address=2a0e:cbc0:116::/48 } on-error={}
 :do { add list=CU address=2a0f:1cc5:b10:3800::/56 } on-error={}
 :do { add list=CU address=2a0f:1cc5:b11:3800::/56 } on-error={}
 :do { add list=CU address=2a0f:1cc5:b12:3800::/56 } on-error={}

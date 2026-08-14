@@ -1,6 +1,5 @@
 /log info "Loading CD IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=CD address=2001:470:1f23:7b0::/64 } on-error={}
 :do { add list=CD address=2001:470:eef6::/48 } on-error={}
 :do { add list=CD address=2001:470:fcb4::/48 } on-error={}
 :do { add list=CD address=2001:470:fe48::/48 } on-error={}
@@ -207,6 +206,7 @@
 :do { add list=CD address=2a0d:5600:268::/48 } on-error={}
 :do { add list=CD address=2a0d:9443:5800::/37 } on-error={}
 :do { add list=CD address=2a0e:b107:2320::/45 } on-error={}
+:do { add list=CD address=2a0e:cbc0:150::/48 } on-error={}
 :do { add list=CD address=2a0f:1cc5:b10:3400::/56 } on-error={}
 :do { add list=CD address=2a0f:1cc5:b11:3400::/56 } on-error={}
 :do { add list=CD address=2a0f:1cc5:b12:3400::/56 } on-error={}
@@ -372,10 +372,7 @@
 :do { add list=CD address=2c0f:ee08:4000::/34 } on-error={}
 :do { add list=CD address=2c0f:ee08:8000::/33 } on-error={}
 :do { add list=CD address=2c0f:ef78:a::/48 } on-error={}
-:do { add list=CD address=2c0f:f170::8/125 } on-error={}
-:do { add list=CD address=2c0f:f170::31/128 } on-error={}
 :do { add list=CD address=2c0f:f558::/32 } on-error={}
 :do { add list=CD address=2c0f:f830:8000:1::/64 } on-error={}
 :do { add list=CD address=2c0f:f978::/32 } on-error={}
-:do { add list=CD address=2c0f:feb0:1:2::9a8/128 } on-error={}
 :do { add list=CD address=2c0f:ff10::/32 } on-error={}

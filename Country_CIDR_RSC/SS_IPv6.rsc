@@ -20,6 +20,7 @@
 :do { add list=SS address=2405:b500:6a60::/64 } on-error={}
 :do { add list=SS address=2602:f92a:fe0b::/48 } on-error={}
 :do { add list=SS address=2602:f92a:ff0b::/48 } on-error={}
+:do { add list=SS address=2605:59c8:3500::/40 } on-error={}
 :do { add list=SS address=2605:59c8:6d00::/40 } on-error={}
 :do { add list=SS address=2606:40:a88::/45 } on-error={}
 :do { add list=SS address=2606:40:a90::/45 } on-error={}

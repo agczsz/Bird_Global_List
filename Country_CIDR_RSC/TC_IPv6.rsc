@@ -35,9 +35,6 @@
 :do { add list=TC address=2607:8940:4081:2400::/56 } on-error={}
 :do { add list=TC address=2607:8940:40b1:1600::/55 } on-error={}
 :do { add list=TC address=2607:8940:4143:9800::/55 } on-error={}
-:do { add list=TC address=2607:f438:0:1008:63:245:6:119/128 } on-error={}
-:do { add list=TC address=2607:f438:0:2302:67:230:96:183/128 } on-error={}
-:do { add list=TC address=2607:f438:0:2303:67:230:100:166/128 } on-error={}
 :do { add list=TC address=2a01:528:e900::/40 } on-error={}
 :do { add list=TC address=2a02:26f7:f740::/48 } on-error={}
 :do { add list=TC address=2a02:26f7:f741::/48 } on-error={}
