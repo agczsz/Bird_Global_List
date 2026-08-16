@@ -98,6 +98,8 @@
 :do { add list=ET address=162.120.235.191/32 } on-error={}
 :do { add list=ET address=163.116.183.97/32 } on-error={}
 :do { add list=ET address=163.116.183.98/32 } on-error={}
+:do { add list=ET address=163.116.236.87/32 } on-error={}
+:do { add list=ET address=163.116.236.89/32 } on-error={}
 :do { add list=ET address=164.137.120.0/24 } on-error={}
 :do { add list=ET address=164.137.228.0/24 } on-error={}
 :do { add list=ET address=164.160.184.0/22 } on-error={}

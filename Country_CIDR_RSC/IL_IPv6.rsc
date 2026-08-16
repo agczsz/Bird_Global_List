@@ -3,10 +3,14 @@
 :do { add list=IL address=2001:420:8e::/48 } on-error={}
 :do { add list=IL address=2001:420:4480::/45 } on-error={}
 :do { add list=IL address=2001:470:26:365::/64 } on-error={}
+:do { add list=IL address=2001:470:6d:47a::/64 } on-error={}
 :do { add list=IL address=2001:470:1820::/48 } on-error={}
 :do { add list=IL address=2001:470:1876::/48 } on-error={}
 :do { add list=IL address=2001:470:1da5::/48 } on-error={}
 :do { add list=IL address=2001:470:1f07:1dd::/64 } on-error={}
+:do { add list=IL address=2001:470:1f0b:b59::/64 } on-error={}
+:do { add list=IL address=2001:470:1f0b:e7f::/64 } on-error={}
+:do { add list=IL address=2001:470:1f0b:1299::/64 } on-error={}
 :do { add list=IL address=2001:470:1f15:213::/64 } on-error={}
 :do { add list=IL address=2001:470:1f17:13d::/64 } on-error={}
 :do { add list=IL address=2001:470:1f1d:ee::/64 } on-error={}

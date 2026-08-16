@@ -23,6 +23,8 @@
 :do { add list=SK address=2001:470:402::3/128 } on-error={}
 :do { add list=SK address=2001:470:1884::/48 } on-error={}
 :do { add list=SK address=2001:470:1d76::/48 } on-error={}
+:do { add list=SK address=2001:470:1f0b:334::/64 } on-error={}
+:do { add list=SK address=2001:470:1f0b:408::/64 } on-error={}
 :do { add list=SK address=2001:470:1f1b:6d::/64 } on-error={}
 :do { add list=SK address=2001:470:1f1b:253::/64 } on-error={}
 :do { add list=SK address=2001:470:1f1b:44f::/64 } on-error={}

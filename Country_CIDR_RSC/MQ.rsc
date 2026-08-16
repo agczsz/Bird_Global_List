@@ -812,7 +812,7 @@
 :do { add list=MQ address=217.108.22.8/29 } on-error={}
 :do { add list=MQ address=217.109.19.104/29 } on-error={}
 :do { add list=MQ address=217.109.73.160/29 } on-error={}
-:do { add list=MQ address=217.175.160.116/32 } on-error={}
+:do { add list=MQ address=217.175.160.64/26 } on-error={}
 :do { add list=MQ address=217.175.162.0/23 } on-error={}
 :do { add list=MQ address=217.175.165.0/24 } on-error={}
 :do { add list=MQ address=217.175.166.0/24 } on-error={}

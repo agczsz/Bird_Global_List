@@ -219,7 +219,6 @@
 :do { add list=GT address=2801:1d:2000::/48 } on-error={}
 :do { add list=GT address=2801:155::/41 } on-error={}
 :do { add list=GT address=2801:155:80::/48 } on-error={}
-:do { add list=GT address=2801:155:81::/48 } on-error={}
 :do { add list=GT address=2801:155:82::/47 } on-error={}
 :do { add list=GT address=2801:155:84::/46 } on-error={}
 :do { add list=GT address=2801:155:88::/45 } on-error={}

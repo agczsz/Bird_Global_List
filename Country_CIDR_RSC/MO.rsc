@@ -177,7 +177,7 @@
 :do { add list=MO address=202.175.0.152/30 } on-error={}
 :do { add list=MO address=202.175.0.158/32 } on-error={}
 :do { add list=MO address=202.175.0.160/29 } on-error={}
-:do { add list=MO address=202.175.0.182/32 } on-error={}
+:do { add list=MO address=202.175.0.182/31 } on-error={}
 :do { add list=MO address=202.175.0.184/30 } on-error={}
 :do { add list=MO address=202.175.0.192/29 } on-error={}
 :do { add list=MO address=202.175.0.200/30 } on-error={}

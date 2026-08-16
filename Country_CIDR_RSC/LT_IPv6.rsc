@@ -576,7 +576,8 @@
 :do { add list=LT address=2a00:ca0:2054:d000::/52 } on-error={}
 :do { add list=LT address=2a00:ca0:2059:8000::/50 } on-error={}
 :do { add list=LT address=2a00:1310:404::/48 } on-error={}
-:do { add list=LT address=2a00:1428::/29 } on-error={}
+:do { add list=LT address=2a00:1428::/50 } on-error={}
+:do { add list=LT address=2a00:1428:ffff::/50 } on-error={}
 :do { add list=LT address=2a00:1eb8::/35 } on-error={}
 :do { add list=LT address=2a00:1eb8:2000::/35 } on-error={}
 :do { add list=LT address=2a00:1eb8:4000::/35 } on-error={}

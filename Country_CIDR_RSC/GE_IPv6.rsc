@@ -1,5 +1,8 @@
 /log info "Loading GE IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=GE address=2001:470:6d:65b::/64 } on-error={}
+:do { add list=GE address=2001:470:1f0b:1a2::/64 } on-error={}
+:do { add list=GE address=2001:470:1f0b:246::/64 } on-error={}
 :do { add list=GE address=2001:470:1f15:172::/64 } on-error={}
 :do { add list=GE address=2001:470:1f1b:118::/64 } on-error={}
 :do { add list=GE address=2001:470:1f27:63::/64 } on-error={}
@@ -791,5 +794,4 @@
 :do { add list=GE address=2a14:7581:be1:c00::/56 } on-error={}
 :do { add list=GE address=2a14:7581:3b59::/48 } on-error={}
 :do { add list=GE address=2a14:7585:f207::/48 } on-error={}
-:do { add list=GE address=2a14:a087:13::/48 } on-error={}
 :do { add list=GE address=2a14:e380::/29 } on-error={}

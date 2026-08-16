@@ -3715,7 +3715,11 @@
 :do { add list=MX address=2801:c4:21c::/47 } on-error={}
 :do { add list=MX address=2801:c4:21e::/48 } on-error={}
 :do { add list=MX address=2801:c4:21f::/48 } on-error={}
-:do { add list=MX address=2801:c4:220::/44 } on-error={}
+:do { add list=MX address=2801:c4:220::/45 } on-error={}
+:do { add list=MX address=2801:c4:228::/48 } on-error={}
+:do { add list=MX address=2801:c4:229::/48 } on-error={}
+:do { add list=MX address=2801:c4:22a::/47 } on-error={}
+:do { add list=MX address=2801:c4:22c::/46 } on-error={}
 :do { add list=MX address=2801:c4:230::/44 } on-error={}
 :do { add list=MX address=2801:c4:240::/44 } on-error={}
 :do { add list=MX address=2801:c4:250::/48 } on-error={}

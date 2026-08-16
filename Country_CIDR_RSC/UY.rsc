@@ -180,6 +180,8 @@
 :do { add list=UY address=157.167.224.53/32 } on-error={}
 :do { add list=UY address=157.167.224.54/32 } on-error={}
 :do { add list=UY address=157.167.224.81/32 } on-error={}
+:do { add list=UY address=157.167.225.53/32 } on-error={}
+:do { add list=UY address=157.167.225.54/32 } on-error={}
 :do { add list=UY address=157.167.225.81/32 } on-error={}
 :do { add list=UY address=157.167.227.53/32 } on-error={}
 :do { add list=UY address=157.167.227.54/32 } on-error={}
@@ -257,6 +259,8 @@
 :do { add list=UY address=162.120.186.191/32 } on-error={}
 :do { add list=UY address=162.120.186.255/32 } on-error={}
 :do { add list=UY address=163.116.225.92/32 } on-error={}
+:do { add list=UY address=163.116.226.87/32 } on-error={}
+:do { add list=UY address=163.116.226.90/32 } on-error={}
 :do { add list=UY address=164.73.0.0/16 } on-error={}
 :do { add list=UY address=164.137.22.0/24 } on-error={}
 :do { add list=UY address=164.137.47.0/24 } on-error={}
@@ -282,7 +286,6 @@
 :do { add list=UY address=172.225.222.112/28 } on-error={}
 :do { add list=UY address=172.225.222.152/29 } on-error={}
 :do { add list=UY address=172.253.191.64/26 } on-error={}
-:do { add list=UY address=177.101.198.160/30 } on-error={}
 :do { add list=UY address=179.0.150.0/24 } on-error={}
 :do { add list=UY address=179.0.156.0/22 } on-error={}
 :do { add list=UY address=179.24.0.0/14 } on-error={}
@@ -624,7 +627,11 @@
 :do { add list=UY address=200.108.192.0/18 } on-error={}
 :do { add list=UY address=200.115.72.0/21 } on-error={}
 :do { add list=UY address=200.123.72.0/21 } on-error={}
-:do { add list=UY address=200.124.192.0/19 } on-error={}
+:do { add list=UY address=200.124.192.0/24 } on-error={}
+:do { add list=UY address=200.124.194.0/23 } on-error={}
+:do { add list=UY address=200.124.196.0/22 } on-error={}
+:do { add list=UY address=200.124.200.0/21 } on-error={}
+:do { add list=UY address=200.124.208.0/20 } on-error={}
 :do { add list=UY address=200.125.0.0/18 } on-error={}
 :do { add list=UY address=200.194.224.0/21 } on-error={}
 :do { add list=UY address=200.202.64.0/19 } on-error={}
