@@ -1154,8 +1154,7 @@
 :do { add list=SK address=185.176.72.0/22 } on-error={}
 :do { add list=SK address=185.177.4.0/22 } on-error={}
 :do { add list=SK address=185.177.8.0/22 } on-error={}
-:do { add list=SK address=185.180.136.0/23 } on-error={}
-:do { add list=SK address=185.180.138.0/23 } on-error={}
+:do { add list=SK address=185.180.136.0/22 } on-error={}
 :do { add list=SK address=185.183.232.0/22 } on-error={}
 :do { add list=SK address=185.184.28.0/24 } on-error={}
 :do { add list=SK address=185.184.29.0/24 } on-error={}

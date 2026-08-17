@@ -6916,7 +6916,8 @@
 :do { add list=NO address=2a0d:5600:261::/48 } on-error={}
 :do { add list=NO address=2a0d:5600:262::/47 } on-error={}
 :do { add list=NO address=2a0d:5600:2a3::/48 } on-error={}
-:do { add list=NO address=2a0d:5600:322::/47 } on-error={}
+:do { add list=NO address=2a0d:5600:322::/48 } on-error={}
+:do { add list=NO address=2a0d:5600:323::/48 } on-error={}
 :do { add list=NO address=2a0d:5600:324::/48 } on-error={}
 :do { add list=NO address=2a0d:5642:117::/48 } on-error={}
 :do { add list=NO address=2a0d:9445:f000::/37 } on-error={}

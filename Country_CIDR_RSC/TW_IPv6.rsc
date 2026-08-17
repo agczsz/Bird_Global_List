@@ -7167,9 +7167,7 @@
 :do { add list=TW address=2a14:7583:f52a::/48 } on-error={}
 :do { add list=TW address=2a14:7583:ff80::/47 } on-error={}
 :do { add list=TW address=2a14:7585:f220::/48 } on-error={}
-:do { add list=TW address=2a14:7dc0:530::/46 } on-error={}
-:do { add list=TW address=2a14:7dc0:534::/46 } on-error={}
-:do { add list=TW address=2a14:7dc0:538::/45 } on-error={}
+:do { add list=TW address=2a14:7dc0:530::/44 } on-error={}
 :do { add list=TW address=2a14:ae00:56::/48 } on-error={}
 :do { add list=TW address=2a14:c380:1d3::/48 } on-error={}
 :do { add list=TW address=2a14:c380:328::/48 } on-error={}

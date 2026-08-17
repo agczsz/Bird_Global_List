@@ -9833,8 +9833,7 @@
 :do { add list=ES address=2a04:b740:52::/47 } on-error={}
 :do { add list=ES address=2a04:b740:54::/46 } on-error={}
 :do { add list=ES address=2a04:b740:58::/45 } on-error={}
-:do { add list=ES address=2a04:b740:60::/48 } on-error={}
-:do { add list=ES address=2a04:b740:61::/48 } on-error={}
+:do { add list=ES address=2a04:b740:60::/47 } on-error={}
 :do { add list=ES address=2a04:b740:62::/47 } on-error={}
 :do { add list=ES address=2a04:b740:64::/47 } on-error={}
 :do { add list=ES address=2a04:b740:66::/48 } on-error={}

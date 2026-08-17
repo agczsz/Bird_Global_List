@@ -12935,7 +12935,11 @@
 :do { add list=ID address=2a14:7580:e700::/40 } on-error={}
 :do { add list=ID address=2a14:7580:e840::/42 } on-error={}
 :do { add list=ID address=2a14:7580:e880::/41 } on-error={}
-:do { add list=ID address=2a14:7580:ff00::/44 } on-error={}
+:do { add list=ID address=2a14:7580:ff00::/48 } on-error={}
+:do { add list=ID address=2a14:7580:ff01::/48 } on-error={}
+:do { add list=ID address=2a14:7580:ff02::/47 } on-error={}
+:do { add list=ID address=2a14:7580:ff04::/46 } on-error={}
+:do { add list=ID address=2a14:7580:ff08::/45 } on-error={}
 :do { add list=ID address=2a14:7580:ff30::/45 } on-error={}
 :do { add list=ID address=2a14:7580:ff38::/47 } on-error={}
 :do { add list=ID address=2a14:7580:ff3a::/47 } on-error={}

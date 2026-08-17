@@ -253,7 +253,8 @@
 :do { add list=CR address=2801:151:36::/47 } on-error={}
 :do { add list=CR address=2801:151:38::/47 } on-error={}
 :do { add list=CR address=2801:151:3a::/47 } on-error={}
-:do { add list=CR address=2801:151:3c::/47 } on-error={}
+:do { add list=CR address=2801:151:3c::/48 } on-error={}
+:do { add list=CR address=2801:151:3d::/48 } on-error={}
 :do { add list=CR address=2801:151:3e::/48 } on-error={}
 :do { add list=CR address=2801:151:3f::/48 } on-error={}
 :do { add list=CR address=2801:151:40::/46 } on-error={}

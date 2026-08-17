@@ -8329,8 +8329,7 @@
 :do { add list=ZA address=2c0f:f668::/32 } on-error={}
 :do { add list=ZA address=2c0f:f6d8::/34 } on-error={}
 :do { add list=ZA address=2c0f:f6d8:4000::/46 } on-error={}
-:do { add list=ZA address=2c0f:f6d8:4004::/48 } on-error={}
-:do { add list=ZA address=2c0f:f6d8:4005::/48 } on-error={}
+:do { add list=ZA address=2c0f:f6d8:4004::/47 } on-error={}
 :do { add list=ZA address=2c0f:f6d8:4006::/47 } on-error={}
 :do { add list=ZA address=2c0f:f6d8:4008::/45 } on-error={}
 :do { add list=ZA address=2c0f:f6d8:4010::/45 } on-error={}
