@@ -186,7 +186,7 @@
 :do { add list=KW address=80.184.244.0/22 } on-error={}
 :do { add list=KW address=80.184.248.0/21 } on-error={}
 :do { add list=KW address=80.231.60.46/32 } on-error={}
-:do { add list=KW address=80.231.212.4/31 } on-error={}
+:do { add list=KW address=80.231.212.4/32 } on-error={}
 :do { add list=KW address=80.231.212.7/32 } on-error={}
 :do { add list=KW address=82.148.106.234/32 } on-error={}
 :do { add list=KW address=83.68.160.0/22 } on-error={}

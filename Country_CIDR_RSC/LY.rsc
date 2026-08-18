@@ -175,7 +175,6 @@
 :do { add list=LY address=157.240.82.145/32 } on-error={}
 :do { add list=LY address=159.26.127.92/30 } on-error={}
 :do { add list=LY address=160.19.96.0/21 } on-error={}
-:do { add list=LY address=163.116.163.160/31 } on-error={}
 :do { add list=LY address=164.137.127.0/24 } on-error={}
 :do { add list=LY address=164.137.235.0/24 } on-error={}
 :do { add list=LY address=164.160.144.0/22 } on-error={}

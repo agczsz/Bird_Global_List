@@ -92,6 +92,7 @@
 :do { add list=NP address=2001:df7:18c0::/48 } on-error={}
 :do { add list=NP address=2001:df7:5200::/48 } on-error={}
 :do { add list=NP address=2001:df7:5680::/48 } on-error={}
+:do { add list=NP address=2001:df7:5d40::/48 } on-error={}
 :do { add list=NP address=2001:df7:7880::/48 } on-error={}
 :do { add list=NP address=2001:df7:be80::/48 } on-error={}
 :do { add list=NP address=2001:df7:cc80::/48 } on-error={}

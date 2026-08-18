@@ -101,7 +101,6 @@
 :do { add list=JM address=2605:a200:2800::/37 } on-error={}
 :do { add list=JM address=2605:a200:3000::/36 } on-error={}
 :do { add list=JM address=2605:a200:4000::/34 } on-error={}
-:do { add list=JM address=2605:a200:8000:5::/64 } on-error={}
 :do { add list=JM address=2605:a200:8001::/48 } on-error={}
 :do { add list=JM address=2605:a200:8002::/47 } on-error={}
 :do { add list=JM address=2605:a200:8004::/46 } on-error={}

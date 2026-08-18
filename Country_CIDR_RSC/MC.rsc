@@ -159,14 +159,13 @@
 :do { add list=MC address=144.125.135.160/27 } on-error={}
 :do { add list=MC address=146.75.162.54/31 } on-error={}
 :do { add list=MC address=146.75.166.110/31 } on-error={}
+:do { add list=MC address=148.64.9.174/32 } on-error={}
 :do { add list=MC address=150.171.66.221/32 } on-error={}
 :do { add list=MC address=151.240.79.64/28 } on-error={}
 :do { add list=MC address=153.72.28.128/26 } on-error={}
 :do { add list=MC address=157.167.106.0/24 } on-error={}
 :do { add list=MC address=162.120.213.8/32 } on-error={}
 :do { add list=MC address=162.120.215.2/32 } on-error={}
-:do { add list=MC address=163.116.174.139/32 } on-error={}
-:do { add list=MC address=163.116.174.140/32 } on-error={}
 :do { add list=MC address=163.116.179.118/31 } on-error={}
 :do { add list=MC address=164.137.91.0/24 } on-error={}
 :do { add list=MC address=164.137.211.0/24 } on-error={}

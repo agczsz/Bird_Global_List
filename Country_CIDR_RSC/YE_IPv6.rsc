@@ -5,7 +5,6 @@
 :do { add list=YE address=2001:470:1f27:1fd::/64 } on-error={}
 :do { add list=YE address=2001:470:1f29:2ce::/64 } on-error={}
 :do { add list=YE address=2001:470:3090::/48 } on-error={}
-:do { add list=YE address=2001:470:f9d0::/48 } on-error={}
 :do { add list=YE address=2001:67c:a38:f967::/64 } on-error={}
 :do { add list=YE address=2001:4b28:a00::/40 } on-error={}
 :do { add list=YE address=2401:b60:1fe0:4000::/50 } on-error={}

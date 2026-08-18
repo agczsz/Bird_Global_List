@@ -87,6 +87,8 @@
 :do { add list=AG address=162.222.86.0/23 } on-error={}
 :do { add list=AG address=162.252.189.0/24 } on-error={}
 :do { add list=AG address=162.252.191.0/24 } on-error={}
+:do { add list=AG address=163.116.250.87/32 } on-error={}
+:do { add list=AG address=163.116.250.89/32 } on-error={}
 :do { add list=AG address=170.39.108.0/22 } on-error={}
 :do { add list=AG address=172.225.92.0/28 } on-error={}
 :do { add list=AG address=172.225.152.0/27 } on-error={}

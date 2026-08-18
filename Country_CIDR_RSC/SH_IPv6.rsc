@@ -5,6 +5,7 @@
 :do { add list=SH address=2001:470:e0c9::/48 } on-error={}
 :do { add list=SH address=2001:470:ed29::/48 } on-error={}
 :do { add list=SH address=2001:470:f4da::/48 } on-error={}
+:do { add list=SH address=2001:470:f4ee::/48 } on-error={}
 :do { add list=SH address=2001:470:f5e9::/48 } on-error={}
 :do { add list=SH address=2001:470:f69a::/48 } on-error={}
 :do { add list=SH address=2001:4b28:1700::/40 } on-error={}

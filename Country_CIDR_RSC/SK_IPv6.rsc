@@ -105,7 +105,6 @@
 :do { add list=SK address=2001:470:5a16::/48 } on-error={}
 :do { add list=SK address=2001:470:5a1e::/48 } on-error={}
 :do { add list=SK address=2001:470:5a36::/48 } on-error={}
-:do { add list=SK address=2001:470:5a53::/48 } on-error={}
 :do { add list=SK address=2001:470:5a55::/48 } on-error={}
 :do { add list=SK address=2001:470:5a60::/48 } on-error={}
 :do { add list=SK address=2001:470:5a64::/48 } on-error={}

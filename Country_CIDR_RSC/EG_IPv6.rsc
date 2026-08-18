@@ -1,5 +1,6 @@
 /log info "Loading EG IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=EG address=2001:470:1f0b:6a7::/64 } on-error={}
 :do { add list=EG address=2001:470:1f27:f::/64 } on-error={}
 :do { add list=EG address=2001:470:1f29:129::/64 } on-error={}
 :do { add list=EG address=2001:470:1f29:36a::/64 } on-error={}
@@ -1272,6 +1273,7 @@
 :do { add list=EG address=2600:70ff:a7cd::/48 } on-error={}
 :do { add list=EG address=2600:70ff:abaf::/48 } on-error={}
 :do { add list=EG address=2600:70ff:ac10::/48 } on-error={}
+:do { add list=EG address=2600:70ff:b3c2:22::/64 } on-error={}
 :do { add list=EG address=2600:70ff:c019::/48 } on-error={}
 :do { add list=EG address=2600:70ff:d1e7::/48 } on-error={}
 :do { add list=EG address=2600:70ff:d1ea::/48 } on-error={}
@@ -1543,6 +1545,7 @@
 :do { add list=EG address=2a09:bac6:30c0::/44 } on-error={}
 :do { add list=EG address=2a09:bac6:d578::/45 } on-error={}
 :do { add list=EG address=2a0a:6040:f67::/48 } on-error={}
+:do { add list=EG address=2a0a:6040:4b01:300b::/64 } on-error={}
 :do { add list=EG address=2a0a:6044:7741::/48 } on-error={}
 :do { add list=EG address=2a0a:6044:77fe:40::/64 } on-error={}
 :do { add list=EG address=2a0a:6044:a142:697e::/64 } on-error={}

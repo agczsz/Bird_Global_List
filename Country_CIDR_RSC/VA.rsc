@@ -58,4 +58,3 @@
 :do { add list=VA address=212.77.8.0/24 } on-error={}
 :do { add list=VA address=212.77.30.82/32 } on-error={}
 :do { add list=VA address=212.77.30.127/32 } on-error={}
-:do { add list=VA address=212.77.30.152/32 } on-error={}

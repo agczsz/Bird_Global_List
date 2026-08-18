@@ -459,16 +459,7 @@
 :do { add list=LT address=2a00:809:389:f100::/56 } on-error={}
 :do { add list=LT address=2a00:809:389:f800::/56 } on-error={}
 :do { add list=LT address=2a00:809:38a::/47 } on-error={}
-:do { add list=LT address=2a00:809:38c::/48 } on-error={}
-:do { add list=LT address=2a00:809:38d::/49 } on-error={}
-:do { add list=LT address=2a00:809:38d:8000::/50 } on-error={}
-:do { add list=LT address=2a00:809:38d:c000::/52 } on-error={}
-:do { add list=LT address=2a00:809:38d:d000::/53 } on-error={}
-:do { add list=LT address=2a00:809:38d:d800::/54 } on-error={}
-:do { add list=LT address=2a00:809:38d:dc00::/56 } on-error={}
-:do { add list=LT address=2a00:809:38d:de00::/55 } on-error={}
-:do { add list=LT address=2a00:809:38d:e000::/51 } on-error={}
-:do { add list=LT address=2a00:809:38e::/47 } on-error={}
+:do { add list=LT address=2a00:809:38c::/46 } on-error={}
 :do { add list=LT address=2a00:809:390::/46 } on-error={}
 :do { add list=LT address=2a00:809:394::/48 } on-error={}
 :do { add list=LT address=2a00:809:395:6500::/56 } on-error={}
@@ -1106,7 +1097,6 @@
 :do { add list=LT address=2a02:25f8::/32 } on-error={}
 :do { add list=LT address=2a02:2630::/29 } on-error={}
 :do { add list=LT address=2a02:26f7:cfc0:4000::/64 } on-error={}
-:do { add list=LT address=2a02:26f7:cfc0:8000::/50 } on-error={}
 :do { add list=LT address=2a02:26f7:cfc0:d500::/60 } on-error={}
 :do { add list=LT address=2a02:26f7:cfc0:d510::/61 } on-error={}
 :do { add list=LT address=2a02:26f7:cfc0:d518::/62 } on-error={}
@@ -2205,8 +2195,7 @@
 :do { add list=LT address=2a14:67c1:b683::/48 } on-error={}
 :do { add list=LT address=2a14:67c2:892::/48 } on-error={}
 :do { add list=LT address=2a14:6bc0::/30 } on-error={}
-:do { add list=LT address=2a14:6bc4::/32 } on-error={}
-:do { add list=LT address=2a14:6bc5::/32 } on-error={}
+:do { add list=LT address=2a14:6bc4::/31 } on-error={}
 :do { add list=LT address=2a14:6bc6::/32 } on-error={}
 :do { add list=LT address=2a14:6bc7::/32 } on-error={}
 :do { add list=LT address=2a14:7580:cf84::/48 } on-error={}

@@ -1,5 +1,6 @@
 /log info "Loading LK IPv4 Address List"
 /ip firewall address-list
+:do { add list=LK address=5.62.39.0/24 } on-error={}
 :do { add list=LK address=5.62.61.153/32 } on-error={}
 :do { add list=LK address=5.62.61.154/31 } on-error={}
 :do { add list=LK address=5.62.63.132/30 } on-error={}
@@ -345,8 +346,6 @@
 :do { add list=LK address=146.75.197.44/31 } on-error={}
 :do { add list=LK address=146.75.236.14/31 } on-error={}
 :do { add list=LK address=146.75.236.16/31 } on-error={}
-:do { add list=LK address=147.90.168.128/25 } on-error={}
-:do { add list=LK address=147.90.169.128/25 } on-error={}
 :do { add list=LK address=147.90.200.208/28 } on-error={}
 :do { add list=LK address=151.186.178.110/32 } on-error={}
 :do { add list=LK address=153.43.4.0/24 } on-error={}
@@ -432,7 +431,6 @@
 :do { add list=LK address=196.197.182.0/24 } on-error={}
 :do { add list=LK address=196.198.182.0/24 } on-error={}
 :do { add list=LK address=196.199.182.0/24 } on-error={}
-:do { add list=LK address=202.2.194.0/29 } on-error={}
 :do { add list=LK address=202.69.192.0/20 } on-error={}
 :do { add list=LK address=202.124.160.0/19 } on-error={}
 :do { add list=LK address=202.129.232.0/22 } on-error={}

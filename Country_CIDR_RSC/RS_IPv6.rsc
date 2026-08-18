@@ -302,6 +302,7 @@
 :do { add list=RS address=2407:d340:7950::/44 } on-error={}
 :do { add list=RS address=2600:70ff:b2d2::/48 } on-error={}
 :do { add list=RS address=2600:70ff:b395::/48 } on-error={}
+:do { add list=RS address=2600:70ff:b3c2:1f::/64 } on-error={}
 :do { add list=RS address=2602:2a9:990::/44 } on-error={}
 :do { add list=RS address=2602:f7c8:18c::/46 } on-error={}
 :do { add list=RS address=2602:f7c8:190::/48 } on-error={}

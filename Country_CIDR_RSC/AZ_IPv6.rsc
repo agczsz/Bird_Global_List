@@ -2,6 +2,7 @@
 /ipv6 firewall address-list
 :do { add list=AZ address=2001:470:28:b05::/64 } on-error={}
 :do { add list=AZ address=2001:470:6d:3c1::/64 } on-error={}
+:do { add list=AZ address=2001:470:1f0b:6de::/64 } on-error={}
 :do { add list=AZ address=2001:470:1f0b:f0e::/64 } on-error={}
 :do { add list=AZ address=2001:470:1f13:549::/64 } on-error={}
 :do { add list=AZ address=2001:470:1f15:cc::/64 } on-error={}
