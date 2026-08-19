@@ -1,7 +1,8 @@
 /log info "Loading NE IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=NE address=2001:470:1d07::/48 } on-error={}
-:do { add list=NE address=2001:470:b1ff::/48 } on-error={}
+:do { add list=NE address=2001:470:b1ff:4000::/50 } on-error={}
+:do { add list=NE address=2001:470:b1ff:8000::/49 } on-error={}
 :do { add list=NE address=2001:470:ee11::/48 } on-error={}
 :do { add list=NE address=2001:67c:a38:f227::/64 } on-error={}
 :do { add list=NE address=2001:4b28:3900::/40 } on-error={}
@@ -11,7 +12,7 @@
 :do { add list=NE address=2401:b60:1a52::/47 } on-error={}
 :do { add list=NE address=2401:b60:1a54::/46 } on-error={}
 :do { add list=NE address=2401:b60:1a58::/45 } on-error={}
-:do { add list=NE address=2401:f1e0:ffff:ba43::/64 } on-error={}
+:do { add list=NE address=2401:f1e0:ffff:acbe::/64 } on-error={}
 :do { add list=NE address=2405:b500:5300::/64 } on-error={}
 :do { add list=NE address=2405:b500:5320::/64 } on-error={}
 :do { add list=NE address=2405:b500:5340::/64 } on-error={}
@@ -21,7 +22,6 @@
 :do { add list=NE address=2605:59c0:3500::/40 } on-error={}
 :do { add list=NE address=2606:54c0:4cb8::/45 } on-error={}
 :do { add list=NE address=2606:54c3:0:1101::/64 } on-error={}
-:do { add list=NE address=2607:8940:2166:8000::/49 } on-error={}
 :do { add list=NE address=2607:8940:2167::/48 } on-error={}
 :do { add list=NE address=2607:8940:216a::/47 } on-error={}
 :do { add list=NE address=2607:8940:4171:8800::/55 } on-error={}

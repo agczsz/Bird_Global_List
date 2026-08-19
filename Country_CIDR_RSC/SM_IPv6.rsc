@@ -33,7 +33,6 @@
 :do { add list=SM address=2607:8940:3710::/48 } on-error={}
 :do { add list=SM address=2607:8940:3711:1000::/52 } on-error={}
 :do { add list=SM address=2607:8940:3711:2000::/51 } on-error={}
-:do { add list=SM address=2607:8940:3711:8000::/49 } on-error={}
 :do { add list=SM address=2607:8940:4163:da00::/56 } on-error={}
 :do { add list=SM address=2607:8940:4163:fa00::/56 } on-error={}
 :do { add list=SM address=2607:8940:4183:da00::/56 } on-error={}

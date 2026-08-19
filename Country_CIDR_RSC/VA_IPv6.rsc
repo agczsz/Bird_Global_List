@@ -1,8 +1,6 @@
 /log info "Loading VA IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=VA address=2001:470:28:e36::/64 } on-error={}
 :do { add list=VA address=2001:470:1f0b:10fa::/64 } on-error={}
-:do { add list=VA address=2001:470:1f15:37f::/64 } on-error={}
 :do { add list=VA address=2001:470:211c::/48 } on-error={}
 :do { add list=VA address=2001:470:6937::/48 } on-error={}
 :do { add list=VA address=2001:470:6ac0::/48 } on-error={}
@@ -13,14 +11,15 @@
 :do { add list=VA address=2001:470:ca7d::/48 } on-error={}
 :do { add list=VA address=2001:470:dfa4::/48 } on-error={}
 :do { add list=VA address=2001:470:ef92::/48 } on-error={}
-:do { add list=VA address=2001:470:f0b1::/48 } on-error={}
+:do { add list=VA address=2001:470:f0b1:4000::/50 } on-error={}
+:do { add list=VA address=2001:470:f0b1:8000::/49 } on-error={}
 :do { add list=VA address=2001:470:f4d5::/48 } on-error={}
 :do { add list=VA address=2001:470:f8da::/48 } on-error={}
 :do { add list=VA address=2001:470:fb39::/48 } on-error={}
 :do { add list=VA address=2001:470:fe89::/48 } on-error={}
 :do { add list=VA address=2001:67c:a38:f039::/64 } on-error={}
 :do { add list=VA address=2001:4b28:f300::/40 } on-error={}
-:do { add list=VA address=2401:f1e0:ffff:608a::/64 } on-error={}
+:do { add list=VA address=2401:f1e0:ffff:62d7::/64 } on-error={}
 :do { add list=VA address=2405:b500:7800::/64 } on-error={}
 :do { add list=VA address=2405:b500:7820::/64 } on-error={}
 :do { add list=VA address=2405:b500:7840::/64 } on-error={}
@@ -29,13 +28,6 @@
 :do { add list=VA address=2600:70ff:aa5b::/48 } on-error={}
 :do { add list=VA address=2600:70ff:abc1::/48 } on-error={}
 :do { add list=VA address=2600:70ff:b3a0::/48 } on-error={}
-:do { add list=VA address=2606:40:1370:4000::/50 } on-error={}
-:do { add list=VA address=2606:40:1370:8000::/49 } on-error={}
-:do { add list=VA address=2606:40:1371::/48 } on-error={}
-:do { add list=VA address=2606:40:1372::/47 } on-error={}
-:do { add list=VA address=2606:40:1374::/46 } on-error={}
-:do { add list=VA address=2606:40:1378::/45 } on-error={}
-:do { add list=VA address=2606:40:1380::/44 } on-error={}
 :do { add list=VA address=2606:40:2190:e000::/54 } on-error={}
 :do { add list=VA address=2606:40:2190:e800::/53 } on-error={}
 :do { add list=VA address=2606:40:2190:f000::/52 } on-error={}

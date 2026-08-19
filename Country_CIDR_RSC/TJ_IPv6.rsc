@@ -1,7 +1,5 @@
 /log info "Loading TJ IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=TJ address=2001:470:28:12b::/64 } on-error={}
-:do { add list=TJ address=2001:470:28:f72::/64 } on-error={}
 :do { add list=TJ address=2001:470:2101::/48 } on-error={}
 :do { add list=TJ address=2001:470:2107::/48 } on-error={}
 :do { add list=TJ address=2001:470:70bd::/48 } on-error={}

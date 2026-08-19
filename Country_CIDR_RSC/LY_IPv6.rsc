@@ -8,7 +8,7 @@
 :do { add list=LY address=2001:43f8:50::/48 } on-error={}
 :do { add list=LY address=2001:43f8:16b0::/48 } on-error={}
 :do { add list=LY address=2001:4b28:5300::/40 } on-error={}
-:do { add list=LY address=2401:f1e0:ffff:ff93::/64 } on-error={}
+:do { add list=LY address=2401:f1e0:ffff:8fa5::/64 } on-error={}
 :do { add list=LY address=2405:b500:4600::/64 } on-error={}
 :do { add list=LY address=2405:b500:4620::/64 } on-error={}
 :do { add list=LY address=2405:b500:4640::/64 } on-error={}
@@ -227,4 +227,5 @@
 :do { add list=LY address=2c0f:7980::/32 } on-error={}
 :do { add list=LY address=2c0f:ed18::/32 } on-error={}
 :do { add list=LY address=2c0f:f518::/32 } on-error={}
+:do { add list=LY address=2c0f:f888:503:80ff::1/128 } on-error={}
 :do { add list=LY address=2c0f:fb10::/32 } on-error={}

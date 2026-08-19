@@ -18,6 +18,7 @@
 :do { add list=ZM address=2401:b60:1ff4::/46 } on-error={}
 :do { add list=ZM address=2401:b60:1ff8::/45 } on-error={}
 :do { add list=ZM address=2401:f1e0:ffff:d1da::/64 } on-error={}
+:do { add list=ZM address=2401:f1e0:ffff:e7dd::/64 } on-error={}
 :do { add list=ZM address=2405:b500:7e00::/64 } on-error={}
 :do { add list=ZM address=2405:b500:7e20::/64 } on-error={}
 :do { add list=ZM address=2405:b500:7e40::/64 } on-error={}
@@ -259,9 +260,7 @@
 :do { add list=ZM address=2c0f:fa10:0:8008::/62 } on-error={}
 :do { add list=ZM address=2c0f:fa10:0:800c::/64 } on-error={}
 :do { add list=ZM address=2c0f:fa10:0:800f::/64 } on-error={}
-:do { add list=ZM address=2c0f:fa10:0:8010::/62 } on-error={}
-:do { add list=ZM address=2c0f:fa10:0:8014::/63 } on-error={}
-:do { add list=ZM address=2c0f:fa10:0:8016::/64 } on-error={}
+:do { add list=ZM address=2c0f:fa10:0:8010::/61 } on-error={}
 :do { add list=ZM address=2c0f:fa10:0:801e::/64 } on-error={}
 :do { add list=ZM address=2c0f:fa10:1:8005::/64 } on-error={}
 :do { add list=ZM address=2c0f:fa10:2:8000::/63 } on-error={}
@@ -274,6 +273,7 @@
 :do { add list=ZM address=2c0f:fa10:2:800f::/64 } on-error={}
 :do { add list=ZM address=2c0f:fa10:2:8019::/64 } on-error={}
 :do { add list=ZM address=2c0f:fa10:2:8027::/64 } on-error={}
+:do { add list=ZM address=2c0f:fa10:2:802b::/64 } on-error={}
 :do { add list=ZM address=2c0f:fa10:2:8040::/58 } on-error={}
 :do { add list=ZM address=2c0f:fa10:2:8080::/57 } on-error={}
 :do { add list=ZM address=2c0f:fa10:2:8100::/56 } on-error={}
@@ -282,8 +282,6 @@
 :do { add list=ZM address=2c0f:fa10:2:8800::/53 } on-error={}
 :do { add list=ZM address=2c0f:fa10:2:9000::/52 } on-error={}
 :do { add list=ZM address=2c0f:fa10:2:a000::/51 } on-error={}
-:do { add list=ZM address=2c0f:fa10:3:8069::/64 } on-error={}
-:do { add list=ZM address=2c0f:fa10:4:8001::/64 } on-error={}
 :do { add list=ZM address=2c0f:fcc8::/32 } on-error={}
 :do { add list=ZM address=2c0f:fd40::/32 } on-error={}
 :do { add list=ZM address=2c0f:fd90::/32 } on-error={}

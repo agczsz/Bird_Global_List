@@ -1,27 +1,7 @@
 /log info "Loading SO IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=SO address=2001:470:19a6::/48 } on-error={}
-:do { add list=SO address=2001:470:1f15:334::/64 } on-error={}
-:do { add list=SO address=2001:470:1f17:d4::/64 } on-error={}
-:do { add list=SO address=2001:470:1f17:de::/64 } on-error={}
-:do { add list=SO address=2001:470:1f17:143::/64 } on-error={}
-:do { add list=SO address=2001:470:1f17:14a::/64 } on-error={}
-:do { add list=SO address=2001:470:1f17:14e::/64 } on-error={}
-:do { add list=SO address=2001:470:1f17:150::/64 } on-error={}
-:do { add list=SO address=2001:470:1f17:156::/64 } on-error={}
-:do { add list=SO address=2001:470:1f17:15a::/64 } on-error={}
-:do { add list=SO address=2001:470:1f17:15e::/64 } on-error={}
-:do { add list=SO address=2001:470:1f17:178::/64 } on-error={}
 :do { add list=SO address=2001:470:1f27:37::/64 } on-error={}
-:do { add list=SO address=2001:470:3096::/48 } on-error={}
-:do { add list=SO address=2001:470:30ab::/48 } on-error={}
-:do { add list=SO address=2001:470:30ae::/48 } on-error={}
-:do { add list=SO address=2001:470:30b1::/48 } on-error={}
-:do { add list=SO address=2001:470:30b3::/48 } on-error={}
-:do { add list=SO address=2001:470:30b8::/48 } on-error={}
-:do { add list=SO address=2001:470:30ba::/47 } on-error={}
-:do { add list=SO address=2001:470:30bd::/48 } on-error={}
-:do { add list=SO address=2001:470:30de::/48 } on-error={}
 :do { add list=SO address=2001:470:3999::/48 } on-error={}
 :do { add list=SO address=2001:470:39e3::/48 } on-error={}
 :do { add list=SO address=2001:470:39e7::/48 } on-error={}
@@ -43,6 +23,7 @@
 :do { add list=SO address=2401:b60:1d34::/46 } on-error={}
 :do { add list=SO address=2401:b60:1d38::/45 } on-error={}
 :do { add list=SO address=2401:f1e0:ffff:2d43::/64 } on-error={}
+:do { add list=SO address=2401:f1e0:ffff:c27c::/64 } on-error={}
 :do { add list=SO address=2405:b500:6900::/64 } on-error={}
 :do { add list=SO address=2405:b500:6920::/64 } on-error={}
 :do { add list=SO address=2405:b500:6940::/64 } on-error={}

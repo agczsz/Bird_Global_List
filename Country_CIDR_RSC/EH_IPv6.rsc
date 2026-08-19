@@ -18,11 +18,6 @@
 :do { add list=EH address=2600:70ff:aa40::/48 } on-error={}
 :do { add list=EH address=2606:40:a78::/45 } on-error={}
 :do { add list=EH address=2606:40:a80::/45 } on-error={}
-:do { add list=EH address=2606:40:1301:4000::/50 } on-error={}
-:do { add list=EH address=2606:40:1301:8000::/49 } on-error={}
-:do { add list=EH address=2606:40:1302::/47 } on-error={}
-:do { add list=EH address=2606:40:1304::/46 } on-error={}
-:do { add list=EH address=2606:40:1308::/45 } on-error={}
 :do { add list=EH address=2606:40:22a0:6000::/54 } on-error={}
 :do { add list=EH address=2606:40:22a0:6800::/53 } on-error={}
 :do { add list=EH address=2606:40:22a0:7000::/52 } on-error={}
@@ -30,6 +25,8 @@
 :do { add list=EH address=2606:40:22e0:c800::/53 } on-error={}
 :do { add list=EH address=2606:40:22e0:d000::/52 } on-error={}
 :do { add list=EH address=2607:8940:208e::/48 } on-error={}
+:do { add list=EH address=2607:8940:208f:1800::/55 } on-error={}
+:do { add list=EH address=2607:8940:208f:1a00::/56 } on-error={}
 :do { add list=EH address=2607:8940:2092::/47 } on-error={}
 :do { add list=EH address=2607:8940:4171:2e00::/55 } on-error={}
 :do { add list=EH address=2607:8940:4191:2e00::/55 } on-error={}

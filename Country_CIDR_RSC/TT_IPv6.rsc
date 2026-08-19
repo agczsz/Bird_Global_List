@@ -4,6 +4,7 @@
 :do { add list=TT address=2001:470:36:8e2::/64 } on-error={}
 :do { add list=TT address=2001:470:1f1b:42c::/64 } on-error={}
 :do { add list=TT address=2001:470:62d1::/48 } on-error={}
+:do { add list=TT address=2001:470:6805::/64 } on-error={}
 :do { add list=TT address=2001:470:d884::/48 } on-error={}
 :do { add list=TT address=2001:470:d9e1::/48 } on-error={}
 :do { add list=TT address=2001:470:d9f8::/48 } on-error={}
@@ -20,6 +21,8 @@
 :do { add list=TT address=2001:470:f3c7::/48 } on-error={}
 :do { add list=TT address=2001:470:fe6a::/48 } on-error={}
 :do { add list=TT address=2001:67c:a38:f468::/64 } on-error={}
+:do { add list=TT address=2001:fd8:b604:9e8::/63 } on-error={}
+:do { add list=TT address=2001:fd8:b70b:770::/62 } on-error={}
 :do { add list=TT address=2001:3786:5006:300::/56 } on-error={}
 :do { add list=TT address=2001:4b28:fd00::/40 } on-error={}
 :do { add list=TT address=2400:cb00:936::/48 } on-error={}
@@ -38,6 +41,8 @@
 :do { add list=TT address=2600:70ff:a41d::/48 } on-error={}
 :do { add list=TT address=2600:70ff:a425::/48 } on-error={}
 :do { add list=TT address=2602:fe41:3ff:fffe::26/128 } on-error={}
+:do { add list=TT address=2602:ffc5:200:200::/56 } on-error={}
+:do { add list=TT address=2604:6600:a:4100::/57 } on-error={}
 :do { add list=TT address=2606:40:20f6:4000::/51 } on-error={}
 :do { add list=TT address=2606:40:214c:a000::/51 } on-error={}
 :do { add list=TT address=2606:54c0:57d8::/45 } on-error={}
@@ -81,6 +86,7 @@
 :do { add list=TT address=2803:c1d0::/32 } on-error={}
 :do { add list=TT address=2803:cd80::/33 } on-error={}
 :do { add list=TT address=2803:cd80:8000::/33 } on-error={}
+:do { add list=TT address=2804:8624:c000:412::/63 } on-error={}
 :do { add list=TT address=2a01:528:fd00::/40 } on-error={}
 :do { add list=TT address=2a02:26f7:f700:4000::/64 } on-error={}
 :do { add list=TT address=2a02:26f7:f700:4d80::/62 } on-error={}
@@ -182,16 +188,7 @@
 :do { add list=TT address=2a0c:9a40:95bd:f000::/52 } on-error={}
 :do { add list=TT address=2a0c:9a46:3e2::/48 } on-error={}
 :do { add list=TT address=2a0c:9a46:3fe:e1::/64 } on-error={}
-:do { add list=TT address=2a0d:2681:4300:4000::/50 } on-error={}
-:do { add list=TT address=2a0d:2681:4300:8000::/49 } on-error={}
-:do { add list=TT address=2a0d:2681:4301::/48 } on-error={}
-:do { add list=TT address=2a0d:2681:4302::/47 } on-error={}
-:do { add list=TT address=2a0d:2681:4304::/46 } on-error={}
-:do { add list=TT address=2a0d:2681:4308::/45 } on-error={}
-:do { add list=TT address=2a0d:2681:4310::/44 } on-error={}
-:do { add list=TT address=2a0d:2681:4320::/43 } on-error={}
-:do { add list=TT address=2a0d:2681:4340::/42 } on-error={}
-:do { add list=TT address=2a0d:2681:4380::/41 } on-error={}
+:do { add list=TT address=2a0d:2681:4300::/40 } on-error={}
 :do { add list=TT address=2a0d:9447:c000::/37 } on-error={}
 :do { add list=TT address=2a0f:1cc5:b10:e000::/56 } on-error={}
 :do { add list=TT address=2a0f:1cc5:b11:e000::/56 } on-error={}

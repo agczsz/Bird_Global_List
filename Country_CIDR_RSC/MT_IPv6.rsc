@@ -1,9 +1,8 @@
 /log info "Loading MT IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=MT address=2001:470:28:f90::/64 } on-error={}
 :do { add list=MT address=2001:470:1869::/48 } on-error={}
 :do { add list=MT address=2001:470:1b7a::/48 } on-error={}
-:do { add list=MT address=2001:470:1f15:376::/64 } on-error={}
+:do { add list=MT address=2001:470:1f21:47b::/64 } on-error={}
 :do { add list=MT address=2001:470:720c::/48 } on-error={}
 :do { add list=MT address=2001:470:7998::/48 } on-error={}
 :do { add list=MT address=2001:470:7fe0::/48 } on-error={}
@@ -39,6 +38,11 @@
 :do { add list=MT address=2604:b040:13:1400:0:5:2:0/112 } on-error={}
 :do { add list=MT address=2604:b040:13:1400:0:6:2:0/112 } on-error={}
 :do { add list=MT address=2604:b040:13:1400:0:7:2:0/112 } on-error={}
+:do { add list=MT address=2606:40:19d1::/48 } on-error={}
+:do { add list=MT address=2606:40:19d2::/47 } on-error={}
+:do { add list=MT address=2606:40:19d4::/46 } on-error={}
+:do { add list=MT address=2606:40:19d8::/45 } on-error={}
+:do { add list=MT address=2606:40:19e0::/44 } on-error={}
 :do { add list=MT address=2606:40:2190:6000::/54 } on-error={}
 :do { add list=MT address=2606:40:2190:6800::/53 } on-error={}
 :do { add list=MT address=2606:40:2190:7000::/52 } on-error={}
@@ -47,8 +51,6 @@
 :do { add list=MT address=2606:54c3:0:d03::/64 } on-error={}
 :do { add list=MT address=2606:f180:12::/48 } on-error={}
 :do { add list=MT address=2606:f18a:8000::/47 } on-error={}
-:do { add list=MT address=2607:6b80:53:1000::/52 } on-error={}
-:do { add list=MT address=2607:6b80:53:2000::/51 } on-error={}
 :do { add list=MT address=2607:6b80:53:4000::/50 } on-error={}
 :do { add list=MT address=2607:6b80:53:8000::/49 } on-error={}
 :do { add list=MT address=2607:8940:354a::/47 } on-error={}
@@ -101,7 +103,6 @@
 :do { add list=MT address=2a02:dd0:b000::/36 } on-error={}
 :do { add list=MT address=2a02:dd0:c000::/34 } on-error={}
 :do { add list=MT address=2a02:26f7:bc80:4000::/64 } on-error={}
-:do { add list=MT address=2a02:26f7:bc80:8000::/50 } on-error={}
 :do { add list=MT address=2a02:26f7:bc80:cb80::/63 } on-error={}
 :do { add list=MT address=2a02:26f7:bc81::/48 } on-error={}
 :do { add list=MT address=2a02:26f7:bc82:4000::/64 } on-error={}

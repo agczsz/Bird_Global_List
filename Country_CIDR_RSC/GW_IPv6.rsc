@@ -13,7 +13,7 @@
 :do { add list=GW address=2401:b60:15c4::/46 } on-error={}
 :do { add list=GW address=2401:b60:15c8::/45 } on-error={}
 :do { add list=GW address=2401:f1e0:ffff:12cc::/64 } on-error={}
-:do { add list=GW address=2401:f1e0:ffff:e2e0::/64 } on-error={}
+:do { add list=GW address=2401:f1e0:ffff:dacf::/64 } on-error={}
 :do { add list=GW address=2405:b500:3080::/64 } on-error={}
 :do { add list=GW address=2405:b500:30c0::/64 } on-error={}
 :do { add list=GW address=2405:b500:30e0::/64 } on-error={}

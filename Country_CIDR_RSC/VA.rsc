@@ -1,12 +1,8 @@
 /log info "Loading VA IPv4 Address List"
 /ip firewall address-list
-:do { add list=VA address=2.56.112.0/29 } on-error={}
 :do { add list=VA address=2.56.112.32/30 } on-error={}
 :do { add list=VA address=2.56.112.48/28 } on-error={}
-:do { add list=VA address=2.56.112.64/27 } on-error={}
-:do { add list=VA address=2.56.112.100/30 } on-error={}
-:do { add list=VA address=2.56.112.104/29 } on-error={}
-:do { add list=VA address=2.56.112.112/28 } on-error={}
+:do { add list=VA address=2.56.112.96/27 } on-error={}
 :do { add list=VA address=2.56.112.128/25 } on-error={}
 :do { add list=VA address=5.62.61.209/32 } on-error={}
 :do { add list=VA address=5.62.61.210/31 } on-error={}
@@ -35,23 +31,16 @@
 :do { add list=VA address=140.248.63.235/32 } on-error={}
 :do { add list=VA address=146.75.166.140/31 } on-error={}
 :do { add list=VA address=146.75.186.46/31 } on-error={}
-:do { add list=VA address=156.54.225.88/31 } on-error={}
 :do { add list=VA address=162.120.215.7/32 } on-error={}
 :do { add list=VA address=162.120.216.130/32 } on-error={}
 :do { add list=VA address=172.225.96.160/27 } on-error={}
 :do { add list=VA address=172.225.145.64/27 } on-error={}
 :do { add list=VA address=172.225.158.48/28 } on-error={}
 :do { add list=VA address=185.17.220.0/22 } on-error={}
-:do { add list=VA address=185.152.68.128/27 } on-error={}
 :do { add list=VA address=185.152.68.196/30 } on-error={}
 :do { add list=VA address=185.152.68.200/29 } on-error={}
 :do { add list=VA address=185.152.68.208/28 } on-error={}
 :do { add list=VA address=185.152.68.224/27 } on-error={}
-:do { add list=VA address=185.152.70.24/30 } on-error={}
-:do { add list=VA address=185.152.70.28/31 } on-error={}
-:do { add list=VA address=185.152.70.64/30 } on-error={}
-:do { add list=VA address=185.152.70.72/31 } on-error={}
-:do { add list=VA address=185.152.70.76/30 } on-error={}
 :do { add list=VA address=185.152.71.0/24 } on-error={}
 :do { add list=VA address=195.133.0.0/24 } on-error={}
 :do { add list=VA address=212.77.3.82/32 } on-error={}

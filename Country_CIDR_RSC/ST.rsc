@@ -42,11 +42,17 @@
 :do { add list=ST address=154.72.12.0/22 } on-error={}
 :do { add list=ST address=162.120.206.20/32 } on-error={}
 :do { add list=ST address=162.120.235.133/32 } on-error={}
+:do { add list=ST address=163.116.169.155/32 } on-error={}
+:do { add list=ST address=163.116.169.156/32 } on-error={}
+:do { add list=ST address=163.116.174.192/31 } on-error={}
+:do { add list=ST address=163.116.190.102/31 } on-error={}
 :do { add list=ST address=163.116.245.64/32 } on-error={}
+:do { add list=ST address=163.116.245.66/32 } on-error={}
 :do { add list=ST address=172.224.231.32/28 } on-error={}
 :do { add list=ST address=172.225.178.240/28 } on-error={}
 :do { add list=ST address=172.225.197.32/28 } on-error={}
 :do { add list=ST address=172.225.243.80/28 } on-error={}
+:do { add list=ST address=184.104.231.127/32 } on-error={}
 :do { add list=ST address=196.48.170.0/24 } on-error={}
 :do { add list=ST address=196.56.170.0/24 } on-error={}
 :do { add list=ST address=196.57.170.0/24 } on-error={}

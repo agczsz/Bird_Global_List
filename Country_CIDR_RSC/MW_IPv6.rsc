@@ -6,6 +6,7 @@
 :do { add list=MW address=2001:470:f3f7::/48 } on-error={}
 :do { add list=MW address=2001:67c:a38:f265::/64 } on-error={}
 :do { add list=MW address=2001:43f8:20:2000::/52 } on-error={}
+:do { add list=MW address=2001:43f8:20:3008::/61 } on-error={}
 :do { add list=MW address=2001:43f8:20:3010::/60 } on-error={}
 :do { add list=MW address=2001:43f8:20:3020::/59 } on-error={}
 :do { add list=MW address=2001:43f8:20:3040::/58 } on-error={}
@@ -30,7 +31,7 @@
 :do { add list=MW address=2001:43ff:f000::/48 } on-error={}
 :do { add list=MW address=2001:4b28:3f00::/40 } on-error={}
 :do { add list=MW address=2400:cb00:1045::/48 } on-error={}
-:do { add list=MW address=2401:f1e0:ffff:fe3c::/64 } on-error={}
+:do { add list=MW address=2401:f1e0:ffff:a504::/64 } on-error={}
 :do { add list=MW address=2405:b500:5000::/64 } on-error={}
 :do { add list=MW address=2405:b500:5000:8::/64 } on-error={}
 :do { add list=MW address=2405:b500:5020::/64 } on-error={}
@@ -250,6 +251,18 @@
 :do { add list=MW address=2c0f:fc48::/32 } on-error={}
 :do { add list=MW address=2c0f:fc58::/32 } on-error={}
 :do { add list=MW address=2c0f:fd50:0:20::/64 } on-error={}
+:do { add list=MW address=2c0f:fd50:0:22::/64 } on-error={}
+:do { add list=MW address=2c0f:fd50:0:24::/62 } on-error={}
+:do { add list=MW address=2c0f:fd50:0:28::/61 } on-error={}
+:do { add list=MW address=2c0f:fd50:0:30::/60 } on-error={}
+:do { add list=MW address=2c0f:fd50:0:40::/58 } on-error={}
+:do { add list=MW address=2c0f:fd50:0:80::/57 } on-error={}
+:do { add list=MW address=2c0f:fd50:0:100::/56 } on-error={}
+:do { add list=MW address=2c0f:fd50:0:200::/55 } on-error={}
+:do { add list=MW address=2c0f:fd50:0:400::/54 } on-error={}
+:do { add list=MW address=2c0f:fd50:0:800::/53 } on-error={}
+:do { add list=MW address=2c0f:fd50:0:1000::/52 } on-error={}
+:do { add list=MW address=2c0f:fd50:0:2000::/51 } on-error={}
 :do { add list=MW address=2c0f:fd50:0:4000::/50 } on-error={}
 :do { add list=MW address=2c0f:fd50:0:8000::/49 } on-error={}
 :do { add list=MW address=2c0f:fd50:1::/48 } on-error={}

@@ -6,8 +6,8 @@
 :do { add list=FO address=9.246.78.0/23 } on-error={}
 :do { add list=FO address=37.120.252.0/23 } on-error={}
 :do { add list=FO address=46.227.112.0/21 } on-error={}
+:do { add list=FO address=51.77.185.210/32 } on-error={}
 :do { add list=FO address=80.77.128.0/20 } on-error={}
-:do { add list=FO address=80.90.16.3/32 } on-error={}
 :do { add list=FO address=81.18.224.0/20 } on-error={}
 :do { add list=FO address=81.25.176.0/20 } on-error={}
 :do { add list=FO address=88.85.32.0/19 } on-error={}

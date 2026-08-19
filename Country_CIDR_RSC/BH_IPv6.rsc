@@ -1,6 +1,5 @@
 /log info "Loading BH IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=BH address=2001:470:1f15:598::/64 } on-error={}
 :do { add list=BH address=2001:470:1f29:1d5::/64 } on-error={}
 :do { add list=BH address=2001:470:1f29:3a2::/64 } on-error={}
 :do { add list=BH address=2001:470:1f29:3e9::/64 } on-error={}
@@ -12,7 +11,10 @@
 :do { add list=BH address=2001:500:15:5900::/56 } on-error={}
 :do { add list=BH address=2001:5a0:d00::426e:6e/128 } on-error={}
 :do { add list=BH address=2001:67c:a38:f973::/64 } on-error={}
+:do { add list=BH address=2001:978:2:14::23:2/128 } on-error={}
 :do { add list=BH address=2001:1a00:acca:1505::2/128 } on-error={}
+:do { add list=BH address=2001:1a00:acca:1506::2/128 } on-error={}
+:do { add list=BH address=2001:1a10:100:c:8781::47/128 } on-error={}
 :do { add list=BH address=2001:1a40::/32 } on-error={}
 :do { add list=BH address=2001:1a41::/32 } on-error={}
 :do { add list=BH address=2001:1a42::/31 } on-error={}
@@ -95,7 +97,9 @@
 :do { add list=BH address=2620:171:af::/48 } on-error={}
 :do { add list=BH address=2a00:6600::/29 } on-error={}
 :do { add list=BH address=2a00:dde0::/32 } on-error={}
-:do { add list=BH address=2a01:3e0:3c00::/124 } on-error={}
+:do { add list=BH address=2a01:3e0:3c00::/126 } on-error={}
+:do { add list=BH address=2a01:3e0:3c00::6/127 } on-error={}
+:do { add list=BH address=2a01:3e0:3c00::8/125 } on-error={}
 :do { add list=BH address=2a01:3e0:3c00::10/126 } on-error={}
 :do { add list=BH address=2a01:3e0:3c00::14/128 } on-error={}
 :do { add list=BH address=2a01:3e0:3c00::16/127 } on-error={}
@@ -159,6 +163,10 @@
 :do { add list=BH address=2a01:3e0:3c00:0:2000::/67 } on-error={}
 :do { add list=BH address=2a01:3e0:3c00:0:4000::/66 } on-error={}
 :do { add list=BH address=2a01:3e0:3c00:0:8000::/65 } on-error={}
+:do { add list=BH address=2a01:3e0:3c00:1::/64 } on-error={}
+:do { add list=BH address=2a01:3e0:3c00:2::/63 } on-error={}
+:do { add list=BH address=2a01:3e0:3c00:4::/62 } on-error={}
+:do { add list=BH address=2a01:3e0:3c00:8::/61 } on-error={}
 :do { add list=BH address=2a01:528:9500::/40 } on-error={}
 :do { add list=BH address=2a01:578:0:7600::/63 } on-error={}
 :do { add list=BH address=2a01:578:0:7602::/64 } on-error={}
@@ -315,6 +323,7 @@
 :do { add list=BH address=2a0a:be01:9000:8000::/49 } on-error={}
 :do { add list=BH address=2a0a:be01:9001:4000::/50 } on-error={}
 :do { add list=BH address=2a0a:be01:9001:8000::/49 } on-error={}
+:do { add list=BH address=2a0a:e5c0:2:10::3ed8:9b3e/128 } on-error={}
 :do { add list=BH address=2a0b:4e07:3:480::/60 } on-error={}
 :do { add list=BH address=2a0c:9a40:95b1:1000::/52 } on-error={}
 :do { add list=BH address=2a0c:9a46:317::/48 } on-error={}
