@@ -2217,10 +2217,7 @@
 :do { add list=LT address=2a14:60c7:c000::/34 } on-error={}
 :do { add list=LT address=2a14:67c1:b683::/48 } on-error={}
 :do { add list=LT address=2a14:67c2:892::/48 } on-error={}
-:do { add list=LT address=2a14:6bc0::/30 } on-error={}
-:do { add list=LT address=2a14:6bc4::/31 } on-error={}
-:do { add list=LT address=2a14:6bc6::/32 } on-error={}
-:do { add list=LT address=2a14:6bc7::/32 } on-error={}
+:do { add list=LT address=2a14:6bc0::/29 } on-error={}
 :do { add list=LT address=2a14:7580:cf84::/48 } on-error={}
 :do { add list=LT address=2a14:7580:ef38::/48 } on-error={}
 :do { add list=LT address=2a14:7580:eff0:ab9e::/64 } on-error={}

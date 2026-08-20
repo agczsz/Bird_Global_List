@@ -3954,8 +3954,6 @@
 :do { add list=AR address=2803:fee0::/32 } on-error={}
 :do { add list=AR address=2803:ff90::/32 } on-error={}
 :do { add list=AR address=2803:ffa0::/32 } on-error={}
-:do { add list=AR address=2804:1bc:114:4000::/50 } on-error={}
-:do { add list=AR address=2804:1bc:114:8000::/49 } on-error={}
 :do { add list=AR address=2804:378::17/128 } on-error={}
 :do { add list=AR address=2804:cf8:b::/50 } on-error={}
 :do { add list=AR address=2804:5330:1:a::/64 } on-error={}

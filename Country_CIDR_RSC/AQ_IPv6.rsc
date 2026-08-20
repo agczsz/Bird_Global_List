@@ -1382,6 +1382,7 @@
 :do { add list=AQ address=2a0a:d685:1f0::/45 } on-error={}
 :do { add list=AQ address=2a0a:d685:1f8::/47 } on-error={}
 :do { add list=AQ address=2a0a:d685:1fa::/48 } on-error={}
+:do { add list=AQ address=2a0a:d685:1fb::/48 } on-error={}
 :do { add list=AQ address=2a0a:d685:1fc::/48 } on-error={}
 :do { add list=AQ address=2a0a:d685:1fd::/48 } on-error={}
 :do { add list=AQ address=2a0b:4e07:3:100::/60 } on-error={}

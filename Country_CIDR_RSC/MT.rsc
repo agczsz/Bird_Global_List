@@ -423,7 +423,6 @@
 :do { add list=MT address=212.65.96.0/19 } on-error={}
 :do { add list=MT address=212.115.172.136/30 } on-error={}
 :do { add list=MT address=212.133.110.242/31 } on-error={}
-:do { add list=MT address=212.221.7.208/29 } on-error={}
 :do { add list=MT address=212.222.87.212/30 } on-error={}
 :do { add list=MT address=213.134.19.0/24 } on-error={}
 :do { add list=MT address=213.144.176.209/32 } on-error={}

@@ -98,9 +98,7 @@
 :do { add list=HT address=186.1.192.0/20 } on-error={}
 :do { add list=HT address=186.190.0.0/17 } on-error={}
 :do { add list=HT address=190.102.64.0/19 } on-error={}
-:do { add list=HT address=190.105.172.0/23 } on-error={}
-:do { add list=HT address=190.105.174.0/24 } on-error={}
-:do { add list=HT address=190.105.175.0/24 } on-error={}
+:do { add list=HT address=190.105.172.0/22 } on-error={}
 :do { add list=HT address=190.115.128.0/18 } on-error={}
 :do { add list=HT address=190.120.192.0/19 } on-error={}
 :do { add list=HT address=190.196.192.0/20 } on-error={}

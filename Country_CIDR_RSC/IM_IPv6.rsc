@@ -553,7 +553,6 @@
 :do { add list=IM address=2a0c:b6c2:1004:8000::/49 } on-error={}
 :do { add list=IM address=2a0c:b6c2:1005:4000::/50 } on-error={}
 :do { add list=IM address=2a0c:b6c2:1005:8000::/49 } on-error={}
-:do { add list=IM address=2a0d:3341:ac00::/40 } on-error={}
 :do { add list=IM address=2a0d:9440:7000::/37 } on-error={}
 :do { add list=IM address=2a0f:1cc5:b10:ee00::/56 } on-error={}
 :do { add list=IM address=2a0f:1cc5:b11:ee00::/56 } on-error={}

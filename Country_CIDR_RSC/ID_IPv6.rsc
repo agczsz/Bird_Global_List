@@ -10619,6 +10619,9 @@
 :do { add list=ID address=2a00:79e1:2000:2600::/56 } on-error={}
 :do { add list=ID address=2a00:79e1:2000:2d00::/56 } on-error={}
 :do { add list=ID address=2a00:79e1:3000:1700::/56 } on-error={}
+:do { add list=ID address=2a00:79e1:3000:2300::/56 } on-error={}
+:do { add list=ID address=2a00:79e1:3000:2500::/56 } on-error={}
+:do { add list=ID address=2a00:79e1:3000:2600::/56 } on-error={}
 :do { add list=ID address=2a00:79e1:f001:2800::/56 } on-error={}
 :do { add list=ID address=2a00:79e1:f005:100::/56 } on-error={}
 :do { add list=ID address=2a00:8c40:f260::/44 } on-error={}

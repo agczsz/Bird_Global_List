@@ -10,10 +10,7 @@
 :do { add list=BF address=38.170.8.0/21 } on-error={}
 :do { add list=BF address=38.170.16.0/20 } on-error={}
 :do { add list=BF address=38.170.32.0/19 } on-error={}
-:do { add list=BF address=38.170.64.0/20 } on-error={}
-:do { add list=BF address=38.170.80.0/21 } on-error={}
-:do { add list=BF address=38.170.88.0/22 } on-error={}
-:do { add list=BF address=38.170.92.0/22 } on-error={}
+:do { add list=BF address=38.170.64.0/19 } on-error={}
 :do { add list=BF address=38.170.96.0/19 } on-error={}
 :do { add list=BF address=38.170.128.0/17 } on-error={}
 :do { add list=BF address=41.78.48.0/21 } on-error={}

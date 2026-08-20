@@ -57,7 +57,6 @@
 :do { add list=IM address=5.253.76.0/24 } on-error={}
 :do { add list=IM address=5.253.77.0/24 } on-error={}
 :do { add list=IM address=5.253.78.0/23 } on-error={}
-:do { add list=IM address=9.246.86.0/23 } on-error={}
 :do { add list=IM address=37.1.88.128/30 } on-error={}
 :do { add list=IM address=37.1.88.144/28 } on-error={}
 :do { add list=IM address=37.1.88.176/28 } on-error={}
