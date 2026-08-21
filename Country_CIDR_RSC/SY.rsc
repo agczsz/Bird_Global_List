@@ -106,6 +106,7 @@
 :do { add list=SY address=94.252.186.0/23 } on-error={}
 :do { add list=SY address=94.252.188.0/22 } on-error={}
 :do { add list=SY address=94.252.192.0/18 } on-error={}
+:do { add list=SY address=95.0.175.144/32 } on-error={}
 :do { add list=SY address=95.3.75.110/32 } on-error={}
 :do { add list=SY address=95.140.96.0/20 } on-error={}
 :do { add list=SY address=95.159.0.0/18 } on-error={}

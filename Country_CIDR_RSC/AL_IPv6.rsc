@@ -1315,7 +1315,10 @@
 :do { add list=AL address=2a05:b0c7:1c00::/38 } on-error={}
 :do { add list=AL address=2a05:b0c7:5000::/37 } on-error={}
 :do { add list=AL address=2a05:b0c7:5800::/37 } on-error={}
-:do { add list=AL address=2a05:b0c7:7000::/36 } on-error={}
+:do { add list=AL address=2a05:b0c7:7000::/37 } on-error={}
+:do { add list=AL address=2a05:b0c7:7800::/40 } on-error={}
+:do { add list=AL address=2a05:b0c7:7a00::/39 } on-error={}
+:do { add list=AL address=2a05:b0c7:7c00::/38 } on-error={}
 :do { add list=AL address=2a05:b0c7:8000::/35 } on-error={}
 :do { add list=AL address=2a05:b0c7:a000::/36 } on-error={}
 :do { add list=AL address=2a05:b0c7:b000::/45 } on-error={}

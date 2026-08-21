@@ -1,6 +1,8 @@
 /log info "Loading BH IPv4 Address List"
 /ip firewall address-list
 :do { add list=BH address=1.178.16.0/24 } on-error={}
+:do { add list=BH address=2.152.88.0/24 } on-error={}
+:do { add list=BH address=2.152.92.0/23 } on-error={}
 :do { add list=BH address=3.2.32.128/26 } on-error={}
 :do { add list=BH address=3.2.56.0/24 } on-error={}
 :do { add list=BH address=3.2.85.0/24 } on-error={}
@@ -124,7 +126,7 @@
 :do { add list=BH address=80.249.211.238/32 } on-error={}
 :do { add list=BH address=81.22.16.0/20 } on-error={}
 :do { add list=BH address=82.148.106.101/32 } on-error={}
-:do { add list=BH address=82.148.106.222/32 } on-error={}
+:do { add list=BH address=82.148.106.222/31 } on-error={}
 :do { add list=BH address=82.194.32.0/19 } on-error={}
 :do { add list=BH address=83.136.56.0/21 } on-error={}
 :do { add list=BH address=84.235.102.0/27 } on-error={}

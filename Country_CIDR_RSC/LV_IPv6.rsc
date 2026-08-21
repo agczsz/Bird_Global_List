@@ -93,7 +93,6 @@
 :do { add list=LV address=2001:470:1f2f:b0::/64 } on-error={}
 :do { add list=LV address=2001:470:20be::/48 } on-error={}
 :do { add list=LV address=2001:470:50a1::/48 } on-error={}
-:do { add list=LV address=2001:470:5140::/48 } on-error={}
 :do { add list=LV address=2001:470:5443::/48 } on-error={}
 :do { add list=LV address=2001:470:5456::/48 } on-error={}
 :do { add list=LV address=2001:470:5484::/48 } on-error={}

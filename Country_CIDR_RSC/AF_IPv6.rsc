@@ -174,8 +174,7 @@
 :do { add list=AF address=2401:8080::/32 } on-error={}
 :do { add list=AF address=2401:f1e0:ffff:515e::/64 } on-error={}
 :do { add list=AF address=2401:f1e0:ffff:c9c4::/64 } on-error={}
-:do { add list=AF address=2402:1ca0::/33 } on-error={}
-:do { add list=AF address=2402:1ca0:8000::/33 } on-error={}
+:do { add list=AF address=2402:1ca0::/32 } on-error={}
 :do { add list=AF address=2402:2880::/32 } on-error={}
 :do { add list=AF address=2402:3440::/32 } on-error={}
 :do { add list=AF address=2402:4e40::/32 } on-error={}

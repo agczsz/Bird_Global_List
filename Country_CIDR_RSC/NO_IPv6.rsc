@@ -6249,7 +6249,6 @@
 :do { add list=NO address=2a09:bac6:4e60::/44 } on-error={}
 :do { add list=NO address=2a09:bac6:4e70::/45 } on-error={}
 :do { add list=NO address=2a09:bac6:d8c0::/45 } on-error={}
-:do { add list=NO address=2a09:be40:28f9::/48 } on-error={}
 :do { add list=NO address=2a09:be40:4200::/40 } on-error={}
 :do { add list=NO address=2a09:be87:5180::/41 } on-error={}
 :do { add list=NO address=2a09:c300::/29 } on-error={}

@@ -180,6 +180,7 @@
 :do { add list=DJ address=216.66.84.229/32 } on-error={}
 :do { add list=DJ address=216.66.87.97/32 } on-error={}
 :do { add list=DJ address=216.66.87.98/32 } on-error={}
+:do { add list=DJ address=216.218.253.222/32 } on-error={}
 :do { add list=DJ address=217.15.112.218/32 } on-error={}
 :do { add list=DJ address=217.28.40.0/23 } on-error={}
 :do { add list=DJ address=223.118.3.254/31 } on-error={}

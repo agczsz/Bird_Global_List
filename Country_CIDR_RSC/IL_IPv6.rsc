@@ -1002,18 +1002,7 @@
 :do { add list=IL address=2a01:111:f403:e20e::/64 } on-error={}
 :do { add list=IL address=2a01:528:dc00::/40 } on-error={}
 :do { add list=IL address=2a01:578:0:7700::/56 } on-error={}
-:do { add list=IL address=2a01:4280::/43 } on-error={}
-:do { add list=IL address=2a01:4280:20::/43 } on-error={}
-:do { add list=IL address=2a01:4280:40::/42 } on-error={}
-:do { add list=IL address=2a01:4280:80::/41 } on-error={}
-:do { add list=IL address=2a01:4280:100::/40 } on-error={}
-:do { add list=IL address=2a01:4280:200::/39 } on-error={}
-:do { add list=IL address=2a01:4280:400::/38 } on-error={}
-:do { add list=IL address=2a01:4280:800::/37 } on-error={}
-:do { add list=IL address=2a01:4280:1000::/36 } on-error={}
-:do { add list=IL address=2a01:4280:2000::/35 } on-error={}
-:do { add list=IL address=2a01:4280:4000::/34 } on-error={}
-:do { add list=IL address=2a01:4280:8000::/33 } on-error={}
+:do { add list=IL address=2a01:4280::/32 } on-error={}
 :do { add list=IL address=2a01:53c0:fff0::/50 } on-error={}
 :do { add list=IL address=2a01:58e0::/32 } on-error={}
 :do { add list=IL address=2a01:6500::/29 } on-error={}
@@ -3687,6 +3676,7 @@
 :do { add list=IL address=2a09:bac0:1000:15b7::/64 } on-error={}
 :do { add list=IL address=2a09:bac0:1000:1640::/64 } on-error={}
 :do { add list=IL address=2a09:bac0:1000:1686::/64 } on-error={}
+:do { add list=IL address=2a09:bac0:1000:16c3::/64 } on-error={}
 :do { add list=IL address=2a09:bac0:1000:1763::/64 } on-error={}
 :do { add list=IL address=2a09:bac0:1000:200e::/64 } on-error={}
 :do { add list=IL address=2a09:bac0:1000:2240::/60 } on-error={}
@@ -5094,7 +5084,8 @@
 :do { add list=IL address=2a0b:4e07:ba::/48 } on-error={}
 :do { add list=IL address=2a0b:4e07:c0::/48 } on-error={}
 :do { add list=IL address=2a0b:4e07:c4::/46 } on-error={}
-:do { add list=IL address=2a0b:4e07:d0::/47 } on-error={}
+:do { add list=IL address=2a0b:4e07:d0::/48 } on-error={}
+:do { add list=IL address=2a0b:4e07:d1::/48 } on-error={}
 :do { add list=IL address=2a0b:4e07:d3::/48 } on-error={}
 :do { add list=IL address=2a0b:4e07:d4::/47 } on-error={}
 :do { add list=IL address=2a0b:4e07:d6::/48 } on-error={}

@@ -2270,7 +2270,6 @@
 :do { add list=LU address=2a09:bac4:1420::/45 } on-error={}
 :do { add list=LU address=2a09:bac5:4890::/44 } on-error={}
 :do { add list=LU address=2a09:bac6:4890::/44 } on-error={}
-:do { add list=LU address=2a09:be40:28f6::/48 } on-error={}
 :do { add list=LU address=2a09:be87:5780::/41 } on-error={}
 :do { add list=LU address=2a09:c240::/29 } on-error={}
 :do { add list=LU address=2a09:e200:e200::24/128 } on-error={}

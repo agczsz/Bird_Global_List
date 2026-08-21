@@ -4,7 +4,7 @@
 :do { add list=SR address=2001:470:1f2b:1ab::/64 } on-error={}
 :do { add list=SR address=2001:470:6a00::/48 } on-error={}
 :do { add list=SR address=2001:470:f38a::/48 } on-error={}
-:do { add list=SR address=2001:470:f4f4::/48 } on-error={}
+:do { add list=SR address=2001:470:f4f4::/47 } on-error={}
 :do { add list=SR address=2001:470:fb47::/48 } on-error={}
 :do { add list=SR address=2001:67c:a38:f597::/64 } on-error={}
 :do { add list=SR address=2001:3786:5069:100::/56 } on-error={}

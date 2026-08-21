@@ -290,6 +290,8 @@
 :do { add list=XK address=213.163.104.0/21 } on-error={}
 :do { add list=XK address=213.163.112.0/21 } on-error={}
 :do { add list=XK address=213.163.120.0/23 } on-error={}
+:do { add list=XK address=213.163.122.0/32 } on-error={}
+:do { add list=XK address=213.163.122.2/31 } on-error={}
 :do { add list=XK address=213.163.122.4/30 } on-error={}
 :do { add list=XK address=213.163.122.8/29 } on-error={}
 :do { add list=XK address=213.163.122.16/28 } on-error={}

@@ -11,6 +11,7 @@
 :do { add list=HT address=2001:470:f375::/48 } on-error={}
 :do { add list=HT address=2001:470:f499::/48 } on-error={}
 :do { add list=HT address=2001:470:f6ac::/48 } on-error={}
+:do { add list=HT address=2001:470:fa77::/48 } on-error={}
 :do { add list=HT address=2001:470:fc1b::/48 } on-error={}
 :do { add list=HT address=2001:470:fcc8::/48 } on-error={}
 :do { add list=HT address=2001:470:fdc2::/48 } on-error={}

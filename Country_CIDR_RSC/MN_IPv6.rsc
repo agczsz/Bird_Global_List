@@ -681,6 +681,7 @@
 :do { add list=MN address=2a02:26f7:b645::/48 } on-error={}
 :do { add list=MN address=2a02:26f7:b646::/47 } on-error={}
 :do { add list=MN address=2a02:26f7:b648:4000::/64 } on-error={}
+:do { add list=MN address=2a02:26f7:b648:8000::/50 } on-error={}
 :do { add list=MN address=2a02:26f7:b648:ce00::/63 } on-error={}
 :do { add list=MN address=2a02:26f7:b648:ce02::/64 } on-error={}
 :do { add list=MN address=2a02:26f7:b649::/48 } on-error={}

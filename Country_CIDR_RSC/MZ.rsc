@@ -140,8 +140,7 @@
 :do { add list=MZ address=105.21.232.96/27 } on-error={}
 :do { add list=MZ address=105.21.232.128/25 } on-error={}
 :do { add list=MZ address=105.235.216.0/21 } on-error={}
-:do { add list=MZ address=105.255.11.241/32 } on-error={}
-:do { add list=MZ address=105.255.11.242/32 } on-error={}
+:do { add list=MZ address=105.255.11.240/30 } on-error={}
 :do { add list=MZ address=129.222.144.0/23 } on-error={}
 :do { add list=MZ address=140.248.40.164/31 } on-error={}
 :do { add list=MZ address=140.248.56.158/32 } on-error={}
@@ -156,6 +155,7 @@
 :do { add list=MZ address=146.75.168.148/31 } on-error={}
 :do { add list=MZ address=146.75.185.148/31 } on-error={}
 :do { add list=MZ address=146.75.198.20/31 } on-error={}
+:do { add list=MZ address=154.73.56.0/22 } on-error={}
 :do { add list=MZ address=157.167.228.87/32 } on-error={}
 :do { add list=MZ address=157.167.228.88/32 } on-error={}
 :do { add list=MZ address=157.167.228.174/32 } on-error={}

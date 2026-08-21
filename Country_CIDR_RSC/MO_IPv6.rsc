@@ -1,5 +1,6 @@
 /log info "Loading MO IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=MO address=2001:470:d:a94::/64 } on-error={}
 :do { add list=MO address=2001:470:d:12b3::/64 } on-error={}
 :do { add list=MO address=2001:470:19:118::/64 } on-error={}
 :do { add list=MO address=2001:470:19:174::/64 } on-error={}
@@ -56,6 +57,7 @@
 :do { add list=MO address=2001:470:485a:8000::/49 } on-error={}
 :do { add list=MO address=2001:470:48bd::/48 } on-error={}
 :do { add list=MO address=2001:470:48e3::/48 } on-error={}
+:do { add list=MO address=2001:470:48f5::/48 } on-error={}
 :do { add list=MO address=2001:470:4970::/48 } on-error={}
 :do { add list=MO address=2001:470:4984::/48 } on-error={}
 :do { add list=MO address=2001:470:4998::/48 } on-error={}
@@ -120,6 +122,7 @@
 :do { add list=MO address=2001:470:ef3d::/48 } on-error={}
 :do { add list=MO address=2001:470:ef47::/48 } on-error={}
 :do { add list=MO address=2001:470:ef4a::/48 } on-error={}
+:do { add list=MO address=2001:470:ef5b::/48 } on-error={}
 :do { add list=MO address=2001:470:f0f1::/48 } on-error={}
 :do { add list=MO address=2001:470:f0f3::/48 } on-error={}
 :do { add list=MO address=2001:470:f1d2:1::/64 } on-error={}
