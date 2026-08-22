@@ -752,7 +752,14 @@
 :do { add list=CR address=190.113.86.0/23 } on-error={}
 :do { add list=CR address=190.113.96.0/20 } on-error={}
 :do { add list=CR address=190.113.112.0/21 } on-error={}
-:do { add list=CR address=190.113.120.0/23 } on-error={}
+:do { add list=CR address=190.113.120.0/24 } on-error={}
+:do { add list=CR address=190.113.121.0/25 } on-error={}
+:do { add list=CR address=190.113.121.128/26 } on-error={}
+:do { add list=CR address=190.113.121.192/27 } on-error={}
+:do { add list=CR address=190.113.121.224/28 } on-error={}
+:do { add list=CR address=190.113.121.240/29 } on-error={}
+:do { add list=CR address=190.113.121.250/31 } on-error={}
+:do { add list=CR address=190.113.121.252/30 } on-error={}
 :do { add list=CR address=190.113.122.0/25 } on-error={}
 :do { add list=CR address=190.113.122.128/27 } on-error={}
 :do { add list=CR address=190.113.122.192/26 } on-error={}

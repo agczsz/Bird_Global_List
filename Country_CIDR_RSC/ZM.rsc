@@ -15,7 +15,10 @@
 :do { add list=ZM address=41.60.26.99/32 } on-error={}
 :do { add list=ZM address=41.60.26.184/31 } on-error={}
 :do { add list=ZM address=41.60.27.128/26 } on-error={}
-:do { add list=ZM address=41.60.27.208/29 } on-error={}
+:do { add list=ZM address=41.60.27.208/31 } on-error={}
+:do { add list=ZM address=41.60.27.211/32 } on-error={}
+:do { add list=ZM address=41.60.27.213/32 } on-error={}
+:do { add list=ZM address=41.60.27.214/31 } on-error={}
 :do { add list=ZM address=41.60.27.218/31 } on-error={}
 :do { add list=ZM address=41.60.27.220/30 } on-error={}
 :do { add list=ZM address=41.60.28.0/25 } on-error={}
@@ -50,12 +53,7 @@
 :do { add list=ZM address=41.77.145.0/24 } on-error={}
 :do { add list=ZM address=41.77.146.0/23 } on-error={}
 :do { add list=ZM address=41.77.148.0/25 } on-error={}
-:do { add list=ZM address=41.77.148.128/27 } on-error={}
-:do { add list=ZM address=41.77.148.160/31 } on-error={}
-:do { add list=ZM address=41.77.148.162/32 } on-error={}
-:do { add list=ZM address=41.77.148.164/30 } on-error={}
-:do { add list=ZM address=41.77.148.168/29 } on-error={}
-:do { add list=ZM address=41.77.148.176/28 } on-error={}
+:do { add list=ZM address=41.77.148.128/26 } on-error={}
 :do { add list=ZM address=41.77.148.192/30 } on-error={}
 :do { add list=ZM address=41.77.148.196/31 } on-error={}
 :do { add list=ZM address=41.77.148.200/29 } on-error={}
@@ -385,7 +383,7 @@
 :do { add list=ZM address=41.175.173.0/24 } on-error={}
 :do { add list=ZM address=41.175.174.152/30 } on-error={}
 :do { add list=ZM address=41.175.183.0/24 } on-error={}
-:do { add list=ZM address=41.175.184.0/24 } on-error={}
+:do { add list=ZM address=41.175.184.0/23 } on-error={}
 :do { add list=ZM address=41.175.188.128/30 } on-error={}
 :do { add list=ZM address=41.175.189.0/24 } on-error={}
 :do { add list=ZM address=41.175.191.0/24 } on-error={}

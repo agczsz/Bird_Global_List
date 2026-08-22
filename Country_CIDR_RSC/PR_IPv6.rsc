@@ -138,6 +138,7 @@
 :do { add list=PR address=2602:fe09:e00::/40 } on-error={}
 :do { add list=PR address=2602:fe09:f00::/40 } on-error={}
 :do { add list=PR address=2602:fe96:800:100::/56 } on-error={}
+:do { add list=PR address=2602:fe96:802::/48 } on-error={}
 :do { add list=PR address=2602:feda:cf0::/44 } on-error={}
 :do { add list=PR address=2602:ff56::/36 } on-error={}
 :do { add list=PR address=2603:1039:1100::/48 } on-error={}

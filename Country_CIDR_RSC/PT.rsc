@@ -2965,6 +2965,7 @@
 :do { add list=PT address=193.163.151.224/27 } on-error={}
 :do { add list=PT address=193.164.0.0/24 } on-error={}
 :do { add list=PT address=193.176.0.0/24 } on-error={}
+:do { add list=PT address=193.181.246.78/32 } on-error={}
 :do { add list=PT address=193.186.4.93/32 } on-error={}
 :do { add list=PT address=193.186.4.111/32 } on-error={}
 :do { add list=PT address=193.192.4.0/22 } on-error={}

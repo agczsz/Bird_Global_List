@@ -1272,7 +1272,7 @@
 :do { add list=LU address=2a01:caa0:4184:fb00::/56 } on-error={}
 :do { add list=LU address=2a01:caa0:4185:4c00::/56 } on-error={}
 :do { add list=LU address=2a01:caa0:4185:f900::/56 } on-error={}
-:do { add list=LU address=2a01:caa0:4187:2100::/56 } on-error={}
+:do { add list=LU address=2a01:caa0:4187::/48 } on-error={}
 :do { add list=LU address=2a01:caa0:4189::/48 } on-error={}
 :do { add list=LU address=2a01:caa0:418a::/47 } on-error={}
 :do { add list=LU address=2a01:caa0:418c::/46 } on-error={}

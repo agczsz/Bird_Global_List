@@ -4197,7 +4197,11 @@
 :do { add list=RO address=135.136.73.0/24 } on-error={}
 :do { add list=RO address=135.136.78.0/23 } on-error={}
 :do { add list=RO address=135.136.80.0/20 } on-error={}
-:do { add list=RO address=135.136.96.0/19 } on-error={}
+:do { add list=RO address=135.136.96.0/23 } on-error={}
+:do { add list=RO address=135.136.98.0/23 } on-error={}
+:do { add list=RO address=135.136.100.0/22 } on-error={}
+:do { add list=RO address=135.136.104.0/21 } on-error={}
+:do { add list=RO address=135.136.112.0/20 } on-error={}
 :do { add list=RO address=136.0.90.0/24 } on-error={}
 :do { add list=RO address=136.225.72.0/21 } on-error={}
 :do { add list=RO address=136.227.140.18/31 } on-error={}

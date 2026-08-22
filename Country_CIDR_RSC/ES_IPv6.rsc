@@ -16927,7 +16927,8 @@
 :do { add list=ES address=2a12:f8c3:1:4564::/64 } on-error={}
 :do { add list=ES address=2a13:240:6::/48 } on-error={}
 :do { add list=ES address=2a13:240:4700::/40 } on-error={}
-:do { add list=ES address=2a13:240:5c00::/39 } on-error={}
+:do { add list=ES address=2a13:240:5c00::/40 } on-error={}
+:do { add list=ES address=2a13:240:5d00::/40 } on-error={}
 :do { add list=ES address=2a13:3e0:1000:100::/64 } on-error={}
 :do { add list=ES address=2a13:880::/29 } on-error={}
 :do { add list=ES address=2a13:a00::/29 } on-error={}

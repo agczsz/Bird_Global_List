@@ -9850,7 +9850,11 @@
 :do { add list=SE address=2a00:5500:90e1:a000::/51 } on-error={}
 :do { add list=SE address=2a00:5500:90e1:c000::/50 } on-error={}
 :do { add list=SE address=2a00:5500:90e2::/47 } on-error={}
-:do { add list=SE address=2a00:5500:90e4::/51 } on-error={}
+:do { add list=SE address=2a00:5500:90e4::/52 } on-error={}
+:do { add list=SE address=2a00:5500:90e4:1000::/54 } on-error={}
+:do { add list=SE address=2a00:5500:90e4:1400::/55 } on-error={}
+:do { add list=SE address=2a00:5500:90e4:1600::/56 } on-error={}
+:do { add list=SE address=2a00:5500:90e4:1800::/53 } on-error={}
 :do { add list=SE address=2a00:5500:90e4:2000::/52 } on-error={}
 :do { add list=SE address=2a00:5500:90e4:3000::/53 } on-error={}
 :do { add list=SE address=2a00:5500:90e4:3800::/54 } on-error={}

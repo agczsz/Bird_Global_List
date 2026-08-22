@@ -375,7 +375,6 @@
 :do { add list=EG address=2a09:bac6:30c0::/44 } on-error={}
 :do { add list=EG address=2a09:bac6:d578::/45 } on-error={}
 :do { add list=EG address=2a0a:6040:f67::/48 } on-error={}
-:do { add list=EG address=2a0a:6040:4b01:300b::/64 } on-error={}
 :do { add list=EG address=2a0a:6044:7741::/48 } on-error={}
 :do { add list=EG address=2a0a:6044:77fe:40::/64 } on-error={}
 :do { add list=EG address=2a0a:6044:a142:697e::/64 } on-error={}

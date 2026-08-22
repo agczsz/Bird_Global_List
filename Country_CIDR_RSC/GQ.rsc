@@ -91,6 +91,7 @@
 :do { add list=GQ address=197.214.64.122/31 } on-error={}
 :do { add list=GQ address=197.214.64.125/32 } on-error={}
 :do { add list=GQ address=197.214.64.126/31 } on-error={}
+:do { add list=GQ address=197.214.64.129/32 } on-error={}
 :do { add list=GQ address=197.214.64.130/31 } on-error={}
 :do { add list=GQ address=197.214.64.132/30 } on-error={}
 :do { add list=GQ address=197.214.64.136/30 } on-error={}
@@ -104,8 +105,7 @@
 :do { add list=GQ address=197.214.64.200/29 } on-error={}
 :do { add list=GQ address=197.214.64.208/32 } on-error={}
 :do { add list=GQ address=197.214.64.210/31 } on-error={}
-:do { add list=GQ address=197.214.64.212/31 } on-error={}
-:do { add list=GQ address=197.214.64.215/32 } on-error={}
+:do { add list=GQ address=197.214.64.212/30 } on-error={}
 :do { add list=GQ address=197.214.64.216/29 } on-error={}
 :do { add list=GQ address=197.214.64.224/28 } on-error={}
 :do { add list=GQ address=197.214.64.244/30 } on-error={}
