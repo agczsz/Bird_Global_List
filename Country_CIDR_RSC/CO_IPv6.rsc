@@ -3121,7 +3121,6 @@
 :do { add list=CO address=2801:1c8:5c0::/43 } on-error={}
 :do { add list=CO address=2801:1c8:5e0::/44 } on-error={}
 :do { add list=CO address=2801:1c8:5f0::/48 } on-error={}
-:do { add list=CO address=2801:1c8:5f1::/48 } on-error={}
 :do { add list=CO address=2801:1c8:5f2::/47 } on-error={}
 :do { add list=CO address=2801:1c8:5f4::/46 } on-error={}
 :do { add list=CO address=2801:1c8:5f8::/45 } on-error={}

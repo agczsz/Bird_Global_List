@@ -1,7 +1,6 @@
 /log info "Loading AZ IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=AZ address=2001:470:6d:3c1::/64 } on-error={}
-:do { add list=AZ address=2001:470:1f0b:6de::/64 } on-error={}
 :do { add list=AZ address=2001:470:1f0b:f0e::/64 } on-error={}
 :do { add list=AZ address=2001:470:1f13:549::/64 } on-error={}
 :do { add list=AZ address=2001:470:1f15:cc::/64 } on-error={}
@@ -463,6 +462,12 @@
 :do { add list=AZ address=2a0f:2744:1:4000::/50 } on-error={}
 :do { add list=AZ address=2a0f:2744:1:8000::/49 } on-error={}
 :do { add list=AZ address=2a0f:4a40::/29 } on-error={}
+:do { add list=AZ address=2a0f:6280:1002::/47 } on-error={}
+:do { add list=AZ address=2a0f:6280:1004::/46 } on-error={}
+:do { add list=AZ address=2a0f:6280:1008::/45 } on-error={}
+:do { add list=AZ address=2a0f:6280:1020::/43 } on-error={}
+:do { add list=AZ address=2a0f:6280:1040::/42 } on-error={}
+:do { add list=AZ address=2a0f:6280:1080::/41 } on-error={}
 :do { add list=AZ address=2a0f:6280:ca18::/48 } on-error={}
 :do { add list=AZ address=2a0f:6280:cede::/48 } on-error={}
 :do { add list=AZ address=2a0f:7040::/32 } on-error={}

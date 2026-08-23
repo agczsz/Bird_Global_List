@@ -9,6 +9,7 @@
 :do { add list=TT address=38.190.138.0/23 } on-error={}
 :do { add list=TT address=38.190.140.0/22 } on-error={}
 :do { add list=TT address=38.190.144.0/24 } on-error={}
+:do { add list=TT address=41.180.166.0/24 } on-error={}
 :do { add list=TT address=45.185.20.0/22 } on-error={}
 :do { add list=TT address=45.234.164.0/24 } on-error={}
 :do { add list=TT address=45.234.165.0/24 } on-error={}

@@ -22,12 +22,6 @@
 :do { add list=DZ address=45.130.203.212/30 } on-error={}
 :do { add list=DZ address=45.137.76.0/26 } on-error={}
 :do { add list=DZ address=45.137.76.64/27 } on-error={}
-:do { add list=DZ address=45.137.76.96/28 } on-error={}
-:do { add list=DZ address=45.137.76.112/29 } on-error={}
-:do { add list=DZ address=45.137.76.120/30 } on-error={}
-:do { add list=DZ address=45.137.76.125/32 } on-error={}
-:do { add list=DZ address=45.137.76.126/31 } on-error={}
-:do { add list=DZ address=45.137.76.128/25 } on-error={}
 :do { add list=DZ address=57.82.36.0/22 } on-error={}
 :do { add list=DZ address=57.82.44.0/22 } on-error={}
 :do { add list=DZ address=62.115.123.220/32 } on-error={}
@@ -139,6 +133,8 @@
 :do { add list=DZ address=146.75.166.42/31 } on-error={}
 :do { add list=DZ address=146.75.182.12/31 } on-error={}
 :do { add list=DZ address=146.75.210.12/31 } on-error={}
+:do { add list=DZ address=149.14.5.90/32 } on-error={}
+:do { add list=DZ address=149.14.5.122/32 } on-error={}
 :do { add list=DZ address=149.14.125.10/32 } on-error={}
 :do { add list=DZ address=149.126.9.168/29 } on-error={}
 :do { add list=DZ address=154.73.92.0/22 } on-error={}
@@ -196,14 +192,8 @@
 :do { add list=DZ address=172.225.212.96/28 } on-error={}
 :do { add list=DZ address=172.225.242.112/28 } on-error={}
 :do { add list=DZ address=173.239.197.0/28 } on-error={}
-:do { add list=DZ address=176.125.228.0/25 } on-error={}
-:do { add list=DZ address=176.125.228.128/32 } on-error={}
-:do { add list=DZ address=176.125.228.130/31 } on-error={}
-:do { add list=DZ address=176.125.228.132/30 } on-error={}
-:do { add list=DZ address=176.125.228.136/29 } on-error={}
-:do { add list=DZ address=176.125.228.144/28 } on-error={}
-:do { add list=DZ address=176.125.228.160/27 } on-error={}
-:do { add list=DZ address=176.125.228.192/26 } on-error={}
+:do { add list=DZ address=176.125.228.3/32 } on-error={}
+:do { add list=DZ address=176.125.228.15/32 } on-error={}
 :do { add list=DZ address=178.93.112.0/24 } on-error={}
 :do { add list=DZ address=185.112.132.58/32 } on-error={}
 :do { add list=DZ address=186.247.73.1/32 } on-error={}
@@ -240,7 +230,6 @@
 :do { add list=DZ address=197.112.0.0/13 } on-error={}
 :do { add list=DZ address=197.140.0.0/14 } on-error={}
 :do { add list=DZ address=197.200.0.0/13 } on-error={}
-:do { add list=DZ address=209.107.216.128/26 } on-error={}
 :do { add list=DZ address=213.140.56.0/23 } on-error={}
 :do { add list=DZ address=213.140.58.0/24 } on-error={}
 :do { add list=DZ address=213.140.59.0/24 } on-error={}

@@ -1419,6 +1419,7 @@
 :do { add list=PE address=2803:cd60:5024::/46 } on-error={}
 :do { add list=PE address=2803:cd60:5028::/45 } on-error={}
 :do { add list=PE address=2803:cd60:5030::/47 } on-error={}
+:do { add list=PE address=2803:cd60:5032::/50 } on-error={}
 :do { add list=PE address=2803:cd60:5033::/48 } on-error={}
 :do { add list=PE address=2803:cd60:5034::/46 } on-error={}
 :do { add list=PE address=2803:cd60:5038::/45 } on-error={}

@@ -310,6 +310,8 @@
 :do { add list=UZ address=2a0c:9a40:95be:c000::/52 } on-error={}
 :do { add list=UZ address=2a0c:9a46:3eb::/48 } on-error={}
 :do { add list=UZ address=2a0c:9a46:3fe:ea::/64 } on-error={}
+:do { add list=UZ address=2a0d:c0::/47 } on-error={}
+:do { add list=UZ address=2a0d:c0:10::/48 } on-error={}
 :do { add list=UZ address=2a0d:2681:3100::/40 } on-error={}
 :do { add list=UZ address=2a0d:5600:165:4000::/50 } on-error={}
 :do { add list=UZ address=2a0d:5600:165:8000::/49 } on-error={}

@@ -236,9 +236,6 @@
 :do { add list=JO address=130.41.150.0/27 } on-error={}
 :do { add list=JO address=130.41.179.0/26 } on-error={}
 :do { add list=JO address=130.41.236.112/28 } on-error={}
-:do { add list=JO address=131.103.98.0/24 } on-error={}
-:do { add list=JO address=131.103.101.0/24 } on-error={}
-:do { add list=JO address=131.103.103.0/24 } on-error={}
 :do { add list=JO address=134.82.75.8/29 } on-error={}
 :do { add list=JO address=134.231.149.192/26 } on-error={}
 :do { add list=JO address=134.238.57.160/27 } on-error={}

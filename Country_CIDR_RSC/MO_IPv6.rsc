@@ -2725,7 +2725,6 @@
 :do { add list=MO address=2a14:7581:b15:8100::/56 } on-error={}
 :do { add list=MO address=2a14:7581:b16:8100::/56 } on-error={}
 :do { add list=MO address=2a14:7581:b17:8100::/56 } on-error={}
-:do { add list=MO address=2a14:7581:b20::/48 } on-error={}
 :do { add list=MO address=2a14:7581:be1:be00::/56 } on-error={}
 :do { add list=MO address=2a14:7581:fe6:5b6a::/64 } on-error={}
 :do { add list=MO address=2a14:7581:3b8a::/48 } on-error={}

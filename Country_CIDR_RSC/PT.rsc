@@ -917,14 +917,6 @@
 :do { add list=PT address=91.216.117.0/24 } on-error={}
 :do { add list=PT address=91.220.190.0/24 } on-error={}
 :do { add list=PT address=91.227.100.0/24 } on-error={}
-:do { add list=PT address=91.228.216.0/26 } on-error={}
-:do { add list=PT address=91.228.216.64/28 } on-error={}
-:do { add list=PT address=91.228.216.81/32 } on-error={}
-:do { add list=PT address=91.228.216.82/31 } on-error={}
-:do { add list=PT address=91.228.216.84/30 } on-error={}
-:do { add list=PT address=91.228.216.88/29 } on-error={}
-:do { add list=PT address=91.228.216.96/27 } on-error={}
-:do { add list=PT address=91.228.216.128/25 } on-error={}
 :do { add list=PT address=91.231.216.0/24 } on-error={}
 :do { add list=PT address=91.231.217.232/29 } on-error={}
 :do { add list=PT address=91.235.122.244/30 } on-error={}
@@ -967,7 +959,6 @@
 :do { add list=PT address=92.60.248.104/29 } on-error={}
 :do { add list=PT address=92.60.253.96/29 } on-error={}
 :do { add list=PT address=92.61.97.0/24 } on-error={}
-:do { add list=PT address=92.61.105.0/24 } on-error={}
 :do { add list=PT address=92.61.107.0/24 } on-error={}
 :do { add list=PT address=92.69.60.0/26 } on-error={}
 :do { add list=PT address=92.69.62.64/26 } on-error={}
@@ -1080,7 +1071,6 @@
 :do { add list=PT address=102.130.226.34/31 } on-error={}
 :do { add list=PT address=102.205.99.8/30 } on-error={}
 :do { add list=PT address=102.207.144.0/24 } on-error={}
-:do { add list=PT address=102.211.177.108/32 } on-error={}
 :do { add list=PT address=102.212.56.0/24 } on-error={}
 :do { add list=PT address=102.220.216.96/32 } on-error={}
 :do { add list=PT address=103.14.104.0/26 } on-error={}
@@ -1378,11 +1368,6 @@
 :do { add list=PT address=104.44.239.23/32 } on-error={}
 :do { add list=PT address=104.135.196.60/30 } on-error={}
 :do { add list=PT address=104.135.212.60/30 } on-error={}
-:do { add list=PT address=104.135.212.68/30 } on-error={}
-:do { add list=PT address=104.135.212.72/30 } on-error={}
-:do { add list=PT address=104.135.212.88/29 } on-error={}
-:do { add list=PT address=104.135.215.32/30 } on-error={}
-:do { add list=PT address=104.135.215.40/29 } on-error={}
 :do { add list=PT address=104.204.191.140/32 } on-error={}
 :do { add list=PT address=104.204.191.230/32 } on-error={}
 :do { add list=PT address=104.212.67.239/32 } on-error={}
@@ -1550,6 +1535,7 @@
 :do { add list=PT address=130.117.14.104/30 } on-error={}
 :do { add list=PT address=130.117.14.140/30 } on-error={}
 :do { add list=PT address=130.117.168.0/24 } on-error={}
+:do { add list=PT address=130.117.172.0/22 } on-error={}
 :do { add list=PT address=130.117.228.20/30 } on-error={}
 :do { add list=PT address=130.117.254.48/29 } on-error={}
 :do { add list=PT address=130.185.80.0/21 } on-error={}
@@ -1626,7 +1612,6 @@
 :do { add list=PT address=136.225.96.0/19 } on-error={}
 :do { add list=PT address=136.227.141.172/30 } on-error={}
 :do { add list=PT address=136.227.141.176/31 } on-error={}
-:do { add list=PT address=136.234.169.0/24 } on-error={}
 :do { add list=PT address=136.238.225.0/24 } on-error={}
 :do { add list=PT address=137.31.58.0/23 } on-error={}
 :do { add list=PT address=137.83.225.169/32 } on-error={}
@@ -1727,7 +1712,7 @@
 :do { add list=PT address=144.208.237.0/24 } on-error={}
 :do { add list=PT address=145.224.84.0/23 } on-error={}
 :do { add list=PT address=145.224.92.0/23 } on-error={}
-:do { add list=PT address=146.70.59.0/24 } on-error={}
+:do { add list=PT address=146.70.59.5/32 } on-error={}
 :do { add list=PT address=146.75.88.0/22 } on-error={}
 :do { add list=PT address=146.75.168.156/30 } on-error={}
 :do { add list=PT address=146.75.168.160/30 } on-error={}
@@ -1943,9 +1928,6 @@
 :do { add list=PT address=155.190.47.41/32 } on-error={}
 :do { add list=PT address=156.109.248.208/28 } on-error={}
 :do { add list=PT address=156.243.83.0/24 } on-error={}
-:do { add list=PT address=156.246.239.0/24 } on-error={}
-:do { add list=PT address=156.246.240.0/24 } on-error={}
-:do { add list=PT address=157.22.38.0/24 } on-error={}
 :do { add list=PT address=157.23.242.42/31 } on-error={}
 :do { add list=PT address=157.23.242.170/31 } on-error={}
 :do { add list=PT address=157.23.242.194/32 } on-error={}
@@ -2234,7 +2216,6 @@
 :do { add list=PT address=169.155.236.0/23 } on-error={}
 :do { add list=PT address=169.224.171.0/26 } on-error={}
 :do { add list=PT address=169.239.188.154/32 } on-error={}
-:do { add list=PT address=170.168.153.0/24 } on-error={}
 :do { add list=PT address=170.251.225.0/24 } on-error={}
 :do { add list=PT address=170.251.226.0/24 } on-error={}
 :do { add list=PT address=171.22.129.0/24 } on-error={}

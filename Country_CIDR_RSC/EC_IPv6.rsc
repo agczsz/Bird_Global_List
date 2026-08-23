@@ -2191,7 +2191,6 @@
 :do { add list=EC address=2803:4580:8120::/43 } on-error={}
 :do { add list=EC address=2803:4580:8140::/42 } on-error={}
 :do { add list=EC address=2803:4580:8180::/41 } on-error={}
-:do { add list=EC address=2803:4580:8200::/47 } on-error={}
 :do { add list=EC address=2803:4580:821c::/50 } on-error={}
 :do { add list=EC address=2803:4580:821e::/50 } on-error={}
 :do { add list=EC address=2803:4580:8f00::/48 } on-error={}
@@ -2592,6 +2591,7 @@
 :do { add list=EC address=2803:9990::/32 } on-error={}
 :do { add list=EC address=2803:9a10::/32 } on-error={}
 :do { add list=EC address=2803:9ac0::/32 } on-error={}
+:do { add list=EC address=2803:9b30::/32 } on-error={}
 :do { add list=EC address=2803:9c20::/32 } on-error={}
 :do { add list=EC address=2803:9dc0::/32 } on-error={}
 :do { add list=EC address=2803:9e50::/39 } on-error={}
@@ -3159,10 +3159,6 @@
 :do { add list=EC address=2804:74:8100::/40 } on-error={}
 :do { add list=EC address=2804:574:e001::/48 } on-error={}
 :do { add list=EC address=2804:2b78:8002::/48 } on-error={}
-:do { add list=EC address=2804:2b78:8008:4000::/50 } on-error={}
-:do { add list=EC address=2804:2b78:8008:8000::/49 } on-error={}
-:do { add list=EC address=2804:2b78:8009::/48 } on-error={}
-:do { add list=EC address=2804:2b78:800a::/47 } on-error={}
 :do { add list=EC address=2804:2b78:800c::/48 } on-error={}
 :do { add list=EC address=2804:2b78:800e::/48 } on-error={}
 :do { add list=EC address=2804:2b78:800f::/49 } on-error={}

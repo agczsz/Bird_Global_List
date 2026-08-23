@@ -217,6 +217,7 @@
 :do { add list=PK address=2001:df7:5d80::/48 } on-error={}
 :do { add list=PK address=2001:df7:5ec0::/48 } on-error={}
 :do { add list=PK address=2001:df7:60c0::/48 } on-error={}
+:do { add list=PK address=2001:df7:6240::/48 } on-error={}
 :do { add list=PK address=2001:df7:7480::/48 } on-error={}
 :do { add list=PK address=2001:df7:a100::/48 } on-error={}
 :do { add list=PK address=2001:df7:c380::/48 } on-error={}

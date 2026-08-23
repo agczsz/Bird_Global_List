@@ -76,7 +76,6 @@
 :do { add list=SV address=2800:b20:1079::/55 } on-error={}
 :do { add list=SV address=2800:b20:1079:300::/56 } on-error={}
 :do { add list=SV address=2800:b20:1079:1000::/54 } on-error={}
-:do { add list=SV address=2800:b20:1079:3000::/56 } on-error={}
 :do { add list=SV address=2800:b20:1079:3200::/56 } on-error={}
 :do { add list=SV address=2800:b20:1079:8000::/56 } on-error={}
 :do { add list=SV address=2800:b20:1079:8200::/55 } on-error={}
@@ -102,7 +101,14 @@
 :do { add list=SV address=2800:b20:1082:e000::/51 } on-error={}
 :do { add list=SV address=2800:b20:1083::/48 } on-error={}
 :do { add list=SV address=2800:b20:1084::/46 } on-error={}
-:do { add list=SV address=2800:b20:1088::/48 } on-error={}
+:do { add list=SV address=2800:b20:1088::/49 } on-error={}
+:do { add list=SV address=2800:b20:1088:8000::/52 } on-error={}
+:do { add list=SV address=2800:b20:1088:9000::/55 } on-error={}
+:do { add list=SV address=2800:b20:1088:9300::/56 } on-error={}
+:do { add list=SV address=2800:b20:1088:9400::/54 } on-error={}
+:do { add list=SV address=2800:b20:1088:9800::/53 } on-error={}
+:do { add list=SV address=2800:b20:1088:a000::/51 } on-error={}
+:do { add list=SV address=2800:b20:1088:c000::/50 } on-error={}
 :do { add list=SV address=2800:b20:1089::/50 } on-error={}
 :do { add list=SV address=2800:b20:1089:4000::/51 } on-error={}
 :do { add list=SV address=2800:b20:1089:6000::/53 } on-error={}
@@ -165,9 +171,11 @@
 :do { add list=SV address=2801:1e:e000::/48 } on-error={}
 :do { add list=SV address=2803:1000::/32 } on-error={}
 :do { add list=SV address=2803:1c10::/32 } on-error={}
+:do { add list=SV address=2803:2d60:1038:8600::/56 } on-error={}
 :do { add list=SV address=2803:3150::/32 } on-error={}
 :do { add list=SV address=2803:4600:1011:d700::/56 } on-error={}
 :do { add list=SV address=2803:4600:101c:6200::/56 } on-error={}
+:do { add list=SV address=2803:4600:1044:a300::/56 } on-error={}
 :do { add list=SV address=2803:5040::/32 } on-error={}
 :do { add list=SV address=2803:5320:a000::/40 } on-error={}
 :do { add list=SV address=2803:59a0::/32 } on-error={}

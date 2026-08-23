@@ -153,5 +153,5 @@
 :do { add list=SL address=197.215.100.0/24 } on-error={}
 :do { add list=SL address=197.215.105.0/24 } on-error={}
 :do { add list=SL address=197.215.106.0/23 } on-error={}
-:do { add list=SL address=197.215.108.0/24 } on-error={}
+:do { add list=SL address=197.215.108.0/23 } on-error={}
 :do { add list=SL address=217.113.76.96/28 } on-error={}
