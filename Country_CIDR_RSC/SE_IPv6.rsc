@@ -22112,7 +22112,13 @@
 :do { add list=SE address=2a0e:8f02:121c::/46 } on-error={}
 :do { add list=SE address=2a0e:8f02:1220::/43 } on-error={}
 :do { add list=SE address=2a0e:8f02:1240::/42 } on-error={}
-:do { add list=SE address=2a0e:8f02:1280::/41 } on-error={}
+:do { add list=SE address=2a0e:8f02:1280::/42 } on-error={}
+:do { add list=SE address=2a0e:8f02:12c0::/43 } on-error={}
+:do { add list=SE address=2a0e:8f02:12e0::/44 } on-error={}
+:do { add list=SE address=2a0e:8f02:12f0::/47 } on-error={}
+:do { add list=SE address=2a0e:8f02:12f2::/47 } on-error={}
+:do { add list=SE address=2a0e:8f02:12f4::/46 } on-error={}
+:do { add list=SE address=2a0e:8f02:12f8::/45 } on-error={}
 :do { add list=SE address=2a0e:8f02:2013::/48 } on-error={}
 :do { add list=SE address=2a0e:8f02:2170::/44 } on-error={}
 :do { add list=SE address=2a0e:8f02:f07c::/48 } on-error={}

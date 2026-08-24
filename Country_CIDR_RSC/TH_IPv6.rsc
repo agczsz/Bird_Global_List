@@ -54,7 +54,10 @@
 :do { add list=TH address=2001:3c8:1401::/48 } on-error={}
 :do { add list=TH address=2001:3c8:1402::/47 } on-error={}
 :do { add list=TH address=2001:3c8:1404::/46 } on-error={}
-:do { add list=TH address=2001:3c8:1408::/45 } on-error={}
+:do { add list=TH address=2001:3c8:1408::/48 } on-error={}
+:do { add list=TH address=2001:3c8:1409::/48 } on-error={}
+:do { add list=TH address=2001:3c8:140a::/47 } on-error={}
+:do { add list=TH address=2001:3c8:140c::/46 } on-error={}
 :do { add list=TH address=2001:3c8:1410::/44 } on-error={}
 :do { add list=TH address=2001:3c8:1420::/43 } on-error={}
 :do { add list=TH address=2001:3c8:1440::/42 } on-error={}

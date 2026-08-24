@@ -1942,9 +1942,9 @@
 :do { add list=TR address=2a02:e0:965c::/48 } on-error={}
 :do { add list=TR address=2a02:e0:965d::/48 } on-error={}
 :do { add list=TR address=2a02:e0:965e::/47 } on-error={}
-:do { add list=TR address=2a02:e0:9660::/48 } on-error={}
-:do { add list=TR address=2a02:e0:9661::/48 } on-error={}
-:do { add list=TR address=2a02:e0:9662::/47 } on-error={}
+:do { add list=TR address=2a02:e0:9660::/47 } on-error={}
+:do { add list=TR address=2a02:e0:9662::/48 } on-error={}
+:do { add list=TR address=2a02:e0:9663::/48 } on-error={}
 :do { add list=TR address=2a02:e0:9664::/46 } on-error={}
 :do { add list=TR address=2a02:e0:9668::/45 } on-error={}
 :do { add list=TR address=2a02:e0:9670::/44 } on-error={}

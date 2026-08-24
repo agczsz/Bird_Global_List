@@ -2294,7 +2294,8 @@
 :do { add list=BG address=85.217.168.0/23 } on-error={}
 :do { add list=BG address=85.217.170.0/23 } on-error={}
 :do { add list=BG address=85.217.176.0/22 } on-error={}
-:do { add list=BG address=85.217.180.0/23 } on-error={}
+:do { add list=BG address=85.217.180.0/24 } on-error={}
+:do { add list=BG address=85.217.181.0/24 } on-error={}
 :do { add list=BG address=85.217.182.0/23 } on-error={}
 :do { add list=BG address=85.217.186.0/23 } on-error={}
 :do { add list=BG address=85.217.188.0/24 } on-error={}

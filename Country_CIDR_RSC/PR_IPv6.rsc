@@ -808,8 +808,7 @@
 :do { add list=PR address=2606:54c3:0:8e5::/64 } on-error={}
 :do { add list=PR address=2606:54c3:0:e98::/64 } on-error={}
 :do { add list=PR address=2606:54c3:0:1680::/64 } on-error={}
-:do { add list=PR address=2606:5940::/33 } on-error={}
-:do { add list=PR address=2606:5940:8000::/33 } on-error={}
+:do { add list=PR address=2606:5940::/32 } on-error={}
 :do { add list=PR address=2606:5ac0::/32 } on-error={}
 :do { add list=PR address=2606:5f00::/36 } on-error={}
 :do { add list=PR address=2606:5f00:1000::/36 } on-error={}

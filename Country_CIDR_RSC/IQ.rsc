@@ -747,7 +747,8 @@
 :do { add list=IQ address=154.38.20.0/24 } on-error={}
 :do { add list=IQ address=154.43.166.0/24 } on-error={}
 :do { add list=IQ address=154.43.176.0/23 } on-error={}
-:do { add list=IQ address=154.43.178.0/23 } on-error={}
+:do { add list=IQ address=154.43.178.0/24 } on-error={}
+:do { add list=IQ address=154.43.179.0/24 } on-error={}
 :do { add list=IQ address=154.47.4.0/24 } on-error={}
 :do { add list=IQ address=154.48.204.97/32 } on-error={}
 :do { add list=IQ address=154.50.205.64/32 } on-error={}

@@ -22650,7 +22650,15 @@
 :do { add list=CA address=2605:8640::/32 } on-error={}
 :do { add list=CA address=2605:8780::/32 } on-error={}
 :do { add list=CA address=2605:8840::/40 } on-error={}
-:do { add list=CA address=2605:8840:100::/40 } on-error={}
+:do { add list=CA address=2605:8840:100::/48 } on-error={}
+:do { add list=CA address=2605:8840:101::/48 } on-error={}
+:do { add list=CA address=2605:8840:102::/47 } on-error={}
+:do { add list=CA address=2605:8840:104::/46 } on-error={}
+:do { add list=CA address=2605:8840:108::/45 } on-error={}
+:do { add list=CA address=2605:8840:110::/44 } on-error={}
+:do { add list=CA address=2605:8840:120::/43 } on-error={}
+:do { add list=CA address=2605:8840:140::/42 } on-error={}
+:do { add list=CA address=2605:8840:180::/41 } on-error={}
 :do { add list=CA address=2605:8840:200::/39 } on-error={}
 :do { add list=CA address=2605:8840:400::/38 } on-error={}
 :do { add list=CA address=2605:8840:800::/38 } on-error={}

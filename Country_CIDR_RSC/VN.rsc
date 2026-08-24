@@ -3973,7 +3973,8 @@
 :do { add list=VN address=166.0.246.0/24 } on-error={}
 :do { add list=VN address=167.253.39.0/24 } on-error={}
 :do { add list=VN address=167.254.64.0/23 } on-error={}
-:do { add list=VN address=167.254.66.0/23 } on-error={}
+:do { add list=VN address=167.254.66.0/24 } on-error={}
+:do { add list=VN address=167.254.67.0/24 } on-error={}
 :do { add list=VN address=167.254.68.0/22 } on-error={}
 :do { add list=VN address=167.254.72.0/21 } on-error={}
 :do { add list=VN address=168.143.96.0/24 } on-error={}
