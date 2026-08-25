@@ -4009,10 +4009,7 @@
 :do { add list=TW address=2602:f825::/50 } on-error={}
 :do { add list=TW address=2602:f836::/50 } on-error={}
 :do { add list=TW address=2602:f83b:1886::/50 } on-error={}
-:do { add list=TW address=2602:f864:260::/47 } on-error={}
-:do { add list=TW address=2602:f864:262::/48 } on-error={}
-:do { add list=TW address=2602:f864:263::/48 } on-error={}
-:do { add list=TW address=2602:f864:264::/46 } on-error={}
+:do { add list=TW address=2602:f864:260::/45 } on-error={}
 :do { add list=TW address=2602:f864:268:8::/62 } on-error={}
 :do { add list=TW address=2602:f864:268:10::/60 } on-error={}
 :do { add list=TW address=2602:f864:268:100::/56 } on-error={}

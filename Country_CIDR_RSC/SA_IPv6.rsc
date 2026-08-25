@@ -555,7 +555,11 @@
 :do { add list=SA address=2001:16a2:ba8d::/48 } on-error={}
 :do { add list=SA address=2001:16a2:ba8e::/48 } on-error={}
 :do { add list=SA address=2001:16a2:ba8f::/48 } on-error={}
-:do { add list=SA address=2001:16a2:ba90::/44 } on-error={}
+:do { add list=SA address=2001:16a2:ba90::/45 } on-error={}
+:do { add list=SA address=2001:16a2:ba98::/48 } on-error={}
+:do { add list=SA address=2001:16a2:ba99::/48 } on-error={}
+:do { add list=SA address=2001:16a2:ba9a::/47 } on-error={}
+:do { add list=SA address=2001:16a2:ba9c::/46 } on-error={}
 :do { add list=SA address=2001:16a2:baa0::/45 } on-error={}
 :do { add list=SA address=2001:16a2:baa8::/46 } on-error={}
 :do { add list=SA address=2001:16a2:baac::/47 } on-error={}

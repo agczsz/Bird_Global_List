@@ -53619,7 +53619,16 @@
 :do { add list=FR address=2a0f:df45:120::/43 } on-error={}
 :do { add list=FR address=2a0f:df45:140::/42 } on-error={}
 :do { add list=FR address=2a0f:df45:180::/41 } on-error={}
-:do { add list=FR address=2a0f:df45:200::/39 } on-error={}
+:do { add list=FR address=2a0f:df45:200::/42 } on-error={}
+:do { add list=FR address=2a0f:df45:240::/44 } on-error={}
+:do { add list=FR address=2a0f:df45:250::/45 } on-error={}
+:do { add list=FR address=2a0f:df45:258::/47 } on-error={}
+:do { add list=FR address=2a0f:df45:25a::/48 } on-error={}
+:do { add list=FR address=2a0f:df45:25b::/48 } on-error={}
+:do { add list=FR address=2a0f:df45:25c::/46 } on-error={}
+:do { add list=FR address=2a0f:df45:260::/43 } on-error={}
+:do { add list=FR address=2a0f:df45:280::/41 } on-error={}
+:do { add list=FR address=2a0f:df45:300::/40 } on-error={}
 :do { add list=FR address=2a0f:df45:400::/38 } on-error={}
 :do { add list=FR address=2a0f:df45:800::/39 } on-error={}
 :do { add list=FR address=2a0f:df45:a00::/41 } on-error={}

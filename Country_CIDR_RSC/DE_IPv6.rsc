@@ -66756,8 +66756,7 @@
 :do { add list=DE address=2a02:2dc0::/32 } on-error={}
 :do { add list=DE address=2a02:2f00:8700::/128 } on-error={}
 :do { add list=DE address=2a02:2f0f:163::2f/128 } on-error={}
-:do { add list=DE address=2a02:2fc0::/48 } on-error={}
-:do { add list=DE address=2a02:2fc0:1::/48 } on-error={}
+:do { add list=DE address=2a02:2fc0::/47 } on-error={}
 :do { add list=DE address=2a02:2fc0:2::/64 } on-error={}
 :do { add list=DE address=2a02:2fc0:3::/48 } on-error={}
 :do { add list=DE address=2a02:2fc0:4::/46 } on-error={}

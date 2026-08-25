@@ -2322,8 +2322,7 @@
 :do { add list=CN address=2001:daa:4000::/34 } on-error={}
 :do { add list=CN address=2001:daa:8000::/33 } on-error={}
 :do { add list=CN address=2001:dc7::/47 } on-error={}
-:do { add list=CN address=2001:dc7:2::/48 } on-error={}
-:do { add list=CN address=2001:dc7:3::/48 } on-error={}
+:do { add list=CN address=2001:dc7:2::/47 } on-error={}
 :do { add list=CN address=2001:dc7:4::/46 } on-error={}
 :do { add list=CN address=2001:dc7:8:4000::/50 } on-error={}
 :do { add list=CN address=2001:dc7:8:8000::/49 } on-error={}

@@ -5905,7 +5905,8 @@
 :do { add list=AU address=103.114.34.0/24 } on-error={}
 :do { add list=AU address=103.114.55.0/24 } on-error={}
 :do { add list=AU address=103.114.58.0/23 } on-error={}
-:do { add list=AU address=103.114.130.0/23 } on-error={}
+:do { add list=AU address=103.114.130.0/24 } on-error={}
+:do { add list=AU address=103.114.131.0/24 } on-error={}
 :do { add list=AU address=103.114.145.0/24 } on-error={}
 :do { add list=AU address=103.114.172.0/24 } on-error={}
 :do { add list=AU address=103.114.190.0/23 } on-error={}

@@ -28635,8 +28635,7 @@
 :do { add list=FR address=163.5.189.192/29 } on-error={}
 :do { add list=FR address=163.5.189.232/30 } on-error={}
 :do { add list=FR address=163.5.190.0/24 } on-error={}
-:do { add list=FR address=163.5.192.0/24 } on-error={}
-:do { add list=FR address=163.5.193.0/24 } on-error={}
+:do { add list=FR address=163.5.192.0/23 } on-error={}
 :do { add list=FR address=163.5.200.0/24 } on-error={}
 :do { add list=FR address=163.5.210.0/24 } on-error={}
 :do { add list=FR address=163.5.211.0/24 } on-error={}

@@ -15140,7 +15140,11 @@
 :do { add list=RU address=2a06:a004:f320::/43 } on-error={}
 :do { add list=RU address=2a06:a004:f340::/42 } on-error={}
 :do { add list=RU address=2a06:a004:f380::/41 } on-error={}
-:do { add list=RU address=2a06:a004:f400::/40 } on-error={}
+:do { add list=RU address=2a06:a004:f400::/44 } on-error={}
+:do { add list=RU address=2a06:a004:f410::/44 } on-error={}
+:do { add list=RU address=2a06:a004:f420::/43 } on-error={}
+:do { add list=RU address=2a06:a004:f440::/42 } on-error={}
+:do { add list=RU address=2a06:a004:f480::/41 } on-error={}
 :do { add list=RU address=2a06:a004:f500::/44 } on-error={}
 :do { add list=RU address=2a06:a004:f510::/44 } on-error={}
 :do { add list=RU address=2a06:a004:f520::/43 } on-error={}

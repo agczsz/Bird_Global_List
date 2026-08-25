@@ -10201,7 +10201,8 @@
 :do { add list=IN address=2402:ef22::/31 } on-error={}
 :do { add list=IN address=2402:ef24::/32 } on-error={}
 :do { add list=IN address=2402:ef25::/32 } on-error={}
-:do { add list=IN address=2402:ef26::/31 } on-error={}
+:do { add list=IN address=2402:ef26::/32 } on-error={}
+:do { add list=IN address=2402:ef27::/32 } on-error={}
 :do { add list=IN address=2402:ef28::/32 } on-error={}
 :do { add list=IN address=2402:ef29::/32 } on-error={}
 :do { add list=IN address=2402:ef2a::/31 } on-error={}

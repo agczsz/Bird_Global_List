@@ -23657,7 +23657,9 @@
 :do { add list=SG address=212.120.236.2/32 } on-error={}
 :do { add list=SG address=212.120.236.4/30 } on-error={}
 :do { add list=SG address=212.124.93.0/24 } on-error={}
-:do { add list=SG address=212.134.192.0/22 } on-error={}
+:do { add list=SG address=212.134.192.0/23 } on-error={}
+:do { add list=SG address=212.134.194.0/24 } on-error={}
+:do { add list=SG address=212.134.195.0/24 } on-error={}
 :do { add list=SG address=212.134.196.0/24 } on-error={}
 :do { add list=SG address=212.134.235.0/24 } on-error={}
 :do { add list=SG address=212.135.14.0/23 } on-error={}

@@ -8266,9 +8266,7 @@
 :do { add list=CH address=185.150.28.0/22 } on-error={}
 :do { add list=CH address=185.150.52.0/22 } on-error={}
 :do { add list=CH address=185.150.148.0/22 } on-error={}
-:do { add list=CH address=185.151.164.0/23 } on-error={}
-:do { add list=CH address=185.151.166.0/24 } on-error={}
-:do { add list=CH address=185.151.167.0/24 } on-error={}
+:do { add list=CH address=185.151.164.0/22 } on-error={}
 :do { add list=CH address=185.152.16.0/22 } on-error={}
 :do { add list=CH address=185.152.224.0/22 } on-error={}
 :do { add list=CH address=185.153.104.0/22 } on-error={}

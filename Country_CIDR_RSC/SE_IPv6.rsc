@@ -22116,7 +22116,8 @@
 :do { add list=SE address=2a0e:8f02:12c0::/43 } on-error={}
 :do { add list=SE address=2a0e:8f02:12e0::/44 } on-error={}
 :do { add list=SE address=2a0e:8f02:12f0::/47 } on-error={}
-:do { add list=SE address=2a0e:8f02:12f2::/47 } on-error={}
+:do { add list=SE address=2a0e:8f02:12f2::/48 } on-error={}
+:do { add list=SE address=2a0e:8f02:12f3::/48 } on-error={}
 :do { add list=SE address=2a0e:8f02:12f4::/46 } on-error={}
 :do { add list=SE address=2a0e:8f02:12f8::/45 } on-error={}
 :do { add list=SE address=2a0e:8f02:2013::/48 } on-error={}

@@ -50401,7 +50401,11 @@
 :do { add list=GB address=2a06:a000:8000::/33 } on-error={}
 :do { add list=GB address=2a06:a001:a076::/48 } on-error={}
 :do { add list=GB address=2a06:a001:a0b0::/44 } on-error={}
-:do { add list=GB address=2a06:a004:2000::/36 } on-error={}
+:do { add list=GB address=2a06:a004:2000::/40 } on-error={}
+:do { add list=GB address=2a06:a004:2100::/40 } on-error={}
+:do { add list=GB address=2a06:a004:2200::/39 } on-error={}
+:do { add list=GB address=2a06:a004:2400::/38 } on-error={}
+:do { add list=GB address=2a06:a004:2800::/37 } on-error={}
 :do { add list=GB address=2a06:a005:a0::/44 } on-error={}
 :do { add list=GB address=2a06:a005:2d3::/48 } on-error={}
 :do { add list=GB address=2a06:a005:5b8::/57 } on-error={}
