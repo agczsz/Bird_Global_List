@@ -4,7 +4,6 @@
 :do { add list=TK address=2001:470:19b5::/48 } on-error={}
 :do { add list=TK address=2001:470:4042::/48 } on-error={}
 :do { add list=TK address=2001:470:c1a5::/48 } on-error={}
-:do { add list=TK address=2001:470:c839:5300::/56 } on-error={}
 :do { add list=TK address=2001:470:f691::/48 } on-error={}
 :do { add list=TK address=2001:470:fb45::/48 } on-error={}
 :do { add list=TK address=2001:470:fd22::/48 } on-error={}
@@ -23,7 +22,6 @@
 :do { add list=TK address=2402:7200::/32 } on-error={}
 :do { add list=TK address=2405:b500:7000::/64 } on-error={}
 :do { add list=TK address=2405:b500:7020::/64 } on-error={}
-:do { add list=TK address=2405:b500:7040::/64 } on-error={}
 :do { add list=TK address=2405:b500:7060::/64 } on-error={}
 :do { add list=TK address=2406:2d40:4800::/40 } on-error={}
 :do { add list=TK address=2600:70ff:a5a1::/48 } on-error={}
@@ -87,7 +85,6 @@
 :do { add list=TK address=2a05:dfc1:5ae5::/48 } on-error={}
 :do { add list=TK address=2a05:dfc1:8c24::/48 } on-error={}
 :do { add list=TK address=2a06:9f81:39da::/48 } on-error={}
-:do { add list=TK address=2a06:9f81:43ef:dd00::/56 } on-error={}
 :do { add list=TK address=2a06:9f81:56da::/48 } on-error={}
 :do { add list=TK address=2a07:d887:da00::/40 } on-error={}
 :do { add list=TK address=2a09:4c0:0:dd::/64 } on-error={}

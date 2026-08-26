@@ -113,8 +113,6 @@
 :do { add list=TT address=170.200.84.0/24 } on-error={}
 :do { add list=TT address=170.246.160.0/22 } on-error={}
 :do { add list=TT address=172.71.116.0/24 } on-error={}
-:do { add list=TT address=172.83.206.226/32 } on-error={}
-:do { add list=TT address=172.83.206.249/32 } on-error={}
 :do { add list=TT address=172.225.167.192/27 } on-error={}
 :do { add list=TT address=172.225.171.82/31 } on-error={}
 :do { add list=TT address=172.225.193.66/31 } on-error={}
@@ -126,6 +124,7 @@
 :do { add list=TT address=172.226.11.42/31 } on-error={}
 :do { add list=TT address=172.226.11.144/28 } on-error={}
 :do { add list=TT address=179.0.28.0/24 } on-error={}
+:do { add list=TT address=179.60.149.64/27 } on-error={}
 :do { add list=TT address=179.60.149.108/31 } on-error={}
 :do { add list=TT address=179.60.212.0/22 } on-error={}
 :do { add list=TT address=181.118.32.0/19 } on-error={}
@@ -136,6 +135,7 @@
 :do { add list=TT address=186.195.248.0/22 } on-error={}
 :do { add list=TT address=187.14.121.1/32 } on-error={}
 :do { add list=TT address=187.14.121.3/32 } on-error={}
+:do { add list=TT address=187.14.121.30/32 } on-error={}
 :do { add list=TT address=190.6.224.0/20 } on-error={}
 :do { add list=TT address=190.14.19.0/24 } on-error={}
 :do { add list=TT address=190.58.0.0/15 } on-error={}
@@ -154,7 +154,7 @@
 :do { add list=TT address=190.98.157.16/30 } on-error={}
 :do { add list=TT address=190.213.0.0/16 } on-error={}
 :do { add list=TT address=190.217.122.0/24 } on-error={}
-:do { add list=TT address=190.242.167.83/32 } on-error={}
+:do { add list=TT address=190.242.180.45/32 } on-error={}
 :do { add list=TT address=190.242.180.47/32 } on-error={}
 :do { add list=TT address=192.65.161.0/24 } on-error={}
 :do { add list=TT address=192.65.163.0/24 } on-error={}

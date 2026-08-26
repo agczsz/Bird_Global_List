@@ -1,7 +1,6 @@
 /log info "Loading KN IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=KN address=2001:470:5:320::/64 } on-error={}
-:do { add list=KN address=2001:470:1f19:2c9::/64 } on-error={}
 :do { add list=KN address=2001:470:2023::/48 } on-error={}
 :do { add list=KN address=2001:470:297e::/48 } on-error={}
 :do { add list=KN address=2001:470:d90c::/48 } on-error={}
@@ -15,11 +14,9 @@
 :do { add list=KN address=2401:b60:1bf2::/47 } on-error={}
 :do { add list=KN address=2401:b60:1bf4::/46 } on-error={}
 :do { add list=KN address=2401:b60:1bf8::/45 } on-error={}
-:do { add list=KN address=2401:f1e0:ffff:f10b::/64 } on-error={}
 :do { add list=KN address=2405:b500:3e00::/64 } on-error={}
 :do { add list=KN address=2405:b500:3e20::/64 } on-error={}
 :do { add list=KN address=2405:b500:3e40::/64 } on-error={}
-:do { add list=KN address=2405:b500:3e60::/64 } on-error={}
 :do { add list=KN address=2600:70ff:a468::/48 } on-error={}
 :do { add list=KN address=2602:f3fc::/36 } on-error={}
 :do { add list=KN address=2602:fb78::/44 } on-error={}
@@ -27,7 +24,20 @@
 :do { add list=KN address=2602:fb78:20::/43 } on-error={}
 :do { add list=KN address=2602:fb78:40::/42 } on-error={}
 :do { add list=KN address=2602:fb78:80::/41 } on-error={}
-:do { add list=KN address=2604:a180:4000::/36 } on-error={}
+:do { add list=KN address=2604:a180:8000:1::/64 } on-error={}
+:do { add list=KN address=2604:a180:8000:2::/63 } on-error={}
+:do { add list=KN address=2604:a180:8000:4::/62 } on-error={}
+:do { add list=KN address=2604:a180:8000:8::/61 } on-error={}
+:do { add list=KN address=2604:a180:8000:10::/60 } on-error={}
+:do { add list=KN address=2604:a180:8000:20::/59 } on-error={}
+:do { add list=KN address=2604:a180:8000:40::/58 } on-error={}
+:do { add list=KN address=2604:a180:8000:80::/57 } on-error={}
+:do { add list=KN address=2604:a180:8000:100::/56 } on-error={}
+:do { add list=KN address=2604:a180:8000:200::/55 } on-error={}
+:do { add list=KN address=2604:a180:8000:400::/54 } on-error={}
+:do { add list=KN address=2604:a180:8000:800::/53 } on-error={}
+:do { add list=KN address=2604:a180:8000:1000::/52 } on-error={}
+:do { add list=KN address=2604:a180:8000:2000::/51 } on-error={}
 :do { add list=KN address=2604:a180:8000:4000::/50 } on-error={}
 :do { add list=KN address=2604:a180:8000:8000::/49 } on-error={}
 :do { add list=KN address=2604:a180:8001::/48 } on-error={}
@@ -42,7 +52,6 @@
 :do { add list=KN address=2604:a180:8200::/39 } on-error={}
 :do { add list=KN address=2604:a180:8400::/38 } on-error={}
 :do { add list=KN address=2604:a180:8800::/37 } on-error={}
-:do { add list=KN address=2604:a180:9000::/36 } on-error={}
 :do { add list=KN address=2605:59c0:7300::/40 } on-error={}
 :do { add list=KN address=2605:9e40:8200:100::/56 } on-error={}
 :do { add list=KN address=2606:40:203c:8000::/51 } on-error={}
@@ -57,10 +66,8 @@
 :do { add list=KN address=2607:8940:40b1:600::/56 } on-error={}
 :do { add list=KN address=2607:8940:4143:8700::/56 } on-error={}
 :do { add list=KN address=2607:8940:4143:8800::/56 } on-error={}
-:do { add list=KN address=2620:0:876:3100::/56 } on-error={}
 :do { add list=KN address=2620:18:c000::/48 } on-error={}
 :do { add list=KN address=2620:6b:2000::/48 } on-error={}
-:do { add list=KN address=2620:171:b2::/48 } on-error={}
 :do { add list=KN address=2a01:528:6c00::/40 } on-error={}
 :do { add list=KN address=2a02:26f7:e8c0:4000::/64 } on-error={}
 :do { add list=KN address=2a02:26f7:e8c0:cb20::/63 } on-error={}
@@ -149,9 +156,11 @@
 :do { add list=KN address=2a0f:1cc5:b15:bd00::/56 } on-error={}
 :do { add list=KN address=2a0f:1cc5:b16:bd00::/56 } on-error={}
 :do { add list=KN address=2a0f:1cc5:b17:bd00::/56 } on-error={}
+:do { add list=KN address=2a0f:6280:c834::/48 } on-error={}
 :do { add list=KN address=2a0f:85c1:81b:f930::/60 } on-error={}
 :do { add list=KN address=2a0f:9403:310::/44 } on-error={}
 :do { add list=KN address=2a0f:a302:e000::/37 } on-error={}
+:do { add list=KN address=2a10:fa81:1877::/48 } on-error={}
 :do { add list=KN address=2a11:29c0:3d88:46c6::/64 } on-error={}
 :do { add list=KN address=2a11:29c0:3d88:697f::/64 } on-error={}
 :do { add list=KN address=2a11:29c0:3d88:7afb::/64 } on-error={}

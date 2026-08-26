@@ -1,6 +1,7 @@
 /log info "Loading GL IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=GL address=2001:470:d:72b::/64 } on-error={}
+:do { add list=GL address=2001:470:36:7f7::/64 } on-error={}
 :do { add list=GL address=2001:470:1f2b:90::/64 } on-error={}
 :do { add list=GL address=2001:470:4161::/48 } on-error={}
 :do { add list=GL address=2001:470:711e::/48 } on-error={}
@@ -10,22 +11,7 @@
 :do { add list=GL address=2001:470:ee5b:8000::/49 } on-error={}
 :do { add list=GL address=2001:470:ef94::/48 } on-error={}
 :do { add list=GL address=2001:470:f333::/48 } on-error={}
-:do { add list=GL address=2001:470:f42a:1::/64 } on-error={}
-:do { add list=GL address=2001:470:f42a:2::/63 } on-error={}
-:do { add list=GL address=2001:470:f42a:4::/62 } on-error={}
-:do { add list=GL address=2001:470:f42a:8::/61 } on-error={}
-:do { add list=GL address=2001:470:f42a:10::/60 } on-error={}
-:do { add list=GL address=2001:470:f42a:20::/59 } on-error={}
-:do { add list=GL address=2001:470:f42a:40::/58 } on-error={}
-:do { add list=GL address=2001:470:f42a:80::/57 } on-error={}
-:do { add list=GL address=2001:470:f42a:100::/56 } on-error={}
-:do { add list=GL address=2001:470:f42a:200::/55 } on-error={}
-:do { add list=GL address=2001:470:f42a:400::/54 } on-error={}
-:do { add list=GL address=2001:470:f42a:800::/53 } on-error={}
-:do { add list=GL address=2001:470:f42a:1000::/52 } on-error={}
-:do { add list=GL address=2001:470:f42a:2000::/51 } on-error={}
-:do { add list=GL address=2001:470:f42a:4000::/50 } on-error={}
-:do { add list=GL address=2001:470:f42a:8000::/49 } on-error={}
+:do { add list=GL address=2001:470:f42a::/48 } on-error={}
 :do { add list=GL address=2001:470:f4a5::/48 } on-error={}
 :do { add list=GL address=2001:470:f86b::/48 } on-error={}
 :do { add list=GL address=2001:470:fae0::/48 } on-error={}
@@ -39,10 +25,6 @@
 :do { add list=GL address=2401:b60:1554::/46 } on-error={}
 :do { add list=GL address=2401:b60:1558::/45 } on-error={}
 :do { add list=GL address=2401:f1e0:ffff:ebd::/64 } on-error={}
-:do { add list=GL address=2405:b500:2c00::/64 } on-error={}
-:do { add list=GL address=2405:b500:2c00:8::/64 } on-error={}
-:do { add list=GL address=2405:b500:2c00:10::/64 } on-error={}
-:do { add list=GL address=2405:b500:2c00:530::/64 } on-error={}
 :do { add list=GL address=2405:b500:2c20::/64 } on-error={}
 :do { add list=GL address=2405:b500:2c20:8::/64 } on-error={}
 :do { add list=GL address=2405:b500:2c20:10::/64 } on-error={}
@@ -59,7 +41,6 @@
 :do { add list=GL address=2407:d340:7a00::/40 } on-error={}
 :do { add list=GL address=2600:70ff:a6bc::/48 } on-error={}
 :do { add list=GL address=2600:70ff:b373::/48 } on-error={}
-:do { add list=GL address=2600:70ff:b3a2::/48 } on-error={}
 :do { add list=GL address=2600:70ff:b3c2:d::/64 } on-error={}
 :do { add list=GL address=2602:2a9:b90::/44 } on-error={}
 :do { add list=GL address=2606:54c0:3870::/44 } on-error={}
@@ -242,7 +223,10 @@
 :do { add list=GL address=2a0f:2747:2001:8000::/49 } on-error={}
 :do { add list=GL address=2a0f:2747:2002:4000::/50 } on-error={}
 :do { add list=GL address=2a0f:2747:2002:8000::/49 } on-error={}
+:do { add list=GL address=2a0f:6280:c801::/48 } on-error={}
+:do { add list=GL address=2a0f:6280:c802::/48 } on-error={}
 :do { add list=GL address=2a0f:a302:4000::/37 } on-error={}
+:do { add list=GL address=2a10:fa81:1853::/48 } on-error={}
 :do { add list=GL address=2a11:29c0:3d88:23c2::/64 } on-error={}
 :do { add list=GL address=2a11:29c0:3d88:426c::/64 } on-error={}
 :do { add list=GL address=2a11:29c0:3d88:49f1::/64 } on-error={}

@@ -1,7 +1,5 @@
 /log info "Loading TG IPv4 Address List"
 /ip firewall address-list
-:do { add list=TG address=5.62.61.181/32 } on-error={}
-:do { add list=TG address=5.62.61.182/31 } on-error={}
 :do { add list=TG address=5.62.63.160/30 } on-error={}
 :do { add list=TG address=41.78.136.0/22 } on-error={}
 :do { add list=TG address=41.207.160.0/19 } on-error={}
@@ -9,11 +7,7 @@
 :do { add list=TG address=57.85.16.0/20 } on-error={}
 :do { add list=TG address=66.102.36.0/26 } on-error={}
 :do { add list=TG address=80.248.64.0/20 } on-error={}
-:do { add list=TG address=81.192.254.38/32 } on-error={}
 :do { add list=TG address=95.210.138.0/24 } on-error={}
-:do { add list=TG address=102.16.4.10/32 } on-error={}
-:do { add list=TG address=102.16.4.62/32 } on-error={}
-:do { add list=TG address=102.16.4.126/32 } on-error={}
 :do { add list=TG address=102.64.128.0/17 } on-error={}
 :do { add list=TG address=102.164.224.0/20 } on-error={}
 :do { add list=TG address=102.176.252.0/22 } on-error={}
@@ -112,5 +106,4 @@
 :do { add list=TG address=196.198.191.0/24 } on-error={}
 :do { add list=TG address=196.199.191.0/24 } on-error={}
 :do { add list=TG address=197.148.96.0/19 } on-error={}
-:do { add list=TG address=212.32.93.24/29 } on-error={}
 :do { add list=TG address=213.156.254.17/32 } on-error={}

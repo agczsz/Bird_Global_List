@@ -1,7 +1,5 @@
 /log info "Loading YE IPv4 Address List"
 /ip firewall address-list
-:do { add list=YE address=5.62.61.217/32 } on-error={}
-:do { add list=YE address=5.62.61.218/31 } on-error={}
 :do { add list=YE address=5.62.63.204/30 } on-error={}
 :do { add list=YE address=5.100.160.0/21 } on-error={}
 :do { add list=YE address=5.255.0.0/21 } on-error={}
@@ -15,7 +13,6 @@
 :do { add list=YE address=46.35.64.0/19 } on-error={}
 :do { add list=YE address=46.161.224.0/19 } on-error={}
 :do { add list=YE address=57.89.16.0/20 } on-error={}
-:do { add list=YE address=62.115.148.119/32 } on-error={}
 :do { add list=YE address=63.173.172.0/23 } on-error={}
 :do { add list=YE address=65.162.184.0/23 } on-error={}
 :do { add list=YE address=78.137.64.0/19 } on-error={}
@@ -117,9 +114,6 @@
 :do { add list=YE address=185.80.140.0/22 } on-error={}
 :do { add list=YE address=185.112.200.0/22 } on-error={}
 :do { add list=YE address=185.240.64.0/22 } on-error={}
-:do { add list=YE address=186.247.69.0/31 } on-error={}
-:do { add list=YE address=186.247.69.3/32 } on-error={}
-:do { add list=YE address=186.247.69.12/32 } on-error={}
 :do { add list=YE address=188.209.224.0/19 } on-error={}
 :do { add list=YE address=188.240.96.0/19 } on-error={}
 :do { add list=YE address=195.94.0.0/21 } on-error={}

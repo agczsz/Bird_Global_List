@@ -129,10 +129,12 @@
 :do { add list=CG address=2a0f:1cc5:b16:3300::/56 } on-error={}
 :do { add list=CG address=2a0f:1cc5:b17:3300::/56 } on-error={}
 :do { add list=CG address=2a0f:1cc5:1f63::/48 } on-error={}
+:do { add list=CG address=2a0f:6280:c842::/48 } on-error={}
 :do { add list=CG address=2a0f:85c1:81b:f2c0::/60 } on-error={}
 :do { add list=CG address=2a0f:9403:a10::/44 } on-error={}
 :do { add list=CG address=2a0f:a301:d000::/37 } on-error={}
 :do { add list=CG address=2a10:500:1600::/40 } on-error={}
+:do { add list=CG address=2a10:fa81:1829::/48 } on-error={}
 :do { add list=CG address=2a11:29c0:3d88:c9::/64 } on-error={}
 :do { add list=CG address=2a11:29c0:3d88:1fe::/64 } on-error={}
 :do { add list=CG address=2a11:29c0:3d88:28bb::/64 } on-error={}

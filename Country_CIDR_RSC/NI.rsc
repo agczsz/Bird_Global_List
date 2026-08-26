@@ -2,6 +2,7 @@
 /ip firewall address-list
 :do { add list=NI address=5.62.56.148/30 } on-error={}
 :do { add list=NI address=5.62.58.140/30 } on-error={}
+:do { add list=NI address=8.243.238.82/31 } on-error={}
 :do { add list=NI address=8.243.238.184/31 } on-error={}
 :do { add list=NI address=8.243.238.212/31 } on-error={}
 :do { add list=NI address=38.226.160.0/20 } on-error={}
@@ -101,12 +102,6 @@
 :do { add list=NI address=157.167.234.38/32 } on-error={}
 :do { add list=NI address=157.167.234.73/32 } on-error={}
 :do { add list=NI address=161.0.32.0/19 } on-error={}
-:do { add list=NI address=161.69.53.16/32 } on-error={}
-:do { add list=NI address=161.69.53.49/32 } on-error={}
-:do { add list=NI address=161.69.54.16/32 } on-error={}
-:do { add list=NI address=161.69.54.49/32 } on-error={}
-:do { add list=NI address=161.69.60.16/32 } on-error={}
-:do { add list=NI address=161.69.60.49/32 } on-error={}
 :do { add list=NI address=162.120.194.245/32 } on-error={}
 :do { add list=NI address=162.120.202.223/32 } on-error={}
 :do { add list=NI address=163.116.134.162/32 } on-error={}
@@ -228,7 +223,6 @@
 :do { add list=NI address=172.225.239.218/31 } on-error={}
 :do { add list=NI address=172.226.11.40/31 } on-error={}
 :do { add list=NI address=172.226.11.48/28 } on-error={}
-:do { add list=NI address=177.221.143.12/31 } on-error={}
 :do { add list=NI address=181.78.62.0/23 } on-error={}
 :do { add list=NI address=181.78.102.0/23 } on-error={}
 :do { add list=NI address=181.79.176.0/23 } on-error={}
@@ -318,7 +312,6 @@
 :do { add list=NI address=200.106.247.0/24 } on-error={}
 :do { add list=NI address=201.131.66.0/24 } on-error={}
 :do { add list=NI address=201.131.115.0/24 } on-error={}
-:do { add list=NI address=205.211.196.0/24 } on-error={}
 :do { add list=NI address=207.248.86.0/24 } on-error={}
 :do { add list=NI address=208.96.128.0/24 } on-error={}
 :do { add list=NI address=208.96.129.0/24 } on-error={}

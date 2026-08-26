@@ -1,7 +1,5 @@
 /log info "Loading MR IPv4 Address List"
 /ip firewall address-list
-:do { add list=MR address=5.62.61.13/32 } on-error={}
-:do { add list=MR address=5.62.61.14/31 } on-error={}
 :do { add list=MR address=5.62.63.4/30 } on-error={}
 :do { add list=MR address=41.138.128.0/21 } on-error={}
 :do { add list=MR address=41.138.136.0/23 } on-error={}
@@ -12,7 +10,7 @@
 :do { add list=MR address=41.223.96.0/22 } on-error={}
 :do { add list=MR address=57.82.168.0/23 } on-error={}
 :do { add list=MR address=57.83.240.0/20 } on-error={}
-:do { add list=MR address=62.115.207.77/32 } on-error={}
+:do { add list=MR address=62.115.168.189/32 } on-error={}
 :do { add list=MR address=82.151.64.0/19 } on-error={}
 :do { add list=MR address=85.255.21.64/28 } on-error={}
 :do { add list=MR address=102.36.184.0/23 } on-error={}
@@ -70,6 +68,7 @@
 :do { add list=MR address=146.75.166.114/31 } on-error={}
 :do { add list=MR address=146.75.182.46/31 } on-error={}
 :do { add list=MR address=146.75.210.46/31 } on-error={}
+:do { add list=MR address=149.6.144.229/32 } on-error={}
 :do { add list=MR address=153.67.62.0/23 } on-error={}
 :do { add list=MR address=159.26.127.104/30 } on-error={}
 :do { add list=MR address=162.120.204.78/32 } on-error={}
@@ -83,6 +82,7 @@
 :do { add list=MR address=172.225.178.160/28 } on-error={}
 :do { add list=MR address=172.225.212.208/28 } on-error={}
 :do { add list=MR address=172.225.243.16/28 } on-error={}
+:do { add list=MR address=177.221.143.120/32 } on-error={}
 :do { add list=MR address=179.64.102.0/23 } on-error={}
 :do { add list=MR address=185.112.135.22/32 } on-error={}
 :do { add list=MR address=193.251.248.172/32 } on-error={}

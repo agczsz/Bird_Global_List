@@ -25,13 +25,10 @@
 :do { add list=PM address=2405:b500:5c60::/64 } on-error={}
 :do { add list=PM address=2407:d340:7030::/44 } on-error={}
 :do { add list=PM address=2602:f93d:b0::/46 } on-error={}
-:do { add list=PM address=2602:fc30:c7::/48 } on-error={}
 :do { add list=PM address=2604:ca40::/32 } on-error={}
 :do { add list=PM address=2605:59c0:7900::/40 } on-error={}
 :do { add list=PM address=2605:59c9:1000::/42 } on-error={}
 :do { add list=PM address=2606:40:16d0::/44 } on-error={}
-:do { add list=PM address=2606:40:16e0:4000::/50 } on-error={}
-:do { add list=PM address=2606:40:16e0:8000::/49 } on-error={}
 :do { add list=PM address=2606:40:16e1::/48 } on-error={}
 :do { add list=PM address=2606:40:16e2::/47 } on-error={}
 :do { add list=PM address=2606:40:16e4::/46 } on-error={}
@@ -130,8 +127,6 @@
 :do { add list=PM address=2a12:f003:e000::/36 } on-error={}
 :do { add list=PM address=2a12:f381:2a00::/40 } on-error={}
 :do { add list=PM address=2a12:f382:2a00::/40 } on-error={}
-:do { add list=PM address=2a12:f8c3:1:bc8e::/64 } on-error={}
-:do { add list=PM address=2a12:f8c3:1:bdac::/64 } on-error={}
 :do { add list=PM address=2a13:a5c7:25b4::/48 } on-error={}
 :do { add list=PM address=2a13:a5c7:25ff:b300::/56 } on-error={}
 :do { add list=PM address=2a13:ef41:1413::/48 } on-error={}

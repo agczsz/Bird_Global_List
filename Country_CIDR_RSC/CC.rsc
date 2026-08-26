@@ -1,7 +1,5 @@
 /log info "Loading CC IPv4 Address List"
 /ip firewall address-list
-:do { add list=CC address=5.62.60.93/32 } on-error={}
-:do { add list=CC address=5.62.60.94/31 } on-error={}
 :do { add list=CC address=5.62.62.88/30 } on-error={}
 :do { add list=CC address=103.37.63.83/32 } on-error={}
 :do { add list=CC address=104.28.9.12/31 } on-error={}

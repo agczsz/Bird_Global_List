@@ -1,7 +1,5 @@
 /log info "Loading CG IPv4 Address List"
 /ip firewall address-list
-:do { add list=CG address=5.62.61.101/32 } on-error={}
-:do { add list=CG address=5.62.61.102/31 } on-error={}
 :do { add list=CG address=5.62.63.76/30 } on-error={}
 :do { add list=CG address=41.75.64.0/20 } on-error={}
 :do { add list=CG address=41.194.23.32/28 } on-error={}
@@ -12,6 +10,7 @@
 :do { add list=CG address=41.194.71.0/24 } on-error={}
 :do { add list=CG address=57.82.50.0/23 } on-error={}
 :do { add list=CG address=57.82.224.0/20 } on-error={}
+:do { add list=CG address=62.115.168.47/32 } on-error={}
 :do { add list=CG address=63.246.41.0/26 } on-error={}
 :do { add list=CG address=80.255.38.129/32 } on-error={}
 :do { add list=CG address=80.255.38.130/31 } on-error={}
@@ -53,6 +52,7 @@
 :do { add list=CG address=102.129.92.0/23 } on-error={}
 :do { add list=CG address=102.129.94.0/24 } on-error={}
 :do { add list=CG address=102.129.95.0/24 } on-error={}
+:do { add list=CG address=102.130.68.77/32 } on-error={}
 :do { add list=CG address=102.141.0.0/18 } on-error={}
 :do { add list=CG address=102.204.124.0/24 } on-error={}
 :do { add list=CG address=102.209.72.0/22 } on-error={}
@@ -107,6 +107,7 @@
 :do { add list=CG address=172.224.231.208/28 } on-error={}
 :do { add list=CG address=172.225.98.160/27 } on-error={}
 :do { add list=CG address=172.225.242.80/28 } on-error={}
+:do { add list=CG address=185.35.141.153/32 } on-error={}
 :do { add list=CG address=193.28.182.0/24 } on-error={}
 :do { add list=CG address=196.43.240.0/24 } on-error={}
 :do { add list=CG address=196.48.163.0/24 } on-error={}

@@ -1,7 +1,5 @@
 /log info "Loading MV IPv4 Address List"
 /ip firewall address-list
-:do { add list=MV address=5.62.61.1/32 } on-error={}
-:do { add list=MV address=5.62.61.2/31 } on-error={}
 :do { add list=MV address=5.62.62.248/30 } on-error={}
 :do { add list=MV address=27.111.228.167/32 } on-error={}
 :do { add list=MV address=27.114.128.0/18 } on-error={}
@@ -9,7 +7,8 @@
 :do { add list=MV address=43.226.220.0/22 } on-error={}
 :do { add list=MV address=43.231.28.0/22 } on-error={}
 :do { add list=MV address=43.247.140.0/22 } on-error={}
-:do { add list=MV address=45.254.246.192/27 } on-error={}
+:do { add list=MV address=45.254.246.32/27 } on-error={}
+:do { add list=MV address=45.254.246.64/26 } on-error={}
 :do { add list=MV address=57.72.90.0/23 } on-error={}
 :do { add list=MV address=57.92.192.0/20 } on-error={}
 :do { add list=MV address=63.246.47.192/26 } on-error={}

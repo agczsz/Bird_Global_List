@@ -27,6 +27,11 @@
 :do { add list=EH address=2607:8940:208e::/48 } on-error={}
 :do { add list=EH address=2607:8940:208f:1800::/55 } on-error={}
 :do { add list=EH address=2607:8940:208f:1a00::/56 } on-error={}
+:do { add list=EH address=2607:8940:208f:1b00::/57 } on-error={}
+:do { add list=EH address=2607:8940:208f:1b80::/58 } on-error={}
+:do { add list=EH address=2607:8940:208f:1bc0::/60 } on-error={}
+:do { add list=EH address=2607:8940:208f:1bdb::/64 } on-error={}
+:do { add list=EH address=2607:8940:208f:1be0::/59 } on-error={}
 :do { add list=EH address=2607:8940:2092::/47 } on-error={}
 :do { add list=EH address=2607:8940:4171:2e00::/55 } on-error={}
 :do { add list=EH address=2607:8940:4191:2e00::/55 } on-error={}

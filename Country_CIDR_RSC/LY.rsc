@@ -1,7 +1,5 @@
 /log info "Loading LY IPv4 Address List"
 /ip firewall address-list
-:do { add list=LY address=5.62.60.229/32 } on-error={}
-:do { add list=LY address=5.62.60.230/31 } on-error={}
 :do { add list=LY address=5.62.62.220/30 } on-error={}
 :do { add list=LY address=5.63.0.0/21 } on-error={}
 :do { add list=LY address=5.175.190.164/32 } on-error={}
@@ -33,7 +31,6 @@
 :do { add list=LY address=43.175.143.0/24 } on-error={}
 :do { add list=LY address=57.83.192.0/20 } on-error={}
 :do { add list=LY address=62.68.32.0/19 } on-error={}
-:do { add list=LY address=62.75.3.229/32 } on-error={}
 :do { add list=LY address=62.240.32.0/19 } on-error={}
 :do { add list=LY address=64.86.24.0/24 } on-error={}
 :do { add list=LY address=80.231.7.46/31 } on-error={}
@@ -144,8 +141,6 @@
 :do { add list=LY address=104.28.245.131/32 } on-error={}
 :do { add list=LY address=104.28.245.132/30 } on-error={}
 :do { add list=LY address=104.28.245.136/32 } on-error={}
-:do { add list=LY address=104.204.149.72/29 } on-error={}
-:do { add list=LY address=104.204.149.160/28 } on-error={}
 :do { add list=LY address=140.248.34.146/31 } on-error={}
 :do { add list=LY address=140.248.36.186/31 } on-error={}
 :do { add list=LY address=140.248.56.135/32 } on-error={}
@@ -199,9 +194,9 @@
 :do { add list=LY address=187.15.146.2/31 } on-error={}
 :do { add list=LY address=187.15.146.4/30 } on-error={}
 :do { add list=LY address=187.15.146.8/30 } on-error={}
-:do { add list=LY address=187.15.146.20/31 } on-error={}
 :do { add list=LY address=187.15.146.22/32 } on-error={}
-:do { add list=LY address=195.22.197.65/32 } on-error={}
+:do { add list=LY address=187.15.146.40/29 } on-error={}
+:do { add list=LY address=187.15.146.48/28 } on-error={}
 :do { add list=LY address=195.234.120.0/22 } on-error={}
 :do { add list=LY address=196.48.122.0/24 } on-error={}
 :do { add list=LY address=196.56.122.0/24 } on-error={}

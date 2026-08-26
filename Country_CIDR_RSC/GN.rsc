@@ -1,7 +1,5 @@
 /log info "Loading GN IPv4 Address List"
 /ip firewall address-list
-:do { add list=GN address=5.62.60.173/32 } on-error={}
-:do { add list=GN address=5.62.60.174/31 } on-error={}
 :do { add list=GN address=5.62.62.164/30 } on-error={}
 :do { add list=GN address=41.77.184.0/21 } on-error={}
 :do { add list=GN address=41.79.200.0/22 } on-error={}
@@ -9,6 +7,7 @@
 :do { add list=GN address=41.191.220.0/22 } on-error={}
 :do { add list=GN address=41.223.48.0/22 } on-error={}
 :do { add list=GN address=41.242.88.0/22 } on-error={}
+:do { add list=GN address=45.189.204.10/31 } on-error={}
 :do { add list=GN address=45.220.52.0/22 } on-error={}
 :do { add list=GN address=57.82.160.0/23 } on-error={}
 :do { add list=GN address=63.246.45.64/26 } on-error={}
@@ -82,6 +81,7 @@
 :do { add list=GN address=196.198.94.0/24 } on-error={}
 :do { add list=GN address=196.199.94.0/24 } on-error={}
 :do { add list=GN address=196.207.204.219/32 } on-error={}
+:do { add list=GN address=196.207.219.250/32 } on-error={}
 :do { add list=GN address=197.29.123.0/24 } on-error={}
 :do { add list=GN address=197.149.192.0/23 } on-error={}
 :do { add list=GN address=197.149.194.0/24 } on-error={}

@@ -2,6 +2,8 @@
 /ip firewall address-list
 :do { add list=SB address=5.62.56.212/30 } on-error={}
 :do { add list=SB address=5.62.58.192/30 } on-error={}
+:do { add list=SB address=14.137.34.0/24 } on-error={}
+:do { add list=SB address=14.137.36.0/24 } on-error={}
 :do { add list=SB address=57.70.174.0/23 } on-error={}
 :do { add list=SB address=57.71.32.0/20 } on-error={}
 :do { add list=SB address=103.2.88.0/22 } on-error={}
@@ -73,5 +75,5 @@
 :do { add list=SB address=202.1.180.0/22 } on-error={}
 :do { add list=SB address=202.1.184.0/21 } on-error={}
 :do { add list=SB address=202.63.254.0/23 } on-error={}
-:do { add list=SB address=210.176.152.242/31 } on-error={}
-:do { add list=SB address=210.176.152.246/31 } on-error={}
+:do { add list=SB address=210.176.152.242/32 } on-error={}
+:do { add list=SB address=210.176.152.246/32 } on-error={}

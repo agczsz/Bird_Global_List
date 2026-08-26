@@ -1,10 +1,8 @@
 /log info "Loading ML IPv4 Address List"
 /ip firewall address-list
-:do { add list=ML address=5.62.61.5/32 } on-error={}
-:do { add list=ML address=5.62.61.6/31 } on-error={}
 :do { add list=ML address=5.62.62.252/30 } on-error={}
 :do { add list=ML address=41.73.96.0/19 } on-error={}
-:do { add list=ML address=41.82.206.129/32 } on-error={}
+:do { add list=ML address=41.82.206.128/31 } on-error={}
 :do { add list=ML address=41.194.4.0/23 } on-error={}
 :do { add list=ML address=41.194.175.0/26 } on-error={}
 :do { add list=ML address=41.203.192.0/20 } on-error={}
@@ -15,8 +13,6 @@
 :do { add list=ML address=66.102.47.192/26 } on-error={}
 :do { add list=ML address=74.244.86.0/23 } on-error={}
 :do { add list=ML address=80.15.246.0/24 } on-error={}
-:do { add list=ML address=81.192.254.46/32 } on-error={}
-:do { add list=ML address=81.192.254.118/32 } on-error={}
 :do { add list=ML address=85.255.21.112/28 } on-error={}
 :do { add list=ML address=96.62.2.0/24 } on-error={}
 :do { add list=ML address=102.68.176.0/22 } on-error={}
@@ -70,7 +66,6 @@
 :do { add list=ML address=146.75.182.44/31 } on-error={}
 :do { add list=ML address=146.75.210.44/31 } on-error={}
 :do { add list=ML address=153.67.68.0/23 } on-error={}
-:do { add list=ML address=154.68.49.105/32 } on-error={}
 :do { add list=ML address=154.70.192.0/24 } on-error={}
 :do { add list=ML address=154.70.193.0/24 } on-error={}
 :do { add list=ML address=154.70.194.0/23 } on-error={}
@@ -100,8 +95,6 @@
 :do { add list=ML address=165.90.211.128/25 } on-error={}
 :do { add list=ML address=165.90.212.0/22 } on-error={}
 :do { add list=ML address=165.90.216.0/23 } on-error={}
-:do { add list=ML address=165.90.218.0/29 } on-error={}
-:do { add list=ML address=165.90.218.8/30 } on-error={}
 :do { add list=ML address=165.90.218.32/31 } on-error={}
 :do { add list=ML address=165.90.218.128/27 } on-error={}
 :do { add list=ML address=165.90.218.172/30 } on-error={}
@@ -136,7 +129,7 @@
 :do { add list=ML address=196.200.63.128/27 } on-error={}
 :do { add list=ML address=196.200.63.160/28 } on-error={}
 :do { add list=ML address=196.200.63.176/31 } on-error={}
-:do { add list=ML address=196.200.63.180/31 } on-error={}
+:do { add list=ML address=196.200.63.180/30 } on-error={}
 :do { add list=ML address=196.200.63.184/29 } on-error={}
 :do { add list=ML address=196.200.63.192/26 } on-error={}
 :do { add list=ML address=196.200.80.0/20 } on-error={}

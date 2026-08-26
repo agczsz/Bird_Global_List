@@ -1,17 +1,9 @@
 /log info "Loading FO IPv4 Address List"
 /ip firewall address-list
-:do { add list=FO address=5.62.60.133/32 } on-error={}
-:do { add list=FO address=5.62.60.134/31 } on-error={}
 :do { add list=FO address=5.62.62.128/30 } on-error={}
 :do { add list=FO address=9.246.78.0/23 } on-error={}
-:do { add list=FO address=15.197.7.21/32 } on-error={}
-:do { add list=FO address=15.197.7.108/30 } on-error={}
-:do { add list=FO address=15.197.7.120/29 } on-error={}
-:do { add list=FO address=15.197.7.174/31 } on-error={}
-:do { add list=FO address=15.197.7.216/31 } on-error={}
 :do { add list=FO address=37.120.252.0/23 } on-error={}
 :do { add list=FO address=46.227.112.0/21 } on-error={}
-:do { add list=FO address=51.77.185.210/32 } on-error={}
 :do { add list=FO address=80.77.128.0/20 } on-error={}
 :do { add list=FO address=81.18.224.0/20 } on-error={}
 :do { add list=FO address=81.25.176.0/20 } on-error={}
@@ -57,7 +49,6 @@
 :do { add list=FO address=185.88.228.0/22 } on-error={}
 :do { add list=FO address=185.112.132.13/32 } on-error={}
 :do { add list=FO address=185.171.172.0/22 } on-error={}
-:do { add list=FO address=193.4.102.4/30 } on-error={}
 :do { add list=FO address=193.4.247.32/29 } on-error={}
 :do { add list=FO address=193.4.247.64/28 } on-error={}
 :do { add list=FO address=193.34.104.0/27 } on-error={}
@@ -80,7 +71,9 @@
 :do { add list=FO address=195.80.36.0/22 } on-error={}
 :do { add list=FO address=198.137.136.0/22 } on-error={}
 :do { add list=FO address=212.55.32.0/19 } on-error={}
-:do { add list=FO address=217.9.141.1/32 } on-error={}
+:do { add list=FO address=217.9.141.6/32 } on-error={}
 :do { add list=FO address=217.9.141.9/32 } on-error={}
 :do { add list=FO address=217.9.141.13/32 } on-error={}
+:do { add list=FO address=217.9.141.32/27 } on-error={}
+:do { add list=FO address=217.9.141.224/27 } on-error={}
 :do { add list=FO address=217.172.80.0/20 } on-error={}

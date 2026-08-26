@@ -8,7 +8,6 @@
 :do { add list=LS address=2001:43f8:210::/48 } on-error={}
 :do { add list=LS address=2001:43f8:1170::/48 } on-error={}
 :do { add list=LS address=2001:4b28:5700::/40 } on-error={}
-:do { add list=LS address=2401:f1e0:ffff:8cc6::/64 } on-error={}
 :do { add list=LS address=2401:f1e0:ffff:fff1::/64 } on-error={}
 :do { add list=LS address=2405:b500:4400::/64 } on-error={}
 :do { add list=LS address=2405:b500:4420::/64 } on-error={}
@@ -23,7 +22,17 @@
 :do { add list=LS address=2606:54c3:0:307::/64 } on-error={}
 :do { add list=LS address=2607:8940:20fe::/47 } on-error={}
 :do { add list=LS address=2607:8940:2102::/48 } on-error={}
-:do { add list=LS address=2607:8940:2103:4000::/50 } on-error={}
+:do { add list=LS address=2607:8940:2103::/51 } on-error={}
+:do { add list=LS address=2607:8940:2103:2100::/56 } on-error={}
+:do { add list=LS address=2607:8940:2103:2200::/55 } on-error={}
+:do { add list=LS address=2607:8940:2103:2400::/54 } on-error={}
+:do { add list=LS address=2607:8940:2103:2800::/53 } on-error={}
+:do { add list=LS address=2607:8940:2103:3000::/52 } on-error={}
+:do { add list=LS address=2607:8940:2103:70c0::/58 } on-error={}
+:do { add list=LS address=2607:8940:2103:7100::/56 } on-error={}
+:do { add list=LS address=2607:8940:2103:7200::/55 } on-error={}
+:do { add list=LS address=2607:8940:2103:7400::/54 } on-error={}
+:do { add list=LS address=2607:8940:2103:7800::/53 } on-error={}
 :do { add list=LS address=2607:8940:2103:8000::/49 } on-error={}
 :do { add list=LS address=2607:8940:4171:6d00::/56 } on-error={}
 :do { add list=LS address=2607:8940:4171:6e00::/56 } on-error={}
@@ -121,6 +130,7 @@
 :do { add list=LS address=2a0f:a302:c800::/37 } on-error={}
 :do { add list=LS address=2a10:500:2300::/40 } on-error={}
 :do { add list=LS address=2a10:ccc1:10a::/48 } on-error={}
+:do { add list=LS address=2a10:fa81:1883::/48 } on-error={}
 :do { add list=LS address=2a11:29c0:3d88:20e4::/64 } on-error={}
 :do { add list=LS address=2a11:29c0:3d88:566b::/64 } on-error={}
 :do { add list=LS address=2a11:29c0:3d88:7538::/64 } on-error={}

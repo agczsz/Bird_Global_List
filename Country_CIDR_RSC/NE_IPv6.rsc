@@ -1,6 +1,20 @@
 /log info "Loading NE IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=NE address=2001:470:1d07::/48 } on-error={}
+:do { add list=NE address=2001:470:b1ff:1::/64 } on-error={}
+:do { add list=NE address=2001:470:b1ff:2::/63 } on-error={}
+:do { add list=NE address=2001:470:b1ff:4::/62 } on-error={}
+:do { add list=NE address=2001:470:b1ff:8::/61 } on-error={}
+:do { add list=NE address=2001:470:b1ff:10::/60 } on-error={}
+:do { add list=NE address=2001:470:b1ff:20::/59 } on-error={}
+:do { add list=NE address=2001:470:b1ff:40::/58 } on-error={}
+:do { add list=NE address=2001:470:b1ff:80::/57 } on-error={}
+:do { add list=NE address=2001:470:b1ff:100::/56 } on-error={}
+:do { add list=NE address=2001:470:b1ff:200::/55 } on-error={}
+:do { add list=NE address=2001:470:b1ff:400::/54 } on-error={}
+:do { add list=NE address=2001:470:b1ff:800::/53 } on-error={}
+:do { add list=NE address=2001:470:b1ff:1000::/52 } on-error={}
+:do { add list=NE address=2001:470:b1ff:2000::/51 } on-error={}
 :do { add list=NE address=2001:470:b1ff:4000::/50 } on-error={}
 :do { add list=NE address=2001:470:b1ff:8000::/49 } on-error={}
 :do { add list=NE address=2001:470:ee11::/48 } on-error={}
@@ -22,6 +36,9 @@
 :do { add list=NE address=2605:59c0:3500::/40 } on-error={}
 :do { add list=NE address=2606:54c0:4cb8::/45 } on-error={}
 :do { add list=NE address=2606:54c3:0:1101::/64 } on-error={}
+:do { add list=NE address=2607:8940:2166:1000::/52 } on-error={}
+:do { add list=NE address=2607:8940:2166:2000::/51 } on-error={}
+:do { add list=NE address=2607:8940:2166:4000::/51 } on-error={}
 :do { add list=NE address=2607:8940:2167::/48 } on-error={}
 :do { add list=NE address=2607:8940:216a::/47 } on-error={}
 :do { add list=NE address=2607:8940:4171:8800::/55 } on-error={}
@@ -111,9 +128,11 @@
 :do { add list=NE address=2a0f:1cc5:b15:a000::/56 } on-error={}
 :do { add list=NE address=2a0f:1cc5:b16:a000::/56 } on-error={}
 :do { add list=NE address=2a0f:1cc5:b17:a000::/56 } on-error={}
+:do { add list=NE address=2a0f:6280:c84e::/48 } on-error={}
 :do { add list=NE address=2a0f:85c1:81b:f820::/60 } on-error={}
 :do { add list=NE address=2a0f:9403:ba0::/44 } on-error={}
 :do { add list=NE address=2a0f:a302:a000::/37 } on-error={}
+:do { add list=NE address=2a10:fa81:18a1::/48 } on-error={}
 :do { add list=NE address=2a11:29c0:3d88:ee8::/64 } on-error={}
 :do { add list=NE address=2a11:29c0:3d88:3b70::/64 } on-error={}
 :do { add list=NE address=2a11:29c0:3d88:58fb::/64 } on-error={}
