@@ -19159,7 +19159,6 @@
 :do { add list=CH address=2a0e:b107:f4b::/48 } on-error={}
 :do { add list=CH address=2a0e:b107:f4c::/47 } on-error={}
 :do { add list=CH address=2a0e:b107:f4e::/48 } on-error={}
-:do { add list=CH address=2a0e:b107:f50::/44 } on-error={}
 :do { add list=CH address=2a0e:b107:10a0::/43 } on-error={}
 :do { add list=CH address=2a0e:b107:10f0::/44 } on-error={}
 :do { add list=CH address=2a0e:b107:1162::/48 } on-error={}
@@ -19753,12 +19752,6 @@
 :do { add list=CH address=2a10:2f04::/30 } on-error={}
 :do { add list=CH address=2a10:3207::/32 } on-error={}
 :do { add list=CH address=2a10:3500::/32 } on-error={}
-:do { add list=CH address=2a10:4140::/50 } on-error={}
-:do { add list=CH address=2a10:4147:a::/50 } on-error={}
-:do { add list=CH address=2a10:4147:c::/50 } on-error={}
-:do { add list=CH address=2a10:4147:1b::/50 } on-error={}
-:do { add list=CH address=2a10:4147:1e::/50 } on-error={}
-:do { add list=CH address=2a10:4147:25::/50 } on-error={}
 :do { add list=CH address=2a10:45c0::4/128 } on-error={}
 :do { add list=CH address=2a10:45c0:8::/64 } on-error={}
 :do { add list=CH address=2a10:45c0:1e::/64 } on-error={}

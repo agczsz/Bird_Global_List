@@ -407,7 +407,6 @@
 :do { add list=KP address=2606:54c0:4678::/45 } on-error={}
 :do { add list=KP address=2606:54c3:0:15a5::/64 } on-error={}
 :do { add list=KP address=2a01:528:6d00::/40 } on-error={}
-:do { add list=KP address=2a02:180:6:1::472/128 } on-error={}
 :do { add list=KP address=2a02:26f7:b580::/42 } on-error={}
 :do { add list=KP address=2a02:5740:114::/48 } on-error={}
 :do { add list=KP address=2a02:5741:114::/48 } on-error={}

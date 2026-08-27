@@ -6167,6 +6167,7 @@
 :do { add list=DK address=2a06:9f81:4880::/41 } on-error={}
 :do { add list=DK address=2a06:9f81:5639::/48 } on-error={}
 :do { add list=DK address=2a06:9fc0::/29 } on-error={}
+:do { add list=DK address=2a06:a000:1e0::/48 } on-error={}
 :do { add list=DK address=2a06:a001:a077::/48 } on-error={}
 :do { add list=DK address=2a06:a005:28ea::/48 } on-error={}
 :do { add list=DK address=2a06:a240::/29 } on-error={}

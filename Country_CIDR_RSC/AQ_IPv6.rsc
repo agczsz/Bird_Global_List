@@ -1281,7 +1281,6 @@
 :do { add list=AQ address=2607:8940:4200:da00::/55 } on-error={}
 :do { add list=AQ address=2607:f130:0:13f::/64 } on-error={}
 :do { add list=AQ address=2a01:528:8800::/40 } on-error={}
-:do { add list=AQ address=2a02:180:6:1::3fc/128 } on-error={}
 :do { add list=AQ address=2a02:26f7:d9c0::/48 } on-error={}
 :do { add list=AQ address=2a02:26f7:d9c1::/48 } on-error={}
 :do { add list=AQ address=2a02:26f7:d9c2::/48 } on-error={}

@@ -6410,10 +6410,7 @@
 :do { add list=CN address=2401:b340::/32 } on-error={}
 :do { add list=CN address=2401:b360::/32 } on-error={}
 :do { add list=CN address=2401:b400::/45 } on-error={}
-:do { add list=CN address=2401:b400:8:4000::/50 } on-error={}
-:do { add list=CN address=2401:b400:8:8000::/49 } on-error={}
-:do { add list=CN address=2401:b400:9:4000::/50 } on-error={}
-:do { add list=CN address=2401:b400:9:8000::/49 } on-error={}
+:do { add list=CN address=2401:b400:8::/47 } on-error={}
 :do { add list=CN address=2401:b400:a::/47 } on-error={}
 :do { add list=CN address=2401:b400:c::/46 } on-error={}
 :do { add list=CN address=2401:b400:10::/48 } on-error={}

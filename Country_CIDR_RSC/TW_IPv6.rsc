@@ -7430,10 +7430,7 @@
 :do { add list=TW address=2a0f:607:1074::/46 } on-error={}
 :do { add list=TW address=2a0f:607:1078::/45 } on-error={}
 :do { add list=TW address=2a0f:607:1080::/41 } on-error={}
-:do { add list=TW address=2a0f:607:1500::/48 } on-error={}
-:do { add list=TW address=2a0f:607:1503::/48 } on-error={}
-:do { add list=TW address=2a0f:607:1504::/46 } on-error={}
-:do { add list=TW address=2a0f:607:1508::/45 } on-error={}
+:do { add list=TW address=2a0f:607:1500::/44 } on-error={}
 :do { add list=TW address=2a0f:1500::/48 } on-error={}
 :do { add list=TW address=2a0f:1cc5:150::/44 } on-error={}
 :do { add list=TW address=2a0f:1cc5:1ff::/48 } on-error={}

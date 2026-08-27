@@ -7,7 +7,6 @@
 :do { add list=GN address=41.191.220.0/22 } on-error={}
 :do { add list=GN address=41.223.48.0/22 } on-error={}
 :do { add list=GN address=41.242.88.0/22 } on-error={}
-:do { add list=GN address=45.189.204.10/31 } on-error={}
 :do { add list=GN address=45.220.52.0/22 } on-error={}
 :do { add list=GN address=57.82.160.0/23 } on-error={}
 :do { add list=GN address=63.246.45.64/26 } on-error={}

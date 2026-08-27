@@ -112223,7 +112223,6 @@
 :do { add list=AU address=2a07:54c1:8ca2::/47 } on-error={}
 :do { add list=AU address=2a07:54c1:8ca4::/46 } on-error={}
 :do { add list=AU address=2a07:54c1:8ca8::/45 } on-error={}
-:do { add list=AU address=2a07:54c5:1300::/40 } on-error={}
 :do { add list=AU address=2a07:d887:c00::/40 } on-error={}
 :do { add list=AU address=2a09:0:15::/48 } on-error={}
 :do { add list=AU address=2a09:6:9::/48 } on-error={}

@@ -339,7 +339,6 @@
 :do { add list=ZM address=41.218.80.0/21 } on-error={}
 :do { add list=ZM address=41.218.88.184/30 } on-error={}
 :do { add list=ZM address=41.218.104.0/24 } on-error={}
-:do { add list=ZM address=41.220.100.2/32 } on-error={}
 :do { add list=ZM address=41.222.16.0/21 } on-error={}
 :do { add list=ZM address=41.223.116.0/22 } on-error={}
 :do { add list=ZM address=45.212.0.0/15 } on-error={}

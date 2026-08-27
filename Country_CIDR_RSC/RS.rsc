@@ -1461,6 +1461,7 @@
 :do { add list=RS address=188.240.201.0/24 } on-error={}
 :do { add list=RS address=188.246.32.0/19 } on-error={}
 :do { add list=RS address=188.255.128.0/23 } on-error={}
+:do { add list=RS address=188.255.130.0/24 } on-error={}
 :do { add list=RS address=188.255.133.0/24 } on-error={}
 :do { add list=RS address=188.255.134.0/23 } on-error={}
 :do { add list=RS address=188.255.136.0/24 } on-error={}
