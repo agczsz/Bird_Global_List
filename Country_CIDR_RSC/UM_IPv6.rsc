@@ -81,8 +81,10 @@
 :do { add list=UM address=2a0c:9a46:3fe:e7::/64 } on-error={}
 :do { add list=UM address=2a0d:2587:7fed::/48 } on-error={}
 :do { add list=UM address=2a0d:9445:d800::/37 } on-error={}
+:do { add list=UM address=2a0e:4001:9ff:ec::/64 } on-error={}
 :do { add list=UM address=2a0f:5707:ffa5:4000::/50 } on-error={}
 :do { add list=UM address=2a0f:5707:ffa5:8000::/49 } on-error={}
+:do { add list=UM address=2a10:fa81:18e7::/48 } on-error={}
 :do { add list=UM address=2a11:3a84:a000::/35 } on-error={}
 :do { add list=UM address=2a12:dd47:8feb::/48 } on-error={}
 :do { add list=UM address=2a12:f006::/36 } on-error={}

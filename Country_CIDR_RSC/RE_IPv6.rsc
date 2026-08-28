@@ -21,6 +21,7 @@
 :do { add list=RE address=2401:b60:1b92::/47 } on-error={}
 :do { add list=RE address=2401:b60:1b94::/46 } on-error={}
 :do { add list=RE address=2401:b60:1b98::/45 } on-error={}
+:do { add list=RE address=2401:3620:231:bf::/64 } on-error={}
 :do { add list=RE address=2405:b500:6000::/64 } on-error={}
 :do { add list=RE address=2405:b500:6020::/64 } on-error={}
 :do { add list=RE address=2405:b500:6040::/64 } on-error={}
@@ -199,6 +200,7 @@
 :do { add list=RE address=2a0d:3341:b0c0::/42 } on-error={}
 :do { add list=RE address=2a0d:3344:1600::/42 } on-error={}
 :do { add list=RE address=2a0d:9441:8000::/37 } on-error={}
+:do { add list=RE address=2a0e:4001:9ff:b5::/64 } on-error={}
 :do { add list=RE address=2a0f:1cc5:b10:b700::/56 } on-error={}
 :do { add list=RE address=2a0f:1cc5:b11:b700::/56 } on-error={}
 :do { add list=RE address=2a0f:1cc5:b12:b700::/56 } on-error={}
@@ -211,6 +213,7 @@
 :do { add list=RE address=2a0f:6284:45::/48 } on-error={}
 :do { add list=RE address=2a0f:a300:f800::/37 } on-error={}
 :do { add list=RE address=2a10:4646:510::/44 } on-error={}
+:do { add list=RE address=2a10:fa81:18bb::/48 } on-error={}
 :do { add list=RE address=2a11:29c0:3d88:e70::/64 } on-error={}
 :do { add list=RE address=2a11:3a81::/35 } on-error={}
 :do { add list=RE address=2a12:f004:4000::/36 } on-error={}
@@ -279,9 +282,9 @@
 :do { add list=RE address=2c0f:6c00:ff80::/42 } on-error={}
 :do { add list=RE address=2c0f:6c00:ffc0::/43 } on-error={}
 :do { add list=RE address=2c0f:6c00:ffe0::/44 } on-error={}
-:do { add list=RE address=2c0f:6c00:fff0::/47 } on-error={}
-:do { add list=RE address=2c0f:6c00:fff2::/48 } on-error={}
-:do { add list=RE address=2c0f:6c00:fff3::/48 } on-error={}
+:do { add list=RE address=2c0f:6c00:fff0::/48 } on-error={}
+:do { add list=RE address=2c0f:6c00:fff1::/48 } on-error={}
+:do { add list=RE address=2c0f:6c00:fff2::/47 } on-error={}
 :do { add list=RE address=2c0f:6c00:fff4::/46 } on-error={}
 :do { add list=RE address=2c0f:6c00:fff8::/45 } on-error={}
 :do { add list=RE address=2c0f:f608::/34 } on-error={}

@@ -293,7 +293,7 @@
 :do { add list=LI address=185.208.121.151/32 } on-error={}
 :do { add list=LI address=185.208.121.152/32 } on-error={}
 :do { add list=LI address=185.208.121.178/32 } on-error={}
-:do { add list=LI address=185.208.121.192/29 } on-error={}
+:do { add list=LI address=185.208.121.194/32 } on-error={}
 :do { add list=LI address=185.208.252.67/32 } on-error={}
 :do { add list=LI address=185.208.252.178/32 } on-error={}
 :do { add list=LI address=185.208.252.186/32 } on-error={}

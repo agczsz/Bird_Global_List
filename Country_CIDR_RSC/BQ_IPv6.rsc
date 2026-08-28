@@ -10,6 +10,7 @@
 :do { add list=BQ address=2401:b60:11b2::/47 } on-error={}
 :do { add list=BQ address=2401:b60:11b4::/46 } on-error={}
 :do { add list=BQ address=2401:b60:11b8::/45 } on-error={}
+:do { add list=BQ address=2401:3620:231:27::/64 } on-error={}
 :do { add list=BQ address=2405:b500:1080::/64 } on-error={}
 :do { add list=BQ address=2405:b500:10a0::/64 } on-error={}
 :do { add list=BQ address=2405:b500:10c0::/64 } on-error={}
@@ -120,6 +121,7 @@
 :do { add list=BQ address=2a0c:9a46:31e::/48 } on-error={}
 :do { add list=BQ address=2a0c:9a46:3fe:1d::/64 } on-error={}
 :do { add list=BQ address=2a0d:9440:7800::/37 } on-error={}
+:do { add list=BQ address=2a0e:4001:9ff:1b::/64 } on-error={}
 :do { add list=BQ address=2a0f:1cc5:b10:9b00::/56 } on-error={}
 :do { add list=BQ address=2a0f:1cc5:b11:9b00::/56 } on-error={}
 :do { add list=BQ address=2a0f:1cc5:b12:9b00::/56 } on-error={}

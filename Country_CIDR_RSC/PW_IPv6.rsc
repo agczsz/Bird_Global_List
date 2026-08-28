@@ -12,6 +12,7 @@
 :do { add list=PW address=2401:b60:1ad2::/47 } on-error={}
 :do { add list=PW address=2401:b60:1ad4::/46 } on-error={}
 :do { add list=PW address=2401:b60:1ad8::/45 } on-error={}
+:do { add list=PW address=2401:3620:231:bc::/64 } on-error={}
 :do { add list=PW address=2401:f1e0:ffff:b2c7::/64 } on-error={}
 :do { add list=PW address=2401:f1e0:ffff:e3af::/64 } on-error={}
 :do { add list=PW address=2402:4480:2:8::2/128 } on-error={}
@@ -112,6 +113,7 @@
 :do { add list=PW address=2a0c:9a46:3b9::/48 } on-error={}
 :do { add list=PW address=2a0c:9a46:3fe:b8::/64 } on-error={}
 :do { add list=PW address=2a0d:9443:7000::/37 } on-error={}
+:do { add list=PW address=2a0e:4001:9ff:a9::/64 } on-error={}
 :do { add list=PW address=2a0f:1cc5:b10:a900::/56 } on-error={}
 :do { add list=PW address=2a0f:1cc5:b11:a900::/56 } on-error={}
 :do { add list=PW address=2a0f:1cc5:b12:a900::/56 } on-error={}
@@ -125,6 +127,7 @@
 :do { add list=PW address=2a0f:85c1:81b:f870::/60 } on-error={}
 :do { add list=PW address=2a0f:9403:160::/44 } on-error={}
 :do { add list=PW address=2a0f:a303:f000::/37 } on-error={}
+:do { add list=PW address=2a10:fa81:18b8::/48 } on-error={}
 :do { add list=PW address=2a11:29c0:3d88:15c1::/64 } on-error={}
 :do { add list=PW address=2a11:29c0:3d88:2fa1::/64 } on-error={}
 :do { add list=PW address=2a11:29c0:3d88:76e9::/64 } on-error={}

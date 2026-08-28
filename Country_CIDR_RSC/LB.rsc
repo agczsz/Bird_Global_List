@@ -168,13 +168,15 @@
 :do { add list=LB address=85.112.92.0/23 } on-error={}
 :do { add list=LB address=85.112.94.0/24 } on-error={}
 :do { add list=LB address=85.112.95.0/24 } on-error={}
-:do { add list=LB address=85.202.92.0/22 } on-error={}
+:do { add list=LB address=85.202.92.0/24 } on-error={}
+:do { add list=LB address=85.202.93.0/24 } on-error={}
+:do { add list=LB address=85.202.94.0/23 } on-error={}
 :do { add list=LB address=85.208.204.0/24 } on-error={}
 :do { add list=LB address=85.208.205.0/24 } on-error={}
 :do { add list=LB address=85.208.206.0/23 } on-error={}
 :do { add list=LB address=88.218.140.0/22 } on-error={}
 :do { add list=LB address=89.17.96.0/19 } on-error={}
-:do { add list=LB address=89.40.28.0/24 } on-error={}
+:do { add list=LB address=89.40.28.128/25 } on-error={}
 :do { add list=LB address=89.108.128.0/22 } on-error={}
 :do { add list=LB address=89.108.132.0/24 } on-error={}
 :do { add list=LB address=89.108.133.0/24 } on-error={}

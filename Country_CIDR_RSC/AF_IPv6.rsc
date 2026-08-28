@@ -167,6 +167,7 @@
 :do { add list=AF address=2401:b60:1004::/46 } on-error={}
 :do { add list=AF address=2401:b60:1008::/45 } on-error={}
 :do { add list=AF address=2401:1520::/32 } on-error={}
+:do { add list=AF address=2401:3620:231:d::/64 } on-error={}
 :do { add list=AF address=2401:8080::/32 } on-error={}
 :do { add list=AF address=2401:f1e0:ffff:515e::/64 } on-error={}
 :do { add list=AF address=2402:1ca0::/32 } on-error={}
@@ -319,6 +320,7 @@
 :do { add list=AF address=2a0c:9a46:303::/48 } on-error={}
 :do { add list=AF address=2a0c:9a46:3fe:2::/64 } on-error={}
 :do { add list=AF address=2a0d:9445:7000::/37 } on-error={}
+:do { add list=AF address=2a0e:4001:9ff::/64 } on-error={}
 :do { add list=AF address=2a0e:7d46:200::/40 } on-error={}
 :do { add list=AF address=2a0e:b107:2113::/48 } on-error={}
 :do { add list=AF address=2a0e:cbc0:144::/48 } on-error={}
@@ -436,6 +438,7 @@
 :do { add list=AF address=2a12:f382:8200::/40 } on-error={}
 :do { add list=AF address=2a12:f8c3:1:1ec::/64 } on-error={}
 :do { add list=AF address=2a12:f8c3:1:3cf::/64 } on-error={}
+:do { add list=AF address=2a13:240:f600::/40 } on-error={}
 :do { add list=AF address=2a13:82c4:ff00::/48 } on-error={}
 :do { add list=AF address=2a13:a5c3:d400::/46 } on-error={}
 :do { add list=AF address=2a13:a5c7:2503::/48 } on-error={}

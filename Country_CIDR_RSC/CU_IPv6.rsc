@@ -27,6 +27,7 @@
 :do { add list=CU address=2401:b60:1382::/47 } on-error={}
 :do { add list=CU address=2401:b60:1384::/46 } on-error={}
 :do { add list=CU address=2401:b60:1388::/45 } on-error={}
+:do { add list=CU address=2401:3620:231:3c::/64 } on-error={}
 :do { add list=CU address=2401:f1e0:ffff:69eb::/64 } on-error={}
 :do { add list=CU address=2405:b500:1b00::/64 } on-error={}
 :do { add list=CU address=2405:b500:1b00:8::/64 } on-error={}
@@ -55,7 +56,6 @@
 :do { add list=CU address=2606:54c3:0:9e5::/64 } on-error={}
 :do { add list=CU address=2606:54c3:0:164f::/64 } on-error={}
 :do { add list=CU address=2606:54c3:0:1a75::/64 } on-error={}
-:do { add list=CU address=2606:f183:4000::/47 } on-error={}
 :do { add list=CU address=2606:f188:116::/48 } on-error={}
 :do { add list=CU address=2800:230::/32 } on-error={}
 :do { add list=CU address=2800:360::/32 } on-error={}
@@ -139,6 +139,7 @@
 :do { add list=CU address=2a0c:9a46:333::/48 } on-error={}
 :do { add list=CU address=2a0c:9a46:3fe:32::/64 } on-error={}
 :do { add list=CU address=2a0d:9446:4000::/37 } on-error={}
+:do { add list=CU address=2a0e:4001:9ff:38::/64 } on-error={}
 :do { add list=CU address=2a0e:b107:2378::/45 } on-error={}
 :do { add list=CU address=2a0e:cbc0:116::/48 } on-error={}
 :do { add list=CU address=2a0f:1cc5:b10:3800::/56 } on-error={}

@@ -480,6 +480,7 @@
 :do { add list=OM address=2401:b60:1ab2::/47 } on-error={}
 :do { add list=OM address=2401:b60:1ab4::/46 } on-error={}
 :do { add list=OM address=2401:b60:1ab8::/45 } on-error={}
+:do { add list=OM address=2401:3620:231:b0::/64 } on-error={}
 :do { add list=OM address=2401:3cc0::4:419/128 } on-error={}
 :do { add list=OM address=2401:3cc0:10:50::1:252/128 } on-error={}
 :do { add list=OM address=2401:3cc0:10:50::1:254/128 } on-error={}
@@ -939,6 +940,7 @@
 :do { add list=OM address=2a0d:3341:d400::/40 } on-error={}
 :do { add list=OM address=2a0d:3344:4000::/38 } on-error={}
 :do { add list=OM address=2a0d:9447:6800::/37 } on-error={}
+:do { add list=OM address=2a0e:4001:9ff:a7::/64 } on-error={}
 :do { add list=OM address=2a0e:b107:2117::/48 } on-error={}
 :do { add list=OM address=2a0f:1cc5:b10:9300::/56 } on-error={}
 :do { add list=OM address=2a0f:1cc5:b11:9300::/56 } on-error={}

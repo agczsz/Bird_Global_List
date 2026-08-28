@@ -1,5 +1,9 @@
 /log info "Loading DO IPv4 Address List"
 /ip firewall address-list
+:do { add list=DO address=2.152.6.0/23 } on-error={}
+:do { add list=DO address=2.152.32.0/24 } on-error={}
+:do { add list=DO address=2.152.58.0/23 } on-error={}
+:do { add list=DO address=2.152.60.0/22 } on-error={}
 :do { add list=DO address=5.62.56.80/30 } on-error={}
 :do { add list=DO address=5.62.58.76/30 } on-error={}
 :do { add list=DO address=5.175.190.168/32 } on-error={}
@@ -115,7 +119,8 @@
 :do { add list=DO address=38.123.48.0/24 } on-error={}
 :do { add list=DO address=38.123.120.0/22 } on-error={}
 :do { add list=DO address=38.127.83.0/24 } on-error={}
-:do { add list=DO address=38.127.150.0/23 } on-error={}
+:do { add list=DO address=38.127.150.0/24 } on-error={}
+:do { add list=DO address=38.127.151.0/24 } on-error={}
 :do { add list=DO address=38.127.196.0/24 } on-error={}
 :do { add list=DO address=38.129.17.0/24 } on-error={}
 :do { add list=DO address=38.129.40.0/23 } on-error={}
@@ -213,6 +218,7 @@
 :do { add list=DO address=38.236.127.224/29 } on-error={}
 :do { add list=DO address=38.236.127.236/30 } on-error={}
 :do { add list=DO address=38.236.127.240/30 } on-error={}
+:do { add list=DO address=38.246.40.0/24 } on-error={}
 :do { add list=DO address=38.246.74.0/23 } on-error={}
 :do { add list=DO address=38.246.144.0/22 } on-error={}
 :do { add list=DO address=38.246.152.0/21 } on-error={}
@@ -268,9 +274,7 @@
 :do { add list=DO address=45.164.12.0/22 } on-error={}
 :do { add list=DO address=45.164.172.0/22 } on-error={}
 :do { add list=DO address=45.169.192.0/22 } on-error={}
-:do { add list=DO address=45.172.152.0/23 } on-error={}
-:do { add list=DO address=45.172.154.0/24 } on-error={}
-:do { add list=DO address=45.172.155.0/24 } on-error={}
+:do { add list=DO address=45.172.152.0/22 } on-error={}
 :do { add list=DO address=45.175.68.0/22 } on-error={}
 :do { add list=DO address=45.176.84.0/23 } on-error={}
 :do { add list=DO address=45.176.92.0/22 } on-error={}

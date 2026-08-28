@@ -138,6 +138,7 @@
 :do { add list=NG address=2401:b60:1a62::/47 } on-error={}
 :do { add list=NG address=2401:b60:1a64::/46 } on-error={}
 :do { add list=NG address=2401:b60:1a68::/45 } on-error={}
+:do { add list=NG address=2401:3620:231:a8::/64 } on-error={}
 :do { add list=NG address=2401:fa00:400:b800::/55 } on-error={}
 :do { add list=NG address=2404:2280:1dc::/50 } on-error={}
 :do { add list=NG address=2405:b500:5400::/64 } on-error={}
@@ -364,6 +365,7 @@
 :do { add list=NG address=2a00:79e0:2896::/48 } on-error={}
 :do { add list=NG address=2a00:79e0:3801:2e00::/55 } on-error={}
 :do { add list=NG address=2a00:79e0:ffe2:fa00::/56 } on-error={}
+:do { add list=NG address=2a00:79e1:abd:a00::/56 } on-error={}
 :do { add list=NG address=2a00:79e1:2800:9600::/56 } on-error={}
 :do { add list=NG address=2a00:79e1:3800:9700::/56 } on-error={}
 :do { add list=NG address=2a00:dd60:0:1::177/128 } on-error={}
@@ -877,6 +879,7 @@
 :do { add list=NG address=2a0d:d940:6c8::/45 } on-error={}
 :do { add list=NG address=2a0d:d940:6d0::/44 } on-error={}
 :do { add list=NG address=2a0d:d940:6e0::/43 } on-error={}
+:do { add list=NG address=2a0e:4001:9ff:a1::/64 } on-error={}
 :do { add list=NG address=2a0e:cbc0:95::/48 } on-error={}
 :do { add list=NG address=2a0e:cbc0:96::/47 } on-error={}
 :do { add list=NG address=2a0e:cbc0:98::/47 } on-error={}
@@ -1023,6 +1026,7 @@
 :do { add list=NG address=2a11:a580:6000::/40 } on-error={}
 :do { add list=NG address=2a11:a687:5000::/36 } on-error={}
 :do { add list=NG address=2a11:f142:f000::/36 } on-error={}
+:do { add list=NG address=2a12:bec0:396::/48 } on-error={}
 :do { add list=NG address=2a12:cb40:420::/44 } on-error={}
 :do { add list=NG address=2a12:dd47:3a11::/48 } on-error={}
 :do { add list=NG address=2a12:dd80::/32 } on-error={}
@@ -1030,6 +1034,7 @@
 :do { add list=NG address=2a12:f382:7c00::/40 } on-error={}
 :do { add list=NG address=2a12:f8c3:1:a9a8::/64 } on-error={}
 :do { add list=NG address=2a12:f8c3:1:aa11::/64 } on-error={}
+:do { add list=NG address=2a13:240:d900::/40 } on-error={}
 :do { add list=NG address=2a13:82c4:ff6e::/48 } on-error={}
 :do { add list=NG address=2a13:a5c3:6000::/40 } on-error={}
 :do { add list=NG address=2a13:a5c3:d184::/46 } on-error={}

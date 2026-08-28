@@ -3,6 +3,7 @@
 :do { add list=AI address=5.62.56.8/30 } on-error={}
 :do { add list=AI address=5.62.58.8/30 } on-error={}
 :do { add list=AI address=5.175.190.58/31 } on-error={}
+:do { add list=AI address=67.213.153.183/32 } on-error={}
 :do { add list=AI address=67.215.79.54/31 } on-error={}
 :do { add list=AI address=69.57.226.0/24 } on-error={}
 :do { add list=AI address=69.57.234.0/24 } on-error={}
