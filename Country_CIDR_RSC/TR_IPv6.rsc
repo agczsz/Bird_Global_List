@@ -1184,8 +1184,7 @@
 :do { add list=TR address=2a00:1d58:f014::/48 } on-error={}
 :do { add list=TR address=2a00:1d58:f015::/48 } on-error={}
 :do { add list=TR address=2a00:1d58:f016::/47 } on-error={}
-:do { add list=TR address=2a00:1d58:f018::/48 } on-error={}
-:do { add list=TR address=2a00:1d58:f019::/48 } on-error={}
+:do { add list=TR address=2a00:1d58:f018::/47 } on-error={}
 :do { add list=TR address=2a00:1d58:f01a::/48 } on-error={}
 :do { add list=TR address=2a00:1d58:f01b::/48 } on-error={}
 :do { add list=TR address=2a00:1d58:f01c::/46 } on-error={}
@@ -4620,10 +4619,7 @@
 :do { add list=TR address=2a0b:9000::/29 } on-error={}
 :do { add list=TR address=2a0b:9800::/29 } on-error={}
 :do { add list=TR address=2a0b:9bc0::/32 } on-error={}
-:do { add list=TR address=2a0b:a280::/32 } on-error={}
-:do { add list=TR address=2a0b:a281::/32 } on-error={}
-:do { add list=TR address=2a0b:a282::/31 } on-error={}
-:do { add list=TR address=2a0b:a284::/30 } on-error={}
+:do { add list=TR address=2a0b:a280::/29 } on-error={}
 :do { add list=TR address=2a0b:a300::/29 } on-error={}
 :do { add list=TR address=2a0b:b080::/29 } on-error={}
 :do { add list=TR address=2a0b:bf40::/47 } on-error={}

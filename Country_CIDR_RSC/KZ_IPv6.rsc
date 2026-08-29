@@ -1608,7 +1608,9 @@
 :do { add list=KZ address=2a0d:b201:9000::/43 } on-error={}
 :do { add list=KZ address=2a0d:b201:9020::/44 } on-error={}
 :do { add list=KZ address=2a0d:b201:9030::/44 } on-error={}
-:do { add list=KZ address=2a0d:b201:9040::/42 } on-error={}
+:do { add list=KZ address=2a0d:b201:9040::/44 } on-error={}
+:do { add list=KZ address=2a0d:b201:9050::/44 } on-error={}
+:do { add list=KZ address=2a0d:b201:9060::/43 } on-error={}
 :do { add list=KZ address=2a0d:b201:9080::/42 } on-error={}
 :do { add list=KZ address=2a0d:b201:90c0::/44 } on-error={}
 :do { add list=KZ address=2a0d:b201:90d0::/44 } on-error={}

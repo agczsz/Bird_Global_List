@@ -817,7 +817,8 @@
 :do { add list=MX address=2001:1248:9e3f::/48 } on-error={}
 :do { add list=MX address=2001:1248:9e40::/48 } on-error={}
 :do { add list=MX address=2001:1248:9e41::/48 } on-error={}
-:do { add list=MX address=2001:1248:9e42::/47 } on-error={}
+:do { add list=MX address=2001:1248:9e42::/48 } on-error={}
+:do { add list=MX address=2001:1248:9e43::/48 } on-error={}
 :do { add list=MX address=2001:1248:9e44::/46 } on-error={}
 :do { add list=MX address=2001:1248:9e48::/45 } on-error={}
 :do { add list=MX address=2001:1248:9e50::/44 } on-error={}

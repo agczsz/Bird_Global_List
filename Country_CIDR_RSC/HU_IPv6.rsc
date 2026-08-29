@@ -3914,7 +3914,8 @@
 :do { add list=HU address=2a14:dd80:1000::/48 } on-error={}
 :do { add list=HU address=2a14:dd80:1001:4000::/50 } on-error={}
 :do { add list=HU address=2a14:dd80:1001:8000::/49 } on-error={}
-:do { add list=HU address=2a14:dd80:1002::/47 } on-error={}
+:do { add list=HU address=2a14:dd80:1002::/48 } on-error={}
+:do { add list=HU address=2a14:dd80:1003::/48 } on-error={}
 :do { add list=HU address=2a14:dd80:1004:4000::/50 } on-error={}
 :do { add list=HU address=2a14:dd80:1004:8000::/49 } on-error={}
 :do { add list=HU address=2a14:dd80:1005::/48 } on-error={}

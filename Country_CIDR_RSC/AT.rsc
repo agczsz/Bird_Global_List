@@ -1599,7 +1599,10 @@
 :do { add list=AT address=79.133.32.0/23 } on-error={}
 :do { add list=AT address=79.133.43.0/24 } on-error={}
 :do { add list=AT address=79.134.229.0/24 } on-error={}
-:do { add list=AT address=79.142.188.0/22 } on-error={}
+:do { add list=AT address=79.142.188.0/24 } on-error={}
+:do { add list=AT address=79.142.189.0/24 } on-error={}
+:do { add list=AT address=79.142.190.0/24 } on-error={}
+:do { add list=AT address=79.142.191.0/24 } on-error={}
 :do { add list=AT address=79.143.49.0/24 } on-error={}
 :do { add list=AT address=79.143.50.0/23 } on-error={}
 :do { add list=AT address=79.143.52.0/22 } on-error={}

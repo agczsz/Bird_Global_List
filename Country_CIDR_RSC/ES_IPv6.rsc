@@ -14672,7 +14672,9 @@
 :do { add list=ES address=2a0e:97c0:c43::/48 } on-error={}
 :do { add list=ES address=2a0e:97c0:c45::/48 } on-error={}
 :do { add list=ES address=2a0e:97c0:c47::/48 } on-error={}
-:do { add list=ES address=2a0e:97c0:c48::/46 } on-error={}
+:do { add list=ES address=2a0e:97c0:c48::/48 } on-error={}
+:do { add list=ES address=2a0e:97c0:c49::/48 } on-error={}
+:do { add list=ES address=2a0e:97c0:c4a::/47 } on-error={}
 :do { add list=ES address=2a0e:97c0:c4c::/47 } on-error={}
 :do { add list=ES address=2a0e:97c0:c4e::/48 } on-error={}
 :do { add list=ES address=2a0e:97c0:c4f::/48 } on-error={}

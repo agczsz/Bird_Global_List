@@ -43703,7 +43703,15 @@
 :do { add list=AU address=2001:df7:d590::/44 } on-error={}
 :do { add list=AU address=2001:df7:d5a0::/43 } on-error={}
 :do { add list=AU address=2001:df7:d5c0::/42 } on-error={}
-:do { add list=AU address=2001:df7:d600::/40 } on-error={}
+:do { add list=AU address=2001:df7:d600::/48 } on-error={}
+:do { add list=AU address=2001:df7:d601::/48 } on-error={}
+:do { add list=AU address=2001:df7:d602::/47 } on-error={}
+:do { add list=AU address=2001:df7:d604::/46 } on-error={}
+:do { add list=AU address=2001:df7:d608::/45 } on-error={}
+:do { add list=AU address=2001:df7:d610::/44 } on-error={}
+:do { add list=AU address=2001:df7:d620::/43 } on-error={}
+:do { add list=AU address=2001:df7:d640::/42 } on-error={}
+:do { add list=AU address=2001:df7:d680::/41 } on-error={}
 :do { add list=AU address=2001:df7:d701::/48 } on-error={}
 :do { add list=AU address=2001:df7:d702::/47 } on-error={}
 :do { add list=AU address=2001:df7:d704::/46 } on-error={}

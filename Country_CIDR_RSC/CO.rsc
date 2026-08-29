@@ -3714,7 +3714,8 @@
 :do { add list=CO address=186.85.196.0/22 } on-error={}
 :do { add list=CO address=186.85.200.0/21 } on-error={}
 :do { add list=CO address=186.85.208.0/21 } on-error={}
-:do { add list=CO address=186.85.216.0/22 } on-error={}
+:do { add list=CO address=186.85.216.0/23 } on-error={}
+:do { add list=CO address=186.85.218.0/23 } on-error={}
 :do { add list=CO address=186.85.220.0/22 } on-error={}
 :do { add list=CO address=186.85.224.0/20 } on-error={}
 :do { add list=CO address=186.85.240.0/23 } on-error={}
