@@ -1,6 +1,7 @@
 /log info "Loading PA IPv4 Address List"
 /ip firewall address-list
 :do { add list=PA address=2.57.225.36/30 } on-error={}
+:do { add list=PA address=2.152.252.0/22 } on-error={}
 :do { add list=PA address=4.4.211.202/32 } on-error={}
 :do { add list=PA address=4.68.59.96/27 } on-error={}
 :do { add list=PA address=5.53.3.244/31 } on-error={}
@@ -207,6 +208,7 @@
 :do { add list=PA address=63.245.79.133/32 } on-error={}
 :do { add list=PA address=63.245.90.195/32 } on-error={}
 :do { add list=PA address=63.245.106.8/30 } on-error={}
+:do { add list=PA address=63.245.106.12/31 } on-error={}
 :do { add list=PA address=63.245.106.22/32 } on-error={}
 :do { add list=PA address=63.245.106.83/32 } on-error={}
 :do { add list=PA address=63.245.106.192/27 } on-error={}
@@ -627,7 +629,6 @@
 :do { add list=PA address=181.119.220.0/22 } on-error={}
 :do { add list=PA address=181.174.164.0/22 } on-error={}
 :do { add list=PA address=181.178.0.0/15 } on-error={}
-:do { add list=PA address=181.189.158.6/32 } on-error={}
 :do { add list=PA address=181.189.158.29/32 } on-error={}
 :do { add list=PA address=181.189.158.31/32 } on-error={}
 :do { add list=PA address=181.189.158.55/32 } on-error={}
@@ -750,7 +751,6 @@
 :do { add list=PA address=190.102.56.0/21 } on-error={}
 :do { add list=PA address=190.105.152.0/22 } on-error={}
 :do { add list=PA address=190.105.168.0/22 } on-error={}
-:do { add list=PA address=190.106.192.205/32 } on-error={}
 :do { add list=PA address=190.106.192.207/32 } on-error={}
 :do { add list=PA address=190.106.224.0/23 } on-error={}
 :do { add list=PA address=190.106.226.0/23 } on-error={}
@@ -873,8 +873,6 @@
 :do { add list=PA address=200.0.178.0/24 } on-error={}
 :do { add list=PA address=200.0.204.15/32 } on-error={}
 :do { add list=PA address=200.0.204.25/32 } on-error={}
-:do { add list=PA address=200.0.204.27/32 } on-error={}
-:do { add list=PA address=200.0.204.30/32 } on-error={}
 :do { add list=PA address=200.0.204.173/32 } on-error={}
 :do { add list=PA address=200.0.204.174/32 } on-error={}
 :do { add list=PA address=200.0.204.245/32 } on-error={}

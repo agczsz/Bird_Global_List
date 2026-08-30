@@ -4,7 +4,6 @@
 :do { add list=SY address=2001:67c:a38:f963::/64 } on-error={}
 :do { add list=SY address=2001:730:2600::/64 } on-error={}
 :do { add list=SY address=2001:730:2607::/64 } on-error={}
-:do { add list=SY address=2001:730:260b::/64 } on-error={}
 :do { add list=SY address=2001:730:2610::/64 } on-error={}
 :do { add list=SY address=2001:730:2614::/64 } on-error={}
 :do { add list=SY address=2001:730:2630::/64 } on-error={}

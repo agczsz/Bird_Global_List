@@ -199,7 +199,12 @@
 :do { add list=MA address=102.53.32.0/19 } on-error={}
 :do { add list=MA address=102.53.64.0/18 } on-error={}
 :do { add list=MA address=102.53.128.0/17 } on-error={}
-:do { add list=MA address=102.54.0.0/15 } on-error={}
+:do { add list=MA address=102.54.0.0/16 } on-error={}
+:do { add list=MA address=102.55.0.0/17 } on-error={}
+:do { add list=MA address=102.55.128.0/19 } on-error={}
+:do { add list=MA address=102.55.160.0/20 } on-error={}
+:do { add list=MA address=102.55.176.0/20 } on-error={}
+:do { add list=MA address=102.55.192.0/18 } on-error={}
 :do { add list=MA address=102.64.4.0/23 } on-error={}
 :do { add list=MA address=102.67.148.0/22 } on-error={}
 :do { add list=MA address=102.68.8.0/22 } on-error={}

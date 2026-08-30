@@ -274,6 +274,7 @@
 :do { add list=BH address=2a05:d07e:e000::/40 } on-error={}
 :do { add list=BH address=2a05:d07f:e000::/40 } on-error={}
 :do { add list=BH address=2a05:dfc1:5a21::/48 } on-error={}
+:do { add list=BH address=2a06:9801:fc7::/48 } on-error={}
 :do { add list=BH address=2a06:9f81:3917::/48 } on-error={}
 :do { add list=BH address=2a06:9f81:43ef:1600::/56 } on-error={}
 :do { add list=BH address=2a06:9f81:5617::/48 } on-error={}

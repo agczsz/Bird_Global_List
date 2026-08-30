@@ -6,6 +6,7 @@
 :do { add list=BW address=2001:67c:a38:f267::/64 } on-error={}
 :do { add list=BW address=2001:4328::/64 } on-error={}
 :do { add list=BW address=2001:4328:0:d::/64 } on-error={}
+:do { add list=BW address=2001:4328:0:16::2/128 } on-error={}
 :do { add list=BW address=2001:4328:0:21::/64 } on-error={}
 :do { add list=BW address=2001:4328:0:24::/63 } on-error={}
 :do { add list=BW address=2001:4328:0:26::2/128 } on-error={}

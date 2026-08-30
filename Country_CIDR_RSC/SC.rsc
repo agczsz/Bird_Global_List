@@ -383,7 +383,7 @@
 :do { add list=SC address=94.241.134.216/29 } on-error={}
 :do { add list=SC address=94.241.134.224/30 } on-error={}
 :do { add list=SC address=94.241.134.228/32 } on-error={}
-:do { add list=SC address=94.241.134.230/32 } on-error={}
+:do { add list=SC address=94.241.134.230/31 } on-error={}
 :do { add list=SC address=94.241.134.232/30 } on-error={}
 :do { add list=SC address=94.241.134.238/31 } on-error={}
 :do { add list=SC address=94.241.134.241/32 } on-error={}

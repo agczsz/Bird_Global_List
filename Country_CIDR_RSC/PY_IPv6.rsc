@@ -441,6 +441,7 @@
 :do { add list=PY address=2803:f2c0::/32 } on-error={}
 :do { add list=PY address=2803:f440::/32 } on-error={}
 :do { add list=PY address=2803:f6e0::/32 } on-error={}
+:do { add list=PY address=2803:fb30::/32 } on-error={}
 :do { add list=PY address=2803:fc00::/32 } on-error={}
 :do { add list=PY address=2a01:528:2500::/40 } on-error={}
 :do { add list=PY address=2a02:26f7:d8c0:4000::/64 } on-error={}

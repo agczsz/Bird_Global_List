@@ -82,8 +82,7 @@
 :do { add list=TC address=208.169.78.73/32 } on-error={}
 :do { add list=TC address=208.169.78.74/32 } on-error={}
 :do { add list=TC address=208.169.78.76/31 } on-error={}
-:do { add list=TC address=208.169.78.80/32 } on-error={}
-:do { add list=TC address=208.169.78.82/31 } on-error={}
+:do { add list=TC address=208.169.78.80/30 } on-error={}
 :do { add list=TC address=208.169.78.87/32 } on-error={}
 :do { add list=TC address=208.169.78.88/29 } on-error={}
 :do { add list=TC address=208.169.78.96/27 } on-error={}

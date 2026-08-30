@@ -1570,6 +1570,7 @@
 :do { add list=PK address=2402:5b60::/32 } on-error={}
 :do { add list=PK address=2402:67a0::/32 } on-error={}
 :do { add list=PK address=2402:6a60::/32 } on-error={}
+:do { add list=PK address=2402:7220::/32 } on-error={}
 :do { add list=PK address=2402:7c00::/32 } on-error={}
 :do { add list=PK address=2402:9640::/32 } on-error={}
 :do { add list=PK address=2402:9ec0::/32 } on-error={}

@@ -14,7 +14,6 @@
 :do { add list=ET address=41.79.199.132/30 } on-error={}
 :do { add list=ET address=41.79.199.136/31 } on-error={}
 :do { add list=ET address=41.79.199.139/32 } on-error={}
-:do { add list=ET address=41.79.199.146/32 } on-error={}
 :do { add list=ET address=41.79.199.153/32 } on-error={}
 :do { add list=ET address=41.79.199.164/31 } on-error={}
 :do { add list=ET address=41.79.199.167/32 } on-error={}

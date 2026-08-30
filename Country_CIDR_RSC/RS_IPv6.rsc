@@ -1,6 +1,7 @@
 /log info "Loading RS IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=RS address=2001:470:0:33f::1/128 } on-error={}
+:do { add list=RS address=2001:470:0:3f9::2/128 } on-error={}
 :do { add list=RS address=2001:470:0:59d::/64 } on-error={}
 :do { add list=RS address=2001:470:0:70d::/64 } on-error={}
 :do { add list=RS address=2001:470:1:46::/64 } on-error={}
@@ -97,6 +98,7 @@
 :do { add list=RS address=2001:67c:2b2c::/48 } on-error={}
 :do { add list=RS address=2001:728:0:5000::1687/128 } on-error={}
 :do { add list=RS address=2001:798:1::1b6/128 } on-error={}
+:do { add list=RS address=2001:798:99:1::11e/128 } on-error={}
 :do { add list=RS address=2001:7f8:1e::/120 } on-error={}
 :do { add list=RS address=2001:7f8:1e::100/123 } on-error={}
 :do { add list=RS address=2001:7f8:1e::120/124 } on-error={}
@@ -237,7 +239,6 @@
 :do { add list=RS address=2001:ac8:10:10::a223/128 } on-error={}
 :do { add list=RS address=2001:ac8:10:10:146:70:1:219/128 } on-error={}
 :do { add list=RS address=2001:ac8:10:10:212:103:51:226/128 } on-error={}
-:do { add list=RS address=2001:ac8:10:10:217:138:223:37/128 } on-error={}
 :do { add list=RS address=2001:ac8:7d::/48 } on-error={}
 :do { add list=RS address=2001:ac8:7e::/47 } on-error={}
 :do { add list=RS address=2001:b28:3ff::32cb:0:1/128 } on-error={}
@@ -611,7 +612,9 @@
 :do { add list=RS address=2a02:e40::/32 } on-error={}
 :do { add list=RS address=2a02:f88::/32 } on-error={}
 :do { add list=RS address=2a02:2230:6400::/50 } on-error={}
+:do { add list=RS address=2a02:2608:ffff:1::1/128 } on-error={}
 :do { add list=RS address=2a02:2608:ffff:4::21/128 } on-error={}
+:do { add list=RS address=2a02:2608:ffff:ffff::2a/128 } on-error={}
 :do { add list=RS address=2a02:2608:ffff:ffff::2c/128 } on-error={}
 :do { add list=RS address=2a02:2608:ffff:ffff::bd/128 } on-error={}
 :do { add list=RS address=2a02:2608:ffff:ffff:185:151:132:150/128 } on-error={}
@@ -1931,10 +1934,6 @@
 :do { add list=RS address=2a0e:bfc7:300::/40 } on-error={}
 :do { add list=RS address=2a0e:cbc0:127::/48 } on-error={}
 :do { add list=RS address=2a0e:da80::/29 } on-error={}
-:do { add list=RS address=2a0e:f600:39::/48 } on-error={}
-:do { add list=RS address=2a0e:f600:3a::/47 } on-error={}
-:do { add list=RS address=2a0e:f600:3c::/46 } on-error={}
-:do { add list=RS address=2a0e:f600:40::/46 } on-error={}
 :do { add list=RS address=2a0e:fd80::/48 } on-error={}
 :do { add list=RS address=2a0e:fd80:1:4000::/50 } on-error={}
 :do { add list=RS address=2a0e:fd80:1:8000::/49 } on-error={}

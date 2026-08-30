@@ -6,7 +6,6 @@
 :do { add list=CU address=57.74.110.0/23 } on-error={}
 :do { add list=CU address=57.91.32.0/20 } on-error={}
 :do { add list=CU address=62.115.128.209/32 } on-error={}
-:do { add list=CU address=63.245.90.205/32 } on-error={}
 :do { add list=CU address=69.79.100.98/32 } on-error={}
 :do { add list=CU address=80.239.160.219/32 } on-error={}
 :do { add list=CU address=83.219.96.128/25 } on-error={}

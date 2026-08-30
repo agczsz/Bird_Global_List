@@ -291,7 +291,6 @@
 :do { add list=LB address=109.110.112.0/20 } on-error={}
 :do { add list=LB address=109.110.185.0/24 } on-error={}
 :do { add list=LB address=109.233.16.0/21 } on-error={}
-:do { add list=LB address=122.122.122.1/32 } on-error={}
 :do { add list=LB address=130.41.83.249/32 } on-error={}
 :do { add list=LB address=134.82.75.144/29 } on-error={}
 :do { add list=LB address=140.150.39.0/24 } on-error={}

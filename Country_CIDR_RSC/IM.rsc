@@ -16,7 +16,10 @@
 :do { add list=IM address=5.62.85.28/32 } on-error={}
 :do { add list=IM address=5.62.85.44/31 } on-error={}
 :do { add list=IM address=5.62.85.46/32 } on-error={}
-:do { add list=IM address=5.62.85.48/28 } on-error={}
+:do { add list=IM address=5.62.85.49/32 } on-error={}
+:do { add list=IM address=5.62.85.51/32 } on-error={}
+:do { add list=IM address=5.62.85.52/30 } on-error={}
+:do { add list=IM address=5.62.85.56/29 } on-error={}
 :do { add list=IM address=5.62.85.64/28 } on-error={}
 :do { add list=IM address=5.62.85.95/32 } on-error={}
 :do { add list=IM address=5.62.85.99/32 } on-error={}

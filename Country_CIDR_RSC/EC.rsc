@@ -1,6 +1,7 @@
 /log info "Loading EC IPv4 Address List"
 /ip firewall address-list
 :do { add list=EC address=2.57.225.28/31 } on-error={}
+:do { add list=EC address=2.152.36.0/22 } on-error={}
 :do { add list=EC address=4.68.38.248/30 } on-error={}
 :do { add list=EC address=4.68.62.232/30 } on-error={}
 :do { add list=EC address=4.69.248.186/32 } on-error={}
@@ -310,9 +311,9 @@
 :do { add list=EC address=94.142.117.48/30 } on-error={}
 :do { add list=EC address=94.142.126.28/30 } on-error={}
 :do { add list=EC address=98.159.34.64/28 } on-error={}
-:do { add list=EC address=99.82.14.14/31 } on-error={}
+:do { add list=EC address=99.82.14.15/32 } on-error={}
 :do { add list=EC address=99.82.14.17/32 } on-error={}
-:do { add list=EC address=99.83.118.8/31 } on-error={}
+:do { add list=EC address=99.83.118.9/32 } on-error={}
 :do { add list=EC address=102.177.160.0/20 } on-error={}
 :do { add list=EC address=103.23.62.0/23 } on-error={}
 :do { add list=EC address=104.28.9.155/32 } on-error={}
@@ -391,7 +392,7 @@
 :do { add list=EC address=128.201.160.0/22 } on-error={}
 :do { add list=EC address=128.241.8.151/32 } on-error={}
 :do { add list=EC address=129.134.81.43/32 } on-error={}
-:do { add list=EC address=129.134.117.195/32 } on-error={}
+:do { add list=EC address=129.134.117.194/31 } on-error={}
 :do { add list=EC address=129.222.178.0/23 } on-error={}
 :do { add list=EC address=130.41.12.64/26 } on-error={}
 :do { add list=EC address=130.41.13.192/27 } on-error={}
@@ -1573,6 +1574,8 @@
 :do { add list=EC address=200.0.75.0/24 } on-error={}
 :do { add list=EC address=200.0.76.0/23 } on-error={}
 :do { add list=EC address=200.0.78.0/24 } on-error={}
+:do { add list=EC address=200.0.204.27/32 } on-error={}
+:do { add list=EC address=200.0.204.181/32 } on-error={}
 :do { add list=EC address=200.0.204.232/31 } on-error={}
 :do { add list=EC address=200.0.204.234/32 } on-error={}
 :do { add list=EC address=200.1.6.0/24 } on-error={}

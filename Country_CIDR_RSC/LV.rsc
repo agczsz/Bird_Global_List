@@ -2,6 +2,17 @@
 /ip firewall address-list
 :do { add list=LV address=2.26.88.0/24 } on-error={}
 :do { add list=LV address=2.26.146.0/24 } on-error={}
+:do { add list=LV address=2.26.188.0/31 } on-error={}
+:do { add list=LV address=2.26.188.2/32 } on-error={}
+:do { add list=LV address=2.26.188.8/29 } on-error={}
+:do { add list=LV address=2.26.188.16/28 } on-error={}
+:do { add list=LV address=2.26.188.32/27 } on-error={}
+:do { add list=LV address=2.26.188.64/27 } on-error={}
+:do { add list=LV address=2.26.188.96/30 } on-error={}
+:do { add list=LV address=2.26.188.102/31 } on-error={}
+:do { add list=LV address=2.26.188.104/29 } on-error={}
+:do { add list=LV address=2.26.188.112/28 } on-error={}
+:do { add list=LV address=2.26.188.128/25 } on-error={}
 :do { add list=LV address=2.27.155.64/28 } on-error={}
 :do { add list=LV address=2.27.155.80/29 } on-error={}
 :do { add list=LV address=2.27.155.96/32 } on-error={}
@@ -911,8 +922,7 @@
 :do { add list=LV address=93.171.207.0/24 } on-error={}
 :do { add list=LV address=93.177.192.0/18 } on-error={}
 :do { add list=LV address=93.191.9.24/32 } on-error={}
-:do { add list=LV address=93.191.9.176/31 } on-error={}
-:do { add list=LV address=93.191.9.178/32 } on-error={}
+:do { add list=LV address=93.191.9.176/30 } on-error={}
 :do { add list=LV address=93.191.11.96/28 } on-error={}
 :do { add list=LV address=93.191.11.200/29 } on-error={}
 :do { add list=LV address=93.191.12.248/31 } on-error={}

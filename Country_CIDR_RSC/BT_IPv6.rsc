@@ -163,9 +163,7 @@
 :do { add list=BT address=2405:ec00:1:2::/63 } on-error={}
 :do { add list=BT address=2405:ec00:1:4::/64 } on-error={}
 :do { add list=BT address=2405:ec00:1:7::/64 } on-error={}
-:do { add list=BT address=2405:ec00:1:8::/64 } on-error={}
 :do { add list=BT address=2405:ec00:1:b::/64 } on-error={}
-:do { add list=BT address=2405:ec00:1:c::/64 } on-error={}
 :do { add list=BT address=2405:ec00:1:10::/64 } on-error={}
 :do { add list=BT address=2405:ec00:1:13::/64 } on-error={}
 :do { add list=BT address=2405:ec00:1:14::/62 } on-error={}
