@@ -394,7 +394,11 @@
 :do { add list=ZW address=41.216.124.0/23 } on-error={}
 :do { add list=ZW address=41.216.127.16/31 } on-error={}
 :do { add list=ZW address=41.220.16.0/20 } on-error={}
-:do { add list=ZW address=41.221.144.0/20 } on-error={}
+:do { add list=ZW address=41.221.144.0/22 } on-error={}
+:do { add list=ZW address=41.221.148.0/24 } on-error={}
+:do { add list=ZW address=41.221.149.0/24 } on-error={}
+:do { add list=ZW address=41.221.150.0/23 } on-error={}
+:do { add list=ZW address=41.221.152.0/21 } on-error={}
 :do { add list=ZW address=45.74.10.0/24 } on-error={}
 :do { add list=ZW address=46.17.232.0/30 } on-error={}
 :do { add list=ZW address=46.17.232.8/29 } on-error={}

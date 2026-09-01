@@ -1628,7 +1628,16 @@
 :do { add list=TW address=2402:3560::/32 } on-error={}
 :do { add list=TW address=2402:3ce0::/32 } on-error={}
 :do { add list=TW address=2402:4220:102::/48 } on-error={}
-:do { add list=TW address=2402:43e0::/39 } on-error={}
+:do { add list=TW address=2402:43e0::/48 } on-error={}
+:do { add list=TW address=2402:43e0:1::/48 } on-error={}
+:do { add list=TW address=2402:43e0:2::/47 } on-error={}
+:do { add list=TW address=2402:43e0:4::/46 } on-error={}
+:do { add list=TW address=2402:43e0:8::/45 } on-error={}
+:do { add list=TW address=2402:43e0:10::/44 } on-error={}
+:do { add list=TW address=2402:43e0:20::/43 } on-error={}
+:do { add list=TW address=2402:43e0:40::/42 } on-error={}
+:do { add list=TW address=2402:43e0:80::/41 } on-error={}
+:do { add list=TW address=2402:43e0:100::/40 } on-error={}
 :do { add list=TW address=2402:43e0:200::/48 } on-error={}
 :do { add list=TW address=2402:43e0:201::/48 } on-error={}
 :do { add list=TW address=2402:43e0:202::/48 } on-error={}

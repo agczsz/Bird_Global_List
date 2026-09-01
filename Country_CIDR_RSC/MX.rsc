@@ -1199,10 +1199,7 @@
 :do { add list=MX address=45.65.92.0/22 } on-error={}
 :do { add list=MX address=45.65.152.0/24 } on-error={}
 :do { add list=MX address=45.67.244.0/24 } on-error={}
-:do { add list=MX address=45.68.64.0/22 } on-error={}
-:do { add list=MX address=45.68.68.0/24 } on-error={}
-:do { add list=MX address=45.68.69.0/24 } on-error={}
-:do { add list=MX address=45.68.70.0/23 } on-error={}
+:do { add list=MX address=45.68.64.0/21 } on-error={}
 :do { add list=MX address=45.68.136.0/24 } on-error={}
 :do { add list=MX address=45.71.11.0/25 } on-error={}
 :do { add list=MX address=45.73.168.0/24 } on-error={}

@@ -15758,8 +15758,7 @@
 :do { add list=PL address=2a10:f782:8000::/33 } on-error={}
 :do { add list=PL address=2a10:f783::/48 } on-error={}
 :do { add list=PL address=2a10:f783:1::/48 } on-error={}
-:do { add list=PL address=2a10:f783:2::/48 } on-error={}
-:do { add list=PL address=2a10:f783:3::/48 } on-error={}
+:do { add list=PL address=2a10:f783:2::/47 } on-error={}
 :do { add list=PL address=2a10:f783:4::/46 } on-error={}
 :do { add list=PL address=2a10:f783:8::/45 } on-error={}
 :do { add list=PL address=2a10:f783:10::/44 } on-error={}

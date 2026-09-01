@@ -104,7 +104,8 @@
 :do { add list=EE address=2001:948:2:16::/64 } on-error={}
 :do { add list=EE address=2001:978:1:324::/64 } on-error={}
 :do { add list=EE address=2001:978:2:e::/64 } on-error={}
-:do { add list=EE address=2001:978:1000::/47 } on-error={}
+:do { add list=EE address=2001:978:1000::/48 } on-error={}
+:do { add list=EE address=2001:978:1001::/48 } on-error={}
 :do { add list=EE address=2001:ad0::/47 } on-error={}
 :do { add list=EE address=2001:ad0:2::/48 } on-error={}
 :do { add list=EE address=2001:ad0:4::/48 } on-error={}

@@ -3806,7 +3806,10 @@
 :do { add list=ZA address=102.177.153.0/24 } on-error={}
 :do { add list=ZA address=102.177.154.0/24 } on-error={}
 :do { add list=ZA address=102.177.155.0/24 } on-error={}
-:do { add list=ZA address=102.177.156.0/22 } on-error={}
+:do { add list=ZA address=102.177.156.0/24 } on-error={}
+:do { add list=ZA address=102.177.157.0/24 } on-error={}
+:do { add list=ZA address=102.177.158.0/24 } on-error={}
+:do { add list=ZA address=102.177.159.0/24 } on-error={}
 :do { add list=ZA address=102.177.182.0/24 } on-error={}
 :do { add list=ZA address=102.177.186.0/23 } on-error={}
 :do { add list=ZA address=102.177.188.0/24 } on-error={}
@@ -5753,7 +5756,8 @@
 :do { add list=ZA address=105.177.13.32/27 } on-error={}
 :do { add list=ZA address=105.177.13.64/26 } on-error={}
 :do { add list=ZA address=105.177.13.128/25 } on-error={}
-:do { add list=ZA address=105.177.14.0/23 } on-error={}
+:do { add list=ZA address=105.177.14.0/24 } on-error={}
+:do { add list=ZA address=105.177.15.0/24 } on-error={}
 :do { add list=ZA address=105.177.16.0/22 } on-error={}
 :do { add list=ZA address=105.177.20.0/23 } on-error={}
 :do { add list=ZA address=105.177.22.32/31 } on-error={}

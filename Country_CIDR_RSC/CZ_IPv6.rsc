@@ -9768,7 +9768,8 @@
 :do { add list=CZ address=2a14:9884::/30 } on-error={}
 :do { add list=CZ address=2a14:a480::/48 } on-error={}
 :do { add list=CZ address=2a14:a480:1::/48 } on-error={}
-:do { add list=CZ address=2a14:a480:2::/47 } on-error={}
+:do { add list=CZ address=2a14:a480:2::/48 } on-error={}
+:do { add list=CZ address=2a14:a480:3::/48 } on-error={}
 :do { add list=CZ address=2a14:a480:4::/46 } on-error={}
 :do { add list=CZ address=2a14:a480:8::/45 } on-error={}
 :do { add list=CZ address=2a14:a480:10::/44 } on-error={}

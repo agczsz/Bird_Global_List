@@ -926,7 +926,8 @@
 :do { add list=UA address=46.202.45.0/24 } on-error={}
 :do { add list=UA address=46.202.46.0/24 } on-error={}
 :do { add list=UA address=46.202.49.0/24 } on-error={}
-:do { add list=UA address=46.202.50.0/23 } on-error={}
+:do { add list=UA address=46.202.50.0/24 } on-error={}
+:do { add list=UA address=46.202.51.0/24 } on-error={}
 :do { add list=UA address=46.202.61.0/24 } on-error={}
 :do { add list=UA address=46.202.62.0/24 } on-error={}
 :do { add list=UA address=46.202.66.0/24 } on-error={}
@@ -971,7 +972,8 @@
 :do { add list=UA address=46.203.72.0/24 } on-error={}
 :do { add list=UA address=46.203.74.0/23 } on-error={}
 :do { add list=UA address=46.203.78.0/24 } on-error={}
-:do { add list=UA address=46.203.80.0/23 } on-error={}
+:do { add list=UA address=46.203.80.0/24 } on-error={}
+:do { add list=UA address=46.203.81.0/24 } on-error={}
 :do { add list=UA address=46.203.87.0/24 } on-error={}
 :do { add list=UA address=46.203.91.0/24 } on-error={}
 :do { add list=UA address=46.203.92.0/24 } on-error={}
@@ -979,7 +981,8 @@
 :do { add list=UA address=46.203.113.0/24 } on-error={}
 :do { add list=UA address=46.203.121.0/24 } on-error={}
 :do { add list=UA address=46.203.135.0/24 } on-error={}
-:do { add list=UA address=46.203.136.0/23 } on-error={}
+:do { add list=UA address=46.203.136.0/24 } on-error={}
+:do { add list=UA address=46.203.137.0/24 } on-error={}
 :do { add list=UA address=46.203.139.0/24 } on-error={}
 :do { add list=UA address=46.203.149.0/24 } on-error={}
 :do { add list=UA address=46.203.150.0/24 } on-error={}
@@ -2534,7 +2537,8 @@
 :do { add list=UA address=91.124.49.0/24 } on-error={}
 :do { add list=UA address=91.124.54.0/24 } on-error={}
 :do { add list=UA address=91.124.72.0/21 } on-error={}
-:do { add list=UA address=91.124.136.0/23 } on-error={}
+:do { add list=UA address=91.124.136.0/24 } on-error={}
+:do { add list=UA address=91.124.137.0/24 } on-error={}
 :do { add list=UA address=91.124.142.0/23 } on-error={}
 :do { add list=UA address=91.124.199.0/24 } on-error={}
 :do { add list=UA address=91.124.200.0/24 } on-error={}

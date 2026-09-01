@@ -18544,8 +18544,7 @@
 :do { add list=JP address=2405:84c0:8014::/46 } on-error={}
 :do { add list=JP address=2405:84c0:8018::/48 } on-error={}
 :do { add list=JP address=2405:84c0:8019::/48 } on-error={}
-:do { add list=JP address=2405:84c0:801a::/48 } on-error={}
-:do { add list=JP address=2405:84c0:801b::/48 } on-error={}
+:do { add list=JP address=2405:84c0:801a::/47 } on-error={}
 :do { add list=JP address=2405:84c0:801c::/46 } on-error={}
 :do { add list=JP address=2405:84c0:9600::/40 } on-error={}
 :do { add list=JP address=2405:84c0:9c00::/40 } on-error={}
