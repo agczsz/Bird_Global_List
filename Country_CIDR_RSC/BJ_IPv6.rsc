@@ -2,7 +2,6 @@
 /ipv6 firewall address-list
 :do { add list=BJ address=2001:470:6d:b28::/64 } on-error={}
 :do { add list=BJ address=2001:470:b72d::/48 } on-error={}
-:do { add list=BJ address=2001:470:f537::/48 } on-error={}
 :do { add list=BJ address=2001:67c:a38:f229::/64 } on-error={}
 :do { add list=BJ address=2001:4320::/43 } on-error={}
 :do { add list=BJ address=2001:4320:20::/44 } on-error={}
@@ -46,7 +45,8 @@
 :do { add list=BJ address=2606:40:22e0:5000::/52 } on-error={}
 :do { add list=BJ address=2606:54c0:510::/45 } on-error={}
 :do { add list=BJ address=2606:54c3:0:9af::/64 } on-error={}
-:do { add list=BJ address=2607:8940:201a:c000::/50 } on-error={}
+:do { add list=BJ address=2607:8940:201e:4000::/50 } on-error={}
+:do { add list=BJ address=2607:8940:201e:8000::/49 } on-error={}
 :do { add list=BJ address=2607:8940:201f::/48 } on-error={}
 :do { add list=BJ address=2607:8940:2022::/47 } on-error={}
 :do { add list=BJ address=2607:8940:4171:1100::/56 } on-error={}

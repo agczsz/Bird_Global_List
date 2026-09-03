@@ -2,9 +2,26 @@
 /ipv6 firewall address-list
 :do { add list=PS address=2001:470:19e7::/48 } on-error={}
 :do { add list=PS address=2001:470:1f29:1e::/64 } on-error={}
+:do { add list=PS address=2001:470:1f29:31d::/64 } on-error={}
 :do { add list=PS address=2001:470:1f29:40b::/64 } on-error={}
 :do { add list=PS address=2001:470:50cd::/48 } on-error={}
 :do { add list=PS address=2001:470:74cf::/48 } on-error={}
+:do { add list=PS address=2001:470:808a::/53 } on-error={}
+:do { add list=PS address=2001:470:808a:800::/56 } on-error={}
+:do { add list=PS address=2001:470:808a:900::/59 } on-error={}
+:do { add list=PS address=2001:470:808a:921::/64 } on-error={}
+:do { add list=PS address=2001:470:808a:922::/63 } on-error={}
+:do { add list=PS address=2001:470:808a:924::/62 } on-error={}
+:do { add list=PS address=2001:470:808a:928::/61 } on-error={}
+:do { add list=PS address=2001:470:808a:930::/60 } on-error={}
+:do { add list=PS address=2001:470:808a:940::/58 } on-error={}
+:do { add list=PS address=2001:470:808a:980::/57 } on-error={}
+:do { add list=PS address=2001:470:808a:a00::/55 } on-error={}
+:do { add list=PS address=2001:470:808a:c00::/54 } on-error={}
+:do { add list=PS address=2001:470:808a:1000::/52 } on-error={}
+:do { add list=PS address=2001:470:808a:2000::/51 } on-error={}
+:do { add list=PS address=2001:470:808a:4000::/50 } on-error={}
+:do { add list=PS address=2001:470:808a:8000::/49 } on-error={}
 :do { add list=PS address=2001:470:9928::/48 } on-error={}
 :do { add list=PS address=2001:470:ec21::/48 } on-error={}
 :do { add list=PS address=2001:470:fb99::/48 } on-error={}
@@ -311,6 +328,7 @@
 :do { add list=PS address=2a0c:b6c3::/32 } on-error={}
 :do { add list=PS address=2a0c:b6c4::/30 } on-error={}
 :do { add list=PS address=2a0d:a40::/29 } on-error={}
+:do { add list=PS address=2a0d:2681:3600::/40 } on-error={}
 :do { add list=PS address=2a0d:3341:b040::/42 } on-error={}
 :do { add list=PS address=2a0d:3341:f200::/40 } on-error={}
 :do { add list=PS address=2a0d:9445:4800::/37 } on-error={}
@@ -470,6 +488,7 @@
 :do { add list=PS address=2a11:ac80::/29 } on-error={}
 :do { add list=PS address=2a12:a9c0:40::/50 } on-error={}
 :do { add list=PS address=2a12:a9c0:48:1200::/56 } on-error={}
+:do { add list=PS address=2a12:a9c0:b4:2800::/56 } on-error={}
 :do { add list=PS address=2a12:a9c0:bc:8a00::/56 } on-error={}
 :do { add list=PS address=2a12:cf40::/32 } on-error={}
 :do { add list=PS address=2a13:82c4:ff11::/48 } on-error={}

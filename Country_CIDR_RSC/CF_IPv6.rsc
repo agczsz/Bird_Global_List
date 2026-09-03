@@ -1,7 +1,6 @@
 /log info "Loading CF IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=CF address=2001:470:6d:5bd::/64 } on-error={}
-:do { add list=CF address=2001:470:48d9::/48 } on-error={}
 :do { add list=CF address=2001:470:50ac::/48 } on-error={}
 :do { add list=CF address=2001:470:54cb::/48 } on-error={}
 :do { add list=CF address=2001:470:54d3::/48 } on-error={}
@@ -17,7 +16,7 @@
 :do { add list=CF address=2401:b60:12a4::/46 } on-error={}
 :do { add list=CF address=2401:b60:12a8::/45 } on-error={}
 :do { add list=CF address=2401:3620:231:32::/64 } on-error={}
-:do { add list=CF address=2401:f1e0:ffff:2c35::/64 } on-error={}
+:do { add list=CF address=2401:f1e0:ffff:dd63::/64 } on-error={}
 :do { add list=CF address=2405:b500:1600::/64 } on-error={}
 :do { add list=CF address=2405:b500:1620::/64 } on-error={}
 :do { add list=CF address=2405:b500:1640::/64 } on-error={}
@@ -28,6 +27,8 @@
 :do { add list=CF address=2606:54c3:0:499::/64 } on-error={}
 :do { add list=CF address=2607:8940:203a::/47 } on-error={}
 :do { add list=CF address=2607:8940:203e::/48 } on-error={}
+:do { add list=CF address=2607:8940:203f:4000::/50 } on-error={}
+:do { add list=CF address=2607:8940:203f:8000::/49 } on-error={}
 :do { add list=CF address=2607:8940:4171:1900::/56 } on-error={}
 :do { add list=CF address=2607:8940:4171:1a00::/56 } on-error={}
 :do { add list=CF address=2607:8940:4191:1900::/56 } on-error={}

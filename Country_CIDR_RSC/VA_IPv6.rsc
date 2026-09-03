@@ -7,13 +7,13 @@
 :do { add list=VA address=2001:470:6ac0::/48 } on-error={}
 :do { add list=VA address=2001:470:7440::/48 } on-error={}
 :do { add list=VA address=2001:470:79a2::/48 } on-error={}
+:do { add list=VA address=2001:470:80a2::/48 } on-error={}
 :do { add list=VA address=2001:470:b727::/48 } on-error={}
 :do { add list=VA address=2001:470:c8e4::/48 } on-error={}
 :do { add list=VA address=2001:470:ca7d::/48 } on-error={}
 :do { add list=VA address=2001:470:dfa4::/48 } on-error={}
 :do { add list=VA address=2001:470:ef92::/48 } on-error={}
-:do { add list=VA address=2001:470:f0b1:4000::/50 } on-error={}
-:do { add list=VA address=2001:470:f0b1:8000::/49 } on-error={}
+:do { add list=VA address=2001:470:f0b1::/48 } on-error={}
 :do { add list=VA address=2001:470:f4d5::/48 } on-error={}
 :do { add list=VA address=2001:470:f8da::/48 } on-error={}
 :do { add list=VA address=2001:470:fb39::/48 } on-error={}

@@ -1,9 +1,10 @@
 /log info "Loading SZ IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=SZ address=2001:470:1940::/48 } on-error={}
-:do { add list=SZ address=2001:470:4974::/48 } on-error={}
 :do { add list=SZ address=2001:470:7ad5::/48 } on-error={}
 :do { add list=SZ address=2001:470:c8e8::/48 } on-error={}
+:do { add list=SZ address=2001:470:e23f:4000::/50 } on-error={}
+:do { add list=SZ address=2001:470:e23f:8000::/49 } on-error={}
 :do { add list=SZ address=2001:67c:a38:f268::/64 } on-error={}
 :do { add list=SZ address=2001:4338::/32 } on-error={}
 :do { add list=SZ address=2001:43f8:9b0::/47 } on-error={}
@@ -15,7 +16,7 @@
 :do { add list=SZ address=2401:b60:1dc4::/46 } on-error={}
 :do { add list=SZ address=2401:b60:1dc8::/45 } on-error={}
 :do { add list=SZ address=2401:3620:231:d7::/64 } on-error={}
-:do { add list=SZ address=2401:f1e0:ffff:c7e9::/64 } on-error={}
+:do { add list=SZ address=2401:f1e0:ffff:9b0e::/64 } on-error={}
 :do { add list=SZ address=2405:b500:6c80::/64 } on-error={}
 :do { add list=SZ address=2405:b500:6ca0::/64 } on-error={}
 :do { add list=SZ address=2405:b500:6cc0::/64 } on-error={}
@@ -26,7 +27,9 @@
 :do { add list=SZ address=2605:59ca:8700::/40 } on-error={}
 :do { add list=SZ address=2606:54c0:55a0::/45 } on-error={}
 :do { add list=SZ address=2606:54c3:0:15c0::/64 } on-error={}
-:do { add list=SZ address=2607:8940:21c2::/47 } on-error={}
+:do { add list=SZ address=2607:8940:21c2::/48 } on-error={}
+:do { add list=SZ address=2607:8940:21c3:4000::/50 } on-error={}
+:do { add list=SZ address=2607:8940:21c3:8000::/49 } on-error={}
 :do { add list=SZ address=2607:8940:21c6::/47 } on-error={}
 :do { add list=SZ address=2607:8940:4171:af00::/56 } on-error={}
 :do { add list=SZ address=2607:8940:4171:b000::/56 } on-error={}

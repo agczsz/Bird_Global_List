@@ -5,15 +5,16 @@
 :do { add list=TT address=2001:470:1f1b:42c::/64 } on-error={}
 :do { add list=TT address=2001:470:62d1::/48 } on-error={}
 :do { add list=TT address=2001:470:d884::/48 } on-error={}
+:do { add list=TT address=2001:470:d9cd::/48 } on-error={}
 :do { add list=TT address=2001:470:d9e1::/48 } on-error={}
 :do { add list=TT address=2001:470:d9f8::/48 } on-error={}
 :do { add list=TT address=2001:470:da29::/48 } on-error={}
 :do { add list=TT address=2001:470:da2a::/48 } on-error={}
-:do { add list=TT address=2001:470:e23f:4000::/50 } on-error={}
-:do { add list=TT address=2001:470:e23f:8000::/49 } on-error={}
 :do { add list=TT address=2001:470:e3c1:4000::/50 } on-error={}
 :do { add list=TT address=2001:470:e3c1:8000::/49 } on-error={}
 :do { add list=TT address=2001:470:e3c2::/48 } on-error={}
+:do { add list=TT address=2001:470:e3c5:4000::/50 } on-error={}
+:do { add list=TT address=2001:470:e3c5:8000::/49 } on-error={}
 :do { add list=TT address=2001:470:f3b4::/48 } on-error={}
 :do { add list=TT address=2001:470:f3c7::/48 } on-error={}
 :do { add list=TT address=2001:470:fe6a::/48 } on-error={}
@@ -172,6 +173,7 @@
 :do { add list=TT address=2a0c:9a40:95bd:f000::/52 } on-error={}
 :do { add list=TT address=2a0c:9a46:3e2::/48 } on-error={}
 :do { add list=TT address=2a0c:9a46:3fe:e1::/64 } on-error={}
+:do { add list=TT address=2a0d:2681:4300::/40 } on-error={}
 :do { add list=TT address=2a0d:9447:c000::/37 } on-error={}
 :do { add list=TT address=2a0e:4001:9ff:e1::/64 } on-error={}
 :do { add list=TT address=2a0f:1cc5:b10:e000::/56 } on-error={}

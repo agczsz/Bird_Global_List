@@ -2,9 +2,12 @@
 /ipv6 firewall address-list
 :do { add list=KI address=2001:470:36:909::/64 } on-error={}
 :do { add list=KI address=2001:470:36:929::/64 } on-error={}
-:do { add list=KI address=2001:470:49a1::/48 } on-error={}
 :do { add list=KI address=2001:470:8cdc::/48 } on-error={}
 :do { add list=KI address=2001:470:dd6f::/48 } on-error={}
+:do { add list=KI address=2001:470:eefe::/48 } on-error={}
+:do { add list=KI address=2001:470:f9a3::/48 } on-error={}
+:do { add list=KI address=2001:470:f9b3::/48 } on-error={}
+:do { add list=KI address=2001:470:fe3e::/48 } on-error={}
 :do { add list=KI address=2001:470:ff39::/48 } on-error={}
 :do { add list=KI address=2001:67c:a38:f686::/64 } on-error={}
 :do { add list=KI address=2001:4b28:6a00::/40 } on-error={}
@@ -34,6 +37,7 @@
 :do { add list=KI address=2406:2d40:a800::/40 } on-error={}
 :do { add list=KI address=2406:cd00::/32 } on-error={}
 :do { add list=KI address=2600:70ff:a436::/48 } on-error={}
+:do { add list=KI address=2600:70ff:a7ea::/48 } on-error={}
 :do { add list=KI address=2606:40:fe0::/43 } on-error={}
 :do { add list=KI address=2606:40:201c:e000::/51 } on-error={}
 :do { add list=KI address=2606:40:2113:2000::/51 } on-error={}
