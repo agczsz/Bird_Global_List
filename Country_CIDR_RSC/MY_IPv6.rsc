@@ -331,7 +331,7 @@
 :do { add list=MY address=2001:df7:8580::/48 } on-error={}
 :do { add list=MY address=2001:df7:a980::/48 } on-error={}
 :do { add list=MY address=2001:df7:fd00::/48 } on-error={}
-:do { add list=MY address=2001:dff:aaaa:8000::/50 } on-error={}
+:do { add list=MY address=2001:dff:aaaa::/48 } on-error={}
 :do { add list=MY address=2001:e68::/109 } on-error={}
 :do { add list=MY address=2001:e68::8:0/111 } on-error={}
 :do { add list=MY address=2001:e68::a:0/116 } on-error={}
@@ -4103,6 +4103,7 @@
 :do { add list=MY address=2a02:26f7:d510:4800::/53 } on-error={}
 :do { add list=MY address=2a02:26f7:d510:5000::/52 } on-error={}
 :do { add list=MY address=2a02:26f7:d510:6000::/51 } on-error={}
+:do { add list=MY address=2a02:26f7:d510:8000::/50 } on-error={}
 :do { add list=MY address=2a02:26f7:d510:c000::/52 } on-error={}
 :do { add list=MY address=2a02:26f7:d510:d000::/57 } on-error={}
 :do { add list=MY address=2a02:26f7:d510:d080::/58 } on-error={}

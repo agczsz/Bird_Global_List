@@ -386,6 +386,7 @@
 :do { add list=GG address=2a0f:a302:f000::/37 } on-error={}
 :do { add list=GG address=2a10:fa81:1850::/48 } on-error={}
 :do { add list=GG address=2a11:29c0:3d88:a037::/64 } on-error={}
+:do { add list=GG address=2a11:a683:6000::/36 } on-error={}
 :do { add list=GG address=2a12:bec0:393::/48 } on-error={}
 :do { add list=GG address=2a12:ef87:f000::/36 } on-error={}
 :do { add list=GG address=2a12:f381:c900::/40 } on-error={}

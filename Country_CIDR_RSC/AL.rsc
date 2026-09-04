@@ -1,6 +1,5 @@
 /log info "Loading AL IPv4 Address List"
 /ip firewall address-list
-:do { add list=AL address=5.56.9.98/31 } on-error={}
 :do { add list=AL address=5.56.9.253/32 } on-error={}
 :do { add list=AL address=5.62.63.236/30 } on-error={}
 :do { add list=AL address=17.118.196.96/28 } on-error={}
@@ -106,7 +105,6 @@
 :do { add list=AL address=82.22.160.0/23 } on-error={}
 :do { add list=AL address=82.22.190.0/24 } on-error={}
 :do { add list=AL address=82.22.200.0/24 } on-error={}
-:do { add list=AL address=82.22.205.0/24 } on-error={}
 :do { add list=AL address=82.22.239.0/24 } on-error={}
 :do { add list=AL address=82.24.231.0/24 } on-error={}
 :do { add list=AL address=82.198.32.0/22 } on-error={}

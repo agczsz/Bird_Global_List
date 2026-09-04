@@ -384,8 +384,7 @@
 :do { add list=LI address=2a0f:6280:cc40::/43 } on-error={}
 :do { add list=LI address=2a0f:85c1:340::9c:0/112 } on-error={}
 :do { add list=LI address=2a0f:85c1:81b:f670::/60 } on-error={}
-:do { add list=LI address=2a0f:85c1:b3e:4000::/50 } on-error={}
-:do { add list=LI address=2a0f:85c1:b3e:8000::/49 } on-error={}
+:do { add list=LI address=2a0f:85c1:b3e::/48 } on-error={}
 :do { add list=LI address=2a0f:9403:4b0::/44 } on-error={}
 :do { add list=LI address=2a0f:a303:2800::/37 } on-error={}
 :do { add list=LI address=2a10:500:8300::/40 } on-error={}

@@ -486,10 +486,6 @@
 :do { add list=PS address=2a11:29c0:3de6:4864::/64 } on-error={}
 :do { add list=PS address=2a11:29c0:3de6:4866::/64 } on-error={}
 :do { add list=PS address=2a11:ac80::/29 } on-error={}
-:do { add list=PS address=2a12:a9c0:40::/50 } on-error={}
-:do { add list=PS address=2a12:a9c0:48:1200::/56 } on-error={}
-:do { add list=PS address=2a12:a9c0:b4:2800::/56 } on-error={}
-:do { add list=PS address=2a12:a9c0:bc:8a00::/56 } on-error={}
 :do { add list=PS address=2a12:cf40::/32 } on-error={}
 :do { add list=PS address=2a13:82c4:ff11::/48 } on-error={}
 :do { add list=PS address=2a13:9500:64::/48 } on-error={}

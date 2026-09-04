@@ -61,7 +61,6 @@
 :do { add list=AX address=2a00:5500:2004::/46 } on-error={}
 :do { add list=AX address=2a00:5500:2008::/45 } on-error={}
 :do { add list=AX address=2a00:5500:6000:1500::/56 } on-error={}
-:do { add list=AX address=2a00:5500:6000:7f00::/56 } on-error={}
 :do { add list=AX address=2a00:5500:6000:9300::/56 } on-error={}
 :do { add list=AX address=2a00:5500:6000:ac00::/56 } on-error={}
 :do { add list=AX address=2a00:5500:6000:d400::/56 } on-error={}
@@ -202,6 +201,7 @@
 :do { add list=AX address=2a00:5500:90e5:e00::/56 } on-error={}
 :do { add list=AX address=2a00:5500:90e7::/49 } on-error={}
 :do { add list=AX address=2a00:5500:90e8:100::/56 } on-error={}
+:do { add list=AX address=2a00:5500:90e8:6900::/56 } on-error={}
 :do { add list=AX address=2a00:5500:90ea::/56 } on-error={}
 :do { add list=AX address=2a00:5500:90eb:2200::/56 } on-error={}
 :do { add list=AX address=2a00:5500:90ee:2b00::/56 } on-error={}
@@ -212,6 +212,7 @@
 :do { add list=AX address=2a00:5500:90fa::/48 } on-error={}
 :do { add list=AX address=2a00:5500:90fb:9400::/56 } on-error={}
 :do { add list=AX address=2a00:5500:90fc:3400::/56 } on-error={}
+:do { add list=AX address=2a00:5500:90fd:f300::/56 } on-error={}
 :do { add list=AX address=2a00:5500:90ff::/48 } on-error={}
 :do { add list=AX address=2a00:eca0::/32 } on-error={}
 :do { add list=AX address=2a01:528:8d00::/40 } on-error={}

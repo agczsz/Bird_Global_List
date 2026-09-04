@@ -820,14 +820,7 @@
 :do { add list=LU address=2a01:caa0:40dd::/48 } on-error={}
 :do { add list=LU address=2a01:caa0:40de::/47 } on-error={}
 :do { add list=LU address=2a01:caa0:40e0::/43 } on-error={}
-:do { add list=LU address=2a01:caa0:4101:2f00::/56 } on-error={}
-:do { add list=LU address=2a01:caa0:4101:c500::/56 } on-error={}
-:do { add list=LU address=2a01:caa0:4102:8e00::/56 } on-error={}
-:do { add list=LU address=2a01:caa0:4105::/48 } on-error={}
-:do { add list=LU address=2a01:caa0:4108::/45 } on-error={}
-:do { add list=LU address=2a01:caa0:4110::/44 } on-error={}
-:do { add list=LU address=2a01:caa0:4120::/43 } on-error={}
-:do { add list=LU address=2a01:caa0:4140::/42 } on-error={}
+:do { add list=LU address=2a01:caa0:4100::/41 } on-error={}
 :do { add list=LU address=2a01:caa0:4180::/45 } on-error={}
 :do { add list=LU address=2a01:caa0:4189::/48 } on-error={}
 :do { add list=LU address=2a01:caa0:418a:2400::/56 } on-error={}

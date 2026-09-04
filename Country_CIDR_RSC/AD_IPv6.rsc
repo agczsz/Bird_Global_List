@@ -229,6 +229,7 @@
 :do { add list=AD address=2a13:c900:28::/45 } on-error={}
 :do { add list=AD address=2a13:c900:30::/44 } on-error={}
 :do { add list=AD address=2a13:c900:40::/46 } on-error={}
+:do { add list=AD address=2a13:c900:44::/48 } on-error={}
 :do { add list=AD address=2a13:c900:45::/48 } on-error={}
 :do { add list=AD address=2a13:c900:46::/47 } on-error={}
 :do { add list=AD address=2a13:c900:48::/45 } on-error={}

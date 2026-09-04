@@ -1319,8 +1319,7 @@
 :do { add list=TH address=2001:df6:2d00::/48 } on-error={}
 :do { add list=TH address=2001:df6:3100::/48 } on-error={}
 :do { add list=TH address=2001:df6:3480::/48 } on-error={}
-:do { add list=TH address=2001:df6:3481:4000::/50 } on-error={}
-:do { add list=TH address=2001:df6:3481:8000::/49 } on-error={}
+:do { add list=TH address=2001:df6:3481::/48 } on-error={}
 :do { add list=TH address=2001:df6:3e40::/48 } on-error={}
 :do { add list=TH address=2001:df6:5c00::/48 } on-error={}
 :do { add list=TH address=2001:df6:5e80::/48 } on-error={}

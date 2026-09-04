@@ -3370,7 +3370,11 @@
 :do { add list=MU address=2c0f:1504::/30 } on-error={}
 :do { add list=MU address=2c0f:1508::/29 } on-error={}
 :do { add list=MU address=2c0f:1510::/28 } on-error={}
-:do { add list=MU address=2c0f:1520::/27 } on-error={}
+:do { add list=MU address=2c0f:1521::/32 } on-error={}
+:do { add list=MU address=2c0f:1522::/31 } on-error={}
+:do { add list=MU address=2c0f:1524::/30 } on-error={}
+:do { add list=MU address=2c0f:1528::/29 } on-error={}
+:do { add list=MU address=2c0f:1530::/28 } on-error={}
 :do { add list=MU address=2c0f:1541::/32 } on-error={}
 :do { add list=MU address=2c0f:1542::/31 } on-error={}
 :do { add list=MU address=2c0f:1544::/30 } on-error={}

@@ -145,6 +145,7 @@
 :do { add list=LB address=2a02:65c0::/32 } on-error={}
 :do { add list=LB address=2a02:7740::/32 } on-error={}
 :do { add list=LB address=2a02:f700::/29 } on-error={}
+:do { add list=LB address=2a02:fcc0::/29 } on-error={}
 :do { add list=LB address=2a03:2a40::/32 } on-error={}
 :do { add list=LB address=2a03:5900::/29 } on-error={}
 :do { add list=LB address=2a03:64e0::/32 } on-error={}

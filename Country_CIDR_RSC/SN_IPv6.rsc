@@ -4,7 +4,6 @@
 :do { add list=SN address=2001:470:585e:8000::/49 } on-error={}
 :do { add list=SN address=2001:470:9b32::/48 } on-error={}
 :do { add list=SN address=2001:470:cbef::/48 } on-error={}
-:do { add list=SN address=2001:470:f53b::/48 } on-error={}
 :do { add list=SN address=2001:67c:a38:f221::/64 } on-error={}
 :do { add list=SN address=2001:4278::/32 } on-error={}
 :do { add list=SN address=2001:43f8:1d0::/48 } on-error={}

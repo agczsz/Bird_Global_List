@@ -221,5 +221,5 @@
 :do { add list=SL address=2c0f:3000::/32 } on-error={}
 :do { add list=SL address=2c0f:5640::/32 } on-error={}
 :do { add list=SL address=2c0f:eaf8::/32 } on-error={}
-:do { add list=SL address=2c0f:eb60:8000::/33 } on-error={}
+:do { add list=SL address=2c0f:eb60::/32 } on-error={}
 :do { add list=SL address=2c0f:eeb0::/32 } on-error={}
