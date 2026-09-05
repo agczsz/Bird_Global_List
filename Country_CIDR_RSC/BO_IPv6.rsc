@@ -321,9 +321,7 @@
 :do { add list=BO address=2800:320:c600::/42 } on-error={}
 :do { add list=BO address=2800:320:c640::/42 } on-error={}
 :do { add list=BO address=2800:320:c680::/41 } on-error={}
-:do { add list=BO address=2800:320:c700::/42 } on-error={}
-:do { add list=BO address=2800:320:c740::/42 } on-error={}
-:do { add list=BO address=2800:320:c780::/41 } on-error={}
+:do { add list=BO address=2800:320:c700::/40 } on-error={}
 :do { add list=BO address=2800:320:c800::/42 } on-error={}
 :do { add list=BO address=2800:320:c840::/42 } on-error={}
 :do { add list=BO address=2800:320:c880::/41 } on-error={}

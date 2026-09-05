@@ -4699,7 +4699,10 @@
 :do { add list=TH address=164.18.65.32/27 } on-error={}
 :do { add list=TH address=164.18.225.192/27 } on-error={}
 :do { add list=TH address=164.18.234.192/27 } on-error={}
-:do { add list=TH address=164.115.0.0/21 } on-error={}
+:do { add list=TH address=164.115.0.0/23 } on-error={}
+:do { add list=TH address=164.115.2.0/24 } on-error={}
+:do { add list=TH address=164.115.3.0/24 } on-error={}
+:do { add list=TH address=164.115.4.0/22 } on-error={}
 :do { add list=TH address=164.115.8.0/22 } on-error={}
 :do { add list=TH address=164.115.12.0/23 } on-error={}
 :do { add list=TH address=164.115.14.0/24 } on-error={}

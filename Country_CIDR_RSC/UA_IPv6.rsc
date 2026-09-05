@@ -6999,10 +6999,7 @@
 :do { add list=UA address=2a13:9ac0:8000::/33 } on-error={}
 :do { add list=UA address=2a13:9ac1::/32 } on-error={}
 :do { add list=UA address=2a13:9ac2::/31 } on-error={}
-:do { add list=UA address=2a13:9ac4::/31 } on-error={}
-:do { add list=UA address=2a13:9ac6::/33 } on-error={}
-:do { add list=UA address=2a13:9ac6:8000::/33 } on-error={}
-:do { add list=UA address=2a13:9ac7::/32 } on-error={}
+:do { add list=UA address=2a13:9ac4::/30 } on-error={}
 :do { add list=UA address=2a13:a180::/29 } on-error={}
 :do { add list=UA address=2a13:a5c3:4380::/42 } on-error={}
 :do { add list=UA address=2a13:a5c3:d0ac::/46 } on-error={}

@@ -204,7 +204,8 @@
 :do { add list=GI address=212.22.226.0/23 } on-error={}
 :do { add list=GI address=212.22.228.0/24 } on-error={}
 :do { add list=GI address=212.22.230.0/23 } on-error={}
-:do { add list=GI address=212.22.232.0/21 } on-error={}
+:do { add list=GI address=212.22.232.0/22 } on-error={}
+:do { add list=GI address=212.22.236.0/22 } on-error={}
 :do { add list=GI address=212.22.240.0/21 } on-error={}
 :do { add list=GI address=212.22.249.0/24 } on-error={}
 :do { add list=GI address=212.22.252.0/22 } on-error={}

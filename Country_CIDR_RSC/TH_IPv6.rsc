@@ -2016,7 +2016,12 @@
 :do { add list=TH address=2401:9d00:4000::/34 } on-error={}
 :do { add list=TH address=2401:9d00:8000::/33 } on-error={}
 :do { add list=TH address=2401:a580::/32 } on-error={}
-:do { add list=TH address=2401:a860::/32 } on-error={}
+:do { add list=TH address=2401:a860::/36 } on-error={}
+:do { add list=TH address=2401:a860:1000::/36 } on-error={}
+:do { add list=TH address=2401:a860:2000::/36 } on-error={}
+:do { add list=TH address=2401:a860:3000::/36 } on-error={}
+:do { add list=TH address=2401:a860:4000::/34 } on-error={}
+:do { add list=TH address=2401:a860:8000::/33 } on-error={}
 :do { add list=TH address=2401:d880::/32 } on-error={}
 :do { add list=TH address=2401:e000::/32 } on-error={}
 :do { add list=TH address=2401:f2e0:100::/40 } on-error={}

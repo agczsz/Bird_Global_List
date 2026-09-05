@@ -6220,12 +6220,7 @@
 :do { add list=AR address=200.81.128.0/20 } on-error={}
 :do { add list=AR address=200.81.148.0/22 } on-error={}
 :do { add list=AR address=200.81.152.0/21 } on-error={}
-:do { add list=AR address=200.81.160.0/22 } on-error={}
-:do { add list=AR address=200.81.164.0/23 } on-error={}
-:do { add list=AR address=200.81.166.0/24 } on-error={}
-:do { add list=AR address=200.81.167.0/24 } on-error={}
-:do { add list=AR address=200.81.168.0/21 } on-error={}
-:do { add list=AR address=200.81.176.0/20 } on-error={}
+:do { add list=AR address=200.81.160.0/19 } on-error={}
 :do { add list=AR address=200.81.192.0/20 } on-error={}
 :do { add list=AR address=200.81.208.0/20 } on-error={}
 :do { add list=AR address=200.81.224.0/20 } on-error={}

@@ -405,9 +405,7 @@
 :do { add list=HU address=46.107.231.60/30 } on-error={}
 :do { add list=HU address=46.107.231.96/27 } on-error={}
 :do { add list=HU address=46.107.231.192/26 } on-error={}
-:do { add list=HU address=46.107.232.0/23 } on-error={}
-:do { add list=HU address=46.107.234.0/23 } on-error={}
-:do { add list=HU address=46.107.236.0/22 } on-error={}
+:do { add list=HU address=46.107.232.0/21 } on-error={}
 :do { add list=HU address=46.107.240.0/20 } on-error={}
 :do { add list=HU address=46.139.0.0/16 } on-error={}
 :do { add list=HU address=46.183.186.0/24 } on-error={}

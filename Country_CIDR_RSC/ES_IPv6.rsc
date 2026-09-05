@@ -4055,8 +4055,7 @@
 :do { add list=ES address=2001:3786:5069:4000::/50 } on-error={}
 :do { add list=ES address=2001:3786:5069:8000::/49 } on-error={}
 :do { add list=ES address=2001:3786:5959::/48 } on-error={}
-:do { add list=ES address=2001:3786:6000::/48 } on-error={}
-:do { add list=ES address=2001:3786:6001::/48 } on-error={}
+:do { add list=ES address=2001:3786:6000::/47 } on-error={}
 :do { add list=ES address=2001:3786:6700::/48 } on-error={}
 :do { add list=ES address=2001:3786:6799::/56 } on-error={}
 :do { add list=ES address=2001:3786:6799:700::/56 } on-error={}

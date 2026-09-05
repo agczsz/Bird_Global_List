@@ -55028,7 +55028,8 @@
 :do { add list=FR address=2a0b:4e07:3:2500::/60 } on-error={}
 :do { add list=FR address=2a0b:4e07:47::/48 } on-error={}
 :do { add list=FR address=2a0b:4e07:ad::/48 } on-error={}
-:do { add list=FR address=2a0b:4e07:d8::/47 } on-error={}
+:do { add list=FR address=2a0b:4e07:d8::/48 } on-error={}
+:do { add list=FR address=2a0b:4e07:d9::/48 } on-error={}
 :do { add list=FR address=2a0b:4e07:db::/48 } on-error={}
 :do { add list=FR address=2a0b:4e07:e0::/48 } on-error={}
 :do { add list=FR address=2a0b:4e07:ed::/48 } on-error={}

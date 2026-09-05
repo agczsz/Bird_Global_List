@@ -2940,8 +2940,7 @@
 :do { add list=CL address=179.238.34.0/23 } on-error={}
 :do { add list=CL address=179.238.36.0/22 } on-error={}
 :do { add list=CL address=179.238.126.0/23 } on-error={}
-:do { add list=CL address=179.238.128.0/23 } on-error={}
-:do { add list=CL address=179.238.130.0/23 } on-error={}
+:do { add list=CL address=179.238.128.0/22 } on-error={}
 :do { add list=CL address=179.238.132.0/22 } on-error={}
 :do { add list=CL address=179.238.136.0/21 } on-error={}
 :do { add list=CL address=179.238.144.0/20 } on-error={}
