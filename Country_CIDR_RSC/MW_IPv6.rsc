@@ -102,6 +102,7 @@
 :do { add list=MW address=2a04:4e41:13:51::/64 } on-error={}
 :do { add list=MW address=2a04:4e41:32:9::/64 } on-error={}
 :do { add list=MW address=2a04:4e41:32:1800::/56 } on-error={}
+:do { add list=MW address=2a04:4e41:1eb::/48 } on-error={}
 :do { add list=MW address=2a04:4e41:12c9::/48 } on-error={}
 :do { add list=MW address=2a04:4e41:1320::/48 } on-error={}
 :do { add list=MW address=2a04:4e41:1616::/48 } on-error={}

@@ -24,6 +24,8 @@
 :do { add list=GL address=2401:b60:1554::/46 } on-error={}
 :do { add list=GL address=2401:b60:1558::/45 } on-error={}
 :do { add list=GL address=2401:3620:231:5d::/64 } on-error={}
+:do { add list=GL address=2401:f1e0:ffff:36a0::/64 } on-error={}
+:do { add list=GL address=2401:f1e0:ffff:78da::/64 } on-error={}
 :do { add list=GL address=2401:f1e0:ffff:7f85::/64 } on-error={}
 :do { add list=GL address=2405:b500:2c20::/64 } on-error={}
 :do { add list=GL address=2405:b500:2c20:8::/64 } on-error={}

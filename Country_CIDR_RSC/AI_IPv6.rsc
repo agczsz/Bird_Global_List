@@ -14,7 +14,6 @@
 :do { add list=AI address=2001:470:f071::/48 } on-error={}
 :do { add list=AI address=2001:470:f0e8::/48 } on-error={}
 :do { add list=AI address=2001:470:f392::/48 } on-error={}
-:do { add list=AI address=2001:470:f578::/48 } on-error={}
 :do { add list=AI address=2001:3786:bb03:100::/56 } on-error={}
 :do { add list=AI address=2001:4b28:8400::/40 } on-error={}
 :do { add list=AI address=2401:b60:1070:4000::/50 } on-error={}

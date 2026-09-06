@@ -410,7 +410,6 @@
 :do { add list=MM address=2404:93c0::/32 } on-error={}
 :do { add list=MM address=2404:a140:4c::/48 } on-error={}
 :do { add list=MM address=2404:ff40:1:30a::/64 } on-error={}
-:do { add list=MM address=2404:ff40:1:3b4::2/128 } on-error={}
 :do { add list=MM address=2405:1340::/32 } on-error={}
 :do { add list=MM address=2405:4cc1:701::/48 } on-error={}
 :do { add list=MM address=2405:4cc1:702::/47 } on-error={}

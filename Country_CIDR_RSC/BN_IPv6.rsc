@@ -3,7 +3,6 @@
 :do { add list=BN address=2001:470:36:188::/64 } on-error={}
 :do { add list=BN address=2001:470:eeaa::/48 } on-error={}
 :do { add list=BN address=2001:470:ef77::/48 } on-error={}
-:do { add list=BN address=2001:470:f584::/48 } on-error={}
 :do { add list=BN address=2001:67c:a38:f673::/64 } on-error={}
 :do { add list=BN address=2001:df1:ba00::/48 } on-error={}
 :do { add list=BN address=2001:df1:f800::/48 } on-error={}
@@ -24,6 +23,8 @@
 :do { add list=BN address=2404:8980::/32 } on-error={}
 :do { add list=BN address=2405:1700::/32 } on-error={}
 :do { add list=BN address=2405:2000:2e00::/50 } on-error={}
+:do { add list=BN address=2405:2016:ffc0::/64 } on-error={}
+:do { add list=BN address=2405:202a:400::/64 } on-error={}
 :do { add list=BN address=2405:b500:f80::/64 } on-error={}
 :do { add list=BN address=2405:b500:fa0::/64 } on-error={}
 :do { add list=BN address=2405:b500:fc0::/64 } on-error={}

@@ -820,13 +820,6 @@
 :do { add list=KW address=185.206.96.0/22 } on-error={}
 :do { add list=KW address=185.211.104.0/22 } on-error={}
 :do { add list=KW address=185.249.158.0/24 } on-error={}
-:do { add list=KW address=187.40.241.0/26 } on-error={}
-:do { add list=KW address=187.40.241.64/27 } on-error={}
-:do { add list=KW address=187.40.241.96/28 } on-error={}
-:do { add list=KW address=187.40.241.112/29 } on-error={}
-:do { add list=KW address=187.40.241.120/30 } on-error={}
-:do { add list=KW address=187.40.241.126/31 } on-error={}
-:do { add list=KW address=187.40.241.128/25 } on-error={}
 :do { add list=KW address=188.70.0.0/15 } on-error={}
 :do { add list=KW address=188.236.0.0/16 } on-error={}
 :do { add list=KW address=192.109.41.144/29 } on-error={}
@@ -968,7 +961,6 @@
 :do { add list=KW address=208.127.250.124/31 } on-error={}
 :do { add list=KW address=208.127.250.126/32 } on-error={}
 :do { add list=KW address=212.6.37.0/24 } on-error={}
-:do { add list=KW address=212.32.84.0/24 } on-error={}
 :do { add list=KW address=212.43.0.0/19 } on-error={}
 :do { add list=KW address=213.34.192.0/19 } on-error={}
 :do { add list=KW address=213.132.224.0/20 } on-error={}

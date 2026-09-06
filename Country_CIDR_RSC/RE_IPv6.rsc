@@ -155,6 +155,7 @@
 :do { add list=RE address=2a04:4e41:32:1a00::/56 } on-error={}
 :do { add list=RE address=2a04:4e41:5d:2a::/64 } on-error={}
 :do { add list=RE address=2a04:4e41:5d:2200::/56 } on-error={}
+:do { add list=RE address=2a04:4e41:1ed::/48 } on-error={}
 :do { add list=RE address=2a04:4e41:811::/48 } on-error={}
 :do { add list=RE address=2a04:4e41:12cb::/48 } on-error={}
 :do { add list=RE address=2a04:4e41:401b:b000::/52 } on-error={}

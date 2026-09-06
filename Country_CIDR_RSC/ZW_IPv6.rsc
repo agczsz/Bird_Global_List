@@ -225,6 +225,7 @@
 :do { add list=ZW address=2a04:4e41:13:66::/64 } on-error={}
 :do { add list=ZW address=2a04:4e41:32:13::/64 } on-error={}
 :do { add list=ZW address=2a04:4e41:32:2200::/56 } on-error={}
+:do { add list=ZW address=2a04:4e41:1f4::/48 } on-error={}
 :do { add list=ZW address=2a04:4e41:12d3::/48 } on-error={}
 :do { add list=ZW address=2a04:4e41:1331::/48 } on-error={}
 :do { add list=ZW address=2a04:4e41:1627::/48 } on-error={}

@@ -22,6 +22,8 @@
 :do { add list=TL address=2401:4b80::/32 } on-error={}
 :do { add list=TL address=2401:b660::/32 } on-error={}
 :do { add list=TL address=2401:f1e0:ffff:134b::/64 } on-error={}
+:do { add list=TL address=2401:f1e0:ffff:22d3::/64 } on-error={}
+:do { add list=TL address=2401:f1e0:ffff:c5cd::/64 } on-error={}
 :do { add list=TL address=2401:f720::/32 } on-error={}
 :do { add list=TL address=2402:51e0::/32 } on-error={}
 :do { add list=TL address=2402:6b20::/32 } on-error={}

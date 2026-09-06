@@ -17,6 +17,8 @@
 :do { add list=BM address=2401:b60:1184::/46 } on-error={}
 :do { add list=BM address=2401:b60:1188::/45 } on-error={}
 :do { add list=BM address=2401:3620:231:25::/64 } on-error={}
+:do { add list=BM address=2401:f1e0:ffff:9ebc::/64 } on-error={}
+:do { add list=BM address=2401:f1e0:ffff:c262::/64 } on-error={}
 :do { add list=BM address=2401:f1e0:ffff:eab5::/64 } on-error={}
 :do { add list=BM address=2405:b500:f00::/64 } on-error={}
 :do { add list=BM address=2405:b500:f20::/64 } on-error={}

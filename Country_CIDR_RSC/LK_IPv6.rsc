@@ -36,7 +36,6 @@
 :do { add list=LK address=2001:470:ea64::/48 } on-error={}
 :do { add list=LK address=2001:470:efc4::/48 } on-error={}
 :do { add list=LK address=2001:470:f303::/48 } on-error={}
-:do { add list=LK address=2001:470:f581::/48 } on-error={}
 :do { add list=LK address=2001:470:f701::/48 } on-error={}
 :do { add list=LK address=2001:470:f80f::/48 } on-error={}
 :do { add list=LK address=2001:470:f8fd::/48 } on-error={}

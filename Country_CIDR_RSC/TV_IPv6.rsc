@@ -1,6 +1,5 @@
 /log info "Loading TV IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=TV address=2001:470:f61d::/48 } on-error={}
 :do { add list=TV address=2001:67c:a38:f688::/64 } on-error={}
 :do { add list=TV address=2001:4b28:fc00::/40 } on-error={}
 :do { add list=TV address=2400:3500::/32 } on-error={}

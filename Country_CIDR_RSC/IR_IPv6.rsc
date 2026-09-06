@@ -119,6 +119,8 @@
 :do { add list=IR address=2001:4c88::/32 } on-error={}
 :do { add list=IR address=2401:3620:231:74::/64 } on-error={}
 :do { add list=IR address=2401:f1e0:ffff:5e69::/64 } on-error={}
+:do { add list=IR address=2401:f1e0:ffff:b6af::/64 } on-error={}
+:do { add list=IR address=2401:f1e0:ffff:dbd3::/64 } on-error={}
 :do { add list=IR address=2405:b500:3800::/64 } on-error={}
 :do { add list=IR address=2405:b500:3800:10::/64 } on-error={}
 :do { add list=IR address=2405:b500:3800:18::/64 } on-error={}
@@ -7639,10 +7641,9 @@
 :do { add list=IR address=2a09:2b80::/47 } on-error={}
 :do { add list=IR address=2a09:2b80:2::/48 } on-error={}
 :do { add list=IR address=2a09:2b80:3::/48 } on-error={}
-:do { add list=IR address=2a09:2b80:a::/47 } on-error={}
-:do { add list=IR address=2a09:2b80:c::/46 } on-error={}
-:do { add list=IR address=2a09:2b80:14::/46 } on-error={}
-:do { add list=IR address=2a09:2b80:18::/45 } on-error={}
+:do { add list=IR address=2a09:2b80:7::/48 } on-error={}
+:do { add list=IR address=2a09:2b80:8::/45 } on-error={}
+:do { add list=IR address=2a09:2b80:10::/44 } on-error={}
 :do { add list=IR address=2a09:2b80:20::/43 } on-error={}
 :do { add list=IR address=2a09:2b80:40::/42 } on-error={}
 :do { add list=IR address=2a09:2b80:80::/41 } on-error={}
@@ -7857,6 +7858,7 @@
 :do { add list=IR address=2a0d:9680::/29 } on-error={}
 :do { add list=IR address=2a0d:9900::/29 } on-error={}
 :do { add list=IR address=2a0d:a700::/29 } on-error={}
+:do { add list=IR address=2a0d:a980::/29 } on-error={}
 :do { add list=IR address=2a0d:ba80::/29 } on-error={}
 :do { add list=IR address=2a0d:c640::/29 } on-error={}
 :do { add list=IR address=2a0d:d580::/32 } on-error={}

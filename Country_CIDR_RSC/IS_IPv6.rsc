@@ -23,8 +23,6 @@
 :do { add list=IS address=2001:470:ecce::/48 } on-error={}
 :do { add list=IS address=2001:470:f16f::/48 } on-error={}
 :do { add list=IS address=2001:470:f4a6::/48 } on-error={}
-:do { add list=IS address=2001:470:f586::/48 } on-error={}
-:do { add list=IS address=2001:470:f5bb::/48 } on-error={}
 :do { add list=IS address=2001:470:f868::/48 } on-error={}
 :do { add list=IS address=2001:470:f886::/48 } on-error={}
 :do { add list=IS address=2001:470:fa7d::/48 } on-error={}

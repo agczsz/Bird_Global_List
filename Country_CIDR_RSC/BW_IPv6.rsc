@@ -154,6 +154,7 @@
 :do { add list=BW address=2a04:4e41:11:1300::/56 } on-error={}
 :do { add list=BW address=2a04:4e41:32:2::/64 } on-error={}
 :do { add list=BW address=2a04:4e41:32:1200::/56 } on-error={}
+:do { add list=BW address=2a04:4e41:1e5::/48 } on-error={}
 :do { add list=BW address=2a04:4e41:12c3::/48 } on-error={}
 :do { add list=BW address=2a04:4e41:1307::/48 } on-error={}
 :do { add list=BW address=2a04:4e41:1609::/48 } on-error={}
