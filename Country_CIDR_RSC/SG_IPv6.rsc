@@ -37088,11 +37088,7 @@
 :do { add list=SG address=2a01:e281:aafe::/48 } on-error={}
 :do { add list=SG address=2a01:e281:ad20::/43 } on-error={}
 :do { add list=SG address=2a01:e300:8000::/36 } on-error={}
-:do { add list=SG address=2a01:f100::/44 } on-error={}
-:do { add list=SG address=2a01:f100:10::/44 } on-error={}
-:do { add list=SG address=2a01:f100:20::/43 } on-error={}
-:do { add list=SG address=2a01:f100:40::/42 } on-error={}
-:do { add list=SG address=2a01:f100:80::/41 } on-error={}
+:do { add list=SG address=2a01:f100::/40 } on-error={}
 :do { add list=SG address=2a02:d8:0:201::/64 } on-error={}
 :do { add list=SG address=2a02:2d8::57f5:e0dc/127 } on-error={}
 :do { add list=SG address=2a02:2d8::57f5:e0e5/128 } on-error={}

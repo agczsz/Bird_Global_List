@@ -89121,7 +89121,14 @@
 :do { add list=DE address=2a07:54c1:c31c::/46 } on-error={}
 :do { add list=DE address=2a07:54c1:c320::/43 } on-error={}
 :do { add list=DE address=2a07:54c1:c340::/42 } on-error={}
-:do { add list=DE address=2a07:54c1:c380::/41 } on-error={}
+:do { add list=DE address=2a07:54c1:c380::/42 } on-error={}
+:do { add list=DE address=2a07:54c1:c3c0::/43 } on-error={}
+:do { add list=DE address=2a07:54c1:c3e0::/44 } on-error={}
+:do { add list=DE address=2a07:54c1:c3f0::/45 } on-error={}
+:do { add list=DE address=2a07:54c1:c3f8::/46 } on-error={}
+:do { add list=DE address=2a07:54c1:c3fc::/47 } on-error={}
+:do { add list=DE address=2a07:54c1:c3fe::/48 } on-error={}
+:do { add list=DE address=2a07:54c1:c3ff::/48 } on-error={}
 :do { add list=DE address=2a07:54c1:c5c0::/42 } on-error={}
 :do { add list=DE address=2a07:54c2:de::/48 } on-error={}
 :do { add list=DE address=2a07:54c4:10::/48 } on-error={}

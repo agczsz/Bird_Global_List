@@ -2870,7 +2870,8 @@
 :do { add list=IE address=64.130.60.152/29 } on-error={}
 :do { add list=IE address=64.130.60.192/26 } on-error={}
 :do { add list=IE address=64.130.61.0/24 } on-error={}
-:do { add list=IE address=64.190.40.0/23 } on-error={}
+:do { add list=IE address=64.190.40.0/24 } on-error={}
+:do { add list=IE address=64.190.41.0/24 } on-error={}
 :do { add list=IE address=64.208.117.96/29 } on-error={}
 :do { add list=IE address=64.208.169.120/30 } on-error={}
 :do { add list=IE address=64.208.170.64/26 } on-error={}

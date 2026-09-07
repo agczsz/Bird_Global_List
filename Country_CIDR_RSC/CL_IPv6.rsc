@@ -1570,11 +1570,7 @@
 :do { add list=CL address=2803:30d0:220::/43 } on-error={}
 :do { add list=CL address=2803:30d0:240::/42 } on-error={}
 :do { add list=CL address=2803:30d0:280::/41 } on-error={}
-:do { add list=CL address=2803:30d0:300::/44 } on-error={}
-:do { add list=CL address=2803:30d0:310::/44 } on-error={}
-:do { add list=CL address=2803:30d0:320::/43 } on-error={}
-:do { add list=CL address=2803:30d0:340::/42 } on-error={}
-:do { add list=CL address=2803:30d0:380::/41 } on-error={}
+:do { add list=CL address=2803:30d0:300::/40 } on-error={}
 :do { add list=CL address=2803:30d0:400::/38 } on-error={}
 :do { add list=CL address=2803:30d0:800::/37 } on-error={}
 :do { add list=CL address=2803:30d0:1000::/36 } on-error={}

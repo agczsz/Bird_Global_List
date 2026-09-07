@@ -7924,14 +7924,7 @@
 :do { add list=AU address=2001:df0:d748::/45 } on-error={}
 :do { add list=AU address=2001:df0:d750::/44 } on-error={}
 :do { add list=AU address=2001:df0:d760::/43 } on-error={}
-:do { add list=AU address=2001:df0:d780::/48 } on-error={}
-:do { add list=AU address=2001:df0:d781::/48 } on-error={}
-:do { add list=AU address=2001:df0:d782::/47 } on-error={}
-:do { add list=AU address=2001:df0:d784::/46 } on-error={}
-:do { add list=AU address=2001:df0:d788::/45 } on-error={}
-:do { add list=AU address=2001:df0:d790::/44 } on-error={}
-:do { add list=AU address=2001:df0:d7a0::/43 } on-error={}
-:do { add list=AU address=2001:df0:d7c0::/42 } on-error={}
+:do { add list=AU address=2001:df0:d780::/41 } on-error={}
 :do { add list=AU address=2001:df0:d800::/42 } on-error={}
 :do { add list=AU address=2001:df0:d841::/48 } on-error={}
 :do { add list=AU address=2001:df0:d842::/47 } on-error={}

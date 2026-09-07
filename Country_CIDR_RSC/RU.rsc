@@ -12214,7 +12214,8 @@
 :do { add list=RU address=91.204.228.0/22 } on-error={}
 :do { add list=RU address=91.204.232.0/22 } on-error={}
 :do { add list=RU address=91.204.240.0/22 } on-error={}
-:do { add list=RU address=91.204.252.0/22 } on-error={}
+:do { add list=RU address=91.204.252.0/23 } on-error={}
+:do { add list=RU address=91.204.254.0/23 } on-error={}
 :do { add list=RU address=91.205.0.0/22 } on-error={}
 :do { add list=RU address=91.205.8.0/22 } on-error={}
 :do { add list=RU address=91.205.24.0/22 } on-error={}
@@ -15413,8 +15414,7 @@
 :do { add list=RU address=95.30.73.0/24 } on-error={}
 :do { add list=RU address=95.30.74.0/23 } on-error={}
 :do { add list=RU address=95.30.76.0/22 } on-error={}
-:do { add list=RU address=95.30.80.0/24 } on-error={}
-:do { add list=RU address=95.30.81.0/24 } on-error={}
+:do { add list=RU address=95.30.80.0/23 } on-error={}
 :do { add list=RU address=95.30.82.0/23 } on-error={}
 :do { add list=RU address=95.30.84.0/23 } on-error={}
 :do { add list=RU address=95.30.86.0/24 } on-error={}
@@ -17955,8 +17955,7 @@
 :do { add list=RU address=138.249.17.0/24 } on-error={}
 :do { add list=RU address=138.249.18.0/24 } on-error={}
 :do { add list=RU address=138.249.26.0/24 } on-error={}
-:do { add list=RU address=138.249.102.0/24 } on-error={}
-:do { add list=RU address=138.249.103.0/24 } on-error={}
+:do { add list=RU address=138.249.102.0/23 } on-error={}
 :do { add list=RU address=138.249.120.192/27 } on-error={}
 :do { add list=RU address=138.249.120.240/28 } on-error={}
 :do { add list=RU address=138.249.126.0/24 } on-error={}

@@ -7772,13 +7772,7 @@
 :do { add list=ID address=2406:a0c0::/32 } on-error={}
 :do { add list=ID address=2406:a140::/32 } on-error={}
 :do { add list=ID address=2406:a300::/32 } on-error={}
-:do { add list=ID address=2406:a4c0::/48 } on-error={}
-:do { add list=ID address=2406:a4c0:1::/48 } on-error={}
-:do { add list=ID address=2406:a4c0:2::/47 } on-error={}
-:do { add list=ID address=2406:a4c0:4::/46 } on-error={}
-:do { add list=ID address=2406:a4c0:8::/47 } on-error={}
-:do { add list=ID address=2406:a4c0:a::/47 } on-error={}
-:do { add list=ID address=2406:a4c0:c::/46 } on-error={}
+:do { add list=ID address=2406:a4c0::/44 } on-error={}
 :do { add list=ID address=2406:a4c0:10::/48 } on-error={}
 :do { add list=ID address=2406:a4c0:11::/48 } on-error={}
 :do { add list=ID address=2406:a4c0:12::/47 } on-error={}

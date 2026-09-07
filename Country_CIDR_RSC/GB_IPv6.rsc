@@ -55489,7 +55489,8 @@
 :do { add list=GB address=2a06:9801:1::/48 } on-error={}
 :do { add list=GB address=2a06:9801:5::/48 } on-error={}
 :do { add list=GB address=2a06:9801:8::/48 } on-error={}
-:do { add list=GB address=2a06:9801:c::/47 } on-error={}
+:do { add list=GB address=2a06:9801:c::/48 } on-error={}
+:do { add list=GB address=2a06:9801:d::/48 } on-error={}
 :do { add list=GB address=2a06:9801:e::/50 } on-error={}
 :do { add list=GB address=2a06:9801:f::/48 } on-error={}
 :do { add list=GB address=2a06:9801:11::/50 } on-error={}

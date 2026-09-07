@@ -1040,7 +1040,8 @@
 :do { add list=BD address=2400:3dc0:47::/48 } on-error={}
 :do { add list=BD address=2400:3dc0:48::/48 } on-error={}
 :do { add list=BD address=2400:3dc0:49::/48 } on-error={}
-:do { add list=BD address=2400:3dc0:4a::/47 } on-error={}
+:do { add list=BD address=2400:3dc0:4a::/48 } on-error={}
+:do { add list=BD address=2400:3dc0:4b::/48 } on-error={}
 :do { add list=BD address=2400:3dc0:4c::/48 } on-error={}
 :do { add list=BD address=2400:3dc0:4d::/48 } on-error={}
 :do { add list=BD address=2400:3dc0:4e::/47 } on-error={}
