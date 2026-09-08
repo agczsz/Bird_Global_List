@@ -318,6 +318,7 @@
 :do { add list=LI address=2a0a:6044:f564::/46 } on-error={}
 :do { add list=LI address=2a0a:6044:f568::/45 } on-error={}
 :do { add list=LI address=2a0a:6044:f570::/47 } on-error={}
+:do { add list=LI address=2a0a:7300:3fff::/48 } on-error={}
 :do { add list=LI address=2a0a:9607:6000:4000::/50 } on-error={}
 :do { add list=LI address=2a0a:9607:6000:8000::/49 } on-error={}
 :do { add list=LI address=2a0a:9607:6001:4000::/50 } on-error={}

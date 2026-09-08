@@ -2,7 +2,6 @@
 /ipv6 firewall address-list
 :do { add list=MQ address=2001:470:709b::/48 } on-error={}
 :do { add list=MQ address=2001:470:f4af::/48 } on-error={}
-:do { add list=MQ address=2001:470:fca6::/48 } on-error={}
 :do { add list=MQ address=2001:661:2901::/50 } on-error={}
 :do { add list=MQ address=2001:3786:bb03:200::/56 } on-error={}
 :do { add list=MQ address=2001:4b28:4500::/40 } on-error={}

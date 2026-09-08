@@ -25,7 +25,6 @@
 :do { add list=KZ address=2001:470:1bd0::/48 } on-error={}
 :do { add list=KZ address=2001:470:1f09:2a9::/64 } on-error={}
 :do { add list=KZ address=2001:470:1f0b:3c4::/64 } on-error={}
-:do { add list=KZ address=2001:470:1f0b:607::/64 } on-error={}
 :do { add list=KZ address=2001:470:1f0f:254::/64 } on-error={}
 :do { add list=KZ address=2001:470:1f15:662::/64 } on-error={}
 :do { add list=KZ address=2001:470:1f15:753::/64 } on-error={}

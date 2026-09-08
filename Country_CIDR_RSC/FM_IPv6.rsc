@@ -2,6 +2,7 @@
 /ipv6 firewall address-list
 :do { add list=FM address=2001:470:36:8e1::/64 } on-error={}
 :do { add list=FM address=2001:470:1f05:23b::/64 } on-error={}
+:do { add list=FM address=2001:470:2966::/48 } on-error={}
 :do { add list=FM address=2001:470:7329::/48 } on-error={}
 :do { add list=FM address=2001:470:810a::/48 } on-error={}
 :do { add list=FM address=2001:470:eead::/48 } on-error={}

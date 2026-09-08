@@ -980,7 +980,6 @@
 :do { add list=BY address=2a14:7581:be0:7000::/56 } on-error={}
 :do { add list=BY address=2a14:7581:3b1b::/48 } on-error={}
 :do { add list=BY address=2a14:7581:9f90::/48 } on-error={}
-:do { add list=BY address=2a14:7583:f60c::/48 } on-error={}
 :do { add list=BY address=2a14:7585:f007::/48 } on-error={}
 :do { add list=BY address=2a14:c380:36d::/48 } on-error={}
 :do { add list=BY address=2a14:c380:761::/48 } on-error={}

@@ -279,8 +279,7 @@
 :do { add list=BT address=2405:ec00:8000:a::/63 } on-error={}
 :do { add list=BT address=2405:ec00:8000:e::/63 } on-error={}
 :do { add list=BT address=2405:ec00:8000:11::/64 } on-error={}
-:do { add list=BT address=2405:ec00:8000:15::/64 } on-error={}
-:do { add list=BT address=2405:ec00:8000:16::/63 } on-error={}
+:do { add list=BT address=2405:ec00:8000:14::/62 } on-error={}
 :do { add list=BT address=2405:ec00:8000:18::/63 } on-error={}
 :do { add list=BT address=2405:ec00:8000:1b::/64 } on-error={}
 :do { add list=BT address=2405:ec00:8000:1c::/62 } on-error={}

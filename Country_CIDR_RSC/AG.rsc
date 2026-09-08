@@ -155,7 +155,6 @@
 :do { add list=AG address=206.214.12.24/29 } on-error={}
 :do { add list=AG address=206.214.12.32/28 } on-error={}
 :do { add list=AG address=206.214.12.48/29 } on-error={}
-:do { add list=AG address=206.214.12.60/30 } on-error={}
 :do { add list=AG address=206.214.12.64/29 } on-error={}
 :do { add list=AG address=206.214.12.73/32 } on-error={}
 :do { add list=AG address=206.214.12.74/31 } on-error={}

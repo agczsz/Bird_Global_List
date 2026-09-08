@@ -21,6 +21,7 @@
 :do { add list=TC address=2405:b500:6d40::/64 } on-error={}
 :do { add list=TC address=2405:b500:6d60::/64 } on-error={}
 :do { add list=TC address=2600:70ff:a43e::/48 } on-error={}
+:do { add list=TC address=2600:70ff:b3c2:3a::/64 } on-error={}
 :do { add list=TC address=2602:ff48::/36 } on-error={}
 :do { add list=TC address=2604:a180:5000::/36 } on-error={}
 :do { add list=TC address=2604:a180:a000::/35 } on-error={}

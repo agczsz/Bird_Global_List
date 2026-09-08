@@ -8227,7 +8227,6 @@
 :do { add list=MU address=2c0f:feb0:2b:2000::/51 } on-error={}
 :do { add list=MU address=2c0f:feb0:2b:4000::/50 } on-error={}
 :do { add list=MU address=2c0f:feb0:2b:8000::/49 } on-error={}
-:do { add list=MU address=2c0f:feb0:2e::/48 } on-error={}
 :do { add list=MU address=2c0f:feb0:30::/48 } on-error={}
 :do { add list=MU address=2c0f:feb0:32::/47 } on-error={}
 :do { add list=MU address=2c0f:feb0:35::/48 } on-error={}

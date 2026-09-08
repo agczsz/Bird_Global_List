@@ -7,7 +7,9 @@
 :do { add list=ML address=2001:43fd:9000::/48 } on-error={}
 :do { add list=ML address=2001:4b28:4a00::/40 } on-error={}
 :do { add list=ML address=2401:3620:231:97::/64 } on-error={}
+:do { add list=ML address=2401:f1e0:ffff:8941::/64 } on-error={}
 :do { add list=ML address=2401:f1e0:ffff:9eb0::/64 } on-error={}
+:do { add list=ML address=2401:f1e0:ffff:faf7::/64 } on-error={}
 :do { add list=ML address=2405:b500:4a80::/64 } on-error={}
 :do { add list=ML address=2405:b500:4aa0::/64 } on-error={}
 :do { add list=ML address=2405:b500:4ac0::/64 } on-error={}
@@ -191,8 +193,7 @@
 :do { add list=ML address=2c0f:e870::/32 } on-error={}
 :do { add list=ML address=2c0f:f900::/58 } on-error={}
 :do { add list=ML address=2c0f:f900:0:40::/60 } on-error={}
-:do { add list=ML address=2c0f:f900:0:50::/63 } on-error={}
-:do { add list=ML address=2c0f:f900:0:52::/64 } on-error={}
+:do { add list=ML address=2c0f:f900:0:50::/62 } on-error={}
 :do { add list=ML address=2c0f:f900:0:54::/63 } on-error={}
 :do { add list=ML address=2c0f:f900:0:56::/64 } on-error={}
 :do { add list=ML address=2c0f:f900:0:58::/61 } on-error={}
@@ -208,7 +209,8 @@
 :do { add list=ML address=2c0f:f900:0:8000::/49 } on-error={}
 :do { add list=ML address=2c0f:f900:1::/48 } on-error={}
 :do { add list=ML address=2c0f:f900:2:2::/64 } on-error={}
-:do { add list=ML address=2c0f:f900:2:4::/62 } on-error={}
+:do { add list=ML address=2c0f:f900:2:5::/64 } on-error={}
+:do { add list=ML address=2c0f:f900:2:6::/63 } on-error={}
 :do { add list=ML address=2c0f:f900:2:8::/61 } on-error={}
 :do { add list=ML address=2c0f:f900:2:10::/60 } on-error={}
 :do { add list=ML address=2c0f:f900:2:20::/59 } on-error={}
@@ -218,6 +220,7 @@
 :do { add list=ML address=2c0f:f900:2:200::/55 } on-error={}
 :do { add list=ML address=2c0f:f900:2:400::/54 } on-error={}
 :do { add list=ML address=2c0f:f900:2:800::/53 } on-error={}
+:do { add list=ML address=2c0f:f900:2:1001::/64 } on-error={}
 :do { add list=ML address=2c0f:f900:2:1002::/63 } on-error={}
 :do { add list=ML address=2c0f:f900:2:1004::/62 } on-error={}
 :do { add list=ML address=2c0f:f900:2:1008::/61 } on-error={}

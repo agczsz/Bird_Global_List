@@ -6,7 +6,6 @@
 :do { add list=AF address=2001:470:26:2f7::/64 } on-error={}
 :do { add list=AF address=2001:470:26:6a8::/64 } on-error={}
 :do { add list=AF address=2001:470:36:7c9::/64 } on-error={}
-:do { add list=AF address=2001:470:6f:515::/64 } on-error={}
 :do { add list=AF address=2001:470:1f0b:d3e::/64 } on-error={}
 :do { add list=AF address=2001:470:1f21:10::/64 } on-error={}
 :do { add list=AF address=2001:470:1f21:144::/63 } on-error={}

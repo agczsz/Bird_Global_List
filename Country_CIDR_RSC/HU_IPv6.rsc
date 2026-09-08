@@ -1,6 +1,5 @@
 /log info "Loading HU IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=HU address=2001:470:0:7f::/64 } on-error={}
 :do { add list=HU address=2001:470:0:2ba::/64 } on-error={}
 :do { add list=HU address=2001:470:0:2c0::1/128 } on-error={}
 :do { add list=HU address=2001:470:0:365::2/128 } on-error={}
@@ -93,6 +92,7 @@
 :do { add list=HU address=2001:470:1f1b:9a::/63 } on-error={}
 :do { add list=HU address=2001:470:1f1b:9c::/62 } on-error={}
 :do { add list=HU address=2001:470:1f1b:a0::/63 } on-error={}
+:do { add list=HU address=2001:470:1f1b:a3::/64 } on-error={}
 :do { add list=HU address=2001:470:1f1b:a5::/64 } on-error={}
 :do { add list=HU address=2001:470:1f1b:a6::/63 } on-error={}
 :do { add list=HU address=2001:470:1f1b:a9::/64 } on-error={}
@@ -1168,6 +1168,7 @@
 :do { add list=HU address=2001:2035:0:a5f::/64 } on-error={}
 :do { add list=HU address=2001:2035:0:bf0::/64 } on-error={}
 :do { add list=HU address=2001:2035:0:e42::/64 } on-error={}
+:do { add list=HU address=2001:2035:0:1177::/64 } on-error={}
 :do { add list=HU address=2001:2035:0:11a3::/64 } on-error={}
 :do { add list=HU address=2001:2035:0:11cd::/64 } on-error={}
 :do { add list=HU address=2001:2035:0:11dd::/64 } on-error={}
@@ -1192,7 +1193,6 @@
 :do { add list=HU address=2001:2035:0:2940::/64 } on-error={}
 :do { add list=HU address=2001:2035:0:29f0::/64 } on-error={}
 :do { add list=HU address=2001:2035:0:2a42::/64 } on-error={}
-:do { add list=HU address=2001:2035:0:2df5::/64 } on-error={}
 :do { add list=HU address=2001:2035:0:2df6::/64 } on-error={}
 :do { add list=HU address=2001:3786:5001:100::/56 } on-error={}
 :do { add list=HU address=2001:3786:abab::/48 } on-error={}
@@ -1267,6 +1267,7 @@
 :do { add list=HU address=2001:4c49::/32 } on-error={}
 :do { add list=HU address=2001:4c4a::/31 } on-error={}
 :do { add list=HU address=2001:4c4c::/30 } on-error={}
+:do { add list=HU address=2001:5000::16:1:1/128 } on-error={}
 :do { add list=HU address=2001:5000:0:4e::2/128 } on-error={}
 :do { add list=HU address=2001:5000:0:66::1/128 } on-error={}
 :do { add list=HU address=2001:5000:0:d6::1/128 } on-error={}
@@ -2740,8 +2741,6 @@
 :do { add list=HU address=2a00:1878::/29 } on-error={}
 :do { add list=HU address=2a00:1b90::/32 } on-error={}
 :do { add list=HU address=2a00:1f40::/29 } on-error={}
-:do { add list=HU address=2a00:2000:0:83::/64 } on-error={}
-:do { add list=HU address=2a00:2000:0:4083::/64 } on-error={}
 :do { add list=HU address=2a00:2000:0:8040::ba/127 } on-error={}
 :do { add list=HU address=2a00:2000:0:8080::76/128 } on-error={}
 :do { add list=HU address=2a00:2000:0:80c0::26/128 } on-error={}
@@ -2821,6 +2820,8 @@
 :do { add list=HU address=2a00:e6a0:2000::/35 } on-error={}
 :do { add list=HU address=2a00:e6a0:4000::/34 } on-error={}
 :do { add list=HU address=2a00:e6a0:8000::/33 } on-error={}
+:do { add list=HU address=2a01:111:2000::1:0:3b/128 } on-error={}
+:do { add list=HU address=2a01:111:2000::1:0:3c/128 } on-error={}
 :do { add list=HU address=2a01:111:2000:1::2566/128 } on-error={}
 :do { add list=HU address=2a01:111:2000:1::256a/128 } on-error={}
 :do { add list=HU address=2a01:111:2000:1::25b2/128 } on-error={}
@@ -2899,7 +2900,6 @@
 :do { add list=HU address=2a01:368::/29 } on-error={}
 :do { add list=HU address=2a01:3e0:3400::/50 } on-error={}
 :do { add list=HU address=2a01:3e0:3401::/48 } on-error={}
-:do { add list=HU address=2a01:3e2:3400::/64 } on-error={}
 :do { add list=HU address=2a01:3e4:3400::/64 } on-error={}
 :do { add list=HU address=2a01:3e6:3400::/64 } on-error={}
 :do { add list=HU address=2a01:4a0::23/128 } on-error={}

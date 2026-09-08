@@ -334,6 +334,5 @@
 :do { add list=JM address=2a14:7581:b17:6f00::/56 } on-error={}
 :do { add list=JM address=2a14:7581:be1:8400::/56 } on-error={}
 :do { add list=JM address=2a14:7581:3b76::/48 } on-error={}
-:do { add list=JM address=2a14:7583:f614::/48 } on-error={}
 :do { add list=JM address=2a14:7585:f114::/48 } on-error={}
 :do { add list=JM address=2a14:c380:797::/48 } on-error={}
