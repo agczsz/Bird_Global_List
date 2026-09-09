@@ -2,11 +2,19 @@
 /ipv6 firewall address-list
 :do { add list=SO address=2001:470:19a6::/48 } on-error={}
 :do { add list=SO address=2001:470:1f27:37::/64 } on-error={}
+:do { add list=SO address=2001:470:3096::/48 } on-error={}
+:do { add list=SO address=2001:470:30ab::/48 } on-error={}
+:do { add list=SO address=2001:470:30ae::/48 } on-error={}
+:do { add list=SO address=2001:470:30b1::/48 } on-error={}
+:do { add list=SO address=2001:470:30b3::/48 } on-error={}
+:do { add list=SO address=2001:470:30b8::/48 } on-error={}
+:do { add list=SO address=2001:470:30ba::/47 } on-error={}
+:do { add list=SO address=2001:470:30bd::/48 } on-error={}
+:do { add list=SO address=2001:470:30de::/48 } on-error={}
 :do { add list=SO address=2001:470:3999::/48 } on-error={}
 :do { add list=SO address=2001:470:39e3::/48 } on-error={}
 :do { add list=SO address=2001:470:39e7::/48 } on-error={}
 :do { add list=SO address=2001:470:793c::/48 } on-error={}
-:do { add list=SO address=2001:470:89b1::/48 } on-error={}
 :do { add list=SO address=2001:470:f25e::/48 } on-error={}
 :do { add list=SO address=2001:470:f2ca::/48 } on-error={}
 :do { add list=SO address=2001:470:f3c9::/48 } on-error={}

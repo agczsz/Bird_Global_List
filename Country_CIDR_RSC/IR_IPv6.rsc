@@ -7325,7 +7325,10 @@
 :do { add list=IR address=2a04:6e00::/29 } on-error={}
 :do { add list=IR address=2a04:7900::/29 } on-error={}
 :do { add list=IR address=2a04:8540::/29 } on-error={}
-:do { add list=IR address=2a04:87c0::/29 } on-error={}
+:do { add list=IR address=2a04:87c0::/32 } on-error={}
+:do { add list=IR address=2a04:87c1::/32 } on-error={}
+:do { add list=IR address=2a04:87c2::/31 } on-error={}
+:do { add list=IR address=2a04:87c4::/30 } on-error={}
 :do { add list=IR address=2a04:8cc0::/29 } on-error={}
 :do { add list=IR address=2a04:9240::/29 } on-error={}
 :do { add list=IR address=2a04:9a80::/29 } on-error={}

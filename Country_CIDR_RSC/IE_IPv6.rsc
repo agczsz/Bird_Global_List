@@ -51,6 +51,7 @@
 :do { add list=IE address=2001:470:1f09:3e6::/64 } on-error={}
 :do { add list=IE address=2001:470:1f15:a79::/64 } on-error={}
 :do { add list=IE address=2001:470:1f29:244::/64 } on-error={}
+:do { add list=IE address=2001:470:3032::/48 } on-error={}
 :do { add list=IE address=2001:470:5893::/48 } on-error={}
 :do { add list=IE address=2001:470:5a03::/48 } on-error={}
 :do { add list=IE address=2001:470:612a::/48 } on-error={}
@@ -2853,7 +2854,6 @@
 :do { add list=IE address=2a01:3e4:3d00::/64 } on-error={}
 :do { add list=IE address=2a01:3e6:3d00::/64 } on-error={}
 :do { add list=IE address=2a01:3e8:3d00::/64 } on-error={}
-:do { add list=IE address=2a01:3ea:3d00::/64 } on-error={}
 :do { add list=IE address=2a01:3ec:3d00::/64 } on-error={}
 :do { add list=IE address=2a01:3f0:3d00::/64 } on-error={}
 :do { add list=IE address=2a01:3f2:3d00::/64 } on-error={}
@@ -5010,14 +5010,6 @@
 :do { add list=IE address=2a03:ea0::/32 } on-error={}
 :do { add list=IE address=2a03:1f40::/32 } on-error={}
 :do { add list=IE address=2a03:2240::/32 } on-error={}
-:do { add list=IE address=2a03:2880:800::/41 } on-error={}
-:do { add list=IE address=2a03:2880:880::/42 } on-error={}
-:do { add list=IE address=2a03:2880:8c0::/43 } on-error={}
-:do { add list=IE address=2a03:2880:8e0::/44 } on-error={}
-:do { add list=IE address=2a03:2880:8f0::/45 } on-error={}
-:do { add list=IE address=2a03:2880:8f8::/46 } on-error={}
-:do { add list=IE address=2a03:2880:8fc::/47 } on-error={}
-:do { add list=IE address=2a03:2880:8fe::/48 } on-error={}
 :do { add list=IE address=2a03:2880:a00::/39 } on-error={}
 :do { add list=IE address=2a03:2880:c00::/41 } on-error={}
 :do { add list=IE address=2a03:2880:c80::/42 } on-error={}
@@ -6650,6 +6642,7 @@
 :do { add list=IE address=2a09:bac0:1000:17b2::/64 } on-error={}
 :do { add list=IE address=2a09:bac0:1000:17e7::/64 } on-error={}
 :do { add list=IE address=2a09:bac0:1000:17f1::/64 } on-error={}
+:do { add list=IE address=2a09:bac0:1000:1888::/64 } on-error={}
 :do { add list=IE address=2a09:bac0:1000:1c48::/64 } on-error={}
 :do { add list=IE address=2a09:bac0:1000:1cc4::/63 } on-error={}
 :do { add list=IE address=2a09:bac0:1000:1cc6::/64 } on-error={}

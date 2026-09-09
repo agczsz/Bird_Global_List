@@ -1,6 +1,5 @@
 /log info "Loading IM IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=IM address=2001:470:60::/48 } on-error={}
 :do { add list=IM address=2001:470:1825::/48 } on-error={}
 :do { add list=IM address=2001:470:1847::/48 } on-error={}
 :do { add list=IM address=2001:470:1865::/48 } on-error={}
@@ -692,7 +691,6 @@
 :do { add list=IM address=2a0f:1cc5:b17:ee00::/56 } on-error={}
 :do { add list=IM address=2a0f:6283:b000::/36 } on-error={}
 :do { add list=IM address=2a0f:a302:d800::/37 } on-error={}
-:do { add list=IM address=2a10:fa81:1867::/48 } on-error={}
 :do { add list=IM address=2a11:29c0:3d88:33e2::/64 } on-error={}
 :do { add list=IM address=2a11:29c0:3d88:acfa::/64 } on-error={}
 :do { add list=IM address=2a11:a684:8000::/36 } on-error={}

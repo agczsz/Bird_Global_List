@@ -357,7 +357,6 @@
 :do { add list=GP address=2a0f:85c1:802::/48 } on-error={}
 :do { add list=GP address=2a0f:85c1:cde::/48 } on-error={}
 :do { add list=GP address=2a0f:a301:4000::/37 } on-error={}
-:do { add list=GP address=2a10:fa81:1856::/48 } on-error={}
 :do { add list=GP address=2a11:29c0:3d88:5be6::/64 } on-error={}
 :do { add list=GP address=2a11:29c0:3d88:5c76::/64 } on-error={}
 :do { add list=GP address=2a11:29c0:3d88:652e::/64 } on-error={}

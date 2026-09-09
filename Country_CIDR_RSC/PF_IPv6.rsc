@@ -2,7 +2,6 @@
 /ipv6 firewall address-list
 :do { add list=PF address=2001:470:1f2d:74::/64 } on-error={}
 :do { add list=PF address=2001:470:2841::/48 } on-error={}
-:do { add list=PF address=2001:470:898a::/48 } on-error={}
 :do { add list=PF address=2001:470:f130::/48 } on-error={}
 :do { add list=PF address=2001:de8:16::/48 } on-error={}
 :do { add list=PF address=2001:df6:8080::/48 } on-error={}
@@ -198,7 +197,6 @@
 :do { add list=PF address=2a0f:6280:c82f::/48 } on-error={}
 :do { add list=PF address=2a0f:9403:f0::/44 } on-error={}
 :do { add list=PF address=2a0f:a301:c000::/37 } on-error={}
-:do { add list=PF address=2a10:fa81:18ae::/48 } on-error={}
 :do { add list=PF address=2a11:29c0:3d88:29f2::/64 } on-error={}
 :do { add list=PF address=2a11:29c0:3d88:57eb::/64 } on-error={}
 :do { add list=PF address=2a11:29c0:3d88:5b1c::/64 } on-error={}

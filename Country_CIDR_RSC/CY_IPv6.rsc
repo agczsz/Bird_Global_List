@@ -2,7 +2,6 @@
 /ipv6 firewall address-list
 :do { add list=CY address=2001:470:26:825::/64 } on-error={}
 :do { add list=CY address=2001:470:28:50e::/64 } on-error={}
-:do { add list=CY address=2001:470:6f:23b::/64 } on-error={}
 :do { add list=CY address=2001:470:6f:349::/64 } on-error={}
 :do { add list=CY address=2001:470:71:10e::/64 } on-error={}
 :do { add list=CY address=2001:470:71:5e4::/64 } on-error={}

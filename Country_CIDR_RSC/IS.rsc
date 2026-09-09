@@ -467,6 +467,7 @@
 :do { add list=IS address=185.136.46.24/31 } on-error={}
 :do { add list=IS address=185.136.46.40/31 } on-error={}
 :do { add list=IS address=185.136.46.42/32 } on-error={}
+:do { add list=IS address=185.136.46.58/32 } on-error={}
 :do { add list=IS address=185.136.46.64/26 } on-error={}
 :do { add list=IS address=185.136.46.128/25 } on-error={}
 :do { add list=IS address=185.138.172.0/22 } on-error={}

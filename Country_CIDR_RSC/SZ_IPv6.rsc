@@ -143,7 +143,6 @@
 :do { add list=SZ address=2a0f:85c1:81b:f3c0::/60 } on-error={}
 :do { add list=SZ address=2a0f:9403:a70::/44 } on-error={}
 :do { add list=SZ address=2a0f:a303::/37 } on-error={}
-:do { add list=SZ address=2a10:fa81:18d4::/48 } on-error={}
 :do { add list=SZ address=2a11:29c0:3d88:4c18::/64 } on-error={}
 :do { add list=SZ address=2a11:29c0:3d88:5dbe::/64 } on-error={}
 :do { add list=SZ address=2a11:29c0:3d88:9786::/64 } on-error={}

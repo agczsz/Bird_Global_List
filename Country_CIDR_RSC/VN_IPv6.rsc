@@ -62,6 +62,7 @@
 :do { add list=VN address=2001:470:2a63::/48 } on-error={}
 :do { add list=VN address=2001:470:2aad::/48 } on-error={}
 :do { add list=VN address=2001:470:2acf::/48 } on-error={}
+:do { add list=VN address=2001:470:30bf::/48 } on-error={}
 :do { add list=VN address=2001:470:3896::/48 } on-error={}
 :do { add list=VN address=2001:470:38d8::/48 } on-error={}
 :do { add list=VN address=2001:470:408f::/48 } on-error={}
@@ -81,7 +82,6 @@
 :do { add list=VN address=2001:470:80f9::/48 } on-error={}
 :do { add list=VN address=2001:470:8434::/48 } on-error={}
 :do { add list=VN address=2001:470:850f::/48 } on-error={}
-:do { add list=VN address=2001:470:8a16::/48 } on-error={}
 :do { add list=VN address=2001:470:8b6f::/48 } on-error={}
 :do { add list=VN address=2001:470:8b85::/48 } on-error={}
 :do { add list=VN address=2001:470:8be1::/48 } on-error={}
@@ -8160,14 +8160,13 @@
 :do { add list=VN address=2a14:7583:f030::/46 } on-error={}
 :do { add list=VN address=2a14:7583:f034::/46 } on-error={}
 :do { add list=VN address=2a14:7583:f038::/45 } on-error={}
-:do { add list=VN address=2a14:7583:f040::/42 } on-error={}
+:do { add list=VN address=2a14:7583:f040::/46 } on-error={}
+:do { add list=VN address=2a14:7583:f044::/46 } on-error={}
+:do { add list=VN address=2a14:7583:f048::/45 } on-error={}
+:do { add list=VN address=2a14:7583:f050::/44 } on-error={}
+:do { add list=VN address=2a14:7583:f060::/43 } on-error={}
 :do { add list=VN address=2a14:7583:f080::/41 } on-error={}
-:do { add list=VN address=2a14:7583:f100::/42 } on-error={}
-:do { add list=VN address=2a14:7583:f140::/46 } on-error={}
-:do { add list=VN address=2a14:7583:f144::/46 } on-error={}
-:do { add list=VN address=2a14:7583:f148::/45 } on-error={}
-:do { add list=VN address=2a14:7583:f150::/44 } on-error={}
-:do { add list=VN address=2a14:7583:f160::/43 } on-error={}
+:do { add list=VN address=2a14:7583:f100::/41 } on-error={}
 :do { add list=VN address=2a14:7583:f180::/43 } on-error={}
 :do { add list=VN address=2a14:7583:f1a0::/45 } on-error={}
 :do { add list=VN address=2a14:7583:f1a8::/46 } on-error={}

@@ -7,13 +7,14 @@
 :do { add list=MP address=8.3.123.43/32 } on-error={}
 :do { add list=MP address=8.3.123.45/32 } on-error={}
 :do { add list=MP address=8.3.123.48/31 } on-error={}
-:do { add list=MP address=8.3.123.66/32 } on-error={}
+:do { add list=MP address=8.3.123.66/31 } on-error={}
 :do { add list=MP address=8.3.123.71/32 } on-error={}
 :do { add list=MP address=8.3.123.90/32 } on-error={}
 :do { add list=MP address=8.3.123.133/32 } on-error={}
-:do { add list=MP address=8.3.123.170/32 } on-error={}
 :do { add list=MP address=8.3.123.178/32 } on-error={}
 :do { add list=MP address=8.3.123.185/32 } on-error={}
+:do { add list=MP address=8.3.123.193/32 } on-error={}
+:do { add list=MP address=8.3.123.202/32 } on-error={}
 :do { add list=MP address=8.3.123.214/31 } on-error={}
 :do { add list=MP address=8.3.124.0/23 } on-error={}
 :do { add list=MP address=8.3.126.0/24 } on-error={}

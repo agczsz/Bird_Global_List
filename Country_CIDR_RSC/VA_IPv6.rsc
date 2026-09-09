@@ -176,7 +176,6 @@
 :do { add list=VA address=2a10:ccc1:ccc3::/48 } on-error={}
 :do { add list=VA address=2a10:ccc1:ccc4::/46 } on-error={}
 :do { add list=VA address=2a10:ccc1:ccc8::/45 } on-error={}
-:do { add list=VA address=2a10:fa81:18eb::/48 } on-error={}
 :do { add list=VA address=2a11:3a85::/35 } on-error={}
 :do { add list=VA address=2a12:bec0:395::/48 } on-error={}
 :do { add list=VA address=2a12:f381:f300::/40 } on-error={}

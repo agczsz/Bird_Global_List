@@ -443,8 +443,7 @@
 :do { add list=LK address=203.81.100.0/23 } on-error={}
 :do { add list=LK address=203.81.102.0/24 } on-error={}
 :do { add list=LK address=203.81.103.0/24 } on-error={}
-:do { add list=LK address=203.81.104.0/24 } on-error={}
-:do { add list=LK address=203.81.105.0/24 } on-error={}
+:do { add list=LK address=203.81.104.0/23 } on-error={}
 :do { add list=LK address=203.81.106.0/23 } on-error={}
 :do { add list=LK address=203.81.108.0/22 } on-error={}
 :do { add list=LK address=203.94.64.0/19 } on-error={}

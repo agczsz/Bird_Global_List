@@ -311,6 +311,7 @@
 :do { add list=BY address=93.125.125.0/24 } on-error={}
 :do { add list=BY address=93.125.126.0/24 } on-error={}
 :do { add list=BY address=93.125.127.0/24 } on-error={}
+:do { add list=BY address=93.158.191.232/30 } on-error={}
 :do { add list=BY address=93.170.28.0/22 } on-error={}
 :do { add list=BY address=93.170.34.0/24 } on-error={}
 :do { add list=BY address=93.170.143.0/24 } on-error={}

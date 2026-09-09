@@ -211,7 +211,6 @@
 :do { add list=NC address=2a0f:1cc5:b17:9c00::/56 } on-error={}
 :do { add list=NC address=2a0f:9403:140::/44 } on-error={}
 :do { add list=NC address=2a0f:a300:d800::/37 } on-error={}
-:do { add list=NC address=2a10:fa81:18a0::/48 } on-error={}
 :do { add list=NC address=2a11:29c0:3d88:338e::/64 } on-error={}
 :do { add list=NC address=2a11:29c0:3d88:51f8::/64 } on-error={}
 :do { add list=NC address=2a11:29c0:3d88:55da::/64 } on-error={}

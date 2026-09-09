@@ -1,7 +1,5 @@
 /log info "Loading UM IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=UM address=2001:470:6f:7b::/64 } on-error={}
-:do { add list=UM address=2001:470:6f:512::/64 } on-error={}
 :do { add list=UM address=2001:470:180a::/48 } on-error={}
 :do { add list=UM address=2001:470:1aaf::/48 } on-error={}
 :do { add list=UM address=2001:470:283f::/48 } on-error={}
@@ -33,6 +31,7 @@
 :do { add list=UM address=2600:70ff:a5a5::/48 } on-error={}
 :do { add list=UM address=2600:70ff:a91d::/48 } on-error={}
 :do { add list=UM address=2600:70ff:f062::/48 } on-error={}
+:do { add list=UM address=2604:ca00:105:c000::/50 } on-error={}
 :do { add list=UM address=2604:ca00:115::/48 } on-error={}
 :do { add list=UM address=2604:ca00:145::/48 } on-error={}
 :do { add list=UM address=2604:ca00:155::/48 } on-error={}
@@ -94,7 +93,6 @@
 :do { add list=UM address=2a0e:4001:9ff:ec::/64 } on-error={}
 :do { add list=UM address=2a0f:5707:ffa5:4000::/50 } on-error={}
 :do { add list=UM address=2a0f:5707:ffa5:8000::/49 } on-error={}
-:do { add list=UM address=2a10:fa81:18e7::/48 } on-error={}
 :do { add list=UM address=2a11:3a84:a000::/35 } on-error={}
 :do { add list=UM address=2a12:dd47:8feb::/48 } on-error={}
 :do { add list=UM address=2a12:f006::/36 } on-error={}
@@ -103,14 +101,6 @@
 :do { add list=UM address=2a12:f8c3:1:eab5::/64 } on-error={}
 :do { add list=UM address=2a13:a5c7:25e7::/48 } on-error={}
 :do { add list=UM address=2a13:a5c7:25ff:e700::/56 } on-error={}
-:do { add list=UM address=2a13:aac4::/36 } on-error={}
-:do { add list=UM address=2a13:aac4:1000::/37 } on-error={}
-:do { add list=UM address=2a13:aac4:1800::/37 } on-error={}
-:do { add list=UM address=2a13:aac4:2000::/35 } on-error={}
-:do { add list=UM address=2a13:aac4:4000::/34 } on-error={}
-:do { add list=UM address=2a13:aac4:8000::/34 } on-error={}
-:do { add list=UM address=2a13:aac4:c000::/35 } on-error={}
-:do { add list=UM address=2a13:aac4:e000::/36 } on-error={}
 :do { add list=UM address=2a13:aac4:f030::/44 } on-error={}
 :do { add list=UM address=2a13:aac4:f070::/44 } on-error={}
 :do { add list=UM address=2a13:aac4:f080::/41 } on-error={}

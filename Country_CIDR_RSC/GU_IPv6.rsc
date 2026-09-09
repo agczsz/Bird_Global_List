@@ -510,7 +510,6 @@
 :do { add list=GU address=2a0f:1cc5:b17:5c00::/56 } on-error={}
 :do { add list=GU address=2a0f:1cc5:1fe8::/48 } on-error={}
 :do { add list=GU address=2a0f:a302:6000::/37 } on-error={}
-:do { add list=GU address=2a10:fa81:185b::/48 } on-error={}
 :do { add list=GU address=2a11:29c0:3d88:1468::/64 } on-error={}
 :do { add list=GU address=2a11:29c0:3d88:42da::/64 } on-error={}
 :do { add list=GU address=2a11:29c0:3d88:67a4::/64 } on-error={}

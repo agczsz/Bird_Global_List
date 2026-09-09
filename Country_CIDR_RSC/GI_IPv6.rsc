@@ -220,7 +220,6 @@
 :do { add list=GI address=2a10:eb80:ff20::/43 } on-error={}
 :do { add list=GI address=2a10:eb80:ff40::/42 } on-error={}
 :do { add list=GI address=2a10:eb80:ff80::/41 } on-error={}
-:do { add list=GI address=2a10:fa81:1852::/48 } on-error={}
 :do { add list=GI address=2a11:a683:8000::/36 } on-error={}
 :do { add list=GI address=2a12:f000:1000::/36 } on-error={}
 :do { add list=GI address=2a12:f381:cb00::/40 } on-error={}

@@ -27,7 +27,6 @@
 :do { add list=FJ address=2401:5100::/48 } on-error={}
 :do { add list=FJ address=2401:5100:1:10::/64 } on-error={}
 :do { add list=FJ address=2401:5100:1:16::/64 } on-error={}
-:do { add list=FJ address=2401:5100:1:31::/64 } on-error={}
 :do { add list=FJ address=2401:5100:1:4000::/50 } on-error={}
 :do { add list=FJ address=2401:5100:1:8000::/49 } on-error={}
 :do { add list=FJ address=2401:5100:2::/47 } on-error={}

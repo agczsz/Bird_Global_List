@@ -222,11 +222,6 @@
 :do { add list=VG address=2605:7a80:9820::/43 } on-error={}
 :do { add list=VG address=2605:7a80:9840::/42 } on-error={}
 :do { add list=VG address=2605:7a80:9880::/41 } on-error={}
-:do { add list=VG address=2605:7a80:991a::/47 } on-error={}
-:do { add list=VG address=2605:7a80:991c::/46 } on-error={}
-:do { add list=VG address=2605:7a80:9920::/43 } on-error={}
-:do { add list=VG address=2605:7a80:9940::/42 } on-error={}
-:do { add list=VG address=2605:7a80:9980::/41 } on-error={}
 :do { add list=VG address=2605:7a80:9a00::/39 } on-error={}
 :do { add list=VG address=2605:7a80:9c00::/38 } on-error={}
 :do { add list=VG address=2605:7a80:a000::/35 } on-error={}
@@ -619,7 +614,6 @@
 :do { add list=VG address=2a0f:6284:52:2000::/54 } on-error={}
 :do { add list=VG address=2a0f:a302:9800::/37 } on-error={}
 :do { add list=VG address=2a10:ebc0::/29 } on-error={}
-:do { add list=VG address=2a10:fa81:18ee::/48 } on-error={}
 :do { add list=VG address=2a11:2880::/29 } on-error={}
 :do { add list=VG address=2a11:3a85:6000::/35 } on-error={}
 :do { add list=VG address=2a12:f006:3000::/36 } on-error={}
