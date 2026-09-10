@@ -967,6 +967,7 @@
 :do { add list=BO address=2a13:241:600::/40 } on-error={}
 :do { add list=BO address=2a13:a5c7:251d::/48 } on-error={}
 :do { add list=BO address=2a13:a5c7:25ff:1c00::/56 } on-error={}
+:do { add list=BO address=2a13:c8c3:e804::/48 } on-error={}
 :do { add list=BO address=2a13:ef41:1142::/47 } on-error={}
 :do { add list=BO address=2a13:ef41:1144::/46 } on-error={}
 :do { add list=BO address=2a13:ef41:1148::/47 } on-error={}

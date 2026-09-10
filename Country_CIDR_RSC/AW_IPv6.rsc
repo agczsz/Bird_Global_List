@@ -25,7 +25,6 @@
 :do { add list=AW address=2405:b500:8a0::/64 } on-error={}
 :do { add list=AW address=2405:b500:8c0::/64 } on-error={}
 :do { add list=AW address=2405:b500:8e0::/64 } on-error={}
-:do { add list=AW address=2600:70ff:c819::/48 } on-error={}
 :do { add list=AW address=2602:2a9:ca0::/44 } on-error={}
 :do { add list=AW address=2605:59c0:7100::/40 } on-error={}
 :do { add list=AW address=2606:40:205d:8000::/51 } on-error={}

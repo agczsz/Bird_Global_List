@@ -64,9 +64,13 @@
 :do { add list=BZ address=2803:b080::/32 } on-error={}
 :do { add list=BZ address=2803:b720::/32 } on-error={}
 :do { add list=BZ address=2803:d520::/32 } on-error={}
-:do { add list=BZ address=2803:d5c0::/33 } on-error={}
+:do { add list=BZ address=2803:d5c0::/35 } on-error={}
+:do { add list=BZ address=2803:d5c0:2000::/35 } on-error={}
+:do { add list=BZ address=2803:d5c0:4000::/35 } on-error={}
+:do { add list=BZ address=2803:d5c0:6000::/35 } on-error={}
 :do { add list=BZ address=2803:d5c0:8000::/34 } on-error={}
-:do { add list=BZ address=2803:d5c0:c000::/34 } on-error={}
+:do { add list=BZ address=2803:d5c0:c000::/35 } on-error={}
+:do { add list=BZ address=2803:d5c0:e000::/35 } on-error={}
 :do { add list=BZ address=2803:e510::/32 } on-error={}
 :do { add list=BZ address=2803:f900::/32 } on-error={}
 :do { add list=BZ address=2a01:528:a300::/40 } on-error={}

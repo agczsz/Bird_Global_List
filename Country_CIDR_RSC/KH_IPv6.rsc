@@ -752,6 +752,7 @@
 :do { add list=KH address=2405:fa00::/32 } on-error={}
 :do { add list=KH address=2406:19c0::/32 } on-error={}
 :do { add list=KH address=2406:2740::/32 } on-error={}
+:do { add list=KH address=2406:2d40:6200::/40 } on-error={}
 :do { add list=KH address=2406:b100::/32 } on-error={}
 :do { add list=KH address=2407:46c0::/32 } on-error={}
 :do { add list=KH address=2407:5e00::/32 } on-error={}

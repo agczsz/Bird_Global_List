@@ -70,8 +70,6 @@
 :do { add list=KP address=2001:470:82ab::/48 } on-error={}
 :do { add list=KP address=2001:470:831c::/48 } on-error={}
 :do { add list=KP address=2001:470:8921::/48 } on-error={}
-:do { add list=KP address=2001:470:8b2f::/48 } on-error={}
-:do { add list=KP address=2001:470:8b8c::/48 } on-error={}
 :do { add list=KP address=2001:470:8c8b::/48 } on-error={}
 :do { add list=KP address=2001:470:8cc3::/48 } on-error={}
 :do { add list=KP address=2001:470:8cc9::/48 } on-error={}

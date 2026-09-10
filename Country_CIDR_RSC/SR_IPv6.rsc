@@ -50,7 +50,6 @@
 :do { add list=SR address=2801:109:4::/46 } on-error={}
 :do { add list=SR address=2801:109:8::/45 } on-error={}
 :do { add list=SR address=2803:a10::/32 } on-error={}
-:do { add list=SR address=2803:5ce0:c00::/40 } on-error={}
 :do { add list=SR address=2803:6e00::/32 } on-error={}
 :do { add list=SR address=2803:a200::/32 } on-error={}
 :do { add list=SR address=2803:ff40::/32 } on-error={}

@@ -83,7 +83,7 @@
 :do { add list=CL address=2001:470:1f2b:dc::/64 } on-error={}
 :do { add list=CL address=2001:470:1f2b:151::/64 } on-error={}
 :do { add list=CL address=2001:470:1f2b:15f::/64 } on-error={}
-:do { add list=CL address=2001:470:1f2b:188::/63 } on-error={}
+:do { add list=CL address=2001:470:1f2b:188::/64 } on-error={}
 :do { add list=CL address=2001:470:1f2b:197::/64 } on-error={}
 :do { add list=CL address=2001:470:1f2b:1db::/64 } on-error={}
 :do { add list=CL address=2001:470:1f2b:1f5::/64 } on-error={}
@@ -186,11 +186,7 @@
 :do { add list=CL address=2001:1398:5::/48 } on-error={}
 :do { add list=CL address=2001:1398:6::/47 } on-error={}
 :do { add list=CL address=2001:1398:8::/45 } on-error={}
-:do { add list=CL address=2001:1398:10::/46 } on-error={}
-:do { add list=CL address=2001:1398:14::/48 } on-error={}
-:do { add list=CL address=2001:1398:15::/48 } on-error={}
-:do { add list=CL address=2001:1398:16::/47 } on-error={}
-:do { add list=CL address=2001:1398:18::/45 } on-error={}
+:do { add list=CL address=2001:1398:10::/44 } on-error={}
 :do { add list=CL address=2001:1398:20::/43 } on-error={}
 :do { add list=CL address=2001:1398:40::/42 } on-error={}
 :do { add list=CL address=2001:1398:80::/41 } on-error={}
@@ -1036,8 +1032,7 @@
 :do { add list=CL address=2800:300:6380::/41 } on-error={}
 :do { add list=CL address=2800:300:6400::/43 } on-error={}
 :do { add list=CL address=2800:300:6420::/43 } on-error={}
-:do { add list=CL address=2800:300:6440::/43 } on-error={}
-:do { add list=CL address=2800:300:6460::/43 } on-error={}
+:do { add list=CL address=2800:300:6440::/42 } on-error={}
 :do { add list=CL address=2800:300:6480::/41 } on-error={}
 :do { add list=CL address=2800:300:6500::/41 } on-error={}
 :do { add list=CL address=2800:300:6580::/42 } on-error={}
@@ -1090,8 +1085,7 @@
 :do { add list=CL address=2800:300:8380::/41 } on-error={}
 :do { add list=CL address=2800:300:8400::/43 } on-error={}
 :do { add list=CL address=2800:300:8420::/43 } on-error={}
-:do { add list=CL address=2800:300:8440::/43 } on-error={}
-:do { add list=CL address=2800:300:8460::/43 } on-error={}
+:do { add list=CL address=2800:300:8440::/42 } on-error={}
 :do { add list=CL address=2800:300:8480::/41 } on-error={}
 :do { add list=CL address=2800:300:8500::/41 } on-error={}
 :do { add list=CL address=2800:300:8580::/42 } on-error={}
@@ -1378,8 +1372,7 @@
 :do { add list=CL address=2801:161::/47 } on-error={}
 :do { add list=CL address=2801:161:2::/48 } on-error={}
 :do { add list=CL address=2801:161:3::/48 } on-error={}
-:do { add list=CL address=2801:161:4::/48 } on-error={}
-:do { add list=CL address=2801:161:5::/48 } on-error={}
+:do { add list=CL address=2801:161:4::/47 } on-error={}
 :do { add list=CL address=2801:161:6::/48 } on-error={}
 :do { add list=CL address=2801:161:7::/48 } on-error={}
 :do { add list=CL address=2801:161:8::/48 } on-error={}
@@ -1464,7 +1457,6 @@
 :do { add list=CL address=2803:2800:c800::/37 } on-error={}
 :do { add list=CL address=2803:2800:d000::/36 } on-error={}
 :do { add list=CL address=2803:2800:e000::/35 } on-error={}
-:do { add list=CL address=2803:2860::/32 } on-error={}
 :do { add list=CL address=2803:28a0::/32 } on-error={}
 :do { add list=CL address=2803:29e0::/32 } on-error={}
 :do { add list=CL address=2803:2aa0::/32 } on-error={}
@@ -1899,7 +1891,6 @@
 :do { add list=CL address=2803:5c80:9000::/36 } on-error={}
 :do { add list=CL address=2803:5c80:a000::/35 } on-error={}
 :do { add list=CL address=2803:5c80:c000::/34 } on-error={}
-:do { add list=CL address=2803:5ce0:400::/40 } on-error={}
 :do { add list=CL address=2803:5d30::/32 } on-error={}
 :do { add list=CL address=2803:5e40::/32 } on-error={}
 :do { add list=CL address=2803:60c0::/32 } on-error={}

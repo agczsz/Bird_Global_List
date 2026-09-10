@@ -24,11 +24,7 @@
 :do { add list=BL address=2602:f93d:80::/44 } on-error={}
 :do { add list=BL address=2602:fb62::/36 } on-error={}
 :do { add list=BL address=2602:fb77::/48 } on-error={}
-:do { add list=BL address=2602:fc30::/40 } on-error={}
-:do { add list=BL address=2602:fc30:100::/40 } on-error={}
-:do { add list=BL address=2602:fc30:200::/39 } on-error={}
-:do { add list=BL address=2602:fc30:400::/38 } on-error={}
-:do { add list=BL address=2602:fc30:800::/37 } on-error={}
+:do { add list=BL address=2602:fc30::/36 } on-error={}
 :do { add list=BL address=2602:fc69::/36 } on-error={}
 :do { add list=BL address=2605:59ca:9300::/40 } on-error={}
 :do { add list=BL address=2606:40:203c:2000::/51 } on-error={}

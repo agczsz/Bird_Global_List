@@ -8405,7 +8405,8 @@
 :do { add list=AL address=2a13:c8c3:d000::/36 } on-error={}
 :do { add list=AL address=2a13:c8c3:e000::/37 } on-error={}
 :do { add list=AL address=2a13:c8c3:e800::/48 } on-error={}
-:do { add list=AL address=2a13:c8c3:e804::/46 } on-error={}
+:do { add list=AL address=2a13:c8c3:e805::/48 } on-error={}
+:do { add list=AL address=2a13:c8c3:e806::/47 } on-error={}
 :do { add list=AL address=2a13:c8c3:e808::/45 } on-error={}
 :do { add list=AL address=2a13:c8c3:e810::/44 } on-error={}
 :do { add list=AL address=2a13:c8c3:e820::/43 } on-error={}

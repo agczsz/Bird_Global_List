@@ -62,7 +62,6 @@
 :do { add list=TT address=2803:35e0::/32 } on-error={}
 :do { add list=TT address=2803:4680::/32 } on-error={}
 :do { add list=TT address=2803:5030::/32 } on-error={}
-:do { add list=TT address=2803:5ce0:d00::/40 } on-error={}
 :do { add list=TT address=2803:90a0::/32 } on-error={}
 :do { add list=TT address=2803:9360::/32 } on-error={}
 :do { add list=TT address=2803:9810:a340::/42 } on-error={}

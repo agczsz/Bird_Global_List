@@ -5,7 +5,6 @@
 :do { add list=MV address=2001:470:36:1df::/64 } on-error={}
 :do { add list=MV address=2001:470:36:7ea::/64 } on-error={}
 :do { add list=MV address=2001:470:36:87d::/64 } on-error={}
-:do { add list=MV address=2001:470:68bf::/48 } on-error={}
 :do { add list=MV address=2001:470:69b3::/48 } on-error={}
 :do { add list=MV address=2001:470:ec68::/48 } on-error={}
 :do { add list=MV address=2001:470:ed9b::/48 } on-error={}
