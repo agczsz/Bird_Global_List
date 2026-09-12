@@ -2423,7 +2423,8 @@
 :do { add list=EC address=2803:67c0::/32 } on-error={}
 :do { add list=EC address=2803:6a00::/32 } on-error={}
 :do { add list=EC address=2803:6b60::/32 } on-error={}
-:do { add list=EC address=2803:6b90::/43 } on-error={}
+:do { add list=EC address=2803:6b90::/44 } on-error={}
+:do { add list=EC address=2803:6b90:10::/44 } on-error={}
 :do { add list=EC address=2803:6b90:20::/43 } on-error={}
 :do { add list=EC address=2803:6b90:40::/42 } on-error={}
 :do { add list=EC address=2803:6b90:80::/41 } on-error={}

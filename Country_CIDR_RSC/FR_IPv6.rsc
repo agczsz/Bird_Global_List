@@ -64251,8 +64251,7 @@
 :do { add list=FR address=2a12:5840:241f::/48 } on-error={}
 :do { add list=FR address=2a12:5840:2510::/44 } on-error={}
 :do { add list=FR address=2a12:5844:1110::/44 } on-error={}
-:do { add list=FR address=2a12:5844:1190::/48 } on-error={}
-:do { add list=FR address=2a12:5844:1191::/48 } on-error={}
+:do { add list=FR address=2a12:5844:1190::/47 } on-error={}
 :do { add list=FR address=2a12:5844:1310::/44 } on-error={}
 :do { add list=FR address=2a12:5845::/37 } on-error={}
 :do { add list=FR address=2a12:5845:800::/39 } on-error={}

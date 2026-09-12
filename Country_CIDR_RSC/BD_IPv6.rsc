@@ -2333,10 +2333,10 @@
 :do { add list=BD address=2402:35e0::/32 } on-error={}
 :do { add list=BD address=2402:3620::/32 } on-error={}
 :do { add list=BD address=2402:37a0::/32 } on-error={}
-:do { add list=BD address=2402:3940::/36 } on-error={}
-:do { add list=BD address=2402:3940:1000::/36 } on-error={}
-:do { add list=BD address=2402:3940:2000::/35 } on-error={}
-:do { add list=BD address=2402:3940:4000::/34 } on-error={}
+:do { add list=BD address=2402:3940::/34 } on-error={}
+:do { add list=BD address=2402:3940:4000::/36 } on-error={}
+:do { add list=BD address=2402:3940:5000::/36 } on-error={}
+:do { add list=BD address=2402:3940:6000::/35 } on-error={}
 :do { add list=BD address=2402:3940:8000::/36 } on-error={}
 :do { add list=BD address=2402:3940:9000::/36 } on-error={}
 :do { add list=BD address=2402:3940:a000::/35 } on-error={}

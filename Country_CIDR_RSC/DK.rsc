@@ -4098,7 +4098,9 @@
 :do { add list=DK address=185.168.196.0/22 } on-error={}
 :do { add list=DK address=185.168.244.0/22 } on-error={}
 :do { add list=DK address=185.169.12.0/22 } on-error={}
-:do { add list=DK address=185.170.28.0/22 } on-error={}
+:do { add list=DK address=185.170.28.0/23 } on-error={}
+:do { add list=DK address=185.170.30.0/24 } on-error={}
+:do { add list=DK address=185.170.31.0/24 } on-error={}
 :do { add list=DK address=185.170.124.0/24 } on-error={}
 :do { add list=DK address=185.170.125.0/24 } on-error={}
 :do { add list=DK address=185.170.126.0/24 } on-error={}

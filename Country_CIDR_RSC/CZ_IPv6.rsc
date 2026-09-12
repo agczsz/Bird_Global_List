@@ -5311,7 +5311,8 @@
 :do { add list=CZ address=2a05:4a40:ffc0::/44 } on-error={}
 :do { add list=CZ address=2a05:4a40:ffd0::/45 } on-error={}
 :do { add list=CZ address=2a05:4a40:ffd8::/46 } on-error={}
-:do { add list=CZ address=2a05:4a40:ffdc::/47 } on-error={}
+:do { add list=CZ address=2a05:4a40:ffdc::/48 } on-error={}
+:do { add list=CZ address=2a05:4a40:ffdd::/48 } on-error={}
 :do { add list=CZ address=2a05:4a40:ffde::/48 } on-error={}
 :do { add list=CZ address=2a05:4a40:ffdf::/48 } on-error={}
 :do { add list=CZ address=2a05:4a40:ffe0::/44 } on-error={}

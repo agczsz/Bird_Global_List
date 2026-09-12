@@ -8244,7 +8244,8 @@
 :do { add list=JP address=94.102.242.6/31 } on-error={}
 :do { add list=JP address=94.102.242.8/30 } on-error={}
 :do { add list=JP address=94.102.242.12/31 } on-error={}
-:do { add list=JP address=94.124.116.0/23 } on-error={}
+:do { add list=JP address=94.124.116.0/24 } on-error={}
+:do { add list=JP address=94.124.117.0/24 } on-error={}
 :do { add list=JP address=94.124.118.0/24 } on-error={}
 :do { add list=JP address=94.156.207.0/24 } on-error={}
 :do { add list=JP address=94.156.229.0/24 } on-error={}
@@ -9616,7 +9617,8 @@
 :do { add list=JP address=103.200.29.0/24 } on-error={}
 :do { add list=JP address=103.200.30.0/23 } on-error={}
 :do { add list=JP address=103.200.97.0/24 } on-error={}
-:do { add list=JP address=103.200.98.0/23 } on-error={}
+:do { add list=JP address=103.200.98.0/24 } on-error={}
+:do { add list=JP address=103.200.99.0/24 } on-error={}
 :do { add list=JP address=103.200.114.70/32 } on-error={}
 :do { add list=JP address=103.201.128.0/24 } on-error={}
 :do { add list=JP address=103.201.129.0/24 } on-error={}
@@ -15219,7 +15221,11 @@
 :do { add list=JP address=133.162.64.0/20 } on-error={}
 :do { add list=JP address=133.162.80.0/21 } on-error={}
 :do { add list=JP address=133.162.88.0/21 } on-error={}
-:do { add list=JP address=133.162.96.0/20 } on-error={}
+:do { add list=JP address=133.162.96.0/21 } on-error={}
+:do { add list=JP address=133.162.104.0/24 } on-error={}
+:do { add list=JP address=133.162.105.0/24 } on-error={}
+:do { add list=JP address=133.162.106.0/23 } on-error={}
+:do { add list=JP address=133.162.108.0/22 } on-error={}
 :do { add list=JP address=133.162.112.0/23 } on-error={}
 :do { add list=JP address=133.162.114.0/23 } on-error={}
 :do { add list=JP address=133.162.116.0/22 } on-error={}
@@ -15244,8 +15250,7 @@
 :do { add list=JP address=133.162.180.0/22 } on-error={}
 :do { add list=JP address=133.162.184.0/24 } on-error={}
 :do { add list=JP address=133.162.185.0/24 } on-error={}
-:do { add list=JP address=133.162.186.0/24 } on-error={}
-:do { add list=JP address=133.162.187.0/24 } on-error={}
+:do { add list=JP address=133.162.186.0/23 } on-error={}
 :do { add list=JP address=133.162.188.0/24 } on-error={}
 :do { add list=JP address=133.162.189.0/24 } on-error={}
 :do { add list=JP address=133.162.190.0/23 } on-error={}

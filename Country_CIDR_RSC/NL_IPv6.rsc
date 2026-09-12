@@ -6707,7 +6707,10 @@
 :do { add list=NL address=2001:67c:9a2::/47 } on-error={}
 :do { add list=NL address=2001:67c:9a5::/48 } on-error={}
 :do { add list=NL address=2001:67c:9a6::/47 } on-error={}
-:do { add list=NL address=2001:67c:9a8::/45 } on-error={}
+:do { add list=NL address=2001:67c:9a8::/46 } on-error={}
+:do { add list=NL address=2001:67c:9ac::/48 } on-error={}
+:do { add list=NL address=2001:67c:9ad::/48 } on-error={}
+:do { add list=NL address=2001:67c:9ae::/47 } on-error={}
 :do { add list=NL address=2001:67c:9b0::/48 } on-error={}
 :do { add list=NL address=2001:67c:9b1::/48 } on-error={}
 :do { add list=NL address=2001:67c:9b2::/47 } on-error={}
@@ -9187,7 +9190,9 @@
 :do { add list=NL address=2001:67c:223a::/47 } on-error={}
 :do { add list=NL address=2001:67c:223d::/48 } on-error={}
 :do { add list=NL address=2001:67c:223e::/47 } on-error={}
-:do { add list=NL address=2001:67c:2240::/46 } on-error={}
+:do { add list=NL address=2001:67c:2240::/48 } on-error={}
+:do { add list=NL address=2001:67c:2241::/48 } on-error={}
+:do { add list=NL address=2001:67c:2242::/47 } on-error={}
 :do { add list=NL address=2001:67c:2245::/48 } on-error={}
 :do { add list=NL address=2001:67c:2246::/47 } on-error={}
 :do { add list=NL address=2001:67c:2249::/48 } on-error={}
@@ -72531,8 +72536,7 @@
 :do { add list=NL address=2a06:de00:51::/48 } on-error={}
 :do { add list=NL address=2a06:de00:52::/47 } on-error={}
 :do { add list=NL address=2a06:de00:54::/46 } on-error={}
-:do { add list=NL address=2a06:de00:58::/48 } on-error={}
-:do { add list=NL address=2a06:de00:59::/48 } on-error={}
+:do { add list=NL address=2a06:de00:58::/47 } on-error={}
 :do { add list=NL address=2a06:de00:5a::/47 } on-error={}
 :do { add list=NL address=2a06:de00:5c::/46 } on-error={}
 :do { add list=NL address=2a06:de00:100::/44 } on-error={}

@@ -1,6 +1,9 @@
 /log info "Loading JP IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=JP address=2001:200::/37 } on-error={}
+:do { add list=JP address=2001:200::/38 } on-error={}
+:do { add list=JP address=2001:200:400::/39 } on-error={}
+:do { add list=JP address=2001:200:600::/40 } on-error={}
+:do { add list=JP address=2001:200:700::/40 } on-error={}
 :do { add list=JP address=2001:200:800::/40 } on-error={}
 :do { add list=JP address=2001:200:900::/48 } on-error={}
 :do { add list=JP address=2001:200:901::/50 } on-error={}
@@ -20800,8 +20803,7 @@
 :do { add list=JP address=2406:2000:f02a::/47 } on-error={}
 :do { add list=JP address=2406:2000:f02c:200::1/128 } on-error={}
 :do { add list=JP address=2406:2600::/47 } on-error={}
-:do { add list=JP address=2406:2600:2::/48 } on-error={}
-:do { add list=JP address=2406:2600:3::/48 } on-error={}
+:do { add list=JP address=2406:2600:2::/47 } on-error={}
 :do { add list=JP address=2406:2600:4::/47 } on-error={}
 :do { add list=JP address=2406:2600:6::/48 } on-error={}
 :do { add list=JP address=2406:2600:7:4000::/50 } on-error={}

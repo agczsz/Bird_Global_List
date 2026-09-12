@@ -262,9 +262,7 @@
 :do { add list=MM address=2400:cb00:267::/48 } on-error={}
 :do { add list=MM address=2400:cb00:326::/48 } on-error={}
 :do { add list=MM address=2400:cb00:394::/48 } on-error={}
-:do { add list=MM address=2400:cea0::/33 } on-error={}
-:do { add list=MM address=2400:cea0:8000::/34 } on-error={}
-:do { add list=MM address=2400:cea0:c000::/34 } on-error={}
+:do { add list=MM address=2400:cea0::/32 } on-error={}
 :do { add list=MM address=2400:de40::/32 } on-error={}
 :do { add list=MM address=2400:e160::/32 } on-error={}
 :do { add list=MM address=2400:e8a0::/36 } on-error={}

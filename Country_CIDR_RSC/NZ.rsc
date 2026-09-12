@@ -1858,7 +1858,8 @@
 :do { add list=NZ address=121.98.112.0/21 } on-error={}
 :do { add list=NZ address=121.98.120.0/22 } on-error={}
 :do { add list=NZ address=121.98.124.0/23 } on-error={}
-:do { add list=NZ address=121.98.126.0/23 } on-error={}
+:do { add list=NZ address=121.98.126.0/24 } on-error={}
+:do { add list=NZ address=121.98.127.0/24 } on-error={}
 :do { add list=NZ address=121.98.128.0/17 } on-error={}
 :do { add list=NZ address=121.99.0.0/16 } on-error={}
 :do { add list=NZ address=122.56.0.0/22 } on-error={}
