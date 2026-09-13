@@ -5,6 +5,7 @@
 :do { add list=SS address=2001:470:fcc6::/48 } on-error={}
 :do { add list=SS address=2001:470:fd54::/48 } on-error={}
 :do { add list=SS address=2001:67c:a38:f211::/64 } on-error={}
+:do { add list=SS address=2001:43f8:13b1::/48 } on-error={}
 :do { add list=SS address=2001:43f8:1660::/47 } on-error={}
 :do { add list=SS address=2001:4b28:ef00::/40 } on-error={}
 :do { add list=SS address=2401:b60:1d60:4000::/50 } on-error={}
@@ -21,6 +22,7 @@
 :do { add list=SS address=2405:b500:6a20::/64 } on-error={}
 :do { add list=SS address=2405:b500:6a40::/64 } on-error={}
 :do { add list=SS address=2405:b500:6a60::/64 } on-error={}
+:do { add list=SS address=2602:814:ff3c::/46 } on-error={}
 :do { add list=SS address=2602:f92a:fe0b::/48 } on-error={}
 :do { add list=SS address=2602:f92a:ff0b::/48 } on-error={}
 :do { add list=SS address=2605:59c8:3500::/40 } on-error={}

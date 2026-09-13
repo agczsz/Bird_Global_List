@@ -16,6 +16,7 @@
 :do { add list=LY address=2405:b500:4660::/64 } on-error={}
 :do { add list=LY address=2600:70ff:a415::/48 } on-error={}
 :do { add list=LY address=2600:70ff:a9ed::/48 } on-error={}
+:do { add list=LY address=2602:814:fe1c::/46 } on-error={}
 :do { add list=LY address=2605:59c0:9100::/40 } on-error={}
 :do { add list=LY address=2606:40:1490::/44 } on-error={}
 :do { add list=LY address=2606:40:14a0::/44 } on-error={}

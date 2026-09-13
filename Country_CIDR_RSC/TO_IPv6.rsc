@@ -1,7 +1,6 @@
 /log info "Loading TO IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=TO address=2001:470:71f5::/48 } on-error={}
-:do { add list=TO address=2001:470:8c0f::/48 } on-error={}
 :do { add list=TO address=2001:470:fbf6::/48 } on-error={}
 :do { add list=TO address=2001:67c:a38:f676::/64 } on-error={}
 :do { add list=TO address=2001:df4:7480::/48 } on-error={}
@@ -45,6 +44,7 @@
 :do { add list=TO address=2600:70ff:a719::/48 } on-error={}
 :do { add list=TO address=2600:70ff:aa8c::/48 } on-error={}
 :do { add list=TO address=2600:70ff:c030::/48 } on-error={}
+:do { add list=TO address=2602:814:ff7c::/46 } on-error={}
 :do { add list=TO address=2606:54c0:57a8::/45 } on-error={}
 :do { add list=TO address=2606:54c3:0:493::/64 } on-error={}
 :do { add list=TO address=2607:8940:2932::/47 } on-error={}

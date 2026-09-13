@@ -1,6 +1,7 @@
 /log info "Loading FJ IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=FJ address=2001:470:36:92b::/64 } on-error={}
+:do { add list=FJ address=2001:470:1f2d:147::/64 } on-error={}
 :do { add list=FJ address=2001:470:ffb5::/48 } on-error={}
 :do { add list=FJ address=2001:67c:a38:f679::/64 } on-error={}
 :do { add list=FJ address=2001:dd8::/48 } on-error={}
@@ -27,6 +28,7 @@
 :do { add list=FJ address=2401:5100::/48 } on-error={}
 :do { add list=FJ address=2401:5100:1:10::/64 } on-error={}
 :do { add list=FJ address=2401:5100:1:16::/64 } on-error={}
+:do { add list=FJ address=2401:5100:1:31::/64 } on-error={}
 :do { add list=FJ address=2401:5100:1:4000::/50 } on-error={}
 :do { add list=FJ address=2401:5100:1:8000::/49 } on-error={}
 :do { add list=FJ address=2401:5100:2::/47 } on-error={}
@@ -63,7 +65,6 @@
 :do { add list=FJ address=2401:5100:5000::/36 } on-error={}
 :do { add list=FJ address=2401:5100:6000::/35 } on-error={}
 :do { add list=FJ address=2401:5100:8000::/33 } on-error={}
-:do { add list=FJ address=2401:d7c0::/32 } on-error={}
 :do { add list=FJ address=2401:e600::/32 } on-error={}
 :do { add list=FJ address=2401:f1e0:ffff:1ace::/64 } on-error={}
 :do { add list=FJ address=2401:f1e0:ffff:88df::/64 } on-error={}
@@ -94,6 +95,7 @@
 :do { add list=FJ address=2407:a000::/32 } on-error={}
 :do { add list=FJ address=2600:70ff:aacf::/48 } on-error={}
 :do { add list=FJ address=2602:2a9:bb0::/44 } on-error={}
+:do { add list=FJ address=2602:814:fd18::/46 } on-error={}
 :do { add list=FJ address=2606:40:5fc::/46 } on-error={}
 :do { add list=FJ address=2606:40:f60::/44 } on-error={}
 :do { add list=FJ address=2606:40:217e:8000::/51 } on-error={}

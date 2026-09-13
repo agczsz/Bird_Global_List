@@ -32,6 +32,7 @@
 :do { add list=MC address=2405:b500:4740::/64 } on-error={}
 :do { add list=MC address=2405:b500:4760::/64 } on-error={}
 :do { add list=MC address=2602:2a9:a40::/44 } on-error={}
+:do { add list=MC address=2602:814:fe24::/46 } on-error={}
 :do { add list=MC address=2606:40:a98::/45 } on-error={}
 :do { add list=MC address=2606:40:aa0::/45 } on-error={}
 :do { add list=MC address=2606:40:2190:4000::/54 } on-error={}

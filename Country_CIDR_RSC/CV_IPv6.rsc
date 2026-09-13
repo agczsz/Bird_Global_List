@@ -20,10 +20,12 @@
 :do { add list=CV address=2401:b60:1288::/45 } on-error={}
 :do { add list=CV address=2401:3620:231:3d::/64 } on-error={}
 :do { add list=CV address=2401:f1e0:ffff:6a29::/64 } on-error={}
+:do { add list=CV address=2401:f1e0:ffff:786d::/64 } on-error={}
 :do { add list=CV address=2405:b500:1b80::/64 } on-error={}
 :do { add list=CV address=2405:b500:1ba0::/64 } on-error={}
 :do { add list=CV address=2405:b500:1bc0::/64 } on-error={}
 :do { add list=CV address=2405:b500:1be0::/64 } on-error={}
+:do { add list=CV address=2602:814:fccc::/46 } on-error={}
 :do { add list=CV address=2605:59c0:8100::/40 } on-error={}
 :do { add list=CV address=2606:40:700::/46 } on-error={}
 :do { add list=CV address=2606:40:74c::/46 } on-error={}

@@ -25,6 +25,7 @@
 :do { add list=MT address=2600:70ff:a75f::/48 } on-error={}
 :do { add list=MT address=2600:70ff:b3c2:7::/64 } on-error={}
 :do { add list=MT address=2602:2a9:a60::/44 } on-error={}
+:do { add list=MT address=2602:814:fe60::/46 } on-error={}
 :do { add list=MT address=2602:f7c8:16e::/47 } on-error={}
 :do { add list=MT address=2602:f7c8:170::/47 } on-error={}
 :do { add list=MT address=2602:f7c8:172::/48 } on-error={}
@@ -72,8 +73,6 @@
 :do { add list=MT address=2a01:838::/32 } on-error={}
 :do { add list=MT address=2a01:9ae0::/32 } on-error={}
 :do { add list=MT address=2a01:abc0::/32 } on-error={}
-:do { add list=MT address=2a01:b960:230d:4000::/50 } on-error={}
-:do { add list=MT address=2a01:b960:230d:8000::/49 } on-error={}
 :do { add list=MT address=2a01:b960:230f:4000::/50 } on-error={}
 :do { add list=MT address=2a01:b960:230f:8000::/49 } on-error={}
 :do { add list=MT address=2a02:dd0::/33 } on-error={}

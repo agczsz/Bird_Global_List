@@ -2,6 +2,7 @@
 /ipv6 firewall address-list
 :do { add list=AG address=2001:470:1ad1::/48 } on-error={}
 :do { add list=AG address=2001:470:1f2b:1b::/64 } on-error={}
+:do { add list=AG address=2001:470:1f2f:15f::/64 } on-error={}
 :do { add list=AG address=2001:470:7bb6::/48 } on-error={}
 :do { add list=AG address=2001:470:c89e::/48 } on-error={}
 :do { add list=AG address=2001:504:13c::/48 } on-error={}
@@ -97,9 +98,21 @@
 :do { add list=AG address=2405:b500:340::/64 } on-error={}
 :do { add list=AG address=2405:b500:360::/64 } on-error={}
 :do { add list=AG address=2600:70ff:c82a::/48 } on-error={}
-:do { add list=AG address=2602:f6b5::/36 } on-error={}
+:do { add list=AG address=2602:814:fc0c::/46 } on-error={}
+:do { add list=AG address=2602:f6b5::/38 } on-error={}
+:do { add list=AG address=2602:f6b5:400::/39 } on-error={}
+:do { add list=AG address=2602:f6b5:600::/40 } on-error={}
+:do { add list=AG address=2602:f6b5:700::/41 } on-error={}
+:do { add list=AG address=2602:f6b5:780::/43 } on-error={}
+:do { add list=AG address=2602:f6b5:7a0::/47 } on-error={}
+:do { add list=AG address=2602:f6b5:7a2::/48 } on-error={}
+:do { add list=AG address=2602:f6b5:7a3::/48 } on-error={}
+:do { add list=AG address=2602:f6b5:7a4::/46 } on-error={}
+:do { add list=AG address=2602:f6b5:7a8::/45 } on-error={}
+:do { add list=AG address=2602:f6b5:7b0::/44 } on-error={}
+:do { add list=AG address=2602:f6b5:7c0::/42 } on-error={}
+:do { add list=AG address=2602:f6b5:800::/37 } on-error={}
 :do { add list=AG address=2604:a180::/35 } on-error={}
-:do { add list=AG address=2604:a180:8000::/50 } on-error={}
 :do { add list=AG address=2604:a180:e000::/35 } on-error={}
 :do { add list=AG address=2605:9e40::/33 } on-error={}
 :do { add list=AG address=2605:9e40:8000::/39 } on-error={}
@@ -150,9 +163,13 @@
 :do { add list=AG address=2606:40:2148:a000::/51 } on-error={}
 :do { add list=AG address=2606:54c0:40::/45 } on-error={}
 :do { add list=AG address=2606:54c3:0:1326::/64 } on-error={}
+:do { add list=AG address=2607:8940:228a:2000::/51 } on-error={}
 :do { add list=AG address=2607:8940:228a:4000::/50 } on-error={}
 :do { add list=AG address=2607:8940:228a:8000::/49 } on-error={}
 :do { add list=AG address=2607:8940:228b::/52 } on-error={}
+:do { add list=AG address=2607:8940:228b:1000::/58 } on-error={}
+:do { add list=AG address=2607:8940:228b:10c9::/64 } on-error={}
+:do { add list=AG address=2607:8940:228b:2000::/51 } on-error={}
 :do { add list=AG address=2607:8940:228b:4000::/50 } on-error={}
 :do { add list=AG address=2607:8940:228b:8000::/49 } on-error={}
 :do { add list=AG address=2607:8940:228e::/47 } on-error={}
@@ -198,8 +215,6 @@
 :do { add list=AG address=2a03:5f80:0:4000::/50 } on-error={}
 :do { add list=AG address=2a03:5f80:0:8000::/49 } on-error={}
 :do { add list=AG address=2a03:5f80:1::/48 } on-error={}
-:do { add list=AG address=2a03:5f80:2:4000::/50 } on-error={}
-:do { add list=AG address=2a03:5f80:2:8000::/49 } on-error={}
 :do { add list=AG address=2a03:5f80:3::/48 } on-error={}
 :do { add list=AG address=2a03:5f80:4:4::/62 } on-error={}
 :do { add list=AG address=2a03:5f80:4:8::/61 } on-error={}
@@ -219,6 +234,8 @@
 :do { add list=AG address=2a03:5f80:6::/48 } on-error={}
 :do { add list=AG address=2a03:5f80:9::/49 } on-error={}
 :do { add list=AG address=2a03:5f80:9:8000::/50 } on-error={}
+:do { add list=AG address=2a03:5f80:b::/49 } on-error={}
+:do { add list=AG address=2a03:5f80:b:8000::/50 } on-error={}
 :do { add list=AG address=2a03:5f80:c::/46 } on-error={}
 :do { add list=AG address=2a03:5f80:10::/44 } on-error={}
 :do { add list=AG address=2a03:5f80:20::/43 } on-error={}
@@ -309,7 +326,6 @@
 :do { add list=AG address=2a0f:85c1:81b:f080::/60 } on-error={}
 :do { add list=AG address=2a0f:9403:1d0::/44 } on-error={}
 :do { add list=AG address=2a0f:a302:6800::/37 } on-error={}
-:do { add list=AG address=2a10:fa81:1803::/48 } on-error={}
 :do { add list=AG address=2a11:29c0:3d88:27a9::/64 } on-error={}
 :do { add list=AG address=2a11:29c0:3d88:43e1::/64 } on-error={}
 :do { add list=AG address=2a11:29c0:3d88:4551::/64 } on-error={}

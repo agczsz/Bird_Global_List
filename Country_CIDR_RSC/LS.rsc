@@ -1,6 +1,7 @@
 /log info "Loading LS IPv4 Address List"
 /ip firewall address-list
 :do { add list=LS address=5.62.62.212/30 } on-error={}
+:do { add list=LS address=41.21.232.186/32 } on-error={}
 :do { add list=LS address=41.76.16.0/21 } on-error={}
 :do { add list=LS address=41.191.200.0/21 } on-error={}
 :do { add list=LS address=41.202.32.38/32 } on-error={}
@@ -80,12 +81,9 @@
 :do { add list=LS address=196.199.120.0/24 } on-error={}
 :do { add list=LS address=196.202.240.0/21 } on-error={}
 :do { add list=LS address=196.223.24.0/24 } on-error={}
-:do { add list=LS address=196.250.238.89/32 } on-error={}
-:do { add list=LS address=196.250.238.97/32 } on-error={}
 :do { add list=LS address=197.155.192.0/20 } on-error={}
 :do { add list=LS address=197.189.128.0/18 } on-error={}
 :do { add list=LS address=197.220.128.0/19 } on-error={}
 :do { add list=LS address=197.231.32.0/19 } on-error={}
 :do { add list=LS address=197.254.128.0/18 } on-error={}
-:do { add list=LS address=212.96.31.4/31 } on-error={}
 :do { add list=LS address=213.156.254.8/32 } on-error={}

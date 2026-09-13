@@ -1,6 +1,7 @@
 /log info "Loading KM IPv4 Address List"
 /ip firewall address-list
 :do { add list=KM address=5.62.62.92/30 } on-error={}
+:do { add list=KM address=41.189.225.26/32 } on-error={}
 :do { add list=KM address=41.194.32.0/25 } on-error={}
 :do { add list=KM address=41.194.32.128/26 } on-error={}
 :do { add list=KM address=41.194.32.192/27 } on-error={}
@@ -20,6 +21,7 @@
 :do { add list=KM address=57.82.102.0/23 } on-error={}
 :do { add list=KM address=57.82.192.0/20 } on-error={}
 :do { add list=KM address=80.231.195.0/24 } on-error={}
+:do { add list=KM address=102.134.23.131/32 } on-error={}
 :do { add list=KM address=102.202.32.0/22 } on-error={}
 :do { add list=KM address=102.204.47.0/24 } on-error={}
 :do { add list=KM address=102.207.176.0/22 } on-error={}
@@ -65,6 +67,7 @@
 :do { add list=KM address=172.225.136.96/28 } on-error={}
 :do { add list=KM address=172.225.220.208/28 } on-error={}
 :do { add list=KM address=185.30.219.64/29 } on-error={}
+:do { add list=KM address=187.13.245.22/31 } on-error={}
 :do { add list=KM address=196.48.69.0/24 } on-error={}
 :do { add list=KM address=196.56.69.0/24 } on-error={}
 :do { add list=KM address=196.57.69.0/24 } on-error={}

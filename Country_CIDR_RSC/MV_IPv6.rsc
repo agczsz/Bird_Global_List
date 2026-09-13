@@ -1,6 +1,5 @@
 /log info "Loading MV IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=MV address=2001:470:24:35a::/64 } on-error={}
 :do { add list=MV address=2001:470:24:35c::/64 } on-error={}
 :do { add list=MV address=2001:470:36:1df::/64 } on-error={}
 :do { add list=MV address=2001:470:36:7ea::/64 } on-error={}
@@ -165,6 +164,7 @@
 :do { add list=MV address=2406:e401::/32 } on-error={}
 :do { add list=MV address=2600:70ff:aa92::/48 } on-error={}
 :do { add list=MV address=2600:70ff:ac5a::/48 } on-error={}
+:do { add list=MV address=2602:814:fe68::/46 } on-error={}
 :do { add list=MV address=2606:54c0:48e8::/45 } on-error={}
 :do { add list=MV address=2606:54c3:0:a29::/64 } on-error={}
 :do { add list=MV address=2607:8940:3a8e::/47 } on-error={}

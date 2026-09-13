@@ -1,6 +1,6 @@
 /log info "Loading GN IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=GN address=2001:470:1f23:363::/64 } on-error={}
+:do { add list=GN address=2001:470:1f21:6e::/64 } on-error={}
 :do { add list=GN address=2001:67c:a38:f224::/64 } on-error={}
 :do { add list=GN address=2001:43f8:c60::/47 } on-error={}
 :do { add list=GN address=2001:4b28:7e00::/40 } on-error={}
@@ -12,12 +12,13 @@
 :do { add list=GN address=2401:b60:15b8::/45 } on-error={}
 :do { add list=GN address=2401:3620:231:5f::/64 } on-error={}
 :do { add list=GN address=2401:f1e0:ffff:deb::/64 } on-error={}
-:do { add list=GN address=2401:f1e0:ffff:8d4f::/64 } on-error={}
+:do { add list=GN address=2401:f1e0:ffff:82dd::/64 } on-error={}
 :do { add list=GN address=2401:f1e0:ffff:f9d7::/64 } on-error={}
 :do { add list=GN address=2405:b500:2d00::/64 } on-error={}
 :do { add list=GN address=2405:b500:2d20::/64 } on-error={}
 :do { add list=GN address=2405:b500:2d40::/64 } on-error={}
 :do { add list=GN address=2405:b500:2d60::/64 } on-error={}
+:do { add list=GN address=2602:814:fd54::/46 } on-error={}
 :do { add list=GN address=2605:59c0:4800::/40 } on-error={}
 :do { add list=GN address=2605:59c0:8200::/40 } on-error={}
 :do { add list=GN address=2606:40:938::/45 } on-error={}
@@ -134,7 +135,6 @@
 :do { add list=GN address=2a0f:9403:ac0::/44 } on-error={}
 :do { add list=GN address=2a0f:a302:b800::/37 } on-error={}
 :do { add list=GN address=2a10:500:1f00::/40 } on-error={}
-:do { add list=GN address=2a10:fa81:1855::/48 } on-error={}
 :do { add list=GN address=2a11:29c0:3d88:db::/64 } on-error={}
 :do { add list=GN address=2a11:29c0:3d88:ba9::/64 } on-error={}
 :do { add list=GN address=2a11:29c0:3d88:c57::/64 } on-error={}

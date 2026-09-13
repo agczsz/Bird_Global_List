@@ -1,6 +1,5 @@
 /log info "Loading LR IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=LR address=2001:470:26:3bd::/64 } on-error={}
 :do { add list=LR address=2001:470:1a21::/48 } on-error={}
 :do { add list=LR address=2001:67c:a38:f231::/64 } on-error={}
 :do { add list=LR address=2001:43f8:a60::/47 } on-error={}
@@ -20,6 +19,7 @@
 :do { add list=LR address=2600:70ff:a9ec::/48 } on-error={}
 :do { add list=LR address=2600:70ff:b3c2:2e::/64 } on-error={}
 :do { add list=LR address=2602:2a9:a80::/44 } on-error={}
+:do { add list=LR address=2602:814:fe08::/46 } on-error={}
 :do { add list=LR address=2605:59c0:1900::/40 } on-error={}
 :do { add list=LR address=2605:59c0:7f00::/40 } on-error={}
 :do { add list=LR address=2606:40:824::/46 } on-error={}
@@ -147,7 +147,6 @@
 :do { add list=LR address=2a0f:9403:b00::/44 } on-error={}
 :do { add list=LR address=2a0f:a302:5800::/37 } on-error={}
 :do { add list=LR address=2a10:500:2400::/40 } on-error={}
-:do { add list=LR address=2a10:fa81:1882::/48 } on-error={}
 :do { add list=LR address=2a11:29c0:3d88:1e09::/64 } on-error={}
 :do { add list=LR address=2a11:29c0:3d88:5ead::/64 } on-error={}
 :do { add list=LR address=2a11:29c0:3d88:f6d1::/64 } on-error={}

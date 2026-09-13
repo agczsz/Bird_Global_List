@@ -1,7 +1,6 @@
 /log info "Loading GL IPv4 Address List"
 /ip firewall address-list
 :do { add list=GL address=5.62.62.156/30 } on-error={}
-:do { add list=GL address=5.175.190.56/31 } on-error={}
 :do { add list=GL address=9.246.80.0/23 } on-error={}
 :do { add list=GL address=37.18.44.0/22 } on-error={}
 :do { add list=GL address=37.230.164.0/22 } on-error={}
@@ -64,6 +63,20 @@
 :do { add list=GL address=104.28.252.166/31 } on-error={}
 :do { add list=GL address=104.28.252.168/32 } on-error={}
 :do { add list=GL address=128.0.70.0/24 } on-error={}
+:do { add list=GL address=135.136.17.3/32 } on-error={}
+:do { add list=GL address=135.136.17.4/31 } on-error={}
+:do { add list=GL address=135.136.17.6/32 } on-error={}
+:do { add list=GL address=135.136.17.9/32 } on-error={}
+:do { add list=GL address=135.136.17.12/32 } on-error={}
+:do { add list=GL address=135.136.17.15/32 } on-error={}
+:do { add list=GL address=135.136.17.17/32 } on-error={}
+:do { add list=GL address=135.136.17.19/32 } on-error={}
+:do { add list=GL address=135.136.17.20/31 } on-error={}
+:do { add list=GL address=135.136.17.23/32 } on-error={}
+:do { add list=GL address=135.136.17.24/32 } on-error={}
+:do { add list=GL address=135.136.17.27/32 } on-error={}
+:do { add list=GL address=135.136.17.28/31 } on-error={}
+:do { add list=GL address=135.136.17.32/27 } on-error={}
 :do { add list=GL address=135.136.17.64/26 } on-error={}
 :do { add list=GL address=140.248.36.122/31 } on-error={}
 :do { add list=GL address=140.248.56.83/32 } on-error={}
@@ -161,7 +174,9 @@
 :do { add list=GL address=194.177.255.128/26 } on-error={}
 :do { add list=GL address=194.177.255.192/27 } on-error={}
 :do { add list=GL address=194.177.255.224/28 } on-error={}
-:do { add list=GL address=194.177.255.240/31 } on-error={}
+:do { add list=GL address=194.177.255.240/30 } on-error={}
+:do { add list=GL address=194.177.255.244/31 } on-error={}
+:do { add list=GL address=194.177.255.246/32 } on-error={}
 :do { add list=GL address=194.177.255.248/32 } on-error={}
 :do { add list=GL address=194.177.255.250/32 } on-error={}
 :do { add list=GL address=194.177.255.252/30 } on-error={}

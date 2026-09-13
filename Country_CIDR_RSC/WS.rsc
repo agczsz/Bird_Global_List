@@ -2,10 +2,12 @@
 /ip firewall address-list
 :do { add list=WS address=5.62.56.208/30 } on-error={}
 :do { add list=WS address=5.62.58.188/30 } on-error={}
+:do { add list=WS address=43.241.164.0/25 } on-error={}
 :do { add list=WS address=43.241.164.128/27 } on-error={}
 :do { add list=WS address=43.241.164.160/28 } on-error={}
 :do { add list=WS address=43.241.164.184/30 } on-error={}
 :do { add list=WS address=43.241.164.192/26 } on-error={}
+:do { add list=WS address=43.241.166.0/24 } on-error={}
 :do { add list=WS address=57.70.168.0/23 } on-error={}
 :do { add list=WS address=57.71.16.0/20 } on-error={}
 :do { add list=WS address=82.25.20.0/24 } on-error={}
@@ -104,9 +106,11 @@
 :do { add list=WS address=196.198.168.0/24 } on-error={}
 :do { add list=WS address=196.199.168.0/24 } on-error={}
 :do { add list=WS address=198.54.100.88/31 } on-error={}
-:do { add list=WS address=202.4.32.0/30 } on-error={}
-:do { add list=WS address=202.4.32.6/31 } on-error={}
-:do { add list=WS address=202.4.32.13/32 } on-error={}
+:do { add list=WS address=202.4.32.0/29 } on-error={}
+:do { add list=WS address=202.4.32.8/32 } on-error={}
+:do { add list=WS address=202.4.32.11/32 } on-error={}
+:do { add list=WS address=202.4.32.12/30 } on-error={}
+:do { add list=WS address=202.4.32.16/28 } on-error={}
 :do { add list=WS address=202.4.32.32/27 } on-error={}
 :do { add list=WS address=202.4.32.64/26 } on-error={}
 :do { add list=WS address=202.4.32.128/25 } on-error={}
@@ -122,3 +126,4 @@
 :do { add list=WS address=203.21.140.0/24 } on-error={}
 :do { add list=WS address=203.99.156.0/22 } on-error={}
 :do { add list=WS address=203.99.255.0/24 } on-error={}
+:do { add list=WS address=209.51.179.0/24 } on-error={}

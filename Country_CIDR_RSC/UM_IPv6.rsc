@@ -25,13 +25,13 @@
 :do { add list=UM address=2401:b60:1f42::/47 } on-error={}
 :do { add list=UM address=2401:b60:1f44::/46 } on-error={}
 :do { add list=UM address=2401:b60:1f48::/45 } on-error={}
-:do { add list=UM address=2401:3620:231:e8::/64 } on-error={}
 :do { add list=UM address=2600:70ff:a40e::/48 } on-error={}
 :do { add list=UM address=2600:70ff:a434::/48 } on-error={}
 :do { add list=UM address=2600:70ff:a5a5::/48 } on-error={}
 :do { add list=UM address=2600:70ff:a91d::/48 } on-error={}
 :do { add list=UM address=2600:70ff:f062::/48 } on-error={}
-:do { add list=UM address=2604:ca00:105:c000::/50 } on-error={}
+:do { add list=UM address=2602:814:ff9c::/46 } on-error={}
+:do { add list=UM address=2604:ca00:105::/48 } on-error={}
 :do { add list=UM address=2604:ca00:115::/48 } on-error={}
 :do { add list=UM address=2604:ca00:145::/48 } on-error={}
 :do { add list=UM address=2604:ca00:155::/48 } on-error={}

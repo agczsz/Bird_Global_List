@@ -15,10 +15,10 @@
 :do { add list=MR address=2401:f1e0:ffff:a208::/64 } on-error={}
 :do { add list=MR address=2401:f1e0:ffff:d152::/64 } on-error={}
 :do { add list=MR address=2405:b500:4d80::/64 } on-error={}
-:do { add list=MR address=2405:b500:4da0::/64 } on-error={}
 :do { add list=MR address=2405:b500:4dc0::/64 } on-error={}
 :do { add list=MR address=2405:b500:4de0::/64 } on-error={}
 :do { add list=MR address=2600:70ff:a452::/48 } on-error={}
+:do { add list=MR address=2602:814:fe58::/46 } on-error={}
 :do { add list=MR address=2605:59c0:4900::/40 } on-error={}
 :do { add list=MR address=2605:59c0:8500::/40 } on-error={}
 :do { add list=MR address=2606:40:918::/45 } on-error={}

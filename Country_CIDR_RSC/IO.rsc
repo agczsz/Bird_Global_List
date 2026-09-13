@@ -1,5 +1,6 @@
 /log info "Loading IO IPv4 Address List"
 /ip firewall address-list
+:do { add list=IO address=5.175.190.184/29 } on-error={}
 :do { add list=IO address=41.194.34.0/25 } on-error={}
 :do { add list=IO address=41.194.34.128/26 } on-error={}
 :do { add list=IO address=41.194.34.192/27 } on-error={}
@@ -17,7 +18,6 @@
 :do { add list=IO address=41.194.40.252/31 } on-error={}
 :do { add list=IO address=41.194.40.254/32 } on-error={}
 :do { add list=IO address=67.199.159.16/29 } on-error={}
-:do { add list=IO address=81.78.103.69/32 } on-error={}
 :do { add list=IO address=90.251.229.227/32 } on-error={}
 :do { add list=IO address=104.28.11.13/32 } on-error={}
 :do { add list=IO address=104.28.11.14/31 } on-error={}
