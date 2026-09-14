@@ -10064,6 +10064,7 @@
 :do { add list=ES address=2a01:3e0:1900:2000::/51 } on-error={}
 :do { add list=ES address=2a01:3e0:3000::/56 } on-error={}
 :do { add list=ES address=2a01:3e0:3700::/50 } on-error={}
+:do { add list=ES address=2a01:3e0:3900::124/128 } on-error={}
 :do { add list=ES address=2a01:3e0:3900:50::11/128 } on-error={}
 :do { add list=ES address=2a01:3e0:4500::/50 } on-error={}
 :do { add list=ES address=2a01:3e0:ff10::/50 } on-error={}

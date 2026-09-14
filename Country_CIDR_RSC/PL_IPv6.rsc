@@ -18765,6 +18765,7 @@
 :do { add list=PL address=2a0e:7d46:ff00::/41 } on-error={}
 :do { add list=PL address=2a0e:7d46:ff80::/42 } on-error={}
 :do { add list=PL address=2a0e:7d46:ffc0::/43 } on-error={}
+:do { add list=PL address=2a0e:7d80::/48 } on-error={}
 :do { add list=PL address=2a0e:84c0::/32 } on-error={}
 :do { add list=PL address=2a0e:8f02:2020::/44 } on-error={}
 :do { add list=PL address=2a0e:8f02:2150::/48 } on-error={}

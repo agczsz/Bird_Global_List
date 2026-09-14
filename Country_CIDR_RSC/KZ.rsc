@@ -496,6 +496,7 @@
 :do { add list=KZ address=87.245.233.68/32 } on-error={}
 :do { add list=KZ address=87.245.233.112/32 } on-error={}
 :do { add list=KZ address=87.245.234.8/31 } on-error={}
+:do { add list=KZ address=87.245.234.214/31 } on-error={}
 :do { add list=KZ address=87.245.234.225/32 } on-error={}
 :do { add list=KZ address=87.245.238.59/32 } on-error={}
 :do { add list=KZ address=87.247.0.0/23 } on-error={}

@@ -2885,6 +2885,7 @@
 :do { add list=HN address=2803:f400:8100::/48 } on-error={}
 :do { add list=HN address=2803:f400:8200::/48 } on-error={}
 :do { add list=HN address=2803:f400:8300::/48 } on-error={}
+:do { add list=HN address=2803:f400:83ff::/48 } on-error={}
 :do { add list=HN address=2803:f400:8400::/48 } on-error={}
 :do { add list=HN address=2803:f400:8500::/48 } on-error={}
 :do { add list=HN address=2803:f400:8600::/48 } on-error={}

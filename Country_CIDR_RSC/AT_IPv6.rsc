@@ -8309,6 +8309,7 @@
 :do { add list=AT address=2a01:358:4000:3f:4000::/66 } on-error={}
 :do { add list=AT address=2a01:358:4000:3f:8000::/65 } on-error={}
 :do { add list=AT address=2a01:3e0:1e00::/50 } on-error={}
+:do { add list=AT address=2a01:3e0:3a00::7/128 } on-error={}
 :do { add list=AT address=2a01:430:18c::/48 } on-error={}
 :do { add list=AT address=2a01:468::/29 } on-error={}
 :do { add list=AT address=2a01:4a0::10/128 } on-error={}

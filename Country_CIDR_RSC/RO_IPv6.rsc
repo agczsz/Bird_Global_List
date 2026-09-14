@@ -9295,7 +9295,8 @@
 :do { add list=RO address=2a14:7580:ff94::/47 } on-error={}
 :do { add list=RO address=2a14:7580:ff96::/48 } on-error={}
 :do { add list=RO address=2a14:7580:ff99::/48 } on-error={}
-:do { add list=RO address=2a14:7580:ff9a::/47 } on-error={}
+:do { add list=RO address=2a14:7580:ff9a::/48 } on-error={}
+:do { add list=RO address=2a14:7580:ff9b::/48 } on-error={}
 :do { add list=RO address=2a14:7580:ff9d::/48 } on-error={}
 :do { add list=RO address=2a14:7580:ff9e::/48 } on-error={}
 :do { add list=RO address=2a14:7580:ff9f::/48 } on-error={}

@@ -6175,6 +6175,7 @@
 :do { add list=NZ address=2a0c:9a46:3ab::/48 } on-error={}
 :do { add list=NZ address=2a0c:9a46:3fe:aa::/64 } on-error={}
 :do { add list=NZ address=2a0d:9443:7800::/37 } on-error={}
+:do { add list=NZ address=2a0d:d904:c710::/45 } on-error={}
 :do { add list=NZ address=2a0e:4001:9ff:9e::/64 } on-error={}
 :do { add list=NZ address=2a0e:8f01:1000:20::/64 } on-error={}
 :do { add list=NZ address=2a0e:aa06:440::/48 } on-error={}

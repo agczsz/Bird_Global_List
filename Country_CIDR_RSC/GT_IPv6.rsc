@@ -3157,7 +3157,13 @@
 :do { add list=GT address=2803:f400:8310::/44 } on-error={}
 :do { add list=GT address=2803:f400:8320::/43 } on-error={}
 :do { add list=GT address=2803:f400:8340::/42 } on-error={}
-:do { add list=GT address=2803:f400:8380::/41 } on-error={}
+:do { add list=GT address=2803:f400:8380::/42 } on-error={}
+:do { add list=GT address=2803:f400:83c0::/43 } on-error={}
+:do { add list=GT address=2803:f400:83e0::/44 } on-error={}
+:do { add list=GT address=2803:f400:83f0::/45 } on-error={}
+:do { add list=GT address=2803:f400:83f8::/46 } on-error={}
+:do { add list=GT address=2803:f400:83fc::/47 } on-error={}
+:do { add list=GT address=2803:f400:83fe::/48 } on-error={}
 :do { add list=GT address=2803:f400:8401::/48 } on-error={}
 :do { add list=GT address=2803:f400:8402::/47 } on-error={}
 :do { add list=GT address=2803:f400:8404::/46 } on-error={}

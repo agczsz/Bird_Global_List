@@ -660,8 +660,7 @@
 :do { add list=SV address=200.35.189.0/25 } on-error={}
 :do { add list=SV address=200.35.189.128/27 } on-error={}
 :do { add list=SV address=200.35.189.160/29 } on-error={}
-:do { add list=SV address=200.35.189.176/28 } on-error={}
-:do { add list=SV address=200.35.189.192/26 } on-error={}
+:do { add list=SV address=200.35.189.224/27 } on-error={}
 :do { add list=SV address=200.35.190.4/30 } on-error={}
 :do { add list=SV address=200.35.190.8/29 } on-error={}
 :do { add list=SV address=200.35.190.16/28 } on-error={}

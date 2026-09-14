@@ -580,7 +580,12 @@
 :do { add list=SA address=2001:16a2:bc1c::/48 } on-error={}
 :do { add list=SA address=2001:16a2:bc1d::/48 } on-error={}
 :do { add list=SA address=2001:16a2:bc1e::/47 } on-error={}
-:do { add list=SA address=2001:16a2:bc20::/43 } on-error={}
+:do { add list=SA address=2001:16a2:bc20::/47 } on-error={}
+:do { add list=SA address=2001:16a2:bc22::/48 } on-error={}
+:do { add list=SA address=2001:16a2:bc23::/48 } on-error={}
+:do { add list=SA address=2001:16a2:bc24::/46 } on-error={}
+:do { add list=SA address=2001:16a2:bc28::/45 } on-error={}
+:do { add list=SA address=2001:16a2:bc30::/44 } on-error={}
 :do { add list=SA address=2001:16a2:bc40::/42 } on-error={}
 :do { add list=SA address=2001:16a2:bc80::/46 } on-error={}
 :do { add list=SA address=2001:16a2:bc84::/47 } on-error={}

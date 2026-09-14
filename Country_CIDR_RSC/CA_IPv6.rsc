@@ -5237,6 +5237,7 @@
 :do { add list=CA address=2001:558:fef8::/64 } on-error={}
 :do { add list=CA address=2001:558:fef8:2::/64 } on-error={}
 :do { add list=CA address=2001:558:fef8:7::/64 } on-error={}
+:do { add list=CA address=2001:558:fef8:8::/64 } on-error={}
 :do { add list=CA address=2001:558:fef8:d::/64 } on-error={}
 :do { add list=CA address=2001:558:fef8:e::/63 } on-error={}
 :do { add list=CA address=2001:558:fef8:12::/63 } on-error={}

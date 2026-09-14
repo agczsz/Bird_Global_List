@@ -11737,7 +11737,10 @@
 :do { add list=UY address=2803:f22::/31 } on-error={}
 :do { add list=UY address=2803:f24::/30 } on-error={}
 :do { add list=UY address=2803:f28::/29 } on-error={}
-:do { add list=UY address=2803:f30::/28 } on-error={}
+:do { add list=UY address=2803:f31::/32 } on-error={}
+:do { add list=UY address=2803:f32::/31 } on-error={}
+:do { add list=UY address=2803:f34::/30 } on-error={}
+:do { add list=UY address=2803:f38::/29 } on-error={}
 :do { add list=UY address=2803:f40::/28 } on-error={}
 :do { add list=UY address=2803:f51::/32 } on-error={}
 :do { add list=UY address=2803:f52::/31 } on-error={}

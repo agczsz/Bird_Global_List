@@ -228,16 +228,7 @@
 :do { add list=SO address=2c0f:ed08::/32 } on-error={}
 :do { add list=SO address=2c0f:eef8::/32 } on-error={}
 :do { add list=SO address=2c0f:f068::/32 } on-error={}
-:do { add list=SO address=2c0f:f450:801::/48 } on-error={}
-:do { add list=SO address=2c0f:f450:802::/47 } on-error={}
-:do { add list=SO address=2c0f:f450:804::/46 } on-error={}
-:do { add list=SO address=2c0f:f450:808::/45 } on-error={}
-:do { add list=SO address=2c0f:f450:810::/44 } on-error={}
-:do { add list=SO address=2c0f:f450:820::/43 } on-error={}
-:do { add list=SO address=2c0f:f450:840::/42 } on-error={}
-:do { add list=SO address=2c0f:f450:880::/41 } on-error={}
-:do { add list=SO address=2c0f:f450:900::/40 } on-error={}
-:do { add list=SO address=2c0f:f450:a00::/39 } on-error={}
+:do { add list=SO address=2c0f:f450:800::/38 } on-error={}
 :do { add list=SO address=2c0f:f6b8::/32 } on-error={}
 :do { add list=SO address=2c0f:f710::/32 } on-error={}
 :do { add list=SO address=2c0f:f8f8::/32 } on-error={}

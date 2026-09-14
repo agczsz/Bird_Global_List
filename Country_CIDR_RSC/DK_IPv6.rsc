@@ -7267,6 +7267,8 @@
 :do { add list=DK address=2a07:39c0::/29 } on-error={}
 :do { add list=DK address=2a07:42c0::/29 } on-error={}
 :do { add list=DK address=2a07:5a00::/29 } on-error={}
+:do { add list=DK address=2a07:5cc0::505:707:2004/128 } on-error={}
+:do { add list=DK address=2a07:5cc0:0:1::d/128 } on-error={}
 :do { add list=DK address=2a07:5cc2:0:1::7/128 } on-error={}
 :do { add list=DK address=2a07:5cc2:0:1::8/128 } on-error={}
 :do { add list=DK address=2a07:5cc2:0:1::a/128 } on-error={}

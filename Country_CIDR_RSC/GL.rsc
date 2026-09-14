@@ -174,9 +174,6 @@
 :do { add list=GL address=194.177.255.128/26 } on-error={}
 :do { add list=GL address=194.177.255.192/27 } on-error={}
 :do { add list=GL address=194.177.255.224/28 } on-error={}
-:do { add list=GL address=194.177.255.240/30 } on-error={}
-:do { add list=GL address=194.177.255.244/31 } on-error={}
-:do { add list=GL address=194.177.255.246/32 } on-error={}
-:do { add list=GL address=194.177.255.248/32 } on-error={}
+:do { add list=GL address=194.177.255.248/31 } on-error={}
 :do { add list=GL address=194.177.255.250/32 } on-error={}
 :do { add list=GL address=194.177.255.252/30 } on-error={}

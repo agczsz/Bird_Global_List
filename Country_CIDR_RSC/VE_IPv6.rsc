@@ -436,6 +436,7 @@
 :do { add list=VE address=2803:a30::/32 } on-error={}
 :do { add list=VE address=2803:b30::/32 } on-error={}
 :do { add list=VE address=2803:b50::/32 } on-error={}
+:do { add list=VE address=2803:f30::/32 } on-error={}
 :do { add list=VE address=2803:f60::/32 } on-error={}
 :do { add list=VE address=2803:1060::/32 } on-error={}
 :do { add list=VE address=2803:14e0::/32 } on-error={}
