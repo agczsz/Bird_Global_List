@@ -21,6 +21,7 @@
 :do { add list=BJ address=2001:43f8:9a0::/48 } on-error={}
 :do { add list=BJ address=2001:43f8:af0::/47 } on-error={}
 :do { add list=BJ address=2001:43f8:1730::/47 } on-error={}
+:do { add list=BJ address=2001:43fd:6010::/50 } on-error={}
 :do { add list=BJ address=2001:4b28:9700::/40 } on-error={}
 :do { add list=BJ address=2401:b60:1170:4000::/50 } on-error={}
 :do { add list=BJ address=2401:b60:1170:8000::/49 } on-error={}

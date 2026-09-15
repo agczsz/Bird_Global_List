@@ -34,9 +34,11 @@
 :do { add list=AZ address=2001:470:f3e4::/48 } on-error={}
 :do { add list=AZ address=2001:470:fcb3::/48 } on-error={}
 :do { add list=AZ address=2001:67c:a38:f994::/64 } on-error={}
+:do { add list=AZ address=2001:67c:29f0::19:6925:1/128 } on-error={}
+:do { add list=AZ address=2001:7f8::3:13d:0:1/128 } on-error={}
+:do { add list=AZ address=2001:7f8:20:101::208:11/128 } on-error={}
 :do { add list=AZ address=2001:1900:5:2:2::3f1a/128 } on-error={}
 :do { add list=AZ address=2001:2035:0:2925::2/128 } on-error={}
-:do { add list=AZ address=2001:2035:0:2bfa::2/128 } on-error={}
 :do { add list=AZ address=2001:3400::/29 } on-error={}
 :do { add list=AZ address=2001:3786:3373:400::/56 } on-error={}
 :do { add list=AZ address=2001:3786:5015:200::/56 } on-error={}

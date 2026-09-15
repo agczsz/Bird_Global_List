@@ -20,13 +20,13 @@
 :do { add list=MN address=2001:470:f39a:9760::/64 } on-error={}
 :do { add list=MN address=2001:470:f39c::/48 } on-error={}
 :do { add list=MN address=2001:470:f441::/48 } on-error={}
-:do { add list=MN address=2001:470:f50e::/48 } on-error={}
 :do { add list=MN address=2001:470:f808::/48 } on-error={}
 :do { add list=MN address=2001:470:f873:9760::/64 } on-error={}
 :do { add list=MN address=2001:470:f8f9:9760::/64 } on-error={}
 :do { add list=MN address=2001:470:f905::/48 } on-error={}
 :do { add list=MN address=2001:470:f982::/49 } on-error={}
 :do { add list=MN address=2001:470:f982:c000::/50 } on-error={}
+:do { add list=MN address=2001:470:faf4::/48 } on-error={}
 :do { add list=MN address=2001:470:fb06::/47 } on-error={}
 :do { add list=MN address=2001:470:fb0a::/48 } on-error={}
 :do { add list=MN address=2001:470:fcce:9760::/64 } on-error={}

@@ -50,7 +50,6 @@
 :do { add list=XK address=2607:8940:4191:400::/56 } on-error={}
 :do { add list=XK address=2607:8940:41f0:9300::/56 } on-error={}
 :do { add list=XK address=2607:8940:41f0:9400::/56 } on-error={}
-:do { add list=XK address=2620:0:1cff:dead:beef::340b/128 } on-error={}
 :do { add list=XK address=2a00:73a0::/32 } on-error={}
 :do { add list=XK address=2a02:26f7:dc80:d887::/64 } on-error={}
 :do { add list=XK address=2a02:26f7:dc80:d8a2::/64 } on-error={}

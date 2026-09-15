@@ -3,7 +3,6 @@
 :do { add list=TF address=2001:470:19:4af::/64 } on-error={}
 :do { add list=TF address=2001:470:e966::/48 } on-error={}
 :do { add list=TF address=2001:470:f434::/48 } on-error={}
-:do { add list=TF address=2001:470:f52f::/48 } on-error={}
 :do { add list=TF address=2001:470:f827::/48 } on-error={}
 :do { add list=TF address=2001:470:fbe3::/48 } on-error={}
 :do { add list=TF address=2001:470:fbef::/48 } on-error={}

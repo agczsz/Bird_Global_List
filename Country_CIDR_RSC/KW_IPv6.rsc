@@ -9,6 +9,7 @@
 :do { add list=KW address=2001:470:1f29:3b7::/64 } on-error={}
 :do { add list=KW address=2001:470:688d::/48 } on-error={}
 :do { add list=KW address=2001:470:79bb::/48 } on-error={}
+:do { add list=KW address=2001:470:efa7::/48 } on-error={}
 :do { add list=KW address=2001:67c:7f4::/48 } on-error={}
 :do { add list=KW address=2001:67c:a38:f965::/64 } on-error={}
 :do { add list=KW address=2400:cb00:53::/48 } on-error={}

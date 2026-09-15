@@ -1,9 +1,7 @@
 /log info "Loading MZ IPv4 Address List"
 /ip firewall address-list
-:do { add list=MZ address=5.11.12.165/32 } on-error={}
 :do { add list=MZ address=5.11.12.166/31 } on-error={}
 :do { add list=MZ address=5.62.63.32/30 } on-error={}
-:do { add list=MZ address=41.21.234.146/32 } on-error={}
 :do { add list=MZ address=41.60.216.0/24 } on-error={}
 :do { add list=MZ address=41.76.0.0/21 } on-error={}
 :do { add list=MZ address=41.76.144.0/21 } on-error={}
@@ -60,8 +58,6 @@
 :do { add list=MZ address=63.223.6.137/32 } on-error={}
 :do { add list=MZ address=74.80.87.0/24 } on-error={}
 :do { add list=MZ address=74.244.92.0/23 } on-error={}
-:do { add list=MZ address=77.246.59.81/32 } on-error={}
-:do { add list=MZ address=77.246.59.226/32 } on-error={}
 :do { add list=MZ address=77.246.62.192/26 } on-error={}
 :do { add list=MZ address=84.254.169.0/24 } on-error={}
 :do { add list=MZ address=87.255.97.211/32 } on-error={}
@@ -135,6 +131,7 @@
 :do { add list=MZ address=104.30.171.128/32 } on-error={}
 :do { add list=MZ address=105.16.8.162/32 } on-error={}
 :do { add list=MZ address=105.16.8.190/32 } on-error={}
+:do { add list=MZ address=105.16.8.193/32 } on-error={}
 :do { add list=MZ address=105.16.12.121/32 } on-error={}
 :do { add list=MZ address=105.16.24.1/32 } on-error={}
 :do { add list=MZ address=105.16.24.2/32 } on-error={}
@@ -179,6 +176,7 @@
 :do { add list=MZ address=140.248.62.158/32 } on-error={}
 :do { add list=MZ address=140.248.63.158/32 } on-error={}
 :do { add list=MZ address=143.105.48.0/23 } on-error={}
+:do { add list=MZ address=143.246.176.160/32 } on-error={}
 :do { add list=MZ address=146.75.168.148/31 } on-error={}
 :do { add list=MZ address=146.75.185.148/31 } on-error={}
 :do { add list=MZ address=146.75.198.20/31 } on-error={}
@@ -297,6 +295,8 @@
 :do { add list=MZ address=196.250.235.104/29 } on-error={}
 :do { add list=MZ address=196.250.235.112/28 } on-error={}
 :do { add list=MZ address=196.250.237.43/32 } on-error={}
+:do { add list=MZ address=196.250.239.35/32 } on-error={}
+:do { add list=MZ address=196.250.239.129/32 } on-error={}
 :do { add list=MZ address=197.158.0.0/18 } on-error={}
 :do { add list=MZ address=197.211.127.96/29 } on-error={}
 :do { add list=MZ address=197.211.127.104/30 } on-error={}

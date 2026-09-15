@@ -10,7 +10,6 @@
 :do { add list=CU address=2001:470:d869::/48 } on-error={}
 :do { add list=CU address=2001:470:d9ca::/48 } on-error={}
 :do { add list=CU address=2001:470:e34e::/48 } on-error={}
-:do { add list=CU address=2001:470:f50d::/48 } on-error={}
 :do { add list=CU address=2001:470:f86c::/48 } on-error={}
 :do { add list=CU address=2001:470:f881::/48 } on-error={}
 :do { add list=CU address=2001:470:faca::/48 } on-error={}

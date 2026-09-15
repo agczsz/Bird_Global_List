@@ -201,6 +201,7 @@
 :do { add list=PS address=2a0a:6040:ff5::/48 } on-error={}
 :do { add list=PS address=2a0a:6044:77b7::/48 } on-error={}
 :do { add list=PS address=2a0a:6044:77fe:b6::/64 } on-error={}
+:do { add list=PS address=2a0a:6044:7d01:107::/64 } on-error={}
 :do { add list=PS address=2a0a:6044:7d22:107::/64 } on-error={}
 :do { add list=PS address=2a0a:6044:7d42::/52 } on-error={}
 :do { add list=PS address=2a0b:4d40::/29 } on-error={}

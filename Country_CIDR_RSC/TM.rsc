@@ -1,5 +1,6 @@
 /log info "Loading TM IPv4 Address List"
 /ip firewall address-list
+:do { add list=TM address=5.61.36.123/32 } on-error={}
 :do { add list=TM address=5.62.63.168/30 } on-error={}
 :do { add list=TM address=45.15.177.4/30 } on-error={}
 :do { add list=TM address=45.15.177.68/30 } on-error={}
@@ -45,6 +46,7 @@
 :do { add list=TM address=140.248.61.221/32 } on-error={}
 :do { add list=TM address=140.248.62.221/32 } on-error={}
 :do { add list=TM address=140.248.63.221/32 } on-error={}
+:do { add list=TM address=143.246.176.223/32 } on-error={}
 :do { add list=TM address=146.75.162.96/31 } on-error={}
 :do { add list=TM address=146.75.202.12/31 } on-error={}
 :do { add list=TM address=160.25.104.122/32 } on-error={}

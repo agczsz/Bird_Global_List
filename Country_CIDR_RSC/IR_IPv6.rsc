@@ -8623,9 +8623,9 @@
 :do { add list=IR address=2a14:e300::/29 } on-error={}
 :do { add list=IR address=2a14:ec00::/48 } on-error={}
 :do { add list=IR address=2a14:ec00:1::/48 } on-error={}
-:do { add list=IR address=2a14:ec00:2::/47 } on-error={}
-:do { add list=IR address=2a14:ec00:4::/48 } on-error={}
-:do { add list=IR address=2a14:ec00:5::/48 } on-error={}
+:do { add list=IR address=2a14:ec00:2::/48 } on-error={}
+:do { add list=IR address=2a14:ec00:3::/48 } on-error={}
+:do { add list=IR address=2a14:ec00:4::/47 } on-error={}
 :do { add list=IR address=2a14:ec00:6::/47 } on-error={}
 :do { add list=IR address=2a14:ec00:8::/45 } on-error={}
 :do { add list=IR address=2a14:ec00:10::/44 } on-error={}

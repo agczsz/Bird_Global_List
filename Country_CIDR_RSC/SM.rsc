@@ -55,6 +55,7 @@
 :do { add list=SM address=140.248.61.203/32 } on-error={}
 :do { add list=SM address=140.248.62.203/32 } on-error={}
 :do { add list=SM address=140.248.63.203/32 } on-error={}
+:do { add list=SM address=143.246.176.205/32 } on-error={}
 :do { add list=SM address=146.75.186.32/31 } on-error={}
 :do { add list=SM address=151.240.79.80/28 } on-error={}
 :do { add list=SM address=157.167.109.0/24 } on-error={}

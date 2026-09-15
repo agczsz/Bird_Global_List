@@ -24,6 +24,7 @@
 :do { add list=MM address=2001:470:f8f9:950::/64 } on-error={}
 :do { add list=MM address=2001:470:f8f9:95e::/63 } on-error={}
 :do { add list=MM address=2001:470:fa8d::/48 } on-error={}
+:do { add list=MM address=2001:470:faef::/48 } on-error={}
 :do { add list=MM address=2001:470:fcce:950::/64 } on-error={}
 :do { add list=MM address=2001:470:fcce:95e::/63 } on-error={}
 :do { add list=MM address=2001:67c:a38:f095::/64 } on-error={}

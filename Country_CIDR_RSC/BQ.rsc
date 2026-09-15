@@ -33,6 +33,7 @@
 :do { add list=BQ address=140.248.63.29/32 } on-error={}
 :do { add list=BQ address=143.0.32.0/22 } on-error={}
 :do { add list=BQ address=143.105.254.0/23 } on-error={}
+:do { add list=BQ address=143.246.176.31/32 } on-error={}
 :do { add list=BQ address=146.75.252.4/31 } on-error={}
 :do { add list=BQ address=161.0.80.0/20 } on-error={}
 :do { add list=BQ address=162.120.196.233/32 } on-error={}

@@ -1,7 +1,22 @@
 /log info "Loading MR IPv4 Address List"
 /ip firewall address-list
 :do { add list=MR address=5.62.63.4/30 } on-error={}
-:do { add list=MR address=41.138.128.0/21 } on-error={}
+:do { add list=MR address=41.138.128.0/22 } on-error={}
+:do { add list=MR address=41.138.132.0/23 } on-error={}
+:do { add list=MR address=41.138.134.0/25 } on-error={}
+:do { add list=MR address=41.138.134.128/28 } on-error={}
+:do { add list=MR address=41.138.134.144/32 } on-error={}
+:do { add list=MR address=41.138.134.146/31 } on-error={}
+:do { add list=MR address=41.138.134.148/30 } on-error={}
+:do { add list=MR address=41.138.134.152/29 } on-error={}
+:do { add list=MR address=41.138.134.160/27 } on-error={}
+:do { add list=MR address=41.138.134.192/28 } on-error={}
+:do { add list=MR address=41.138.134.208/32 } on-error={}
+:do { add list=MR address=41.138.134.210/31 } on-error={}
+:do { add list=MR address=41.138.134.212/30 } on-error={}
+:do { add list=MR address=41.138.134.216/29 } on-error={}
+:do { add list=MR address=41.138.134.224/27 } on-error={}
+:do { add list=MR address=41.138.135.0/24 } on-error={}
 :do { add list=MR address=41.138.136.0/23 } on-error={}
 :do { add list=MR address=41.138.139.0/24 } on-error={}
 :do { add list=MR address=41.138.140.0/22 } on-error={}
@@ -11,6 +26,7 @@
 :do { add list=MR address=57.82.168.0/23 } on-error={}
 :do { add list=MR address=57.83.240.0/20 } on-error={}
 :do { add list=MR address=62.115.207.77/32 } on-error={}
+:do { add list=MR address=81.52.188.148/32 } on-error={}
 :do { add list=MR address=82.151.64.0/21 } on-error={}
 :do { add list=MR address=82.151.72.0/23 } on-error={}
 :do { add list=MR address=82.151.74.0/27 } on-error={}
@@ -77,6 +93,7 @@
 :do { add list=MR address=140.248.61.150/32 } on-error={}
 :do { add list=MR address=140.248.62.150/32 } on-error={}
 :do { add list=MR address=140.248.63.150/32 } on-error={}
+:do { add list=MR address=143.246.176.152/32 } on-error={}
 :do { add list=MR address=146.75.166.114/31 } on-error={}
 :do { add list=MR address=146.75.182.46/31 } on-error={}
 :do { add list=MR address=146.75.210.46/31 } on-error={}

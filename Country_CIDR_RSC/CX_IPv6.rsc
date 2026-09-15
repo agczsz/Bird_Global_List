@@ -8,7 +8,6 @@
 :do { add list=CX address=2001:470:c3a5::/48 } on-error={}
 :do { add list=CX address=2001:470:ebc9::/48 } on-error={}
 :do { add list=CX address=2001:470:ef91::/48 } on-error={}
-:do { add list=CX address=2001:470:f56c::/48 } on-error={}
 :do { add list=CX address=2001:470:f83e::/48 } on-error={}
 :do { add list=CX address=2001:470:f854::/48 } on-error={}
 :do { add list=CX address=2001:470:f92b::/48 } on-error={}

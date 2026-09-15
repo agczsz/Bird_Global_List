@@ -3,8 +3,10 @@
 :do { add list=MW address=2001:470:71:6f1::/64 } on-error={}
 :do { add list=MW address=2001:470:2898::/48 } on-error={}
 :do { add list=MW address=2001:470:43a2::/48 } on-error={}
+:do { add list=MW address=2001:470:efab::/48 } on-error={}
 :do { add list=MW address=2001:470:f3f7::/48 } on-error={}
 :do { add list=MW address=2001:67c:a38:f265::/64 } on-error={}
+:do { add list=MW address=2001:43f8:20::12/128 } on-error={}
 :do { add list=MW address=2001:43f8:20::15/128 } on-error={}
 :do { add list=MW address=2001:43f8:20::23/128 } on-error={}
 :do { add list=MW address=2001:43f8:20:2000::/52 } on-error={}

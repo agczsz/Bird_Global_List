@@ -53,6 +53,7 @@
 :do { add list=KI address=140.248.61.117/32 } on-error={}
 :do { add list=KI address=140.248.62.117/32 } on-error={}
 :do { add list=KI address=140.248.63.117/32 } on-error={}
+:do { add list=KI address=143.246.176.119/32 } on-error={}
 :do { add list=KI address=146.75.132.66/31 } on-error={}
 :do { add list=KI address=146.75.146.10/31 } on-error={}
 :do { add list=KI address=146.75.160.66/31 } on-error={}

@@ -32,6 +32,7 @@
 :do { add list=ST address=140.248.61.208/32 } on-error={}
 :do { add list=ST address=140.248.62.208/32 } on-error={}
 :do { add list=ST address=140.248.63.208/32 } on-error={}
+:do { add list=ST address=143.246.176.210/32 } on-error={}
 :do { add list=ST address=146.75.168.174/31 } on-error={}
 :do { add list=ST address=146.75.182.62/31 } on-error={}
 :do { add list=ST address=146.75.185.174/31 } on-error={}

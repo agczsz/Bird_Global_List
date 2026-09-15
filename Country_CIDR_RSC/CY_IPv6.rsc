@@ -351,7 +351,7 @@
 :do { add list=CY address=2a02:4780:6d:ffff::/125 } on-error={}
 :do { add list=CY address=2a02:4780:6d:ffff::8/128 } on-error={}
 :do { add list=CY address=2a02:4780:6d:ffff::d/128 } on-error={}
-:do { add list=CY address=2a02:4780:6d:ffff::e/128 } on-error={}
+:do { add list=CY address=2a02:4780:6d:ffff::e/127 } on-error={}
 :do { add list=CY address=2a02:4780:6d:ffff::10/126 } on-error={}
 :do { add list=CY address=2a02:4780:6d:ffff::14/128 } on-error={}
 :do { add list=CY address=2a02:4780:6d:ffff::17/128 } on-error={}
