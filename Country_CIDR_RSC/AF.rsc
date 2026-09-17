@@ -37,7 +37,8 @@
 :do { add list=AF address=59.153.124.0/22 } on-error={}
 :do { add list=AF address=61.5.192.0/24 } on-error={}
 :do { add list=AF address=61.5.193.0/24 } on-error={}
-:do { add list=AF address=61.5.194.0/23 } on-error={}
+:do { add list=AF address=61.5.194.0/24 } on-error={}
+:do { add list=AF address=61.5.195.0/24 } on-error={}
 :do { add list=AF address=61.5.196.0/23 } on-error={}
 :do { add list=AF address=61.5.198.0/24 } on-error={}
 :do { add list=AF address=61.5.199.0/24 } on-error={}

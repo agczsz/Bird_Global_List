@@ -4902,8 +4902,7 @@
 :do { add list=IT address=89.34.122.0/23 } on-error={}
 :do { add list=IT address=89.34.161.0/24 } on-error={}
 :do { add list=IT address=89.34.203.0/24 } on-error={}
-:do { add list=IT address=89.34.236.0/24 } on-error={}
-:do { add list=IT address=89.34.237.0/24 } on-error={}
+:do { add list=IT address=89.34.236.0/23 } on-error={}
 :do { add list=IT address=89.34.239.0/24 } on-error={}
 :do { add list=IT address=89.35.168.0/22 } on-error={}
 :do { add list=IT address=89.35.206.0/23 } on-error={}

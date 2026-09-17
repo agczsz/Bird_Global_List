@@ -8274,10 +8274,7 @@
 :do { add list=VN address=2a14:7583:f040::/46 } on-error={}
 :do { add list=VN address=2a14:7583:f044::/46 } on-error={}
 :do { add list=VN address=2a14:7583:f048::/45 } on-error={}
-:do { add list=VN address=2a14:7583:f050::/46 } on-error={}
-:do { add list=VN address=2a14:7583:f054::/46 } on-error={}
-:do { add list=VN address=2a14:7583:f058::/46 } on-error={}
-:do { add list=VN address=2a14:7583:f05c::/46 } on-error={}
+:do { add list=VN address=2a14:7583:f050::/44 } on-error={}
 :do { add list=VN address=2a14:7583:f060::/44 } on-error={}
 :do { add list=VN address=2a14:7583:f070::/44 } on-error={}
 :do { add list=VN address=2a14:7583:f080::/41 } on-error={}

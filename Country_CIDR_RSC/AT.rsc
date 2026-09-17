@@ -5786,7 +5786,9 @@
 :do { add list=AT address=193.5.72.132/30 } on-error={}
 :do { add list=AT address=193.5.72.136/29 } on-error={}
 :do { add list=AT address=193.9.252.0/23 } on-error={}
-:do { add list=AT address=193.16.8.0/22 } on-error={}
+:do { add list=AT address=193.16.8.0/23 } on-error={}
+:do { add list=AT address=193.16.10.0/24 } on-error={}
+:do { add list=AT address=193.16.11.0/24 } on-error={}
 :do { add list=AT address=193.16.155.0/24 } on-error={}
 :do { add list=AT address=193.16.237.0/24 } on-error={}
 :do { add list=AT address=193.16.242.0/24 } on-error={}

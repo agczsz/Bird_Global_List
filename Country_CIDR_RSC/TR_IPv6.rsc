@@ -4332,11 +4332,7 @@
 :do { add list=TR address=2a07:9d41::/32 } on-error={}
 :do { add list=TR address=2a07:9d42::/31 } on-error={}
 :do { add list=TR address=2a07:9d44::/30 } on-error={}
-:do { add list=TR address=2a07:a5c0::/36 } on-error={}
-:do { add list=TR address=2a07:a5c0:1000::/36 } on-error={}
-:do { add list=TR address=2a07:a5c0:2000::/35 } on-error={}
-:do { add list=TR address=2a07:a5c0:4000::/34 } on-error={}
-:do { add list=TR address=2a07:a5c0:8000::/33 } on-error={}
+:do { add list=TR address=2a07:a5c0::/32 } on-error={}
 :do { add list=TR address=2a07:a700::/29 } on-error={}
 :do { add list=TR address=2a07:af80::/29 } on-error={}
 :do { add list=TR address=2a07:b500::/32 } on-error={}

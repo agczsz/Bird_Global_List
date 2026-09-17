@@ -21119,15 +21119,7 @@
 :do { add list=CA address=2602:fac8:200::/39 } on-error={}
 :do { add list=CA address=2602:fac8:400::/38 } on-error={}
 :do { add list=CA address=2602:fac8:800::/37 } on-error={}
-:do { add list=CA address=2602:facc::/37 } on-error={}
-:do { add list=CA address=2602:facc:800::/38 } on-error={}
-:do { add list=CA address=2602:facc:c00::/39 } on-error={}
-:do { add list=CA address=2602:facc:e00::/40 } on-error={}
-:do { add list=CA address=2602:facc:f00::/41 } on-error={}
-:do { add list=CA address=2602:facc:f80::/42 } on-error={}
-:do { add list=CA address=2602:facc:fc0::/43 } on-error={}
-:do { add list=CA address=2602:facc:fe0::/44 } on-error={}
-:do { add list=CA address=2602:facc:ff0::/44 } on-error={}
+:do { add list=CA address=2602:facc::/36 } on-error={}
 :do { add list=CA address=2602:fad1::/36 } on-error={}
 :do { add list=CA address=2602:fadb::/40 } on-error={}
 :do { add list=CA address=2602:fadf::/40 } on-error={}

@@ -1950,7 +1950,8 @@
 :do { add list=ZA address=2605:f500:601::/48 } on-error={}
 :do { add list=ZA address=2606:1a40:1021:4000::/50 } on-error={}
 :do { add list=ZA address=2606:1a40:1021:8000::/49 } on-error={}
-:do { add list=ZA address=2606:1a40:1022::/47 } on-error={}
+:do { add list=ZA address=2606:1a40:1022::/48 } on-error={}
+:do { add list=ZA address=2606:1a40:1023::/48 } on-error={}
 :do { add list=ZA address=2606:54c0:d3b0::/44 } on-error={}
 :do { add list=ZA address=2606:54c0:d3c0::/42 } on-error={}
 :do { add list=ZA address=2606:54c0:d400::/43 } on-error={}

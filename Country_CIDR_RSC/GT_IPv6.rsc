@@ -2836,9 +2836,7 @@
 :do { add list=GT address=2803:d100:a000::/35 } on-error={}
 :do { add list=GT address=2803:d100:c000::/36 } on-error={}
 :do { add list=GT address=2803:d100:d000::/36 } on-error={}
-:do { add list=GT address=2803:d100:e000::/44 } on-error={}
-:do { add list=GT address=2803:d100:e010::/44 } on-error={}
-:do { add list=GT address=2803:d100:e020::/43 } on-error={}
+:do { add list=GT address=2803:d100:e000::/42 } on-error={}
 :do { add list=GT address=2803:d100:e040::/42 } on-error={}
 :do { add list=GT address=2803:d100:e080::/41 } on-error={}
 :do { add list=GT address=2803:d100:e100::/40 } on-error={}

@@ -10460,8 +10460,7 @@
 :do { add list=IE address=2a0b:39c0::/36 } on-error={}
 :do { add list=IE address=2a0b:39c0:1000::/44 } on-error={}
 :do { add list=IE address=2a0b:39c0:1010::/44 } on-error={}
-:do { add list=IE address=2a0b:39c0:1020::/44 } on-error={}
-:do { add list=IE address=2a0b:39c0:1030::/44 } on-error={}
+:do { add list=IE address=2a0b:39c0:1020::/43 } on-error={}
 :do { add list=IE address=2a0b:39c0:1040::/43 } on-error={}
 :do { add list=IE address=2a0b:39c0:1060::/44 } on-error={}
 :do { add list=IE address=2a0b:39c0:1070::/44 } on-error={}

@@ -1026,8 +1026,7 @@
 :do { add list=SE address=45.12.220.0/24 } on-error={}
 :do { add list=SE address=45.14.4.0/22 } on-error={}
 :do { add list=SE address=45.14.116.0/22 } on-error={}
-:do { add list=SE address=45.15.16.0/24 } on-error={}
-:do { add list=SE address=45.15.17.0/24 } on-error={}
+:do { add list=SE address=45.15.16.0/23 } on-error={}
 :do { add list=SE address=45.15.18.64/31 } on-error={}
 :do { add list=SE address=45.15.18.67/32 } on-error={}
 :do { add list=SE address=45.15.18.68/30 } on-error={}

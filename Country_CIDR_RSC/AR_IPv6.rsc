@@ -2512,7 +2512,9 @@
 :do { add list=AR address=2800:ca0:8000::/36 } on-error={}
 :do { add list=AR address=2800:ca0:9000::/36 } on-error={}
 :do { add list=AR address=2800:ca0:a000::/35 } on-error={}
-:do { add list=AR address=2800:ca0:c000::/34 } on-error={}
+:do { add list=AR address=2800:ca0:c000::/36 } on-error={}
+:do { add list=AR address=2800:ca0:d000::/36 } on-error={}
+:do { add list=AR address=2800:ca0:e000::/35 } on-error={}
 :do { add list=AR address=2800:cb0::/32 } on-error={}
 :do { add list=AR address=2800:cf0::/32 } on-error={}
 :do { add list=AR address=2800:d00::/32 } on-error={}

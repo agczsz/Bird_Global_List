@@ -601,8 +601,7 @@
 :do { add list=NZ address=60.234.6.0/24 } on-error={}
 :do { add list=NZ address=60.234.7.0/24 } on-error={}
 :do { add list=NZ address=60.234.8.0/23 } on-error={}
-:do { add list=NZ address=60.234.10.0/24 } on-error={}
-:do { add list=NZ address=60.234.11.0/24 } on-error={}
+:do { add list=NZ address=60.234.10.0/23 } on-error={}
 :do { add list=NZ address=60.234.12.0/22 } on-error={}
 :do { add list=NZ address=60.234.16.0/21 } on-error={}
 :do { add list=NZ address=60.234.24.0/22 } on-error={}

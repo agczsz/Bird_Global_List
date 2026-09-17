@@ -29982,7 +29982,11 @@
 :do { add list=IT address=2a0b:4e07:c26::/47 } on-error={}
 :do { add list=IT address=2a0b:4e07:c28::/45 } on-error={}
 :do { add list=IT address=2a0b:4e07:c30::/44 } on-error={}
-:do { add list=IT address=2a0b:4e07:c40::/42 } on-error={}
+:do { add list=IT address=2a0b:4e07:c40::/43 } on-error={}
+:do { add list=IT address=2a0b:4e07:c60::/45 } on-error={}
+:do { add list=IT address=2a0b:4e07:c68::/46 } on-error={}
+:do { add list=IT address=2a0b:4e07:c6c::/46 } on-error={}
+:do { add list=IT address=2a0b:4e07:c70::/44 } on-error={}
 :do { add list=IT address=2a0b:4e07:c80::/43 } on-error={}
 :do { add list=IT address=2a0b:4e07:ca0::/44 } on-error={}
 :do { add list=IT address=2a0b:4e07:cb0::/46 } on-error={}
