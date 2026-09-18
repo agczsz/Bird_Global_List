@@ -14,7 +14,6 @@
 :do { add list=FO address=2401:f1e0:ffff:730::/64 } on-error={}
 :do { add list=FO address=2401:f1e0:ffff:143d::/64 } on-error={}
 :do { add list=FO address=2401:f1e0:ffff:519c::/64 } on-error={}
-:do { add list=FO address=2401:f1e0:ffff:6ce8::/64 } on-error={}
 :do { add list=FO address=2405:b500:2700::/64 } on-error={}
 :do { add list=FO address=2405:b500:2740::/64 } on-error={}
 :do { add list=FO address=2405:b500:2760::/64 } on-error={}
@@ -32,7 +31,6 @@
 :do { add list=FO address=2606:54c0:3198::/45 } on-error={}
 :do { add list=FO address=2606:54c3:0:e3f::/64 } on-error={}
 :do { add list=FO address=2607:8940:30ce::/48 } on-error={}
-:do { add list=FO address=2607:8940:30cf:1f4c::/62 } on-error={}
 :do { add list=FO address=2607:8940:30cf:1f50::/60 } on-error={}
 :do { add list=FO address=2607:8940:30cf:1f60::/59 } on-error={}
 :do { add list=FO address=2607:8940:30cf:1f80::/57 } on-error={}

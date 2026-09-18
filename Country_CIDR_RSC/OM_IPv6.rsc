@@ -1,8 +1,9 @@
 /log info "Loading OM IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=OM address=2001:470:26:291::/64 } on-error={}
+:do { add list=OM address=2001:470:26:2fb::/64 } on-error={}
 :do { add list=OM address=2001:470:26:66c::/64 } on-error={}
 :do { add list=OM address=2001:470:26:674::/64 } on-error={}
-:do { add list=OM address=2001:470:6d:b3c::/64 } on-error={}
 :do { add list=OM address=2001:470:1f29:7c::/64 } on-error={}
 :do { add list=OM address=2001:470:1f29:97::/64 } on-error={}
 :do { add list=OM address=2001:470:1f29:c7::/64 } on-error={}
@@ -11,7 +12,7 @@
 :do { add list=OM address=2001:470:1f29:251::/64 } on-error={}
 :do { add list=OM address=2001:470:1f29:2a7::/64 } on-error={}
 :do { add list=OM address=2001:470:1f29:347::/64 } on-error={}
-:do { add list=OM address=2001:470:1f2f:100::/64 } on-error={}
+:do { add list=OM address=2001:470:4802::/48 } on-error={}
 :do { add list=OM address=2001:470:508a::/48 } on-error={}
 :do { add list=OM address=2001:470:51a8::/48 } on-error={}
 :do { add list=OM address=2001:470:7360::/48 } on-error={}
@@ -704,6 +705,7 @@
 :do { add list=OM address=2405:b500:5840:7f8::/64 } on-error={}
 :do { add list=OM address=2405:b500:5860::/64 } on-error={}
 :do { add list=OM address=2405:b500:5860:7f8::/64 } on-error={}
+:do { add list=OM address=2600:70ff:b2fc::/48 } on-error={}
 :do { add list=OM address=2600:70ff:d026::/48 } on-error={}
 :do { add list=OM address=2600:70ff:d079::/48 } on-error={}
 :do { add list=OM address=2602:814:feac::/46 } on-error={}
@@ -1108,16 +1110,6 @@
 :do { add list=OM address=2a0c:9a40:95ba:5000::/52 } on-error={}
 :do { add list=OM address=2a0c:9a46:3ac::/48 } on-error={}
 :do { add list=OM address=2a0c:9a46:3fe:ab::/64 } on-error={}
-:do { add list=OM address=2a0d:2681:3e00:4000::/50 } on-error={}
-:do { add list=OM address=2a0d:2681:3e00:8000::/49 } on-error={}
-:do { add list=OM address=2a0d:2681:3e01::/48 } on-error={}
-:do { add list=OM address=2a0d:2681:3e02::/47 } on-error={}
-:do { add list=OM address=2a0d:2681:3e04::/46 } on-error={}
-:do { add list=OM address=2a0d:2681:3e08::/45 } on-error={}
-:do { add list=OM address=2a0d:2681:3e10::/44 } on-error={}
-:do { add list=OM address=2a0d:2681:3e20::/43 } on-error={}
-:do { add list=OM address=2a0d:2681:3e40::/42 } on-error={}
-:do { add list=OM address=2a0d:2681:3e80::/41 } on-error={}
 :do { add list=OM address=2a0d:3341:c180::/42 } on-error={}
 :do { add list=OM address=2a0d:3341:d400::/40 } on-error={}
 :do { add list=OM address=2a0d:3344:4000::/38 } on-error={}

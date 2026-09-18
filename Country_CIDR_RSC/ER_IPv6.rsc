@@ -33,11 +33,7 @@
 :do { add list=ER address=2607:8940:209b::/48 } on-error={}
 :do { add list=ER address=2607:8940:4171:3000::/55 } on-error={}
 :do { add list=ER address=2607:8940:4191:3000::/55 } on-error={}
-:do { add list=ER address=2620:0:1c00:1::83/128 } on-error={}
-:do { add list=ER address=2620:0:1c00:2a::dd/128 } on-error={}
 :do { add list=ER address=2620:0:1c00:36::d/128 } on-error={}
-:do { add list=ER address=2620:0:1c00:41:1::cf/128 } on-error={}
-:do { add list=ER address=2620:0:1c00:41:1::10b/128 } on-error={}
 :do { add list=ER address=2620:0:1c00:41:2::41/128 } on-error={}
 :do { add list=ER address=2620:0:1c00:41:2::87/128 } on-error={}
 :do { add list=ER address=2a00:ca0:2003:8000::/52 } on-error={}

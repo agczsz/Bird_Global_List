@@ -50,6 +50,7 @@
 :do { add list=FO address=185.88.228.0/22 } on-error={}
 :do { add list=FO address=185.112.132.13/32 } on-error={}
 :do { add list=FO address=185.171.172.0/22 } on-error={}
+:do { add list=FO address=188.220.74.8/31 } on-error={}
 :do { add list=FO address=193.4.102.6/31 } on-error={}
 :do { add list=FO address=193.4.247.37/32 } on-error={}
 :do { add list=FO address=193.4.247.38/32 } on-error={}

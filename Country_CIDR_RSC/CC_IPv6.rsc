@@ -1,6 +1,7 @@
 /log info "Loading CC IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=CC address=2001:470:19:10b4::/64 } on-error={}
+:do { add list=CC address=2001:470:28:1157::/64 } on-error={}
 :do { add list=CC address=2001:470:18fd::/48 } on-error={}
 :do { add list=CC address=2001:470:1f29:44e::/64 } on-error={}
 :do { add list=CC address=2001:470:79af::/48 } on-error={}
@@ -15,6 +16,7 @@
 :do { add list=CC address=2401:b60:12f4::/46 } on-error={}
 :do { add list=CC address=2401:b60:12f8::/45 } on-error={}
 :do { add list=CC address=2401:3620:231:30::/64 } on-error={}
+:do { add list=CC address=2600:70ff:b3aa::/48 } on-error={}
 :do { add list=CC address=2602:814:fc98::/46 } on-error={}
 :do { add list=CC address=2606:40:2300::/54 } on-error={}
 :do { add list=CC address=2606:40:2300:800::/53 } on-error={}

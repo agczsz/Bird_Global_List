@@ -8,7 +8,7 @@
 :do { add list=ML address=2001:4b28:4a00::/40 } on-error={}
 :do { add list=ML address=2401:3620:231:97::/64 } on-error={}
 :do { add list=ML address=2401:f1e0:ffff:8941::/64 } on-error={}
-:do { add list=ML address=2401:f1e0:ffff:9eb0::/64 } on-error={}
+:do { add list=ML address=2401:f1e0:ffff:d610::/64 } on-error={}
 :do { add list=ML address=2401:f1e0:ffff:faf7::/64 } on-error={}
 :do { add list=ML address=2405:b500:4a80::/64 } on-error={}
 :do { add list=ML address=2405:b500:4aa0::/64 } on-error={}

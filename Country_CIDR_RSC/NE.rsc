@@ -2,6 +2,7 @@
 /ip firewall address-list
 :do { add list=NE address=5.62.63.48/30 } on-error={}
 :do { add list=NE address=9.170.56.0/23 } on-error={}
+:do { add list=NE address=37.52.238.226/32 } on-error={}
 :do { add list=NE address=41.78.116.0/22 } on-error={}
 :do { add list=NE address=41.138.32.0/20 } on-error={}
 :do { add list=NE address=41.138.48.0/22 } on-error={}
@@ -23,6 +24,7 @@
 :do { add list=NE address=41.138.55.224/27 } on-error={}
 :do { add list=NE address=41.138.56.0/21 } on-error={}
 :do { add list=NE address=41.203.128.0/19 } on-error={}
+:do { add list=NE address=44.3.20.66/31 } on-error={}
 :do { add list=NE address=57.82.150.0/23 } on-error={}
 :do { add list=NE address=57.84.80.0/20 } on-error={}
 :do { add list=NE address=74.244.12.0/23 } on-error={}
@@ -37,6 +39,9 @@
 :do { add list=NE address=102.215.84.0/22 } on-error={}
 :do { add list=NE address=102.217.96.0/24 } on-error={}
 :do { add list=NE address=102.217.97.64/28 } on-error={}
+:do { add list=NE address=102.217.97.93/32 } on-error={}
+:do { add list=NE address=102.217.97.96/32 } on-error={}
+:do { add list=NE address=102.217.97.111/32 } on-error={}
 :do { add list=NE address=102.217.98.0/23 } on-error={}
 :do { add list=NE address=102.220.24.0/22 } on-error={}
 :do { add list=NE address=104.28.12.18/31 } on-error={}
@@ -143,8 +148,7 @@
 :do { add list=NE address=197.214.48.0/23 } on-error={}
 :do { add list=NE address=197.214.51.0/24 } on-error={}
 :do { add list=NE address=197.214.52.0/23 } on-error={}
-:do { add list=NE address=197.214.54.0/24 } on-error={}
-:do { add list=NE address=197.214.55.0/24 } on-error={}
+:do { add list=NE address=197.214.54.0/23 } on-error={}
 :do { add list=NE address=197.214.57.0/24 } on-error={}
 :do { add list=NE address=197.214.60.0/22 } on-error={}
 :do { add list=NE address=198.54.100.94/31 } on-error={}

@@ -38,12 +38,6 @@
 :do { add list=RW address=2607:8940:2193:4000::/50 } on-error={}
 :do { add list=RW address=2607:8940:2193:8000::/49 } on-error={}
 :do { add list=RW address=2607:8940:2196::/48 } on-error={}
-:do { add list=RW address=2607:8940:2197:4000::/57 } on-error={}
-:do { add list=RW address=2607:8940:2197:8000::/57 } on-error={}
-:do { add list=RW address=2607:8940:2197:e100::/56 } on-error={}
-:do { add list=RW address=2607:8940:2197:e200::/55 } on-error={}
-:do { add list=RW address=2607:8940:2197:e400::/54 } on-error={}
-:do { add list=RW address=2607:8940:2197:e800::/53 } on-error={}
 :do { add list=RW address=2607:8940:4171:9a00::/55 } on-error={}
 :do { add list=RW address=2607:8940:4191:9a00::/55 } on-error={}
 :do { add list=RW address=2620:0:876:4900::/56 } on-error={}
@@ -127,16 +121,6 @@
 :do { add list=RW address=2a0c:9a40:95bb:6000::/52 } on-error={}
 :do { add list=RW address=2a0c:9a46:3c0::/48 } on-error={}
 :do { add list=RW address=2a0c:9a46:3fe:bf::/64 } on-error={}
-:do { add list=RW address=2a0d:2681:4a00:4000::/50 } on-error={}
-:do { add list=RW address=2a0d:2681:4a00:8000::/49 } on-error={}
-:do { add list=RW address=2a0d:2681:4a01::/48 } on-error={}
-:do { add list=RW address=2a0d:2681:4a02::/47 } on-error={}
-:do { add list=RW address=2a0d:2681:4a04::/46 } on-error={}
-:do { add list=RW address=2a0d:2681:4a08::/45 } on-error={}
-:do { add list=RW address=2a0d:2681:4a10::/44 } on-error={}
-:do { add list=RW address=2a0d:2681:4a20::/43 } on-error={}
-:do { add list=RW address=2a0d:2681:4a40::/42 } on-error={}
-:do { add list=RW address=2a0d:2681:4a80::/41 } on-error={}
 :do { add list=RW address=2a0d:9444:1800::/37 } on-error={}
 :do { add list=RW address=2a0e:4001:9ff:b8::/64 } on-error={}
 :do { add list=RW address=2a0e:97c1:8a27::/48 } on-error={}
@@ -173,7 +157,6 @@
 :do { add list=RW address=2a12:f381:1f00::/40 } on-error={}
 :do { add list=RW address=2a12:f382:1f00::/40 } on-error={}
 :do { add list=RW address=2a12:f8c3:1:c8c0::/64 } on-error={}
-:do { add list=RW address=2a12:f8c3:1:c9d5::/64 } on-error={}
 :do { add list=RW address=2a13:241:4700::/40 } on-error={}
 :do { add list=RW address=2a13:82c4:ff71::/48 } on-error={}
 :do { add list=RW address=2a13:a5c3:d18c::/46 } on-error={}

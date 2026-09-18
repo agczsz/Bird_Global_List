@@ -76,7 +76,6 @@
 :do { add list=SB address=172.225.231.48/28 } on-error={}
 :do { add list=SB address=172.225.244.240/28 } on-error={}
 :do { add list=SB address=185.112.134.30/32 } on-error={}
-:do { add list=SB address=192.230.108.228/30 } on-error={}
 :do { add list=SB address=196.48.177.0/24 } on-error={}
 :do { add list=SB address=196.56.177.0/24 } on-error={}
 :do { add list=SB address=196.57.177.0/24 } on-error={}

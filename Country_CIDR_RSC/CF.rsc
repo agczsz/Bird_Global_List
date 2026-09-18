@@ -80,4 +80,4 @@
 :do { add list=CF address=197.242.182.0/24 } on-error={}
 :do { add list=CF address=197.242.183.0/25 } on-error={}
 :do { add list=CF address=197.242.183.132/30 } on-error={}
-:do { add list=CF address=197.242.183.192/28 } on-error={}
+:do { add list=CF address=197.242.183.192/30 } on-error={}

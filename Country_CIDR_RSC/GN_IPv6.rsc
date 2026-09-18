@@ -135,6 +135,7 @@
 :do { add list=GN address=2a0f:9403:ac0::/44 } on-error={}
 :do { add list=GN address=2a0f:a302:b800::/37 } on-error={}
 :do { add list=GN address=2a10:500:1f00::/40 } on-error={}
+:do { add list=GN address=2a10:fa81:1855::/48 } on-error={}
 :do { add list=GN address=2a11:29c0:3d88:db::/64 } on-error={}
 :do { add list=GN address=2a11:29c0:3d88:ba9::/64 } on-error={}
 :do { add list=GN address=2a11:29c0:3d88:c57::/64 } on-error={}

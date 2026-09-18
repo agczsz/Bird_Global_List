@@ -71,7 +71,7 @@
 :do { add list=BS address=2607:300::/32 } on-error={}
 :do { add list=BS address=2607:740:36:4000::/50 } on-error={}
 :do { add list=BS address=2607:740:36:8000::/49 } on-error={}
-:do { add list=BS address=2607:6b80:2c:2::/63 } on-error={}
+:do { add list=BS address=2607:6b80:2c:2::/64 } on-error={}
 :do { add list=BS address=2607:6b80:2c:4::/62 } on-error={}
 :do { add list=BS address=2607:6b80:2c:8::/61 } on-error={}
 :do { add list=BS address=2607:6b80:2c:10::/60 } on-error={}
@@ -81,7 +81,7 @@
 :do { add list=BS address=2607:6b80:2c:100::/56 } on-error={}
 :do { add list=BS address=2607:6b80:2c:200::/55 } on-error={}
 :do { add list=BS address=2607:6b80:2c:400::/54 } on-error={}
-:do { add list=BS address=2607:6b80:2c:800::/53 } on-error={}
+:do { add list=BS address=2607:6b80:2c:1002::/64 } on-error={}
 :do { add list=BS address=2607:6b80:2c:1004::/62 } on-error={}
 :do { add list=BS address=2607:6b80:2c:1008::/61 } on-error={}
 :do { add list=BS address=2607:6b80:2c:1010::/60 } on-error={}
@@ -89,9 +89,7 @@
 :do { add list=BS address=2607:6b80:2c:1040::/58 } on-error={}
 :do { add list=BS address=2607:6b80:2c:1080::/57 } on-error={}
 :do { add list=BS address=2607:6b80:2c:1100::/56 } on-error={}
-:do { add list=BS address=2607:6b80:2c:1200::/55 } on-error={}
 :do { add list=BS address=2607:6b80:2c:1400::/54 } on-error={}
-:do { add list=BS address=2607:6b80:2c:1800::/53 } on-error={}
 :do { add list=BS address=2607:6b80:2c:2000::/51 } on-error={}
 :do { add list=BS address=2607:6b80:2c:4000::/50 } on-error={}
 :do { add list=BS address=2607:6b80:2c:8000::/49 } on-error={}
@@ -1375,6 +1373,7 @@
 :do { add list=BS address=2a0f:ca80:deed:71::/64 } on-error={}
 :do { add list=BS address=2a0f:ca81:deed:4e::/64 } on-error={}
 :do { add list=BS address=2a10:500:9b00::/40 } on-error={}
+:do { add list=BS address=2a10:fa81:181f::/48 } on-error={}
 :do { add list=BS address=2a11:29c0:3d88:9cf::/64 } on-error={}
 :do { add list=BS address=2a11:29c0:3d88:2c89::/64 } on-error={}
 :do { add list=BS address=2a11:29c0:3d88:8eaf::/64 } on-error={}

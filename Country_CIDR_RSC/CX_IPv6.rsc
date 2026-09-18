@@ -2,7 +2,7 @@
 /ipv6 firewall address-list
 :do { add list=CX address=2001:470:36:1eb::/64 } on-error={}
 :do { add list=CX address=2001:470:1f2d:20::/64 } on-error={}
-:do { add list=CX address=2001:470:1f2d:3b1::/64 } on-error={}
+:do { add list=CX address=2001:470:4928::/48 } on-error={}
 :do { add list=CX address=2001:470:69f0::/48 } on-error={}
 :do { add list=CX address=2001:470:b805::/48 } on-error={}
 :do { add list=CX address=2001:470:c3a5::/48 } on-error={}

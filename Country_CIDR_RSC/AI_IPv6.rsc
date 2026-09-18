@@ -4,7 +4,6 @@
 :do { add list=AI address=2001:470:1f0b:5a5::/64 } on-error={}
 :do { add list=AI address=2001:470:1f29:2cc::/64 } on-error={}
 :do { add list=AI address=2001:470:1f29:30a::/64 } on-error={}
-:do { add list=AI address=2001:470:1f2f:53::/64 } on-error={}
 :do { add list=AI address=2001:470:5c3e::/48 } on-error={}
 :do { add list=AI address=2001:470:5cc8::/48 } on-error={}
 :do { add list=AI address=2001:470:5ccc::/48 } on-error={}

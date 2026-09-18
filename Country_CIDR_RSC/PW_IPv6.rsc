@@ -14,6 +14,7 @@
 :do { add list=PW address=2401:b60:1ad8::/45 } on-error={}
 :do { add list=PW address=2401:3620:231:bc::/64 } on-error={}
 :do { add list=PW address=2401:f1e0:ffff:4dd2::/64 } on-error={}
+:do { add list=PW address=2401:f1e0:ffff:b2c7::/64 } on-error={}
 :do { add list=PW address=2401:f1e0:ffff:e3af::/64 } on-error={}
 :do { add list=PW address=2401:f1e0:ffff:e4a2::/64 } on-error={}
 :do { add list=PW address=2404:7800::/32 } on-error={}

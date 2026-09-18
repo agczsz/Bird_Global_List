@@ -14,6 +14,10 @@
 :do { add list=TO address=2401:b60:1e84::/46 } on-error={}
 :do { add list=TO address=2401:b60:1e88::/45 } on-error={}
 :do { add list=TO address=2401:3620:231:e0::/64 } on-error={}
+:do { add list=TO address=2401:f1e0:ffff:4982::/64 } on-error={}
+:do { add list=TO address=2401:f1e0:ffff:c9b8::/64 } on-error={}
+:do { add list=TO address=2401:f1e0:ffff:e576::/64 } on-error={}
+:do { add list=TO address=2401:f1e0:ffff:f448::/64 } on-error={}
 :do { add list=TO address=2402:1940::/32 } on-error={}
 :do { add list=TO address=2405:b500:7200::/64 } on-error={}
 :do { add list=TO address=2405:b500:7220::/64 } on-error={}

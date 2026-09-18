@@ -147,8 +147,6 @@
 :do { add list=SX address=2a12:f005:2000::/36 } on-error={}
 :do { add list=SX address=2a12:f381:ec00::/40 } on-error={}
 :do { add list=SX address=2a12:f382:ec00::/40 } on-error={}
-:do { add list=SX address=2a12:f8c3:1:d97a::/64 } on-error={}
-:do { add list=SX address=2a12:f8c3:1:d980::/64 } on-error={}
 :do { add list=SX address=2a13:a5c7:25d2::/48 } on-error={}
 :do { add list=SX address=2a13:a5c7:25ff:a5e0::/60 } on-error={}
 :do { add list=SX address=2a13:a5c7:25ff:d200::/56 } on-error={}

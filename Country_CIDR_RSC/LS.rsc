@@ -25,6 +25,7 @@
 :do { add list=LS address=102.214.115.80/31 } on-error={}
 :do { add list=LS address=102.214.115.84/30 } on-error={}
 :do { add list=LS address=102.214.115.88/31 } on-error={}
+:do { add list=LS address=102.214.115.90/32 } on-error={}
 :do { add list=LS address=102.214.115.94/32 } on-error={}
 :do { add list=LS address=102.214.115.96/27 } on-error={}
 :do { add list=LS address=102.214.115.128/25 } on-error={}

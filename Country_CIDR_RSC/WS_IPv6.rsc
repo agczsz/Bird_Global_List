@@ -122,6 +122,10 @@
 :do { add list=WS address=2401:ae60:2000::/35 } on-error={}
 :do { add list=WS address=2401:ae60:4000::/34 } on-error={}
 :do { add list=WS address=2401:ae60:8000::/33 } on-error={}
+:do { add list=WS address=2401:f1e0:ffff:26::/64 } on-error={}
+:do { add list=WS address=2401:f1e0:ffff:446e::/64 } on-error={}
+:do { add list=WS address=2401:f1e0:ffff:740b::/64 } on-error={}
+:do { add list=WS address=2401:f1e0:ffff:fd37::/64 } on-error={}
 :do { add list=WS address=2402:ae80:0:4000::/50 } on-error={}
 :do { add list=WS address=2402:ae80:0:8000::/49 } on-error={}
 :do { add list=WS address=2402:ae80:1::/48 } on-error={}

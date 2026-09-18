@@ -176,6 +176,7 @@
 :do { add list=MK address=2a02:5745:150::/48 } on-error={}
 :do { add list=MK address=2a02:5746:150::/48 } on-error={}
 :do { add list=MK address=2a02:5747:150::/48 } on-error={}
+:do { add list=MK address=2a02:6ea0:7:1370::/60 } on-error={}
 :do { add list=MK address=2a02:cbc0::/30 } on-error={}
 :do { add list=MK address=2a02:f580::/29 } on-error={}
 :do { add list=MK address=2a03:f80:389::/48 } on-error={}
