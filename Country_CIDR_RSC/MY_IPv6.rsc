@@ -2013,10 +2013,7 @@
 :do { add list=MY address=2405:1c0:7f80::/41 } on-error={}
 :do { add list=MY address=2405:1c0:8000::/33 } on-error={}
 :do { add list=MY address=2405:1840::/32 } on-error={}
-:do { add list=MY address=2405:2000:b00::/64 } on-error={}
-:do { add list=MY address=2405:2000:b00:1::/127 } on-error={}
-:do { add list=MY address=2405:2000:b00:1::4/126 } on-error={}
-:do { add list=MY address=2405:2000:b00:1::8/126 } on-error={}
+:do { add list=MY address=2405:2000:b00::/63 } on-error={}
 :do { add list=MY address=2405:2000:2200::/56 } on-error={}
 :do { add list=MY address=2405:2000:2300::/50 } on-error={}
 :do { add list=MY address=2405:2000:2301::/48 } on-error={}

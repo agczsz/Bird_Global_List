@@ -7807,7 +7807,8 @@
 :do { add list=IR address=2a0c:a7c6:4::/48 } on-error={}
 :do { add list=IR address=2a0c:a7c6:5::/48 } on-error={}
 :do { add list=IR address=2a0c:a7c6:6::/47 } on-error={}
-:do { add list=IR address=2a0c:a7c6:8::/45 } on-error={}
+:do { add list=IR address=2a0c:a7c6:8::/46 } on-error={}
+:do { add list=IR address=2a0c:a7c6:c::/46 } on-error={}
 :do { add list=IR address=2a0c:a7c6:10::/44 } on-error={}
 :do { add list=IR address=2a0c:a7c6:20::/43 } on-error={}
 :do { add list=IR address=2a0c:a7c6:40::/42 } on-error={}

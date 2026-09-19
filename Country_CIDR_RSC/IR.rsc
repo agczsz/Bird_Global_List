@@ -1637,8 +1637,7 @@
 :do { add list=IR address=87.107.3.0/24 } on-error={}
 :do { add list=IR address=87.107.4.0/24 } on-error={}
 :do { add list=IR address=87.107.5.0/24 } on-error={}
-:do { add list=IR address=87.107.6.0/24 } on-error={}
-:do { add list=IR address=87.107.7.0/24 } on-error={}
+:do { add list=IR address=87.107.6.0/23 } on-error={}
 :do { add list=IR address=87.107.8.0/24 } on-error={}
 :do { add list=IR address=87.107.9.0/24 } on-error={}
 :do { add list=IR address=87.107.10.0/23 } on-error={}

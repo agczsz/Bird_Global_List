@@ -6512,7 +6512,6 @@
 :do { add list=DK address=2a02:980::/29 } on-error={}
 :do { add list=DK address=2a02:9d0::/32 } on-error={}
 :do { add list=DK address=2a02:aa1:1143:9900::/56 } on-error={}
-:do { add list=DK address=2a02:aa1:1657:e900::/56 } on-error={}
 :do { add list=DK address=2a02:aa4::/31 } on-error={}
 :do { add list=DK address=2a02:aa6::/38 } on-error={}
 :do { add list=DK address=2a02:aa6:400::/42 } on-error={}

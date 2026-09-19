@@ -234,6 +234,7 @@
 :do { add list=TG address=2c0f:7e00:2000::/35 } on-error={}
 :do { add list=TG address=2c0f:7e00:4000::/34 } on-error={}
 :do { add list=TG address=2c0f:7e00:8000::/33 } on-error={}
+:do { add list=TG address=2c0f:f038:893:4900::/64 } on-error={}
 :do { add list=TG address=2c0f:f038:89b:2000::/64 } on-error={}
 :do { add list=TG address=2c0f:f038:8ac:7f00::/64 } on-error={}
 :do { add list=TG address=2c0f:f0f8::/38 } on-error={}

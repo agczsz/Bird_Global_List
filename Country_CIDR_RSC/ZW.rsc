@@ -157,7 +157,6 @@
 :do { add list=ZW address=41.173.199.64/26 } on-error={}
 :do { add list=ZW address=41.173.199.128/25 } on-error={}
 :do { add list=ZW address=41.173.210.64/26 } on-error={}
-:do { add list=ZW address=41.173.211.160/27 } on-error={}
 :do { add list=ZW address=41.173.212.0/24 } on-error={}
 :do { add list=ZW address=41.173.215.0/24 } on-error={}
 :do { add list=ZW address=41.173.227.0/24 } on-error={}
@@ -193,7 +192,10 @@
 :do { add list=ZW address=41.173.239.134/32 } on-error={}
 :do { add list=ZW address=41.173.239.136/29 } on-error={}
 :do { add list=ZW address=41.173.239.144/28 } on-error={}
-:do { add list=ZW address=41.173.239.192/26 } on-error={}
+:do { add list=ZW address=41.173.239.192/28 } on-error={}
+:do { add list=ZW address=41.173.239.208/29 } on-error={}
+:do { add list=ZW address=41.173.239.218/31 } on-error={}
+:do { add list=ZW address=41.173.239.224/27 } on-error={}
 :do { add list=ZW address=41.174.1.0/24 } on-error={}
 :do { add list=ZW address=41.174.2.0/24 } on-error={}
 :do { add list=ZW address=41.174.12.0/25 } on-error={}
@@ -236,16 +238,7 @@
 :do { add list=ZW address=41.174.120.0/21 } on-error={}
 :do { add list=ZW address=41.174.152.200/30 } on-error={}
 :do { add list=ZW address=41.174.152.204/31 } on-error={}
-:do { add list=ZW address=41.174.160.0/20 } on-error={}
-:do { add list=ZW address=41.174.176.0/21 } on-error={}
-:do { add list=ZW address=41.174.184.0/22 } on-error={}
-:do { add list=ZW address=41.174.188.0/25 } on-error={}
-:do { add list=ZW address=41.174.188.128/28 } on-error={}
-:do { add list=ZW address=41.174.188.144/29 } on-error={}
-:do { add list=ZW address=41.174.188.160/27 } on-error={}
-:do { add list=ZW address=41.174.188.192/26 } on-error={}
-:do { add list=ZW address=41.174.189.0/24 } on-error={}
-:do { add list=ZW address=41.174.190.0/23 } on-error={}
+:do { add list=ZW address=41.174.160.0/19 } on-error={}
 :do { add list=ZW address=41.174.237.0/24 } on-error={}
 :do { add list=ZW address=41.175.7.5/32 } on-error={}
 :do { add list=ZW address=41.175.30.238/32 } on-error={}

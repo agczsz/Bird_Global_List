@@ -9463,6 +9463,7 @@
 :do { add list=ID address=2604:b040:13:900:0:4::/112 } on-error={}
 :do { add list=ID address=2604:b040:13:900:0:5::/112 } on-error={}
 :do { add list=ID address=2604:e700:14::/48 } on-error={}
+:do { add list=ID address=2604:e700:89::/48 } on-error={}
 :do { add list=ID address=2605:340:f092::/48 } on-error={}
 :do { add list=ID address=2605:340:f0b5::/50 } on-error={}
 :do { add list=ID address=2605:340:f0c8::/50 } on-error={}

@@ -465,7 +465,7 @@
 :do { add list=RE address=139.26.12.0/24 } on-error={}
 :do { add list=RE address=139.26.13.0/25 } on-error={}
 :do { add list=RE address=139.26.14.0/24 } on-error={}
-:do { add list=RE address=139.26.15.0/26 } on-error={}
+:do { add list=RE address=139.26.15.0/25 } on-error={}
 :do { add list=RE address=139.26.16.0/20 } on-error={}
 :do { add list=RE address=139.26.32.0/19 } on-error={}
 :do { add list=RE address=139.26.64.0/18 } on-error={}

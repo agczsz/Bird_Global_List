@@ -37,7 +37,7 @@
 :do { add list=NE address=102.213.247.0/24 } on-error={}
 :do { add list=NE address=102.214.4.0/22 } on-error={}
 :do { add list=NE address=102.215.84.0/22 } on-error={}
-:do { add list=NE address=102.217.96.0/24 } on-error={}
+:do { add list=NE address=102.217.96.48/28 } on-error={}
 :do { add list=NE address=102.217.97.64/28 } on-error={}
 :do { add list=NE address=102.217.97.93/32 } on-error={}
 :do { add list=NE address=102.217.97.96/32 } on-error={}
