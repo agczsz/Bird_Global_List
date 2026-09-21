@@ -1997,10 +1997,10 @@
 :do { add list=EC address=2803:2a10::/32 } on-error={}
 :do { add list=EC address=2803:2a60::/32 } on-error={}
 :do { add list=EC address=2803:2a90::/32 } on-error={}
-:do { add list=EC address=2803:2ae0::/38 } on-error={}
-:do { add list=EC address=2803:2ae0:400::/39 } on-error={}
-:do { add list=EC address=2803:2ae0:600::/39 } on-error={}
-:do { add list=EC address=2803:2ae0:800::/37 } on-error={}
+:do { add list=EC address=2803:2ae0::/37 } on-error={}
+:do { add list=EC address=2803:2ae0:800::/39 } on-error={}
+:do { add list=EC address=2803:2ae0:a00::/39 } on-error={}
+:do { add list=EC address=2803:2ae0:c00::/38 } on-error={}
 :do { add list=EC address=2803:2ae0:1000::/38 } on-error={}
 :do { add list=EC address=2803:2ae0:1400::/39 } on-error={}
 :do { add list=EC address=2803:2ae0:1600::/39 } on-error={}

@@ -100,12 +100,7 @@
 :do { add list=GR address=2001:648:2304::/46 } on-error={}
 :do { add list=GR address=2001:648:2308::/45 } on-error={}
 :do { add list=GR address=2001:648:2310::/44 } on-error={}
-:do { add list=GR address=2001:648:2320::/44 } on-error={}
-:do { add list=GR address=2001:648:2330::/48 } on-error={}
-:do { add list=GR address=2001:648:2331::/48 } on-error={}
-:do { add list=GR address=2001:648:2332::/47 } on-error={}
-:do { add list=GR address=2001:648:2334::/46 } on-error={}
-:do { add list=GR address=2001:648:2338::/45 } on-error={}
+:do { add list=GR address=2001:648:2320::/43 } on-error={}
 :do { add list=GR address=2001:648:2340::/42 } on-error={}
 :do { add list=GR address=2001:648:2380::/41 } on-error={}
 :do { add list=GR address=2001:648:2400::/43 } on-error={}

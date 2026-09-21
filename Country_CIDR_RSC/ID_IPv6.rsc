@@ -5837,9 +5837,7 @@
 :do { add list=ID address=2401:ae00:8000::/47 } on-error={}
 :do { add list=ID address=2401:ae00:8002::/48 } on-error={}
 :do { add list=ID address=2401:ae00:8003::/48 } on-error={}
-:do { add list=ID address=2401:ae00:8004::/47 } on-error={}
-:do { add list=ID address=2401:ae00:8006::/48 } on-error={}
-:do { add list=ID address=2401:ae00:8007::/48 } on-error={}
+:do { add list=ID address=2401:ae00:8004::/46 } on-error={}
 :do { add list=ID address=2401:ae00:8008::/48 } on-error={}
 :do { add list=ID address=2401:ae00:8009::/48 } on-error={}
 :do { add list=ID address=2401:ae00:800a::/47 } on-error={}

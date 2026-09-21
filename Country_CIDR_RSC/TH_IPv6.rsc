@@ -3684,13 +3684,7 @@
 :do { add list=TH address=2405:9800:b640::/42 } on-error={}
 :do { add list=TH address=2405:9800:b680::/41 } on-error={}
 :do { add list=TH address=2405:9800:b700::/40 } on-error={}
-:do { add list=TH address=2405:9800:b800::/44 } on-error={}
-:do { add list=TH address=2405:9800:b810::/48 } on-error={}
-:do { add list=TH address=2405:9800:b811::/48 } on-error={}
-:do { add list=TH address=2405:9800:b812::/47 } on-error={}
-:do { add list=TH address=2405:9800:b814::/46 } on-error={}
-:do { add list=TH address=2405:9800:b818::/45 } on-error={}
-:do { add list=TH address=2405:9800:b820::/43 } on-error={}
+:do { add list=TH address=2405:9800:b800::/42 } on-error={}
 :do { add list=TH address=2405:9800:b840::/43 } on-error={}
 :do { add list=TH address=2405:9800:b860::/43 } on-error={}
 :do { add list=TH address=2405:9800:b880::/41 } on-error={}

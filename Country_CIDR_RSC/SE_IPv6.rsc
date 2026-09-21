@@ -29978,8 +29978,7 @@
 :do { add list=SE address=2a0e:dc1::/32 } on-error={}
 :do { add list=SE address=2a0e:dc2::/31 } on-error={}
 :do { add list=SE address=2a0e:1bc4::/35 } on-error={}
-:do { add list=SE address=2a0e:1c80::/48 } on-error={}
-:do { add list=SE address=2a0e:1c80:1::/48 } on-error={}
+:do { add list=SE address=2a0e:1c80::/47 } on-error={}
 :do { add list=SE address=2a0e:1c80:2::/48 } on-error={}
 :do { add list=SE address=2a0e:1c80:3:4000::/50 } on-error={}
 :do { add list=SE address=2a0e:1c80:3:8000::/49 } on-error={}

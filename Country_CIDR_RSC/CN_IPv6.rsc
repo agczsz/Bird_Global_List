@@ -50443,7 +50443,9 @@
 :do { add list=CN address=240e:64e:de0::/48 } on-error={}
 :do { add list=CN address=240e:64e:de1::/48 } on-error={}
 :do { add list=CN address=240e:64e:de2::/47 } on-error={}
-:do { add list=CN address=240e:64e:de4::/46 } on-error={}
+:do { add list=CN address=240e:64e:de4::/48 } on-error={}
+:do { add list=CN address=240e:64e:de5::/48 } on-error={}
+:do { add list=CN address=240e:64e:de6::/47 } on-error={}
 :do { add list=CN address=240e:64e:de8::/46 } on-error={}
 :do { add list=CN address=240e:64e:dec::/47 } on-error={}
 :do { add list=CN address=240e:64e:dee::/47 } on-error={}

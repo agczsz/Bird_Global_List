@@ -2357,8 +2357,7 @@
 :do { add list=SG address=43.96.87.0/24 } on-error={}
 :do { add list=SG address=43.96.91.0/24 } on-error={}
 :do { add list=SG address=43.96.93.0/24 } on-error={}
-:do { add list=SG address=43.96.94.0/24 } on-error={}
-:do { add list=SG address=43.96.95.0/24 } on-error={}
+:do { add list=SG address=43.96.94.0/23 } on-error={}
 :do { add list=SG address=43.96.96.0/23 } on-error={}
 :do { add list=SG address=43.96.98.0/23 } on-error={}
 :do { add list=SG address=43.96.102.0/24 } on-error={}
@@ -8585,7 +8584,8 @@
 :do { add list=SG address=103.92.16.0/24 } on-error={}
 :do { add list=SG address=103.92.96.0/24 } on-error={}
 :do { add list=SG address=103.92.97.0/24 } on-error={}
-:do { add list=SG address=103.92.98.0/23 } on-error={}
+:do { add list=SG address=103.92.98.0/24 } on-error={}
+:do { add list=SG address=103.92.99.0/24 } on-error={}
 :do { add list=SG address=103.92.196.0/24 } on-error={}
 :do { add list=SG address=103.92.197.0/24 } on-error={}
 :do { add list=SG address=103.92.198.0/23 } on-error={}

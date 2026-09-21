@@ -25415,9 +25415,7 @@
 :do { add list=CA address=2606:1a40:8000::/34 } on-error={}
 :do { add list=CA address=2606:1a40:c000::/35 } on-error={}
 :do { add list=CA address=2606:1a40:e000::/36 } on-error={}
-:do { add list=CA address=2606:1a40:f000::/47 } on-error={}
-:do { add list=CA address=2606:1a40:f002::/48 } on-error={}
-:do { add list=CA address=2606:1a40:f003::/48 } on-error={}
+:do { add list=CA address=2606:1a40:f000::/46 } on-error={}
 :do { add list=CA address=2606:1a40:f004::/46 } on-error={}
 :do { add list=CA address=2606:1a40:f008::/47 } on-error={}
 :do { add list=CA address=2606:1a40:f00a::/47 } on-error={}

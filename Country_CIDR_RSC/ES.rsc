@@ -17135,7 +17135,10 @@
 :do { add list=ES address=212.163.31.0/24 } on-error={}
 :do { add list=ES address=212.163.32.0/22 } on-error={}
 :do { add list=ES address=212.163.36.0/22 } on-error={}
-:do { add list=ES address=212.163.40.0/21 } on-error={}
+:do { add list=ES address=212.163.40.0/23 } on-error={}
+:do { add list=ES address=212.163.42.0/24 } on-error={}
+:do { add list=ES address=212.163.43.0/24 } on-error={}
+:do { add list=ES address=212.163.44.0/22 } on-error={}
 :do { add list=ES address=212.163.48.0/20 } on-error={}
 :do { add list=ES address=212.163.64.0/22 } on-error={}
 :do { add list=ES address=212.163.68.0/22 } on-error={}

@@ -1944,8 +1944,7 @@
 :do { add list=PK address=149.40.160.0/20 } on-error={}
 :do { add list=PK address=149.40.176.0/20 } on-error={}
 :do { add list=PK address=149.40.192.0/19 } on-error={}
-:do { add list=PK address=149.40.224.0/24 } on-error={}
-:do { add list=PK address=149.40.225.0/24 } on-error={}
+:do { add list=PK address=149.40.224.0/23 } on-error={}
 :do { add list=PK address=149.40.228.0/24 } on-error={}
 :do { add list=PK address=149.40.230.0/23 } on-error={}
 :do { add list=PK address=149.40.232.0/24 } on-error={}
