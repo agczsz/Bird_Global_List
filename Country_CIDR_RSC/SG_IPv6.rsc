@@ -40584,15 +40584,11 @@
 :do { add list=SG address=2602:f7f8:1::/48 } on-error={}
 :do { add list=SG address=2602:f832::/40 } on-error={}
 :do { add list=SG address=2602:f834::/40 } on-error={}
-:do { add list=SG address=2602:f864:240::/48 } on-error={}
-:do { add list=SG address=2602:f864:241::/48 } on-error={}
+:do { add list=SG address=2602:f864:240::/47 } on-error={}
 :do { add list=SG address=2602:f864:242::/48 } on-error={}
 :do { add list=SG address=2602:f864:243::/48 } on-error={}
 :do { add list=SG address=2602:f864:244::/46 } on-error={}
-:do { add list=SG address=2602:f864:248::/48 } on-error={}
-:do { add list=SG address=2602:f864:249::/48 } on-error={}
-:do { add list=SG address=2602:f864:24a::/47 } on-error={}
-:do { add list=SG address=2602:f864:24c::/46 } on-error={}
+:do { add list=SG address=2602:f864:248::/45 } on-error={}
 :do { add list=SG address=2602:f864:f10::/47 } on-error={}
 :do { add list=SG address=2602:f8c0:1::/48 } on-error={}
 :do { add list=SG address=2602:f8c0:7::/48 } on-error={}

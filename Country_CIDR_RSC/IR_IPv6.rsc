@@ -271,11 +271,7 @@
 :do { add list=IR address=2a01:e140:30::/44 } on-error={}
 :do { add list=IR address=2a01:e140:40::/42 } on-error={}
 :do { add list=IR address=2a01:e140:80::/41 } on-error={}
-:do { add list=IR address=2a01:e140:100::/44 } on-error={}
-:do { add list=IR address=2a01:e140:110::/44 } on-error={}
-:do { add list=IR address=2a01:e140:120::/43 } on-error={}
-:do { add list=IR address=2a01:e140:140::/42 } on-error={}
-:do { add list=IR address=2a01:e140:180::/41 } on-error={}
+:do { add list=IR address=2a01:e140:100::/40 } on-error={}
 :do { add list=IR address=2a01:e140:200::/39 } on-error={}
 :do { add list=IR address=2a01:e140:400::/38 } on-error={}
 :do { add list=IR address=2a01:e140:800::/37 } on-error={}

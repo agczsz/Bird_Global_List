@@ -813,7 +813,13 @@
 :do { add list=RS address=109.245.61.0/24 } on-error={}
 :do { add list=RS address=109.245.62.0/23 } on-error={}
 :do { add list=RS address=109.245.64.0/18 } on-error={}
-:do { add list=RS address=109.245.128.0/18 } on-error={}
+:do { add list=RS address=109.245.128.0/20 } on-error={}
+:do { add list=RS address=109.245.144.0/22 } on-error={}
+:do { add list=RS address=109.245.148.0/24 } on-error={}
+:do { add list=RS address=109.245.149.0/24 } on-error={}
+:do { add list=RS address=109.245.150.0/23 } on-error={}
+:do { add list=RS address=109.245.152.0/21 } on-error={}
+:do { add list=RS address=109.245.160.0/19 } on-error={}
 :do { add list=RS address=109.245.192.0/20 } on-error={}
 :do { add list=RS address=109.245.208.0/21 } on-error={}
 :do { add list=RS address=109.245.216.0/24 } on-error={}

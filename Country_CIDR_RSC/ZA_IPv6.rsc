@@ -4032,7 +4032,8 @@
 :do { add list=ZA address=2a06:b440:94::/48 } on-error={}
 :do { add list=ZA address=2a07:1980:15::/48 } on-error={}
 :do { add list=ZA address=2a07:1980:24::/48 } on-error={}
-:do { add list=ZA address=2a07:1980:2c::/47 } on-error={}
+:do { add list=ZA address=2a07:1980:2c::/48 } on-error={}
+:do { add list=ZA address=2a07:1980:2d::/48 } on-error={}
 :do { add list=ZA address=2a07:54c1:8730::/44 } on-error={}
 :do { add list=ZA address=2a07:d887:f500::/40 } on-error={}
 :do { add list=ZA address=2a09:4c0:0:f8::/64 } on-error={}

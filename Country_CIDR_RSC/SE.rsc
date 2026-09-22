@@ -17429,7 +17429,10 @@
 :do { add list=SE address=193.234.28.0/23 } on-error={}
 :do { add list=SE address=193.234.30.0/24 } on-error={}
 :do { add list=SE address=193.234.31.0/24 } on-error={}
-:do { add list=SE address=193.234.32.0/21 } on-error={}
+:do { add list=SE address=193.234.32.0/22 } on-error={}
+:do { add list=SE address=193.234.36.0/23 } on-error={}
+:do { add list=SE address=193.234.38.0/24 } on-error={}
+:do { add list=SE address=193.234.39.0/24 } on-error={}
 :do { add list=SE address=193.234.40.0/22 } on-error={}
 :do { add list=SE address=193.234.44.0/23 } on-error={}
 :do { add list=SE address=193.234.46.0/24 } on-error={}

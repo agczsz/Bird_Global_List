@@ -391,9 +391,7 @@
 :do { add list=CO address=38.191.146.0/24 } on-error={}
 :do { add list=CO address=38.191.166.0/23 } on-error={}
 :do { add list=CO address=38.191.190.0/24 } on-error={}
-:do { add list=CO address=38.191.192.0/23 } on-error={}
-:do { add list=CO address=38.191.194.0/24 } on-error={}
-:do { add list=CO address=38.191.195.0/24 } on-error={}
+:do { add list=CO address=38.191.192.0/22 } on-error={}
 :do { add list=CO address=38.191.196.0/23 } on-error={}
 :do { add list=CO address=38.191.198.0/24 } on-error={}
 :do { add list=CO address=38.191.199.0/24 } on-error={}

@@ -8872,7 +8872,11 @@
 :do { add list=IE address=2a0c:5900:2000::/36 } on-error={}
 :do { add list=IE address=2a0c:6700::/29 } on-error={}
 :do { add list=IE address=2a0c:9880::/32 } on-error={}
-:do { add list=IE address=2a0c:9a40:8020::/44 } on-error={}
+:do { add list=IE address=2a0c:9a40:8020::/48 } on-error={}
+:do { add list=IE address=2a0c:9a40:8021::/48 } on-error={}
+:do { add list=IE address=2a0c:9a40:8022::/47 } on-error={}
+:do { add list=IE address=2a0c:9a40:8024::/46 } on-error={}
+:do { add list=IE address=2a0c:9a40:8028::/45 } on-error={}
 :do { add list=IE address=2a0c:9a40:8090::/48 } on-error={}
 :do { add list=IE address=2a0c:9a40:8091::/48 } on-error={}
 :do { add list=IE address=2a0c:9a40:8092::/47 } on-error={}

@@ -14488,12 +14488,7 @@
 :do { add list=AU address=148.182.12.0/23 } on-error={}
 :do { add list=AU address=148.182.14.0/23 } on-error={}
 :do { add list=AU address=148.182.16.0/20 } on-error={}
-:do { add list=AU address=148.182.32.0/20 } on-error={}
-:do { add list=AU address=148.182.48.0/21 } on-error={}
-:do { add list=AU address=148.182.56.0/22 } on-error={}
-:do { add list=AU address=148.182.60.0/23 } on-error={}
-:do { add list=AU address=148.182.62.0/24 } on-error={}
-:do { add list=AU address=148.182.63.0/24 } on-error={}
+:do { add list=AU address=148.182.32.0/19 } on-error={}
 :do { add list=AU address=148.182.64.0/18 } on-error={}
 :do { add list=AU address=148.182.128.0/17 } on-error={}
 :do { add list=AU address=148.195.0.0/20 } on-error={}

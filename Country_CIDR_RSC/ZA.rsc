@@ -6773,11 +6773,7 @@
 :do { add list=ZA address=154.200.201.0/24 } on-error={}
 :do { add list=ZA address=154.200.202.0/23 } on-error={}
 :do { add list=ZA address=154.200.204.0/22 } on-error={}
-:do { add list=ZA address=154.200.208.0/23 } on-error={}
-:do { add list=ZA address=154.200.210.0/24 } on-error={}
-:do { add list=ZA address=154.200.211.0/24 } on-error={}
-:do { add list=ZA address=154.200.212.0/22 } on-error={}
-:do { add list=ZA address=154.200.216.0/21 } on-error={}
+:do { add list=ZA address=154.200.208.0/20 } on-error={}
 :do { add list=ZA address=154.200.224.0/23 } on-error={}
 :do { add list=ZA address=154.200.226.0/24 } on-error={}
 :do { add list=ZA address=154.200.228.0/22 } on-error={}
@@ -7301,7 +7297,9 @@
 :do { add list=ZA address=159.138.160.0/20 } on-error={}
 :do { add list=ZA address=159.138.176.0/22 } on-error={}
 :do { add list=ZA address=159.138.180.0/23 } on-error={}
-:do { add list=ZA address=159.138.184.0/22 } on-error={}
+:do { add list=ZA address=159.138.184.0/24 } on-error={}
+:do { add list=ZA address=159.138.185.0/24 } on-error={}
+:do { add list=ZA address=159.138.186.0/23 } on-error={}
 :do { add list=ZA address=159.148.226.0/24 } on-error={}
 :do { add list=ZA address=159.234.36.0/25 } on-error={}
 :do { add list=ZA address=159.234.65.192/28 } on-error={}

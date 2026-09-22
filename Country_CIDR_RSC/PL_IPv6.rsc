@@ -14274,7 +14274,8 @@
 :do { add list=PL address=2a06:9801:1516::/48 } on-error={}
 :do { add list=PL address=2a06:9801:151b::/48 } on-error={}
 :do { add list=PL address=2a06:9801:1560::/48 } on-error={}
-:do { add list=PL address=2a06:9801:1562::/47 } on-error={}
+:do { add list=PL address=2a06:9801:1562::/48 } on-error={}
+:do { add list=PL address=2a06:9801:1563::/48 } on-error={}
 :do { add list=PL address=2a06:9801:1565::/48 } on-error={}
 :do { add list=PL address=2a06:9801:1568::/48 } on-error={}
 :do { add list=PL address=2a06:9b00::/29 } on-error={}
