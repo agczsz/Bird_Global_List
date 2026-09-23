@@ -213,5 +213,4 @@
 :do { add list=CG address=2c0f:f048::/32 } on-error={}
 :do { add list=CG address=2c0f:f220::/32 } on-error={}
 :do { add list=CG address=2c0f:f568::/32 } on-error={}
-:do { add list=CG address=2c0f:f900:1:4::/64 } on-error={}
 :do { add list=CG address=2c0f:f920::/32 } on-error={}

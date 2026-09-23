@@ -27,7 +27,6 @@
 :do { add list=FK address=140.248.62.71/32 } on-error={}
 :do { add list=FK address=140.248.63.71/32 } on-error={}
 :do { add list=FK address=143.105.240.0/23 } on-error={}
-:do { add list=FK address=143.246.176.73/32 } on-error={}
 :do { add list=FK address=146.75.132.178/31 } on-error={}
 :do { add list=FK address=146.75.160.178/31 } on-error={}
 :do { add list=FK address=146.75.162.110/31 } on-error={}

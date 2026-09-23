@@ -1,9 +1,9 @@
 /log info "Loading LB IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=LB address=2001:470:6f:66::/64 } on-error={}
 :do { add list=LB address=2001:470:1f29:23::/64 } on-error={}
 :do { add list=LB address=2001:470:2a13::/48 } on-error={}
 :do { add list=LB address=2001:470:5028::/48 } on-error={}
+:do { add list=LB address=2001:470:5a6b::/48 } on-error={}
 :do { add list=LB address=2001:470:6854::/48 } on-error={}
 :do { add list=LB address=2001:470:72fd::/48 } on-error={}
 :do { add list=LB address=2001:470:7353::/48 } on-error={}
@@ -13,6 +13,7 @@
 :do { add list=LB address=2001:470:c8a7::/48 } on-error={}
 :do { add list=LB address=2001:470:cb46::/48 } on-error={}
 :do { add list=LB address=2001:470:efaa::/48 } on-error={}
+:do { add list=LB address=2001:470:fae8::/48 } on-error={}
 :do { add list=LB address=2001:470:fbd5::/48 } on-error={}
 :do { add list=LB address=2001:668:1f:dc::/64 } on-error={}
 :do { add list=LB address=2001:67c:a38:f961::/64 } on-error={}

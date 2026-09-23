@@ -2,6 +2,8 @@
 /ipv6 firewall address-list
 :do { add list=DM address=2001:470:51ab::/48 } on-error={}
 :do { add list=DM address=2001:470:62bf::/48 } on-error={}
+:do { add list=DM address=2001:470:741f::/48 } on-error={}
+:do { add list=DM address=2001:470:744c::/48 } on-error={}
 :do { add list=DM address=2001:504:63::/48 } on-error={}
 :do { add list=DM address=2001:67c:a38:f467::/64 } on-error={}
 :do { add list=DM address=2001:3786:5004:400::/56 } on-error={}

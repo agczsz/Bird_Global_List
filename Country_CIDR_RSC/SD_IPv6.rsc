@@ -1,5 +1,6 @@
 /log info "Loading SD IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=SD address=2001:470:1f1f:33::/64 } on-error={}
 :do { add list=SD address=2001:470:1f27:65::/64 } on-error={}
 :do { add list=SD address=2001:470:1f2b:27e::/64 } on-error={}
 :do { add list=SD address=2001:470:e99a::/48 } on-error={}

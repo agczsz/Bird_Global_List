@@ -1,6 +1,7 @@
 /log info "Loading GA IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=GA address=2001:470:5575::/48 } on-error={}
+:do { add list=GA address=2001:470:efc3::/48 } on-error={}
 :do { add list=GA address=2001:470:efd5::/48 } on-error={}
 :do { add list=GA address=2001:67c:a38:f241::/64 } on-error={}
 :do { add list=GA address=2001:43f8:1160::/48 } on-error={}
@@ -13,7 +14,7 @@
 :do { add list=GA address=2401:b60:14e4::/46 } on-error={}
 :do { add list=GA address=2401:b60:14e8::/45 } on-error={}
 :do { add list=GA address=2401:3620:231:55::/64 } on-error={}
-:do { add list=GA address=2401:f1e0:ffff:762a::/64 } on-error={}
+:do { add list=GA address=2401:f1e0:ffff:9127::/64 } on-error={}
 :do { add list=GA address=2401:f1e0:ffff:ea33::/64 } on-error={}
 :do { add list=GA address=2401:f1e0:ffff:fee2::/64 } on-error={}
 :do { add list=GA address=2405:b500:2800::/64 } on-error={}
@@ -195,6 +196,7 @@
 :do { add list=GA address=2a14:7581:3b57::/48 } on-error={}
 :do { add list=GA address=2a14:7585:f511::/48 } on-error={}
 :do { add list=GA address=2c0f:3800::/32 } on-error={}
+:do { add list=GA address=2c0f:4e00:87f0:981b::/64 } on-error={}
 :do { add list=GA address=2c0f:4e00:c000::/35 } on-error={}
 :do { add list=GA address=2c0f:5c80::/32 } on-error={}
 :do { add list=GA address=2c0f:ef78:1::/48 } on-error={}

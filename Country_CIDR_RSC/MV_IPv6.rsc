@@ -180,7 +180,8 @@
 :do { add list=MV address=2a02:26f7:ba80::/48 } on-error={}
 :do { add list=MV address=2a02:26f7:ba81::/48 } on-error={}
 :do { add list=MV address=2a02:26f7:ba82::/47 } on-error={}
-:do { add list=MV address=2a02:26f7:ba84::/47 } on-error={}
+:do { add list=MV address=2a02:26f7:ba84::/48 } on-error={}
+:do { add list=MV address=2a02:26f7:ba85::/48 } on-error={}
 :do { add list=MV address=2a02:26f7:ba86::/47 } on-error={}
 :do { add list=MV address=2a02:26f7:ba88::/48 } on-error={}
 :do { add list=MV address=2a02:26f7:ba89::/48 } on-error={}

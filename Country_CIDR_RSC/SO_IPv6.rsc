@@ -1,5 +1,6 @@
 /log info "Loading SO IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=SO address=2001:470:19:fff::/64 } on-error={}
 :do { add list=SO address=2001:470:19a6::/48 } on-error={}
 :do { add list=SO address=2001:470:1f27:37::/64 } on-error={}
 :do { add list=SO address=2001:470:30ae::/50 } on-error={}
@@ -208,23 +209,14 @@
 :do { add list=SO address=2a14:7581:3bd4::/48 } on-error={}
 :do { add list=SO address=2a14:7585:f52d::/48 } on-error={}
 :do { add list=SO address=2c0f:b00::/32 } on-error={}
-:do { add list=SO address=2c0f:1fc0::/32 } on-error={}
+:do { add list=SO address=2c0f:1fc0::/50 } on-error={}
 :do { add list=SO address=2c0f:2a80:3180::/41 } on-error={}
 :do { add list=SO address=2c0f:4700::/32 } on-error={}
 :do { add list=SO address=2c0f:5d40::/32 } on-error={}
 :do { add list=SO address=2c0f:ed08::/32 } on-error={}
 :do { add list=SO address=2c0f:eef8::/32 } on-error={}
 :do { add list=SO address=2c0f:f068::/32 } on-error={}
-:do { add list=SO address=2c0f:f450:801::/48 } on-error={}
-:do { add list=SO address=2c0f:f450:802::/47 } on-error={}
-:do { add list=SO address=2c0f:f450:804::/46 } on-error={}
-:do { add list=SO address=2c0f:f450:808::/45 } on-error={}
-:do { add list=SO address=2c0f:f450:810::/44 } on-error={}
-:do { add list=SO address=2c0f:f450:820::/43 } on-error={}
-:do { add list=SO address=2c0f:f450:840::/42 } on-error={}
-:do { add list=SO address=2c0f:f450:880::/41 } on-error={}
-:do { add list=SO address=2c0f:f450:900::/40 } on-error={}
-:do { add list=SO address=2c0f:f450:a00::/39 } on-error={}
+:do { add list=SO address=2c0f:f450:800::/38 } on-error={}
 :do { add list=SO address=2c0f:f6b8::/32 } on-error={}
 :do { add list=SO address=2c0f:f710::/32 } on-error={}
 :do { add list=SO address=2c0f:f8f8::/32 } on-error={}

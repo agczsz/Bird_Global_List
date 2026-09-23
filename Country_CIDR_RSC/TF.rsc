@@ -10,4 +10,3 @@
 :do { add list=TF address=140.248.61.215/32 } on-error={}
 :do { add list=TF address=140.248.62.215/32 } on-error={}
 :do { add list=TF address=140.248.63.215/32 } on-error={}
-:do { add list=TF address=143.246.176.217/32 } on-error={}

@@ -2,6 +2,7 @@
 /ipv6 firewall address-list
 :do { add list=VI address=2001:470:36:7f0::/64 } on-error={}
 :do { add list=VI address=2001:470:1828::/48 } on-error={}
+:do { add list=VI address=2001:470:1f21:89::/64 } on-error={}
 :do { add list=VI address=2001:470:e33e::/48 } on-error={}
 :do { add list=VI address=2001:470:e95c::/48 } on-error={}
 :do { add list=VI address=2001:470:efe3::/48 } on-error={}
@@ -21,6 +22,10 @@
 :do { add list=VI address=2401:b60:1fb4::/46 } on-error={}
 :do { add list=VI address=2401:b60:1fb8::/45 } on-error={}
 :do { add list=VI address=2401:3620:231:f0::/64 } on-error={}
+:do { add list=VI address=2401:f1e0:ffff:782c::/64 } on-error={}
+:do { add list=VI address=2401:f1e0:ffff:d5ad::/64 } on-error={}
+:do { add list=VI address=2401:f1e0:ffff:ed8a::/64 } on-error={}
+:do { add list=VI address=2401:f1e0:ffff:f05a::/64 } on-error={}
 :do { add list=VI address=2405:b500:7680:ac8::/64 } on-error={}
 :do { add list=VI address=2405:b500:76a0:ac8::/64 } on-error={}
 :do { add list=VI address=2405:b500:76c0:ac8::/64 } on-error={}
@@ -222,11 +227,7 @@
 :do { add list=VI address=2a14:7581:3b68::/48 } on-error={}
 :do { add list=VI address=2a14:7581:3bf3::/48 } on-error={}
 :do { add list=VI address=2a14:7581:3bfa::/48 } on-error={}
-:do { add list=VI address=2a14:7581:9f60:4000::/50 } on-error={}
-:do { add list=VI address=2a14:7581:9f60:8000::/49 } on-error={}
-:do { add list=VI address=2a14:7581:9f61::/48 } on-error={}
-:do { add list=VI address=2a14:7581:9f62::/47 } on-error={}
-:do { add list=VI address=2a14:7581:9f64::/46 } on-error={}
+:do { add list=VI address=2a14:7581:9f60::/45 } on-error={}
 :do { add list=VI address=2a14:7584:e010::/48 } on-error={}
 :do { add list=VI address=2a14:7584:e300::/44 } on-error={}
 :do { add list=VI address=2a14:7584:e340::/44 } on-error={}

@@ -1,5 +1,6 @@
 /log info "Loading XK IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=XK address=2001:470:19:815::/64 } on-error={}
 :do { add list=XK address=2001:470:19:1314::/64 } on-error={}
 :do { add list=XK address=2001:470:7433::/48 } on-error={}
 :do { add list=XK address=2001:470:ed31::/48 } on-error={}
@@ -135,6 +136,5 @@
 :do { add list=XK address=2a11:29c0:3d88:e913::/64 } on-error={}
 :do { add list=XK address=2a11:29c0:3d88:f19a::/64 } on-error={}
 :do { add list=XK address=2a11:29c0:3d88:fcfe::/64 } on-error={}
-:do { add list=XK address=2a13:f787:fff7::/50 } on-error={}
 :do { add list=XK address=2a14:1c3:8800::/37 } on-error={}
 :do { add list=XK address=2a14:3400::/30 } on-error={}

@@ -17,7 +17,6 @@
 :do { add list=SB address=2401:f1e0:ffff:1f64::/64 } on-error={}
 :do { add list=SB address=2401:f1e0:ffff:422a::/64 } on-error={}
 :do { add list=SB address=2401:f1e0:ffff:ce19::/64 } on-error={}
-:do { add list=SB address=2403:e800:105:100::3e/128 } on-error={}
 :do { add list=SB address=2405:4cc1:c00::/40 } on-error={}
 :do { add list=SB address=2405:8300::/32 } on-error={}
 :do { add list=SB address=2405:b500:6300::/64 } on-error={}

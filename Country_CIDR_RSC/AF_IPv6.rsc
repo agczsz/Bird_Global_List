@@ -1,12 +1,7 @@
 /log info "Loading AF IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=AF address=2001:470:26:a0::/64 } on-error={}
-:do { add list=AF address=2001:470:26:fc::/64 } on-error={}
-:do { add list=AF address=2001:470:26:1f6::/64 } on-error={}
-:do { add list=AF address=2001:470:26:28a::/64 } on-error={}
-:do { add list=AF address=2001:470:26:2f7::/64 } on-error={}
-:do { add list=AF address=2001:470:26:661::/64 } on-error={}
-:do { add list=AF address=2001:470:26:678::/64 } on-error={}
+:do { add list=AF address=2001:470:26:111::/64 } on-error={}
+:do { add list=AF address=2001:470:26:166::/64 } on-error={}
 :do { add list=AF address=2001:470:36:7c9::/64 } on-error={}
 :do { add list=AF address=2001:470:1f0b:d3e::/64 } on-error={}
 :do { add list=AF address=2001:470:1f21:487::/64 } on-error={}
@@ -45,6 +40,8 @@
 :do { add list=AF address=2001:470:1f2b:f8::/64 } on-error={}
 :do { add list=AF address=2001:470:1f2b:134::/64 } on-error={}
 :do { add list=AF address=2001:470:1f2b:46a::/64 } on-error={}
+:do { add list=AF address=2001:470:1f2f:cd::/64 } on-error={}
+:do { add list=AF address=2001:470:1f2f:121::/64 } on-error={}
 :do { add list=AF address=2001:470:20e3::/48 } on-error={}
 :do { add list=AF address=2001:470:210a::/48 } on-error={}
 :do { add list=AF address=2001:470:2136::/48 } on-error={}
@@ -470,8 +467,7 @@
 :do { add list=AF address=2a14:2d45:200::/40 } on-error={}
 :do { add list=AF address=2a14:67c1:92::/48 } on-error={}
 :do { add list=AF address=2a14:67c1:b603::/48 } on-error={}
-:do { add list=AF address=2a14:67c2:8f9:4000::/50 } on-error={}
-:do { add list=AF address=2a14:67c2:8f9:8000::/49 } on-error={}
+:do { add list=AF address=2a14:67c2:8f9::/48 } on-error={}
 :do { add list=AF address=2a14:7580:cf02::/48 } on-error={}
 :do { add list=AF address=2a14:7581:b10:100::/56 } on-error={}
 :do { add list=AF address=2a14:7581:b11:100::/56 } on-error={}

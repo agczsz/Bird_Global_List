@@ -40,7 +40,6 @@
 :do { add list=IO address=140.248.61.105/32 } on-error={}
 :do { add list=IO address=140.248.62.105/32 } on-error={}
 :do { add list=IO address=140.248.63.105/32 } on-error={}
-:do { add list=IO address=143.246.176.107/32 } on-error={}
 :do { add list=IO address=146.75.168.128/31 } on-error={}
 :do { add list=IO address=146.75.174.114/31 } on-error={}
 :do { add list=IO address=146.75.185.128/31 } on-error={}

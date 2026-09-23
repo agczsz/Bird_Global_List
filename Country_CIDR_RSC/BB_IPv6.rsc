@@ -37,6 +37,12 @@
 :do { add list=BB address=2606:54c3:0:f81::/64 } on-error={}
 :do { add list=BB address=2607:8940:23e6::/47 } on-error={}
 :do { add list=BB address=2607:8940:23ea::/48 } on-error={}
+:do { add list=BB address=2607:8940:23eb:11::/64 } on-error={}
+:do { add list=BB address=2607:8940:23eb:19::/64 } on-error={}
+:do { add list=BB address=2607:8940:23eb:20::/62 } on-error={}
+:do { add list=BB address=2607:8940:23eb:100::/56 } on-error={}
+:do { add list=BB address=2607:8940:23eb:1000::/52 } on-error={}
+:do { add list=BB address=2607:8940:23eb:2000::/51 } on-error={}
 :do { add list=BB address=2607:8940:23eb:4000::/50 } on-error={}
 :do { add list=BB address=2607:8940:23eb:8000::/49 } on-error={}
 :do { add list=BB address=2607:8940:4023:6a00::/55 } on-error={}
