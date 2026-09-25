@@ -436,10 +436,12 @@
 :do { add list=UZ address=146.158.94.0/24 } on-error={}
 :do { add list=UZ address=149.6.168.154/32 } on-error={}
 :do { add list=UZ address=149.7.24.0/24 } on-error={}
+:do { add list=UZ address=154.49.101.0/24 } on-error={}
 :do { add list=UZ address=156.235.0.0/24 } on-error={}
 :do { add list=UZ address=157.22.128.0/20 } on-error={}
 :do { add list=UZ address=157.22.144.0/21 } on-error={}
 :do { add list=UZ address=157.22.208.0/21 } on-error={}
+:do { add list=UZ address=157.22.223.0/24 } on-error={}
 :do { add list=UZ address=158.173.246.32/27 } on-error={}
 :do { add list=UZ address=160.25.104.121/32 } on-error={}
 :do { add list=UZ address=160.25.105.121/32 } on-error={}

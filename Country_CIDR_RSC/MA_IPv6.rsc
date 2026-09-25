@@ -537,6 +537,7 @@
 :do { add list=MA address=2607:8940:4191:6f00::/56 } on-error={}
 :do { add list=MA address=2607:8940:4191:7000::/53 } on-error={}
 :do { add list=MA address=2607:8940:4191:7800::/56 } on-error={}
+:do { add list=MA address=2607:b480:0:1f::/64 } on-error={}
 :do { add list=MA address=2620:171:9a::/48 } on-error={}
 :do { add list=MA address=2620:1ec:27:e707::/64 } on-error={}
 :do { add list=MA address=2620:1ec:27:e719::/64 } on-error={}

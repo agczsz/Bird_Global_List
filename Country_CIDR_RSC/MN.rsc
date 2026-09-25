@@ -217,10 +217,10 @@
 :do { add list=MN address=146.75.160.82/31 } on-error={}
 :do { add list=MN address=146.75.160.84/31 } on-error={}
 :do { add list=MN address=146.75.187.28/30 } on-error={}
-:do { add list=MN address=147.90.200.128/28 } on-error={}
 :do { add list=MN address=150.228.176.0/23 } on-error={}
 :do { add list=MN address=150.228.222.0/23 } on-error={}
 :do { add list=MN address=151.186.176.222/32 } on-error={}
+:do { add list=MN address=154.49.100.0/24 } on-error={}
 :do { add list=MN address=157.10.38.0/23 } on-error={}
 :do { add list=MN address=157.15.6.0/23 } on-error={}
 :do { add list=MN address=157.167.37.0/24 } on-error={}

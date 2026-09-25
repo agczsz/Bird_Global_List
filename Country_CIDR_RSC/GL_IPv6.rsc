@@ -227,8 +227,6 @@
 :do { add list=GL address=2a0f:2747:2001:8000::/49 } on-error={}
 :do { add list=GL address=2a0f:2747:2002:4000::/50 } on-error={}
 :do { add list=GL address=2a0f:2747:2002:8000::/49 } on-error={}
-:do { add list=GL address=2a0f:6280:c801::/48 } on-error={}
-:do { add list=GL address=2a0f:6280:c802::/48 } on-error={}
 :do { add list=GL address=2a0f:a302:4000::/37 } on-error={}
 :do { add list=GL address=2a10:fa81:1853::/48 } on-error={}
 :do { add list=GL address=2a11:29c0:3d88:23c2::/64 } on-error={}

@@ -53,6 +53,7 @@
 :do { add list=BH address=2600:f0f0:8107::/48 } on-error={}
 :do { add list=BH address=2600:f0f1:86::/48 } on-error={}
 :do { add list=BH address=2600:f0f1:4040::/42 } on-error={}
+:do { add list=BH address=2600:f0f3:f010:900::/56 } on-error={}
 :do { add list=BH address=2602:814:fc58::/46 } on-error={}
 :do { add list=BH address=2602:fa02:165::/48 } on-error={}
 :do { add list=BH address=2602:fa02:1fc::/48 } on-error={}

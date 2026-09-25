@@ -50,7 +50,6 @@
 :do { add list=AW address=172.224.234.0/28 } on-error={}
 :do { add list=AW address=172.225.238.32/28 } on-error={}
 :do { add list=AW address=172.225.250.0/27 } on-error={}
-:do { add list=AW address=172.226.13.160/28 } on-error={}
 :do { add list=AW address=172.226.191.224/27 } on-error={}
 :do { add list=AW address=179.61.32.0/19 } on-error={}
 :do { add list=AW address=181.41.0.0/22 } on-error={}

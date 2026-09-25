@@ -2,6 +2,7 @@
 /ipv6 firewall address-list
 :do { add list=IS address=2001:470:19:fcf::/64 } on-error={}
 :do { add list=IS address=2001:470:28:ac7::/64 } on-error={}
+:do { add list=IS address=2001:470:6f:49e::/64 } on-error={}
 :do { add list=IS address=2001:470:19b0::/48 } on-error={}
 :do { add list=IS address=2001:470:1af3::/48 } on-error={}
 :do { add list=IS address=2001:470:1f09:2fc::/64 } on-error={}
@@ -11,6 +12,7 @@
 :do { add list=IS address=2001:470:2954::/48 } on-error={}
 :do { add list=IS address=2001:470:689a::/48 } on-error={}
 :do { add list=IS address=2001:470:6afa::/48 } on-error={}
+:do { add list=IS address=2001:470:781a::/48 } on-error={}
 :do { add list=IS address=2001:470:7a0e:4000::/50 } on-error={}
 :do { add list=IS address=2001:470:7a0e:8000::/49 } on-error={}
 :do { add list=IS address=2001:470:b4ae::/48 } on-error={}
@@ -90,7 +92,6 @@
 :do { add list=IS address=2600:70ff:ab98::/48 } on-error={}
 :do { add list=IS address=2600:70ff:abb1::/48 } on-error={}
 :do { add list=IS address=2600:70ff:abda::/48 } on-error={}
-:do { add list=IS address=2600:70ff:b1df::/48 } on-error={}
 :do { add list=IS address=2600:70ff:c06f::/48 } on-error={}
 :do { add list=IS address=2600:70ff:f88c::/48 } on-error={}
 :do { add list=IS address=2602:2a9:b30::/44 } on-error={}
@@ -932,7 +933,6 @@
 :do { add list=IS address=2a12:8fc6:a1c3::/48 } on-error={}
 :do { add list=IS address=2a12:bec0:21::/48 } on-error={}
 :do { add list=IS address=2a12:bec0:191::/48 } on-error={}
-:do { add list=IS address=2a12:bec0:39c::/48 } on-error={}
 :do { add list=IS address=2a12:bec0:683::/48 } on-error={}
 :do { add list=IS address=2a12:bec4:1442::/48 } on-error={}
 :do { add list=IS address=2a12:bf40::/29 } on-error={}

@@ -234,6 +234,8 @@
 :do { add list=CY address=2607:8940:4183:e100::/56 } on-error={}
 :do { add list=CY address=2607:8940:41f0:a00::/55 } on-error={}
 :do { add list=CY address=2607:8940:41f0:c00::/56 } on-error={}
+:do { add list=CY address=2607:b480:0:9::/64 } on-error={}
+:do { add list=CY address=2607:b480:0:1d::/64 } on-error={}
 :do { add list=CY address=2a00:1358::/33 } on-error={}
 :do { add list=CY address=2a00:1358:8000::/34 } on-error={}
 :do { add list=CY address=2a00:1358:c000::/40 } on-error={}
@@ -1313,7 +1315,6 @@
 :do { add list=CY address=2a12:7b80::/29 } on-error={}
 :do { add list=CY address=2a12:7d80::/29 } on-error={}
 :do { add list=CY address=2a12:7e80::/29 } on-error={}
-:do { add list=CY address=2a12:bec0:39b::/48 } on-error={}
 :do { add list=CY address=2a12:bec0:560::/44 } on-error={}
 :do { add list=CY address=2a12:e740::/29 } on-error={}
 :do { add list=CY address=2a12:ef87:1000::/36 } on-error={}

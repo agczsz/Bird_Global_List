@@ -689,7 +689,6 @@
 :do { add list=MM address=2a0f:1cc5:1fd0::/48 } on-error={}
 :do { add list=MM address=2a0f:5707:ffa7:4000::/50 } on-error={}
 :do { add list=MM address=2a0f:5707:ffa7:8000::/49 } on-error={}
-:do { add list=MM address=2a0f:6280:c83f::/48 } on-error={}
 :do { add list=MM address=2a0f:6280:ced6::/48 } on-error={}
 :do { add list=MM address=2a0f:6284:fe2::/47 } on-error={}
 :do { add list=MM address=2a0f:6284:fe4::/46 } on-error={}

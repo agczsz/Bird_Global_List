@@ -5,6 +5,10 @@
 :do { add list=SV address=5.62.58.84/30 } on-error={}
 :do { add list=SV address=8.243.238.72/31 } on-error={}
 :do { add list=SV address=8.243.238.178/31 } on-error={}
+:do { add list=SV address=32.59.12.40/29 } on-error={}
+:do { add list=SV address=32.59.12.64/27 } on-error={}
+:do { add list=SV address=32.59.15.0/24 } on-error={}
+:do { add list=SV address=32.59.24.64/29 } on-error={}
 :do { add list=SV address=32.59.92.32/29 } on-error={}
 :do { add list=SV address=32.59.92.80/28 } on-error={}
 :do { add list=SV address=32.59.92.96/27 } on-error={}
@@ -178,7 +182,6 @@
 :do { add list=SV address=154.202.7.25/32 } on-error={}
 :do { add list=SV address=154.202.7.115/32 } on-error={}
 :do { add list=SV address=154.202.7.143/32 } on-error={}
-:do { add list=SV address=154.202.7.154/32 } on-error={}
 :do { add list=SV address=154.202.7.168/32 } on-error={}
 :do { add list=SV address=154.202.7.240/32 } on-error={}
 :do { add list=SV address=154.202.7.246/31 } on-error={}
@@ -348,8 +351,6 @@
 :do { add list=SV address=172.225.155.80/29 } on-error={}
 :do { add list=SV address=172.225.167.64/27 } on-error={}
 :do { add list=SV address=172.225.167.96/28 } on-error={}
-:do { add list=SV address=172.226.11.112/28 } on-error={}
-:do { add list=SV address=172.226.11.128/29 } on-error={}
 :do { add list=SV address=176.52.253.196/30 } on-error={}
 :do { add list=SV address=176.52.253.211/32 } on-error={}
 :do { add list=SV address=178.19.42.0/23 } on-error={}
@@ -487,6 +488,7 @@
 :do { add list=SV address=190.61.33.0/24 } on-error={}
 :do { add list=SV address=190.61.34.0/24 } on-error={}
 :do { add list=SV address=190.61.38.0/24 } on-error={}
+:do { add list=SV address=190.61.78.0/23 } on-error={}
 :do { add list=SV address=190.61.112.0/22 } on-error={}
 :do { add list=SV address=190.62.0.0/16 } on-error={}
 :do { add list=SV address=190.86.0.0/15 } on-error={}

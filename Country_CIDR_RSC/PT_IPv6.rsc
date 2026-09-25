@@ -131,7 +131,7 @@
 :do { add list=PT address=2001:470:1f21:185::/64 } on-error={}
 :do { add list=PT address=2001:470:1f21:186::/63 } on-error={}
 :do { add list=PT address=2001:470:1f21:189::/64 } on-error={}
-:do { add list=PT address=2001:470:1f21:18c::/63 } on-error={}
+:do { add list=PT address=2001:470:1f21:18d::/64 } on-error={}
 :do { add list=PT address=2001:470:1f21:18f::/64 } on-error={}
 :do { add list=PT address=2001:470:1f21:190::/60 } on-error={}
 :do { add list=PT address=2001:470:1f21:1a0::/61 } on-error={}
@@ -505,7 +505,7 @@
 :do { add list=PT address=2001:978:2:32::32/128 } on-error={}
 :do { add list=PT address=2001:978:2:32::34/126 } on-error={}
 :do { add list=PT address=2001:978:2:32::39/128 } on-error={}
-:do { add list=PT address=2001:978:2:32::40/127 } on-error={}
+:do { add list=PT address=2001:978:2:32::40/126 } on-error={}
 :do { add list=PT address=2001:978:2:32::5:0/112 } on-error={}
 :do { add list=PT address=2001:978:2:32::a:1/128 } on-error={}
 :do { add list=PT address=2001:978:2:32::f:1/128 } on-error={}
@@ -3091,7 +3091,8 @@
 :do { add list=PT address=2a00:1650:2000::/35 } on-error={}
 :do { add list=PT address=2a00:1650:4000::/34 } on-error={}
 :do { add list=PT address=2a00:1650:8000::/33 } on-error={}
-:do { add list=PT address=2a00:1651::/32 } on-error={}
+:do { add list=PT address=2a00:1651::/33 } on-error={}
+:do { add list=PT address=2a00:1651:8000::/33 } on-error={}
 :do { add list=PT address=2a00:1652::/31 } on-error={}
 :do { add list=PT address=2a00:1654::/30 } on-error={}
 :do { add list=PT address=2a00:1c60::/32 } on-error={}
@@ -6480,8 +6481,6 @@
 :do { add list=PT address=2c0f:ee00::98:20/127 } on-error={}
 :do { add list=PT address=2c0f:ee00::98:60/128 } on-error={}
 :do { add list=PT address=2c0f:f168::/50 } on-error={}
-:do { add list=PT address=2c0f:f1d8:9009::/50 } on-error={}
-:do { add list=PT address=2c0f:f1d8:ffff:c000::/50 } on-error={}
 :do { add list=PT address=2c0f:f828:2::435/128 } on-error={}
 :do { add list=PT address=2c0f:f828:2::437/128 } on-error={}
 :do { add list=PT address=2c0f:f828:2::49d/128 } on-error={}

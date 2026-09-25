@@ -795,7 +795,6 @@
 :do { add list=MN address=2a0f:1cc5:b16:8d00::/56 } on-error={}
 :do { add list=MN address=2a0f:1cc5:b17:8d00::/56 } on-error={}
 :do { add list=MN address=2a0f:1cc5:1fc8::/48 } on-error={}
-:do { add list=MN address=2a0f:6280:c82d::/48 } on-error={}
 :do { add list=MN address=2a0f:6280:ced9::/48 } on-error={}
 :do { add list=MN address=2a0f:6280:cf5b::/48 } on-error={}
 :do { add list=MN address=2a0f:6284:ff7::/48 } on-error={}

@@ -77,8 +77,6 @@
 :do { add list=BY address=2001:470:99b1::/48 } on-error={}
 :do { add list=BY address=2001:470:9b05::/48 } on-error={}
 :do { add list=BY address=2001:470:b550::/48 } on-error={}
-:do { add list=BY address=2001:470:c05c:4000::/50 } on-error={}
-:do { add list=BY address=2001:470:c05c:8000::/49 } on-error={}
 :do { add list=BY address=2001:470:d836::/48 } on-error={}
 :do { add list=BY address=2001:470:dd7e::/48 } on-error={}
 :do { add list=BY address=2001:470:de8a::/48 } on-error={}

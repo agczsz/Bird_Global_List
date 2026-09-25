@@ -146,7 +146,6 @@
 :do { add list=FO address=2a0f:1cc5:b16:4500::/56 } on-error={}
 :do { add list=FO address=2a0f:1cc5:b17:4500::/56 } on-error={}
 :do { add list=FO address=2a0f:38c0::/29 } on-error={}
-:do { add list=FO address=2a0f:6280:c832::/48 } on-error={}
 :do { add list=FO address=2a0f:85c1:b43::/48 } on-error={}
 :do { add list=FO address=2a0f:85c1:b50::/44 } on-error={}
 :do { add list=FO address=2a0f:a303:e000::/37 } on-error={}

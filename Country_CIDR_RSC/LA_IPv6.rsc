@@ -94,8 +94,7 @@
 :do { add list=LA address=2a02:26f7:c740::/48 } on-error={}
 :do { add list=LA address=2a02:26f7:c741::/48 } on-error={}
 :do { add list=LA address=2a02:26f7:c742::/47 } on-error={}
-:do { add list=LA address=2a02:26f7:c744::/48 } on-error={}
-:do { add list=LA address=2a02:26f7:c745::/48 } on-error={}
+:do { add list=LA address=2a02:26f7:c744::/47 } on-error={}
 :do { add list=LA address=2a02:26f7:c746::/47 } on-error={}
 :do { add list=LA address=2a02:26f7:c748::/48 } on-error={}
 :do { add list=LA address=2a02:26f7:c749::/48 } on-error={}

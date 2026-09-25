@@ -19,7 +19,6 @@
 :do { add list=UZ address=2001:470:7475::/48 } on-error={}
 :do { add list=UZ address=2001:470:7572::/48 } on-error={}
 :do { add list=UZ address=2001:470:7df7::/48 } on-error={}
-:do { add list=UZ address=2001:470:84bf::/48 } on-error={}
 :do { add list=UZ address=2001:470:9976::/48 } on-error={}
 :do { add list=UZ address=2001:470:b5fb::/48 } on-error={}
 :do { add list=UZ address=2001:470:c930::/48 } on-error={}
@@ -68,7 +67,6 @@
 :do { add list=UZ address=2405:b500:77e0:18::/64 } on-error={}
 :do { add list=UZ address=2406:2d40:5800::/40 } on-error={}
 :do { add list=UZ address=2600:70ff:ab81::/48 } on-error={}
-:do { add list=UZ address=2600:70ff:b1f4::/48 } on-error={}
 :do { add list=UZ address=2602:814:ffa8::/46 } on-error={}
 :do { add list=UZ address=2602:f7c8:1aa::/47 } on-error={}
 :do { add list=UZ address=2602:f7c8:1ac::/47 } on-error={}

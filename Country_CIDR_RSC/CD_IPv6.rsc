@@ -212,7 +212,6 @@
 :do { add list=CD address=2a0f:1cc5:b16:3400::/56 } on-error={}
 :do { add list=CD address=2a0f:1cc5:b17:3400::/56 } on-error={}
 :do { add list=CD address=2a0f:1cc5:1f62::/48 } on-error={}
-:do { add list=CD address=2a0f:6280:c847::/48 } on-error={}
 :do { add list=CD address=2a0f:85c1:81b:f2b0::/60 } on-error={}
 :do { add list=CD address=2a0f:9403:a20::/44 } on-error={}
 :do { add list=CD address=2a0f:a301:8000::/37 } on-error={}

@@ -1,7 +1,6 @@
 /log info "Loading PE IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=PE address=2001:470:5:1eb::/64 } on-error={}
-:do { add list=PE address=2001:470:5:4a8::/64 } on-error={}
 :do { add list=PE address=2001:470:1f2b:5::/64 } on-error={}
 :do { add list=PE address=2001:470:1f2b:8::/64 } on-error={}
 :do { add list=PE address=2001:470:1f2b:25::/64 } on-error={}
@@ -1381,6 +1380,16 @@
 :do { add list=PE address=2803:b930::/32 } on-error={}
 :do { add list=PE address=2803:b940::/32 } on-error={}
 :do { add list=PE address=2803:b9c0:9200::/40 } on-error={}
+:do { add list=PE address=2803:b9c0:9300::/49 } on-error={}
+:do { add list=PE address=2803:b9c0:9300:8000::/50 } on-error={}
+:do { add list=PE address=2803:b9c0:9301::/48 } on-error={}
+:do { add list=PE address=2803:b9c0:9302::/47 } on-error={}
+:do { add list=PE address=2803:b9c0:9304::/46 } on-error={}
+:do { add list=PE address=2803:b9c0:9308::/45 } on-error={}
+:do { add list=PE address=2803:b9c0:9310::/44 } on-error={}
+:do { add list=PE address=2803:b9c0:9320::/43 } on-error={}
+:do { add list=PE address=2803:b9c0:9340::/42 } on-error={}
+:do { add list=PE address=2803:b9c0:9380::/42 } on-error={}
 :do { add list=PE address=2803:b9c0:93c0::/43 } on-error={}
 :do { add list=PE address=2803:b9c0:9400::/40 } on-error={}
 :do { add list=PE address=2803:b9c0:9901::/48 } on-error={}

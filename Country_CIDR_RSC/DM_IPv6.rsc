@@ -153,7 +153,6 @@
 :do { add list=DM address=2a0f:1cc5:b16:3d00::/56 } on-error={}
 :do { add list=DM address=2a0f:1cc5:b17:3d00::/56 } on-error={}
 :do { add list=DM address=2a0f:1cc5:1f49::/48 } on-error={}
-:do { add list=DM address=2a0f:6280:c812::/48 } on-error={}
 :do { add list=DM address=2a0f:85c1:81b:f340::/60 } on-error={}
 :do { add list=DM address=2a0f:9403:250::/44 } on-error={}
 :do { add list=DM address=2a0f:a302:8000::/37 } on-error={}

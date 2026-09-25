@@ -335,7 +335,6 @@
 :do { add list=BW address=2a0f:1cc5:b15:1700::/56 } on-error={}
 :do { add list=BW address=2a0f:1cc5:b16:1700::/56 } on-error={}
 :do { add list=BW address=2a0f:1cc5:b17:1700::/56 } on-error={}
-:do { add list=BW address=2a0f:6280:c821::/48 } on-error={}
 :do { add list=BW address=2a0f:85c1:81b:f1b0::/60 } on-error={}
 :do { add list=BW address=2a0f:9403:990::/44 } on-error={}
 :do { add list=BW address=2a0f:a302:2800::/37 } on-error={}

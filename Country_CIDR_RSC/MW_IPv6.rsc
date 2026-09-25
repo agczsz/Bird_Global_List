@@ -163,7 +163,6 @@
 :do { add list=MW address=2a0f:1cc5:b15:8300::/56 } on-error={}
 :do { add list=MW address=2a0f:1cc5:b16:8300::/56 } on-error={}
 :do { add list=MW address=2a0f:1cc5:b17:8300::/56 } on-error={}
-:do { add list=MW address=2a0f:6280:c851::/48 } on-error={}
 :do { add list=MW address=2a0f:85c1:81b:f6b0::/60 } on-error={}
 :do { add list=MW address=2a0f:9403:b30::/44 } on-error={}
 :do { add list=MW address=2a0f:a301:b000::/37 } on-error={}

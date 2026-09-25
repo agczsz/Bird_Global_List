@@ -344,7 +344,6 @@
 :do { add list=JE address=2a11:4400::/29 } on-error={}
 :do { add list=JE address=2a11:a684:b000::/36 } on-error={}
 :do { add list=JE address=2a12:8240::/29 } on-error={}
-:do { add list=JE address=2a12:bec0:391::/48 } on-error={}
 :do { add list=JE address=2a12:f001:4000::/36 } on-error={}
 :do { add list=JE address=2a13:241:2600::/40 } on-error={}
 :do { add list=JE address=2a13:a5c7:256f::/48 } on-error={}

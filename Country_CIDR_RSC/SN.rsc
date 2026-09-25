@@ -311,4 +311,3 @@
 :do { add list=SN address=213.154.92.128/25 } on-error={}
 :do { add list=SN address=213.154.93.0/24 } on-error={}
 :do { add list=SN address=213.154.94.0/23 } on-error={}
-:do { add list=SN address=216.139.166.0/24 } on-error={}
