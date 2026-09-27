@@ -10383,7 +10383,11 @@
 :do { add list=ZA address=196.201.152.0/24 } on-error={}
 :do { add list=ZA address=196.201.232.0/21 } on-error={}
 :do { add list=ZA address=196.202.248.0/22 } on-error={}
-:do { add list=ZA address=196.207.32.0/20 } on-error={}
+:do { add list=ZA address=196.207.32.0/21 } on-error={}
+:do { add list=ZA address=196.207.40.0/22 } on-error={}
+:do { add list=ZA address=196.207.44.0/24 } on-error={}
+:do { add list=ZA address=196.207.45.0/24 } on-error={}
+:do { add list=ZA address=196.207.46.0/23 } on-error={}
 :do { add list=ZA address=196.208.0.0/20 } on-error={}
 :do { add list=ZA address=196.208.16.0/23 } on-error={}
 :do { add list=ZA address=196.208.18.0/23 } on-error={}

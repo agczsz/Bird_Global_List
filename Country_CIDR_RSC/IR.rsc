@@ -3036,8 +3036,7 @@
 :do { add list=IR address=185.41.220.0/22 } on-error={}
 :do { add list=IR address=185.42.212.0/24 } on-error={}
 :do { add list=IR address=185.42.213.0/24 } on-error={}
-:do { add list=IR address=185.42.214.0/24 } on-error={}
-:do { add list=IR address=185.42.215.0/24 } on-error={}
+:do { add list=IR address=185.42.214.0/23 } on-error={}
 :do { add list=IR address=185.42.224.0/22 } on-error={}
 :do { add list=IR address=185.43.33.0/24 } on-error={}
 :do { add list=IR address=185.44.36.0/24 } on-error={}

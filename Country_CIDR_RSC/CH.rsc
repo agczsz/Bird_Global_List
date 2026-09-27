@@ -9374,7 +9374,13 @@
 :do { add list=CH address=193.5.254.0/24 } on-error={}
 :do { add list=CH address=193.8.9.0/24 } on-error={}
 :do { add list=CH address=193.8.10.0/23 } on-error={}
-:do { add list=CH address=193.8.16.0/20 } on-error={}
+:do { add list=CH address=193.8.16.0/21 } on-error={}
+:do { add list=CH address=193.8.24.0/23 } on-error={}
+:do { add list=CH address=193.8.26.0/24 } on-error={}
+:do { add list=CH address=193.8.27.0/24 } on-error={}
+:do { add list=CH address=193.8.28.0/24 } on-error={}
+:do { add list=CH address=193.8.29.0/24 } on-error={}
+:do { add list=CH address=193.8.30.0/23 } on-error={}
 :do { add list=CH address=193.8.40.0/23 } on-error={}
 :do { add list=CH address=193.8.42.0/24 } on-error={}
 :do { add list=CH address=193.8.44.0/24 } on-error={}

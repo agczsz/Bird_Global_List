@@ -8296,12 +8296,7 @@
 :do { add list=JP address=101.140.0.0/14 } on-error={}
 :do { add list=JP address=101.203.0.0/19 } on-error={}
 :do { add list=JP address=101.203.32.0/20 } on-error={}
-:do { add list=JP address=101.203.48.0/22 } on-error={}
-:do { add list=JP address=101.203.52.0/23 } on-error={}
-:do { add list=JP address=101.203.54.0/23 } on-error={}
-:do { add list=JP address=101.203.56.0/23 } on-error={}
-:do { add list=JP address=101.203.58.0/23 } on-error={}
-:do { add list=JP address=101.203.60.0/22 } on-error={}
+:do { add list=JP address=101.203.48.0/20 } on-error={}
 :do { add list=JP address=101.203.64.0/21 } on-error={}
 :do { add list=JP address=101.203.74.16/30 } on-error={}
 :do { add list=JP address=101.203.74.40/32 } on-error={}

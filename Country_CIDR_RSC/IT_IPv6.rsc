@@ -22740,7 +22740,11 @@
 :do { add list=IT address=2a05:4140:64::/46 } on-error={}
 :do { add list=IT address=2a05:4140:68::/47 } on-error={}
 :do { add list=IT address=2a05:4140:6e::/47 } on-error={}
-:do { add list=IT address=2a05:4140:70::/44 } on-error={}
+:do { add list=IT address=2a05:4140:70::/46 } on-error={}
+:do { add list=IT address=2a05:4140:74::/48 } on-error={}
+:do { add list=IT address=2a05:4140:75::/48 } on-error={}
+:do { add list=IT address=2a05:4140:76::/47 } on-error={}
+:do { add list=IT address=2a05:4140:78::/45 } on-error={}
 :do { add list=IT address=2a05:4140:80::/45 } on-error={}
 :do { add list=IT address=2a05:4140:88::/48 } on-error={}
 :do { add list=IT address=2a05:4140:89::/48 } on-error={}

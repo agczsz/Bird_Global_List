@@ -40582,7 +40582,9 @@
 :do { add list=SG address=2405:84c0:8004::/47 } on-error={}
 :do { add list=SG address=2405:84c0:8006::/48 } on-error={}
 :do { add list=SG address=2405:84c0:8007::/48 } on-error={}
-:do { add list=SG address=2405:84c0:8008::/45 } on-error={}
+:do { add list=SG address=2405:84c0:8008::/47 } on-error={}
+:do { add list=SG address=2405:84c0:800a::/47 } on-error={}
+:do { add list=SG address=2405:84c0:800c::/46 } on-error={}
 :do { add list=SG address=2405:84c0:a100::/48 } on-error={}
 :do { add list=SG address=2405:84c0:a101::/48 } on-error={}
 :do { add list=SG address=2405:84c0:a102::/47 } on-error={}

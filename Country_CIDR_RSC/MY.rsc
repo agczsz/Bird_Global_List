@@ -3238,8 +3238,7 @@
 :do { add list=MY address=157.167.236.29/32 } on-error={}
 :do { add list=MY address=157.167.236.30/32 } on-error={}
 :do { add list=MY address=157.167.236.63/32 } on-error={}
-:do { add list=MY address=157.228.160.0/23 } on-error={}
-:do { add list=MY address=157.228.162.0/23 } on-error={}
+:do { add list=MY address=157.228.160.0/22 } on-error={}
 :do { add list=MY address=157.238.229.240/28 } on-error={}
 :do { add list=MY address=157.238.240.0/22 } on-error={}
 :do { add list=MY address=157.240.60.0/25 } on-error={}
