@@ -3083,7 +3083,8 @@
 :do { add list=MY address=152.233.59.0/24 } on-error={}
 :do { add list=MY address=153.43.73.0/24 } on-error={}
 :do { add list=MY address=153.72.142.0/25 } on-error={}
-:do { add list=MY address=153.76.232.0/21 } on-error={}
+:do { add list=MY address=153.76.232.0/22 } on-error={}
+:do { add list=MY address=153.76.236.0/22 } on-error={}
 :do { add list=MY address=154.6.148.0/23 } on-error={}
 :do { add list=MY address=154.7.228.0/25 } on-error={}
 :do { add list=MY address=154.18.232.0/23 } on-error={}

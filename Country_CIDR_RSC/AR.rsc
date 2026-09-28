@@ -459,9 +459,7 @@
 :do { add list=AR address=45.68.44.0/24 } on-error={}
 :do { add list=AR address=45.68.47.0/24 } on-error={}
 :do { add list=AR address=45.68.132.0/22 } on-error={}
-:do { add list=AR address=45.70.8.0/24 } on-error={}
-:do { add list=AR address=45.70.9.0/24 } on-error={}
-:do { add list=AR address=45.70.10.0/23 } on-error={}
+:do { add list=AR address=45.70.8.0/22 } on-error={}
 :do { add list=AR address=45.70.88.0/22 } on-error={}
 :do { add list=AR address=45.70.116.0/22 } on-error={}
 :do { add list=AR address=45.70.152.0/22 } on-error={}

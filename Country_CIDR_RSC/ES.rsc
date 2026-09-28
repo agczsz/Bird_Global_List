@@ -5458,7 +5458,8 @@
 :do { add list=ES address=85.152.0.0/16 } on-error={}
 :do { add list=ES address=85.155.0.0/20 } on-error={}
 :do { add list=ES address=85.155.131.0/24 } on-error={}
-:do { add list=ES address=85.155.208.0/20 } on-error={}
+:do { add list=ES address=85.155.208.0/21 } on-error={}
+:do { add list=ES address=85.155.216.0/21 } on-error={}
 :do { add list=ES address=85.155.252.0/22 } on-error={}
 :do { add list=ES address=85.158.168.0/21 } on-error={}
 :do { add list=ES address=85.159.204.0/22 } on-error={}

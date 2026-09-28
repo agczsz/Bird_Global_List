@@ -8152,8 +8152,7 @@
 :do { add list=NO address=2a10:500:500::/40 } on-error={}
 :do { add list=NO address=2a10:500:8c00::/40 } on-error={}
 :do { add list=NO address=2a10:b80::/29 } on-error={}
-:do { add list=NO address=2a10:1b80::/32 } on-error={}
-:do { add list=NO address=2a10:1b81::/32 } on-error={}
+:do { add list=NO address=2a10:1b80::/31 } on-error={}
 :do { add list=NO address=2a10:1b82::/31 } on-error={}
 :do { add list=NO address=2a10:1b84::/30 } on-error={}
 :do { add list=NO address=2a10:2f00:104::/48 } on-error={}

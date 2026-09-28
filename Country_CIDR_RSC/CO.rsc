@@ -2959,7 +2959,12 @@
 :do { add list=CO address=181.59.228.0/22 } on-error={}
 :do { add list=CO address=181.59.232.0/21 } on-error={}
 :do { add list=CO address=181.59.240.0/20 } on-error={}
-:do { add list=CO address=181.60.0.0/19 } on-error={}
+:do { add list=CO address=181.60.0.0/20 } on-error={}
+:do { add list=CO address=181.60.16.0/24 } on-error={}
+:do { add list=CO address=181.60.17.0/24 } on-error={}
+:do { add list=CO address=181.60.18.0/23 } on-error={}
+:do { add list=CO address=181.60.20.0/22 } on-error={}
+:do { add list=CO address=181.60.24.0/21 } on-error={}
 :do { add list=CO address=181.60.32.0/24 } on-error={}
 :do { add list=CO address=181.60.33.0/24 } on-error={}
 :do { add list=CO address=181.60.34.0/23 } on-error={}

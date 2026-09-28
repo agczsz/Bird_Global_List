@@ -34030,7 +34030,8 @@
 :do { add list=IN address=2a06:9f81:5000::/40 } on-error={}
 :do { add list=IN address=2a06:9f81:5667::/48 } on-error={}
 :do { add list=IN address=2a06:a004::/40 } on-error={}
-:do { add list=IN address=2a06:a004:102::/47 } on-error={}
+:do { add list=IN address=2a06:a004:102::/48 } on-error={}
+:do { add list=IN address=2a06:a004:103::/48 } on-error={}
 :do { add list=IN address=2a06:a004:104::/46 } on-error={}
 :do { add list=IN address=2a06:a004:108::/45 } on-error={}
 :do { add list=IN address=2a06:a004:110::/44 } on-error={}

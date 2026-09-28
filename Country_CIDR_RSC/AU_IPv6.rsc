@@ -101101,11 +101101,7 @@
 :do { add list=AU address=2406:c500:ffd9::/48 } on-error={}
 :do { add list=AU address=2406:c500:ffda::/47 } on-error={}
 :do { add list=AU address=2406:c500:ffdc::/46 } on-error={}
-:do { add list=AU address=2406:c500:ffe0::/45 } on-error={}
-:do { add list=AU address=2406:c500:ffe8::/46 } on-error={}
-:do { add list=AU address=2406:c500:ffec::/47 } on-error={}
-:do { add list=AU address=2406:c500:ffee::/48 } on-error={}
-:do { add list=AU address=2406:c500:ffef::/48 } on-error={}
+:do { add list=AU address=2406:c500:ffe0::/44 } on-error={}
 :do { add list=AU address=2406:c500:fff0::/47 } on-error={}
 :do { add list=AU address=2406:c500:fff2::/48 } on-error={}
 :do { add list=AU address=2406:c500:fff3::/48 } on-error={}

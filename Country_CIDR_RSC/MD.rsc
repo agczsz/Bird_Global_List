@@ -416,7 +416,9 @@
 :do { add list=MD address=131.123.11.0/24 } on-error={}
 :do { add list=MD address=131.123.13.0/24 } on-error={}
 :do { add list=MD address=131.123.14.0/23 } on-error={}
-:do { add list=MD address=131.123.16.0/22 } on-error={}
+:do { add list=MD address=131.123.16.0/24 } on-error={}
+:do { add list=MD address=131.123.17.0/24 } on-error={}
+:do { add list=MD address=131.123.18.0/23 } on-error={}
 :do { add list=MD address=131.123.20.0/24 } on-error={}
 :do { add list=MD address=131.123.21.0/24 } on-error={}
 :do { add list=MD address=131.123.22.0/24 } on-error={}

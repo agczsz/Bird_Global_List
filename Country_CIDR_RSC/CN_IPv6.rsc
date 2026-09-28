@@ -57571,7 +57571,8 @@
 :do { add list=CN address=2a0f:1cc5:2e4::/46 } on-error={}
 :do { add list=CN address=2a0f:1cc5:2e8::/45 } on-error={}
 :do { add list=CN address=2a0f:1cc5:314::/46 } on-error={}
-:do { add list=CN address=2a0f:1cc5:318::/45 } on-error={}
+:do { add list=CN address=2a0f:1cc5:318::/46 } on-error={}
+:do { add list=CN address=2a0f:1cc5:31c::/46 } on-error={}
 :do { add list=CN address=2a0f:1cc5:500::/40 } on-error={}
 :do { add list=CN address=2a0f:1cc5:640::/47 } on-error={}
 :do { add list=CN address=2a0f:1cc5:642::/48 } on-error={}

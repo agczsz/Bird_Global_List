@@ -1181,10 +1181,7 @@
 :do { add list=MX address=45.65.152.0/24 } on-error={}
 :do { add list=MX address=45.65.155.0/24 } on-error={}
 :do { add list=MX address=45.67.244.0/24 } on-error={}
-:do { add list=MX address=45.68.64.0/22 } on-error={}
-:do { add list=MX address=45.68.68.0/24 } on-error={}
-:do { add list=MX address=45.68.69.0/24 } on-error={}
-:do { add list=MX address=45.68.70.0/23 } on-error={}
+:do { add list=MX address=45.68.64.0/21 } on-error={}
 :do { add list=MX address=45.68.136.0/24 } on-error={}
 :do { add list=MX address=45.71.11.0/25 } on-error={}
 :do { add list=MX address=45.73.168.0/24 } on-error={}
@@ -6975,7 +6972,8 @@
 :do { add list=MX address=187.188.60.0/23 } on-error={}
 :do { add list=MX address=187.188.62.0/23 } on-error={}
 :do { add list=MX address=187.188.64.0/23 } on-error={}
-:do { add list=MX address=187.188.66.0/23 } on-error={}
+:do { add list=MX address=187.188.66.0/24 } on-error={}
+:do { add list=MX address=187.188.67.0/24 } on-error={}
 :do { add list=MX address=187.188.68.0/22 } on-error={}
 :do { add list=MX address=187.188.72.0/24 } on-error={}
 :do { add list=MX address=187.188.73.0/24 } on-error={}
@@ -7274,7 +7272,9 @@
 :do { add list=MX address=187.190.22.0/24 } on-error={}
 :do { add list=MX address=187.190.23.0/24 } on-error={}
 :do { add list=MX address=187.190.24.0/21 } on-error={}
-:do { add list=MX address=187.190.32.0/22 } on-error={}
+:do { add list=MX address=187.190.32.0/24 } on-error={}
+:do { add list=MX address=187.190.33.0/24 } on-error={}
+:do { add list=MX address=187.190.34.0/23 } on-error={}
 :do { add list=MX address=187.190.36.0/23 } on-error={}
 :do { add list=MX address=187.190.38.0/23 } on-error={}
 :do { add list=MX address=187.190.40.0/24 } on-error={}
@@ -8125,7 +8125,8 @@
 :do { add list=MX address=187.252.242.0/23 } on-error={}
 :do { add list=MX address=187.252.244.0/22 } on-error={}
 :do { add list=MX address=187.252.248.0/22 } on-error={}
-:do { add list=MX address=187.252.252.0/22 } on-error={}
+:do { add list=MX address=187.252.252.0/23 } on-error={}
+:do { add list=MX address=187.252.254.0/23 } on-error={}
 :do { add list=MX address=187.253.0.0/23 } on-error={}
 :do { add list=MX address=187.253.2.0/24 } on-error={}
 :do { add list=MX address=187.253.3.0/24 } on-error={}
