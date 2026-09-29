@@ -130,6 +130,7 @@
 :do { add list=VC address=2a0c:9a46:3ed::/48 } on-error={}
 :do { add list=VC address=2a0c:9a46:3fe:ec::/64 } on-error={}
 :do { add list=VC address=2a0d:6c2:2d00::/40 } on-error={}
+:do { add list=VC address=2a0d:2684:ed::/48 } on-error={}
 :do { add list=VC address=2a0d:9442:d800::/37 } on-error={}
 :do { add list=VC address=2a0e:4001:9ff:bf::/64 } on-error={}
 :do { add list=VC address=2a0f:1cc5:b10:c200::/56 } on-error={}

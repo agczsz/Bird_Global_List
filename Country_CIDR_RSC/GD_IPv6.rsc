@@ -29,6 +29,7 @@
 :do { add list=GD address=2600:70ff:a6fc::/48 } on-error={}
 :do { add list=GD address=2602:814:fd34::/46 } on-error={}
 :do { add list=GD address=2602:81a:8000::/44 } on-error={}
+:do { add list=GD address=2602:f805:244::/48 } on-error={}
 :do { add list=GD address=2602:f965::/40 } on-error={}
 :do { add list=GD address=2602:fc14::/36 } on-error={}
 :do { add list=GD address=2605:59c8:6600::/42 } on-error={}
@@ -61,6 +62,8 @@
 :do { add list=GD address=2607:8940:2572::/47 } on-error={}
 :do { add list=GD address=2607:8940:2576::/47 } on-error={}
 :do { add list=GD address=2607:8940:4200:a200::/55 } on-error={}
+:do { add list=GD address=2607:f438:0:2202:190:242:166:33/128 } on-error={}
+:do { add list=GD address=2607:f438:0:2302:67:230:96:33/128 } on-error={}
 :do { add list=GD address=2620:0:876:3500::/56 } on-error={}
 :do { add list=GD address=2620:61:e000::/48 } on-error={}
 :do { add list=GD address=2620:a2:e000::/48 } on-error={}
@@ -117,7 +120,9 @@
 :do { add list=GD address=2a04:4e41:4084:d000::/52 } on-error={}
 :do { add list=GD address=2a04:4e41:4413::/48 } on-error={}
 :do { add list=GD address=2a05:dfc1:5a5a::/48 } on-error={}
-:do { add list=GD address=2a06:9801:1526::/47 } on-error={}
+:do { add list=GD address=2a06:9801:1526::/49 } on-error={}
+:do { add list=GD address=2a06:9801:1526:8000::/50 } on-error={}
+:do { add list=GD address=2a06:9801:1527::/48 } on-error={}
 :do { add list=GD address=2a06:9f81:394c::/48 } on-error={}
 :do { add list=GD address=2a06:9f81:43ef:4f00::/56 } on-error={}
 :do { add list=GD address=2a06:9f81:564c::/48 } on-error={}
@@ -147,6 +152,7 @@
 :do { add list=GD address=2a0c:9a40:95b5:7000::/52 } on-error={}
 :do { add list=GD address=2a0c:9a46:34e::/48 } on-error={}
 :do { add list=GD address=2a0c:9a46:3fe:4d::/64 } on-error={}
+:do { add list=GD address=2a0d:2684:4e::/48 } on-error={}
 :do { add list=GD address=2a0d:9444:b000::/37 } on-error={}
 :do { add list=GD address=2a0e:4001:9ff:58::/64 } on-error={}
 :do { add list=GD address=2a0f:1cc5:b10:5a00::/56 } on-error={}

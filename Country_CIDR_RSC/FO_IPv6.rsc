@@ -133,6 +133,7 @@
 :do { add list=FO address=2a0c:9a40:95b4:8000::/52 } on-error={}
 :do { add list=FO address=2a0c:9a46:34a::/48 } on-error={}
 :do { add list=FO address=2a0c:9a46:3fe:49::/64 } on-error={}
+:do { add list=FO address=2a0d:2684:4a::/48 } on-error={}
 :do { add list=FO address=2a0d:3341:ab00::/40 } on-error={}
 :do { add list=FO address=2a0d:9445::/37 } on-error={}
 :do { add list=FO address=2a0e:4001:9ff:49::/64 } on-error={}
@@ -165,6 +166,8 @@
 :do { add list=FO address=2a12:ef87:b000::/36 } on-error={}
 :do { add list=FO address=2a12:f381:c400::/40 } on-error={}
 :do { add list=FO address=2a12:f382:c400::/40 } on-error={}
+:do { add list=FO address=2a12:f8c3:1:4aca::/64 } on-error={}
+:do { add list=FO address=2a12:f8c3:1:4ad5::/64 } on-error={}
 :do { add list=FO address=2a13:a5c7:254a::/48 } on-error={}
 :do { add list=FO address=2a13:a5c7:25ff:4900::/56 } on-error={}
 :do { add list=FO address=2a13:b487:5028::/48 } on-error={}

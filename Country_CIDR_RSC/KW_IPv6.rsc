@@ -33,6 +33,7 @@
 :do { add list=KW address=2405:b500:3fe0::/64 } on-error={}
 :do { add list=KW address=2405:b500:3fe0:8::/64 } on-error={}
 :do { add list=KW address=2405:b500:3fe0:60::/64 } on-error={}
+:do { add list=KW address=2407:2440:a010::/50 } on-error={}
 :do { add list=KW address=2600:70ff:a9c1::/48 } on-error={}
 :do { add list=KW address=2600:70ff:b3b4::/48 } on-error={}
 :do { add list=KW address=2600:70ff:d02f::/48 } on-error={}
@@ -41,6 +42,7 @@
 :do { add list=KW address=2600:70ff:d168::/48 } on-error={}
 :do { add list=KW address=2602:2a9:aa0::/44 } on-error={}
 :do { add list=KW address=2602:814:fde8::/46 } on-error={}
+:do { add list=KW address=2602:f805:60c::/48 } on-error={}
 :do { add list=KW address=2602:fa02:166::/48 } on-error={}
 :do { add list=KW address=2602:fa02:1fd::/48 } on-error={}
 :do { add list=KW address=2602:fa02:294::/48 } on-error={}
@@ -81,21 +83,12 @@
 :do { add list=KW address=2a00:4522::/31 } on-error={}
 :do { add list=KW address=2a00:4524::/30 } on-error={}
 :do { add list=KW address=2a01:53c0:ffc6::/48 } on-error={}
-:do { add list=KW address=2a01:53c0:ffe7::/48 } on-error={}
+:do { add list=KW address=2a01:53c0:ffe7::/50 } on-error={}
 :do { add list=KW address=2a01:5ca0::/32 } on-error={}
 :do { add list=KW address=2a01:7780::/48 } on-error={}
 :do { add list=KW address=2a01:7780:1:a::/63 } on-error={}
 :do { add list=KW address=2a01:7780:1:e::/63 } on-error={}
-:do { add list=KW address=2a01:7780:1:10::/60 } on-error={}
-:do { add list=KW address=2a01:7780:1:20::/59 } on-error={}
-:do { add list=KW address=2a01:7780:1:40::/58 } on-error={}
-:do { add list=KW address=2a01:7780:1:80::/57 } on-error={}
-:do { add list=KW address=2a01:7780:1:100::/56 } on-error={}
-:do { add list=KW address=2a01:7780:1:200::/55 } on-error={}
-:do { add list=KW address=2a01:7780:1:400::/54 } on-error={}
-:do { add list=KW address=2a01:7780:1:800::/53 } on-error={}
-:do { add list=KW address=2a01:7780:1:1000::/52 } on-error={}
-:do { add list=KW address=2a01:7780:1:2000::/51 } on-error={}
+:do { add list=KW address=2a01:7780:1:10::/64 } on-error={}
 :do { add list=KW address=2a01:7780:1:4000::/50 } on-error={}
 :do { add list=KW address=2a01:7780:1:8000::/49 } on-error={}
 :do { add list=KW address=2a01:7780:2::/47 } on-error={}
@@ -258,6 +251,7 @@
 :do { add list=KW address=2a0c:9a46:3fe:7a::/64 } on-error={}
 :do { add list=KW address=2a0c:c9c0::/29 } on-error={}
 :do { add list=KW address=2a0c:ca00::/29 } on-error={}
+:do { add list=KW address=2a0d:2684:7b::/48 } on-error={}
 :do { add list=KW address=2a0d:2980::/29 } on-error={}
 :do { add list=KW address=2a0d:3341:c280::/42 } on-error={}
 :do { add list=KW address=2a0d:3341:d500::/40 } on-error={}

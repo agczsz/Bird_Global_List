@@ -2,7 +2,6 @@
 /ipv6 firewall address-list
 :do { add list=LB address=2001:470:1f29:23::/64 } on-error={}
 :do { add list=LB address=2001:470:2a13::/48 } on-error={}
-:do { add list=LB address=2001:470:5028::/48 } on-error={}
 :do { add list=LB address=2001:470:5a6b::/48 } on-error={}
 :do { add list=LB address=2001:470:6854::/48 } on-error={}
 :do { add list=LB address=2001:470:72fd::/48 } on-error={}
@@ -52,6 +51,7 @@
 :do { add list=LB address=2600:70ff:b1b5::/48 } on-error={}
 :do { add list=LB address=2600:70ff:d160::/48 } on-error={}
 :do { add list=LB address=2602:814:fdf8::/46 } on-error={}
+:do { add list=LB address=2602:f805:603::/48 } on-error={}
 :do { add list=LB address=2606:40:a38::/45 } on-error={}
 :do { add list=LB address=2606:40:a40::/45 } on-error={}
 :do { add list=LB address=2606:40:12c1::/48 } on-error={}
@@ -241,18 +241,7 @@
 :do { add list=LB address=2a07:f100:2000::/35 } on-error={}
 :do { add list=LB address=2a07:f100:4000::/34 } on-error={}
 :do { add list=LB address=2a07:f100:8000::/33 } on-error={}
-:do { add list=LB address=2a07:f101:1::/48 } on-error={}
-:do { add list=LB address=2a07:f101:2::/47 } on-error={}
-:do { add list=LB address=2a07:f101:4::/46 } on-error={}
-:do { add list=LB address=2a07:f101:8::/45 } on-error={}
-:do { add list=LB address=2a07:f101:10::/44 } on-error={}
-:do { add list=LB address=2a07:f101:20::/43 } on-error={}
-:do { add list=LB address=2a07:f101:40::/42 } on-error={}
-:do { add list=LB address=2a07:f101:80::/41 } on-error={}
-:do { add list=LB address=2a07:f101:100::/40 } on-error={}
-:do { add list=LB address=2a07:f101:200::/39 } on-error={}
-:do { add list=LB address=2a07:f101:400::/38 } on-error={}
-:do { add list=LB address=2a07:f101:800::/37 } on-error={}
+:do { add list=LB address=2a07:f101::/36 } on-error={}
 :do { add list=LB address=2a07:f101:1000::/36 } on-error={}
 :do { add list=LB address=2a07:f101:2000::/35 } on-error={}
 :do { add list=LB address=2a07:f101:4000::/34 } on-error={}
@@ -395,6 +384,7 @@
 :do { add list=LB address=2a0c:9a46:3fe:7e::/64 } on-error={}
 :do { add list=LB address=2a0c:b300::/32 } on-error={}
 :do { add list=LB address=2a0d:e40::/29 } on-error={}
+:do { add list=LB address=2a0d:2684:7f::/48 } on-error={}
 :do { add list=LB address=2a0d:3344:2d00::/40 } on-error={}
 :do { add list=LB address=2a0d:3680::/29 } on-error={}
 :do { add list=LB address=2a0d:5200::/29 } on-error={}
@@ -417,6 +407,7 @@
 :do { add list=LB address=2a0f:1cc5:b16:7900::/56 } on-error={}
 :do { add list=LB address=2a0f:1cc5:b17:7900::/56 } on-error={}
 :do { add list=LB address=2a0f:1cc5:1f95::/48 } on-error={}
+:do { add list=LB address=2a0f:5d40::/29 } on-error={}
 :do { add list=LB address=2a0f:6280:cec9::/48 } on-error={}
 :do { add list=LB address=2a0f:85c1:340::9b:0/112 } on-error={}
 :do { add list=LB address=2a0f:85c1:81b:f630::/60 } on-error={}

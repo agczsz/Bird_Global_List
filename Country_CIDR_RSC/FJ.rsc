@@ -63,6 +63,7 @@
 :do { add list=FJ address=140.248.63.70/32 } on-error={}
 :do { add list=FJ address=144.120.0.0/18 } on-error={}
 :do { add list=FJ address=144.120.64.0/22 } on-error={}
+:do { add list=FJ address=144.120.68.0/25 } on-error={}
 :do { add list=FJ address=144.120.69.0/24 } on-error={}
 :do { add list=FJ address=144.120.70.0/23 } on-error={}
 :do { add list=FJ address=144.120.72.0/21 } on-error={}
@@ -107,11 +108,7 @@
 :do { add list=FJ address=172.225.175.64/28 } on-error={}
 :do { add list=FJ address=172.225.244.32/28 } on-error={}
 :do { add list=FJ address=183.81.128.0/21 } on-error={}
-:do { add list=FJ address=183.81.136.0/27 } on-error={}
-:do { add list=FJ address=183.81.136.32/32 } on-error={}
-:do { add list=FJ address=183.81.136.35/32 } on-error={}
-:do { add list=FJ address=183.81.136.36/30 } on-error={}
-:do { add list=FJ address=183.81.136.40/29 } on-error={}
+:do { add list=FJ address=183.81.136.0/28 } on-error={}
 :do { add list=FJ address=183.81.136.48/30 } on-error={}
 :do { add list=FJ address=183.81.136.52/32 } on-error={}
 :do { add list=FJ address=183.81.136.54/31 } on-error={}
@@ -125,12 +122,13 @@
 :do { add list=FJ address=183.81.136.251/32 } on-error={}
 :do { add list=FJ address=183.81.136.252/30 } on-error={}
 :do { add list=FJ address=183.81.137.0/32 } on-error={}
-:do { add list=FJ address=183.81.137.2/31 } on-error={}
+:do { add list=FJ address=183.81.137.3/32 } on-error={}
 :do { add list=FJ address=183.81.137.4/30 } on-error={}
 :do { add list=FJ address=183.81.137.8/29 } on-error={}
 :do { add list=FJ address=183.81.137.16/28 } on-error={}
-:do { add list=FJ address=183.81.137.32/27 } on-error={}
-:do { add list=FJ address=183.81.137.64/26 } on-error={}
+:do { add list=FJ address=183.81.137.48/30 } on-error={}
+:do { add list=FJ address=183.81.137.64/27 } on-error={}
+:do { add list=FJ address=183.81.137.96/28 } on-error={}
 :do { add list=FJ address=183.81.137.128/29 } on-error={}
 :do { add list=FJ address=183.81.137.136/30 } on-error={}
 :do { add list=FJ address=183.81.137.140/32 } on-error={}

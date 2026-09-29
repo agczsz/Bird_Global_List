@@ -123,6 +123,7 @@
 :do { add list=NR address=2a0c:9a40:95b9:8000::/52 } on-error={}
 :do { add list=NR address=2a0c:9a46:3a9::/48 } on-error={}
 :do { add list=NR address=2a0c:9a46:3fe:a8::/64 } on-error={}
+:do { add list=NR address=2a0d:2684:a9::/48 } on-error={}
 :do { add list=NR address=2a0d:9445:2800::/37 } on-error={}
 :do { add list=NR address=2a0e:4001:9ff:9a::/64 } on-error={}
 :do { add list=NR address=2a0f:1cc5:b10:9500::/56 } on-error={}

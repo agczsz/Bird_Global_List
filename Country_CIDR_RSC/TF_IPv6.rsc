@@ -1,6 +1,7 @@
 /log info "Loading TF IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=TF address=2001:470:19:4af::/64 } on-error={}
+:do { add list=TF address=2001:470:494b::/48 } on-error={}
 :do { add list=TF address=2001:470:e966::/48 } on-error={}
 :do { add list=TF address=2001:470:f434::/48 } on-error={}
 :do { add list=TF address=2001:470:f827::/48 } on-error={}
@@ -56,6 +57,7 @@
 :do { add list=TF address=2a0c:9a40:95b4:e000::/52 } on-error={}
 :do { add list=TF address=2a0c:9a46:3d8::/48 } on-error={}
 :do { add list=TF address=2a0c:9a46:3fe:d7::/64 } on-error={}
+:do { add list=TF address=2a0d:2684:d8::/48 } on-error={}
 :do { add list=TF address=2a0d:9445:c800::/37 } on-error={}
 :do { add list=TF address=2a0e:4001:9ff:4f::/64 } on-error={}
 :do { add list=TF address=2a0f:1cc5:b10:4e00::/56 } on-error={}
@@ -66,6 +68,7 @@
 :do { add list=TF address=2a0f:1cc5:b15:4e00::/56 } on-error={}
 :do { add list=TF address=2a0f:1cc5:b16:4e00::/56 } on-error={}
 :do { add list=TF address=2a0f:1cc5:b17:4e00::/56 } on-error={}
+:do { add list=TF address=2a0f:6280:1005::/48 } on-error={}
 :do { add list=TF address=2a0f:9400:6148::/48 } on-error={}
 :do { add list=TF address=2a11:3a83:4000::/35 } on-error={}
 :do { add list=TF address=2a12:f005:6000::/36 } on-error={}

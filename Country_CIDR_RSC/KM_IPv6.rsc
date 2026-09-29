@@ -105,6 +105,7 @@
 :do { add list=KM address=2a0c:9a40:95b3::/52 } on-error={}
 :do { add list=KM address=2a0c:9a46:377::/48 } on-error={}
 :do { add list=KM address=2a0c:9a46:3fe:76::/64 } on-error={}
+:do { add list=KM address=2a0d:2684:77::/48 } on-error={}
 :do { add list=KM address=2a0d:9446:5800::/37 } on-error={}
 :do { add list=KM address=2a0e:4001:9ff:31::/64 } on-error={}
 :do { add list=KM address=2a0f:1cc5:b10:3100::/56 } on-error={}

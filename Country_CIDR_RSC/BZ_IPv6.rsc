@@ -189,6 +189,7 @@
 :do { add list=BZ address=2a0c:9a40:95b1:6000::/52 } on-error={}
 :do { add list=BZ address=2a0c:9a46:325::/48 } on-error={}
 :do { add list=BZ address=2a0c:9a46:3fe:24::/64 } on-error={}
+:do { add list=BZ address=2a0d:2684:24::/48 } on-error={}
 :do { add list=BZ address=2a0d:9444:d000::/37 } on-error={}
 :do { add list=BZ address=2a0e:4001:9ff:16::/64 } on-error={}
 :do { add list=BZ address=2a0e:b107:2308::/45 } on-error={}

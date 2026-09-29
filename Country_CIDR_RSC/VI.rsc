@@ -2,7 +2,6 @@
 /ip firewall address-list
 :do { add list=VI address=3.143.20.109/32 } on-error={}
 :do { add list=VI address=8.38.118.167/32 } on-error={}
-:do { add list=VI address=12.174.240.172/30 } on-error={}
 :do { add list=VI address=12.204.8.16/29 } on-error={}
 :do { add list=VI address=12.204.8.80/29 } on-error={}
 :do { add list=VI address=12.204.8.160/29 } on-error={}
@@ -10,9 +9,12 @@
 :do { add list=VI address=12.204.13.112/29 } on-error={}
 :do { add list=VI address=12.204.13.152/29 } on-error={}
 :do { add list=VI address=23.143.120.0/24 } on-error={}
-:do { add list=VI address=24.41.242.0/25 } on-error={}
+:do { add list=VI address=24.41.133.0/26 } on-error={}
+:do { add list=VI address=24.41.213.128/27 } on-error={}
+:do { add list=VI address=24.41.242.31/32 } on-error={}
 :do { add list=VI address=24.55.69.0/24 } on-error={}
 :do { add list=VI address=24.55.160.0/24 } on-error={}
+:do { add list=VI address=24.55.173.0/24 } on-error={}
 :do { add list=VI address=24.139.98.164/32 } on-error={}
 :do { add list=VI address=38.134.168.0/23 } on-error={}
 :do { add list=VI address=45.42.0.0/22 } on-error={}
@@ -30,15 +32,11 @@
 :do { add list=VI address=67.211.240.0/20 } on-error={}
 :do { add list=VI address=67.230.100.28/32 } on-error={}
 :do { add list=VI address=67.230.100.30/32 } on-error={}
-:do { add list=VI address=67.230.100.144/30 } on-error={}
-:do { add list=VI address=67.230.100.150/32 } on-error={}
+:do { add list=VI address=67.230.100.144/29 } on-error={}
 :do { add list=VI address=67.230.100.152/31 } on-error={}
 :do { add list=VI address=67.230.100.154/32 } on-error={}
 :do { add list=VI address=67.230.100.156/32 } on-error={}
-:do { add list=VI address=67.230.100.160/32 } on-error={}
-:do { add list=VI address=67.230.100.162/32 } on-error={}
-:do { add list=VI address=67.230.100.166/32 } on-error={}
-:do { add list=VI address=67.230.100.168/32 } on-error={}
+:do { add list=VI address=67.230.100.160/30 } on-error={}
 :do { add list=VI address=69.30.251.136/32 } on-error={}
 :do { add list=VI address=74.244.152.0/23 } on-error={}
 :do { add list=VI address=98.142.160.0/20 } on-error={}

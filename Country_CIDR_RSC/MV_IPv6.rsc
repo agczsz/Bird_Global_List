@@ -1,6 +1,5 @@
 /log info "Loading MV IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=MV address=2001:470:24:35a::/64 } on-error={}
 :do { add list=MV address=2001:470:24:35c::/64 } on-error={}
 :do { add list=MV address=2001:470:36:1df::/64 } on-error={}
 :do { add list=MV address=2001:470:36:7ea::/64 } on-error={}
@@ -57,7 +56,7 @@
 :do { add list=MV address=2401:8300:f200::/39 } on-error={}
 :do { add list=MV address=2401:8300:f400::/38 } on-error={}
 :do { add list=MV address=2401:8300:f800::/37 } on-error={}
-:do { add list=MV address=2401:f1e0:ffff:6576::/64 } on-error={}
+:do { add list=MV address=2401:f1e0:ffff:4963::/64 } on-error={}
 :do { add list=MV address=2401:f1e0:ffff:942d::/64 } on-error={}
 :do { add list=MV address=2401:f1e0:ffff:a2dd::/64 } on-error={}
 :do { add list=MV address=2404:ab80::/46 } on-error={}
@@ -168,6 +167,7 @@
 :do { add list=MV address=2600:70ff:aa92::/48 } on-error={}
 :do { add list=MV address=2600:70ff:ac5a::/48 } on-error={}
 :do { add list=MV address=2602:814:fe68::/46 } on-error={}
+:do { add list=MV address=2602:f805:35d::/48 } on-error={}
 :do { add list=MV address=2606:54c0:48e8::/45 } on-error={}
 :do { add list=MV address=2606:54c3:0:a29::/64 } on-error={}
 :do { add list=MV address=2607:8940:3a8e::/47 } on-error={}
@@ -259,6 +259,7 @@
 :do { add list=MV address=2a0c:9a40:95b8:5000::/52 } on-error={}
 :do { add list=MV address=2a0c:9a46:39b::/48 } on-error={}
 :do { add list=MV address=2a0c:9a46:3fe:9a::/64 } on-error={}
+:do { add list=MV address=2a0d:2684:9b::/48 } on-error={}
 :do { add list=MV address=2a0d:9445:8800::/37 } on-error={}
 :do { add list=MV address=2a0d:d940:200b::/48 } on-error={}
 :do { add list=MV address=2a0e:4001:9ff:87::/64 } on-error={}

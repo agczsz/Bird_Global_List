@@ -4,7 +4,6 @@
 :do { add list=PW address=31.209.97.0/24 } on-error={}
 :do { add list=PW address=31.209.103.0/24 } on-error={}
 :do { add list=PW address=38.150.36.0/23 } on-error={}
-:do { add list=PW address=45.74.19.192/26 } on-error={}
 :do { add list=PW address=57.70.176.0/23 } on-error={}
 :do { add list=PW address=57.70.240.0/20 } on-error={}
 :do { add list=PW address=64.86.255.0/27 } on-error={}
@@ -48,9 +47,6 @@
 :do { add list=PW address=146.75.132.124/31 } on-error={}
 :do { add list=PW address=146.75.154.18/31 } on-error={}
 :do { add list=PW address=146.75.160.124/31 } on-error={}
-:do { add list=PW address=154.18.44.0/32 } on-error={}
-:do { add list=PW address=154.18.44.2/31 } on-error={}
-:do { add list=PW address=154.18.44.4/30 } on-error={}
 :do { add list=PW address=163.116.192.110/31 } on-error={}
 :do { add list=PW address=163.116.223.107/32 } on-error={}
 :do { add list=PW address=163.116.223.108/32 } on-error={}

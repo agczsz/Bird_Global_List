@@ -118,6 +118,7 @@
 :do { add list=GM address=2a0c:9a40:95b5::/52 } on-error={}
 :do { add list=GM address=2a0c:9a46:355::/48 } on-error={}
 :do { add list=GM address=2a0c:9a46:3fe:54::/64 } on-error={}
+:do { add list=GM address=2a0d:2684:55::/48 } on-error={}
 :do { add list=GM address=2a0d:3344:2740::/42 } on-error={}
 :do { add list=GM address=2a0d:9442:f800::/37 } on-error={}
 :do { add list=GM address=2a0e:4001:9ff:51::/64 } on-error={}
