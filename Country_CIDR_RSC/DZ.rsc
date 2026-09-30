@@ -1,7 +1,6 @@
 /log info "Loading DZ IPv4 Address List"
 /ip firewall address-list
 :do { add list=DZ address=5.62.63.240/30 } on-error={}
-:do { add list=DZ address=5.180.66.0/27 } on-error={}
 :do { add list=DZ address=41.96.0.0/12 } on-error={}
 :do { add list=DZ address=41.200.0.0/18 } on-error={}
 :do { add list=DZ address=41.200.64.0/18 } on-error={}
@@ -30,7 +29,6 @@
 :do { add list=DZ address=85.255.21.48/28 } on-error={}
 :do { add list=DZ address=94.198.171.0/24 } on-error={}
 :do { add list=DZ address=96.45.39.57/32 } on-error={}
-:do { add list=DZ address=98.159.226.32/28 } on-error={}
 :do { add list=DZ address=99.82.15.51/32 } on-error={}
 :do { add list=DZ address=99.82.15.53/32 } on-error={}
 :do { add list=DZ address=99.82.179.241/32 } on-error={}
@@ -95,10 +93,7 @@
 :do { add list=DZ address=105.96.0.0/12 } on-error={}
 :do { add list=DZ address=105.235.128.0/20 } on-error={}
 :do { add list=DZ address=107.179.102.48/28 } on-error={}
-:do { add list=DZ address=108.171.32.0/24 } on-error={}
-:do { add list=DZ address=128.90.104.0/24 } on-error={}
 :do { add list=DZ address=129.45.0.0/17 } on-error={}
-:do { add list=DZ address=134.255.244.0/29 } on-error={}
 :do { add list=DZ address=140.248.56.61/32 } on-error={}
 :do { add list=DZ address=140.248.57.61/32 } on-error={}
 :do { add list=DZ address=140.248.58.61/32 } on-error={}
@@ -141,8 +136,6 @@
 :do { add list=DZ address=157.167.240.30/32 } on-error={}
 :do { add list=DZ address=157.167.240.145/32 } on-error={}
 :do { add list=DZ address=159.26.127.32/30 } on-error={}
-:do { add list=DZ address=160.224.165.0/24 } on-error={}
-:do { add list=DZ address=160.224.166.0/23 } on-error={}
 :do { add list=DZ address=162.120.187.52/31 } on-error={}
 :do { add list=DZ address=162.120.187.180/31 } on-error={}
 :do { add list=DZ address=162.120.188.52/31 } on-error={}
@@ -167,12 +160,6 @@
 :do { add list=DZ address=172.225.212.96/28 } on-error={}
 :do { add list=DZ address=172.225.242.112/28 } on-error={}
 :do { add list=DZ address=173.239.197.0/28 } on-error={}
-:do { add list=DZ address=176.125.228.3/32 } on-error={}
-:do { add list=DZ address=176.125.228.15/32 } on-error={}
-:do { add list=DZ address=178.93.134.0/24 } on-error={}
-:do { add list=DZ address=185.10.164.137/32 } on-error={}
-:do { add list=DZ address=185.10.164.231/32 } on-error={}
-:do { add list=DZ address=185.35.141.50/32 } on-error={}
 :do { add list=DZ address=185.112.132.58/32 } on-error={}
 :do { add list=DZ address=192.52.232.0/24 } on-error={}
 :do { add list=DZ address=192.245.148.0/24 } on-error={}
@@ -190,13 +177,6 @@
 :do { add list=DZ address=196.41.251.0/24 } on-error={}
 :do { add list=DZ address=196.41.253.0/24 } on-error={}
 :do { add list=DZ address=196.41.254.0/23 } on-error={}
-:do { add list=DZ address=196.48.34.0/24 } on-error={}
-:do { add list=DZ address=196.56.34.0/24 } on-error={}
-:do { add list=DZ address=196.57.34.0/24 } on-error={}
-:do { add list=DZ address=196.58.34.0/24 } on-error={}
-:do { add list=DZ address=196.197.34.0/24 } on-error={}
-:do { add list=DZ address=196.198.34.0/24 } on-error={}
-:do { add list=DZ address=196.199.34.0/24 } on-error={}
 :do { add list=DZ address=197.112.0.0/13 } on-error={}
 :do { add list=DZ address=197.140.0.0/14 } on-error={}
 :do { add list=DZ address=197.200.0.0/13 } on-error={}

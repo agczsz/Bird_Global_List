@@ -96,13 +96,6 @@
 :do { add list=WS address=182.50.72.0/22 } on-error={}
 :do { add list=WS address=182.50.168.0/22 } on-error={}
 :do { add list=WS address=185.112.134.29/32 } on-error={}
-:do { add list=WS address=196.48.168.0/24 } on-error={}
-:do { add list=WS address=196.56.168.0/24 } on-error={}
-:do { add list=WS address=196.57.168.0/24 } on-error={}
-:do { add list=WS address=196.58.168.0/24 } on-error={}
-:do { add list=WS address=196.197.168.0/24 } on-error={}
-:do { add list=WS address=196.198.168.0/24 } on-error={}
-:do { add list=WS address=196.199.168.0/24 } on-error={}
 :do { add list=WS address=198.54.100.88/31 } on-error={}
 :do { add list=WS address=202.4.32.0/29 } on-error={}
 :do { add list=WS address=202.4.32.8/32 } on-error={}

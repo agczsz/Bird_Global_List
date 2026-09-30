@@ -1,7 +1,6 @@
 /log info "Loading GA IPv4 Address List"
 /ip firewall address-list
 :do { add list=GA address=5.62.62.132/30 } on-error={}
-:do { add list=GA address=12.133.194.128/26 } on-error={}
 :do { add list=GA address=41.78.240.0/22 } on-error={}
 :do { add list=GA address=41.158.0.0/15 } on-error={}
 :do { add list=GA address=41.211.128.0/18 } on-error={}
@@ -36,8 +35,6 @@
 :do { add list=GA address=102.142.96.0/20 } on-error={}
 :do { add list=GA address=102.164.124.0/22 } on-error={}
 :do { add list=GA address=102.208.104.0/24 } on-error={}
-:do { add list=GA address=102.211.178.71/32 } on-error={}
-:do { add list=GA address=102.223.54.165/32 } on-error={}
 :do { add list=GA address=104.28.10.1/32 } on-error={}
 :do { add list=GA address=104.28.10.2/31 } on-error={}
 :do { add list=GA address=104.28.34.48/31 } on-error={}
@@ -67,7 +64,7 @@
 :do { add list=GA address=140.248.62.75/32 } on-error={}
 :do { add list=GA address=140.248.63.75/32 } on-error={}
 :do { add list=GA address=146.75.162.32/31 } on-error={}
-:do { add list=GA address=149.6.144.242/31 } on-error={}
+:do { add list=GA address=149.6.144.242/32 } on-error={}
 :do { add list=GA address=149.11.174.42/32 } on-error={}
 :do { add list=GA address=153.67.152.0/23 } on-error={}
 :do { add list=GA address=154.0.32.0/19 } on-error={}
@@ -222,24 +219,15 @@
 :do { add list=GA address=172.224.230.112/28 } on-error={}
 :do { add list=GA address=172.225.99.0/27 } on-error={}
 :do { add list=GA address=172.225.242.160/28 } on-error={}
-:do { add list=GA address=185.10.167.93/32 } on-error={}
 :do { add list=GA address=185.56.51.246/32 } on-error={}
-:do { add list=GA address=187.15.166.0/24 } on-error={}
 :do { add list=GA address=192.188.164.0/22 } on-error={}
 :do { add list=GA address=192.189.139.0/24 } on-error={}
 :do { add list=GA address=192.189.140.0/24 } on-error={}
 :do { add list=GA address=193.251.247.104/32 } on-error={}
 :do { add list=GA address=193.251.248.34/32 } on-error={}
 :do { add list=GA address=193.251.255.238/32 } on-error={}
-:do { add list=GA address=196.48.88.0/24 } on-error={}
 :do { add list=GA address=196.49.17.0/24 } on-error={}
 :do { add list=GA address=196.50.32.0/23 } on-error={}
-:do { add list=GA address=196.56.88.0/24 } on-error={}
-:do { add list=GA address=196.57.88.0/24 } on-error={}
-:do { add list=GA address=196.58.88.0/24 } on-error={}
-:do { add list=GA address=196.197.88.0/24 } on-error={}
-:do { add list=GA address=196.198.88.0/24 } on-error={}
-:do { add list=GA address=196.199.88.0/24 } on-error={}
 :do { add list=GA address=196.223.39.0/24 } on-error={}
 :do { add list=GA address=197.231.64.0/21 } on-error={}
 :do { add list=GA address=197.231.72.0/22 } on-error={}
@@ -266,7 +254,6 @@
 :do { add list=GA address=197.231.124.0/23 } on-error={}
 :do { add list=GA address=197.231.126.0/23 } on-error={}
 :do { add list=GA address=197.242.0.0/19 } on-error={}
-:do { add list=GA address=212.39.170.22/32 } on-error={}
 :do { add list=GA address=216.226.248.0/22 } on-error={}
 :do { add list=GA address=217.77.64.0/20 } on-error={}
 :do { add list=GA address=217.113.76.24/29 } on-error={}

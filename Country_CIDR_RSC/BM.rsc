@@ -2,7 +2,6 @@
 /ip firewall address-list
 :do { add list=BM address=5.62.56.36/30 } on-error={}
 :do { add list=BM address=5.62.58.36/30 } on-error={}
-:do { add list=BM address=41.180.160.0/24 } on-error={}
 :do { add list=BM address=45.15.177.60/30 } on-error={}
 :do { add list=BM address=45.15.177.124/30 } on-error={}
 :do { add list=BM address=45.89.99.60/30 } on-error={}
@@ -97,7 +96,6 @@
 :do { add list=BM address=192.40.84.0/23 } on-error={}
 :do { add list=BM address=192.40.86.0/23 } on-error={}
 :do { add list=BM address=192.156.199.0/24 } on-error={}
-:do { add list=BM address=194.50.99.27/32 } on-error={}
 :do { add list=BM address=196.1.107.0/24 } on-error={}
 :do { add list=BM address=196.12.64.0/18 } on-error={}
 :do { add list=BM address=198.186.235.0/24 } on-error={}
@@ -319,8 +317,6 @@
 :do { add list=BM address=208.75.200.0/22 } on-error={}
 :do { add list=BM address=208.82.164.0/22 } on-error={}
 :do { add list=BM address=208.89.228.0/22 } on-error={}
-:do { add list=BM address=209.27.64.0/24 } on-error={}
-:do { add list=BM address=209.27.142.0/24 } on-error={}
 :do { add list=BM address=209.120.242.32/29 } on-error={}
 :do { add list=BM address=209.240.32.0/20 } on-error={}
 :do { add list=BM address=216.249.32.0/20 } on-error={}

@@ -2,7 +2,6 @@
 /ip firewall address-list
 :do { add list=ST address=5.62.63.100/30 } on-error={}
 :do { add list=ST address=57.82.64.0/23 } on-error={}
-:do { add list=ST address=57.84.128.0/20 } on-error={}
 :do { add list=ST address=102.201.20.0/22 } on-error={}
 :do { add list=ST address=102.202.92.0/22 } on-error={}
 :do { add list=ST address=102.206.44.0/22 } on-error={}
@@ -52,13 +51,5 @@
 :do { add list=ST address=172.225.178.240/28 } on-error={}
 :do { add list=ST address=172.225.197.32/28 } on-error={}
 :do { add list=ST address=172.225.243.80/28 } on-error={}
-:do { add list=ST address=185.35.140.67/32 } on-error={}
 :do { add list=ST address=185.35.140.83/32 } on-error={}
-:do { add list=ST address=196.48.170.0/24 } on-error={}
-:do { add list=ST address=196.56.170.0/24 } on-error={}
-:do { add list=ST address=196.57.170.0/24 } on-error={}
-:do { add list=ST address=196.58.170.0/24 } on-error={}
-:do { add list=ST address=196.197.170.0/24 } on-error={}
-:do { add list=ST address=196.198.170.0/24 } on-error={}
-:do { add list=ST address=196.199.170.0/24 } on-error={}
 :do { add list=ST address=197.159.160.0/19 } on-error={}

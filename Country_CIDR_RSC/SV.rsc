@@ -2,8 +2,6 @@
 /ip firewall address-list
 :do { add list=SV address=5.62.56.88/30 } on-error={}
 :do { add list=SV address=5.62.58.84/30 } on-error={}
-:do { add list=SV address=8.243.238.72/31 } on-error={}
-:do { add list=SV address=8.243.238.178/31 } on-error={}
 :do { add list=SV address=32.59.12.40/29 } on-error={}
 :do { add list=SV address=32.59.12.64/27 } on-error={}
 :do { add list=SV address=32.59.15.0/24 } on-error={}
@@ -101,8 +99,6 @@
 :do { add list=SV address=69.79.100.89/32 } on-error={}
 :do { add list=SV address=69.79.100.115/32 } on-error={}
 :do { add list=SV address=69.167.93.64/29 } on-error={}
-:do { add list=SV address=89.45.224.32/27 } on-error={}
-:do { add list=SV address=89.45.224.64/26 } on-error={}
 :do { add list=SV address=103.158.32.0/24 } on-error={}
 :do { add list=SV address=104.28.13.49/32 } on-error={}
 :do { add list=SV address=104.28.13.50/31 } on-error={}
@@ -590,17 +586,7 @@
 :do { add list=SV address=190.242.158.0/23 } on-error={}
 :do { add list=SV address=190.242.160.0/23 } on-error={}
 :do { add list=SV address=190.242.162.0/24 } on-error={}
-:do { add list=SV address=192.8.87.0/31 } on-error={}
-:do { add list=SV address=192.8.87.2/32 } on-error={}
-:do { add list=SV address=196.48.82.0/24 } on-error={}
-:do { add list=SV address=196.56.82.0/24 } on-error={}
-:do { add list=SV address=196.57.82.0/24 } on-error={}
-:do { add list=SV address=196.58.82.0/24 } on-error={}
-:do { add list=SV address=196.197.82.0/24 } on-error={}
-:do { add list=SV address=196.198.82.0/24 } on-error={}
-:do { add list=SV address=196.199.82.0/24 } on-error={}
 :do { add list=SV address=198.228.97.30/32 } on-error={}
-:do { add list=SV address=199.60.215.200/29 } on-error={}
 :do { add list=SV address=200.0.108.0/24 } on-error={}
 :do { add list=SV address=200.0.180.0/24 } on-error={}
 :do { add list=SV address=200.11.31.0/24 } on-error={}
@@ -698,7 +684,6 @@
 :do { add list=SV address=205.211.234.0/24 } on-error={}
 :do { add list=SV address=205.211.235.0/24 } on-error={}
 :do { add list=SV address=205.211.243.0/24 } on-error={}
-:do { add list=SV address=206.123.151.128/25 } on-error={}
 :do { add list=SV address=207.191.172.0/22 } on-error={}
 :do { add list=SV address=208.97.251.28/30 } on-error={}
 :do { add list=SV address=209.124.98.0/23 } on-error={}

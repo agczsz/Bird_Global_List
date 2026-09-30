@@ -94,16 +94,8 @@
 :do { add list=MR address=172.225.243.16/28 } on-error={}
 :do { add list=MR address=179.64.102.0/23 } on-error={}
 :do { add list=MR address=185.112.135.22/32 } on-error={}
-:do { add list=MR address=187.14.58.30/32 } on-error={}
 :do { add list=MR address=193.251.248.172/32 } on-error={}
-:do { add list=MR address=196.48.132.0/24 } on-error={}
 :do { add list=MR address=196.49.18.0/24 } on-error={}
-:do { add list=MR address=196.56.132.0/24 } on-error={}
-:do { add list=MR address=196.57.132.0/24 } on-error={}
-:do { add list=MR address=196.58.132.0/24 } on-error={}
-:do { add list=MR address=196.197.132.0/24 } on-error={}
-:do { add list=MR address=196.198.132.0/24 } on-error={}
-:do { add list=MR address=196.199.132.0/24 } on-error={}
 :do { add list=MR address=196.223.45.0/24 } on-error={}
 :do { add list=MR address=197.231.0.0/19 } on-error={}
 :do { add list=MR address=208.122.248.0/27 } on-error={}

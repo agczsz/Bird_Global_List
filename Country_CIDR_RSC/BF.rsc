@@ -1,6 +1,5 @@
 /log info "Loading BF IPv4 Address List"
 /ip firewall address-list
-:do { add list=BF address=5.22.209.235/32 } on-error={}
 :do { add list=BF address=5.62.62.56/30 } on-error={}
 :do { add list=BF address=9.170.46.0/23 } on-error={}
 :do { add list=BF address=38.170.0.0/18 } on-error={}
@@ -53,6 +52,7 @@
 :do { add list=BF address=102.67.96.16/30 } on-error={}
 :do { add list=BF address=102.67.96.20/31 } on-error={}
 :do { add list=BF address=102.67.96.22/32 } on-error={}
+:do { add list=BF address=102.67.96.24/32 } on-error={}
 :do { add list=BF address=102.67.96.30/31 } on-error={}
 :do { add list=BF address=102.67.96.38/31 } on-error={}
 :do { add list=BF address=102.67.96.40/30 } on-error={}
@@ -377,27 +377,16 @@
 :do { add list=BF address=179.64.96.0/23 } on-error={}
 :do { add list=BF address=179.64.104.0/23 } on-error={}
 :do { add list=BF address=185.56.51.238/32 } on-error={}
-:do { add list=BF address=186.247.50.0/24 } on-error={}
 :do { add list=BF address=192.12.116.0/24 } on-error={}
 :do { add list=BF address=192.136.55.0/24 } on-error={}
 :do { add list=BF address=192.136.56.0/23 } on-error={}
-:do { add list=BF address=193.251.245.22/32 } on-error={}
-:do { add list=BF address=193.251.245.27/32 } on-error={}
-:do { add list=BF address=194.50.99.21/32 } on-error={}
 :do { add list=BF address=195.22.210.221/32 } on-error={}
 :do { add list=BF address=196.13.207.0/24 } on-error={}
 :do { add list=BF address=196.28.240.0/20 } on-error={}
 :do { add list=BF address=196.43.247.0/24 } on-error={}
-:do { add list=BF address=196.48.58.0/24 } on-error={}
 :do { add list=BF address=196.49.19.0/24 } on-error={}
 :do { add list=BF address=196.49.74.0/24 } on-error={}
-:do { add list=BF address=196.56.58.0/24 } on-error={}
-:do { add list=BF address=196.57.58.0/24 } on-error={}
-:do { add list=BF address=196.58.58.0/24 } on-error={}
 :do { add list=BF address=196.60.76.0/24 } on-error={}
-:do { add list=BF address=196.197.58.0/24 } on-error={}
-:do { add list=BF address=196.198.58.0/24 } on-error={}
-:do { add list=BF address=196.199.58.0/24 } on-error={}
 :do { add list=BF address=196.223.47.0/24 } on-error={}
 :do { add list=BF address=197.239.64.0/23 } on-error={}
 :do { add list=BF address=197.239.66.0/24 } on-error={}
