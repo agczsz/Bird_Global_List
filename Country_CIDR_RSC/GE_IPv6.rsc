@@ -24,6 +24,7 @@
 :do { add list=GE address=2001:470:728e::/48 } on-error={}
 :do { add list=GE address=2001:470:755e::/48 } on-error={}
 :do { add list=GE address=2001:470:7583::/48 } on-error={}
+:do { add list=GE address=2001:470:7a60::/48 } on-error={}
 :do { add list=GE address=2001:470:7a90::/48 } on-error={}
 :do { add list=GE address=2001:470:7ae9::/48 } on-error={}
 :do { add list=GE address=2001:470:7b4f::/48 } on-error={}
@@ -769,14 +770,6 @@
 :do { add list=GE address=2a0e:2700::/29 } on-error={}
 :do { add list=GE address=2a0f:8c0::/32 } on-error={}
 :do { add list=GE address=2a0f:1500:9::/48 } on-error={}
-:do { add list=GE address=2a0f:1cc5:b10:5100::/56 } on-error={}
-:do { add list=GE address=2a0f:1cc5:b11:5100::/56 } on-error={}
-:do { add list=GE address=2a0f:1cc5:b12:5100::/56 } on-error={}
-:do { add list=GE address=2a0f:1cc5:b13:5100::/56 } on-error={}
-:do { add list=GE address=2a0f:1cc5:b14:5100::/56 } on-error={}
-:do { add list=GE address=2a0f:1cc5:b15:5100::/56 } on-error={}
-:do { add list=GE address=2a0f:1cc5:b16:5100::/56 } on-error={}
-:do { add list=GE address=2a0f:1cc5:b17:5100::/56 } on-error={}
 :do { add list=GE address=2a0f:1cc5:1fa0::/48 } on-error={}
 :do { add list=GE address=2a0f:52c0::/32 } on-error={}
 :do { add list=GE address=2a0f:52c1::/47 } on-error={}
@@ -920,13 +913,4 @@
 :do { add list=GE address=2a14:6f00::/29 } on-error={}
 :do { add list=GE address=2a14:7580:cf4e::/48 } on-error={}
 :do { add list=GE address=2a14:7580:ffef::/48 } on-error={}
-:do { add list=GE address=2a14:7581:b10:5100::/56 } on-error={}
-:do { add list=GE address=2a14:7581:b11:5100::/56 } on-error={}
-:do { add list=GE address=2a14:7581:b12:5100::/56 } on-error={}
-:do { add list=GE address=2a14:7581:b13:5100::/56 } on-error={}
-:do { add list=GE address=2a14:7581:b14:5100::/56 } on-error={}
-:do { add list=GE address=2a14:7581:b15:5100::/56 } on-error={}
-:do { add list=GE address=2a14:7581:b16:5100::/56 } on-error={}
-:do { add list=GE address=2a14:7581:b17:5100::/56 } on-error={}
-:do { add list=GE address=2a14:7581:be1:c00::/56 } on-error={}
 :do { add list=GE address=2a14:e380::/29 } on-error={}

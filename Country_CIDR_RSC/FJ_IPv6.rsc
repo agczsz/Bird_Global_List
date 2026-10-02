@@ -70,6 +70,7 @@
 :do { add list=FJ address=2401:5100:5000::/36 } on-error={}
 :do { add list=FJ address=2401:5100:6000::/35 } on-error={}
 :do { add list=FJ address=2401:5100:8000::/33 } on-error={}
+:do { add list=FJ address=2401:d7c0::/32 } on-error={}
 :do { add list=FJ address=2401:e600::/32 } on-error={}
 :do { add list=FJ address=2402:1840::/32 } on-error={}
 :do { add list=FJ address=2402:2940::/32 } on-error={}
@@ -199,14 +200,6 @@
 :do { add list=FJ address=2a0d:2684:47::/48 } on-error={}
 :do { add list=FJ address=2a0d:9446:e000::/37 } on-error={}
 :do { add list=FJ address=2a0e:b107:2410::/45 } on-error={}
-:do { add list=FJ address=2a0f:1cc5:b10:4800::/56 } on-error={}
-:do { add list=FJ address=2a0f:1cc5:b11:4800::/56 } on-error={}
-:do { add list=FJ address=2a0f:1cc5:b12:4800::/56 } on-error={}
-:do { add list=FJ address=2a0f:1cc5:b13:4800::/56 } on-error={}
-:do { add list=FJ address=2a0f:1cc5:b14:4800::/56 } on-error={}
-:do { add list=FJ address=2a0f:1cc5:b15:4800::/56 } on-error={}
-:do { add list=FJ address=2a0f:1cc5:b16:4800::/56 } on-error={}
-:do { add list=FJ address=2a0f:1cc5:b17:4800::/56 } on-error={}
 :do { add list=FJ address=2a0f:1cc5:1fe3::/48 } on-error={}
 :do { add list=FJ address=2a0f:7803:fecc::/48 } on-error={}
 :do { add list=FJ address=2a0f:85c1:81b:f3e0::/60 } on-error={}
@@ -242,13 +235,4 @@
 :do { add list=FJ address=2a14:67c1:b645::/48 } on-error={}
 :do { add list=FJ address=2a14:67c2:8cf::/48 } on-error={}
 :do { add list=FJ address=2a14:7580:cf46::/48 } on-error={}
-:do { add list=FJ address=2a14:7581:b10:4800::/56 } on-error={}
-:do { add list=FJ address=2a14:7581:b11:4800::/56 } on-error={}
-:do { add list=FJ address=2a14:7581:b12:4800::/56 } on-error={}
-:do { add list=FJ address=2a14:7581:b13:4800::/56 } on-error={}
-:do { add list=FJ address=2a14:7581:b14:4800::/56 } on-error={}
-:do { add list=FJ address=2a14:7581:b15:4800::/56 } on-error={}
-:do { add list=FJ address=2a14:7581:b16:4800::/56 } on-error={}
-:do { add list=FJ address=2a14:7581:b17:4800::/56 } on-error={}
-:do { add list=FJ address=2a14:7581:be0:f200::/56 } on-error={}
 :do { add list=FJ address=2a14:7583:ff3f:500::/56 } on-error={}

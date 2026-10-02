@@ -202,14 +202,6 @@
 :do { add list=WS address=2a0a:6044:f24c::/47 } on-error={}
 :do { add list=WS address=2a0d:2684:f4::/48 } on-error={}
 :do { add list=WS address=2a0d:9447:2000::/37 } on-error={}
-:do { add list=WS address=2a0f:1cc5:b10:f700::/56 } on-error={}
-:do { add list=WS address=2a0f:1cc5:b11:f700::/56 } on-error={}
-:do { add list=WS address=2a0f:1cc5:b12:f700::/56 } on-error={}
-:do { add list=WS address=2a0f:1cc5:b13:f700::/56 } on-error={}
-:do { add list=WS address=2a0f:1cc5:b14:f700::/56 } on-error={}
-:do { add list=WS address=2a0f:1cc5:b15:f700::/56 } on-error={}
-:do { add list=WS address=2a0f:1cc5:b16:f700::/56 } on-error={}
-:do { add list=WS address=2a0f:1cc5:b17:f700::/56 } on-error={}
 :do { add list=WS address=2a0f:1cc5:1fea::/48 } on-error={}
 :do { add list=WS address=2a0f:85c1:81b:f960::/60 } on-error={}
 :do { add list=WS address=2a0f:9403:180::/44 } on-error={}
@@ -262,12 +254,3 @@
 :do { add list=WS address=2a14:2d45:f200::/40 } on-error={}
 :do { add list=WS address=2a14:67c2:8bc::/48 } on-error={}
 :do { add list=WS address=2a14:7580:cff3::/48 } on-error={}
-:do { add list=WS address=2a14:7581:b10:f700::/56 } on-error={}
-:do { add list=WS address=2a14:7581:b11:f700::/56 } on-error={}
-:do { add list=WS address=2a14:7581:b12:f700::/56 } on-error={}
-:do { add list=WS address=2a14:7581:b13:f700::/56 } on-error={}
-:do { add list=WS address=2a14:7581:b14:f700::/56 } on-error={}
-:do { add list=WS address=2a14:7581:b15:f700::/56 } on-error={}
-:do { add list=WS address=2a14:7581:b16:f700::/56 } on-error={}
-:do { add list=WS address=2a14:7581:b17:f700::/56 } on-error={}
-:do { add list=WS address=2a14:7581:be3:7200::/56 } on-error={}

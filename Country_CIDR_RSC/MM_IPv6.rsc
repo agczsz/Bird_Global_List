@@ -718,14 +718,6 @@
 :do { add list=MM address=2a0a:6040:ff2::/48 } on-error={}
 :do { add list=MM address=2a0d:2684:92::/48 } on-error={}
 :do { add list=MM address=2a0d:9442:c800::/37 } on-error={}
-:do { add list=MM address=2a0f:1cc5:b10:2000::/56 } on-error={}
-:do { add list=MM address=2a0f:1cc5:b11:2000::/56 } on-error={}
-:do { add list=MM address=2a0f:1cc5:b12:2000::/56 } on-error={}
-:do { add list=MM address=2a0f:1cc5:b13:2000::/56 } on-error={}
-:do { add list=MM address=2a0f:1cc5:b14:2000::/56 } on-error={}
-:do { add list=MM address=2a0f:1cc5:b15:2000::/56 } on-error={}
-:do { add list=MM address=2a0f:1cc5:b16:2000::/56 } on-error={}
-:do { add list=MM address=2a0f:1cc5:b17:2000::/56 } on-error={}
 :do { add list=MM address=2a0f:1cc5:1fd0::/48 } on-error={}
 :do { add list=MM address=2a0f:85c1:81b:f7b0::/60 } on-error={}
 :do { add list=MM address=2a0f:9403:7f0::/44 } on-error={}
@@ -806,12 +798,3 @@
 :do { add list=MM address=2a14:67c2:83d::/48 } on-error={}
 :do { add list=MM address=2a14:7580:cf91::/48 } on-error={}
 :do { add list=MM address=2a14:7580:e424::/48 } on-error={}
-:do { add list=MM address=2a14:7581:b10:2000::/56 } on-error={}
-:do { add list=MM address=2a14:7581:b11:2000::/56 } on-error={}
-:do { add list=MM address=2a14:7581:b12:2000::/56 } on-error={}
-:do { add list=MM address=2a14:7581:b13:2000::/56 } on-error={}
-:do { add list=MM address=2a14:7581:b14:2000::/56 } on-error={}
-:do { add list=MM address=2a14:7581:b15:2000::/56 } on-error={}
-:do { add list=MM address=2a14:7581:b16:2000::/56 } on-error={}
-:do { add list=MM address=2a14:7581:b17:2000::/56 } on-error={}
-:do { add list=MM address=2a14:7581:be0:6800::/56 } on-error={}

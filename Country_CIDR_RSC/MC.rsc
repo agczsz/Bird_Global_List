@@ -169,7 +169,6 @@
 :do { add list=MC address=176.114.96.0/20 } on-error={}
 :do { add list=MC address=176.121.52.0/22 } on-error={}
 :do { add list=MC address=185.47.116.0/22 } on-error={}
-:do { add list=MC address=185.104.173.9/32 } on-error={}
 :do { add list=MC address=185.112.132.33/32 } on-error={}
 :do { add list=MC address=185.162.120.0/22 } on-error={}
 :do { add list=MC address=185.193.109.0/24 } on-error={}
@@ -307,6 +306,7 @@
 :do { add list=MC address=209.206.29.192/28 } on-error={}
 :do { add list=MC address=212.3.235.134/32 } on-error={}
 :do { add list=MC address=212.73.200.150/32 } on-error={}
+:do { add list=MC address=212.133.60.18/32 } on-error={}
 :do { add list=MC address=213.19.202.218/32 } on-error={}
 :do { add list=MC address=213.19.202.222/32 } on-error={}
 :do { add list=MC address=213.19.206.17/32 } on-error={}
