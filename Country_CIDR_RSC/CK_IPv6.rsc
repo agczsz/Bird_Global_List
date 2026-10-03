@@ -13,6 +13,7 @@
 :do { add list=CK address=2606:40:2300:2000::/51 } on-error={}
 :do { add list=CK address=2606:40:2939:9c00::/54 } on-error={}
 :do { add list=CK address=2606:54c0:1e68::/45 } on-error={}
+:do { add list=CK address=2606:54c1:1:367::/64 } on-error={}
 :do { add list=CK address=2606:54c3:0:4d7::/64 } on-error={}
 :do { add list=CK address=2607:8940:37dc::/46 } on-error={}
 :do { add list=CK address=2607:8940:41a0:4600::/55 } on-error={}

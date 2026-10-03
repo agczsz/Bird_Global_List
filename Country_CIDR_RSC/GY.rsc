@@ -24,6 +24,7 @@
 :do { add list=GY address=104.28.218.154/31 } on-error={}
 :do { add list=GY address=104.28.250.153/32 } on-error={}
 :do { add list=GY address=104.28.250.154/31 } on-error={}
+:do { add list=GY address=104.29.205.99/32 } on-error={}
 :do { add list=GY address=104.30.178.111/32 } on-error={}
 :do { add list=GY address=138.94.248.0/22 } on-error={}
 :do { add list=GY address=140.248.4.38/31 } on-error={}

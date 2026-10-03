@@ -10,6 +10,7 @@
 :do { add list=LS address=2605:59c0:6500::/42 } on-error={}
 :do { add list=LS address=2605:59ca:8800::/40 } on-error={}
 :do { add list=LS address=2606:54c0:47c8::/45 } on-error={}
+:do { add list=LS address=2606:54c1:1:3aa::/64 } on-error={}
 :do { add list=LS address=2606:54c3:0:307::/64 } on-error={}
 :do { add list=LS address=2607:8940:20fe::/47 } on-error={}
 :do { add list=LS address=2607:8940:2102:4000::/50 } on-error={}

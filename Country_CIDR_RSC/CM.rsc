@@ -156,6 +156,8 @@
 :do { add list=CM address=104.28.248.149/32 } on-error={}
 :do { add list=CM address=104.28.248.150/31 } on-error={}
 :do { add list=CM address=104.28.248.152/31 } on-error={}
+:do { add list=CM address=104.29.201.60/31 } on-error={}
+:do { add list=CM address=104.29.204.104/31 } on-error={}
 :do { add list=CM address=105.177.11.80/31 } on-error={}
 :do { add list=CM address=129.0.0.0/22 } on-error={}
 :do { add list=CM address=129.0.4.0/25 } on-error={}

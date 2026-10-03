@@ -83,6 +83,11 @@
 :do { add list=EG address=2604:b040:13:1100:2:5:2:0/112 } on-error={}
 :do { add list=EG address=2606:54c0:3060::/43 } on-error={}
 :do { add list=EG address=2606:54c0:d470::/45 } on-error={}
+:do { add list=EG address=2606:54c1:1:8a::/64 } on-error={}
+:do { add list=EG address=2606:54c1:1:179::/64 } on-error={}
+:do { add list=EG address=2606:54c1:1:2ba::/64 } on-error={}
+:do { add list=EG address=2606:54c1:1:67d::/64 } on-error={}
+:do { add list=EG address=2606:54c1:1:c9f::/64 } on-error={}
 :do { add list=EG address=2606:54c3:0:945::/64 } on-error={}
 :do { add list=EG address=2606:54c3:0:10ac::/64 } on-error={}
 :do { add list=EG address=2606:54c3:0:10fa::/64 } on-error={}

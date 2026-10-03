@@ -40,6 +40,9 @@
 :do { add list=UZ address=2606:40:22fc:e000::/51 } on-error={}
 :do { add list=UZ address=2606:54c0:d238::/45 } on-error={}
 :do { add list=UZ address=2606:54c0:d240::/44 } on-error={}
+:do { add list=UZ address=2606:54c1:1:93::/64 } on-error={}
+:do { add list=UZ address=2606:54c1:1:166::/64 } on-error={}
+:do { add list=UZ address=2606:54c1:1:2d8::/64 } on-error={}
 :do { add list=UZ address=2606:54c3:0:886::/64 } on-error={}
 :do { add list=UZ address=2606:54c3:0:1160::/64 } on-error={}
 :do { add list=UZ address=2606:54c3:0:16cf::/64 } on-error={}

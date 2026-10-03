@@ -7,6 +7,7 @@
 :do { add list=KM address=2602:814:fdd8::/46 } on-error={}
 :do { add list=KM address=2605:59c0:6c00::/40 } on-error={}
 :do { add list=KM address=2606:54c0:4668::/45 } on-error={}
+:do { add list=KM address=2606:54c1:1:3c4::/64 } on-error={}
 :do { add list=KM address=2606:54c3:0:255::/64 } on-error={}
 :do { add list=KM address=2607:8940:20ee::/48 } on-error={}
 :do { add list=KM address=2607:8940:20ef:4000::/50 } on-error={}

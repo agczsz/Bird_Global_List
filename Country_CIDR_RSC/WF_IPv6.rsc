@@ -8,6 +8,7 @@
 :do { add list=WF address=2606:40:214d::/54 } on-error={}
 :do { add list=WF address=2606:40:217f:e000::/54 } on-error={}
 :do { add list=WF address=2606:54c0:d378::/45 } on-error={}
+:do { add list=WF address=2606:54c1:1:1fb::/64 } on-error={}
 :do { add list=WF address=2606:54c3:0:d95::/64 } on-error={}
 :do { add list=WF address=2607:8940:294a::/47 } on-error={}
 :do { add list=WF address=2607:8940:294e::/47 } on-error={}

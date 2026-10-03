@@ -62,6 +62,8 @@
 :do { add list=TZ address=2605:59c0:7800::/40 } on-error={}
 :do { add list=TZ address=2606:54c0:5818::/45 } on-error={}
 :do { add list=TZ address=2606:54c0:5820::/45 } on-error={}
+:do { add list=TZ address=2606:54c1:1:3c7::/64 } on-error={}
+:do { add list=TZ address=2606:54c1:1:1182::/64 } on-error={}
 :do { add list=TZ address=2606:54c3:0:229::/64 } on-error={}
 :do { add list=TZ address=2606:54c3:0:aeb::/64 } on-error={}
 :do { add list=TZ address=2606:f188:172::/48 } on-error={}

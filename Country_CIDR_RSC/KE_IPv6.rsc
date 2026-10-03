@@ -500,6 +500,12 @@
 :do { add list=KE address=2605:59c7:9050::/48 } on-error={}
 :do { add list=KE address=2606:54c0:4610::/44 } on-error={}
 :do { add list=KE address=2606:54c0:4620::/43 } on-error={}
+:do { add list=KE address=2606:54c1:1:1d3::/64 } on-error={}
+:do { add list=KE address=2606:54c1:1:28b::/64 } on-error={}
+:do { add list=KE address=2606:54c1:1:31e::/64 } on-error={}
+:do { add list=KE address=2606:54c1:1:1091::/64 } on-error={}
+:do { add list=KE address=2606:54c1:1:1165::/64 } on-error={}
+:do { add list=KE address=2606:54c1:1:14c3::/64 } on-error={}
 :do { add list=KE address=2606:54c3:0:6bc::/64 } on-error={}
 :do { add list=KE address=2606:54c3:0:716::/64 } on-error={}
 :do { add list=KE address=2606:54c3:0:a59::/64 } on-error={}

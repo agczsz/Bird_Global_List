@@ -94,6 +94,8 @@
 :do { add list=NC address=2606:40:2939:bc00::/54 } on-error={}
 :do { add list=NC address=2606:54c0:4ca8::/45 } on-error={}
 :do { add list=NC address=2606:54c0:4cb0::/45 } on-error={}
+:do { add list=NC address=2606:54c1:1:ff::/64 } on-error={}
+:do { add list=NC address=2606:54c1:1:767::/64 } on-error={}
 :do { add list=NC address=2606:54c3:0:1444::/64 } on-error={}
 :do { add list=NC address=2606:54c3:0:16cd::/64 } on-error={}
 :do { add list=NC address=2607:8940:3af2::/47 } on-error={}

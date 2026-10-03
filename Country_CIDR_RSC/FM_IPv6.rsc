@@ -204,6 +204,8 @@
 :do { add list=FM address=2606:40:2113::/51 } on-error={}
 :do { add list=FM address=2606:54c0:3188::/45 } on-error={}
 :do { add list=FM address=2606:54c0:3190::/45 } on-error={}
+:do { add list=FM address=2606:54c1:1:245::/64 } on-error={}
+:do { add list=FM address=2606:54c1:1:288::/64 } on-error={}
 :do { add list=FM address=2606:54c3:0:a70::/64 } on-error={}
 :do { add list=FM address=2606:54c3:0:bef::/64 } on-error={}
 :do { add list=FM address=2607:8940:28ba::/47 } on-error={}

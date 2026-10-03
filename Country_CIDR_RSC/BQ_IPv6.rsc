@@ -14,6 +14,7 @@
 :do { add list=BQ address=2606:40:209d:2000::/51 } on-error={}
 :do { add list=BQ address=2606:40:2149:4000::/51 } on-error={}
 :do { add list=BQ address=2606:54c0:550::/45 } on-error={}
+:do { add list=BQ address=2606:54c1:1:19a::/64 } on-error={}
 :do { add list=BQ address=2606:54c3:0:101e::/64 } on-error={}
 :do { add list=BQ address=2607:8940:2406::/47 } on-error={}
 :do { add list=BQ address=2607:8940:240a::/47 } on-error={}

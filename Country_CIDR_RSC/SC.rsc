@@ -427,6 +427,8 @@
 :do { add list=SC address=104.28.226.199/32 } on-error={}
 :do { add list=SC address=104.28.226.200/30 } on-error={}
 :do { add list=SC address=104.28.226.204/32 } on-error={}
+:do { add list=SC address=104.29.193.112/31 } on-error={}
+:do { add list=SC address=104.29.193.114/32 } on-error={}
 :do { add list=SC address=109.205.210.0/24 } on-error={}
 :do { add list=SC address=128.0.32.0/24 } on-error={}
 :do { add list=SC address=137.63.0.0/18 } on-error={}

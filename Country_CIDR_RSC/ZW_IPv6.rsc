@@ -39,6 +39,8 @@
 :do { add list=ZW address=2605:59c1:3400::/38 } on-error={}
 :do { add list=ZW address=2606:54c0:d428::/45 } on-error={}
 :do { add list=ZW address=2606:54c0:d430::/45 } on-error={}
+:do { add list=ZW address=2606:54c1:1:386::/64 } on-error={}
+:do { add list=ZW address=2606:54c1:1:5bd::/64 } on-error={}
 :do { add list=ZW address=2606:54c3:0:3e1::/64 } on-error={}
 :do { add list=ZW address=2606:54c3:0:18b5::/64 } on-error={}
 :do { add list=ZW address=2607:8940:2282::/47 } on-error={}

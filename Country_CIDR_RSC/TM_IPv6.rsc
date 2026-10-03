@@ -14,6 +14,7 @@
 :do { add list=TM address=2606:40:230c:4000::/51 } on-error={}
 :do { add list=TM address=2606:40:2939:c000::/54 } on-error={}
 :do { add list=TM address=2606:54c0:5790::/45 } on-error={}
+:do { add list=TM address=2606:54c1:1:54::/64 } on-error={}
 :do { add list=TM address=2606:54c3:0:1887::/64 } on-error={}
 :do { add list=TM address=2607:8940:3d30::/46 } on-error={}
 :do { add list=TM address=2607:8940:4172:2e00::/55 } on-error={}

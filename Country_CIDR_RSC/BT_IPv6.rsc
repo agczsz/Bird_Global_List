@@ -160,6 +160,7 @@
 :do { add list=BT address=2602:814:fc80::/46 } on-error={}
 :do { add list=BT address=2602:f805:37e::/48 } on-error={}
 :do { add list=BT address=2606:54c0:fd8::/45 } on-error={}
+:do { add list=BT address=2606:54c1:1:12a::/64 } on-error={}
 :do { add list=BT address=2606:54c3:0:12e8::/64 } on-error={}
 :do { add list=BT address=2606:8e00:2000::/47 } on-error={}
 :do { add list=BT address=2606:9606:2000::/47 } on-error={}

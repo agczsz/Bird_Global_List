@@ -9,6 +9,7 @@
 :do { add list=CF address=2602:f805:507::/48 } on-error={}
 :do { add list=CF address=2605:59c0:5a00::/39 } on-error={}
 :do { add list=CF address=2606:54c0:1d50::/45 } on-error={}
+:do { add list=CF address=2606:54c1:1:372::/64 } on-error={}
 :do { add list=CF address=2606:54c3:0:499::/64 } on-error={}
 :do { add list=CF address=2607:8940:203a::/47 } on-error={}
 :do { add list=CF address=2607:8940:203e::/48 } on-error={}

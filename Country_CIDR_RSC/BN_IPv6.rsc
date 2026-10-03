@@ -21,6 +21,7 @@
 :do { add list=BN address=2602:814:fc6c::/46 } on-error={}
 :do { add list=BN address=2602:f805:310::/48 } on-error={}
 :do { add list=BN address=2606:54c0:528::/45 } on-error={}
+:do { add list=BN address=2606:54c1:1:149::/64 } on-error={}
 :do { add list=BN address=2606:54c3:0:1261::/64 } on-error={}
 :do { add list=BN address=2607:8940:37d4::/46 } on-error={}
 :do { add list=BN address=2607:8940:41a0:4200::/55 } on-error={}

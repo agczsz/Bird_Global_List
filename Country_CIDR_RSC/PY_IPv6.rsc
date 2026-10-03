@@ -20,6 +20,8 @@
 :do { add list=PY address=2602:f805:204::/48 } on-error={}
 :do { add list=PY address=2602:f9e0::/50 } on-error={}
 :do { add list=PY address=2606:54c0:5020::/44 } on-error={}
+:do { add list=PY address=2606:54c1:1:1b3::/64 } on-error={}
+:do { add list=PY address=2606:54c1:1:2c8::/64 } on-error={}
 :do { add list=PY address=2606:54c3:0:8f1::/64 } on-error={}
 :do { add list=PY address=2606:54c3:0:f4e::/64 } on-error={}
 :do { add list=PY address=2606:f4c0:2400::/44 } on-error={}

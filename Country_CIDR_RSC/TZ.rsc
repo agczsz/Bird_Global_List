@@ -377,6 +377,7 @@
 :do { add list=TZ address=104.28.253.46/31 } on-error={}
 :do { add list=TZ address=104.28.253.48/31 } on-error={}
 :do { add list=TZ address=104.28.253.50/32 } on-error={}
+:do { add list=TZ address=104.29.206.160/31 } on-error={}
 :do { add list=TZ address=104.30.170.82/32 } on-error={}
 :do { add list=TZ address=104.30.171.191/32 } on-error={}
 :do { add list=TZ address=104.44.57.152/30 } on-error={}

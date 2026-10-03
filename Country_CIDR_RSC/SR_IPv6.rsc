@@ -13,6 +13,8 @@
 :do { add list=SR address=2602:f805:22d::/48 } on-error={}
 :do { add list=SR address=2605:59c8:6a00::/40 } on-error={}
 :do { add list=SR address=2606:54c0:5540::/44 } on-error={}
+:do { add list=SR address=2606:54c1:1:242::/64 } on-error={}
+:do { add list=SR address=2606:54c1:1:637::/64 } on-error={}
 :do { add list=SR address=2606:54c3:0:bf8::/64 } on-error={}
 :do { add list=SR address=2606:54c3:0:182b::/64 } on-error={}
 :do { add list=SR address=2607:8940:2682::/47 } on-error={}

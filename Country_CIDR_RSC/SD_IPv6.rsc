@@ -20,6 +20,8 @@
 :do { add list=SD address=2605:59c8:4f00::/40 } on-error={}
 :do { add list=SD address=2605:59ca:2f00::/40 } on-error={}
 :do { add list=SD address=2606:54c0:5160::/44 } on-error={}
+:do { add list=SD address=2606:54c1:1:18d::/64 } on-error={}
+:do { add list=SD address=2606:54c1:1:2b0::/64 } on-error={}
 :do { add list=SD address=2606:54c3:0:99b::/64 } on-error={}
 :do { add list=SD address=2606:54c3:0:1084::/64 } on-error={}
 :do { add list=SD address=2606:f188:105::/48 } on-error={}

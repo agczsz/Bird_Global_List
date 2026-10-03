@@ -122,6 +122,7 @@
 :do { add list=LI address=2606:40:22f0:2800::/53 } on-error={}
 :do { add list=LI address=2606:40:22f0:3000::/52 } on-error={}
 :do { add list=LI address=2606:54c0:47a0::/45 } on-error={}
+:do { add list=LI address=2606:54c1:1:26e::/64 } on-error={}
 :do { add list=LI address=2606:54c3:0:af2::/64 } on-error={}
 :do { add list=LI address=2606:f4c0:2150::/44 } on-error={}
 :do { add list=LI address=2606:f4c0:b740::/44 } on-error={}

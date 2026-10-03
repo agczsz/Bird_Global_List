@@ -344,6 +344,8 @@
 :do { add list=LT address=2606:40:2308::/54 } on-error={}
 :do { add list=LT address=2606:40:231e:4000::/50 } on-error={}
 :do { add list=LT address=2606:54c0:47d0::/44 } on-error={}
+:do { add list=LT address=2606:54c1:1:408::/64 } on-error={}
+:do { add list=LT address=2606:54c1:1:11fc::/64 } on-error={}
 :do { add list=LT address=2606:54c3:0:b3::/64 } on-error={}
 :do { add list=LT address=2606:54c3:0:a57::/64 } on-error={}
 :do { add list=LT address=2606:f184:1752::/47 } on-error={}

@@ -22,6 +22,7 @@
 :do { add list=MZ address=2605:59c0:3400::/40 } on-error={}
 :do { add list=MZ address=2605:59ca:8600::/40 } on-error={}
 :do { add list=MZ address=2606:54c0:4c98::/45 } on-error={}
+:do { add list=MZ address=2606:54c1:1:300::/64 } on-error={}
 :do { add list=MZ address=2606:54c3:0:766::/64 } on-error={}
 :do { add list=MZ address=2607:8940:2152::/47 } on-error={}
 :do { add list=MZ address=2607:8940:2156::/47 } on-error={}

@@ -504,6 +504,9 @@
 :do { add list=MN address=2605:7a80:6604::/47 } on-error={}
 :do { add list=MN address=2606:54c0:4890::/44 } on-error={}
 :do { add list=MN address=2606:54c0:48a0::/45 } on-error={}
+:do { add list=MN address=2606:54c1:1:1ce::/64 } on-error={}
+:do { add list=MN address=2606:54c1:1:333::/64 } on-error={}
+:do { add list=MN address=2606:54c1:1:11ec::/64 } on-error={}
 :do { add list=MN address=2606:54c3:0:640::/64 } on-error={}
 :do { add list=MN address=2606:54c3:0:a68::/64 } on-error={}
 :do { add list=MN address=2606:54c3:0:e7d::/64 } on-error={}

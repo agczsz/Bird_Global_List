@@ -151,6 +151,7 @@
 :do { add list=AG address=2606:40:20f5::/51 } on-error={}
 :do { add list=AG address=2606:40:2148:a000::/51 } on-error={}
 :do { add list=AG address=2606:54c0:40::/45 } on-error={}
+:do { add list=AG address=2606:54c1:1:11f::/64 } on-error={}
 :do { add list=AG address=2606:54c3:0:1326::/64 } on-error={}
 :do { add list=AG address=2607:8940:228a::/52 } on-error={}
 :do { add list=AG address=2607:8940:228a:1000::/61 } on-error={}

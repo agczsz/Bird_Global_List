@@ -610,6 +610,10 @@
 :do { add list=MM address=2602:ffe4:c79::/48 } on-error={}
 :do { add list=MM address=2606:54c0:4878::/45 } on-error={}
 :do { add list=MM address=2606:54c0:4880::/44 } on-error={}
+:do { add list=MM address=2606:54c1:1:394::/64 } on-error={}
+:do { add list=MM address=2606:54c1:1:809::/64 } on-error={}
+:do { add list=MM address=2606:54c1:1:17d9::/64 } on-error={}
+:do { add list=MM address=2606:54c1:1:19e4::/64 } on-error={}
 :do { add list=MM address=2606:54c3:0:11c::/64 } on-error={}
 :do { add list=MM address=2606:54c3:0:386::/64 } on-error={}
 :do { add list=MM address=2606:54c3:0:160f::/64 } on-error={}

@@ -50,6 +50,8 @@
 :do { add list=TN address=2606:40:22a1:a000::/51 } on-error={}
 :do { add list=TN address=2606:54c0:5798::/45 } on-error={}
 :do { add list=TN address=2606:54c0:57a0::/45 } on-error={}
+:do { add list=TN address=2606:54c1:1:282::/64 } on-error={}
+:do { add list=TN address=2606:54c1:1:805::/64 } on-error={}
 :do { add list=TN address=2606:54c3:0:a9c::/64 } on-error={}
 :do { add list=TN address=2606:54c3:0:1614::/64 } on-error={}
 :do { add list=TN address=2606:f188:92::/48 } on-error={}

@@ -528,6 +528,7 @@
 :do { add list=LV address=2606:40:22fc:a000::/51 } on-error={}
 :do { add list=LV address=2606:40:2316:8000::/51 } on-error={}
 :do { add list=LV address=2606:54c0:47f0::/45 } on-error={}
+:do { add list=LV address=2606:54c1:1:3e6::/64 } on-error={}
 :do { add list=LV address=2606:54c3:0:175::/64 } on-error={}
 :do { add list=LV address=2606:f4c0:2830::/44 } on-error={}
 :do { add list=LV address=2607:740:52::/48 } on-error={}

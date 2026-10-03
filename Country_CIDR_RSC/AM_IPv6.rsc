@@ -29,6 +29,7 @@
 :do { add list=AM address=2602:f805:38a::/48 } on-error={}
 :do { add list=AM address=2605:e440:43::/48 } on-error={}
 :do { add list=AM address=2606:54c0:58::/45 } on-error={}
+:do { add list=AM address=2606:54c1:1:3b9::/64 } on-error={}
 :do { add list=AM address=2606:54c3:0:29f::/64 } on-error={}
 :do { add list=AM address=2606:8e00:1000::/47 } on-error={}
 :do { add list=AM address=2606:9606:1000::/47 } on-error={}
@@ -785,6 +786,7 @@
 :do { add list=AM address=2a0f:85c1:81b:f0a0::/60 } on-error={}
 :do { add list=AM address=2a0f:9403:640::/44 } on-error={}
 :do { add list=AM address=2a0f:a300:5800::/37 } on-error={}
+:do { add list=AM address=2a0f:b000::/29 } on-error={}
 :do { add list=AM address=2a10:500:6d00::/40 } on-error={}
 :do { add list=AM address=2a10:ab80:440::/48 } on-error={}
 :do { add list=AM address=2a10:fa81:1806::/48 } on-error={}

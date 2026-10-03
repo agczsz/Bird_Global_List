@@ -32,6 +32,7 @@
 :do { add list=SN address=2606:40:2241:e000::/51 } on-error={}
 :do { add list=SN address=2606:40:22e2:2000::/51 } on-error={}
 :do { add list=SN address=2606:54c0:5530::/45 } on-error={}
+:do { add list=SN address=2606:54c1:1:34a::/64 } on-error={}
 :do { add list=SN address=2606:54c3:0:5c3::/64 } on-error={}
 :do { add list=SN address=2606:f4c0:2850::/44 } on-error={}
 :do { add list=SN address=2607:8940:21b2::/48 } on-error={}

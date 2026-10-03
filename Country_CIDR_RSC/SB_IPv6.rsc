@@ -20,6 +20,7 @@
 :do { add list=SB address=2606:40:2301:2000::/51 } on-error={}
 :do { add list=SB address=2606:40:2939:a400::/54 } on-error={}
 :do { add list=SB address=2606:54c0:5150::/45 } on-error={}
+:do { add list=SB address=2606:54c1:1:17e::/64 } on-error={}
 :do { add list=SB address=2606:54c3:0:10e1::/64 } on-error={}
 :do { add list=SB address=2607:8940:2922::/47 } on-error={}
 :do { add list=SB address=2607:8940:2926::/47 } on-error={}

@@ -24,6 +24,9 @@
 :do { add list=KI address=2606:40:2113:2000::/51 } on-error={}
 :do { add list=KI address=2606:54c0:4650::/44 } on-error={}
 :do { add list=KI address=2606:54c0:4660::/45 } on-error={}
+:do { add list=KI address=2606:54c1:1:137::/64 } on-error={}
+:do { add list=KI address=2606:54c1:1:177::/64 } on-error={}
+:do { add list=KI address=2606:54c1:1:1d0::/64 } on-error={}
 :do { add list=KI address=2606:54c3:0:e79::/64 } on-error={}
 :do { add list=KI address=2606:54c3:0:10fe::/64 } on-error={}
 :do { add list=KI address=2606:54c3:0:12a8::/64 } on-error={}

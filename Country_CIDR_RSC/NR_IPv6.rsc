@@ -13,6 +13,7 @@
 :do { add list=NR address=2606:40:2300:a000::/51 } on-error={}
 :do { add list=NR address=2606:40:2939:b800::/54 } on-error={}
 :do { add list=NR address=2606:54c0:4dd0::/45 } on-error={}
+:do { add list=NR address=2606:54c1:1:2fc::/64 } on-error={}
 :do { add list=NR address=2606:54c3:0:785::/64 } on-error={}
 :do { add list=NR address=2607:8940:28da::/47 } on-error={}
 :do { add list=NR address=2607:8940:28de::/47 } on-error={}

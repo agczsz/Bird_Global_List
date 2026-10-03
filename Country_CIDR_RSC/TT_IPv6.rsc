@@ -46,6 +46,8 @@
 :do { add list=TT address=2606:40:20f6:4000::/51 } on-error={}
 :do { add list=TT address=2606:40:214c:a000::/51 } on-error={}
 :do { add list=TT address=2606:54c0:57d8::/45 } on-error={}
+:do { add list=TT address=2606:54c1:1:1f9::/64 } on-error={}
+:do { add list=TT address=2606:54c1:1:e56::/64 } on-error={}
 :do { add list=TT address=2606:54c3:0:d97::/64 } on-error={}
 :do { add list=TT address=2606:54c3:0:eb8::/64 } on-error={}
 :do { add list=TT address=2607:8940:26aa::/47 } on-error={}

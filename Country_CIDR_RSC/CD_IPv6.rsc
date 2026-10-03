@@ -24,6 +24,9 @@
 :do { add list=CD address=2605:59c0:6540::/42 } on-error={}
 :do { add list=CD address=2606:54c0:1d38::/45 } on-error={}
 :do { add list=CD address=2606:54c0:1d40::/44 } on-error={}
+:do { add list=CD address=2606:54c1:1:9c::/64 } on-error={}
+:do { add list=CD address=2606:54c1:1:14f::/64 } on-error={}
+:do { add list=CD address=2606:54c1:1:25c::/64 } on-error={}
 :do { add list=CD address=2606:54c3:0:b59::/64 } on-error={}
 :do { add list=CD address=2606:54c3:0:120c::/64 } on-error={}
 :do { add list=CD address=2606:54c3:0:16b2::/64 } on-error={}

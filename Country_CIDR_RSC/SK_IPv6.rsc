@@ -676,6 +676,7 @@
 :do { add list=SK address=2606:40:2326::/49 } on-error={}
 :do { add list=SK address=2606:40:2326:8000::/50 } on-error={}
 :do { add list=SK address=2606:54c0:5518::/45 } on-error={}
+:do { add list=SK address=2606:54c1:1:1c0::/64 } on-error={}
 :do { add list=SK address=2606:54c3:0:ef5::/64 } on-error={}
 :do { add list=SK address=2606:f184:1761::/48 } on-error={}
 :do { add list=SK address=2606:f184:1762::/47 } on-error={}

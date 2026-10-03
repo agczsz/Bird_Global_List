@@ -15,6 +15,7 @@
 :do { add list=PM address=2606:40:20f6::/51 } on-error={}
 :do { add list=PM address=2606:40:2171:a000::/51 } on-error={}
 :do { add list=PM address=2606:54c0:4fc0::/45 } on-error={}
+:do { add list=PM address=2606:54c1:1:1fc::/64 } on-error={}
 :do { add list=PM address=2606:54c3:0:d87::/64 } on-error={}
 :do { add list=PM address=2607:8940:2976::/47 } on-error={}
 :do { add list=PM address=2607:8940:297a::/47 } on-error={}

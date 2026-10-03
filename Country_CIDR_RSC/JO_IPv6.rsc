@@ -74,6 +74,9 @@
 :do { add list=JO address=2606:40:22a0:c000::/51 } on-error={}
 :do { add list=JO address=2606:54c0:4238::/45 } on-error={}
 :do { add list=JO address=2606:54c0:4240::/44 } on-error={}
+:do { add list=JO address=2606:54c1:1:24::/64 } on-error={}
+:do { add list=JO address=2606:54c1:1:321::/64 } on-error={}
+:do { add list=JO address=2606:54c1:1:96c::/64 } on-error={}
 :do { add list=JO address=2606:54c3:0:6ad::/64 } on-error={}
 :do { add list=JO address=2606:54c3:0:1466::/64 } on-error={}
 :do { add list=JO address=2606:54c3:0:19bd::/64 } on-error={}

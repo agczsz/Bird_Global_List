@@ -13,6 +13,7 @@
 :do { add list=KY address=2606:40:214b:4000::/51 } on-error={}
 :do { add list=KY address=2606:600::/32 } on-error={}
 :do { add list=KY address=2606:54c0:4730::/45 } on-error={}
+:do { add list=KY address=2606:54c1:1:12b::/64 } on-error={}
 :do { add list=KY address=2606:54c3:0:12e7::/64 } on-error={}
 :do { add list=KY address=2606:b200::/32 } on-error={}
 :do { add list=KY address=2606:f580::/32 } on-error={}

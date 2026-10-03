@@ -651,6 +651,7 @@
 :do { add list=KH address=2602:fa80:8::/48 } on-error={}
 :do { add list=KH address=2605:7a80:6700::/47 } on-error={}
 :do { add list=KH address=2606:54c0:4648::/45 } on-error={}
+:do { add list=KH address=2606:54c1:1:3b6::/64 } on-error={}
 :do { add list=KH address=2606:54c3:0:2c8::/64 } on-error={}
 :do { add list=KH address=2606:f4c0:2250::/44 } on-error={}
 :do { add list=KH address=2606:f4c0:b580::/44 } on-error={}

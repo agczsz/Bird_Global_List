@@ -16,6 +16,7 @@
 :do { add list=ME address=2606:40:22fe:c000::/51 } on-error={}
 :do { add list=ME address=2606:40:2319:a400::/54 } on-error={}
 :do { add list=ME address=2606:54c0:4848::/45 } on-error={}
+:do { add list=ME address=2606:54c1:1:229::/64 } on-error={}
 :do { add list=ME address=2606:54c3:0:c8f::/64 } on-error={}
 :do { add list=ME address=2607:6b80:29::/48 } on-error={}
 :do { add list=ME address=2607:6b80:2e::/48 } on-error={}

@@ -26,6 +26,7 @@
 :do { add list=BM address=2606:b80::/32 } on-error={}
 :do { add list=BM address=2606:1ec0::/32 } on-error={}
 :do { add list=BM address=2606:54c0:520::/45 } on-error={}
+:do { add list=BM address=2606:54c1:1:29d::/64 } on-error={}
 :do { add list=BM address=2606:54c3:0:9ed::/64 } on-error={}
 :do { add list=BM address=2606:9e00::/32 } on-error={}
 :do { add list=BM address=2607:18c0::/32 } on-error={}

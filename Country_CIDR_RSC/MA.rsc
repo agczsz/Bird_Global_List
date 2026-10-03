@@ -1,6 +1,7 @@
 /log info "Loading MA IPv4 Address List"
 /ip firewall address-list
 :do { add list=MA address=5.62.63.28/30 } on-error={}
+:do { add list=MA address=9.161.184.0/24 } on-error={}
 :do { add list=MA address=9.170.140.0/23 } on-error={}
 :do { add list=MA address=9.170.148.0/23 } on-error={}
 :do { add list=MA address=13.104.140.138/32 } on-error={}
@@ -171,6 +172,7 @@
 :do { add list=MA address=84.16.6.51/32 } on-error={}
 :do { add list=MA address=84.16.6.83/32 } on-error={}
 :do { add list=MA address=85.255.21.128/28 } on-error={}
+:do { add list=MA address=90.96.77.0/24 } on-error={}
 :do { add list=MA address=91.196.218.0/29 } on-error={}
 :do { add list=MA address=91.196.218.8/30 } on-error={}
 :do { add list=MA address=92.4.202.0/23 } on-error={}
@@ -308,6 +310,16 @@
 :do { add list=MA address=104.28.252.127/32 } on-error={}
 :do { add list=MA address=104.28.252.128/29 } on-error={}
 :do { add list=MA address=104.28.252.136/32 } on-error={}
+:do { add list=MA address=104.29.194.205/32 } on-error={}
+:do { add list=MA address=104.29.194.206/31 } on-error={}
+:do { add list=MA address=104.29.194.208/31 } on-error={}
+:do { add list=MA address=104.29.199.92/31 } on-error={}
+:do { add list=MA address=104.29.199.94/32 } on-error={}
+:do { add list=MA address=104.29.199.128/30 } on-error={}
+:do { add list=MA address=104.29.199.132/32 } on-error={}
+:do { add list=MA address=104.29.206.78/31 } on-error={}
+:do { add list=MA address=104.29.206.80/31 } on-error={}
+:do { add list=MA address=104.29.206.82/32 } on-error={}
 :do { add list=MA address=104.30.133.46/32 } on-error={}
 :do { add list=MA address=104.44.40.174/31 } on-error={}
 :do { add list=MA address=104.44.54.172/32 } on-error={}
@@ -588,7 +600,12 @@
 :do { add list=MA address=196.81.112.0/20 } on-error={}
 :do { add list=MA address=196.81.128.0/17 } on-error={}
 :do { add list=MA address=196.82.0.0/16 } on-error={}
-:do { add list=MA address=196.83.0.0/17 } on-error={}
+:do { add list=MA address=196.83.0.0/19 } on-error={}
+:do { add list=MA address=196.83.32.0/21 } on-error={}
+:do { add list=MA address=196.83.40.0/21 } on-error={}
+:do { add list=MA address=196.83.48.0/21 } on-error={}
+:do { add list=MA address=196.83.56.0/21 } on-error={}
+:do { add list=MA address=196.83.64.0/18 } on-error={}
 :do { add list=MA address=196.83.128.0/17 } on-error={}
 :do { add list=MA address=196.84.0.0/17 } on-error={}
 :do { add list=MA address=196.84.128.0/17 } on-error={}

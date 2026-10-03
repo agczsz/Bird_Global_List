@@ -8,6 +8,7 @@
 :do { add list=BI address=2602:814:fc5c::/46 } on-error={}
 :do { add list=BI address=2605:59c0:1b00::/40 } on-error={}
 :do { add list=BI address=2606:54c0:508::/45 } on-error={}
+:do { add list=BI address=2606:54c1:1:250::/64 } on-error={}
 :do { add list=BI address=2606:54c3:0:b94::/64 } on-error={}
 :do { add list=BI address=2607:8940:2012::/47 } on-error={}
 :do { add list=BI address=2607:8940:2016::/48 } on-error={}

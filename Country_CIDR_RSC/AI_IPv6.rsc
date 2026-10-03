@@ -30,6 +30,7 @@
 :do { add list=AI address=2606:40:209d::/51 } on-error={}
 :do { add list=AI address=2606:40:2148:c000::/51 } on-error={}
 :do { add list=AI address=2606:54c0:48::/45 } on-error={}
+:do { add list=AI address=2606:54c1:1:22b::/64 } on-error={}
 :do { add list=AI address=2606:54c3:0:c84::/64 } on-error={}
 :do { add list=AI address=2607:8940:2292::/47 } on-error={}
 :do { add list=AI address=2607:8940:2296::/47 } on-error={}

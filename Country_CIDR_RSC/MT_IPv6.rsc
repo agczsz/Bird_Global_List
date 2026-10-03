@@ -40,6 +40,7 @@
 :do { add list=MT address=2606:40:2190:7000::/52 } on-error={}
 :do { add list=MT address=2606:40:22a1:2000::/51 } on-error={}
 :do { add list=MT address=2606:54c0:48d0::/45 } on-error={}
+:do { add list=MT address=2606:54c1:1:210::/64 } on-error={}
 :do { add list=MT address=2606:54c3:0:d03::/64 } on-error={}
 :do { add list=MT address=2606:f180:12::/48 } on-error={}
 :do { add list=MT address=2607:8940:354a::/47 } on-error={}

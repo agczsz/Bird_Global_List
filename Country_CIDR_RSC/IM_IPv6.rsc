@@ -38,6 +38,7 @@
 :do { add list=IM address=2606:40:22c1:5000::/52 } on-error={}
 :do { add list=IM address=2606:40:294d:1800::/54 } on-error={}
 :do { add list=IM address=2606:54c0:3a40::/45 } on-error={}
+:do { add list=IM address=2606:54c1:1:2e9::/64 } on-error={}
 :do { add list=IM address=2606:54c3:0:816::/64 } on-error={}
 :do { add list=IM address=2607:740:51::/48 } on-error={}
 :do { add list=IM address=2607:6b80:73::/48 } on-error={}

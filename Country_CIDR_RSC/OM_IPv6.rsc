@@ -587,6 +587,8 @@
 :do { add list=OM address=2605:5c0:c100::/44 } on-error={}
 :do { add list=OM address=2605:5c0:c144::/48 } on-error={}
 :do { add list=OM address=2606:54c0:4e30::/44 } on-error={}
+:do { add list=OM address=2606:54c1:1:bb::/64 } on-error={}
+:do { add list=OM address=2606:54c1:1:cd2::/64 } on-error={}
 :do { add list=OM address=2606:54c3:0:1071::/64 } on-error={}
 :do { add list=OM address=2606:54c3:0:15d5::/64 } on-error={}
 :do { add list=OM address=2607:8940:2796::/47 } on-error={}

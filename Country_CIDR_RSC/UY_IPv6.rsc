@@ -406,6 +406,8 @@
 :do { add list=UY address=2602:fd92:b00:121::/64 } on-error={}
 :do { add list=UY address=2606:54c0:d228::/45 } on-error={}
 :do { add list=UY address=2606:54c0:d230::/45 } on-error={}
+:do { add list=UY address=2606:54c1:1:80::/64 } on-error={}
+:do { add list=UY address=2606:54c1:1:709::/64 } on-error={}
 :do { add list=UY address=2606:54c3:0:173c::/64 } on-error={}
 :do { add list=UY address=2606:54c3:0:1742::/64 } on-error={}
 :do { add list=UY address=2606:f188:121::/48 } on-error={}

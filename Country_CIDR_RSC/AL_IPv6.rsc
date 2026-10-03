@@ -1174,6 +1174,7 @@
 :do { add list=AL address=2606:40:22fe::/54 } on-error={}
 :do { add list=AL address=2606:40:22fe:800::/53 } on-error={}
 :do { add list=AL address=2606:54c0:50::/45 } on-error={}
+:do { add list=AL address=2606:54c1:1:381::/64 } on-error={}
 :do { add list=AL address=2606:54c3:0:41b::/64 } on-error={}
 :do { add list=AL address=2607:8940:2161:4650::/60 } on-error={}
 :do { add list=AL address=2607:8940:2161:4690::/60 } on-error={}

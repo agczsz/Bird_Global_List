@@ -313,6 +313,8 @@
 :do { add list=NP address=2602:fa80:13::/48 } on-error={}
 :do { add list=NP address=2602:fcff:60::/48 } on-error={}
 :do { add list=NP address=2606:54c0:4dc0::/44 } on-error={}
+:do { add list=NP address=2606:54c1:1:8c::/64 } on-error={}
+:do { add list=NP address=2606:54c1:1:216::/64 } on-error={}
 :do { add list=NP address=2606:54c3:0:cef::/64 } on-error={}
 :do { add list=NP address=2606:54c3:0:16f9::/64 } on-error={}
 :do { add list=NP address=2606:8e00:8000::/47 } on-error={}

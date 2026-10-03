@@ -127,6 +127,9 @@
 :do { add list=BY address=2606:40:1960::/44 } on-error={}
 :do { add list=BY address=2606:54c0:fe8::/45 } on-error={}
 :do { add list=BY address=2606:54c0:ff0::/44 } on-error={}
+:do { add list=BY address=2606:54c1:1:304::/64 } on-error={}
+:do { add list=BY address=2606:54c1:1:376::/64 } on-error={}
+:do { add list=BY address=2606:54c1:1:385::/64 } on-error={}
 :do { add list=BY address=2606:54c3:0:3e3::/64 } on-error={}
 :do { add list=BY address=2606:54c3:0:481::/64 } on-error={}
 :do { add list=BY address=2606:54c3:0:743::/64 } on-error={}

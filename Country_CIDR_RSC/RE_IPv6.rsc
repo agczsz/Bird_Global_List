@@ -12,6 +12,7 @@
 :do { add list=RE address=2605:59c0:3600::/40 } on-error={}
 :do { add list=RE address=2605:59ca:8100::/40 } on-error={}
 :do { add list=RE address=2606:54c0:5038::/45 } on-error={}
+:do { add list=RE address=2606:54c1:1:123::/64 } on-error={}
 :do { add list=RE address=2606:54c3:0:130c::/64 } on-error={}
 :do { add list=RE address=2607:8940:2186::/47 } on-error={}
 :do { add list=RE address=2607:8940:218a::/47 } on-error={}

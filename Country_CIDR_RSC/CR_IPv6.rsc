@@ -42,6 +42,8 @@
 :do { add list=CR address=2606:40:2149:a000::/51 } on-error={}
 :do { add list=CR address=2606:54c0:2708::/45 } on-error={}
 :do { add list=CR address=2606:54c0:2710::/45 } on-error={}
+:do { add list=CR address=2606:54c1:1:2ee::/64 } on-error={}
+:do { add list=CR address=2606:54c1:1:922::/64 } on-error={}
 :do { add list=CR address=2606:54c3:0:7e6::/64 } on-error={}
 :do { add list=CR address=2606:54c3:0:14bf::/64 } on-error={}
 :do { add list=CR address=2606:f180:1::/48 } on-error={}
@@ -94,7 +96,8 @@
 :do { add list=CR address=2801:1c:4800::/48 } on-error={}
 :do { add list=CR address=2801:1d:a000::/48 } on-error={}
 :do { add list=CR address=2801:1d:a001::/48 } on-error={}
-:do { add list=CR address=2801:1d:a002::/47 } on-error={}
+:do { add list=CR address=2801:1d:a002::/48 } on-error={}
+:do { add list=CR address=2801:1d:a003::/48 } on-error={}
 :do { add list=CR address=2801:1d:a004::/48 } on-error={}
 :do { add list=CR address=2801:1d:a005::/48 } on-error={}
 :do { add list=CR address=2801:1d:a006::/47 } on-error={}
@@ -215,7 +218,8 @@
 :do { add list=CR address=2803:2d60:1016:2900::/56 } on-error={}
 :do { add list=CR address=2803:2d60:1016:3300::/56 } on-error={}
 :do { add list=CR address=2803:2d60:1016:c900::/56 } on-error={}
-:do { add list=CR address=2803:2d60:1017:6700::/56 } on-error={}
+:do { add list=CR address=2803:2d60:1017:3300::/56 } on-error={}
+:do { add list=CR address=2803:2d60:1018:6900::/56 } on-error={}
 :do { add list=CR address=2803:2d60:1019:2100::/56 } on-error={}
 :do { add list=CR address=2803:2d60:1019:bb00::/56 } on-error={}
 :do { add list=CR address=2803:2d60:101a:4d00::/56 } on-error={}
@@ -237,7 +241,7 @@
 :do { add list=CR address=2803:2d60:1036:a800::/56 } on-error={}
 :do { add list=CR address=2803:2d60:1037:9100::/56 } on-error={}
 :do { add list=CR address=2803:2d60:1037:a500::/56 } on-error={}
-:do { add list=CR address=2803:2d60:1037:f400::/56 } on-error={}
+:do { add list=CR address=2803:2d60:1038:5800::/56 } on-error={}
 :do { add list=CR address=2803:2d60:103b:e600::/56 } on-error={}
 :do { add list=CR address=2803:2d60:103c:d000::/56 } on-error={}
 :do { add list=CR address=2803:2d60:103e:3100::/56 } on-error={}

@@ -20,6 +20,7 @@
 :do { add list=RW address=2602:f805:517::/48 } on-error={}
 :do { add list=RW address=2605:59c0:3700::/40 } on-error={}
 :do { add list=RW address=2606:54c0:5110::/45 } on-error={}
+:do { add list=RW address=2606:54c1:1:1ea::/64 } on-error={}
 :do { add list=RW address=2606:54c3:0:de4::/64 } on-error={}
 :do { add list=RW address=2607:8940:2192::/48 } on-error={}
 :do { add list=RW address=2607:8940:2193:4000::/50 } on-error={}

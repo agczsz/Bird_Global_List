@@ -97,6 +97,15 @@
 :do { add list=KZ address=2606:54c0:4740::/43 } on-error={}
 :do { add list=KZ address=2606:54c0:4760::/44 } on-error={}
 :do { add list=KZ address=2606:54c0:4770::/45 } on-error={}
+:do { add list=KZ address=2606:54c1:1:42::/64 } on-error={}
+:do { add list=KZ address=2606:54c1:1:46::/64 } on-error={}
+:do { add list=KZ address=2606:54c1:1:bf::/64 } on-error={}
+:do { add list=KZ address=2606:54c1:1:247::/64 } on-error={}
+:do { add list=KZ address=2606:54c1:1:2b1::/64 } on-error={}
+:do { add list=KZ address=2606:54c1:1:309::/64 } on-error={}
+:do { add list=KZ address=2606:54c1:1:37e::/64 } on-error={}
+:do { add list=KZ address=2606:54c1:1:4a2::/64 } on-error={}
+:do { add list=KZ address=2606:54c1:1:1a80::/64 } on-error={}
 :do { add list=KZ address=2606:54c3:0:61::/64 } on-error={}
 :do { add list=KZ address=2606:54c3:0:43e::/64 } on-error={}
 :do { add list=KZ address=2606:54c3:0:732::/64 } on-error={}

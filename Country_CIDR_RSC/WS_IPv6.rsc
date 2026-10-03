@@ -126,6 +126,7 @@
 :do { add list=WS address=2600:70ff:a466::/48 } on-error={}
 :do { add list=WS address=2602:814:ffcc::/46 } on-error={}
 :do { add list=WS address=2606:54c0:d380::/45 } on-error={}
+:do { add list=WS address=2606:54c1:1:2b7::/64 } on-error={}
 :do { add list=WS address=2606:54c3:0:967::/64 } on-error={}
 :do { add list=WS address=2607:8940:2952::/47 } on-error={}
 :do { add list=WS address=2607:8940:2956::/47 } on-error={}

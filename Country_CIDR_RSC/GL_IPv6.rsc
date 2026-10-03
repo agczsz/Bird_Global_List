@@ -18,6 +18,10 @@
 :do { add list=GL address=2602:814:fd4c::/46 } on-error={}
 :do { add list=GL address=2606:54c0:3870::/44 } on-error={}
 :do { add list=GL address=2606:54c0:3880::/44 } on-error={}
+:do { add list=GL address=2606:54c1:1:af::/64 } on-error={}
+:do { add list=GL address=2606:54c1:1:17b::/64 } on-error={}
+:do { add list=GL address=2606:54c1:1:270::/64 } on-error={}
+:do { add list=GL address=2606:54c1:1:3b4::/64 } on-error={}
 :do { add list=GL address=2606:54c3:0:2d6::/64 } on-error={}
 :do { add list=GL address=2606:54c3:0:ae8::/64 } on-error={}
 :do { add list=GL address=2606:54c3:0:10f5::/64 } on-error={}

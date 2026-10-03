@@ -10,6 +10,7 @@
 :do { add list=CG address=2605:59ca:8300::/40 } on-error={}
 :do { add list=CG address=2605:59ca:8500::/40 } on-error={}
 :do { add list=CG address=2606:54c0:1d58::/45 } on-error={}
+:do { add list=CG address=2606:54c1:1:13f::/64 } on-error={}
 :do { add list=CG address=2606:54c3:0:128b::/64 } on-error={}
 :do { add list=CG address=2607:8940:2042::/47 } on-error={}
 :do { add list=CG address=2607:8940:2046::/47 } on-error={}

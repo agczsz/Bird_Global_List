@@ -168,6 +168,7 @@
 :do { add list=UG address=2605:59c0:5100::/40 } on-error={}
 :do { add list=UG address=2605:59c8:8400::/38 } on-error={}
 :do { add list=UG address=2606:54c0:5890::/45 } on-error={}
+:do { add list=UG address=2606:54c1:1:70::/64 } on-error={}
 :do { add list=UG address=2606:54c3:0:1795::/64 } on-error={}
 :do { add list=UG address=2606:f188:173::/48 } on-error={}
 :do { add list=UG address=2606:f4c0:2860::/44 } on-error={}

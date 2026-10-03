@@ -15,6 +15,7 @@
 :do { add list=DM address=2606:40:20f5:4000::/51 } on-error={}
 :do { add list=DM address=2606:40:2149:e000::/51 } on-error={}
 :do { add list=DM address=2606:54c0:2ff8::/45 } on-error={}
+:do { add list=DM address=2606:54c1:1:35e::/64 } on-error={}
 :do { add list=DM address=2606:54c3:0:518::/64 } on-error={}
 :do { add list=DM address=2607:8940:2522::/47 } on-error={}
 :do { add list=DM address=2607:8940:2526::/47 } on-error={}

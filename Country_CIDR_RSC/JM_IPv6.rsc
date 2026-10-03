@@ -172,6 +172,7 @@
 :do { add list=JM address=2606:40:20f5:a000::/51 } on-error={}
 :do { add list=JM address=2606:40:214b::/51 } on-error={}
 :do { add list=JM address=2606:54c0:4230::/45 } on-error={}
+:do { add list=JM address=2606:54c1:1:276::/64 } on-error={}
 :do { add list=JM address=2606:54c3:0:ad1::/64 } on-error={}
 :do { add list=JM address=2606:c500::/32 } on-error={}
 :do { add list=JM address=2607:8940:25ba::/47 } on-error={}
