@@ -94,6 +94,7 @@
 :do { add list=NU address=2a12:f381:3400::/40 } on-error={}
 :do { add list=NU address=2a12:f382:3400::/40 } on-error={}
 :do { add list=NU address=2a13:82c4:ff3f::/48 } on-error={}
+:do { add list=NU address=2a13:9500:1e4:27d::/64 } on-error={}
 :do { add list=NU address=2a14:1c0:6000::/37 } on-error={}
 :do { add list=NU address=2a14:2d45:a800::/40 } on-error={}
 :do { add list=NU address=2a14:67c2:8bf::/48 } on-error={}

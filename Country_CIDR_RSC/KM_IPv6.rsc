@@ -121,6 +121,7 @@
 :do { add list=KM address=2a12:f382:6b00::/40 } on-error={}
 :do { add list=KM address=2a13:241:1000::/40 } on-error={}
 :do { add list=KM address=2a13:82c4:ff54::/48 } on-error={}
+:do { add list=KM address=2a13:9500:1e4:418::/64 } on-error={}
 :do { add list=KM address=2a13:a5c3:d128::/46 } on-error={}
 :do { add list=KM address=2a13:ef41:164a::/47 } on-error={}
 :do { add list=KM address=2a13:ef41:164c::/48 } on-error={}

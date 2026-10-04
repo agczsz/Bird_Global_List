@@ -174,6 +174,9 @@
 :do { add list=PF address=2a12:f381:2f00::/40 } on-error={}
 :do { add list=PF address=2a12:f382:2f00::/40 } on-error={}
 :do { add list=PF address=2a13:82c4:ff48::/48 } on-error={}
+:do { add list=PF address=2a13:9500:1e4:131::/64 } on-error={}
+:do { add list=PF address=2a13:9500:1e4:c0d::/64 } on-error={}
+:do { add list=PF address=2a13:9500:1e4:18d1::/64 } on-error={}
 :do { add list=PF address=2a13:ef41:1412::/48 } on-error={}
 :do { add list=PF address=2a13:ef41:a412::/48 } on-error={}
 :do { add list=PF address=2a13:ef41:e5e6::/48 } on-error={}

@@ -427,6 +427,8 @@
 :do { add list=PS address=2a12:cf40::/32 } on-error={}
 :do { add list=PS address=2a13:82c4:ff11::/48 } on-error={}
 :do { add list=PS address=2a13:9500:64::/48 } on-error={}
+:do { add list=PS address=2a13:9500:1e4:a4::/64 } on-error={}
+:do { add list=PS address=2a13:9500:1e4:b25::/64 } on-error={}
 :do { add list=PS address=2a13:a5c3:d64c::/46 } on-error={}
 :do { add list=PS address=2a13:a5c7:3134::/48 } on-error={}
 :do { add list=PS address=2a13:a5c7:31cf::/48 } on-error={}

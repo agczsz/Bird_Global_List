@@ -76,6 +76,7 @@
 :do { add list=IO address=2a11:29c0:3d88:4eb8::/64 } on-error={}
 :do { add list=IO address=2a12:f381:df00::/40 } on-error={}
 :do { add list=IO address=2a12:f382:df00::/40 } on-error={}
+:do { add list=IO address=2a13:9500:1e4:63::/64 } on-error={}
 :do { add list=IO address=2a13:a5c3:d418::/46 } on-error={}
 :do { add list=IO address=2a14:1c6:f000::/37 } on-error={}
 :do { add list=IO address=2a14:2d45:6900::/40 } on-error={}

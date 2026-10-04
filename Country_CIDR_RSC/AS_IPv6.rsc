@@ -236,6 +236,7 @@
 :do { add list=AS address=2a12:f381:8a00::/40 } on-error={}
 :do { add list=AS address=2a12:f382:8a00::/40 } on-error={}
 :do { add list=AS address=2a13:82c4:ff47::/48 } on-error={}
+:do { add list=AS address=2a13:9500:1e4:2a7::/64 } on-error={}
 :do { add list=AS address=2a13:ef41:f683::/48 } on-error={}
 :do { add list=AS address=2a14:1c6:c800::/37 } on-error={}
 :do { add list=AS address=2a14:2d45:a00::/40 } on-error={}

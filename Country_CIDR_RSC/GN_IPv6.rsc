@@ -114,6 +114,7 @@
 :do { add list=GN address=2a12:f381:7e00::/40 } on-error={}
 :do { add list=GN address=2a12:f382:7e00::/40 } on-error={}
 :do { add list=GN address=2a13:82c4:ff5e::/48 } on-error={}
+:do { add list=GN address=2a13:9500:1e4:155::/64 } on-error={}
 :do { add list=GN address=2a13:ef41:1455::/48 } on-error={}
 :do { add list=GN address=2a13:ef41:1456::/47 } on-error={}
 :do { add list=GN address=2a13:ef41:1458::/46 } on-error={}

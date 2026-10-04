@@ -159,6 +159,7 @@
 :do { add list=ME address=2a12:f382:4f00::/40 } on-error={}
 :do { add list=ME address=2a13:241:3a00::/40 } on-error={}
 :do { add list=ME address=2a13:2640::/29 } on-error={}
+:do { add list=ME address=2a13:9500:1e4:25d::/64 } on-error={}
 :do { add list=ME address=2a13:a5c3:d070::/46 } on-error={}
 :do { add list=ME address=2a13:b487:501b::/48 } on-error={}
 :do { add list=ME address=2a13:ef41:1774::/46 } on-error={}

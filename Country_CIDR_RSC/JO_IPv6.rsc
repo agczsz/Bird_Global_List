@@ -834,6 +834,8 @@
 :do { add list=JO address=2a13:5c00::/29 } on-error={}
 :do { add list=JO address=2a13:82c4:ff12::/48 } on-error={}
 :do { add list=JO address=2a13:8d40::/29 } on-error={}
+:do { add list=JO address=2a13:9500:1e4:26::/64 } on-error={}
+:do { add list=JO address=2a13:9500:1e4:367::/64 } on-error={}
 :do { add list=JO address=2a13:a5c3:d44c::/46 } on-error={}
 :do { add list=JO address=2a13:ef41:15bb::/48 } on-error={}
 :do { add list=JO address=2a13:ef41:15bc::/46 } on-error={}

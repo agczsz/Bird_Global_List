@@ -500,6 +500,7 @@
 :do { add list=LI address=2a12:f381:5a00::/40 } on-error={}
 :do { add list=LI address=2a12:f382:5a00::/40 } on-error={}
 :do { add list=LI address=2a13:241:3000::/40 } on-error={}
+:do { add list=LI address=2a13:9500:1e4:2ab::/64 } on-error={}
 :do { add list=LI address=2a13:a5c3:d054::/46 } on-error={}
 :do { add list=LI address=2a13:a880::/29 } on-error={}
 :do { add list=LI address=2a13:c901::/32 } on-error={}

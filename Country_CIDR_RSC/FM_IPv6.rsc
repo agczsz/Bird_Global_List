@@ -338,6 +338,8 @@
 :do { add list=FM address=2a12:f381:c300::/40 } on-error={}
 :do { add list=FM address=2a12:f382:c300::/40 } on-error={}
 :do { add list=FM address=2a13:82c4:ff38::/48 } on-error={}
+:do { add list=FM address=2a13:9500:1e4:27f::/64 } on-error={}
+:do { add list=FM address=2a13:9500:1e4:2c2::/64 } on-error={}
 :do { add list=FM address=2a13:ef41:13f8::/46 } on-error={}
 :do { add list=FM address=2a13:ef41:a3f8::/46 } on-error={}
 :do { add list=FM address=2a13:ef41:e585::/48 } on-error={}

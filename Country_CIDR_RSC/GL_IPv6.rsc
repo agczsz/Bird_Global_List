@@ -175,6 +175,9 @@
 :do { add list=GL address=2a12:f381:cc00::/40 } on-error={}
 :do { add list=GL address=2a12:f382:cc00::/40 } on-error={}
 :do { add list=GL address=2a13:241:1c00::/40 } on-error={}
+:do { add list=GL address=2a13:9500:1e4:ba::/64 } on-error={}
+:do { add list=GL address=2a13:9500:1e4:c99::/64 } on-error={}
+:do { add list=GL address=2a13:9500:1e4:11a3::/64 } on-error={}
 :do { add list=GL address=2a13:b487:5029::/48 } on-error={}
 :do { add list=GL address=2a13:ef41:144a::/47 } on-error={}
 :do { add list=GL address=2a13:ef41:144c::/47 } on-error={}

@@ -1,5 +1,7 @@
 /log info "Loading TN IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=TN address=2001:500:15:562::2/128 } on-error={}
+:do { add list=TN address=2001:500:15:566::2/128 } on-error={}
 :do { add list=TN address=2001:500:15:572::2/128 } on-error={}
 :do { add list=TN address=2001:500:15:737::2/128 } on-error={}
 :do { add list=TN address=2001:500:15:762::2/128 } on-error={}
@@ -473,6 +475,8 @@
 :do { add list=TN address=2607:8940:4171:b600::/55 } on-error={}
 :do { add list=TN address=2607:8940:4191:b500::/56 } on-error={}
 :do { add list=TN address=2607:8940:4191:b600::/55 } on-error={}
+:do { add list=TN address=2620:0:876:118::2/128 } on-error={}
+:do { add list=TN address=2620:0:876:218::2/128 } on-error={}
 :do { add list=TN address=2620:0:876:310::2/128 } on-error={}
 :do { add list=TN address=2620:0:876:324::2/128 } on-error={}
 :do { add list=TN address=2620:0:876:331::/64 } on-error={}
@@ -483,8 +487,7 @@
 :do { add list=TN address=2620:0:876:371::2/128 } on-error={}
 :do { add list=TN address=2620:0:876:389::2/128 } on-error={}
 :do { add list=TN address=2620:0:876:827::2/128 } on-error={}
-:do { add list=TN address=2620:0:876:834::2/128 } on-error={}
-:do { add list=TN address=2620:0:876:852::2/128 } on-error={}
+:do { add list=TN address=2620:0:876:830::2/128 } on-error={}
 :do { add list=TN address=2620:0:876:870::2/128 } on-error={}
 :do { add list=TN address=2620:0:876:927::2/128 } on-error={}
 :do { add list=TN address=2620:0:876:930::2/128 } on-error={}
@@ -665,6 +668,8 @@
 :do { add list=TN address=2a12:f381:ff00::/40 } on-error={}
 :do { add list=TN address=2a12:f382:ff00::/40 } on-error={}
 :do { add list=TN address=2a13:241:5500::/40 } on-error={}
+:do { add list=TN address=2a13:9500:1e4:bb::/64 } on-error={}
+:do { add list=TN address=2a13:9500:1e4:2bd::/64 } on-error={}
 :do { add list=TN address=2a13:a5c3:d1bc::/46 } on-error={}
 :do { add list=TN address=2a13:b487:5020::/48 } on-error={}
 :do { add list=TN address=2a13:ef41:1cd5::/48 } on-error={}

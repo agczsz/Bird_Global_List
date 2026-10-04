@@ -130,6 +130,7 @@
 :do { add list=AI address=2a11:29c0:3d88:f409::/64 } on-error={}
 :do { add list=AI address=2a12:f381:8400::/40 } on-error={}
 :do { add list=AI address=2a12:f382:8400::/40 } on-error={}
+:do { add list=AI address=2a13:9500:1e4:260::/64 } on-error={}
 :do { add list=AI address=2a14:1c6:5800::/37 } on-error={}
 :do { add list=AI address=2a14:2d45:400::/40 } on-error={}
 :do { add list=AI address=2a14:67c2:8a6::/48 } on-error={}

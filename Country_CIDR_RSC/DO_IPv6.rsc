@@ -1006,6 +1006,8 @@
 :do { add list=DO address=2a12:f381:b800::/40 } on-error={}
 :do { add list=DO address=2a12:f382:b800::/40 } on-error={}
 :do { add list=DO address=2a13:241:1300::/40 } on-error={}
+:do { add list=DO address=2a13:9500:1e4:14a::/64 } on-error={}
+:do { add list=DO address=2a13:9500:1e4:3e5::/64 } on-error={}
 :do { add list=DO address=2a13:ef41:12e5::/48 } on-error={}
 :do { add list=DO address=2a13:ef41:12e6::/47 } on-error={}
 :do { add list=DO address=2a13:ef41:12e8::/46 } on-error={}

@@ -140,6 +140,7 @@
 :do { add list=SL address=2a12:f382:7f00::/40 } on-error={}
 :do { add list=SL address=2a13:241:4c00::/40 } on-error={}
 :do { add list=SL address=2a13:82c4:ff75::/48 } on-error={}
+:do { add list=SL address=2a13:9500:1e4:2a9::/64 } on-error={}
 :do { add list=SL address=2a13:a5c3:d1a0::/46 } on-error={}
 :do { add list=SL address=2a13:ef41:1bea::/47 } on-error={}
 :do { add list=SL address=2a13:ef41:1bec::/47 } on-error={}

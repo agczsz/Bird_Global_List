@@ -165,6 +165,7 @@
 :do { add list=AD address=2a12:f382:8000::/40 } on-error={}
 :do { add list=AD address=2a13:240:f900::/40 } on-error={}
 :do { add list=AD address=2a13:9500:129::/48 } on-error={}
+:do { add list=AD address=2a13:9500:1e4:4a::/64 } on-error={}
 :do { add list=AD address=2a13:a5c3:d004::/46 } on-error={}
 :do { add list=AD address=2a13:c900::/43 } on-error={}
 :do { add list=AD address=2a13:c900:20::/47 } on-error={}

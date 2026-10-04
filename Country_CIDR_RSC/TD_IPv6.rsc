@@ -113,6 +113,7 @@
 :do { add list=TD address=2a12:f381:e800::/40 } on-error={}
 :do { add list=TD address=2a12:f382:e800::/40 } on-error={}
 :do { add list=TD address=2a13:241:f00::/40 } on-error={}
+:do { add list=TD address=2a13:9500:1e4:2fa::/64 } on-error={}
 :do { add list=TD address=2a13:a5c3:d124::/46 } on-error={}
 :do { add list=TD address=2a13:ef41:1c53::/48 } on-error={}
 :do { add list=TD address=2a13:ef41:1c54::/46 } on-error={}

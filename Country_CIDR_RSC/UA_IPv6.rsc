@@ -7,6 +7,7 @@
 :do { add list=UA address=2001:470:0:3db::/64 } on-error={}
 :do { add list=UA address=2001:470:0:408::/64 } on-error={}
 :do { add list=UA address=2001:470:0:45c::2/128 } on-error={}
+:do { add list=UA address=2001:470:0:4b9::/64 } on-error={}
 :do { add list=UA address=2001:470:0:4df::/64 } on-error={}
 :do { add list=UA address=2001:470:0:52c::/64 } on-error={}
 :do { add list=UA address=2001:470:0:56a::/64 } on-error={}
@@ -794,6 +795,7 @@
 :do { add list=UA address=2001:678:1254::/48 } on-error={}
 :do { add list=UA address=2001:678:12a0::/48 } on-error={}
 :do { add list=UA address=2001:678:12e0::/48 } on-error={}
+:do { add list=UA address=2001:678:135c::/48 } on-error={}
 :do { add list=UA address=2001:67c:28::/48 } on-error={}
 :do { add list=UA address=2001:67c:f8::/48 } on-error={}
 :do { add list=UA address=2001:67c:108::/50 } on-error={}
@@ -861,7 +863,8 @@
 :do { add list=UA address=2001:67c:1874::/64 } on-error={}
 :do { add list=UA address=2001:67c:1874:1::/123 } on-error={}
 :do { add list=UA address=2001:67c:1874:1::20/124 } on-error={}
-:do { add list=UA address=2001:67c:1874:1::30/126 } on-error={}
+:do { add list=UA address=2001:67c:1874:1::30/127 } on-error={}
+:do { add list=UA address=2001:67c:1874:1::32/128 } on-error={}
 :do { add list=UA address=2001:67c:1874:1::34/128 } on-error={}
 :do { add list=UA address=2001:67c:1874:1::37/128 } on-error={}
 :do { add list=UA address=2001:67c:1874:1::38/128 } on-error={}
@@ -871,7 +874,11 @@
 :do { add list=UA address=2001:67c:1874:1::44/126 } on-error={}
 :do { add list=UA address=2001:67c:1874:1::48/125 } on-error={}
 :do { add list=UA address=2001:67c:1874:1::50/124 } on-error={}
-:do { add list=UA address=2001:67c:1874:1::60/123 } on-error={}
+:do { add list=UA address=2001:67c:1874:1::60/127 } on-error={}
+:do { add list=UA address=2001:67c:1874:1::63/128 } on-error={}
+:do { add list=UA address=2001:67c:1874:1::64/126 } on-error={}
+:do { add list=UA address=2001:67c:1874:1::68/125 } on-error={}
+:do { add list=UA address=2001:67c:1874:1::70/124 } on-error={}
 :do { add list=UA address=2001:67c:1874:1::80/121 } on-error={}
 :do { add list=UA address=2001:67c:1874:1::100/120 } on-error={}
 :do { add list=UA address=2001:67c:1874:1::200/119 } on-error={}
@@ -2590,8 +2597,6 @@
 :do { add list=UA address=2a01:f501::/32 } on-error={}
 :do { add list=UA address=2a01:f502::/31 } on-error={}
 :do { add list=UA address=2a01:f504::/30 } on-error={}
-:do { add list=UA address=2a02:28:1::4b/128 } on-error={}
-:do { add list=UA address=2a02:28:1::1f6:2/128 } on-error={}
 :do { add list=UA address=2a02:28:1::205:0/128 } on-error={}
 :do { add list=UA address=2a02:28:1:2::40/128 } on-error={}
 :do { add list=UA address=2a02:28:1:2::70:d/128 } on-error={}
@@ -2864,7 +2869,7 @@
 :do { add list=UA address=2a02:680:9800::/37 } on-error={}
 :do { add list=UA address=2a02:680:a000::/35 } on-error={}
 :do { add list=UA address=2a02:680:c000::/34 } on-error={}
-:do { add list=UA address=2a02:6bf:8098::/64 } on-error={}
+:do { add list=UA address=2a02:6bf:8098::/63 } on-error={}
 :do { add list=UA address=2a02:6bf:8098:4::/64 } on-error={}
 :do { add list=UA address=2a02:6bf:8098:6::/64 } on-error={}
 :do { add list=UA address=2a02:6bf:8098:9b::/64 } on-error={}
@@ -4733,7 +4738,6 @@
 :do { add list=UA address=2a0b:4e07:38:4000::/50 } on-error={}
 :do { add list=UA address=2a0b:4e07:38:8000::/49 } on-error={}
 :do { add list=UA address=2a0b:4e07:bf::/48 } on-error={}
-:do { add list=UA address=2a0b:4e07:272::/48 } on-error={}
 :do { add list=UA address=2a0b:4e07:a00::/47 } on-error={}
 :do { add list=UA address=2a0b:4e07:aee::/47 } on-error={}
 :do { add list=UA address=2a0b:6a80::/29 } on-error={}
@@ -6537,6 +6541,18 @@
 :do { add list=UA address=2a13:8f40::/29 } on-error={}
 :do { add list=UA address=2a13:91c0::/29 } on-error={}
 :do { add list=UA address=2a13:9500:19e::/48 } on-error={}
+:do { add list=UA address=2a13:9500:1e4:9::/64 } on-error={}
+:do { add list=UA address=2a13:9500:1e4:da::/64 } on-error={}
+:do { add list=UA address=2a13:9500:1e4:14b::/64 } on-error={}
+:do { add list=UA address=2a13:9500:1e4:15a::/64 } on-error={}
+:do { add list=UA address=2a13:9500:1e4:1d8::/64 } on-error={}
+:do { add list=UA address=2a13:9500:1e4:22b::/64 } on-error={}
+:do { add list=UA address=2a13:9500:1e4:26e::/64 } on-error={}
+:do { add list=UA address=2a13:9500:1e4:2e4::/64 } on-error={}
+:do { add list=UA address=2a13:9500:1e4:416::/64 } on-error={}
+:do { add list=UA address=2a13:9500:1e4:45c::/64 } on-error={}
+:do { add list=UA address=2a13:9500:1e4:46e::/64 } on-error={}
+:do { add list=UA address=2a13:9500:1e4:193b::/64 } on-error={}
 :do { add list=UA address=2a13:a180::/29 } on-error={}
 :do { add list=UA address=2a13:a5c3:4380::/42 } on-error={}
 :do { add list=UA address=2a13:a5c3:d0ac::/46 } on-error={}

@@ -180,6 +180,7 @@
 :do { add list=SN address=2a12:f382:7d00::/40 } on-error={}
 :do { add list=SN address=2a13:241:4b00::/40 } on-error={}
 :do { add list=SN address=2a13:82c4:ff73::/48 } on-error={}
+:do { add list=SN address=2a13:9500:1e4:38f::/64 } on-error={}
 :do { add list=SN address=2a13:a5c3:d198::/46 } on-error={}
 :do { add list=SN address=2a13:ef41:1bf8::/45 } on-error={}
 :do { add list=SN address=2a13:ef41:1c00::/46 } on-error={}

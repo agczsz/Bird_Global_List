@@ -133,6 +133,10 @@
 :do { add list=SY address=2a12:f382:eb00::/40 } on-error={}
 :do { add list=SY address=2a13:7200:2::/48 } on-error={}
 :do { add list=SY address=2a13:82c4:ff27::/48 } on-error={}
+:do { add list=SY address=2a13:9500:1e4:92f::/64 } on-error={}
+:do { add list=SY address=2a13:9500:1e4:c3d::/64 } on-error={}
+:do { add list=SY address=2a13:9500:1e4:13e9::/64 } on-error={}
+:do { add list=SY address=2a13:9500:1e4:17d4::/64 } on-error={}
 :do { add list=SY address=2a13:a5c3:d4a0::/46 } on-error={}
 :do { add list=SY address=2a13:ef41:1c41::/48 } on-error={}
 :do { add list=SY address=2a13:ef41:1c42::/47 } on-error={}

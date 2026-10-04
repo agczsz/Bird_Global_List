@@ -557,6 +557,7 @@
 :do { add list=VG address=2a12:f381:f000::/40 } on-error={}
 :do { add list=VG address=2a12:f382:f000::/40 } on-error={}
 :do { add list=VG address=2a13:9500:1c2::/48 } on-error={}
+:do { add list=VG address=2a13:9500:1e4:bc::/64 } on-error={}
 :do { add list=VG address=2a13:b487:503c::/48 } on-error={}
 :do { add list=VG address=2a14:1c7:7000::/37 } on-error={}
 :do { add list=VG address=2a14:2d45:ed00::/40 } on-error={}

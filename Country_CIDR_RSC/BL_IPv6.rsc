@@ -81,5 +81,6 @@
 :do { add list=BL address=2a11:29c0:3d88:e5fd::/64 } on-error={}
 :do { add list=BL address=2a12:f381:9800::/40 } on-error={}
 :do { add list=BL address=2a12:f382:9800::/40 } on-error={}
+:do { add list=BL address=2a13:9500:1e4:28a::/64 } on-error={}
 :do { add list=BL address=2a14:2d45:1900::/40 } on-error={}
 :do { add list=BL address=2a14:7580:cf19::/48 } on-error={}

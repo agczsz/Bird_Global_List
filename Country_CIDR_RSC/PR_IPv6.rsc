@@ -1257,6 +1257,8 @@
 :do { add list=PR address=2a12:f381:2800::/40 } on-error={}
 :do { add list=PR address=2a12:f382:2800::/40 } on-error={}
 :do { add list=PR address=2a13:241:4500::/40 } on-error={}
+:do { add list=PR address=2a13:9500:1e4:ae::/64 } on-error={}
+:do { add list=PR address=2a13:9500:1e4:30b::/64 } on-error={}
 :do { add list=PR address=2a13:ef41:1de1::/48 } on-error={}
 :do { add list=PR address=2a13:ef41:ade1::/48 } on-error={}
 :do { add list=PR address=2a13:ef41:f6ab::/48 } on-error={}

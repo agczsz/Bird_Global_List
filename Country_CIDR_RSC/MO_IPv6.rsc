@@ -2630,6 +2630,7 @@
 :do { add list=MO address=2a12:f381:4700::/40 } on-error={}
 :do { add list=MO address=2a12:f382:4700::/40 } on-error={}
 :do { add list=MO address=2a13:82c4:ff1a::/48 } on-error={}
+:do { add list=MO address=2a13:9500:1e4:e77::/64 } on-error={}
 :do { add list=MO address=2a13:a5c3:d46c::/46 } on-error={}
 :do { add list=MO address=2a13:a5c3:d688::/46 } on-error={}
 :do { add list=MO address=2a13:a5c3:f180::/45 } on-error={}

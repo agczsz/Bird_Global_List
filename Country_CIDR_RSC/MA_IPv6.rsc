@@ -738,6 +738,11 @@
 :do { add list=MA address=2a12:f382:5200::/40 } on-error={}
 :do { add list=MA address=2a13:241:3b00::/40 } on-error={}
 :do { add list=MA address=2a13:82c4:ff6a::/48 } on-error={}
+:do { add list=MA address=2a13:9500:1e4:2d::/64 } on-error={}
+:do { add list=MA address=2a13:9500:1e4:be::/64 } on-error={}
+:do { add list=MA address=2a13:9500:1e4:203::/64 } on-error={}
+:do { add list=MA address=2a13:9500:1e4:20b::/64 } on-error={}
+:do { add list=MA address=2a13:9500:1e4:406::/64 } on-error={}
 :do { add list=MA address=2a13:a5c3:d174::/46 } on-error={}
 :do { add list=MA address=2a13:a5c3:d1c4::/46 } on-error={}
 :do { add list=MA address=2a13:ef41:1732::/47 } on-error={}

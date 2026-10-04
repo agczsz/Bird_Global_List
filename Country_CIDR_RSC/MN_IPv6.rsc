@@ -640,6 +640,9 @@
 :do { add list=MN address=2a13:241:3900::/40 } on-error={}
 :do { add list=MN address=2a13:7200:1::/48 } on-error={}
 :do { add list=MN address=2a13:82c4:ff1d::/48 } on-error={}
+:do { add list=MN address=2a13:9500:1e4:1fd::/64 } on-error={}
+:do { add list=MN address=2a13:9500:1e4:2c4::/64 } on-error={}
+:do { add list=MN address=2a13:9500:1e4:377::/64 } on-error={}
 :do { add list=MN address=2a13:a5c3:d478::/46 } on-error={}
 :do { add list=MN address=2a13:a5c7:2202::/48 } on-error={}
 :do { add list=MN address=2a13:a5c7:3105::/48 } on-error={}

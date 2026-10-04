@@ -92,6 +92,7 @@
 :do { add list=MH address=2a13:2380:11::/48 } on-error={}
 :do { add list=MH address=2a13:2380:359::/48 } on-error={}
 :do { add list=MH address=2a13:9500:12e::/48 } on-error={}
+:do { add list=MH address=2a13:9500:1e4:34c::/64 } on-error={}
 :do { add list=MH address=2a13:ef41:1792::/47 } on-error={}
 :do { add list=MH address=2a13:ef41:a792::/47 } on-error={}
 :do { add list=MH address=2a13:ef41:ed15::/48 } on-error={}
