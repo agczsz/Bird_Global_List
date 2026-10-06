@@ -39422,7 +39422,8 @@
 :do { add list=JP address=2a05:f440:8002:1::66/128 } on-error={}
 :do { add list=JP address=2a06:40::/32 } on-error={}
 :do { add list=JP address=2a06:41::/43 } on-error={}
-:do { add list=JP address=2a06:41:20::/43 } on-error={}
+:do { add list=JP address=2a06:41:20::/44 } on-error={}
+:do { add list=JP address=2a06:41:30::/44 } on-error={}
 :do { add list=JP address=2a06:41:40::/43 } on-error={}
 :do { add list=JP address=2a06:41:60::/44 } on-error={}
 :do { add list=JP address=2a06:41:70::/44 } on-error={}

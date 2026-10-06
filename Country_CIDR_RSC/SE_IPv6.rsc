@@ -36532,7 +36532,8 @@
 :do { add list=SE address=2a0e:73c4::/30 } on-error={}
 :do { add list=SE address=2a0e:7440::/29 } on-error={}
 :do { add list=SE address=2a0e:8f02:1200::/47 } on-error={}
-:do { add list=SE address=2a0e:8f02:1202::/47 } on-error={}
+:do { add list=SE address=2a0e:8f02:1202::/48 } on-error={}
+:do { add list=SE address=2a0e:8f02:1203::/48 } on-error={}
 :do { add list=SE address=2a0e:8f02:1204::/46 } on-error={}
 :do { add list=SE address=2a0e:8f02:1208::/45 } on-error={}
 :do { add list=SE address=2a0e:8f02:121c::/46 } on-error={}

@@ -16677,7 +16677,9 @@
 :do { add list=IN address=2405:e100:8::/47 } on-error={}
 :do { add list=IN address=2405:e100:a::/48 } on-error={}
 :do { add list=IN address=2405:e100:b::/48 } on-error={}
-:do { add list=IN address=2405:e100:c::/46 } on-error={}
+:do { add list=IN address=2405:e100:c::/47 } on-error={}
+:do { add list=IN address=2405:e100:e::/48 } on-error={}
+:do { add list=IN address=2405:e100:f::/48 } on-error={}
 :do { add list=IN address=2405:e100:10::/47 } on-error={}
 :do { add list=IN address=2405:e100:12::/48 } on-error={}
 :do { add list=IN address=2405:e100:13::/48 } on-error={}
