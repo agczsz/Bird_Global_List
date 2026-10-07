@@ -19953,7 +19953,8 @@
 :do { add list=ES address=217.163.95.224/27 } on-error={}
 :do { add list=ES address=217.163.144.192/29 } on-error={}
 :do { add list=ES address=217.168.0.0/23 } on-error={}
-:do { add list=ES address=217.168.2.0/23 } on-error={}
+:do { add list=ES address=217.168.2.0/24 } on-error={}
+:do { add list=ES address=217.168.3.0/24 } on-error={}
 :do { add list=ES address=217.168.4.0/23 } on-error={}
 :do { add list=ES address=217.168.6.0/24 } on-error={}
 :do { add list=ES address=217.168.7.0/24 } on-error={}

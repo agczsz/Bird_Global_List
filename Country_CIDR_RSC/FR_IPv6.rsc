@@ -6822,7 +6822,8 @@
 :do { add list=FR address=2001:978:1b00::/47 } on-error={}
 :do { add list=FR address=2001:978:1b02::/50 } on-error={}
 :do { add list=FR address=2001:978:1b03::/48 } on-error={}
-:do { add list=FR address=2001:978:1b04::/46 } on-error={}
+:do { add list=FR address=2001:978:1b04::/47 } on-error={}
+:do { add list=FR address=2001:978:1b06::/47 } on-error={}
 :do { add list=FR address=2001:978:1b08:4000::/50 } on-error={}
 :do { add list=FR address=2001:978:1b08:8000::/49 } on-error={}
 :do { add list=FR address=2001:978:1b09::/48 } on-error={}
@@ -77232,7 +77233,10 @@
 :do { add list=FR address=2a0e:5b80::/29 } on-error={}
 :do { add list=FR address=2a0e:5c00::/29 } on-error={}
 :do { add list=FR address=2a0e:5f80::/29 } on-error={}
-:do { add list=FR address=2a0e:6240::/29 } on-error={}
+:do { add list=FR address=2a0e:6240::/32 } on-error={}
+:do { add list=FR address=2a0e:6241::/32 } on-error={}
+:do { add list=FR address=2a0e:6242::/31 } on-error={}
+:do { add list=FR address=2a0e:6244::/30 } on-error={}
 :do { add list=FR address=2a0e:6e00::/29 } on-error={}
 :do { add list=FR address=2a0e:7400::/29 } on-error={}
 :do { add list=FR address=2a0e:78c0::/29 } on-error={}

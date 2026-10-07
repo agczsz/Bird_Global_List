@@ -38811,7 +38811,9 @@
 :do { add list=NL address=205.233.132.0/22 } on-error={}
 :do { add list=NL address=205.233.136.0/23 } on-error={}
 :do { add list=NL address=205.233.243.0/26 } on-error={}
-:do { add list=NL address=205.234.120.0/22 } on-error={}
+:do { add list=NL address=205.234.120.0/23 } on-error={}
+:do { add list=NL address=205.234.122.0/24 } on-error={}
+:do { add list=NL address=205.234.123.0/24 } on-error={}
 :do { add list=NL address=205.234.124.0/22 } on-error={}
 :do { add list=NL address=205.234.209.0/24 } on-error={}
 :do { add list=NL address=205.234.220.0/23 } on-error={}

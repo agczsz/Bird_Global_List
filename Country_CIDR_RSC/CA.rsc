@@ -22934,10 +22934,7 @@
 :do { add list=CA address=170.39.6.0/24 } on-error={}
 :do { add list=CA address=170.39.12.0/22 } on-error={}
 :do { add list=CA address=170.39.23.0/24 } on-error={}
-:do { add list=CA address=170.39.32.0/24 } on-error={}
-:do { add list=CA address=170.39.33.0/24 } on-error={}
-:do { add list=CA address=170.39.34.0/24 } on-error={}
-:do { add list=CA address=170.39.35.0/24 } on-error={}
+:do { add list=CA address=170.39.32.0/22 } on-error={}
 :do { add list=CA address=170.39.48.0/24 } on-error={}
 :do { add list=CA address=170.39.49.0/26 } on-error={}
 :do { add list=CA address=170.39.49.64/28 } on-error={}

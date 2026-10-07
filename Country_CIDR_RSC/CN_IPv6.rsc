@@ -10886,7 +10886,8 @@
 :do { add list=CN address=2405:6f00:c120::/43 } on-error={}
 :do { add list=CN address=2405:6f00:c140::/43 } on-error={}
 :do { add list=CN address=2405:6f00:c160::/44 } on-error={}
-:do { add list=CN address=2405:6f00:c170::/47 } on-error={}
+:do { add list=CN address=2405:6f00:c170::/48 } on-error={}
+:do { add list=CN address=2405:6f00:c171::/48 } on-error={}
 :do { add list=CN address=2405:6f00:c172::/47 } on-error={}
 :do { add list=CN address=2405:6f00:c174::/46 } on-error={}
 :do { add list=CN address=2405:6f00:c178::/45 } on-error={}

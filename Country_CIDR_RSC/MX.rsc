@@ -5293,11 +5293,12 @@
 :do { add list=MX address=156.252.180.0/22 } on-error={}
 :do { add list=MX address=156.252.184.0/24 } on-error={}
 :do { add list=MX address=156.252.186.0/23 } on-error={}
-:do { add list=MX address=156.252.192.0/23 } on-error={}
-:do { add list=MX address=156.252.194.0/23 } on-error={}
-:do { add list=MX address=156.252.196.0/22 } on-error={}
-:do { add list=MX address=156.252.200.0/21 } on-error={}
-:do { add list=MX address=156.252.208.0/20 } on-error={}
+:do { add list=MX address=156.252.192.0/20 } on-error={}
+:do { add list=MX address=156.252.208.0/21 } on-error={}
+:do { add list=MX address=156.252.216.0/23 } on-error={}
+:do { add list=MX address=156.252.218.0/24 } on-error={}
+:do { add list=MX address=156.252.219.0/24 } on-error={}
+:do { add list=MX address=156.252.220.0/22 } on-error={}
 :do { add list=MX address=156.252.224.0/21 } on-error={}
 :do { add list=MX address=156.252.232.0/22 } on-error={}
 :do { add list=MX address=156.252.236.0/23 } on-error={}

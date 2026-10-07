@@ -38531,8 +38531,7 @@
 :do { add list=FR address=194.113.235.0/24 } on-error={}
 :do { add list=FR address=194.114.145.0/24 } on-error={}
 :do { add list=FR address=194.116.142.0/23 } on-error={}
-:do { add list=FR address=194.116.144.0/24 } on-error={}
-:do { add list=FR address=194.116.145.0/24 } on-error={}
+:do { add list=FR address=194.116.144.0/23 } on-error={}
 :do { add list=FR address=194.116.176.0/23 } on-error={}
 :do { add list=FR address=194.116.202.0/23 } on-error={}
 :do { add list=FR address=194.116.218.0/23 } on-error={}

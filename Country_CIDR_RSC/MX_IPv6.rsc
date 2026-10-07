@@ -24510,8 +24510,7 @@
 :do { add list=MX address=2806:203:8000::/35 } on-error={}
 :do { add list=MX address=2806:203:a000::/48 } on-error={}
 :do { add list=MX address=2806:203:a001::/48 } on-error={}
-:do { add list=MX address=2806:203:a002::/48 } on-error={}
-:do { add list=MX address=2806:203:a003::/48 } on-error={}
+:do { add list=MX address=2806:203:a002::/47 } on-error={}
 :do { add list=MX address=2806:203:a004::/46 } on-error={}
 :do { add list=MX address=2806:203:a008::/45 } on-error={}
 :do { add list=MX address=2806:203:a010::/44 } on-error={}
