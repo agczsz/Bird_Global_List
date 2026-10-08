@@ -18,7 +18,7 @@
 :do { add list=NE address=102.213.247.0/24 } on-error={}
 :do { add list=NE address=102.214.4.0/22 } on-error={}
 :do { add list=NE address=102.215.84.0/22 } on-error={}
-:do { add list=NE address=102.217.96.128/25 } on-error={}
+:do { add list=NE address=102.217.96.0/24 } on-error={}
 :do { add list=NE address=102.217.98.0/23 } on-error={}
 :do { add list=NE address=102.220.24.0/22 } on-error={}
 :do { add list=NE address=104.28.12.18/31 } on-error={}

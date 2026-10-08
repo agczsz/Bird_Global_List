@@ -1,6 +1,6 @@
 /log info "Loading KW IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=KW address=2001:470:1f15:69c::/64 } on-error={}
+:do { add list=KW address=2001:470:1f23:59::/64 } on-error={}
 :do { add list=KW address=2001:470:1f29:25::/64 } on-error={}
 :do { add list=KW address=2001:470:1f29:96::/64 } on-error={}
 :do { add list=KW address=2001:470:1f29:211::/64 } on-error={}
@@ -84,7 +84,16 @@
 :do { add list=KW address=2a01:7780::/48 } on-error={}
 :do { add list=KW address=2a01:7780:1:a::/63 } on-error={}
 :do { add list=KW address=2a01:7780:1:e::/63 } on-error={}
-:do { add list=KW address=2a01:7780:1:10::/64 } on-error={}
+:do { add list=KW address=2a01:7780:1:10::/60 } on-error={}
+:do { add list=KW address=2a01:7780:1:20::/59 } on-error={}
+:do { add list=KW address=2a01:7780:1:40::/58 } on-error={}
+:do { add list=KW address=2a01:7780:1:80::/57 } on-error={}
+:do { add list=KW address=2a01:7780:1:100::/56 } on-error={}
+:do { add list=KW address=2a01:7780:1:200::/55 } on-error={}
+:do { add list=KW address=2a01:7780:1:400::/54 } on-error={}
+:do { add list=KW address=2a01:7780:1:800::/53 } on-error={}
+:do { add list=KW address=2a01:7780:1:1000::/52 } on-error={}
+:do { add list=KW address=2a01:7780:1:2000::/51 } on-error={}
 :do { add list=KW address=2a01:7780:1:4000::/50 } on-error={}
 :do { add list=KW address=2a01:7780:1:8000::/49 } on-error={}
 :do { add list=KW address=2a01:7780:2::/47 } on-error={}
@@ -294,3 +303,4 @@
 :do { add list=KW address=2a14:2d45:7a00::/40 } on-error={}
 :do { add list=KW address=2a14:67c2:837::/48 } on-error={}
 :do { add list=KW address=2a14:7580:cf7a::/48 } on-error={}
+:do { add list=KW address=2a14:c380:7a9::/48 } on-error={}

@@ -13,7 +13,7 @@
 :do { add list=PS address=2001:4860:7:1523::/64 } on-error={}
 :do { add list=PS address=2001:4860:7:1623::/64 } on-error={}
 :do { add list=PS address=2001:4860:7:1723::/64 } on-error={}
-:do { add list=PS address=2400:8800:f100::9a/128 } on-error={}
+:do { add list=PS address=2400:8800:f100::9a/127 } on-error={}
 :do { add list=PS address=2400:cb00:180::/48 } on-error={}
 :do { add list=PS address=2405:b500:5d80::/64 } on-error={}
 :do { add list=PS address=2405:b500:5d80:8::/64 } on-error={}

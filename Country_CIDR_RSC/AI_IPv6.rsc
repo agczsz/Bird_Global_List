@@ -135,5 +135,3 @@
 :do { add list=AI address=2a14:2d45:400::/40 } on-error={}
 :do { add list=AI address=2a14:67c2:8a6::/48 } on-error={}
 :do { add list=AI address=2a14:7580:cf04::/48 } on-error={}
-:do { add list=AI address=2a14:7581:3b0e::/48 } on-error={}
-:do { add list=AI address=2a14:7584:e016::/48 } on-error={}

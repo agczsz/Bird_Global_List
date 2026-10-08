@@ -6,6 +6,7 @@
 :do { add list=DJ address=2001:41a8:3000::/48 } on-error={}
 :do { add list=DJ address=2001:4298::/32 } on-error={}
 :do { add list=DJ address=2001:43f8:9c0::/47 } on-error={}
+:do { add list=DJ address=2400:8800:f100::1be/127 } on-error={}
 :do { add list=DJ address=2400:cb00:122::/48 } on-error={}
 :do { add list=DJ address=2405:b500:1e80::/64 } on-error={}
 :do { add list=DJ address=2405:b500:1ec0::/64 } on-error={}

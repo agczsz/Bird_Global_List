@@ -115,7 +115,6 @@
 :do { add list=BM address=2a12:f381:9900::/40 } on-error={}
 :do { add list=BM address=2a12:f382:9900::/40 } on-error={}
 :do { add list=BM address=2a13:241:400::/40 } on-error={}
-:do { add list=BM address=2a13:9500:1e4:2dc::/64 } on-error={}
 :do { add list=BM address=2a13:b487:5024::/48 } on-error={}
 :do { add list=BM address=2a14:2d45:1a00::/40 } on-error={}
 :do { add list=BM address=2a14:67c1:b61b::/48 } on-error={}

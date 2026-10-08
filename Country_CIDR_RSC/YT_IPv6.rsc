@@ -18,12 +18,10 @@
 :do { add list=YT address=2607:8940:4191:e500::/56 } on-error={}
 :do { add list=YT address=2607:8940:4191:e600::/56 } on-error={}
 :do { add list=YT address=2a01:cb22:8003::/50 } on-error={}
-:do { add list=YT address=2a01:cb22:8004:4000::/50 } on-error={}
 :do { add list=YT address=2a01:cb22:8009::/50 } on-error={}
 :do { add list=YT address=2a01:cb22:800f:8000::/50 } on-error={}
 :do { add list=YT address=2a01:cb22:8010:c000::/50 } on-error={}
 :do { add list=YT address=2a01:cb22:8011::/50 } on-error={}
-:do { add list=YT address=2a01:cb22:8012:4000::/50 } on-error={}
 :do { add list=YT address=2a01:cb22:8013::/50 } on-error={}
 :do { add list=YT address=2a01:cb22:801b:8000::/50 } on-error={}
 :do { add list=YT address=2a01:cb22:8046:4000::/50 } on-error={}

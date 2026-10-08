@@ -179,3 +179,4 @@
 :do { add list=KI address=2a14:2d45:7500::/40 } on-error={}
 :do { add list=KI address=2a14:67c2:8e0::/48 } on-error={}
 :do { add list=KI address=2a14:7580:cf75::/48 } on-error={}
+:do { add list=KI address=2a14:c380:7e7::/48 } on-error={}

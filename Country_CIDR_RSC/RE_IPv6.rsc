@@ -1,6 +1,5 @@
 /log info "Loading RE IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=RE address=2001:e68::a:1d7a/128 } on-error={}
 :do { add list=RE address=2400:cb00:178::/48 } on-error={}
 :do { add list=RE address=2405:b500:6000::/64 } on-error={}
 :do { add list=RE address=2405:b500:6020::/64 } on-error={}
@@ -25,11 +24,8 @@
 :do { add list=RE address=2607:8940:4191:9800::/55 } on-error={}
 :do { add list=RE address=2a00:a080::/32 } on-error={}
 :do { add list=RE address=2a01:cb08:a004:1:193:253:74:50/128 } on-error={}
-:do { add list=RE address=2a01:cb08:a004:21f:193:253:74:83/128 } on-error={}
-:do { add list=RE address=2a01:cb08:a004:21f:193:253:74:92/128 } on-error={}
-:do { add list=RE address=2a01:cb08:a004:21f:193:253:77:86/128 } on-error={}
-:do { add list=RE address=2a01:cb08:a004:21f:193:253:77:179/128 } on-error={}
-:do { add list=RE address=2a01:cb08:a004:220:193:253:77:182/128 } on-error={}
+:do { add list=RE address=2a01:cb08:a004:21f::/64 } on-error={}
+:do { add list=RE address=2a01:cb08:a004:220::/64 } on-error={}
 :do { add list=RE address=2a01:cb22::/40 } on-error={}
 :do { add list=RE address=2a01:cb22:100::/42 } on-error={}
 :do { add list=RE address=2a01:cb22:140::/44 } on-error={}
@@ -113,18 +109,15 @@
 :do { add list=RE address=2a01:cb22:4fff::/48 } on-error={}
 :do { add list=RE address=2a01:cfc0:200:8000:193:252:102:87/128 } on-error={}
 :do { add list=RE address=2a01:cfc0:200:8000:193:252:102:88/128 } on-error={}
-:do { add list=RE address=2a01:cfc4:0:6301::/64 } on-error={}
-:do { add list=RE address=2a01:cfc4:0:6302::/63 } on-error={}
-:do { add list=RE address=2a01:cfc4:0:6304::/62 } on-error={}
-:do { add list=RE address=2a01:cfc4:0:6308::/61 } on-error={}
-:do { add list=RE address=2a01:cfc4:0:6310::/60 } on-error={}
-:do { add list=RE address=2a01:cfc4:0:6320::/59 } on-error={}
-:do { add list=RE address=2a01:cfc4:0:6340::/58 } on-error={}
-:do { add list=RE address=2a01:cfc4:0:6380::/57 } on-error={}
-:do { add list=RE address=2a01:cfc4:0:6400::/54 } on-error={}
+:do { add list=RE address=2a01:cfc4:0:6700::/64 } on-error={}
 :do { add list=RE address=2a01:cfc4:0:6800::/53 } on-error={}
-:do { add list=RE address=2a01:cfc4:0:7000::/52 } on-error={}
-:do { add list=RE address=2a02:1390:4001::/48 } on-error={}
+:do { add list=RE address=2a02:1390:4001::/56 } on-error={}
+:do { add list=RE address=2a02:1390:4001:101::/64 } on-error={}
+:do { add list=RE address=2a02:1390:4001:200::/55 } on-error={}
+:do { add list=RE address=2a02:1390:4001:400::/54 } on-error={}
+:do { add list=RE address=2a02:1390:4001:800::/53 } on-error={}
+:do { add list=RE address=2a02:1390:4001:1000::/52 } on-error={}
+:do { add list=RE address=2a02:1390:4001:2000::/51 } on-error={}
 :do { add list=RE address=2a02:1390:4002::/50 } on-error={}
 :do { add list=RE address=2a02:1397:4000::/50 } on-error={}
 :do { add list=RE address=2a02:26f7:d340:4000::/64 } on-error={}

@@ -81,7 +81,6 @@
 :do { add list=PM address=2a0f:1cc5:1f40::/48 } on-error={}
 :do { add list=PM address=2a12:f381:2a00::/40 } on-error={}
 :do { add list=PM address=2a12:f382:2a00::/40 } on-error={}
-:do { add list=PM address=2a13:9500:1e4:231::/64 } on-error={}
 :do { add list=PM address=2a13:ef41:1413::/48 } on-error={}
 :do { add list=PM address=2a13:ef41:a413::/48 } on-error={}
 :do { add list=PM address=2a13:ef41:e5ee::/48 } on-error={}

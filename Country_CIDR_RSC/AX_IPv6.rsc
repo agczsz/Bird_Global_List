@@ -1,10 +1,7 @@
 /log info "Loading AX IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=AX address=2001:470:0:2b1::2/128 } on-error={}
-:do { add list=AX address=2001:470:28:9d6::/64 } on-error={}
 :do { add list=AX address=2001:470:67:1ec::/64 } on-error={}
 :do { add list=AX address=2001:470:67:5e0::/64 } on-error={}
-:do { add list=AX address=2001:470:1f13:571::/64 } on-error={}
 :do { add list=AX address=2001:470:1f29:470::/64 } on-error={}
 :do { add list=AX address=2001:470:2a9f::/48 } on-error={}
 :do { add list=AX address=2001:470:2b54::/48 } on-error={}
@@ -52,9 +49,8 @@
 :do { add list=AX address=2a00:5500:1:7::/64 } on-error={}
 :do { add list=AX address=2a00:5500:2::/50 } on-error={}
 :do { add list=AX address=2a00:5500:2000::/44 } on-error={}
-:do { add list=AX address=2a00:5500:6000::/51 } on-error={}
-:do { add list=AX address=2a00:5500:6000:2200::/56 } on-error={}
-:do { add list=AX address=2a00:5500:6000:b000::/52 } on-error={}
+:do { add list=AX address=2a00:5500:6000:b200::/55 } on-error={}
+:do { add list=AX address=2a00:5500:6000:d400::/56 } on-error={}
 :do { add list=AX address=2a00:5500:9000::/40 } on-error={}
 :do { add list=AX address=2a00:eca0::/32 } on-error={}
 :do { add list=AX address=2a02:26f7:d100::/48 } on-error={}
@@ -138,6 +134,7 @@
 :do { add list=AX address=2a11:29c0:3d88:d951::/64 } on-error={}
 :do { add list=AX address=2a11:29c0:3d88:db55::/64 } on-error={}
 :do { add list=AX address=2a11:29c0:3d88:dc8a::/64 } on-error={}
+:do { add list=AX address=2a12:bec0:39e::/48 } on-error={}
 :do { add list=AX address=2a12:f381:8d00::/40 } on-error={}
 :do { add list=AX address=2a12:f382:8d00::/40 } on-error={}
 :do { add list=AX address=2a13:9500:1e4:105::/64 } on-error={}

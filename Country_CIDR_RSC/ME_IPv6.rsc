@@ -1,6 +1,5 @@
 /log info "Loading ME IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=ME address=2001:550:0:1000::9a36:38aa/128 } on-error={}
 :do { add list=ME address=2001:678:408::/48 } on-error={}
 :do { add list=ME address=2001:67c:f94::/48 } on-error={}
 :do { add list=ME address=2001:7f8:22::/48 } on-error={}

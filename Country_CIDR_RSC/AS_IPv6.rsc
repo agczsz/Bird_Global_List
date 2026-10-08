@@ -2,8 +2,8 @@
 /ipv6 firewall address-list
 :do { add list=AS address=2001:470:5:10b::/64 } on-error={}
 :do { add list=AS address=2001:470:19:10ce::/64 } on-error={}
+:do { add list=AS address=2001:470:24:ad::/64 } on-error={}
 :do { add list=AS address=2001:470:24:77b::/64 } on-error={}
-:do { add list=AS address=2001:470:28:ac0::/64 } on-error={}
 :do { add list=AS address=2001:470:36:893::/64 } on-error={}
 :do { add list=AS address=2001:470:1957::/48 } on-error={}
 :do { add list=AS address=2001:470:1f15:69a::/64 } on-error={}
@@ -99,6 +99,8 @@
 :do { add list=AS address=2001:470:f6cb::/48 } on-error={}
 :do { add list=AS address=2001:470:fa9e::/48 } on-error={}
 :do { add list=AS address=2001:470:faa5::/48 } on-error={}
+:do { add list=AS address=2001:470:fc2f:4000::/50 } on-error={}
+:do { add list=AS address=2001:470:fc2f:8000::/49 } on-error={}
 :do { add list=AS address=2001:470:fdd6::/48 } on-error={}
 :do { add list=AS address=2001:470:fecf::/48 } on-error={}
 :do { add list=AS address=2001:470:ffa1::/48 } on-error={}
@@ -221,6 +223,8 @@
 :do { add list=AS address=2a0d:9446:d000::/37 } on-error={}
 :do { add list=AS address=2a0e:7d46:600::/40 } on-error={}
 :do { add list=AS address=2a0e:b107:2248::/45 } on-error={}
+:do { add list=AS address=2a0f:5707:ffa0:4000::/50 } on-error={}
+:do { add list=AS address=2a0f:5707:ffa0:8000::/49 } on-error={}
 :do { add list=AS address=2a0f:85c1:81b:f030::/60 } on-error={}
 :do { add list=AS address=2a0f:a303:a800::/37 } on-error={}
 :do { add list=AS address=2a11:29c0:3d88:19c::/64 } on-error={}
@@ -236,7 +240,6 @@
 :do { add list=AS address=2a12:f381:8a00::/40 } on-error={}
 :do { add list=AS address=2a12:f382:8a00::/40 } on-error={}
 :do { add list=AS address=2a13:82c4:ff47::/48 } on-error={}
-:do { add list=AS address=2a13:9500:1e4:2a7::/64 } on-error={}
 :do { add list=AS address=2a13:ef41:f683::/48 } on-error={}
 :do { add list=AS address=2a14:1c6:c800::/37 } on-error={}
 :do { add list=AS address=2a14:2d45:a00::/40 } on-error={}

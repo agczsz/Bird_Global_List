@@ -1,16 +1,18 @@
 /log info "Loading MD IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=MD address=2001:470:24:4ed::/64 } on-error={}
-:do { add list=MD address=2001:470:28:9d7::/64 } on-error={}
 :do { add list=MD address=2001:470:28:b9a::/64 } on-error={}
 :do { add list=MD address=2001:470:28:1144::/64 } on-error={}
-:do { add list=MD address=2001:470:6d:ad9::/64 } on-error={}
 :do { add list=MD address=2001:470:6f:162::/64 } on-error={}
 :do { add list=MD address=2001:470:6f:34c::/64 } on-error={}
 :do { add list=MD address=2001:470:6f:42f::/64 } on-error={}
 :do { add list=MD address=2001:470:71:77b::/64 } on-error={}
 :do { add list=MD address=2001:470:1a2b::/48 } on-error={}
 :do { add list=MD address=2001:470:1f0b:1384::/64 } on-error={}
+:do { add list=MD address=2001:470:1f1b:8d::/64 } on-error={}
+:do { add list=MD address=2001:470:1f21:b5::/64 } on-error={}
+:do { add list=MD address=2001:470:1f21:bc::/64 } on-error={}
+:do { add list=MD address=2001:470:1f21:29c::/64 } on-error={}
 :do { add list=MD address=2001:470:1f29:317::/64 } on-error={}
 :do { add list=MD address=2001:470:2003::/48 } on-error={}
 :do { add list=MD address=2001:470:22d5::/48 } on-error={}
@@ -35,11 +37,8 @@
 :do { add list=MD address=2001:470:fcaa::/48 } on-error={}
 :do { add list=MD address=2001:470:fdd8::/48 } on-error={}
 :do { add list=MD address=2001:470:fe75::/48 } on-error={}
-:do { add list=MD address=2001:550:0:1000::8275:2f1/128 } on-error={}
-:do { add list=MD address=2001:550:0:1000::8275:3155/128 } on-error={}
 :do { add list=MD address=2001:550:0:1000::9a19:3ad/128 } on-error={}
 :do { add list=MD address=2001:550:0:1000::9a19:3ae/128 } on-error={}
-:do { add list=MD address=2001:550:0:1000::9a36:383d/128 } on-error={}
 :do { add list=MD address=2001:678:6d4::/48 } on-error={}
 :do { add list=MD address=2001:678:cf4::/48 } on-error={}
 :do { add list=MD address=2001:67c:df4::/48 } on-error={}
@@ -73,6 +72,7 @@
 :do { add list=MD address=2602:f805:24::/48 } on-error={}
 :do { add list=MD address=2602:f9a9:5:441::/64 } on-error={}
 :do { add list=MD address=2602:faa8:455:441::/64 } on-error={}
+:do { add list=MD address=2602:fb68:900::5c57:ba7a/128 } on-error={}
 :do { add list=MD address=2605:dd40:8218::/48 } on-error={}
 :do { add list=MD address=2605:e440:33::/48 } on-error={}
 :do { add list=MD address=2606:40:15d0::/44 } on-error={}
@@ -93,6 +93,7 @@
 :do { add list=MD address=2606:f4c0:2080::/44 } on-error={}
 :do { add list=MD address=2606:f4c0:b420::/44 } on-error={}
 :do { add list=MD address=2606:f4c0:ba20::/44 } on-error={}
+:do { add list=MD address=2607:8940:2e92:a8bc::/63 } on-error={}
 :do { add list=MD address=2607:8940:353e::/47 } on-error={}
 :do { add list=MD address=2607:8940:3540::/47 } on-error={}
 :do { add list=MD address=2607:8940:4170:5900::/56 } on-error={}
@@ -274,6 +275,7 @@
 :do { add list=MD address=2a00:f901::/32 } on-error={}
 :do { add list=MD address=2a00:f902::/31 } on-error={}
 :do { add list=MD address=2a00:f904::/30 } on-error={}
+:do { add list=MD address=2a01:111:2056:1ea::/64 } on-error={}
 :do { add list=MD address=2a01:320::/29 } on-error={}
 :do { add list=MD address=2a01:6dc0::/32 } on-error={}
 :do { add list=MD address=2a01:c8c0::/28 } on-error={}
@@ -397,7 +399,6 @@
 :do { add list=MD address=2a09:bac1:14e0:3278::/61 } on-error={}
 :do { add list=MD address=2a09:bac1:14e0:3310::/60 } on-error={}
 :do { add list=MD address=2a09:bac1:14e0:3348::/64 } on-error={}
-:do { add list=MD address=2a09:bac1:14e0:3368::/64 } on-error={}
 :do { add list=MD address=2a09:bac1:14e0:3370::/61 } on-error={}
 :do { add list=MD address=2a09:bac1:14e0:337a::/63 } on-error={}
 :do { add list=MD address=2a09:bac1:14e0:337c::/62 } on-error={}
@@ -489,6 +490,7 @@
 :do { add list=MD address=2a09:bac1:4ba0:1300::/56 } on-error={}
 :do { add list=MD address=2a09:bac1:4ba0:1420::/59 } on-error={}
 :do { add list=MD address=2a09:bac1:4ba0:1700::/56 } on-error={}
+:do { add list=MD address=2a09:bac1:4ba0:1920::/64 } on-error={}
 :do { add list=MD address=2a09:bac1:4ba0:1e20::/64 } on-error={}
 :do { add list=MD address=2a09:bac1:76c1:1d64::/62 } on-error={}
 :do { add list=MD address=2a09:bac1:76c1:1d69::/64 } on-error={}
@@ -1065,7 +1067,6 @@
 :do { add list=MD address=2a0f:9403:4f0::/44 } on-error={}
 :do { add list=MD address=2a0f:c900::/29 } on-error={}
 :do { add list=MD address=2a10:500:8800::/40 } on-error={}
-:do { add list=MD address=2a10:ab80:3d9::/48 } on-error={}
 :do { add list=MD address=2a10:fa81:188a::/48 } on-error={}
 :do { add list=MD address=2a11:29c0:3d88:35a::/64 } on-error={}
 :do { add list=MD address=2a11:29c0:3d88:2714::/64 } on-error={}
@@ -1197,5 +1198,6 @@
 :do { add list=MD address=2a14:67c2:8fa::/48 } on-error={}
 :do { add list=MD address=2a14:7580:cf8a::/48 } on-error={}
 :do { add list=MD address=2a14:7700::/32 } on-error={}
+:do { add list=MD address=2a14:c380:76b::/48 } on-error={}
 :do { add list=MD address=2a14:c380:c90::/44 } on-error={}
 :do { add list=MD address=2a14:fc00::/29 } on-error={}

@@ -2,6 +2,8 @@
 /ipv6 firewall address-list
 :do { add list=UM address=2001:470:180a::/48 } on-error={}
 :do { add list=UM address=2001:470:1aaf::/48 } on-error={}
+:do { add list=UM address=2001:470:1f21:12a::/64 } on-error={}
+:do { add list=UM address=2001:470:1f21:203::/64 } on-error={}
 :do { add list=UM address=2001:470:283f::/48 } on-error={}
 :do { add list=UM address=2001:470:490a::/48 } on-error={}
 :do { add list=UM address=2001:470:5892::/48 } on-error={}
@@ -69,6 +71,8 @@
 :do { add list=UM address=2a0d:2587:7fed::/48 } on-error={}
 :do { add list=UM address=2a0d:2684:e8::/48 } on-error={}
 :do { add list=UM address=2a0d:9445:d800::/37 } on-error={}
+:do { add list=UM address=2a0f:5707:ffa5:4000::/50 } on-error={}
+:do { add list=UM address=2a0f:5707:ffa5:8000::/49 } on-error={}
 :do { add list=UM address=2a12:dd47:8feb::/48 } on-error={}
 :do { add list=UM address=2a12:f381:f700::/40 } on-error={}
 :do { add list=UM address=2a12:f382:f700::/40 } on-error={}

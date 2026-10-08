@@ -33,7 +33,6 @@
 :do { add list=GY address=2803:e340::/32 } on-error={}
 :do { add list=GY address=2803:f110::/32 } on-error={}
 :do { add list=GY address=2803:f410::/32 } on-error={}
-:do { add list=GY address=2803:f950:0:602:190:242:193:33/128 } on-error={}
 :do { add list=GY address=2a02:26f7:e900::/48 } on-error={}
 :do { add list=GY address=2a02:26f7:e901::/48 } on-error={}
 :do { add list=GY address=2a02:26f7:e902::/47 } on-error={}

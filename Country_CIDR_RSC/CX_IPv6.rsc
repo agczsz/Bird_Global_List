@@ -1,7 +1,6 @@
 /log info "Loading CX IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=CX address=2602:814:fcd4::/46 } on-error={}
-:do { add list=CX address=2606:40:1030::/44 } on-error={}
 :do { add list=CX address=2606:40:217e:6000::/51 } on-error={}
 :do { add list=CX address=2606:40:230a:6000::/51 } on-error={}
 :do { add list=CX address=2607:8940:28aa::/47 } on-error={}

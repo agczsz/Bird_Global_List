@@ -12,7 +12,6 @@
 :do { add list=CV address=2606:40:700::/46 } on-error={}
 :do { add list=CV address=2606:40:74c::/46 } on-error={}
 :do { add list=CV address=2606:40:750::/45 } on-error={}
-:do { add list=CV address=2606:40:10b0::/44 } on-error={}
 :do { add list=CV address=2606:40:21a0:2000::/54 } on-error={}
 :do { add list=CV address=2606:40:21a0:2800::/53 } on-error={}
 :do { add list=CV address=2606:40:22e0:8000::/54 } on-error={}
@@ -129,7 +128,6 @@
 :do { add list=CV address=2a0d:2684:33::/48 } on-error={}
 :do { add list=CV address=2a0d:3341:fc00::/40 } on-error={}
 :do { add list=CV address=2a0d:3344:27c0::/42 } on-error={}
-:do { add list=CV address=2a0d:3344:2900::/42 } on-error={}
 :do { add list=CV address=2a0d:9440:2800::/37 } on-error={}
 :do { add list=CV address=2a0e:b107:2380::/45 } on-error={}
 :do { add list=CV address=2a0f:85c1:81b:f240::/60 } on-error={}

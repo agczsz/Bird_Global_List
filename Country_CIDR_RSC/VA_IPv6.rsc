@@ -21,6 +21,8 @@
 :do { add list=VA address=2607:8940:4183:fb00::/56 } on-error={}
 :do { add list=VA address=2607:8940:4250:7f00::/56 } on-error={}
 :do { add list=VA address=2607:8940:4250:9500::/56 } on-error={}
+:do { add list=VA address=2a01:b8:0:4000::/50 } on-error={}
+:do { add list=VA address=2a01:b8:0:8000::/49 } on-error={}
 :do { add list=VA address=2a01:b8:1::/48 } on-error={}
 :do { add list=VA address=2a01:b8:2::/47 } on-error={}
 :do { add list=VA address=2a01:b8:4::/46 } on-error={}
@@ -115,7 +117,11 @@
 :do { add list=VA address=2a0e:97c0:4bed::/48 } on-error={}
 :do { add list=VA address=2a0f:1cc5:1f1a::/48 } on-error={}
 :do { add list=VA address=2a0f:6280:ca07::/48 } on-error={}
-:do { add list=VA address=2a0f:6280:cc60::/43 } on-error={}
+:do { add list=VA address=2a0f:6280:cc61::/48 } on-error={}
+:do { add list=VA address=2a0f:6280:cc62::/47 } on-error={}
+:do { add list=VA address=2a0f:6280:cc64::/46 } on-error={}
+:do { add list=VA address=2a0f:6280:cc68::/45 } on-error={}
+:do { add list=VA address=2a0f:6280:cc70::/44 } on-error={}
 :do { add list=VA address=2a0f:7803:fac6:c000::/50 } on-error={}
 :do { add list=VA address=2a0f:7803:fece::/48 } on-error={}
 :do { add list=VA address=2a0f:85c1:81b:fc00::/60 } on-error={}
@@ -126,10 +132,13 @@
 :do { add list=VA address=2a10:ccc1:ccc3::/48 } on-error={}
 :do { add list=VA address=2a10:ccc1:ccc4::/46 } on-error={}
 :do { add list=VA address=2a10:ccc1:ccc8::/45 } on-error={}
+:do { add list=VA address=2a12:bec0:395::/48 } on-error={}
 :do { add list=VA address=2a12:f381:f300::/40 } on-error={}
 :do { add list=VA address=2a12:f382:f300::/40 } on-error={}
 :do { add list=VA address=2a13:9500:1e4:1721::/64 } on-error={}
 :do { add list=VA address=2a13:a5c3:d0b4::/46 } on-error={}
+:do { add list=VA address=2a13:a5c7:2003:4000::/50 } on-error={}
+:do { add list=VA address=2a13:a5c7:2003:8000::/49 } on-error={}
 :do { add list=VA address=2a13:a5c7:2205::/48 } on-error={}
 :do { add list=VA address=2a13:a5c7:220a::/48 } on-error={}
 :do { add list=VA address=2a13:b487:1804::/48 } on-error={}

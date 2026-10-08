@@ -123,3 +123,4 @@
 :do { add list=MH address=2a14:2d45:8e00::/40 } on-error={}
 :do { add list=MH address=2a14:67c2:8f3::/48 } on-error={}
 :do { add list=MH address=2a14:7580:cf8e::/48 } on-error={}
+:do { add list=MH address=2a14:c380:7eb::/48 } on-error={}
