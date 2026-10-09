@@ -324,8 +324,7 @@
 :do { add list=GU address=202.88.80.0/22 } on-error={}
 :do { add list=GU address=202.88.84.128/25 } on-error={}
 :do { add list=GU address=202.88.86.0/23 } on-error={}
-:do { add list=GU address=202.88.88.0/23 } on-error={}
-:do { add list=GU address=202.88.90.0/24 } on-error={}
+:do { add list=GU address=202.88.88.0/22 } on-error={}
 :do { add list=GU address=202.88.92.0/24 } on-error={}
 :do { add list=GU address=202.88.93.0/28 } on-error={}
 :do { add list=GU address=202.88.93.32/27 } on-error={}

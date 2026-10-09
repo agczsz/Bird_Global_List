@@ -744,6 +744,7 @@
 :do { add list=BO address=2803:38c0::/32 } on-error={}
 :do { add list=BO address=2803:3e20::/32 } on-error={}
 :do { add list=BO address=2803:3ea0::/32 } on-error={}
+:do { add list=BO address=2803:40b0::/32 } on-error={}
 :do { add list=BO address=2803:48d0::/32 } on-error={}
 :do { add list=BO address=2803:4ac0::/32 } on-error={}
 :do { add list=BO address=2803:5700::/32 } on-error={}

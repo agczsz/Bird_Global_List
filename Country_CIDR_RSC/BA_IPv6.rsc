@@ -3,9 +3,9 @@
 :do { add list=BA address=2001:668:1f:fe62::/64 } on-error={}
 :do { add list=BA address=2001:678:1108::/48 } on-error={}
 :do { add list=BA address=2001:7f8:d7::/48 } on-error={}
-:do { add list=BA address=2001:2035:0:26ef::/64 } on-error={}
-:do { add list=BA address=2001:2035:0:26f0::/64 } on-error={}
-:do { add list=BA address=2001:2035:0:2948::/64 } on-error={}
+:do { add list=BA address=2001:2035:0:26ef::2/128 } on-error={}
+:do { add list=BA address=2001:2035:0:26f0::2/128 } on-error={}
+:do { add list=BA address=2001:2035:0:2948::2/128 } on-error={}
 :do { add list=BA address=2001:4860:7:207::/64 } on-error={}
 :do { add list=BA address=2001:4860:7:607::/64 } on-error={}
 :do { add list=BA address=2001:4860:7:1407::/64 } on-error={}

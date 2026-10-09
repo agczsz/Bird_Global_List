@@ -310,9 +310,6 @@
 :do { add list=AM address=87.245.224.73/32 } on-error={}
 :do { add list=AM address=87.245.224.76/30 } on-error={}
 :do { add list=AM address=87.245.224.81/32 } on-error={}
-:do { add list=AM address=87.245.225.73/32 } on-error={}
-:do { add list=AM address=87.245.225.76/30 } on-error={}
-:do { add list=AM address=87.245.225.81/32 } on-error={}
 :do { add list=AM address=87.245.232.56/31 } on-error={}
 :do { add list=AM address=87.245.232.67/32 } on-error={}
 :do { add list=AM address=87.245.232.82/31 } on-error={}

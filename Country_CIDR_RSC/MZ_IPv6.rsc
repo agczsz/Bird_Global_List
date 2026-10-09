@@ -199,11 +199,8 @@
 :do { add list=MZ address=2c0f:feb0:1::69/128 } on-error={}
 :do { add list=MZ address=2c0f:feb0:1::161/128 } on-error={}
 :do { add list=MZ address=2c0f:feb0:1::162/128 } on-error={}
-:do { add list=MZ address=2c0f:feb0:1:2::aa/128 } on-error={}
 :do { add list=MZ address=2c0f:feb0:1:2::b9/128 } on-error={}
 :do { add list=MZ address=2c0f:feb0:1:2::be/128 } on-error={}
-:do { add list=MZ address=2c0f:feb0:1:2::479/128 } on-error={}
-:do { add list=MZ address=2c0f:feb0:1:2::886/128 } on-error={}
 :do { add list=MZ address=2c0f:feb0:9::12/128 } on-error={}
 :do { add list=MZ address=2c0f:feb0:9::22/128 } on-error={}
 :do { add list=MZ address=2c0f:feb0:9::1:12/128 } on-error={}

@@ -45,6 +45,7 @@
 :do { add list=LT address=2001:470:6b7d::/48 } on-error={}
 :do { add list=LT address=2001:470:7062::/48 } on-error={}
 :do { add list=LT address=2001:470:71c6::/48 } on-error={}
+:do { add list=LT address=2001:470:72ca::/48 } on-error={}
 :do { add list=LT address=2001:470:740e::/48 } on-error={}
 :do { add list=LT address=2001:470:7874::/48 } on-error={}
 :do { add list=LT address=2001:470:7a38::/48 } on-error={}
@@ -92,6 +93,7 @@
 :do { add list=LT address=2001:7f8:b4::/48 } on-error={}
 :do { add list=LT address=2001:7f8:c4::/48 } on-error={}
 :do { add list=LT address=2001:978:2:91::/64 } on-error={}
+:do { add list=LT address=2001:978:2:b6::/64 } on-error={}
 :do { add list=LT address=2001:ad0:c18::/64 } on-error={}
 :do { add list=LT address=2001:ad0:cfe:0:212:47:201:38/128 } on-error={}
 :do { add list=LT address=2001:ad0:cfe:0:212:47:201:71/128 } on-error={}
@@ -336,7 +338,6 @@
 :do { add list=LT address=2001:2034:a:2d5:2000::/67 } on-error={}
 :do { add list=LT address=2001:2034:a:2d5:4000::/66 } on-error={}
 :do { add list=LT address=2001:2034:a:2d5:8000::/65 } on-error={}
-:do { add list=LT address=2001:2035:0:1351::/64 } on-error={}
 :do { add list=LT address=2001:2035:0:1724::2/128 } on-error={}
 :do { add list=LT address=2001:2035:0:1eaf::2/128 } on-error={}
 :do { add list=LT address=2001:3cc0::/32 } on-error={}
@@ -1751,6 +1752,8 @@
 :do { add list=LT address=2a10:3f80:0:4000::/50 } on-error={}
 :do { add list=LT address=2a10:3f80:0:8000::/49 } on-error={}
 :do { add list=LT address=2a10:4bc1::/32 } on-error={}
+:do { add list=LT address=2a10:77c1::/64 } on-error={}
+:do { add list=LT address=2a10:77c1:85a6:da4b::/64 } on-error={}
 :do { add list=LT address=2a10:9100:5::/50 } on-error={}
 :do { add list=LT address=2a10:bdc0::/29 } on-error={}
 :do { add list=LT address=2a10:c400::/29 } on-error={}
@@ -2086,6 +2089,8 @@
 :do { add list=LT address=2a14:60c7:a000::/35 } on-error={}
 :do { add list=LT address=2a14:60c7:c000::/34 } on-error={}
 :do { add list=LT address=2a14:67c2:892::/48 } on-error={}
+:do { add list=LT address=2a14:68c1::/64 } on-error={}
+:do { add list=LT address=2a14:68c5::/64 } on-error={}
 :do { add list=LT address=2a14:7580:cf84::/48 } on-error={}
 :do { add list=LT address=2a14:9900::/29 } on-error={}
 :do { add list=LT address=2a14:a087:6::/48 } on-error={}

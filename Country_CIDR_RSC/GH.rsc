@@ -17,10 +17,7 @@
 :do { add list=GH address=41.73.158.0/24 } on-error={}
 :do { add list=GH address=41.74.80.0/20 } on-error={}
 :do { add list=GH address=41.75.48.0/20 } on-error={}
-:do { add list=GH address=41.75.88.0/26 } on-error={}
-:do { add list=GH address=41.75.88.77/32 } on-error={}
-:do { add list=GH address=41.75.88.78/31 } on-error={}
-:do { add list=GH address=41.75.88.128/25 } on-error={}
+:do { add list=GH address=41.75.88.0/24 } on-error={}
 :do { add list=GH address=41.75.91.0/28 } on-error={}
 :do { add list=GH address=41.75.91.16/31 } on-error={}
 :do { add list=GH address=41.75.91.19/32 } on-error={}

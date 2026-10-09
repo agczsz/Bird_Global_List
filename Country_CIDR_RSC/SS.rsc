@@ -128,14 +128,6 @@
 :do { add list=SS address=105.235.211.235/32 } on-error={}
 :do { add list=SS address=105.235.211.236/30 } on-error={}
 :do { add list=SS address=105.235.211.240/32 } on-error={}
-:do { add list=SS address=105.235.212.0/28 } on-error={}
-:do { add list=SS address=105.235.212.16/32 } on-error={}
-:do { add list=SS address=105.235.212.18/31 } on-error={}
-:do { add list=SS address=105.235.212.20/30 } on-error={}
-:do { add list=SS address=105.235.212.24/29 } on-error={}
-:do { add list=SS address=105.235.212.32/27 } on-error={}
-:do { add list=SS address=105.235.212.64/26 } on-error={}
-:do { add list=SS address=105.235.212.128/25 } on-error={}
 :do { add list=SS address=105.235.214.0/23 } on-error={}
 :do { add list=SS address=140.248.40.188/31 } on-error={}
 :do { add list=SS address=140.248.56.207/32 } on-error={}

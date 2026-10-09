@@ -2,6 +2,7 @@
 /ipv6 firewall address-list
 :do { add list=NE address=2001:43fe:1800::/48 } on-error={}
 :do { add list=NE address=2001:43fe:3800::/48 } on-error={}
+:do { add list=NE address=2001:43fe:5800::/48 } on-error={}
 :do { add list=NE address=2405:b500:5300::/64 } on-error={}
 :do { add list=NE address=2405:b500:5320::/64 } on-error={}
 :do { add list=NE address=2405:b500:5340::/64 } on-error={}

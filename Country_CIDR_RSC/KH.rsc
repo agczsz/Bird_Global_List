@@ -311,7 +311,7 @@
 :do { add list=KH address=103.148.228.0/23 } on-error={}
 :do { add list=KH address=103.151.116.0/23 } on-error={}
 :do { add list=KH address=103.152.98.0/24 } on-error={}
-:do { add list=KH address=103.152.194.0/23 } on-error={}
+:do { add list=KH address=103.152.194.0/24 } on-error={}
 :do { add list=KH address=103.154.20.0/23 } on-error={}
 :do { add list=KH address=103.157.173.0/24 } on-error={}
 :do { add list=KH address=103.158.160.0/23 } on-error={}

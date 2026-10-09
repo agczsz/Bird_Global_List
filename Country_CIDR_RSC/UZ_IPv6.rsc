@@ -1,7 +1,6 @@
 /log info "Loading UZ IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=UZ address=2001:678:188::/48 } on-error={}
-:do { add list=UZ address=2001:678:c3c::/48 } on-error={}
 :do { add list=UZ address=2001:67c:db4::/48 } on-error={}
 :do { add list=UZ address=2001:7f8:110::/48 } on-error={}
 :do { add list=UZ address=2001:7f8:131::/48 } on-error={}

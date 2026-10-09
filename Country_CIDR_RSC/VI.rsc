@@ -8,12 +8,11 @@
 :do { add list=VI address=12.204.13.112/29 } on-error={}
 :do { add list=VI address=12.204.13.152/29 } on-error={}
 :do { add list=VI address=23.143.120.0/24 } on-error={}
-:do { add list=VI address=24.41.133.21/32 } on-error={}
+:do { add list=VI address=24.41.133.0/26 } on-error={}
 :do { add list=VI address=24.41.242.31/32 } on-error={}
 :do { add list=VI address=24.55.69.0/24 } on-error={}
 :do { add list=VI address=24.55.160.0/24 } on-error={}
-:do { add list=VI address=24.55.173.64/26 } on-error={}
-:do { add list=VI address=24.55.173.128/25 } on-error={}
+:do { add list=VI address=24.55.173.0/24 } on-error={}
 :do { add list=VI address=24.139.98.164/32 } on-error={}
 :do { add list=VI address=24.139.223.128/27 } on-error={}
 :do { add list=VI address=38.134.168.0/23 } on-error={}

@@ -144,7 +144,6 @@
 :do { add list=UZ address=87.229.227.242/31 } on-error={}
 :do { add list=UZ address=87.237.232.0/21 } on-error={}
 :do { add list=UZ address=87.245.224.249/32 } on-error={}
-:do { add list=UZ address=87.245.225.249/32 } on-error={}
 :do { add list=UZ address=87.245.229.135/32 } on-error={}
 :do { add list=UZ address=87.245.232.100/32 } on-error={}
 :do { add list=UZ address=87.245.234.106/32 } on-error={}

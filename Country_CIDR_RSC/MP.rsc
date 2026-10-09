@@ -67,7 +67,6 @@
 :do { add list=MP address=202.88.79.128/32 } on-error={}
 :do { add list=MP address=202.88.84.0/25 } on-error={}
 :do { add list=MP address=202.88.85.0/24 } on-error={}
-:do { add list=MP address=202.88.91.0/24 } on-error={}
 :do { add list=MP address=202.88.93.16/28 } on-error={}
 :do { add list=MP address=202.123.135.128/25 } on-error={}
 :do { add list=MP address=210.23.91.128/26 } on-error={}

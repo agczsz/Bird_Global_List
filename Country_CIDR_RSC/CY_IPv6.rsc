@@ -1,5 +1,6 @@
 /log info "Loading CY IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=CY address=2001:470:26:825::/64 } on-error={}
 :do { add list=CY address=2001:470:28:50e::/64 } on-error={}
 :do { add list=CY address=2001:470:6f:349::/64 } on-error={}
 :do { add list=CY address=2001:470:71:10e::/64 } on-error={}
@@ -664,7 +665,7 @@
 :do { add list=CY address=2a05:b7c0::/48 } on-error={}
 :do { add list=CY address=2a05:dfc1:5a41::/48 } on-error={}
 :do { add list=CY address=2a05:dfc1:8c34::/48 } on-error={}
-:do { add list=CY address=2a06:3040:f:600::/64 } on-error={}
+:do { add list=CY address=2a06:3040:f:601::/64 } on-error={}
 :do { add list=CY address=2a06:3040:f000::/48 } on-error={}
 :do { add list=CY address=2a06:3b01::/32 } on-error={}
 :do { add list=CY address=2a06:3b02::/31 } on-error={}
@@ -1053,7 +1054,19 @@
 :do { add list=CY address=2a10:50c0:1800::/37 } on-error={}
 :do { add list=CY address=2a10:50c0:2000::/35 } on-error={}
 :do { add list=CY address=2a10:50c0:4000::/35 } on-error={}
-:do { add list=CY address=2a10:50c0:6000::/36 } on-error={}
+:do { add list=CY address=2a10:50c0:6000::/38 } on-error={}
+:do { add list=CY address=2a10:50c0:6400::/40 } on-error={}
+:do { add list=CY address=2a10:50c0:6500::/42 } on-error={}
+:do { add list=CY address=2a10:50c0:6540::/43 } on-error={}
+:do { add list=CY address=2a10:50c0:6560::/46 } on-error={}
+:do { add list=CY address=2a10:50c0:6564::/48 } on-error={}
+:do { add list=CY address=2a10:50c0:6565::/48 } on-error={}
+:do { add list=CY address=2a10:50c0:6566::/47 } on-error={}
+:do { add list=CY address=2a10:50c0:6568::/45 } on-error={}
+:do { add list=CY address=2a10:50c0:6570::/44 } on-error={}
+:do { add list=CY address=2a10:50c0:6580::/41 } on-error={}
+:do { add list=CY address=2a10:50c0:6600::/39 } on-error={}
+:do { add list=CY address=2a10:50c0:6800::/37 } on-error={}
 :do { add list=CY address=2a10:50c0:7000::/48 } on-error={}
 :do { add list=CY address=2a10:50c0:7002::/47 } on-error={}
 :do { add list=CY address=2a10:50c0:7004::/46 } on-error={}

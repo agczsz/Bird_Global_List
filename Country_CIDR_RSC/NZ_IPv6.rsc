@@ -2810,7 +2810,6 @@
 :do { add list=NZ address=2602:814:fea8::/46 } on-error={}
 :do { add list=NZ address=2602:f73b:c00::/38 } on-error={}
 :do { add list=NZ address=2602:f742:2:2510::/64 } on-error={}
-:do { add list=NZ address=2602:f805:300::/48 } on-error={}
 :do { add list=NZ address=2602:f805:325::/48 } on-error={}
 :do { add list=NZ address=2602:f805:385::/48 } on-error={}
 :do { add list=NZ address=2602:f9a9:5:221::/64 } on-error={}

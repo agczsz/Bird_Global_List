@@ -3,8 +3,6 @@
 :do { add list=NI address=4.59.88.98/32 } on-error={}
 :do { add list=NI address=5.62.56.148/30 } on-error={}
 :do { add list=NI address=5.62.58.140/30 } on-error={}
-:do { add list=NI address=8.243.238.82/31 } on-error={}
-:do { add list=NI address=8.243.238.184/31 } on-error={}
 :do { add list=NI address=8.243.238.212/31 } on-error={}
 :do { add list=NI address=38.226.160.0/20 } on-error={}
 :do { add list=NI address=38.246.38.0/23 } on-error={}
