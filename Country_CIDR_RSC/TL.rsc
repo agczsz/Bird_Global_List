@@ -2,6 +2,7 @@
 /ip firewall address-list
 :do { add list=TL address=14.137.33.0/24 } on-error={}
 :do { add list=TL address=36.67.255.242/32 } on-error={}
+:do { add list=TL address=36.91.235.189/32 } on-error={}
 :do { add list=TL address=36.91.235.190/32 } on-error={}
 :do { add list=TL address=36.92.255.218/32 } on-error={}
 :do { add list=TL address=43.243.120.0/22 } on-error={}
@@ -13,7 +14,6 @@
 :do { add list=TL address=45.89.99.112/30 } on-error={}
 :do { add list=TL address=45.115.72.0/22 } on-error={}
 :do { add list=TL address=59.153.132.0/22 } on-error={}
-:do { add list=TL address=62.115.174.209/32 } on-error={}
 :do { add list=TL address=90.96.184.223/32 } on-error={}
 :do { add list=TL address=103.26.95.0/24 } on-error={}
 :do { add list=TL address=103.30.112.0/22 } on-error={}
@@ -35,8 +35,6 @@
 :do { add list=TL address=103.231.123.0/24 } on-error={}
 :do { add list=TL address=103.236.128.0/23 } on-error={}
 :do { add list=TL address=103.238.116.0/22 } on-error={}
-:do { add list=TL address=103.253.1.18/32 } on-error={}
-:do { add list=TL address=103.253.1.122/32 } on-error={}
 :do { add list=TL address=104.28.13.94/31 } on-error={}
 :do { add list=TL address=104.28.13.96/32 } on-error={}
 :do { add list=TL address=104.28.28.97/32 } on-error={}

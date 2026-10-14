@@ -1,5 +1,6 @@
 /log info "Loading CV IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=CV address=2001:2035:0:2cdb::2/128 } on-error={}
 :do { add list=CV address=2001:43f8:16c0::/47 } on-error={}
 :do { add list=CV address=2001:43fc:1000::/48 } on-error={}
 :do { add list=CV address=2001:43fd:5000::/48 } on-error={}
@@ -81,6 +82,7 @@
 :do { add list=CV address=2a06:9f81:3932::/48 } on-error={}
 :do { add list=CV address=2a06:9f81:43ef:3300::/56 } on-error={}
 :do { add list=CV address=2a06:9f81:5632::/48 } on-error={}
+:do { add list=CV address=2a07:d887:3300::/40 } on-error={}
 :do { add list=CV address=2a09:bac1:1b80::/64 } on-error={}
 :do { add list=CV address=2a09:bac1:1ba0::/64 } on-error={}
 :do { add list=CV address=2a09:bac1:1bc0::/64 } on-error={}
@@ -91,6 +93,7 @@
 :do { add list=CV address=2a09:bac4:1198::/45 } on-error={}
 :do { add list=CV address=2a09:bac5:2768::/45 } on-error={}
 :do { add list=CV address=2a09:bac6:2768::/45 } on-error={}
+:do { add list=CV address=2a0b:4e07:3:1320::/60 } on-error={}
 :do { add list=CV address=2a0d:2587:7f00::/43 } on-error={}
 :do { add list=CV address=2a0d:2587:7f20::/45 } on-error={}
 :do { add list=CV address=2a0d:2587:7f28::/46 } on-error={}
@@ -130,8 +133,15 @@
 :do { add list=CV address=2a0d:3344:27c0::/42 } on-error={}
 :do { add list=CV address=2a0d:9440:2800::/37 } on-error={}
 :do { add list=CV address=2a0e:b107:2380::/45 } on-error={}
+:do { add list=CV address=2a0f:1cc5:b10:2600::/56 } on-error={}
+:do { add list=CV address=2a0f:1cc5:b11:2600::/56 } on-error={}
+:do { add list=CV address=2a0f:1cc5:b12:2600::/56 } on-error={}
+:do { add list=CV address=2a0f:1cc5:b13:2600::/56 } on-error={}
+:do { add list=CV address=2a0f:1cc5:b14:2600::/56 } on-error={}
+:do { add list=CV address=2a0f:1cc5:b15:2600::/56 } on-error={}
+:do { add list=CV address=2a0f:1cc5:b16:2600::/56 } on-error={}
+:do { add list=CV address=2a0f:1cc5:b17:2600::/56 } on-error={}
 :do { add list=CV address=2a0f:85c1:81b:f240::/60 } on-error={}
-:do { add list=CV address=2a0f:9403:9c0::/44 } on-error={}
 :do { add list=CV address=2a0f:a301:6000::/37 } on-error={}
 :do { add list=CV address=2a10:500:1100::/40 } on-error={}
 :do { add list=CV address=2a10:fa81:1833::/48 } on-error={}
@@ -149,7 +159,6 @@
 :do { add list=CV address=2a12:f381:b100::/40 } on-error={}
 :do { add list=CV address=2a12:f382:b100::/40 } on-error={}
 :do { add list=CV address=2a13:241:d00::/40 } on-error={}
-:do { add list=CV address=2a13:82c4:ff52::/48 } on-error={}
 :do { add list=CV address=2a13:9500:1e4:1f9::/64 } on-error={}
 :do { add list=CV address=2a13:a5c3:d118::/46 } on-error={}
 :do { add list=CV address=2a13:ef41:129a::/47 } on-error={}
@@ -170,6 +179,15 @@
 :do { add list=CV address=2a14:2d45:3300::/40 } on-error={}
 :do { add list=CV address=2a14:67c2:877::/48 } on-error={}
 :do { add list=CV address=2a14:7580:cf33::/48 } on-error={}
+:do { add list=CV address=2a14:7581:b10:2600::/56 } on-error={}
+:do { add list=CV address=2a14:7581:b11:2600::/56 } on-error={}
+:do { add list=CV address=2a14:7581:b12:2600::/56 } on-error={}
+:do { add list=CV address=2a14:7581:b13:2600::/56 } on-error={}
+:do { add list=CV address=2a14:7581:b14:2600::/56 } on-error={}
+:do { add list=CV address=2a14:7581:b15:2600::/56 } on-error={}
+:do { add list=CV address=2a14:7581:b16:2600::/56 } on-error={}
+:do { add list=CV address=2a14:7581:b17:2600::/56 } on-error={}
+:do { add list=CV address=2a14:7581:be0:8400::/56 } on-error={}
 :do { add list=CV address=2c0f:2a80:300::/42 } on-error={}
 :do { add list=CV address=2c0f:f420::/32 } on-error={}
 :do { add list=CV address=2c0f:f438::/32 } on-error={}

@@ -2,7 +2,6 @@
 /ipv6 firewall address-list
 :do { add list=XK address=2001:7f8:16a::/48 } on-error={}
 :do { add list=XK address=2001:3a80::/29 } on-error={}
-:do { add list=XK address=2400:cb00:1415::/48 } on-error={}
 :do { add list=XK address=2607:8940:3792::/47 } on-error={}
 :do { add list=XK address=2607:8940:3794::/47 } on-error={}
 :do { add list=XK address=2607:8940:4170:f100::/56 } on-error={}
@@ -11,7 +10,6 @@
 :do { add list=XK address=2607:8940:4191:400::/56 } on-error={}
 :do { add list=XK address=2607:8940:41f0:9300::/56 } on-error={}
 :do { add list=XK address=2607:8940:41f0:9400::/56 } on-error={}
-:do { add list=XK address=2620:0:1cff:dead:beef::3415/128 } on-error={}
 :do { add list=XK address=2a00:73a0::/32 } on-error={}
 :do { add list=XK address=2a02:26f7:dc80:d887::/64 } on-error={}
 :do { add list=XK address=2a02:26f7:dc80:d8a2::/64 } on-error={}
@@ -53,6 +51,7 @@
 :do { add list=XK address=2a0c:b340::/29 } on-error={}
 :do { add list=XK address=2a0d:9443:9000::/37 } on-error={}
 :do { add list=XK address=2a0d:ccc0::/29 } on-error={}
+:do { add list=XK address=2a0f:6280:ceff::/48 } on-error={}
 :do { add list=XK address=2a0f:8880::/29 } on-error={}
 :do { add list=XK address=2a0f:a301:1800::/37 } on-error={}
 :do { add list=XK address=2a10:b800::/32 } on-error={}

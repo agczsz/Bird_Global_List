@@ -1,5 +1,7 @@
 /log info "Loading SN IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=SN address=2001:978:2:32::1b/128 } on-error={}
+:do { add list=SN address=2001:978:2:32::25/128 } on-error={}
 :do { add list=SN address=2001:4278::/32 } on-error={}
 :do { add list=SN address=2001:43f8:cf0::/47 } on-error={}
 :do { add list=SN address=2001:43f8:1400::/48 } on-error={}
@@ -123,6 +125,7 @@
 :do { add list=SN address=2a06:9f81:43ef:ce00::/56 } on-error={}
 :do { add list=SN address=2a06:9f81:56cb::/48 } on-error={}
 :do { add list=SN address=2a06:b440:149::/48 } on-error={}
+:do { add list=SN address=2a07:d887:cb00::/40 } on-error={}
 :do { add list=SN address=2a09:bac0:1000:488::/64 } on-error={}
 :do { add list=SN address=2a09:bac1:6880::/64 } on-error={}
 :do { add list=SN address=2a09:bac1:68a0::/64 } on-error={}
@@ -138,11 +141,20 @@
 :do { add list=SN address=2a0a:6044:fb20::/45 } on-error={}
 :do { add list=SN address=2a0a:6044:fb28::/46 } on-error={}
 :do { add list=SN address=2a0a:6044:fb2c::/47 } on-error={}
+:do { add list=SN address=2a0b:4e07:3:6860::/60 } on-error={}
 :do { add list=SN address=2a0d:2684:cd::/48 } on-error={}
 :do { add list=SN address=2a0d:9447:4000::/37 } on-error={}
+:do { add list=SN address=2a0f:1cc5:b10:c600::/56 } on-error={}
+:do { add list=SN address=2a0f:1cc5:b11:c600::/56 } on-error={}
+:do { add list=SN address=2a0f:1cc5:b12:c600::/56 } on-error={}
+:do { add list=SN address=2a0f:1cc5:b13:c600::/56 } on-error={}
+:do { add list=SN address=2a0f:1cc5:b14:c600::/56 } on-error={}
+:do { add list=SN address=2a0f:1cc5:b15:c600::/56 } on-error={}
+:do { add list=SN address=2a0f:1cc5:b16:c600::/56 } on-error={}
+:do { add list=SN address=2a0f:1cc5:b17:c600::/56 } on-error={}
+:do { add list=SN address=2a0f:6280:ce80::/48 } on-error={}
 :do { add list=SN address=2a0f:85c1:340::c1:0/112 } on-error={}
 :do { add list=SN address=2a0f:85c1:81b:f9a0::/60 } on-error={}
-:do { add list=SN address=2a0f:9403:be0::/44 } on-error={}
 :do { add list=SN address=2a0f:a301:2000::/37 } on-error={}
 :do { add list=SN address=2a10:500:3200::/40 } on-error={}
 :do { add list=SN address=2a10:fa81:18cc::/48 } on-error={}
@@ -179,7 +191,6 @@
 :do { add list=SN address=2a12:f381:7d00::/40 } on-error={}
 :do { add list=SN address=2a12:f382:7d00::/40 } on-error={}
 :do { add list=SN address=2a13:241:4b00::/40 } on-error={}
-:do { add list=SN address=2a13:82c4:ff73::/48 } on-error={}
 :do { add list=SN address=2a13:9500:1e4:38f::/64 } on-error={}
 :do { add list=SN address=2a13:a5c3:d198::/46 } on-error={}
 :do { add list=SN address=2a13:ef41:1bf8::/45 } on-error={}
@@ -206,6 +217,15 @@
 :do { add list=SN address=2a14:2d45:cb00::/40 } on-error={}
 :do { add list=SN address=2a14:67c2:86b::/48 } on-error={}
 :do { add list=SN address=2a14:7580:cfcc::/48 } on-error={}
+:do { add list=SN address=2a14:7581:b10:c600::/56 } on-error={}
+:do { add list=SN address=2a14:7581:b11:c600::/56 } on-error={}
+:do { add list=SN address=2a14:7581:b12:c600::/56 } on-error={}
+:do { add list=SN address=2a14:7581:b13:c600::/56 } on-error={}
+:do { add list=SN address=2a14:7581:b14:c600::/56 } on-error={}
+:do { add list=SN address=2a14:7581:b15:c600::/56 } on-error={}
+:do { add list=SN address=2a14:7581:b16:c600::/56 } on-error={}
+:do { add list=SN address=2a14:7581:b17:c600::/56 } on-error={}
+:do { add list=SN address=2a14:7581:be2:ae00::/56 } on-error={}
 :do { add list=SN address=2c0f:10a0::/32 } on-error={}
 :do { add list=SN address=2c0f:2a80:500::/40 } on-error={}
 :do { add list=SN address=2c0f:e960::/32 } on-error={}

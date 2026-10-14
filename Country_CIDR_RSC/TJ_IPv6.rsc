@@ -2,6 +2,7 @@
 /ipv6 firewall address-list
 :do { add list=TJ address=2001:678:624::/48 } on-error={}
 :do { add list=TJ address=2001:678:650::/48 } on-error={}
+:do { add list=TJ address=2001:7f8:1::a504:2861:2/128 } on-error={}
 :do { add list=TJ address=2001:7f8:59::/48 } on-error={}
 :do { add list=TJ address=2001:3786:bb03:400::/56 } on-error={}
 :do { add list=TJ address=2400:cb00:1384::/48 } on-error={}
@@ -86,6 +87,7 @@
 :do { add list=TJ address=2a06:9f81:39d9::/48 } on-error={}
 :do { add list=TJ address=2a06:9f81:43ef:dc00::/56 } on-error={}
 :do { add list=TJ address=2a06:9f81:56d9::/48 } on-error={}
+:do { add list=TJ address=2a07:d887:d900::/40 } on-error={}
 :do { add list=TJ address=2a09:3980::/32 } on-error={}
 :do { add list=TJ address=2a09:7140::/29 } on-error={}
 :do { add list=TJ address=2a09:bac1:6f80::/64 } on-error={}
@@ -105,6 +107,7 @@
 :do { add list=TJ address=2a0a:6044:f324::/48 } on-error={}
 :do { add list=TJ address=2a0a:7500::/32 } on-error={}
 :do { add list=TJ address=2a0a:f2c0::/29 } on-error={}
+:do { add list=TJ address=2a0b:4e07:3:7620::/60 } on-error={}
 :do { add list=TJ address=2a0b:6bc0::/32 } on-error={}
 :do { add list=TJ address=2a0b:6bc1::/32 } on-error={}
 :do { add list=TJ address=2a0b:6bc2::/31 } on-error={}
@@ -112,14 +115,22 @@
 :do { add list=TJ address=2a0b:ae80::/32 } on-error={}
 :do { add list=TJ address=2a0c:500:a456:b83c::27/128 } on-error={}
 :do { add list=TJ address=2a0c:500:a456:b83c::2b/128 } on-error={}
-:do { add list=TJ address=2a0c:500:a456:b83c::2d/128 } on-error={}
 :do { add list=TJ address=2a0c:d5c0::/29 } on-error={}
 :do { add list=TJ address=2a0d:2684:db::/48 } on-error={}
+:do { add list=TJ address=2a0d:5600:163::/48 } on-error={}
 :do { add list=TJ address=2a0d:9441:8800::/37 } on-error={}
 :do { add list=TJ address=2a0d:d940:900c::/48 } on-error={}
 :do { add list=TJ address=2a0e:6840::/29 } on-error={}
+:do { add list=TJ address=2a0f:1cc5:b10:db00::/56 } on-error={}
+:do { add list=TJ address=2a0f:1cc5:b11:db00::/56 } on-error={}
+:do { add list=TJ address=2a0f:1cc5:b12:db00::/56 } on-error={}
+:do { add list=TJ address=2a0f:1cc5:b13:db00::/56 } on-error={}
+:do { add list=TJ address=2a0f:1cc5:b14:db00::/56 } on-error={}
+:do { add list=TJ address=2a0f:1cc5:b15:db00::/56 } on-error={}
+:do { add list=TJ address=2a0f:1cc5:b16:db00::/56 } on-error={}
+:do { add list=TJ address=2a0f:1cc5:b17:db00::/56 } on-error={}
+:do { add list=TJ address=2a0f:6280:cefa::/48 } on-error={}
 :do { add list=TJ address=2a0f:85c1:81b:fad0::/60 } on-error={}
-:do { add list=TJ address=2a0f:9403:8d0::/44 } on-error={}
 :do { add list=TJ address=2a0f:ad80::/29 } on-error={}
 :do { add list=TJ address=2a10:500:6300::/40 } on-error={}
 :do { add list=TJ address=2a10:fa81:18da::/48 } on-error={}
@@ -193,7 +204,6 @@
 :do { add list=TJ address=2a13:1b01:ff80::/41 } on-error={}
 :do { add list=TJ address=2a13:1b02::/31 } on-error={}
 :do { add list=TJ address=2a13:1b04::/30 } on-error={}
-:do { add list=TJ address=2a13:82c4:ff28::/48 } on-error={}
 :do { add list=TJ address=2a13:9500:1e4:13f::/64 } on-error={}
 :do { add list=TJ address=2a13:a5c3:d4a8::/46 } on-error={}
 :do { add list=TJ address=2a13:aac7:10c::/46 } on-error={}
@@ -227,5 +237,13 @@
 :do { add list=TJ address=2a14:2d45:d900::/40 } on-error={}
 :do { add list=TJ address=2a14:67c2:833::/48 } on-error={}
 :do { add list=TJ address=2a14:7580:cfda::/48 } on-error={}
+:do { add list=TJ address=2a14:7581:b10:db00::/56 } on-error={}
+:do { add list=TJ address=2a14:7581:b11:db00::/56 } on-error={}
+:do { add list=TJ address=2a14:7581:b12:db00::/56 } on-error={}
+:do { add list=TJ address=2a14:7581:b13:db00::/56 } on-error={}
+:do { add list=TJ address=2a14:7581:b14:db00::/56 } on-error={}
+:do { add list=TJ address=2a14:7581:b15:db00::/56 } on-error={}
+:do { add list=TJ address=2a14:7581:b16:db00::/56 } on-error={}
+:do { add list=TJ address=2a14:7581:b17:db00::/56 } on-error={}
+:do { add list=TJ address=2a14:7581:be2:fa00::/56 } on-error={}
 :do { add list=TJ address=2a14:9500::/29 } on-error={}
-:do { add list=TJ address=2a14:c380:7bb::/48 } on-error={}

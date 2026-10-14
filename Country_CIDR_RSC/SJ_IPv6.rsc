@@ -1,6 +1,5 @@
 /log info "Loading SJ IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=SJ address=2001:67c:235c::/48 } on-error={}
 :do { add list=SJ address=2602:814:ff20::/46 } on-error={}
 :do { add list=SJ address=2606:40:16b0::/44 } on-error={}
 :do { add list=SJ address=2606:40:16c0::/44 } on-error={}
@@ -31,12 +30,22 @@
 :do { add list=SJ address=2a06:9f81:43ef:ca00::/56 } on-error={}
 :do { add list=SJ address=2a06:9f81:56c7::/48 } on-error={}
 :do { add list=SJ address=2a06:b440:198::/48 } on-error={}
+:do { add list=SJ address=2a07:d887:c700::/40 } on-error={}
 :do { add list=SJ address=2a09:bac4:638::/45 } on-error={}
 :do { add list=SJ address=2a09:bac4:1638::/45 } on-error={}
 :do { add list=SJ address=2a0a:6040:f33::/48 } on-error={}
+:do { add list=SJ address=2a0b:4e07:3:7440::/60 } on-error={}
 :do { add list=SJ address=2a0d:3341:e800::/40 } on-error={}
 :do { add list=SJ address=2a0d:3344:1240::/42 } on-error={}
 :do { add list=SJ address=2a0d:9447:3000::/37 } on-error={}
+:do { add list=SJ address=2a0f:1cc5:b10:d600::/56 } on-error={}
+:do { add list=SJ address=2a0f:1cc5:b11:d600::/56 } on-error={}
+:do { add list=SJ address=2a0f:1cc5:b12:d600::/56 } on-error={}
+:do { add list=SJ address=2a0f:1cc5:b13:d600::/56 } on-error={}
+:do { add list=SJ address=2a0f:1cc5:b14:d600::/56 } on-error={}
+:do { add list=SJ address=2a0f:1cc5:b15:d600::/56 } on-error={}
+:do { add list=SJ address=2a0f:1cc5:b16:d600::/56 } on-error={}
+:do { add list=SJ address=2a0f:1cc5:b17:d600::/56 } on-error={}
 :do { add list=SJ address=2a0f:1cc5:1f33::/48 } on-error={}
 :do { add list=SJ address=2a13:aac7:30::/44 } on-error={}
 :do { add list=SJ address=2a13:ef41:ef74::/47 } on-error={}
@@ -45,3 +54,12 @@
 :do { add list=SJ address=2a14:1c7:2800::/37 } on-error={}
 :do { add list=SJ address=2a14:2d45:c700::/40 } on-error={}
 :do { add list=SJ address=2a14:7580:cfc8::/48 } on-error={}
+:do { add list=SJ address=2a14:7581:b10:d600::/56 } on-error={}
+:do { add list=SJ address=2a14:7581:b11:d600::/56 } on-error={}
+:do { add list=SJ address=2a14:7581:b12:d600::/56 } on-error={}
+:do { add list=SJ address=2a14:7581:b13:d600::/56 } on-error={}
+:do { add list=SJ address=2a14:7581:b14:d600::/56 } on-error={}
+:do { add list=SJ address=2a14:7581:b15:d600::/56 } on-error={}
+:do { add list=SJ address=2a14:7581:b16:d600::/56 } on-error={}
+:do { add list=SJ address=2a14:7581:b17:d600::/56 } on-error={}
+:do { add list=SJ address=2a14:7581:be2:e800::/56 } on-error={}

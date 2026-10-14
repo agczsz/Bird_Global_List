@@ -21,8 +21,6 @@
 :do { add list=VA address=2607:8940:4183:fb00::/56 } on-error={}
 :do { add list=VA address=2607:8940:4250:7f00::/56 } on-error={}
 :do { add list=VA address=2607:8940:4250:9500::/56 } on-error={}
-:do { add list=VA address=2a01:b8:0:4000::/50 } on-error={}
-:do { add list=VA address=2a01:b8:0:8000::/49 } on-error={}
 :do { add list=VA address=2a01:b8:1::/48 } on-error={}
 :do { add list=VA address=2a01:b8:2::/47 } on-error={}
 :do { add list=VA address=2a01:b8:4::/46 } on-error={}
@@ -87,7 +85,6 @@
 :do { add list=VA address=2a04:4e41:408e:b000::/52 } on-error={}
 :do { add list=VA address=2a04:4e41:5220::/48 } on-error={}
 :do { add list=VA address=2a04:4e41:580b::/48 } on-error={}
-:do { add list=VA address=2a05:4140:6d::/48 } on-error={}
 :do { add list=VA address=2a05:dfc1:5af4::/48 } on-error={}
 :do { add list=VA address=2a06:9f81:39ea::/48 } on-error={}
 :do { add list=VA address=2a06:9f81:43ef:ef00::/56 } on-error={}
@@ -101,6 +98,7 @@
 :do { add list=VA address=2a06:9f81:64ae::/48 } on-error={}
 :do { add list=VA address=2a06:b440:193::/48 } on-error={}
 :do { add list=VA address=2a07:8100::/29 } on-error={}
+:do { add list=VA address=2a07:d887:ea00::/40 } on-error={}
 :do { add list=VA address=2a09:bac1:7800::/64 } on-error={}
 :do { add list=VA address=2a09:bac1:7820::/64 } on-error={}
 :do { add list=VA address=2a09:bac1:7840::/64 } on-error={}
@@ -113,8 +111,17 @@
 :do { add list=VA address=2a09:bac6:d350::/45 } on-error={}
 :do { add list=VA address=2a0a:280:13b1::/48 } on-error={}
 :do { add list=VA address=2a0a:6040:f1a::/48 } on-error={}
+:do { add list=VA address=2a0b:4e07:3:3360::/60 } on-error={}
 :do { add list=VA address=2a0d:2684:ec::/48 } on-error={}
 :do { add list=VA address=2a0e:97c0:4bed::/48 } on-error={}
+:do { add list=VA address=2a0f:1cc5:b10:6200::/56 } on-error={}
+:do { add list=VA address=2a0f:1cc5:b11:6200::/56 } on-error={}
+:do { add list=VA address=2a0f:1cc5:b12:6200::/56 } on-error={}
+:do { add list=VA address=2a0f:1cc5:b13:6200::/56 } on-error={}
+:do { add list=VA address=2a0f:1cc5:b14:6200::/56 } on-error={}
+:do { add list=VA address=2a0f:1cc5:b15:6200::/56 } on-error={}
+:do { add list=VA address=2a0f:1cc5:b16:6200::/56 } on-error={}
+:do { add list=VA address=2a0f:1cc5:b17:6200::/56 } on-error={}
 :do { add list=VA address=2a0f:1cc5:1f1a::/48 } on-error={}
 :do { add list=VA address=2a0f:6280:ca07::/48 } on-error={}
 :do { add list=VA address=2a0f:6280:cc61::/48 } on-error={}
@@ -125,7 +132,6 @@
 :do { add list=VA address=2a0f:7803:fac6:c000::/50 } on-error={}
 :do { add list=VA address=2a0f:7803:fece::/48 } on-error={}
 :do { add list=VA address=2a0f:85c1:81b:fc00::/60 } on-error={}
-:do { add list=VA address=2a0f:9403:620::/44 } on-error={}
 :do { add list=VA address=2a0f:a303:a000::/37 } on-error={}
 :do { add list=VA address=2a10:2f00:137::/48 } on-error={}
 :do { add list=VA address=2a10:ccc1:ccc1::/48 } on-error={}
@@ -137,8 +143,7 @@
 :do { add list=VA address=2a12:f382:f300::/40 } on-error={}
 :do { add list=VA address=2a13:9500:1e4:1721::/64 } on-error={}
 :do { add list=VA address=2a13:a5c3:d0b4::/46 } on-error={}
-:do { add list=VA address=2a13:a5c7:2003:4000::/50 } on-error={}
-:do { add list=VA address=2a13:a5c7:2003:8000::/49 } on-error={}
+:do { add list=VA address=2a13:a5c7:2003::/48 } on-error={}
 :do { add list=VA address=2a13:a5c7:2205::/48 } on-error={}
 :do { add list=VA address=2a13:a5c7:220a::/48 } on-error={}
 :do { add list=VA address=2a13:b487:1804::/48 } on-error={}
@@ -147,6 +152,14 @@
 :do { add list=VA address=2a14:67c1:1418::/48 } on-error={}
 :do { add list=VA address=2a14:67c1:b6ea::/48 } on-error={}
 :do { add list=VA address=2a14:67c2:843::/48 } on-error={}
-:do { add list=VA address=2a14:7580:d41::/48 } on-error={}
 :do { add list=VA address=2a14:7580:cfeb::/48 } on-error={}
+:do { add list=VA address=2a14:7581:b10:6200::/56 } on-error={}
+:do { add list=VA address=2a14:7581:b11:6200::/56 } on-error={}
+:do { add list=VA address=2a14:7581:b12:6200::/56 } on-error={}
+:do { add list=VA address=2a14:7581:b13:6200::/56 } on-error={}
+:do { add list=VA address=2a14:7581:b14:6200::/56 } on-error={}
+:do { add list=VA address=2a14:7581:b15:6200::/56 } on-error={}
+:do { add list=VA address=2a14:7581:b16:6200::/56 } on-error={}
+:do { add list=VA address=2a14:7581:b17:6200::/56 } on-error={}
+:do { add list=VA address=2a14:7581:be1:5000::/56 } on-error={}
 :do { add list=VA address=2a14:7581:3b69::/48 } on-error={}

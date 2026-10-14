@@ -20,7 +20,6 @@
 :do { add list=AI address=2602:fb92:d00::/40 } on-error={}
 :do { add list=AI address=2602:fb92:e00::/39 } on-error={}
 :do { add list=AI address=2602:fd72::/36 } on-error={}
-:do { add list=AI address=2604:a180:2000::/35 } on-error={}
 :do { add list=AI address=2605:59c0:3300::/40 } on-error={}
 :do { add list=AI address=2606:40:f01::/48 } on-error={}
 :do { add list=AI address=2606:40:f02::/47 } on-error={}
@@ -88,6 +87,7 @@
 :do { add list=AI address=2a07:68c0:4:4000::/50 } on-error={}
 :do { add list=AI address=2a07:68c0:4:8000::/49 } on-error={}
 :do { add list=AI address=2a07:68c0:ffff::/48 } on-error={}
+:do { add list=AI address=2a07:d887:400::/40 } on-error={}
 :do { add list=AI address=2a09:bac1:380::/64 } on-error={}
 :do { add list=AI address=2a09:bac1:3a0::/64 } on-error={}
 :do { add list=AI address=2a09:bac1:3c0::/64 } on-error={}
@@ -102,6 +102,7 @@
 :do { add list=AI address=2a0a:6044:f390::/45 } on-error={}
 :do { add list=AI address=2a0a:6044:f398::/46 } on-error={}
 :do { add list=AI address=2a0a:6044:f39c::/48 } on-error={}
+:do { add list=AI address=2a0b:4e07:3:6600::/60 } on-error={}
 :do { add list=AI address=2a0b:4e07:6f::/64 } on-error={}
 :do { add list=AI address=2a0b:4e07:6f:2::/63 } on-error={}
 :do { add list=AI address=2a0b:4e07:6f:4::/62 } on-error={}
@@ -122,6 +123,14 @@
 :do { add list=AI address=2a0d:9446:6000::/37 } on-error={}
 :do { add list=AI address=2a0e:4001:9ff:7::/64 } on-error={}
 :do { add list=AI address=2a0e:b107:21d8::/45 } on-error={}
+:do { add list=AI address=2a0f:1cc5:b10:be00::/56 } on-error={}
+:do { add list=AI address=2a0f:1cc5:b11:be00::/56 } on-error={}
+:do { add list=AI address=2a0f:1cc5:b12:be00::/56 } on-error={}
+:do { add list=AI address=2a0f:1cc5:b13:be00::/56 } on-error={}
+:do { add list=AI address=2a0f:1cc5:b14:be00::/56 } on-error={}
+:do { add list=AI address=2a0f:1cc5:b15:be00::/56 } on-error={}
+:do { add list=AI address=2a0f:1cc5:b16:be00::/56 } on-error={}
+:do { add list=AI address=2a0f:1cc5:b17:be00::/56 } on-error={}
 :do { add list=AI address=2a0f:7803:ff10:9c00::/54 } on-error={}
 :do { add list=AI address=2a0f:85c1:81b:f060::/60 } on-error={}
 :do { add list=AI address=2a0f:a303:6000::/37 } on-error={}
@@ -135,3 +144,14 @@
 :do { add list=AI address=2a14:2d45:400::/40 } on-error={}
 :do { add list=AI address=2a14:67c2:8a6::/48 } on-error={}
 :do { add list=AI address=2a14:7580:cf04::/48 } on-error={}
+:do { add list=AI address=2a14:7581:b10:be00::/56 } on-error={}
+:do { add list=AI address=2a14:7581:b11:be00::/56 } on-error={}
+:do { add list=AI address=2a14:7581:b12:be00::/56 } on-error={}
+:do { add list=AI address=2a14:7581:b13:be00::/56 } on-error={}
+:do { add list=AI address=2a14:7581:b14:be00::/56 } on-error={}
+:do { add list=AI address=2a14:7581:b15:be00::/56 } on-error={}
+:do { add list=AI address=2a14:7581:b16:be00::/56 } on-error={}
+:do { add list=AI address=2a14:7581:b17:be00::/56 } on-error={}
+:do { add list=AI address=2a14:7581:be2:9400::/56 } on-error={}
+:do { add list=AI address=2a14:7581:3b0e::/48 } on-error={}
+:do { add list=AI address=2a14:7584:e016::/48 } on-error={}

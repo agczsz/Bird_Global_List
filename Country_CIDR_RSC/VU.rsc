@@ -66,6 +66,7 @@
 :do { add list=VU address=172.225.245.48/28 } on-error={}
 :do { add list=VU address=180.222.208.0/22 } on-error={}
 :do { add list=VU address=183.81.137.1/32 } on-error={}
+:do { add list=VU address=183.81.137.2/32 } on-error={}
 :do { add list=VU address=183.81.137.141/32 } on-error={}
 :do { add list=VU address=185.112.134.26/32 } on-error={}
 :do { add list=VU address=198.54.100.90/31 } on-error={}
