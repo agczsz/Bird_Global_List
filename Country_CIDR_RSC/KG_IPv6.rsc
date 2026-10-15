@@ -157,6 +157,10 @@
 :do { add list=KG address=2a0f:bb80::/32 } on-error={}
 :do { add list=KG address=2a10:500:5300::/40 } on-error={}
 :do { add list=KG address=2a10:680::/32 } on-error={}
+:do { add list=KG address=2a10:24c0:ccd4::/47 } on-error={}
+:do { add list=KG address=2a10:24c0:ccd6::/48 } on-error={}
+:do { add list=KG address=2a10:24c0:f1e0::/47 } on-error={}
+:do { add list=KG address=2a10:24c0:f1e2::/48 } on-error={}
 :do { add list=KG address=2a10:fa81:1873::/48 } on-error={}
 :do { add list=KG address=2a11:29c0:3d88:261::/64 } on-error={}
 :do { add list=KG address=2a11:29c0:3d88:a51::/64 } on-error={}

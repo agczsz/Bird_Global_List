@@ -107,6 +107,8 @@
 :do { add list=BQ address=2a0f:1cc5:b16:9b00::/56 } on-error={}
 :do { add list=BQ address=2a0f:1cc5:b17:9b00::/56 } on-error={}
 :do { add list=BQ address=2a0f:a302:c000::/37 } on-error={}
+:do { add list=BQ address=2a10:24c0:81a1::/48 } on-error={}
+:do { add list=BQ address=2a10:24c0:a551::/48 } on-error={}
 :do { add list=BQ address=2a10:fa81:181d::/48 } on-error={}
 :do { add list=BQ address=2a11:29c0:3d88:4e63::/64 } on-error={}
 :do { add list=BQ address=2a11:29c0:3d88:59ce::/64 } on-error={}

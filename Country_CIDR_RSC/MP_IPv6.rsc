@@ -2,6 +2,8 @@
 /ipv6 firewall address-list
 :do { add list=MP address=2001:470:36:148::/64 } on-error={}
 :do { add list=MP address=2001:470:36:7e1::/64 } on-error={}
+:do { add list=MP address=2001:470:1f07:a11::/64 } on-error={}
+:do { add list=MP address=2001:470:1f07:a1a::/64 } on-error={}
 :do { add list=MP address=2001:470:3884::/48 } on-error={}
 :do { add list=MP address=2001:470:7615::/48 } on-error={}
 :do { add list=MP address=2001:470:ecd3::/48 } on-error={}
@@ -92,6 +94,8 @@
 :do { add list=MP address=2a0f:5707:ffa2:4000::/50 } on-error={}
 :do { add list=MP address=2a0f:5707:ffa2:8000::/49 } on-error={}
 :do { add list=MP address=2a0f:a303:4000::/37 } on-error={}
+:do { add list=MP address=2a10:24c0:4442::/48 } on-error={}
+:do { add list=MP address=2a10:24c0:63c2::/48 } on-error={}
 :do { add list=MP address=2a11:29c0:3d88:2560::/64 } on-error={}
 :do { add list=MP address=2a11:29c0:3d88:7f1f::/64 } on-error={}
 :do { add list=MP address=2a12:f381:4600::/40 } on-error={}

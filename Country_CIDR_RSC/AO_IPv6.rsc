@@ -173,6 +173,10 @@
 :do { add list=AO address=2a0f:6280:cef2::/48 } on-error={}
 :do { add list=AO address=2a0f:85c1:81b:f050::/60 } on-error={}
 :do { add list=AO address=2a10:500:b00::/40 } on-error={}
+:do { add list=AO address=2a10:24c0:8334::/47 } on-error={}
+:do { add list=AO address=2a10:24c0:8336::/48 } on-error={}
+:do { add list=AO address=2a10:24c0:a598::/47 } on-error={}
+:do { add list=AO address=2a10:24c0:a59a::/48 } on-error={}
 :do { add list=AO address=2a10:fa81:1807::/48 } on-error={}
 :do { add list=AO address=2a11:29c0:3d88:81::/64 } on-error={}
 :do { add list=AO address=2a11:29c0:3d88:618::/64 } on-error={}

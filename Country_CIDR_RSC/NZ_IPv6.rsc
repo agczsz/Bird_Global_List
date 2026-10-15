@@ -1069,9 +1069,7 @@
 :do { add list=NZ address=2402:5e0:3::/50 } on-error={}
 :do { add list=NZ address=2402:5e0:3:8000::/50 } on-error={}
 :do { add list=NZ address=2402:7c0::/32 } on-error={}
-:do { add list=NZ address=2402:1b80:8000::/50 } on-error={}
-:do { add list=NZ address=2402:1b80:8080::/50 } on-error={}
-:do { add list=NZ address=2402:1b80:8081::/50 } on-error={}
+:do { add list=NZ address=2402:1b80:8000::/36 } on-error={}
 :do { add list=NZ address=2402:1c00::/32 } on-error={}
 :do { add list=NZ address=2402:1f00:8400::/50 } on-error={}
 :do { add list=NZ address=2402:1f20::/32 } on-error={}
@@ -4145,6 +4143,7 @@
 :do { add list=NZ address=2a09:bac0:1000:1880::/64 } on-error={}
 :do { add list=NZ address=2a09:bac0:1000:18ae::/64 } on-error={}
 :do { add list=NZ address=2a09:bac0:1000:192b::/64 } on-error={}
+:do { add list=NZ address=2a09:bac0:1000:19c7::/64 } on-error={}
 :do { add list=NZ address=2a09:bac0:1001:76::/64 } on-error={}
 :do { add list=NZ address=2a09:bac0:1001:165::/64 } on-error={}
 :do { add list=NZ address=2a09:bac0:1001:187::/64 } on-error={}
@@ -5536,6 +5535,14 @@
 :do { add list=NZ address=2a0b:e43:2000::/35 } on-error={}
 :do { add list=NZ address=2a0b:e43:4000::/34 } on-error={}
 :do { add list=NZ address=2a0b:e43:8000::/33 } on-error={}
+:do { add list=NZ address=2a0b:e44::/48 } on-error={}
+:do { add list=NZ address=2a0b:e44:9::/48 } on-error={}
+:do { add list=NZ address=2a0b:e44:a::/47 } on-error={}
+:do { add list=NZ address=2a0b:e44:c::/46 } on-error={}
+:do { add list=NZ address=2a0b:e44:10::/44 } on-error={}
+:do { add list=NZ address=2a0b:e44:20::/43 } on-error={}
+:do { add list=NZ address=2a0b:e44:40::/42 } on-error={}
+:do { add list=NZ address=2a0b:e44:80::/41 } on-error={}
 :do { add list=NZ address=2a0b:e44:100::/40 } on-error={}
 :do { add list=NZ address=2a0b:e44:200::/39 } on-error={}
 :do { add list=NZ address=2a0b:e44:400::/38 } on-error={}
@@ -5671,6 +5678,8 @@
 :do { add list=NZ address=2a0f:1cc5:1d72::/48 } on-error={}
 :do { add list=NZ address=2a0f:1cc5:1fe2::/48 } on-error={}
 :do { add list=NZ address=2a0f:6280:18::/48 } on-error={}
+:do { add list=NZ address=2a0f:6280:1061::/48 } on-error={}
+:do { add list=NZ address=2a0f:6280:1062::/48 } on-error={}
 :do { add list=NZ address=2a0f:6280:1480::/44 } on-error={}
 :do { add list=NZ address=2a0f:6280:ce9c::/48 } on-error={}
 :do { add list=NZ address=2a0f:6284:3500::/43 } on-error={}
@@ -5702,6 +5711,10 @@
 :do { add list=NZ address=2a0f:e385::/32 } on-error={}
 :do { add list=NZ address=2a10:500:b700::/40 } on-error={}
 :do { add list=NZ address=2a10:1d84::/32 } on-error={}
+:do { add list=NZ address=2a10:24c0:1120::/47 } on-error={}
+:do { add list=NZ address=2a10:24c0:1122::/48 } on-error={}
+:do { add list=NZ address=2a10:24c0:3720::/47 } on-error={}
+:do { add list=NZ address=2a10:24c0:3722::/48 } on-error={}
 :do { add list=NZ address=2a10:ccc3:1302::/47 } on-error={}
 :do { add list=NZ address=2a10:ccc3:1304::/46 } on-error={}
 :do { add list=NZ address=2a10:ccc3:130a::/47 } on-error={}

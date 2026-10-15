@@ -1,6 +1,7 @@
 /log info "Loading LA IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=LA address=2001:470:19:6ec::/64 } on-error={}
+:do { add list=LA address=2001:470:36:39b::/64 } on-error={}
 :do { add list=LA address=2001:470:691c::/48 } on-error={}
 :do { add list=LA address=2001:470:7599::/48 } on-error={}
 :do { add list=LA address=2001:470:75ac::/48 } on-error={}
@@ -104,6 +105,18 @@
 :do { add list=LA address=2606:8e00:5000::/47 } on-error={}
 :do { add list=LA address=2606:9606:5000::/47 } on-error={}
 :do { add list=LA address=2606:9607:5000::/47 } on-error={}
+:do { add list=LA address=2607:740:74::/52 } on-error={}
+:do { add list=LA address=2607:740:74:1010::/60 } on-error={}
+:do { add list=LA address=2607:740:74:1020::/59 } on-error={}
+:do { add list=LA address=2607:740:74:1040::/58 } on-error={}
+:do { add list=LA address=2607:740:74:1080::/57 } on-error={}
+:do { add list=LA address=2607:740:74:1100::/56 } on-error={}
+:do { add list=LA address=2607:740:74:1200::/55 } on-error={}
+:do { add list=LA address=2607:740:74:1400::/54 } on-error={}
+:do { add list=LA address=2607:740:74:1800::/53 } on-error={}
+:do { add list=LA address=2607:740:74:2000::/51 } on-error={}
+:do { add list=LA address=2607:740:74:4000::/50 } on-error={}
+:do { add list=LA address=2607:740:74:8000::/49 } on-error={}
 :do { add list=LA address=2607:6b80:38:4000::/50 } on-error={}
 :do { add list=LA address=2607:6b80:38:8000::/49 } on-error={}
 :do { add list=LA address=2607:6b80:74::/48 } on-error={}
@@ -193,6 +206,10 @@
 :do { add list=LA address=2a0f:85c1:81b:f610::/60 } on-error={}
 :do { add list=LA address=2a0f:a300:a800::/37 } on-error={}
 :do { add list=LA address=2a10:500:5400::/40 } on-error={}
+:do { add list=LA address=2a10:24c0:c24::/47 } on-error={}
+:do { add list=LA address=2a10:24c0:c26::/48 } on-error={}
+:do { add list=LA address=2a10:24c0:3254::/47 } on-error={}
+:do { add list=LA address=2a10:24c0:3256::/48 } on-error={}
 :do { add list=LA address=2a10:fa81:187d::/48 } on-error={}
 :do { add list=LA address=2a11:29c0:3d88:19a4::/64 } on-error={}
 :do { add list=LA address=2a11:29c0:3d88:1ab8::/64 } on-error={}

@@ -131,6 +131,10 @@
 :do { add list=ET address=2a0f:85c1:81b:f3d0::/60 } on-error={}
 :do { add list=ET address=2a0f:a300:e000::/37 } on-error={}
 :do { add list=ET address=2a10:500:1b00::/40 } on-error={}
+:do { add list=ET address=2a10:24c0:8e8::/47 } on-error={}
+:do { add list=ET address=2a10:24c0:8ea::/48 } on-error={}
+:do { add list=ET address=2a10:24c0:2cf0::/47 } on-error={}
+:do { add list=ET address=2a10:24c0:2cf2::/48 } on-error={}
 :do { add list=ET address=2a10:fa81:1844::/48 } on-error={}
 :do { add list=ET address=2a11:29c0:3d88:4d1::/64 } on-error={}
 :do { add list=ET address=2a11:29c0:3d88:537::/64 } on-error={}

@@ -274,6 +274,8 @@
 :do { add list=SM address=2a0f:6280:ccc0::/43 } on-error={}
 :do { add list=SM address=2a0f:85c1:81b:f970::/60 } on-error={}
 :do { add list=SM address=2a0f:a302:8800::/37 } on-error={}
+:do { add list=SM address=2a10:24c0:2c5::/48 } on-error={}
+:do { add list=SM address=2a10:24c0:248d::/48 } on-error={}
 :do { add list=SM address=2a10:fa81:18cb::/48 } on-error={}
 :do { add list=SM address=2a11:29c0:3d88:2074::/64 } on-error={}
 :do { add list=SM address=2a11:29c0:3d88:2c35::/64 } on-error={}

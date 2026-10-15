@@ -102,6 +102,10 @@
 :do { add list=ML address=2a0f:85c1:81b:f6e0::/60 } on-error={}
 :do { add list=ML address=2a0f:a302:2000::/37 } on-error={}
 :do { add list=ML address=2a10:500:2800::/40 } on-error={}
+:do { add list=ML address=2a10:24c0:8cc8::/47 } on-error={}
+:do { add list=ML address=2a10:24c0:8cca::/48 } on-error={}
+:do { add list=ML address=2a10:24c0:adfc::/47 } on-error={}
+:do { add list=ML address=2a10:24c0:adfe::/48 } on-error={}
 :do { add list=ML address=2a10:ccc1:10b::/48 } on-error={}
 :do { add list=ML address=2a10:fa81:1890::/48 } on-error={}
 :do { add list=ML address=2a11:29c0:3d88:1125::/64 } on-error={}

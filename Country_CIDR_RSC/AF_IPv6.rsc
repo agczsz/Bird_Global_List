@@ -279,6 +279,10 @@
 :do { add list=AF address=2a0f:85c1:81b:f000::/60 } on-error={}
 :do { add list=AF address=2a0f:a300:c000::/37 } on-error={}
 :do { add list=AF address=2a10:500:3f00::/40 } on-error={}
+:do { add list=AF address=2a10:24c0:c510::/47 } on-error={}
+:do { add list=AF address=2a10:24c0:c512::/48 } on-error={}
+:do { add list=AF address=2a10:24c0:e680::/47 } on-error={}
+:do { add list=AF address=2a10:24c0:e682::/48 } on-error={}
 :do { add list=AF address=2a10:fa81:1802::/48 } on-error={}
 :do { add list=AF address=2a11:29c0:3d88:45::/64 } on-error={}
 :do { add list=AF address=2a11:29c0:3d88:42c::/64 } on-error={}

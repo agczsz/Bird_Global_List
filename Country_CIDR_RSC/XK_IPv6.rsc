@@ -2,6 +2,7 @@
 /ipv6 firewall address-list
 :do { add list=XK address=2001:7f8:16a::/48 } on-error={}
 :do { add list=XK address=2001:3a80::/29 } on-error={}
+:do { add list=XK address=2400:cb00:1415::/48 } on-error={}
 :do { add list=XK address=2607:8940:3792::/47 } on-error={}
 :do { add list=XK address=2607:8940:3794::/47 } on-error={}
 :do { add list=XK address=2607:8940:4170:f100::/56 } on-error={}

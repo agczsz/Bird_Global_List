@@ -307,6 +307,10 @@
 :do { add list=EG address=2a0f:85c1:81b:f370::/60 } on-error={}
 :do { add list=EG address=2a0f:9400:7120::/44 } on-error={}
 :do { add list=EG address=2a10:500:1800::/40 } on-error={}
+:do { add list=EG address=2a10:24c0:8f78::/46 } on-error={}
+:do { add list=EG address=2a10:24c0:8f7c::/47 } on-error={}
+:do { add list=EG address=2a10:24c0:ce78::/46 } on-error={}
+:do { add list=EG address=2a10:24c0:ce7c::/47 } on-error={}
 :do { add list=EG address=2a10:fa81:1840::/48 } on-error={}
 :do { add list=EG address=2a11:6c1:1::/48 } on-error={}
 :do { add list=EG address=2a11:29c0:3d88:48::/64 } on-error={}

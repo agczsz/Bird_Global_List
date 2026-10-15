@@ -117,6 +117,10 @@
 :do { add list=GY address=2a0f:1cc5:1f83::/48 } on-error={}
 :do { add list=GY address=2a0f:85c1:81b:f4b0::/60 } on-error={}
 :do { add list=GY address=2a10:500:c500::/40 } on-error={}
+:do { add list=GY address=2a10:24c0:cb60::/47 } on-error={}
+:do { add list=GY address=2a10:24c0:cb62::/48 } on-error={}
+:do { add list=GY address=2a10:24c0:f090::/47 } on-error={}
+:do { add list=GY address=2a10:24c0:f092::/48 } on-error={}
 :do { add list=GY address=2a10:fa81:185d::/48 } on-error={}
 :do { add list=GY address=2a11:29c0:3d88:c210::/64 } on-error={}
 :do { add list=GY address=2a11:29c0:3d88:ea9b::/64 } on-error={}

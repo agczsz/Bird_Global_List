@@ -62,8 +62,6 @@
 :do { add list=JE address=46.31.240.244/32 } on-error={}
 :do { add list=JE address=46.31.241.0/24 } on-error={}
 :do { add list=JE address=46.31.242.0/23 } on-error={}
-:do { add list=JE address=46.31.244.0/26 } on-error={}
-:do { add list=JE address=46.31.244.64/27 } on-error={}
 :do { add list=JE address=46.31.244.128/25 } on-error={}
 :do { add list=JE address=46.31.245.0/24 } on-error={}
 :do { add list=JE address=46.31.246.0/23 } on-error={}
@@ -211,7 +209,7 @@
 :do { add list=JE address=93.189.162.128/25 } on-error={}
 :do { add list=JE address=93.189.163.0/24 } on-error={}
 :do { add list=JE address=93.189.164.0/23 } on-error={}
-:do { add list=JE address=93.189.166.0/25 } on-error={}
+:do { add list=JE address=93.189.166.0/24 } on-error={}
 :do { add list=JE address=93.189.167.0/27 } on-error={}
 :do { add list=JE address=93.189.167.32/28 } on-error={}
 :do { add list=JE address=93.191.200.0/21 } on-error={}
@@ -380,6 +378,19 @@
 :do { add list=JE address=195.226.152.236/30 } on-error={}
 :do { add list=JE address=195.226.152.240/28 } on-error={}
 :do { add list=JE address=195.226.153.0/24 } on-error={}
+:do { add list=JE address=195.226.154.71/32 } on-error={}
+:do { add list=JE address=195.226.154.75/32 } on-error={}
+:do { add list=JE address=195.226.154.76/32 } on-error={}
+:do { add list=JE address=195.226.154.78/31 } on-error={}
+:do { add list=JE address=195.226.154.80/30 } on-error={}
+:do { add list=JE address=195.226.154.88/31 } on-error={}
+:do { add list=JE address=195.226.154.92/31 } on-error={}
+:do { add list=JE address=195.226.154.103/32 } on-error={}
+:do { add list=JE address=195.226.154.107/32 } on-error={}
+:do { add list=JE address=195.226.154.116/32 } on-error={}
+:do { add list=JE address=195.226.154.118/31 } on-error={}
+:do { add list=JE address=195.226.154.121/32 } on-error={}
+:do { add list=JE address=195.226.154.124/30 } on-error={}
 :do { add list=JE address=195.226.154.128/25 } on-error={}
 :do { add list=JE address=195.226.155.0/25 } on-error={}
 :do { add list=JE address=195.226.155.128/26 } on-error={}

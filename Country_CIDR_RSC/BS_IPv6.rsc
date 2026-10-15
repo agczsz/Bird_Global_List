@@ -987,6 +987,10 @@
 :do { add list=BS address=2a0f:ca80:deed:71::/64 } on-error={}
 :do { add list=BS address=2a0f:ca81:deed:4e::/64 } on-error={}
 :do { add list=BS address=2a10:500:9b00::/40 } on-error={}
+:do { add list=BS address=2a10:24c0:c668::/47 } on-error={}
+:do { add list=BS address=2a10:24c0:c66a::/48 } on-error={}
+:do { add list=BS address=2a10:24c0:ea28::/47 } on-error={}
+:do { add list=BS address=2a10:24c0:ea2a::/48 } on-error={}
 :do { add list=BS address=2a10:fa81:181f::/48 } on-error={}
 :do { add list=BS address=2a11:29c0:3d88:9cf::/64 } on-error={}
 :do { add list=BS address=2a11:29c0:3d88:2c89::/64 } on-error={}

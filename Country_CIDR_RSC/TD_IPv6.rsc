@@ -107,6 +107,10 @@
 :do { add list=TD address=2a0f:1cc5:b17:2a00::/56 } on-error={}
 :do { add list=TD address=2a0f:85c1:81b:f260::/60 } on-error={}
 :do { add list=TD address=2a0f:a302:f800::/37 } on-error={}
+:do { add list=TD address=2a10:24c0:1408::/47 } on-error={}
+:do { add list=TD address=2a10:24c0:140a::/48 } on-error={}
+:do { add list=TD address=2a10:24c0:3920::/47 } on-error={}
+:do { add list=TD address=2a10:24c0:3922::/48 } on-error={}
 :do { add list=TD address=2a10:fa81:18d6::/48 } on-error={}
 :do { add list=TD address=2a11:29c0:3d88:b85::/64 } on-error={}
 :do { add list=TD address=2a11:29c0:3d88:2037::/64 } on-error={}

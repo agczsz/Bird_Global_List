@@ -528,6 +528,10 @@
 :do { add list=GH address=2a0f:85c1:81b:f450::/60 } on-error={}
 :do { add list=GH address=2a0f:a300:9800::/37 } on-error={}
 :do { add list=GH address=2a10:500:1e00::/40 } on-error={}
+:do { add list=GH address=2a10:24c0:8904::/47 } on-error={}
+:do { add list=GH address=2a10:24c0:8906::/48 } on-error={}
+:do { add list=GH address=2a10:24c0:a97c::/47 } on-error={}
+:do { add list=GH address=2a10:24c0:a97e::/48 } on-error={}
 :do { add list=GH address=2a10:fa81:1851::/48 } on-error={}
 :do { add list=GH address=2a11:29c0:3d88:cf::/64 } on-error={}
 :do { add list=GH address=2a11:29c0:3d88:7b3::/64 } on-error={}

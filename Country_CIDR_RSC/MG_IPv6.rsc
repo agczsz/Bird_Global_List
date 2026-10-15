@@ -182,6 +182,10 @@
 :do { add list=MG address=2a0f:1cc5:b17:8200::/56 } on-error={}
 :do { add list=MG address=2a0f:85c1:81b:f6a0::/60 } on-error={}
 :do { add list=MG address=2a10:500:2600::/40 } on-error={}
+:do { add list=MG address=2a10:24c0:cc8::/47 } on-error={}
+:do { add list=MG address=2a10:24c0:cca::/48 } on-error={}
+:do { add list=MG address=2a10:24c0:33e8::/47 } on-error={}
+:do { add list=MG address=2a10:24c0:33ea::/48 } on-error={}
 :do { add list=MG address=2a10:fa81:188d::/48 } on-error={}
 :do { add list=MG address=2a11:29c0:3d88:16e::/64 } on-error={}
 :do { add list=MG address=2a11:29c0:3d88:87f::/64 } on-error={}

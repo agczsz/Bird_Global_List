@@ -104,6 +104,8 @@
 :do { add list=ST address=2a0f:1cc5:b17:c400::/56 } on-error={}
 :do { add list=ST address=2a0f:85c1:81b:f980::/60 } on-error={}
 :do { add list=ST address=2a0f:a302:7000::/37 } on-error={}
+:do { add list=ST address=2a10:24c0:59ba::/48 } on-error={}
+:do { add list=ST address=2a10:24c0:7aee::/48 } on-error={}
 :do { add list=ST address=2a11:29c0:3d88:343::/64 } on-error={}
 :do { add list=ST address=2a11:29c0:3d88:216b::/64 } on-error={}
 :do { add list=ST address=2a11:29c0:3d88:3121::/64 } on-error={}

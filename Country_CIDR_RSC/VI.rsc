@@ -2,14 +2,15 @@
 /ip firewall address-list
 :do { add list=VI address=3.143.20.109/32 } on-error={}
 :do { add list=VI address=9.170.186.0/23 } on-error={}
-:do { add list=VI address=12.204.8.16/29 } on-error={}
-:do { add list=VI address=12.204.8.80/29 } on-error={}
-:do { add list=VI address=12.204.8.160/29 } on-error={}
-:do { add list=VI address=12.204.9.64/29 } on-error={}
-:do { add list=VI address=12.204.13.112/29 } on-error={}
-:do { add list=VI address=12.204.13.152/29 } on-error={}
 :do { add list=VI address=23.143.120.0/24 } on-error={}
-:do { add list=VI address=24.41.133.21/32 } on-error={}
+:do { add list=VI address=24.41.133.0/27 } on-error={}
+:do { add list=VI address=24.41.133.32/28 } on-error={}
+:do { add list=VI address=24.41.133.48/30 } on-error={}
+:do { add list=VI address=24.41.133.52/31 } on-error={}
+:do { add list=VI address=24.41.133.55/32 } on-error={}
+:do { add list=VI address=24.41.133.56/29 } on-error={}
+:do { add list=VI address=24.41.133.64/26 } on-error={}
+:do { add list=VI address=24.41.133.128/25 } on-error={}
 :do { add list=VI address=24.41.242.0/26 } on-error={}
 :do { add list=VI address=24.55.69.0/24 } on-error={}
 :do { add list=VI address=24.55.160.0/24 } on-error={}
@@ -124,6 +125,8 @@
 :do { add list=VI address=192.81.72.0/23 } on-error={}
 :do { add list=VI address=192.102.82.0/24 } on-error={}
 :do { add list=VI address=198.36.28.0/22 } on-error={}
+:do { add list=VI address=199.27.96.173/32 } on-error={}
+:do { add list=VI address=199.27.96.212/32 } on-error={}
 :do { add list=VI address=199.76.12.0/22 } on-error={}
 :do { add list=VI address=199.76.38.0/23 } on-error={}
 :do { add list=VI address=199.77.132.0/22 } on-error={}

@@ -210,6 +210,10 @@
 :do { add list=BJ address=2a0f:85c1:81b:f160::/60 } on-error={}
 :do { add list=BJ address=2a0f:a301:e000::/37 } on-error={}
 :do { add list=BJ address=2a10:500:c00::/40 } on-error={}
+:do { add list=BJ address=2a10:24c0:4b4::/47 } on-error={}
+:do { add list=BJ address=2a10:24c0:4b6::/48 } on-error={}
+:do { add list=BJ address=2a10:24c0:2720::/47 } on-error={}
+:do { add list=BJ address=2a10:24c0:2722::/48 } on-error={}
 :do { add list=BJ address=2a10:fa81:1818::/48 } on-error={}
 :do { add list=BJ address=2a11:29c0:3d88:324::/64 } on-error={}
 :do { add list=BJ address=2a11:29c0:3d88:1e3f::/64 } on-error={}

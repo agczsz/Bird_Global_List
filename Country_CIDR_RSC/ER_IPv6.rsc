@@ -99,6 +99,10 @@
 :do { add list=ER address=2a0f:85c1:81b:f3a0::/60 } on-error={}
 :do { add list=ER address=2a0f:a303:8000::/37 } on-error={}
 :do { add list=ER address=2a10:500:1a00::/40 } on-error={}
+:do { add list=ER address=2a10:24c0:c7fc::/47 } on-error={}
+:do { add list=ER address=2a10:24c0:c7fe::/48 } on-error={}
+:do { add list=ER address=2a10:24c0:ed5c::/47 } on-error={}
+:do { add list=ER address=2a10:24c0:ed5e::/48 } on-error={}
 :do { add list=ER address=2a10:fa81:1842::/48 } on-error={}
 :do { add list=ER address=2a11:29c0:3d88:2a3e::/64 } on-error={}
 :do { add list=ER address=2a11:29c0:3d88:8c45::/64 } on-error={}

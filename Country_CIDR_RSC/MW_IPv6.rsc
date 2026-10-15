@@ -144,6 +144,10 @@
 :do { add list=MW address=2a0f:85c1:81b:f6b0::/60 } on-error={}
 :do { add list=MW address=2a0f:a301:b000::/37 } on-error={}
 :do { add list=MW address=2a10:500:2700::/40 } on-error={}
+:do { add list=MW address=2a10:24c0:8ddc::/47 } on-error={}
+:do { add list=MW address=2a10:24c0:8dde::/48 } on-error={}
+:do { add list=MW address=2a10:24c0:ae18::/47 } on-error={}
+:do { add list=MW address=2a10:24c0:ae1a::/48 } on-error={}
 :do { add list=MW address=2a10:ccc1:10f::/48 } on-error={}
 :do { add list=MW address=2a10:fa81:189b::/48 } on-error={}
 :do { add list=MW address=2a11:29c0:3d88:12f9::/64 } on-error={}

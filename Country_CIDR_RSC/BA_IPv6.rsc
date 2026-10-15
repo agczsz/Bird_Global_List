@@ -1,5 +1,28 @@
 /log info "Loading BA IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=BA address=2001:470:24:7ea::/64 } on-error={}
+:do { add list=BA address=2001:470:6d:1065::/64 } on-error={}
+:do { add list=BA address=2001:470:1f13:727::/64 } on-error={}
+:do { add list=BA address=2001:470:1f1b:1f8::/64 } on-error={}
+:do { add list=BA address=2001:470:1f1b:274::/64 } on-error={}
+:do { add list=BA address=2001:470:1f1b:297::/64 } on-error={}
+:do { add list=BA address=2001:470:207d::/48 } on-error={}
+:do { add list=BA address=2001:470:2142::/48 } on-error={}
+:do { add list=BA address=2001:470:2192::/48 } on-error={}
+:do { add list=BA address=2001:470:21d1::/48 } on-error={}
+:do { add list=BA address=2001:470:224a::/48 } on-error={}
+:do { add list=BA address=2001:470:5539::/48 } on-error={}
+:do { add list=BA address=2001:470:7082::/48 } on-error={}
+:do { add list=BA address=2001:470:70cb::/48 } on-error={}
+:do { add list=BA address=2001:470:7565::/48 } on-error={}
+:do { add list=BA address=2001:470:7955::/48 } on-error={}
+:do { add list=BA address=2001:470:98be::/48 } on-error={}
+:do { add list=BA address=2001:470:b4fd::/48 } on-error={}
+:do { add list=BA address=2001:470:efa1::/48 } on-error={}
+:do { add list=BA address=2001:470:f069::/48 } on-error={}
+:do { add list=BA address=2001:470:f81f::/48 } on-error={}
+:do { add list=BA address=2001:470:f877::/48 } on-error={}
+:do { add list=BA address=2001:470:fd85::/48 } on-error={}
 :do { add list=BA address=2001:668:1f:fe62::/64 } on-error={}
 :do { add list=BA address=2001:678:1108::/48 } on-error={}
 :do { add list=BA address=2001:7f8:d7::/48 } on-error={}
@@ -91,6 +114,7 @@
 :do { add list=BA address=2405:b500:a20::/64 } on-error={}
 :do { add list=BA address=2405:b500:a40::/64 } on-error={}
 :do { add list=BA address=2405:b500:a60::/64 } on-error={}
+:do { add list=BA address=2600:70ff:a5e2::/48 } on-error={}
 :do { add list=BA address=2602:814:fc40::/46 } on-error={}
 :do { add list=BA address=2602:f7c8:105::/48 } on-error={}
 :do { add list=BA address=2602:f7c8:106::/47 } on-error={}
@@ -252,6 +276,7 @@
 :do { add list=BA address=2a09:bac4:1080::/45 } on-error={}
 :do { add list=BA address=2a09:bac5:470::/45 } on-error={}
 :do { add list=BA address=2a09:bac6:470::/45 } on-error={}
+:do { add list=BA address=2a09:be87:5380::/41 } on-error={}
 :do { add list=BA address=2a0a:280:1387::/48 } on-error={}
 :do { add list=BA address=2a0a:ac0::/29 } on-error={}
 :do { add list=BA address=2a0a:6040:f2a::/48 } on-error={}
@@ -279,6 +304,10 @@
 :do { add list=BA address=2a0f:85c1:340::69:0/112 } on-error={}
 :do { add list=BA address=2a0f:85c1:81b:f1a0::/60 } on-error={}
 :do { add list=BA address=2a10:500:7200::/40 } on-error={}
+:do { add list=BA address=2a10:24c0:8370::/47 } on-error={}
+:do { add list=BA address=2a10:24c0:8372::/48 } on-error={}
+:do { add list=BA address=2a10:24c0:a618::/47 } on-error={}
+:do { add list=BA address=2a10:24c0:a61a::/48 } on-error={}
 :do { add list=BA address=2a10:fa81:1810::/48 } on-error={}
 :do { add list=BA address=2a11:29c0:3d88:1a2::/64 } on-error={}
 :do { add list=BA address=2a11:29c0:3d88:309::/64 } on-error={}

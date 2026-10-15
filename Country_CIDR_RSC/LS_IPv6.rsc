@@ -123,6 +123,10 @@
 :do { add list=LS address=2a0f:85c1:81b:f640::/60 } on-error={}
 :do { add list=LS address=2a0f:a302:c800::/37 } on-error={}
 :do { add list=LS address=2a10:500:2300::/40 } on-error={}
+:do { add list=LS address=2a10:24c0:c3c::/47 } on-error={}
+:do { add list=LS address=2a10:24c0:c3e::/48 } on-error={}
+:do { add list=LS address=2a10:24c0:330c::/47 } on-error={}
+:do { add list=LS address=2a10:24c0:330e::/48 } on-error={}
 :do { add list=LS address=2a10:ccc1:10a::/48 } on-error={}
 :do { add list=LS address=2a10:fa81:1883::/48 } on-error={}
 :do { add list=LS address=2a11:29c0:3d88:20e4::/64 } on-error={}

@@ -910,6 +910,10 @@
 :do { add list=BO address=2a0f:ca80:deed:55::/64 } on-error={}
 :do { add list=BO address=2a0f:ca81:deed:29::/64 } on-error={}
 :do { add list=BO address=2a10:500:c000::/40 } on-error={}
+:do { add list=BO address=2a10:24c0:83d0::/47 } on-error={}
+:do { add list=BO address=2a10:24c0:83d2::/48 } on-error={}
+:do { add list=BO address=2a10:24c0:a6d4::/47 } on-error={}
+:do { add list=BO address=2a10:24c0:a6d6::/48 } on-error={}
 :do { add list=BO address=2a10:fa81:181c::/48 } on-error={}
 :do { add list=BO address=2a11:840:55::/48 } on-error={}
 :do { add list=BO address=2a11:29c0:3d88:e4::/64 } on-error={}

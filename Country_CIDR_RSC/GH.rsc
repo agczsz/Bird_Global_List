@@ -70,7 +70,7 @@
 :do { add list=GH address=41.207.252.144/28 } on-error={}
 :do { add list=GH address=41.207.252.160/27 } on-error={}
 :do { add list=GH address=41.207.252.192/28 } on-error={}
-:do { add list=GH address=41.207.252.209/32 } on-error={}
+:do { add list=GH address=41.207.252.208/30 } on-error={}
 :do { add list=GH address=41.207.252.216/29 } on-error={}
 :do { add list=GH address=41.207.252.224/27 } on-error={}
 :do { add list=GH address=41.207.253.0/29 } on-error={}

@@ -1049,6 +1049,8 @@
 :do { add list=IM address=2a0f:1cc5:b17:ee00::/56 } on-error={}
 :do { add list=IM address=2a0f:6283:b000::/36 } on-error={}
 :do { add list=IM address=2a0f:a302:d800::/37 } on-error={}
+:do { add list=IM address=2a10:24c0:c445::/48 } on-error={}
+:do { add list=IM address=2a10:24c0:e51d::/48 } on-error={}
 :do { add list=IM address=2a11:29c0:3d88:33e2::/64 } on-error={}
 :do { add list=IM address=2a11:29c0:3d88:acfa::/64 } on-error={}
 :do { add list=IM address=2a12:bec0:392::/48 } on-error={}

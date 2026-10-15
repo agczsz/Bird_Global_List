@@ -274,6 +274,10 @@
 :do { add list=KW address=2a0f:85c1:d9a::/48 } on-error={}
 :do { add list=KW address=2a0f:a300:6000::/37 } on-error={}
 :do { add list=KW address=2a10:500:5200::/40 } on-error={}
+:do { add list=KW address=2a10:24c0:cd20::/47 } on-error={}
+:do { add list=KW address=2a10:24c0:cd22::/48 } on-error={}
+:do { add list=KW address=2a10:24c0:f28c::/47 } on-error={}
+:do { add list=KW address=2a10:24c0:f28e::/48 } on-error={}
 :do { add list=KW address=2a10:be80::/29 } on-error={}
 :do { add list=KW address=2a10:fa81:187a::/48 } on-error={}
 :do { add list=KW address=2a11:29c0:3d88:1017::/64 } on-error={}

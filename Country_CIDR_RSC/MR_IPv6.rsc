@@ -99,6 +99,10 @@
 :do { add list=MR address=2a0f:85c1:81b:f710::/60 } on-error={}
 :do { add list=MR address=2a0f:a301:f000::/37 } on-error={}
 :do { add list=MR address=2a10:500:2900::/40 } on-error={}
+:do { add list=MR address=2a10:24c0:cf78::/47 } on-error={}
+:do { add list=MR address=2a10:24c0:cf7a::/48 } on-error={}
+:do { add list=MR address=2a10:24c0:f634::/47 } on-error={}
+:do { add list=MR address=2a10:24c0:f636::/48 } on-error={}
 :do { add list=MR address=2a11:29c0:3d88:474a::/64 } on-error={}
 :do { add list=MR address=2a11:29c0:3d88:5e92::/64 } on-error={}
 :do { add list=MR address=2a11:29c0:3d88:5f02::/64 } on-error={}

@@ -103,6 +103,10 @@
 :do { add list=SB address=2a0f:9400:616c::/48 } on-error={}
 :do { add list=SB address=2a0f:a303:c800::/37 } on-error={}
 :do { add list=SB address=2a10:500:bb00::/40 } on-error={}
+:do { add list=SB address=2a10:24c0:8f60::/47 } on-error={}
+:do { add list=SB address=2a10:24c0:8f62::/48 } on-error={}
+:do { add list=SB address=2a10:24c0:b0b0::/47 } on-error={}
+:do { add list=SB address=2a10:24c0:b0b2::/48 } on-error={}
 :do { add list=SB address=2a10:fa81:18c1::/48 } on-error={}
 :do { add list=SB address=2a11:29c0:3d88:60bb::/64 } on-error={}
 :do { add list=SB address=2a11:29c0:3d88:c2ed::/64 } on-error={}

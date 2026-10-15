@@ -1913,6 +1913,10 @@
 :do { add list=NG address=2a0f:85c1:81b:f830::/60 } on-error={}
 :do { add list=NG address=2a0f:a300:b000::/37 } on-error={}
 :do { add list=NG address=2a0f:e381::/32 } on-error={}
+:do { add list=NG address=2a10:24c0:a380::/46 } on-error={}
+:do { add list=NG address=2a10:24c0:a384::/47 } on-error={}
+:do { add list=NG address=2a10:24c0:c058::/46 } on-error={}
+:do { add list=NG address=2a10:24c0:c05c::/47 } on-error={}
 :do { add list=NG address=2a10:fa81:18a3::/48 } on-error={}
 :do { add list=NG address=2a11:840:13::/48 } on-error={}
 :do { add list=NG address=2a11:29c0:3d88:6::/64 } on-error={}

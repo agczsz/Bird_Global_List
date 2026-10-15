@@ -775,6 +775,10 @@
 :do { add list=PA address=2a0f:ca80:deed:5c::/64 } on-error={}
 :do { add list=PA address=2a0f:ca81:deed:6e::/64 } on-error={}
 :do { add list=PA address=2a10:500:ab00::/40 } on-error={}
+:do { add list=PA address=2a10:24c0:8e78::/47 } on-error={}
+:do { add list=PA address=2a10:24c0:8e7a::/48 } on-error={}
+:do { add list=PA address=2a10:24c0:af30::/47 } on-error={}
+:do { add list=PA address=2a10:24c0:af32::/48 } on-error={}
 :do { add list=PA address=2a10:2f00:135::/48 } on-error={}
 :do { add list=PA address=2a10:9100::/47 } on-error={}
 :do { add list=PA address=2a10:9100:2::/48 } on-error={}

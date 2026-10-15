@@ -398,6 +398,11 @@
 :do { add list=TK address=2a03:b600:0:120c::/62 } on-error={}
 :do { add list=TK address=2a03:b600:0:1210::/61 } on-error={}
 :do { add list=TK address=2a03:b600:0:1218::/64 } on-error={}
+:do { add list=TK address=2a04:1b00::/47 } on-error={}
+:do { add list=TK address=2a04:1b00:4::/47 } on-error={}
+:do { add list=TK address=2a04:1b00:8::/47 } on-error={}
+:do { add list=TK address=2a04:1b00:c::/47 } on-error={}
+:do { add list=TK address=2a04:1b00:10::/47 } on-error={}
 :do { add list=TK address=2a04:4e41:f:48::/64 } on-error={}
 :do { add list=TK address=2a04:4e41:f:3400::/56 } on-error={}
 :do { add list=TK address=2a04:4e41:2a:c::/64 } on-error={}

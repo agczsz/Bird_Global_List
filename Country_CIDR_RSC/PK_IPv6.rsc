@@ -1,8 +1,12 @@
 /log info "Loading PK IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=PK address=2001:470:d:649::/64 } on-error={}
 :do { add list=PK address=2001:470:d:c40::/64 } on-error={}
 :do { add list=PK address=2001:470:19:fef::/64 } on-error={}
 :do { add list=PK address=2001:470:28:774::/64 } on-error={}
+:do { add list=PK address=2001:470:36:1269::/64 } on-error={}
+:do { add list=PK address=2001:470:36:126e::/64 } on-error={}
+:do { add list=PK address=2001:470:36:12d4::/64 } on-error={}
 :do { add list=PK address=2001:470:18f4::/48 } on-error={}
 :do { add list=PK address=2001:470:1f19:95::/64 } on-error={}
 :do { add list=PK address=2001:470:1f1b:3d2::/64 } on-error={}
@@ -2304,6 +2308,19 @@
 :do { add list=PK address=2606:f4c0:bac0::/44 } on-error={}
 :do { add list=PK address=2606:f4c0:bb40::/44 } on-error={}
 :do { add list=PK address=2606:f4c0:bb90::/44 } on-error={}
+:do { add list=PK address=2607:740:2e::/52 } on-error={}
+:do { add list=PK address=2607:740:2e:100e::/63 } on-error={}
+:do { add list=PK address=2607:740:2e:1010::/60 } on-error={}
+:do { add list=PK address=2607:740:2e:1020::/59 } on-error={}
+:do { add list=PK address=2607:740:2e:1040::/58 } on-error={}
+:do { add list=PK address=2607:740:2e:1080::/57 } on-error={}
+:do { add list=PK address=2607:740:2e:1100::/56 } on-error={}
+:do { add list=PK address=2607:740:2e:1200::/55 } on-error={}
+:do { add list=PK address=2607:740:2e:1400::/54 } on-error={}
+:do { add list=PK address=2607:740:2e:1800::/53 } on-error={}
+:do { add list=PK address=2607:740:2e:2000::/51 } on-error={}
+:do { add list=PK address=2607:740:2e:4000::/50 } on-error={}
+:do { add list=PK address=2607:740:2e:8000::/49 } on-error={}
 :do { add list=PK address=2607:740:34::/48 } on-error={}
 :do { add list=PK address=2607:6b80:33::/48 } on-error={}
 :do { add list=PK address=2607:8940:2161:43f0::/60 } on-error={}
@@ -4039,6 +4056,10 @@
 :do { add list=PK address=2a0f:85c1:c10::/48 } on-error={}
 :do { add list=PK address=2a0f:9400:7130::/44 } on-error={}
 :do { add list=PK address=2a0f:a300:1000::/37 } on-error={}
+:do { add list=PK address=2a10:24c0:2240::/46 } on-error={}
+:do { add list=PK address=2a10:24c0:2244::/47 } on-error={}
+:do { add list=PK address=2a10:24c0:4318::/46 } on-error={}
+:do { add list=PK address=2a10:24c0:431c::/47 } on-error={}
 :do { add list=PK address=2a10:2f00:131::/48 } on-error={}
 :do { add list=PK address=2a10:fa81:18b1::/48 } on-error={}
 :do { add list=PK address=2a11:840:71::/48 } on-error={}

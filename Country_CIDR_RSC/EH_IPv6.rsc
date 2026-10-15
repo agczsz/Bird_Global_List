@@ -123,6 +123,10 @@
 :do { add list=EH address=2a0f:1cc5:b17:d400::/56 } on-error={}
 :do { add list=EH address=2a0f:1cc5:1f6c::/48 } on-error={}
 :do { add list=EH address=2a0f:a303:f800::/37 } on-error={}
+:do { add list=EH address=2a10:24c0:8858::/47 } on-error={}
+:do { add list=EH address=2a10:24c0:885a::/48 } on-error={}
+:do { add list=EH address=2a10:24c0:a920::/47 } on-error={}
+:do { add list=EH address=2a10:24c0:a922::/48 } on-error={}
 :do { add list=EH address=2a11:29c0:3d88:b7f::/64 } on-error={}
 :do { add list=EH address=2a11:29c0:3d88:3907::/64 } on-error={}
 :do { add list=EH address=2a12:f381:bd00::/40 } on-error={}

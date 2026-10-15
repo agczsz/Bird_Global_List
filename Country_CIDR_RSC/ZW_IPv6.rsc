@@ -250,6 +250,10 @@
 :do { add list=ZW address=2a0f:85c1:81b:fc50::/60 } on-error={}
 :do { add list=ZW address=2a0f:a301:3000::/37 } on-error={}
 :do { add list=ZW address=2a10:500:3e00::/40 } on-error={}
+:do { add list=ZW address=2a10:24c0:1838::/47 } on-error={}
+:do { add list=ZW address=2a10:24c0:183a::/48 } on-error={}
+:do { add list=ZW address=2a10:24c0:3ad8::/47 } on-error={}
+:do { add list=ZW address=2a10:24c0:3ada::/48 } on-error={}
 :do { add list=ZW address=2a10:4640:3::/48 } on-error={}
 :do { add list=ZW address=2a10:fa81:18f8::/48 } on-error={}
 :do { add list=ZW address=2a11:29c0:3d88:330::/64 } on-error={}

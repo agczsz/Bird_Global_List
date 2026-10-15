@@ -384,6 +384,10 @@
 :do { add list=LB address=2a10:1900::/29 } on-error={}
 :do { add list=LB address=2a10:1b00::/29 } on-error={}
 :do { add list=LB address=2a10:1e80::/29 } on-error={}
+:do { add list=LB address=2a10:24c0:4e84::/47 } on-error={}
+:do { add list=LB address=2a10:24c0:4e86::/48 } on-error={}
+:do { add list=LB address=2a10:24c0:6fb0::/47 } on-error={}
+:do { add list=LB address=2a10:24c0:6fb2::/48 } on-error={}
 :do { add list=LB address=2a10:6dc0::/32 } on-error={}
 :do { add list=LB address=2a10:9140::/29 } on-error={}
 :do { add list=LB address=2a10:c200::/29 } on-error={}
