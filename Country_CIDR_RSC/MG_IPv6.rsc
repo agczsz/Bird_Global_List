@@ -152,7 +152,7 @@
 :do { add list=MG address=2a06:9f81:398c::/48 } on-error={}
 :do { add list=MG address=2a06:9f81:43ef:8f00::/56 } on-error={}
 :do { add list=MG address=2a06:9f81:568c::/48 } on-error={}
-:do { add list=MG address=2a06:b440:147::/64 } on-error={}
+:do { add list=MG address=2a06:b440:147::48/128 } on-error={}
 :do { add list=MG address=2a07:d887:8d00::/40 } on-error={}
 :do { add list=MG address=2a09:bac1:4900::/64 } on-error={}
 :do { add list=MG address=2a09:bac1:4920::/64 } on-error={}

@@ -88,6 +88,8 @@
 :do { add list=BN address=2405:2000:2e00:800::/53 } on-error={}
 :do { add list=BN address=2405:2000:2e00:1000::/52 } on-error={}
 :do { add list=BN address=2405:2000:2e00:2000::/51 } on-error={}
+:do { add list=BN address=2405:2016:ffc0::/127 } on-error={}
+:do { add list=BN address=2405:206e:ffc0::/127 } on-error={}
 :do { add list=BN address=2405:b500:f80::/64 } on-error={}
 :do { add list=BN address=2405:b500:fa0::/64 } on-error={}
 :do { add list=BN address=2405:b500:fc0::/64 } on-error={}

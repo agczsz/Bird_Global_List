@@ -737,9 +737,7 @@
 :do { add list=BY address=194.158.198.0/23 } on-error={}
 :do { add list=BY address=194.158.200.0/21 } on-error={}
 :do { add list=BY address=194.158.208.0/20 } on-error={}
-:do { add list=BY address=195.50.0.0/24 } on-error={}
-:do { add list=BY address=195.50.1.0/24 } on-error={}
-:do { add list=BY address=195.50.2.0/23 } on-error={}
+:do { add list=BY address=195.50.0.0/22 } on-error={}
 :do { add list=BY address=195.50.4.0/22 } on-error={}
 :do { add list=BY address=195.50.8.0/21 } on-error={}
 :do { add list=BY address=195.50.16.0/24 } on-error={}

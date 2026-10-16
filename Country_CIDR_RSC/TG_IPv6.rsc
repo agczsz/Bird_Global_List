@@ -305,7 +305,6 @@
 :do { add list=TG address=2c0f:f0f8:80d:5520::/59 } on-error={}
 :do { add list=TG address=2c0f:f0f8:80d:5540::/58 } on-error={}
 :do { add list=TG address=2c0f:f0f8:80d:5580::/57 } on-error={}
-:do { add list=TG address=2c0f:f0f8:80d:5e00::/64 } on-error={}
 :do { add list=TG address=2c0f:f0f8:80d:6000::/52 } on-error={}
 :do { add list=TG address=2c0f:f0f8:80d:8000::/53 } on-error={}
 :do { add list=TG address=2c0f:f0f8:80d:8800::/55 } on-error={}

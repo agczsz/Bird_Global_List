@@ -36,6 +36,7 @@
 :do { add list=LC address=2606:3c80:1600:6000::/53 } on-error={}
 :do { add list=LC address=2606:3c80:1600:6800::/55 } on-error={}
 :do { add list=LC address=2606:3c80:1600:6b00::/56 } on-error={}
+:do { add list=LC address=2606:3c80:1600:6c00::/54 } on-error={}
 :do { add list=LC address=2606:3c80:1600:7000::/54 } on-error={}
 :do { add list=LC address=2606:3c80:1600:7400::/55 } on-error={}
 :do { add list=LC address=2606:3c80:1600:7800::/54 } on-error={}

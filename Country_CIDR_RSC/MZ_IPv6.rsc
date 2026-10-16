@@ -114,7 +114,6 @@
 :do { add list=MZ address=2a0f:1cc5:b15:9200::/56 } on-error={}
 :do { add list=MZ address=2a0f:1cc5:b16:9200::/56 } on-error={}
 :do { add list=MZ address=2a0f:1cc5:b17:9200::/56 } on-error={}
-:do { add list=MZ address=2a0f:6280:cef3::/48 } on-error={}
 :do { add list=MZ address=2a0f:85c1:81b:f7a0::/60 } on-error={}
 :do { add list=MZ address=2a0f:a300:e800::/37 } on-error={}
 :do { add list=MZ address=2a10:500:2c00::/40 } on-error={}

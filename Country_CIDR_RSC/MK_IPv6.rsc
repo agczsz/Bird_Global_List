@@ -263,7 +263,6 @@
 :do { add list=MK address=2a09:bac5:d5d0::/45 } on-error={}
 :do { add list=MK address=2a09:bac6:4918::/45 } on-error={}
 :do { add list=MK address=2a09:bac6:d5d0::/45 } on-error={}
-:do { add list=MK address=2a09:be87:5680::/41 } on-error={}
 :do { add list=MK address=2a0a:280:139d::/48 } on-error={}
 :do { add list=MK address=2a0a:6040:f2e::/48 } on-error={}
 :do { add list=MK address=2a0a:6044:f610::/45 } on-error={}
@@ -319,7 +318,6 @@
 :do { add list=MK address=2a0f:2181::/32 } on-error={}
 :do { add list=MK address=2a0f:2182::/31 } on-error={}
 :do { add list=MK address=2a0f:2184::/30 } on-error={}
-:do { add list=MK address=2a0f:6280:cefe::/48 } on-error={}
 :do { add list=MK address=2a0f:6440::/29 } on-error={}
 :do { add list=MK address=2a0f:85c1:340::a4:0/112 } on-error={}
 :do { add list=MK address=2a10:500:8600::/40 } on-error={}

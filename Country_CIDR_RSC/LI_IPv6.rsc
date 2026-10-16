@@ -104,7 +104,6 @@
 :do { add list=LI address=2001:7f8:66:8000::/49 } on-error={}
 :do { add list=LI address=2001:7f8:d0:4652::/64 } on-error={}
 :do { add list=LI address=2001:7f8:d0:4c49::/64 } on-error={}
-:do { add list=LI address=2001:3786:5001:200::/56 } on-error={}
 :do { add list=LI address=2405:b500:4280::/64 } on-error={}
 :do { add list=LI address=2405:b500:42a0::/64 } on-error={}
 :do { add list=LI address=2405:b500:42c0::/64 } on-error={}

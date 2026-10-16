@@ -1,7 +1,6 @@
 /log info "Loading BT IPv4 Address List"
 /ip firewall address-list
 :do { add list=BT address=5.62.62.36/30 } on-error={}
-:do { add list=BT address=8.20.124.0/24 } on-error={}
 :do { add list=BT address=36.50.37.0/24 } on-error={}
 :do { add list=BT address=43.226.8.0/22 } on-error={}
 :do { add list=BT address=43.229.124.0/22 } on-error={}
