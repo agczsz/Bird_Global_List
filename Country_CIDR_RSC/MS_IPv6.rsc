@@ -67,6 +67,7 @@
 :do { add list=MS address=2a0d:2684:98::/48 } on-error={}
 :do { add list=MS address=2a0d:9447:9000::/37 } on-error={}
 :do { add list=MS address=2a0e:4001:9ff:95::/64 } on-error={}
+:do { add list=MS address=2a0f:1cc1:e870::/44 } on-error={}
 :do { add list=MS address=2a0f:1cc5:b10:9000::/56 } on-error={}
 :do { add list=MS address=2a0f:1cc5:b11:9000::/56 } on-error={}
 :do { add list=MS address=2a0f:1cc5:b12:9000::/56 } on-error={}

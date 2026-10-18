@@ -808,7 +808,8 @@
 :do { add list=QA address=2001:1a11:3a0::/48 } on-error={}
 :do { add list=QA address=2001:1a11:3a1::/48 } on-error={}
 :do { add list=QA address=2001:1a11:3a2::/47 } on-error={}
-:do { add list=QA address=2001:1a11:3a4::/47 } on-error={}
+:do { add list=QA address=2001:1a11:3a4::/48 } on-error={}
+:do { add list=QA address=2001:1a11:3a5::/48 } on-error={}
 :do { add list=QA address=2001:1a11:3a6::/48 } on-error={}
 :do { add list=QA address=2001:1a11:3a7::/48 } on-error={}
 :do { add list=QA address=2001:1a11:3a8::/48 } on-error={}
@@ -895,7 +896,9 @@
 :do { add list=QA address=2001:1a11:426::/48 } on-error={}
 :do { add list=QA address=2001:1a11:427::/48 } on-error={}
 :do { add list=QA address=2001:1a11:428::/46 } on-error={}
-:do { add list=QA address=2001:1a11:42c::/46 } on-error={}
+:do { add list=QA address=2001:1a11:42c::/47 } on-error={}
+:do { add list=QA address=2001:1a11:42e::/48 } on-error={}
+:do { add list=QA address=2001:1a11:42f::/48 } on-error={}
 :do { add list=QA address=2001:1a11:430::/44 } on-error={}
 :do { add list=QA address=2001:1a11:440::/42 } on-error={}
 :do { add list=QA address=2001:1a11:480::/41 } on-error={}
@@ -1535,6 +1538,7 @@
 :do { add list=QA address=2a0d:3344:4400::/38 } on-error={}
 :do { add list=QA address=2a0d:9447:d800::/37 } on-error={}
 :do { add list=QA address=2a0f:15c2::/32 } on-error={}
+:do { add list=QA address=2a0f:1cc1:9960::/44 } on-error={}
 :do { add list=QA address=2a0f:1cc5:b10:b600::/56 } on-error={}
 :do { add list=QA address=2a0f:1cc5:b11:b600::/56 } on-error={}
 :do { add list=QA address=2a0f:1cc5:b12:b600::/56 } on-error={}
@@ -1552,7 +1556,6 @@
 :do { add list=QA address=2a10:24c0:af98::/47 } on-error={}
 :do { add list=QA address=2a10:24c0:af9a::/48 } on-error={}
 :do { add list=QA address=2a10:d600::/29 } on-error={}
-:do { add list=QA address=2a10:fa81:18ba::/48 } on-error={}
 :do { add list=QA address=2a11:29c0:3d88:663::/64 } on-error={}
 :do { add list=QA address=2a11:29c0:3d88:3cec::/64 } on-error={}
 :do { add list=QA address=2a11:29c0:3d88:5dcc::/64 } on-error={}

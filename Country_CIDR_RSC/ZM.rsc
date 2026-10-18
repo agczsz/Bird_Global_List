@@ -1,7 +1,5 @@
 /log info "Loading ZM IPv4 Address List"
 /ip firewall address-list
-:do { add list=ZM address=5.11.8.133/32 } on-error={}
-:do { add list=ZM address=5.11.8.134/32 } on-error={}
 :do { add list=ZM address=5.11.8.155/32 } on-error={}
 :do { add list=ZM address=5.62.63.208/30 } on-error={}
 :do { add list=ZM address=41.60.0.0/20 } on-error={}

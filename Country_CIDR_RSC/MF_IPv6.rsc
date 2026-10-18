@@ -108,6 +108,8 @@
 :do { add list=MF address=2a0b:4e07:3:6630::/60 } on-error={}
 :do { add list=MF address=2a0d:2684:8d::/48 } on-error={}
 :do { add list=MF address=2a0d:9443:b800::/37 } on-error={}
+:do { add list=MF address=2a0f:1cc1:a710::/48 } on-error={}
+:do { add list=MF address=2a0f:1cc1:e850::/44 } on-error={}
 :do { add list=MF address=2a0f:1cc5:b10:c000::/56 } on-error={}
 :do { add list=MF address=2a0f:1cc5:b11:c000::/56 } on-error={}
 :do { add list=MF address=2a0f:1cc5:b12:c000::/56 } on-error={}

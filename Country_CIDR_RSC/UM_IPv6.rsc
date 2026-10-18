@@ -73,6 +73,7 @@
 :do { add list=UM address=2a0d:2587:7fed::/48 } on-error={}
 :do { add list=UM address=2a0d:2684:e8::/48 } on-error={}
 :do { add list=UM address=2a0d:9445:d800::/37 } on-error={}
+:do { add list=UM address=2a0f:1cc1:fe90::/44 } on-error={}
 :do { add list=UM address=2a0f:5707:ffa5:4000::/50 } on-error={}
 :do { add list=UM address=2a0f:5707:ffa5:8000::/49 } on-error={}
 :do { add list=UM address=2a12:dd47:8feb::/48 } on-error={}

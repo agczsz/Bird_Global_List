@@ -125,7 +125,6 @@
 :do { add list=SY address=2a10:24c0:b1a6::/48 } on-error={}
 :do { add list=SY address=2a10:7540::/29 } on-error={}
 :do { add list=SY address=2a10:b6c0::/29 } on-error={}
-:do { add list=SY address=2a10:fa81:18d3::/48 } on-error={}
 :do { add list=SY address=2a11:29c0:3d88:123::/64 } on-error={}
 :do { add list=SY address=2a11:29c0:3d88:417::/64 } on-error={}
 :do { add list=SY address=2a11:29c0:3d88:534::/64 } on-error={}

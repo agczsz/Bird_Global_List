@@ -98,6 +98,7 @@
 :do { add list=RW address=2a0d:2684:c0::/48 } on-error={}
 :do { add list=RW address=2a0d:9444:1800::/37 } on-error={}
 :do { add list=RW address=2a0e:97c1:8a27::/48 } on-error={}
+:do { add list=RW address=2a0f:1cc1:d2c0::/44 } on-error={}
 :do { add list=RW address=2a0f:1cc5:b10:ba00::/56 } on-error={}
 :do { add list=RW address=2a0f:1cc5:b11:ba00::/56 } on-error={}
 :do { add list=RW address=2a0f:1cc5:b12:ba00::/56 } on-error={}
@@ -113,7 +114,6 @@
 :do { add list=RW address=2a10:24c0:54f6::/48 } on-error={}
 :do { add list=RW address=2a10:24c0:7620::/47 } on-error={}
 :do { add list=RW address=2a10:24c0:7622::/48 } on-error={}
-:do { add list=RW address=2a10:fa81:18bf::/48 } on-error={}
 :do { add list=RW address=2a11:29c0:3d88:1d1::/64 } on-error={}
 :do { add list=RW address=2a11:29c0:3d88:194a::/64 } on-error={}
 :do { add list=RW address=2a11:29c0:3d88:19dd::/64 } on-error={}

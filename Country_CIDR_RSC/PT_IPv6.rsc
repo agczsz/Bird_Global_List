@@ -8207,6 +8207,7 @@
 :do { add list=PT address=2a0e:ec01:c000::/34 } on-error={}
 :do { add list=PT address=2a0e:ec02::/31 } on-error={}
 :do { add list=PT address=2a0e:ec04::/32 } on-error={}
+:do { add list=PT address=2a0f:1cc1:b500::/40 } on-error={}
 :do { add list=PT address=2a0f:1cc5:b10:b200::/56 } on-error={}
 :do { add list=PT address=2a0f:1cc5:b11:b200::/56 } on-error={}
 :do { add list=PT address=2a0f:1cc5:b12:b200::/56 } on-error={}

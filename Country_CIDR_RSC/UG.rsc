@@ -2,7 +2,7 @@
 /ip firewall address-list
 :do { add list=UG address=2.17.248.0/24 } on-error={}
 :do { add list=UG address=5.11.8.130/32 } on-error={}
-:do { add list=UG address=5.11.8.132/32 } on-error={}
+:do { add list=UG address=5.11.8.132/30 } on-error={}
 :do { add list=UG address=5.11.10.172/30 } on-error={}
 :do { add list=UG address=5.62.63.172/30 } on-error={}
 :do { add list=UG address=9.170.86.0/23 } on-error={}

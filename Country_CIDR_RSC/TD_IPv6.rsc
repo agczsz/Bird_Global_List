@@ -97,6 +97,7 @@
 :do { add list=TD address=2a0d:2684:d7::/48 } on-error={}
 :do { add list=TD address=2a0d:3341:fe00::/40 } on-error={}
 :do { add list=TD address=2a0d:9442:1800::/37 } on-error={}
+:do { add list=TD address=2a0f:1cc1:ce00::/40 } on-error={}
 :do { add list=TD address=2a0f:1cc5:b10:2a00::/56 } on-error={}
 :do { add list=TD address=2a0f:1cc5:b11:2a00::/56 } on-error={}
 :do { add list=TD address=2a0f:1cc5:b12:2a00::/56 } on-error={}
@@ -111,7 +112,6 @@
 :do { add list=TD address=2a10:24c0:140a::/48 } on-error={}
 :do { add list=TD address=2a10:24c0:3920::/47 } on-error={}
 :do { add list=TD address=2a10:24c0:3922::/48 } on-error={}
-:do { add list=TD address=2a10:fa81:18d6::/48 } on-error={}
 :do { add list=TD address=2a11:29c0:3d88:b85::/64 } on-error={}
 :do { add list=TD address=2a11:29c0:3d88:2037::/64 } on-error={}
 :do { add list=TD address=2a11:29c0:3d88:2058::/64 } on-error={}

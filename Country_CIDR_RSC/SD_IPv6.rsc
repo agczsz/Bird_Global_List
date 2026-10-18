@@ -96,6 +96,7 @@
 :do { add list=SD address=2a0d:3341:e000::/40 } on-error={}
 :do { add list=SD address=2a0d:3344:1300::/40 } on-error={}
 :do { add list=SD address=2a0d:9443:f800::/37 } on-error={}
+:do { add list=SD address=2a0f:1cc1:cc00::/40 } on-error={}
 :do { add list=SD address=2a0f:1cc5:b10:d300::/56 } on-error={}
 :do { add list=SD address=2a0f:1cc5:b11:d300::/56 } on-error={}
 :do { add list=SD address=2a0f:1cc5:b12:d300::/56 } on-error={}
@@ -111,7 +112,6 @@
 :do { add list=SD address=2a10:24c0:d2ca::/48 } on-error={}
 :do { add list=SD address=2a10:24c0:f958::/47 } on-error={}
 :do { add list=SD address=2a10:24c0:f95a::/48 } on-error={}
-:do { add list=SD address=2a10:fa81:18c3::/48 } on-error={}
 :do { add list=SD address=2a11:29c0:3d88:e1::/64 } on-error={}
 :do { add list=SD address=2a11:29c0:3d88:3cf::/64 } on-error={}
 :do { add list=SD address=2a11:29c0:3d88:579::/64 } on-error={}

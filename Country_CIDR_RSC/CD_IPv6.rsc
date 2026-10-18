@@ -178,6 +178,7 @@
 :do { add list=CD address=2a0d:3344:1d00::/42 } on-error={}
 :do { add list=CD address=2a0d:9443:5800::/37 } on-error={}
 :do { add list=CD address=2a0e:b107:2320::/45 } on-error={}
+:do { add list=CD address=2a0f:1cc1:c300::/40 } on-error={}
 :do { add list=CD address=2a0f:1cc5:b10:3400::/56 } on-error={}
 :do { add list=CD address=2a0f:1cc5:b11:3400::/56 } on-error={}
 :do { add list=CD address=2a0f:1cc5:b12:3400::/56 } on-error={}
@@ -194,7 +195,6 @@
 :do { add list=CD address=2a10:24c0:696::/48 } on-error={}
 :do { add list=CD address=2a10:24c0:2990::/47 } on-error={}
 :do { add list=CD address=2a10:24c0:2992::/48 } on-error={}
-:do { add list=CD address=2a10:fa81:1827::/48 } on-error={}
 :do { add list=CD address=2a11:29c0:3d88:516::/64 } on-error={}
 :do { add list=CD address=2a11:29c0:3d88:765::/64 } on-error={}
 :do { add list=CD address=2a11:29c0:3d88:76b::/64 } on-error={}

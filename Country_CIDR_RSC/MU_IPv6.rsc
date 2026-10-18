@@ -2368,7 +2368,6 @@
 :do { add list=MU address=2405:b500:4f60:20::/64 } on-error={}
 :do { add list=MU address=2600:70ff:a456::/48 } on-error={}
 :do { add list=MU address=2600:70ff:e823::/48 } on-error={}
-:do { add list=MU address=2600:70ff:e83b::/48 } on-error={}
 :do { add list=MU address=2600:70ff:e83d::/48 } on-error={}
 :do { add list=MU address=2600:70ff:e843::/48 } on-error={}
 :do { add list=MU address=2600:70ff:e847::/48 } on-error={}
@@ -2504,6 +2503,7 @@
 :do { add list=MU address=2a0b:4e07:3:4800::/60 } on-error={}
 :do { add list=MU address=2a0d:2684:9a::/48 } on-error={}
 :do { add list=MU address=2a0d:9445:2000::/37 } on-error={}
+:do { add list=MU address=2a0f:1cc1:d260::/44 } on-error={}
 :do { add list=MU address=2a0f:1cc5:b10:8a00::/56 } on-error={}
 :do { add list=MU address=2a0f:1cc5:b11:8a00::/56 } on-error={}
 :do { add list=MU address=2a0f:1cc5:b12:8a00::/56 } on-error={}
@@ -2518,7 +2518,6 @@
 :do { add list=MU address=2a10:24c0:501a::/48 } on-error={}
 :do { add list=MU address=2a10:24c0:7270::/47 } on-error={}
 :do { add list=MU address=2a10:24c0:7272::/48 } on-error={}
-:do { add list=MU address=2a10:fa81:1899::/48 } on-error={}
 :do { add list=MU address=2a11:29c0:3d88:1f87::/64 } on-error={}
 :do { add list=MU address=2a11:29c0:3d88:2005::/64 } on-error={}
 :do { add list=MU address=2a11:29c0:3d88:2150::/64 } on-error={}
@@ -5100,7 +5099,11 @@
 :do { add list=MU address=2c0f:5984::/30 } on-error={}
 :do { add list=MU address=2c0f:5988::/29 } on-error={}
 :do { add list=MU address=2c0f:5990::/28 } on-error={}
-:do { add list=MU address=2c0f:59a0::/27 } on-error={}
+:do { add list=MU address=2c0f:59a1::/32 } on-error={}
+:do { add list=MU address=2c0f:59a2::/31 } on-error={}
+:do { add list=MU address=2c0f:59a4::/30 } on-error={}
+:do { add list=MU address=2c0f:59a8::/29 } on-error={}
+:do { add list=MU address=2c0f:59b0::/28 } on-error={}
 :do { add list=MU address=2c0f:59c1::/32 } on-error={}
 :do { add list=MU address=2c0f:59c2::/31 } on-error={}
 :do { add list=MU address=2c0f:59c4::/30 } on-error={}

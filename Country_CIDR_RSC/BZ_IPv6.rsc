@@ -158,6 +158,7 @@
 :do { add list=BZ address=2a0d:2684:24::/48 } on-error={}
 :do { add list=BZ address=2a0d:9444:d000::/37 } on-error={}
 :do { add list=BZ address=2a0e:b107:2308::/45 } on-error={}
+:do { add list=BZ address=2a0f:1cc1:e770::/44 } on-error={}
 :do { add list=BZ address=2a0f:1cc5:b10:1a00::/56 } on-error={}
 :do { add list=BZ address=2a0f:1cc5:b11:1a00::/56 } on-error={}
 :do { add list=BZ address=2a0f:1cc5:b12:1a00::/56 } on-error={}
@@ -171,7 +172,6 @@
 :do { add list=BZ address=2a10:24c0:c6e6::/48 } on-error={}
 :do { add list=BZ address=2a10:24c0:ea3c::/47 } on-error={}
 :do { add list=BZ address=2a10:24c0:ea3e::/48 } on-error={}
-:do { add list=BZ address=2a10:fa81:1824::/48 } on-error={}
 :do { add list=BZ address=2a11:29c0:3d88:e86::/64 } on-error={}
 :do { add list=BZ address=2a11:29c0:3d88:2095::/64 } on-error={}
 :do { add list=BZ address=2a11:29c0:3d88:2300::/64 } on-error={}

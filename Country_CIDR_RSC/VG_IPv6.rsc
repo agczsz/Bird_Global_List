@@ -714,6 +714,7 @@
 :do { add list=VG address=2a0d:d904:c000::/40 } on-error={}
 :do { add list=VG address=2a0d:d940:201a:e000::/51 } on-error={}
 :do { add list=VG address=2a0e:4001:9ff:f2::/64 } on-error={}
+:do { add list=VG address=2a0f:1cc1:e900::/44 } on-error={}
 :do { add list=VG address=2a0f:1cc5:b10:1d00::/56 } on-error={}
 :do { add list=VG address=2a0f:1cc5:b11:1d00::/56 } on-error={}
 :do { add list=VG address=2a0f:1cc5:b12:1d00::/56 } on-error={}

@@ -281,6 +281,7 @@
 :do { add list=JM address=2a0b:4e07:3:3880::/60 } on-error={}
 :do { add list=JM address=2a0d:2684:70::/48 } on-error={}
 :do { add list=JM address=2a0d:9443:4000::/37 } on-error={}
+:do { add list=JM address=2a0f:1cc1:e810::/44 } on-error={}
 :do { add list=JM address=2a0f:1cc5:b10:6f00::/56 } on-error={}
 :do { add list=JM address=2a0f:1cc5:b11:6f00::/56 } on-error={}
 :do { add list=JM address=2a0f:1cc5:b12:6f00::/56 } on-error={}
@@ -297,7 +298,6 @@
 :do { add list=JM address=2a10:24c0:b0a::/48 } on-error={}
 :do { add list=JM address=2a10:24c0:3194::/47 } on-error={}
 :do { add list=JM address=2a10:24c0:3196::/48 } on-error={}
-:do { add list=JM address=2a10:fa81:186f::/48 } on-error={}
 :do { add list=JM address=2a11:29c0:3d88:68b::/64 } on-error={}
 :do { add list=JM address=2a11:29c0:3d88:d0c::/64 } on-error={}
 :do { add list=JM address=2a11:29c0:3d88:f57::/64 } on-error={}

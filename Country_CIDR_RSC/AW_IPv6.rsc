@@ -100,6 +100,8 @@
 :do { add list=AW address=2a0b:4e07:3:5530::/60 } on-error={}
 :do { add list=AW address=2a0d:2684:d::/48 } on-error={}
 :do { add list=AW address=2a0d:9441:c800::/37 } on-error={}
+:do { add list=AW address=2a0f:1cc1:b301::/48 } on-error={}
+:do { add list=AW address=2a0f:1cc1:e720::/44 } on-error={}
 :do { add list=AW address=2a0f:1cc5:b10:9900::/56 } on-error={}
 :do { add list=AW address=2a0f:1cc5:b11:9900::/56 } on-error={}
 :do { add list=AW address=2a0f:1cc5:b12:9900::/56 } on-error={}

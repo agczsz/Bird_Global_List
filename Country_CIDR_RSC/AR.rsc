@@ -1885,7 +1885,10 @@
 :do { add list=AR address=134.238.153.0/25 } on-error={}
 :do { add list=AR address=134.238.153.128/26 } on-error={}
 :do { add list=AR address=134.238.231.64/26 } on-error={}
-:do { add list=AR address=135.129.44.0/24 } on-error={}
+:do { add list=AR address=135.129.44.0/25 } on-error={}
+:do { add list=AR address=135.129.44.128/26 } on-error={}
+:do { add list=AR address=135.129.44.192/27 } on-error={}
+:do { add list=AR address=135.129.44.224/28 } on-error={}
 :do { add list=AR address=135.129.252.224/27 } on-error={}
 :do { add list=AR address=136.227.141.64/30 } on-error={}
 :do { add list=AR address=136.227.141.68/31 } on-error={}

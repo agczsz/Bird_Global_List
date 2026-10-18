@@ -5787,6 +5787,7 @@
 :do { add list=IL address=2a0e:f600:24::/47 } on-error={}
 :do { add list=IL address=2a0e:f600:6c::/48 } on-error={}
 :do { add list=IL address=2a0f:f43::/32 } on-error={}
+:do { add list=IL address=2a0f:1cc1:9890::/44 } on-error={}
 :do { add list=IL address=2a0f:1cc4:eff0::/48 } on-error={}
 :do { add list=IL address=2a0f:1cc4:eff1::/48 } on-error={}
 :do { add list=IL address=2a0f:1cc4:eff2::/48 } on-error={}
@@ -5828,6 +5829,8 @@
 :do { add list=IL address=2a10:24c0:8a2a::/48 } on-error={}
 :do { add list=IL address=2a10:24c0:aa18::/47 } on-error={}
 :do { add list=IL address=2a10:24c0:aa1a::/48 } on-error={}
+:do { add list=IL address=2a10:24c0:d294::/48 } on-error={}
+:do { add list=IL address=2a10:24c0:f8c0::/48 } on-error={}
 :do { add list=IL address=2a10:27c0::/29 } on-error={}
 :do { add list=IL address=2a10:2f01:21a::/48 } on-error={}
 :do { add list=IL address=2a10:3e00::/29 } on-error={}

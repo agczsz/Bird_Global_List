@@ -3784,6 +3784,7 @@
 :do { add list=TW address=108.177.118.64/26 } on-error={}
 :do { add list=TW address=108.177.118.128/25 } on-error={}
 :do { add list=TW address=108.177.125.0/24 } on-error={}
+:do { add list=TW address=109.65.65.0/24 } on-error={}
 :do { add list=TW address=109.122.5.0/24 } on-error={}
 :do { add list=TW address=109.234.209.0/24 } on-error={}
 :do { add list=TW address=110.24.0.0/13 } on-error={}
@@ -4729,6 +4730,9 @@
 :do { add list=TW address=129.250.66.110/31 } on-error={}
 :do { add list=TW address=129.250.87.1/32 } on-error={}
 :do { add list=TW address=129.250.87.2/32 } on-error={}
+:do { add list=TW address=130.78.15.0/24 } on-error={}
+:do { add list=TW address=130.78.22.0/24 } on-error={}
+:do { add list=TW address=130.78.29.0/24 } on-error={}
 :do { add list=TW address=130.94.36.0/23 } on-error={}
 :do { add list=TW address=130.211.240.0/20 } on-error={}
 :do { add list=TW address=131.103.117.254/31 } on-error={}
@@ -5342,7 +5346,9 @@
 :do { add list=TW address=152.101.185.0/24 } on-error={}
 :do { add list=TW address=152.101.186.0/24 } on-error={}
 :do { add list=TW address=152.104.96.0/19 } on-error={}
-:do { add list=TW address=152.175.144.0/20 } on-error={}
+:do { add list=TW address=152.175.147.0/24 } on-error={}
+:do { add list=TW address=152.175.148.0/22 } on-error={}
+:do { add list=TW address=152.175.152.0/21 } on-error={}
 :do { add list=TW address=153.72.40.192/27 } on-error={}
 :do { add list=TW address=153.72.60.128/25 } on-error={}
 :do { add list=TW address=153.72.152.0/25 } on-error={}
@@ -5980,7 +5986,6 @@
 :do { add list=TW address=172.253.178.16/30 } on-error={}
 :do { add list=TW address=172.253.239.128/26 } on-error={}
 :do { add list=TW address=173.82.97.0/24 } on-error={}
-:do { add list=TW address=173.82.107.0/24 } on-error={}
 :do { add list=TW address=173.82.108.0/24 } on-error={}
 :do { add list=TW address=173.82.227.0/24 } on-error={}
 :do { add list=TW address=173.194.93.0/24 } on-error={}
@@ -6203,6 +6208,7 @@
 :do { add list=TW address=178.94.222.0/24 } on-error={}
 :do { add list=TW address=178.94.233.0/24 } on-error={}
 :do { add list=TW address=178.95.229.0/24 } on-error={}
+:do { add list=TW address=178.251.200.0/22 } on-error={}
 :do { add list=TW address=180.87.70.0/24 } on-error={}
 :do { add list=TW address=180.87.71.0/27 } on-error={}
 :do { add list=TW address=180.87.76.0/29 } on-error={}
@@ -6230,6 +6236,7 @@
 :do { add list=TW address=180.87.130.108/31 } on-error={}
 :do { add list=TW address=180.87.130.188/30 } on-error={}
 :do { add list=TW address=180.87.130.248/29 } on-error={}
+:do { add list=TW address=180.87.185.134/31 } on-error={}
 :do { add list=TW address=180.92.0.0/20 } on-error={}
 :do { add list=TW address=180.94.30.0/23 } on-error={}
 :do { add list=TW address=180.176.0.0/15 } on-error={}
@@ -8379,7 +8386,22 @@
 :do { add list=TW address=219.69.250.0/23 } on-error={}
 :do { add list=TW address=219.69.252.0/22 } on-error={}
 :do { add list=TW address=219.70.0.0/15 } on-error={}
-:do { add list=TW address=219.80.0.0/15 } on-error={}
+:do { add list=TW address=219.80.0.0/18 } on-error={}
+:do { add list=TW address=219.80.64.0/19 } on-error={}
+:do { add list=TW address=219.80.96.0/20 } on-error={}
+:do { add list=TW address=219.80.112.0/25 } on-error={}
+:do { add list=TW address=219.80.112.128/28 } on-error={}
+:do { add list=TW address=219.80.112.144/30 } on-error={}
+:do { add list=TW address=219.80.112.148/31 } on-error={}
+:do { add list=TW address=219.80.112.152/29 } on-error={}
+:do { add list=TW address=219.80.112.160/27 } on-error={}
+:do { add list=TW address=219.80.112.192/26 } on-error={}
+:do { add list=TW address=219.80.113.0/24 } on-error={}
+:do { add list=TW address=219.80.114.0/23 } on-error={}
+:do { add list=TW address=219.80.116.0/22 } on-error={}
+:do { add list=TW address=219.80.120.0/21 } on-error={}
+:do { add list=TW address=219.80.128.0/17 } on-error={}
+:do { add list=TW address=219.81.0.0/16 } on-error={}
 :do { add list=TW address=219.84.0.0/15 } on-error={}
 :do { add list=TW address=219.86.0.0/18 } on-error={}
 :do { add list=TW address=219.86.64.0/20 } on-error={}

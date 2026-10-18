@@ -5703,6 +5703,7 @@
 :do { add list=NZ address=2a0e:ec01:7c00::/38 } on-error={}
 :do { add list=NZ address=2a0e:f600:58::/48 } on-error={}
 :do { add list=NZ address=2a0e:fd45:dce::/48 } on-error={}
+:do { add list=NZ address=2a0f:1cc1:fa00::/40 } on-error={}
 :do { add list=NZ address=2a0f:1cc5:b10:9e00::/56 } on-error={}
 :do { add list=NZ address=2a0f:1cc5:b11:9e00::/56 } on-error={}
 :do { add list=NZ address=2a0f:1cc5:b12:9e00::/56 } on-error={}

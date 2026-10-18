@@ -3033,7 +3033,6 @@
 :do { add list=HU address=195.212.231.0/24 } on-error={}
 :do { add list=HU address=195.216.251.0/24 } on-error={}
 :do { add list=HU address=195.219.197.110/32 } on-error={}
-:do { add list=HU address=195.219.220.100/32 } on-error={}
 :do { add list=HU address=195.228.0.0/22 } on-error={}
 :do { add list=HU address=195.228.4.0/24 } on-error={}
 :do { add list=HU address=195.228.5.0/24 } on-error={}

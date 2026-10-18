@@ -1986,6 +1986,7 @@
 :do { add list=NG address=2a0d:d940:6c8::/45 } on-error={}
 :do { add list=NG address=2a0d:d940:6d0::/44 } on-error={}
 :do { add list=NG address=2a0d:d940:6e0::/43 } on-error={}
+:do { add list=NG address=2a0f:1cc1:ca00::/40 } on-error={}
 :do { add list=NG address=2a0f:1cc5:b10:a100::/56 } on-error={}
 :do { add list=NG address=2a0f:1cc5:b11:a100::/56 } on-error={}
 :do { add list=NG address=2a0f:1cc5:b12:a100::/56 } on-error={}

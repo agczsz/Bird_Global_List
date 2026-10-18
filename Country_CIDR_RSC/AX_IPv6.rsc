@@ -130,6 +130,8 @@
 :do { add list=AX address=2a0d:3344:3800::/40 } on-error={}
 :do { add list=AX address=2a0d:79c0::/32 } on-error={}
 :do { add list=AX address=2a0d:9442:6800::/37 } on-error={}
+:do { add list=AX address=2a0f:1cc1:a601::/48 } on-error={}
+:do { add list=AX address=2a0f:1cc1:bb30::/44 } on-error={}
 :do { add list=AX address=2a0f:1cc5:b10:4a00::/56 } on-error={}
 :do { add list=AX address=2a0f:1cc5:b11:4a00::/56 } on-error={}
 :do { add list=AX address=2a0f:1cc5:b12:4a00::/56 } on-error={}

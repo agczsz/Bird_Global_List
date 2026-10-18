@@ -93,6 +93,7 @@
 :do { add list=GA address=2a0b:4e07:3:2660::/60 } on-error={}
 :do { add list=GA address=2a0d:2684:4c::/48 } on-error={}
 :do { add list=GA address=2a0d:9443:d800::/37 } on-error={}
+:do { add list=GA address=2a0f:1cc1:d1a0::/44 } on-error={}
 :do { add list=GA address=2a0f:1cc5:b10:5000::/56 } on-error={}
 :do { add list=GA address=2a0f:1cc5:b11:5000::/56 } on-error={}
 :do { add list=GA address=2a0f:1cc5:b12:5000::/56 } on-error={}
@@ -108,7 +109,6 @@
 :do { add list=GA address=2a10:24c0:c81e::/48 } on-error={}
 :do { add list=GA address=2a10:24c0:ee0c::/47 } on-error={}
 :do { add list=GA address=2a10:24c0:ee0e::/48 } on-error={}
-:do { add list=GA address=2a10:fa81:184b::/48 } on-error={}
 :do { add list=GA address=2a11:29c0:3d88:30a::/64 } on-error={}
 :do { add list=GA address=2a11:29c0:3d88:149e::/64 } on-error={}
 :do { add list=GA address=2a11:29c0:3d88:4e8a::/64 } on-error={}

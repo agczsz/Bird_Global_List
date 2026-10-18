@@ -124,6 +124,7 @@
 :do { add list=FM address=2a0d:2684:49::/48 } on-error={}
 :do { add list=FM address=2a0d:9440:d000::/37 } on-error={}
 :do { add list=FM address=2a0e:b107:19c::/48 } on-error={}
+:do { add list=FM address=2a0f:1cc1:fd60::/44 } on-error={}
 :do { add list=FM address=2a0f:1cc5:b10:a700::/56 } on-error={}
 :do { add list=FM address=2a0f:1cc5:b11:a700::/56 } on-error={}
 :do { add list=FM address=2a0f:1cc5:b12:a700::/56 } on-error={}
@@ -137,7 +138,6 @@
 :do { add list=FM address=2a0f:a303:9800::/37 } on-error={}
 :do { add list=FM address=2a10:24c0:4441::/48 } on-error={}
 :do { add list=FM address=2a10:24c0:63c1::/48 } on-error={}
-:do { add list=FM address=2a10:fa81:1848::/48 } on-error={}
 :do { add list=FM address=2a11:29c0:3d88:2e56::/64 } on-error={}
 :do { add list=FM address=2a11:29c0:3d88:2e59::/64 } on-error={}
 :do { add list=FM address=2a11:29c0:3d88:2e5c::/64 } on-error={}

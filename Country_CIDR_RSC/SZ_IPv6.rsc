@@ -102,6 +102,7 @@
 :do { add list=SZ address=2a0d:2684:d5::/48 } on-error={}
 :do { add list=SZ address=2a0d:3341:b240::/42 } on-error={}
 :do { add list=SZ address=2a0d:9442:9000::/37 } on-error={}
+:do { add list=SZ address=2a0f:1cc1:d320::/44 } on-error={}
 :do { add list=SZ address=2a0f:1cc5:b10:d700::/56 } on-error={}
 :do { add list=SZ address=2a0f:1cc5:b11:d700::/56 } on-error={}
 :do { add list=SZ address=2a0f:1cc5:b12:d700::/56 } on-error={}
