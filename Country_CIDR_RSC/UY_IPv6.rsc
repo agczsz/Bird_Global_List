@@ -35305,7 +35305,11 @@
 :do { add list=UY address=2804:5576::/31 } on-error={}
 :do { add list=UY address=2804:5579::/32 } on-error={}
 :do { add list=UY address=2804:557a::/31 } on-error={}
-:do { add list=UY address=2804:557c::/30 } on-error={}
+:do { add list=UY address=2804:557c::/34 } on-error={}
+:do { add list=UY address=2804:557c:4000::/34 } on-error={}
+:do { add list=UY address=2804:557c:8000::/33 } on-error={}
+:do { add list=UY address=2804:557d::/32 } on-error={}
+:do { add list=UY address=2804:557e::/31 } on-error={}
 :do { add list=UY address=2804:5581::/32 } on-error={}
 :do { add list=UY address=2804:5582::/31 } on-error={}
 :do { add list=UY address=2804:5585::/32 } on-error={}

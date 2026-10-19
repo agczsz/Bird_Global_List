@@ -116,7 +116,8 @@
 :do { add list=AF address=2400:e500:3c::/47 } on-error={}
 :do { add list=AF address=2400:e500:3e::/48 } on-error={}
 :do { add list=AF address=2400:e500:3f::/48 } on-error={}
-:do { add list=AF address=2400:e500:40::/42 } on-error={}
+:do { add list=AF address=2400:e500:40::/43 } on-error={}
+:do { add list=AF address=2400:e500:60::/43 } on-error={}
 :do { add list=AF address=2400:e500:80::/41 } on-error={}
 :do { add list=AF address=2400:e500:100::/40 } on-error={}
 :do { add list=AF address=2400:e500:200::/39 } on-error={}

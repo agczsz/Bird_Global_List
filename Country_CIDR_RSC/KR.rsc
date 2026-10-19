@@ -13236,7 +13236,8 @@
 :do { add list=KR address=175.176.136.0/23 } on-error={}
 :do { add list=KR address=175.176.138.0/24 } on-error={}
 :do { add list=KR address=175.176.139.0/24 } on-error={}
-:do { add list=KR address=175.176.140.0/23 } on-error={}
+:do { add list=KR address=175.176.140.0/24 } on-error={}
+:do { add list=KR address=175.176.141.0/24 } on-error={}
 :do { add list=KR address=175.176.142.0/24 } on-error={}
 :do { add list=KR address=175.176.143.0/24 } on-error={}
 :do { add list=KR address=175.176.168.5/32 } on-error={}
@@ -13758,7 +13759,9 @@
 :do { add list=KR address=182.237.42.0/24 } on-error={}
 :do { add list=KR address=182.237.43.0/24 } on-error={}
 :do { add list=KR address=182.237.44.0/22 } on-error={}
-:do { add list=KR address=182.237.48.0/22 } on-error={}
+:do { add list=KR address=182.237.48.0/23 } on-error={}
+:do { add list=KR address=182.237.50.0/24 } on-error={}
+:do { add list=KR address=182.237.51.0/24 } on-error={}
 :do { add list=KR address=182.237.52.0/24 } on-error={}
 :do { add list=KR address=182.237.53.0/24 } on-error={}
 :do { add list=KR address=182.237.54.0/24 } on-error={}
@@ -16011,7 +16014,10 @@
 :do { add list=KR address=209.227.50.0/23 } on-error={}
 :do { add list=KR address=210.0.32.0/19 } on-error={}
 :do { add list=KR address=210.2.32.0/19 } on-error={}
-:do { add list=KR address=210.4.88.0/21 } on-error={}
+:do { add list=KR address=210.4.88.0/22 } on-error={}
+:do { add list=KR address=210.4.92.0/24 } on-error={}
+:do { add list=KR address=210.4.93.0/24 } on-error={}
+:do { add list=KR address=210.4.94.0/23 } on-error={}
 :do { add list=KR address=210.4.216.0/22 } on-error={}
 :do { add list=KR address=210.4.220.0/22 } on-error={}
 :do { add list=KR address=210.16.192.0/18 } on-error={}
@@ -20957,7 +20963,8 @@
 :do { add list=KR address=211.253.40.0/21 } on-error={}
 :do { add list=KR address=211.253.48.0/21 } on-error={}
 :do { add list=KR address=211.253.56.0/22 } on-error={}
-:do { add list=KR address=211.253.60.0/23 } on-error={}
+:do { add list=KR address=211.253.60.0/24 } on-error={}
+:do { add list=KR address=211.253.61.0/24 } on-error={}
 :do { add list=KR address=211.253.62.0/24 } on-error={}
 :do { add list=KR address=211.253.63.0/24 } on-error={}
 :do { add list=KR address=211.253.64.0/24 } on-error={}

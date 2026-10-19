@@ -393,8 +393,7 @@
 :do { add list=RO address=45.14.56.0/22 } on-error={}
 :do { add list=RO address=45.14.236.0/24 } on-error={}
 :do { add list=RO address=45.14.237.0/24 } on-error={}
-:do { add list=RO address=45.14.238.0/24 } on-error={}
-:do { add list=RO address=45.14.239.0/24 } on-error={}
+:do { add list=RO address=45.14.238.0/23 } on-error={}
 :do { add list=RO address=45.15.23.0/24 } on-error={}
 :do { add list=RO address=45.38.27.0/24 } on-error={}
 :do { add list=RO address=45.38.200.0/24 } on-error={}

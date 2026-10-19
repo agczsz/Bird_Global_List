@@ -9700,7 +9700,8 @@
 :do { add list=CH address=193.186.252.0/24 } on-error={}
 :do { add list=CH address=193.188.8.0/24 } on-error={}
 :do { add list=CH address=193.188.9.0/24 } on-error={}
-:do { add list=CH address=193.188.10.0/23 } on-error={}
+:do { add list=CH address=193.188.10.0/24 } on-error={}
+:do { add list=CH address=193.188.11.0/24 } on-error={}
 :do { add list=CH address=193.188.224.0/20 } on-error={}
 :do { add list=CH address=193.188.240.0/24 } on-error={}
 :do { add list=CH address=193.188.241.0/24 } on-error={}

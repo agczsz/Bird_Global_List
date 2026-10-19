@@ -54307,7 +54307,14 @@
 :do { add list=CA address=2607:fa48:20::/43 } on-error={}
 :do { add list=CA address=2607:fa48:40::/42 } on-error={}
 :do { add list=CA address=2607:fa48:80::/41 } on-error={}
-:do { add list=CA address=2607:fa48:100::/40 } on-error={}
+:do { add list=CA address=2607:fa48:100::/44 } on-error={}
+:do { add list=CA address=2607:fa48:110::/44 } on-error={}
+:do { add list=CA address=2607:fa48:120::/43 } on-error={}
+:do { add list=CA address=2607:fa48:140::/42 } on-error={}
+:do { add list=CA address=2607:fa48:180::/42 } on-error={}
+:do { add list=CA address=2607:fa48:1c0::/43 } on-error={}
+:do { add list=CA address=2607:fa48:1e0::/44 } on-error={}
+:do { add list=CA address=2607:fa48:1f0::/44 } on-error={}
 :do { add list=CA address=2607:fa48:200::/39 } on-error={}
 :do { add list=CA address=2607:fa48:400::/38 } on-error={}
 :do { add list=CA address=2607:fa48:800::/37 } on-error={}

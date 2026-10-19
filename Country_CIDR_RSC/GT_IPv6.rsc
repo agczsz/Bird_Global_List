@@ -3928,8 +3928,7 @@
 :do { add list=GT address=2803:ac30::/45 } on-error={}
 :do { add list=GT address=2803:ac30:8::/47 } on-error={}
 :do { add list=GT address=2803:ac30:a::/48 } on-error={}
-:do { add list=GT address=2803:ac30:c::/48 } on-error={}
-:do { add list=GT address=2803:ac30:d::/48 } on-error={}
+:do { add list=GT address=2803:ac30:c::/47 } on-error={}
 :do { add list=GT address=2803:ac30:f:1100::/56 } on-error={}
 :do { add list=GT address=2803:ac30:f:1200::/56 } on-error={}
 :do { add list=GT address=2803:ac30:f:1600::/55 } on-error={}

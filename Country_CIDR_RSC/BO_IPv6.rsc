@@ -309,7 +309,9 @@
 :do { add list=BO address=2800:320:8000::/47 } on-error={}
 :do { add list=BO address=2800:320:8002::/48 } on-error={}
 :do { add list=BO address=2800:320:8003::/48 } on-error={}
-:do { add list=BO address=2800:320:8004::/46 } on-error={}
+:do { add list=BO address=2800:320:8004::/47 } on-error={}
+:do { add list=BO address=2800:320:8006::/48 } on-error={}
+:do { add list=BO address=2800:320:8007::/48 } on-error={}
 :do { add list=BO address=2800:320:8008::/45 } on-error={}
 :do { add list=BO address=2800:320:8010::/44 } on-error={}
 :do { add list=BO address=2800:320:8020::/43 } on-error={}

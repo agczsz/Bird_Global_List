@@ -4004,7 +4004,8 @@
 :do { add list=ES address=80.174.161.0/24 } on-error={}
 :do { add list=ES address=80.174.162.0/23 } on-error={}
 :do { add list=ES address=80.174.164.0/22 } on-error={}
-:do { add list=ES address=80.174.168.0/21 } on-error={}
+:do { add list=ES address=80.174.168.0/22 } on-error={}
+:do { add list=ES address=80.174.172.0/22 } on-error={}
 :do { add list=ES address=80.174.188.0/22 } on-error={}
 :do { add list=ES address=80.174.200.0/23 } on-error={}
 :do { add list=ES address=80.174.208.0/22 } on-error={}

@@ -47772,7 +47772,15 @@
 :do { add list=CN address=240e:695::/34 } on-error={}
 :do { add list=CN address=240e:695:4000::/36 } on-error={}
 :do { add list=CN address=240e:695:5000::/38 } on-error={}
-:do { add list=CN address=240e:695:5400::/40 } on-error={}
+:do { add list=CN address=240e:695:5400::/47 } on-error={}
+:do { add list=CN address=240e:695:5402::/48 } on-error={}
+:do { add list=CN address=240e:695:5403::/48 } on-error={}
+:do { add list=CN address=240e:695:5404::/46 } on-error={}
+:do { add list=CN address=240e:695:5408::/45 } on-error={}
+:do { add list=CN address=240e:695:5410::/44 } on-error={}
+:do { add list=CN address=240e:695:5420::/43 } on-error={}
+:do { add list=CN address=240e:695:5440::/42 } on-error={}
+:do { add list=CN address=240e:695:5480::/41 } on-error={}
 :do { add list=CN address=240e:695:5500::/47 } on-error={}
 :do { add list=CN address=240e:695:5502::/48 } on-error={}
 :do { add list=CN address=240e:695:5503::/48 } on-error={}

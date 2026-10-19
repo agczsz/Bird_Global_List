@@ -11831,7 +11831,8 @@
 :do { add list=ZA address=197.94.254.0/23 } on-error={}
 :do { add list=ZA address=197.95.0.0/17 } on-error={}
 :do { add list=ZA address=197.95.128.0/19 } on-error={}
-:do { add list=ZA address=197.95.160.0/20 } on-error={}
+:do { add list=ZA address=197.95.160.0/21 } on-error={}
+:do { add list=ZA address=197.95.168.0/21 } on-error={}
 :do { add list=ZA address=197.95.176.0/20 } on-error={}
 :do { add list=ZA address=197.95.192.0/19 } on-error={}
 :do { add list=ZA address=197.95.224.0/19 } on-error={}

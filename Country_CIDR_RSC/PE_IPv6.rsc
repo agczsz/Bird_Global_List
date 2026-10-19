@@ -746,10 +746,7 @@
 :do { add list=PE address=2800:650:10c::/48 } on-error={}
 :do { add list=PE address=2800:650:10d::/48 } on-error={}
 :do { add list=PE address=2800:650:10e::/47 } on-error={}
-:do { add list=PE address=2800:650:110::/47 } on-error={}
-:do { add list=PE address=2800:650:112::/48 } on-error={}
-:do { add list=PE address=2800:650:113::/48 } on-error={}
-:do { add list=PE address=2800:650:114::/46 } on-error={}
+:do { add list=PE address=2800:650:110::/45 } on-error={}
 :do { add list=PE address=2800:650:118::/48 } on-error={}
 :do { add list=PE address=2800:650:119::/48 } on-error={}
 :do { add list=PE address=2800:650:11a::/47 } on-error={}

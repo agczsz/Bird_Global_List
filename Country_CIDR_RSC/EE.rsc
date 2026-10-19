@@ -804,8 +804,7 @@
 :do { add list=EE address=154.54.60.199/32 } on-error={}
 :do { add list=EE address=154.59.224.0/24 } on-error={}
 :do { add list=EE address=154.59.225.0/24 } on-error={}
-:do { add list=EE address=154.59.226.0/24 } on-error={}
-:do { add list=EE address=154.59.227.0/24 } on-error={}
+:do { add list=EE address=154.59.226.0/23 } on-error={}
 :do { add list=EE address=154.62.5.64/32 } on-error={}
 :do { add list=EE address=154.62.5.67/32 } on-error={}
 :do { add list=EE address=154.62.5.68/30 } on-error={}

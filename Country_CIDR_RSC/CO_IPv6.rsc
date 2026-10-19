@@ -8337,7 +8337,11 @@
 :do { add list=CO address=2803:ee60:30::/44 } on-error={}
 :do { add list=CO address=2803:ee60:40::/43 } on-error={}
 :do { add list=CO address=2803:ee60:60::/43 } on-error={}
-:do { add list=CO address=2803:ee60:80::/41 } on-error={}
+:do { add list=CO address=2803:ee60:80::/43 } on-error={}
+:do { add list=CO address=2803:ee60:a0::/43 } on-error={}
+:do { add list=CO address=2803:ee60:c0::/44 } on-error={}
+:do { add list=CO address=2803:ee60:d0::/44 } on-error={}
+:do { add list=CO address=2803:ee60:e0::/43 } on-error={}
 :do { add list=CO address=2803:ee60:100::/40 } on-error={}
 :do { add list=CO address=2803:ee60:200::/39 } on-error={}
 :do { add list=CO address=2803:ee60:400::/38 } on-error={}

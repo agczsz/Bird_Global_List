@@ -99,7 +99,10 @@
 :do { add list=CG address=146.75.198.8/31 } on-error={}
 :do { add list=CG address=146.75.224.12/31 } on-error={}
 :do { add list=CG address=149.6.8.51/32 } on-error={}
-:do { add list=CG address=154.53.208.0/22 } on-error={}
+:do { add list=CG address=154.53.208.0/24 } on-error={}
+:do { add list=CG address=154.53.209.0/24 } on-error={}
+:do { add list=CG address=154.53.210.0/24 } on-error={}
+:do { add list=CG address=154.53.211.0/24 } on-error={}
 :do { add list=CG address=160.113.0.0/16 } on-error={}
 :do { add list=CG address=163.116.180.104/32 } on-error={}
 :do { add list=CG address=163.116.180.110/32 } on-error={}
