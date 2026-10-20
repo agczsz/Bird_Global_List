@@ -2,7 +2,6 @@
 /ipv6 firewall address-list
 :do { add list=TJ address=2001:678:624::/48 } on-error={}
 :do { add list=TJ address=2001:678:650::/48 } on-error={}
-:do { add list=TJ address=2001:7f8:1::a504:2861:2/128 } on-error={}
 :do { add list=TJ address=2001:7f8:59::/48 } on-error={}
 :do { add list=TJ address=2001:3786:bb03:400::/56 } on-error={}
 :do { add list=TJ address=2400:cb00:1384::/48 } on-error={}
@@ -207,7 +206,6 @@
 :do { add list=TJ address=2a13:1b01:ff80::/41 } on-error={}
 :do { add list=TJ address=2a13:1b02::/31 } on-error={}
 :do { add list=TJ address=2a13:1b04::/30 } on-error={}
-:do { add list=TJ address=2a13:9500:1e4:13f::/64 } on-error={}
 :do { add list=TJ address=2a13:a5c3:d4a8::/46 } on-error={}
 :do { add list=TJ address=2a13:aac7:10c::/46 } on-error={}
 :do { add list=TJ address=2a13:aac7:114::/46 } on-error={}

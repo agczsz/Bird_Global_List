@@ -1,9 +1,9 @@
 /log info "Loading UZ IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=UZ address=2001:470:28:3ab::/64 } on-error={}
 :do { add list=UZ address=2001:470:28:607::/64 } on-error={}
-:do { add list=UZ address=2001:470:28:8fc::/63 } on-error={}
-:do { add list=UZ address=2001:470:28:9cd::/64 } on-error={}
+:do { add list=UZ address=2001:470:28:8fd::/64 } on-error={}
+:do { add list=UZ address=2001:470:28:979::/64 } on-error={}
+:do { add list=UZ address=2001:470:28:b3f::/64 } on-error={}
 :do { add list=UZ address=2001:470:28:dfb::/64 } on-error={}
 :do { add list=UZ address=2001:470:6f:166::/64 } on-error={}
 :do { add list=UZ address=2001:470:6f:5ec::/64 } on-error={}
@@ -46,6 +46,7 @@
 :do { add list=UZ address=2001:4860:7:1635::/64 } on-error={}
 :do { add list=UZ address=2001:4860:7:1735::/64 } on-error={}
 :do { add list=UZ address=2400:cb00:475::/48 } on-error={}
+:do { add list=UZ address=2404:2280:2ad::/50 } on-error={}
 :do { add list=UZ address=2404:2280:2ae::/50 } on-error={}
 :do { add list=UZ address=2405:b500:7780::/64 } on-error={}
 :do { add list=UZ address=2405:b500:7780:8::/64 } on-error={}
@@ -384,8 +385,6 @@
 :do { add list=UZ address=2a12:f381:f400::/40 } on-error={}
 :do { add list=UZ address=2a12:f382:f400::/40 } on-error={}
 :do { add list=UZ address=2a13:241:5700::/40 } on-error={}
-:do { add list=UZ address=2a13:9500:1e4:9c::/64 } on-error={}
-:do { add list=UZ address=2a13:9500:1e4:18b::/64 } on-error={}
 :do { add list=UZ address=2a13:98c0::/29 } on-error={}
 :do { add list=UZ address=2a13:9fc0::/48 } on-error={}
 :do { add list=UZ address=2a13:9fc0:1::/48 } on-error={}

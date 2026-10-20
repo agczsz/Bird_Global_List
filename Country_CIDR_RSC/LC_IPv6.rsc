@@ -172,7 +172,6 @@
 :do { add list=LC address=2a12:f381:5b00::/40 } on-error={}
 :do { add list=LC address=2a12:f382:5b00::/40 } on-error={}
 :do { add list=LC address=2a13:241:4800::/40 } on-error={}
-:do { add list=LC address=2a13:9500:1e4:462::/64 } on-error={}
 :do { add list=LC address=2a13:ef41:16a1::/48 } on-error={}
 :do { add list=LC address=2a13:ef41:16a2::/47 } on-error={}
 :do { add list=LC address=2a13:ef41:16a4::/46 } on-error={}

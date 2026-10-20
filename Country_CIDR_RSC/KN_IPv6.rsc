@@ -9,7 +9,8 @@
 :do { add list=KN address=2602:fb78:20::/43 } on-error={}
 :do { add list=KN address=2602:fb78:40::/42 } on-error={}
 :do { add list=KN address=2602:fb78:80::/41 } on-error={}
-:do { add list=KN address=2604:a180:8000::/36 } on-error={}
+:do { add list=KN address=2604:a180:4000::/36 } on-error={}
+:do { add list=KN address=2604:a180:8000::/35 } on-error={}
 :do { add list=KN address=2605:59c0:7300::/40 } on-error={}
 :do { add list=KN address=2605:9e40:8200:100::/56 } on-error={}
 :do { add list=KN address=2606:40:203c:8000::/51 } on-error={}

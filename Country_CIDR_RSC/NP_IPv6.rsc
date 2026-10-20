@@ -184,6 +184,7 @@
 :do { add list=NP address=2402:6640::/32 } on-error={}
 :do { add list=NP address=2402:67e0::/32 } on-error={}
 :do { add list=NP address=2402:7120::/32 } on-error={}
+:do { add list=NP address=2402:7e60::/32 } on-error={}
 :do { add list=NP address=2402:a300::/32 } on-error={}
 :do { add list=NP address=2403:3800::/32 } on-error={}
 :do { add list=NP address=2403:ddc0::/32 } on-error={}
@@ -435,6 +436,18 @@
 :do { add list=NP address=2a0a:8f40:a:8000::/49 } on-error={}
 :do { add list=NP address=2a0d:6c2:3100::/40 } on-error={}
 :do { add list=NP address=2a0d:2684:a8::/48 } on-error={}
+:do { add list=NP address=2a0d:5600:159:4::/62 } on-error={}
+:do { add list=NP address=2a0d:5600:159:8::/61 } on-error={}
+:do { add list=NP address=2a0d:5600:159:10::/60 } on-error={}
+:do { add list=NP address=2a0d:5600:159:20::/59 } on-error={}
+:do { add list=NP address=2a0d:5600:159:40::/58 } on-error={}
+:do { add list=NP address=2a0d:5600:159:80::/57 } on-error={}
+:do { add list=NP address=2a0d:5600:159:100::/56 } on-error={}
+:do { add list=NP address=2a0d:5600:159:200::/55 } on-error={}
+:do { add list=NP address=2a0d:5600:159:400::/54 } on-error={}
+:do { add list=NP address=2a0d:5600:159:800::/53 } on-error={}
+:do { add list=NP address=2a0d:5600:159:1000::/52 } on-error={}
+:do { add list=NP address=2a0d:5600:159:2000::/51 } on-error={}
 :do { add list=NP address=2a0d:5600:159:4000::/50 } on-error={}
 :do { add list=NP address=2a0d:5600:159:8000::/49 } on-error={}
 :do { add list=NP address=2a0d:9441:3000::/37 } on-error={}
@@ -479,8 +492,6 @@
 :do { add list=NP address=2a11:29c0:3d88:f17f::/64 } on-error={}
 :do { add list=NP address=2a11:f145:9000::/36 } on-error={}
 :do { add list=NP address=2a13:241:3e00::/40 } on-error={}
-:do { add list=NP address=2a13:9500:1e4:94::/64 } on-error={}
-:do { add list=NP address=2a13:9500:1e4:24c::/64 } on-error={}
 :do { add list=NP address=2a13:a5c3:d480::/46 } on-error={}
 :do { add list=NP address=2a13:b487:5011::/48 } on-error={}
 :do { add list=NP address=2a13:ef41:1931::/48 } on-error={}

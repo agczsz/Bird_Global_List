@@ -30,6 +30,8 @@
 :do { add list=KI address=2606:54c3:0:e79::/64 } on-error={}
 :do { add list=KI address=2606:54c3:0:10fe::/64 } on-error={}
 :do { add list=KI address=2606:54c3:0:12a8::/64 } on-error={}
+:do { add list=KI address=2607:8940:28c6:4000::/50 } on-error={}
+:do { add list=KI address=2607:8940:28c6:8000::/49 } on-error={}
 :do { add list=KI address=2607:8940:28c7::/48 } on-error={}
 :do { add list=KI address=2607:8940:28ca::/47 } on-error={}
 :do { add list=KI address=2607:8940:28ce::/47 } on-error={}
@@ -113,7 +115,6 @@
 :do { add list=KI address=2a06:9f81:3974::/48 } on-error={}
 :do { add list=KI address=2a06:9f81:43ef:7700::/56 } on-error={}
 :do { add list=KI address=2a06:9f81:5674::/48 } on-error={}
-:do { add list=KI address=2a06:de06:382::/48 } on-error={}
 :do { add list=KI address=2a07:d887:7500::/40 } on-error={}
 :do { add list=KI address=2a09:bac1:3d00:10::/64 } on-error={}
 :do { add list=KI address=2a09:bac1:3d00:130::/64 } on-error={}
@@ -173,8 +174,8 @@
 :do { add list=KI address=2a11:29c0:3d88:f5ee::/64 } on-error={}
 :do { add list=KI address=2a12:f381:6a00::/40 } on-error={}
 :do { add list=KI address=2a12:f382:6a00::/40 } on-error={}
-:do { add list=KI address=2a13:9500:1e4:153::/64 } on-error={}
 :do { add list=KI address=2a13:9500:1e4:c93::/64 } on-error={}
+:do { add list=KI address=2a13:9500:1e4:eb9::/64 } on-error={}
 :do { add list=KI address=2a13:ef41:1647::/48 } on-error={}
 :do { add list=KI address=2a13:ef41:1648::/47 } on-error={}
 :do { add list=KI address=2a13:ef41:a647::/48 } on-error={}

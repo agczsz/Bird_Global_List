@@ -1,5 +1,8 @@
 /log info "Loading SY IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=SY address=2001:df4:ec00:100::1ea/127 } on-error={}
+:do { add list=SY address=2001:df4:ec00:8df::/64 } on-error={}
+:do { add list=SY address=2001:df4:ec00:8e0::/64 } on-error={}
 :do { add list=SY address=2405:b500:6c00::/64 } on-error={}
 :do { add list=SY address=2405:b500:6c00:8::/64 } on-error={}
 :do { add list=SY address=2405:b500:6c00:10::/64 } on-error={}
@@ -138,6 +141,7 @@
 :do { add list=SY address=2a11:29c0:3d88:9958::/64 } on-error={}
 :do { add list=SY address=2a11:29c0:3d88:d316::/64 } on-error={}
 :do { add list=SY address=2a11:5300::/29 } on-error={}
+:do { add list=SY address=2a11:9d80::/29 } on-error={}
 :do { add list=SY address=2a11:ccc0::/29 } on-error={}
 :do { add list=SY address=2a11:f146:2000::/36 } on-error={}
 :do { add list=SY address=2a12:1500::/29 } on-error={}
@@ -145,7 +149,6 @@
 :do { add list=SY address=2a12:f382:eb00::/40 } on-error={}
 :do { add list=SY address=2a13:7200:2::/48 } on-error={}
 :do { add list=SY address=2a13:9500:1e4:92f::/64 } on-error={}
-:do { add list=SY address=2a13:9500:1e4:c3d::/64 } on-error={}
 :do { add list=SY address=2a13:9500:1e4:13e9::/64 } on-error={}
 :do { add list=SY address=2a13:9500:1e4:17d4::/64 } on-error={}
 :do { add list=SY address=2a13:a5c3:d4a0::/46 } on-error={}

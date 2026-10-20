@@ -5,7 +5,6 @@
 :do { add list=BI address=9.170.228.0/23 } on-error={}
 :do { add list=BI address=41.79.44.0/22 } on-error={}
 :do { add list=BI address=41.79.224.0/22 } on-error={}
-:do { add list=BI address=41.84.210.50/32 } on-error={}
 :do { add list=BI address=41.181.247.41/32 } on-error={}
 :do { add list=BI address=57.82.124.0/23 } on-error={}
 :do { add list=BI address=66.102.38.192/26 } on-error={}

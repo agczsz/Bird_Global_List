@@ -3,9 +3,9 @@
 :do { add list=MT address=2001:470:24:38::/64 } on-error={}
 :do { add list=MT address=2001:470:1869::/48 } on-error={}
 :do { add list=MT address=2001:470:1b7a::/48 } on-error={}
-:do { add list=MT address=2001:470:1f15:ffe::/64 } on-error={}
 :do { add list=MT address=2001:470:1f29:1c0::/64 } on-error={}
 :do { add list=MT address=2001:470:720c::/48 } on-error={}
+:do { add list=MT address=2001:470:761f::/48 } on-error={}
 :do { add list=MT address=2001:470:7998::/48 } on-error={}
 :do { add list=MT address=2001:470:7fe0::/48 } on-error={}
 :do { add list=MT address=2001:470:c955::/48 } on-error={}

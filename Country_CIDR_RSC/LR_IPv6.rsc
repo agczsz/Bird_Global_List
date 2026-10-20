@@ -136,7 +136,6 @@
 :do { add list=LR address=2a12:f381:5800::/40 } on-error={}
 :do { add list=LR address=2a12:f382:5800::/40 } on-error={}
 :do { add list=LR address=2a13:241:2e00::/40 } on-error={}
-:do { add list=LR address=2a13:9500:1e4:13a::/64 } on-error={}
 :do { add list=LR address=2a13:a5c3:d158::/46 } on-error={}
 :do { add list=LR address=2a13:ef41:16bf::/48 } on-error={}
 :do { add list=LR address=2a13:ef41:16c0::/45 } on-error={}

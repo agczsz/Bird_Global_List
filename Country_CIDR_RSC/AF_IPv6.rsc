@@ -381,8 +381,6 @@
 :do { add list=AF address=2a12:f381:8200::/40 } on-error={}
 :do { add list=AF address=2a12:f382:8200::/40 } on-error={}
 :do { add list=AF address=2a13:240:f600::/40 } on-error={}
-:do { add list=AF address=2a13:9500:1e4:8f::/64 } on-error={}
-:do { add list=AF address=2a13:9500:1e4:2b3::/64 } on-error={}
 :do { add list=AF address=2a13:a5c3:d400::/46 } on-error={}
 :do { add list=AF address=2a13:b487:5026::/48 } on-error={}
 :do { add list=AF address=2a13:ef41:100e::/47 } on-error={}

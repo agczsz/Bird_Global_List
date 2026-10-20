@@ -3,7 +3,7 @@
 :do { add list=HT address=2001:470:5:5e2::/64 } on-error={}
 :do { add list=HT address=2001:470:1f17:16f::/64 } on-error={}
 :do { add list=HT address=2001:470:1f27:7::/64 } on-error={}
-:do { add list=HT address=2001:470:30d5::/50 } on-error={}
+:do { add list=HT address=2001:470:30d5::/48 } on-error={}
 :do { add list=HT address=2001:470:388b::/48 } on-error={}
 :do { add list=HT address=2001:470:6883::/48 } on-error={}
 :do { add list=HT address=2001:470:d95f::/48 } on-error={}
@@ -178,7 +178,6 @@
 :do { add list=HT address=2a11:29c0:3d88:f86f::/64 } on-error={}
 :do { add list=HT address=2a12:f381:d800::/40 } on-error={}
 :do { add list=HT address=2a12:f382:d800::/40 } on-error={}
-:do { add list=HT address=2a13:9500:1e4:434::/64 } on-error={}
 :do { add list=HT address=2a13:ef41:14b8::/45 } on-error={}
 :do { add list=HT address=2a13:ef41:14c0::/48 } on-error={}
 :do { add list=HT address=2a13:ef41:a4b8::/45 } on-error={}

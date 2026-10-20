@@ -2,7 +2,6 @@
 /ipv6 firewall address-list
 :do { add list=KW address=2001:470:1f1b:34b::/64 } on-error={}
 :do { add list=KW address=2001:470:1f1b:60d::/64 } on-error={}
-:do { add list=KW address=2001:470:1f23:59::/64 } on-error={}
 :do { add list=KW address=2001:470:1f29:25::/64 } on-error={}
 :do { add list=KW address=2001:470:1f29:96::/64 } on-error={}
 :do { add list=KW address=2001:470:1f29:211::/64 } on-error={}
@@ -84,8 +83,7 @@
 :do { add list=KW address=2a01:53c0:ffe7::/50 } on-error={}
 :do { add list=KW address=2a01:5ca0::/32 } on-error={}
 :do { add list=KW address=2a01:7780::/48 } on-error={}
-:do { add list=KW address=2a01:7780:1:a::/63 } on-error={}
-:do { add list=KW address=2a01:7780:1:e::/63 } on-error={}
+:do { add list=KW address=2a01:7780:1:8::/61 } on-error={}
 :do { add list=KW address=2a01:7780:1:10::/60 } on-error={}
 :do { add list=KW address=2a01:7780:1:20::/59 } on-error={}
 :do { add list=KW address=2a01:7780:1:40::/58 } on-error={}

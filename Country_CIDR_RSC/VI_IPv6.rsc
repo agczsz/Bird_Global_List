@@ -1,7 +1,6 @@
 /log info "Loading VI IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=VI address=2001:470:24:439::/64 } on-error={}
-:do { add list=VI address=2001:470:24:134b::/64 } on-error={}
 :do { add list=VI address=2001:470:36:7f0::/64 } on-error={}
 :do { add list=VI address=2001:470:1828::/48 } on-error={}
 :do { add list=VI address=2001:470:1f1d:34::/64 } on-error={}
