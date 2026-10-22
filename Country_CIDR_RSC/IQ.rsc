@@ -1,7 +1,7 @@
 /log info "Loading IQ IPv4 Address List"
 /ip firewall address-list
 :do { add list=IQ address=2.56.36.0/23 } on-error={}
-:do { add list=IQ address=2.56.38.0/24 } on-error={}
+:do { add list=IQ address=2.56.38.128/25 } on-error={}
 :do { add list=IQ address=5.1.104.0/21 } on-error={}
 :do { add list=IQ address=5.8.240.0/21 } on-error={}
 :do { add list=IQ address=5.10.224.0/23 } on-error={}
@@ -35,6 +35,7 @@
 :do { add list=IQ address=5.181.196.0/23 } on-error={}
 :do { add list=IQ address=5.181.198.0/23 } on-error={}
 :do { add list=IQ address=5.183.151.0/24 } on-error={}
+:do { add list=IQ address=5.231.244.0/23 } on-error={}
 :do { add list=IQ address=5.231.246.0/23 } on-error={}
 :do { add list=IQ address=5.252.132.0/24 } on-error={}
 :do { add list=IQ address=5.252.133.0/24 } on-error={}
@@ -419,6 +420,7 @@
 :do { add list=IQ address=86.111.148.0/24 } on-error={}
 :do { add list=IQ address=86.111.149.0/24 } on-error={}
 :do { add list=IQ address=86.111.150.0/23 } on-error={}
+:do { add list=IQ address=87.81.251.166/31 } on-error={}
 :do { add list=IQ address=87.84.10.0/23 } on-error={}
 :do { add list=IQ address=87.120.87.0/24 } on-error={}
 :do { add list=IQ address=87.236.149.0/24 } on-error={}
@@ -1255,8 +1257,7 @@
 :do { add list=IQ address=204.157.176.0/23 } on-error={}
 :do { add list=IQ address=204.157.178.0/24 } on-error={}
 :do { add list=IQ address=204.157.179.0/24 } on-error={}
-:do { add list=IQ address=204.157.180.0/24 } on-error={}
-:do { add list=IQ address=204.157.181.0/24 } on-error={}
+:do { add list=IQ address=204.157.180.0/23 } on-error={}
 :do { add list=IQ address=204.157.182.0/23 } on-error={}
 :do { add list=IQ address=212.23.217.0/24 } on-error={}
 :do { add list=IQ address=212.47.61.0/24 } on-error={}

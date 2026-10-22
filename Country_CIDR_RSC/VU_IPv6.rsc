@@ -6,6 +6,7 @@
 :do { add list=VU address=2001:df2:a700:8000::/49 } on-error={}
 :do { add list=VU address=2001:df5:6d40::/44 } on-error={}
 :do { add list=VU address=2001:dfc::/32 } on-error={}
+:do { add list=VU address=2001:3786:5000:200::/56 } on-error={}
 :do { add list=VU address=2400:3100::/34 } on-error={}
 :do { add list=VU address=2400:3100:4100::/40 } on-error={}
 :do { add list=VU address=2400:3100:4200::/39 } on-error={}

@@ -7,8 +7,8 @@
 :do { add list=BZ address=2001:470:ba48::/48 } on-error={}
 :do { add list=BZ address=2001:470:d988::/48 } on-error={}
 :do { add list=BZ address=2001:470:efce::/48 } on-error={}
-:do { add list=BZ address=2001:470:f60b::/48 } on-error={}
 :do { add list=BZ address=2001:470:fe82::/48 } on-error={}
+:do { add list=BZ address=2001:3786:2929:200::/56 } on-error={}
 :do { add list=BZ address=2001:3786:bb03:300::/56 } on-error={}
 :do { add list=BZ address=2404:f980:8::/48 } on-error={}
 :do { add list=BZ address=2405:b500:1400::/64 } on-error={}

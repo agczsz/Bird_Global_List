@@ -1276,6 +1276,7 @@
 :do { add list=PR address=2a0d:2684:b6::/48 } on-error={}
 :do { add list=PR address=2a0d:9444:7800::/37 } on-error={}
 :do { add list=PR address=2a0e:6901:a270::/44 } on-error={}
+:do { add list=PR address=2a0e:cbc0:185::/48 } on-error={}
 :do { add list=PR address=2a0f:1cc1:e62b::/48 } on-error={}
 :do { add list=PR address=2a0f:1cc1:e8a0::/44 } on-error={}
 :do { add list=PR address=2a0f:1cc5:b10:b500::/56 } on-error={}

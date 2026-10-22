@@ -163,6 +163,7 @@
 :do { add list=VI address=2a0f:6280:c200::/39 } on-error={}
 :do { add list=VI address=2a0f:6280:c400::/38 } on-error={}
 :do { add list=VI address=2a0f:6280:c800::/40 } on-error={}
+:do { add list=VI address=2a0f:6280:ca3f::/48 } on-error={}
 :do { add list=VI address=2a0f:6280:ca40::/42 } on-error={}
 :do { add list=VI address=2a0f:6280:ca80::/41 } on-error={}
 :do { add list=VI address=2a0f:6280:cb00::/40 } on-error={}

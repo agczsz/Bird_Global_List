@@ -2,6 +2,7 @@
 /ipv6 firewall address-list
 :do { add list=ZW address=2001:470:28:69f::/64 } on-error={}
 :do { add list=ZW address=2001:470:28:109a::/64 } on-error={}
+:do { add list=ZW address=2001:470:6d:fc7::/64 } on-error={}
 :do { add list=ZW address=2001:470:1f1b:4e0::/64 } on-error={}
 :do { add list=ZW address=2001:470:1f23:b::/64 } on-error={}
 :do { add list=ZW address=2001:470:5577::/48 } on-error={}
@@ -247,6 +248,7 @@
 :do { add list=ZW address=2a0f:1cc5:b15:d000::/56 } on-error={}
 :do { add list=ZW address=2a0f:1cc5:b16:d000::/56 } on-error={}
 :do { add list=ZW address=2a0f:1cc5:b17:d000::/56 } on-error={}
+:do { add list=ZW address=2a0f:6280:cef4::/48 } on-error={}
 :do { add list=ZW address=2a0f:7803:ff10:5c00::/54 } on-error={}
 :do { add list=ZW address=2a0f:85c1:340::d0:0/112 } on-error={}
 :do { add list=ZW address=2a0f:85c1:81b:fc50::/60 } on-error={}

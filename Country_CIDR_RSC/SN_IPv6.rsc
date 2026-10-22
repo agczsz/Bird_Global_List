@@ -107,6 +107,7 @@
 :do { add list=SN address=2a04:4e41:22:2300::/56 } on-error={}
 :do { add list=SN address=2a04:4e41:5d:2b::/64 } on-error={}
 :do { add list=SN address=2a04:4e41:5d:2300::/56 } on-error={}
+:do { add list=SN address=2a04:4e41:6c:e400::/55 } on-error={}
 :do { add list=SN address=2a04:4e41:812::/48 } on-error={}
 :do { add list=SN address=2a04:4e41:401c:c000::/52 } on-error={}
 :do { add list=SN address=2a04:4e41:402c:c000::/52 } on-error={}
@@ -153,6 +154,7 @@
 :do { add list=SN address=2a0f:1cc5:b15:c600::/56 } on-error={}
 :do { add list=SN address=2a0f:1cc5:b16:c600::/56 } on-error={}
 :do { add list=SN address=2a0f:1cc5:b17:c600::/56 } on-error={}
+:do { add list=SN address=2a0f:6280:ce80::/48 } on-error={}
 :do { add list=SN address=2a0f:85c1:340::c1:0/112 } on-error={}
 :do { add list=SN address=2a0f:85c1:81b:f9a0::/60 } on-error={}
 :do { add list=SN address=2a0f:a301:2000::/37 } on-error={}

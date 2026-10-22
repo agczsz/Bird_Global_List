@@ -3,6 +3,7 @@
 :do { add list=NC address=2001:df0:77c0::/48 } on-error={}
 :do { add list=NC address=2001:df3:8900::/48 } on-error={}
 :do { add list=NC address=2001:df3:f380::/48 } on-error={}
+:do { add list=NC address=2001:3786:3338:200::/56 } on-error={}
 :do { add list=NC address=2400:cb00:208::/48 } on-error={}
 :do { add list=NC address=2401:c00::/32 } on-error={}
 :do { add list=NC address=2401:c01::/32 } on-error={}

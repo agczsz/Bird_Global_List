@@ -12,15 +12,14 @@
 :do { add list=ME address=37.0.68.128/26 } on-error={}
 :do { add list=ME address=37.0.68.192/27 } on-error={}
 :do { add list=ME address=37.0.68.240/28 } on-error={}
-:do { add list=ME address=37.0.69.0/25 } on-error={}
-:do { add list=ME address=37.0.69.133/32 } on-error={}
-:do { add list=ME address=37.0.69.134/32 } on-error={}
-:do { add list=ME address=37.0.69.150/32 } on-error={}
+:do { add list=ME address=37.0.69.0/26 } on-error={}
+:do { add list=ME address=37.0.69.69/32 } on-error={}
+:do { add list=ME address=37.0.69.128/27 } on-error={}
 :do { add list=ME address=37.0.69.161/32 } on-error={}
 :do { add list=ME address=37.0.69.202/31 } on-error={}
 :do { add list=ME address=37.0.69.224/29 } on-error={}
 :do { add list=ME address=37.0.69.236/30 } on-error={}
-:do { add list=ME address=37.0.70.8/29 } on-error={}
+:do { add list=ME address=37.0.70.14/32 } on-error={}
 :do { add list=ME address=37.0.70.96/28 } on-error={}
 :do { add list=ME address=37.0.70.128/28 } on-error={}
 :do { add list=ME address=37.0.70.152/29 } on-error={}
@@ -63,7 +62,8 @@
 :do { add list=ME address=79.140.146.0/23 } on-error={}
 :do { add list=ME address=79.140.148.0/22 } on-error={}
 :do { add list=ME address=79.140.152.0/22 } on-error={}
-:do { add list=ME address=79.140.156.0/24 } on-error={}
+:do { add list=ME address=79.140.156.0/25 } on-error={}
+:do { add list=ME address=79.140.156.128/27 } on-error={}
 :do { add list=ME address=79.140.157.0/26 } on-error={}
 :do { add list=ME address=79.140.157.136/29 } on-error={}
 :do { add list=ME address=79.140.157.160/27 } on-error={}
@@ -79,6 +79,7 @@
 :do { add list=ME address=81.28.249.192/26 } on-error={}
 :do { add list=ME address=81.28.250.0/23 } on-error={}
 :do { add list=ME address=85.94.96.0/19 } on-error={}
+:do { add list=ME address=87.81.247.182/31 } on-error={}
 :do { add list=ME address=89.188.32.0/19 } on-error={}
 :do { add list=ME address=89.207.192.0/23 } on-error={}
 :do { add list=ME address=89.207.194.0/30 } on-error={}

@@ -1,14 +1,6 @@
 /log info "Loading MT IPv4 Address List"
 /ip firewall address-list
 :do { add list=MT address=2.59.131.0/24 } on-error={}
-:do { add list=MT address=2.152.72.0/25 } on-error={}
-:do { add list=MT address=2.152.72.128/26 } on-error={}
-:do { add list=MT address=2.152.72.192/27 } on-error={}
-:do { add list=MT address=2.152.72.224/28 } on-error={}
-:do { add list=MT address=2.152.72.240/29 } on-error={}
-:do { add list=MT address=2.152.72.248/30 } on-error={}
-:do { add list=MT address=2.152.72.252/32 } on-error={}
-:do { add list=MT address=2.152.72.254/31 } on-error={}
 :do { add list=MT address=5.62.63.0/30 } on-error={}
 :do { add list=MT address=5.62.86.40/29 } on-error={}
 :do { add list=MT address=5.62.86.48/28 } on-error={}
@@ -131,6 +123,7 @@
 :do { add list=MT address=85.184.120.0/21 } on-error={}
 :do { add list=MT address=85.232.192.0/19 } on-error={}
 :do { add list=MT address=86.38.103.0/24 } on-error={}
+:do { add list=MT address=87.81.247.186/31 } on-error={}
 :do { add list=MT address=88.203.0.0/17 } on-error={}
 :do { add list=MT address=89.149.172.48/28 } on-error={}
 :do { add list=MT address=90.96.184.104/31 } on-error={}
@@ -194,9 +187,6 @@
 :do { add list=MT address=146.75.166.116/31 } on-error={}
 :do { add list=MT address=146.75.186.26/31 } on-error={}
 :do { add list=MT address=147.75.148.0/24 } on-error={}
-:do { add list=MT address=147.189.196.0/22 } on-error={}
-:do { add list=MT address=147.189.204.0/23 } on-error={}
-:do { add list=MT address=147.189.206.0/24 } on-error={}
 :do { add list=MT address=150.228.50.0/23 } on-error={}
 :do { add list=MT address=154.14.24.246/32 } on-error={}
 :do { add list=MT address=157.167.104.0/24 } on-error={}
@@ -335,7 +325,6 @@
 :do { add list=MT address=193.142.245.0/24 } on-error={}
 :do { add list=MT address=193.150.126.0/24 } on-error={}
 :do { add list=MT address=193.188.32.0/20 } on-error={}
-:do { add list=MT address=194.61.20.0/22 } on-error={}
 :do { add list=MT address=194.105.32.0/22 } on-error={}
 :do { add list=MT address=194.106.64.0/20 } on-error={}
 :do { add list=MT address=194.106.80.0/21 } on-error={}

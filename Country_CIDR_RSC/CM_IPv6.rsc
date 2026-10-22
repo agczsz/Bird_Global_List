@@ -130,6 +130,7 @@
 :do { add list=CM address=2a03:b601:954::/46 } on-error={}
 :do { add list=CM address=2a04:4e41:22:4::/64 } on-error={}
 :do { add list=CM address=2a04:4e41:22:1400::/56 } on-error={}
+:do { add list=CM address=2a04:4e41:6c:ce00::/55 } on-error={}
 :do { add list=CM address=2a04:4e41:208::/48 } on-error={}
 :do { add list=CM address=2a04:4e41:160c::/48 } on-error={}
 :do { add list=CM address=2a04:4e41:4012:e000::/52 } on-error={}

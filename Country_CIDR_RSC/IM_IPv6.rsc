@@ -2,6 +2,8 @@
 /ipv6 firewall address-list
 :do { add list=IM address=2001:470:28:1ad::/64 } on-error={}
 :do { add list=IM address=2001:470:28:b1d::/64 } on-error={}
+:do { add list=IM address=2001:470:60::/48 } on-error={}
+:do { add list=IM address=2001:470:6d:cb1::/64 } on-error={}
 :do { add list=IM address=2001:470:1825::/48 } on-error={}
 :do { add list=IM address=2001:470:1847::/48 } on-error={}
 :do { add list=IM address=2001:470:1865::/48 } on-error={}
@@ -27,6 +29,7 @@
 :do { add list=IM address=2001:470:dcfe::/48 } on-error={}
 :do { add list=IM address=2001:470:dd41::/48 } on-error={}
 :do { add list=IM address=2001:7f8:fb::/48 } on-error={}
+:do { add list=IM address=2001:3786:5015:100::/56 } on-error={}
 :do { add list=IM address=2600:70ff:a949::/48 } on-error={}
 :do { add list=IM address=2600:70ff:d024::/48 } on-error={}
 :do { add list=IM address=2602:814:fd9c::/46 } on-error={}

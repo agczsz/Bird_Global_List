@@ -10,7 +10,7 @@
 :do { add list=BL address=2602:f93d:80::/44 } on-error={}
 :do { add list=BL address=2602:fb62::/36 } on-error={}
 :do { add list=BL address=2602:fb77::/48 } on-error={}
-:do { add list=BL address=2602:fc30::/40 } on-error={}
+:do { add list=BL address=2602:fc30:c2::/48 } on-error={}
 :do { add list=BL address=2602:fc30:100::/40 } on-error={}
 :do { add list=BL address=2602:fc30:200::/39 } on-error={}
 :do { add list=BL address=2602:fc30:400::/38 } on-error={}

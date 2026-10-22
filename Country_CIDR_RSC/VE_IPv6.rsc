@@ -1202,6 +1202,7 @@
 :do { add list=VE address=2a0f:1cc5:b16:f500::/56 } on-error={}
 :do { add list=VE address=2a0f:1cc5:b17:f500::/56 } on-error={}
 :do { add list=VE address=2a0f:1cc5:1f82::/48 } on-error={}
+:do { add list=VE address=2a0f:6280:cee3::/48 } on-error={}
 :do { add list=VE address=2a0f:85c1:340::cc:0/112 } on-error={}
 :do { add list=VE address=2a0f:85c1:81b:fc10::/60 } on-error={}
 :do { add list=VE address=2a10:500:ca00::/40 } on-error={}

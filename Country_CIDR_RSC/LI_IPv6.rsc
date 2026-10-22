@@ -1,6 +1,7 @@
 /log info "Loading LI IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=LI address=2001:470:26:7be::/64 } on-error={}
+:do { add list=LI address=2001:470:6d:cbd::/64 } on-error={}
 :do { add list=LI address=2001:470:1f0b:b7::/64 } on-error={}
 :do { add list=LI address=2001:470:730b::/48 } on-error={}
 :do { add list=LI address=2001:470:b674::/48 } on-error={}
@@ -105,6 +106,8 @@
 :do { add list=LI address=2001:7f8:66:8000::/49 } on-error={}
 :do { add list=LI address=2001:7f8:d0:4652::/64 } on-error={}
 :do { add list=LI address=2001:7f8:d0:4c49::/64 } on-error={}
+:do { add list=LI address=2001:3786:5001:200::/56 } on-error={}
+:do { add list=LI address=2001:3786:b10b:400::/56 } on-error={}
 :do { add list=LI address=2405:b500:4280::/64 } on-error={}
 :do { add list=LI address=2405:b500:42a0::/64 } on-error={}
 :do { add list=LI address=2405:b500:42c0::/64 } on-error={}
@@ -341,6 +344,7 @@
 :do { add list=LI address=2a04:4e41:4e:3600::/56 } on-error={}
 :do { add list=LI address=2a04:4e41:56:b::/64 } on-error={}
 :do { add list=LI address=2a04:4e41:56:1400::/56 } on-error={}
+:do { add list=LI address=2a04:4e41:5c:aa00::/55 } on-error={}
 :do { add list=LI address=2a04:4e41:66:55::/64 } on-error={}
 :do { add list=LI address=2a04:4e41:66:3300::/56 } on-error={}
 :do { add list=LI address=2a04:4e41:1829::/48 } on-error={}

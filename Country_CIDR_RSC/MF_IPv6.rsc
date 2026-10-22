@@ -36,7 +36,7 @@
 :do { add list=MF address=2a01:cb20:c011:c000::/50 } on-error={}
 :do { add list=MF address=2a01:cb20:c012::/50 } on-error={}
 :do { add list=MF address=2a01:cb20:c012:8000::/50 } on-error={}
-:do { add list=MF address=2a01:cb20:c013:8000::/49 } on-error={}
+:do { add list=MF address=2a01:cb20:c013::/48 } on-error={}
 :do { add list=MF address=2a01:cb20:c014::/50 } on-error={}
 :do { add list=MF address=2a01:cb20:c014:8000::/50 } on-error={}
 :do { add list=MF address=2a01:cb20:c015::/50 } on-error={}

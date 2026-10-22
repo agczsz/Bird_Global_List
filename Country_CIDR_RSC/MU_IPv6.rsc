@@ -5192,7 +5192,11 @@
 :do { add list=MU address=2c0f:5a04::/30 } on-error={}
 :do { add list=MU address=2c0f:5a08::/29 } on-error={}
 :do { add list=MU address=2c0f:5a10::/28 } on-error={}
-:do { add list=MU address=2c0f:5a20::/27 } on-error={}
+:do { add list=MU address=2c0f:5a21::/32 } on-error={}
+:do { add list=MU address=2c0f:5a22::/31 } on-error={}
+:do { add list=MU address=2c0f:5a24::/30 } on-error={}
+:do { add list=MU address=2c0f:5a28::/29 } on-error={}
+:do { add list=MU address=2c0f:5a30::/28 } on-error={}
 :do { add list=MU address=2c0f:5a41::/32 } on-error={}
 :do { add list=MU address=2c0f:5a42::/31 } on-error={}
 :do { add list=MU address=2c0f:5a44::/30 } on-error={}

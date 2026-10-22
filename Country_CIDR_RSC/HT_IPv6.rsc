@@ -11,13 +11,13 @@
 :do { add list=HT address=2001:470:f31f::/48 } on-error={}
 :do { add list=HT address=2001:470:f375::/48 } on-error={}
 :do { add list=HT address=2001:470:f499::/48 } on-error={}
-:do { add list=HT address=2001:470:f6ac::/48 } on-error={}
 :do { add list=HT address=2001:470:fa77::/48 } on-error={}
 :do { add list=HT address=2001:470:fc1b::/48 } on-error={}
 :do { add list=HT address=2001:470:fcc8::/48 } on-error={}
 :do { add list=HT address=2001:470:fdc2::/48 } on-error={}
 :do { add list=HT address=2001:470:ffb8::/48 } on-error={}
 :do { add list=HT address=2001:13c7:6003::/48 } on-error={}
+:do { add list=HT address=2001:3786:5004:500::/56 } on-error={}
 :do { add list=HT address=2001:3786:bb02:300::/56 } on-error={}
 :do { add list=HT address=2400:cb00:205::/48 } on-error={}
 :do { add list=HT address=2405:b500:3380::/64 } on-error={}
