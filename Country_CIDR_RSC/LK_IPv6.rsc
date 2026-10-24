@@ -353,6 +353,7 @@
 :do { add list=LK address=2400:cb00:237::/48 } on-error={}
 :do { add list=LK address=2400:cb00:260::/48 } on-error={}
 :do { add list=LK address=2400:d040::/32 } on-error={}
+:do { add list=LK address=2400:e2e0::/32 } on-error={}
 :do { add list=LK address=2400:ff00::/32 } on-error={}
 :do { add list=LK address=2401:460::/32 } on-error={}
 :do { add list=LK address=2401:dd00::/32 } on-error={}

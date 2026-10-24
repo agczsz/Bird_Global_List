@@ -50,7 +50,6 @@
 :do { add list=CD address=2a00:ca0:2005:e000::/52 } on-error={}
 :do { add list=CD address=2a00:ca0:201a::/52 } on-error={}
 :do { add list=CD address=2a00:ca0:202c:4000::/50 } on-error={}
-:do { add list=CD address=2a00:ca0:202d:1000::/52 } on-error={}
 :do { add list=CD address=2a00:ca0:203d:4000::/50 } on-error={}
 :do { add list=CD address=2a01:c9c0:c010::/48 } on-error={}
 :do { add list=CD address=2a02:26f7:e0c0:4000::/64 } on-error={}

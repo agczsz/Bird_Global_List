@@ -449,6 +449,7 @@
 :do { add list=LI address=2a07:d887:8000::/40 } on-error={}
 :do { add list=LI address=2a09:4c0:0:82::/64 } on-error={}
 :do { add list=LI address=2a09:4c0:200::/40 } on-error={}
+:do { add list=LI address=2a09:3f00:3c34::/47 } on-error={}
 :do { add list=LI address=2a09:bac1:4280::/64 } on-error={}
 :do { add list=LI address=2a09:bac1:42a0::/64 } on-error={}
 :do { add list=LI address=2a09:bac1:42c0::/64 } on-error={}

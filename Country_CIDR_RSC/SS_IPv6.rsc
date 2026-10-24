@@ -15,7 +15,6 @@
 :do { add list=SS address=2606:54c1:1:1f3::/64 } on-error={}
 :do { add list=SS address=2606:54c3:0:dc0::/64 } on-error={}
 :do { add list=SS address=2a00:ca0:2004:2000::/52 } on-error={}
-:do { add list=SS address=2a00:ca0:202d:2000::/52 } on-error={}
 :do { add list=SS address=2a00:ca0:2039::/50 } on-error={}
 :do { add list=SS address=2a02:26f7:db00::/48 } on-error={}
 :do { add list=SS address=2a02:26f7:db01::/48 } on-error={}

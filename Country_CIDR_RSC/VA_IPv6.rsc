@@ -99,6 +99,7 @@
 :do { add list=VA address=2a06:b440:193::/48 } on-error={}
 :do { add list=VA address=2a07:8100::/29 } on-error={}
 :do { add list=VA address=2a07:d887:ea00::/40 } on-error={}
+:do { add list=VA address=2a09:3f00:3c38::/47 } on-error={}
 :do { add list=VA address=2a09:bac1:7800::/64 } on-error={}
 :do { add list=VA address=2a09:bac1:7820::/64 } on-error={}
 :do { add list=VA address=2a09:bac1:7840::/64 } on-error={}

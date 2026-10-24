@@ -152,7 +152,6 @@
 :do { add list=BS address=190.15.64.0/22 } on-error={}
 :do { add list=BS address=190.15.68.0/22 } on-error={}
 :do { add list=BS address=190.15.72.0/21 } on-error={}
-:do { add list=BS address=192.231.36.40/29 } on-error={}
 :do { add list=BS address=199.38.198.0/23 } on-error={}
 :do { add list=BS address=199.102.188.0/22 } on-error={}
 :do { add list=BS address=204.119.139.6/31 } on-error={}

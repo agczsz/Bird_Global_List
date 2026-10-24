@@ -398,7 +398,6 @@
 :do { add list=KE address=2001:4860:7:151a::/64 } on-error={}
 :do { add list=KE address=2001:4860:7:161a::/64 } on-error={}
 :do { add list=KE address=2001:4860:7:171a::/64 } on-error={}
-:do { add list=KE address=2001:4c08::68/128 } on-error={}
 :do { add list=KE address=2400:8800:9e06::/50 } on-error={}
 :do { add list=KE address=2400:8800:9e10::/50 } on-error={}
 :do { add list=KE address=2400:8800:9f00:8000::/50 } on-error={}

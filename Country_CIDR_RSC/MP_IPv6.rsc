@@ -7,6 +7,8 @@
 :do { add list=MP address=2001:470:3884::/48 } on-error={}
 :do { add list=MP address=2001:470:7615::/48 } on-error={}
 :do { add list=MP address=2001:470:ecd3::/48 } on-error={}
+:do { add list=MP address=2001:470:fab8:4000::/50 } on-error={}
+:do { add list=MP address=2001:470:fab8:8000::/49 } on-error={}
 :do { add list=MP address=2001:470:fc60::/48 } on-error={}
 :do { add list=MP address=2001:470:fe80::/48 } on-error={}
 :do { add list=MP address=2401:4e40:1::/48 } on-error={}

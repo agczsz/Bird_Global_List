@@ -5255,7 +5255,8 @@
 :do { add list=AR address=2800:a10:215a::/47 } on-error={}
 :do { add list=AR address=2800:a10:215c::/46 } on-error={}
 :do { add list=AR address=2800:a10:2160::/47 } on-error={}
-:do { add list=AR address=2800:a10:2162::/47 } on-error={}
+:do { add list=AR address=2800:a10:2162::/48 } on-error={}
+:do { add list=AR address=2800:a10:2163::/48 } on-error={}
 :do { add list=AR address=2800:a10:2164::/46 } on-error={}
 :do { add list=AR address=2800:a10:2168::/45 } on-error={}
 :do { add list=AR address=2800:a10:2170::/44 } on-error={}
@@ -5815,6 +5816,7 @@
 :do { add list=AR address=2803:840::/32 } on-error={}
 :do { add list=AR address=2803:860::/32 } on-error={}
 :do { add list=AR address=2803:880::/32 } on-error={}
+:do { add list=AR address=2803:8b0::/32 } on-error={}
 :do { add list=AR address=2803:8c0::/32 } on-error={}
 :do { add list=AR address=2803:8e0::/32 } on-error={}
 :do { add list=AR address=2803:900::/37 } on-error={}
@@ -6892,6 +6894,7 @@
 :do { add list=AR address=2803:8740::/32 } on-error={}
 :do { add list=AR address=2803:8760::/32 } on-error={}
 :do { add list=AR address=2803:88a0::/32 } on-error={}
+:do { add list=AR address=2803:88b0::/32 } on-error={}
 :do { add list=AR address=2803:88c0::/32 } on-error={}
 :do { add list=AR address=2803:8900::/32 } on-error={}
 :do { add list=AR address=2803:89a0::/32 } on-error={}
@@ -7596,6 +7599,7 @@
 :do { add list=AR address=2803:f000::/32 } on-error={}
 :do { add list=AR address=2803:f040::/32 } on-error={}
 :do { add list=AR address=2803:f050::/32 } on-error={}
+:do { add list=AR address=2803:f0b0::/32 } on-error={}
 :do { add list=AR address=2803:f0d0::/32 } on-error={}
 :do { add list=AR address=2803:f100::/32 } on-error={}
 :do { add list=AR address=2803:f140::/32 } on-error={}
@@ -8784,8 +8788,7 @@
 :do { add list=AR address=2a0d:2684:9::/48 } on-error={}
 :do { add list=AR address=2a0d:9445:1800::/37 } on-error={}
 :do { add list=AR address=2a0e:1c80:1d::/48 } on-error={}
-:do { add list=AR address=2a0e:4207:a100::/48 } on-error={}
-:do { add list=AR address=2a0e:4207:a101::/48 } on-error={}
+:do { add list=AR address=2a0e:4207:a100::/47 } on-error={}
 :do { add list=AR address=2a0e:6901:a240::/44 } on-error={}
 :do { add list=AR address=2a0e:6901:a280::/41 } on-error={}
 :do { add list=AR address=2a0e:8f01:1000:62::/64 } on-error={}

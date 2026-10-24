@@ -287,7 +287,7 @@
 :do { add list=NG address=41.181.190.143/32 } on-error={}
 :do { add list=NG address=41.181.190.152/29 } on-error={}
 :do { add list=NG address=41.181.190.168/29 } on-error={}
-:do { add list=NG address=41.181.190.176/30 } on-error={}
+:do { add list=NG address=41.181.190.176/29 } on-error={}
 :do { add list=NG address=41.181.190.208/30 } on-error={}
 :do { add list=NG address=41.181.190.224/30 } on-error={}
 :do { add list=NG address=41.181.199.16/29 } on-error={}
@@ -564,7 +564,9 @@
 :do { add list=NG address=62.173.35.208/29 } on-error={}
 :do { add list=NG address=62.173.35.216/30 } on-error={}
 :do { add list=NG address=62.173.35.220/32 } on-error={}
+:do { add list=NG address=62.173.35.223/32 } on-error={}
 :do { add list=NG address=62.173.35.224/29 } on-error={}
+:do { add list=NG address=62.173.35.233/32 } on-error={}
 :do { add list=NG address=62.173.35.234/31 } on-error={}
 :do { add list=NG address=62.173.35.236/30 } on-error={}
 :do { add list=NG address=62.173.35.240/28 } on-error={}
@@ -2512,6 +2514,7 @@
 :do { add list=NG address=197.214.50.0/24 } on-error={}
 :do { add list=NG address=197.214.56.0/24 } on-error={}
 :do { add list=NG address=197.214.58.0/23 } on-error={}
+:do { add list=NG address=197.214.64.20/30 } on-error={}
 :do { add list=NG address=197.214.64.38/31 } on-error={}
 :do { add list=NG address=197.214.64.40/30 } on-error={}
 :do { add list=NG address=197.214.64.45/32 } on-error={}
@@ -2527,8 +2530,8 @@
 :do { add list=NG address=197.214.64.87/32 } on-error={}
 :do { add list=NG address=197.214.64.88/29 } on-error={}
 :do { add list=NG address=197.214.64.99/32 } on-error={}
-:do { add list=NG address=197.214.64.102/32 } on-error={}
-:do { add list=NG address=197.214.64.106/32 } on-error={}
+:do { add list=NG address=197.214.64.100/30 } on-error={}
+:do { add list=NG address=197.214.64.104/30 } on-error={}
 :do { add list=NG address=197.214.64.108/31 } on-error={}
 :do { add list=NG address=197.214.64.111/32 } on-error={}
 :do { add list=NG address=197.214.64.117/32 } on-error={}

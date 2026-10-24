@@ -604,6 +604,7 @@
 :do { add list=KP address=2a0f:1cc6:bab9::/48 } on-error={}
 :do { add list=KP address=2a0f:5707:ffa4:4000::/50 } on-error={}
 :do { add list=KP address=2a0f:5707:ffa4:8000::/49 } on-error={}
+:do { add list=KP address=2a0f:6280:1005::/48 } on-error={}
 :do { add list=KP address=2a0f:6284:e::/48 } on-error={}
 :do { add list=KP address=2a0f:7800:ff60::/44 } on-error={}
 :do { add list=KP address=2a0f:7803:f6cb::/48 } on-error={}

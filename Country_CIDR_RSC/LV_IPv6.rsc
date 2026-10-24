@@ -37,7 +37,6 @@
 :do { add list=LV address=2001:470:208::/50 } on-error={}
 :do { add list=LV address=2001:470:30c:1::/64 } on-error={}
 :do { add list=LV address=2001:470:188f::/48 } on-error={}
-:do { add list=LV address=2001:470:18bb::/48 } on-error={}
 :do { add list=LV address=2001:470:1f07:2bd::/64 } on-error={}
 :do { add list=LV address=2001:470:1f09:6b2::/64 } on-error={}
 :do { add list=LV address=2001:470:1f11:742::/64 } on-error={}

@@ -1,9 +1,6 @@
 /log info "Loading BW IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=BW address=2001:4328::/62 } on-error={}
-:do { add list=BW address=2001:4328:0:4::/64 } on-error={}
-:do { add list=BW address=2001:4328:0:6::/63 } on-error={}
-:do { add list=BW address=2001:4328:0:8::/61 } on-error={}
+:do { add list=BW address=2001:4328::/60 } on-error={}
 :do { add list=BW address=2001:4328:0:10::/62 } on-error={}
 :do { add list=BW address=2001:4328:0:14::/63 } on-error={}
 :do { add list=BW address=2001:4328:0:16::/127 } on-error={}

@@ -161,6 +161,9 @@
 :do { add list=MM address=63.246.42.64/26 } on-error={}
 :do { add list=MM address=65.18.112.0/25 } on-error={}
 :do { add list=MM address=65.18.112.128/27 } on-error={}
+:do { add list=MM address=65.18.112.161/32 } on-error={}
+:do { add list=MM address=65.18.112.162/31 } on-error={}
+:do { add list=MM address=65.18.112.164/30 } on-error={}
 :do { add list=MM address=65.18.112.168/29 } on-error={}
 :do { add list=MM address=65.18.112.176/28 } on-error={}
 :do { add list=MM address=65.18.112.192/26 } on-error={}
@@ -266,14 +269,7 @@
 :do { add list=MM address=103.85.105.32/27 } on-error={}
 :do { add list=MM address=103.85.105.64/26 } on-error={}
 :do { add list=MM address=103.85.105.128/25 } on-error={}
-:do { add list=MM address=103.85.106.0/26 } on-error={}
-:do { add list=MM address=103.85.106.64/27 } on-error={}
-:do { add list=MM address=103.85.106.96/28 } on-error={}
-:do { add list=MM address=103.85.106.112/29 } on-error={}
-:do { add list=MM address=103.85.106.120/30 } on-error={}
-:do { add list=MM address=103.85.106.124/31 } on-error={}
-:do { add list=MM address=103.85.106.128/25 } on-error={}
-:do { add list=MM address=103.85.107.0/24 } on-error={}
+:do { add list=MM address=103.85.106.0/23 } on-error={}
 :do { add list=MM address=103.88.48.0/22 } on-error={}
 :do { add list=MM address=103.89.48.0/22 } on-error={}
 :do { add list=MM address=103.89.176.0/22 } on-error={}
@@ -677,7 +673,6 @@
 :do { add list=MM address=203.9.219.0/24 } on-error={}
 :do { add list=MM address=203.31.93.0/24 } on-error={}
 :do { add list=MM address=203.34.160.0/24 } on-error={}
-:do { add list=MM address=203.77.169.128/25 } on-error={}
 :do { add list=MM address=203.77.170.0/32 } on-error={}
 :do { add list=MM address=203.77.170.2/31 } on-error={}
 :do { add list=MM address=203.77.170.4/30 } on-error={}
@@ -686,7 +681,6 @@
 :do { add list=MM address=203.77.170.32/27 } on-error={}
 :do { add list=MM address=203.77.170.64/26 } on-error={}
 :do { add list=MM address=203.77.171.8/29 } on-error={}
-:do { add list=MM address=203.77.174.64/30 } on-error={}
 :do { add list=MM address=203.81.64.0/19 } on-error={}
 :do { add list=MM address=203.81.160.0/22 } on-error={}
 :do { add list=MM address=203.81.164.0/24 } on-error={}
