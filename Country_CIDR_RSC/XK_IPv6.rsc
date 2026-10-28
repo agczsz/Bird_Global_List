@@ -99,5 +99,6 @@
 :do { add list=XK address=2a11:29c0:3d88:e913::/64 } on-error={}
 :do { add list=XK address=2a11:29c0:3d88:f19a::/64 } on-error={}
 :do { add list=XK address=2a11:29c0:3d88:fcfe::/64 } on-error={}
-:do { add list=XK address=2a14:3400::/30 } on-error={}
+:do { add list=XK address=2a13:c8c3:e8ff::/48 } on-error={}
+:do { add list=XK address=2a14:3400::/29 } on-error={}
 :do { add list=XK address=2a14:7581:fe6:89fc::/64 } on-error={}

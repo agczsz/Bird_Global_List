@@ -99,7 +99,6 @@
 :do { add list=GD address=2a0a:6044:f79c::/46 } on-error={}
 :do { add list=GD address=2a0a:6044:f7a0::/45 } on-error={}
 :do { add list=GD address=2a0a:6044:f7a8::/47 } on-error={}
-:do { add list=GD address=2a0b:4e07:3:3080::/60 } on-error={}
 :do { add list=GD address=2a0d:2684:4e::/48 } on-error={}
 :do { add list=GD address=2a0d:9444:b000::/37 } on-error={}
 :do { add list=GD address=2a0f:1cc1:e7d0::/44 } on-error={}

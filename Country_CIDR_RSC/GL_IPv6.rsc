@@ -163,7 +163,6 @@
 :do { add list=GL address=2a0a:6044:f4c0::/45 } on-error={}
 :do { add list=GL address=2a0a:6044:f4c8::/46 } on-error={}
 :do { add list=GL address=2a0a:6044:f4cc::/48 } on-error={}
-:do { add list=GL address=2a0b:4e07:3:3040::/60 } on-error={}
 :do { add list=GL address=2a0b:4e07:6d::/48 } on-error={}
 :do { add list=GL address=2a0d:6c2:2200::/40 } on-error={}
 :do { add list=GL address=2a0d:6c2:2e00::/40 } on-error={}
@@ -193,10 +192,6 @@
 :do { add list=GL address=2a12:f381:cc00::/40 } on-error={}
 :do { add list=GL address=2a12:f382:cc00::/40 } on-error={}
 :do { add list=GL address=2a13:241:1c00::/40 } on-error={}
-:do { add list=GL address=2a13:9500:1e4:ba::/64 } on-error={}
-:do { add list=GL address=2a13:9500:1e4:c99::/64 } on-error={}
-:do { add list=GL address=2a13:9500:1e4:11a3::/64 } on-error={}
-:do { add list=GL address=2a13:a5c7:2004::/48 } on-error={}
 :do { add list=GL address=2a13:b487:5029::/48 } on-error={}
 :do { add list=GL address=2a13:ef41:144a::/47 } on-error={}
 :do { add list=GL address=2a13:ef41:144c::/47 } on-error={}

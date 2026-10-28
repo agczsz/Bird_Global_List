@@ -97,7 +97,6 @@
 :do { add list=MP address=2a0a:6044:f814::/46 } on-error={}
 :do { add list=MP address=2a0a:6044:f818::/45 } on-error={}
 :do { add list=MP address=2a0a:6044:f820::/47 } on-error={}
-:do { add list=MP address=2a0b:4e07:3:5800::/60 } on-error={}
 :do { add list=MP address=2a0d:2684:95::/48 } on-error={}
 :do { add list=MP address=2a0d:9443:b000::/37 } on-error={}
 :do { add list=MP address=2a0f:1cc1:e61c::/48 } on-error={}

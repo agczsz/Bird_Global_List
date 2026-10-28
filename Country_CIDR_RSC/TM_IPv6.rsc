@@ -79,7 +79,6 @@
 :do { add list=TM address=2a09:bac4:16e0::/45 } on-error={}
 :do { add list=TM address=2a09:bac5:5880::/45 } on-error={}
 :do { add list=TM address=2a09:bac6:5880::/45 } on-error={}
-:do { add list=TM address=2a0b:4e07:3:7950::/60 } on-error={}
 :do { add list=TM address=2a0b:4e07:d3:f::/64 } on-error={}
 :do { add list=TM address=2a0d:2587:88b3::/48 } on-error={}
 :do { add list=TM address=2a0d:2684:de::/48 } on-error={}

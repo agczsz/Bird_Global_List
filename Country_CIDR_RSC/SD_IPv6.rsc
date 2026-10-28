@@ -92,7 +92,6 @@
 :do { add list=SD address=2a09:bac4:1610::/45 } on-error={}
 :do { add list=SD address=2a09:bac5:5250::/44 } on-error={}
 :do { add list=SD address=2a09:bac6:5250::/44 } on-error={}
-:do { add list=SD address=2a0b:4e07:3:7290::/60 } on-error={}
 :do { add list=SD address=2a0d:2684:c4::/48 } on-error={}
 :do { add list=SD address=2a0d:3341:e000::/40 } on-error={}
 :do { add list=SD address=2a0d:3344:1300::/40 } on-error={}

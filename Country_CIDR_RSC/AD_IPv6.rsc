@@ -1,11 +1,9 @@
 /log info "Loading AD IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=AD address=2001:470:1d:361::/64 } on-error={}
+:do { add list=AD address=2001:470:1d:3c9::/64 } on-error={}
 :do { add list=AD address=2001:470:1860::/48 } on-error={}
 :do { add list=AD address=2001:470:1870::/48 } on-error={}
 :do { add list=AD address=2001:470:1f05:2ba::/64 } on-error={}
-:do { add list=AD address=2001:470:1f15:907::/64 } on-error={}
-:do { add list=AD address=2001:470:1f1b:4b::/64 } on-error={}
 :do { add list=AD address=2001:470:1f1d:e4::/64 } on-error={}
 :do { add list=AD address=2001:470:1f27:26f::/64 } on-error={}
 :do { add list=AD address=2001:470:1f2f:3b::/64 } on-error={}
@@ -130,7 +128,6 @@
 :do { add list=AD address=2a06:a005:1637::/48 } on-error={}
 :do { add list=AD address=2a06:b440:195::/48 } on-error={}
 :do { add list=AD address=2a07:d887::/40 } on-error={}
-:do { add list=AD address=2a09:3f00:3c3e::/47 } on-error={}
 :do { add list=AD address=2a09:a702:96:4000::/50 } on-error={}
 :do { add list=AD address=2a09:a702:96:8000::/49 } on-error={}
 :do { add list=AD address=2a09:a702:97::/48 } on-error={}
@@ -153,7 +150,6 @@
 :do { add list=AD address=2a0a:6044:f38c::/47 } on-error={}
 :do { add list=AD address=2a0a:8f40:8:4000::/50 } on-error={}
 :do { add list=AD address=2a0a:8f40:8:8000::/49 } on-error={}
-:do { add list=AD address=2a0b:4e07:3:200::/60 } on-error={}
 :do { add list=AD address=2a0d:2684::/48 } on-error={}
 :do { add list=AD address=2a0d:3344:3f00::/40 } on-error={}
 :do { add list=AD address=2a0d:6f80:2301::/48 } on-error={}
@@ -325,7 +321,6 @@
 :do { add list=AD address=2a14:7581:b16:600::/56 } on-error={}
 :do { add list=AD address=2a14:7581:b17:600::/56 } on-error={}
 :do { add list=AD address=2a14:7581:be0:1400::/56 } on-error={}
-:do { add list=AD address=2a14:7581:3b0c::/48 } on-error={}
 :do { add list=AD address=2a14:7581:5916::/48 } on-error={}
 :do { add list=AD address=2a14:c380:25::/48 } on-error={}
 :do { add list=AD address=2a14:c380:120::/44 } on-error={}

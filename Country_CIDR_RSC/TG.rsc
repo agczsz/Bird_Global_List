@@ -46,6 +46,7 @@
 :do { add list=TG address=104.28.225.154/32 } on-error={}
 :do { add list=TG address=104.29.192.214/31 } on-error={}
 :do { add list=TG address=104.29.192.216/32 } on-error={}
+:do { add list=TG address=104.237.164.65/32 } on-error={}
 :do { add list=TG address=140.248.24.88/31 } on-error={}
 :do { add list=TG address=140.248.40.194/31 } on-error={}
 :do { add list=TG address=140.248.41.88/31 } on-error={}
@@ -88,6 +89,8 @@
 :do { add list=TG address=172.225.197.64/28 } on-error={}
 :do { add list=TG address=172.226.70.16/28 } on-error={}
 :do { add list=TG address=185.112.133.25/32 } on-error={}
+:do { add list=TG address=185.183.229.197/32 } on-error={}
+:do { add list=TG address=185.183.229.213/32 } on-error={}
 :do { add list=TG address=195.219.65.5/32 } on-error={}
 :do { add list=TG address=196.49.44.0/24 } on-error={}
 :do { add list=TG address=196.60.42.0/24 } on-error={}
@@ -104,7 +107,19 @@
 :do { add list=TG address=196.168.28.192/26 } on-error={}
 :do { add list=TG address=196.168.29.0/24 } on-error={}
 :do { add list=TG address=196.168.30.0/23 } on-error={}
-:do { add list=TG address=196.168.32.0/19 } on-error={}
+:do { add list=TG address=196.168.32.0/31 } on-error={}
+:do { add list=TG address=196.168.32.2/32 } on-error={}
+:do { add list=TG address=196.168.32.4/30 } on-error={}
+:do { add list=TG address=196.168.32.8/29 } on-error={}
+:do { add list=TG address=196.168.32.16/28 } on-error={}
+:do { add list=TG address=196.168.32.32/27 } on-error={}
+:do { add list=TG address=196.168.32.64/26 } on-error={}
+:do { add list=TG address=196.168.32.128/25 } on-error={}
+:do { add list=TG address=196.168.33.0/24 } on-error={}
+:do { add list=TG address=196.168.34.0/23 } on-error={}
+:do { add list=TG address=196.168.36.0/22 } on-error={}
+:do { add list=TG address=196.168.40.0/21 } on-error={}
+:do { add list=TG address=196.168.48.0/20 } on-error={}
 :do { add list=TG address=196.168.64.0/18 } on-error={}
 :do { add list=TG address=196.168.128.0/17 } on-error={}
 :do { add list=TG address=196.169.0.0/16 } on-error={}

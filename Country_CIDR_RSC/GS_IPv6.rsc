@@ -23,7 +23,6 @@
 :do { add list=GS address=2a07:d887:5900::/40 } on-error={}
 :do { add list=GS address=2a09:bac4:2c8::/45 } on-error={}
 :do { add list=GS address=2a09:bac4:12c8::/45 } on-error={}
-:do { add list=GS address=2a0b:4e07:3:2390::/60 } on-error={}
 :do { add list=GS address=2a0d:2684:5a::/48 } on-error={}
 :do { add list=GS address=2a0d:9440:1800::/37 } on-error={}
 :do { add list=GS address=2a0e:4001:905::/48 } on-error={}

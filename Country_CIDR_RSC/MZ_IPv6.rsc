@@ -103,7 +103,6 @@
 :do { add list=MZ address=2a0a:6044:fac6::/47 } on-error={}
 :do { add list=MZ address=2a0a:6044:fac8::/45 } on-error={}
 :do { add list=MZ address=2a0a:6044:fad0::/46 } on-error={}
-:do { add list=MZ address=2a0b:4e07:3:5080::/60 } on-error={}
 :do { add list=MZ address=2a0d:2684:9f::/48 } on-error={}
 :do { add list=MZ address=2a0d:9443:c800::/37 } on-error={}
 :do { add list=MZ address=2a0e:97c0:4ba0::/48 } on-error={}
@@ -208,8 +207,4 @@
 :do { add list=MZ address=2c0f:feb0:1::161/128 } on-error={}
 :do { add list=MZ address=2c0f:feb0:1::162/128 } on-error={}
 :do { add list=MZ address=2c0f:feb0:1:2::b9/128 } on-error={}
-:do { add list=MZ address=2c0f:feb0:1:2::be/128 } on-error={}
-:do { add list=MZ address=2c0f:feb0:9::12/128 } on-error={}
-:do { add list=MZ address=2c0f:feb0:9::22/128 } on-error={}
-:do { add list=MZ address=2c0f:feb0:9::1:9/128 } on-error={}
-:do { add list=MZ address=2c0f:feb0:9::1:12/128 } on-error={}
+:do { add list=MZ address=2c0f:feb0:9::9/128 } on-error={}

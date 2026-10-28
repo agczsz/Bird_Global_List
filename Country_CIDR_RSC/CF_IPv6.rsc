@@ -17,10 +17,17 @@
 :do { add list=CF address=2607:8940:203f:5::/64 } on-error={}
 :do { add list=CF address=2607:8940:203f:6::/63 } on-error={}
 :do { add list=CF address=2607:8940:203f:8::/61 } on-error={}
+:do { add list=CF address=2607:8940:203f:10::/62 } on-error={}
+:do { add list=CF address=2607:8940:203f:15::/64 } on-error={}
+:do { add list=CF address=2607:8940:203f:16::/63 } on-error={}
+:do { add list=CF address=2607:8940:203f:18::/61 } on-error={}
 :do { add list=CF address=2607:8940:203f:50::/62 } on-error={}
 :do { add list=CF address=2607:8940:203f:55::/64 } on-error={}
 :do { add list=CF address=2607:8940:203f:56::/63 } on-error={}
 :do { add list=CF address=2607:8940:203f:58::/61 } on-error={}
+:do { add list=CF address=2607:8940:203f:85::/64 } on-error={}
+:do { add list=CF address=2607:8940:203f:86::/63 } on-error={}
+:do { add list=CF address=2607:8940:203f:88::/61 } on-error={}
 :do { add list=CF address=2607:8940:203f:90::/62 } on-error={}
 :do { add list=CF address=2607:8940:203f:95::/64 } on-error={}
 :do { add list=CF address=2607:8940:203f:96::/63 } on-error={}
@@ -29,6 +36,10 @@
 :do { add list=CF address=2607:8940:203f:b5::/64 } on-error={}
 :do { add list=CF address=2607:8940:203f:b6::/63 } on-error={}
 :do { add list=CF address=2607:8940:203f:b8::/61 } on-error={}
+:do { add list=CF address=2607:8940:203f:e0::/62 } on-error={}
+:do { add list=CF address=2607:8940:203f:e5::/64 } on-error={}
+:do { add list=CF address=2607:8940:203f:e6::/63 } on-error={}
+:do { add list=CF address=2607:8940:203f:e8::/61 } on-error={}
 :do { add list=CF address=2607:8940:203f:f0::/62 } on-error={}
 :do { add list=CF address=2607:8940:4171:1900::/56 } on-error={}
 :do { add list=CF address=2607:8940:4171:1a00::/56 } on-error={}
@@ -90,7 +101,6 @@
 :do { add list=CF address=2a09:bac4:1140::/45 } on-error={}
 :do { add list=CF address=2a09:bac5:1d78::/45 } on-error={}
 :do { add list=CF address=2a09:bac6:1d78::/45 } on-error={}
-:do { add list=CF address=2a0b:4e07:3:1400::/60 } on-error={}
 :do { add list=CF address=2a0d:2684:28::/48 } on-error={}
 :do { add list=CF address=2a0d:9447:1800::/37 } on-error={}
 :do { add list=CF address=2a0e:b107:2328::/45 } on-error={}

@@ -23,7 +23,6 @@
 :do { add list=TF address=2a09:bac4:6b0::/45 } on-error={}
 :do { add list=TF address=2a09:bac4:16b0::/45 } on-error={}
 :do { add list=TF address=2a0a:6044:acad::/64 } on-error={}
-:do { add list=TF address=2a0b:4e07:3:2600::/60 } on-error={}
 :do { add list=TF address=2a0d:2684:d8::/48 } on-error={}
 :do { add list=TF address=2a0d:9445:c800::/37 } on-error={}
 :do { add list=TF address=2a0f:1cc1:a719::/48 } on-error={}

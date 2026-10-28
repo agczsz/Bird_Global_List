@@ -103,7 +103,6 @@
 :do { add list=AI address=2a0a:6044:f390::/45 } on-error={}
 :do { add list=AI address=2a0a:6044:f398::/46 } on-error={}
 :do { add list=AI address=2a0a:6044:f39c::/48 } on-error={}
-:do { add list=AI address=2a0b:4e07:3:6600::/60 } on-error={}
 :do { add list=AI address=2a0b:4e07:6f::/64 } on-error={}
 :do { add list=AI address=2a0b:4e07:6f:2::/63 } on-error={}
 :do { add list=AI address=2a0b:4e07:6f:4::/62 } on-error={}

@@ -4,7 +4,6 @@
 :do { add list=GY address=5.62.58.108/30 } on-error={}
 :do { add list=GY address=57.74.246.0/23 } on-error={}
 :do { add list=GY address=66.178.48.0/26 } on-error={}
-:do { add list=GY address=69.79.100.133/32 } on-error={}
 :do { add list=GY address=80.255.63.32/29 } on-error={}
 :do { add list=GY address=81.253.182.61/32 } on-error={}
 :do { add list=GY address=90.96.189.140/32 } on-error={}
@@ -58,7 +57,6 @@
 :do { add list=GY address=172.225.238.224/28 } on-error={}
 :do { add list=GY address=172.226.78.64/28 } on-error={}
 :do { add list=GY address=179.51.205.0/24 } on-error={}
-:do { add list=GY address=179.60.213.58/32 } on-error={}
 :do { add list=GY address=181.41.64.0/18 } on-error={}
 :do { add list=GY address=181.177.216.0/22 } on-error={}
 :do { add list=GY address=181.199.224.0/19 } on-error={}

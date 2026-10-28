@@ -2,7 +2,24 @@
 /ipv6 firewall address-list
 :do { add list=BM address=2001:508::/32 } on-error={}
 :do { add list=BM address=2001:3786:5003:100::/56 } on-error={}
-:do { add list=BM address=2001:4910::/32 } on-error={}
+:do { add list=BM address=2001:4910::/33 } on-error={}
+:do { add list=BM address=2001:4910:8000::/34 } on-error={}
+:do { add list=BM address=2001:4910:c000::/35 } on-error={}
+:do { add list=BM address=2001:4910:e000::/36 } on-error={}
+:do { add list=BM address=2001:4910:f000::/37 } on-error={}
+:do { add list=BM address=2001:4910:f800::/38 } on-error={}
+:do { add list=BM address=2001:4910:fc00::/39 } on-error={}
+:do { add list=BM address=2001:4910:fe00::/40 } on-error={}
+:do { add list=BM address=2001:4910:ff00::/41 } on-error={}
+:do { add list=BM address=2001:4910:ff80::/42 } on-error={}
+:do { add list=BM address=2001:4910:ffc0::/43 } on-error={}
+:do { add list=BM address=2001:4910:ffe0::/44 } on-error={}
+:do { add list=BM address=2001:4910:fff0::/45 } on-error={}
+:do { add list=BM address=2001:4910:fff8::/46 } on-error={}
+:do { add list=BM address=2001:4910:fffc::/47 } on-error={}
+:do { add list=BM address=2001:4910:fffe::/48 } on-error={}
+:do { add list=BM address=2001:4910:ffff::/49 } on-error={}
+:do { add list=BM address=2001:4910:ffff:8000::/50 } on-error={}
 :do { add list=BM address=2405:b500:f00::/64 } on-error={}
 :do { add list=BM address=2405:b500:f20::/64 } on-error={}
 :do { add list=BM address=2405:b500:f40::/64 } on-error={}
@@ -106,6 +123,7 @@
 :do { add list=BM address=2a06:9f81:6111::/48 } on-error={}
 :do { add list=BM address=2a06:a000:2::/48 } on-error={}
 :do { add list=BM address=2a07:d887:1a00::/40 } on-error={}
+:do { add list=BM address=2a09:3f00:3c46::/48 } on-error={}
 :do { add list=BM address=2a09:bac1:f00::/64 } on-error={}
 :do { add list=BM address=2a09:bac1:f20::/64 } on-error={}
 :do { add list=BM address=2a09:bac1:f40::/64 } on-error={}
@@ -120,7 +138,6 @@
 :do { add list=BM address=2a0a:6044:f3cc::/46 } on-error={}
 :do { add list=BM address=2a0a:6044:f3d0::/45 } on-error={}
 :do { add list=BM address=2a0a:6044:f3d8::/48 } on-error={}
-:do { add list=BM address=2a0b:4e07:3:600::/60 } on-error={}
 :do { add list=BM address=2a0d:2684:1a::/48 } on-error={}
 :do { add list=BM address=2a0d:9444:b800::/37 } on-error={}
 :do { add list=BM address=2a0e:4001:9ff:18::/64 } on-error={}

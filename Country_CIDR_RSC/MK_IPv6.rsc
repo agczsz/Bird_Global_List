@@ -1,11 +1,10 @@
 /log info "Loading MK IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=MK address=2001:470:0:648::/64 } on-error={}
 :do { add list=MK address=2001:470:11:a::2/128 } on-error={}
 :do { add list=MK address=2001:470:6d:a20::/64 } on-error={}
 :do { add list=MK address=2001:470:1f0::/50 } on-error={}
-:do { add list=MK address=2001:470:1f5::/50 } on-error={}
-:do { add list=MK address=2001:470:1f1b:59b::/64 } on-error={}
-:do { add list=MK address=2001:470:1f1b:5fa::/64 } on-error={}
+:do { add list=MK address=2001:470:1f5:1::/64 } on-error={}
 :do { add list=MK address=2001:470:21ea::/48 } on-error={}
 :do { add list=MK address=2001:470:2221:4000::/50 } on-error={}
 :do { add list=MK address=2001:470:2221:8000::/49 } on-error={}
@@ -34,8 +33,6 @@
 :do { add list=MK address=2001:798:2c:1080::/59 } on-error={}
 :do { add list=MK address=2001:798:2c:10a0::/61 } on-error={}
 :do { add list=MK address=2001:798:2c:10a8::/63 } on-error={}
-:do { add list=MK address=2001:798:2c:10aa::1/128 } on-error={}
-:do { add list=MK address=2001:798:2c:10aa::15/128 } on-error={}
 :do { add list=MK address=2001:798:2c:10ab::/64 } on-error={}
 :do { add list=MK address=2001:798:2c:10ac::/62 } on-error={}
 :do { add list=MK address=2001:798:2c:10b0::/60 } on-error={}
@@ -51,12 +48,6 @@
 :do { add list=MK address=2001:978:2:a8::/64 } on-error={}
 :do { add list=MK address=2001:978:2:c5::2:0/112 } on-error={}
 :do { add list=MK address=2001:978:9701::/48 } on-error={}
-:do { add list=MK address=2001:18b8:52:f630::/64 } on-error={}
-:do { add list=MK address=2001:18b8:52:f633::/64 } on-error={}
-:do { add list=MK address=2001:18b8:52:f638::/64 } on-error={}
-:do { add list=MK address=2001:18b8:52:f63c::/64 } on-error={}
-:do { add list=MK address=2001:18b8:52:f64a::/64 } on-error={}
-:do { add list=MK address=2001:18b8:52:f658::/62 } on-error={}
 :do { add list=MK address=2001:2035:0:1ee0::2/128 } on-error={}
 :do { add list=MK address=2001:2035:0:1f2d::2/128 } on-error={}
 :do { add list=MK address=2001:3786:2999::/48 } on-error={}
@@ -147,7 +138,6 @@
 :do { add list=MK address=2a03:6947:1d08::/46 } on-error={}
 :do { add list=MK address=2a03:6947:1d0c::/47 } on-error={}
 :do { add list=MK address=2a03:6947:1d0f::/48 } on-error={}
-:do { add list=MK address=2a03:6947:1d10::/50 } on-error={}
 :do { add list=MK address=2a03:6947:1d11::/48 } on-error={}
 :do { add list=MK address=2a03:6947:1d12::/47 } on-error={}
 :do { add list=MK address=2a03:6947:1d14::/46 } on-error={}
@@ -228,7 +218,6 @@
 :do { add list=MK address=2a0a:6044:f61e::/48 } on-error={}
 :do { add list=MK address=2a0a:b140::/32 } on-error={}
 :do { add list=MK address=2a0a:f7c0::/29 } on-error={}
-:do { add list=MK address=2a0b:4e07:3:8070::/60 } on-error={}
 :do { add list=MK address=2a0b:6d00::/29 } on-error={}
 :do { add list=MK address=2a0d:2684:90::/48 } on-error={}
 :do { add list=MK address=2a0d:3344:c40::/42 } on-error={}
@@ -392,7 +381,7 @@
 :do { add list=MK address=2a12:f382:4b00::/40 } on-error={}
 :do { add list=MK address=2a13:241:3f00::/40 } on-error={}
 :do { add list=MK address=2a13:3580::/29 } on-error={}
-:do { add list=MK address=2a13:9500:1e4:b5::/64 } on-error={}
+:do { add list=MK address=2a13:9500:1e4:47e::/64 } on-error={}
 :do { add list=MK address=2a13:a5c3:d060::/46 } on-error={}
 :do { add list=MK address=2a13:ac00::/29 } on-error={}
 :do { add list=MK address=2a13:c8c3:cf41::/48 } on-error={}

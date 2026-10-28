@@ -115,7 +115,6 @@
 :do { add list=ET address=2a0a:6044:f9b8::/45 } on-error={}
 :do { add list=ET address=2a0a:6044:f9c0::/46 } on-error={}
 :do { add list=ET address=2a0a:6044:f9c4::/47 } on-error={}
-:do { add list=ET address=2a0b:4e07:3:2310::/60 } on-error={}
 :do { add list=ET address=2a0d:2684:45::/48 } on-error={}
 :do { add list=ET address=2a0d:9440:2000::/37 } on-error={}
 :do { add list=ET address=2a0e:97c1:8a21::/48 } on-error={}

@@ -89,7 +89,6 @@
 :do { add list=GW address=2a0a:6044:fa28::/46 } on-error={}
 :do { add list=GW address=2a0a:6044:fa2c::/47 } on-error={}
 :do { add list=GW address=2a0a:6044:fa2e::/48 } on-error={}
-:do { add list=GW address=2a0b:4e07:3:6240::/60 } on-error={}
 :do { add list=GW address=2a0d:2684:5d::/48 } on-error={}
 :do { add list=GW address=2a0d:3341:fd00::/40 } on-error={}
 :do { add list=GW address=2a0d:3344:2a00::/42 } on-error={}

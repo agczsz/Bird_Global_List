@@ -156,7 +156,6 @@
 :do { add list=PF address=2a0a:6044:f490::/45 } on-error={}
 :do { add list=PF address=2a0a:6044:f498::/47 } on-error={}
 :do { add list=PF address=2a0a:6044:f49a::/48 } on-error={}
-:do { add list=PF address=2a0b:4e07:3:2580::/60 } on-error={}
 :do { add list=PF address=2a0d:2684:af::/48 } on-error={}
 :do { add list=PF address=2a0d:9446:2000::/37 } on-error={}
 :do { add list=PF address=2a0f:1cc1:a717::/48 } on-error={}

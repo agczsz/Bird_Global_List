@@ -1,8 +1,9 @@
 /log info "Loading AX IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=AX address=2001:470:28:9d6::/64 } on-error={}
 :do { add list=AX address=2001:470:67:1ec::/64 } on-error={}
 :do { add list=AX address=2001:470:67:5e0::/64 } on-error={}
-:do { add list=AX address=2001:470:1f29:470::/64 } on-error={}
+:do { add list=AX address=2001:470:6d:300::/64 } on-error={}
 :do { add list=AX address=2001:470:2a9f::/48 } on-error={}
 :do { add list=AX address=2001:470:2b54::/48 } on-error={}
 :do { add list=AX address=2001:470:4852::/48 } on-error={}
@@ -44,13 +45,14 @@
 :do { add list=AX address=2607:8940:4163:de00::/56 } on-error={}
 :do { add list=AX address=2607:8940:4180:1200::/56 } on-error={}
 :do { add list=AX address=2607:8940:4183:de00::/56 } on-error={}
-:do { add list=AX address=2a00:5500:1:7::/64 } on-error={}
 :do { add list=AX address=2a00:5500:2::/50 } on-error={}
 :do { add list=AX address=2a00:5500:2000::/44 } on-error={}
-:do { add list=AX address=2a00:5500:6000:1d00::/56 } on-error={}
 :do { add list=AX address=2a00:5500:6000:4000::/51 } on-error={}
 :do { add list=AX address=2a00:5500:6000:6000::/56 } on-error={}
-:do { add list=AX address=2a00:5500:6000:b000::/52 } on-error={}
+:do { add list=AX address=2a00:5500:6000:69cc::/64 } on-error={}
+:do { add list=AX address=2a00:5500:6000:8c00::/56 } on-error={}
+:do { add list=AX address=2a00:5500:6000:ad91::/64 } on-error={}
+:do { add list=AX address=2a00:5500:6000:b164::/64 } on-error={}
 :do { add list=AX address=2a00:5500:6000:ee00::/56 } on-error={}
 :do { add list=AX address=2a00:5500:9000::/40 } on-error={}
 :do { add list=AX address=2a00:eca0::/32 } on-error={}
@@ -122,7 +124,6 @@
 :do { add list=AX address=2a09:bac5:450::/45 } on-error={}
 :do { add list=AX address=2a09:bac6:450::/45 } on-error={}
 :do { add list=AX address=2a0b:3480::/29 } on-error={}
-:do { add list=AX address=2a0b:4e07:3:2480::/60 } on-error={}
 :do { add list=AX address=2a0d:2684:e::/48 } on-error={}
 :do { add list=AX address=2a0d:3344:1280::/42 } on-error={}
 :do { add list=AX address=2a0d:3344:3800::/40 } on-error={}

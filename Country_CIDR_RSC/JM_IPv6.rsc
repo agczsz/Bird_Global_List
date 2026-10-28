@@ -1,7 +1,6 @@
 /log info "Loading JM IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=JM address=2001:470:18a6::/48 } on-error={}
-:do { add list=JM address=2001:470:1f1b:7b0::/64 } on-error={}
 :do { add list=JM address=2001:470:1f29:75::/64 } on-error={}
 :do { add list=JM address=2001:470:1f2b:ea::/64 } on-error={}
 :do { add list=JM address=2001:470:1f2b:340::/64 } on-error={}
@@ -187,7 +186,6 @@
 :do { add list=JM address=2a0a:6044:f7e8::/45 } on-error={}
 :do { add list=JM address=2a0a:6044:f7f0::/46 } on-error={}
 :do { add list=JM address=2a0a:6044:f7f4::/48 } on-error={}
-:do { add list=JM address=2a0b:4e07:3:3880::/60 } on-error={}
 :do { add list=JM address=2a0d:2684:70::/48 } on-error={}
 :do { add list=JM address=2a0d:9443:4000::/37 } on-error={}
 :do { add list=JM address=2a0f:1cc1:e810::/44 } on-error={}
