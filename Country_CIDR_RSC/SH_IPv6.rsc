@@ -32,7 +32,6 @@
 :do { add list=SH address=2a06:9f81:43ef:c800::/56 } on-error={}
 :do { add list=SH address=2a06:9f81:56c5::/48 } on-error={}
 :do { add list=SH address=2a07:d887:c500::/40 } on-error={}
-:do { add list=SH address=2a09:3f00:3c4b::/48 } on-error={}
 :do { add list=SH address=2a09:bac4:628::/45 } on-error={}
 :do { add list=SH address=2a09:bac4:1628::/45 } on-error={}
 :do { add list=SH address=2a0b:4e07:60::/48 } on-error={}
@@ -205,7 +204,6 @@
 :do { add list=SH address=2a13:ef45:c09c::/47 } on-error={}
 :do { add list=SH address=2a14:2d45:c500::/40 } on-error={}
 :do { add list=SH address=2a14:67c1:b6c5::/48 } on-error={}
-:do { add list=SH address=2a14:7580:cfc6::/48 } on-error={}
 :do { add list=SH address=2a14:7581:b10:bc00::/56 } on-error={}
 :do { add list=SH address=2a14:7581:b11:bc00::/56 } on-error={}
 :do { add list=SH address=2a14:7581:b12:bc00::/56 } on-error={}

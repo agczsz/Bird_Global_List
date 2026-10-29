@@ -172,6 +172,7 @@
 :do { add list=PR address=24.171.192.0/18 } on-error={}
 :do { add list=PR address=24.227.0.0/21 } on-error={}
 :do { add list=PR address=24.227.9.0/25 } on-error={}
+:do { add list=PR address=24.227.9.128/26 } on-error={}
 :do { add list=PR address=24.227.10.0/23 } on-error={}
 :do { add list=PR address=24.227.12.0/22 } on-error={}
 :do { add list=PR address=24.227.16.0/20 } on-error={}
@@ -1084,7 +1085,6 @@
 :do { add list=PR address=198.52.249.56/30 } on-error={}
 :do { add list=PR address=198.52.249.64/26 } on-error={}
 :do { add list=PR address=198.55.16.0/21 } on-error={}
-:do { add list=PR address=198.55.24.0/23 } on-error={}
 :do { add list=PR address=198.190.136.0/23 } on-error={}
 :do { add list=PR address=198.204.71.0/24 } on-error={}
 :do { add list=PR address=198.204.72.0/24 } on-error={}

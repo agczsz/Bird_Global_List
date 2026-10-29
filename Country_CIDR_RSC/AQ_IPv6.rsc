@@ -43,6 +43,7 @@
 :do { add list=AQ address=2602:feda:ab2::/48 } on-error={}
 :do { add list=AQ address=2602:feda:ab4::/47 } on-error={}
 :do { add list=AQ address=2602:feda:ab8::/45 } on-error={}
+:do { add list=AQ address=2606:40:1020::/44 } on-error={}
 :do { add list=AQ address=2606:40:2200::/54 } on-error={}
 :do { add list=AQ address=2606:40:2240:2000::/54 } on-error={}
 :do { add list=AQ address=2606:40:2240:2800::/53 } on-error={}
@@ -71,7 +72,6 @@
 :do { add list=AQ address=2a04:4e41:21:1100::/56 } on-error={}
 :do { add list=AQ address=2a04:4e41:5d::/64 } on-error={}
 :do { add list=AQ address=2a04:4e41:5d:1000::/56 } on-error={}
-:do { add list=AQ address=2a04:4e41:163::/48 } on-error={}
 :do { add list=AQ address=2a04:4e41:802::/48 } on-error={}
 :do { add list=AQ address=2a04:4e41:2a10::/48 } on-error={}
 :do { add list=AQ address=2a04:4e41:4010:8000::/52 } on-error={}
@@ -108,7 +108,9 @@
 :do { add list=AQ address=2a06:a005:2d18::/45 } on-error={}
 :do { add list=AQ address=2a07:d887:800::/40 } on-error={}
 :do { add list=AQ address=2a09:3f00:3909::/48 } on-error={}
-:do { add list=AQ address=2a09:54c5:10a0::/44 } on-error={}
+:do { add list=AQ address=2a09:54c5:10a3::/48 } on-error={}
+:do { add list=AQ address=2a09:54c5:10a4::/46 } on-error={}
+:do { add list=AQ address=2a09:54c5:10a8::/45 } on-error={}
 :do { add list=AQ address=2a09:bac1:600::/64 } on-error={}
 :do { add list=AQ address=2a09:bac1:620::/64 } on-error={}
 :do { add list=AQ address=2a09:bac1:640::/64 } on-error={}
@@ -512,7 +514,7 @@
 :do { add list=AQ address=2a14:6f45:b00b:4000::/50 } on-error={}
 :do { add list=AQ address=2a14:6f45:b00b:8000::/49 } on-error={}
 :do { add list=AQ address=2a14:7580:9604::/46 } on-error={}
-:do { add list=AQ address=2a14:7580:cf08::/48 } on-error={}
+:do { add list=AQ address=2a14:7580:ff89::/48 } on-error={}
 :do { add list=AQ address=2a14:7581:b10:300::/56 } on-error={}
 :do { add list=AQ address=2a14:7581:b11:300::/56 } on-error={}
 :do { add list=AQ address=2a14:7581:b12:300::/56 } on-error={}

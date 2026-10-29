@@ -1069,7 +1069,9 @@
 :do { add list=BD address=2400:3dc0:58::/48 } on-error={}
 :do { add list=BD address=2400:3dc0:59::/48 } on-error={}
 :do { add list=BD address=2400:3dc0:5a::/47 } on-error={}
-:do { add list=BD address=2400:3dc0:5c::/46 } on-error={}
+:do { add list=BD address=2400:3dc0:5c::/48 } on-error={}
+:do { add list=BD address=2400:3dc0:5d::/48 } on-error={}
+:do { add list=BD address=2400:3dc0:5e::/47 } on-error={}
 :do { add list=BD address=2400:3dc0:60::/47 } on-error={}
 :do { add list=BD address=2400:3dc0:62::/47 } on-error={}
 :do { add list=BD address=2400:3dc0:64::/47 } on-error={}
@@ -2882,16 +2884,7 @@
 :do { add list=BD address=2403:9840::/32 } on-error={}
 :do { add list=BD address=2403:98c0::/32 } on-error={}
 :do { add list=BD address=2403:9c40::/32 } on-error={}
-:do { add list=BD address=2403:a540::/47 } on-error={}
-:do { add list=BD address=2403:a540:2::/47 } on-error={}
-:do { add list=BD address=2403:a540:4::/46 } on-error={}
-:do { add list=BD address=2403:a540:8::/46 } on-error={}
-:do { add list=BD address=2403:a540:c::/46 } on-error={}
-:do { add list=BD address=2403:a540:10::/44 } on-error={}
-:do { add list=BD address=2403:a540:20::/43 } on-error={}
-:do { add list=BD address=2403:a540:40::/42 } on-error={}
-:do { add list=BD address=2403:a540:80::/41 } on-error={}
-:do { add list=BD address=2403:a540:100::/40 } on-error={}
+:do { add list=BD address=2403:a540::/39 } on-error={}
 :do { add list=BD address=2403:a540:200::/40 } on-error={}
 :do { add list=BD address=2403:a540:300::/48 } on-error={}
 :do { add list=BD address=2403:a540:301::/48 } on-error={}
@@ -7101,7 +7094,6 @@
 :do { add list=BD address=2a0f:1cc5:b16:f00::/56 } on-error={}
 :do { add list=BD address=2a0f:1cc5:b17:f00::/56 } on-error={}
 :do { add list=BD address=2a0f:1cc5:1fb5::/48 } on-error={}
-:do { add list=BD address=2a0f:6280:ced1::/48 } on-error={}
 :do { add list=BD address=2a0f:85c1:340::6a:0/112 } on-error={}
 :do { add list=BD address=2a0f:85c1:81b:f110::/60 } on-error={}
 :do { add list=BD address=2a10:24c0:6510::/46 } on-error={}
@@ -7184,7 +7176,6 @@
 :do { add list=BD address=2a14:2d45:1200::/40 } on-error={}
 :do { add list=BD address=2a14:67c2:857::/48 } on-error={}
 :do { add list=BD address=2a14:67c2:8dd::/48 } on-error={}
-:do { add list=BD address=2a14:7580:cf12::/48 } on-error={}
 :do { add list=BD address=2a14:7580:ff70::/45 } on-error={}
 :do { add list=BD address=2a14:7580:ff78::/47 } on-error={}
 :do { add list=BD address=2a14:7580:ff7a::/48 } on-error={}

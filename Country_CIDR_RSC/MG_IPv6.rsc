@@ -287,7 +287,6 @@
 :do { add list=MG address=2a13:ef45:82d0::/47 } on-error={}
 :do { add list=MG address=2a14:2d45:8d00::/40 } on-error={}
 :do { add list=MG address=2a14:67c2:872::/48 } on-error={}
-:do { add list=MG address=2a14:7580:cf8d::/48 } on-error={}
 :do { add list=MG address=2a14:7581:b10:8200::/56 } on-error={}
 :do { add list=MG address=2a14:7581:b11:8200::/56 } on-error={}
 :do { add list=MG address=2a14:7581:b12:8200::/56 } on-error={}

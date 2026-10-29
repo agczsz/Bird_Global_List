@@ -329,7 +329,6 @@
 :do { add list=UG address=2a0f:1cc5:b15:e700::/56 } on-error={}
 :do { add list=UG address=2a0f:1cc5:b16:e700::/56 } on-error={}
 :do { add list=UG address=2a0f:1cc5:b17:e700::/56 } on-error={}
-:do { add list=UG address=2a0f:6280:ceca::/48 } on-error={}
 :do { add list=UG address=2a0f:85c1:340::c9:0/112 } on-error={}
 :do { add list=UG address=2a0f:85c1:81b:fb80::/60 } on-error={}
 :do { add list=UG address=2a0f:a301:800::/37 } on-error={}
@@ -397,7 +396,6 @@
 :do { add list=UG address=2a13:ef45:e0a0::/44 } on-error={}
 :do { add list=UG address=2a14:2d45:e500::/40 } on-error={}
 :do { add list=UG address=2a14:67c2:8b8::/48 } on-error={}
-:do { add list=UG address=2a14:7580:cfe6::/48 } on-error={}
 :do { add list=UG address=2a14:7581:b10:e700::/56 } on-error={}
 :do { add list=UG address=2a14:7581:b11:e700::/56 } on-error={}
 :do { add list=UG address=2a14:7581:b12:e700::/56 } on-error={}

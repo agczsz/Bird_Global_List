@@ -1229,8 +1229,6 @@
 :do { add list=MA address=2a0f:1cc5:b17:9100::/56 } on-error={}
 :do { add list=MA address=2a0f:1cc5:1f69::/48 } on-error={}
 :do { add list=MA address=2a0f:1cc7:ff02::/48 } on-error={}
-:do { add list=MA address=2a0f:6280:ce7d::/48 } on-error={}
-:do { add list=MA address=2a0f:6280:ce7e::/48 } on-error={}
 :do { add list=MA address=2a0f:85c1:340::a2:0/112 } on-error={}
 :do { add list=MA address=2a0f:85c1:81b:f790::/60 } on-error={}
 :do { add list=MA address=2a0f:85c1:8bb::/48 } on-error={}
@@ -1383,7 +1381,6 @@
 :do { add list=MA address=2a14:1c0:d000::/37 } on-error={}
 :do { add list=MA address=2a14:2d45:8800::/40 } on-error={}
 :do { add list=MA address=2a14:67c2:89d::/48 } on-error={}
-:do { add list=MA address=2a14:7580:cf88::/48 } on-error={}
 :do { add list=MA address=2a14:7581:b10:9100::/56 } on-error={}
 :do { add list=MA address=2a14:7581:b11:9100::/56 } on-error={}
 :do { add list=MA address=2a14:7581:b12:9100::/56 } on-error={}

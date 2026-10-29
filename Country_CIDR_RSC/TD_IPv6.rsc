@@ -154,7 +154,6 @@
 :do { add list=TD address=2a14:2d45:d500::/40 } on-error={}
 :do { add list=TD address=2a14:67c0:403::/48 } on-error={}
 :do { add list=TD address=2a14:67c2:874::/48 } on-error={}
-:do { add list=TD address=2a14:7580:cfd6::/48 } on-error={}
 :do { add list=TD address=2a14:7581:b10:2a00::/56 } on-error={}
 :do { add list=TD address=2a14:7581:b11:2a00::/56 } on-error={}
 :do { add list=TD address=2a14:7581:b12:2a00::/56 } on-error={}

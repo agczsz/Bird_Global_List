@@ -96,7 +96,6 @@
 :do { add list=FK address=2a12:f382:c200::/40 } on-error={}
 :do { add list=FK address=2a14:2d45:4700::/40 } on-error={}
 :do { add list=FK address=2a14:67c2:818::/48 } on-error={}
-:do { add list=FK address=2a14:7580:cf47::/48 } on-error={}
 :do { add list=FK address=2a14:7581:b10:4600::/56 } on-error={}
 :do { add list=FK address=2a14:7581:b11:4600::/56 } on-error={}
 :do { add list=FK address=2a14:7581:b12:4600::/56 } on-error={}

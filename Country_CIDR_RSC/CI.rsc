@@ -91,7 +91,6 @@
 :do { add list=CI address=63.223.49.54/32 } on-error={}
 :do { add list=CI address=66.102.34.192/26 } on-error={}
 :do { add list=CI address=80.15.244.0/24 } on-error={}
-:do { add list=CI address=80.246.29.0/24 } on-error={}
 :do { add list=CI address=81.22.64.0/19 } on-error={}
 :do { add list=CI address=81.52.186.118/32 } on-error={}
 :do { add list=CI address=82.206.187.0/24 } on-error={}

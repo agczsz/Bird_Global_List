@@ -117,7 +117,6 @@
 :do { add list=WF address=2a13:ef45:e8c4::/47 } on-error={}
 :do { add list=WF address=2a14:2d45:f100::/40 } on-error={}
 :do { add list=WF address=2a14:67c2:8d5::/48 } on-error={}
-:do { add list=WF address=2a14:7580:cff2::/48 } on-error={}
 :do { add list=WF address=2a14:7581:b10:f600::/56 } on-error={}
 :do { add list=WF address=2a14:7581:b11:f600::/56 } on-error={}
 :do { add list=WF address=2a14:7581:b12:f600::/56 } on-error={}

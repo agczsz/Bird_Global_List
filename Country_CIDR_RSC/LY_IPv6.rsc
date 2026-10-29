@@ -103,7 +103,6 @@
 :do { add list=LY address=2a0f:1cc5:b16:7d00::/56 } on-error={}
 :do { add list=LY address=2a0f:1cc5:b17:7d00::/56 } on-error={}
 :do { add list=LY address=2a0f:1cc5:1f68::/48 } on-error={}
-:do { add list=LY address=2a0f:6280:cef5::/48 } on-error={}
 :do { add list=LY address=2a0f:85c1:340::a1:0/112 } on-error={}
 :do { add list=LY address=2a0f:85c1:81b:f660::/60 } on-error={}
 :do { add list=LY address=2a10:500:2500::/40 } on-error={}
@@ -159,7 +158,6 @@
 :do { add list=LY address=2a14:1c0:5000::/37 } on-error={}
 :do { add list=LY address=2a14:2d45:8700::/40 } on-error={}
 :do { add list=LY address=2a14:67c2:8fc::/48 } on-error={}
-:do { add list=LY address=2a14:7580:cf87::/48 } on-error={}
 :do { add list=LY address=2a14:7581:b10:7d00::/56 } on-error={}
 :do { add list=LY address=2a14:7581:b11:7d00::/56 } on-error={}
 :do { add list=LY address=2a14:7581:b12:7d00::/56 } on-error={}

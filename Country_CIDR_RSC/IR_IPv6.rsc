@@ -8411,7 +8411,6 @@
 :do { add list=IR address=2a14:67c2:850::/48 } on-error={}
 :do { add list=IR address=2a14:67c2:8f5::/48 } on-error={}
 :do { add list=IR address=2a14:7300::/29 } on-error={}
-:do { add list=IR address=2a14:7580:cf6b::/48 } on-error={}
 :do { add list=IR address=2a14:7581:b10:6900::/56 } on-error={}
 :do { add list=IR address=2a14:7581:b11:6900::/56 } on-error={}
 :do { add list=IR address=2a14:7581:b12:6900::/56 } on-error={}

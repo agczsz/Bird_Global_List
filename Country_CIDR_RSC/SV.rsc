@@ -2,6 +2,10 @@
 /ip firewall address-list
 :do { add list=SV address=5.62.56.88/30 } on-error={}
 :do { add list=SV address=5.62.58.84/30 } on-error={}
+:do { add list=SV address=32.59.12.40/29 } on-error={}
+:do { add list=SV address=32.59.12.64/27 } on-error={}
+:do { add list=SV address=32.59.15.0/24 } on-error={}
+:do { add list=SV address=32.59.24.64/29 } on-error={}
 :do { add list=SV address=32.59.92.32/29 } on-error={}
 :do { add list=SV address=32.59.92.80/28 } on-error={}
 :do { add list=SV address=32.59.92.96/27 } on-error={}

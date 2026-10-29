@@ -429,7 +429,6 @@
 :do { add list=BJ address=2a13:ef45:1348::/46 } on-error={}
 :do { add list=BJ address=2a14:2d45:1800::/40 } on-error={}
 :do { add list=BJ address=2a14:67c2:8e8::/48 } on-error={}
-:do { add list=BJ address=2a14:7580:cf18::/48 } on-error={}
 :do { add list=BJ address=2a14:7581:b10:3b00::/56 } on-error={}
 :do { add list=BJ address=2a14:7581:b11:3b00::/56 } on-error={}
 :do { add list=BJ address=2a14:7581:b12:3b00::/56 } on-error={}

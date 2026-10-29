@@ -685,7 +685,6 @@
 :do { add list=KH address=2a0f:1cc5:b16:2300::/56 } on-error={}
 :do { add list=KH address=2a0f:1cc5:b17:2300::/56 } on-error={}
 :do { add list=KH address=2a0f:1cc5:1fd4::/48 } on-error={}
-:do { add list=KH address=2a0f:6280:ced7::/48 } on-error={}
 :do { add list=KH address=2a0f:85c1:340::96:0/112 } on-error={}
 :do { add list=KH address=2a0f:85c1:81b:f210::/60 } on-error={}
 :do { add list=KH address=2a0f:a300:5000::/37 } on-error={}
@@ -810,7 +809,6 @@
 :do { add list=KH address=2a14:2d45:7400::/40 } on-error={}
 :do { add list=KH address=2a14:67c1:b673::/48 } on-error={}
 :do { add list=KH address=2a14:67c2:823::/48 } on-error={}
-:do { add list=KH address=2a14:7580:cf74::/48 } on-error={}
 :do { add list=KH address=2a14:7581:b10:2300::/56 } on-error={}
 :do { add list=KH address=2a14:7581:b11:2300::/56 } on-error={}
 :do { add list=KH address=2a14:7581:b12:2300::/56 } on-error={}

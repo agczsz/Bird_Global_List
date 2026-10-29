@@ -297,7 +297,6 @@
 :do { add list=BI address=2a13:ef45:12d0::/46 } on-error={}
 :do { add list=BI address=2a14:2d45:1700::/40 } on-error={}
 :do { add list=BI address=2a14:67c2:87e::/48 } on-error={}
-:do { add list=BI address=2a14:7580:cf17::/48 } on-error={}
 :do { add list=BI address=2a14:7581:b10:2100::/56 } on-error={}
 :do { add list=BI address=2a14:7581:b11:2100::/56 } on-error={}
 :do { add list=BI address=2a14:7581:b12:2100::/56 } on-error={}
