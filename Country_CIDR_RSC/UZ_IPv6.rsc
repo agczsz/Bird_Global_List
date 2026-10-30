@@ -203,7 +203,6 @@
 :do { add list=UZ address=2a04:4e41:66:a5::/64 } on-error={}
 :do { add list=UZ address=2a04:4e41:66:a6::/64 } on-error={}
 :do { add list=UZ address=2a04:4e41:66:5100::/56 } on-error={}
-:do { add list=UZ address=2a04:4e41:6c:b800::/55 } on-error={}
 :do { add list=UZ address=2a04:4e41:1405::/52 } on-error={}
 :do { add list=UZ address=2a04:4e41:1428::/48 } on-error={}
 :do { add list=UZ address=2a04:4e41:1806:1000::/52 } on-error={}

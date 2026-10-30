@@ -1143,7 +1143,6 @@
 :do { add list=MA address=2a04:4e41:22:13::/64 } on-error={}
 :do { add list=MA address=2a04:4e41:22:14::/63 } on-error={}
 :do { add list=MA address=2a04:4e41:22:1d00::/56 } on-error={}
-:do { add list=MA address=2a04:4e41:6c:ae00::/55 } on-error={}
 :do { add list=MA address=2a04:4e41:4018:8000::/52 } on-error={}
 :do { add list=MA address=2a04:4e41:4028:8000::/52 } on-error={}
 :do { add list=MA address=2a04:4e41:4038:8000::/52 } on-error={}

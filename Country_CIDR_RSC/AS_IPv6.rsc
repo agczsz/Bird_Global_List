@@ -96,7 +96,6 @@
 :do { add list=AS address=2001:470:c9d0::/48 } on-error={}
 :do { add list=AS address=2001:470:d8ab::/48 } on-error={}
 :do { add list=AS address=2001:470:e1d8::/48 } on-error={}
-:do { add list=AS address=2001:470:e2d0::/48 } on-error={}
 :do { add list=AS address=2001:470:e2d9::/48 } on-error={}
 :do { add list=AS address=2001:470:e2f2::/48 } on-error={}
 :do { add list=AS address=2001:470:e9f5::/48 } on-error={}

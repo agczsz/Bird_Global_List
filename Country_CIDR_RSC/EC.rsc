@@ -2,6 +2,7 @@
 /ip firewall address-list
 :do { add list=EC address=2.57.225.28/31 } on-error={}
 :do { add list=EC address=2.152.36.0/22 } on-error={}
+:do { add list=EC address=2.152.250.0/24 } on-error={}
 :do { add list=EC address=4.68.38.248/30 } on-error={}
 :do { add list=EC address=4.68.62.232/30 } on-error={}
 :do { add list=EC address=4.69.248.186/32 } on-error={}
@@ -346,7 +347,6 @@
 :do { add list=EC address=84.16.9.139/32 } on-error={}
 :do { add list=EC address=84.16.9.147/32 } on-error={}
 :do { add list=EC address=84.16.10.125/32 } on-error={}
-:do { add list=EC address=87.81.251.208/31 } on-error={}
 :do { add list=EC address=89.221.41.11/32 } on-error={}
 :do { add list=EC address=90.96.183.160/30 } on-error={}
 :do { add list=EC address=90.96.183.164/32 } on-error={}
@@ -643,9 +643,7 @@
 :do { add list=EC address=170.238.170.0/23 } on-error={}
 :do { add list=EC address=170.239.204.0/24 } on-error={}
 :do { add list=EC address=170.239.206.0/24 } on-error={}
-:do { add list=EC address=170.244.208.0/24 } on-error={}
-:do { add list=EC address=170.244.209.0/24 } on-error={}
-:do { add list=EC address=170.244.210.0/23 } on-error={}
+:do { add list=EC address=170.244.208.0/22 } on-error={}
 :do { add list=EC address=170.246.84.0/22 } on-error={}
 :do { add list=EC address=170.254.28.0/22 } on-error={}
 :do { add list=EC address=171.22.165.0/24 } on-error={}

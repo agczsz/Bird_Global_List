@@ -236,7 +236,6 @@
 :do { add list=SZ address=146.75.198.28/31 } on-error={}
 :do { add list=SZ address=146.75.224.32/31 } on-error={}
 :do { add list=SZ address=154.119.96.0/19 } on-error={}
-:do { add list=SZ address=154.126.209.22/32 } on-error={}
 :do { add list=SZ address=163.116.164.110/32 } on-error={}
 :do { add list=SZ address=163.116.164.142/32 } on-error={}
 :do { add list=SZ address=163.116.180.108/32 } on-error={}

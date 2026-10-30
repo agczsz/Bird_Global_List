@@ -108,11 +108,6 @@
 :do { add list=PE address=2001:1389:e000::/35 } on-error={}
 :do { add list=PE address=2001:13b1::/34 } on-error={}
 :do { add list=PE address=2001:13b3:8000::/34 } on-error={}
-:do { add list=PE address=2001:13b4:400:4000::/50 } on-error={}
-:do { add list=PE address=2001:13b4:400:8000::/49 } on-error={}
-:do { add list=PE address=2001:13b4:401:4000::/50 } on-error={}
-:do { add list=PE address=2001:13b4:401:8000::/49 } on-error={}
-:do { add list=PE address=2001:13b4:4be::/48 } on-error={}
 :do { add list=PE address=2001:13b4:1800::/62 } on-error={}
 :do { add list=PE address=2001:13b4:1800:4::/127 } on-error={}
 :do { add list=PE address=2001:13b4:1800:4::6/127 } on-error={}
@@ -222,7 +217,6 @@
 :do { add list=PE address=2001:13b4:1820::/43 } on-error={}
 :do { add list=PE address=2001:13b4:1840::/42 } on-error={}
 :do { add list=PE address=2001:13b4:1880::/41 } on-error={}
-:do { add list=PE address=2001:13b4:1c00::/48 } on-error={}
 :do { add list=PE address=2001:1498:1::32:247/128 } on-error={}
 :do { add list=PE address=2001:1498:1::100:10/128 } on-error={}
 :do { add list=PE address=2001:1498:1::100:33/128 } on-error={}
@@ -1464,6 +1458,7 @@
 :do { add list=PE address=2803:b0e0:b068::/45 } on-error={}
 :do { add list=PE address=2803:b0e0:b070::/44 } on-error={}
 :do { add list=PE address=2803:b0e0:b080::/41 } on-error={}
+:do { add list=PE address=2803:b0e0:b300::/48 } on-error={}
 :do { add list=PE address=2803:b0e0:b600::/39 } on-error={}
 :do { add list=PE address=2803:b0e0:b800::/37 } on-error={}
 :do { add list=PE address=2803:b0e0:c000::/34 } on-error={}
@@ -1925,7 +1920,6 @@
 :do { add list=PE address=2a04:4e41:63:5::/64 } on-error={}
 :do { add list=PE address=2a04:4e41:63:6::/64 } on-error={}
 :do { add list=PE address=2a04:4e41:63:1300::/56 } on-error={}
-:do { add list=PE address=2a04:4e41:6c:b600::/55 } on-error={}
 :do { add list=PE address=2a04:4e41:180:6000::/52 } on-error={}
 :do { add list=PE address=2a04:4e41:187::/48 } on-error={}
 :do { add list=PE address=2a04:4e41:1a00:2000::/52 } on-error={}

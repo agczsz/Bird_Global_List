@@ -57,7 +57,6 @@
 :do { add list=ML address=2a04:4e41:22:1e00::/56 } on-error={}
 :do { add list=ML address=2a04:4e41:5d:29::/64 } on-error={}
 :do { add list=ML address=2a04:4e41:5d:2100::/56 } on-error={}
-:do { add list=ML address=2a04:4e41:6c:f400::/55 } on-error={}
 :do { add list=ML address=2a04:4e41:810::/48 } on-error={}
 :do { add list=ML address=2a04:4e41:131d::/48 } on-error={}
 :do { add list=ML address=2a04:4e41:4019::/52 } on-error={}

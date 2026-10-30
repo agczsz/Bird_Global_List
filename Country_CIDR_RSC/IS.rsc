@@ -564,6 +564,7 @@
 :do { add list=IS address=212.46.60.0/24 } on-error={}
 :do { add list=IS address=212.108.116.0/24 } on-error={}
 :do { add list=IS address=212.126.224.0/19 } on-error={}
+:do { add list=IS address=212.133.32.0/24 } on-error={}
 :do { add list=IS address=213.155.147.152/29 } on-error={}
 :do { add list=IS address=213.167.128.0/19 } on-error={}
 :do { add list=IS address=213.176.128.0/19 } on-error={}

@@ -71,7 +71,6 @@
 :do { add list=MG address=66.96.126.0/26 } on-error={}
 :do { add list=MG address=81.80.90.8/32 } on-error={}
 :do { add list=MG address=84.254.167.0/24 } on-error={}
-:do { add list=MG address=87.81.251.220/31 } on-error={}
 :do { add list=MG address=90.84.159.0/27 } on-error={}
 :do { add list=MG address=90.96.188.192/32 } on-error={}
 :do { add list=MG address=102.16.0.0/23 } on-error={}

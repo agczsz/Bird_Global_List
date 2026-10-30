@@ -60,9 +60,6 @@
 :do { add list=BO address=2607:8940:4200:5400::/56 } on-error={}
 :do { add list=BO address=2620:0:876:2200::/56 } on-error={}
 :do { add list=BO address=2620:0:877:8100::/64 } on-error={}
-:do { add list=BO address=2620:171:22:f001::/64 } on-error={}
-:do { add list=BO address=2620:171:22:f002::/63 } on-error={}
-:do { add list=BO address=2620:171:22:f004::/64 } on-error={}
 :do { add list=BO address=2800:88::/32 } on-error={}
 :do { add list=BO address=2800:1e0:2430::/50 } on-error={}
 :do { add list=BO address=2800:1e0:2431::/48 } on-error={}
@@ -466,8 +463,7 @@
 :do { add list=BO address=2803:b60::/32 } on-error={}
 :do { add list=BO address=2803:be0::/32 } on-error={}
 :do { add list=BO address=2803:1180::/45 } on-error={}
-:do { add list=BO address=2803:1180:8::/48 } on-error={}
-:do { add list=BO address=2803:1180:9::/48 } on-error={}
+:do { add list=BO address=2803:1180:8::/47 } on-error={}
 :do { add list=BO address=2803:1180:a::/47 } on-error={}
 :do { add list=BO address=2803:1180:c::/46 } on-error={}
 :do { add list=BO address=2803:1180:10::/44 } on-error={}
@@ -715,7 +711,6 @@
 :do { add list=BO address=2a04:4e41:5e:1100::/56 } on-error={}
 :do { add list=BO address=2a04:4e41:63::/64 } on-error={}
 :do { add list=BO address=2a04:4e41:63:1000::/56 } on-error={}
-:do { add list=BO address=2a04:4e41:6c:e000::/55 } on-error={}
 :do { add list=BO address=2a04:4e41:188::/48 } on-error={}
 :do { add list=BO address=2a04:4e41:1a03::/48 } on-error={}
 :do { add list=BO address=2a04:4e41:4011:c000::/52 } on-error={}

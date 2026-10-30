@@ -394,7 +394,6 @@
 :do { add list=RE address=146.75.166.126/31 } on-error={}
 :do { add list=RE address=146.75.198.22/31 } on-error={}
 :do { add list=RE address=146.75.224.26/31 } on-error={}
-:do { add list=RE address=151.242.39.0/24 } on-error={}
 :do { add list=RE address=153.67.94.0/23 } on-error={}
 :do { add list=RE address=154.49.226.112/30 } on-error={}
 :do { add list=RE address=154.49.226.136/31 } on-error={}

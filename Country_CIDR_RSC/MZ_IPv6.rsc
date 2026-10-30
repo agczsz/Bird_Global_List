@@ -68,7 +68,6 @@
 :do { add list=MZ address=2a04:4e41:13:52::/64 } on-error={}
 :do { add list=MZ address=2a04:4e41:32:a::/64 } on-error={}
 :do { add list=MZ address=2a04:4e41:32:1900::/56 } on-error={}
-:do { add list=MZ address=2a04:4e41:6c:d800::/55 } on-error={}
 :do { add list=MZ address=2a04:4e41:1ec::/48 } on-error={}
 :do { add list=MZ address=2a04:4e41:12ca::/48 } on-error={}
 :do { add list=MZ address=2a04:4e41:1321::/48 } on-error={}
