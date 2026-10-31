@@ -119,9 +119,7 @@
 :do { add list=PG address=2a02:26f7:fb44::/48 } on-error={}
 :do { add list=PG address=2a02:26f7:fb45::/48 } on-error={}
 :do { add list=PG address=2a02:26f7:fb46::/47 } on-error={}
-:do { add list=PG address=2a02:26f7:fb48::/48 } on-error={}
-:do { add list=PG address=2a02:26f7:fb49::/48 } on-error={}
-:do { add list=PG address=2a02:26f7:fb4a::/47 } on-error={}
+:do { add list=PG address=2a02:26f7:fb48::/46 } on-error={}
 :do { add list=PG address=2a02:26f7:fb4c::/48 } on-error={}
 :do { add list=PG address=2a02:26f7:fb4d::/48 } on-error={}
 :do { add list=PG address=2a02:26f7:fb4e::/47 } on-error={}

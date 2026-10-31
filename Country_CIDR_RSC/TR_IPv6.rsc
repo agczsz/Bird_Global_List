@@ -10607,6 +10607,7 @@
 :do { add list=TR address=2a0f:ac40::/29 } on-error={}
 :do { add list=TR address=2a0f:b240:1406::/48 } on-error={}
 :do { add list=TR address=2a0f:b240:1407:ca95::/64 } on-error={}
+:do { add list=TR address=2a0f:b240:1407:dd84::/64 } on-error={}
 :do { add list=TR address=2a0f:b700::/29 } on-error={}
 :do { add list=TR address=2a0f:b900::/29 } on-error={}
 :do { add list=TR address=2a0f:bb00::/29 } on-error={}

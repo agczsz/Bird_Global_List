@@ -10666,8 +10666,7 @@
 :do { add list=NO address=2a13:6202::/35 } on-error={}
 :do { add list=NO address=2a13:6202:2000::/35 } on-error={}
 :do { add list=NO address=2a13:6202:4000::/35 } on-error={}
-:do { add list=NO address=2a13:6202:6000::/36 } on-error={}
-:do { add list=NO address=2a13:6202:7000::/36 } on-error={}
+:do { add list=NO address=2a13:6202:6000::/35 } on-error={}
 :do { add list=NO address=2a13:6202:8000::/33 } on-error={}
 :do { add list=NO address=2a13:6203::/35 } on-error={}
 :do { add list=NO address=2a13:6203:2000::/36 } on-error={}

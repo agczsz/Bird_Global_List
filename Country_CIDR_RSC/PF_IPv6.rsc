@@ -81,10 +81,7 @@
 :do { add list=PF address=2a02:26f7:f384::/48 } on-error={}
 :do { add list=PF address=2a02:26f7:f385::/48 } on-error={}
 :do { add list=PF address=2a02:26f7:f386::/47 } on-error={}
-:do { add list=PF address=2a02:26f7:f388::/48 } on-error={}
-:do { add list=PF address=2a02:26f7:f389::/48 } on-error={}
-:do { add list=PF address=2a02:26f7:f38a::/47 } on-error={}
-:do { add list=PF address=2a02:26f7:f38c::/46 } on-error={}
+:do { add list=PF address=2a02:26f7:f388::/45 } on-error={}
 :do { add list=PF address=2a02:26f7:f390::/44 } on-error={}
 :do { add list=PF address=2a02:26f7:f3a0::/43 } on-error={}
 :do { add list=PF address=2a02:26f7:f3c0::/48 } on-error={}
@@ -94,10 +91,7 @@
 :do { add list=PF address=2a02:26f7:f3c4::/48 } on-error={}
 :do { add list=PF address=2a02:26f7:f3c5::/48 } on-error={}
 :do { add list=PF address=2a02:26f7:f3c6::/47 } on-error={}
-:do { add list=PF address=2a02:26f7:f3c8::/48 } on-error={}
-:do { add list=PF address=2a02:26f7:f3c9::/48 } on-error={}
-:do { add list=PF address=2a02:26f7:f3ca::/47 } on-error={}
-:do { add list=PF address=2a02:26f7:f3cc::/46 } on-error={}
+:do { add list=PF address=2a02:26f7:f3c8::/45 } on-error={}
 :do { add list=PF address=2a02:26f7:f3d0::/44 } on-error={}
 :do { add list=PF address=2a02:26f7:f3e0::/43 } on-error={}
 :do { add list=PF address=2a03:b600:0:130b::/64 } on-error={}

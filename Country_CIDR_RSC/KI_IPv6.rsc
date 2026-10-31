@@ -53,10 +53,7 @@
 :do { add list=KI address=2a02:26f7:f544::/48 } on-error={}
 :do { add list=KI address=2a02:26f7:f545::/48 } on-error={}
 :do { add list=KI address=2a02:26f7:f546::/47 } on-error={}
-:do { add list=KI address=2a02:26f7:f548::/48 } on-error={}
-:do { add list=KI address=2a02:26f7:f549::/48 } on-error={}
-:do { add list=KI address=2a02:26f7:f54a::/47 } on-error={}
-:do { add list=KI address=2a02:26f7:f54c::/46 } on-error={}
+:do { add list=KI address=2a02:26f7:f548::/45 } on-error={}
 :do { add list=KI address=2a02:26f7:f550::/44 } on-error={}
 :do { add list=KI address=2a02:26f7:f560::/43 } on-error={}
 :do { add list=KI address=2a02:26f7:f580::/48 } on-error={}
@@ -66,10 +63,7 @@
 :do { add list=KI address=2a02:26f7:f584::/48 } on-error={}
 :do { add list=KI address=2a02:26f7:f585::/48 } on-error={}
 :do { add list=KI address=2a02:26f7:f586::/47 } on-error={}
-:do { add list=KI address=2a02:26f7:f588::/48 } on-error={}
-:do { add list=KI address=2a02:26f7:f589::/48 } on-error={}
-:do { add list=KI address=2a02:26f7:f58a::/47 } on-error={}
-:do { add list=KI address=2a02:26f7:f58c::/46 } on-error={}
+:do { add list=KI address=2a02:26f7:f588::/45 } on-error={}
 :do { add list=KI address=2a02:26f7:f590::/44 } on-error={}
 :do { add list=KI address=2a02:26f7:f5a0::/43 } on-error={}
 :do { add list=KI address=2a02:26f7:f5c0::/48 } on-error={}
@@ -79,10 +73,7 @@
 :do { add list=KI address=2a02:26f7:f5c4::/48 } on-error={}
 :do { add list=KI address=2a02:26f7:f5c5::/48 } on-error={}
 :do { add list=KI address=2a02:26f7:f5c6::/47 } on-error={}
-:do { add list=KI address=2a02:26f7:f5c8::/48 } on-error={}
-:do { add list=KI address=2a02:26f7:f5c9::/48 } on-error={}
-:do { add list=KI address=2a02:26f7:f5ca::/47 } on-error={}
-:do { add list=KI address=2a02:26f7:f5cc::/46 } on-error={}
+:do { add list=KI address=2a02:26f7:f5c8::/45 } on-error={}
 :do { add list=KI address=2a02:26f7:f5d0::/44 } on-error={}
 :do { add list=KI address=2a02:26f7:f5e0::/43 } on-error={}
 :do { add list=KI address=2a02:5740:113::/48 } on-error={}

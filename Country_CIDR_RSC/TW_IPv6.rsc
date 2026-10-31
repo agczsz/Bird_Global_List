@@ -28999,7 +28999,11 @@
 :do { add list=TW address=2a14:7581:6f20::/43 } on-error={}
 :do { add list=TW address=2a14:7581:6f40::/42 } on-error={}
 :do { add list=TW address=2a14:7581:6f80::/43 } on-error={}
-:do { add list=TW address=2a14:7581:6fa0::/44 } on-error={}
+:do { add list=TW address=2a14:7581:6fa0::/45 } on-error={}
+:do { add list=TW address=2a14:7581:6fa8::/48 } on-error={}
+:do { add list=TW address=2a14:7581:6fa9::/48 } on-error={}
+:do { add list=TW address=2a14:7581:6faa::/47 } on-error={}
+:do { add list=TW address=2a14:7581:6fac::/46 } on-error={}
 :do { add list=TW address=2a14:7581:6fb0::/44 } on-error={}
 :do { add list=TW address=2a14:7581:6fc0::/44 } on-error={}
 :do { add list=TW address=2a14:7581:6fd0::/44 } on-error={}

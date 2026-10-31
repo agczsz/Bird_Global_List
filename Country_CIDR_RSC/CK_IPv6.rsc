@@ -25,10 +25,7 @@
 :do { add list=CK address=2a02:26f7:f644::/48 } on-error={}
 :do { add list=CK address=2a02:26f7:f645::/48 } on-error={}
 :do { add list=CK address=2a02:26f7:f646::/47 } on-error={}
-:do { add list=CK address=2a02:26f7:f648::/48 } on-error={}
-:do { add list=CK address=2a02:26f7:f649::/48 } on-error={}
-:do { add list=CK address=2a02:26f7:f64a::/47 } on-error={}
-:do { add list=CK address=2a02:26f7:f64c::/46 } on-error={}
+:do { add list=CK address=2a02:26f7:f648::/45 } on-error={}
 :do { add list=CK address=2a02:26f7:f650::/44 } on-error={}
 :do { add list=CK address=2a02:26f7:f660::/43 } on-error={}
 :do { add list=CK address=2a03:b600:0:12a1::/64 } on-error={}

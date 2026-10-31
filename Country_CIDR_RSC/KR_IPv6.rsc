@@ -14757,6 +14757,7 @@
 :do { add list=KR address=2a0f:1cc5:3104::/48 } on-error={}
 :do { add list=KR address=2a0f:2706::/32 } on-error={}
 :do { add list=KR address=2a0f:31c1:6800::/48 } on-error={}
+:do { add list=KR address=2a0f:3ec0::/29 } on-error={}
 :do { add list=KR address=2a0f:6284:3300::/47 } on-error={}
 :do { add list=KR address=2a0f:6284:3309::/48 } on-error={}
 :do { add list=KR address=2a0f:6284:330a::/47 } on-error={}

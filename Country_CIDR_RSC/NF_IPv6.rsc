@@ -27,10 +27,7 @@
 :do { add list=NF address=2a02:26f7:f504::/48 } on-error={}
 :do { add list=NF address=2a02:26f7:f505::/48 } on-error={}
 :do { add list=NF address=2a02:26f7:f506::/47 } on-error={}
-:do { add list=NF address=2a02:26f7:f508::/48 } on-error={}
-:do { add list=NF address=2a02:26f7:f509::/48 } on-error={}
-:do { add list=NF address=2a02:26f7:f50a::/47 } on-error={}
-:do { add list=NF address=2a02:26f7:f50c::/46 } on-error={}
+:do { add list=NF address=2a02:26f7:f508::/45 } on-error={}
 :do { add list=NF address=2a02:26f7:f510::/44 } on-error={}
 :do { add list=NF address=2a02:26f7:f520::/43 } on-error={}
 :do { add list=NF address=2a03:b600:0:1128::/61 } on-error={}

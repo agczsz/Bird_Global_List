@@ -94,7 +94,6 @@
 :do { add list=MY address=2001:470:6886::/48 } on-error={}
 :do { add list=MY address=2001:470:6905::/48 } on-error={}
 :do { add list=MY address=2001:470:6bce::/48 } on-error={}
-:do { add list=MY address=2001:470:704f::/48 } on-error={}
 :do { add list=MY address=2001:470:75c3::/48 } on-error={}
 :do { add list=MY address=2001:470:78f9::/48 } on-error={}
 :do { add list=MY address=2001:470:812a::/47 } on-error={}

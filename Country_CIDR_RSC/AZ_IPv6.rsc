@@ -439,7 +439,8 @@
 :do { add list=AZ address=2a0b:4e07:143c::/46 } on-error={}
 :do { add list=AZ address=2a0b:4e07:1440::/48 } on-error={}
 :do { add list=AZ address=2a0b:4e07:1441::/48 } on-error={}
-:do { add list=AZ address=2a0b:4e07:1442::/47 } on-error={}
+:do { add list=AZ address=2a0b:4e07:1442::/48 } on-error={}
+:do { add list=AZ address=2a0b:4e07:1443::/48 } on-error={}
 :do { add list=AZ address=2a0b:4e07:1444::/46 } on-error={}
 :do { add list=AZ address=2a0b:4e07:1448::/54 } on-error={}
 :do { add list=AZ address=2a0b:4e07:1448:500::/56 } on-error={}

@@ -3399,10 +3399,7 @@
 :do { add list=NZ address=2a02:26f7:f444::/48 } on-error={}
 :do { add list=NZ address=2a02:26f7:f445::/48 } on-error={}
 :do { add list=NZ address=2a02:26f7:f446::/47 } on-error={}
-:do { add list=NZ address=2a02:26f7:f448::/48 } on-error={}
-:do { add list=NZ address=2a02:26f7:f449::/48 } on-error={}
-:do { add list=NZ address=2a02:26f7:f44a::/47 } on-error={}
-:do { add list=NZ address=2a02:26f7:f44c::/46 } on-error={}
+:do { add list=NZ address=2a02:26f7:f448::/45 } on-error={}
 :do { add list=NZ address=2a02:26f7:f450::/44 } on-error={}
 :do { add list=NZ address=2a02:26f7:f460::/43 } on-error={}
 :do { add list=NZ address=2a02:5740:146::/48 } on-error={}

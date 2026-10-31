@@ -70,7 +70,6 @@
 :do { add list=ZW address=2a01:410:1:1::1f8/128 } on-error={}
 :do { add list=ZW address=2a01:410:1:1::1fc/128 } on-error={}
 :do { add list=ZW address=2a01:410:1:1::26c/128 } on-error={}
-:do { add list=ZW address=2a01:410:1:401a::/64 } on-error={}
 :do { add list=ZW address=2a01:410:1:5006::/64 } on-error={}
 :do { add list=ZW address=2a01:410:1:5010::/124 } on-error={}
 :do { add list=ZW address=2a01:410:1:5010::10/125 } on-error={}

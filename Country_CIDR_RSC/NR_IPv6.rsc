@@ -29,10 +29,7 @@
 :do { add list=NR address=2a02:26f7:f4c4::/48 } on-error={}
 :do { add list=NR address=2a02:26f7:f4c5::/48 } on-error={}
 :do { add list=NR address=2a02:26f7:f4c6::/47 } on-error={}
-:do { add list=NR address=2a02:26f7:f4c8::/48 } on-error={}
-:do { add list=NR address=2a02:26f7:f4c9::/48 } on-error={}
-:do { add list=NR address=2a02:26f7:f4ca::/47 } on-error={}
-:do { add list=NR address=2a02:26f7:f4cc::/46 } on-error={}
+:do { add list=NR address=2a02:26f7:f4c8::/45 } on-error={}
 :do { add list=NR address=2a02:26f7:f4d0::/44 } on-error={}
 :do { add list=NR address=2a02:26f7:f4e0::/43 } on-error={}
 :do { add list=NR address=2a02:5740:144::/48 } on-error={}

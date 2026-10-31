@@ -841,10 +841,7 @@
 :do { add list=IQ address=176.241.88.0/22 } on-error={}
 :do { add list=IQ address=176.241.92.0/23 } on-error={}
 :do { add list=IQ address=176.241.94.0/24 } on-error={}
-:do { add list=IQ address=176.241.95.16/28 } on-error={}
-:do { add list=IQ address=176.241.95.32/27 } on-error={}
-:do { add list=IQ address=176.241.95.64/26 } on-error={}
-:do { add list=IQ address=176.241.95.128/25 } on-error={}
+:do { add list=IQ address=176.241.95.0/24 } on-error={}
 :do { add list=IQ address=178.22.32.0/21 } on-error={}
 :do { add list=IQ address=178.210.224.0/22 } on-error={}
 :do { add list=IQ address=178.210.228.0/22 } on-error={}
@@ -1098,8 +1095,7 @@
 :do { add list=IQ address=185.253.76.0/24 } on-error={}
 :do { add list=IQ address=185.253.77.0/24 } on-error={}
 :do { add list=IQ address=185.253.78.0/23 } on-error={}
-:do { add list=IQ address=185.254.12.0/24 } on-error={}
-:do { add list=IQ address=185.254.13.0/24 } on-error={}
+:do { add list=IQ address=185.254.12.0/23 } on-error={}
 :do { add list=IQ address=185.254.14.0/24 } on-error={}
 :do { add list=IQ address=185.254.15.0/24 } on-error={}
 :do { add list=IQ address=185.254.84.0/24 } on-error={}

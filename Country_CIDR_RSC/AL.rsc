@@ -236,7 +236,6 @@
 :do { add list=AL address=134.0.60.0/24 } on-error={}
 :do { add list=AL address=134.0.61.0/24 } on-error={}
 :do { add list=AL address=134.0.62.0/23 } on-error={}
-:do { add list=AL address=136.148.192.0/20 } on-error={}
 :do { add list=AL address=140.248.34.2/31 } on-error={}
 :do { add list=AL address=140.248.34.4/31 } on-error={}
 :do { add list=AL address=140.248.36.2/31 } on-error={}

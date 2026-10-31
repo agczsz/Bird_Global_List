@@ -178,10 +178,7 @@
 :do { add list=AS address=2a02:26f7:f684::/48 } on-error={}
 :do { add list=AS address=2a02:26f7:f685::/48 } on-error={}
 :do { add list=AS address=2a02:26f7:f686::/47 } on-error={}
-:do { add list=AS address=2a02:26f7:f688::/48 } on-error={}
-:do { add list=AS address=2a02:26f7:f689::/48 } on-error={}
-:do { add list=AS address=2a02:26f7:f68a::/47 } on-error={}
-:do { add list=AS address=2a02:26f7:f68c::/46 } on-error={}
+:do { add list=AS address=2a02:26f7:f688::/45 } on-error={}
 :do { add list=AS address=2a02:26f7:f690::/44 } on-error={}
 :do { add list=AS address=2a02:26f7:f6a0::/43 } on-error={}
 :do { add list=AS address=2a03:b600:0:ee7::/64 } on-error={}

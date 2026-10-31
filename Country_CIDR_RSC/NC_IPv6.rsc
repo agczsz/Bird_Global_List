@@ -116,11 +116,7 @@
 :do { add list=NC address=2a02:26f7:fb8c::/48 } on-error={}
 :do { add list=NC address=2a02:26f7:fb8d::/48 } on-error={}
 :do { add list=NC address=2a02:26f7:fb8e::/47 } on-error={}
-:do { add list=NC address=2a02:26f7:fb90::/48 } on-error={}
-:do { add list=NC address=2a02:26f7:fb91::/48 } on-error={}
-:do { add list=NC address=2a02:26f7:fb92::/47 } on-error={}
-:do { add list=NC address=2a02:26f7:fb94::/46 } on-error={}
-:do { add list=NC address=2a02:26f7:fb98::/45 } on-error={}
+:do { add list=NC address=2a02:26f7:fb90::/44 } on-error={}
 :do { add list=NC address=2a02:26f7:fba0::/43 } on-error={}
 :do { add list=NC address=2a04:4e41:3:7::/64 } on-error={}
 :do { add list=NC address=2a04:4e41:3:1600::/56 } on-error={}
