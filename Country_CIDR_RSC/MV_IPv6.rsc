@@ -206,6 +206,7 @@
 :do { add list=MV address=2a04:4e41:e:1900::/56 } on-error={}
 :do { add list=MV address=2a04:4e41:f:2b::/64 } on-error={}
 :do { add list=MV address=2a04:4e41:f:2300::/56 } on-error={}
+:do { add list=MV address=2a04:4e41:80:9c00::/56 } on-error={}
 :do { add list=MV address=2a04:4e41:280d::/48 } on-error={}
 :do { add list=MV address=2a04:4e41:4019:a000::/52 } on-error={}
 :do { add list=MV address=2a04:4e41:4029:a000::/52 } on-error={}

@@ -136,6 +136,7 @@
 :do { add list=SM address=2a04:4e41:5c:ce00::/55 } on-error={}
 :do { add list=SM address=2a04:4e41:66:93::/64 } on-error={}
 :do { add list=SM address=2a04:4e41:66:4900::/56 } on-error={}
+:do { add list=SM address=2a04:4e41:80:c700::/56 } on-error={}
 :do { add list=SM address=2a04:4e41:1328::/48 } on-error={}
 :do { add list=SM address=2a04:4e41:183e::/48 } on-error={}
 :do { add list=SM address=2a04:4e41:401c:b000::/52 } on-error={}

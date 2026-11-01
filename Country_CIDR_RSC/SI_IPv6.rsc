@@ -1,7 +1,9 @@
 /log info "Loading SI IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=SI address=2001:470:0:40c::/64 } on-error={}
 :do { add list=SI address=2001:470:1:5be::/64 } on-error={}
 :do { add list=SI address=2001:470:1:ea6::/64 } on-error={}
+:do { add list=SI address=2001:470:e:f5::/64 } on-error={}
 :do { add list=SI address=2001:470:26:219::/64 } on-error={}
 :do { add list=SI address=2001:470:26:587::/64 } on-error={}
 :do { add list=SI address=2001:470:28:553::/64 } on-error={}
@@ -570,6 +572,9 @@
 :do { add list=SI address=2a00:1420::/32 } on-error={}
 :do { add list=SI address=2a00:1600::/29 } on-error={}
 :do { add list=SI address=2a00:1a20::/29 } on-error={}
+:do { add list=SI address=2a00:5540:385::/48 } on-error={}
+:do { add list=SI address=2a00:5540:386::/47 } on-error={}
+:do { add list=SI address=2a00:5540:388::/48 } on-error={}
 :do { add list=SI address=2a00:7360::/32 } on-error={}
 :do { add list=SI address=2a00:a360::/32 } on-error={}
 :do { add list=SI address=2a00:a361::/32 } on-error={}
@@ -966,6 +971,7 @@
 :do { add list=SI address=2a04:4e41:66:8f::/64 } on-error={}
 :do { add list=SI address=2a04:4e41:66:90::/64 } on-error={}
 :do { add list=SI address=2a04:4e41:66:4700::/56 } on-error={}
+:do { add list=SI address=2a04:4e41:80:d000::/56 } on-error={}
 :do { add list=SI address=2a04:4e41:1805:6000::/52 } on-error={}
 :do { add list=SI address=2a04:4e41:183c::/48 } on-error={}
 :do { add list=SI address=2a04:4e41:401c:7000::/52 } on-error={}

@@ -64,6 +64,7 @@
 :do { add list=GD address=2a04:4e41:16:1f00::/56 } on-error={}
 :do { add list=GD address=2a04:4e41:51:10::/64 } on-error={}
 :do { add list=GD address=2a04:4e41:51:1a00::/56 } on-error={}
+:do { add list=GD address=2a04:4e41:80:7600::/56 } on-error={}
 :do { add list=GD address=2a04:4e41:3013::/48 } on-error={}
 :do { add list=GD address=2a04:4e41:361a::/48 } on-error={}
 :do { add list=GD address=2a04:4e41:3a1f::/48 } on-error={}

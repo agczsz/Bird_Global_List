@@ -55,6 +55,7 @@
 :do { add list=ER address=2a04:4e41:65:1c00::/56 } on-error={}
 :do { add list=ER address=2a04:4e41:66:34::/64 } on-error={}
 :do { add list=ER address=2a04:4e41:66:2200::/56 } on-error={}
+:do { add list=ER address=2a04:4e41:80:6900::/56 } on-error={}
 :do { add list=ER address=2a04:4e41:12a3::/48 } on-error={}
 :do { add list=ER address=2a04:4e41:1411::/48 } on-error={}
 :do { add list=ER address=2a04:4e41:1818::/48 } on-error={}

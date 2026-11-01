@@ -60,6 +60,7 @@
 :do { add list=SR address=2a04:4e41:16:3000::/56 } on-error={}
 :do { add list=SR address=2a04:4e41:23:8::/64 } on-error={}
 :do { add list=SR address=2a04:4e41:23:1500::/56 } on-error={}
+:do { add list=SR address=2a04:4e41:80:d800::/56 } on-error={}
 :do { add list=SR address=2a04:4e41:3a30::/48 } on-error={}
 :do { add list=SR address=2a04:4e41:3e1b::/48 } on-error={}
 :do { add list=SR address=2a04:4e41:401c:e000::/52 } on-error={}

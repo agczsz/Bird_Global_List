@@ -2474,6 +2474,7 @@
 :do { add list=SA address=2a04:4e41:3f:1400::/56 } on-error={}
 :do { add list=SA address=2a04:4e41:66:89::/64 } on-error={}
 :do { add list=SA address=2a04:4e41:66:4400::/56 } on-error={}
+:do { add list=SA address=2a04:4e41:80:c900::/56 } on-error={}
 :do { add list=SA address=2a04:4e41:216::/48 } on-error={}
 :do { add list=SA address=2a04:4e41:402::/48 } on-error={}
 :do { add list=SA address=2a04:4e41:1225::/48 } on-error={}

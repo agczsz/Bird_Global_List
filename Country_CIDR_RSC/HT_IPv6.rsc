@@ -93,6 +93,7 @@
 :do { add list=HT address=2a04:4e41:16:2500::/56 } on-error={}
 :do { add list=HT address=2a04:4e41:51:15::/64 } on-error={}
 :do { add list=HT address=2a04:4e41:51:1e00::/56 } on-error={}
+:do { add list=HT address=2a04:4e41:80:7b00::/56 } on-error={}
 :do { add list=HT address=2a04:4e41:3014::/48 } on-error={}
 :do { add list=HT address=2a04:4e41:361e::/48 } on-error={}
 :do { add list=HT address=2a04:4e41:3a25::/48 } on-error={}

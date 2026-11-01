@@ -56,6 +56,7 @@
 :do { add list=CG address=2a04:4e41:1a:1100::/56 } on-error={}
 :do { add list=CG address=2a04:4e41:32:4::/64 } on-error={}
 :do { add list=CG address=2a04:4e41:32:1400::/56 } on-error={}
+:do { add list=CG address=2a04:4e41:80:5900::/56 } on-error={}
 :do { add list=CG address=2a04:4e41:1e7::/48 } on-error={}
 :do { add list=CG address=2a04:4e41:12c5::/48 } on-error={}
 :do { add list=CG address=2a04:4e41:130a::/48 } on-error={}

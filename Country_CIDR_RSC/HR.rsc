@@ -1,7 +1,6 @@
 /log info "Loading HR IPv4 Address List"
 /ip firewall address-list
 :do { add list=HR address=2.56.2.36/30 } on-error={}
-:do { add list=HR address=2.58.32.0/24 } on-error={}
 :do { add list=HR address=2.58.48.0/28 } on-error={}
 :do { add list=HR address=2.58.48.16/32 } on-error={}
 :do { add list=HR address=2.58.48.18/31 } on-error={}
@@ -148,7 +147,6 @@
 :do { add list=HR address=45.139.48.0/24 } on-error={}
 :do { add list=HR address=45.142.8.0/22 } on-error={}
 :do { add list=HR address=45.143.216.0/22 } on-error={}
-:do { add list=HR address=45.196.232.3/32 } on-error={}
 :do { add list=HR address=45.196.232.8/29 } on-error={}
 :do { add list=HR address=45.196.232.16/28 } on-error={}
 :do { add list=HR address=45.196.232.64/26 } on-error={}

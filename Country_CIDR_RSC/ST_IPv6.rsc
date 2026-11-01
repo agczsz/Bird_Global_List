@@ -58,6 +58,7 @@
 :do { add list=ST address=2a04:4e41:13:5f::/64 } on-error={}
 :do { add list=ST address=2a04:4e41:22:1f::/64 } on-error={}
 :do { add list=ST address=2a04:4e41:22:2400::/56 } on-error={}
+:do { add list=ST address=2a04:4e41:80:c800::/56 } on-error={}
 :do { add list=ST address=2a04:4e41:132a::/48 } on-error={}
 :do { add list=ST address=2a04:4e41:1620::/48 } on-error={}
 :do { add list=ST address=2a04:4e41:401d::/52 } on-error={}

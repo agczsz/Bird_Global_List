@@ -1718,6 +1718,7 @@
 :do { add list=JO address=2a04:4e41:66:4b::/64 } on-error={}
 :do { add list=JO address=2a04:4e41:66:4c::/64 } on-error={}
 :do { add list=JO address=2a04:4e41:66:2d00::/56 } on-error={}
+:do { add list=JO address=2a04:4e41:80:8800::/56 } on-error={}
 :do { add list=JO address=2a04:4e41:1402:b000::/52 } on-error={}
 :do { add list=JO address=2a04:4e41:1419::/48 } on-error={}
 :do { add list=JO address=2a04:4e41:1802:c000::/52 } on-error={}

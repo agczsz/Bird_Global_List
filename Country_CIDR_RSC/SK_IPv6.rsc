@@ -4,7 +4,7 @@
 :do { add list=SK address=2001:470:0:33f::2/128 } on-error={}
 :do { add list=SK address=2001:470:0:412::1/128 } on-error={}
 :do { add list=SK address=2001:470:0:412::2/128 } on-error={}
-:do { add list=SK address=2001:470:1:810::/64 } on-error={}
+:do { add list=SK address=2001:470:0:673::/64 } on-error={}
 :do { add list=SK address=2001:470:e:d6::/64 } on-error={}
 :do { add list=SK address=2001:470:6d:566::/64 } on-error={}
 :do { add list=SK address=2001:470:6f:49::/64 } on-error={}
@@ -30,7 +30,6 @@
 :do { add list=SK address=2001:470:6f:62e::/64 } on-error={}
 :do { add list=SK address=2001:470:6f:63e::/64 } on-error={}
 :do { add list=SK address=2001:470:6f:65e::/64 } on-error={}
-:do { add list=SK address=2001:470:6f:75d::/64 } on-error={}
 :do { add list=SK address=2001:470:6f:932::/64 } on-error={}
 :do { add list=SK address=2001:470:6f:bfb::/64 } on-error={}
 :do { add list=SK address=2001:470:129::/50 } on-error={}
@@ -39,7 +38,6 @@
 :do { add list=SK address=2001:470:1f13:582::/64 } on-error={}
 :do { add list=SK address=2001:470:1f1a:469::/64 } on-error={}
 :do { add list=SK address=2001:470:1f1a:749::/64 } on-error={}
-:do { add list=SK address=2001:470:1f1a:763::/64 } on-error={}
 :do { add list=SK address=2001:470:1f1a:768::/62 } on-error={}
 :do { add list=SK address=2001:470:1f1a:76c::/63 } on-error={}
 :do { add list=SK address=2001:470:1f1a:76e::/64 } on-error={}
@@ -610,7 +608,7 @@
 :do { add list=SK address=2001:978::144/128 } on-error={}
 :do { add list=SK address=2001:978::146/128 } on-error={}
 :do { add list=SK address=2001:978::154:26:48:100/127 } on-error={}
-:do { add list=SK address=2001:978::154:54:130:33/128 } on-error={}
+:do { add list=SK address=2001:978::154:54:130:32/127 } on-error={}
 :do { add list=SK address=2001:978:1:24::/63 } on-error={}
 :do { add list=SK address=2001:978:1:314::/64 } on-error={}
 :do { add list=SK address=2001:978:2:37::/64 } on-error={}
@@ -646,7 +644,7 @@
 :do { add list=SK address=2001:2035:0:53c::/64 } on-error={}
 :do { add list=SK address=2001:2035:0:83b::/64 } on-error={}
 :do { add list=SK address=2001:2035:0:83c::/64 } on-error={}
-:do { add list=SK address=2001:2035:0:e2d::/64 } on-error={}
+:do { add list=SK address=2001:2035:0:e2d::2/128 } on-error={}
 :do { add list=SK address=2001:2035:0:12b1::/127 } on-error={}
 :do { add list=SK address=2001:2035:0:12b1::3/128 } on-error={}
 :do { add list=SK address=2001:2035:0:12b1::4/126 } on-error={}
@@ -711,9 +709,9 @@
 :do { add list=SK address=2001:2035:0:12b1:2000::/67 } on-error={}
 :do { add list=SK address=2001:2035:0:12b1:4000::/66 } on-error={}
 :do { add list=SK address=2001:2035:0:12b1:8000::/65 } on-error={}
-:do { add list=SK address=2001:2035:0:1471::/64 } on-error={}
 :do { add list=SK address=2001:2035:0:1476::/64 } on-error={}
 :do { add list=SK address=2001:2035:0:151b::/64 } on-error={}
+:do { add list=SK address=2001:2035:0:1527::/64 } on-error={}
 :do { add list=SK address=2001:2035:0:1534::/64 } on-error={}
 :do { add list=SK address=2001:2035:0:1546::/64 } on-error={}
 :do { add list=SK address=2001:2035:0:162f::/64 } on-error={}
@@ -1164,6 +1162,7 @@
 :do { add list=SK address=2a04:4e41:66:91::/64 } on-error={}
 :do { add list=SK address=2a04:4e41:66:92::/64 } on-error={}
 :do { add list=SK address=2a04:4e41:66:4800::/56 } on-error={}
+:do { add list=SK address=2a04:4e41:80:cf00::/56 } on-error={}
 :do { add list=SK address=2a04:4e41:1404:a000::/52 } on-error={}
 :do { add list=SK address=2a04:4e41:1425::/48 } on-error={}
 :do { add list=SK address=2a04:4e41:1805:7000::/52 } on-error={}

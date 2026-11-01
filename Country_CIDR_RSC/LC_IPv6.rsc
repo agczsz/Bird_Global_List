@@ -74,6 +74,7 @@
 :do { add list=LC address=2a04:4e41:16:3900::/56 } on-error={}
 :do { add list=LC address=2a04:4e41:51:127::/64 } on-error={}
 :do { add list=LC address=2a04:4e41:51:2900::/56 } on-error={}
+:do { add list=LC address=2a04:4e41:80:c400::/56 } on-error={}
 :do { add list=LC address=2a04:4e41:21b::/48 } on-error={}
 :do { add list=LC address=2a04:4e41:3017::/48 } on-error={}
 :do { add list=LC address=2a04:4e41:3418::/48 } on-error={}

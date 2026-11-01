@@ -10,6 +10,7 @@
 :do { add list=BH address=3.5.220.0/22 } on-error={}
 :do { add list=BH address=3.43.192.0/18 } on-error={}
 :do { add list=BH address=5.62.62.20/30 } on-error={}
+:do { add list=BH address=9.161.191.0/24 } on-error={}
 :do { add list=BH address=9.246.50.0/23 } on-error={}
 :do { add list=BH address=13.34.15.128/26 } on-error={}
 :do { add list=BH address=13.34.20.0/25 } on-error={}
@@ -83,7 +84,6 @@
 :do { add list=BH address=69.107.10.96/28 } on-error={}
 :do { add list=BH address=72.1.87.98/32 } on-error={}
 :do { add list=BH address=74.80.90.0/24 } on-error={}
-:do { add list=BH address=74.125.50.245/32 } on-error={}
 :do { add list=BH address=77.69.128.0/18 } on-error={}
 :do { add list=BH address=77.69.192.0/19 } on-error={}
 :do { add list=BH address=77.69.224.0/20 } on-error={}

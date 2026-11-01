@@ -54,6 +54,7 @@
 :do { add list=SO address=2a04:4e41:12:2d00::/56 } on-error={}
 :do { add list=SO address=2a04:4e41:66:94::/64 } on-error={}
 :do { add list=SO address=2a04:4e41:66:4a00::/56 } on-error={}
+:do { add list=SO address=2a04:4e41:80:d200::/56 } on-error={}
 :do { add list=SO address=2a04:4e41:161f::/48 } on-error={}
 :do { add list=SO address=2a04:4e41:183f::/48 } on-error={}
 :do { add list=SO address=2a04:4e41:401c:d000::/52 } on-error={}

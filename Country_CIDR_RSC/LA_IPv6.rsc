@@ -141,6 +141,7 @@
 :do { add list=LA address=2a04:4e41:12:1f00::/56 } on-error={}
 :do { add list=LA address=2a04:4e41:27:d::/64 } on-error={}
 :do { add list=LA address=2a04:4e41:27:1800::/56 } on-error={}
+:do { add list=LA address=2a04:4e41:80:9000::/56 } on-error={}
 :do { add list=LA address=2a04:4e41:12a9::/48 } on-error={}
 :do { add list=LA address=2a04:4e41:4017:d000::/52 } on-error={}
 :do { add list=LA address=2a04:4e41:4027:d000::/52 } on-error={}

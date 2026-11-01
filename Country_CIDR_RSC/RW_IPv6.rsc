@@ -59,6 +59,7 @@
 :do { add list=RW address=2a04:4e41:13:5a::/64 } on-error={}
 :do { add list=RW address=2a04:4e41:32:c::/64 } on-error={}
 :do { add list=RW address=2a04:4e41:32:1b00::/56 } on-error={}
+:do { add list=RW address=2a04:4e41:80:c200::/56 } on-error={}
 :do { add list=RW address=2a04:4e41:1ee::/48 } on-error={}
 :do { add list=RW address=2a04:4e41:12cc::/48 } on-error={}
 :do { add list=RW address=2a04:4e41:1325::/48 } on-error={}

@@ -573,6 +573,7 @@
 :do { add list=GE address=2a04:4e41:66:3b::/64 } on-error={}
 :do { add list=GE address=2a04:4e41:66:3c::/64 } on-error={}
 :do { add list=GE address=2a04:4e41:66:2600::/56 } on-error={}
+:do { add list=GE address=2a04:4e41:80:7200::/56 } on-error={}
 :do { add list=GE address=2a04:4e41:1402:4000::/52 } on-error={}
 :do { add list=GE address=2a04:4e41:1412::/48 } on-error={}
 :do { add list=GE address=2a04:4e41:1802:5000::/52 } on-error={}
