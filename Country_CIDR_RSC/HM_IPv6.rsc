@@ -1,0 +1,23 @@
+/log info "Loading HM IPv6 Address List"
+/ipv6 firewall address-list
+:do { add list=HM address=2602:814:fd7c::/46 } on-error={}
+:do { add list=HM address=2605:59c0:6500::/40 } on-error={}
+:do { add list=HM address=2a03:b600:0:1092::/63 } on-error={}
+:do { add list=HM address=2a03:b600:0:1094::/62 } on-error={}
+:do { add list=HM address=2a03:b600:0:1098::/61 } on-error={}
+:do { add list=HM address=2a03:b600:0:10a0::/64 } on-error={}
+:do { add list=HM address=2a05:dfc1:5a6b::/48 } on-error={}
+:do { add list=HM address=2a06:9f81:395e::/48 } on-error={}
+:do { add list=HM address=2a06:9f81:43ef:6100::/56 } on-error={}
+:do { add list=HM address=2a06:9f81:565e::/48 } on-error={}
+:do { add list=HM address=2a07:d887:5f00::/40 } on-error={}
+:do { add list=HM address=2a0d:2684:60::/48 } on-error={}
+:do { add list=HM address=2a0e:97c0:4b61::/48 } on-error={}
+:do { add list=HM address=2a0f:1cc1:fd90::/44 } on-error={}
+:do { add list=HM address=2a12:f381:d500::/40 } on-error={}
+:do { add list=HM address=2a12:f382:d500::/40 } on-error={}
+:do { add list=HM address=2a13:b487:5035::/48 } on-error={}
+:do { add list=HM address=2a14:1c7:4000::/37 } on-error={}
+:do { add list=HM address=2a14:2d45:5f00::/40 } on-error={}
+:do { add list=HM address=2a14:67c1:b65e::/48 } on-error={}
+:do { add list=HM address=2a14:7580:cf5f::/48 } on-error={}

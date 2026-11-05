@@ -1,9 +1,11 @@
 /log info "Loading VI IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=VI address=2001:470:d:fd::/64 } on-error={}
 :do { add list=VI address=2001:470:24:439::/64 } on-error={}
-:do { add list=VI address=2001:470:28:1228::/64 } on-error={}
+:do { add list=VI address=2001:470:36:1d2::/64 } on-error={}
 :do { add list=VI address=2001:470:36:7f0::/64 } on-error={}
 :do { add list=VI address=2001:470:1828::/48 } on-error={}
+:do { add list=VI address=2001:470:1f1d:34::/64 } on-error={}
 :do { add list=VI address=2001:470:e33e::/48 } on-error={}
 :do { add list=VI address=2001:470:e95c::/48 } on-error={}
 :do { add list=VI address=2001:470:efe3::/48 } on-error={}
@@ -41,6 +43,7 @@
 :do { add list=VI address=2605:ef80:14::/48 } on-error={}
 :do { add list=VI address=2605:ef80:24::/48 } on-error={}
 :do { add list=VI address=2605:ef80:34::/48 } on-error={}
+:do { add list=VI address=2606:40:ea0::/43 } on-error={}
 :do { add list=VI address=2606:40:205f::/51 } on-error={}
 :do { add list=VI address=2606:40:214c:e000::/51 } on-error={}
 :do { add list=VI address=2606:54c0:d2f0::/44 } on-error={}
@@ -115,7 +118,6 @@
 :do { add list=VI address=2a06:9f81:43e8::/46 } on-error={}
 :do { add list=VI address=2a06:9f81:43ec::/47 } on-error={}
 :do { add list=VI address=2a06:9f81:43ee::/48 } on-error={}
-:do { add list=VI address=2a06:9f81:43ef:2100::/56 } on-error={}
 :do { add list=VI address=2a06:9f81:43ef:d900::/56 } on-error={}
 :do { add list=VI address=2a06:9f81:43ef:dd00::/56 } on-error={}
 :do { add list=VI address=2a06:9f81:43ef:e900::/56 } on-error={}
@@ -178,6 +180,7 @@
 :do { add list=VI address=2a14:2d45:ee00::/40 } on-error={}
 :do { add list=VI address=2a14:67c1:b6ee::/48 } on-error={}
 :do { add list=VI address=2a14:67c2:83e::/48 } on-error={}
+:do { add list=VI address=2a14:7580:cfef::/48 } on-error={}
 :do { add list=VI address=2a14:7581:b10:f100::/56 } on-error={}
 :do { add list=VI address=2a14:7581:b11:f100::/56 } on-error={}
 :do { add list=VI address=2a14:7581:b12:f100::/56 } on-error={}

@@ -4,6 +4,7 @@
 :do { add list=AD address=2001:470:1860::/48 } on-error={}
 :do { add list=AD address=2001:470:1870::/48 } on-error={}
 :do { add list=AD address=2001:470:1f05:2ba::/64 } on-error={}
+:do { add list=AD address=2001:470:1f15:907::/64 } on-error={}
 :do { add list=AD address=2001:470:1f1d:e4::/64 } on-error={}
 :do { add list=AD address=2001:470:1f27:26f::/64 } on-error={}
 :do { add list=AD address=2001:470:1f2f:3b::/64 } on-error={}
@@ -17,6 +18,7 @@
 :do { add list=AD address=2001:470:5cd1::/48 } on-error={}
 :do { add list=AD address=2001:470:689b::/48 } on-error={}
 :do { add list=AD address=2001:470:70d0::/48 } on-error={}
+:do { add list=AD address=2001:470:7647::/48 } on-error={}
 :do { add list=AD address=2001:470:79f4::/48 } on-error={}
 :do { add list=AD address=2001:470:80c0::/48 } on-error={}
 :do { add list=AD address=2001:470:b6e9::/48 } on-error={}
@@ -32,7 +34,6 @@
 :do { add list=AD address=2001:470:ffd6::/48 } on-error={}
 :do { add list=AD address=2001:3786:5005:300::/56 } on-error={}
 :do { add list=AD address=2001:3786:6969:600::/56 } on-error={}
-:do { add list=AD address=2401:2060:b000::/47 } on-error={}
 :do { add list=AD address=2405:b500:180::/64 } on-error={}
 :do { add list=AD address=2405:b500:1a0::/64 } on-error={}
 :do { add list=AD address=2405:b500:1c0::/64 } on-error={}
@@ -41,8 +42,12 @@
 :do { add list=AD address=2600:70ff:a997::/48 } on-error={}
 :do { add list=AD address=2600:70ff:aae3::/48 } on-error={}
 :do { add list=AD address=2600:70ff:ab15::/48 } on-error={}
+:do { add list=AD address=2600:70ff:b3c8::/48 } on-error={}
 :do { add list=AD address=2600:70ff:b982::/48 } on-error={}
 :do { add list=AD address=2602:814:fc00::/46 } on-error={}
+:do { add list=AD address=2606:40:610::/44 } on-error={}
+:do { add list=AD address=2606:40:620::/46 } on-error={}
+:do { add list=AD address=2606:40:678::/45 } on-error={}
 :do { add list=AD address=2606:40:720::/44 } on-error={}
 :do { add list=AD address=2606:40:8d0::/45 } on-error={}
 :do { add list=AD address=2606:40:94c::/46 } on-error={}
@@ -108,7 +113,6 @@
 :do { add list=AD address=2a04:4e41:22::/64 } on-error={}
 :do { add list=AD address=2a04:4e41:22:1000::/56 } on-error={}
 :do { add list=AD address=2a04:4e41:5c:8000::/55 } on-error={}
-:do { add list=AD address=2a04:4e41:80:3700::/56 } on-error={}
 :do { add list=AD address=2a04:4e41:1304::/48 } on-error={}
 :do { add list=AD address=2a04:4e41:1604::/48 } on-error={}
 :do { add list=AD address=2a04:4e41:4010::/52 } on-error={}
@@ -151,6 +155,7 @@
 :do { add list=AD address=2a0a:6044:f38c::/47 } on-error={}
 :do { add list=AD address=2a0a:8f40:8:4000::/50 } on-error={}
 :do { add list=AD address=2a0a:8f40:8:8000::/49 } on-error={}
+:do { add list=AD address=2a0c:9a40:8c8d::/48 } on-error={}
 :do { add list=AD address=2a0d:2684::/48 } on-error={}
 :do { add list=AD address=2a0d:3344:3f00::/40 } on-error={}
 :do { add list=AD address=2a0d:6f80:2301::/48 } on-error={}
@@ -310,6 +315,7 @@
 :do { add list=AD address=2a14:2d45::/40 } on-error={}
 :do { add list=AD address=2a14:67c2:897::/48 } on-error={}
 :do { add list=AD address=2a14:67c3:419::/48 } on-error={}
+:do { add list=AD address=2a14:7580:cf00::/48 } on-error={}
 :do { add list=AD address=2a14:7581:b10:600::/56 } on-error={}
 :do { add list=AD address=2a14:7581:b11:600::/56 } on-error={}
 :do { add list=AD address=2a14:7581:b12:600::/56 } on-error={}

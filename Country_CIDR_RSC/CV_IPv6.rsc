@@ -1,6 +1,5 @@
 /log info "Loading CV IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=CV address=2001:2035:0:2cdb::2/128 } on-error={}
 :do { add list=CV address=2001:43f8:16c0::/47 } on-error={}
 :do { add list=CV address=2001:43fc:1000::/48 } on-error={}
 :do { add list=CV address=2001:43fd:5000::/48 } on-error={}
@@ -66,7 +65,6 @@
 :do { add list=CV address=2a04:4e41:11:1800::/56 } on-error={}
 :do { add list=CV address=2a04:4e41:22:5::/64 } on-error={}
 :do { add list=CV address=2a04:4e41:22:1500::/56 } on-error={}
-:do { add list=CV address=2a04:4e41:80:5000::/56 } on-error={}
 :do { add list=CV address=2a04:4e41:130c::/48 } on-error={}
 :do { add list=CV address=2a04:4e41:160d::/48 } on-error={}
 :do { add list=CV address=2a04:4e41:4013:3000::/52 } on-error={}
@@ -150,6 +148,7 @@
 :do { add list=CV address=2a10:24c0:4936::/48 } on-error={}
 :do { add list=CV address=2a10:24c0:6818::/47 } on-error={}
 :do { add list=CV address=2a10:24c0:681a::/48 } on-error={}
+:do { add list=CV address=2a10:fa81:1833::/48 } on-error={}
 :do { add list=CV address=2a11:29c0:3d88:3d98::/64 } on-error={}
 :do { add list=CV address=2a11:29c0:3d88:3e82::/64 } on-error={}
 :do { add list=CV address=2a11:29c0:3d88:4ea2::/64 } on-error={}
@@ -182,6 +181,7 @@
 :do { add list=CV address=2a14:1c0:2000::/37 } on-error={}
 :do { add list=CV address=2a14:2d45:3300::/40 } on-error={}
 :do { add list=CV address=2a14:67c2:877::/48 } on-error={}
+:do { add list=CV address=2a14:7580:cf33::/48 } on-error={}
 :do { add list=CV address=2a14:7581:b10:2600::/56 } on-error={}
 :do { add list=CV address=2a14:7581:b11:2600::/56 } on-error={}
 :do { add list=CV address=2a14:7581:b12:2600::/56 } on-error={}

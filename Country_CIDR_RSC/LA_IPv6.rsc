@@ -1,6 +1,7 @@
 /log info "Loading LA IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=LA address=2001:470:19:6ec::/64 } on-error={}
+:do { add list=LA address=2001:470:36:39b::/64 } on-error={}
 :do { add list=LA address=2001:470:691c::/48 } on-error={}
 :do { add list=LA address=2001:470:7599::/48 } on-error={}
 :do { add list=LA address=2001:470:75ac::/48 } on-error={}
@@ -29,13 +30,18 @@
 :do { add list=LA address=2400:aa00:f0::/45 } on-error={}
 :do { add list=LA address=2400:aa00:f8::/46 } on-error={}
 :do { add list=LA address=2400:aa00:fc::/47 } on-error={}
-:do { add list=LA address=2400:aa00:fe::/57 } on-error={}
+:do { add list=LA address=2400:aa00:fe::/60 } on-error={}
+:do { add list=LA address=2400:aa00:fe:18::/61 } on-error={}
+:do { add list=LA address=2400:aa00:fe:28::/61 } on-error={}
+:do { add list=LA address=2400:aa00:fe:30::/61 } on-error={}
+:do { add list=LA address=2400:aa00:fe:3c::/62 } on-error={}
+:do { add list=LA address=2400:aa00:fe:40::/58 } on-error={}
 :do { add list=LA address=2400:aa00:fe:80::/60 } on-error={}
 :do { add list=LA address=2400:aa00:fe:90::/61 } on-error={}
-:do { add list=LA address=2400:aa00:fe:9e::/63 } on-error={}
-:do { add list=LA address=2400:aa00:fe:a0::/60 } on-error={}
-:do { add list=LA address=2400:aa00:fe:b0::/62 } on-error={}
-:do { add list=LA address=2400:aa00:fe:b8::/61 } on-error={}
+:do { add list=LA address=2400:aa00:fe:a0::/61 } on-error={}
+:do { add list=LA address=2400:aa00:fe:ac::/62 } on-error={}
+:do { add list=LA address=2400:aa00:fe:ba::/63 } on-error={}
+:do { add list=LA address=2400:aa00:fe:bc::/62 } on-error={}
 :do { add list=LA address=2400:aa00:fe:c0::/58 } on-error={}
 :do { add list=LA address=2400:aa00:fe:100::/56 } on-error={}
 :do { add list=LA address=2400:aa00:fe:200::/55 } on-error={}
@@ -92,7 +98,8 @@
 :do { add list=LA address=240d:c010:169:1::/64 } on-error={}
 :do { add list=LA address=2600:70ff:aa4f::/48 } on-error={}
 :do { add list=LA address=2600:70ff:aac9::/48 } on-error={}
-:do { add list=LA address=2600:70ff:ac33::/48 } on-error={}
+:do { add list=LA address=2600:70ff:ac33:4000::/50 } on-error={}
+:do { add list=LA address=2600:70ff:ac33:8000::/49 } on-error={}
 :do { add list=LA address=2602:814:fdf4::/46 } on-error={}
 :do { add list=LA address=2602:f805:384::/48 } on-error={}
 :do { add list=LA address=2605:7a80:6702::/47 } on-error={}
@@ -102,6 +109,17 @@
 :do { add list=LA address=2606:8e00:5000::/47 } on-error={}
 :do { add list=LA address=2606:9606:5000::/47 } on-error={}
 :do { add list=LA address=2606:9607:5000::/47 } on-error={}
+:do { add list=LA address=2607:740:74::/52 } on-error={}
+:do { add list=LA address=2607:740:74:100a::/63 } on-error={}
+:do { add list=LA address=2607:740:74:100c::/63 } on-error={}
+:do { add list=LA address=2607:740:74:1010::/60 } on-error={}
+:do { add list=LA address=2607:740:74:1020::/59 } on-error={}
+:do { add list=LA address=2607:740:74:1040::/58 } on-error={}
+:do { add list=LA address=2607:740:74:1080::/57 } on-error={}
+:do { add list=LA address=2607:740:74:1100::/56 } on-error={}
+:do { add list=LA address=2607:740:74:1200::/55 } on-error={}
+:do { add list=LA address=2607:740:74:1400::/54 } on-error={}
+:do { add list=LA address=2607:740:74:1800::/53 } on-error={}
 :do { add list=LA address=2607:740:74:4000::/50 } on-error={}
 :do { add list=LA address=2607:740:74:8000::/49 } on-error={}
 :do { add list=LA address=2607:6b80:38:4000::/50 } on-error={}
@@ -141,7 +159,6 @@
 :do { add list=LA address=2a04:4e41:12:1f00::/56 } on-error={}
 :do { add list=LA address=2a04:4e41:27:d::/64 } on-error={}
 :do { add list=LA address=2a04:4e41:27:1800::/56 } on-error={}
-:do { add list=LA address=2a04:4e41:80:9000::/56 } on-error={}
 :do { add list=LA address=2a04:4e41:12a9::/48 } on-error={}
 :do { add list=LA address=2a04:4e41:4017:d000::/52 } on-error={}
 :do { add list=LA address=2a04:4e41:4027:d000::/52 } on-error={}
@@ -197,6 +214,7 @@
 :do { add list=LA address=2a10:24c0:c26::/48 } on-error={}
 :do { add list=LA address=2a10:24c0:3254::/47 } on-error={}
 :do { add list=LA address=2a10:24c0:3256::/48 } on-error={}
+:do { add list=LA address=2a10:fa81:187d::/48 } on-error={}
 :do { add list=LA address=2a11:29c0:3d88:19a4::/64 } on-error={}
 :do { add list=LA address=2a11:29c0:3d88:1ab8::/64 } on-error={}
 :do { add list=LA address=2a11:29c0:3d88:54c3::/64 } on-error={}
@@ -235,6 +253,7 @@
 :do { add list=LA address=2a14:2d45:7d00::/40 } on-error={}
 :do { add list=LA address=2a14:67c1:b67c::/48 } on-error={}
 :do { add list=LA address=2a14:67c2:898::/48 } on-error={}
+:do { add list=LA address=2a14:7580:cf7d::/48 } on-error={}
 :do { add list=LA address=2a14:7581:b10:7800::/56 } on-error={}
 :do { add list=LA address=2a14:7581:b11:7800::/56 } on-error={}
 :do { add list=LA address=2a14:7581:b12:7800::/56 } on-error={}

@@ -259,11 +259,6 @@
 :do { add list=FM address=2407:4800:8000::/33 } on-error={}
 :do { add list=FM address=2407:5c40::/32 } on-error={}
 :do { add list=FM address=2602:814:fd20::/46 } on-error={}
-:do { add list=FM address=2606:40:af8:4000::/50 } on-error={}
-:do { add list=FM address=2606:40:af8:8000::/49 } on-error={}
-:do { add list=FM address=2606:40:af9::/48 } on-error={}
-:do { add list=FM address=2606:40:afa::/47 } on-error={}
-:do { add list=FM address=2606:40:afc::/46 } on-error={}
 :do { add list=FM address=2606:40:201c:c000::/51 } on-error={}
 :do { add list=FM address=2606:40:2113::/51 } on-error={}
 :do { add list=FM address=2606:54c0:3188::/45 } on-error={}
@@ -334,7 +329,6 @@
 :do { add list=FM address=2a04:4e41:27:1300::/56 } on-error={}
 :do { add list=FM address=2a04:4e41:59:4::/64 } on-error={}
 :do { add list=FM address=2a04:4e41:59:1400::/56 } on-error={}
-:do { add list=FM address=2a04:4e41:80:a300::/56 } on-error={}
 :do { add list=FM address=2a04:4e41:12a4::/48 } on-error={}
 :do { add list=FM address=2a04:4e41:260b::/48 } on-error={}
 :do { add list=FM address=2a04:4e41:4014:8000::/52 } on-error={}
@@ -387,6 +381,7 @@
 :do { add list=FM address=2a0f:a303:9800::/37 } on-error={}
 :do { add list=FM address=2a10:24c0:4441::/48 } on-error={}
 :do { add list=FM address=2a10:24c0:63c1::/48 } on-error={}
+:do { add list=FM address=2a10:fa81:1848::/48 } on-error={}
 :do { add list=FM address=2a11:29c0:3d88:2e56::/64 } on-error={}
 :do { add list=FM address=2a11:29c0:3d88:2e59::/64 } on-error={}
 :do { add list=FM address=2a11:29c0:3d88:2e5c::/64 } on-error={}
@@ -426,6 +421,7 @@
 :do { add list=FM address=2a14:1c0:c800::/37 } on-error={}
 :do { add list=FM address=2a14:2d45:4800::/40 } on-error={}
 :do { add list=FM address=2a14:67c2:817::/48 } on-error={}
+:do { add list=FM address=2a14:7580:cf48::/48 } on-error={}
 :do { add list=FM address=2a14:7581:b10:a700::/56 } on-error={}
 :do { add list=FM address=2a14:7581:b11:a700::/56 } on-error={}
 :do { add list=FM address=2a14:7581:b12:a700::/56 } on-error={}

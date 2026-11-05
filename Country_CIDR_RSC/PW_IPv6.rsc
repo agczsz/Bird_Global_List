@@ -1,6 +1,7 @@
 /log info "Loading PW IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=PW address=2401:6e0::/32 } on-error={}
+:do { add list=PW address=2402:4480:2:8::2/128 } on-error={}
 :do { add list=PW address=2404:7800::/32 } on-error={}
 :do { add list=PW address=2405:b500:5e80::/64 } on-error={}
 :do { add list=PW address=2405:b500:5ea0::/64 } on-error={}
@@ -51,7 +52,6 @@
 :do { add list=PW address=2a04:4e41:e:1b00::/56 } on-error={}
 :do { add list=PW address=2a04:4e41:f:3e::/64 } on-error={}
 :do { add list=PW address=2a04:4e41:f:2e00::/56 } on-error={}
-:do { add list=PW address=2a04:4e41:80:b700::/56 } on-error={}
 :do { add list=PW address=2a04:4e41:401b:8000::/52 } on-error={}
 :do { add list=PW address=2a04:4e41:402b:8000::/52 } on-error={}
 :do { add list=PW address=2a04:4e41:403b:8000::/52 } on-error={}
@@ -147,6 +147,7 @@
 :do { add list=PW address=2a14:2d45:b700::/40 } on-error={}
 :do { add list=PW address=2a14:67c1:b6b7::/48 } on-error={}
 :do { add list=PW address=2a14:67c2:8fd::/48 } on-error={}
+:do { add list=PW address=2a14:7580:cfb8::/48 } on-error={}
 :do { add list=PW address=2a14:7581:b10:a900::/56 } on-error={}
 :do { add list=PW address=2a14:7581:b11:a900::/56 } on-error={}
 :do { add list=PW address=2a14:7581:b12:a900::/56 } on-error={}

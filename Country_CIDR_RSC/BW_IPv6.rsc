@@ -1,13 +1,14 @@
 /log info "Loading BW IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=BW address=2001:4328::/61 } on-error={}
-:do { add list=BW address=2001:4328:0:8::/62 } on-error={}
-:do { add list=BW address=2001:4328:0:c::/64 } on-error={}
-:do { add list=BW address=2001:4328:0:e::/63 } on-error={}
-:do { add list=BW address=2001:4328:0:10::/60 } on-error={}
-:do { add list=BW address=2001:4328:0:20::/62 } on-error={}
-:do { add list=BW address=2001:4328:0:24::/63 } on-error={}
-:do { add list=BW address=2001:4328:0:26::2/128 } on-error={}
+:do { add list=BW address=2001:4328:0:8::/63 } on-error={}
+:do { add list=BW address=2001:4328:0:a::/64 } on-error={}
+:do { add list=BW address=2001:4328:0:c::/62 } on-error={}
+:do { add list=BW address=2001:4328:0:10::/62 } on-error={}
+:do { add list=BW address=2001:4328:0:14::/63 } on-error={}
+:do { add list=BW address=2001:4328:0:17::/64 } on-error={}
+:do { add list=BW address=2001:4328:0:18::/61 } on-error={}
+:do { add list=BW address=2001:4328:0:20::/61 } on-error={}
 :do { add list=BW address=2001:4328:0:29::/64 } on-error={}
 :do { add list=BW address=2001:43f8:2a0::/48 } on-error={}
 :do { add list=BW address=2001:43f8:17c0::/48 } on-error={}
@@ -72,7 +73,6 @@
 :do { add list=BW address=2a04:4e41:11:1300::/56 } on-error={}
 :do { add list=BW address=2a04:4e41:32:2::/64 } on-error={}
 :do { add list=BW address=2a04:4e41:32:1200::/56 } on-error={}
-:do { add list=BW address=2a04:4e41:80:4a00::/56 } on-error={}
 :do { add list=BW address=2a04:4e41:1e5::/48 } on-error={}
 :do { add list=BW address=2a04:4e41:12c3::/48 } on-error={}
 :do { add list=BW address=2a04:4e41:1307::/48 } on-error={}
@@ -123,6 +123,7 @@
 :do { add list=BW address=2a10:24c0:4566::/48 } on-error={}
 :do { add list=BW address=2a10:24c0:6620::/47 } on-error={}
 :do { add list=BW address=2a10:24c0:6622::/48 } on-error={}
+:do { add list=BW address=2a10:fa81:1822::/48 } on-error={}
 :do { add list=BW address=2a11:29c0:3d88:511::/64 } on-error={}
 :do { add list=BW address=2a11:29c0:3d88:1cbd::/64 } on-error={}
 :do { add list=BW address=2a11:29c0:3d88:1e6f::/64 } on-error={}
@@ -187,6 +188,7 @@
 :do { add list=BW address=2a14:1c5:9800::/37 } on-error={}
 :do { add list=BW address=2a14:2d45:2200::/40 } on-error={}
 :do { add list=BW address=2a14:67c2:81f::/48 } on-error={}
+:do { add list=BW address=2a14:7580:cf22::/48 } on-error={}
 :do { add list=BW address=2a14:7581:b10:1700::/56 } on-error={}
 :do { add list=BW address=2a14:7581:b11:1700::/56 } on-error={}
 :do { add list=BW address=2a14:7581:b12:1700::/56 } on-error={}
@@ -230,7 +232,6 @@
 :do { add list=BW address=2c0f:f718:4000::/34 } on-error={}
 :do { add list=BW address=2c0f:f718:8000::/33 } on-error={}
 :do { add list=BW address=2c0f:f728::/32 } on-error={}
-:do { add list=BW address=2c0f:f980:a000::/36 } on-error={}
 :do { add list=BW address=2c0f:f9c0::/32 } on-error={}
 :do { add list=BW address=2c0f:fac8::/32 } on-error={}
 :do { add list=BW address=2c0f:ff00::/32 } on-error={}

@@ -1,5 +1,6 @@
 /log info "Loading VU IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=VU address=2001:de9:2000::/48 } on-error={}
 :do { add list=VU address=2001:dec::/48 } on-error={}
 :do { add list=VU address=2001:df0:410::/48 } on-error={}
 :do { add list=VU address=2001:df2:a700:4000::/50 } on-error={}
@@ -136,6 +137,9 @@
 :do { add list=VU address=2406:2d40:7540::/42 } on-error={}
 :do { add list=VU address=2406:2d40:a900::/40 } on-error={}
 :do { add list=VU address=2602:814:ffc4::/46 } on-error={}
+:do { add list=VU address=2606:40:664::/46 } on-error={}
+:do { add list=VU address=2606:40:690::/45 } on-error={}
+:do { add list=VU address=2606:40:698::/46 } on-error={}
 :do { add list=VU address=2606:40:ae8::/45 } on-error={}
 :do { add list=VU address=2606:40:af0::/45 } on-error={}
 :do { add list=VU address=2606:40:217f:c000::/51 } on-error={}
@@ -185,7 +189,6 @@
 :do { add list=VU address=2a04:4e41:41:2::/64 } on-error={}
 :do { add list=VU address=2a04:4e41:41:1200::/56 } on-error={}
 :do { add list=VU address=2a04:4e41:4a:2::/64 } on-error={}
-:do { add list=VU address=2a04:4e41:80:ed00::/56 } on-error={}
 :do { add list=VU address=2a04:4e41:303::/48 } on-error={}
 :do { add list=VU address=2a04:4e41:401f:1000::/52 } on-error={}
 :do { add list=VU address=2a04:4e41:402f:1000::/52 } on-error={}
@@ -255,7 +258,6 @@
 :do { add list=VU address=2a07:d885:4000::/34 } on-error={}
 :do { add list=VU address=2a07:d885:8000::/33 } on-error={}
 :do { add list=VU address=2a07:d886::/32 } on-error={}
-:do { add list=VU address=2a07:d887:2100::/40 } on-error={}
 :do { add list=VU address=2a07:d887:f000::/40 } on-error={}
 :do { add list=VU address=2a07:d887:f800::/37 } on-error={}
 :do { add list=VU address=2a09:bac1:7b00::/64 } on-error={}
@@ -289,6 +291,7 @@
 :do { add list=VU address=2a0f:a303:6800::/37 } on-error={}
 :do { add list=VU address=2a10:24c0:82bd::/48 } on-error={}
 :do { add list=VU address=2a10:24c0:a585::/48 } on-error={}
+:do { add list=VU address=2a10:fa81:18f1::/48 } on-error={}
 :do { add list=VU address=2a11:29c0:3d88:208c::/64 } on-error={}
 :do { add list=VU address=2a11:29c0:3d88:4f0e::/64 } on-error={}
 :do { add list=VU address=2a11:29c0:3d88:75d2::/64 } on-error={}
@@ -316,6 +319,7 @@
 :do { add list=VU address=2a14:2d45:f000::/40 } on-error={}
 :do { add list=VU address=2a14:67c1:b6f0::/48 } on-error={}
 :do { add list=VU address=2a14:67c2:8c0::/48 } on-error={}
+:do { add list=VU address=2a14:7580:cff1::/48 } on-error={}
 :do { add list=VU address=2a14:7580:e4a1::/48 } on-error={}
 :do { add list=VU address=2a14:7581:b10:9d00::/56 } on-error={}
 :do { add list=VU address=2a14:7581:b11:9d00::/56 } on-error={}

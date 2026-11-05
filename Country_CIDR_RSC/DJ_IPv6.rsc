@@ -17,6 +17,7 @@
 :do { add list=DJ address=2605:59c8:5800::/38 } on-error={}
 :do { add list=DJ address=2606:40:a48::/45 } on-error={}
 :do { add list=DJ address=2606:40:a50::/45 } on-error={}
+:do { add list=DJ address=2606:40:12d0::/44 } on-error={}
 :do { add list=DJ address=2606:40:2200:6000::/54 } on-error={}
 :do { add list=DJ address=2606:40:2200:6800::/53 } on-error={}
 :do { add list=DJ address=2606:40:230e::/54 } on-error={}
@@ -69,7 +70,6 @@
 :do { add list=DJ address=2a04:4e41:65:1a00::/56 } on-error={}
 :do { add list=DJ address=2a04:4e41:66:29::/64 } on-error={}
 :do { add list=DJ address=2a04:4e41:66:1e00::/56 } on-error={}
-:do { add list=DJ address=2a04:4e41:80:6200::/56 } on-error={}
 :do { add list=DJ address=2a04:4e41:140f::/48 } on-error={}
 :do { add list=DJ address=2a04:4e41:1814::/48 } on-error={}
 :do { add list=DJ address=2a04:4e41:4013:9000::/52 } on-error={}
@@ -121,6 +121,7 @@
 :do { add list=DJ address=2a10:24c0:786::/48 } on-error={}
 :do { add list=DJ address=2a10:24c0:2b7c::/47 } on-error={}
 :do { add list=DJ address=2a10:24c0:2b7e::/48 } on-error={}
+:do { add list=DJ address=2a10:fa81:1839::/48 } on-error={}
 :do { add list=DJ address=2a11:29c0:3d88:251f::/64 } on-error={}
 :do { add list=DJ address=2a11:29c0:3d88:2c7b::/64 } on-error={}
 :do { add list=DJ address=2a11:29c0:3d88:352a::/64 } on-error={}
@@ -153,6 +154,7 @@
 :do { add list=DJ address=2a13:ef45:29fc::/47 } on-error={}
 :do { add list=DJ address=2a14:2d45:3900::/40 } on-error={}
 :do { add list=DJ address=2a14:67c2:8a1::/48 } on-error={}
+:do { add list=DJ address=2a14:7580:cf39::/48 } on-error={}
 :do { add list=DJ address=2a14:7581:b10:4f00::/56 } on-error={}
 :do { add list=DJ address=2a14:7581:b11:4f00::/56 } on-error={}
 :do { add list=DJ address=2a14:7581:b12:4f00::/56 } on-error={}
