@@ -107,7 +107,9 @@
 :do { add list=CV address=2a0d:2587:7f60::/43 } on-error={}
 :do { add list=CV address=2a0d:2587:7f80::/47 } on-error={}
 :do { add list=CV address=2a0d:2587:7f83::/48 } on-error={}
-:do { add list=CV address=2a0d:2587:7f84::/46 } on-error={}
+:do { add list=CV address=2a0d:2587:7f84::/48 } on-error={}
+:do { add list=CV address=2a0d:2587:7f85::/48 } on-error={}
+:do { add list=CV address=2a0d:2587:7f86::/47 } on-error={}
 :do { add list=CV address=2a0d:2587:7f88::/45 } on-error={}
 :do { add list=CV address=2a0d:2587:7f90::/45 } on-error={}
 :do { add list=CV address=2a0d:2587:7f98::/46 } on-error={}

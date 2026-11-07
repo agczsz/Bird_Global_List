@@ -35,6 +35,7 @@
 :do { add list=LS address=2607:8940:4191:6d00::/56 } on-error={}
 :do { add list=LS address=2607:8940:4191:6e00::/56 } on-error={}
 :do { add list=LS address=2a00:ca0:2002:a000::/52 } on-error={}
+:do { add list=LS address=2a02:26f0:2000::/48 } on-error={}
 :do { add list=LS address=2a02:26f7:d580::/48 } on-error={}
 :do { add list=LS address=2a02:26f7:d581::/48 } on-error={}
 :do { add list=LS address=2a02:26f7:d582::/47 } on-error={}

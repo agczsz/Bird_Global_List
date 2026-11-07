@@ -1,6 +1,5 @@
 /log info "Loading TT IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=TT address=2001:3786:5006:300::/56 } on-error={}
 :do { add list=TT address=2400:cb00:936::/48 } on-error={}
 :do { add list=TT address=2400:cb00:1266::/48 } on-error={}
 :do { add list=TT address=2400:cb00:1280::/48 } on-error={}

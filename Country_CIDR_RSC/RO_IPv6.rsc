@@ -53,7 +53,6 @@
 :do { add list=RO address=2001:470:1f15:2e3::/64 } on-error={}
 :do { add list=RO address=2001:470:1f15:4bd::/64 } on-error={}
 :do { add list=RO address=2001:470:1f15:503::/64 } on-error={}
-:do { add list=RO address=2001:470:1f15:665::/64 } on-error={}
 :do { add list=RO address=2001:470:1f15:1295::/64 } on-error={}
 :do { add list=RO address=2001:470:1f17:396::/64 } on-error={}
 :do { add list=RO address=2001:470:1f1b:e::/64 } on-error={}
@@ -150,6 +149,7 @@
 :do { add list=RO address=2001:470:714d:8000::/49 } on-error={}
 :do { add list=RO address=2001:470:72cf::/48 } on-error={}
 :do { add list=RO address=2001:470:73c8::/48 } on-error={}
+:do { add list=RO address=2001:470:74d7::/48 } on-error={}
 :do { add list=RO address=2001:470:7763::/48 } on-error={}
 :do { add list=RO address=2001:470:77ea::/48 } on-error={}
 :do { add list=RO address=2001:470:785c::/48 } on-error={}
@@ -659,8 +659,6 @@
 :do { add list=RO address=2001:978:4:0:2000::/67 } on-error={}
 :do { add list=RO address=2001:978:4:0:4000::/66 } on-error={}
 :do { add list=RO address=2001:978:4:0:8000::/65 } on-error={}
-:do { add list=RO address=2001:978:3400:4000::/50 } on-error={}
-:do { add list=RO address=2001:978:3400:8000::/49 } on-error={}
 :do { add list=RO address=2001:978:3401::/48 } on-error={}
 :do { add list=RO address=2001:978:3402::/50 } on-error={}
 :do { add list=RO address=2001:ac8:6::/48 } on-error={}
@@ -2144,7 +2142,6 @@
 :do { add list=RO address=2a00:aa80::/32 } on-error={}
 :do { add list=RO address=2a00:d1a0::/45 } on-error={}
 :do { add list=RO address=2a00:d1a0:8::/48 } on-error={}
-:do { add list=RO address=2a00:d1a0:b::/48 } on-error={}
 :do { add list=RO address=2a00:dd80:10::/48 } on-error={}
 :do { add list=RO address=2a00:ece0::/32 } on-error={}
 :do { add list=RO address=2a00:ece1::/48 } on-error={}
@@ -6499,6 +6496,7 @@
 :do { add list=RO address=2a0b:2f07:c000::/34 } on-error={}
 :do { add list=RO address=2a0b:4480::/29 } on-error={}
 :do { add list=RO address=2a0b:4e07:28::/48 } on-error={}
+:do { add list=RO address=2a0b:4e07:2f::/48 } on-error={}
 :do { add list=RO address=2a0b:4e07:94::/46 } on-error={}
 :do { add list=RO address=2a0b:4e07:c1::/48 } on-error={}
 :do { add list=RO address=2a0b:4e07:c3::/48 } on-error={}
@@ -7327,7 +7325,9 @@
 :do { add list=RO address=2a10:fa80:400::/38 } on-error={}
 :do { add list=RO address=2a10:fa80:800::/37 } on-error={}
 :do { add list=RO address=2a10:fa80:3000::/36 } on-error={}
-:do { add list=RO address=2a10:fa80:c000::/34 } on-error={}
+:do { add list=RO address=2a10:fa80:c000::/36 } on-error={}
+:do { add list=RO address=2a10:fa80:d000::/36 } on-error={}
+:do { add list=RO address=2a10:fa80:e000::/35 } on-error={}
 :do { add list=RO address=2a10:fa81::/48 } on-error={}
 :do { add list=RO address=2a10:fa81:1::/48 } on-error={}
 :do { add list=RO address=2a10:fa81:2::/47 } on-error={}
@@ -9940,8 +9940,6 @@
 :do { add list=RO address=2a12:3200:1200::/39 } on-error={}
 :do { add list=RO address=2a12:3200:1400::/38 } on-error={}
 :do { add list=RO address=2a12:3200:1800::/37 } on-error={}
-:do { add list=RO address=2a12:3200:3000::/36 } on-error={}
-:do { add list=RO address=2a12:3200:6000::/36 } on-error={}
 :do { add list=RO address=2a12:3200:9001::/48 } on-error={}
 :do { add list=RO address=2a12:3200:9002::/47 } on-error={}
 :do { add list=RO address=2a12:3200:9004::/46 } on-error={}
@@ -10040,7 +10038,6 @@
 :do { add list=RO address=2a13:9500:1b2::/48 } on-error={}
 :do { add list=RO address=2a13:9500:1c4::/49 } on-error={}
 :do { add list=RO address=2a13:9500:1c4:8000::/50 } on-error={}
-:do { add list=RO address=2a13:9500:1fa::/48 } on-error={}
 :do { add list=RO address=2a13:9b80::/29 } on-error={}
 :do { add list=RO address=2a13:a5c3:d084::/46 } on-error={}
 :do { add list=RO address=2a13:c8c3:e802::/48 } on-error={}
@@ -10215,14 +10212,12 @@
 :do { add list=RO address=2a14:6782:200::/48 } on-error={}
 :do { add list=RO address=2a14:67c2:81c::/48 } on-error={}
 :do { add list=RO address=2a14:7580:cfbc::/48 } on-error={}
-:do { add list=RO address=2a14:7580:ff90::/46 } on-error={}
+:do { add list=RO address=2a14:7580:ff90::/48 } on-error={}
+:do { add list=RO address=2a14:7580:ff93::/48 } on-error={}
 :do { add list=RO address=2a14:7580:ff94::/47 } on-error={}
 :do { add list=RO address=2a14:7580:ff96::/48 } on-error={}
-:do { add list=RO address=2a14:7580:ff99::/48 } on-error={}
-:do { add list=RO address=2a14:7580:ff9b::/48 } on-error={}
 :do { add list=RO address=2a14:7580:ff9d::/48 } on-error={}
 :do { add list=RO address=2a14:7580:ff9e::/48 } on-error={}
-:do { add list=RO address=2a14:7580:ff9f::/48 } on-error={}
 :do { add list=RO address=2a14:7580:ffeb::/48 } on-error={}
 :do { add list=RO address=2a14:7580:ffff:4000::/50 } on-error={}
 :do { add list=RO address=2a14:7580:ffff:8000::/49 } on-error={}

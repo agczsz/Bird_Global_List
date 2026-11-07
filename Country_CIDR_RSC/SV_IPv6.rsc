@@ -125,10 +125,12 @@
 :do { add list=SV address=2803:4600:1014:7a00::/56 } on-error={}
 :do { add list=SV address=2803:4600:101f:9900::/56 } on-error={}
 :do { add list=SV address=2803:4600:101f:cd00::/56 } on-error={}
+:do { add list=SV address=2803:4600:1043:e300::/56 } on-error={}
 :do { add list=SV address=2803:4600:1048:5f00::/56 } on-error={}
 :do { add list=SV address=2803:4600:1048:8100::/56 } on-error={}
 :do { add list=SV address=2803:4600:1049:b400::/56 } on-error={}
 :do { add list=SV address=2803:4600:104b:a600::/56 } on-error={}
+:do { add list=SV address=2803:4600:104b:c100::/56 } on-error={}
 :do { add list=SV address=2803:4600:1500::/64 } on-error={}
 :do { add list=SV address=2803:4730::/32 } on-error={}
 :do { add list=SV address=2803:5040::/32 } on-error={}

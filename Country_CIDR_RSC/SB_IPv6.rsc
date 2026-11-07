@@ -77,6 +77,7 @@
 :do { add list=SB address=2a06:9f81:43ef:c300::/56 } on-error={}
 :do { add list=SB address=2a06:9f81:56c0::/48 } on-error={}
 :do { add list=SB address=2a07:d887:c000::/40 } on-error={}
+:do { add list=SB address=2a09:7:1000::/36 } on-error={}
 :do { add list=SB address=2a09:bac1:6300::/64 } on-error={}
 :do { add list=SB address=2a09:bac1:6320::/64 } on-error={}
 :do { add list=SB address=2a09:bac1:6340::/64 } on-error={}
