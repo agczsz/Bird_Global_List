@@ -535,10 +535,10 @@
 :do { add list=MD address=2a0a:6044:f5c8::/46 } on-error={}
 :do { add list=MD address=2a0a:6480::/29 } on-error={}
 :do { add list=MD address=2a0a:8d80:1::/48 } on-error={}
-:do { add list=MD address=2a0a:c800:1::/61 } on-error={}
-:do { add list=MD address=2a0a:c800:1:8::/62 } on-error={}
-:do { add list=MD address=2a0a:c800:1:c::/64 } on-error={}
-:do { add list=MD address=2a0a:c800:1:e::/63 } on-error={}
+:do { add list=MD address=2a0a:c800:1::/62 } on-error={}
+:do { add list=MD address=2a0a:c800:1:5::/64 } on-error={}
+:do { add list=MD address=2a0a:c800:1:6::/63 } on-error={}
+:do { add list=MD address=2a0a:c800:1:8::/61 } on-error={}
 :do { add list=MD address=2a0a:c800:1:10::/60 } on-error={}
 :do { add list=MD address=2a0a:c800:1:20::/59 } on-error={}
 :do { add list=MD address=2a0a:c800:1:40::/58 } on-error={}

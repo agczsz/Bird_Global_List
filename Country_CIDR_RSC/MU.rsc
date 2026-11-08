@@ -320,8 +320,8 @@
 :do { add list=MU address=102.200.32.0/19 } on-error={}
 :do { add list=MU address=102.200.64.0/18 } on-error={}
 :do { add list=MU address=102.200.128.0/19 } on-error={}
-:do { add list=MU address=102.200.160.0/22 } on-error={}
-:do { add list=MU address=102.200.168.0/22 } on-error={}
+:do { add list=MU address=102.200.168.0/23 } on-error={}
+:do { add list=MU address=102.200.170.0/24 } on-error={}
 :do { add list=MU address=102.200.212.0/22 } on-error={}
 :do { add list=MU address=102.201.224.0/22 } on-error={}
 :do { add list=MU address=102.202.140.0/22 } on-error={}
@@ -342,8 +342,11 @@
 :do { add list=MU address=102.209.99.32/27 } on-error={}
 :do { add list=MU address=102.209.99.64/26 } on-error={}
 :do { add list=MU address=102.209.99.128/25 } on-error={}
+:do { add list=MU address=102.210.116.0/22 } on-error={}
 :do { add list=MU address=102.211.104.0/24 } on-error={}
 :do { add list=MU address=102.211.148.0/22 } on-error={}
+:do { add list=MU address=102.212.80.0/24 } on-error={}
+:do { add list=MU address=102.212.100.0/22 } on-error={}
 :do { add list=MU address=102.212.168.0/22 } on-error={}
 :do { add list=MU address=102.213.224.0/22 } on-error={}
 :do { add list=MU address=102.214.15.0/24 } on-error={}
@@ -641,7 +644,7 @@
 :do { add list=MU address=165.90.128.0/18 } on-error={}
 :do { add list=MU address=167.1.166.4/32 } on-error={}
 :do { add list=MU address=169.239.52.0/22 } on-error={}
-:do { add list=MU address=169.239.56.0/22 } on-error={}
+:do { add list=MU address=169.239.56.0/21 } on-error={}
 :do { add list=MU address=169.239.88.0/22 } on-error={}
 :do { add list=MU address=169.239.140.0/29 } on-error={}
 :do { add list=MU address=169.239.140.8/30 } on-error={}
@@ -656,8 +659,7 @@
 :do { add list=MU address=169.239.152.0/22 } on-error={}
 :do { add list=MU address=169.239.172.0/22 } on-error={}
 :do { add list=MU address=169.239.252.0/22 } on-error={}
-:do { add list=MU address=169.255.8.0/24 } on-error={}
-:do { add list=MU address=169.255.10.0/23 } on-error={}
+:do { add list=MU address=169.255.8.0/22 } on-error={}
 :do { add list=MU address=169.255.92.0/22 } on-error={}
 :do { add list=MU address=169.255.96.0/21 } on-error={}
 :do { add list=MU address=169.255.108.0/22 } on-error={}

@@ -69,7 +69,7 @@
 :do { add list=AS address=172.225.244.0/28 } on-error={}
 :do { add list=AS address=172.226.77.64/27 } on-error={}
 :do { add list=AS address=198.52.28.116/30 } on-error={}
-:do { add list=AS address=198.52.29.0/28 } on-error={}
+:do { add list=AS address=198.52.29.40/29 } on-error={}
 :do { add list=AS address=198.52.29.192/31 } on-error={}
 :do { add list=AS address=198.52.29.224/28 } on-error={}
 :do { add list=AS address=198.52.30.0/23 } on-error={}

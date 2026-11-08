@@ -107,7 +107,6 @@
 :do { add list=LI address=81.161.56.0/23 } on-error={}
 :do { add list=LI address=82.117.0.0/19 } on-error={}
 :do { add list=LI address=85.31.152.0/21 } on-error={}
-:do { add list=LI address=87.81.247.170/31 } on-error={}
 :do { add list=LI address=88.81.168.0/21 } on-error={}
 :do { add list=LI address=88.81.176.0/21 } on-error={}
 :do { add list=LI address=88.81.184.0/22 } on-error={}

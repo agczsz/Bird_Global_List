@@ -800,7 +800,6 @@
 :do { add list=AQ address=2a14:7583:e0c1:fbc0::/58 } on-error={}
 :do { add list=AQ address=2a14:7583:e0c1:fc00::/54 } on-error={}
 :do { add list=AQ address=2a14:7583:e0e0:7da::/64 } on-error={}
-:do { add list=AQ address=2a14:7583:e0e9:b5::/64 } on-error={}
 :do { add list=AQ address=2a14:7583:efe7::/48 } on-error={}
 :do { add list=AQ address=2a14:7583:f4fe::/48 } on-error={}
 :do { add list=AQ address=2a14:7583:f707::/48 } on-error={}

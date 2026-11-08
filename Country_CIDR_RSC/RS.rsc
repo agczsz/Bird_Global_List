@@ -357,7 +357,6 @@
 :do { add list=RS address=85.202.125.0/24 } on-error={}
 :do { add list=RS address=85.202.126.0/23 } on-error={}
 :do { add list=RS address=85.222.176.0/20 } on-error={}
-:do { add list=RS address=87.81.247.198/31 } on-error={}
 :do { add list=RS address=87.116.128.0/18 } on-error={}
 :do { add list=RS address=87.121.38.0/24 } on-error={}
 :do { add list=RS address=87.237.200.0/24 } on-error={}
@@ -384,6 +383,7 @@
 :do { add list=RS address=89.23.73.0/24 } on-error={}
 :do { add list=RS address=89.23.74.0/23 } on-error={}
 :do { add list=RS address=89.23.78.0/23 } on-error={}
+:do { add list=RS address=89.23.83.0/24 } on-error={}
 :do { add list=RS address=89.23.86.0/24 } on-error={}
 :do { add list=RS address=89.23.88.0/24 } on-error={}
 :do { add list=RS address=89.23.90.0/24 } on-error={}
@@ -578,7 +578,6 @@
 :do { add list=RS address=95.180.0.0/17 } on-error={}
 :do { add list=RS address=95.210.189.0/24 } on-error={}
 :do { add list=RS address=95.214.204.0/22 } on-error={}
-:do { add list=RS address=96.45.39.196/32 } on-error={}
 :do { add list=RS address=96.45.42.214/32 } on-error={}
 :do { add list=RS address=100.43.64.0/31 } on-error={}
 :do { add list=RS address=100.43.64.6/31 } on-error={}
@@ -1104,6 +1103,7 @@
 :do { add list=RS address=178.253.219.0/24 } on-error={}
 :do { add list=RS address=178.253.220.0/24 } on-error={}
 :do { add list=RS address=178.253.222.0/23 } on-error={}
+:do { add list=RS address=178.253.227.0/24 } on-error={}
 :do { add list=RS address=178.253.230.0/23 } on-error={}
 :do { add list=RS address=178.253.232.0/24 } on-error={}
 :do { add list=RS address=178.253.234.0/24 } on-error={}
@@ -1289,6 +1289,7 @@
 :do { add list=RS address=185.68.60.0/22 } on-error={}
 :do { add list=RS address=185.71.88.0/23 } on-error={}
 :do { add list=RS address=185.71.90.0/26 } on-error={}
+:do { add list=RS address=185.71.90.65/32 } on-error={}
 :do { add list=RS address=185.71.90.66/31 } on-error={}
 :do { add list=RS address=185.71.90.68/30 } on-error={}
 :do { add list=RS address=185.71.90.72/31 } on-error={}

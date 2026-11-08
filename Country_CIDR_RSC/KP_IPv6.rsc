@@ -543,6 +543,7 @@
 :do { add list=KP address=2a0d:d940:b120::/43 } on-error={}
 :do { add list=KP address=2a0d:d940:b140::/42 } on-error={}
 :do { add list=KP address=2a0d:d940:b180::/41 } on-error={}
+:do { add list=KP address=2a0e:8f01:1000:89::/64 } on-error={}
 :do { add list=KP address=2a0e:97c0:220:666::/64 } on-error={}
 :do { add list=KP address=2a0e:97c1:d2::/48 } on-error={}
 :do { add list=KP address=2a0e:aa07:e15e:4::/64 } on-error={}

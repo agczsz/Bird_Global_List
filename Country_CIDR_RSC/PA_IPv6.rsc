@@ -115,6 +115,7 @@
 :do { add list=PA address=2606:54c3:0:1a98::/64 } on-error={}
 :do { add list=PA address=2606:f4c0:2620::/44 } on-error={}
 :do { add list=PA address=2606:f4c0:b280::/44 } on-error={}
+:do { add list=PA address=2606:f4c0:c090::/44 } on-error={}
 :do { add list=PA address=2607:8940:25fe::/47 } on-error={}
 :do { add list=PA address=2607:8940:2602::/47 } on-error={}
 :do { add list=PA address=2607:8940:2606::/47 } on-error={}
@@ -680,6 +681,7 @@
 :do { add list=PA address=2a0a:6044:f828::/45 } on-error={}
 :do { add list=PA address=2a0a:6044:f830::/48 } on-error={}
 :do { add list=PA address=2a0a:8f40:2b::/48 } on-error={}
+:do { add list=PA address=2a0b:4e07:5cf9:5::/64 } on-error={}
 :do { add list=PA address=2a0d:2684:ad::/48 } on-error={}
 :do { add list=PA address=2a0d:9444:5000::/37 } on-error={}
 :do { add list=PA address=2a0e:8f01:1000:67::/64 } on-error={}

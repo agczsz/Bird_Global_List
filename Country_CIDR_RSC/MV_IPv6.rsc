@@ -139,7 +139,9 @@
 :do { add list=MV address=2404:ab80:5:2000::/51 } on-error={}
 :do { add list=MV address=2404:ab80:5:4000::/50 } on-error={}
 :do { add list=MV address=2404:ab80:5:8000::/49 } on-error={}
-:do { add list=MV address=2404:ab80:6::/47 } on-error={}
+:do { add list=MV address=2404:ab80:6::/48 } on-error={}
+:do { add list=MV address=2404:ab80:7:4000::/50 } on-error={}
+:do { add list=MV address=2404:ab80:7:8000::/49 } on-error={}
 :do { add list=MV address=2404:ab80:8::/45 } on-error={}
 :do { add list=MV address=2404:ab80:10::/47 } on-error={}
 :do { add list=MV address=2404:ab80:12::/47 } on-error={}

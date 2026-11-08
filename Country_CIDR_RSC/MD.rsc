@@ -176,9 +176,7 @@
 :do { add list=MD address=86.107.167.0/24 } on-error={}
 :do { add list=MD address=87.76.181.0/24 } on-error={}
 :do { add list=MD address=87.76.200.0/24 } on-error={}
-:do { add list=MD address=87.81.247.180/31 } on-error={}
 :do { add list=MD address=87.245.224.129/32 } on-error={}
-:do { add list=MD address=87.245.225.129/32 } on-error={}
 :do { add list=MD address=87.245.233.161/32 } on-error={}
 :do { add list=MD address=87.245.233.207/32 } on-error={}
 :do { add list=MD address=87.245.234.15/32 } on-error={}

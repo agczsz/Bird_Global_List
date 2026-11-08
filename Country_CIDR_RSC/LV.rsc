@@ -599,7 +599,6 @@
 :do { add list=LV address=86.63.160.0/19 } on-error={}
 :do { add list=LV address=87.76.141.0/24 } on-error={}
 :do { add list=LV address=87.76.168.0/24 } on-error={}
-:do { add list=LV address=87.81.247.176/31 } on-error={}
 :do { add list=LV address=87.99.64.0/22 } on-error={}
 :do { add list=LV address=87.99.68.0/23 } on-error={}
 :do { add list=LV address=87.99.70.0/24 } on-error={}
@@ -1335,6 +1334,7 @@
 :do { add list=LV address=185.28.47.0/24 } on-error={}
 :do { add list=LV address=185.28.121.0/24 } on-error={}
 :do { add list=LV address=185.31.44.0/22 } on-error={}
+:do { add list=LV address=185.37.0.0/23 } on-error={}
 :do { add list=LV address=185.37.100.0/24 } on-error={}
 :do { add list=LV address=185.38.56.0/22 } on-error={}
 :do { add list=LV address=185.47.8.0/24 } on-error={}
@@ -1387,6 +1387,7 @@
 :do { add list=LV address=185.92.183.0/24 } on-error={}
 :do { add list=LV address=185.97.79.0/24 } on-error={}
 :do { add list=LV address=185.98.62.0/24 } on-error={}
+:do { add list=LV address=185.101.144.0/23 } on-error={}
 :do { add list=LV address=185.104.148.0/24 } on-error={}
 :do { add list=LV address=185.105.47.0/24 } on-error={}
 :do { add list=LV address=185.111.25.0/24 } on-error={}
@@ -1493,11 +1494,16 @@
 :do { add list=LV address=193.22.244.0/24 } on-error={}
 :do { add list=LV address=193.23.3.0/24 } on-error={}
 :do { add list=LV address=193.27.19.0/24 } on-error={}
+:do { add list=LV address=193.27.39.34/31 } on-error={}
+:do { add list=LV address=193.27.39.36/30 } on-error={}
 :do { add list=LV address=193.27.39.40/30 } on-error={}
 :do { add list=LV address=193.27.39.46/32 } on-error={}
 :do { add list=LV address=193.27.39.77/32 } on-error={}
 :do { add list=LV address=193.27.39.88/32 } on-error={}
+:do { add list=LV address=193.27.39.93/32 } on-error={}
+:do { add list=LV address=193.27.39.97/32 } on-error={}
 :do { add list=LV address=193.27.39.148/32 } on-error={}
+:do { add list=LV address=193.27.39.184/32 } on-error={}
 :do { add list=LV address=193.28.186.0/24 } on-error={}
 :do { add list=LV address=193.32.52.0/24 } on-error={}
 :do { add list=LV address=193.41.33.0/24 } on-error={}
