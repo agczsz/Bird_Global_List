@@ -8,6 +8,10 @@
 :do { add list=BV address=2a06:9f81:43ef:2100::/56 } on-error={}
 :do { add list=BV address=2a06:9f81:5622::/48 } on-error={}
 :do { add list=BV address=2a07:d887:2100::/40 } on-error={}
+:do { add list=BV address=2a0e:4003:bbff:d451::/64 } on-error={}
+:do { add list=BV address=2a0e:4007:a::/48 } on-error={}
+:do { add list=BV address=2a0e:4007:1d::/48 } on-error={}
+:do { add list=BV address=2a0e:4007:2e::/48 } on-error={}
 :do { add list=BV address=2a0e:b107:22f0::/45 } on-error={}
 :do { add list=BV address=2a0f:1cc1:fd30::/44 } on-error={}
 :do { add list=BV address=2a14:2d45:2100::/40 } on-error={}

@@ -12,6 +12,10 @@
 :do { add list=HM address=2a06:9f81:565e::/48 } on-error={}
 :do { add list=HM address=2a07:d887:5f00::/40 } on-error={}
 :do { add list=HM address=2a0d:2684:60::/48 } on-error={}
+:do { add list=HM address=2a0e:4003:bbff:5851::/64 } on-error={}
+:do { add list=HM address=2a0e:4007:b::/48 } on-error={}
+:do { add list=HM address=2a0e:4007:1e::/48 } on-error={}
+:do { add list=HM address=2a0e:4007:2f::/48 } on-error={}
 :do { add list=HM address=2a0e:97c0:4b61::/48 } on-error={}
 :do { add list=HM address=2a0f:1cc1:fd90::/44 } on-error={}
 :do { add list=HM address=2a12:f381:d500::/40 } on-error={}

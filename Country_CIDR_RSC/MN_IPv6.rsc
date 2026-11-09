@@ -358,6 +358,7 @@
 :do { add list=MN address=2401:d600:0:2fff::44/128 } on-error={}
 :do { add list=MN address=2401:d600:0:2fff::46/127 } on-error={}
 :do { add list=MN address=2401:d600:0:2fff::48/127 } on-error={}
+:do { add list=MN address=2401:d600:0:2fff::4a/128 } on-error={}
 :do { add list=MN address=2401:d600:0:2fff::4c/126 } on-error={}
 :do { add list=MN address=2401:d600:0:2fff::50/124 } on-error={}
 :do { add list=MN address=2401:d600:0:2fff::60/123 } on-error={}
@@ -456,10 +457,7 @@
 :do { add list=MN address=2405:600:222:c::44/127 } on-error={}
 :do { add list=MN address=2405:600:222:c::47/128 } on-error={}
 :do { add list=MN address=2405:600:222:c::48/125 } on-error={}
-:do { add list=MN address=2405:600:222:c::51/128 } on-error={}
-:do { add list=MN address=2405:600:222:c::52/127 } on-error={}
-:do { add list=MN address=2405:600:222:c::54/126 } on-error={}
-:do { add list=MN address=2405:600:222:c::58/125 } on-error={}
+:do { add list=MN address=2405:600:222:c::50/124 } on-error={}
 :do { add list=MN address=2405:600:222:c::60/125 } on-error={}
 :do { add list=MN address=2405:600:222:c::69/128 } on-error={}
 :do { add list=MN address=2405:600:222:c::6a/127 } on-error={}
@@ -469,6 +467,7 @@
 :do { add list=MN address=2405:600:222:c::74/126 } on-error={}
 :do { add list=MN address=2405:600:222:c::78/125 } on-error={}
 :do { add list=MN address=2405:600:222:c::80/124 } on-error={}
+:do { add list=MN address=2405:600:222:c::91/128 } on-error={}
 :do { add list=MN address=2405:600:222:c::92/127 } on-error={}
 :do { add list=MN address=2405:600:222:c::94/126 } on-error={}
 :do { add list=MN address=2405:600:222:c::98/125 } on-error={}
@@ -710,6 +709,7 @@
 :do { add list=MN address=2a0b:4e07:287:8000::/49 } on-error={}
 :do { add list=MN address=2a0d:2684:93::/48 } on-error={}
 :do { add list=MN address=2a0d:9440:3000::/37 } on-error={}
+:do { add list=MN address=2a0e:4003:bbcb:5884::/64 } on-error={}
 :do { add list=MN address=2a0e:97c0:750::/44 } on-error={}
 :do { add list=MN address=2a0e:b107:21f0::/44 } on-error={}
 :do { add list=MN address=2a0f:1cc1:8d00::/40 } on-error={}

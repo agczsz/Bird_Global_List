@@ -88,6 +88,7 @@
 :do { add list=GQ address=2a0a:6044:f9d4::/48 } on-error={}
 :do { add list=GQ address=2a0d:2684:58::/48 } on-error={}
 :do { add list=GQ address=2a0d:9442:1000::/37 } on-error={}
+:do { add list=GQ address=2a0e:4003:bb96:d29a::/64 } on-error={}
 :do { add list=GQ address=2a0f:1cc1:d1d0::/44 } on-error={}
 :do { add list=GQ address=2a0f:1cc5:b10:4100::/56 } on-error={}
 :do { add list=GQ address=2a0f:1cc5:b11:4100::/56 } on-error={}

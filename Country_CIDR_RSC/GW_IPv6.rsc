@@ -93,6 +93,7 @@
 :do { add list=GW address=2a0d:3341:fd00::/40 } on-error={}
 :do { add list=GW address=2a0d:3344:2a00::/42 } on-error={}
 :do { add list=GW address=2a0d:9447:a000::/37 } on-error={}
+:do { add list=GW address=2a0e:4003:bb96:8460::/64 } on-error={}
 :do { add list=GW address=2a0e:97c0:4b5e::/48 } on-error={}
 :do { add list=GW address=2a0f:1cc1:d1e0::/44 } on-error={}
 :do { add list=GW address=2a0f:1cc5:b10:b300::/56 } on-error={}

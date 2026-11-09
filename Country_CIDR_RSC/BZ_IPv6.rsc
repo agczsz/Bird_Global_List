@@ -154,6 +154,7 @@
 :do { add list=BZ address=2a0a:6044:f748::/45 } on-error={}
 :do { add list=BZ address=2a0d:2684:24::/48 } on-error={}
 :do { add list=BZ address=2a0d:9444:d000::/37 } on-error={}
+:do { add list=BZ address=2a0e:4003:bb2e:bba4::/64 } on-error={}
 :do { add list=BZ address=2a0e:b107:2308::/45 } on-error={}
 :do { add list=BZ address=2a0f:1cc1:e770::/44 } on-error={}
 :do { add list=BZ address=2a0f:1cc5:b10:1a00::/56 } on-error={}

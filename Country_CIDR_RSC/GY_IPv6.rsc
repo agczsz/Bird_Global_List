@@ -107,6 +107,7 @@
 :do { add list=GY address=2a0a:6044:f8d4::/47 } on-error={}
 :do { add list=GY address=2a0d:2684:5e::/48 } on-error={}
 :do { add list=GY address=2a0d:9441:c000::/37 } on-error={}
+:do { add list=GY address=2a0e:4003:bb58:27e7::/64 } on-error={}
 :do { add list=GY address=2a0f:1cc1:f930::/44 } on-error={}
 :do { add list=GY address=2a0f:1cc5:b10:5f00::/56 } on-error={}
 :do { add list=GY address=2a0f:1cc5:b11:5f00::/56 } on-error={}

@@ -73,6 +73,7 @@
 :do { add list=NF address=2a0a:6044:f220::/48 } on-error={}
 :do { add list=NF address=2a0d:2684:a3::/48 } on-error={}
 :do { add list=NF address=2a0d:9440:e000::/37 } on-error={}
+:do { add list=NF address=2a0e:4003:bbcb:c8ac::/64 } on-error={}
 :do { add list=NF address=2a0f:1cc1:fde0::/44 } on-error={}
 :do { add list=NF address=2a0f:1cc5:b10:a300::/56 } on-error={}
 :do { add list=NF address=2a0f:1cc5:b11:a300::/56 } on-error={}

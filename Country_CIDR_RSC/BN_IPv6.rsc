@@ -179,6 +179,7 @@
 :do { add list=BN address=2a0a:6044:f070::/45 } on-error={}
 :do { add list=BN address=2a0d:2684:1b::/48 } on-error={}
 :do { add list=BN address=2a0d:9441:5000::/37 } on-error={}
+:do { add list=BN address=2a0e:4003:bbcb:a45::/64 } on-error={}
 :do { add list=BN address=2a0e:b107:22c0::/45 } on-error={}
 :do { add list=BN address=2a0f:1cc1:9840::/44 } on-error={}
 :do { add list=BN address=2a0f:1cc5:b10:1e00::/56 } on-error={}

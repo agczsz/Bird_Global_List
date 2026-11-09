@@ -248,6 +248,7 @@
 :do { add list=MV address=2a0d:2684:9b::/48 } on-error={}
 :do { add list=MV address=2a0d:9445:8800::/37 } on-error={}
 :do { add list=MV address=2a0d:d940:200b::/48 } on-error={}
+:do { add list=MV address=2a0e:4003:bbcb:540b::/64 } on-error={}
 :do { add list=MV address=2a0f:1cc1:8e00::/40 } on-error={}
 :do { add list=MV address=2a0f:1cc5:b10:8500::/56 } on-error={}
 :do { add list=MV address=2a0f:1cc5:b11:8500::/56 } on-error={}

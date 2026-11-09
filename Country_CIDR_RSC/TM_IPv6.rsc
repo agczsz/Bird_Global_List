@@ -84,6 +84,10 @@
 :do { add list=TM address=2a0d:2684:de::/48 } on-error={}
 :do { add list=TM address=2a0d:5600:164::/48 } on-error={}
 :do { add list=TM address=2a0d:9442:7800::/37 } on-error={}
+:do { add list=TM address=2a0e:4003:bba8:6b40::/64 } on-error={}
+:do { add list=TM address=2a0e:4007:12::/48 } on-error={}
+:do { add list=TM address=2a0e:4007:25::/48 } on-error={}
+:do { add list=TM address=2a0e:4007:36::/48 } on-error={}
 :do { add list=TM address=2a0e:97c0:4bdf::/48 } on-error={}
 :do { add list=TM address=2a0f:1cc1:99b0::/44 } on-error={}
 :do { add list=TM address=2a0f:1cc5:b10:e400::/56 } on-error={}

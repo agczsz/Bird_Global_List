@@ -1,8 +1,10 @@
 /log info "Loading KW IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=KW address=2001:470:1f15:39c::/64 } on-error={}
 :do { add list=KW address=2001:470:1f1b:34b::/64 } on-error={}
 :do { add list=KW address=2001:470:1f1b:60d::/64 } on-error={}
+:do { add list=KW address=2001:470:1f23:59::/64 } on-error={}
+:do { add list=KW address=2001:470:1f29:3b4::/64 } on-error={}
+:do { add list=KW address=2001:470:1f29:3b7::/64 } on-error={}
 :do { add list=KW address=2001:470:688d::/48 } on-error={}
 :do { add list=KW address=2001:470:79bb::/48 } on-error={}
 :do { add list=KW address=2001:470:efa7::/48 } on-error={}
@@ -77,7 +79,7 @@
 :do { add list=KW address=2a01:53c0:ffe7::/48 } on-error={}
 :do { add list=KW address=2a01:5ca0::/32 } on-error={}
 :do { add list=KW address=2a01:7780::/48 } on-error={}
-:do { add list=KW address=2a01:7780:1::/60 } on-error={}
+:do { add list=KW address=2a01:7780:1:8::/61 } on-error={}
 :do { add list=KW address=2a01:7780:1:10::/64 } on-error={}
 :do { add list=KW address=2a01:7780:1:12::/63 } on-error={}
 :do { add list=KW address=2a01:7780:1:14::/62 } on-error={}
@@ -130,7 +132,7 @@
 :do { add list=KW address=2a02:26f7:dece::/47 } on-error={}
 :do { add list=KW address=2a02:26f7:ded0:4000::/64 } on-error={}
 :do { add list=KW address=2a02:26f7:ded0:4880::/63 } on-error={}
-:do { add list=KW address=2a02:26f7:ded0:8000::/49 } on-error={}
+:do { add list=KW address=2a02:26f7:ded0:8000::/50 } on-error={}
 :do { add list=KW address=2a02:26f7:ded1::/48 } on-error={}
 :do { add list=KW address=2a02:26f7:ded2::/47 } on-error={}
 :do { add list=KW address=2a02:26f7:ded4::/46 } on-error={}
@@ -252,6 +254,7 @@
 :do { add list=KW address=2a0e:1140::/29 } on-error={}
 :do { add list=KW address=2a0e:2480::/29 } on-error={}
 :do { add list=KW address=2a0e:3280::/29 } on-error={}
+:do { add list=KW address=2a0e:4003:bba8:782e::/64 } on-error={}
 :do { add list=KW address=2a0e:53c0::/29 } on-error={}
 :do { add list=KW address=2a0e:b107:2118::/48 } on-error={}
 :do { add list=KW address=2a0f:1cc1:98e0::/44 } on-error={}

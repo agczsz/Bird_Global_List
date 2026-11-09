@@ -9,9 +9,7 @@
 :do { add list=SH address=2606:40:22c1:c000::/54 } on-error={}
 :do { add list=SH address=2606:40:22c1:c800::/53 } on-error={}
 :do { add list=SH address=2606:40:22c1:d000::/52 } on-error={}
-:do { add list=SH address=2607:8940:21a2:4000::/50 } on-error={}
-:do { add list=SH address=2607:8940:21a2:8000::/49 } on-error={}
-:do { add list=SH address=2607:8940:21a3::/48 } on-error={}
+:do { add list=SH address=2607:8940:21a2::/47 } on-error={}
 :do { add list=SH address=2607:8940:21a6::/47 } on-error={}
 :do { add list=SH address=2607:8940:4172:3d00::/56 } on-error={}
 :do { add list=SH address=2607:8940:4172:3e00::/56 } on-error={}
@@ -35,6 +33,7 @@
 :do { add list=SH address=2a06:9f81:43ef:c800::/56 } on-error={}
 :do { add list=SH address=2a06:9f81:56c5::/48 } on-error={}
 :do { add list=SH address=2a07:d887:c500::/40 } on-error={}
+:do { add list=SH address=2a09:3f00:3c4b::/48 } on-error={}
 :do { add list=SH address=2a09:bac4:628::/45 } on-error={}
 :do { add list=SH address=2a09:bac4:1628::/45 } on-error={}
 :do { add list=SH address=2a0b:4e07:60::/48 } on-error={}
@@ -119,6 +118,7 @@
 :do { add list=SH address=2a0e:4001:9ff:2000::/51 } on-error={}
 :do { add list=SH address=2a0e:4001:9ff:4000::/50 } on-error={}
 :do { add list=SH address=2a0e:4001:9ff:8000::/49 } on-error={}
+:do { add list=SH address=2a0e:4003:bb96:1324::/64 } on-error={}
 :do { add list=SH address=2a0e:4007:220::/44 } on-error={}
 :do { add list=SH address=2a0f:1cc1:d2d0::/44 } on-error={}
 :do { add list=SH address=2a0f:1cc5:b10:bc00::/56 } on-error={}
@@ -188,7 +188,10 @@
 :do { add list=SH address=2a10:fa81:18f5::/48 } on-error={}
 :do { add list=SH address=2a10:fa81:18f9::/48 } on-error={}
 :do { add list=SH address=2a10:fa81:18fa::/47 } on-error={}
-:do { add list=SH address=2a10:fa81:18fc::/46 } on-error={}
+:do { add list=SH address=2a10:fa81:18fc:4000::/50 } on-error={}
+:do { add list=SH address=2a10:fa81:18fc:8000::/49 } on-error={}
+:do { add list=SH address=2a10:fa81:18fd::/48 } on-error={}
+:do { add list=SH address=2a10:fa81:18fe::/47 } on-error={}
 :do { add list=SH address=2a11:29c0:3d88:56f5::/64 } on-error={}
 :do { add list=SH address=2a11:29c0:3d88:60e0::/64 } on-error={}
 :do { add list=SH address=2a11:29c0:3d88:ff5f::/64 } on-error={}

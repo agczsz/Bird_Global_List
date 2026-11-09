@@ -247,6 +247,7 @@
 :do { add list=WS address=2a0a:6044:f24c::/47 } on-error={}
 :do { add list=WS address=2a0d:2684:f4::/48 } on-error={}
 :do { add list=WS address=2a0d:9447:2000::/37 } on-error={}
+:do { add list=WS address=2a0e:4003:bbcb:ca36::/64 } on-error={}
 :do { add list=WS address=2a0f:1cc1:fec0::/44 } on-error={}
 :do { add list=WS address=2a0f:1cc5:b10:f700::/56 } on-error={}
 :do { add list=WS address=2a0f:1cc5:b11:f700::/56 } on-error={}

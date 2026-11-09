@@ -115,6 +115,7 @@
 :do { add list=BF address=2a0a:6044:f94c::/47 } on-error={}
 :do { add list=BF address=2a0d:2684:14::/48 } on-error={}
 :do { add list=BF address=2a0d:9440:e800::/37 } on-error={}
+:do { add list=BF address=2a0e:4003:bb96:fc2f::/64 } on-error={}
 :do { add list=BF address=2a0e:b107:2290::/45 } on-error={}
 :do { add list=BF address=2a0f:1cc1:d100::/44 } on-error={}
 :do { add list=BF address=2a0f:1cc5:b10:f200::/56 } on-error={}
@@ -388,6 +389,8 @@
 :do { add list=BF address=2c0f:ee00::96:11c/126 } on-error={}
 :do { add list=BF address=2c0f:ee00::96:120/123 } on-error={}
 :do { add list=BF address=2c0f:ee00::96:140/124 } on-error={}
+:do { add list=BF address=2c0f:ee00::96:152/128 } on-error={}
+:do { add list=BF address=2c0f:ee00::96:155/128 } on-error={}
 :do { add list=BF address=2c0f:ee00::96:159/128 } on-error={}
 :do { add list=BF address=2c0f:ee00::96:15a/127 } on-error={}
 :do { add list=BF address=2c0f:ee00::96:15c/126 } on-error={}
@@ -399,6 +402,7 @@
 :do { add list=BF address=2c0f:ee00::96:228/125 } on-error={}
 :do { add list=BF address=2c0f:ee00::96:230/124 } on-error={}
 :do { add list=BF address=2c0f:ee00::96:240/126 } on-error={}
+:do { add list=BF address=2c0f:ee00::96:247/128 } on-error={}
 :do { add list=BF address=2c0f:ee00::96:248/125 } on-error={}
 :do { add list=BF address=2c0f:ee00::96:250/127 } on-error={}
 :do { add list=BF address=2c0f:ee00::96:256/127 } on-error={}
@@ -417,6 +421,7 @@
 :do { add list=BF address=2c0f:ee00::97:8/128 } on-error={}
 :do { add list=BF address=2c0f:ee00::97:b/128 } on-error={}
 :do { add list=BF address=2c0f:ee00::97:c/126 } on-error={}
+:do { add list=BF address=2c0f:ee00::97:11/128 } on-error={}
 :do { add list=BF address=2c0f:ee00::97:12/127 } on-error={}
 :do { add list=BF address=2c0f:ee00::97:14/126 } on-error={}
 :do { add list=BF address=2c0f:ee00::97:18/125 } on-error={}
@@ -462,6 +467,7 @@
 :do { add list=BF address=2c0f:ee00::97:120/124 } on-error={}
 :do { add list=BF address=2c0f:ee00::97:130/127 } on-error={}
 :do { add list=BF address=2c0f:ee00::97:138/125 } on-error={}
+:do { add list=BF address=2c0f:ee00::97:141/128 } on-error={}
 :do { add list=BF address=2c0f:ee00::97:144/126 } on-error={}
 :do { add list=BF address=2c0f:ee00::97:14a/127 } on-error={}
 :do { add list=BF address=2c0f:ee00::97:14c/126 } on-error={}
@@ -491,7 +497,7 @@
 :do { add list=BF address=2c0f:ee00::97:20c/126 } on-error={}
 :do { add list=BF address=2c0f:ee00::97:210/128 } on-error={}
 :do { add list=BF address=2c0f:ee00::97:213/128 } on-error={}
-:do { add list=BF address=2c0f:ee00::97:214/127 } on-error={}
+:do { add list=BF address=2c0f:ee00::97:214/128 } on-error={}
 :do { add list=BF address=2c0f:ee00::97:217/128 } on-error={}
 :do { add list=BF address=2c0f:ee00::97:218/125 } on-error={}
 :do { add list=BF address=2c0f:ee00::97:221/128 } on-error={}

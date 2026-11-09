@@ -25,6 +25,10 @@
 :do { add list=TF address=2a0a:6044:acad::/64 } on-error={}
 :do { add list=TF address=2a0d:2684:d8::/48 } on-error={}
 :do { add list=TF address=2a0d:9445:c800::/37 } on-error={}
+:do { add list=TF address=2a0e:4003:bbff:f84::/64 } on-error={}
+:do { add list=TF address=2a0e:4007:d::/48 } on-error={}
+:do { add list=TF address=2a0e:4007:20::/48 } on-error={}
+:do { add list=TF address=2a0e:4007:31::/48 } on-error={}
 :do { add list=TF address=2a0f:1cc1:a719::/48 } on-error={}
 :do { add list=TF address=2a0f:1cc1:fe40::/44 } on-error={}
 :do { add list=TF address=2a0f:1cc5:b10:4e00::/56 } on-error={}

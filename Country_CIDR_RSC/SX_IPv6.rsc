@@ -100,6 +100,7 @@
 :do { add list=SX address=2a0d:2587:7fcb::/48 } on-error={}
 :do { add list=SX address=2a0d:2684:d3::/48 } on-error={}
 :do { add list=SX address=2a0d:9443:e800::/37 } on-error={}
+:do { add list=SX address=2a0e:4003:bb2d:4f4a::/64 } on-error={}
 :do { add list=SX address=2a0e:97c1:8a24::/48 } on-error={}
 :do { add list=SX address=2a0f:1cc1:b30f::/48 } on-error={}
 :do { add list=SX address=2a0f:1cc1:e8c0::/44 } on-error={}

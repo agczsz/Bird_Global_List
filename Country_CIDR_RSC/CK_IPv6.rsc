@@ -80,6 +80,7 @@
 :do { add list=CK address=2a0a:6044:f1c2::/48 } on-error={}
 :do { add list=CK address=2a0d:2684:2c::/48 } on-error={}
 :do { add list=CK address=2a0d:9446:1000::/37 } on-error={}
+:do { add list=CK address=2a0e:4003:bbcb:6598::/64 } on-error={}
 :do { add list=CK address=2a0e:b107:2348::/45 } on-error={}
 :do { add list=CK address=2a0f:1cc1:fd40::/44 } on-error={}
 :do { add list=CK address=2a0f:1cc5:b10:3500::/56 } on-error={}

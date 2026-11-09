@@ -42,6 +42,7 @@
 :do { add list=CC address=2a0a:6044:f1b2::/47 } on-error={}
 :do { add list=CC address=2a0d:2684:26::/48 } on-error={}
 :do { add list=CC address=2a0d:9443:6800::/37 } on-error={}
+:do { add list=CC address=2a0e:4003:bbcb:4309::/64 } on-error={}
 :do { add list=CC address=2a0e:b107:2318::/45 } on-error={}
 :do { add list=CC address=2a0f:1cc1:9850::/44 } on-error={}
 :do { add list=CC address=2a0f:1cc5:b10:2f00::/56 } on-error={}
