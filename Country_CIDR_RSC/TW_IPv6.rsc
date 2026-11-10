@@ -1808,7 +1808,14 @@
 :do { add list=TW address=2400:70e0:b800::/37 } on-error={}
 :do { add list=TW address=2400:70e0:c000::/34 } on-error={}
 :do { add list=TW address=2400:7420::/32 } on-error={}
-:do { add list=TW address=2400:7aa0:1d00::/40 } on-error={}
+:do { add list=TW address=2400:7aa0:1d01::/48 } on-error={}
+:do { add list=TW address=2400:7aa0:1d02::/47 } on-error={}
+:do { add list=TW address=2400:7aa0:1d04::/46 } on-error={}
+:do { add list=TW address=2400:7aa0:1d08::/45 } on-error={}
+:do { add list=TW address=2400:7aa0:1d10::/44 } on-error={}
+:do { add list=TW address=2400:7aa0:1d20::/43 } on-error={}
+:do { add list=TW address=2400:7aa0:1d40::/42 } on-error={}
+:do { add list=TW address=2400:7aa0:1d80::/41 } on-error={}
 :do { add list=TW address=2400:8260::/32 } on-error={}
 :do { add list=TW address=2400:8560::/32 } on-error={}
 :do { add list=TW address=2400:85a0::/32 } on-error={}

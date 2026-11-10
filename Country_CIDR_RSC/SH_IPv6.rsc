@@ -42,7 +42,7 @@
 :do { add list=SH address=2a0d:9441:e000::/37 } on-error={}
 :do { add list=SH address=2a0e:4001:900::/48 } on-error={}
 :do { add list=SH address=2a0e:4001:902::/47 } on-error={}
-:do { add list=SH address=2a0e:4001:906::/47 } on-error={}
+:do { add list=SH address=2a0e:4001:907::/48 } on-error={}
 :do { add list=SH address=2a0e:4001:908::/45 } on-error={}
 :do { add list=SH address=2a0e:4001:910::/44 } on-error={}
 :do { add list=SH address=2a0e:4001:920::/43 } on-error={}
@@ -95,7 +95,8 @@
 :do { add list=SH address=2a0e:4001:9ff:a0::/60 } on-error={}
 :do { add list=SH address=2a0e:4001:9ff:b1::/64 } on-error={}
 :do { add list=SH address=2a0e:4001:9ff:b2::/63 } on-error={}
-:do { add list=SH address=2a0e:4001:9ff:b4::/62 } on-error={}
+:do { add list=SH address=2a0e:4001:9ff:b4::/63 } on-error={}
+:do { add list=SH address=2a0e:4001:9ff:b6::/64 } on-error={}
 :do { add list=SH address=2a0e:4001:9ff:b8::/61 } on-error={}
 :do { add list=SH address=2a0e:4001:9ff:c0::/61 } on-error={}
 :do { add list=SH address=2a0e:4001:9ff:c8::/62 } on-error={}
@@ -119,7 +120,6 @@
 :do { add list=SH address=2a0e:4001:9ff:4000::/50 } on-error={}
 :do { add list=SH address=2a0e:4001:9ff:8000::/49 } on-error={}
 :do { add list=SH address=2a0e:4003:bb96:1324::/64 } on-error={}
-:do { add list=SH address=2a0e:4007:220::/44 } on-error={}
 :do { add list=SH address=2a0f:1cc1:d2d0::/44 } on-error={}
 :do { add list=SH address=2a0f:1cc5:b10:bc00::/56 } on-error={}
 :do { add list=SH address=2a0f:1cc5:b11:bc00::/56 } on-error={}
@@ -222,4 +222,6 @@
 :do { add list=SH address=2a14:7581:b17:bc00::/56 } on-error={}
 :do { add list=SH address=2a14:7581:be2:8e00::/56 } on-error={}
 :do { add list=SH address=2a14:7581:3bc1::/48 } on-error={}
+:do { add list=SH address=2a14:7583:e0d9:1324::/64 } on-error={}
+:do { add list=SH address=2a14:7583:e0d9:5b6a::/64 } on-error={}
 :do { add list=SH address=2a14:7584:eff3::/48 } on-error={}

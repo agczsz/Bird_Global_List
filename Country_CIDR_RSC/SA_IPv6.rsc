@@ -699,10 +699,7 @@
 :do { add list=SA address=2001:16a3:2280::/41 } on-error={}
 :do { add list=SA address=2001:16a3:2300::/43 } on-error={}
 :do { add list=SA address=2001:16a3:2320::/44 } on-error={}
-:do { add list=SA address=2001:16a3:2330::/46 } on-error={}
-:do { add list=SA address=2001:16a3:2334::/47 } on-error={}
-:do { add list=SA address=2001:16a3:2336::/48 } on-error={}
-:do { add list=SA address=2001:16a3:2337::/48 } on-error={}
+:do { add list=SA address=2001:16a3:2330::/45 } on-error={}
 :do { add list=SA address=2001:16a3:2338::/45 } on-error={}
 :do { add list=SA address=2001:16a3:2340::/42 } on-error={}
 :do { add list=SA address=2001:16a3:2380::/41 } on-error={}

@@ -1,5 +1,20 @@
 /log info "Loading MC IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=MC address=2001:470:183a::/48 } on-error={}
+:do { add list=MC address=2001:470:196b::/48 } on-error={}
+:do { add list=MC address=2001:470:1b64::/48 } on-error={}
+:do { add list=MC address=2001:470:1b66::/48 } on-error={}
+:do { add list=MC address=2001:470:1b6d::/48 } on-error={}
+:do { add list=MC address=2001:470:1b74::/48 } on-error={}
+:do { add list=MC address=2001:470:1f1d:be::/64 } on-error={}
+:do { add list=MC address=2001:470:1f27:39::/64 } on-error={}
+:do { add list=MC address=2001:470:221c::/48 } on-error={}
+:do { add list=MC address=2001:470:6d24::/48 } on-error={}
+:do { add list=MC address=2001:470:747a::/48 } on-error={}
+:do { add list=MC address=2001:470:757f::/48 } on-error={}
+:do { add list=MC address=2001:470:b420::/48 } on-error={}
+:do { add list=MC address=2001:470:b528::/48 } on-error={}
+:do { add list=MC address=2001:470:c97d::/48 } on-error={}
 :do { add list=MC address=2001:4c08::3d/128 } on-error={}
 :do { add list=MC address=2405:b500:4700::/64 } on-error={}
 :do { add list=MC address=2405:b500:4720::/64 } on-error={}

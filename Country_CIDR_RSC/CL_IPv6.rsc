@@ -8431,12 +8431,6 @@
 :do { add list=CL address=2a0f:ca80:1339:175::/64 } on-error={}
 :do { add list=CL address=2a0f:ca80:1339:176::/64 } on-error={}
 :do { add list=CL address=2a0f:ca80:1339:17b::/64 } on-error={}
-:do { add list=CL address=2a0f:ca81:deed:1b::/64 } on-error={}
-:do { add list=CL address=2a0f:ca81:deed:23::/64 } on-error={}
-:do { add list=CL address=2a0f:ca81:deed:33::/64 } on-error={}
-:do { add list=CL address=2a0f:ca81:deed:3d::/64 } on-error={}
-:do { add list=CL address=2a0f:ca81:deed:4b::/64 } on-error={}
-:do { add list=CL address=2a0f:ca81:deed:5d::/64 } on-error={}
 :do { add list=CL address=2a10:500:c200::/40 } on-error={}
 :do { add list=CL address=2a10:24c0:4774::/47 } on-error={}
 :do { add list=CL address=2a10:24c0:4776::/48 } on-error={}

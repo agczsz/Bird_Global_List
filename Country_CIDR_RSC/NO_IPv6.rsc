@@ -9928,7 +9928,7 @@
 :do { add list=NO address=2a07:96c0::/29 } on-error={}
 :do { add list=NO address=2a07:9dc0::/29 } on-error={}
 :do { add list=NO address=2a07:a342:73af:c000::/50 } on-error={}
-:do { add list=NO address=2a07:a880:4701::/50 } on-error={}
+:do { add list=NO address=2a07:a880:4701::/48 } on-error={}
 :do { add list=NO address=2a07:d887:a500::/40 } on-error={}
 :do { add list=NO address=2a07:e140::/29 } on-error={}
 :do { add list=NO address=2a07:e280::/29 } on-error={}
@@ -11134,7 +11134,6 @@
 :do { add list=NO address=2a0f:ca80:1339:cc::/64 } on-error={}
 :do { add list=NO address=2a0f:ca80:1339:ef::/64 } on-error={}
 :do { add list=NO address=2a0f:ca80:f000::/40 } on-error={}
-:do { add list=NO address=2a0f:ca81:deed:2b::/64 } on-error={}
 :do { add list=NO address=2a10:500:500::/40 } on-error={}
 :do { add list=NO address=2a10:500:8c00::/40 } on-error={}
 :do { add list=NO address=2a10:b80::/29 } on-error={}

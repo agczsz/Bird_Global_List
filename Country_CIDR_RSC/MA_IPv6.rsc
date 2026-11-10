@@ -1263,7 +1263,6 @@
 :do { add list=MA address=2a0f:85c1:e45::/48 } on-error={}
 :do { add list=MA address=2a0f:ca80:1339:cb::/64 } on-error={}
 :do { add list=MA address=2a0f:ca80:1339:16b::/64 } on-error={}
-:do { add list=MA address=2a0f:ca81:deed:36::/64 } on-error={}
 :do { add list=MA address=2a10:500:2b00::/40 } on-error={}
 :do { add list=MA address=2a10:24c0:4ef0::/47 } on-error={}
 :do { add list=MA address=2a10:24c0:4ef2::/48 } on-error={}

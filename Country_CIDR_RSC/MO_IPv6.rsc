@@ -294,7 +294,7 @@
 :do { add list=MO address=2001:470:fba3::/48 } on-error={}
 :do { add list=MO address=2001:470:fba7::/48 } on-error={}
 :do { add list=MO address=2001:470:fbab::/48 } on-error={}
-:do { add list=MO address=2001:470:fbb0::/48 } on-error={}
+:do { add list=MO address=2001:470:fbb9::/48 } on-error={}
 :do { add list=MO address=2001:470:fbbe::/48 } on-error={}
 :do { add list=MO address=2001:470:fbc3::/48 } on-error={}
 :do { add list=MO address=2001:470:fbc7::/48 } on-error={}

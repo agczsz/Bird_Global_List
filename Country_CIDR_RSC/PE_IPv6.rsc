@@ -2410,9 +2410,6 @@
 :do { add list=PE address=2a0f:85c1:36c::/48 } on-error={}
 :do { add list=PE address=2a0f:85c1:81b:f8b0::/60 } on-error={}
 :do { add list=PE address=2a0f:85c1:83f::/48 } on-error={}
-:do { add list=PE address=2a0f:ca81:deed:1d::/64 } on-error={}
-:do { add list=PE address=2a0f:ca81:deed:50::/64 } on-error={}
-:do { add list=PE address=2a0f:ca81:deed:61::/64 } on-error={}
 :do { add list=PE address=2a10:500:c700::/40 } on-error={}
 :do { add list=PE address=2a10:24c0:d19c::/47 } on-error={}
 :do { add list=PE address=2a10:24c0:d19e::/48 } on-error={}

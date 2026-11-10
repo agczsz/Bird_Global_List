@@ -158,6 +158,7 @@
 :do { add list=UG address=2001:43fe:3000::/48 } on-error={}
 :do { add list=UG address=2001:43ff::/48 } on-error={}
 :do { add list=UG address=2001:43ff:2800::/48 } on-error={}
+:do { add list=UG address=2400:8800:f100::484/127 } on-error={}
 :do { add list=UG address=2400:cb00:926::/48 } on-error={}
 :do { add list=UG address=2405:b500:7580::/64 } on-error={}
 :do { add list=UG address=2405:b500:75a0::/64 } on-error={}

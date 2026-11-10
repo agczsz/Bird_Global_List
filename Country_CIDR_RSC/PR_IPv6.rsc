@@ -1196,6 +1196,9 @@
 :do { add list=PR address=2a0f:1cc5:1f46::/48 } on-error={}
 :do { add list=PR address=2a0f:5707:ffa3:4000::/50 } on-error={}
 :do { add list=PR address=2a0f:5707:ffa3:8000::/49 } on-error={}
+:do { add list=PR address=2a0f:6280:cee9::/48 } on-error={}
+:do { add list=PR address=2a0f:6280:cf61::/48 } on-error={}
+:do { add list=PR address=2a0f:6280:cfe5::/48 } on-error={}
 :do { add list=PR address=2a0f:85c1:340::b5:0/112 } on-error={}
 :do { add list=PR address=2a0f:a300:d000::/37 } on-error={}
 :do { add list=PR address=2a10:24c0:8eb4::/47 } on-error={}

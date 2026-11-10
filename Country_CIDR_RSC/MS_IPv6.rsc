@@ -99,4 +99,5 @@
 :do { add list=MS address=2a14:7581:b17:9000::/56 } on-error={}
 :do { add list=MS address=2a14:7581:be1:f400::/56 } on-error={}
 :do { add list=MS address=2a14:7581:3b9c::/48 } on-error={}
+:do { add list=MS address=2a14:7583:e0d9:fa24::/64 } on-error={}
 :do { add list=MS address=2a14:7584:e017::/48 } on-error={}

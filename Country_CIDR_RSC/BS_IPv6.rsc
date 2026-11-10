@@ -2,6 +2,7 @@
 /ipv6 firewall address-list
 :do { add list=BS address=2001:504:108::/64 } on-error={}
 :do { add list=BS address=2001:668:1f:da::/64 } on-error={}
+:do { add list=BS address=2001:3786:5006:100::/56 } on-error={}
 :do { add list=BS address=2001:3786:bb01:300::/56 } on-error={}
 :do { add list=BS address=2405:b500:1180::/64 } on-error={}
 :do { add list=BS address=2405:b500:11a0::/64 } on-error={}
@@ -900,7 +901,6 @@
 :do { add list=BS address=2a0f:a301:a000::/37 } on-error={}
 :do { add list=BS address=2a0f:ca80:1339:d0::/64 } on-error={}
 :do { add list=BS address=2a0f:ca80:1339:171::/64 } on-error={}
-:do { add list=BS address=2a0f:ca81:deed:4e::/64 } on-error={}
 :do { add list=BS address=2a10:500:9b00::/40 } on-error={}
 :do { add list=BS address=2a10:24c0:c668::/47 } on-error={}
 :do { add list=BS address=2a10:24c0:c66a::/48 } on-error={}

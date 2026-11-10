@@ -5260,7 +5260,6 @@
 :do { add list=IL address=2a0b:4e07:ff::/48 } on-error={}
 :do { add list=IL address=2a0b:4e07:214::/46 } on-error={}
 :do { add list=IL address=2a0b:4e07:218::/45 } on-error={}
-:do { add list=IL address=2a0b:4e07:240::/44 } on-error={}
 :do { add list=IL address=2a0b:4e07:250::/44 } on-error={}
 :do { add list=IL address=2a0b:4e07:283::/48 } on-error={}
 :do { add list=IL address=2a0b:4e07:284::/48 } on-error={}
