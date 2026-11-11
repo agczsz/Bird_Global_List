@@ -1176,10 +1176,10 @@
 :do { add list=KE address=99.83.116.89/32 } on-error={}
 :do { add list=KE address=102.0.0.0/19 } on-error={}
 :do { add list=KE address=102.0.32.0/21 } on-error={}
-:do { add list=KE address=102.0.40.0/23 } on-error={}
-:do { add list=KE address=102.0.42.0/24 } on-error={}
-:do { add list=KE address=102.0.43.0/24 } on-error={}
-:do { add list=KE address=102.0.44.0/22 } on-error={}
+:do { add list=KE address=102.0.40.0/22 } on-error={}
+:do { add list=KE address=102.0.44.0/24 } on-error={}
+:do { add list=KE address=102.0.45.0/24 } on-error={}
+:do { add list=KE address=102.0.46.0/23 } on-error={}
 :do { add list=KE address=102.0.48.0/20 } on-error={}
 :do { add list=KE address=102.0.64.0/19 } on-error={}
 :do { add list=KE address=102.0.96.0/22 } on-error={}

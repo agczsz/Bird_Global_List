@@ -1348,7 +1348,10 @@
 :do { add list=BD address=2400:c600:1334::/47 } on-error={}
 :do { add list=BD address=2400:c600:1336::/48 } on-error={}
 :do { add list=BD address=2400:c600:1337::/48 } on-error={}
-:do { add list=BD address=2400:c600:1338::/45 } on-error={}
+:do { add list=BD address=2400:c600:1338::/48 } on-error={}
+:do { add list=BD address=2400:c600:1339::/48 } on-error={}
+:do { add list=BD address=2400:c600:133a::/47 } on-error={}
+:do { add list=BD address=2400:c600:133c::/46 } on-error={}
 :do { add list=BD address=2400:c600:1340::/48 } on-error={}
 :do { add list=BD address=2400:c600:1341::/48 } on-error={}
 :do { add list=BD address=2400:c600:1342::/47 } on-error={}

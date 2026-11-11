@@ -42809,7 +42809,10 @@
 :do { add list=UY address=2804:91ca::/31 } on-error={}
 :do { add list=UY address=2804:91cd::/32 } on-error={}
 :do { add list=UY address=2804:91ce::/31 } on-error={}
-:do { add list=UY address=2804:91d0::/29 } on-error={}
+:do { add list=UY address=2804:91d0::/32 } on-error={}
+:do { add list=UY address=2804:91d1::/32 } on-error={}
+:do { add list=UY address=2804:91d2::/31 } on-error={}
+:do { add list=UY address=2804:91d4::/30 } on-error={}
 :do { add list=UY address=2804:91d9::/32 } on-error={}
 :do { add list=UY address=2804:91da::/31 } on-error={}
 :do { add list=UY address=2804:91dd::/32 } on-error={}

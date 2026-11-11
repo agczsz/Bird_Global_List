@@ -21572,7 +21572,8 @@
 :do { add list=JP address=192.156.159.0/24 } on-error={}
 :do { add list=JP address=192.157.14.0/23 } on-error={}
 :do { add list=JP address=192.157.138.0/24 } on-error={}
-:do { add list=JP address=192.157.150.0/23 } on-error={}
+:do { add list=JP address=192.157.150.0/24 } on-error={}
+:do { add list=JP address=192.157.151.0/24 } on-error={}
 :do { add list=JP address=192.157.152.0/24 } on-error={}
 :do { add list=JP address=192.160.161.0/24 } on-error={}
 :do { add list=JP address=192.163.171.0/24 } on-error={}

@@ -8921,7 +8921,8 @@
 :do { add list=IN address=103.73.188.0/22 } on-error={}
 :do { add list=IN address=103.73.212.0/22 } on-error={}
 :do { add list=IN address=103.73.221.0/24 } on-error={}
-:do { add list=IN address=103.73.222.0/23 } on-error={}
+:do { add list=IN address=103.73.222.0/24 } on-error={}
+:do { add list=IN address=103.73.223.0/24 } on-error={}
 :do { add list=IN address=103.74.4.0/24 } on-error={}
 :do { add list=IN address=103.74.8.0/23 } on-error={}
 :do { add list=IN address=103.74.16.0/22 } on-error={}

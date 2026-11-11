@@ -8680,7 +8680,9 @@
 :do { add list=CO address=2803:a760:4000::/40 } on-error={}
 :do { add list=CO address=2803:a760:4100::/40 } on-error={}
 :do { add list=CO address=2803:a760:4200::/39 } on-error={}
-:do { add list=CO address=2803:a760:4400::/38 } on-error={}
+:do { add list=CO address=2803:a760:4400::/40 } on-error={}
+:do { add list=CO address=2803:a760:4500::/40 } on-error={}
+:do { add list=CO address=2803:a760:4600::/39 } on-error={}
 :do { add list=CO address=2803:a760:4800::/37 } on-error={}
 :do { add list=CO address=2803:a760:5000::/36 } on-error={}
 :do { add list=CO address=2803:a760:6000::/35 } on-error={}

@@ -68899,7 +68899,8 @@
 :do { add list=JP address=2a06:41:c800::/37 } on-error={}
 :do { add list=JP address=2a06:41:d000::/36 } on-error={}
 :do { add list=JP address=2a06:41:e000::/35 } on-error={}
-:do { add list=JP address=2a06:42::/31 } on-error={}
+:do { add list=JP address=2a06:42::/32 } on-error={}
+:do { add list=JP address=2a06:43::/32 } on-error={}
 :do { add list=JP address=2a06:44::/30 } on-error={}
 :do { add list=JP address=2a06:1281:4020::/44 } on-error={}
 :do { add list=JP address=2a06:1281:4050::/44 } on-error={}

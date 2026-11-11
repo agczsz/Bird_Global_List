@@ -705,7 +705,8 @@
 :do { add list=NO address=46.228.48.0/20 } on-error={}
 :do { add list=NO address=46.230.128.0/19 } on-error={}
 :do { add list=NO address=46.230.160.0/21 } on-error={}
-:do { add list=NO address=46.243.138.0/23 } on-error={}
+:do { add list=NO address=46.243.138.0/24 } on-error={}
+:do { add list=NO address=46.243.139.0/24 } on-error={}
 :do { add list=NO address=46.246.72.0/23 } on-error={}
 :do { add list=NO address=46.246.122.0/23 } on-error={}
 :do { add list=NO address=46.249.224.0/19 } on-error={}

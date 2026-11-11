@@ -1291,7 +1291,9 @@
 :do { add list=SA address=89.237.136.0/23 } on-error={}
 :do { add list=SA address=89.237.138.0/24 } on-error={}
 :do { add list=SA address=89.237.139.0/24 } on-error={}
-:do { add list=SA address=89.237.140.0/22 } on-error={}
+:do { add list=SA address=89.237.140.0/23 } on-error={}
+:do { add list=SA address=89.237.142.0/24 } on-error={}
+:do { add list=SA address=89.237.143.0/24 } on-error={}
 :do { add list=SA address=89.237.144.0/20 } on-error={}
 :do { add list=SA address=89.237.160.0/23 } on-error={}
 :do { add list=SA address=89.237.162.0/24 } on-error={}

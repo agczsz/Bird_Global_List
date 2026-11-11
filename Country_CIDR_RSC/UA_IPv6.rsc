@@ -4349,7 +4349,9 @@
 :do { add list=UA address=2a09:21c0::/29 } on-error={}
 :do { add list=UA address=2a09:2dc0::/32 } on-error={}
 :do { add list=UA address=2a09:2dc2::/32 } on-error={}
-:do { add list=UA address=2a09:2dc4::/30 } on-error={}
+:do { add list=UA address=2a09:2dc4::/32 } on-error={}
+:do { add list=UA address=2a09:2dc5::/32 } on-error={}
+:do { add list=UA address=2a09:2dc6::/31 } on-error={}
 :do { add list=UA address=2a09:3580::/29 } on-error={}
 :do { add list=UA address=2a09:4580::/29 } on-error={}
 :do { add list=UA address=2a09:5100::/32 } on-error={}
