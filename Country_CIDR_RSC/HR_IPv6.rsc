@@ -1092,7 +1092,6 @@
 :do { add list=HR address=2a06:5ec4::/30 } on-error={}
 :do { add list=HR address=2a06:9801:7d3:3000::/52 } on-error={}
 :do { add list=HR address=2a06:9f81:3960::/48 } on-error={}
-:do { add list=HR address=2a06:9f81:43ef:6300::/56 } on-error={}
 :do { add list=HR address=2a06:9f81:5660::/48 } on-error={}
 :do { add list=HR address=2a06:a005:ce0::/44 } on-error={}
 :do { add list=HR address=2a06:de06:386::/48 } on-error={}
@@ -1485,14 +1484,6 @@
 :do { add list=HR address=2a0e:bfc7:8000::/33 } on-error={}
 :do { add list=HR address=2a0e:d2c0::/29 } on-error={}
 :do { add list=HR address=2a0f:1cc1:a900::/40 } on-error={}
-:do { add list=HR address=2a0f:1cc5:b10:3700::/56 } on-error={}
-:do { add list=HR address=2a0f:1cc5:b11:3700::/56 } on-error={}
-:do { add list=HR address=2a0f:1cc5:b12:3700::/56 } on-error={}
-:do { add list=HR address=2a0f:1cc5:b13:3700::/56 } on-error={}
-:do { add list=HR address=2a0f:1cc5:b14:3700::/56 } on-error={}
-:do { add list=HR address=2a0f:1cc5:b15:3700::/56 } on-error={}
-:do { add list=HR address=2a0f:1cc5:b16:3700::/56 } on-error={}
-:do { add list=HR address=2a0f:1cc5:b17:3700::/56 } on-error={}
 :do { add list=HR address=2a0f:1cc5:1f2c::/48 } on-error={}
 :do { add list=HR address=2a0f:6284:4800::/40 } on-error={}
 :do { add list=HR address=2a0f:85c1:340::89:0/112 } on-error={}
@@ -2007,13 +1998,5 @@
 :do { add list=HR address=2a14:2d86::/32 } on-error={}
 :do { add list=HR address=2a14:67c2:8cc::/48 } on-error={}
 :do { add list=HR address=2a14:7580:cf61::/48 } on-error={}
-:do { add list=HR address=2a14:7581:b10:3700::/56 } on-error={}
-:do { add list=HR address=2a14:7581:b11:3700::/56 } on-error={}
-:do { add list=HR address=2a14:7581:b12:3700::/56 } on-error={}
-:do { add list=HR address=2a14:7581:b13:3700::/56 } on-error={}
-:do { add list=HR address=2a14:7581:b14:3700::/56 } on-error={}
-:do { add list=HR address=2a14:7581:b15:3700::/56 } on-error={}
-:do { add list=HR address=2a14:7581:b16:3700::/56 } on-error={}
-:do { add list=HR address=2a14:7581:b17:3700::/56 } on-error={}
 :do { add list=HR address=2a14:7581:be0:bf00::/56 } on-error={}
 :do { add list=HR address=2a14:c380:c60::/44 } on-error={}

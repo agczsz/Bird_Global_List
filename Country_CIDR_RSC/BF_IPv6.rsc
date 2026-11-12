@@ -94,7 +94,6 @@
 :do { add list=BF address=2a04:4e41:7803::/48 } on-error={}
 :do { add list=BF address=2a05:dfc1:5a1f::/48 } on-error={}
 :do { add list=BF address=2a06:9f81:3915::/48 } on-error={}
-:do { add list=BF address=2a06:9f81:43ef:1400::/56 } on-error={}
 :do { add list=BF address=2a06:9f81:5615::/48 } on-error={}
 :do { add list=BF address=2a06:b440:175::/48 } on-error={}
 :do { add list=BF address=2a07:d887:1400::/40 } on-error={}
@@ -118,14 +117,6 @@
 :do { add list=BF address=2a0e:4003:bb96:fc2f::/64 } on-error={}
 :do { add list=BF address=2a0e:b107:2290::/45 } on-error={}
 :do { add list=BF address=2a0f:1cc1:d100::/44 } on-error={}
-:do { add list=BF address=2a0f:1cc5:b10:f200::/56 } on-error={}
-:do { add list=BF address=2a0f:1cc5:b11:f200::/56 } on-error={}
-:do { add list=BF address=2a0f:1cc5:b12:f200::/56 } on-error={}
-:do { add list=BF address=2a0f:1cc5:b13:f200::/56 } on-error={}
-:do { add list=BF address=2a0f:1cc5:b14:f200::/56 } on-error={}
-:do { add list=BF address=2a0f:1cc5:b15:f200::/56 } on-error={}
-:do { add list=BF address=2a0f:1cc5:b16:f200::/56 } on-error={}
-:do { add list=BF address=2a0f:1cc5:b17:f200::/56 } on-error={}
 :do { add list=BF address=2a0f:1cc5:1f60::/48 } on-error={}
 :do { add list=BF address=2a0f:85c1:81b:f1f0::/60 } on-error={}
 :do { add list=BF address=2a0f:a302:800::/37 } on-error={}
@@ -186,14 +177,6 @@
 :do { add list=BF address=2a14:2d45:1400::/40 } on-error={}
 :do { add list=BF address=2a14:67c2:8a9::/48 } on-error={}
 :do { add list=BF address=2a14:7580:cf14::/48 } on-error={}
-:do { add list=BF address=2a14:7581:b10:f200::/56 } on-error={}
-:do { add list=BF address=2a14:7581:b11:f200::/56 } on-error={}
-:do { add list=BF address=2a14:7581:b12:f200::/56 } on-error={}
-:do { add list=BF address=2a14:7581:b13:f200::/56 } on-error={}
-:do { add list=BF address=2a14:7581:b14:f200::/56 } on-error={}
-:do { add list=BF address=2a14:7581:b15:f200::/56 } on-error={}
-:do { add list=BF address=2a14:7581:b16:f200::/56 } on-error={}
-:do { add list=BF address=2a14:7581:b17:f200::/56 } on-error={}
 :do { add list=BF address=2a14:7581:be3:5600::/56 } on-error={}
 :do { add list=BF address=2a14:7583:ff3f:300::/56 } on-error={}
 :do { add list=BF address=2c0f:ca0::/48 } on-error={}

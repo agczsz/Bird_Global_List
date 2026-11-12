@@ -80,7 +80,6 @@
 :do { add list=MP address=2a05:dfc1:5a9d::/48 } on-error={}
 :do { add list=MP address=2a05:dfc1:8c1c::/48 } on-error={}
 :do { add list=MP address=2a06:9f81:3993::/48 } on-error={}
-:do { add list=MP address=2a06:9f81:43ef:9600::/56 } on-error={}
 :do { add list=MP address=2a06:9f81:5693::/48 } on-error={}
 :do { add list=MP address=2a07:d887:9400::/40 } on-error={}
 :do { add list=MP address=2a09:bac1:4c80::/64 } on-error={}
@@ -102,14 +101,6 @@
 :do { add list=MP address=2a0e:4003:bbcb:e45c::/64 } on-error={}
 :do { add list=MP address=2a0f:1cc1:e61c::/48 } on-error={}
 :do { add list=MP address=2a0f:1cc1:fdc0::/44 } on-error={}
-:do { add list=MP address=2a0f:1cc5:b10:a500::/56 } on-error={}
-:do { add list=MP address=2a0f:1cc5:b11:a500::/56 } on-error={}
-:do { add list=MP address=2a0f:1cc5:b12:a500::/56 } on-error={}
-:do { add list=MP address=2a0f:1cc5:b13:a500::/56 } on-error={}
-:do { add list=MP address=2a0f:1cc5:b14:a500::/56 } on-error={}
-:do { add list=MP address=2a0f:1cc5:b15:a500::/56 } on-error={}
-:do { add list=MP address=2a0f:1cc5:b16:a500::/56 } on-error={}
-:do { add list=MP address=2a0f:1cc5:b17:a500::/56 } on-error={}
 :do { add list=MP address=2a0f:5707:ffa2:4000::/50 } on-error={}
 :do { add list=MP address=2a0f:5707:ffa2:8000::/49 } on-error={}
 :do { add list=MP address=2a0f:a303:4000::/37 } on-error={}
@@ -123,13 +114,4 @@
 :do { add list=MP address=2a14:2d45:9400::/40 } on-error={}
 :do { add list=MP address=2a14:67c2:8b9::/48 } on-error={}
 :do { add list=MP address=2a14:7580:cf94::/48 } on-error={}
-:do { add list=MP address=2a14:7581:b10:a500::/56 } on-error={}
-:do { add list=MP address=2a14:7581:b11:a500::/56 } on-error={}
-:do { add list=MP address=2a14:7581:b12:a500::/56 } on-error={}
-:do { add list=MP address=2a14:7581:b13:a500::/56 } on-error={}
-:do { add list=MP address=2a14:7581:b14:a500::/56 } on-error={}
-:do { add list=MP address=2a14:7581:b15:a500::/56 } on-error={}
-:do { add list=MP address=2a14:7581:b16:a500::/56 } on-error={}
-:do { add list=MP address=2a14:7581:b17:a500::/56 } on-error={}
 :do { add list=MP address=2a14:7581:be2:4400::/56 } on-error={}
-:do { add list=MP address=2a14:7581:3bac::/48 } on-error={}

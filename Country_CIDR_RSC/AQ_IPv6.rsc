@@ -98,7 +98,6 @@
 :do { add list=AQ address=2a06:9801:fc3:8000::/50 } on-error={}
 :do { add list=AQ address=2a06:9801:1529::/48 } on-error={}
 :do { add list=AQ address=2a06:9f81:3909::/48 } on-error={}
-:do { add list=AQ address=2a06:9f81:43ef:800::/56 } on-error={}
 :do { add list=AQ address=2a06:9f81:5609::/48 } on-error={}
 :do { add list=AQ address=2a06:a005:486::/48 } on-error={}
 :do { add list=AQ address=2a06:a005:5a7::/48 } on-error={}
@@ -327,14 +326,6 @@
 :do { add list=AQ address=2a0f:1cc5:663::/48 } on-error={}
 :do { add list=AQ address=2a0f:1cc5:664::/46 } on-error={}
 :do { add list=AQ address=2a0f:1cc5:668::/45 } on-error={}
-:do { add list=AQ address=2a0f:1cc5:b10:300::/56 } on-error={}
-:do { add list=AQ address=2a0f:1cc5:b11:300::/56 } on-error={}
-:do { add list=AQ address=2a0f:1cc5:b12:300::/56 } on-error={}
-:do { add list=AQ address=2a0f:1cc5:b13:300::/56 } on-error={}
-:do { add list=AQ address=2a0f:1cc5:b14:300::/56 } on-error={}
-:do { add list=AQ address=2a0f:1cc5:b15:300::/56 } on-error={}
-:do { add list=AQ address=2a0f:1cc5:b16:300::/56 } on-error={}
-:do { add list=AQ address=2a0f:1cc5:b17:300::/56 } on-error={}
 :do { add list=AQ address=2a0f:1cc5:1d81::/48 } on-error={}
 :do { add list=AQ address=2a0f:1cc5:1ff0:4000::/50 } on-error={}
 :do { add list=AQ address=2a0f:1cc5:1ff0:8000::/49 } on-error={}
@@ -580,16 +571,7 @@
 :do { add list=AQ address=2a14:7580:cf08::/48 } on-error={}
 :do { add list=AQ address=2a14:7580:ff89:4000::/50 } on-error={}
 :do { add list=AQ address=2a14:7580:ff89:8000::/49 } on-error={}
-:do { add list=AQ address=2a14:7581:b10:300::/56 } on-error={}
-:do { add list=AQ address=2a14:7581:b11:300::/56 } on-error={}
-:do { add list=AQ address=2a14:7581:b12:300::/56 } on-error={}
-:do { add list=AQ address=2a14:7581:b13:300::/56 } on-error={}
-:do { add list=AQ address=2a14:7581:b14:300::/56 } on-error={}
-:do { add list=AQ address=2a14:7581:b15:300::/56 } on-error={}
-:do { add list=AQ address=2a14:7581:b16:300::/56 } on-error={}
-:do { add list=AQ address=2a14:7581:b17:300::/56 } on-error={}
 :do { add list=AQ address=2a14:7581:be0:a00::/56 } on-error={}
-:do { add list=AQ address=2a14:7581:3b0f::/48 } on-error={}
 :do { add list=AQ address=2a14:7583:ab00::/42 } on-error={}
 :do { add list=AQ address=2a14:7583:e0c1::/53 } on-error={}
 :do { add list=AQ address=2a14:7583:e0c1:800::/54 } on-error={}
@@ -806,7 +788,6 @@
 :do { add list=AQ address=2a14:7583:f707::/48 } on-error={}
 :do { add list=AQ address=2a14:7583:f744:4000::/50 } on-error={}
 :do { add list=AQ address=2a14:7583:f744:8000::/49 } on-error={}
-:do { add list=AQ address=2a14:7584:e800:f00::/56 } on-error={}
 :do { add list=AQ address=2a14:7584:eff7::/48 } on-error={}
 :do { add list=AQ address=2a14:7dc0:506::/48 } on-error={}
 :do { add list=AQ address=2a14:c380:152::/48 } on-error={}

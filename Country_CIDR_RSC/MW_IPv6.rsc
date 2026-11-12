@@ -106,7 +106,6 @@
 :do { add list=MW address=2a04:4e41:7416::/48 } on-error={}
 :do { add list=MW address=2a05:dfc1:5aa4::/48 } on-error={}
 :do { add list=MW address=2a06:9f81:399a::/48 } on-error={}
-:do { add list=MW address=2a06:9f81:43ef:9d00::/56 } on-error={}
 :do { add list=MW address=2a06:9f81:569a::/48 } on-error={}
 :do { add list=MW address=2a07:d887:9b00::/40 } on-error={}
 :do { add list=MW address=2a09:bac1:5000::/64 } on-error={}
@@ -131,14 +130,6 @@
 :do { add list=MW address=2a0d:9447:1000::/37 } on-error={}
 :do { add list=MW address=2a0e:4003:bb96:f4cb::/64 } on-error={}
 :do { add list=MW address=2a0f:1cc1:d270::/44 } on-error={}
-:do { add list=MW address=2a0f:1cc5:b10:8300::/56 } on-error={}
-:do { add list=MW address=2a0f:1cc5:b11:8300::/56 } on-error={}
-:do { add list=MW address=2a0f:1cc5:b12:8300::/56 } on-error={}
-:do { add list=MW address=2a0f:1cc5:b13:8300::/56 } on-error={}
-:do { add list=MW address=2a0f:1cc5:b14:8300::/56 } on-error={}
-:do { add list=MW address=2a0f:1cc5:b15:8300::/56 } on-error={}
-:do { add list=MW address=2a0f:1cc5:b16:8300::/56 } on-error={}
-:do { add list=MW address=2a0f:1cc5:b17:8300::/56 } on-error={}
 :do { add list=MW address=2a0f:85c1:81b:f6b0::/60 } on-error={}
 :do { add list=MW address=2a0f:a301:b000::/37 } on-error={}
 :do { add list=MW address=2a10:500:2700::/40 } on-error={}
@@ -182,14 +173,6 @@
 :do { add list=MW address=2a14:2d45:9b00::/40 } on-error={}
 :do { add list=MW address=2a14:67c2:84f::/48 } on-error={}
 :do { add list=MW address=2a14:7580:cf9b::/48 } on-error={}
-:do { add list=MW address=2a14:7581:b10:8300::/56 } on-error={}
-:do { add list=MW address=2a14:7581:b11:8300::/56 } on-error={}
-:do { add list=MW address=2a14:7581:b12:8300::/56 } on-error={}
-:do { add list=MW address=2a14:7581:b13:8300::/56 } on-error={}
-:do { add list=MW address=2a14:7581:b14:8300::/56 } on-error={}
-:do { add list=MW address=2a14:7581:b15:8300::/56 } on-error={}
-:do { add list=MW address=2a14:7581:b16:8300::/56 } on-error={}
-:do { add list=MW address=2a14:7581:b17:8300::/56 } on-error={}
 :do { add list=MW address=2a14:7581:be1:c600::/56 } on-error={}
 :do { add list=MW address=2c0e:7800::/24 } on-error={}
 :do { add list=MW address=2c0e:7e80::/28 } on-error={}

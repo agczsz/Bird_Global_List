@@ -238,7 +238,6 @@
 :do { add list=EH address=2a05:dfc1:5a4d::/48 } on-error={}
 :do { add list=EH address=2a05:dfc1:8c0c::/48 } on-error={}
 :do { add list=EH address=2a06:9f81:3940::/48 } on-error={}
-:do { add list=EH address=2a06:9f81:43ef:4100::/56 } on-error={}
 :do { add list=EH address=2a06:9f81:5640::/48 } on-error={}
 :do { add list=EH address=2a07:d887:4100::/40 } on-error={}
 :do { add list=EH address=2a09:bac4:208::/45 } on-error={}
@@ -249,14 +248,6 @@
 :do { add list=EH address=2a0e:4003:bb96:daed::/64 } on-error={}
 :do { add list=EH address=2a0e:b107:23e8::/45 } on-error={}
 :do { add list=EH address=2a0f:1cc1:d170::/44 } on-error={}
-:do { add list=EH address=2a0f:1cc5:b10:d400::/56 } on-error={}
-:do { add list=EH address=2a0f:1cc5:b11:d400::/56 } on-error={}
-:do { add list=EH address=2a0f:1cc5:b12:d400::/56 } on-error={}
-:do { add list=EH address=2a0f:1cc5:b13:d400::/56 } on-error={}
-:do { add list=EH address=2a0f:1cc5:b14:d400::/56 } on-error={}
-:do { add list=EH address=2a0f:1cc5:b15:d400::/56 } on-error={}
-:do { add list=EH address=2a0f:1cc5:b16:d400::/56 } on-error={}
-:do { add list=EH address=2a0f:1cc5:b17:d400::/56 } on-error={}
 :do { add list=EH address=2a0f:1cc5:1f6c::/48 } on-error={}
 :do { add list=EH address=2a0f:a303:f800::/37 } on-error={}
 :do { add list=EH address=2a10:24c0:8858::/47 } on-error={}
@@ -270,12 +261,4 @@
 :do { add list=EH address=2a14:1c7:c800::/37 } on-error={}
 :do { add list=EH address=2a14:2d45:4100::/40 } on-error={}
 :do { add list=EH address=2a14:7580:cf41::/48 } on-error={}
-:do { add list=EH address=2a14:7581:b10:d400::/56 } on-error={}
-:do { add list=EH address=2a14:7581:b11:d400::/56 } on-error={}
-:do { add list=EH address=2a14:7581:b12:d400::/56 } on-error={}
-:do { add list=EH address=2a14:7581:b13:d400::/56 } on-error={}
-:do { add list=EH address=2a14:7581:b14:d400::/56 } on-error={}
-:do { add list=EH address=2a14:7581:b15:d400::/56 } on-error={}
-:do { add list=EH address=2a14:7581:b16:d400::/56 } on-error={}
-:do { add list=EH address=2a14:7581:b17:d400::/56 } on-error={}
 :do { add list=EH address=2a14:7581:be2:dc00::/56 } on-error={}

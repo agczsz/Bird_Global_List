@@ -56,7 +56,6 @@
 :do { add list=IO address=2a05:dfc1:5a76::/48 } on-error={}
 :do { add list=IO address=2a05:dfc1:8c33::/48 } on-error={}
 :do { add list=IO address=2a06:9f81:3968::/48 } on-error={}
-:do { add list=IO address=2a06:9f81:43ef:6b00::/56 } on-error={}
 :do { add list=IO address=2a06:9f81:5668::/48 } on-error={}
 :do { add list=IO address=2a07:d887:6900::/40 } on-error={}
 :do { add list=IO address=2a09:bac1:3700::/64 } on-error={}
@@ -75,14 +74,6 @@
 :do { add list=IO address=2a0e:4001:9ff:20::/64 } on-error={}
 :do { add list=IO address=2a0e:4003:bb96:2073::/64 } on-error={}
 :do { add list=IO address=2a0f:1cc1:98a0::/44 } on-error={}
-:do { add list=IO address=2a0f:1cc5:b10:1b00::/56 } on-error={}
-:do { add list=IO address=2a0f:1cc5:b11:1b00::/56 } on-error={}
-:do { add list=IO address=2a0f:1cc5:b12:1b00::/56 } on-error={}
-:do { add list=IO address=2a0f:1cc5:b13:1b00::/56 } on-error={}
-:do { add list=IO address=2a0f:1cc5:b14:1b00::/56 } on-error={}
-:do { add list=IO address=2a0f:1cc5:b15:1b00::/56 } on-error={}
-:do { add list=IO address=2a0f:1cc5:b16:1b00::/56 } on-error={}
-:do { add list=IO address=2a0f:1cc5:b17:1b00::/56 } on-error={}
 :do { add list=IO address=2a0f:1cc5:1fe9::/48 } on-error={}
 :do { add list=IO address=2a0f:7803:fedd::/48 } on-error={}
 :do { add list=IO address=2a11:29c0:3d88:4eb8::/64 } on-error={}
@@ -92,13 +83,4 @@
 :do { add list=IO address=2a14:1c6:f000::/37 } on-error={}
 :do { add list=IO address=2a14:2d45:6900::/40 } on-error={}
 :do { add list=IO address=2a14:7580:cf69::/48 } on-error={}
-:do { add list=IO address=2a14:7581:b10:1b00::/56 } on-error={}
-:do { add list=IO address=2a14:7581:b11:1b00::/56 } on-error={}
-:do { add list=IO address=2a14:7581:b12:1b00::/56 } on-error={}
-:do { add list=IO address=2a14:7581:b13:1b00::/56 } on-error={}
-:do { add list=IO address=2a14:7581:b14:1b00::/56 } on-error={}
-:do { add list=IO address=2a14:7581:b15:1b00::/56 } on-error={}
-:do { add list=IO address=2a14:7581:b16:1b00::/56 } on-error={}
-:do { add list=IO address=2a14:7581:b17:1b00::/56 } on-error={}
 :do { add list=IO address=2a14:7581:be0:5600::/56 } on-error={}
-:do { add list=IO address=2a14:7581:3b27::/48 } on-error={}

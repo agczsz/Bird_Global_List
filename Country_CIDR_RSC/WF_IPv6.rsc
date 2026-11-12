@@ -67,7 +67,6 @@
 :do { add list=WF address=2a06:3b00:4000::/34 } on-error={}
 :do { add list=WF address=2a06:3b00:8000::/33 } on-error={}
 :do { add list=WF address=2a06:9f81:39f1::/48 } on-error={}
-:do { add list=WF address=2a06:9f81:43ef:f800::/56 } on-error={}
 :do { add list=WF address=2a06:9f81:56f1::/48 } on-error={}
 :do { add list=WF address=2a07:d887:f100::/40 } on-error={}
 :do { add list=WF address=2a09:bac1:7b80::/64 } on-error={}
@@ -89,14 +88,6 @@
 :do { add list=WF address=2a0e:4003:bbcb:9900::/64 } on-error={}
 :do { add list=WF address=2a0f:1cc1:a71a::/48 } on-error={}
 :do { add list=WF address=2a0f:1cc1:feb0::/44 } on-error={}
-:do { add list=WF address=2a0f:1cc5:b10:f600::/56 } on-error={}
-:do { add list=WF address=2a0f:1cc5:b11:f600::/56 } on-error={}
-:do { add list=WF address=2a0f:1cc5:b12:f600::/56 } on-error={}
-:do { add list=WF address=2a0f:1cc5:b13:f600::/56 } on-error={}
-:do { add list=WF address=2a0f:1cc5:b14:f600::/56 } on-error={}
-:do { add list=WF address=2a0f:1cc5:b15:f600::/56 } on-error={}
-:do { add list=WF address=2a0f:1cc5:b16:f600::/56 } on-error={}
-:do { add list=WF address=2a0f:1cc5:b17:f600::/56 } on-error={}
 :do { add list=WF address=2a10:24c0:334::/48 } on-error={}
 :do { add list=WF address=2a10:24c0:25f4::/48 } on-error={}
 :do { add list=WF address=2a11:29c0:3d88:954d::/64 } on-error={}
@@ -119,12 +110,4 @@
 :do { add list=WF address=2a14:2d45:f100::/40 } on-error={}
 :do { add list=WF address=2a14:67c2:8d5::/48 } on-error={}
 :do { add list=WF address=2a14:7580:cff2::/48 } on-error={}
-:do { add list=WF address=2a14:7581:b10:f600::/56 } on-error={}
-:do { add list=WF address=2a14:7581:b11:f600::/56 } on-error={}
-:do { add list=WF address=2a14:7581:b12:f600::/56 } on-error={}
-:do { add list=WF address=2a14:7581:b13:f600::/56 } on-error={}
-:do { add list=WF address=2a14:7581:b14:f600::/56 } on-error={}
-:do { add list=WF address=2a14:7581:b15:f600::/56 } on-error={}
-:do { add list=WF address=2a14:7581:b16:f600::/56 } on-error={}
-:do { add list=WF address=2a14:7581:b17:f600::/56 } on-error={}
 :do { add list=WF address=2a14:7581:be3:6c00::/56 } on-error={}

@@ -1,6 +1,5 @@
 /log info "Loading WS IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=WS address=2001:470:36:1db::/64 } on-error={}
 :do { add list=WS address=2001:470:8106::/48 } on-error={}
 :do { add list=WS address=2001:470:f9b0::/48 } on-error={}
 :do { add list=WS address=2001:de8:8000::/48 } on-error={}
@@ -186,10 +185,7 @@
 :do { add list=WS address=2a02:26f7:f184::/48 } on-error={}
 :do { add list=WS address=2a02:26f7:f185::/48 } on-error={}
 :do { add list=WS address=2a02:26f7:f186::/47 } on-error={}
-:do { add list=WS address=2a02:26f7:f188::/48 } on-error={}
-:do { add list=WS address=2a02:26f7:f189::/48 } on-error={}
-:do { add list=WS address=2a02:26f7:f18a::/47 } on-error={}
-:do { add list=WS address=2a02:26f7:f18c::/46 } on-error={}
+:do { add list=WS address=2a02:26f7:f188::/45 } on-error={}
 :do { add list=WS address=2a02:26f7:f190::/44 } on-error={}
 :do { add list=WS address=2a02:26f7:f1a0::/43 } on-error={}
 :do { add list=WS address=2a02:5740:168::/48 } on-error={}
@@ -227,7 +223,6 @@
 :do { add list=WS address=2a04:4e41:762e::/48 } on-error={}
 :do { add list=WS address=2a05:dfc1:5afc::/48 } on-error={}
 :do { add list=WS address=2a06:9f81:39f2::/48 } on-error={}
-:do { add list=WS address=2a06:9f81:43ef:f900::/56 } on-error={}
 :do { add list=WS address=2a06:9f81:56f2::/48 } on-error={}
 :do { add list=WS address=2a07:d887:f200::/40 } on-error={}
 :do { add list=WS address=2a09:bac1:7c00::/64 } on-error={}
@@ -249,14 +244,6 @@
 :do { add list=WS address=2a0d:9447:2000::/37 } on-error={}
 :do { add list=WS address=2a0e:4003:bbcb:ca36::/64 } on-error={}
 :do { add list=WS address=2a0f:1cc1:fec0::/44 } on-error={}
-:do { add list=WS address=2a0f:1cc5:b10:f700::/56 } on-error={}
-:do { add list=WS address=2a0f:1cc5:b11:f700::/56 } on-error={}
-:do { add list=WS address=2a0f:1cc5:b12:f700::/56 } on-error={}
-:do { add list=WS address=2a0f:1cc5:b13:f700::/56 } on-error={}
-:do { add list=WS address=2a0f:1cc5:b14:f700::/56 } on-error={}
-:do { add list=WS address=2a0f:1cc5:b15:f700::/56 } on-error={}
-:do { add list=WS address=2a0f:1cc5:b16:f700::/56 } on-error={}
-:do { add list=WS address=2a0f:1cc5:b17:f700::/56 } on-error={}
 :do { add list=WS address=2a0f:1cc5:1fea::/48 } on-error={}
 :do { add list=WS address=2a0f:85c1:81b:f960::/60 } on-error={}
 :do { add list=WS address=2a0f:a303:e800::/37 } on-error={}
@@ -309,12 +296,4 @@
 :do { add list=WS address=2a14:2d45:f200::/40 } on-error={}
 :do { add list=WS address=2a14:67c2:8bc::/48 } on-error={}
 :do { add list=WS address=2a14:7580:cff3::/48 } on-error={}
-:do { add list=WS address=2a14:7581:b10:f700::/56 } on-error={}
-:do { add list=WS address=2a14:7581:b11:f700::/56 } on-error={}
-:do { add list=WS address=2a14:7581:b12:f700::/56 } on-error={}
-:do { add list=WS address=2a14:7581:b13:f700::/56 } on-error={}
-:do { add list=WS address=2a14:7581:b14:f700::/56 } on-error={}
-:do { add list=WS address=2a14:7581:b15:f700::/56 } on-error={}
-:do { add list=WS address=2a14:7581:b16:f700::/56 } on-error={}
-:do { add list=WS address=2a14:7581:b17:f700::/56 } on-error={}
 :do { add list=WS address=2a14:7581:be3:7200::/56 } on-error={}

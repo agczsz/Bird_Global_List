@@ -173,7 +173,6 @@
 :do { add list=MT address=2a04:8700::/29 } on-error={}
 :do { add list=MT address=2a05:dfc1:5aa1::/48 } on-error={}
 :do { add list=MT address=2a06:9f81:3997::/48 } on-error={}
-:do { add list=MT address=2a06:9f81:43ef:9a00::/56 } on-error={}
 :do { add list=MT address=2a06:9f81:5697::/48 } on-error={}
 :do { add list=MT address=2a06:b440:163::/48 } on-error={}
 :do { add list=MT address=2a06:b440:187::/48 } on-error={}
@@ -233,14 +232,6 @@
 :do { add list=MT address=2a0e:4003:bb79:6db3::/64 } on-error={}
 :do { add list=MT address=2a0e:b107:3d0::/48 } on-error={}
 :do { add list=MT address=2a0f:1cc1:b200::/40 } on-error={}
-:do { add list=MT address=2a0f:1cc5:b10:8700::/56 } on-error={}
-:do { add list=MT address=2a0f:1cc5:b11:8700::/56 } on-error={}
-:do { add list=MT address=2a0f:1cc5:b12:8700::/56 } on-error={}
-:do { add list=MT address=2a0f:1cc5:b13:8700::/56 } on-error={}
-:do { add list=MT address=2a0f:1cc5:b14:8700::/56 } on-error={}
-:do { add list=MT address=2a0f:1cc5:b15:8700::/56 } on-error={}
-:do { add list=MT address=2a0f:1cc5:b16:8700::/56 } on-error={}
-:do { add list=MT address=2a0f:1cc5:b17:8700::/56 } on-error={}
 :do { add list=MT address=2a0f:85c1:340::a5:0/112 } on-error={}
 :do { add list=MT address=2a0f:85c1:81b:f6f0::/60 } on-error={}
 :do { add list=MT address=2a10:500:8700::/40 } on-error={}
@@ -324,12 +315,4 @@
 :do { add list=MT address=2a14:2d45:9800::/40 } on-error={}
 :do { add list=MT address=2a14:67c2:8e5::/48 } on-error={}
 :do { add list=MT address=2a14:7580:cf98::/48 } on-error={}
-:do { add list=MT address=2a14:7581:b10:8700::/56 } on-error={}
-:do { add list=MT address=2a14:7581:b11:8700::/56 } on-error={}
-:do { add list=MT address=2a14:7581:b12:8700::/56 } on-error={}
-:do { add list=MT address=2a14:7581:b13:8700::/56 } on-error={}
-:do { add list=MT address=2a14:7581:b14:8700::/56 } on-error={}
-:do { add list=MT address=2a14:7581:b15:8700::/56 } on-error={}
-:do { add list=MT address=2a14:7581:b16:8700::/56 } on-error={}
-:do { add list=MT address=2a14:7581:b17:8700::/56 } on-error={}
 :do { add list=MT address=2a14:7581:be1:d600::/56 } on-error={}

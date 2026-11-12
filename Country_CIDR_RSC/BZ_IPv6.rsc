@@ -135,7 +135,6 @@
 :do { add list=BZ address=2a05:dfc1:5a2e::/48 } on-error={}
 :do { add list=BZ address=2a05:dfc1:8c32::/48 } on-error={}
 :do { add list=BZ address=2a06:9f81:3923::/48 } on-error={}
-:do { add list=BZ address=2a06:9f81:43ef:2400::/56 } on-error={}
 :do { add list=BZ address=2a06:9f81:5623::/48 } on-error={}
 :do { add list=BZ address=2a07:a0c0::/29 } on-error={}
 :do { add list=BZ address=2a07:c6c0:10::/48 } on-error={}
@@ -159,14 +158,6 @@
 :do { add list=BZ address=2a0e:4003:bb2e:bba4::/64 } on-error={}
 :do { add list=BZ address=2a0e:b107:2308::/45 } on-error={}
 :do { add list=BZ address=2a0f:1cc1:e770::/44 } on-error={}
-:do { add list=BZ address=2a0f:1cc5:b10:1a00::/56 } on-error={}
-:do { add list=BZ address=2a0f:1cc5:b11:1a00::/56 } on-error={}
-:do { add list=BZ address=2a0f:1cc5:b12:1a00::/56 } on-error={}
-:do { add list=BZ address=2a0f:1cc5:b13:1a00::/56 } on-error={}
-:do { add list=BZ address=2a0f:1cc5:b14:1a00::/56 } on-error={}
-:do { add list=BZ address=2a0f:1cc5:b15:1a00::/56 } on-error={}
-:do { add list=BZ address=2a0f:1cc5:b16:1a00::/56 } on-error={}
-:do { add list=BZ address=2a0f:1cc5:b17:1a00::/56 } on-error={}
 :do { add list=BZ address=2a0f:85c1:81b:f150::/60 } on-error={}
 :do { add list=BZ address=2a10:24c0:c6e4::/47 } on-error={}
 :do { add list=BZ address=2a10:24c0:c6e6::/48 } on-error={}
@@ -238,14 +229,6 @@
 :do { add list=BZ address=2a14:2d45:2400::/40 } on-error={}
 :do { add list=BZ address=2a14:67c2:8f7::/48 } on-error={}
 :do { add list=BZ address=2a14:7580:cf24::/48 } on-error={}
-:do { add list=BZ address=2a14:7581:b10:1a00::/56 } on-error={}
-:do { add list=BZ address=2a14:7581:b11:1a00::/56 } on-error={}
-:do { add list=BZ address=2a14:7581:b12:1a00::/56 } on-error={}
-:do { add list=BZ address=2a14:7581:b13:1a00::/56 } on-error={}
-:do { add list=BZ address=2a14:7581:b14:1a00::/56 } on-error={}
-:do { add list=BZ address=2a14:7581:b15:1a00::/56 } on-error={}
-:do { add list=BZ address=2a14:7581:b16:1a00::/56 } on-error={}
-:do { add list=BZ address=2a14:7581:b17:1a00::/56 } on-error={}
 :do { add list=BZ address=2a14:7581:be0:5400::/56 } on-error={}
 :do { add list=BZ address=2a14:7583:ff88::/48 } on-error={}
 :do { add list=BZ address=2a14:ae00:20::/48 } on-error={}

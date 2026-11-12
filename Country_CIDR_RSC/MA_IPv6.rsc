@@ -1192,7 +1192,6 @@
 :do { add list=MA address=2a05:dfc1:5a93::/48 } on-error={}
 :do { add list=MA address=2a06:9801:56::/48 } on-error={}
 :do { add list=MA address=2a06:9f81:3987::/48 } on-error={}
-:do { add list=MA address=2a06:9f81:43ef:8a00::/56 } on-error={}
 :do { add list=MA address=2a06:9f81:5687::/48 } on-error={}
 :do { add list=MA address=2a06:b440:55::/48 } on-error={}
 :do { add list=MA address=2a06:b440:56::/47 } on-error={}
@@ -1247,14 +1246,6 @@
 :do { add list=MA address=2a0d:9440:d800::/37 } on-error={}
 :do { add list=MA address=2a0e:4003:bb96:98ca::/64 } on-error={}
 :do { add list=MA address=2a0f:1cc1:d220::/44 } on-error={}
-:do { add list=MA address=2a0f:1cc5:b10:9100::/56 } on-error={}
-:do { add list=MA address=2a0f:1cc5:b11:9100::/56 } on-error={}
-:do { add list=MA address=2a0f:1cc5:b12:9100::/56 } on-error={}
-:do { add list=MA address=2a0f:1cc5:b13:9100::/56 } on-error={}
-:do { add list=MA address=2a0f:1cc5:b14:9100::/56 } on-error={}
-:do { add list=MA address=2a0f:1cc5:b15:9100::/56 } on-error={}
-:do { add list=MA address=2a0f:1cc5:b16:9100::/56 } on-error={}
-:do { add list=MA address=2a0f:1cc5:b17:9100::/56 } on-error={}
 :do { add list=MA address=2a0f:1cc5:1f69::/48 } on-error={}
 :do { add list=MA address=2a0f:1cc7:ff02::/48 } on-error={}
 :do { add list=MA address=2a0f:85c1:340::a2:0/112 } on-error={}
@@ -1406,14 +1397,6 @@
 :do { add list=MA address=2a14:2d45:8800::/40 } on-error={}
 :do { add list=MA address=2a14:67c2:89d::/48 } on-error={}
 :do { add list=MA address=2a14:7580:cf88::/48 } on-error={}
-:do { add list=MA address=2a14:7581:b10:9100::/56 } on-error={}
-:do { add list=MA address=2a14:7581:b11:9100::/56 } on-error={}
-:do { add list=MA address=2a14:7581:b12:9100::/56 } on-error={}
-:do { add list=MA address=2a14:7581:b13:9100::/56 } on-error={}
-:do { add list=MA address=2a14:7581:b14:9100::/56 } on-error={}
-:do { add list=MA address=2a14:7581:b15:9100::/56 } on-error={}
-:do { add list=MA address=2a14:7581:b16:9100::/56 } on-error={}
-:do { add list=MA address=2a14:7581:b17:9100::/56 } on-error={}
 :do { add list=MA address=2a14:7581:be1:f800::/56 } on-error={}
 :do { add list=MA address=2a14:c380:327::/48 } on-error={}
 :do { add list=MA address=2c0e:6000::/24 } on-error={}

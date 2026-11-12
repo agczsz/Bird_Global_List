@@ -1,6 +1,5 @@
 /log info "Loading SA IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=SA address=2001:470:36:37e::/64 } on-error={}
 :do { add list=SA address=2001:470:6d:59d::/64 } on-error={}
 :do { add list=SA address=2001:470:1d20::/48 } on-error={}
 :do { add list=SA address=2001:470:1f15:2e5::/64 } on-error={}
@@ -18,6 +17,7 @@
 :do { add list=SA address=2001:470:7b39::/48 } on-error={}
 :do { add list=SA address=2001:470:7be3::/48 } on-error={}
 :do { add list=SA address=2001:470:7be4::/48 } on-error={}
+:do { add list=SA address=2001:470:883d::/48 } on-error={}
 :do { add list=SA address=2001:470:cb17::/48 } on-error={}
 :do { add list=SA address=2001:470:e297::/48 } on-error={}
 :do { add list=SA address=2001:470:e2a0:4000::/50 } on-error={}
@@ -364,7 +364,8 @@
 :do { add list=SA address=2001:16a2:bc99::/48 } on-error={}
 :do { add list=SA address=2001:16a2:bc9a::/48 } on-error={}
 :do { add list=SA address=2001:16a2:bc9b::/48 } on-error={}
-:do { add list=SA address=2001:16a2:bc9c::/47 } on-error={}
+:do { add list=SA address=2001:16a2:bc9c::/48 } on-error={}
+:do { add list=SA address=2001:16a2:bc9d::/48 } on-error={}
 :do { add list=SA address=2001:16a2:bc9e::/48 } on-error={}
 :do { add list=SA address=2001:16a2:bc9f::/48 } on-error={}
 :do { add list=SA address=2001:16a2:bca0::/43 } on-error={}
@@ -2575,7 +2576,6 @@
 :do { add list=SA address=2a06:9801:74f::/48 } on-error={}
 :do { add list=SA address=2a06:98c1:58::322/128 } on-error={}
 :do { add list=SA address=2a06:9f81:39bf::/48 } on-error={}
-:do { add list=SA address=2a06:9f81:43ef:c200::/56 } on-error={}
 :do { add list=SA address=2a06:9f81:56bf::/48 } on-error={}
 :do { add list=SA address=2a06:b440:90::/48 } on-error={}
 :do { add list=SA address=2a06:b440:100::/48 } on-error={}
@@ -3020,14 +3020,6 @@
 :do { add list=SA address=2a0e:b107:2119::/48 } on-error={}
 :do { add list=SA address=2a0e:b107:2210::/45 } on-error={}
 :do { add list=SA address=2a0f:1cc1:9970::/44 } on-error={}
-:do { add list=SA address=2a0f:1cc5:b10:c500::/56 } on-error={}
-:do { add list=SA address=2a0f:1cc5:b11:c500::/56 } on-error={}
-:do { add list=SA address=2a0f:1cc5:b12:c500::/56 } on-error={}
-:do { add list=SA address=2a0f:1cc5:b13:c500::/56 } on-error={}
-:do { add list=SA address=2a0f:1cc5:b14:c500::/56 } on-error={}
-:do { add list=SA address=2a0f:1cc5:b15:c500::/56 } on-error={}
-:do { add list=SA address=2a0f:1cc5:b16:c500::/56 } on-error={}
-:do { add list=SA address=2a0f:1cc5:b17:c500::/56 } on-error={}
 :do { add list=SA address=2a0f:1cc5:1d62::/48 } on-error={}
 :do { add list=SA address=2a0f:1cc5:1f9b::/48 } on-error={}
 :do { add list=SA address=2a0f:2540::/29 } on-error={}
@@ -3221,14 +3213,6 @@
 :do { add list=SA address=2a14:6fc2::/31 } on-error={}
 :do { add list=SA address=2a14:6fc4::/30 } on-error={}
 :do { add list=SA address=2a14:7580:cfc0::/48 } on-error={}
-:do { add list=SA address=2a14:7581:b10:c500::/56 } on-error={}
-:do { add list=SA address=2a14:7581:b11:c500::/56 } on-error={}
-:do { add list=SA address=2a14:7581:b12:c500::/56 } on-error={}
-:do { add list=SA address=2a14:7581:b13:c500::/56 } on-error={}
-:do { add list=SA address=2a14:7581:b14:c500::/56 } on-error={}
-:do { add list=SA address=2a14:7581:b15:c500::/56 } on-error={}
-:do { add list=SA address=2a14:7581:b16:c500::/56 } on-error={}
-:do { add list=SA address=2a14:7581:b17:c500::/56 } on-error={}
 :do { add list=SA address=2a14:7581:be2:aa00::/56 } on-error={}
 :do { add list=SA address=2a14:7f40::/29 } on-error={}
 :do { add list=SA address=2a14:9100::/48 } on-error={}

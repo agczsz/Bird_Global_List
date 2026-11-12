@@ -675,7 +675,6 @@
 :do { add list=AG address=2a04:4e41:7211::/48 } on-error={}
 :do { add list=AG address=2a05:dfc1:5a0e::/48 } on-error={}
 :do { add list=AG address=2a06:9f81:3904::/48 } on-error={}
-:do { add list=AG address=2a06:9f81:43ef:300::/56 } on-error={}
 :do { add list=AG address=2a06:9f81:5604::/48 } on-error={}
 :do { add list=AG address=2a06:9f81:6110::/48 } on-error={}
 :do { add list=AG address=2a07:d887:300::/40 } on-error={}
@@ -699,14 +698,6 @@
 :do { add list=AG address=2a0e:4003:bb2d:e45e::/64 } on-error={}
 :do { add list=AG address=2a0e:b107:21d0::/45 } on-error={}
 :do { add list=AG address=2a0f:1cc1:e700::/44 } on-error={}
-:do { add list=AG address=2a0f:1cc5:b10:800::/56 } on-error={}
-:do { add list=AG address=2a0f:1cc5:b11:800::/56 } on-error={}
-:do { add list=AG address=2a0f:1cc5:b12:800::/56 } on-error={}
-:do { add list=AG address=2a0f:1cc5:b13:800::/56 } on-error={}
-:do { add list=AG address=2a0f:1cc5:b14:800::/56 } on-error={}
-:do { add list=AG address=2a0f:1cc5:b15:800::/56 } on-error={}
-:do { add list=AG address=2a0f:1cc5:b16:800::/56 } on-error={}
-:do { add list=AG address=2a0f:1cc5:b17:800::/56 } on-error={}
 :do { add list=AG address=2a0f:1cc5:1f48::/48 } on-error={}
 :do { add list=AG address=2a0f:85c1:81b:f080::/60 } on-error={}
 :do { add list=AG address=2a0f:a302:6800::/37 } on-error={}
@@ -744,12 +735,4 @@
 :do { add list=AG address=2a14:67c1:b604::/48 } on-error={}
 :do { add list=AG address=2a14:67c2:8e2::/48 } on-error={}
 :do { add list=AG address=2a14:7580:cf03::/48 } on-error={}
-:do { add list=AG address=2a14:7581:b10:800::/56 } on-error={}
-:do { add list=AG address=2a14:7581:b11:800::/56 } on-error={}
-:do { add list=AG address=2a14:7581:b12:800::/56 } on-error={}
-:do { add list=AG address=2a14:7581:b13:800::/56 } on-error={}
-:do { add list=AG address=2a14:7581:b14:800::/56 } on-error={}
-:do { add list=AG address=2a14:7581:b15:800::/56 } on-error={}
-:do { add list=AG address=2a14:7581:b16:800::/56 } on-error={}
-:do { add list=AG address=2a14:7581:b17:800::/56 } on-error={}
 :do { add list=AG address=2a14:7581:be0:1c00::/56 } on-error={}

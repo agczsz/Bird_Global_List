@@ -69,7 +69,6 @@
 :do { add list=GQ address=2a04:4e41:780b::/48 } on-error={}
 :do { add list=GQ address=2a05:dfc1:5a64::/48 } on-error={}
 :do { add list=GQ address=2a06:9f81:3956::/48 } on-error={}
-:do { add list=GQ address=2a06:9f81:43ef:5900::/56 } on-error={}
 :do { add list=GQ address=2a06:9f81:5656::/48 } on-error={}
 :do { add list=GQ address=2a07:d887:5700::/40 } on-error={}
 :do { add list=GQ address=2a09:bac1:2e00::/64 } on-error={}
@@ -90,14 +89,6 @@
 :do { add list=GQ address=2a0d:9442:1000::/37 } on-error={}
 :do { add list=GQ address=2a0e:4003:bb96:d29a::/64 } on-error={}
 :do { add list=GQ address=2a0f:1cc1:d1d0::/44 } on-error={}
-:do { add list=GQ address=2a0f:1cc5:b10:4100::/56 } on-error={}
-:do { add list=GQ address=2a0f:1cc5:b11:4100::/56 } on-error={}
-:do { add list=GQ address=2a0f:1cc5:b12:4100::/56 } on-error={}
-:do { add list=GQ address=2a0f:1cc5:b13:4100::/56 } on-error={}
-:do { add list=GQ address=2a0f:1cc5:b14:4100::/56 } on-error={}
-:do { add list=GQ address=2a0f:1cc5:b15:4100::/56 } on-error={}
-:do { add list=GQ address=2a0f:1cc5:b16:4100::/56 } on-error={}
-:do { add list=GQ address=2a0f:1cc5:b17:4100::/56 } on-error={}
 :do { add list=GQ address=2a0f:85c1:81b:f390::/60 } on-error={}
 :do { add list=GQ address=2a0f:a301:d800::/37 } on-error={}
 :do { add list=GQ address=2a10:500:1900::/40 } on-error={}
@@ -134,14 +125,6 @@
 :do { add list=GQ address=2a14:67c1:b656::/48 } on-error={}
 :do { add list=GQ address=2a14:67c2:8a0::/48 } on-error={}
 :do { add list=GQ address=2a14:7580:cf57::/48 } on-error={}
-:do { add list=GQ address=2a14:7581:b10:4100::/56 } on-error={}
-:do { add list=GQ address=2a14:7581:b11:4100::/56 } on-error={}
-:do { add list=GQ address=2a14:7581:b12:4100::/56 } on-error={}
-:do { add list=GQ address=2a14:7581:b13:4100::/56 } on-error={}
-:do { add list=GQ address=2a14:7581:b14:4100::/56 } on-error={}
-:do { add list=GQ address=2a14:7581:b15:4100::/56 } on-error={}
-:do { add list=GQ address=2a14:7581:b16:4100::/56 } on-error={}
-:do { add list=GQ address=2a14:7581:b17:4100::/56 } on-error={}
 :do { add list=GQ address=2a14:7581:be0:e200::/56 } on-error={}
 :do { add list=GQ address=2c0f:f180:0:1::/64 } on-error={}
 :do { add list=GQ address=2c0f:f180:0:2::/63 } on-error={}

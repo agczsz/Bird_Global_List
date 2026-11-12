@@ -74,7 +74,6 @@
 :do { add list=SB address=2a04:4e41:6e0f::/48 } on-error={}
 :do { add list=SB address=2a05:dfc1:5aca::/48 } on-error={}
 :do { add list=SB address=2a06:9f81:39c0::/48 } on-error={}
-:do { add list=SB address=2a06:9f81:43ef:c300::/56 } on-error={}
 :do { add list=SB address=2a06:9f81:56c0::/48 } on-error={}
 :do { add list=SB address=2a07:d887:c000::/40 } on-error={}
 :do { add list=SB address=2a09:7:1000::/36 } on-error={}
@@ -97,14 +96,6 @@
 :do { add list=SB address=2a0d:9443::/37 } on-error={}
 :do { add list=SB address=2a0e:4003:bbcb:f36f::/64 } on-error={}
 :do { add list=SB address=2a0f:1cc1:fe30::/44 } on-error={}
-:do { add list=SB address=2a0f:1cc5:b10:1c00::/56 } on-error={}
-:do { add list=SB address=2a0f:1cc5:b11:1c00::/56 } on-error={}
-:do { add list=SB address=2a0f:1cc5:b12:1c00::/56 } on-error={}
-:do { add list=SB address=2a0f:1cc5:b13:1c00::/56 } on-error={}
-:do { add list=SB address=2a0f:1cc5:b14:1c00::/56 } on-error={}
-:do { add list=SB address=2a0f:1cc5:b15:1c00::/56 } on-error={}
-:do { add list=SB address=2a0f:1cc5:b16:1c00::/56 } on-error={}
-:do { add list=SB address=2a0f:1cc5:b17:1c00::/56 } on-error={}
 :do { add list=SB address=2a0f:1cc5:1fed::/48 } on-error={}
 :do { add list=SB address=2a0f:85c1:81b:fa10::/60 } on-error={}
 :do { add list=SB address=2a0f:9400:616c::/48 } on-error={}
@@ -145,12 +136,4 @@
 :do { add list=SB address=2a14:67c1:b6c0::/48 } on-error={}
 :do { add list=SB address=2a14:67c2:815::/48 } on-error={}
 :do { add list=SB address=2a14:7580:cfc1::/48 } on-error={}
-:do { add list=SB address=2a14:7581:b10:1c00::/56 } on-error={}
-:do { add list=SB address=2a14:7581:b11:1c00::/56 } on-error={}
-:do { add list=SB address=2a14:7581:b12:1c00::/56 } on-error={}
-:do { add list=SB address=2a14:7581:b13:1c00::/56 } on-error={}
-:do { add list=SB address=2a14:7581:b14:1c00::/56 } on-error={}
-:do { add list=SB address=2a14:7581:b15:1c00::/56 } on-error={}
-:do { add list=SB address=2a14:7581:b16:1c00::/56 } on-error={}
-:do { add list=SB address=2a14:7581:b17:1c00::/56 } on-error={}
 :do { add list=SB address=2a14:7581:be0:5a00::/56 } on-error={}

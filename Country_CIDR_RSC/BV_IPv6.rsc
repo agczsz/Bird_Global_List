@@ -5,7 +5,6 @@
 :do { add list=BV address=2a03:b601:830::/48 } on-error={}
 :do { add list=BV address=2a05:dfc1:5a2b::/48 } on-error={}
 :do { add list=BV address=2a06:9f81:3922::/48 } on-error={}
-:do { add list=BV address=2a06:9f81:43ef:2100::/56 } on-error={}
 :do { add list=BV address=2a06:9f81:5622::/48 } on-error={}
 :do { add list=BV address=2a07:d887:2100::/40 } on-error={}
 :do { add list=BV address=2a0e:4003:bbff:d451::/64 } on-error={}

@@ -1,7 +1,6 @@
 /log info "Loading AX IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=AX address=2001:470:19:2e5::/64 } on-error={}
-:do { add list=AX address=2001:470:36:1cb::/64 } on-error={}
 :do { add list=AX address=2001:470:67:1ec::/64 } on-error={}
 :do { add list=AX address=2001:470:67:5e0::/64 } on-error={}
 :do { add list=AX address=2001:470:2a9f::/48 } on-error={}
@@ -145,7 +144,6 @@
 :do { add list=AX address=2a05:dfc1:5a19::/48 } on-error={}
 :do { add list=AX address=2a05:dfc1:8c30::/48 } on-error={}
 :do { add list=AX address=2a06:9f81:390f::/48 } on-error={}
-:do { add list=AX address=2a06:9f81:43ef:e00::/56 } on-error={}
 :do { add list=AX address=2a06:9f81:560f::/48 } on-error={}
 :do { add list=AX address=2a06:b440:182::/48 } on-error={}
 :do { add list=AX address=2a07:d887:e00::/40 } on-error={}
@@ -170,14 +168,6 @@
 :do { add list=AX address=2a0e:8f02:2182::/47 } on-error={}
 :do { add list=AX address=2a0f:1cc1:a601::/48 } on-error={}
 :do { add list=AX address=2a0f:1cc1:bb30::/44 } on-error={}
-:do { add list=AX address=2a0f:1cc5:b10:4a00::/56 } on-error={}
-:do { add list=AX address=2a0f:1cc5:b11:4a00::/56 } on-error={}
-:do { add list=AX address=2a0f:1cc5:b12:4a00::/56 } on-error={}
-:do { add list=AX address=2a0f:1cc5:b13:4a00::/56 } on-error={}
-:do { add list=AX address=2a0f:1cc5:b14:4a00::/56 } on-error={}
-:do { add list=AX address=2a0f:1cc5:b15:4a00::/56 } on-error={}
-:do { add list=AX address=2a0f:1cc5:b16:4a00::/56 } on-error={}
-:do { add list=AX address=2a0f:1cc5:b17:4a00::/56 } on-error={}
 :do { add list=AX address=2a0f:a303:7800::/37 } on-error={}
 :do { add list=AX address=2a10:24c0:2c0::/48 } on-error={}
 :do { add list=AX address=2a10:24c0:2488::/48 } on-error={}
@@ -197,13 +187,5 @@
 :do { add list=AX address=2a14:2d45:e00::/40 } on-error={}
 :do { add list=AX address=2a14:2d45:4500::/40 } on-error={}
 :do { add list=AX address=2a14:7580:cf0e::/48 } on-error={}
-:do { add list=AX address=2a14:7581:b10:4a00::/56 } on-error={}
-:do { add list=AX address=2a14:7581:b11:4a00::/56 } on-error={}
-:do { add list=AX address=2a14:7581:b12:4a00::/56 } on-error={}
-:do { add list=AX address=2a14:7581:b13:4a00::/56 } on-error={}
-:do { add list=AX address=2a14:7581:b14:4a00::/56 } on-error={}
-:do { add list=AX address=2a14:7581:b15:4a00::/56 } on-error={}
-:do { add list=AX address=2a14:7581:b16:4a00::/56 } on-error={}
-:do { add list=AX address=2a14:7581:b17:4a00::/56 } on-error={}
 :do { add list=AX address=2a14:7581:be0:f800::/56 } on-error={}
 :do { add list=AX address=2a14:c300::/32 } on-error={}

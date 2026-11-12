@@ -9,8 +9,7 @@
 :do { add list=SY address=5.134.224.0/19 } on-error={}
 :do { add list=SY address=5.155.0.0/17 } on-error={}
 :do { add list=SY address=5.155.128.0/18 } on-error={}
-:do { add list=SY address=5.155.192.0/19 } on-error={}
-:do { add list=SY address=5.155.224.0/19 } on-error={}
+:do { add list=SY address=5.155.192.0/18 } on-error={}
 :do { add list=SY address=9.246.90.0/23 } on-error={}
 :do { add list=SY address=31.9.0.0/19 } on-error={}
 :do { add list=SY address=31.9.32.0/20 } on-error={}
@@ -175,7 +174,6 @@
 :do { add list=SY address=130.0.240.0/20 } on-error={}
 :do { add list=SY address=130.180.128.0/18 } on-error={}
 :do { add list=SY address=134.82.75.16/29 } on-error={}
-:do { add list=SY address=139.28.48.0/24 } on-error={}
 :do { add list=SY address=139.28.49.0/24 } on-error={}
 :do { add list=SY address=145.249.0.0/18 } on-error={}
 :do { add list=SY address=145.249.64.0/19 } on-error={}

@@ -73,7 +73,6 @@
 :do { add list=GA address=2a04:4e41:4806::/48 } on-error={}
 :do { add list=GA address=2a05:dfc1:5a58::/48 } on-error={}
 :do { add list=GA address=2a06:9f81:394a::/48 } on-error={}
-:do { add list=GA address=2a06:9f81:43ef:4b00::/56 } on-error={}
 :do { add list=GA address=2a06:9f81:564a::/48 } on-error={}
 :do { add list=GA address=2a07:d887:4b00::/40 } on-error={}
 :do { add list=GA address=2a09:bac1:2800::/64 } on-error={}
@@ -94,14 +93,6 @@
 :do { add list=GA address=2a0d:9443:d800::/37 } on-error={}
 :do { add list=GA address=2a0e:4003:bb96:585c::/64 } on-error={}
 :do { add list=GA address=2a0f:1cc1:d1a0::/44 } on-error={}
-:do { add list=GA address=2a0f:1cc5:b10:5000::/56 } on-error={}
-:do { add list=GA address=2a0f:1cc5:b11:5000::/56 } on-error={}
-:do { add list=GA address=2a0f:1cc5:b12:5000::/56 } on-error={}
-:do { add list=GA address=2a0f:1cc5:b13:5000::/56 } on-error={}
-:do { add list=GA address=2a0f:1cc5:b14:5000::/56 } on-error={}
-:do { add list=GA address=2a0f:1cc5:b15:5000::/56 } on-error={}
-:do { add list=GA address=2a0f:1cc5:b16:5000::/56 } on-error={}
-:do { add list=GA address=2a0f:1cc5:b17:5000::/56 } on-error={}
 :do { add list=GA address=2a0f:85c1:81b:f410::/60 } on-error={}
 :do { add list=GA address=2a0f:a301:9800::/37 } on-error={}
 :do { add list=GA address=2a10:500:1c00::/40 } on-error={}
@@ -146,14 +137,6 @@
 :do { add list=GA address=2a14:2d45:4b00::/40 } on-error={}
 :do { add list=GA address=2a14:67c2:821::/48 } on-error={}
 :do { add list=GA address=2a14:7580:cf4b::/48 } on-error={}
-:do { add list=GA address=2a14:7581:b10:5000::/56 } on-error={}
-:do { add list=GA address=2a14:7581:b11:5000::/56 } on-error={}
-:do { add list=GA address=2a14:7581:b12:5000::/56 } on-error={}
-:do { add list=GA address=2a14:7581:b13:5000::/56 } on-error={}
-:do { add list=GA address=2a14:7581:b14:5000::/56 } on-error={}
-:do { add list=GA address=2a14:7581:b15:5000::/56 } on-error={}
-:do { add list=GA address=2a14:7581:b16:5000::/56 } on-error={}
-:do { add list=GA address=2a14:7581:b17:5000::/56 } on-error={}
 :do { add list=GA address=2a14:7581:be1:a00::/56 } on-error={}
 :do { add list=GA address=2c0f:3800::/32 } on-error={}
 :do { add list=GA address=2c0f:4e00:87f0:981b::/64 } on-error={}

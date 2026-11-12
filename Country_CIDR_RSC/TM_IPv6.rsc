@@ -66,7 +66,6 @@
 :do { add list=TM address=2a05:dfc1:5ae6::/48 } on-error={}
 :do { add list=TM address=2a05:dfc1:8c25::/48 } on-error={}
 :do { add list=TM address=2a06:9f81:39dc::/48 } on-error={}
-:do { add list=TM address=2a06:9f81:43ef:de00::/56 } on-error={}
 :do { add list=TM address=2a06:9f81:56dc::/48 } on-error={}
 :do { add list=TM address=2a07:d887:dc00::/40 } on-error={}
 :do { add list=TM address=2a09:bac1:7100::/64 } on-error={}
@@ -90,14 +89,6 @@
 :do { add list=TM address=2a0e:4007:36::/48 } on-error={}
 :do { add list=TM address=2a0e:97c0:4bdf::/48 } on-error={}
 :do { add list=TM address=2a0f:1cc1:99b0::/44 } on-error={}
-:do { add list=TM address=2a0f:1cc5:b10:e400::/56 } on-error={}
-:do { add list=TM address=2a0f:1cc5:b11:e400::/56 } on-error={}
-:do { add list=TM address=2a0f:1cc5:b12:e400::/56 } on-error={}
-:do { add list=TM address=2a0f:1cc5:b13:e400::/56 } on-error={}
-:do { add list=TM address=2a0f:1cc5:b14:e400::/56 } on-error={}
-:do { add list=TM address=2a0f:1cc5:b15:e400::/56 } on-error={}
-:do { add list=TM address=2a0f:1cc5:b16:e400::/56 } on-error={}
-:do { add list=TM address=2a0f:1cc5:b17:e400::/56 } on-error={}
 :do { add list=TM address=2a0f:85c1:81b:fb60::/60 } on-error={}
 :do { add list=TM address=2a0f:a303:4800::/37 } on-error={}
 :do { add list=TM address=2a10:24c0:15d8::/47 } on-error={}
@@ -137,12 +128,4 @@
 :do { add list=TM address=2a14:67c1:c703::/48 } on-error={}
 :do { add list=TM address=2a14:67c2:838::/48 } on-error={}
 :do { add list=TM address=2a14:7580:cfdd::/48 } on-error={}
-:do { add list=TM address=2a14:7581:b10:e400::/56 } on-error={}
-:do { add list=TM address=2a14:7581:b11:e400::/56 } on-error={}
-:do { add list=TM address=2a14:7581:b12:e400::/56 } on-error={}
-:do { add list=TM address=2a14:7581:b13:e400::/56 } on-error={}
-:do { add list=TM address=2a14:7581:b14:e400::/56 } on-error={}
-:do { add list=TM address=2a14:7581:b15:e400::/56 } on-error={}
-:do { add list=TM address=2a14:7581:b16:e400::/56 } on-error={}
-:do { add list=TM address=2a14:7581:b17:e400::/56 } on-error={}
 :do { add list=TM address=2a14:7581:be3:1b00::/56 } on-error={}

@@ -8,7 +8,6 @@
 :do { add list=HM address=2a03:b600:0:10a0::/64 } on-error={}
 :do { add list=HM address=2a05:dfc1:5a6b::/48 } on-error={}
 :do { add list=HM address=2a06:9f81:395e::/48 } on-error={}
-:do { add list=HM address=2a06:9f81:43ef:6100::/56 } on-error={}
 :do { add list=HM address=2a06:9f81:565e::/48 } on-error={}
 :do { add list=HM address=2a07:d887:5f00::/40 } on-error={}
 :do { add list=HM address=2a0d:2684:60::/48 } on-error={}

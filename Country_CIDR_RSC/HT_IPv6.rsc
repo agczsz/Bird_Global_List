@@ -1,7 +1,6 @@
 /log info "Loading HT IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=HT address=2001:470:5:5e2::/64 } on-error={}
-:do { add list=HT address=2001:470:36:923::/64 } on-error={}
 :do { add list=HT address=2001:470:1f17:16f::/64 } on-error={}
 :do { add list=HT address=2001:470:388b::/48 } on-error={}
 :do { add list=HT address=2001:470:6883::/48 } on-error={}
@@ -108,7 +107,6 @@
 :do { add list=HT address=2a04:4e41:4414::/48 } on-error={}
 :do { add list=HT address=2a05:dfc1:5a6e::/48 } on-error={}
 :do { add list=HT address=2a06:9f81:3961::/48 } on-error={}
-:do { add list=HT address=2a06:9f81:43ef:6400::/56 } on-error={}
 :do { add list=HT address=2a06:9f81:5661::/48 } on-error={}
 :do { add list=HT address=2a07:d887:6200::/40 } on-error={}
 :do { add list=HT address=2a09:bac1:3380::/64 } on-error={}
@@ -130,14 +128,6 @@
 :do { add list=HT address=2a0d:9445:e000::/37 } on-error={}
 :do { add list=HT address=2a0e:4003:bb2d:37b::/64 } on-error={}
 :do { add list=HT address=2a0f:1cc1:e800::/44 } on-error={}
-:do { add list=HT address=2a0f:1cc5:b10:6000::/56 } on-error={}
-:do { add list=HT address=2a0f:1cc5:b11:6000::/56 } on-error={}
-:do { add list=HT address=2a0f:1cc5:b12:6000::/56 } on-error={}
-:do { add list=HT address=2a0f:1cc5:b13:6000::/56 } on-error={}
-:do { add list=HT address=2a0f:1cc5:b14:6000::/56 } on-error={}
-:do { add list=HT address=2a0f:1cc5:b15:6000::/56 } on-error={}
-:do { add list=HT address=2a0f:1cc5:b16:6000::/56 } on-error={}
-:do { add list=HT address=2a0f:1cc5:b17:6000::/56 } on-error={}
 :do { add list=HT address=2a0f:1cc5:1f44::/48 } on-error={}
 :do { add list=HT address=2a0f:85c1:81b:f4c0::/60 } on-error={}
 :do { add list=HT address=2a0f:a302:3000::/37 } on-error={}
@@ -210,12 +200,4 @@
 :do { add list=HT address=2a14:2d45:6200::/40 } on-error={}
 :do { add list=HT address=2a14:67c2:8d4::/48 } on-error={}
 :do { add list=HT address=2a14:7580:cf62::/48 } on-error={}
-:do { add list=HT address=2a14:7581:b10:6000::/56 } on-error={}
-:do { add list=HT address=2a14:7581:b11:6000::/56 } on-error={}
-:do { add list=HT address=2a14:7581:b12:6000::/56 } on-error={}
-:do { add list=HT address=2a14:7581:b13:6000::/56 } on-error={}
-:do { add list=HT address=2a14:7581:b14:6000::/56 } on-error={}
-:do { add list=HT address=2a14:7581:b15:6000::/56 } on-error={}
-:do { add list=HT address=2a14:7581:b16:6000::/56 } on-error={}
-:do { add list=HT address=2a14:7581:b17:6000::/56 } on-error={}
 :do { add list=HT address=2a14:7581:be1:4c00::/56 } on-error={}

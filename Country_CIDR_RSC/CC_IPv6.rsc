@@ -34,7 +34,6 @@
 :do { add list=CC address=2a04:4e41:4082:6000::/52 } on-error={}
 :do { add list=CC address=2a05:dfc1:5a30::/48 } on-error={}
 :do { add list=CC address=2a06:9f81:3925::/48 } on-error={}
-:do { add list=CC address=2a06:9f81:43ef:2600::/56 } on-error={}
 :do { add list=CC address=2a06:9f81:5625::/48 } on-error={}
 :do { add list=CC address=2a07:d887:2600::/40 } on-error={}
 :do { add list=CC address=2a09:bac4:130::/45 } on-error={}
@@ -45,14 +44,6 @@
 :do { add list=CC address=2a0e:4003:bbcb:4309::/64 } on-error={}
 :do { add list=CC address=2a0e:b107:2318::/45 } on-error={}
 :do { add list=CC address=2a0f:1cc1:9850::/44 } on-error={}
-:do { add list=CC address=2a0f:1cc5:b10:2f00::/56 } on-error={}
-:do { add list=CC address=2a0f:1cc5:b11:2f00::/56 } on-error={}
-:do { add list=CC address=2a0f:1cc5:b12:2f00::/56 } on-error={}
-:do { add list=CC address=2a0f:1cc5:b13:2f00::/56 } on-error={}
-:do { add list=CC address=2a0f:1cc5:b14:2f00::/56 } on-error={}
-:do { add list=CC address=2a0f:1cc5:b15:2f00::/56 } on-error={}
-:do { add list=CC address=2a0f:1cc5:b16:2f00::/56 } on-error={}
-:do { add list=CC address=2a0f:1cc5:b17:2f00::/56 } on-error={}
 :do { add list=CC address=2a0f:7803:fede::/48 } on-error={}
 :do { add list=CC address=2a10:24c0:9dd8::/48 } on-error={}
 :do { add list=CC address=2a10:24c0:bc78::/48 } on-error={}
@@ -63,12 +54,4 @@
 :do { add list=CC address=2a14:2d45:2600::/40 } on-error={}
 :do { add list=CC address=2a14:67c1:b625::/48 } on-error={}
 :do { add list=CC address=2a14:7580:cf26::/48 } on-error={}
-:do { add list=CC address=2a14:7581:b10:2f00::/56 } on-error={}
-:do { add list=CC address=2a14:7581:b11:2f00::/56 } on-error={}
-:do { add list=CC address=2a14:7581:b12:2f00::/56 } on-error={}
-:do { add list=CC address=2a14:7581:b13:2f00::/56 } on-error={}
-:do { add list=CC address=2a14:7581:b14:2f00::/56 } on-error={}
-:do { add list=CC address=2a14:7581:b15:2f00::/56 } on-error={}
-:do { add list=CC address=2a14:7581:b16:2f00::/56 } on-error={}
-:do { add list=CC address=2a14:7581:b17:2f00::/56 } on-error={}
 :do { add list=CC address=2a14:7581:be0:a600::/56 } on-error={}

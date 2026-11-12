@@ -101,7 +101,6 @@
 :do { add list=KG address=2a05:c880::/29 } on-error={}
 :do { add list=KG address=2a05:dfc1:5a7f::/48 } on-error={}
 :do { add list=KG address=2a06:9f81:3972::/48 } on-error={}
-:do { add list=KG address=2a06:9f81:43ef:7500::/56 } on-error={}
 :do { add list=KG address=2a06:9f81:5672::/48 } on-error={}
 :do { add list=KG address=2a06:b440:170::/48 } on-error={}
 :do { add list=KG address=2a07:ac0::/29 } on-error={}
@@ -139,14 +138,6 @@
 :do { add list=KG address=2a0f:f00:4012::/47 } on-error={}
 :do { add list=KG address=2a0f:f00:4017::/48 } on-error={}
 :do { add list=KG address=2a0f:1cc1:98c0::/44 } on-error={}
-:do { add list=KG address=2a0f:1cc5:b10:7700::/56 } on-error={}
-:do { add list=KG address=2a0f:1cc5:b11:7700::/56 } on-error={}
-:do { add list=KG address=2a0f:1cc5:b12:7700::/56 } on-error={}
-:do { add list=KG address=2a0f:1cc5:b13:7700::/56 } on-error={}
-:do { add list=KG address=2a0f:1cc5:b14:7700::/56 } on-error={}
-:do { add list=KG address=2a0f:1cc5:b15:7700::/56 } on-error={}
-:do { add list=KG address=2a0f:1cc5:b16:7700::/56 } on-error={}
-:do { add list=KG address=2a0f:1cc5:b17:7700::/56 } on-error={}
 :do { add list=KG address=2a0f:5240::/32 } on-error={}
 :do { add list=KG address=2a0f:85c1:81b:f600::/60 } on-error={}
 :do { add list=KG address=2a0f:bb80::/32 } on-error={}
@@ -205,13 +196,5 @@
 :do { add list=KG address=2a14:2d45:7300::/40 } on-error={}
 :do { add list=KG address=2a14:67c2:88a::/48 } on-error={}
 :do { add list=KG address=2a14:7580:cf73::/48 } on-error={}
-:do { add list=KG address=2a14:7581:b10:7700::/56 } on-error={}
-:do { add list=KG address=2a14:7581:b11:7700::/56 } on-error={}
-:do { add list=KG address=2a14:7581:b12:7700::/56 } on-error={}
-:do { add list=KG address=2a14:7581:b13:7700::/56 } on-error={}
-:do { add list=KG address=2a14:7581:b14:7700::/56 } on-error={}
-:do { add list=KG address=2a14:7581:b15:7700::/56 } on-error={}
-:do { add list=KG address=2a14:7581:b16:7700::/56 } on-error={}
-:do { add list=KG address=2a14:7581:b17:7700::/56 } on-error={}
 :do { add list=KG address=2a14:7581:be1:a100::/56 } on-error={}
 :do { add list=KG address=2a14:b200::/29 } on-error={}

@@ -1532,7 +1532,6 @@
 :do { add list=TN address=2a04:4e41:5809::/48 } on-error={}
 :do { add list=TN address=2a05:dfc1:5ae7::/48 } on-error={}
 :do { add list=TN address=2a06:9f81:39dd::/48 } on-error={}
-:do { add list=TN address=2a06:9f81:43ef:df00::/56 } on-error={}
 :do { add list=TN address=2a06:9f81:56dd::/48 } on-error={}
 :do { add list=TN address=2a06:b440:92::/48 } on-error={}
 :do { add list=TN address=2a07:d887:dd00::/40 } on-error={}
@@ -1567,14 +1566,6 @@
 :do { add list=TN address=2a0d:9445:5800::/37 } on-error={}
 :do { add list=TN address=2a0e:4003:bb96:d1e::/64 } on-error={}
 :do { add list=TN address=2a0f:1cc1:cf00::/40 } on-error={}
-:do { add list=TN address=2a0f:1cc5:b10:e200::/56 } on-error={}
-:do { add list=TN address=2a0f:1cc5:b11:e200::/56 } on-error={}
-:do { add list=TN address=2a0f:1cc5:b12:e200::/56 } on-error={}
-:do { add list=TN address=2a0f:1cc5:b13:e200::/56 } on-error={}
-:do { add list=TN address=2a0f:1cc5:b14:e200::/56 } on-error={}
-:do { add list=TN address=2a0f:1cc5:b15:e200::/56 } on-error={}
-:do { add list=TN address=2a0f:1cc5:b16:e200::/56 } on-error={}
-:do { add list=TN address=2a0f:1cc5:b17:e200::/56 } on-error={}
 :do { add list=TN address=2a0f:1cc5:1f6b::/48 } on-error={}
 :do { add list=TN address=2a0f:85c1:340::c4:0/112 } on-error={}
 :do { add list=TN address=2a0f:85c1:81b:fb40::/60 } on-error={}
@@ -1685,14 +1676,6 @@
 :do { add list=TN address=2a14:67c1:b6dd::/48 } on-error={}
 :do { add list=TN address=2a14:67c2:888::/48 } on-error={}
 :do { add list=TN address=2a14:7580:cfde::/48 } on-error={}
-:do { add list=TN address=2a14:7581:b10:e200::/56 } on-error={}
-:do { add list=TN address=2a14:7581:b11:e200::/56 } on-error={}
-:do { add list=TN address=2a14:7581:b12:e200::/56 } on-error={}
-:do { add list=TN address=2a14:7581:b13:e200::/56 } on-error={}
-:do { add list=TN address=2a14:7581:b14:e200::/56 } on-error={}
-:do { add list=TN address=2a14:7581:b15:e200::/56 } on-error={}
-:do { add list=TN address=2a14:7581:b16:e200::/56 } on-error={}
-:do { add list=TN address=2a14:7581:b17:e200::/56 } on-error={}
 :do { add list=TN address=2a14:7581:be3:1400::/56 } on-error={}
 :do { add list=TN address=2c0f:4280::/32 } on-error={}
 :do { add list=TN address=2c0f:4840::/32 } on-error={}

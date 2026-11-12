@@ -79,7 +79,6 @@
 :do { add list=BQ address=2a04:4e41:4081:d000::/52 } on-error={}
 :do { add list=BQ address=2a05:dfc1:5a27::/48 } on-error={}
 :do { add list=BQ address=2a06:9f81:391e::/48 } on-error={}
-:do { add list=BQ address=2a06:9f81:43ef:1d00::/56 } on-error={}
 :do { add list=BQ address=2a06:9f81:561e::/48 } on-error={}
 :do { add list=BQ address=2a07:d887:1d00::/40 } on-error={}
 :do { add list=BQ address=2a09:bac1:1080::/64 } on-error={}
@@ -95,14 +94,6 @@
 :do { add list=BQ address=2a0d:9440:7800::/37 } on-error={}
 :do { add list=BQ address=2a0e:4003:bb2d:84ca::/64 } on-error={}
 :do { add list=BQ address=2a0f:1cc1:e760::/44 } on-error={}
-:do { add list=BQ address=2a0f:1cc5:b10:9b00::/56 } on-error={}
-:do { add list=BQ address=2a0f:1cc5:b11:9b00::/56 } on-error={}
-:do { add list=BQ address=2a0f:1cc5:b12:9b00::/56 } on-error={}
-:do { add list=BQ address=2a0f:1cc5:b13:9b00::/56 } on-error={}
-:do { add list=BQ address=2a0f:1cc5:b14:9b00::/56 } on-error={}
-:do { add list=BQ address=2a0f:1cc5:b15:9b00::/56 } on-error={}
-:do { add list=BQ address=2a0f:1cc5:b16:9b00::/56 } on-error={}
-:do { add list=BQ address=2a0f:1cc5:b17:9b00::/56 } on-error={}
 :do { add list=BQ address=2a0f:a302:c000::/37 } on-error={}
 :do { add list=BQ address=2a10:24c0:81a1::/48 } on-error={}
 :do { add list=BQ address=2a10:24c0:a551::/48 } on-error={}
@@ -125,12 +116,4 @@
 :do { add list=BQ address=2a14:1c0:7000::/37 } on-error={}
 :do { add list=BQ address=2a14:2d45:1d00::/40 } on-error={}
 :do { add list=BQ address=2a14:7580:cf1d::/48 } on-error={}
-:do { add list=BQ address=2a14:7581:b10:9b00::/56 } on-error={}
-:do { add list=BQ address=2a14:7581:b11:9b00::/56 } on-error={}
-:do { add list=BQ address=2a14:7581:b12:9b00::/56 } on-error={}
-:do { add list=BQ address=2a14:7581:b13:9b00::/56 } on-error={}
-:do { add list=BQ address=2a14:7581:b14:9b00::/56 } on-error={}
-:do { add list=BQ address=2a14:7581:b15:9b00::/56 } on-error={}
-:do { add list=BQ address=2a14:7581:b16:9b00::/56 } on-error={}
-:do { add list=BQ address=2a14:7581:b17:9b00::/56 } on-error={}
 :do { add list=BQ address=2a14:7581:be2:1700::/56 } on-error={}

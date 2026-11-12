@@ -27,7 +27,6 @@
 :do { add list=CX address=2a05:4140:6b::/48 } on-error={}
 :do { add list=CX address=2a05:dfc1:5a40::/48 } on-error={}
 :do { add list=CX address=2a06:9f81:3934::/48 } on-error={}
-:do { add list=CX address=2a06:9f81:43ef:3500::/56 } on-error={}
 :do { add list=CX address=2a06:9f81:5634::/48 } on-error={}
 :do { add list=CX address=2a07:d887:3500::/40 } on-error={}
 :do { add list=CX address=2a09:bac4:1a8::/45 } on-error={}
@@ -40,14 +39,6 @@
 :do { add list=CX address=2a0e:4003:bbcb:f90a::/64 } on-error={}
 :do { add list=CX address=2a0e:b107:2388::/45 } on-error={}
 :do { add list=CX address=2a0f:1cc1:9860::/44 } on-error={}
-:do { add list=CX address=2a0f:1cc5:b10:2e00::/56 } on-error={}
-:do { add list=CX address=2a0f:1cc5:b11:2e00::/56 } on-error={}
-:do { add list=CX address=2a0f:1cc5:b12:2e00::/56 } on-error={}
-:do { add list=CX address=2a0f:1cc5:b13:2e00::/56 } on-error={}
-:do { add list=CX address=2a0f:1cc5:b14:2e00::/56 } on-error={}
-:do { add list=CX address=2a0f:1cc5:b15:2e00::/56 } on-error={}
-:do { add list=CX address=2a0f:1cc5:b16:2e00::/56 } on-error={}
-:do { add list=CX address=2a0f:1cc5:b17:2e00::/56 } on-error={}
 :do { add list=CX address=2a0f:7803:fecb::/48 } on-error={}
 :do { add list=CX address=2a0f:7803:fedf::/48 } on-error={}
 :do { add list=CX address=2a0f:9400:616e::/48 } on-error={}
@@ -63,12 +54,4 @@
 :do { add list=CX address=2a14:67c1:b561::/48 } on-error={}
 :do { add list=CX address=2a14:67c1:b634::/48 } on-error={}
 :do { add list=CX address=2a14:7580:cf35::/48 } on-error={}
-:do { add list=CX address=2a14:7581:b10:2e00::/56 } on-error={}
-:do { add list=CX address=2a14:7581:b11:2e00::/56 } on-error={}
-:do { add list=CX address=2a14:7581:b12:2e00::/56 } on-error={}
-:do { add list=CX address=2a14:7581:b13:2e00::/56 } on-error={}
-:do { add list=CX address=2a14:7581:b14:2e00::/56 } on-error={}
-:do { add list=CX address=2a14:7581:b15:2e00::/56 } on-error={}
-:do { add list=CX address=2a14:7581:b16:2e00::/56 } on-error={}
-:do { add list=CX address=2a14:7581:b17:2e00::/56 } on-error={}
 :do { add list=CX address=2a14:7581:be0:a200::/56 } on-error={}
