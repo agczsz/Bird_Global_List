@@ -244,6 +244,7 @@
 :do { add list=GE address=2607:8940:41f0:d00::/56 } on-error={}
 :do { add list=GE address=2607:8940:41f0:e00::/56 } on-error={}
 :do { add list=GE address=2a00:1c28:6::/48 } on-error={}
+:do { add list=GE address=2a00:5180:2::/48 } on-error={}
 :do { add list=GE address=2a00:e8c0::/29 } on-error={}
 :do { add list=GE address=2a00:f2e0::/32 } on-error={}
 :do { add list=GE address=2a01:47a0::/32 } on-error={}

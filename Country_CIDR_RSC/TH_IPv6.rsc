@@ -2475,12 +2475,9 @@
 :do { add list=TH address=2403:6200:8846::/48 } on-error={}
 :do { add list=TH address=2403:6200:8847::/48 } on-error={}
 :do { add list=TH address=2403:6200:8848::/45 } on-error={}
-:do { add list=TH address=2403:6200:8850::/47 } on-error={}
-:do { add list=TH address=2403:6200:8852::/48 } on-error={}
-:do { add list=TH address=2403:6200:8853::/48 } on-error={}
+:do { add list=TH address=2403:6200:8850::/46 } on-error={}
 :do { add list=TH address=2403:6200:8854::/47 } on-error={}
-:do { add list=TH address=2403:6200:8856::/48 } on-error={}
-:do { add list=TH address=2403:6200:8857::/48 } on-error={}
+:do { add list=TH address=2403:6200:8856::/47 } on-error={}
 :do { add list=TH address=2403:6200:8858::/48 } on-error={}
 :do { add list=TH address=2403:6200:8859::/48 } on-error={}
 :do { add list=TH address=2403:6200:885a::/47 } on-error={}

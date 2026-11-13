@@ -6,6 +6,7 @@
 :do { add list=AW address=2602:2a9:ca0::/44 } on-error={}
 :do { add list=AW address=2602:814:fc34::/46 } on-error={}
 :do { add list=AW address=2605:59c0:7100::/40 } on-error={}
+:do { add list=AW address=2606:40:2:f000::/54 } on-error={}
 :do { add list=AW address=2606:40:ec0::/43 } on-error={}
 :do { add list=AW address=2606:40:205d:8000::/51 } on-error={}
 :do { add list=AW address=2606:40:2148:e000::/51 } on-error={}

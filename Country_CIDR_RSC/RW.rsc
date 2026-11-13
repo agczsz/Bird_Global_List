@@ -296,7 +296,6 @@
 :do { add list=RW address=197.157.144.0/20 } on-error={}
 :do { add list=RW address=197.157.160.0/19 } on-error={}
 :do { add list=RW address=197.157.212.0/22 } on-error={}
-:do { add list=RW address=197.234.244.0/22 } on-error={}
 :do { add list=RW address=197.243.0.0/18 } on-error={}
 :do { add list=RW address=197.243.64.0/19 } on-error={}
 :do { add list=RW address=197.243.96.0/20 } on-error={}

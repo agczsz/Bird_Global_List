@@ -297,6 +297,7 @@
 :do { add list=EC address=2602:fd92:b00:137::/64 } on-error={}
 :do { add list=EC address=2602:fd92:b00:189::/64 } on-error={}
 :do { add list=EC address=2605:ecc0:400::/40 } on-error={}
+:do { add list=EC address=2606:40:3:1800::/54 } on-error={}
 :do { add list=EC address=2606:40:d20::/43 } on-error={}
 :do { add list=EC address=2606:40:214a:2000::/51 } on-error={}
 :do { add list=EC address=2606:40:2306:4000::/51 } on-error={}

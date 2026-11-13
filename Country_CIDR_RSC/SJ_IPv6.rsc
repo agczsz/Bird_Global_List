@@ -1,6 +1,7 @@
 /log info "Loading SJ IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=SJ address=2602:814:ff20::/46 } on-error={}
+:do { add list=SJ address=2606:40:10:ac00::/54 } on-error={}
 :do { add list=SJ address=2606:40:16b0::/44 } on-error={}
 :do { add list=SJ address=2606:40:16c0::/44 } on-error={}
 :do { add list=SJ address=2606:40:21c2::/54 } on-error={}
@@ -53,3 +54,4 @@
 :do { add list=SJ address=2a14:2d45:c700::/40 } on-error={}
 :do { add list=SJ address=2a14:7580:cfc8::/48 } on-error={}
 :do { add list=SJ address=2a14:7581:be2:e800::/56 } on-error={}
+:do { add list=SJ address=2a14:7584:eff5::/48 } on-error={}

@@ -401,7 +401,6 @@
 :do { add list=NP address=2a07:d887:a600::/40 } on-error={}
 :do { add list=NP address=2a09:bac0:1000:11ce::/64 } on-error={}
 :do { add list=NP address=2a09:bac0:1000:13bf::/64 } on-error={}
-:do { add list=NP address=2a09:bac0:1000:16e4::/64 } on-error={}
 :do { add list=NP address=2a09:bac1:5600::/64 } on-error={}
 :do { add list=NP address=2a09:bac1:5600:8::/64 } on-error={}
 :do { add list=NP address=2a09:bac1:5620::/64 } on-error={}

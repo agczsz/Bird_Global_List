@@ -262,3 +262,4 @@
 :do { add list=EH address=2a14:2d45:4100::/40 } on-error={}
 :do { add list=EH address=2a14:7580:cf41::/48 } on-error={}
 :do { add list=EH address=2a14:7581:be2:dc00::/56 } on-error={}
+:do { add list=EH address=2a14:7584:eff1::/48 } on-error={}

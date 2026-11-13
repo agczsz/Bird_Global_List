@@ -10,7 +10,6 @@
 :do { add list=BY address=2001:470:28:c1d::/64 } on-error={}
 :do { add list=BY address=2001:470:28:d03::/64 } on-error={}
 :do { add list=BY address=2001:470:28:10e4::/64 } on-error={}
-:do { add list=BY address=2001:470:28:1253::/64 } on-error={}
 :do { add list=BY address=2001:470:36:1ec::/64 } on-error={}
 :do { add list=BY address=2001:470:36:885::/64 } on-error={}
 :do { add list=BY address=2001:470:6d:29c::/64 } on-error={}
@@ -68,6 +67,7 @@
 :do { add list=BY address=2001:470:74f1::/48 } on-error={}
 :do { add list=BY address=2001:470:7623::/48 } on-error={}
 :do { add list=BY address=2001:470:7657::/48 } on-error={}
+:do { add list=BY address=2001:470:7658::/48 } on-error={}
 :do { add list=BY address=2001:470:782f::/48 } on-error={}
 :do { add list=BY address=2001:470:7853::/48 } on-error={}
 :do { add list=BY address=2001:470:789d::/48 } on-error={}

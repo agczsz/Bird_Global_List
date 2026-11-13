@@ -15,6 +15,7 @@
 :do { add list=BZ address=2405:b500:1460::/64 } on-error={}
 :do { add list=BZ address=2602:814:fc90::/46 } on-error={}
 :do { add list=BZ address=2605:59c0:4b00::/40 } on-error={}
+:do { add list=BZ address=2606:40:3::/54 } on-error={}
 :do { add list=BZ address=2606:40:c80::/43 } on-error={}
 :do { add list=BZ address=2606:40:209d:4000::/51 } on-error={}
 :do { add list=BZ address=2606:40:2149:8000::/51 } on-error={}

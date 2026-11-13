@@ -41,6 +41,7 @@
 :do { add list=CR address=2605:59c0:6900::/40 } on-error={}
 :do { add list=CR address=2605:59c8:7240::/42 } on-error={}
 :do { add list=CR address=2605:59c8:7500::/42 } on-error={}
+:do { add list=CR address=2606:40:3:800::/54 } on-error={}
 :do { add list=CR address=2606:40:d80::/43 } on-error={}
 :do { add list=CR address=2606:40:205e::/51 } on-error={}
 :do { add list=CR address=2606:40:2149:a000::/51 } on-error={}
@@ -233,14 +234,16 @@
 :do { add list=CR address=2803:21a0::/32 } on-error={}
 :do { add list=CR address=2803:22a0::/32 } on-error={}
 :do { add list=CR address=2803:2cc0::/32 } on-error={}
+:do { add list=CR address=2803:2d60:1010:1200::/56 } on-error={}
 :do { add list=CR address=2803:2d60:1012:cf8f::/64 } on-error={}
 :do { add list=CR address=2803:2d60:1013:2100::/56 } on-error={}
+:do { add list=CR address=2803:2d60:1014:b400::/56 } on-error={}
 :do { add list=CR address=2803:2d60:1015:e000::/56 } on-error={}
 :do { add list=CR address=2803:2d60:1016:1e00::/56 } on-error={}
 :do { add list=CR address=2803:2d60:101a:900::/56 } on-error={}
 :do { add list=CR address=2803:2d60:101b:5300::/56 } on-error={}
-:do { add list=CR address=2803:2d60:101b:7500::/56 } on-error={}
 :do { add list=CR address=2803:2d60:101c:b000::/56 } on-error={}
+:do { add list=CR address=2803:2d60:101e::/56 } on-error={}
 :do { add list=CR address=2803:2d60:101e:2200::/56 } on-error={}
 :do { add list=CR address=2803:2d60:101f:300::/56 } on-error={}
 :do { add list=CR address=2803:2d60:1032:600::/56 } on-error={}
@@ -249,8 +252,6 @@
 :do { add list=CR address=2803:2d60:1038:5b00::/56 } on-error={}
 :do { add list=CR address=2803:2d60:1038:6f00::/56 } on-error={}
 :do { add list=CR address=2803:2d60:1038:8d00::/56 } on-error={}
-:do { add list=CR address=2803:2d60:1038:eb00::/56 } on-error={}
-:do { add list=CR address=2803:2d60:1039:7700::/56 } on-error={}
 :do { add list=CR address=2803:2d60:1039:7d00::/56 } on-error={}
 :do { add list=CR address=2803:2d60:103c:7c00::/56 } on-error={}
 :do { add list=CR address=2803:2d60:103c:bd00::/56 } on-error={}

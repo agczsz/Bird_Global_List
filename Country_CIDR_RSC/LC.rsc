@@ -53,6 +53,7 @@
 :do { add list=LC address=104.200.98.0/26 } on-error={}
 :do { add list=LC address=104.218.216.0/22 } on-error={}
 :do { add list=LC address=104.255.252.0/22 } on-error={}
+:do { add list=LC address=136.23.40.208/32 } on-error={}
 :do { add list=LC address=140.248.6.78/31 } on-error={}
 :do { add list=LC address=140.248.46.120/31 } on-error={}
 :do { add list=LC address=140.248.56.127/32 } on-error={}

@@ -199,8 +199,7 @@
 :do { add list=MM address=2400:cea0::/32 } on-error={}
 :do { add list=MM address=2400:de40::/32 } on-error={}
 :do { add list=MM address=2400:e160::/32 } on-error={}
-:do { add list=MM address=2400:e8a0::/36 } on-error={}
-:do { add list=MM address=2400:e8a0:1000::/36 } on-error={}
+:do { add list=MM address=2400:e8a0::/35 } on-error={}
 :do { add list=MM address=2400:e8a0:2000::/36 } on-error={}
 :do { add list=MM address=2400:e8a0:3000::/36 } on-error={}
 :do { add list=MM address=2400:e8a0:4000::/34 } on-error={}

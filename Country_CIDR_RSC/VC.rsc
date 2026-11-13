@@ -56,6 +56,7 @@
 :do { add list=VC address=104.29.206.166/31 } on-error={}
 :do { add list=VC address=104.219.24.0/22 } on-error={}
 :do { add list=VC address=104.255.232.0/22 } on-error={}
+:do { add list=VC address=136.23.40.219/32 } on-error={}
 :do { add list=VC address=140.248.4.62/31 } on-error={}
 :do { add list=VC address=140.248.44.102/31 } on-error={}
 :do { add list=VC address=140.248.56.236/32 } on-error={}

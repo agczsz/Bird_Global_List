@@ -240,7 +240,6 @@
 :do { add list=BY address=93.125.56.0/23 } on-error={}
 :do { add list=BY address=93.125.58.0/24 } on-error={}
 :do { add list=BY address=93.125.59.0/24 } on-error={}
-:do { add list=BY address=93.125.60.0/23 } on-error={}
 :do { add list=BY address=93.125.62.0/23 } on-error={}
 :do { add list=BY address=93.125.64.0/22 } on-error={}
 :do { add list=BY address=93.125.68.0/23 } on-error={}

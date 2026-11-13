@@ -26,6 +26,7 @@
 :do { add list=AW address=104.28.228.164/31 } on-error={}
 :do { add list=AW address=104.29.194.100/30 } on-error={}
 :do { add list=AW address=134.82.73.80/29 } on-error={}
+:do { add list=AW address=136.23.40.188/32 } on-error={}
 :do { add list=AW address=138.255.252.0/24 } on-error={}
 :do { add list=AW address=138.255.254.0/26 } on-error={}
 :do { add list=AW address=138.255.254.64/28 } on-error={}

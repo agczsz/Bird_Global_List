@@ -10,6 +10,7 @@
 :do { add list=TC address=2604:a180:5000::/36 } on-error={}
 :do { add list=TC address=2604:a180:a000::/35 } on-error={}
 :do { add list=TC address=2605:59c0:7500::/40 } on-error={}
+:do { add list=TC address=2606:40:3:6400::/54 } on-error={}
 :do { add list=TC address=2606:40:1720::/44 } on-error={}
 :do { add list=TC address=2606:40:1a90::/44 } on-error={}
 :do { add list=TC address=2606:40:1aa0::/44 } on-error={}

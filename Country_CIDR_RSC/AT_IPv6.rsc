@@ -654,8 +654,8 @@
 :do { add list=AT address=2001:678:e00::/48 } on-error={}
 :do { add list=AT address=2001:678:e68:103::2/127 } on-error={}
 :do { add list=AT address=2001:678:e68:104::2/127 } on-error={}
-:do { add list=AT address=2001:678:e68:ff00::3/128 } on-error={}
-:do { add list=AT address=2001:678:e68:ff00::4/128 } on-error={}
+:do { add list=AT address=2001:678:e68:c001::/64 } on-error={}
+:do { add list=AT address=2001:678:e68:ff00::/64 } on-error={}
 :do { add list=AT address=2001:678:e68:fff0::1/128 } on-error={}
 :do { add list=AT address=2001:678:e90::/48 } on-error={}
 :do { add list=AT address=2001:678:ea4::/48 } on-error={}

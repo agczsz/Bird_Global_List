@@ -3412,4 +3412,5 @@
 :do { add list=RS address=2a14:67c2:862::/48 } on-error={}
 :do { add list=RS address=2a14:7580:cfbd::/48 } on-error={}
 :do { add list=RS address=2a14:7581:be2:b000::/56 } on-error={}
+:do { add list=RS address=2a14:7584:e046::/48 } on-error={}
 :do { add list=RS address=2a14:bf80::/29 } on-error={}

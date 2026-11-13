@@ -90,6 +90,7 @@
 :do { add list=DO address=2605:59c0:b700::/40 } on-error={}
 :do { add list=DO address=2605:59c8:6480::/42 } on-error={}
 :do { add list=DO address=2605:59ca:9100::/40 } on-error={}
+:do { add list=DO address=2606:40:3:1400::/54 } on-error={}
 :do { add list=DO address=2606:40:d00::/43 } on-error={}
 :do { add list=DO address=2606:40:2041:a400::/54 } on-error={}
 :do { add list=DO address=2606:40:205e:4000::/51 } on-error={}

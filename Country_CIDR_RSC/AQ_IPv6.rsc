@@ -45,6 +45,7 @@
 :do { add list=AQ address=2602:feda:ab2::/48 } on-error={}
 :do { add list=AQ address=2602:feda:ab4::/47 } on-error={}
 :do { add list=AQ address=2602:feda:ab8::/45 } on-error={}
+:do { add list=AQ address=2606:40:2:ec00::/54 } on-error={}
 :do { add list=AQ address=2606:40:6bc::/46 } on-error={}
 :do { add list=AQ address=2606:40:6c0::/45 } on-error={}
 :do { add list=AQ address=2606:40:6c8::/46 } on-error={}

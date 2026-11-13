@@ -58,6 +58,7 @@
 :do { add list=TT address=131.100.160.0/22 } on-error={}
 :do { add list=TT address=131.221.28.0/22 } on-error={}
 :do { add list=TT address=134.82.73.160/29 } on-error={}
+:do { add list=TT address=136.23.40.218/32 } on-error={}
 :do { add list=TT address=138.59.24.0/22 } on-error={}
 :do { add list=TT address=138.94.240.0/22 } on-error={}
 :do { add list=TT address=140.248.4.58/31 } on-error={}

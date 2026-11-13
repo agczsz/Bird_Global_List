@@ -46,3 +46,4 @@
 :do { add list=TF address=2a14:67c1:b6d6::/48 } on-error={}
 :do { add list=TF address=2a14:7580:cfd7::/48 } on-error={}
 :do { add list=TF address=2a14:7581:be1:400::/56 } on-error={}
+:do { add list=TF address=2a14:7584:eff2::/48 } on-error={}

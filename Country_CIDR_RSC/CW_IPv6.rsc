@@ -10,6 +10,7 @@
 :do { add list=CW address=2602:814:fcd0::/46 } on-error={}
 :do { add list=CW address=2605:59c0:7200::/40 } on-error={}
 :do { add list=CW address=2605:59c8:6680::/42 } on-error={}
+:do { add list=CW address=2606:40:3:c00::/54 } on-error={}
 :do { add list=CW address=2606:40:d60::/43 } on-error={}
 :do { add list=CW address=2606:40:205e:2000::/51 } on-error={}
 :do { add list=CW address=2606:40:2149:c000::/51 } on-error={}

@@ -25,6 +25,7 @@
 :do { add list=HT address=2602:2a9:b60::/44 } on-error={}
 :do { add list=HT address=2602:814:fd88::/46 } on-error={}
 :do { add list=HT address=2605:59c0:bc00::/40 } on-error={}
+:do { add list=HT address=2606:40:3:3000::/54 } on-error={}
 :do { add list=HT address=2606:40:ee0::/43 } on-error={}
 :do { add list=HT address=2606:40:20f5:8000::/51 } on-error={}
 :do { add list=HT address=2606:40:214a:e000::/51 } on-error={}

@@ -403,6 +403,7 @@
 :do { add list=VE address=2803:18d0::/32 } on-error={}
 :do { add list=VE address=2803:18e0::/32 } on-error={}
 :do { add list=VE address=2803:1a10::/32 } on-error={}
+:do { add list=VE address=2803:1b10::/32 } on-error={}
 :do { add list=VE address=2803:1b60::/32 } on-error={}
 :do { add list=VE address=2803:1d50::/32 } on-error={}
 :do { add list=VE address=2803:1f80::/32 } on-error={}

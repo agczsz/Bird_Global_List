@@ -424,7 +424,6 @@
 :do { add list=CI address=197.239.192.0/18 } on-error={}
 :do { add list=CI address=197.242.208.0/20 } on-error={}
 :do { add list=CI address=197.242.224.0/20 } on-error={}
-:do { add list=CI address=212.96.27.0/24 } on-error={}
 :do { add list=CI address=212.115.188.76/30 } on-error={}
 :do { add list=CI address=212.115.189.224/29 } on-error={}
 :do { add list=CI address=212.133.84.20/32 } on-error={}

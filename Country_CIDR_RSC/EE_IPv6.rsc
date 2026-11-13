@@ -1302,6 +1302,12 @@
 :do { add list=EE address=2604:b040:13:d00:1:5:1:0/112 } on-error={}
 :do { add list=EE address=2604:ea80:6200::/40 } on-error={}
 :do { add list=EE address=2605:7a80:9914::/47 } on-error={}
+:do { add list=EE address=2606:40:10:9000::/54 } on-error={}
+:do { add list=EE address=2606:40:10:dc00::/54 } on-error={}
+:do { add list=EE address=2606:40:10:e000::/53 } on-error={}
+:do { add list=EE address=2606:40:10:e800::/54 } on-error={}
+:do { add list=EE address=2606:40:e0:a000::/54 } on-error={}
+:do { add list=EE address=2606:40:e1:4c00::/54 } on-error={}
 :do { add list=EE address=2606:40:640::/44 } on-error={}
 :do { add list=EE address=2606:40:6f0::/46 } on-error={}
 :do { add list=EE address=2606:40:6f8::/45 } on-error={}
