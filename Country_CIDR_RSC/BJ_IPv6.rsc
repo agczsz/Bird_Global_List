@@ -392,7 +392,7 @@
 :do { add list=BJ address=2a0a:6044:f928::/45 } on-error={}
 :do { add list=BJ address=2a0d:2684:18::/48 } on-error={}
 :do { add list=BJ address=2a0d:9444:e800::/37 } on-error={}
-:do { add list=BJ address=2a0e:4003:bb96:13c2::/64 } on-error={}
+:do { add list=BJ address=2a0e:4003:bb2d:9410::/64 } on-error={}
 :do { add list=BJ address=2a0e:b107:22b0::/45 } on-error={}
 :do { add list=BJ address=2a0f:1cc1:d110::/44 } on-error={}
 :do { add list=BJ address=2a0f:85c1:81b:f160::/60 } on-error={}

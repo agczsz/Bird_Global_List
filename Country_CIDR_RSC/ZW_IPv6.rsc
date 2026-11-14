@@ -256,7 +256,7 @@
 :do { add list=ZW address=2a0a:6044:f01c::/47 } on-error={}
 :do { add list=ZW address=2a0d:2684:f9::/48 } on-error={}
 :do { add list=ZW address=2a0d:9445:7800::/37 } on-error={}
-:do { add list=ZW address=2a0e:4003:bb96:a686::/64 } on-error={}
+:do { add list=ZW address=2a0e:4003:bb2d:2505::/64 } on-error={}
 :do { add list=ZW address=2a0f:1cc1:d380::/44 } on-error={}
 :do { add list=ZW address=2a0f:7803:ff10:5c00::/54 } on-error={}
 :do { add list=ZW address=2a0f:85c1:340::d0:0/112 } on-error={}

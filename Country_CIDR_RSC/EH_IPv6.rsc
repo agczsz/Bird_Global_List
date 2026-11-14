@@ -245,7 +245,7 @@
 :do { add list=EH address=2a0a:6040:f6c::/48 } on-error={}
 :do { add list=EH address=2a0d:2684:41::/48 } on-error={}
 :do { add list=EH address=2a0d:9447:d000::/37 } on-error={}
-:do { add list=EH address=2a0e:4003:bb96:daed::/64 } on-error={}
+:do { add list=EH address=2a0e:4003:bb2d:2166::/64 } on-error={}
 :do { add list=EH address=2a0e:b107:23e8::/45 } on-error={}
 :do { add list=EH address=2a0f:1cc1:d170::/44 } on-error={}
 :do { add list=EH address=2a0f:1cc5:1f6c::/48 } on-error={}

@@ -100,6 +100,7 @@
 :do { add list=TL address=2a0a:6044:f342::/48 } on-error={}
 :do { add list=TL address=2a0d:2684:dd::/48 } on-error={}
 :do { add list=TL address=2a0d:9440:1000::/37 } on-error={}
+:do { add list=TL address=2a0e:4003:bb79:702e::/64 } on-error={}
 :do { add list=TL address=2a0e:4003:bbcb:b702::/64 } on-error={}
 :do { add list=TL address=2a0f:1cc1:fe60::/44 } on-error={}
 :do { add list=TL address=2a0f:1cc5:1fda::/48 } on-error={}

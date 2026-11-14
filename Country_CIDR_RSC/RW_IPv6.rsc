@@ -159,7 +159,7 @@
 :do { add list=RW address=2a0a:6044:fb1e::/48 } on-error={}
 :do { add list=RW address=2a0d:2684:c0::/48 } on-error={}
 :do { add list=RW address=2a0d:9444:1800::/37 } on-error={}
-:do { add list=RW address=2a0e:4003:bb96:f9b4::/64 } on-error={}
+:do { add list=RW address=2a0e:4003:bb2d:644e::/64 } on-error={}
 :do { add list=RW address=2a0e:97c1:8a27::/48 } on-error={}
 :do { add list=RW address=2a0f:1cc1:d2c0::/44 } on-error={}
 :do { add list=RW address=2a0f:85c1:81b:f920::/60 } on-error={}

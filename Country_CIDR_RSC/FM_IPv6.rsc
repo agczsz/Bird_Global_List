@@ -298,6 +298,7 @@
 :do { add list=FM address=2a0a:6040:fe5::/48 } on-error={}
 :do { add list=FM address=2a0d:2684:49::/48 } on-error={}
 :do { add list=FM address=2a0d:9440:d000::/37 } on-error={}
+:do { add list=FM address=2a0e:4003:bb79:d430::/64 } on-error={}
 :do { add list=FM address=2a0e:4003:bbcb:21f0::/64 } on-error={}
 :do { add list=FM address=2a0e:b107:19c::/48 } on-error={}
 :do { add list=FM address=2a0f:1cc1:fd60::/44 } on-error={}

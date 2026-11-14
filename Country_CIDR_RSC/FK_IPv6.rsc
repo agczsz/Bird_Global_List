@@ -3,6 +3,7 @@
 :do { add list=FK address=2405:b500:2620::/64 } on-error={}
 :do { add list=FK address=2405:b500:2640::/64 } on-error={}
 :do { add list=FK address=2602:814:fd1c::/46 } on-error={}
+:do { add list=FK address=2602:f96d:10b:7a22::/64 } on-error={}
 :do { add list=FK address=2605:59c8:4c00::/40 } on-error={}
 :do { add list=FK address=2606:40:1350::/44 } on-error={}
 :do { add list=FK address=2606:40:1360::/44 } on-error={}
@@ -79,7 +80,6 @@
 :do { add list=FK address=2a0d:9444:e000::/37 } on-error={}
 :do { add list=FK address=2a0e:4001:901::/48 } on-error={}
 :do { add list=FK address=2a0e:4001:9ff:48::/64 } on-error={}
-:do { add list=FK address=2a0e:4003:bb58:fdc3::/64 } on-error={}
 :do { add list=FK address=2a0f:1cc1:f910::/44 } on-error={}
 :do { add list=FK address=2a0f:1cc5:1f8d::/48 } on-error={}
 :do { add list=FK address=2a0f:a303:d000::/37 } on-error={}
@@ -92,4 +92,3 @@
 :do { add list=FK address=2a14:67c2:818::/48 } on-error={}
 :do { add list=FK address=2a14:7580:cf47::/48 } on-error={}
 :do { add list=FK address=2a14:7581:be0:ee00::/56 } on-error={}
-:do { add list=FK address=2a14:7583:e0d9:9923::/64 } on-error={}

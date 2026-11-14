@@ -344,6 +344,7 @@
 :do { add list=RS address=2604:b040:13:1400:0:7:5:0/112 } on-error={}
 :do { add list=RS address=2605:380:40::/48 } on-error={}
 :do { add list=RS address=2605:7a80:9912::/47 } on-error={}
+:do { add list=RS address=2606:40:42:f000::/54 } on-error={}
 :do { add list=RS address=2606:40:1550::/44 } on-error={}
 :do { add list=RS address=2606:40:1560::/44 } on-error={}
 :do { add list=RS address=2606:40:22f9::/51 } on-error={}
@@ -3088,7 +3089,7 @@
 :do { add list=RS address=2a0e:1e80:2002::/48 } on-error={}
 :do { add list=RS address=2a0e:1e80:8000:100::/56 } on-error={}
 :do { add list=RS address=2a0e:1e80:8008::/48 } on-error={}
-:do { add list=RS address=2a0e:4003:bb79:9ebc::/64 } on-error={}
+:do { add list=RS address=2a0e:4003:bb1c:70ff::/64 } on-error={}
 :do { add list=RS address=2a0e:97c0:7c2:4000::/50 } on-error={}
 :do { add list=RS address=2a0e:97c0:7c2:8000::/49 } on-error={}
 :do { add list=RS address=2a0e:acc0:ac50::/48 } on-error={}

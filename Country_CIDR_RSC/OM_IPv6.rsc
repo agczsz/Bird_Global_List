@@ -1025,6 +1025,7 @@
 :do { add list=OM address=2a0d:3341:d400::/40 } on-error={}
 :do { add list=OM address=2a0d:3344:4000::/38 } on-error={}
 :do { add list=OM address=2a0d:9447:6800::/37 } on-error={}
+:do { add list=OM address=2a0e:4003:bb2e:f852::/64 } on-error={}
 :do { add list=OM address=2a0e:4003:bba8:3880::/64 } on-error={}
 :do { add list=OM address=2a0e:b107:2117::/48 } on-error={}
 :do { add list=OM address=2a0f:1cc1:9940::/44 } on-error={}

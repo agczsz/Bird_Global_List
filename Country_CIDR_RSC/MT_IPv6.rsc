@@ -229,7 +229,7 @@
 :do { add list=MT address=2a0d:3344:6500::/40 } on-error={}
 :do { add list=MT address=2a0d:3344:7100::/40 } on-error={}
 :do { add list=MT address=2a0d:9443:1000::/37 } on-error={}
-:do { add list=MT address=2a0e:4003:bb79:6db3::/64 } on-error={}
+:do { add list=MT address=2a0e:4003:bb1c:7459::/64 } on-error={}
 :do { add list=MT address=2a0e:b107:3d0::/48 } on-error={}
 :do { add list=MT address=2a0f:1cc1:b200::/40 } on-error={}
 :do { add list=MT address=2a0f:85c1:340::a5:0/112 } on-error={}

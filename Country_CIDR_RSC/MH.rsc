@@ -97,4 +97,8 @@
 :do { add list=MH address=172.225.126.160/27 } on-error={}
 :do { add list=MH address=172.225.230.160/28 } on-error={}
 :do { add list=MH address=172.226.77.224/27 } on-error={}
+:do { add list=MH address=196.48.131.0/24 } on-error={}
+:do { add list=MH address=196.56.131.0/24 } on-error={}
+:do { add list=MH address=196.197.131.0/24 } on-error={}
+:do { add list=MH address=196.199.131.0/24 } on-error={}
 :do { add list=MH address=203.78.152.0/22 } on-error={}

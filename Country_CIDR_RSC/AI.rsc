@@ -30,6 +30,7 @@
 :do { add list=AI address=104.29.200.148/32 } on-error={}
 :do { add list=AI address=104.193.198.146/32 } on-error={}
 :do { add list=AI address=104.193.198.196/32 } on-error={}
+:do { add list=AI address=136.23.45.92/32 } on-error={}
 :do { add list=AI address=140.248.44.4/31 } on-error={}
 :do { add list=AI address=140.248.56.4/32 } on-error={}
 :do { add list=AI address=140.248.57.4/32 } on-error={}
@@ -45,6 +46,7 @@
 :do { add list=AI address=146.75.244.2/31 } on-error={}
 :do { add list=AI address=153.67.140.0/23 } on-error={}
 :do { add list=AI address=157.167.112.0/24 } on-error={}
+:do { add list=AI address=162.120.168.226/32 } on-error={}
 :do { add list=AI address=162.120.196.232/32 } on-error={}
 :do { add list=AI address=162.120.202.198/32 } on-error={}
 :do { add list=AI address=163.116.250.79/32 } on-error={}
@@ -55,20 +57,8 @@
 :do { add list=AI address=204.14.248.150/32 } on-error={}
 :do { add list=AI address=204.14.249.0/24 } on-error={}
 :do { add list=AI address=204.14.250.0/24 } on-error={}
-:do { add list=AI address=204.14.251.0/25 } on-error={}
-:do { add list=AI address=204.14.251.128/26 } on-error={}
-:do { add list=AI address=204.14.251.192/29 } on-error={}
-:do { add list=AI address=204.14.251.200/30 } on-error={}
-:do { add list=AI address=204.14.251.205/32 } on-error={}
-:do { add list=AI address=204.14.251.206/31 } on-error={}
-:do { add list=AI address=204.14.251.208/28 } on-error={}
-:do { add list=AI address=204.14.251.224/28 } on-error={}
-:do { add list=AI address=204.14.251.240/29 } on-error={}
-:do { add list=AI address=204.14.251.248/30 } on-error={}
-:do { add list=AI address=204.14.251.253/32 } on-error={}
-:do { add list=AI address=204.14.251.254/31 } on-error={}
+:do { add list=AI address=204.14.251.168/29 } on-error={}
 :do { add list=AI address=204.14.255.0/24 } on-error={}
-:do { add list=AI address=205.217.233.128/25 } on-error={}
 :do { add list=AI address=208.66.48.0/24 } on-error={}
 :do { add list=AI address=208.66.49.0/24 } on-error={}
 :do { add list=AI address=208.66.50.0/23 } on-error={}

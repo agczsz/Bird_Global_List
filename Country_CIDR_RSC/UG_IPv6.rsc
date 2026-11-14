@@ -268,7 +268,7 @@
 :do { add list=UG address=2a0a:6044:fb96::/48 } on-error={}
 :do { add list=UG address=2a0d:2684:e7::/48 } on-error={}
 :do { add list=UG address=2a0d:9444:2800::/37 } on-error={}
-:do { add list=UG address=2a0e:4003:bb96:728::/64 } on-error={}
+:do { add list=UG address=2a0e:4003:bb2d:fb8e::/64 } on-error={}
 :do { add list=UG address=2a0f:1cc1:d340::/44 } on-error={}
 :do { add list=UG address=2a0f:85c1:340::c9:0/112 } on-error={}
 :do { add list=UG address=2a0f:85c1:81b:fb80::/60 } on-error={}

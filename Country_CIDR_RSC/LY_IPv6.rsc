@@ -90,7 +90,7 @@
 :do { add list=LY address=2a0d:2684:88::/48 } on-error={}
 :do { add list=LY address=2a0d:3341:e400::/40 } on-error={}
 :do { add list=LY address=2a0d:9440:5800::/37 } on-error={}
-:do { add list=LY address=2a0e:4003:bb96:61a0::/64 } on-error={}
+:do { add list=LY address=2a0e:4003:bb2d:a436::/64 } on-error={}
 :do { add list=LY address=2a0e:97c1:8a22::/48 } on-error={}
 :do { add list=LY address=2a0f:1cc1:c900::/40 } on-error={}
 :do { add list=LY address=2a0f:1cc5:1f68::/48 } on-error={}

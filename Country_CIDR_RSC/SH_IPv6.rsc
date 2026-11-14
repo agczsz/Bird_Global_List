@@ -2,6 +2,7 @@
 /ipv6 firewall address-list
 :do { add list=SH address=2602:814:ff18::/46 } on-error={}
 :do { add list=SH address=2605:59c0:8700::/40 } on-error={}
+:do { add list=SH address=2606:40:42:f400::/54 } on-error={}
 :do { add list=SH address=2606:40:1240::/43 } on-error={}
 :do { add list=SH address=2606:40:21c1:e000::/54 } on-error={}
 :do { add list=SH address=2606:40:21c1:e800::/53 } on-error={}
@@ -118,7 +119,7 @@
 :do { add list=SH address=2a0e:4001:9ff:2000::/51 } on-error={}
 :do { add list=SH address=2a0e:4001:9ff:4000::/50 } on-error={}
 :do { add list=SH address=2a0e:4001:9ff:8000::/49 } on-error={}
-:do { add list=SH address=2a0e:4003:bb96:1324::/64 } on-error={}
+:do { add list=SH address=2a0e:4003:bb2d:70fb::/64 } on-error={}
 :do { add list=SH address=2a0f:1cc1:d2d0::/44 } on-error={}
 :do { add list=SH address=2a10:24c0:59b9::/48 } on-error={}
 :do { add list=SH address=2a10:24c0:7aed::/48 } on-error={}
@@ -204,6 +205,4 @@
 :do { add list=SH address=2a14:67c1:b6c5::/48 } on-error={}
 :do { add list=SH address=2a14:7580:cfc6::/48 } on-error={}
 :do { add list=SH address=2a14:7581:be2:8e00::/56 } on-error={}
-:do { add list=SH address=2a14:7583:e0d9:1324::/64 } on-error={}
-:do { add list=SH address=2a14:7583:e0d9:5b6a::/64 } on-error={}
 :do { add list=SH address=2a14:7584:eff3::/48 } on-error={}

@@ -102,7 +102,7 @@
 :do { add list=DJ address=2a0a:6044:f9a0::/45 } on-error={}
 :do { add list=DJ address=2a0d:2684:39::/48 } on-error={}
 :do { add list=DJ address=2a0d:9441:b000::/37 } on-error={}
-:do { add list=DJ address=2a0e:4003:bb96:8649::/64 } on-error={}
+:do { add list=DJ address=2a0e:4003:bb2d:1d81::/64 } on-error={}
 :do { add list=DJ address=2a0e:97c0:4b3a::/48 } on-error={}
 :do { add list=DJ address=2a0e:b107:23a8::/45 } on-error={}
 :do { add list=DJ address=2a0f:1cc1:d160::/44 } on-error={}

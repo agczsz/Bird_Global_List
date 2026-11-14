@@ -200,7 +200,7 @@
 :do { add list=DZ address=2a0a:8f40:3c::/48 } on-error={}
 :do { add list=DZ address=2a0d:2684:3d::/48 } on-error={}
 :do { add list=DZ address=2a0d:9442:7000::/37 } on-error={}
-:do { add list=DZ address=2a0e:4003:bb96:8a26::/64 } on-error={}
+:do { add list=DZ address=2a0e:4003:bb2d:b826::/64 } on-error={}
 :do { add list=DZ address=2a0e:b107:318::/48 } on-error={}
 :do { add list=DZ address=2a0e:b107:23c8::/45 } on-error={}
 :do { add list=DZ address=2a0f:1cc1:c500::/40 } on-error={}

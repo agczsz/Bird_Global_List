@@ -115,9 +115,15 @@
 :do { add list=CG address=185.183.229.217/32 } on-error={}
 :do { add list=CG address=185.183.229.221/32 } on-error={}
 :do { add list=CG address=196.43.240.0/24 } on-error={}
+:do { add list=CG address=196.48.163.0/24 } on-error={}
 :do { add list=CG address=196.49.56.0/24 } on-error={}
 :do { add list=CG address=196.49.60.0/24 } on-error={}
+:do { add list=CG address=196.56.163.0/24 } on-error={}
+:do { add list=CG address=196.57.163.0/24 } on-error={}
+:do { add list=CG address=196.58.163.0/24 } on-error={}
 :do { add list=CG address=196.60.56.0/24 } on-error={}
+:do { add list=CG address=196.198.163.0/24 } on-error={}
+:do { add list=CG address=196.199.163.0/24 } on-error={}
 :do { add list=CG address=196.223.32.0/24 } on-error={}
 :do { add list=CG address=197.149.136.0/22 } on-error={}
 :do { add list=CG address=197.157.252.0/22 } on-error={}

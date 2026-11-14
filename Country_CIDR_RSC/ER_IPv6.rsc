@@ -87,7 +87,7 @@
 :do { add list=ER address=2a0b:4e07:d3:16::/64 } on-error={}
 :do { add list=ER address=2a0d:2684:42::/48 } on-error={}
 :do { add list=ER address=2a0d:9444:7000::/37 } on-error={}
-:do { add list=ER address=2a0e:4003:bb96:b858::/64 } on-error={}
+:do { add list=ER address=2a0e:4003:bb2d:2182::/64 } on-error={}
 :do { add list=ER address=2a0e:97c1:8a20:4000::/50 } on-error={}
 :do { add list=ER address=2a0e:97c1:8a20:8000::/49 } on-error={}
 :do { add list=ER address=2a0e:b107:23f0::/45 } on-error={}

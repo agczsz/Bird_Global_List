@@ -122,6 +122,7 @@
 :do { add list=YE address=2a0d:3344:1800::/42 } on-error={}
 :do { add list=YE address=2a0d:3344:3700::/42 } on-error={}
 :do { add list=YE address=2a0d:9441:6800::/37 } on-error={}
+:do { add list=YE address=2a0e:4003:bb2e:8ba4::/64 } on-error={}
 :do { add list=YE address=2a0e:4003:bba8:f402::/64 } on-error={}
 :do { add list=YE address=2a0e:b107:2250::/45 } on-error={}
 :do { add list=YE address=2a0f:1cc1:9700::/40 } on-error={}

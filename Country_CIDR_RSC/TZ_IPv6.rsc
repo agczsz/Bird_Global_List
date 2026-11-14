@@ -2094,7 +2094,7 @@
 :do { add list=TZ address=2a0a:6044:fb68::/47 } on-error={}
 :do { add list=TZ address=2a0d:2684:e5::/48 } on-error={}
 :do { add list=TZ address=2a0d:9447:b800::/37 } on-error={}
-:do { add list=TZ address=2a0e:4003:bb96:15ea::/64 } on-error={}
+:do { add list=TZ address=2a0e:4003:bb2d:7a75::/64 } on-error={}
 :do { add list=TZ address=2a0f:1cc1:d000::/40 } on-error={}
 :do { add list=TZ address=2a0f:85c1:340::c7:0/112 } on-error={}
 :do { add list=TZ address=2a0f:85c1:81b:fae0::/60 } on-error={}

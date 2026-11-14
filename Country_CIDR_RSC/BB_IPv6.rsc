@@ -10,8 +10,8 @@
 :do { add list=BB address=2600:8400::/28 } on-error={}
 :do { add list=BB address=2602:814:fc44::/46 } on-error={}
 :do { add list=BB address=2602:f805:20b::/48 } on-error={}
+:do { add list=BB address=2602:f96d:109:4c4c::/64 } on-error={}
 :do { add list=BB address=2602:fe45::/36 } on-error={}
-:do { add list=BB address=2605:59c8:66c0::/42 } on-error={}
 :do { add list=BB address=2605:ecc0:200::/40 } on-error={}
 :do { add list=BB address=2606:40:2:f400::/54 } on-error={}
 :do { add list=BB address=2606:40:b80::/43 } on-error={}
@@ -108,7 +108,6 @@
 :do { add list=BB address=2a0a:6044:f740::/48 } on-error={}
 :do { add list=BB address=2a0d:2684:11::/48 } on-error={}
 :do { add list=BB address=2a0d:9440:4000::/37 } on-error={}
-:do { add list=BB address=2a0e:4003:bb2d:e906::/64 } on-error={}
 :do { add list=BB address=2a0e:b107:2270::/45 } on-error={}
 :do { add list=BB address=2a0f:1cc1:e730::/44 } on-error={}
 :do { add list=BB address=2a0f:1cc5:1f4e::/48 } on-error={}

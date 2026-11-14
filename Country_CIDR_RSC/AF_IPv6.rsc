@@ -180,11 +180,13 @@
 :do { add list=AF address=2a0a:6040:fb0::/48 } on-error={}
 :do { add list=AF address=2a0d:2684:2::/48 } on-error={}
 :do { add list=AF address=2a0d:9445:7000::/37 } on-error={}
+:do { add list=AF address=2a0e:4003:bb2e:4f68::/64 } on-error={}
 :do { add list=AF address=2a0e:4003:bba8:9eba::/64 } on-error={}
 :do { add list=AF address=2a0e:7d46:200::/40 } on-error={}
 :do { add list=AF address=2a0e:b107:2113::/48 } on-error={}
 :do { add list=AF address=2a0f:1cc1:8000::/40 } on-error={}
 :do { add list=AF address=2a0f:1cc5:1fb0::/48 } on-error={}
+:do { add list=AF address=2a0f:6284:7c::/48 } on-error={}
 :do { add list=AF address=2a0f:7803:ff10:7c00::/54 } on-error={}
 :do { add list=AF address=2a0f:85c1:81b:f000::/60 } on-error={}
 :do { add list=AF address=2a0f:a300:c000::/37 } on-error={}

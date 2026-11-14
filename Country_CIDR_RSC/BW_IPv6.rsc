@@ -109,7 +109,7 @@
 :do { add list=BW address=2a0a:6044:f93e::/48 } on-error={}
 :do { add list=BW address=2a0d:2684:22::/48 } on-error={}
 :do { add list=BW address=2a0d:9445:a000::/37 } on-error={}
-:do { add list=BW address=2a0e:4003:bb96:ab91::/64 } on-error={}
+:do { add list=BW address=2a0e:4003:bb2d:1dcf::/64 } on-error={}
 :do { add list=BW address=2a0e:b107:22f8::/45 } on-error={}
 :do { add list=BW address=2a0f:1cc1:c200::/40 } on-error={}
 :do { add list=BW address=2a0f:85c1:81b:f1b0::/60 } on-error={}

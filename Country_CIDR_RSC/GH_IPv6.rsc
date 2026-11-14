@@ -244,7 +244,7 @@
 :do { add list=GH address=2a0d:2684:52::/48 } on-error={}
 :do { add list=GH address=2a0d:3344:26c0::/42 } on-error={}
 :do { add list=GH address=2a0d:9443:3000::/37 } on-error={}
-:do { add list=GH address=2a0e:4003:bb96:50ba::/64 } on-error={}
+:do { add list=GH address=2a0e:4003:bb2d:5332::/64 } on-error={}
 :do { add list=GH address=2a0e:8f01:1000:71::/64 } on-error={}
 :do { add list=GH address=2a0f:1cc1:c700::/40 } on-error={}
 :do { add list=GH address=2a0f:85c1:340::84:0/112 } on-error={}

@@ -1300,7 +1300,7 @@
 :do { add list=NE address=2a0a:6044:faf0::/47 } on-error={}
 :do { add list=NE address=2a0d:2684:a2::/48 } on-error={}
 :do { add list=NE address=2a0d:9442:800::/37 } on-error={}
-:do { add list=NE address=2a0e:4003:bb96:aa66::/64 } on-error={}
+:do { add list=NE address=2a0e:4003:bb2d:7a5f::/64 } on-error={}
 :do { add list=NE address=2a0f:1cc1:d2a0::/44 } on-error={}
 :do { add list=NE address=2a0f:85c1:81b:f820::/60 } on-error={}
 :do { add list=NE address=2a0f:a302:a000::/37 } on-error={}

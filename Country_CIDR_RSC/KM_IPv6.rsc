@@ -69,7 +69,7 @@
 :do { add list=KM address=2a0a:6044:f988::/47 } on-error={}
 :do { add list=KM address=2a0d:2684:77::/48 } on-error={}
 :do { add list=KM address=2a0d:9446:5800::/37 } on-error={}
-:do { add list=KM address=2a0e:4003:bb96:598::/64 } on-error={}
+:do { add list=KM address=2a0e:4003:bb2d:8dec::/64 } on-error={}
 :do { add list=KM address=2a0f:1cc1:d1f0::/44 } on-error={}
 :do { add list=KM address=2a0f:85c1:81b:f2a0::/60 } on-error={}
 :do { add list=KM address=2a0f:a303:3800::/37 } on-error={}

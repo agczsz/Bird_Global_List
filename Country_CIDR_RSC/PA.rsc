@@ -1,6 +1,6 @@
 /log info "Loading PA IPv4 Address List"
 /ip firewall address-list
-:do { add list=PA address=2.57.225.36/30 } on-error={}
+:do { add list=PA address=2.57.225.36/31 } on-error={}
 :do { add list=PA address=2.152.252.0/22 } on-error={}
 :do { add list=PA address=4.4.211.202/32 } on-error={}
 :do { add list=PA address=4.68.59.96/27 } on-error={}
@@ -47,6 +47,7 @@
 :do { add list=PA address=34.103.82.0/24 } on-error={}
 :do { add list=PA address=38.5.1.176/32 } on-error={}
 :do { add list=PA address=38.7.102.0/23 } on-error={}
+:do { add list=PA address=38.17.116.0/24 } on-error={}
 :do { add list=PA address=38.22.180.0/24 } on-error={}
 :do { add list=PA address=38.28.5.0/24 } on-error={}
 :do { add list=PA address=38.57.104.0/24 } on-error={}
@@ -172,6 +173,8 @@
 :do { add list=PA address=82.26.149.0/24 } on-error={}
 :do { add list=PA address=82.26.153.0/24 } on-error={}
 :do { add list=PA address=82.180.150.0/24 } on-error={}
+:do { add list=PA address=83.137.198.72/29 } on-error={}
+:do { add list=PA address=83.137.199.72/29 } on-error={}
 :do { add list=PA address=84.16.9.46/31 } on-error={}
 :do { add list=PA address=84.16.10.242/31 } on-error={}
 :do { add list=PA address=84.16.11.200/32 } on-error={}
@@ -199,7 +202,6 @@
 :do { add list=PA address=90.96.176.2/32 } on-error={}
 :do { add list=PA address=90.96.178.65/32 } on-error={}
 :do { add list=PA address=91.229.134.0/23 } on-error={}
-:do { add list=PA address=92.240.206.0/24 } on-error={}
 :do { add list=PA address=94.131.53.0/24 } on-error={}
 :do { add list=PA address=94.131.59.0/24 } on-error={}
 :do { add list=PA address=94.142.97.38/32 } on-error={}
@@ -757,6 +759,13 @@
 :do { add list=PA address=194.165.17.64/26 } on-error={}
 :do { add list=PA address=194.165.17.128/25 } on-error={}
 :do { add list=PA address=195.189.242.0/23 } on-error={}
+:do { add list=PA address=196.48.156.0/24 } on-error={}
+:do { add list=PA address=196.56.156.0/24 } on-error={}
+:do { add list=PA address=196.57.156.0/24 } on-error={}
+:do { add list=PA address=196.58.156.0/24 } on-error={}
+:do { add list=PA address=196.197.156.0/24 } on-error={}
+:do { add list=PA address=196.198.156.0/24 } on-error={}
+:do { add list=PA address=196.199.156.0/24 } on-error={}
 :do { add list=PA address=198.52.249.48/31 } on-error={}
 :do { add list=PA address=198.228.97.20/32 } on-error={}
 :do { add list=PA address=199.26.234.0/24 } on-error={}
@@ -774,6 +783,8 @@
 :do { add list=PA address=200.12.211.0/24 } on-error={}
 :do { add list=PA address=200.12.212.0/22 } on-error={}
 :do { add list=PA address=200.14.119.0/24 } on-error={}
+:do { add list=PA address=200.15.12.224/29 } on-error={}
+:do { add list=PA address=200.15.13.224/29 } on-error={}
 :do { add list=PA address=200.33.125.0/24 } on-error={}
 :do { add list=PA address=200.46.0.0/24 } on-error={}
 :do { add list=PA address=200.46.1.0/24 } on-error={}

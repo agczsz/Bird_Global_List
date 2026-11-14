@@ -1,12 +1,13 @@
 /log info "Loading MP IPv4 Address List"
 /ip firewall address-list
 :do { add list=MP address=8.3.123.8/31 } on-error={}
-:do { add list=MP address=8.3.123.14/32 } on-error={}
 :do { add list=MP address=8.3.123.18/32 } on-error={}
 :do { add list=MP address=8.3.123.20/32 } on-error={}
 :do { add list=MP address=8.3.123.28/32 } on-error={}
 :do { add list=MP address=8.3.123.35/32 } on-error={}
 :do { add list=MP address=8.3.123.36/32 } on-error={}
+:do { add list=MP address=8.3.123.40/31 } on-error={}
+:do { add list=MP address=8.3.123.51/32 } on-error={}
 :do { add list=MP address=8.3.123.55/32 } on-error={}
 :do { add list=MP address=8.3.123.56/32 } on-error={}
 :do { add list=MP address=8.3.123.61/32 } on-error={}
@@ -20,6 +21,7 @@
 :do { add list=MP address=8.3.123.122/32 } on-error={}
 :do { add list=MP address=8.3.123.124/32 } on-error={}
 :do { add list=MP address=8.3.123.128/32 } on-error={}
+:do { add list=MP address=8.3.123.138/32 } on-error={}
 :do { add list=MP address=8.3.123.154/32 } on-error={}
 :do { add list=MP address=8.3.123.162/32 } on-error={}
 :do { add list=MP address=8.3.123.189/32 } on-error={}
@@ -27,11 +29,14 @@
 :do { add list=MP address=8.3.123.194/32 } on-error={}
 :do { add list=MP address=8.3.123.203/32 } on-error={}
 :do { add list=MP address=8.3.123.212/32 } on-error={}
+:do { add list=MP address=8.3.123.216/32 } on-error={}
 :do { add list=MP address=8.3.123.218/32 } on-error={}
 :do { add list=MP address=8.3.123.226/32 } on-error={}
 :do { add list=MP address=8.3.123.228/32 } on-error={}
+:do { add list=MP address=8.3.123.231/32 } on-error={}
 :do { add list=MP address=8.3.123.232/32 } on-error={}
 :do { add list=MP address=8.3.123.234/31 } on-error={}
+:do { add list=MP address=8.3.123.236/32 } on-error={}
 :do { add list=MP address=8.3.123.240/32 } on-error={}
 :do { add list=MP address=8.3.123.248/32 } on-error={}
 :do { add list=MP address=8.3.123.250/31 } on-error={}
@@ -41,7 +46,8 @@
 :do { add list=MP address=8.3.127.8/30 } on-error={}
 :do { add list=MP address=8.3.127.64/29 } on-error={}
 :do { add list=MP address=8.3.127.80/29 } on-error={}
-:do { add list=MP address=8.3.127.160/27 } on-error={}
+:do { add list=MP address=8.3.127.160/29 } on-error={}
+:do { add list=MP address=8.3.127.172/30 } on-error={}
 :do { add list=MP address=8.3.127.225/32 } on-error={}
 :do { add list=MP address=8.3.127.241/32 } on-error={}
 :do { add list=MP address=43.247.62.128/25 } on-error={}

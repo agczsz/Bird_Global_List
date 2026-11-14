@@ -2,6 +2,7 @@
 /ip firewall address-list
 :do { add list=SL address=5.62.63.116/30 } on-error={}
 :do { add list=SL address=41.78.84.0/22 } on-error={}
+:do { add list=SL address=41.180.247.0/24 } on-error={}
 :do { add list=SL address=41.191.248.0/24 } on-error={}
 :do { add list=SL address=41.191.249.0/24 } on-error={}
 :do { add list=SL address=41.191.250.0/23 } on-error={}
@@ -47,6 +48,7 @@
 :do { add list=SL address=104.29.201.138/31 } on-error={}
 :do { add list=SL address=104.29.201.140/32 } on-error={}
 :do { add list=SL address=129.224.204.0/23 } on-error={}
+:do { add list=SL address=136.22.16.193/32 } on-error={}
 :do { add list=SL address=140.248.40.184/31 } on-error={}
 :do { add list=SL address=140.248.56.202/32 } on-error={}
 :do { add list=SL address=140.248.57.202/32 } on-error={}
@@ -133,8 +135,15 @@
 :do { add list=SL address=195.110.184.125/32 } on-error={}
 :do { add list=SL address=195.110.185.0/24 } on-error={}
 :do { add list=SL address=196.43.229.0/24 } on-error={}
+:do { add list=SL address=196.48.175.0/24 } on-error={}
 :do { add list=SL address=196.49.124.0/24 } on-error={}
+:do { add list=SL address=196.56.175.0/24 } on-error={}
+:do { add list=SL address=196.57.175.0/24 } on-error={}
+:do { add list=SL address=196.58.175.0/24 } on-error={}
 :do { add list=SL address=196.60.166.0/24 } on-error={}
+:do { add list=SL address=196.197.175.0/24 } on-error={}
+:do { add list=SL address=196.198.175.0/24 } on-error={}
+:do { add list=SL address=196.199.175.0/24 } on-error={}
 :do { add list=SL address=196.216.220.0/23 } on-error={}
 :do { add list=SL address=196.223.10.0/24 } on-error={}
 :do { add list=SL address=197.157.232.0/22 } on-error={}

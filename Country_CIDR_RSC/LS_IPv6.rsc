@@ -284,7 +284,7 @@
 :do { add list=LS address=2a0a:6044:fa4c::/48 } on-error={}
 :do { add list=LS address=2a0d:2684:84::/48 } on-error={}
 :do { add list=LS address=2a0d:9441:6000::/37 } on-error={}
-:do { add list=LS address=2a0e:4003:bb96:13d1::/64 } on-error={}
+:do { add list=LS address=2a0e:4003:bb2d:2808::/64 } on-error={}
 :do { add list=LS address=2a0f:1cc1:d210::/44 } on-error={}
 :do { add list=LS address=2a0f:85c1:81b:f640::/60 } on-error={}
 :do { add list=LS address=2a0f:a302:c800::/37 } on-error={}

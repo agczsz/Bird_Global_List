@@ -253,6 +253,7 @@
 :do { add list=KW address=2a0e:1140::/29 } on-error={}
 :do { add list=KW address=2a0e:2480::/29 } on-error={}
 :do { add list=KW address=2a0e:3280::/29 } on-error={}
+:do { add list=KW address=2a0e:4003:bb2e:df3e::/64 } on-error={}
 :do { add list=KW address=2a0e:4003:bba8:782e::/64 } on-error={}
 :do { add list=KW address=2a0e:53c0::/29 } on-error={}
 :do { add list=KW address=2a0e:b107:2118::/48 } on-error={}

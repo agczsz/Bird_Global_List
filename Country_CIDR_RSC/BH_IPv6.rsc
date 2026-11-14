@@ -403,6 +403,7 @@
 :do { add list=BH address=2a0d:9442:d000::/37 } on-error={}
 :do { add list=BH address=2a0d:d600:1400::/40 } on-error={}
 :do { add list=BH address=2a0d:d600:9400::/40 } on-error={}
+:do { add list=BH address=2a0e:4003:bb2e:a8c9::/64 } on-error={}
 :do { add list=BH address=2a0e:4003:bba8:26e7::/64 } on-error={}
 :do { add list=BH address=2a0e:6700::/29 } on-error={}
 :do { add list=BH address=2a0e:b107:fd0::/44 } on-error={}

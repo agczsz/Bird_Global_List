@@ -106,10 +106,17 @@
 :do { add list=ET address=184.63.131.96/29 } on-error={}
 :do { add list=ET address=192.109.41.216/29 } on-error={}
 :do { add list=ET address=193.186.4.77/32 } on-error={}
+:do { add list=ET address=196.48.86.0/24 } on-error={}
 :do { add list=ET address=196.49.98.0/24 } on-error={}
+:do { add list=ET address=196.56.86.0/24 } on-error={}
+:do { add list=ET address=196.57.86.0/24 } on-error={}
+:do { add list=ET address=196.58.86.0/24 } on-error={}
 :do { add list=ET address=196.60.116.0/24 } on-error={}
 :do { add list=ET address=196.97.16.0/22 } on-error={}
 :do { add list=ET address=196.188.0.0/14 } on-error={}
+:do { add list=ET address=196.197.86.0/24 } on-error={}
+:do { add list=ET address=196.198.86.0/24 } on-error={}
+:do { add list=ET address=196.199.86.0/24 } on-error={}
 :do { add list=ET address=196.202.139.2/32 } on-error={}
 :do { add list=ET address=196.202.139.7/32 } on-error={}
 :do { add list=ET address=196.202.139.29/32 } on-error={}

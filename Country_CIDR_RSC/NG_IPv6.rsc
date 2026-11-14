@@ -2859,7 +2859,7 @@
 :do { add list=NG address=2a0d:2684:a4::/48 } on-error={}
 :do { add list=NG address=2a0d:9444:5800::/37 } on-error={}
 :do { add list=NG address=2a0d:d940:5f5::/48 } on-error={}
-:do { add list=NG address=2a0e:4003:bb96:2908::/64 } on-error={}
+:do { add list=NG address=2a0e:4003:bb2d:fdf6::/64 } on-error={}
 :do { add list=NG address=2a0e:8f01:1000:53::/64 } on-error={}
 :do { add list=NG address=2a0f:1cc1:ca00::/40 } on-error={}
 :do { add list=NG address=2a0f:1cc5:740::/44 } on-error={}

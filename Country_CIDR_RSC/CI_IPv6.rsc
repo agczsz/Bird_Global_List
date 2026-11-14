@@ -144,7 +144,7 @@
 :do { add list=CI address=2a0b:2080:1a7::/50 } on-error={}
 :do { add list=CI address=2a0d:2684:2b::/48 } on-error={}
 :do { add list=CI address=2a0d:9442:9800::/37 } on-error={}
-:do { add list=CI address=2a0e:4003:bb96:3ff9::/64 } on-error={}
+:do { add list=CI address=2a0e:4003:bb2d:14c8::/64 } on-error={}
 :do { add list=CI address=2a0e:b107:2340::/45 } on-error={}
 :do { add list=CI address=2a0f:1cc1:d130::/44 } on-error={}
 :do { add list=CI address=2a0f:a300:f000::/37 } on-error={}

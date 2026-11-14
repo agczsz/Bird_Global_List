@@ -2643,7 +2643,7 @@
 :do { add list=MU address=2a0a:6044:fab4::/47 } on-error={}
 :do { add list=MU address=2a0d:2684:9a::/48 } on-error={}
 :do { add list=MU address=2a0d:9445:2000::/37 } on-error={}
-:do { add list=MU address=2a0e:4003:bb96:b3f2::/64 } on-error={}
+:do { add list=MU address=2a0e:4003:bb2d:fd23::/64 } on-error={}
 :do { add list=MU address=2a0f:1cc1:d260::/44 } on-error={}
 :do { add list=MU address=2a0f:85c1:81b:f720::/60 } on-error={}
 :do { add list=MU address=2a10:500:2a00::/40 } on-error={}

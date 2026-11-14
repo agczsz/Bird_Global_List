@@ -97,6 +97,13 @@
 :do { add list=SM address=192.145.48.0/22 } on-error={}
 :do { add list=SM address=194.0.27.0/24 } on-error={}
 :do { add list=SM address=194.183.64.0/19 } on-error={}
+:do { add list=SM address=196.48.169.0/24 } on-error={}
+:do { add list=SM address=196.56.169.0/24 } on-error={}
+:do { add list=SM address=196.57.169.0/24 } on-error={}
+:do { add list=SM address=196.58.169.0/24 } on-error={}
+:do { add list=SM address=196.197.169.0/24 } on-error={}
+:do { add list=SM address=196.198.169.0/24 } on-error={}
+:do { add list=SM address=196.199.169.0/24 } on-error={}
 :do { add list=SM address=203.31.217.0/24 } on-error={}
 :do { add list=SM address=208.167.201.64/28 } on-error={}
 :do { add list=SM address=209.206.29.224/28 } on-error={}

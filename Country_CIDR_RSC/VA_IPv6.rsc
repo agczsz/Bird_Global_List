@@ -114,7 +114,7 @@
 :do { add list=VA address=2a0a:6040:f1a::/48 } on-error={}
 :do { add list=VA address=2a0b:4e07:5ba4::/48 } on-error={}
 :do { add list=VA address=2a0d:2684:ec::/48 } on-error={}
-:do { add list=VA address=2a0e:4003:bb79:db75::/64 } on-error={}
+:do { add list=VA address=2a0e:4003:bb1c:ef68::/64 } on-error={}
 :do { add list=VA address=2a0e:4007:11::/48 } on-error={}
 :do { add list=VA address=2a0e:4007:24::/48 } on-error={}
 :do { add list=VA address=2a0e:4007:35::/48 } on-error={}

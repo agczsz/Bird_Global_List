@@ -159,7 +159,7 @@
 :do { add list=AD address=2a0d:3344:3f00::/40 } on-error={}
 :do { add list=AD address=2a0d:6f80:2301::/48 } on-error={}
 :do { add list=AD address=2a0d:9447:7000::/37 } on-error={}
-:do { add list=AD address=2a0e:4003:bb79:cc3::/64 } on-error={}
+:do { add list=AD address=2a0e:4003:bb1c:2c07::/64 } on-error={}
 :do { add list=AD address=2a0f:1cc1:bb00::/44 } on-error={}
 :do { add list=AD address=2a0f:1cc5:1f18::/48 } on-error={}
 :do { add list=AD address=2a0f:85c1:81b:f040::/60 } on-error={}

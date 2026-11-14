@@ -1582,6 +1582,7 @@
 :do { add list=QA address=2a0d:3344:2640::/42 } on-error={}
 :do { add list=QA address=2a0d:3344:4400::/38 } on-error={}
 :do { add list=QA address=2a0d:9447:d800::/37 } on-error={}
+:do { add list=QA address=2a0e:4003:bb2e:2569::/64 } on-error={}
 :do { add list=QA address=2a0e:4003:bba8:60a6::/64 } on-error={}
 :do { add list=QA address=2a0f:15c2::/32 } on-error={}
 :do { add list=QA address=2a0f:1cc1:9960::/44 } on-error={}

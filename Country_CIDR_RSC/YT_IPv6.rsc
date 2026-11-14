@@ -76,7 +76,7 @@
 :do { add list=YT address=2a0d:2684:f6::/48 } on-error={}
 :do { add list=YT address=2a0d:3344:1640::/42 } on-error={}
 :do { add list=YT address=2a0d:9441:7000::/37 } on-error={}
-:do { add list=YT address=2a0e:4003:bb96:e63f::/64 } on-error={}
+:do { add list=YT address=2a0e:4003:bb2d:1f34::/64 } on-error={}
 :do { add list=YT address=2a0f:1cc1:a706::/48 } on-error={}
 :do { add list=YT address=2a0f:1cc1:d350::/44 } on-error={}
 :do { add list=YT address=2a0f:6284:46::/48 } on-error={}

@@ -1130,7 +1130,7 @@
 :do { add list=KE address=2a0c:9a40:8f70::/44 } on-error={}
 :do { add list=KE address=2a0d:2684:73::/48 } on-error={}
 :do { add list=KE address=2a0d:9441:7800::/37 } on-error={}
-:do { add list=KE address=2a0e:4003:bb96:6f26::/64 } on-error={}
+:do { add list=KE address=2a0e:4003:bb2d:5b4f::/64 } on-error={}
 :do { add list=KE address=2a0e:8f01:1000:95::/64 } on-error={}
 :do { add list=KE address=2a0f:1cc1:c800::/40 } on-error={}
 :do { add list=KE address=2a0f:1cc5:1d67::/48 } on-error={}

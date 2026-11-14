@@ -3020,6 +3020,7 @@
 :do { add list=SA address=2a0e:3100:6000::/36 } on-error={}
 :do { add list=SA address=2a0e:3100:7000::/36 } on-error={}
 :do { add list=SA address=2a0e:3100:8000::/33 } on-error={}
+:do { add list=SA address=2a0e:4003:bb2e:fa04::/64 } on-error={}
 :do { add list=SA address=2a0e:4003:bba8:b9b6::/64 } on-error={}
 :do { add list=SA address=2a0e:7d46:a00::/40 } on-error={}
 :do { add list=SA address=2a0e:8f01:1000:57::/64 } on-error={}

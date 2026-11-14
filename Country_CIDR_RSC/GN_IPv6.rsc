@@ -8,6 +8,7 @@
 :do { add list=GN address=2602:814:fd54::/46 } on-error={}
 :do { add list=GN address=2605:59c0:4800::/40 } on-error={}
 :do { add list=GN address=2605:59c0:8200::/40 } on-error={}
+:do { add list=GN address=2606:40:e8:c000::/54 } on-error={}
 :do { add list=GN address=2606:40:938::/45 } on-error={}
 :do { add list=GN address=2606:40:940::/45 } on-error={}
 :do { add list=GN address=2606:40:1170::/44 } on-error={}
@@ -94,7 +95,7 @@
 :do { add list=GN address=2a0a:6044:fa18::/45 } on-error={}
 :do { add list=GN address=2a0d:2684:56::/48 } on-error={}
 :do { add list=GN address=2a0d:9446:7800::/37 } on-error={}
-:do { add list=GN address=2a0e:4003:bb96:eafb::/64 } on-error={}
+:do { add list=GN address=2a0e:4003:bb2d:de75::/64 } on-error={}
 :do { add list=GN address=2a0f:1cc1:d1c0::/44 } on-error={}
 :do { add list=GN address=2a0f:85c1:81b:f490::/60 } on-error={}
 :do { add list=GN address=2a0f:a302:b800::/37 } on-error={}

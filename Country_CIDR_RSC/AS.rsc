@@ -2,7 +2,7 @@
 /ip firewall address-list
 :do { add list=AS address=5.62.56.4/30 } on-error={}
 :do { add list=AS address=5.62.58.4/30 } on-error={}
-:do { add list=AS address=8.41.132.0/23 } on-error={}
+:do { add list=AS address=8.41.132.0/24 } on-error={}
 :do { add list=AS address=8.41.134.0/24 } on-error={}
 :do { add list=AS address=38.101.165.0/24 } on-error={}
 :do { add list=AS address=65.167.226.0/24 } on-error={}
@@ -72,6 +72,15 @@
 :do { add list=AS address=202.70.112.0/20 } on-error={}
 :do { add list=AS address=203.193.117.0/25 } on-error={}
 :do { add list=AS address=205.161.14.0/23 } on-error={}
-:do { add list=AS address=206.80.28.0/22 } on-error={}
+:do { add list=AS address=206.80.28.0/25 } on-error={}
+:do { add list=AS address=206.80.28.128/30 } on-error={}
+:do { add list=AS address=206.80.28.134/31 } on-error={}
+:do { add list=AS address=206.80.28.136/29 } on-error={}
+:do { add list=AS address=206.80.28.144/28 } on-error={}
+:do { add list=AS address=206.80.28.160/27 } on-error={}
+:do { add list=AS address=206.80.28.192/26 } on-error={}
+:do { add list=AS address=206.80.29.0/24 } on-error={}
+:do { add list=AS address=206.80.30.62/32 } on-error={}
+:do { add list=AS address=206.80.31.0/24 } on-error={}
 :do { add list=AS address=208.136.102.0/24 } on-error={}
 :do { add list=AS address=209.40.120.17/32 } on-error={}
