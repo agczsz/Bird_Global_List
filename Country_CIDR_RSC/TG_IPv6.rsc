@@ -11,9 +11,6 @@
 :do { add list=TG address=2605:59c8:8100::/40 } on-error={}
 :do { add list=TG address=2606:40:11e0::/44 } on-error={}
 :do { add list=TG address=2606:40:1b80::/44 } on-error={}
-:do { add list=TG address=2606:40:2201:6000::/54 } on-error={}
-:do { add list=TG address=2606:40:2201:6800::/53 } on-error={}
-:do { add list=TG address=2606:40:2201:7000::/52 } on-error={}
 :do { add list=TG address=2606:40:22e2:4000::/51 } on-error={}
 :do { add list=TG address=2606:40:294d:9000::/54 } on-error={}
 :do { add list=TG address=2606:54c0:55b8::/45 } on-error={}

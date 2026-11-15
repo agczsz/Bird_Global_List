@@ -95,6 +95,7 @@
 :do { add list=NP address=2001:4860:7:b0a::/64 } on-error={}
 :do { add list=NP address=2001:4860:7:c0a::/64 } on-error={}
 :do { add list=NP address=2001:4860:7:d0a::/64 } on-error={}
+:do { add list=NP address=2001:9700::/40 } on-error={}
 :do { add list=NP address=2400:1a00::/32 } on-error={}
 :do { add list=NP address=2400:36a0::/32 } on-error={}
 :do { add list=NP address=2400:3820::/32 } on-error={}

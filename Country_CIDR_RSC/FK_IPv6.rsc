@@ -7,9 +7,6 @@
 :do { add list=FK address=2605:59c8:4c00::/40 } on-error={}
 :do { add list=FK address=2606:40:1350::/44 } on-error={}
 :do { add list=FK address=2606:40:1360::/44 } on-error={}
-:do { add list=FK address=2606:40:2200:c000::/54 } on-error={}
-:do { add list=FK address=2606:40:2200:c800::/53 } on-error={}
-:do { add list=FK address=2606:40:2200:d000::/52 } on-error={}
 :do { add list=FK address=2606:40:22c0:2000::/54 } on-error={}
 :do { add list=FK address=2606:40:294c:4800::/54 } on-error={}
 :do { add list=FK address=2606:54c0:3180::/45 } on-error={}

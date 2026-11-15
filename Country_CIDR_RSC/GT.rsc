@@ -232,6 +232,7 @@
 :do { add list=GT address=129.134.105.203/32 } on-error={}
 :do { add list=GT address=129.222.58.0/23 } on-error={}
 :do { add list=GT address=134.231.144.0/26 } on-error={}
+:do { add list=GT address=136.22.25.199/32 } on-error={}
 :do { add list=GT address=136.23.40.201/32 } on-error={}
 :do { add list=GT address=136.227.142.38/31 } on-error={}
 :do { add list=GT address=136.227.142.40/30 } on-error={}

@@ -22,6 +22,7 @@
 :do { add list=KG address=2602:f805:315::/48 } on-error={}
 :do { add list=KG address=2606:40:10:9800::/54 } on-error={}
 :do { add list=KG address=2606:40:42:cc00::/54 } on-error={}
+:do { add list=KG address=2606:40:ec:8000::/54 } on-error={}
 :do { add list=KG address=2606:40:14b0::/44 } on-error={}
 :do { add list=KG address=2606:40:14c0::/44 } on-error={}
 :do { add list=KG address=2606:40:22e8:8000::/54 } on-error={}

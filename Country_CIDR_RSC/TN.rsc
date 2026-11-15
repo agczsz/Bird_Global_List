@@ -595,10 +595,7 @@
 :do { add list=TN address=197.11.48.0/20 } on-error={}
 :do { add list=TN address=197.11.64.0/20 } on-error={}
 :do { add list=TN address=197.11.80.0/20 } on-error={}
-:do { add list=TN address=197.11.96.0/22 } on-error={}
-:do { add list=TN address=197.11.100.0/23 } on-error={}
-:do { add list=TN address=197.11.102.0/24 } on-error={}
-:do { add list=TN address=197.11.103.0/24 } on-error={}
+:do { add list=TN address=197.11.96.0/21 } on-error={}
 :do { add list=TN address=197.11.104.0/21 } on-error={}
 :do { add list=TN address=197.11.112.0/20 } on-error={}
 :do { add list=TN address=197.11.128.0/20 } on-error={}

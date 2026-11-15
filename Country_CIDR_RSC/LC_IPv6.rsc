@@ -10,6 +10,7 @@
 :do { add list=LC address=2602:814:fdfc::/46 } on-error={}
 :do { add list=LC address=2602:f96d:109:73ad::/64 } on-error={}
 :do { add list=LC address=2606:40:3:4000::/54 } on-error={}
+:do { add list=LC address=2606:40:67:3400::/54 } on-error={}
 :do { add list=LC address=2606:40:de0::/43 } on-error={}
 :do { add list=LC address=2606:40:20f5:c000::/51 } on-error={}
 :do { add list=LC address=2606:40:214b:6000::/51 } on-error={}

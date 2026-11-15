@@ -11,6 +11,7 @@
 :do { add list=NU address=2606:40:1050::/44 } on-error={}
 :do { add list=NU address=2606:40:1060::/44 } on-error={}
 :do { add list=NU address=2606:40:217f::/51 } on-error={}
+:do { add list=NU address=2606:40:2235:a800::/54 } on-error={}
 :do { add list=NU address=2606:40:2300:c000::/51 } on-error={}
 :do { add list=NU address=2606:40:2939:a000::/54 } on-error={}
 :do { add list=NU address=2606:54c0:4dd8::/45 } on-error={}

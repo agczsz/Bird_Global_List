@@ -156,6 +156,7 @@
 :do { add list=MD address=2606:40:21c1:4000::/54 } on-error={}
 :do { add list=MD address=2606:40:21c1:4800::/53 } on-error={}
 :do { add list=MD address=2606:40:21c1:5000::/52 } on-error={}
+:do { add list=MD address=2606:40:2224:2c00::/54 } on-error={}
 :do { add list=MD address=2606:40:22f8:8000::/54 } on-error={}
 :do { add list=MD address=2606:40:22f8:8800::/53 } on-error={}
 :do { add list=MD address=2606:40:22f8:9000::/52 } on-error={}
@@ -180,7 +181,6 @@
 :do { add list=MD address=2607:8940:4190:5900::/56 } on-error={}
 :do { add list=MD address=2607:8940:4190:fc00::/56 } on-error={}
 :do { add list=MD address=2607:8940:41f0:4000::/55 } on-error={}
-:do { add list=MD address=2620:0:877:8900::/64 } on-error={}
 :do { add list=MD address=2620:171:73::/48 } on-error={}
 :do { add list=MD address=2a00:1728:3e::/47 } on-error={}
 :do { add list=MD address=2a00:1858::/32 } on-error={}

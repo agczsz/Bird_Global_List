@@ -185,7 +185,8 @@
 :do { add list=GI address=195.244.200.32/28 } on-error={}
 :do { add list=GI address=195.244.201.0/24 } on-error={}
 :do { add list=GI address=195.244.202.0/23 } on-error={}
-:do { add list=GI address=195.244.204.0/22 } on-error={}
+:do { add list=GI address=195.244.204.0/23 } on-error={}
+:do { add list=GI address=195.244.207.0/24 } on-error={}
 :do { add list=GI address=195.244.208.0/20 } on-error={}
 :do { add list=GI address=209.206.9.0/24 } on-error={}
 :do { add list=GI address=209.208.169.80/28 } on-error={}

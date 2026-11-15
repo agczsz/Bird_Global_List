@@ -9,6 +9,7 @@
 :do { add list=TM address=2602:814:ff74::/46 } on-error={}
 :do { add list=TM address=2606:40:10:b000::/54 } on-error={}
 :do { add list=TM address=2606:40:e4:4400::/54 } on-error={}
+:do { add list=TM address=2606:40:ec:9000::/54 } on-error={}
 :do { add list=TM address=2606:40:978::/46 } on-error={}
 :do { add list=TM address=2606:40:98c::/46 } on-error={}
 :do { add list=TM address=2606:40:990::/45 } on-error={}

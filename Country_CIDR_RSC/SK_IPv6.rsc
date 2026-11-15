@@ -877,6 +877,12 @@
 :do { add list=SK address=2606:40:21fb::/48 } on-error={}
 :do { add list=SK address=2606:40:21fc::/50 } on-error={}
 :do { add list=SK address=2606:40:21fc:4000::/51 } on-error={}
+:do { add list=SK address=2606:40:2206:f800::/53 } on-error={}
+:do { add list=SK address=2606:40:2210:8400::/54 } on-error={}
+:do { add list=SK address=2606:40:2210:8800::/53 } on-error={}
+:do { add list=SK address=2606:40:2210:9000::/52 } on-error={}
+:do { add list=SK address=2606:40:2210:a000::/53 } on-error={}
+:do { add list=SK address=2606:40:2210:a800::/54 } on-error={}
 :do { add list=SK address=2606:40:2304:2000::/54 } on-error={}
 :do { add list=SK address=2606:40:2325:4000::/50 } on-error={}
 :do { add list=SK address=2606:40:2325:8000::/49 } on-error={}

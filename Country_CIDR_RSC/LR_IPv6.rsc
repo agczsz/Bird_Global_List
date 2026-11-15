@@ -16,10 +16,12 @@
 :do { add list=LR address=2606:40:828::/45 } on-error={}
 :do { add list=LR address=2606:40:830::/46 } on-error={}
 :do { add list=LR address=2606:40:10f0::/44 } on-error={}
+:do { add list=LR address=2606:40:2207:2400::/54 } on-error={}
 :do { add list=LR address=2606:40:2241:8000::/51 } on-error={}
 :do { add list=LR address=2606:40:22c1:a000::/54 } on-error={}
 :do { add list=LR address=2606:40:22c1:a800::/53 } on-error={}
 :do { add list=LR address=2606:40:22c1:b000::/52 } on-error={}
+:do { add list=LR address=2606:40:2971:fc00::/54 } on-error={}
 :do { add list=LR address=2606:54c0:47b8::/45 } on-error={}
 :do { add list=LR address=2606:54c0:47c0::/45 } on-error={}
 :do { add list=LR address=2606:54c1:1:122::/64 } on-error={}

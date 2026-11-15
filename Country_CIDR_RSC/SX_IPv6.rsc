@@ -9,6 +9,7 @@
 :do { add list=SX address=2602:f96d:109:da45::/64 } on-error={}
 :do { add list=SX address=2605:59ca:8f00::/40 } on-error={}
 :do { add list=SX address=2606:40:3:6000::/54 } on-error={}
+:do { add list=SX address=2606:40:67:5800::/54 } on-error={}
 :do { add list=SX address=2606:40:bc0::/43 } on-error={}
 :do { add list=SX address=2606:40:205e:e000::/51 } on-error={}
 :do { add list=SX address=2606:40:214c:6000::/51 } on-error={}

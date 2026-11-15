@@ -18,12 +18,11 @@
 :do { add list=DJ address=2606:40:a48::/45 } on-error={}
 :do { add list=DJ address=2606:40:a50::/45 } on-error={}
 :do { add list=DJ address=2606:40:12d0::/44 } on-error={}
-:do { add list=DJ address=2606:40:2200:6000::/54 } on-error={}
-:do { add list=DJ address=2606:40:2200:6800::/53 } on-error={}
 :do { add list=DJ address=2606:40:230e::/54 } on-error={}
 :do { add list=DJ address=2606:40:230e:800::/53 } on-error={}
 :do { add list=DJ address=2606:40:230e:1000::/52 } on-error={}
 :do { add list=DJ address=2606:40:294f:ec00::/54 } on-error={}
+:do { add list=DJ address=2606:40:2971:d400::/54 } on-error={}
 :do { add list=DJ address=2606:54c0:2fd8::/45 } on-error={}
 :do { add list=DJ address=2606:54c1:1:ef::/64 } on-error={}
 :do { add list=DJ address=2606:54c3:0:14ac::/64 } on-error={}

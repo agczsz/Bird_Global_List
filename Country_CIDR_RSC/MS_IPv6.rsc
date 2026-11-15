@@ -10,6 +10,7 @@
 :do { add list=MS address=2605:9e40:c000:1400::/56 } on-error={}
 :do { add list=MS address=2605:9e40:c000:1700::/56 } on-error={}
 :do { add list=MS address=2606:40:3:4c00::/54 } on-error={}
+:do { add list=MS address=2606:40:67:4000::/54 } on-error={}
 :do { add list=MS address=2606:40:1200::/43 } on-error={}
 :do { add list=MS address=2606:40:20f5:e000::/51 } on-error={}
 :do { add list=MS address=2606:40:214b:c000::/51 } on-error={}

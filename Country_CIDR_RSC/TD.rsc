@@ -1,6 +1,7 @@
 /log info "Loading TD IPv4 Address List"
 /ip firewall address-list
 :do { add list=TD address=5.62.62.80/30 } on-error={}
+:do { add list=TD address=41.180.149.0/24 } on-error={}
 :do { add list=TD address=41.242.152.0/21 } on-error={}
 :do { add list=TD address=57.82.58.0/23 } on-error={}
 :do { add list=TD address=57.82.176.0/20 } on-error={}
@@ -61,6 +62,7 @@
 :do { add list=TD address=154.73.160.0/21 } on-error={}
 :do { add list=TD address=159.26.127.164/30 } on-error={}
 :do { add list=TD address=162.120.129.52/32 } on-error={}
+:do { add list=TD address=162.120.173.15/32 } on-error={}
 :do { add list=TD address=162.120.213.12/32 } on-error={}
 :do { add list=TD address=162.120.214.15/32 } on-error={}
 :do { add list=TD address=163.116.169.196/31 } on-error={}

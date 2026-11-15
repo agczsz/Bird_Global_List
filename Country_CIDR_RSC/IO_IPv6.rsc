@@ -10,9 +10,6 @@
 :do { add list=IO address=2606:40:ab8::/45 } on-error={}
 :do { add list=IO address=2606:40:ac0::/45 } on-error={}
 :do { add list=IO address=2606:40:1340::/44 } on-error={}
-:do { add list=IO address=2606:40:2201::/54 } on-error={}
-:do { add list=IO address=2606:40:2201:800::/53 } on-error={}
-:do { add list=IO address=2606:40:2201:1000::/52 } on-error={}
 :do { add list=IO address=2606:40:22c1:6000::/54 } on-error={}
 :do { add list=IO address=2606:40:22c1:6800::/53 } on-error={}
 :do { add list=IO address=2606:40:22c1:7000::/52 } on-error={}

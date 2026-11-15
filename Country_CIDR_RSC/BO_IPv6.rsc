@@ -400,9 +400,6 @@
 :do { add list=BO address=2607:8940:4200:5400::/56 } on-error={}
 :do { add list=BO address=2620:0:876:2200::/56 } on-error={}
 :do { add list=BO address=2620:0:877:8100::/64 } on-error={}
-:do { add list=BO address=2620:171:22:f001::/64 } on-error={}
-:do { add list=BO address=2620:171:22:f002::/63 } on-error={}
-:do { add list=BO address=2620:171:22:f004::/64 } on-error={}
 :do { add list=BO address=2800:88::/32 } on-error={}
 :do { add list=BO address=2800:1e0:2430::/50 } on-error={}
 :do { add list=BO address=2800:1e0:2431::/48 } on-error={}

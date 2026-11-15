@@ -2113,7 +2113,8 @@
 :do { add list=IR address=91.227.27.0/24 } on-error={}
 :do { add list=IR address=91.227.84.0/22 } on-error={}
 :do { add list=IR address=91.227.246.0/23 } on-error={}
-:do { add list=IR address=91.228.22.0/23 } on-error={}
+:do { add list=IR address=91.228.22.0/24 } on-error={}
+:do { add list=IR address=91.228.23.0/24 } on-error={}
 :do { add list=IR address=91.228.132.0/23 } on-error={}
 :do { add list=IR address=91.228.168.0/24 } on-error={}
 :do { add list=IR address=91.228.189.0/24 } on-error={}
@@ -2743,7 +2744,8 @@
 :do { add list=IR address=134.255.246.0/24 } on-error={}
 :do { add list=IR address=134.255.248.0/24 } on-error={}
 :do { add list=IR address=134.255.249.0/24 } on-error={}
-:do { add list=IR address=136.148.150.0/23 } on-error={}
+:do { add list=IR address=136.148.150.0/24 } on-error={}
+:do { add list=IR address=136.148.151.0/24 } on-error={}
 :do { add list=IR address=141.94.155.228/32 } on-error={}
 :do { add list=IR address=146.19.104.0/24 } on-error={}
 :do { add list=IR address=146.19.212.0/24 } on-error={}
@@ -2801,6 +2803,7 @@
 :do { add list=IR address=151.235.160.0/19 } on-error={}
 :do { add list=IR address=151.235.192.0/18 } on-error={}
 :do { add list=IR address=151.238.0.0/15 } on-error={}
+:do { add list=IR address=151.247.236.0/24 } on-error={}
 :do { add list=IR address=152.89.12.0/22 } on-error={}
 :do { add list=IR address=152.89.44.0/22 } on-error={}
 :do { add list=IR address=153.51.0.0/19 } on-error={}
@@ -4316,7 +4319,9 @@
 :do { add list=IR address=213.176.4.0/23 } on-error={}
 :do { add list=IR address=213.176.6.0/24 } on-error={}
 :do { add list=IR address=213.176.7.0/24 } on-error={}
-:do { add list=IR address=213.176.20.0/22 } on-error={}
+:do { add list=IR address=213.176.20.0/24 } on-error={}
+:do { add list=IR address=213.176.21.0/24 } on-error={}
+:do { add list=IR address=213.176.22.0/23 } on-error={}
 :do { add list=IR address=213.176.24.0/22 } on-error={}
 :do { add list=IR address=213.176.28.0/22 } on-error={}
 :do { add list=IR address=213.176.60.0/23 } on-error={}

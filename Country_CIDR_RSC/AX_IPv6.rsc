@@ -30,9 +30,11 @@
 :do { add list=AX address=2600:70ff:a6e2::/48 } on-error={}
 :do { add list=AX address=2602:814:fc38::/46 } on-error={}
 :do { add list=AX address=2606:40:10:8800::/54 } on-error={}
+:do { add list=AX address=2606:40:ec:7000::/54 } on-error={}
 :do { add list=AX address=2606:40:7e0::/44 } on-error={}
 :do { add list=AX address=2606:40:1a70::/44 } on-error={}
 :do { add list=AX address=2606:40:1a80::/44 } on-error={}
+:do { add list=AX address=2606:40:2224:1000::/54 } on-error={}
 :do { add list=AX address=2606:40:22e8::/54 } on-error={}
 :do { add list=AX address=2606:40:22e8:800::/53 } on-error={}
 :do { add list=AX address=2606:40:22fc::/54 } on-error={}

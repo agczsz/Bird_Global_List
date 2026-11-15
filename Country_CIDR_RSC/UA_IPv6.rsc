@@ -4347,7 +4347,6 @@
 :do { add list=UA address=2a09:5d80::/29 } on-error={}
 :do { add list=UA address=2a09:6200::/29 } on-error={}
 :do { add list=UA address=2a09:65c0::/32 } on-error={}
-:do { add list=UA address=2a09:6fc0::/29 } on-error={}
 :do { add list=UA address=2a09:7e80::/29 } on-error={}
 :do { add list=UA address=2a09:8680::/29 } on-error={}
 :do { add list=UA address=2a09:87c0::/29 } on-error={}

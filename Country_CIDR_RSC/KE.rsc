@@ -1034,6 +1034,13 @@
 :do { add list=KE address=62.8.85.30/32 } on-error={}
 :do { add list=KE address=62.8.85.32/27 } on-error={}
 :do { add list=KE address=62.8.85.64/26 } on-error={}
+:do { add list=KE address=62.8.85.128/26 } on-error={}
+:do { add list=KE address=62.8.85.192/27 } on-error={}
+:do { add list=KE address=62.8.85.224/32 } on-error={}
+:do { add list=KE address=62.8.85.226/31 } on-error={}
+:do { add list=KE address=62.8.85.228/30 } on-error={}
+:do { add list=KE address=62.8.85.232/29 } on-error={}
+:do { add list=KE address=62.8.85.240/28 } on-error={}
 :do { add list=KE address=62.8.86.0/23 } on-error={}
 :do { add list=KE address=62.8.88.0/21 } on-error={}
 :do { add list=KE address=62.12.112.0/21 } on-error={}
@@ -2605,7 +2612,7 @@
 :do { add list=KE address=105.27.244.12/30 } on-error={}
 :do { add list=KE address=105.27.244.64/26 } on-error={}
 :do { add list=KE address=105.27.244.128/28 } on-error={}
-:do { add list=KE address=105.27.244.154/31 } on-error={}
+:do { add list=KE address=105.27.244.155/32 } on-error={}
 :do { add list=KE address=105.27.245.0/24 } on-error={}
 :do { add list=KE address=105.27.246.64/27 } on-error={}
 :do { add list=KE address=105.27.246.121/32 } on-error={}
@@ -2908,7 +2915,13 @@
 :do { add list=KE address=134.238.218.0/25 } on-error={}
 :do { add list=KE address=136.227.141.204/30 } on-error={}
 :do { add list=KE address=136.227.141.208/31 } on-error={}
-:do { add list=KE address=137.83.121.0/24 } on-error={}
+:do { add list=KE address=137.83.121.0/25 } on-error={}
+:do { add list=KE address=137.83.121.128/26 } on-error={}
+:do { add list=KE address=137.83.121.192/27 } on-error={}
+:do { add list=KE address=137.83.121.224/31 } on-error={}
+:do { add list=KE address=137.83.121.228/30 } on-error={}
+:do { add list=KE address=137.83.121.232/29 } on-error={}
+:do { add list=KE address=137.83.121.240/28 } on-error={}
 :do { add list=KE address=137.83.122.0/24 } on-error={}
 :do { add list=KE address=137.83.225.1/32 } on-error={}
 :do { add list=KE address=137.83.225.2/31 } on-error={}

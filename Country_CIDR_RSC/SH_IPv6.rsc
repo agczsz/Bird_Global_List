@@ -7,6 +7,7 @@
 :do { add list=SH address=2606:40:21c1:e000::/54 } on-error={}
 :do { add list=SH address=2606:40:21c1:e800::/53 } on-error={}
 :do { add list=SH address=2606:40:21c1:f000::/52 } on-error={}
+:do { add list=SH address=2606:40:2207:3000::/54 } on-error={}
 :do { add list=SH address=2606:40:22c1:c000::/54 } on-error={}
 :do { add list=SH address=2606:40:22c1:c800::/53 } on-error={}
 :do { add list=SH address=2606:40:22c1:d000::/52 } on-error={}

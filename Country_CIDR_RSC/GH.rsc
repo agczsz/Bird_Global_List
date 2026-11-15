@@ -525,6 +525,7 @@
 :do { add list=GH address=130.41.240.64/27 } on-error={}
 :do { add list=GH address=130.41.240.192/27 } on-error={}
 :do { add list=GH address=134.231.142.0/26 } on-error={}
+:do { add list=GH address=136.23.0.121/32 } on-error={}
 :do { add list=GH address=136.227.142.96/30 } on-error={}
 :do { add list=GH address=136.227.142.100/31 } on-error={}
 :do { add list=GH address=140.209.251.224/27 } on-error={}

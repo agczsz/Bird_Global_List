@@ -19,10 +19,12 @@
 :do { add list=GG address=2600:70ff:a41a::/48 } on-error={}
 :do { add list=GG address=2600:70ff:ba5f::/48 } on-error={}
 :do { add list=GG address=2602:814:fd40::/46 } on-error={}
+:do { add list=GG address=2606:40:2207:1800::/54 } on-error={}
 :do { add list=GG address=2606:40:2240:c000::/51 } on-error={}
 :do { add list=GG address=2606:40:22c0:8000::/54 } on-error={}
 :do { add list=GG address=2606:40:22c0:8800::/53 } on-error={}
 :do { add list=GG address=2606:40:22c0:9000::/52 } on-error={}
+:do { add list=GG address=2606:40:2971:e000::/54 } on-error={}
 :do { add list=GG address=2606:54c0:3848::/45 } on-error={}
 :do { add list=GG address=2606:54c1:1:209::/64 } on-error={}
 :do { add list=GG address=2606:54c3:0:d38::/64 } on-error={}

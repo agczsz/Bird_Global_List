@@ -2929,6 +2929,13 @@
 :do { add list=KR address=2605:b140:9a03::/48 } on-error={}
 :do { add list=KR address=2605:dd40:8225::/48 } on-error={}
 :do { add list=KR address=2605:e440:44::/48 } on-error={}
+:do { add list=KR address=2606:40:91:8000::/53 } on-error={}
+:do { add list=KR address=2606:40:94:6400::/54 } on-error={}
+:do { add list=KR address=2606:40:94:6800::/53 } on-error={}
+:do { add list=KR address=2606:40:94:7000::/52 } on-error={}
+:do { add list=KR address=2606:40:94:8000::/49 } on-error={}
+:do { add list=KR address=2606:40:95::/50 } on-error={}
+:do { add list=KR address=2606:40:95:4000::/53 } on-error={}
 :do { add list=KR address=2606:40:ad8::/46 } on-error={}
 :do { add list=KR address=2606:40:1b20::/45 } on-error={}
 :do { add list=KR address=2606:40:1b38::/45 } on-error={}
@@ -2942,6 +2949,11 @@
 :do { add list=KR address=2606:40:2139:8000::/50 } on-error={}
 :do { add list=KR address=2606:40:2139:c000::/51 } on-error={}
 :do { add list=KR address=2606:40:213d:5800::/53 } on-error={}
+:do { add list=KR address=2606:40:2232:4000::/53 } on-error={}
+:do { add list=KR address=2606:40:2236:a000::/51 } on-error={}
+:do { add list=KR address=2606:40:2236:c000::/50 } on-error={}
+:do { add list=KR address=2606:40:2237::/49 } on-error={}
+:do { add list=KR address=2606:40:2237:8000::/54 } on-error={}
 :do { add list=KR address=2606:40:2310::/47 } on-error={}
 :do { add list=KR address=2606:40:2338::/46 } on-error={}
 :do { add list=KR address=2606:40:233c::/48 } on-error={}
@@ -10617,6 +10629,8 @@
 :do { add list=KR address=2620:0:1cff:dead:bef0:ffff:ffff:ff58/128 } on-error={}
 :do { add list=KR address=2620:0:1cff:dead:bef0:ffff:ffff:ffd4/128 } on-error={}
 :do { add list=KR address=2620:0:1cff:dead:bef0:ffff:ffff:ffed/128 } on-error={}
+:do { add list=KR address=2620:36:2000::115/128 } on-error={}
+:do { add list=KR address=2620:36:2000:400::115/128 } on-error={}
 :do { add list=KR address=2620:100:6034::/50 } on-error={}
 :do { add list=KR address=2620:132:f581::/48 } on-error={}
 :do { add list=KR address=2620:149:b10:520::/59 } on-error={}
@@ -13004,7 +13018,10 @@
 :do { add list=KR address=2a0e:b107:28a8::/47 } on-error={}
 :do { add list=KR address=2a0f:1cc1:8a00::/40 } on-error={}
 :do { add list=KR address=2a0f:1cc4:18fc::/48 } on-error={}
-:do { add list=KR address=2a0f:1cc4:bfc0::/44 } on-error={}
+:do { add list=KR address=2a0f:1cc4:bfc0::/47 } on-error={}
+:do { add list=KR address=2a0f:1cc4:bfc2::/47 } on-error={}
+:do { add list=KR address=2a0f:1cc4:bfc4::/46 } on-error={}
+:do { add list=KR address=2a0f:1cc4:bfc8::/45 } on-error={}
 :do { add list=KR address=2a0f:1cc5:53::/48 } on-error={}
 :do { add list=KR address=2a0f:1cc5:54::/46 } on-error={}
 :do { add list=KR address=2a0f:1cc5:58::/45 } on-error={}

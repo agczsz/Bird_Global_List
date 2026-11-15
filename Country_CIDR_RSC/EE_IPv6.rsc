@@ -1308,12 +1308,17 @@
 :do { add list=EE address=2606:40:10:e800::/54 } on-error={}
 :do { add list=EE address=2606:40:e0:a000::/54 } on-error={}
 :do { add list=EE address=2606:40:e1:4c00::/54 } on-error={}
+:do { add list=EE address=2606:40:ec:7400::/54 } on-error={}
+:do { add list=EE address=2606:40:ec:9400::/54 } on-error={}
+:do { add list=EE address=2606:40:ec:9800::/53 } on-error={}
+:do { add list=EE address=2606:40:ec:a000::/54 } on-error={}
 :do { add list=EE address=2606:40:640::/44 } on-error={}
 :do { add list=EE address=2606:40:6f0::/46 } on-error={}
 :do { add list=EE address=2606:40:6f8::/45 } on-error={}
 :do { add list=EE address=2606:40:9d0::/44 } on-error={}
 :do { add list=EE address=2606:40:1870::/44 } on-error={}
 :do { add list=EE address=2606:40:1880::/44 } on-error={}
+:do { add list=EE address=2606:40:2225:a800::/53 } on-error={}
 :do { add list=EE address=2606:40:22e8:4000::/54 } on-error={}
 :do { add list=EE address=2606:40:22e8:4800::/53 } on-error={}
 :do { add list=EE address=2606:40:22e8:5000::/52 } on-error={}

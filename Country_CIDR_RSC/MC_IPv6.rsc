@@ -50,6 +50,8 @@
 :do { add list=MC address=2a01:8fe0::/32 } on-error={}
 :do { add list=MC address=2a01:cb01:4059:cc00::/56 } on-error={}
 :do { add list=MC address=2a01:cb06:c069:e400::/56 } on-error={}
+:do { add list=MC address=2a01:cb0a:b00d:6b00::/56 } on-error={}
+:do { add list=MC address=2a01:cb1d:473:a600::/56 } on-error={}
 :do { add list=MC address=2a02:26f7:c180::/48 } on-error={}
 :do { add list=MC address=2a02:26f7:c181::/48 } on-error={}
 :do { add list=MC address=2a02:26f7:c182::/47 } on-error={}

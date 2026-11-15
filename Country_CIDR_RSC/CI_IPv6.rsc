@@ -23,6 +23,7 @@
 :do { add list=CI address=2605:59c0:7d00::/40 } on-error={}
 :do { add list=CI address=2606:40:1630::/44 } on-error={}
 :do { add list=CI address=2606:40:1640::/44 } on-error={}
+:do { add list=CI address=2606:40:2207:800::/54 } on-error={}
 :do { add list=CI address=2606:40:2240:6000::/54 } on-error={}
 :do { add list=CI address=2606:40:2240:6800::/53 } on-error={}
 :do { add list=CI address=2606:40:2240:7000::/52 } on-error={}

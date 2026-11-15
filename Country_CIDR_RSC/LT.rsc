@@ -886,6 +886,7 @@
 :do { add list=LT address=88.216.9.0/24 } on-error={}
 :do { add list=LT address=88.216.10.0/23 } on-error={}
 :do { add list=LT address=88.216.12.0/22 } on-error={}
+:do { add list=LT address=88.216.20.0/24 } on-error={}
 :do { add list=LT address=88.216.24.0/23 } on-error={}
 :do { add list=LT address=88.216.26.0/23 } on-error={}
 :do { add list=LT address=88.216.28.0/22 } on-error={}
