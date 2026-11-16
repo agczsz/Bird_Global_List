@@ -24,6 +24,8 @@
 :do { add list=NU address=104.28.241.124/32 } on-error={}
 :do { add list=NU address=104.29.200.242/31 } on-error={}
 :do { add list=NU address=104.29.200.244/32 } on-error={}
+:do { add list=NU address=136.22.12.136/32 } on-error={}
+:do { add list=NU address=136.23.34.133/32 } on-error={}
 :do { add list=NU address=140.248.56.169/32 } on-error={}
 :do { add list=NU address=140.248.57.169/32 } on-error={}
 :do { add list=NU address=140.248.58.169/32 } on-error={}

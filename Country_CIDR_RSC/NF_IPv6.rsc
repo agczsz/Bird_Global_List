@@ -6,6 +6,9 @@
 :do { add list=NF address=2405:b500:53e0::/64 } on-error={}
 :do { add list=NF address=2406:2d40:4580::/42 } on-error={}
 :do { add list=NF address=2602:814:fe88::/46 } on-error={}
+:do { add list=NF address=2606:40:a2:1800::/54 } on-error={}
+:do { add list=NF address=2606:40:b2:2800::/54 } on-error={}
+:do { add list=NF address=2606:40:ba:c00::/54 } on-error={}
 :do { add list=NF address=2606:40:1090::/44 } on-error={}
 :do { add list=NF address=2606:40:10a0::/44 } on-error={}
 :do { add list=NF address=2606:40:2164:8000::/51 } on-error={}

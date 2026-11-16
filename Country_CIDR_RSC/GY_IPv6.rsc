@@ -9,11 +9,14 @@
 :do { add list=GY address=2602:f805:21a::/48 } on-error={}
 :do { add list=GY address=2602:f96d:10b:3423::/64 } on-error={}
 :do { add list=GY address=2602:fd92:b00:138::/64 } on-error={}
+:do { add list=GY address=2605:59c7:a000:3bc::/64 } on-error={}
 :do { add list=GY address=2605:ecc0:700::/40 } on-error={}
 :do { add list=GY address=2606:40:3:2800::/54 } on-error={}
 :do { add list=GY address=2606:40:ba0::/43 } on-error={}
 :do { add list=GY address=2606:40:20f5:6000::/51 } on-error={}
 :do { add list=GY address=2606:40:214a:a000::/51 } on-error={}
+:do { add list=GY address=2606:40:2393:4000::/54 } on-error={}
+:do { add list=GY address=2606:40:2953:7c00::/54 } on-error={}
 :do { add list=GY address=2606:54c0:3908::/45 } on-error={}
 :do { add list=GY address=2606:54c1:1:370::/64 } on-error={}
 :do { add list=GY address=2606:54c3:0:4ab::/64 } on-error={}

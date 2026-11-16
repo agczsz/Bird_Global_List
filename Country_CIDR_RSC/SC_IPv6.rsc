@@ -53,6 +53,7 @@
 :do { add list=SC address=2604:be0:ffe3::/48 } on-error={}
 :do { add list=SC address=2604:be0:ffe4::/48 } on-error={}
 :do { add list=SC address=2605:59c0:7400::/40 } on-error={}
+:do { add list=SC address=2605:59c7:a000:5e::/64 } on-error={}
 :do { add list=SC address=2606:54c0:5158::/45 } on-error={}
 :do { add list=SC address=2606:54c1:1:5a::/64 } on-error={}
 :do { add list=SC address=2606:54c3:0:186a::/64 } on-error={}

@@ -26,11 +26,13 @@
 :do { add list=HT address=2602:814:fd88::/46 } on-error={}
 :do { add list=HT address=2602:f96d:109:21db::/64 } on-error={}
 :do { add list=HT address=2605:59c0:bc00::/40 } on-error={}
+:do { add list=HT address=2605:59c7:a000:434::/64 } on-error={}
 :do { add list=HT address=2606:40:3:3000::/54 } on-error={}
 :do { add list=HT address=2606:40:67:2400::/54 } on-error={}
 :do { add list=HT address=2606:40:ee0::/43 } on-error={}
 :do { add list=HT address=2606:40:20f5:8000::/51 } on-error={}
 :do { add list=HT address=2606:40:214a:e000::/51 } on-error={}
+:do { add list=HT address=2606:40:23b4:1000::/54 } on-error={}
 :do { add list=HT address=2606:54c0:3948::/45 } on-error={}
 :do { add list=HT address=2606:54c1:1:3dc::/64 } on-error={}
 :do { add list=HT address=2606:54c3:0:1a2::/64 } on-error={}

@@ -39,6 +39,9 @@
 :do { add list=BO address=2602:f805:223::/48 } on-error={}
 :do { add list=BO address=2602:f805:23c::/48 } on-error={}
 :do { add list=BO address=2602:f96d:10b:ede5::/64 } on-error={}
+:do { add list=BO address=2605:59c7:a000:26d::/64 } on-error={}
+:do { add list=BO address=2605:59c7:a000:3a3::/64 } on-error={}
+:do { add list=BO address=2605:59c7:a000:3c8::/64 } on-error={}
 :do { add list=BO address=2606:54c0:530::/44 } on-error={}
 :do { add list=BO address=2606:54c0:540::/44 } on-error={}
 :do { add list=BO address=2606:54c1:1:236::/64 } on-error={}

@@ -30,6 +30,7 @@
 :do { add list=LA address=63.218.165.6/31 } on-error={}
 :do { add list=LA address=63.220.204.185/32 } on-error={}
 :do { add list=LA address=63.246.46.128/26 } on-error={}
+:do { add list=LA address=69.195.182.204/31 } on-error={}
 :do { add list=LA address=72.14.203.229/32 } on-error={}
 :do { add list=LA address=72.14.214.249/32 } on-error={}
 :do { add list=LA address=72.14.218.243/32 } on-error={}

@@ -8,7 +8,9 @@
 :do { add list=GN address=2602:814:fd54::/46 } on-error={}
 :do { add list=GN address=2605:59c0:4800::/40 } on-error={}
 :do { add list=GN address=2605:59c0:8200::/40 } on-error={}
+:do { add list=GN address=2605:59c7:a000:155::/64 } on-error={}
 :do { add list=GN address=2606:40:e8:c000::/54 } on-error={}
+:do { add list=GN address=2606:40:f0:fc00::/54 } on-error={}
 :do { add list=GN address=2606:40:938::/45 } on-error={}
 :do { add list=GN address=2606:40:940::/45 } on-error={}
 :do { add list=GN address=2606:40:1170::/44 } on-error={}

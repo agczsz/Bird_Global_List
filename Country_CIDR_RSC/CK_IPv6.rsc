@@ -9,10 +9,13 @@
 :do { add list=CK address=2406:2d40:a400::/40 } on-error={}
 :do { add list=CK address=2407:5800::/32 } on-error={}
 :do { add list=CK address=2602:814:fcb0::/46 } on-error={}
+:do { add list=CK address=2606:40:a2:400::/54 } on-error={}
+:do { add list=CK address=2606:40:ba::/54 } on-error={}
 :do { add list=CK address=2606:40:b10::/44 } on-error={}
 :do { add list=CK address=2606:40:b20::/45 } on-error={}
 :do { add list=CK address=2606:40:217e:4000::/51 } on-error={}
 :do { add list=CK address=2606:40:2300:2000::/51 } on-error={}
+:do { add list=CK address=2606:40:23a5:b000::/54 } on-error={}
 :do { add list=CK address=2606:40:2939:9c00::/54 } on-error={}
 :do { add list=CK address=2606:54c0:1e68::/45 } on-error={}
 :do { add list=CK address=2606:54c1:1:367::/64 } on-error={}

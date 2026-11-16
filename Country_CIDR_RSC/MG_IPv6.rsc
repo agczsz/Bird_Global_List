@@ -33,6 +33,7 @@
 :do { add list=MG address=2602:fd92:b00:147::64/128 } on-error={}
 :do { add list=MG address=2602:fd92:b00:165::/64 } on-error={}
 :do { add list=MG address=2605:59c0:2e00::/40 } on-error={}
+:do { add list=MG address=2605:59c7:a000:38d::/64 } on-error={}
 :do { add list=MG address=2605:59ca:8200::/40 } on-error={}
 :do { add list=MG address=2606:54c0:4858::/45 } on-error={}
 :do { add list=MG address=2606:54c1:1:348::/64 } on-error={}

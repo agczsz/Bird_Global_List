@@ -10,11 +10,13 @@
 :do { add list=VC address=2602:814:ffb0::/46 } on-error={}
 :do { add list=VC address=2602:f96d:109:2a63::/64 } on-error={}
 :do { add list=VC address=2602:fce4::/36 } on-error={}
+:do { add list=VC address=2605:59c7:a000:41f::/64 } on-error={}
 :do { add list=VC address=2606:40:3:6c00::/54 } on-error={}
 :do { add list=VC address=2606:40:67:6400::/54 } on-error={}
 :do { add list=VC address=2606:40:ce0::/43 } on-error={}
 :do { add list=VC address=2606:40:203c:e000::/51 } on-error={}
 :do { add list=VC address=2606:40:214c:c000::/51 } on-error={}
+:do { add list=VC address=2606:40:2393:7c00::/54 } on-error={}
 :do { add list=VC address=2606:3c80:1600::/48 } on-error={}
 :do { add list=VC address=2606:54c0:d258::/45 } on-error={}
 :do { add list=VC address=2606:54c1:1:3c9::/64 } on-error={}

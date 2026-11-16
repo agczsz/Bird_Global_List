@@ -554,6 +554,7 @@
 :do { add list=ZM address=64.86.210.0/23 } on-error={}
 :do { add list=ZM address=66.54.169.184/29 } on-error={}
 :do { add list=ZM address=66.102.47.0/26 } on-error={}
+:do { add list=ZM address=69.195.191.254/31 } on-error={}
 :do { add list=ZM address=74.244.128.0/23 } on-error={}
 :do { add list=ZM address=77.246.62.128/26 } on-error={}
 :do { add list=ZM address=77.246.63.128/25 } on-error={}

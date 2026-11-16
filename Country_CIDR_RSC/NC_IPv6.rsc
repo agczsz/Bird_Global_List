@@ -87,6 +87,9 @@
 :do { add list=NC address=2602:814:fe80::/46 } on-error={}
 :do { add list=NC address=2602:f805:366::/48 } on-error={}
 :do { add list=NC address=2602:f93d:f0::/46 } on-error={}
+:do { add list=NC address=2606:40:a2:1400::/54 } on-error={}
+:do { add list=NC address=2606:40:b2:2400::/54 } on-error={}
+:do { add list=NC address=2606:40:ba:800::/54 } on-error={}
 :do { add list=NC address=2606:40:5b4::/46 } on-error={}
 :do { add list=NC address=2606:40:5f0::/45 } on-error={}
 :do { add list=NC address=2606:40:5f8::/46 } on-error={}

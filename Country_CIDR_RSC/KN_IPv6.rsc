@@ -13,12 +13,14 @@
 :do { add list=KN address=2604:a180:4000::/36 } on-error={}
 :do { add list=KN address=2604:a180:8000::/35 } on-error={}
 :do { add list=KN address=2605:59c0:7300::/40 } on-error={}
+:do { add list=KN address=2605:59c7:a000:450::/64 } on-error={}
 :do { add list=KN address=2605:9e40:8200:100::/56 } on-error={}
 :do { add list=KN address=2606:40:3:3800::/54 } on-error={}
 :do { add list=KN address=2606:40:67:2c00::/54 } on-error={}
 :do { add list=KN address=2606:40:ca0::/43 } on-error={}
 :do { add list=KN address=2606:40:203c:8000::/51 } on-error={}
 :do { add list=KN address=2606:40:214b:2000::/51 } on-error={}
+:do { add list=KN address=2606:40:2393:4c00::/54 } on-error={}
 :do { add list=KN address=2606:54c0:4670::/45 } on-error={}
 :do { add list=KN address=2606:54c1:1:3f6::/64 } on-error={}
 :do { add list=KN address=2606:54c3:0:101::/64 } on-error={}

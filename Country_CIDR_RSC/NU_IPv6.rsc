@@ -8,6 +8,8 @@
 :do { add list=NU address=2405:b500:5760::/64 } on-error={}
 :do { add list=NU address=2406:2d40:3800::/40 } on-error={}
 :do { add list=NU address=2602:814:fea4::/46 } on-error={}
+:do { add list=NU address=2606:40:a2:2000::/54 } on-error={}
+:do { add list=NU address=2606:40:ba:1400::/54 } on-error={}
 :do { add list=NU address=2606:40:1050::/44 } on-error={}
 :do { add list=NU address=2606:40:1060::/44 } on-error={}
 :do { add list=NU address=2606:40:217f::/51 } on-error={}

@@ -9,6 +9,7 @@
 :do { add list=ME address=2405:b500:4840::/64 } on-error={}
 :do { add list=ME address=2405:b500:4860::/64 } on-error={}
 :do { add list=ME address=2602:814:fe2c::/46 } on-error={}
+:do { add list=ME address=2605:59c7:a000:25d::/64 } on-error={}
 :do { add list=ME address=2606:40:42:e000::/54 } on-error={}
 :do { add list=ME address=2606:40:e0:ac00::/54 } on-error={}
 :do { add list=ME address=2606:40:880::/45 } on-error={}
@@ -19,6 +20,7 @@
 :do { add list=ME address=2606:40:22f8:a000::/51 } on-error={}
 :do { add list=ME address=2606:40:22fe:c000::/51 } on-error={}
 :do { add list=ME address=2606:40:2319:a400::/54 } on-error={}
+:do { add list=ME address=2606:40:2984:6c00::/54 } on-error={}
 :do { add list=ME address=2606:54c0:4848::/45 } on-error={}
 :do { add list=ME address=2606:54c1:1:229::/64 } on-error={}
 :do { add list=ME address=2606:54c3:0:c8f::/64 } on-error={}

@@ -7,6 +7,7 @@
 :do { add list=LS address=2405:b500:4440::/64 } on-error={}
 :do { add list=LS address=2405:b500:4460::/64 } on-error={}
 :do { add list=LS address=2602:814:fe0c::/46 } on-error={}
+:do { add list=LS address=2605:59c7:a000:400::/64 } on-error={}
 :do { add list=LS address=2605:59ca:8800::/40 } on-error={}
 :do { add list=LS address=2606:54c0:47c8::/45 } on-error={}
 :do { add list=LS address=2606:54c1:1:3aa::/64 } on-error={}

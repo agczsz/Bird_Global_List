@@ -5,6 +5,9 @@
 :do { add list=VA address=2405:b500:7840::/64 } on-error={}
 :do { add list=VA address=2405:b500:7860::/64 } on-error={}
 :do { add list=VA address=2602:814:ffac::/46 } on-error={}
+:do { add list=VA address=2606:40:82:3000::/54 } on-error={}
+:do { add list=VA address=2606:40:a9:fc00::/54 } on-error={}
+:do { add list=VA address=2606:40:c9:a000::/54 } on-error={}
 :do { add list=VA address=2606:40:1370::/44 } on-error={}
 :do { add list=VA address=2606:40:1380::/44 } on-error={}
 :do { add list=VA address=2606:40:2190:e000::/54 } on-error={}

@@ -32,10 +32,14 @@
 :do { add list=PS address=2602:f92a:fe08::/48 } on-error={}
 :do { add list=PS address=2602:f92a:ff08::/48 } on-error={}
 :do { add list=PS address=2602:fd92:b00:135::/64 } on-error={}
+:do { add list=PS address=2605:59c7:a000:a4::/64 } on-error={}
+:do { add list=PS address=2606:40:a9:d800::/54 } on-error={}
+:do { add list=PS address=2606:40:c9:8c00::/54 } on-error={}
 :do { add list=PS address=2606:40:1610::/44 } on-error={}
 :do { add list=PS address=2606:40:1620::/44 } on-error={}
 :do { add list=PS address=2606:40:22a1:4000::/51 } on-error={}
 :do { add list=PS address=2606:40:230c:2000::/51 } on-error={}
+:do { add list=PS address=2606:40:2980:1800::/54 } on-error={}
 :do { add list=PS address=2606:54c0:4fd8::/45 } on-error={}
 :do { add list=PS address=2606:54c0:4fe0::/45 } on-error={}
 :do { add list=PS address=2606:54c1:1:9a::/64 } on-error={}

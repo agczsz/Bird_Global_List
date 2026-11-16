@@ -1,7 +1,6 @@
 /log info "Loading BH IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=BH address=2001:500:15:5900::/56 } on-error={}
-:do { add list=BH address=2001:5a0:d00::426e:6e/128 } on-error={}
 :do { add list=BH address=2001:1a00:acca:1506::2/128 } on-error={}
 :do { add list=BH address=2001:1a10:100:c:8781::47/128 } on-error={}
 :do { add list=BH address=2001:1a40::/44 } on-error={}
@@ -150,6 +149,8 @@
 :do { add list=BH address=2604:b040:13:600:1:4:1:0/112 } on-error={}
 :do { add list=BH address=2604:b040:13:600:1:5:1:0/112 } on-error={}
 :do { add list=BH address=2604:e700:1e::/48 } on-error={}
+:do { add list=BH address=2605:59c7:a000:1b1::/64 } on-error={}
+:do { add list=BH address=2605:59c7:a000:35d::/64 } on-error={}
 :do { add list=BH address=2605:59ca:80a3::/48 } on-error={}
 :do { add list=BH address=2605:8380:300::/40 } on-error={}
 :do { add list=BH address=2606:54c0:4f8::/45 } on-error={}

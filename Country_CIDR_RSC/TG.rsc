@@ -2,10 +2,12 @@
 /ip firewall address-list
 :do { add list=TG address=5.62.63.160/30 } on-error={}
 :do { add list=TG address=41.78.136.0/22 } on-error={}
+:do { add list=TG address=41.180.172.0/24 } on-error={}
 :do { add list=TG address=41.207.160.0/19 } on-error={}
 :do { add list=TG address=57.82.148.0/23 } on-error={}
 :do { add list=TG address=57.85.16.0/20 } on-error={}
 :do { add list=TG address=66.102.36.0/26 } on-error={}
+:do { add list=TG address=69.195.161.184/31 } on-error={}
 :do { add list=TG address=80.248.64.0/20 } on-error={}
 :do { add list=TG address=81.192.254.38/32 } on-error={}
 :do { add list=TG address=90.96.176.220/32 } on-error={}
@@ -46,6 +48,8 @@
 :do { add list=TG address=104.28.225.154/32 } on-error={}
 :do { add list=TG address=104.29.192.214/31 } on-error={}
 :do { add list=TG address=104.29.192.216/32 } on-error={}
+:do { add list=TG address=136.22.14.124/32 } on-error={}
+:do { add list=TG address=136.23.5.110/32 } on-error={}
 :do { add list=TG address=140.248.24.88/31 } on-error={}
 :do { add list=TG address=140.248.40.194/31 } on-error={}
 :do { add list=TG address=140.248.41.88/31 } on-error={}
@@ -74,6 +78,7 @@
 :do { add list=TG address=160.242.206.0/23 } on-error={}
 :do { add list=TG address=160.242.208.0/20 } on-error={}
 :do { add list=TG address=160.242.224.0/19 } on-error={}
+:do { add list=TG address=162.120.131.71/32 } on-error={}
 :do { add list=TG address=162.120.204.82/32 } on-error={}
 :do { add list=TG address=162.120.235.100/32 } on-error={}
 :do { add list=TG address=163.116.174.220/31 } on-error={}

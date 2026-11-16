@@ -6,6 +6,9 @@
 :do { add list=GM address=2602:814:fd50::/46 } on-error={}
 :do { add list=GM address=2605:59c0:4a00::/40 } on-error={}
 :do { add list=GM address=2605:59c0:8600::/40 } on-error={}
+:do { add list=GM address=2605:59c7:a000:411::/64 } on-error={}
+:do { add list=GM address=2606:40:c9:6400::/54 } on-error={}
+:do { add list=GM address=2606:40:f0:f800::/54 } on-error={}
 :do { add list=GM address=2606:40:590::/44 } on-error={}
 :do { add list=GM address=2606:40:1120::/44 } on-error={}
 :do { add list=GM address=2606:40:2241::/51 } on-error={}

@@ -144,6 +144,7 @@
 :do { add list=GI address=157.167.240.46/32 } on-error={}
 :do { add list=GI address=157.167.240.153/32 } on-error={}
 :do { add list=GI address=162.120.129.47/32 } on-error={}
+:do { add list=GI address=162.120.131.61/32 } on-error={}
 :do { add list=GI address=162.120.204.74/32 } on-error={}
 :do { add list=GI address=162.120.214.5/32 } on-error={}
 :do { add list=GI address=163.116.169.111/32 } on-error={}

@@ -9,9 +9,12 @@
 :do { add list=TK address=2405:b500:7060::/64 } on-error={}
 :do { add list=TK address=2406:2d40:4800::/40 } on-error={}
 :do { add list=TK address=2602:814:ff6c::/46 } on-error={}
+:do { add list=TK address=2606:40:b2:3c00::/54 } on-error={}
+:do { add list=TK address=2606:40:ba:2000::/54 } on-error={}
 :do { add list=TK address=2606:40:f80::/43 } on-error={}
 :do { add list=TK address=2606:40:217f:8000::/51 } on-error={}
 :do { add list=TK address=2606:40:230a:8000::/51 } on-error={}
+:do { add list=TK address=2606:40:23a5:c800::/54 } on-error={}
 :do { add list=TK address=2606:54c0:5780::/45 } on-error={}
 :do { add list=TK address=2606:54c1:1:172::/64 } on-error={}
 :do { add list=TK address=2606:54c3:0:1113::/64 } on-error={}

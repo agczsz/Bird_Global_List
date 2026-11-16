@@ -42,6 +42,8 @@
 :do { add list=AZ address=2602:f805:30e::/47 } on-error={}
 :do { add list=AZ address=2602:fa80:43::/48 } on-error={}
 :do { add list=AZ address=2605:59c0:8e00::/40 } on-error={}
+:do { add list=AZ address=2605:59c7:a000:13::/64 } on-error={}
+:do { add list=AZ address=2605:59c7:a000:2e5::/64 } on-error={}
 :do { add list=AZ address=2606:54c0:440::/44 } on-error={}
 :do { add list=AZ address=2606:54c0:450::/45 } on-error={}
 :do { add list=AZ address=2606:54c1:1:13::/64 } on-error={}
@@ -543,7 +545,6 @@
 :do { add list=AZ address=2a11:29c0:3d88:fd4c::/64 } on-error={}
 :do { add list=AZ address=2a11:f146:f000::/36 } on-error={}
 :do { add list=AZ address=2a12:8bc0::/29 } on-error={}
-:do { add list=AZ address=2a12:bec4:1571:fa15::/64 } on-error={}
 :do { add list=AZ address=2a12:d1c0::/29 } on-error={}
 :do { add list=AZ address=2a12:f381:8e00::/40 } on-error={}
 :do { add list=AZ address=2a12:f382:8e00::/40 } on-error={}

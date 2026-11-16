@@ -166,6 +166,7 @@
 :do { add list=MV address=2600:70ff:ac5a::/48 } on-error={}
 :do { add list=MV address=2602:814:fe68::/46 } on-error={}
 :do { add list=MV address=2602:f805:35d::/48 } on-error={}
+:do { add list=MV address=2605:59c7:a000:2d0::/64 } on-error={}
 :do { add list=MV address=2606:54c0:48e8::/45 } on-error={}
 :do { add list=MV address=2606:54c1:1:292::/64 } on-error={}
 :do { add list=MV address=2606:54c3:0:a29::/64 } on-error={}

@@ -7,6 +7,7 @@
 :do { add list=CG address=2405:b500:16e0::/64 } on-error={}
 :do { add list=CG address=2602:2a9:c40::/44 } on-error={}
 :do { add list=CG address=2602:814:fca4::/46 } on-error={}
+:do { add list=CG address=2605:59c7:a000:15b::/64 } on-error={}
 :do { add list=CG address=2605:59ca:8300::/40 } on-error={}
 :do { add list=CG address=2605:59ca:8500::/40 } on-error={}
 :do { add list=CG address=2606:54c0:1d58::/45 } on-error={}

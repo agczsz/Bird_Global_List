@@ -20,9 +20,13 @@
 :do { add list=KI address=2406:2d40:a800::/40 } on-error={}
 :do { add list=KI address=2406:cd00::/32 } on-error={}
 :do { add list=KI address=2602:814:fdd4::/46 } on-error={}
+:do { add list=KI address=2605:59c7:a000:153::/64 } on-error={}
+:do { add list=KI address=2606:40:b2:2000::/54 } on-error={}
+:do { add list=KI address=2606:40:c2:1000::/54 } on-error={}
 :do { add list=KI address=2606:40:fe0::/43 } on-error={}
 :do { add list=KI address=2606:40:201c:e000::/51 } on-error={}
 :do { add list=KI address=2606:40:2113:2000::/51 } on-error={}
+:do { add list=KI address=2606:40:23a5:bc00::/54 } on-error={}
 :do { add list=KI address=2606:54c0:4650::/44 } on-error={}
 :do { add list=KI address=2606:54c0:4660::/45 } on-error={}
 :do { add list=KI address=2606:54c1:1:137::/64 } on-error={}

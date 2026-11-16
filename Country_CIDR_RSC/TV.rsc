@@ -4,6 +4,7 @@
 :do { add list=TV address=5.62.58.220/30 } on-error={}
 :do { add list=TV address=57.70.170.0/23 } on-error={}
 :do { add list=TV address=66.96.121.64/26 } on-error={}
+:do { add list=TV address=69.195.189.80/31 } on-error={}
 :do { add list=TV address=90.96.190.168/32 } on-error={}
 :do { add list=TV address=104.28.13.128/31 } on-error={}
 :do { add list=TV address=104.28.13.130/32 } on-error={}
@@ -22,6 +23,9 @@
 :do { add list=TV address=104.28.252.240/31 } on-error={}
 :do { add list=TV address=104.29.206.130/31 } on-error={}
 :do { add list=TV address=104.29.206.132/32 } on-error={}
+:do { add list=TV address=136.22.12.139/32 } on-error={}
+:do { add list=TV address=136.23.32.144/32 } on-error={}
+:do { add list=TV address=136.23.34.137/32 } on-error={}
 :do { add list=TV address=140.248.20.22/31 } on-error={}
 :do { add list=TV address=140.248.56.226/32 } on-error={}
 :do { add list=TV address=140.248.57.226/32 } on-error={}

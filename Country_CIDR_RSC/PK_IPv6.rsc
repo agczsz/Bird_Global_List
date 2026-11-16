@@ -2,7 +2,6 @@
 /ipv6 firewall address-list
 :do { add list=PK address=2001:470:d:c40::/64 } on-error={}
 :do { add list=PK address=2001:470:19:fef::/64 } on-error={}
-:do { add list=PK address=2001:470:24:8c2::/64 } on-error={}
 :do { add list=PK address=2001:470:28:774::/64 } on-error={}
 :do { add list=PK address=2001:470:18f4::/48 } on-error={}
 :do { add list=PK address=2001:470:1f1b:3d2::/64 } on-error={}
@@ -2594,6 +2593,14 @@
 :do { add list=PK address=2602:ffe4:c5d::/48 } on-error={}
 :do { add list=PK address=2602:ffe4:c6c::/48 } on-error={}
 :do { add list=PK address=2602:ffe4:ca0::/48 } on-error={}
+:do { add list=PK address=2605:59c7:a000:82::/64 } on-error={}
+:do { add list=PK address=2605:59c7:a000:128::/64 } on-error={}
+:do { add list=PK address=2605:59c7:a000:288::/64 } on-error={}
+:do { add list=PK address=2605:59c7:a000:2e3::/64 } on-error={}
+:do { add list=PK address=2605:59c7:a000:37c::/64 } on-error={}
+:do { add list=PK address=2605:59c7:a000:3c6::/64 } on-error={}
+:do { add list=PK address=2605:59c7:a000:3d1::/64 } on-error={}
+:do { add list=PK address=2605:59c7:a000:472::/64 } on-error={}
 :do { add list=PK address=2606:54c0:4f48::/45 } on-error={}
 :do { add list=PK address=2606:54c0:4f50::/44 } on-error={}
 :do { add list=PK address=2606:54c0:4f60::/43 } on-error={}

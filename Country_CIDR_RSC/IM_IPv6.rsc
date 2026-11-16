@@ -34,6 +34,7 @@
 :do { add list=IM address=2606:40:22c1:4000::/54 } on-error={}
 :do { add list=IM address=2606:40:22c1:4800::/53 } on-error={}
 :do { add list=IM address=2606:40:22c1:5000::/52 } on-error={}
+:do { add list=IM address=2606:40:2385:9c00::/54 } on-error={}
 :do { add list=IM address=2606:40:294d:1800::/54 } on-error={}
 :do { add list=IM address=2606:40:2971:f400::/54 } on-error={}
 :do { add list=IM address=2606:54c0:3a40::/45 } on-error={}

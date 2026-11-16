@@ -2,6 +2,8 @@
 /ipv6 firewall address-list
 :do { add list=ER address=2602:814:fd08::/46 } on-error={}
 :do { add list=ER address=2605:59c0:1600::/40 } on-error={}
+:do { add list=ER address=2605:59c7:a000:1e9::/64 } on-error={}
+:do { add list=ER address=2606:40:a9:b000::/54 } on-error={}
 :do { add list=ER address=2606:40:ec:7800::/54 } on-error={}
 :do { add list=ER address=2606:40:aa8::/45 } on-error={}
 :do { add list=ER address=2606:40:ab0::/45 } on-error={}
@@ -11,6 +13,7 @@
 :do { add list=ER address=2606:40:21a0:7000::/52 } on-error={}
 :do { add list=ER address=2606:40:2300:4000::/51 } on-error={}
 :do { add list=ER address=2606:40:2939:9400::/54 } on-error={}
+:do { add list=ER address=2606:40:2980:800::/54 } on-error={}
 :do { add list=ER address=2606:54c0:3080::/45 } on-error={}
 :do { add list=ER address=2606:54c1:1:1bd::/64 } on-error={}
 :do { add list=ER address=2606:54c3:0:f09::/64 } on-error={}

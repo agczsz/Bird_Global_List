@@ -1,7 +1,6 @@
 /log info "Loading GU IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=GU address=2001:388:cf85:5::/128 } on-error={}
-:do { add list=GU address=2001:470:0:49d::/64 } on-error={}
 :do { add list=GU address=2001:470:0:49e::2/128 } on-error={}
 :do { add list=GU address=2001:470:1:b76::/64 } on-error={}
 :do { add list=GU address=2001:470:1:e16::/63 } on-error={}
@@ -393,6 +392,7 @@
 :do { add list=GU address=2407:4800:0:d::/64 } on-error={}
 :do { add list=GU address=2407:4800:1000:11::2/128 } on-error={}
 :do { add list=GU address=2600:1488:5fc0::1b/128 } on-error={}
+:do { add list=GU address=2600:1488:5fc3::3f/128 } on-error={}
 :do { add list=GU address=2600:70ff:c037:4000::/50 } on-error={}
 :do { add list=GU address=2600:70ff:c037:8000::/49 } on-error={}
 :do { add list=GU address=2600:70ff:c0e7::/48 } on-error={}

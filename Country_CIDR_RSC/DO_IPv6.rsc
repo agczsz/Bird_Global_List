@@ -89,6 +89,7 @@
 :do { add list=DO address=2602:fd92:b00:201::/64 } on-error={}
 :do { add list=DO address=2602:fd92:b00:202::/63 } on-error={}
 :do { add list=DO address=2605:59c0:b700::/40 } on-error={}
+:do { add list=DO address=2605:59c7:a000:14a::/64 } on-error={}
 :do { add list=DO address=2605:59ca:9100::/40 } on-error={}
 :do { add list=DO address=2606:40:3:1400::/54 } on-error={}
 :do { add list=DO address=2606:40:67:c00::/54 } on-error={}
@@ -97,6 +98,7 @@
 :do { add list=DO address=2606:40:205e:4000::/51 } on-error={}
 :do { add list=DO address=2606:40:2140:2400::/54 } on-error={}
 :do { add list=DO address=2606:40:214a::/51 } on-error={}
+:do { add list=DO address=2606:40:2393:2c00::/54 } on-error={}
 :do { add list=DO address=2606:1d40::17/128 } on-error={}
 :do { add list=DO address=2606:54c0:3000::/44 } on-error={}
 :do { add list=DO address=2606:54c0:d490::/45 } on-error={}

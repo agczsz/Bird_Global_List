@@ -24,6 +24,9 @@
 :do { add list=NF address=104.28.245.142/32 } on-error={}
 :do { add list=NF address=104.29.202.232/31 } on-error={}
 :do { add list=NF address=104.29.202.234/32 } on-error={}
+:do { add list=NF address=136.22.12.134/32 } on-error={}
+:do { add list=NF address=136.23.32.138/32 } on-error={}
+:do { add list=NF address=136.23.34.131/32 } on-error={}
 :do { add list=NF address=140.248.20.16/31 } on-error={}
 :do { add list=NF address=140.248.44.74/31 } on-error={}
 :do { add list=NF address=140.248.56.162/32 } on-error={}

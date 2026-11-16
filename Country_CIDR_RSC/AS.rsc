@@ -39,6 +39,9 @@
 :do { add list=AS address=104.28.242.160/30 } on-error={}
 :do { add list=AS address=104.29.201.129/32 } on-error={}
 :do { add list=AS address=104.29.201.130/31 } on-error={}
+:do { add list=AS address=136.22.12.126/32 } on-error={}
+:do { add list=AS address=136.23.32.132/32 } on-error={}
+:do { add list=AS address=136.23.34.126/32 } on-error={}
 :do { add list=AS address=140.248.20.2/31 } on-error={}
 :do { add list=AS address=140.248.56.10/32 } on-error={}
 :do { add list=AS address=140.248.57.10/32 } on-error={}

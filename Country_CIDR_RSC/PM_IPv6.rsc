@@ -13,10 +13,12 @@
 :do { add list=PM address=2605:59c0:7900::/40 } on-error={}
 :do { add list=PM address=2605:59c9:1000::/42 } on-error={}
 :do { add list=PM address=2606:40:67:4c00::/54 } on-error={}
+:do { add list=PM address=2606:40:da:5c00::/54 } on-error={}
 :do { add list=PM address=2606:40:16d0::/44 } on-error={}
 :do { add list=PM address=2606:40:16e0::/44 } on-error={}
 :do { add list=PM address=2606:40:20f6::/51 } on-error={}
 :do { add list=PM address=2606:40:2171:a000::/51 } on-error={}
+:do { add list=PM address=2606:40:2953:8000::/54 } on-error={}
 :do { add list=PM address=2606:54c0:4fc0::/45 } on-error={}
 :do { add list=PM address=2606:54c1:1:1fc::/64 } on-error={}
 :do { add list=PM address=2606:54c3:0:d87::/64 } on-error={}

@@ -16,6 +16,10 @@
 :do { add list=SB address=2406:2d40:a000::/40 } on-error={}
 :do { add list=SB address=2407:3800::/32 } on-error={}
 :do { add list=SB address=2602:814:ff04::/46 } on-error={}
+:do { add list=SB address=2605:59c7:a000:1a2::/64 } on-error={}
+:do { add list=SB address=2606:40:a2:2800::/54 } on-error={}
+:do { add list=SB address=2606:40:b2:3400::/54 } on-error={}
+:do { add list=SB address=2606:40:ba:1c00::/54 } on-error={}
 :do { add list=SB address=2606:40:69c::/46 } on-error={}
 :do { add list=SB address=2606:40:6a0::/45 } on-error={}
 :do { add list=SB address=2606:40:6a8::/46 } on-error={}

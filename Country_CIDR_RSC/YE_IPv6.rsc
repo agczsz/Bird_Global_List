@@ -17,6 +17,10 @@
 :do { add list=YE address=2405:b500:7ce0:10::/64 } on-error={}
 :do { add list=YE address=2405:b500:7ce0:18::/64 } on-error={}
 :do { add list=YE address=2602:814:ffd0::/46 } on-error={}
+:do { add list=YE address=2605:59c7:a000:ec::/64 } on-error={}
+:do { add list=YE address=2605:59c7:a000:279::/64 } on-error={}
+:do { add list=YE address=2605:59c7:a000:355::/64 } on-error={}
+:do { add list=YE address=2605:59c7:a000:824::/64 } on-error={}
 :do { add list=YE address=2606:54c0:d388::/45 } on-error={}
 :do { add list=YE address=2606:54c0:d390::/44 } on-error={}
 :do { add list=YE address=2606:54c0:d3a0::/45 } on-error={}

@@ -51,6 +51,8 @@
 :do { add list=SD address=62.216.147.166/32 } on-error={}
 :do { add list=SD address=62.216.147.178/32 } on-error={}
 :do { add list=SD address=66.96.119.64/26 } on-error={}
+:do { add list=SD address=69.195.172.180/31 } on-error={}
+:do { add list=SD address=69.195.181.106/31 } on-error={}
 :do { add list=SD address=74.244.138.0/23 } on-error={}
 :do { add list=SD address=74.244.188.0/23 } on-error={}
 :do { add list=SD address=81.10.86.49/32 } on-error={}

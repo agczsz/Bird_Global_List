@@ -13,6 +13,7 @@
 :do { add list=SX address=2606:40:bc0::/43 } on-error={}
 :do { add list=SX address=2606:40:205e:e000::/51 } on-error={}
 :do { add list=SX address=2606:40:214c:6000::/51 } on-error={}
+:do { add list=SX address=2606:40:2393:7000::/54 } on-error={}
 :do { add list=SX address=2606:54c0:5578::/45 } on-error={}
 :do { add list=SX address=2606:54c1:1:3ad::/64 } on-error={}
 :do { add list=SX address=2606:54c3:0:2ef::/64 } on-error={}

@@ -148,6 +148,8 @@
 :do { add list=MD address=2602:f9a9:5:441::/64 } on-error={}
 :do { add list=MD address=2602:faa8:455:441::/64 } on-error={}
 :do { add list=MD address=2602:fb68:900::5c57:ba7a/128 } on-error={}
+:do { add list=MD address=2605:59c7:a000:1ae::/64 } on-error={}
+:do { add list=MD address=2605:59c7:a000:1d3::/64 } on-error={}
 :do { add list=MD address=2605:dd40:8218::/48 } on-error={}
 :do { add list=MD address=2605:e440:33::/48 } on-error={}
 :do { add list=MD address=2606:40:42:dc00::/54 } on-error={}
@@ -161,6 +163,7 @@
 :do { add list=MD address=2606:40:22f8:8800::/53 } on-error={}
 :do { add list=MD address=2606:40:22f8:9000::/52 } on-error={}
 :do { add list=MD address=2606:40:2319:8400::/54 } on-error={}
+:do { add list=MD address=2606:40:2984:6800::/54 } on-error={}
 :do { add list=MD address=2606:54c0:4838::/45 } on-error={}
 :do { add list=MD address=2606:54c0:4840::/45 } on-error={}
 :do { add list=MD address=2606:54c1:1:188::/64 } on-error={}
@@ -371,6 +374,7 @@
 :do { add list=MD address=2a02:26f7:ddc1::/48 } on-error={}
 :do { add list=MD address=2a02:26f7:ddc2::/47 } on-error={}
 :do { add list=MD address=2a02:26f7:ddc4:4000::/64 } on-error={}
+:do { add list=MD address=2a02:26f7:ddc4:8000::/50 } on-error={}
 :do { add list=MD address=2a02:26f7:ddc4:cfe0::/62 } on-error={}
 :do { add list=MD address=2a02:26f7:ddc4:cfe4::/63 } on-error={}
 :do { add list=MD address=2a02:26f7:ddc5::/48 } on-error={}
@@ -601,7 +605,9 @@
 :do { add list=MD address=2a0a:c800:1::/64 } on-error={}
 :do { add list=MD address=2a0a:c800:1:5::/64 } on-error={}
 :do { add list=MD address=2a0a:c800:1:6::/63 } on-error={}
-:do { add list=MD address=2a0a:c800:1:8::/61 } on-error={}
+:do { add list=MD address=2a0a:c800:1:8::/62 } on-error={}
+:do { add list=MD address=2a0a:c800:1:c::/64 } on-error={}
+:do { add list=MD address=2a0a:c800:1:e::/63 } on-error={}
 :do { add list=MD address=2a0a:c800:1:10::/60 } on-error={}
 :do { add list=MD address=2a0a:c800:1:20::/59 } on-error={}
 :do { add list=MD address=2a0a:c800:1:40::/58 } on-error={}

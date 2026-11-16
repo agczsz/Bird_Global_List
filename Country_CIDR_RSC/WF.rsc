@@ -1,6 +1,7 @@
 /log info "Loading WF IPv4 Address List"
 /ip firewall address-list
 :do { add list=WF address=27.125.192.0/22 } on-error={}
+:do { add list=WF address=69.195.176.76/31 } on-error={}
 :do { add list=WF address=90.96.184.38/32 } on-error={}
 :do { add list=WF address=103.235.110.0/23 } on-error={}
 :do { add list=WF address=104.28.15.91/32 } on-error={}
@@ -14,6 +15,8 @@
 :do { add list=WF address=104.28.239.84/32 } on-error={}
 :do { add list=WF address=104.29.199.236/32 } on-error={}
 :do { add list=WF address=117.20.32.0/21 } on-error={}
+:do { add list=WF address=136.22.12.141/32 } on-error={}
+:do { add list=WF address=136.23.34.139/32 } on-error={}
 :do { add list=WF address=140.248.48.40/31 } on-error={}
 :do { add list=WF address=140.248.56.242/32 } on-error={}
 :do { add list=WF address=140.248.57.242/32 } on-error={}

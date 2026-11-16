@@ -102,6 +102,7 @@
 :do { add list=JE address=2606:40:22c1:8000::/54 } on-error={}
 :do { add list=JE address=2606:40:22c1:8800::/53 } on-error={}
 :do { add list=JE address=2606:40:22c1:9000::/52 } on-error={}
+:do { add list=JE address=2606:40:2385:a400::/54 } on-error={}
 :do { add list=JE address=2606:40:2971:f800::/54 } on-error={}
 :do { add list=JE address=2606:54c0:4228::/45 } on-error={}
 :do { add list=JE address=2606:54c1:1:143::/64 } on-error={}

@@ -1,5 +1,6 @@
 /log info "Loading SV IPv4 Address List"
 /ip firewall address-list
+:do { add list=SV address=2.152.200.0/22 } on-error={}
 :do { add list=SV address=5.62.56.88/30 } on-error={}
 :do { add list=SV address=5.62.58.84/30 } on-error={}
 :do { add list=SV address=32.59.12.40/29 } on-error={}
@@ -52,10 +53,8 @@
 :do { add list=SV address=57.75.192.0/20 } on-error={}
 :do { add list=SV address=62.115.113.49/32 } on-error={}
 :do { add list=SV address=63.245.5.42/31 } on-error={}
-:do { add list=SV address=63.245.5.48/32 } on-error={}
 :do { add list=SV address=63.245.79.137/32 } on-error={}
 :do { add list=SV address=63.245.79.139/32 } on-error={}
-:do { add list=SV address=63.245.106.20/31 } on-error={}
 :do { add list=SV address=63.245.106.23/32 } on-error={}
 :do { add list=SV address=63.245.106.24/31 } on-error={}
 :do { add list=SV address=65.182.10.0/24 } on-error={}
@@ -96,6 +95,8 @@
 :do { add list=SV address=66.249.206.0/24 } on-error={}
 :do { add list=SV address=66.249.207.0/24 } on-error={}
 :do { add list=SV address=69.167.93.64/29 } on-error={}
+:do { add list=SV address=69.195.180.102/31 } on-error={}
+:do { add list=SV address=69.195.183.124/30 } on-error={}
 :do { add list=SV address=90.96.186.51/32 } on-error={}
 :do { add list=SV address=90.96.187.190/31 } on-error={}
 :do { add list=SV address=103.158.32.0/24 } on-error={}
@@ -142,6 +143,7 @@
 :do { add list=SV address=132.255.208.0/22 } on-error={}
 :do { add list=SV address=134.82.73.32/29 } on-error={}
 :do { add list=SV address=136.22.25.213/32 } on-error={}
+:do { add list=SV address=136.23.8.219/32 } on-error={}
 :do { add list=SV address=136.23.40.215/32 } on-error={}
 :do { add list=SV address=138.94.244.0/23 } on-error={}
 :do { add list=SV address=138.94.246.0/24 } on-error={}

@@ -588,6 +588,7 @@
 :do { add list=MN address=2602:2a9:a30::/44 } on-error={}
 :do { add list=MN address=2602:814:fe48::/46 } on-error={}
 :do { add list=MN address=2602:f805:383::/48 } on-error={}
+:do { add list=MN address=2605:59c7:a000:377::/64 } on-error={}
 :do { add list=MN address=2605:7a80:6604::/47 } on-error={}
 :do { add list=MN address=2606:54c0:4890::/44 } on-error={}
 :do { add list=MN address=2606:54c0:48a0::/45 } on-error={}

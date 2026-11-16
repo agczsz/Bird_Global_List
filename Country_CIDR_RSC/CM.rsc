@@ -49,6 +49,8 @@
 :do { add list=CM address=63.220.64.112/32 } on-error={}
 :do { add list=CM address=63.220.64.114/32 } on-error={}
 :do { add list=CM address=66.102.47.64/26 } on-error={}
+:do { add list=CM address=69.195.179.18/31 } on-error={}
+:do { add list=CM address=69.195.184.152/31 } on-error={}
 :do { add list=CM address=80.15.247.0/24 } on-error={}
 :do { add list=CM address=84.16.7.157/32 } on-error={}
 :do { add list=CM address=85.255.21.176/28 } on-error={}
@@ -256,6 +258,7 @@
 :do { add list=CM address=157.167.240.20/32 } on-error={}
 :do { add list=CM address=157.167.240.140/32 } on-error={}
 :do { add list=CM address=159.26.127.20/30 } on-error={}
+:do { add list=CM address=162.120.131.54/32 } on-error={}
 :do { add list=CM address=162.120.173.6/32 } on-error={}
 :do { add list=CM address=162.120.193.226/32 } on-error={}
 :do { add list=CM address=162.120.213.0/32 } on-error={}

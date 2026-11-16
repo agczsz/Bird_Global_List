@@ -11,11 +11,14 @@
 :do { add list=TT address=2602:814:ff84::/46 } on-error={}
 :do { add list=TT address=2602:f805:22f::/48 } on-error={}
 :do { add list=TT address=2602:f96d:109:882e::/64 } on-error={}
+:do { add list=TT address=2605:59c7:a000:1f5::/64 } on-error={}
+:do { add list=TT address=2605:59c7:a000:22f::/64 } on-error={}
 :do { add list=TT address=2606:40:3:6800::/54 } on-error={}
 :do { add list=TT address=2606:40:67:6000::/54 } on-error={}
 :do { add list=TT address=2606:40:cc0::/43 } on-error={}
 :do { add list=TT address=2606:40:20f6:4000::/51 } on-error={}
 :do { add list=TT address=2606:40:214c:a000::/51 } on-error={}
+:do { add list=TT address=2606:40:2393:7800::/54 } on-error={}
 :do { add list=TT address=2606:54c0:57d8::/45 } on-error={}
 :do { add list=TT address=2606:54c1:1:1f9::/64 } on-error={}
 :do { add list=TT address=2606:54c1:1:e56::/64 } on-error={}

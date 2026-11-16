@@ -20,6 +20,7 @@
 :do { add list=KM address=41.194.33.254/32 } on-error={}
 :do { add list=KM address=57.82.102.0/23 } on-error={}
 :do { add list=KM address=57.82.192.0/20 } on-error={}
+:do { add list=KM address=69.195.189.112/31 } on-error={}
 :do { add list=KM address=80.84.16.25/32 } on-error={}
 :do { add list=KM address=80.231.195.0/24 } on-error={}
 :do { add list=KM address=90.96.190.184/32 } on-error={}

@@ -3,12 +3,14 @@
 :do { add list=PN address=2406:2d40:7380::/42 } on-error={}
 :do { add list=PN address=2406:2d40:a500::/40 } on-error={}
 :do { add list=PN address=2602:814:fed0::/46 } on-error={}
+:do { add list=PN address=2606:40:99:4800::/54 } on-error={}
 :do { add list=PN address=2606:40:1070::/44 } on-error={}
 :do { add list=PN address=2606:40:1080::/44 } on-error={}
 :do { add list=PN address=2606:40:217f:4000::/51 } on-error={}
 :do { add list=PN address=2606:40:2301::/51 } on-error={}
 :do { add list=PN address=2606:40:2939:ac00::/54 } on-error={}
 :do { add list=PN address=2606:40:2963:dc00::/54 } on-error={}
+:do { add list=PN address=2606:40:2988:4c00::/54 } on-error={}
 :do { add list=PN address=2607:8940:41a3:3b00::/56 } on-error={}
 :do { add list=PN address=2607:8940:41a3:3c00::/56 } on-error={}
 :do { add list=PN address=2a03:b600:0:1155::/64 } on-error={}

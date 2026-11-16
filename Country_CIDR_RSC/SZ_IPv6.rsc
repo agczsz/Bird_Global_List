@@ -7,6 +7,7 @@
 :do { add list=SZ address=2405:b500:6cc0::/64 } on-error={}
 :do { add list=SZ address=2405:b500:6ce0::/64 } on-error={}
 :do { add list=SZ address=2602:814:ff50::/46 } on-error={}
+:do { add list=SZ address=2605:59c7:a000:cc::/64 } on-error={}
 :do { add list=SZ address=2605:59ca:8700::/40 } on-error={}
 :do { add list=SZ address=2606:54c0:55a0::/45 } on-error={}
 :do { add list=SZ address=2606:54c1:1:be::/64 } on-error={}
