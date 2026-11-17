@@ -2,6 +2,12 @@
 /ipv6 firewall address-list
 :do { add list=GA address=2001:43f8:1160::/48 } on-error={}
 :do { add list=GA address=2001:43f8:1161::/48 } on-error={}
+:do { add list=GA address=2401:b60:14e0:4000::/50 } on-error={}
+:do { add list=GA address=2401:b60:14e0:8000::/49 } on-error={}
+:do { add list=GA address=2401:b60:14e1::/48 } on-error={}
+:do { add list=GA address=2401:b60:14e2::/47 } on-error={}
+:do { add list=GA address=2401:b60:14e4::/46 } on-error={}
+:do { add list=GA address=2401:b60:14e8::/45 } on-error={}
 :do { add list=GA address=2405:b500:2800::/64 } on-error={}
 :do { add list=GA address=2405:b500:2820::/64 } on-error={}
 :do { add list=GA address=2405:b500:2860::/64 } on-error={}

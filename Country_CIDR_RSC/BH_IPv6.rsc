@@ -1,6 +1,8 @@
 /log info "Loading BH IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=BH address=2001:500:15:5900::/56 } on-error={}
+:do { add list=BH address=2001:978:2:14::23:2/128 } on-error={}
+:do { add list=BH address=2001:1a00:acca:1505::2/128 } on-error={}
 :do { add list=BH address=2001:1a00:acca:1506::2/128 } on-error={}
 :do { add list=BH address=2001:1a10:100:c:8781::47/128 } on-error={}
 :do { add list=BH address=2001:1a40::/44 } on-error={}
@@ -106,6 +108,12 @@
 :do { add list=BH address=2400:cb00:170::/48 } on-error={}
 :do { add list=BH address=2400:cb00:600::/48 } on-error={}
 :do { add list=BH address=2400:cb00:1227::/48 } on-error={}
+:do { add list=BH address=2401:b60:1110:4000::/50 } on-error={}
+:do { add list=BH address=2401:b60:1110:8000::/49 } on-error={}
+:do { add list=BH address=2401:b60:1111::/48 } on-error={}
+:do { add list=BH address=2401:b60:1112::/47 } on-error={}
+:do { add list=BH address=2401:b60:1114::/46 } on-error={}
+:do { add list=BH address=2401:b60:1118::/45 } on-error={}
 :do { add list=BH address=2405:b500:d00::/64 } on-error={}
 :do { add list=BH address=2405:b500:d00:20::/64 } on-error={}
 :do { add list=BH address=2405:b500:d20::/64 } on-error={}
@@ -367,7 +375,6 @@
 :do { add list=BH address=2a07:4340:ff00:1::7/128 } on-error={}
 :do { add list=BH address=2a07:4340:ff00:1::2e/127 } on-error={}
 :do { add list=BH address=2a07:4340:ff00:1::33/128 } on-error={}
-:do { add list=BH address=2a07:4342:0:210::b/128 } on-error={}
 :do { add list=BH address=2a07:d887:1600::/40 } on-error={}
 :do { add list=BH address=2a09:bac0:1000:392::/64 } on-error={}
 :do { add list=BH address=2a09:bac0:1000:14c5::/64 } on-error={}
@@ -413,6 +420,7 @@
 :do { add list=BH address=2a0f:1cc1:9830::/44 } on-error={}
 :do { add list=BH address=2a0f:1cc5:1f9f::/48 } on-error={}
 :do { add list=BH address=2a0f:6280:1084::/47 } on-error={}
+:do { add list=BH address=2a0f:6280:1086::/48 } on-error={}
 :do { add list=BH address=2a0f:6280:1087::/48 } on-error={}
 :do { add list=BH address=2a0f:7803:fedb::/48 } on-error={}
 :do { add list=BH address=2a0f:85c1:340::6d:0/112 } on-error={}

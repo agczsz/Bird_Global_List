@@ -8,6 +8,12 @@
 :do { add list=ET address=2001:4860:7:160d::/64 } on-error={}
 :do { add list=ET address=2001:4860:7:170d::/64 } on-error={}
 :do { add list=ET address=2400:cb00:1022::/48 } on-error={}
+:do { add list=ET address=2401:b60:1450:4000::/50 } on-error={}
+:do { add list=ET address=2401:b60:1450:8000::/49 } on-error={}
+:do { add list=ET address=2401:b60:1451::/48 } on-error={}
+:do { add list=ET address=2401:b60:1452::/47 } on-error={}
+:do { add list=ET address=2401:b60:1454::/46 } on-error={}
+:do { add list=ET address=2401:b60:1458::/45 } on-error={}
 :do { add list=ET address=2405:b500:2400::/64 } on-error={}
 :do { add list=ET address=2405:b500:2400:8::/64 } on-error={}
 :do { add list=ET address=2405:b500:2420::/64 } on-error={}

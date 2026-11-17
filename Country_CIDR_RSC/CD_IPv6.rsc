@@ -4,6 +4,12 @@
 :do { add list=CD address=2001:43f8:1460::/48 } on-error={}
 :do { add list=CD address=2001:43ff:6000::/48 } on-error={}
 :do { add list=CD address=2400:cb00:652::/48 } on-error={}
+:do { add list=CD address=2401:b60:1330:4000::/50 } on-error={}
+:do { add list=CD address=2401:b60:1330:8000::/49 } on-error={}
+:do { add list=CD address=2401:b60:1331::/48 } on-error={}
+:do { add list=CD address=2401:b60:1332::/47 } on-error={}
+:do { add list=CD address=2401:b60:1334::/46 } on-error={}
+:do { add list=CD address=2401:b60:1338::/45 } on-error={}
 :do { add list=CD address=2405:b500:1580:8::/64 } on-error={}
 :do { add list=CD address=2405:b500:1580:10::/64 } on-error={}
 :do { add list=CD address=2405:b500:1580:18::/64 } on-error={}
@@ -53,8 +59,6 @@
 :do { add list=CD address=2a00:ca0:201a::/52 } on-error={}
 :do { add list=CD address=2a00:ca0:202c:4000::/50 } on-error={}
 :do { add list=CD address=2a00:ca0:203d:4000::/50 } on-error={}
-:do { add list=CD address=2a00:dd60:0:1::8e/128 } on-error={}
-:do { add list=CD address=2a00:dd60:0:1::96/128 } on-error={}
 :do { add list=CD address=2a01:c9c0:c010::/48 } on-error={}
 :do { add list=CD address=2a02:26f7:e0c0:4000::/64 } on-error={}
 :do { add list=CD address=2a02:26f7:e0c0:ce40::/63 } on-error={}
@@ -263,6 +267,7 @@
 :do { add list=CD address=2c0f:e08::/29 } on-error={}
 :do { add list=CD address=2c0f:fc0::/32 } on-error={}
 :do { add list=CD address=2c0f:19c0::/32 } on-error={}
+:do { add list=CD address=2c0f:1d00::6d/128 } on-error={}
 :do { add list=CD address=2c0f:2a80:2740::/42 } on-error={}
 :do { add list=CD address=2c0f:4400::/32 } on-error={}
 :do { add list=CD address=2c0f:5bc0::/32 } on-error={}
@@ -270,6 +275,7 @@
 :do { add list=CD address=2c0f:6340::/32 } on-error={}
 :do { add list=CD address=2c0f:6580::/32 } on-error={}
 :do { add list=CD address=2c0f:7800::/32 } on-error={}
+:do { add list=CD address=2c0f:e878:0:1::d/128 } on-error={}
 :do { add list=CD address=2c0f:ea70::/32 } on-error={}
 :do { add list=CD address=2c0f:eac8::/32 } on-error={}
 :do { add list=CD address=2c0f:eb00:900::/40 } on-error={}

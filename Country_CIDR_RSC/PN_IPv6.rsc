@@ -1,5 +1,11 @@
 /log info "Loading PN IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=PN address=2401:b60:1b40:4000::/50 } on-error={}
+:do { add list=PN address=2401:b60:1b40:8000::/49 } on-error={}
+:do { add list=PN address=2401:b60:1b41::/48 } on-error={}
+:do { add list=PN address=2401:b60:1b42::/47 } on-error={}
+:do { add list=PN address=2401:b60:1b44::/46 } on-error={}
+:do { add list=PN address=2401:b60:1b48::/45 } on-error={}
 :do { add list=PN address=2406:2d40:7380::/42 } on-error={}
 :do { add list=PN address=2406:2d40:a500::/40 } on-error={}
 :do { add list=PN address=2602:814:fed0::/46 } on-error={}

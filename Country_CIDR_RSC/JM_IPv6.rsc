@@ -13,10 +13,6 @@
 :do { add list=JM address=2001:3786:9234:300::/56 } on-error={}
 :do { add list=JM address=2400:cb00:644::/48 } on-error={}
 :do { add list=JM address=2400:cb00:1245::/48 } on-error={}
-:do { add list=JM address=2405:b500:3a00::/64 } on-error={}
-:do { add list=JM address=2405:b500:3a20::/64 } on-error={}
-:do { add list=JM address=2405:b500:3a40::/64 } on-error={}
-:do { add list=JM address=2405:b500:3a60::/64 } on-error={}
 :do { add list=JM address=2600:1b00::/24 } on-error={}
 :do { add list=JM address=2600:70ff:a9bb::/48 } on-error={}
 :do { add list=JM address=2602:2a9:af0::/44 } on-error={}
@@ -32,8 +28,6 @@
 :do { add list=JM address=2605:59c0:1200::/40 } on-error={}
 :do { add list=JM address=2605:59c0:b600::/40 } on-error={}
 :do { add list=JM address=2605:59c7:a000:2b2::/64 } on-error={}
-:do { add list=JM address=2605:a200:0:4000::/50 } on-error={}
-:do { add list=JM address=2605:a200:0:8000::/49 } on-error={}
 :do { add list=JM address=2605:a200:1::/48 } on-error={}
 :do { add list=JM address=2605:a200:2::/47 } on-error={}
 :do { add list=JM address=2605:a200:4::/46 } on-error={}
@@ -169,7 +163,6 @@
 :do { add list=JM address=2605:a200:3000::/36 } on-error={}
 :do { add list=JM address=2605:a200:4000::/34 } on-error={}
 :do { add list=JM address=2605:a200:8000:5::/64 } on-error={}
-:do { add list=JM address=2605:a200:8000:6::/64 } on-error={}
 :do { add list=JM address=2605:a200:8001::/48 } on-error={}
 :do { add list=JM address=2605:a200:8002::/47 } on-error={}
 :do { add list=JM address=2605:a200:8004::/46 } on-error={}
@@ -214,6 +207,9 @@
 :do { add list=JM address=2607:fe00:8000::/33 } on-error={}
 :do { add list=JM address=2620:0:876:2900::/56 } on-error={}
 :do { add list=JM address=2620:59:6000::/48 } on-error={}
+:do { add list=JM address=2620:171:19f::/64 } on-error={}
+:do { add list=JM address=2620:171:19f:f002::/63 } on-error={}
+:do { add list=JM address=2620:171:19f:f004::/64 } on-error={}
 :do { add list=JM address=2a02:26f7:bdc0:4000::/64 } on-error={}
 :do { add list=JM address=2a02:26f7:bdc0:4800::/62 } on-error={}
 :do { add list=JM address=2a02:26f7:bdc0:4804::/64 } on-error={}

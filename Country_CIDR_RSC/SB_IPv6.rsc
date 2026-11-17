@@ -5,6 +5,12 @@
 :do { add list=SB address=2001:df7:b580::/48 } on-error={}
 :do { add list=SB address=2001:df7:eb80::/48 } on-error={}
 :do { add list=SB address=2001:3786:5000:100::/56 } on-error={}
+:do { add list=SB address=2401:b60:1d20:4000::/50 } on-error={}
+:do { add list=SB address=2401:b60:1d20:8000::/49 } on-error={}
+:do { add list=SB address=2401:b60:1d21::/48 } on-error={}
+:do { add list=SB address=2401:b60:1d22::/47 } on-error={}
+:do { add list=SB address=2401:b60:1d24::/46 } on-error={}
+:do { add list=SB address=2401:b60:1d28::/45 } on-error={}
 :do { add list=SB address=2405:4cc1:c00::/40 } on-error={}
 :do { add list=SB address=2405:8300::/32 } on-error={}
 :do { add list=SB address=2405:b500:6300::/64 } on-error={}

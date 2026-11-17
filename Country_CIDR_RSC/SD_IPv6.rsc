@@ -3,6 +3,12 @@
 :do { add list=SD address=2001:4228::/32 } on-error={}
 :do { add list=SD address=2001:43f8:7f0::/47 } on-error={}
 :do { add list=SD address=2001:43f8:11d0::/48 } on-error={}
+:do { add list=SD address=2401:b60:1d90:4000::/50 } on-error={}
+:do { add list=SD address=2401:b60:1d90:8000::/49 } on-error={}
+:do { add list=SD address=2401:b60:1d91::/48 } on-error={}
+:do { add list=SD address=2401:b60:1d92::/47 } on-error={}
+:do { add list=SD address=2401:b60:1d94::/46 } on-error={}
+:do { add list=SD address=2401:b60:1d98::/45 } on-error={}
 :do { add list=SD address=2405:b500:6400::/64 } on-error={}
 :do { add list=SD address=2405:b500:6400:8::/64 } on-error={}
 :do { add list=SD address=2405:b500:6420::/64 } on-error={}

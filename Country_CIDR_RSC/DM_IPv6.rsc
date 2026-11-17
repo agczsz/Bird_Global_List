@@ -2,6 +2,12 @@
 /ipv6 firewall address-list
 :do { add list=DM address=2001:504:63::/48 } on-error={}
 :do { add list=DM address=2001:3786:5004:400::/56 } on-error={}
+:do { add list=DM address=2401:b60:13d0:4000::/50 } on-error={}
+:do { add list=DM address=2401:b60:13d0:8000::/49 } on-error={}
+:do { add list=DM address=2401:b60:13d1::/48 } on-error={}
+:do { add list=DM address=2401:b60:13d2::/47 } on-error={}
+:do { add list=DM address=2401:b60:13d4::/46 } on-error={}
+:do { add list=DM address=2401:b60:13d8::/45 } on-error={}
 :do { add list=DM address=2405:b500:1f80::/64 } on-error={}
 :do { add list=DM address=2405:b500:1fa0::/64 } on-error={}
 :do { add list=DM address=2405:b500:1fc0::/64 } on-error={}

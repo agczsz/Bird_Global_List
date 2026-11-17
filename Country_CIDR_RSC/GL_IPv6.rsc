@@ -1,5 +1,11 @@
 /log info "Loading GL IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=GL address=2401:b60:1550:4000::/50 } on-error={}
+:do { add list=GL address=2401:b60:1550:8000::/49 } on-error={}
+:do { add list=GL address=2401:b60:1551::/48 } on-error={}
+:do { add list=GL address=2401:b60:1552::/47 } on-error={}
+:do { add list=GL address=2401:b60:1554::/46 } on-error={}
+:do { add list=GL address=2401:b60:1558::/45 } on-error={}
 :do { add list=GL address=2405:b500:2c20::/64 } on-error={}
 :do { add list=GL address=2405:b500:2c20:8::/64 } on-error={}
 :do { add list=GL address=2405:b500:2c20:10::/64 } on-error={}

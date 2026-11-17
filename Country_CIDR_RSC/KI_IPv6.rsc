@@ -1,20 +1,14 @@
 /log info "Loading KI IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=KI address=2001:df7:b8c0::/48 } on-error={}
+:do { add list=KI address=2401:b60:1770:4000::/50 } on-error={}
+:do { add list=KI address=2401:b60:1770:8000::/49 } on-error={}
+:do { add list=KI address=2401:b60:1771::/48 } on-error={}
+:do { add list=KI address=2401:b60:1772::/47 } on-error={}
+:do { add list=KI address=2401:b60:1774::/46 } on-error={}
+:do { add list=KI address=2401:b60:1778::/45 } on-error={}
 :do { add list=KI address=2401:dfc0::/32 } on-error={}
 :do { add list=KI address=2402:1de0::/32 } on-error={}
-:do { add list=KI address=2405:b500:3d00:10::/64 } on-error={}
-:do { add list=KI address=2405:b500:3d00:130::/64 } on-error={}
-:do { add list=KI address=2405:b500:3d00:138::/64 } on-error={}
-:do { add list=KI address=2405:b500:3d20:10::/64 } on-error={}
-:do { add list=KI address=2405:b500:3d20:130::/64 } on-error={}
-:do { add list=KI address=2405:b500:3d20:138::/64 } on-error={}
-:do { add list=KI address=2405:b500:3d40:10::/64 } on-error={}
-:do { add list=KI address=2405:b500:3d40:130::/64 } on-error={}
-:do { add list=KI address=2405:b500:3d40:138::/64 } on-error={}
-:do { add list=KI address=2405:b500:3d60:10::/64 } on-error={}
-:do { add list=KI address=2405:b500:3d60:130::/64 } on-error={}
-:do { add list=KI address=2405:b500:3d60:138::/64 } on-error={}
 :do { add list=KI address=2406:2d40:4540::/42 } on-error={}
 :do { add list=KI address=2406:2d40:7500::/42 } on-error={}
 :do { add list=KI address=2406:2d40:a800::/40 } on-error={}
@@ -119,6 +113,7 @@
 :do { add list=KI address=2a05:dfc1:8c19::/48 } on-error={}
 :do { add list=KI address=2a06:9f81:3974::/48 } on-error={}
 :do { add list=KI address=2a06:9f81:5674::/48 } on-error={}
+:do { add list=KI address=2a06:de06:382::/48 } on-error={}
 :do { add list=KI address=2a07:d887:7500::/40 } on-error={}
 :do { add list=KI address=2a09:bac1:3d00:10::/64 } on-error={}
 :do { add list=KI address=2a09:bac1:3d00:130::/64 } on-error={}

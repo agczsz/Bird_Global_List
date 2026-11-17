@@ -1,5 +1,11 @@
 /log info "Loading HM IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=HM address=2401:b60:15f0:4000::/50 } on-error={}
+:do { add list=HM address=2401:b60:15f0:8000::/49 } on-error={}
+:do { add list=HM address=2401:b60:15f1::/48 } on-error={}
+:do { add list=HM address=2401:b60:15f2::/47 } on-error={}
+:do { add list=HM address=2401:b60:15f4::/46 } on-error={}
+:do { add list=HM address=2401:b60:15f8::/45 } on-error={}
 :do { add list=HM address=2602:814:fd7c::/46 } on-error={}
 :do { add list=HM address=2605:59c0:6500::/40 } on-error={}
 :do { add list=HM address=2a03:b600:0:1092::/63 } on-error={}

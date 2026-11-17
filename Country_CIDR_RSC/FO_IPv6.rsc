@@ -1,8 +1,18 @@
 /log info "Loading FO IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=FO address=2001:470:1a34::/48 } on-error={}
+:do { add list=FO address=2001:470:1c07::/48 } on-error={}
+:do { add list=FO address=2001:470:758d::/48 } on-error={}
+:do { add list=FO address=2401:b60:1470:4000::/50 } on-error={}
+:do { add list=FO address=2401:b60:1470:8000::/49 } on-error={}
+:do { add list=FO address=2401:b60:1471::/48 } on-error={}
+:do { add list=FO address=2401:b60:1472::/47 } on-error={}
+:do { add list=FO address=2401:b60:1474::/46 } on-error={}
+:do { add list=FO address=2401:b60:1478::/45 } on-error={}
 :do { add list=FO address=2405:b500:2700::/64 } on-error={}
 :do { add list=FO address=2405:b500:2740::/64 } on-error={}
 :do { add list=FO address=2405:b500:2760::/64 } on-error={}
+:do { add list=FO address=2600:70ff:b3c2:27::/64 } on-error={}
 :do { add list=FO address=2602:814:fd24::/46 } on-error={}
 :do { add list=FO address=2604:ca00:1a3:8000::/49 } on-error={}
 :do { add list=FO address=2604:ca00:1b3:8000::/49 } on-error={}
@@ -20,10 +30,6 @@
 :do { add list=FO address=2606:54c1:1:1da::/64 } on-error={}
 :do { add list=FO address=2606:54c3:0:e3f::/64 } on-error={}
 :do { add list=FO address=2607:8940:30ce::/48 } on-error={}
-:do { add list=FO address=2607:8940:30cf:1550::/60 } on-error={}
-:do { add list=FO address=2607:8940:30cf:1560::/59 } on-error={}
-:do { add list=FO address=2607:8940:30cf:1580::/57 } on-error={}
-:do { add list=FO address=2607:8940:30cf:1600::/58 } on-error={}
 :do { add list=FO address=2607:8940:30cf:4000::/50 } on-error={}
 :do { add list=FO address=2607:8940:30cf:8000::/49 } on-error={}
 :do { add list=FO address=2607:8940:30d1::/48 } on-error={}
@@ -147,6 +153,7 @@
 :do { add list=FO address=2a11:29c0:3d88:d8a6::/64 } on-error={}
 :do { add list=FO address=2a11:29c0:3d88:ec1f::/64 } on-error={}
 :do { add list=FO address=2a11:29c0:3d88:f244::/64 } on-error={}
+:do { add list=FO address=2a12:bec4:1574::/48 } on-error={}
 :do { add list=FO address=2a12:f381:c400::/40 } on-error={}
 :do { add list=FO address=2a12:f382:c400::/40 } on-error={}
 :do { add list=FO address=2a13:b487:5028::/48 } on-error={}

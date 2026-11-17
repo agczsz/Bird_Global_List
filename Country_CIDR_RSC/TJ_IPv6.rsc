@@ -7,6 +7,12 @@
 :do { add list=TJ address=2001:3786:5015:500::/56 } on-error={}
 :do { add list=TJ address=2001:3786:bb03:400::/56 } on-error={}
 :do { add list=TJ address=2400:cb00:1384::/48 } on-error={}
+:do { add list=TJ address=2401:b60:1e20:4000::/50 } on-error={}
+:do { add list=TJ address=2401:b60:1e20:8000::/49 } on-error={}
+:do { add list=TJ address=2401:b60:1e21::/48 } on-error={}
+:do { add list=TJ address=2401:b60:1e22::/47 } on-error={}
+:do { add list=TJ address=2401:b60:1e24::/46 } on-error={}
+:do { add list=TJ address=2401:b60:1e28::/45 } on-error={}
 :do { add list=TJ address=2405:b500:6f80::/64 } on-error={}
 :do { add list=TJ address=2405:b500:6fa0::/64 } on-error={}
 :do { add list=TJ address=2405:b500:6fc0::/64 } on-error={}

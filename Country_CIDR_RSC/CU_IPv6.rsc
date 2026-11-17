@@ -2,8 +2,8 @@
 /ipv6 firewall address-list
 :do { add list=CU address=2001:470:5:f7::/64 } on-error={}
 :do { add list=CU address=2001:470:b:7a5::/64 } on-error={}
-:do { add list=CU address=2001:470:19:615::/64 } on-error={}
 :do { add list=CU address=2001:470:18e9::/48 } on-error={}
+:do { add list=CU address=2001:470:1f27:84::/64 } on-error={}
 :do { add list=CU address=2001:470:1f2b:f1::/64 } on-error={}
 :do { add list=CU address=2001:470:1f2b:465::/64 } on-error={}
 :do { add list=CU address=2001:470:6940::/48 } on-error={}
@@ -24,6 +24,12 @@
 :do { add list=CU address=2001:1358::/32 } on-error={}
 :do { add list=CU address=2001:13c8::/32 } on-error={}
 :do { add list=CU address=2001:3786:5004:100::/56 } on-error={}
+:do { add list=CU address=2401:b60:1380:4000::/50 } on-error={}
+:do { add list=CU address=2401:b60:1380:8000::/49 } on-error={}
+:do { add list=CU address=2401:b60:1381::/48 } on-error={}
+:do { add list=CU address=2401:b60:1382::/47 } on-error={}
+:do { add list=CU address=2401:b60:1384::/46 } on-error={}
+:do { add list=CU address=2401:b60:1388::/45 } on-error={}
 :do { add list=CU address=2405:b500:1b00::/64 } on-error={}
 :do { add list=CU address=2405:b500:1b00:8::/64 } on-error={}
 :do { add list=CU address=2405:b500:1b00:10::/64 } on-error={}
@@ -183,8 +189,6 @@
 :do { add list=CU address=2a12:bec0:682::/48 } on-error={}
 :do { add list=CU address=2a12:f381:b000::/40 } on-error={}
 :do { add list=CU address=2a12:f382:b000::/40 } on-error={}
-:do { add list=CU address=2a13:9500:1e4:49d::/64 } on-error={}
-:do { add list=CU address=2a13:9500:1e4:820::/64 } on-error={}
 :do { add list=CU address=2a13:a5c3:d668::/46 } on-error={}
 :do { add list=CU address=2a13:b487:5007::/48 } on-error={}
 :do { add list=CU address=2a13:ef41:128a::/47 } on-error={}

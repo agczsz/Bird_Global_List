@@ -4,6 +4,12 @@
 :do { add list=ME address=2001:67c:f94::/48 } on-error={}
 :do { add list=ME address=2001:7f8:22::/48 } on-error={}
 :do { add list=ME address=2001:3786:b10b:500::/56 } on-error={}
+:do { add list=ME address=2401:b60:1980:4000::/50 } on-error={}
+:do { add list=ME address=2401:b60:1980:8000::/49 } on-error={}
+:do { add list=ME address=2401:b60:1981::/48 } on-error={}
+:do { add list=ME address=2401:b60:1982::/47 } on-error={}
+:do { add list=ME address=2401:b60:1984::/46 } on-error={}
+:do { add list=ME address=2401:b60:1988::/45 } on-error={}
 :do { add list=ME address=2405:b500:4800::/64 } on-error={}
 :do { add list=ME address=2405:b500:4820::/64 } on-error={}
 :do { add list=ME address=2405:b500:4840::/64 } on-error={}

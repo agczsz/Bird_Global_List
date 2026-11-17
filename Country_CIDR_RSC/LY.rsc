@@ -196,7 +196,6 @@
 :do { add list=LY address=185.3.88.0/23 } on-error={}
 :do { add list=LY address=185.4.195.0/24 } on-error={}
 :do { add list=LY address=185.112.135.21/32 } on-error={}
-:do { add list=LY address=187.15.146.0/24 } on-error={}
 :do { add list=LY address=195.234.120.0/22 } on-error={}
 :do { add list=LY address=196.48.122.0/24 } on-error={}
 :do { add list=LY address=196.56.122.0/24 } on-error={}
@@ -222,6 +221,5 @@
 :do { add list=LY address=197.231.228.0/22 } on-error={}
 :do { add list=LY address=201.3.112.0/21 } on-error={}
 :do { add list=LY address=212.133.82.94/32 } on-error={}
-:do { add list=LY address=213.19.206.18/32 } on-error={}
 :do { add list=LY address=216.6.94.0/24 } on-error={}
 :do { add list=LY address=216.6.110.0/24 } on-error={}

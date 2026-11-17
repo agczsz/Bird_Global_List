@@ -20,6 +20,12 @@
 :do { add list=BM address=2001:4910:fffe::/48 } on-error={}
 :do { add list=BM address=2001:4910:ffff::/49 } on-error={}
 :do { add list=BM address=2001:4910:ffff:8000::/50 } on-error={}
+:do { add list=BM address=2401:b60:1180:4000::/50 } on-error={}
+:do { add list=BM address=2401:b60:1180:8000::/49 } on-error={}
+:do { add list=BM address=2401:b60:1181::/48 } on-error={}
+:do { add list=BM address=2401:b60:1182::/47 } on-error={}
+:do { add list=BM address=2401:b60:1184::/46 } on-error={}
+:do { add list=BM address=2401:b60:1188::/45 } on-error={}
 :do { add list=BM address=2405:b500:f00::/64 } on-error={}
 :do { add list=BM address=2405:b500:f20::/64 } on-error={}
 :do { add list=BM address=2405:b500:f40::/64 } on-error={}
@@ -27,14 +33,7 @@
 :do { add list=BM address=2602:814:fc68::/46 } on-error={}
 :do { add list=BM address=2602:f96d:109:75ce::/64 } on-error={}
 :do { add list=BM address=2604:140::/32 } on-error={}
-:do { add list=BM address=2605:e80::/33 } on-error={}
-:do { add list=BM address=2605:e80:8000::/34 } on-error={}
-:do { add list=BM address=2605:e80:c000::/35 } on-error={}
-:do { add list=BM address=2605:e80:e000::/36 } on-error={}
-:do { add list=BM address=2605:e80:f000::/37 } on-error={}
-:do { add list=BM address=2605:e80:f800::/38 } on-error={}
-:do { add list=BM address=2605:e80:fc00::/39 } on-error={}
-:do { add list=BM address=2605:e80:fe00::/40 } on-error={}
+:do { add list=BM address=2605:e80::/32 } on-error={}
 :do { add list=BM address=2605:59c0:6d00::/40 } on-error={}
 :do { add list=BM address=2605:5b80::/32 } on-error={}
 :do { add list=BM address=2605:ecc0:900::/40 } on-error={}
@@ -124,7 +123,6 @@
 :do { add list=BM address=2a06:9f81:6111::/48 } on-error={}
 :do { add list=BM address=2a06:a000:2::/48 } on-error={}
 :do { add list=BM address=2a07:d887:1a00::/40 } on-error={}
-:do { add list=BM address=2a09:3f00:3c46::/48 } on-error={}
 :do { add list=BM address=2a09:bac1:f00::/64 } on-error={}
 :do { add list=BM address=2a09:bac1:f20::/64 } on-error={}
 :do { add list=BM address=2a09:bac1:f40::/64 } on-error={}

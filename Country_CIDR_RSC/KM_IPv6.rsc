@@ -1,9 +1,12 @@
 /log info "Loading KM IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=KM address=2400:f800:1010:103::/64 } on-error={}
-:do { add list=KM address=2405:b500:3d80::/64 } on-error={}
-:do { add list=KM address=2405:b500:3dc0::/64 } on-error={}
-:do { add list=KM address=2405:b500:3de0::/64 } on-error={}
+:do { add list=KM address=2401:b60:1310:4000::/50 } on-error={}
+:do { add list=KM address=2401:b60:1310:8000::/49 } on-error={}
+:do { add list=KM address=2401:b60:1311::/48 } on-error={}
+:do { add list=KM address=2401:b60:1312::/47 } on-error={}
+:do { add list=KM address=2401:b60:1314::/46 } on-error={}
+:do { add list=KM address=2401:b60:1318::/45 } on-error={}
 :do { add list=KM address=2602:814:fdd8::/46 } on-error={}
 :do { add list=KM address=2605:59c0:6c00::/40 } on-error={}
 :do { add list=KM address=2605:59c7:a000:418::/64 } on-error={}
@@ -11,6 +14,7 @@
 :do { add list=KM address=2606:54c1:1:3c4::/64 } on-error={}
 :do { add list=KM address=2606:54c3:0:255::/64 } on-error={}
 :do { add list=KM address=2607:8940:20ee::/48 } on-error={}
+:do { add list=KM address=2607:8940:20ef:900::/56 } on-error={}
 :do { add list=KM address=2607:8940:20f2::/47 } on-error={}
 :do { add list=KM address=2607:8940:4171:6300::/56 } on-error={}
 :do { add list=KM address=2607:8940:4171:6400::/56 } on-error={}

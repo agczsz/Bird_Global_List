@@ -2,6 +2,12 @@
 /ipv6 firewall address-list
 :do { add list=TM address=2001:7f8:165::/48 } on-error={}
 :do { add list=TM address=2001:3786:4444:200::/56 } on-error={}
+:do { add list=TM address=2401:b60:1ec0:4000::/50 } on-error={}
+:do { add list=TM address=2401:b60:1ec0:8000::/49 } on-error={}
+:do { add list=TM address=2401:b60:1ec1::/48 } on-error={}
+:do { add list=TM address=2401:b60:1ec2::/47 } on-error={}
+:do { add list=TM address=2401:b60:1ec4::/46 } on-error={}
+:do { add list=TM address=2401:b60:1ec8::/45 } on-error={}
 :do { add list=TM address=2405:b500:7100::/64 } on-error={}
 :do { add list=TM address=2405:b500:7120::/64 } on-error={}
 :do { add list=TM address=2405:b500:7140::/64 } on-error={}
