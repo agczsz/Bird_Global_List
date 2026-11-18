@@ -487,7 +487,9 @@
 :do { add list=QA address=2001:1a11:168::/48 } on-error={}
 :do { add list=QA address=2001:1a11:169::/48 } on-error={}
 :do { add list=QA address=2001:1a11:16a::/47 } on-error={}
-:do { add list=QA address=2001:1a11:16c::/46 } on-error={}
+:do { add list=QA address=2001:1a11:16c::/48 } on-error={}
+:do { add list=QA address=2001:1a11:16d::/48 } on-error={}
+:do { add list=QA address=2001:1a11:16e::/47 } on-error={}
 :do { add list=QA address=2001:1a11:170::/47 } on-error={}
 :do { add list=QA address=2001:1a11:172::/48 } on-error={}
 :do { add list=QA address=2001:1a11:173::/48 } on-error={}
@@ -735,7 +737,9 @@
 :do { add list=QA address=2001:1a11:30e::/47 } on-error={}
 :do { add list=QA address=2001:1a11:310::/47 } on-error={}
 :do { add list=QA address=2001:1a11:312::/47 } on-error={}
-:do { add list=QA address=2001:1a11:314::/46 } on-error={}
+:do { add list=QA address=2001:1a11:314::/48 } on-error={}
+:do { add list=QA address=2001:1a11:315::/48 } on-error={}
+:do { add list=QA address=2001:1a11:316::/47 } on-error={}
 :do { add list=QA address=2001:1a11:318::/48 } on-error={}
 :do { add list=QA address=2001:1a11:319::/48 } on-error={}
 :do { add list=QA address=2001:1a11:31a::/47 } on-error={}
@@ -898,7 +902,10 @@
 :do { add list=QA address=2001:1a11:432::/48 } on-error={}
 :do { add list=QA address=2001:1a11:433::/48 } on-error={}
 :do { add list=QA address=2001:1a11:434::/46 } on-error={}
-:do { add list=QA address=2001:1a11:438::/45 } on-error={}
+:do { add list=QA address=2001:1a11:438::/48 } on-error={}
+:do { add list=QA address=2001:1a11:439::/48 } on-error={}
+:do { add list=QA address=2001:1a11:43a::/47 } on-error={}
+:do { add list=QA address=2001:1a11:43c::/46 } on-error={}
 :do { add list=QA address=2001:1a11:440::/42 } on-error={}
 :do { add list=QA address=2001:1a11:480::/41 } on-error={}
 :do { add list=QA address=2001:1a11:500::/40 } on-error={}

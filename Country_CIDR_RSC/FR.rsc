@@ -12889,9 +12889,7 @@
 :do { add list=FR address=80.15.234.32/27 } on-error={}
 :do { add list=FR address=80.15.234.64/26 } on-error={}
 :do { add list=FR address=80.15.234.128/25 } on-error={}
-:do { add list=FR address=80.15.236.0/24 } on-error={}
-:do { add list=FR address=80.15.237.0/24 } on-error={}
-:do { add list=FR address=80.15.238.0/23 } on-error={}
+:do { add list=FR address=80.15.236.0/22 } on-error={}
 :do { add list=FR address=80.15.240.0/23 } on-error={}
 :do { add list=FR address=80.15.249.0/24 } on-error={}
 :do { add list=FR address=80.15.250.0/24 } on-error={}
@@ -29503,8 +29501,7 @@
 :do { add list=FR address=165.225.76.0/22 } on-error={}
 :do { add list=FR address=165.225.204.0/23 } on-error={}
 :do { add list=FR address=165.231.87.0/24 } on-error={}
-:do { add list=FR address=165.231.88.0/24 } on-error={}
-:do { add list=FR address=165.231.89.0/24 } on-error={}
+:do { add list=FR address=165.231.88.0/23 } on-error={}
 :do { add list=FR address=165.231.91.0/24 } on-error={}
 :do { add list=FR address=165.231.110.0/23 } on-error={}
 :do { add list=FR address=166.0.11.0/24 } on-error={}
@@ -41684,11 +41681,9 @@
 :do { add list=FR address=196.56.16.0/24 } on-error={}
 :do { add list=FR address=196.57.16.0/24 } on-error={}
 :do { add list=FR address=196.57.214.0/23 } on-error={}
-:do { add list=FR address=196.57.216.0/24 } on-error={}
-:do { add list=FR address=196.57.217.0/24 } on-error={}
+:do { add list=FR address=196.57.216.0/23 } on-error={}
 :do { add list=FR address=196.58.16.0/24 } on-error={}
-:do { add list=FR address=196.58.214.0/24 } on-error={}
-:do { add list=FR address=196.58.215.0/24 } on-error={}
+:do { add list=FR address=196.58.214.0/23 } on-error={}
 :do { add list=FR address=196.58.216.0/23 } on-error={}
 :do { add list=FR address=196.196.32.0/24 } on-error={}
 :do { add list=FR address=196.196.35.0/24 } on-error={}
@@ -41706,8 +41701,7 @@
 :do { add list=FR address=196.241.13.0/24 } on-error={}
 :do { add list=FR address=196.241.26.0/24 } on-error={}
 :do { add list=FR address=196.241.85.0/24 } on-error={}
-:do { add list=FR address=196.241.86.0/24 } on-error={}
-:do { add list=FR address=196.241.87.0/24 } on-error={}
+:do { add list=FR address=196.241.86.0/23 } on-error={}
 :do { add list=FR address=196.241.88.0/24 } on-error={}
 :do { add list=FR address=196.241.127.0/24 } on-error={}
 :do { add list=FR address=196.241.132.0/23 } on-error={}

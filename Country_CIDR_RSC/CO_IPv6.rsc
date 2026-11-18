@@ -6790,7 +6790,16 @@
 :do { add list=CO address=2800:800:2ec0::/42 } on-error={}
 :do { add list=CO address=2800:800:2f00::/40 } on-error={}
 :do { add list=CO address=2800:800:3000::/36 } on-error={}
-:do { add list=CO address=2800:800:4000::/34 } on-error={}
+:do { add list=CO address=2800:800:4000::/39 } on-error={}
+:do { add list=CO address=2800:800:4200::/40 } on-error={}
+:do { add list=CO address=2800:800:4300::/41 } on-error={}
+:do { add list=CO address=2800:800:4380::/42 } on-error={}
+:do { add list=CO address=2800:800:43c0::/43 } on-error={}
+:do { add list=CO address=2800:800:43e0::/43 } on-error={}
+:do { add list=CO address=2800:800:4400::/38 } on-error={}
+:do { add list=CO address=2800:800:4800::/37 } on-error={}
+:do { add list=CO address=2800:800:5000::/36 } on-error={}
+:do { add list=CO address=2800:800:6000::/35 } on-error={}
 :do { add list=CO address=2800:800:8000::/33 } on-error={}
 :do { add list=CO address=2800:870:400::/50 } on-error={}
 :do { add list=CO address=2800:8a0::/32 } on-error={}

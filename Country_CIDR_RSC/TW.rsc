@@ -6764,7 +6764,12 @@
 :do { add list=TW address=202.163.1.224/29 } on-error={}
 :do { add list=TW address=202.165.60.0/24 } on-error={}
 :do { add list=TW address=202.165.71.0/24 } on-error={}
-:do { add list=TW address=202.165.128.0/19 } on-error={}
+:do { add list=TW address=202.165.128.0/20 } on-error={}
+:do { add list=TW address=202.165.144.0/22 } on-error={}
+:do { add list=TW address=202.165.148.0/24 } on-error={}
+:do { add list=TW address=202.165.149.0/24 } on-error={}
+:do { add list=TW address=202.165.150.0/23 } on-error={}
+:do { add list=TW address=202.165.152.0/21 } on-error={}
 :do { add list=TW address=202.168.192.0/20 } on-error={}
 :do { add list=TW address=202.169.160.0/21 } on-error={}
 :do { add list=TW address=202.169.168.0/22 } on-error={}

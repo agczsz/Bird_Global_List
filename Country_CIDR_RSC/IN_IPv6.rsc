@@ -6799,7 +6799,9 @@
 :do { add list=IN address=2401:4900:896a::/47 } on-error={}
 :do { add list=IN address=2401:4900:896c::/47 } on-error={}
 :do { add list=IN address=2401:4900:896e::/47 } on-error={}
-:do { add list=IN address=2401:4900:8970::/45 } on-error={}
+:do { add list=IN address=2401:4900:8970::/47 } on-error={}
+:do { add list=IN address=2401:4900:8972::/47 } on-error={}
+:do { add list=IN address=2401:4900:8974::/46 } on-error={}
 :do { add list=IN address=2401:4900:8978::/46 } on-error={}
 :do { add list=IN address=2401:4900:897c::/47 } on-error={}
 :do { add list=IN address=2401:4900:897e::/47 } on-error={}

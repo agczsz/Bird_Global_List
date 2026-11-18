@@ -22699,7 +22699,16 @@
 :do { add list=HK address=2602:f7dc:40::/42 } on-error={}
 :do { add list=HK address=2602:f7dc:80::/41 } on-error={}
 :do { add list=HK address=2602:f7dc:100::/40 } on-error={}
-:do { add list=HK address=2602:f7dc:200::/39 } on-error={}
+:do { add list=HK address=2602:f7dc:200::/48 } on-error={}
+:do { add list=HK address=2602:f7dc:201::/48 } on-error={}
+:do { add list=HK address=2602:f7dc:202::/47 } on-error={}
+:do { add list=HK address=2602:f7dc:204::/46 } on-error={}
+:do { add list=HK address=2602:f7dc:208::/45 } on-error={}
+:do { add list=HK address=2602:f7dc:210::/44 } on-error={}
+:do { add list=HK address=2602:f7dc:220::/43 } on-error={}
+:do { add list=HK address=2602:f7dc:240::/42 } on-error={}
+:do { add list=HK address=2602:f7dc:280::/41 } on-error={}
+:do { add list=HK address=2602:f7dc:300::/40 } on-error={}
 :do { add list=HK address=2602:f7dc:400::/38 } on-error={}
 :do { add list=HK address=2602:f7dc:800::/37 } on-error={}
 :do { add list=HK address=2602:f7f0:c00::/42 } on-error={}

@@ -2702,7 +2702,9 @@
 :do { add list=LU address=2a07:fe80:24::/47 } on-error={}
 :do { add list=LU address=2a09:2f00::/29 } on-error={}
 :do { add list=LU address=2a09:3f00:3c77::/48 } on-error={}
-:do { add list=LU address=2a09:3f00:3c78::/45 } on-error={}
+:do { add list=LU address=2a09:3f00:3c78::/47 } on-error={}
+:do { add list=LU address=2a09:3f00:3c7a::/47 } on-error={}
+:do { add list=LU address=2a09:3f00:3c7c::/46 } on-error={}
 :do { add list=LU address=2a09:3f00:3c80::/41 } on-error={}
 :do { add list=LU address=2a09:6f47:7::/48 } on-error={}
 :do { add list=LU address=2a09:8840::/29 } on-error={}

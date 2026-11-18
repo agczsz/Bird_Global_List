@@ -10290,8 +10290,7 @@
 :do { add list=TR address=2a05:2a46::/31 } on-error={}
 :do { add list=TR address=2a05:3000::/29 } on-error={}
 :do { add list=TR address=2a05:3040::/29 } on-error={}
-:do { add list=TR address=2a05:3a80:4::/48 } on-error={}
-:do { add list=TR address=2a05:3a80:5::/48 } on-error={}
+:do { add list=TR address=2a05:3a80:4::/47 } on-error={}
 :do { add list=TR address=2a05:4f80::/29 } on-error={}
 :do { add list=TR address=2a05:5780::/29 } on-error={}
 :do { add list=TR address=2a05:5ec0::/48 } on-error={}

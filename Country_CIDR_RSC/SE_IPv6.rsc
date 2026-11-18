@@ -75640,7 +75640,8 @@
 :do { add list=SE address=2a0f:5f40:1:2000::/51 } on-error={}
 :do { add list=SE address=2a0f:6280:1114::/46 } on-error={}
 :do { add list=SE address=2a0f:6280:2d00::/44 } on-error={}
-:do { add list=SE address=2a0f:6280:2d10::/44 } on-error={}
+:do { add list=SE address=2a0f:6280:2d10::/45 } on-error={}
+:do { add list=SE address=2a0f:6280:2d18::/45 } on-error={}
 :do { add list=SE address=2a0f:6280:2d20::/43 } on-error={}
 :do { add list=SE address=2a0f:6280:2d40::/42 } on-error={}
 :do { add list=SE address=2a0f:6280:2d80::/42 } on-error={}

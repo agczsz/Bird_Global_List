@@ -2010,7 +2010,8 @@
 :do { add list=LU address=193.142.214.0/24 } on-error={}
 :do { add list=LU address=193.168.1.0/24 } on-error={}
 :do { add list=LU address=193.168.2.0/24 } on-error={}
-:do { add list=LU address=193.168.8.0/23 } on-error={}
+:do { add list=LU address=193.168.8.0/24 } on-error={}
+:do { add list=LU address=193.168.9.0/24 } on-error={}
 :do { add list=LU address=193.168.10.0/24 } on-error={}
 :do { add list=LU address=193.168.11.0/24 } on-error={}
 :do { add list=LU address=193.168.12.0/23 } on-error={}
