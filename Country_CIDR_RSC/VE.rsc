@@ -978,7 +978,8 @@
 :do { add list=VE address=172.226.10.0/28 } on-error={}
 :do { add list=VE address=172.226.10.16/29 } on-error={}
 :do { add list=VE address=177.29.224.0/24 } on-error={}
-:do { add list=VE address=177.29.226.0/23 } on-error={}
+:do { add list=VE address=177.29.226.0/24 } on-error={}
+:do { add list=VE address=177.29.227.0/24 } on-error={}
 :do { add list=VE address=177.29.232.0/21 } on-error={}
 :do { add list=VE address=178.19.41.0/24 } on-error={}
 :do { add list=VE address=179.0.104.0/22 } on-error={}

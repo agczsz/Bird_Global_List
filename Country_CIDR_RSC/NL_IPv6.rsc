@@ -199620,8 +199620,7 @@
 :do { add list=NL address=2a13:5c20::/27 } on-error={}
 :do { add list=NL address=2a13:5c40::/40 } on-error={}
 :do { add list=NL address=2a13:5c40:100::/40 } on-error={}
-:do { add list=NL address=2a13:5c40:200::/40 } on-error={}
-:do { add list=NL address=2a13:5c40:300::/40 } on-error={}
+:do { add list=NL address=2a13:5c40:200::/39 } on-error={}
 :do { add list=NL address=2a13:5c40:400::/38 } on-error={}
 :do { add list=NL address=2a13:5c40:800::/37 } on-error={}
 :do { add list=NL address=2a13:5c40:1000::/36 } on-error={}
@@ -200404,7 +200403,10 @@
 :do { add list=NL address=2a13:8888::/29 } on-error={}
 :do { add list=NL address=2a13:8890::/28 } on-error={}
 :do { add list=NL address=2a13:88a0::/27 } on-error={}
-:do { add list=NL address=2a13:88c0::/26 } on-error={}
+:do { add list=NL address=2a13:88c0::/29 } on-error={}
+:do { add list=NL address=2a13:88c8::/29 } on-error={}
+:do { add list=NL address=2a13:88d0::/28 } on-error={}
+:do { add list=NL address=2a13:88e0::/27 } on-error={}
 :do { add list=NL address=2a13:8908::/29 } on-error={}
 :do { add list=NL address=2a13:8910::/28 } on-error={}
 :do { add list=NL address=2a13:8920::/27 } on-error={}

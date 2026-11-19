@@ -1270,7 +1270,14 @@
 :do { add list=MY address=2402:4ba0:e4::/46 } on-error={}
 :do { add list=MY address=2402:4ba0:e8::/45 } on-error={}
 :do { add list=MY address=2402:4ba0:f0::/44 } on-error={}
-:do { add list=MY address=2402:4ba0:100::/41 } on-error={}
+:do { add list=MY address=2402:4ba0:100::/48 } on-error={}
+:do { add list=MY address=2402:4ba0:101::/48 } on-error={}
+:do { add list=MY address=2402:4ba0:102::/47 } on-error={}
+:do { add list=MY address=2402:4ba0:104::/46 } on-error={}
+:do { add list=MY address=2402:4ba0:108::/45 } on-error={}
+:do { add list=MY address=2402:4ba0:110::/44 } on-error={}
+:do { add list=MY address=2402:4ba0:120::/43 } on-error={}
+:do { add list=MY address=2402:4ba0:140::/42 } on-error={}
 :do { add list=MY address=2402:4ba0:180::/42 } on-error={}
 :do { add list=MY address=2402:4ba0:1c0::/43 } on-error={}
 :do { add list=MY address=2402:4ba0:1e0::/48 } on-error={}

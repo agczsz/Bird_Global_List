@@ -4143,8 +4143,7 @@
 :do { add list=ES address=2001:3840:7810::/44 } on-error={}
 :do { add list=ES address=2001:3840:7820::/43 } on-error={}
 :do { add list=ES address=2001:4030::/33 } on-error={}
-:do { add list=ES address=2001:4030:8000::/34 } on-error={}
-:do { add list=ES address=2001:4030:c000::/34 } on-error={}
+:do { add list=ES address=2001:4030:8000::/33 } on-error={}
 :do { add list=ES address=2001:40b0::/32 } on-error={}
 :do { add list=ES address=2001:41a8:700::/48 } on-error={}
 :do { add list=ES address=2001:41d0::900/128 } on-error={}

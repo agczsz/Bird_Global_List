@@ -124805,7 +124805,8 @@
 :do { add list=SG address=2607:fa70:3:ca::/64 } on-error={}
 :do { add list=SG address=2607:fa98:3000::/36 } on-error={}
 :do { add list=SG address=2607:fb10:2011::/48 } on-error={}
-:do { add list=SG address=2607:fb10:2012::/47 } on-error={}
+:do { add list=SG address=2607:fb10:2012::/48 } on-error={}
+:do { add list=SG address=2607:fb10:2013::/48 } on-error={}
 :do { add list=SG address=2607:fb10:2014::/47 } on-error={}
 :do { add list=SG address=2607:fc48:1010:c000::/50 } on-error={}
 :do { add list=SG address=2607:fc48:1011:c000::/50 } on-error={}

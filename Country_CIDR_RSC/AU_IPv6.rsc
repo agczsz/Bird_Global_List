@@ -55838,7 +55838,11 @@
 :do { add list=AU address=2400:ec24::/30 } on-error={}
 :do { add list=AU address=2400:ec28::/29 } on-error={}
 :do { add list=AU address=2400:ec30::/28 } on-error={}
-:do { add list=AU address=2400:ec40::/32 } on-error={}
+:do { add list=AU address=2400:ec40::/33 } on-error={}
+:do { add list=AU address=2400:ec40:8000::/34 } on-error={}
+:do { add list=AU address=2400:ec40:c000::/35 } on-error={}
+:do { add list=AU address=2400:ec40:e000::/36 } on-error={}
+:do { add list=AU address=2400:ec40:f000::/36 } on-error={}
 :do { add list=AU address=2400:ec41::/32 } on-error={}
 :do { add list=AU address=2400:ec42::/31 } on-error={}
 :do { add list=AU address=2400:ec44::/30 } on-error={}

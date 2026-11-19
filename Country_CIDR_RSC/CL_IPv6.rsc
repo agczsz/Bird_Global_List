@@ -122,8 +122,7 @@
 :do { add list=CL address=2001:1398::/48 } on-error={}
 :do { add list=CL address=2001:1398:1::/48 } on-error={}
 :do { add list=CL address=2001:1398:2::/47 } on-error={}
-:do { add list=CL address=2001:1398:4::/48 } on-error={}
-:do { add list=CL address=2001:1398:5::/48 } on-error={}
+:do { add list=CL address=2001:1398:4::/47 } on-error={}
 :do { add list=CL address=2001:1398:6::/47 } on-error={}
 :do { add list=CL address=2001:1398:8::/45 } on-error={}
 :do { add list=CL address=2001:1398:10::/44 } on-error={}

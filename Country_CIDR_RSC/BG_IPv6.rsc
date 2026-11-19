@@ -28406,12 +28406,7 @@
 :do { add list=BG address=2a00:4802:5040::/42 } on-error={}
 :do { add list=BG address=2a00:4802:5080::/41 } on-error={}
 :do { add list=BG address=2a00:4802:5100::/40 } on-error={}
-:do { add list=BG address=2a00:4802:5200::/44 } on-error={}
-:do { add list=BG address=2a00:4802:5210::/44 } on-error={}
-:do { add list=BG address=2a00:4802:5220::/43 } on-error={}
-:do { add list=BG address=2a00:4802:5240::/42 } on-error={}
-:do { add list=BG address=2a00:4802:5280::/41 } on-error={}
-:do { add list=BG address=2a00:4802:5300::/40 } on-error={}
+:do { add list=BG address=2a00:4802:5200::/39 } on-error={}
 :do { add list=BG address=2a00:4802:5400::/38 } on-error={}
 :do { add list=BG address=2a00:4802:5800::/37 } on-error={}
 :do { add list=BG address=2a00:4802:6000::/35 } on-error={}

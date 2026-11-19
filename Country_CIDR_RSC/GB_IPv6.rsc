@@ -186802,7 +186802,8 @@
 :do { add list=GB address=2a14:7581:9f70:8000::/50 } on-error={}
 :do { add list=GB address=2a14:7581:9f70:de10::2/128 } on-error={}
 :do { add list=GB address=2a14:7581:9f71::/48 } on-error={}
-:do { add list=GB address=2a14:7581:9f72::/47 } on-error={}
+:do { add list=GB address=2a14:7581:9f72::/48 } on-error={}
+:do { add list=GB address=2a14:7581:9f73::/48 } on-error={}
 :do { add list=GB address=2a14:7581:9f74::/46 } on-error={}
 :do { add list=GB address=2a14:7581:9f78::/46 } on-error={}
 :do { add list=GB address=2a14:7581:a290::/44 } on-error={}

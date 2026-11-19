@@ -25136,7 +25136,9 @@
 :do { add list=IN address=2409:e:e9::/48 } on-error={}
 :do { add list=IN address=2409:e:ea::/48 } on-error={}
 :do { add list=IN address=2409:e:eb::/48 } on-error={}
-:do { add list=IN address=2409:e:ec::/46 } on-error={}
+:do { add list=IN address=2409:e:ec::/48 } on-error={}
+:do { add list=IN address=2409:e:ed::/48 } on-error={}
+:do { add list=IN address=2409:e:ee::/47 } on-error={}
 :do { add list=IN address=2409:e:f0::/44 } on-error={}
 :do { add list=IN address=2409:e:100::/40 } on-error={}
 :do { add list=IN address=2409:e:200::/39 } on-error={}

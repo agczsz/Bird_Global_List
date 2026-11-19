@@ -39267,7 +39267,12 @@
 :do { add list=PL address=2a02:e30:8000::/34 } on-error={}
 :do { add list=PL address=2a02:e30:c000::/35 } on-error={}
 :do { add list=PL address=2a02:e30:e000::/36 } on-error={}
-:do { add list=PL address=2a02:e30:f000::/43 } on-error={}
+:do { add list=PL address=2a02:e30:f000::/46 } on-error={}
+:do { add list=PL address=2a02:e30:f004::/47 } on-error={}
+:do { add list=PL address=2a02:e30:f006::/48 } on-error={}
+:do { add list=PL address=2a02:e30:f007::/48 } on-error={}
+:do { add list=PL address=2a02:e30:f008::/45 } on-error={}
+:do { add list=PL address=2a02:e30:f010::/44 } on-error={}
 :do { add list=PL address=2a02:e30:f020::/44 } on-error={}
 :do { add list=PL address=2a02:e30:f030::/48 } on-error={}
 :do { add list=PL address=2a02:e30:f031::/48 } on-error={}

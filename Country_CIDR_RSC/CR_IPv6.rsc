@@ -209,7 +209,11 @@
 :do { add list=CR address=2801:151:200::/39 } on-error={}
 :do { add list=CR address=2801:151:400::/38 } on-error={}
 :do { add list=CR address=2801:151:800::/37 } on-error={}
-:do { add list=CR address=2801:15d::/44 } on-error={}
+:do { add list=CR address=2801:15d::/48 } on-error={}
+:do { add list=CR address=2801:15d:1::/48 } on-error={}
+:do { add list=CR address=2801:15d:2::/47 } on-error={}
+:do { add list=CR address=2801:15d:4::/46 } on-error={}
+:do { add list=CR address=2801:15d:8::/45 } on-error={}
 :do { add list=CR address=2801:195::/44 } on-error={}
 :do { add list=CR address=2803:210::/32 } on-error={}
 :do { add list=CR address=2803:4c0:40::/42 } on-error={}

@@ -575,7 +575,9 @@
 :do { add list=GT address=190.61.58.0/24 } on-error={}
 :do { add list=GT address=190.61.88.0/22 } on-error={}
 :do { add list=GT address=190.61.96.0/21 } on-error={}
-:do { add list=GT address=190.61.152.0/21 } on-error={}
+:do { add list=GT address=190.61.152.0/23 } on-error={}
+:do { add list=GT address=190.61.154.0/23 } on-error={}
+:do { add list=GT address=190.61.156.0/22 } on-error={}
 :do { add list=GT address=190.83.8.0/22 } on-error={}
 :do { add list=GT address=190.83.119.0/24 } on-error={}
 :do { add list=GT address=190.89.32.0/24 } on-error={}

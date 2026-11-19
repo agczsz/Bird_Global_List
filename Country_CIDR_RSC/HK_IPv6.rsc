@@ -8850,7 +8850,8 @@
 :do { add list=HK address=2401:b60:a::/48 } on-error={}
 :do { add list=HK address=2401:b60:b::/48 } on-error={}
 :do { add list=HK address=2401:b60:c::/47 } on-error={}
-:do { add list=HK address=2401:b60:e::/47 } on-error={}
+:do { add list=HK address=2401:b60:e::/48 } on-error={}
+:do { add list=HK address=2401:b60:f::/48 } on-error={}
 :do { add list=HK address=2401:b60:10::/47 } on-error={}
 :do { add list=HK address=2401:b60:12::/47 } on-error={}
 :do { add list=HK address=2401:b60:14::/48 } on-error={}
