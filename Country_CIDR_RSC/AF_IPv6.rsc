@@ -67,6 +67,9 @@
 :do { add list=AF address=2405:b500:280::/64 } on-error={}
 :do { add list=AF address=2405:b500:280:8::/64 } on-error={}
 :do { add list=AF address=2405:b500:280:18::/64 } on-error={}
+:do { add list=AF address=2405:b500:2a0::/64 } on-error={}
+:do { add list=AF address=2405:b500:2a0:8::/64 } on-error={}
+:do { add list=AF address=2405:b500:2a0:18::/64 } on-error={}
 :do { add list=AF address=2405:b500:2c0::/64 } on-error={}
 :do { add list=AF address=2405:b500:2c0:8::/64 } on-error={}
 :do { add list=AF address=2405:b500:2c0:18::/64 } on-error={}

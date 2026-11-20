@@ -29,7 +29,6 @@
 :do { add list=GN address=2606:54c1:1:139::/64 } on-error={}
 :do { add list=GN address=2606:54c3:0:129f::/64 } on-error={}
 :do { add list=GN address=2607:8940:20c6::/47 } on-error={}
-:do { add list=GN address=2607:8940:20ca::/47 } on-error={}
 :do { add list=GN address=2607:8940:4171:3c00::/55 } on-error={}
 :do { add list=GN address=2607:8940:4191:3c00::/55 } on-error={}
 :do { add list=GN address=2a00:ca0:2003:b000::/52 } on-error={}

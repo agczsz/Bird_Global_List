@@ -3,8 +3,6 @@
 :do { add list=VU address=2001:de9:2000::/48 } on-error={}
 :do { add list=VU address=2001:dec::/48 } on-error={}
 :do { add list=VU address=2001:df0:410::/48 } on-error={}
-:do { add list=VU address=2001:df2:a700:4000::/50 } on-error={}
-:do { add list=VU address=2001:df2:a700:8000::/49 } on-error={}
 :do { add list=VU address=2001:df5:6d40::/44 } on-error={}
 :do { add list=VU address=2001:dfc::/32 } on-error={}
 :do { add list=VU address=2001:3786:5000:200::/56 } on-error={}
@@ -123,8 +121,6 @@
 :do { add list=VU address=2403:fbc0:7800::/37 } on-error={}
 :do { add list=VU address=2403:fbc0:8000::/35 } on-error={}
 :do { add list=VU address=2403:fbc0:a000::/48 } on-error={}
-:do { add list=VU address=2403:fbc0:a001:4000::/50 } on-error={}
-:do { add list=VU address=2403:fbc0:a001:8000::/49 } on-error={}
 :do { add list=VU address=2403:fbc0:a002::/48 } on-error={}
 :do { add list=VU address=2403:fbc0:a003::/48 } on-error={}
 :do { add list=VU address=2403:fbc0:a004::/46 } on-error={}

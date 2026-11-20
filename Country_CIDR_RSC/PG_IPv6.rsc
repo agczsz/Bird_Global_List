@@ -1,12 +1,19 @@
 /log info "Loading PG IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=PG address=2001:470:19:8ab::/64 } on-error={}
+:do { add list=PG address=2001:470:19:bd9::/64 } on-error={}
+:do { add list=PG address=2001:470:24:f5::/64 } on-error={}
+:do { add list=PG address=2001:470:24:124::/64 } on-error={}
+:do { add list=PG address=2001:470:24:91e::/64 } on-error={}
 :do { add list=PG address=2001:470:36:223::/64 } on-error={}
 :do { add list=PG address=2001:470:36:856::/64 } on-error={}
 :do { add list=PG address=2001:470:36:883::/64 } on-error={}
+:do { add list=PG address=2001:470:6f:4b7::/64 } on-error={}
 :do { add list=PG address=2001:470:19d::2/128 } on-error={}
 :do { add list=PG address=2001:470:1f1f:1e::/64 } on-error={}
 :do { add list=PG address=2001:470:5a19::/48 } on-error={}
 :do { add list=PG address=2001:470:eea2::/48 } on-error={}
+:do { add list=PG address=2001:470:f6e1::/48 } on-error={}
 :do { add list=PG address=2001:470:fa9c::/48 } on-error={}
 :do { add list=PG address=2001:470:fce8::/48 } on-error={}
 :do { add list=PG address=2001:470:fd4e::/48 } on-error={}

@@ -35,8 +35,6 @@
 :do { add list=GI address=2607:8940:4240:4600::/56 } on-error={}
 :do { add list=GI address=2a01:8c40::/45 } on-error={}
 :do { add list=GI address=2a01:8c40:8::/47 } on-error={}
-:do { add list=GI address=2a01:8c40:a:4000::/50 } on-error={}
-:do { add list=GI address=2a01:8c40:a:8000::/49 } on-error={}
 :do { add list=GI address=2a01:8c40:b::/48 } on-error={}
 :do { add list=GI address=2a01:8c40:c::/46 } on-error={}
 :do { add list=GI address=2a01:8c40:10::/44 } on-error={}
@@ -172,8 +170,6 @@
 :do { add list=GI address=2a05:dc84::/32 } on-error={}
 :do { add list=GI address=2a05:dc85::/34 } on-error={}
 :do { add list=GI address=2a05:dc85:4000::/36 } on-error={}
-:do { add list=GI address=2a05:dc85:5000:4000::/50 } on-error={}
-:do { add list=GI address=2a05:dc85:5000:8000::/49 } on-error={}
 :do { add list=GI address=2a05:dc85:5001::/48 } on-error={}
 :do { add list=GI address=2a05:dc85:5002::/47 } on-error={}
 :do { add list=GI address=2a05:dc85:5004::/46 } on-error={}

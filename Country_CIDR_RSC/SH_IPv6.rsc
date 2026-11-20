@@ -18,8 +18,6 @@
 :do { add list=SH address=2606:40:22c1:c800::/53 } on-error={}
 :do { add list=SH address=2606:40:22c1:d000::/52 } on-error={}
 :do { add list=SH address=2606:40:2385:ac00::/54 } on-error={}
-:do { add list=SH address=2607:8940:21a2:4000::/50 } on-error={}
-:do { add list=SH address=2607:8940:21a2:8000::/49 } on-error={}
 :do { add list=SH address=2607:8940:21a3::/48 } on-error={}
 :do { add list=SH address=2607:8940:21a6::/47 } on-error={}
 :do { add list=SH address=2607:8940:4172:3d00::/56 } on-error={}

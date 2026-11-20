@@ -6,6 +6,10 @@
 :do { add list=GL address=2401:b60:1552::/47 } on-error={}
 :do { add list=GL address=2401:b60:1554::/46 } on-error={}
 :do { add list=GL address=2401:b60:1558::/45 } on-error={}
+:do { add list=GL address=2405:b500:2c00::/64 } on-error={}
+:do { add list=GL address=2405:b500:2c00:8::/64 } on-error={}
+:do { add list=GL address=2405:b500:2c00:10::/64 } on-error={}
+:do { add list=GL address=2405:b500:2c00:530::/64 } on-error={}
 :do { add list=GL address=2405:b500:2c20::/64 } on-error={}
 :do { add list=GL address=2405:b500:2c20:8::/64 } on-error={}
 :do { add list=GL address=2405:b500:2c20:10::/64 } on-error={}

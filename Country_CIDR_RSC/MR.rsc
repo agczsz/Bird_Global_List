@@ -27,14 +27,6 @@
 :do { add list=MR address=102.205.52.0/23 } on-error={}
 :do { add list=MR address=102.205.54.0/24 } on-error={}
 :do { add list=MR address=102.205.55.0/24 } on-error={}
-:do { add list=MR address=102.205.96.0/26 } on-error={}
-:do { add list=MR address=102.205.96.68/30 } on-error={}
-:do { add list=MR address=102.205.96.72/29 } on-error={}
-:do { add list=MR address=102.205.96.80/28 } on-error={}
-:do { add list=MR address=102.205.96.96/27 } on-error={}
-:do { add list=MR address=102.205.96.128/25 } on-error={}
-:do { add list=MR address=102.205.97.0/24 } on-error={}
-:do { add list=MR address=102.205.98.0/24 } on-error={}
 :do { add list=MR address=102.205.176.0/22 } on-error={}
 :do { add list=MR address=102.206.224.0/22 } on-error={}
 :do { add list=MR address=102.214.128.0/22 } on-error={}

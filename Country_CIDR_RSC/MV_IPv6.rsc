@@ -2,11 +2,20 @@
 /ipv6 firewall address-list
 :do { add list=MV address=2001:470:d:1301::/64 } on-error={}
 :do { add list=MV address=2001:470:d:1303::/64 } on-error={}
+:do { add list=MV address=2001:470:19:b0::/64 } on-error={}
 :do { add list=MV address=2001:470:19:3a6::/64 } on-error={}
+:do { add list=MV address=2001:470:19:56b::/64 } on-error={}
+:do { add list=MV address=2001:470:19:57d::/64 } on-error={}
+:do { add list=MV address=2001:470:19:d5d::/64 } on-error={}
+:do { add list=MV address=2001:470:19:f89::/64 } on-error={}
+:do { add list=MV address=2001:470:19:1297::/64 } on-error={}
+:do { add list=MV address=2001:470:24:35a::/64 } on-error={}
 :do { add list=MV address=2001:470:24:35c::/64 } on-error={}
+:do { add list=MV address=2001:470:28:256::/64 } on-error={}
 :do { add list=MV address=2001:470:36:1df::/128 } on-error={}
 :do { add list=MV address=2001:470:36:7ea::/64 } on-error={}
 :do { add list=MV address=2001:470:36:87d::/64 } on-error={}
+:do { add list=MV address=2001:470:6d:10a6::/64 } on-error={}
 :do { add list=MV address=2001:470:69b3::/48 } on-error={}
 :do { add list=MV address=2001:470:ec68::/48 } on-error={}
 :do { add list=MV address=2001:470:ed9b::/48 } on-error={}
@@ -36,8 +45,7 @@
 :do { add list=MV address=2001:df4:5b00::/48 } on-error={}
 :do { add list=MV address=2001:df5:6a00::/48 } on-error={}
 :do { add list=MV address=2001:df5:df00::/48 } on-error={}
-:do { add list=MV address=2001:df7:9980:4000::/50 } on-error={}
-:do { add list=MV address=2001:df7:9980:8000::/49 } on-error={}
+:do { add list=MV address=2001:df7:9980::/48 } on-error={}
 :do { add list=MV address=2400:cb00:214::/48 } on-error={}
 :do { add list=MV address=2400:cb00:593::/48 } on-error={}
 :do { add list=MV address=2401:8300::/33 } on-error={}

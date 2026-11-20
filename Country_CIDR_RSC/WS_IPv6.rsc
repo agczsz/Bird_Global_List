@@ -1,5 +1,8 @@
 /log info "Loading WS IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=WS address=2001:470:19:360::/64 } on-error={}
+:do { add list=WS address=2001:470:67:478::/64 } on-error={}
+:do { add list=WS address=2001:470:1f13:e42::/64 } on-error={}
 :do { add list=WS address=2001:470:8106::/48 } on-error={}
 :do { add list=WS address=2001:470:f9b0::/48 } on-error={}
 :do { add list=WS address=2001:de8:8000::/48 } on-error={}
@@ -145,8 +148,6 @@
 :do { add list=WS address=2401:ae60:2000::/35 } on-error={}
 :do { add list=WS address=2401:ae60:4000::/34 } on-error={}
 :do { add list=WS address=2401:ae60:8000::/33 } on-error={}
-:do { add list=WS address=2402:ae80:0:4000::/50 } on-error={}
-:do { add list=WS address=2402:ae80:0:8000::/49 } on-error={}
 :do { add list=WS address=2402:ae80:1::/48 } on-error={}
 :do { add list=WS address=2402:ae80:2::/47 } on-error={}
 :do { add list=WS address=2402:ae80:4::/46 } on-error={}

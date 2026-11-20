@@ -18,7 +18,6 @@
 :do { add list=PF address=103.254.224.0/25 } on-error={}
 :do { add list=PF address=103.254.224.128/29 } on-error={}
 :do { add list=PF address=103.254.224.136/30 } on-error={}
-:do { add list=PF address=103.254.224.140/31 } on-error={}
 :do { add list=PF address=103.254.224.144/28 } on-error={}
 :do { add list=PF address=103.254.224.160/27 } on-error={}
 :do { add list=PF address=103.254.224.192/26 } on-error={}

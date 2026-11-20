@@ -6,6 +6,10 @@
 :do { add list=KN address=2401:b60:1bf2::/47 } on-error={}
 :do { add list=KN address=2401:b60:1bf4::/46 } on-error={}
 :do { add list=KN address=2401:b60:1bf8::/45 } on-error={}
+:do { add list=KN address=2405:b500:3e00::/64 } on-error={}
+:do { add list=KN address=2405:b500:3e20::/64 } on-error={}
+:do { add list=KN address=2405:b500:3e40::/64 } on-error={}
+:do { add list=KN address=2405:b500:3e60::/64 } on-error={}
 :do { add list=KN address=2602:814:fddc::/46 } on-error={}
 :do { add list=KN address=2602:f3fc::/36 } on-error={}
 :do { add list=KN address=2602:f96d:109:9194::/64 } on-error={}
@@ -36,6 +40,7 @@
 :do { add list=KN address=2607:8940:40b1:600::/56 } on-error={}
 :do { add list=KN address=2607:8940:4143:8700::/56 } on-error={}
 :do { add list=KN address=2607:8940:4143:8800::/56 } on-error={}
+:do { add list=KN address=2620:0:876:417::/64 } on-error={}
 :do { add list=KN address=2620:6b:2000::/48 } on-error={}
 :do { add list=KN address=2620:171:b2::/48 } on-error={}
 :do { add list=KN address=2a02:26f7:e8c0:4000::/64 } on-error={}
@@ -103,8 +108,6 @@
 :do { add list=KN address=2a0c:b641:950::/44 } on-error={}
 :do { add list=KN address=2a0d:2684:78::/48 } on-error={}
 :do { add list=KN address=2a0d:9446::/37 } on-error={}
-:do { add list=KN address=2a0e:ad80:0:4000::/50 } on-error={}
-:do { add list=KN address=2a0e:ad80:0:8000::/49 } on-error={}
 :do { add list=KN address=2a0e:ad80:1::/48 } on-error={}
 :do { add list=KN address=2a0e:ad80:2::/47 } on-error={}
 :do { add list=KN address=2a0e:ad80:4::/46 } on-error={}
@@ -121,8 +124,6 @@
 :do { add list=KN address=2a0e:ad80:2000::/35 } on-error={}
 :do { add list=KN address=2a0e:ad80:4000::/34 } on-error={}
 :do { add list=KN address=2a0e:ad80:8000::/33 } on-error={}
-:do { add list=KN address=2a0e:ad81:0:4000::/50 } on-error={}
-:do { add list=KN address=2a0e:ad81:0:8000::/49 } on-error={}
 :do { add list=KN address=2a0e:ad81:1::/48 } on-error={}
 :do { add list=KN address=2a0e:ad81:2::/47 } on-error={}
 :do { add list=KN address=2a0e:ad81:4::/46 } on-error={}

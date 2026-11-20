@@ -8,7 +8,7 @@
 :do { add list=NP address=36.252.0.0/15 } on-error={}
 :do { add list=NP address=38.54.70.0/23 } on-error={}
 :do { add list=NP address=38.253.67.0/24 } on-error={}
-:do { add list=NP address=43.109.184.128/25 } on-error={}
+:do { add list=NP address=43.109.184.0/24 } on-error={}
 :do { add list=NP address=43.152.13.0/24 } on-error={}
 :do { add list=NP address=43.174.125.0/24 } on-error={}
 :do { add list=NP address=43.225.130.0/23 } on-error={}

@@ -18,9 +18,6 @@
 :do { add list=SZ address=2606:54c0:55a0::/45 } on-error={}
 :do { add list=SZ address=2606:54c1:1:be::/64 } on-error={}
 :do { add list=SZ address=2606:54c3:0:15c0::/64 } on-error={}
-:do { add list=SZ address=2607:8940:21c2::/48 } on-error={}
-:do { add list=SZ address=2607:8940:21c3:4000::/50 } on-error={}
-:do { add list=SZ address=2607:8940:21c3:8000::/49 } on-error={}
 :do { add list=SZ address=2607:8940:21c6::/47 } on-error={}
 :do { add list=SZ address=2607:8940:4171:af00::/56 } on-error={}
 :do { add list=SZ address=2607:8940:4171:b000::/56 } on-error={}
@@ -141,8 +138,6 @@
 :do { add list=SZ address=2a14:67c2:8ac::/48 } on-error={}
 :do { add list=SZ address=2a14:7580:cfd4::/48 } on-error={}
 :do { add list=SZ address=2a14:7581:be2:ec00::/56 } on-error={}
-:do { add list=SZ address=2c0f:940:0:4000::/50 } on-error={}
-:do { add list=SZ address=2c0f:940:0:8000::/49 } on-error={}
 :do { add list=SZ address=2c0f:940:1::/48 } on-error={}
 :do { add list=SZ address=2c0f:940:2::/47 } on-error={}
 :do { add list=SZ address=2c0f:940:4::/46 } on-error={}

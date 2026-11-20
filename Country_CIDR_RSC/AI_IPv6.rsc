@@ -9,6 +9,7 @@
 :do { add list=AI address=2401:b60:1078::/45 } on-error={}
 :do { add list=AI address=2405:b500:380::/64 } on-error={}
 :do { add list=AI address=2405:b500:3a0::/64 } on-error={}
+:do { add list=AI address=2405:b500:3c0::/64 } on-error={}
 :do { add list=AI address=2405:b500:3e0::/64 } on-error={}
 :do { add list=AI address=2602:814:fc10::/46 } on-error={}
 :do { add list=AI address=2602:f871::/40 } on-error={}
@@ -79,14 +80,6 @@
 :do { add list=AI address=2a05:dfc1:5a0f::/48 } on-error={}
 :do { add list=AI address=2a06:9f81:3905::/48 } on-error={}
 :do { add list=AI address=2a06:9f81:5605::/48 } on-error={}
-:do { add list=AI address=2a07:68c0:1:4000::/50 } on-error={}
-:do { add list=AI address=2a07:68c0:1:8000::/49 } on-error={}
-:do { add list=AI address=2a07:68c0:2:4000::/50 } on-error={}
-:do { add list=AI address=2a07:68c0:2:8000::/49 } on-error={}
-:do { add list=AI address=2a07:68c0:3:4000::/50 } on-error={}
-:do { add list=AI address=2a07:68c0:3:8000::/49 } on-error={}
-:do { add list=AI address=2a07:68c0:4:4000::/50 } on-error={}
-:do { add list=AI address=2a07:68c0:4:8000::/49 } on-error={}
 :do { add list=AI address=2a07:68c0:ffff::/48 } on-error={}
 :do { add list=AI address=2a07:d887:400::/40 } on-error={}
 :do { add list=AI address=2a09:bac1:380::/64 } on-error={}

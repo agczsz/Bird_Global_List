@@ -16,8 +16,6 @@
 :do { add list=CX address=2606:40:1030::/44 } on-error={}
 :do { add list=CX address=2606:40:217e:6000::/51 } on-error={}
 :do { add list=CX address=2606:40:230a:6000::/51 } on-error={}
-:do { add list=CX address=2607:8940:28aa::/47 } on-error={}
-:do { add list=CX address=2607:8940:28ae::/47 } on-error={}
 :do { add list=CX address=2607:8940:41a3:3500::/56 } on-error={}
 :do { add list=CX address=2607:8940:41a3:3600::/56 } on-error={}
 :do { add list=CX address=2607:8940:41d1:6600::/55 } on-error={}

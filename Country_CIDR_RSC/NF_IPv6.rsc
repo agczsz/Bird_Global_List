@@ -9,6 +9,7 @@
 :do { add list=NF address=2401:b60:1a88::/45 } on-error={}
 :do { add list=NF address=2405:b500:5380::/64 } on-error={}
 :do { add list=NF address=2405:b500:53a0::/64 } on-error={}
+:do { add list=NF address=2405:b500:53c0::/64 } on-error={}
 :do { add list=NF address=2405:b500:53e0::/64 } on-error={}
 :do { add list=NF address=2406:2d40:4580::/42 } on-error={}
 :do { add list=NF address=2602:814:fe88::/46 } on-error={}

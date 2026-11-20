@@ -6,6 +6,10 @@
 :do { add list=ER address=2401:b60:1432::/47 } on-error={}
 :do { add list=ER address=2401:b60:1434::/46 } on-error={}
 :do { add list=ER address=2401:b60:1438::/45 } on-error={}
+:do { add list=ER address=2405:b500:2300::/64 } on-error={}
+:do { add list=ER address=2405:b500:2320::/64 } on-error={}
+:do { add list=ER address=2405:b500:2340::/64 } on-error={}
+:do { add list=ER address=2405:b500:2360::/64 } on-error={}
 :do { add list=ER address=2602:814:fd08::/46 } on-error={}
 :do { add list=ER address=2605:59c0:1600::/40 } on-error={}
 :do { add list=ER address=2605:59c7:a000:1e9::/64 } on-error={}
@@ -24,8 +28,6 @@
 :do { add list=ER address=2606:54c1:1:1bd::/64 } on-error={}
 :do { add list=ER address=2606:54c3:0:f09::/64 } on-error={}
 :do { add list=ER address=2607:8940:2096::/47 } on-error={}
-:do { add list=ER address=2607:8940:209a:4000::/50 } on-error={}
-:do { add list=ER address=2607:8940:209a:8000::/49 } on-error={}
 :do { add list=ER address=2607:8940:209b::/48 } on-error={}
 :do { add list=ER address=2607:8940:4171:3000::/55 } on-error={}
 :do { add list=ER address=2607:8940:4191:3000::/55 } on-error={}
@@ -98,8 +100,6 @@
 :do { add list=ER address=2a0d:2684:42::/48 } on-error={}
 :do { add list=ER address=2a0d:9444:7000::/37 } on-error={}
 :do { add list=ER address=2a0e:4003:bb2d:2182::/64 } on-error={}
-:do { add list=ER address=2a0e:97c1:8a20:4000::/50 } on-error={}
-:do { add list=ER address=2a0e:97c1:8a20:8000::/49 } on-error={}
 :do { add list=ER address=2a0e:b107:23f0::/45 } on-error={}
 :do { add list=ER address=2a0f:1cc1:d180::/44 } on-error={}
 :do { add list=ER address=2a0f:85c1:81b:f3a0::/60 } on-error={}
