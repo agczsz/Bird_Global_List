@@ -23,7 +23,6 @@
 :do { add list=CX address=2a03:b600:0:fde::/63 } on-error={}
 :do { add list=CX address=2a03:b600:0:fe0::/61 } on-error={}
 :do { add list=CX address=2a03:b600:0:fe8::/62 } on-error={}
-:do { add list=CX address=2a04:4e41:4013:5000::/52 } on-error={}
 :do { add list=CX address=2a04:4e41:4023:5000::/52 } on-error={}
 :do { add list=CX address=2a04:4e41:4033:5000::/52 } on-error={}
 :do { add list=CX address=2a04:4e41:4043:5000::/52 } on-error={}

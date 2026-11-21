@@ -70,7 +70,6 @@
 :do { add list=VC address=2a04:4e41:3015::/48 } on-error={}
 :do { add list=VC address=2a04:4e41:3625::/48 } on-error={}
 :do { add list=VC address=2a04:4e41:3a34::/48 } on-error={}
-:do { add list=VC address=2a04:4e41:401e:c000::/52 } on-error={}
 :do { add list=VC address=2a04:4e41:402e:c000::/52 } on-error={}
 :do { add list=VC address=2a04:4e41:403e:c000::/52 } on-error={}
 :do { add list=VC address=2a04:4e41:404e:c000::/52 } on-error={}

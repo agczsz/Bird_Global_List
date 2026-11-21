@@ -91,7 +91,6 @@
 :do { add list=UM address=2607:8940:40d0:dc00::/56 } on-error={}
 :do { add list=UM address=2607:8940:4143:af00::/56 } on-error={}
 :do { add list=UM address=2607:8940:4143:b000::/56 } on-error={}
-:do { add list=UM address=2a04:4e41:401e:7000::/52 } on-error={}
 :do { add list=UM address=2a04:4e41:402e:7000::/52 } on-error={}
 :do { add list=UM address=2a04:4e41:403e:7000::/52 } on-error={}
 :do { add list=UM address=2a04:4e41:404e:7000::/52 } on-error={}

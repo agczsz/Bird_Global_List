@@ -14,7 +14,6 @@
 :do { add list=GS address=2a03:b600:0:11de::/63 } on-error={}
 :do { add list=GS address=2a03:b600:0:11e0::/61 } on-error={}
 :do { add list=GS address=2a03:b600:0:11e8::/62 } on-error={}
-:do { add list=GS address=2a04:4e41:4015:9000::/52 } on-error={}
 :do { add list=GS address=2a04:4e41:4025:9000::/52 } on-error={}
 :do { add list=GS address=2a04:4e41:4035:9000::/52 } on-error={}
 :do { add list=GS address=2a04:4e41:4045:9000::/52 } on-error={}

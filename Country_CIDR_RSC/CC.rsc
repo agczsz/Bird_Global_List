@@ -9,7 +9,6 @@
 :do { add list=CC address=136.22.12.128/32 } on-error={}
 :do { add list=CC address=136.23.24.128/32 } on-error={}
 :do { add list=CC address=136.23.32.134/32 } on-error={}
-:do { add list=CC address=140.248.56.38/32 } on-error={}
 :do { add list=CC address=140.248.57.38/32 } on-error={}
 :do { add list=CC address=140.248.58.38/32 } on-error={}
 :do { add list=CC address=140.248.59.38/32 } on-error={}

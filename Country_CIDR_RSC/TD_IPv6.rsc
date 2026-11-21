@@ -74,7 +74,6 @@
 :do { add list=TD address=2a04:4e41:66:4b00::/56 } on-error={}
 :do { add list=TD address=2a04:4e41:1426::/48 } on-error={}
 :do { add list=TD address=2a04:4e41:1840::/48 } on-error={}
-:do { add list=TD address=2a04:4e41:401d:6000::/52 } on-error={}
 :do { add list=TD address=2a04:4e41:402d:6000::/52 } on-error={}
 :do { add list=TD address=2a04:4e41:403d:6000::/52 } on-error={}
 :do { add list=TD address=2a04:4e41:404d:6000::/52 } on-error={}

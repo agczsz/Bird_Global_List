@@ -68,7 +68,6 @@
 :do { add list=NR address=2a04:4e41:2a:3::/64 } on-error={}
 :do { add list=NR address=2a04:4e41:2a:1300::/56 } on-error={}
 :do { add list=NR address=2a04:4e41:1323::/48 } on-error={}
-:do { add list=NR address=2a04:4e41:401a:8000::/52 } on-error={}
 :do { add list=NR address=2a04:4e41:402a:8000::/52 } on-error={}
 :do { add list=NR address=2a04:4e41:403a:8000::/52 } on-error={}
 :do { add list=NR address=2a04:4e41:404a:8000::/52 } on-error={}

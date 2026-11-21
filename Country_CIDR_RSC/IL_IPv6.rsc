@@ -1,6 +1,6 @@
 /log info "Loading IL IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=IL address=2001:420:8e::/48 } on-error={}
+:do { add list=IL address=2001:420:8e::/50 } on-error={}
 :do { add list=IL address=2001:420:4480::/45 } on-error={}
 :do { add list=IL address=2001:470:19:90::/64 } on-error={}
 :do { add list=IL address=2001:470:19:e4::/64 } on-error={}
@@ -60,6 +60,7 @@
 :do { add list=IL address=2001:470:1f13:1024::/64 } on-error={}
 :do { add list=IL address=2001:470:1f15:213::/64 } on-error={}
 :do { add list=IL address=2001:470:1f15:39b::/64 } on-error={}
+:do { add list=IL address=2001:470:1f15:50c::/64 } on-error={}
 :do { add list=IL address=2001:470:1f15:770::/64 } on-error={}
 :do { add list=IL address=2001:470:1f15:973::/64 } on-error={}
 :do { add list=IL address=2001:470:1f15:d70::/64 } on-error={}
@@ -3946,7 +3947,6 @@
 :do { add list=IL address=2a04:4e41:1417::/48 } on-error={}
 :do { add list=IL address=2a04:4e41:1802:a000::/51 } on-error={}
 :do { add list=IL address=2a04:4e41:1821::/48 } on-error={}
-:do { add list=IL address=2a04:4e41:4016:6000::/52 } on-error={}
 :do { add list=IL address=2a04:4e41:4026:6000::/52 } on-error={}
 :do { add list=IL address=2a04:4e41:4036:6000::/52 } on-error={}
 :do { add list=IL address=2a04:4e41:4046:6000::/52 } on-error={}

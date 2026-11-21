@@ -2761,6 +2761,8 @@
 :do { add list=FI address=2620:0:1cff:dead:beef:ffff:ffff:fec8/128 } on-error={}
 :do { add list=FI address=2620:171:70::/48 } on-error={}
 :do { add list=FI address=2a00:800:752::82/128 } on-error={}
+:do { add list=FI address=2a00:ca0:2054:b000::/52 } on-error={}
+:do { add list=FI address=2a00:ca0:2059::/50 } on-error={}
 :do { add list=FI address=2a00:1190::/32 } on-error={}
 :do { add list=FI address=2a00:1191::/32 } on-error={}
 :do { add list=FI address=2a00:1192::/31 } on-error={}
@@ -19038,6 +19040,7 @@
 :do { add list=FI address=2a01:e5c0:7b9b::/48 } on-error={}
 :do { add list=FI address=2a01:e5c0:7b9c::/48 } on-error={}
 :do { add list=FI address=2a01:e5c0:7ba0::/48 } on-error={}
+:do { add list=FI address=2a01:e5c0:7ba1::/64 } on-error={}
 :do { add list=FI address=2a01:e5c0:7ba3::/48 } on-error={}
 :do { add list=FI address=2a01:e5c0:7ba4::/48 } on-error={}
 :do { add list=FI address=2a01:e5c0:7baa::/48 } on-error={}
@@ -20792,7 +20795,6 @@
 :do { add list=FI address=2a04:4e41:1802:2000::/51 } on-error={}
 :do { add list=FI address=2a04:4e41:1802:4000::/52 } on-error={}
 :do { add list=FI address=2a04:4e41:181a::/48 } on-error={}
-:do { add list=FI address=2a04:4e41:4014:5000::/52 } on-error={}
 :do { add list=FI address=2a04:4e41:4024:5000::/52 } on-error={}
 :do { add list=FI address=2a04:4e41:4034:5000::/52 } on-error={}
 :do { add list=FI address=2a04:4e41:4044:5000::/52 } on-error={}
@@ -21010,8 +21012,7 @@
 :do { add list=FI address=2a09:1440::/29 } on-error={}
 :do { add list=FI address=2a09:2e80::/29 } on-error={}
 :do { add list=FI address=2a09:38c0:aaaa::/50 } on-error={}
-:do { add list=FI address=2a09:3f00:100f:4000::/50 } on-error={}
-:do { add list=FI address=2a09:3f00:100f:8000::/49 } on-error={}
+:do { add list=FI address=2a09:3f00:100f::/48 } on-error={}
 :do { add list=FI address=2a09:3f00:3304::/48 } on-error={}
 :do { add list=FI address=2a09:3f00:3913::/48 } on-error={}
 :do { add list=FI address=2a09:5340::/29 } on-error={}
@@ -25254,6 +25255,7 @@
 :do { add list=FI address=2a0b:4140:c754::/48 } on-error={}
 :do { add list=FI address=2a0b:4140:c758::/45 } on-error={}
 :do { add list=FI address=2a0b:4140:c760::/48 } on-error={}
+:do { add list=FI address=2a0b:4140:c766::/64 } on-error={}
 :do { add list=FI address=2a0b:4140:c767::/48 } on-error={}
 :do { add list=FI address=2a0b:4140:c768::/48 } on-error={}
 :do { add list=FI address=2a0b:4140:c76b::/48 } on-error={}
@@ -28092,6 +28094,7 @@
 :do { add list=FI address=2a12:5940:7481::/48 } on-error={}
 :do { add list=FI address=2a12:5940:74a0::/43 } on-error={}
 :do { add list=FI address=2a12:5940:74c9::/48 } on-error={}
+:do { add list=FI address=2a12:5940:74cb::/64 } on-error={}
 :do { add list=FI address=2a12:5940:74de::/48 } on-error={}
 :do { add list=FI address=2a12:5940:74e4::/48 } on-error={}
 :do { add list=FI address=2a12:5940:74f2::/48 } on-error={}
@@ -28723,6 +28726,7 @@
 :do { add list=FI address=2a12:5940:c051::/48 } on-error={}
 :do { add list=FI address=2a12:5940:c061::/48 } on-error={}
 :do { add list=FI address=2a12:5940:c08a::/47 } on-error={}
+:do { add list=FI address=2a12:5940:c0b5::/64 } on-error={}
 :do { add list=FI address=2a12:5940:c0cb::/48 } on-error={}
 :do { add list=FI address=2a12:5940:c0d0::/48 } on-error={}
 :do { add list=FI address=2a12:5940:c0e2::/47 } on-error={}

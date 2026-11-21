@@ -471,7 +471,6 @@
 :do { add list=AM address=2a04:4e41:203::/48 } on-error={}
 :do { add list=AM address=2a04:4e41:1800:1000::/52 } on-error={}
 :do { add list=AM address=2a04:4e41:1809::/48 } on-error={}
-:do { add list=AM address=2a04:4e41:4010:6000::/52 } on-error={}
 :do { add list=AM address=2a04:4e41:4020:6000::/52 } on-error={}
 :do { add list=AM address=2a04:4e41:4030:6000::/52 } on-error={}
 :do { add list=AM address=2a04:4e41:4040:6000::/52 } on-error={}

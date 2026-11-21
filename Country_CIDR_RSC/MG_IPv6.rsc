@@ -430,7 +430,6 @@
 :do { add list=MG address=2a04:4e41:12c7::/48 } on-error={}
 :do { add list=MG address=2a04:4e41:131c::/48 } on-error={}
 :do { add list=MG address=2a04:4e41:1614::/48 } on-error={}
-:do { add list=MG address=2a04:4e41:4018:d000::/52 } on-error={}
 :do { add list=MG address=2a04:4e41:4028:d000::/52 } on-error={}
 :do { add list=MG address=2a04:4e41:4038:d000::/52 } on-error={}
 :do { add list=MG address=2a04:4e41:4048:d000::/52 } on-error={}

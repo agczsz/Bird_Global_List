@@ -3123,7 +3123,6 @@
 :do { add list=AG address=2a04:4e41:21:1000::/56 } on-error={}
 :do { add list=AG address=2a04:4e41:3a12::/48 } on-error={}
 :do { add list=AG address=2a04:4e41:3e11::/48 } on-error={}
-:do { add list=AG address=2a04:4e41:4010:3000::/52 } on-error={}
 :do { add list=AG address=2a04:4e41:4020:3000::/52 } on-error={}
 :do { add list=AG address=2a04:4e41:4030:3000::/52 } on-error={}
 :do { add list=AG address=2a04:4e41:4040:3000::/52 } on-error={}

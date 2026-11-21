@@ -42,8 +42,6 @@
 :do { add list=AL address=46.252.32.0/20 } on-error={}
 :do { add list=AL address=46.255.144.0/21 } on-error={}
 :do { add list=AL address=57.90.0.0/20 } on-error={}
-:do { add list=AL address=62.75.65.0/24 } on-error={}
-:do { add list=AL address=62.75.66.0/24 } on-error={}
 :do { add list=AL address=62.101.161.0/24 } on-error={}
 :do { add list=AL address=62.101.162.0/23 } on-error={}
 :do { add list=AL address=62.101.164.0/24 } on-error={}
@@ -127,7 +125,7 @@
 :do { add list=AL address=87.238.211.164/30 } on-error={}
 :do { add list=AL address=87.238.214.128/26 } on-error={}
 :do { add list=AL address=88.214.16.0/22 } on-error={}
-:do { add list=AL address=89.21.192.80/32 } on-error={}
+:do { add list=AL address=89.21.192.80/31 } on-error={}
 :do { add list=AL address=89.21.196.99/32 } on-error={}
 :do { add list=AL address=89.21.196.105/32 } on-error={}
 :do { add list=AL address=89.21.196.137/32 } on-error={}
@@ -192,6 +190,8 @@
 :do { add list=AL address=95.107.192.0/18 } on-error={}
 :do { add list=AL address=95.133.132.0/22 } on-error={}
 :do { add list=AL address=95.143.103.0/24 } on-error={}
+:do { add list=AL address=95.210.209.0/24 } on-error={}
+:do { add list=AL address=95.210.214.0/24 } on-error={}
 :do { add list=AL address=103.124.167.0/24 } on-error={}
 :do { add list=AL address=104.22.28.0/24 } on-error={}
 :do { add list=AL address=104.28.8.16/31 } on-error={}
@@ -253,7 +253,6 @@
 :do { add list=AL address=140.248.36.4/31 } on-error={}
 :do { add list=AL address=140.248.40.2/31 } on-error={}
 :do { add list=AL address=140.248.40.4/31 } on-error={}
-:do { add list=AL address=140.248.56.5/32 } on-error={}
 :do { add list=AL address=140.248.57.5/32 } on-error={}
 :do { add list=AL address=140.248.58.5/32 } on-error={}
 :do { add list=AL address=140.248.59.5/32 } on-error={}
@@ -399,8 +398,7 @@
 :do { add list=AL address=185.186.82.69/32 } on-error={}
 :do { add list=AL address=185.186.82.77/32 } on-error={}
 :do { add list=AL address=185.186.82.78/31 } on-error={}
-:do { add list=AL address=185.186.82.84/30 } on-error={}
-:do { add list=AL address=185.186.82.88/29 } on-error={}
+:do { add list=AL address=185.186.82.80/28 } on-error={}
 :do { add list=AL address=185.186.82.96/27 } on-error={}
 :do { add list=AL address=185.186.82.128/26 } on-error={}
 :do { add list=AL address=185.186.82.192/27 } on-error={}

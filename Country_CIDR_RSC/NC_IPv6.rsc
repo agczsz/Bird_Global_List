@@ -142,7 +142,6 @@
 :do { add list=NC address=2a04:4e41:59:7::/64 } on-error={}
 :do { add list=NC address=2a04:4e41:59:1600::/56 } on-error={}
 :do { add list=NC address=2a04:4e41:260d::/48 } on-error={}
-:do { add list=NC address=2a04:4e41:401a::/52 } on-error={}
 :do { add list=NC address=2a04:4e41:402a::/52 } on-error={}
 :do { add list=NC address=2a04:4e41:403a::/52 } on-error={}
 :do { add list=NC address=2a04:4e41:404a::/52 } on-error={}

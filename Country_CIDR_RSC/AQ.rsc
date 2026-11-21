@@ -53,7 +53,6 @@
 :do { add list=AQ address=140.248.0.2/31 } on-error={}
 :do { add list=AQ address=140.248.24.0/31 } on-error={}
 :do { add list=AQ address=140.248.41.0/31 } on-error={}
-:do { add list=AQ address=140.248.56.8/32 } on-error={}
 :do { add list=AQ address=140.248.57.8/32 } on-error={}
 :do { add list=AQ address=140.248.58.8/32 } on-error={}
 :do { add list=AQ address=140.248.59.8/32 } on-error={}

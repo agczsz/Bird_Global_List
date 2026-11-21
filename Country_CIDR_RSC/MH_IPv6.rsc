@@ -47,7 +47,6 @@
 :do { add list=MH address=2a04:4e41:35:12::/64 } on-error={}
 :do { add list=MH address=2a04:4e41:35:1200::/56 } on-error={}
 :do { add list=MH address=2a04:4e41:2402::/48 } on-error={}
-:do { add list=MH address=2a04:4e41:4018:e000::/52 } on-error={}
 :do { add list=MH address=2a04:4e41:4028:e000::/52 } on-error={}
 :do { add list=MH address=2a04:4e41:4038:e000::/52 } on-error={}
 :do { add list=MH address=2a04:4e41:4048:e000::/52 } on-error={}

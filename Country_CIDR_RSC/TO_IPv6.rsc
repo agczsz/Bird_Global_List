@@ -79,7 +79,6 @@
 :do { add list=TO address=2a04:4e41:59:a::/64 } on-error={}
 :do { add list=TO address=2a04:4e41:59:1900::/56 } on-error={}
 :do { add list=TO address=2a04:4e41:2610::/48 } on-error={}
-:do { add list=TO address=2a04:4e41:401d:f000::/52 } on-error={}
 :do { add list=TO address=2a04:4e41:402d:f000::/52 } on-error={}
 :do { add list=TO address=2a04:4e41:403d:f000::/52 } on-error={}
 :do { add list=TO address=2a04:4e41:404d:f000::/52 } on-error={}

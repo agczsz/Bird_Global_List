@@ -54,7 +54,6 @@
 :do { add list=FK address=2a04:4e41:1332::/48 } on-error={}
 :do { add list=FK address=2a04:4e41:1628::/48 } on-error={}
 :do { add list=FK address=2a04:4e41:362a::/48 } on-error={}
-:do { add list=FK address=2a04:4e41:4014:7000::/52 } on-error={}
 :do { add list=FK address=2a04:4e41:4024:7000::/52 } on-error={}
 :do { add list=FK address=2a04:4e41:4034:7000::/52 } on-error={}
 :do { add list=FK address=2a04:4e41:4044:7000::/52 } on-error={}

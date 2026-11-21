@@ -890,7 +890,6 @@
 :do { add list=OM address=2a04:4e41:12:2800::/56 } on-error={}
 :do { add list=OM address=2a04:4e41:200:e000::/52 } on-error={}
 :do { add list=OM address=2a04:4e41:214::/48 } on-error={}
-:do { add list=OM address=2a04:4e41:401a:b000::/52 } on-error={}
 :do { add list=OM address=2a04:4e41:402a:b000::/52 } on-error={}
 :do { add list=OM address=2a04:4e41:403a:b000::/52 } on-error={}
 :do { add list=OM address=2a04:4e41:404a:b000::/52 } on-error={}

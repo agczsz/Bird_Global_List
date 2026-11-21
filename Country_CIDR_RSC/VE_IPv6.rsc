@@ -1935,7 +1935,6 @@
 :do { add list=VE address=2a04:4e41:3626::/48 } on-error={}
 :do { add list=VE address=2a04:4e41:3a00:f000::/52 } on-error={}
 :do { add list=VE address=2a04:4e41:3a35::/48 } on-error={}
-:do { add list=VE address=2a04:4e41:401e:d000::/52 } on-error={}
 :do { add list=VE address=2a04:4e41:402e:d000::/52 } on-error={}
 :do { add list=VE address=2a04:4e41:403e:d000::/52 } on-error={}
 :do { add list=VE address=2a04:4e41:404e:d000::/52 } on-error={}

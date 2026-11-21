@@ -151,7 +151,6 @@
 :do { add list=AF address=2a04:4e41:d03::/48 } on-error={}
 :do { add list=AF address=2a04:4e41:1406::/48 } on-error={}
 :do { add list=AF address=2a04:4e41:1807::/48 } on-error={}
-:do { add list=AF address=2a04:4e41:4010:2000::/52 } on-error={}
 :do { add list=AF address=2a04:4e41:4020:2000::/52 } on-error={}
 :do { add list=AF address=2a04:4e41:4030:2000::/52 } on-error={}
 :do { add list=AF address=2a04:4e41:4040:2000::/52 } on-error={}

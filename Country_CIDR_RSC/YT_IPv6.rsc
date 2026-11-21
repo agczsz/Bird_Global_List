@@ -50,7 +50,6 @@
 :do { add list=YT address=2a04:4e41:5d:2600::/56 } on-error={}
 :do { add list=YT address=2a04:4e41:815::/48 } on-error={}
 :do { add list=YT address=2a04:4e41:1624::/48 } on-error={}
-:do { add list=YT address=2a04:4e41:401f:5000::/52 } on-error={}
 :do { add list=YT address=2a04:4e41:402f:5000::/52 } on-error={}
 :do { add list=YT address=2a04:4e41:403f:5000::/52 } on-error={}
 :do { add list=YT address=2a04:4e41:404f:5000::/52 } on-error={}

@@ -2,7 +2,6 @@
 /ip firewall address-list
 :do { add list=GS address=104.28.10.101/32 } on-error={}
 :do { add list=GS address=104.28.10.102/31 } on-error={}
-:do { add list=GS address=140.248.56.89/32 } on-error={}
 :do { add list=GS address=140.248.57.89/32 } on-error={}
 :do { add list=GS address=140.248.58.89/32 } on-error={}
 :do { add list=GS address=140.248.59.89/32 } on-error={}

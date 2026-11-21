@@ -141,7 +141,6 @@
 :do { add list=PG address=136.227.141.144/31 } on-error={}
 :do { add list=PG address=140.209.221.0/26 } on-error={}
 :do { add list=PG address=140.248.20.18/31 } on-error={}
-:do { add list=PG address=140.248.56.175/32 } on-error={}
 :do { add list=PG address=140.248.57.175/32 } on-error={}
 :do { add list=PG address=140.248.58.175/32 } on-error={}
 :do { add list=PG address=140.248.59.175/32 } on-error={}
@@ -258,6 +257,8 @@
 :do { add list=PG address=202.171.240.3/32 } on-error={}
 :do { add list=PG address=202.171.240.4/30 } on-error={}
 :do { add list=PG address=202.171.240.8/29 } on-error={}
+:do { add list=PG address=202.171.240.16/29 } on-error={}
+:do { add list=PG address=202.171.240.24/30 } on-error={}
 :do { add list=PG address=202.171.240.32/27 } on-error={}
 :do { add list=PG address=202.171.240.64/26 } on-error={}
 :do { add list=PG address=202.171.240.128/29 } on-error={}
@@ -273,6 +274,10 @@
 :do { add list=PG address=202.171.240.182/32 } on-error={}
 :do { add list=PG address=202.171.240.184/29 } on-error={}
 :do { add list=PG address=202.171.240.192/27 } on-error={}
+:do { add list=PG address=202.171.240.240/29 } on-error={}
+:do { add list=PG address=202.171.240.248/30 } on-error={}
+:do { add list=PG address=202.171.240.252/32 } on-error={}
+:do { add list=PG address=202.171.240.255/32 } on-error={}
 :do { add list=PG address=202.171.241.0/24 } on-error={}
 :do { add list=PG address=202.171.242.0/23 } on-error={}
 :do { add list=PG address=202.171.244.0/22 } on-error={}

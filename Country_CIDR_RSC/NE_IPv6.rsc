@@ -261,7 +261,6 @@
 :do { add list=NE address=2a04:4e41:31:11::/64 } on-error={}
 :do { add list=NE address=2a04:4e41:31:1200::/56 } on-error={}
 :do { add list=NE address=2a04:4e41:1f03::/48 } on-error={}
-:do { add list=NE address=2a04:4e41:401a:1000::/52 } on-error={}
 :do { add list=NE address=2a04:4e41:402a:1000::/52 } on-error={}
 :do { add list=NE address=2a04:4e41:403a:1000::/52 } on-error={}
 :do { add list=NE address=2a04:4e41:404a:1000::/52 } on-error={}

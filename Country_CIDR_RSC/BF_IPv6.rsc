@@ -90,7 +90,6 @@
 :do { add list=BF address=2a04:4e41:5d:4::/64 } on-error={}
 :do { add list=BF address=2a04:4e41:5d:1200::/56 } on-error={}
 :do { add list=BF address=2a04:4e41:804::/48 } on-error={}
-:do { add list=BF address=2a04:4e41:4011:4000::/52 } on-error={}
 :do { add list=BF address=2a04:4e41:4021:4000::/52 } on-error={}
 :do { add list=BF address=2a04:4e41:4031:4000::/52 } on-error={}
 :do { add list=BF address=2a04:4e41:4041:4000::/52 } on-error={}

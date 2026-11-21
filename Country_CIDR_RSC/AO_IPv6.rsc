@@ -90,7 +90,6 @@
 :do { add list=AO address=2a04:4e41:1e3::/48 } on-error={}
 :do { add list=AO address=2a04:4e41:12c1::/48 } on-error={}
 :do { add list=AO address=2a04:4e41:1605::/48 } on-error={}
-:do { add list=AO address=2a04:4e41:4010:7000::/52 } on-error={}
 :do { add list=AO address=2a04:4e41:4020:7000::/52 } on-error={}
 :do { add list=AO address=2a04:4e41:4030:7000::/52 } on-error={}
 :do { add list=AO address=2a04:4e41:4040:7000::/52 } on-error={}

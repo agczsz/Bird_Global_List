@@ -114,7 +114,6 @@
 :do { add list=TT address=2a04:4e41:3624::/48 } on-error={}
 :do { add list=TT address=2a04:4e41:3a00:e000::/52 } on-error={}
 :do { add list=TT address=2a04:4e41:3a33::/48 } on-error={}
-:do { add list=TT address=2a04:4e41:401e:1000::/52 } on-error={}
 :do { add list=TT address=2a04:4e41:402e:1000::/52 } on-error={}
 :do { add list=TT address=2a04:4e41:403e:1000::/52 } on-error={}
 :do { add list=TT address=2a04:4e41:404e:1000::/52 } on-error={}

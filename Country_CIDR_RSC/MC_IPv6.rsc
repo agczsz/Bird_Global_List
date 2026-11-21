@@ -94,7 +94,6 @@
 :do { add list=MC address=2a04:4e41:12:37::/64 } on-error={}
 :do { add list=MC address=2a04:4e41:12:2400::/56 } on-error={}
 :do { add list=MC address=2a04:4e41:211::/48 } on-error={}
-:do { add list=MC address=2a04:4e41:4018:9000::/52 } on-error={}
 :do { add list=MC address=2a04:4e41:4028:9000::/52 } on-error={}
 :do { add list=MC address=2a04:4e41:4038:9000::/52 } on-error={}
 :do { add list=MC address=2a04:4e41:4048:9000::/52 } on-error={}

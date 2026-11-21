@@ -47,7 +47,6 @@
 :do { add list=MS address=2a04:4e41:212::/48 } on-error={}
 :do { add list=MS address=2a04:4e41:613::/48 } on-error={}
 :do { add list=MS address=2a04:4e41:3a2a::/48 } on-error={}
-:do { add list=MS address=2a04:4e41:4019:7000::/52 } on-error={}
 :do { add list=MS address=2a04:4e41:4029:7000::/52 } on-error={}
 :do { add list=MS address=2a04:4e41:4039:7000::/52 } on-error={}
 :do { add list=MS address=2a04:4e41:4049:7000::/52 } on-error={}

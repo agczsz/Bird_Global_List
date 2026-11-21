@@ -175,7 +175,6 @@
 :do { add list=MT address=2a04:4e41:66:62::/64 } on-error={}
 :do { add list=MT address=2a04:4e41:66:3b00::/56 } on-error={}
 :do { add list=MT address=2a04:4e41:1831::/48 } on-error={}
-:do { add list=MT address=2a04:4e41:4019:8000::/52 } on-error={}
 :do { add list=MT address=2a04:4e41:4029:8000::/52 } on-error={}
 :do { add list=MT address=2a04:4e41:4039:8000::/52 } on-error={}
 :do { add list=MT address=2a04:4e41:4049:8000::/52 } on-error={}

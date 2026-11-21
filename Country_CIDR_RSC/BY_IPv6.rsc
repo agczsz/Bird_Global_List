@@ -851,7 +851,6 @@
 :do { add list=BY address=2a04:4e41:66:1900::/56 } on-error={}
 :do { add list=BY address=2a04:4e41:140c::/48 } on-error={}
 :do { add list=BY address=2a04:4e41:1810::/48 } on-error={}
-:do { add list=BY address=2a04:4e41:4012:3000::/52 } on-error={}
 :do { add list=BY address=2a04:4e41:4022:3000::/52 } on-error={}
 :do { add list=BY address=2a04:4e41:4032:3000::/52 } on-error={}
 :do { add list=BY address=2a04:4e41:4042:3000::/52 } on-error={}

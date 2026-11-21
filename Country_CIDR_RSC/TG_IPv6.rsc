@@ -87,7 +87,6 @@
 :do { add list=TG address=2a04:4e41:813::/48 } on-error={}
 :do { add list=TG address=2a04:4e41:132c::/48 } on-error={}
 :do { add list=TG address=2a04:4e41:1622::/48 } on-error={}
-:do { add list=TG address=2a04:4e41:401d:8000::/52 } on-error={}
 :do { add list=TG address=2a04:4e41:402d:8000::/52 } on-error={}
 :do { add list=TG address=2a04:4e41:403d:8000::/52 } on-error={}
 :do { add list=TG address=2a04:4e41:404d:8000::/52 } on-error={}

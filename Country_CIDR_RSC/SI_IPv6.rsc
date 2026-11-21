@@ -1166,7 +1166,6 @@
 :do { add list=SI address=2a04:4e41:66:4700::/56 } on-error={}
 :do { add list=SI address=2a04:4e41:1805:6000::/52 } on-error={}
 :do { add list=SI address=2a04:4e41:183c::/48 } on-error={}
-:do { add list=SI address=2a04:4e41:401c:7000::/52 } on-error={}
 :do { add list=SI address=2a04:4e41:402c:7000::/52 } on-error={}
 :do { add list=SI address=2a04:4e41:403c:7000::/52 } on-error={}
 :do { add list=SI address=2a04:4e41:404c:7000::/52 } on-error={}

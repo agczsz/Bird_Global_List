@@ -8334,7 +8334,6 @@
 :do { add list=RS address=2a04:4e41:1423::/48 } on-error={}
 :do { add list=RS address=2a04:4e41:1804:5000::/52 } on-error={}
 :do { add list=RS address=2a04:4e41:1837::/48 } on-error={}
-:do { add list=RS address=2a04:4e41:401b:d000::/52 } on-error={}
 :do { add list=RS address=2a04:4e41:402b:d000::/52 } on-error={}
 :do { add list=RS address=2a04:4e41:403b:d000::/52 } on-error={}
 :do { add list=RS address=2a04:4e41:404b:d000::/52 } on-error={}

@@ -510,7 +510,6 @@
 :do { add list=BI address=2a04:4e41:12c2::/48 } on-error={}
 :do { add list=BI address=2a04:4e41:1607::/48 } on-error={}
 :do { add list=BI address=2a04:4e41:180f::/48 } on-error={}
-:do { add list=BI address=2a04:4e41:4011:7000::/52 } on-error={}
 :do { add list=BI address=2a04:4e41:4021:7000::/52 } on-error={}
 :do { add list=BI address=2a04:4e41:4031:7000::/52 } on-error={}
 :do { add list=BI address=2a04:4e41:4041:7000::/52 } on-error={}

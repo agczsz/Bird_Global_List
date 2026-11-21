@@ -320,7 +320,6 @@
 :do { add list=AS address=2a04:4e41:59:1::/64 } on-error={}
 :do { add list=AS address=2a04:4e41:59:1100::/56 } on-error={}
 :do { add list=AS address=2a04:4e41:2608::/48 } on-error={}
-:do { add list=AS address=2a04:4e41:4010:a000::/52 } on-error={}
 :do { add list=AS address=2a04:4e41:4020:a000::/52 } on-error={}
 :do { add list=AS address=2a04:4e41:4030:a000::/52 } on-error={}
 :do { add list=AS address=2a04:4e41:4040:a000::/52 } on-error={}

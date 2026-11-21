@@ -4,7 +4,6 @@
 :do { add list=EH address=104.28.9.166/32 } on-error={}
 :do { add list=EH address=136.22.14.107/32 } on-error={}
 :do { add list=EH address=136.23.26.86/32 } on-error={}
-:do { add list=EH address=140.248.56.65/32 } on-error={}
 :do { add list=EH address=140.248.57.65/32 } on-error={}
 :do { add list=EH address=140.248.58.65/32 } on-error={}
 :do { add list=EH address=140.248.59.65/32 } on-error={}

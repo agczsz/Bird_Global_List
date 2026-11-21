@@ -29,7 +29,6 @@
 :do { add list=SH address=2a03:b600:0:11b8::/62 } on-error={}
 :do { add list=SH address=2a03:b600:0:11bc::/63 } on-error={}
 :do { add list=SH address=2a03:b600:0:11be::/64 } on-error={}
-:do { add list=SH address=2a04:4e41:401c:6000::/52 } on-error={}
 :do { add list=SH address=2a04:4e41:402c:6000::/52 } on-error={}
 :do { add list=SH address=2a04:4e41:403c:6000::/52 } on-error={}
 :do { add list=SH address=2a04:4e41:404c:6000::/52 } on-error={}

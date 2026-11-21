@@ -270,6 +270,7 @@
 :do { add list=IR address=2a01:e140:2::/47 } on-error={}
 :do { add list=IR address=2a01:e140:4::/46 } on-error={}
 :do { add list=IR address=2a01:e140:8::/45 } on-error={}
+:do { add list=IR address=2a01:e140:11::/48 } on-error={}
 :do { add list=IR address=2a01:e140:13::/48 } on-error={}
 :do { add list=IR address=2a01:e140:14::/46 } on-error={}
 :do { add list=IR address=2a01:e140:18::/45 } on-error={}

@@ -18,6 +18,8 @@
 :do { add list=PF address=103.254.224.0/25 } on-error={}
 :do { add list=PF address=103.254.224.128/29 } on-error={}
 :do { add list=PF address=103.254.224.136/30 } on-error={}
+:do { add list=PF address=103.254.224.140/31 } on-error={}
+:do { add list=PF address=103.254.224.143/32 } on-error={}
 :do { add list=PF address=103.254.224.144/28 } on-error={}
 :do { add list=PF address=103.254.224.160/27 } on-error={}
 :do { add list=PF address=103.254.224.192/26 } on-error={}
@@ -70,7 +72,6 @@
 :do { add list=PF address=140.248.10.12/31 } on-error={}
 :do { add list=PF address=140.248.43.16/31 } on-error={}
 :do { add list=PF address=140.248.48.30/31 } on-error={}
-:do { add list=PF address=140.248.56.174/32 } on-error={}
 :do { add list=PF address=140.248.57.174/32 } on-error={}
 :do { add list=PF address=140.248.58.174/32 } on-error={}
 :do { add list=PF address=140.248.59.174/32 } on-error={}

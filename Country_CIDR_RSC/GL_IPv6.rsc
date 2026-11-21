@@ -120,7 +120,6 @@
 :do { add list=GL address=2a04:4e41:66:2700::/56 } on-error={}
 :do { add list=GL address=2a04:4e41:1c3::/48 } on-error={}
 :do { add list=GL address=2a04:4e41:181d::/48 } on-error={}
-:do { add list=GL address=2a04:4e41:4015:3000::/52 } on-error={}
 :do { add list=GL address=2a04:4e41:4025:3000::/52 } on-error={}
 :do { add list=GL address=2a04:4e41:4035:3000::/52 } on-error={}
 :do { add list=GL address=2a04:4e41:4045:3000::/52 } on-error={}

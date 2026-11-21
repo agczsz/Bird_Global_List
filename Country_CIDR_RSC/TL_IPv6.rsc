@@ -72,7 +72,6 @@
 :do { add list=TL address=2a04:4e41:5d:2d::/64 } on-error={}
 :do { add list=TL address=2a04:4e41:5d:2500::/56 } on-error={}
 :do { add list=TL address=2a04:4e41:814::/48 } on-error={}
-:do { add list=TL address=2a04:4e41:401d:c000::/52 } on-error={}
 :do { add list=TL address=2a04:4e41:402d:c000::/52 } on-error={}
 :do { add list=TL address=2a04:4e41:403d:c000::/52 } on-error={}
 :do { add list=TL address=2a04:4e41:404d:c000::/52 } on-error={}

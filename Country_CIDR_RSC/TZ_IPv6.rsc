@@ -703,7 +703,6 @@
 :do { add list=TZ address=2a04:4e41:12cf::/48 } on-error={}
 :do { add list=TZ address=2a04:4e41:132d::/48 } on-error={}
 :do { add list=TZ address=2a04:4e41:1623::/48 } on-error={}
-:do { add list=TZ address=2a04:4e41:401e:4000::/52 } on-error={}
 :do { add list=TZ address=2a04:4e41:402e:4000::/52 } on-error={}
 :do { add list=TZ address=2a04:4e41:403e:4000::/52 } on-error={}
 :do { add list=TZ address=2a04:4e41:404e:4000::/52 } on-error={}

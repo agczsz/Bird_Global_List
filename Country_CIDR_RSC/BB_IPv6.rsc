@@ -607,7 +607,6 @@
 :do { add list=BB address=2a04:4e41:3612::/48 } on-error={}
 :do { add list=BB address=2a04:4e41:3a15::/48 } on-error={}
 :do { add list=BB address=2a04:4e41:3e12::/48 } on-error={}
-:do { add list=BB address=2a04:4e41:4011:1000::/52 } on-error={}
 :do { add list=BB address=2a04:4e41:4021:1000::/52 } on-error={}
 :do { add list=BB address=2a04:4e41:4031:1000::/52 } on-error={}
 :do { add list=BB address=2a04:4e41:4041:1000::/52 } on-error={}

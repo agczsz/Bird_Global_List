@@ -2040,7 +2040,6 @@
 :do { add list=PE address=2a04:4e41:1a05::/48 } on-error={}
 :do { add list=PE address=2a04:4e41:3a00:b000::/52 } on-error={}
 :do { add list=PE address=2a04:4e41:3a2e::/48 } on-error={}
-:do { add list=PE address=2a04:4e41:401a:d000::/52 } on-error={}
 :do { add list=PE address=2a04:4e41:402a:d000::/52 } on-error={}
 :do { add list=PE address=2a04:4e41:403a:d000::/52 } on-error={}
 :do { add list=PE address=2a04:4e41:404a:d000::/52 } on-error={}

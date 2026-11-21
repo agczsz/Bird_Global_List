@@ -26,7 +26,6 @@
 :do { add list=NR address=136.22.12.135/32 } on-error={}
 :do { add list=NR address=136.23.34.132/32 } on-error={}
 :do { add list=NR address=140.248.40.170/31 } on-error={}
-:do { add list=NR address=140.248.56.168/32 } on-error={}
 :do { add list=NR address=140.248.57.168/32 } on-error={}
 :do { add list=NR address=140.248.58.168/32 } on-error={}
 :do { add list=NR address=140.248.59.168/32 } on-error={}

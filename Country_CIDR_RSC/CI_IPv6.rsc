@@ -103,7 +103,6 @@
 :do { add list=CI address=2a04:4e41:130b::/48 } on-error={}
 :do { add list=CI address=2a04:4e41:1600:2000::/52 } on-error={}
 :do { add list=CI address=2a04:4e41:160b::/48 } on-error={}
-:do { add list=CI address=2a04:4e41:4012:b000::/52 } on-error={}
 :do { add list=CI address=2a04:4e41:4022:b000::/52 } on-error={}
 :do { add list=CI address=2a04:4e41:4032:b000::/52 } on-error={}
 :do { add list=CI address=2a04:4e41:4042:b000::/52 } on-error={}

@@ -134,7 +134,6 @@
 :do { add list=CD address=2a04:4e41:805::/48 } on-error={}
 :do { add list=CD address=2a04:4e41:12c4::/48 } on-error={}
 :do { add list=CD address=2a04:4e41:1308::/48 } on-error={}
-:do { add list=CD address=2a04:4e41:4012:7000::/52 } on-error={}
 :do { add list=CD address=2a04:4e41:4022:7000::/52 } on-error={}
 :do { add list=CD address=2a04:4e41:4032:7000::/52 } on-error={}
 :do { add list=CD address=2a04:4e41:4042:7000::/52 } on-error={}

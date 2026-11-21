@@ -168,7 +168,6 @@
 :do { add list=TK address=2a04:4e41:f:3400::/56 } on-error={}
 :do { add list=TK address=2a04:4e41:2a:c::/64 } on-error={}
 :do { add list=TK address=2a04:4e41:2a:1800::/56 } on-error={}
-:do { add list=TK address=2a04:4e41:401d:b000::/52 } on-error={}
 :do { add list=TK address=2a04:4e41:402d:b000::/52 } on-error={}
 :do { add list=TK address=2a04:4e41:403d:b000::/52 } on-error={}
 :do { add list=TK address=2a04:4e41:404d:b000::/52 } on-error={}

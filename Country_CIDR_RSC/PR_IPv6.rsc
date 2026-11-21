@@ -1018,6 +1018,7 @@
 :do { add list=PR address=2606:6a40:20::/43 } on-error={}
 :do { add list=PR address=2606:6a40:40::/43 } on-error={}
 :do { add list=PR address=2606:6a40:60::/44 } on-error={}
+:do { add list=PR address=2606:6a40:7a::/48 } on-error={}
 :do { add list=PR address=2606:6a40:80::/41 } on-error={}
 :do { add list=PR address=2606:6a40:100::/40 } on-error={}
 :do { add list=PR address=2606:6a40:200::/39 } on-error={}
@@ -1236,7 +1237,6 @@
 :do { add list=PR address=2a04:4e41:3622::/48 } on-error={}
 :do { add list=PR address=2a04:4e41:3a00:c000::/52 } on-error={}
 :do { add list=PR address=2a04:4e41:3a2f::/48 } on-error={}
-:do { add list=PR address=2a04:4e41:401b:5000::/52 } on-error={}
 :do { add list=PR address=2a04:4e41:402b:5000::/52 } on-error={}
 :do { add list=PR address=2a04:4e41:403b:5000::/52 } on-error={}
 :do { add list=PR address=2a04:4e41:404b:5000::/52 } on-error={}

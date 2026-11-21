@@ -73,7 +73,6 @@
 :do { add list=ER address=2a04:4e41:12a3::/48 } on-error={}
 :do { add list=ER address=2a04:4e41:1411::/48 } on-error={}
 :do { add list=ER address=2a04:4e41:1818::/48 } on-error={}
-:do { add list=ER address=2a04:4e41:4014:2000::/52 } on-error={}
 :do { add list=ER address=2a04:4e41:4024:2000::/52 } on-error={}
 :do { add list=ER address=2a04:4e41:4034:2000::/52 } on-error={}
 :do { add list=ER address=2a04:4e41:4044:2000::/52 } on-error={}

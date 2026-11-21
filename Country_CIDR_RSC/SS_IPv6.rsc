@@ -56,7 +56,6 @@
 :do { add list=SS address=2a04:4e41:1a:44::/64 } on-error={}
 :do { add list=SS address=2a04:4e41:1a:2400::/56 } on-error={}
 :do { add list=SS address=2a04:4e41:1329::/48 } on-error={}
-:do { add list=SS address=2a04:4e41:401c:f000::/52 } on-error={}
 :do { add list=SS address=2a04:4e41:402c:f000::/52 } on-error={}
 :do { add list=SS address=2a04:4e41:403c:f000::/52 } on-error={}
 :do { add list=SS address=2a04:4e41:404c:f000::/52 } on-error={}

@@ -60,7 +60,6 @@
 :do { add list=NU address=2a04:4e41:41:1000::/56 } on-error={}
 :do { add list=NU address=2a04:4e41:4a::/64 } on-error={}
 :do { add list=NU address=2a04:4e41:301::/48 } on-error={}
-:do { add list=NU address=2a04:4e41:401a:9000::/52 } on-error={}
 :do { add list=NU address=2a04:4e41:402a:9000::/52 } on-error={}
 :do { add list=NU address=2a04:4e41:403a:9000::/52 } on-error={}
 :do { add list=NU address=2a04:4e41:404a:9000::/52 } on-error={}

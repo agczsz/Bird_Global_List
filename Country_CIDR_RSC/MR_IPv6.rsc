@@ -61,7 +61,6 @@
 :do { add list=MR address=2a04:4e41:22:17::/64 } on-error={}
 :do { add list=MR address=2a04:4e41:22:1f00::/56 } on-error={}
 :do { add list=MR address=2a04:4e41:131e::/48 } on-error={}
-:do { add list=MR address=2a04:4e41:4019:6000::/52 } on-error={}
 :do { add list=MR address=2a04:4e41:4029:6000::/52 } on-error={}
 :do { add list=MR address=2a04:4e41:4039:6000::/52 } on-error={}
 :do { add list=MR address=2a04:4e41:4049:6000::/52 } on-error={}
