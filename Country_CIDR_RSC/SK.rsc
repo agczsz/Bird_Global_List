@@ -240,7 +240,6 @@
 :do { add list=SK address=78.143.8.16/31 } on-error={}
 :do { add list=SK address=78.143.8.32/31 } on-error={}
 :do { add list=SK address=78.143.8.52/30 } on-error={}
-:do { add list=SK address=78.143.8.72/29 } on-error={}
 :do { add list=SK address=78.143.8.96/31 } on-error={}
 :do { add list=SK address=78.143.8.128/29 } on-error={}
 :do { add list=SK address=78.143.8.184/30 } on-error={}

@@ -2466,6 +2466,7 @@
 :do { add list=PT address=2001:1900:5:3::17a/128 } on-error={}
 :do { add list=PT address=2001:1900:5:3::1c2/128 } on-error={}
 :do { add list=PT address=2001:1be0:1000:105::/64 } on-error={}
+:do { add list=PT address=2001:1be0:1210:100::/56 } on-error={}
 :do { add list=PT address=2001:1be0:1380:2000::/56 } on-error={}
 :do { add list=PT address=2001:1be0:16c0::/54 } on-error={}
 :do { add list=PT address=2001:1be0:16c0:400::/55 } on-error={}
@@ -2590,6 +2591,7 @@
 :do { add list=PT address=2401:b60:1b64::/46 } on-error={}
 :do { add list=PT address=2401:b60:1b68::/45 } on-error={}
 :do { add list=PT address=2401:2060:b108:151::/64 } on-error={}
+:do { add list=PT address=2401:af20:1b17::/48 } on-error={}
 :do { add list=PT address=2401:fa00:401:800::/55 } on-error={}
 :do { add list=PT address=2405:b500:5e00::/64 } on-error={}
 :do { add list=PT address=2405:b500:5e00:8::/64 } on-error={}
@@ -12083,7 +12085,6 @@
 :do { add list=PT address=2a0b:c1c0::/29 } on-error={}
 :do { add list=PT address=2a0b:cd41:18::/48 } on-error={}
 :do { add list=PT address=2a0b:cf43::/32 } on-error={}
-:do { add list=PT address=2a0b:e640::/29 } on-error={}
 :do { add list=PT address=2a0b:e740::/29 } on-error={}
 :do { add list=PT address=2a0c:1c80::/29 } on-error={}
 :do { add list=PT address=2a0c:2b00::/29 } on-error={}
@@ -12263,7 +12264,6 @@
 :do { add list=PT address=2a0e:b107:1060::/44 } on-error={}
 :do { add list=PT address=2a0e:b107:13db::/48 } on-error={}
 :do { add list=PT address=2a0e:b107:19c0::/48 } on-error={}
-:do { add list=PT address=2a0e:bc00::/29 } on-error={}
 :do { add list=PT address=2a0e:ec01:2500::/40 } on-error={}
 :do { add list=PT address=2a0e:ec01:2600::/39 } on-error={}
 :do { add list=PT address=2a0e:ec01:2800::/40 } on-error={}
@@ -12393,6 +12393,10 @@
 :do { add list=PT address=2a10:24c0:12a6::/48 } on-error={}
 :do { add list=PT address=2a10:24c0:37d8::/47 } on-error={}
 :do { add list=PT address=2a10:24c0:37da::/48 } on-error={}
+:do { add list=PT address=2a10:24c4:d00::/43 } on-error={}
+:do { add list=PT address=2a10:24c4:d20::/44 } on-error={}
+:do { add list=PT address=2a10:24c4:4d00::/43 } on-error={}
+:do { add list=PT address=2a10:24c4:4d20::/44 } on-error={}
 :do { add list=PT address=2a10:5000::/29 } on-error={}
 :do { add list=PT address=2a10:7b40::/29 } on-error={}
 :do { add list=PT address=2a10:a4c0::/29 } on-error={}

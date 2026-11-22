@@ -9,6 +9,7 @@
 :do { add list=TG address=2401:b60:1e62::/47 } on-error={}
 :do { add list=TG address=2401:b60:1e64::/46 } on-error={}
 :do { add list=TG address=2401:b60:1e68::/45 } on-error={}
+:do { add list=TG address=2401:af20:1be0::/48 } on-error={}
 :do { add list=TG address=2405:b500:6e80::/64 } on-error={}
 :do { add list=TG address=2405:b500:6ea0::/64 } on-error={}
 :do { add list=TG address=2405:b500:6ec0::/64 } on-error={}
@@ -125,6 +126,10 @@
 :do { add list=TG address=2a10:24c0:5886::/48 } on-error={}
 :do { add list=TG address=2a10:24c0:78cc::/47 } on-error={}
 :do { add list=TG address=2a10:24c0:78ce::/48 } on-error={}
+:do { add list=TG address=2a10:24c4:1c80::/43 } on-error={}
+:do { add list=TG address=2a10:24c4:1ca0::/44 } on-error={}
+:do { add list=TG address=2a10:24c4:5c80::/43 } on-error={}
+:do { add list=TG address=2a10:24c4:5ca0::/44 } on-error={}
 :do { add list=TG address=2a10:ccc1:10e::/48 } on-error={}
 :do { add list=TG address=2a10:fa81:18d8::/48 } on-error={}
 :do { add list=TG address=2a11:29c0:3d88:1317::/64 } on-error={}

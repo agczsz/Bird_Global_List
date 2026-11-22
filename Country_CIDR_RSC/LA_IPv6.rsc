@@ -41,6 +41,7 @@
 :do { add list=LA address=2401:b60:17d2::/47 } on-error={}
 :do { add list=LA address=2401:b60:17d4::/46 } on-error={}
 :do { add list=LA address=2401:b60:17d8::/45 } on-error={}
+:do { add list=LA address=2401:af20:1b97::/48 } on-error={}
 :do { add list=LA address=2401:d4a0::/32 } on-error={}
 :do { add list=LA address=2401:e060::/32 } on-error={}
 :do { add list=LA address=2401:e9a0::/32 } on-error={}
@@ -171,6 +172,10 @@
 :do { add list=LA address=2a10:24c0:c26::/48 } on-error={}
 :do { add list=LA address=2a10:24c0:3254::/47 } on-error={}
 :do { add list=LA address=2a10:24c0:3256::/48 } on-error={}
+:do { add list=LA address=2a10:24c4:3700::/43 } on-error={}
+:do { add list=LA address=2a10:24c4:3720::/44 } on-error={}
+:do { add list=LA address=2a10:24c4:7700::/43 } on-error={}
+:do { add list=LA address=2a10:24c4:7720::/44 } on-error={}
 :do { add list=LA address=2a10:fa81:187d::/48 } on-error={}
 :do { add list=LA address=2a11:29c0:3d88:19a4::/64 } on-error={}
 :do { add list=LA address=2a11:29c0:3d88:1ab8::/64 } on-error={}

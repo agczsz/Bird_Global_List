@@ -392,7 +392,6 @@
 :do { add list=AE address=2001:470:1f1b:5df::/64 } on-error={}
 :do { add list=AE address=2001:470:1f1b:5f9::/64 } on-error={}
 :do { add list=AE address=2001:470:1f1b:664::/64 } on-error={}
-:do { add list=AE address=2001:470:1f1b:70f::/64 } on-error={}
 :do { add list=AE address=2001:470:1f1b:7f9::/64 } on-error={}
 :do { add list=AE address=2001:470:1f1b:825::/64 } on-error={}
 :do { add list=AE address=2001:470:1f1d:a1::/64 } on-error={}
@@ -883,6 +882,7 @@
 :do { add list=AE address=2001:470:b595:8000::/49 } on-error={}
 :do { add list=AE address=2001:470:b5d2::/48 } on-error={}
 :do { add list=AE address=2001:470:b604::/48 } on-error={}
+:do { add list=AE address=2001:470:b74a::/48 } on-error={}
 :do { add list=AE address=2001:470:bd8b::/48 } on-error={}
 :do { add list=AE address=2001:470:c8c1::/48 } on-error={}
 :do { add list=AE address=2001:470:c93d::/48 } on-error={}
@@ -1800,6 +1800,7 @@
 :do { add list=AE address=2401:b60:1f12::/47 } on-error={}
 :do { add list=AE address=2401:b60:1f14::/46 } on-error={}
 :do { add list=AE address=2401:b60:1f18::/45 } on-error={}
+:do { add list=AE address=2401:af20:1b40::/48 } on-error={}
 :do { add list=AE address=2401:fa00:420:200::/55 } on-error={}
 :do { add list=AE address=2402:2320::/32 } on-error={}
 :do { add list=AE address=2402:4e00:f200:2:0:1:1100:1/128 } on-error={}
@@ -1911,7 +1912,6 @@
 :do { add list=AE address=2600:2006::/35 } on-error={}
 :do { add list=AE address=2600:2006:4000::/35 } on-error={}
 :do { add list=AE address=2600:2a72::/32 } on-error={}
-:do { add list=AE address=2600:70ff:a45d::/48 } on-error={}
 :do { add list=AE address=2600:70ff:a750::/48 } on-error={}
 :do { add list=AE address=2600:70ff:ac1c::/50 } on-error={}
 :do { add list=AE address=2600:70ff:b295::/48 } on-error={}
@@ -2208,6 +2208,7 @@
 :do { add list=AE address=2605:59ca:805c::/47 } on-error={}
 :do { add list=AE address=2605:59ca:8096::/48 } on-error={}
 :do { add list=AE address=2605:8380:b00::/40 } on-error={}
+:do { add list=AE address=2605:9780:110::/47 } on-error={}
 :do { add list=AE address=2605:a7c0:21::/48 } on-error={}
 :do { add list=AE address=2606:1a40:1004::/47 } on-error={}
 :do { add list=AE address=2606:54c0:8::/45 } on-error={}
@@ -4069,6 +4070,11 @@
 :do { add list=AE address=2a09:bac0:1000:1af0::/64 } on-error={}
 :do { add list=AE address=2a09:bac0:1000:1b37::/64 } on-error={}
 :do { add list=AE address=2a09:bac0:1000:1b3c::/64 } on-error={}
+:do { add list=AE address=2a09:bac0:1000:1bfd::/64 } on-error={}
+:do { add list=AE address=2a09:bac0:1000:1bfe::/63 } on-error={}
+:do { add list=AE address=2a09:bac0:1000:1c00::/62 } on-error={}
+:do { add list=AE address=2a09:bac0:1000:1c04::/63 } on-error={}
+:do { add list=AE address=2a09:bac0:1000:1c06::/64 } on-error={}
 :do { add list=AE address=2a09:bac0:1001:161::/64 } on-error={}
 :do { add list=AE address=2a09:bac0:1001:231::/64 } on-error={}
 :do { add list=AE address=2a09:bac0:1001:2bc::/64 } on-error={}
@@ -5443,6 +5449,10 @@
 :do { add list=AE address=2a10:24c0:c482::/48 } on-error={}
 :do { add list=AE address=2a10:24c0:e674::/47 } on-error={}
 :do { add list=AE address=2a10:24c0:e676::/48 } on-error={}
+:do { add list=AE address=2a10:24c4:2a80::/43 } on-error={}
+:do { add list=AE address=2a10:24c4:2aa0::/44 } on-error={}
+:do { add list=AE address=2a10:24c4:6a80::/43 } on-error={}
+:do { add list=AE address=2a10:24c4:6aa0::/44 } on-error={}
 :do { add list=AE address=2a10:4240::/29 } on-error={}
 :do { add list=AE address=2a10:4bc3::/32 } on-error={}
 :do { add list=AE address=2a10:79c0::/29 } on-error={}
@@ -5551,6 +5561,8 @@
 :do { add list=AE address=2a13:240:6400::/40 } on-error={}
 :do { add list=AE address=2a13:240:e700::/40 } on-error={}
 :do { add list=AE address=2a13:a80::/29 } on-error={}
+:do { add list=AE address=2a13:d00:d180::/47 } on-error={}
+:do { add list=AE address=2a13:d00:d182::/48 } on-error={}
 :do { add list=AE address=2a13:28c0::/29 } on-error={}
 :do { add list=AE address=2a13:3cc0::/30 } on-error={}
 :do { add list=AE address=2a13:4480::/29 } on-error={}

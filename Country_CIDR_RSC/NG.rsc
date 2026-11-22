@@ -487,6 +487,7 @@
 :do { add list=NG address=45.134.215.116/31 } on-error={}
 :do { add list=NG address=45.159.111.216/29 } on-error={}
 :do { add list=NG address=45.195.2.0/24 } on-error={}
+:do { add list=NG address=45.195.64.0/24 } on-error={}
 :do { add list=NG address=45.196.200.0/24 } on-error={}
 :do { add list=NG address=45.222.96.0/22 } on-error={}
 :do { add list=NG address=45.222.100.0/23 } on-error={}
@@ -1494,6 +1495,7 @@
 :do { add list=NG address=104.30.167.217/32 } on-error={}
 :do { add list=NG address=104.30.169.103/32 } on-error={}
 :do { add list=NG address=104.30.174.143/32 } on-error={}
+:do { add list=NG address=104.30.183.4/32 } on-error={}
 :do { add list=NG address=104.44.6.24/30 } on-error={}
 :do { add list=NG address=104.44.6.242/31 } on-error={}
 :do { add list=NG address=104.44.15.32/30 } on-error={}
@@ -2563,10 +2565,11 @@
 :do { add list=NG address=197.214.64.123/32 } on-error={}
 :do { add list=NG address=197.214.64.179/32 } on-error={}
 :do { add list=NG address=197.214.64.209/32 } on-error={}
+:do { add list=NG address=197.214.66.0/30 } on-error={}
 :do { add list=NG address=197.214.66.16/31 } on-error={}
 :do { add list=NG address=197.214.66.32/32 } on-error={}
 :do { add list=NG address=197.214.66.35/32 } on-error={}
-:do { add list=NG address=197.214.66.52/31 } on-error={}
+:do { add list=NG address=197.214.66.52/30 } on-error={}
 :do { add list=NG address=197.214.66.58/32 } on-error={}
 :do { add list=NG address=197.214.96.0/23 } on-error={}
 :do { add list=NG address=197.214.98.0/23 } on-error={}

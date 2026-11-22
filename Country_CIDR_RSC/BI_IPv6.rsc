@@ -7,6 +7,7 @@
 :do { add list=BI address=2401:b60:1242::/47 } on-error={}
 :do { add list=BI address=2401:b60:1244::/46 } on-error={}
 :do { add list=BI address=2401:b60:1248::/45 } on-error={}
+:do { add list=BI address=2401:af20:1b4c::/48 } on-error={}
 :do { add list=BI address=2405:b500:d80::/64 } on-error={}
 :do { add list=BI address=2405:b500:da0::/64 } on-error={}
 :do { add list=BI address=2405:b500:dc0::/64 } on-error={}
@@ -548,6 +549,10 @@
 :do { add list=BI address=2a10:24c0:c662::/48 } on-error={}
 :do { add list=BI address=2a10:24c0:e9ac::/47 } on-error={}
 :do { add list=BI address=2a10:24c0:e9ae::/48 } on-error={}
+:do { add list=BI address=2a10:24c4:1200::/43 } on-error={}
+:do { add list=BI address=2a10:24c4:1220::/44 } on-error={}
+:do { add list=BI address=2a10:24c4:5200::/43 } on-error={}
+:do { add list=BI address=2a10:24c4:5220::/44 } on-error={}
 :do { add list=BI address=2a10:fa81:1817::/48 } on-error={}
 :do { add list=BI address=2a11:29c0:3d88:2be::/64 } on-error={}
 :do { add list=BI address=2a11:29c0:3d88:3d8a::/64 } on-error={}

@@ -7,6 +7,7 @@
 :do { add list=TV address=2401:b60:1ee2::/47 } on-error={}
 :do { add list=TV address=2401:b60:1ee4::/46 } on-error={}
 :do { add list=TV address=2401:b60:1ee8::/45 } on-error={}
+:do { add list=TV address=2401:af20:1be7::/48 } on-error={}
 :do { add list=TV address=2401:c720::/32 } on-error={}
 :do { add list=TV address=2405:b500:7380::/64 } on-error={}
 :do { add list=TV address=2405:b500:73a0::/64 } on-error={}
@@ -129,6 +130,8 @@
 :do { add list=TV address=2a0f:85c1:81b:fb70::/60 } on-error={}
 :do { add list=TV address=2a10:24c0:82bc::/48 } on-error={}
 :do { add list=TV address=2a10:24c0:a584::/48 } on-error={}
+:do { add list=TV address=2a10:24c4:b600::/44 } on-error={}
+:do { add list=TV address=2a10:24c4:f600::/44 } on-error={}
 :do { add list=TV address=2a10:fa81:18e2::/48 } on-error={}
 :do { add list=TV address=2a11:29c0:3d88:1a4a::/64 } on-error={}
 :do { add list=TV address=2a11:29c0:3d88:a707::/64 } on-error={}

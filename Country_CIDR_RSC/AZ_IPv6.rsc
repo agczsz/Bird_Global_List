@@ -27,6 +27,7 @@
 :do { add list=AZ address=2401:b60:10f2::/47 } on-error={}
 :do { add list=AZ address=2401:b60:10f4::/46 } on-error={}
 :do { add list=AZ address=2401:b60:10f8::/45 } on-error={}
+:do { add list=AZ address=2401:af20:1b36::/48 } on-error={}
 :do { add list=AZ address=2404:a140:50::/48 } on-error={}
 :do { add list=AZ address=2405:b500:980::/64 } on-error={}
 :do { add list=AZ address=2405:b500:980:98::/64 } on-error={}
@@ -307,6 +308,10 @@
 :do { add list=AZ address=2a10:24c0:450e::/48 } on-error={}
 :do { add list=AZ address=2a10:24c0:650c::/47 } on-error={}
 :do { add list=AZ address=2a10:24c0:650e::/48 } on-error={}
+:do { add list=AZ address=2a10:24c4:2440::/43 } on-error={}
+:do { add list=AZ address=2a10:24c4:2460::/44 } on-error={}
+:do { add list=AZ address=2a10:24c4:6440::/43 } on-error={}
+:do { add list=AZ address=2a10:24c4:6460::/44 } on-error={}
 :do { add list=AZ address=2a10:25c0::/29 } on-error={}
 :do { add list=AZ address=2a10:d880::/29 } on-error={}
 :do { add list=AZ address=2a10:fa81:180f::/48 } on-error={}

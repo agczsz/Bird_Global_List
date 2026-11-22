@@ -122,6 +122,10 @@
 :do { add list=BN address=2a10:24c0:455e::/48 } on-error={}
 :do { add list=BN address=2a10:24c0:6594::/47 } on-error={}
 :do { add list=BN address=2a10:24c0:6596::/48 } on-error={}
+:do { add list=BN address=2a10:24c4:3600::/43 } on-error={}
+:do { add list=BN address=2a10:24c4:3620::/44 } on-error={}
+:do { add list=BN address=2a10:24c4:7600::/43 } on-error={}
+:do { add list=BN address=2a10:24c4:7620::/44 } on-error={}
 :do { add list=BN address=2a10:fa81:181b::/48 } on-error={}
 :do { add list=BN address=2a11:29c0:3d88:5178::/64 } on-error={}
 :do { add list=BN address=2a11:29c0:3d88:69c0::/64 } on-error={}

@@ -24,6 +24,7 @@
 :do { add list=BJ address=2401:b60:1172::/47 } on-error={}
 :do { add list=BJ address=2401:b60:1174::/46 } on-error={}
 :do { add list=BJ address=2401:b60:1178::/45 } on-error={}
+:do { add list=BJ address=2401:af20:1b4d::/48 } on-error={}
 :do { add list=BJ address=2405:b500:e00::/64 } on-error={}
 :do { add list=BJ address=2405:b500:e20::/64 } on-error={}
 :do { add list=BJ address=2405:b500:e40::/64 } on-error={}
@@ -1106,6 +1107,10 @@
 :do { add list=BJ address=2a10:24c0:4b6::/48 } on-error={}
 :do { add list=BJ address=2a10:24c0:2720::/47 } on-error={}
 :do { add list=BJ address=2a10:24c0:2722::/48 } on-error={}
+:do { add list=BJ address=2a10:24c4:1140::/43 } on-error={}
+:do { add list=BJ address=2a10:24c4:1160::/44 } on-error={}
+:do { add list=BJ address=2a10:24c4:5140::/43 } on-error={}
+:do { add list=BJ address=2a10:24c4:5160::/44 } on-error={}
 :do { add list=BJ address=2a10:fa81:1818::/48 } on-error={}
 :do { add list=BJ address=2a11:29c0:3d88:324::/64 } on-error={}
 :do { add list=BJ address=2a11:29c0:3d88:1e3f::/64 } on-error={}

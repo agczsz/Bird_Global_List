@@ -6,6 +6,7 @@
 :do { add list=BV address=2401:b60:11e2::/47 } on-error={}
 :do { add list=BV address=2401:b60:11e4::/46 } on-error={}
 :do { add list=BV address=2401:b60:11e8::/45 } on-error={}
+:do { add list=BV address=2401:af20:1b55::/48 } on-error={}
 :do { add list=BV address=2602:814:fc84::/46 } on-error={}
 :do { add list=BV address=2a03:b601:82c::/46 } on-error={}
 :do { add list=BV address=2a03:b601:830::/48 } on-error={}

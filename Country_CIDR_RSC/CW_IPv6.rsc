@@ -2,6 +2,7 @@
 /ipv6 firewall address-list
 :do { add list=CW address=2001:13c7:6004::/47 } on-error={}
 :do { add list=CW address=2400:cb00:105::/48 } on-error={}
+:do { add list=CW address=2401:af20:1b64::/48 } on-error={}
 :do { add list=CW address=2405:b500:1c00::/64 } on-error={}
 :do { add list=CW address=2405:b500:1c20::/64 } on-error={}
 :do { add list=CW address=2405:b500:1c40::/64 } on-error={}
@@ -137,6 +138,8 @@
 :do { add list=CW address=2a0f:a302::/37 } on-error={}
 :do { add list=CW address=2a10:24c0:4418::/47 } on-error={}
 :do { add list=CW address=2a10:24c0:6268::/47 } on-error={}
+:do { add list=CW address=2a10:24c4:a580::/43 } on-error={}
+:do { add list=CW address=2a10:24c4:e580::/43 } on-error={}
 :do { add list=CW address=2a11:29c0:3d88:11f7::/64 } on-error={}
 :do { add list=CW address=2a11:29c0:3d88:8bca::/64 } on-error={}
 :do { add list=CW address=2a11:29c0:3d88:fb81::/64 } on-error={}

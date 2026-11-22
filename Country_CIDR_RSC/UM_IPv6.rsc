@@ -55,6 +55,7 @@
 :do { add list=UM address=2401:b60:1f42::/47 } on-error={}
 :do { add list=UM address=2401:b60:1f44::/46 } on-error={}
 :do { add list=UM address=2401:b60:1f48::/45 } on-error={}
+:do { add list=UM address=2401:af20:1bea::/48 } on-error={}
 :do { add list=UM address=2600:70ff:a40e::/48 } on-error={}
 :do { add list=UM address=2600:70ff:a5a5::/48 } on-error={}
 :do { add list=UM address=2600:70ff:a91d::/48 } on-error={}

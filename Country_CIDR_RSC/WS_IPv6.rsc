@@ -148,6 +148,7 @@
 :do { add list=WS address=2401:ae60:2000::/35 } on-error={}
 :do { add list=WS address=2401:ae60:4000::/34 } on-error={}
 :do { add list=WS address=2401:ae60:8000::/33 } on-error={}
+:do { add list=WS address=2401:af20:1bf4::/48 } on-error={}
 :do { add list=WS address=2402:ae80:1::/48 } on-error={}
 :do { add list=WS address=2402:ae80:2::/47 } on-error={}
 :do { add list=WS address=2402:ae80:4::/46 } on-error={}
@@ -260,6 +261,8 @@
 :do { add list=WS address=2a0f:a303:e800::/37 } on-error={}
 :do { add list=WS address=2a10:24c0:335::/48 } on-error={}
 :do { add list=WS address=2a10:24c0:25f5::/48 } on-error={}
+:do { add list=WS address=2a10:24c4:b540::/44 } on-error={}
+:do { add list=WS address=2a10:24c4:f540::/44 } on-error={}
 :do { add list=WS address=2a10:fa81:18f3::/48 } on-error={}
 :do { add list=WS address=2a11:29c0:3d88:2344::/64 } on-error={}
 :do { add list=WS address=2a11:29c0:3d88:37e7::/64 } on-error={}

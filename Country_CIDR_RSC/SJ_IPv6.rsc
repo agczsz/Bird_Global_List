@@ -6,6 +6,7 @@
 :do { add list=SJ address=2401:b60:1db2::/47 } on-error={}
 :do { add list=SJ address=2401:b60:1db4::/46 } on-error={}
 :do { add list=SJ address=2401:b60:1db8::/45 } on-error={}
+:do { add list=SJ address=2401:af20:1bd1::/48 } on-error={}
 :do { add list=SJ address=2602:814:ff20::/46 } on-error={}
 :do { add list=SJ address=2606:40:10:ac00::/54 } on-error={}
 :do { add list=SJ address=2606:40:42:fc00::/54 } on-error={}
@@ -53,6 +54,8 @@
 :do { add list=SJ address=2a0f:1cc5:1f33::/48 } on-error={}
 :do { add list=SJ address=2a10:24c0:2c4::/48 } on-error={}
 :do { add list=SJ address=2a10:24c0:248c::/48 } on-error={}
+:do { add list=SJ address=2a10:24c4:dc0::/44 } on-error={}
+:do { add list=SJ address=2a10:24c4:4dc0::/44 } on-error={}
 :do { add list=SJ address=2a13:aac7:30::/44 } on-error={}
 :do { add list=SJ address=2a13:ef41:ef74::/47 } on-error={}
 :do { add list=SJ address=2a13:ef41:ef7f::/48 } on-error={}

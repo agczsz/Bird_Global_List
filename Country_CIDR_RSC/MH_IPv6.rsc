@@ -1,5 +1,6 @@
 /log info "Loading MH IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=MH address=2401:af20:1ba4::/48 } on-error={}
 :do { add list=MH address=2405:400::/32 } on-error={}
 :do { add list=MH address=2405:b500:4980::/64 } on-error={}
 :do { add list=MH address=2405:b500:49a0::/64 } on-error={}
@@ -102,6 +103,8 @@
 :do { add list=MH address=2a10:24c0:82ba::/48 } on-error={}
 :do { add list=MH address=2a10:24c0:a581::/48 } on-error={}
 :do { add list=MH address=2a10:24c0:a582::/48 } on-error={}
+:do { add list=MH address=2a10:24c4:b280::/43 } on-error={}
+:do { add list=MH address=2a10:24c4:f280::/43 } on-error={}
 :do { add list=MH address=2a11:29c0:3d88:7278::/64 } on-error={}
 :do { add list=MH address=2a11:29c0:3d88:d639::/64 } on-error={}
 :do { add list=MH address=2a11:29c0:3d88:d7e0::/64 } on-error={}

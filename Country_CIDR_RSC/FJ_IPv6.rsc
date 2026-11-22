@@ -51,6 +51,7 @@
 :do { add list=FJ address=2401:5100:5000::/36 } on-error={}
 :do { add list=FJ address=2401:5100:6000::/35 } on-error={}
 :do { add list=FJ address=2401:5100:8000::/33 } on-error={}
+:do { add list=FJ address=2401:af20:1b6f::/48 } on-error={}
 :do { add list=FJ address=2401:e600::/32 } on-error={}
 :do { add list=FJ address=2402:1840::/32 } on-error={}
 :do { add list=FJ address=2402:2940::/32 } on-error={}
@@ -174,6 +175,10 @@
 :do { add list=FJ address=2a10:24c0:88de::/48 } on-error={}
 :do { add list=FJ address=2a10:24c0:a93c::/47 } on-error={}
 :do { add list=FJ address=2a10:24c0:a93e::/48 } on-error={}
+:do { add list=FJ address=2a10:24c4:b180::/43 } on-error={}
+:do { add list=FJ address=2a10:24c4:b1a0::/44 } on-error={}
+:do { add list=FJ address=2a10:24c4:f180::/43 } on-error={}
+:do { add list=FJ address=2a10:24c4:f1a0::/44 } on-error={}
 :do { add list=FJ address=2a10:fa81:1846::/48 } on-error={}
 :do { add list=FJ address=2a11:29c0:3d88:1d58::/64 } on-error={}
 :do { add list=FJ address=2a11:29c0:3d88:81aa::/64 } on-error={}

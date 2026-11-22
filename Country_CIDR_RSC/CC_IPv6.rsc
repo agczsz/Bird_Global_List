@@ -6,6 +6,7 @@
 :do { add list=CC address=2401:b60:12f2::/47 } on-error={}
 :do { add list=CC address=2401:b60:12f4::/46 } on-error={}
 :do { add list=CC address=2401:b60:12f8::/45 } on-error={}
+:do { add list=CC address=2401:af20:1b58::/48 } on-error={}
 :do { add list=CC address=2602:814:fc98::/46 } on-error={}
 :do { add list=CC address=2606:40:a2::/54 } on-error={}
 :do { add list=CC address=2606:40:b2:1800::/54 } on-error={}
@@ -52,6 +53,8 @@
 :do { add list=CC address=2a0f:7803:fede::/48 } on-error={}
 :do { add list=CC address=2a10:24c0:9dd8::/48 } on-error={}
 :do { add list=CC address=2a10:24c0:bc78::/48 } on-error={}
+:do { add list=CC address=2a10:24c4:b100::/44 } on-error={}
+:do { add list=CC address=2a10:24c4:f100::/44 } on-error={}
 :do { add list=CC address=2a12:f381:a500::/40 } on-error={}
 :do { add list=CC address=2a12:f382:a500::/40 } on-error={}
 :do { add list=CC address=2a13:a5c3:d428::/46 } on-error={}

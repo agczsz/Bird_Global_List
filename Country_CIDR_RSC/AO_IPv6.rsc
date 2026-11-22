@@ -19,6 +19,7 @@
 :do { add list=AO address=2401:b60:1062::/47 } on-error={}
 :do { add list=AO address=2401:b60:1064::/46 } on-error={}
 :do { add list=AO address=2401:b60:1068::/45 } on-error={}
+:do { add list=AO address=2401:af20:1b45::/48 } on-error={}
 :do { add list=AO address=2405:b500:500::/64 } on-error={}
 :do { add list=AO address=2405:b500:520::/64 } on-error={}
 :do { add list=AO address=2405:b500:540::/64 } on-error={}
@@ -489,6 +490,10 @@
 :do { add list=AO address=2a10:24c0:8336::/48 } on-error={}
 :do { add list=AO address=2a10:24c0:a598::/47 } on-error={}
 :do { add list=AO address=2a10:24c0:a59a::/48 } on-error={}
+:do { add list=AO address=2a10:24c4:1100::/43 } on-error={}
+:do { add list=AO address=2a10:24c4:1120::/44 } on-error={}
+:do { add list=AO address=2a10:24c4:5100::/43 } on-error={}
+:do { add list=AO address=2a10:24c4:5120::/44 } on-error={}
 :do { add list=AO address=2a10:fa81:1807::/48 } on-error={}
 :do { add list=AO address=2a11:29c0:3d88:81::/64 } on-error={}
 :do { add list=AO address=2a11:29c0:3d88:618::/64 } on-error={}

@@ -30,6 +30,7 @@
 :do { add list=MC address=2401:b60:1962::/47 } on-error={}
 :do { add list=MC address=2401:b60:1964::/46 } on-error={}
 :do { add list=MC address=2401:b60:1968::/45 } on-error={}
+:do { add list=MC address=2401:af20:1ba1::/48 } on-error={}
 :do { add list=MC address=2405:b500:4700::/64 } on-error={}
 :do { add list=MC address=2405:b500:4720::/64 } on-error={}
 :do { add list=MC address=2405:b500:4740::/64 } on-error={}
@@ -64,7 +65,6 @@
 :do { add list=MC address=2607:8940:4250:7400::/56 } on-error={}
 :do { add list=MC address=2607:8940:4250:9100::/56 } on-error={}
 :do { add list=MC address=2a01:8fe0::/32 } on-error={}
-:do { add list=MC address=2a01:cb0a:8061:bf00::/56 } on-error={}
 :do { add list=MC address=2a01:cb1d:473:a600::/56 } on-error={}
 :do { add list=MC address=2a01:cb1e:7:c200::/56 } on-error={}
 :do { add list=MC address=2a02:26f7:c180::/48 } on-error={}
@@ -236,6 +236,8 @@
 :do { add list=MC address=2a10:500:8900::/40 } on-error={}
 :do { add list=MC address=2a10:24c0:2c2::/47 } on-error={}
 :do { add list=MC address=2a10:24c0:248a::/47 } on-error={}
+:do { add list=MC address=2a10:24c4:c80::/43 } on-error={}
+:do { add list=MC address=2a10:24c4:4c80::/43 } on-error={}
 :do { add list=MC address=2a11:29c0:3d88:4ebe::/64 } on-error={}
 :do { add list=MC address=2a11:29c0:3d88:7910::/64 } on-error={}
 :do { add list=MC address=2a12:f381:5100::/40 } on-error={}

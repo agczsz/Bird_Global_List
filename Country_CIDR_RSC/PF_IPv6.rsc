@@ -10,6 +10,7 @@
 :do { add list=PF address=2401:b60:14c2::/47 } on-error={}
 :do { add list=PF address=2401:b60:14c4::/46 } on-error={}
 :do { add list=PF address=2401:b60:14c8::/45 } on-error={}
+:do { add list=PF address=2401:af20:1bc0::/48 } on-error={}
 :do { add list=PF address=2401:dc80::/32 } on-error={}
 :do { add list=PF address=2402:6d00::/32 } on-error={}
 :do { add list=PF address=2403:7cc0::/32 } on-error={}
@@ -175,6 +176,10 @@
 :do { add list=PF address=2a10:24c0:124a::/48 } on-error={}
 :do { add list=PF address=2a10:24c0:375c::/47 } on-error={}
 :do { add list=PF address=2a10:24c0:375e::/48 } on-error={}
+:do { add list=PF address=2a10:24c4:b1c0::/43 } on-error={}
+:do { add list=PF address=2a10:24c4:b1e0::/44 } on-error={}
+:do { add list=PF address=2a10:24c4:f1c0::/43 } on-error={}
+:do { add list=PF address=2a10:24c4:f1e0::/44 } on-error={}
 :do { add list=PF address=2a11:29c0:3d88:29f2::/64 } on-error={}
 :do { add list=PF address=2a11:29c0:3d88:57eb::/64 } on-error={}
 :do { add list=PF address=2a11:29c0:3d88:5b1c::/64 } on-error={}

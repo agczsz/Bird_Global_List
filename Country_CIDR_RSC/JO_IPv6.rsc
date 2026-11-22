@@ -404,6 +404,10 @@
 :do { add list=JO address=2a10:24c0:4d36::/48 } on-error={}
 :do { add list=JO address=2a10:24c0:6ba4::/47 } on-error={}
 :do { add list=JO address=2a10:24c0:6ba6::/48 } on-error={}
+:do { add list=JO address=2a10:24c4:2640::/43 } on-error={}
+:do { add list=JO address=2a10:24c4:2660::/44 } on-error={}
+:do { add list=JO address=2a10:24c4:6640::/43 } on-error={}
+:do { add list=JO address=2a10:24c4:6660::/44 } on-error={}
 :do { add list=JO address=2a10:2f00:152::/48 } on-error={}
 :do { add list=JO address=2a10:9740:1::/48 } on-error={}
 :do { add list=JO address=2a10:9740:5::/48 } on-error={}

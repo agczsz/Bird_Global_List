@@ -14,6 +14,7 @@
 :do { add list=NC address=2401:c00::/32 } on-error={}
 :do { add list=NC address=2401:c01::/32 } on-error={}
 :do { add list=NC address=2401:af00::/32 } on-error={}
+:do { add list=NC address=2401:af20:1bb4::/48 } on-error={}
 :do { add list=NC address=2401:d000:3101::152/128 } on-error={}
 :do { add list=NC address=2402:4480:8002::2:19/128 } on-error={}
 :do { add list=NC address=2403:200::/32 } on-error={}
@@ -190,6 +191,10 @@
 :do { add list=NC address=2a10:24c0:8e22::/48 } on-error={}
 :do { add list=NC address=2a10:24c0:ae58::/47 } on-error={}
 :do { add list=NC address=2a10:24c0:ae5a::/48 } on-error={}
+:do { add list=NC address=2a10:24c4:b340::/43 } on-error={}
+:do { add list=NC address=2a10:24c4:b360::/44 } on-error={}
+:do { add list=NC address=2a10:24c4:f340::/43 } on-error={}
+:do { add list=NC address=2a10:24c4:f360::/44 } on-error={}
 :do { add list=NC address=2a11:29c0:3d88:338e::/64 } on-error={}
 :do { add list=NC address=2a11:29c0:3d88:51f8::/64 } on-error={}
 :do { add list=NC address=2a11:29c0:3d88:55da::/64 } on-error={}
