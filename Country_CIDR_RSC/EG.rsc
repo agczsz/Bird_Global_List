@@ -270,13 +270,7 @@
 :do { add list=EG address=46.33.84.226/32 } on-error={}
 :do { add list=EG address=46.235.156.96/27 } on-error={}
 :do { add list=EG address=51.10.49.13/32 } on-error={}
-:do { add list=EG address=52.107.222.64/32 } on-error={}
 :do { add list=EG address=52.107.222.66/32 } on-error={}
-:do { add list=EG address=52.107.222.69/32 } on-error={}
-:do { add list=EG address=52.107.222.71/32 } on-error={}
-:do { add list=EG address=52.107.222.72/31 } on-error={}
-:do { add list=EG address=52.107.222.75/32 } on-error={}
-:do { add list=EG address=52.107.222.76/30 } on-error={}
 :do { add list=EG address=52.123.202.40/32 } on-error={}
 :do { add list=EG address=57.83.0.0/20 } on-error={}
 :do { add list=EG address=57.88.48.0/20 } on-error={}
@@ -944,11 +938,12 @@
 :do { add list=EG address=129.134.35.5/32 } on-error={}
 :do { add list=EG address=129.134.35.7/32 } on-error={}
 :do { add list=EG address=129.134.36.97/32 } on-error={}
-:do { add list=EG address=129.134.40.233/32 } on-error={}
+:do { add list=EG address=129.134.40.213/32 } on-error={}
+:do { add list=EG address=129.134.45.195/32 } on-error={}
 :do { add list=EG address=129.134.47.66/31 } on-error={}
 :do { add list=EG address=129.134.47.114/31 } on-error={}
 :do { add list=EG address=129.134.47.194/31 } on-error={}
-:do { add list=EG address=129.134.48.165/32 } on-error={}
+:do { add list=EG address=129.134.47.231/32 } on-error={}
 :do { add list=EG address=129.134.49.28/31 } on-error={}
 :do { add list=EG address=129.134.49.177/32 } on-error={}
 :do { add list=EG address=129.134.50.167/32 } on-error={}
@@ -959,6 +954,8 @@
 :do { add list=EG address=129.134.57.168/32 } on-error={}
 :do { add list=EG address=129.134.58.18/32 } on-error={}
 :do { add list=EG address=129.134.63.227/32 } on-error={}
+:do { add list=EG address=129.134.64.47/32 } on-error={}
+:do { add list=EG address=129.134.64.71/32 } on-error={}
 :do { add list=EG address=129.134.66.202/31 } on-error={}
 :do { add list=EG address=129.134.66.248/29 } on-error={}
 :do { add list=EG address=129.134.67.0/28 } on-error={}

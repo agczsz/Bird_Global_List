@@ -19,11 +19,7 @@
 :do { add list=MS address=104.28.245.223/32 } on-error={}
 :do { add list=MS address=104.28.245.224/30 } on-error={}
 :do { add list=MS address=104.29.203.18/31 } on-error={}
-:do { add list=MS address=104.255.176.76/31 } on-error={}
-:do { add list=MS address=104.255.176.80/30 } on-error={}
-:do { add list=MS address=104.255.176.116/30 } on-error={}
-:do { add list=MS address=104.255.176.120/30 } on-error={}
-:do { add list=MS address=104.255.176.127/32 } on-error={}
+:do { add list=MS address=104.255.176.0/24 } on-error={}
 :do { add list=MS address=136.22.25.208/32 } on-error={}
 :do { add list=MS address=136.23.8.215/32 } on-error={}
 :do { add list=MS address=136.23.40.211/32 } on-error={}

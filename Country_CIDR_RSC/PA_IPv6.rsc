@@ -654,6 +654,8 @@
 :do { add list=PA address=2a0d:9444:5000::/37 } on-error={}
 :do { add list=PA address=2a0e:8f01:1000:67::/64 } on-error={}
 :do { add list=PA address=2a0e:acc0:ac90::/48 } on-error={}
+:do { add list=PA address=2a0e:ad82:8000::/33 } on-error={}
+:do { add list=PA address=2a0e:ad83::/33 } on-error={}
 :do { add list=PA address=2a0e:b107:dc8::/48 } on-error={}
 :do { add list=PA address=2a0f:1cc1:e880::/44 } on-error={}
 :do { add list=PA address=2a0f:85c1:340::af:0/112 } on-error={}

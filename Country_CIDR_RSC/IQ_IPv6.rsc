@@ -383,6 +383,7 @@
 :do { add list=IQ address=2a02:26f7:df4c:4000::/64 } on-error={}
 :do { add list=IQ address=2a02:26f7:df4c:4740::/61 } on-error={}
 :do { add list=IQ address=2a02:26f7:df4c:4748::/64 } on-error={}
+:do { add list=IQ address=2a02:26f7:df4c:8000::/50 } on-error={}
 :do { add list=IQ address=2a02:26f7:df4d::/48 } on-error={}
 :do { add list=IQ address=2a02:26f7:df4e::/47 } on-error={}
 :do { add list=IQ address=2a02:26f7:df50::/44 } on-error={}

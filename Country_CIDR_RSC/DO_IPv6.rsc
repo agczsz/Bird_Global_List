@@ -243,6 +243,7 @@
 :do { add list=DO address=2803:21d0::/32 } on-error={}
 :do { add list=DO address=2803:22d0::/32 } on-error={}
 :do { add list=DO address=2803:2460::/32 } on-error={}
+:do { add list=DO address=2803:24b0::/32 } on-error={}
 :do { add list=DO address=2803:2530::/32 } on-error={}
 :do { add list=DO address=2803:2610::/32 } on-error={}
 :do { add list=DO address=2803:26d0::/32 } on-error={}

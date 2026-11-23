@@ -34,6 +34,7 @@
 :do { add list=MK address=2001:978:2:a8::1:0/112 } on-error={}
 :do { add list=MK address=2001:978:2:c5::2:0/112 } on-error={}
 :do { add list=MK address=2001:978:9701::/48 } on-error={}
+:do { add list=MK address=2001:2035:0:1dd3::2/128 } on-error={}
 :do { add list=MK address=2001:2035:0:1ee0::2/128 } on-error={}
 :do { add list=MK address=2001:2035:0:1f2d::2/128 } on-error={}
 :do { add list=MK address=2001:3786:2999::/48 } on-error={}

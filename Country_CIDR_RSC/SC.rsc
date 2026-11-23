@@ -226,6 +226,7 @@
 :do { add list=SC address=154.70.160.0/19 } on-error={}
 :do { add list=SC address=154.86.117.0/24 } on-error={}
 :do { add list=SC address=156.238.18.0/24 } on-error={}
+:do { add list=SC address=156.238.19.0/24 } on-error={}
 :do { add list=SC address=163.116.167.23/32 } on-error={}
 :do { add list=SC address=163.116.167.24/32 } on-error={}
 :do { add list=SC address=163.116.174.143/32 } on-error={}

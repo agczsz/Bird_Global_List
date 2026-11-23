@@ -11,6 +11,8 @@
 :do { add list=IS address=2001:67c:bdc:400::/56 } on-error={}
 :do { add list=IS address=2001:67c:bdc:600::/56 } on-error={}
 :do { add list=IS address=2001:67c:bdc:1a00::/56 } on-error={}
+:do { add list=IS address=2001:67c:bdc:4000::/50 } on-error={}
+:do { add list=IS address=2001:67c:bdc:8000::/49 } on-error={}
 :do { add list=IS address=2001:67c:1824::/48 } on-error={}
 :do { add list=IS address=2001:67c:2114::/48 } on-error={}
 :do { add list=IS address=2001:67c:2aac::/48 } on-error={}

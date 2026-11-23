@@ -1950,7 +1950,6 @@
 :do { add list=GG address=2a06:9f81:394f::/48 } on-error={}
 :do { add list=GG address=2a06:9f81:564f::/48 } on-error={}
 :do { add list=GG address=2a07:d887:5000::/40 } on-error={}
-:do { add list=GG address=2a09:3f00:3c1f:f800::/56 } on-error={}
 :do { add list=GG address=2a09:5d40::/29 } on-error={}
 :do { add list=GG address=2a09:bac1:2a80::/64 } on-error={}
 :do { add list=GG address=2a09:bac1:2aa0::/64 } on-error={}

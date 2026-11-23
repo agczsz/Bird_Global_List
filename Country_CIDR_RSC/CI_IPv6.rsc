@@ -2000,7 +2000,8 @@
 :do { add list=CI address=2c0f:ee00::73:1/128 } on-error={}
 :do { add list=CI address=2c0f:ee00::96:2/127 } on-error={}
 :do { add list=CI address=2c0f:ee00::96:23/128 } on-error={}
-:do { add list=CI address=2c0f:ee00::96:24/126 } on-error={}
+:do { add list=CI address=2c0f:ee00::96:24/127 } on-error={}
+:do { add list=CI address=2c0f:ee00::96:26/128 } on-error={}
 :do { add list=CI address=2c0f:ee00::96:36/128 } on-error={}
 :do { add list=CI address=2c0f:ee00::96:46/128 } on-error={}
 :do { add list=CI address=2c0f:ee00::96:244/128 } on-error={}

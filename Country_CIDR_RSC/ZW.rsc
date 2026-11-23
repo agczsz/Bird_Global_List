@@ -211,7 +211,6 @@
 :do { add list=ZW address=41.190.62.0/23 } on-error={}
 :do { add list=ZW address=41.191.232.0/21 } on-error={}
 :do { add list=ZW address=41.216.124.0/23 } on-error={}
-:do { add list=ZW address=41.216.126.0/24 } on-error={}
 :do { add list=ZW address=41.216.127.0/28 } on-error={}
 :do { add list=ZW address=41.216.127.16/29 } on-error={}
 :do { add list=ZW address=41.216.127.24/30 } on-error={}

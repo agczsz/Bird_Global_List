@@ -201,6 +201,8 @@
 :do { add list=MT address=2a09:a702:31::/48 } on-error={}
 :do { add list=MT address=2a09:bac0:1000:1637::/64 } on-error={}
 :do { add list=MT address=2a09:bac0:1000:1650::/64 } on-error={}
+:do { add list=MT address=2a09:bac0:1000:1b54::/64 } on-error={}
+:do { add list=MT address=2a09:bac0:1000:1b57::/64 } on-error={}
 :do { add list=MT address=2a09:bac1:4e80::/64 } on-error={}
 :do { add list=MT address=2a09:bac1:4ea0::/64 } on-error={}
 :do { add list=MT address=2a09:bac1:4ec0::/64 } on-error={}

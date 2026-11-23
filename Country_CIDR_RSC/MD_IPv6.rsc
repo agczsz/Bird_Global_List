@@ -352,7 +352,10 @@
 :do { add list=MD address=2a0a:8d80:1::/48 } on-error={}
 :do { add list=MD address=2a0a:c800:1::/48 } on-error={}
 :do { add list=MD address=2a0a:c801::/32 } on-error={}
-:do { add list=MD address=2a0a:c802:8::/45 } on-error={}
+:do { add list=MD address=2a0a:c802:8::/48 } on-error={}
+:do { add list=MD address=2a0a:c802:9::/48 } on-error={}
+:do { add list=MD address=2a0a:c802:a::/47 } on-error={}
+:do { add list=MD address=2a0a:c802:c::/46 } on-error={}
 :do { add list=MD address=2a0a:c802:10::/44 } on-error={}
 :do { add list=MD address=2a0a:c802:20::/43 } on-error={}
 :do { add list=MD address=2a0a:c802:40::/42 } on-error={}
