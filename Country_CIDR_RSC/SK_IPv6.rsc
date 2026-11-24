@@ -1945,7 +1945,6 @@
 :do { add list=SK address=2a0a:6044:f680::/45 } on-error={}
 :do { add list=SK address=2a0a:6044:f688::/46 } on-error={}
 :do { add list=SK address=2a0a:6044:f68c::/48 } on-error={}
-:do { add list=SK address=2a0a:6500:9000::/48 } on-error={}
 :do { add list=SK address=2a0a:8f80:4196::/48 } on-error={}
 :do { add list=SK address=2a0a:a680::/29 } on-error={}
 :do { add list=SK address=2a0a:cbc0::/29 } on-error={}

@@ -30,6 +30,7 @@
 :do { add list=PA address=2001:13b4:1400::/48 } on-error={}
 :do { add list=PA address=2001:13b4:1800:4::4/128 } on-error={}
 :do { add list=PA address=2001:1498:1::100:51/128 } on-error={}
+:do { add list=PA address=2001:1498:1::100:224/128 } on-error={}
 :do { add list=PA address=2001:1498:1:7fc::/64 } on-error={}
 :do { add list=PA address=2001:1498:1:966:1::4291/128 } on-error={}
 :do { add list=PA address=2001:1498:1:966:1::9ab2/128 } on-error={}

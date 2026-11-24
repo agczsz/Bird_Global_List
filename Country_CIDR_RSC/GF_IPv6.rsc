@@ -47,8 +47,7 @@
 :do { add list=GF address=2a01:cb20:80b0::/48 } on-error={}
 :do { add list=GF address=2a01:cb20:80b6::/48 } on-error={}
 :do { add list=GF address=2a01:cb20:80c0::/42 } on-error={}
-:do { add list=GF address=2a01:cb20:8140::/44 } on-error={}
-:do { add list=GF address=2a01:cb20:8150::/48 } on-error={}
+:do { add list=GF address=2a01:cb20:8140::/43 } on-error={}
 :do { add list=GF address=2a01:cb20:883f:af00:7939:4b3f:c82:eb81/128 } on-error={}
 :do { add list=GF address=2a01:cb20:a004::/48 } on-error={}
 :do { add list=GF address=2a01:cde0:108:4000::/56 } on-error={}
@@ -63,7 +62,6 @@
 :do { add list=GF address=2a01:cde0:8108:2d00::/56 } on-error={}
 :do { add list=GF address=2a01:cde0:8108:3400::/56 } on-error={}
 :do { add list=GF address=2a01:cde0:8108:3f00::/56 } on-error={}
-:do { add list=GF address=2a01:cde0:8108:4a00::/56 } on-error={}
 :do { add list=GF address=2a01:cde0:8108:6800::/56 } on-error={}
 :do { add list=GF address=2a01:cde0:8108:6e00::/56 } on-error={}
 :do { add list=GF address=2a01:cde0:8108:7d6d::/64 } on-error={}
@@ -73,7 +71,6 @@
 :do { add list=GF address=2a01:cde0:8108:8f00::/56 } on-error={}
 :do { add list=GF address=2a01:cde0:8108:9000::/56 } on-error={}
 :do { add list=GF address=2a01:cde0:8108:9800::/56 } on-error={}
-:do { add list=GF address=2a01:cde0:8108:ae00::/56 } on-error={}
 :do { add list=GF address=2a01:cde0:8108:c500::/56 } on-error={}
 :do { add list=GF address=2a01:cde0:8108:c800::/56 } on-error={}
 :do { add list=GF address=2a01:cde0:8108:cb00::/56 } on-error={}
@@ -86,10 +83,10 @@
 :do { add list=GF address=2a01:cde0:8109:2000::/56 } on-error={}
 :do { add list=GF address=2a01:cde0:8109:4000::/56 } on-error={}
 :do { add list=GF address=2a01:cde0:8109:4c00::/56 } on-error={}
-:do { add list=GF address=2a01:cde0:8109:5200::/56 } on-error={}
 :do { add list=GF address=2a01:cde0:8109:6000::/56 } on-error={}
 :do { add list=GF address=2a01:cde0:8109:7200::/56 } on-error={}
 :do { add list=GF address=2a01:cde0:8109:8300::/56 } on-error={}
+:do { add list=GF address=2a01:cde0:8109:8900::/56 } on-error={}
 :do { add list=GF address=2a01:cde0:8109:9100::/56 } on-error={}
 :do { add list=GF address=2a01:cde0:8109:a400::/56 } on-error={}
 :do { add list=GF address=2a01:cde0:8109:ac00::/56 } on-error={}

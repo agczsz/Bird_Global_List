@@ -5,13 +5,12 @@
 :do { add list=MW address=2001:43f8:20::4/127 } on-error={}
 :do { add list=MW address=2001:43f8:20::6/128 } on-error={}
 :do { add list=MW address=2001:43f8:20::8/126 } on-error={}
-:do { add list=MW address=2001:43f8:20::d/128 } on-error={}
 :do { add list=MW address=2001:43f8:20::10/124 } on-error={}
 :do { add list=MW address=2001:43f8:20::20/126 } on-error={}
 :do { add list=MW address=2001:43f8:20::24/127 } on-error={}
 :do { add list=MW address=2001:43f8:20::26/128 } on-error={}
 :do { add list=MW address=2001:43f8:20::29/128 } on-error={}
-:do { add list=MW address=2001:43f8:20::2a/128 } on-error={}
+:do { add list=MW address=2001:43f8:20::2a/127 } on-error={}
 :do { add list=MW address=2001:43f8:20::2c/126 } on-error={}
 :do { add list=MW address=2001:43f8:20::30/124 } on-error={}
 :do { add list=MW address=2001:43f8:20::40/124 } on-error={}

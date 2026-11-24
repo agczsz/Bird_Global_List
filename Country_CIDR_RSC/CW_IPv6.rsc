@@ -31,7 +31,7 @@
 :do { add list=CW address=2607:f438:0:1:63:245:5:90/127 } on-error={}
 :do { add list=CW address=2607:f438:0:1:69:79:100:51/128 } on-error={}
 :do { add list=CW address=2607:f438:0:2202:190:242:166:54/128 } on-error={}
-:do { add list=CW address=2607:f438:0:2202:190:242:166:56/127 } on-error={}
+:do { add list=CW address=2607:f438:0:2202:190:242:166:56/128 } on-error={}
 :do { add list=CW address=2607:f438:0:2202:190:242:166:60/128 } on-error={}
 :do { add list=CW address=2607:f438:0:2203::/64 } on-error={}
 :do { add list=CW address=2800:2e0::/32 } on-error={}

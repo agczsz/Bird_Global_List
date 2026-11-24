@@ -216,7 +216,8 @@
 :do { add list=MO address=202.175.0.212/30 } on-error={}
 :do { add list=MO address=202.175.0.216/31 } on-error={}
 :do { add list=MO address=202.175.0.219/32 } on-error={}
-:do { add list=MO address=202.175.0.220/30 } on-error={}
+:do { add list=MO address=202.175.0.220/31 } on-error={}
+:do { add list=MO address=202.175.0.223/32 } on-error={}
 :do { add list=MO address=202.175.0.224/30 } on-error={}
 :do { add list=MO address=202.175.0.229/32 } on-error={}
 :do { add list=MO address=202.175.0.230/31 } on-error={}

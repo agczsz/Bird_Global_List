@@ -6,6 +6,7 @@
 :do { add list=PS address=2001:678:dfc::/48 } on-error={}
 :do { add list=PS address=2001:7f8:72::/48 } on-error={}
 :do { add list=PS address=2001:7f8:12b::/48 } on-error={}
+:do { add list=PS address=2001:2035:0:25db::2/128 } on-error={}
 :do { add list=PS address=2001:4860:7:223::/64 } on-error={}
 :do { add list=PS address=2001:4860:7:623::/64 } on-error={}
 :do { add list=PS address=2001:4860:7:1423::/64 } on-error={}

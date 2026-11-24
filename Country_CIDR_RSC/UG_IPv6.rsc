@@ -1,5 +1,6 @@
 /log info "Loading UG IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=UG address=2001:67c:2960:6464::29ad:d9/128 } on-error={}
 :do { add list=UG address=2001:43b8::/55 } on-error={}
 :do { add list=UG address=2001:43b8:0:200::/61 } on-error={}
 :do { add list=UG address=2001:43b8:0:208::/62 } on-error={}
@@ -483,7 +484,6 @@
 :do { add list=UG address=2c0f:feb0:1::1e2/128 } on-error={}
 :do { add list=UG address=2c0f:feb0:1::2:55/128 } on-error={}
 :do { add list=UG address=2c0f:feb0:1:2::71/128 } on-error={}
-:do { add list=UG address=2c0f:feb0:1:2::3ea/128 } on-error={}
 :do { add list=UG address=2c0f:feb0:1:2::3ed/128 } on-error={}
 :do { add list=UG address=2c0f:feb0:1:2::3ee/128 } on-error={}
 :do { add list=UG address=2c0f:feb0:1:2::745/128 } on-error={}
@@ -521,10 +521,7 @@
 :do { add list=UG address=2c0f:ffa0::24/128 } on-error={}
 :do { add list=UG address=2c0f:ffa0::27/128 } on-error={}
 :do { add list=UG address=2c0f:ffa0::28/125 } on-error={}
-:do { add list=UG address=2c0f:ffa0::30/126 } on-error={}
-:do { add list=UG address=2c0f:ffa0::34/128 } on-error={}
-:do { add list=UG address=2c0f:ffa0::36/127 } on-error={}
-:do { add list=UG address=2c0f:ffa0::38/125 } on-error={}
+:do { add list=UG address=2c0f:ffa0::30/124 } on-error={}
 :do { add list=UG address=2c0f:ffa0::40/122 } on-error={}
 :do { add list=UG address=2c0f:ffa0::80/121 } on-error={}
 :do { add list=UG address=2c0f:ffa0::100/120 } on-error={}

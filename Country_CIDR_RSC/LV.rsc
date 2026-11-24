@@ -277,7 +277,6 @@
 :do { add list=LV address=80.77.167.158/32 } on-error={}
 :do { add list=LV address=80.77.167.164/32 } on-error={}
 :do { add list=LV address=80.77.167.166/32 } on-error={}
-:do { add list=LV address=80.77.167.242/32 } on-error={}
 :do { add list=LV address=80.77.167.255/32 } on-error={}
 :do { add list=LV address=80.81.32.0/22 } on-error={}
 :do { add list=LV address=80.81.36.0/23 } on-error={}

@@ -467,7 +467,7 @@
 :do { add list=UY address=200.40.64.77/32 } on-error={}
 :do { add list=UY address=200.40.64.78/31 } on-error={}
 :do { add list=UY address=200.40.64.82/31 } on-error={}
-:do { add list=UY address=200.40.64.84/32 } on-error={}
+:do { add list=UY address=200.40.64.84/31 } on-error={}
 :do { add list=UY address=200.40.64.87/32 } on-error={}
 :do { add list=UY address=200.40.64.88/29 } on-error={}
 :do { add list=UY address=200.40.64.97/32 } on-error={}

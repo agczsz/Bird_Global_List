@@ -85,6 +85,7 @@
 :do { add list=MD address=2001:550:0:1000::8275:3155/128 } on-error={}
 :do { add list=MD address=2001:550:0:1000::9a19:3ad/128 } on-error={}
 :do { add list=MD address=2001:550:0:1000::9a19:3ae/128 } on-error={}
+:do { add list=MD address=2001:550:0:1000::9a36:4886/128 } on-error={}
 :do { add list=MD address=2001:678:6d4::/48 } on-error={}
 :do { add list=MD address=2001:678:cf4::/48 } on-error={}
 :do { add list=MD address=2001:67c:df4::/48 } on-error={}

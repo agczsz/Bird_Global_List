@@ -120,8 +120,7 @@
 :do { add list=GL address=194.177.227.160/31 } on-error={}
 :do { add list=GL address=194.177.227.163/32 } on-error={}
 :do { add list=GL address=194.177.227.164/30 } on-error={}
-:do { add list=GL address=194.177.227.168/30 } on-error={}
-:do { add list=GL address=194.177.227.174/31 } on-error={}
+:do { add list=GL address=194.177.227.168/29 } on-error={}
 :do { add list=GL address=194.177.227.176/28 } on-error={}
 :do { add list=GL address=194.177.227.192/26 } on-error={}
 :do { add list=GL address=194.177.228.0/22 } on-error={}

@@ -37,10 +37,7 @@
 :do { add list=SS address=102.23.83.168/30 } on-error={}
 :do { add list=SS address=102.23.83.172/31 } on-error={}
 :do { add list=SS address=102.23.83.175/32 } on-error={}
-:do { add list=SS address=102.23.83.176/31 } on-error={}
-:do { add list=SS address=102.23.83.179/32 } on-error={}
-:do { add list=SS address=102.23.83.180/30 } on-error={}
-:do { add list=SS address=102.23.83.184/29 } on-error={}
+:do { add list=SS address=102.23.83.176/28 } on-error={}
 :do { add list=SS address=102.23.83.192/26 } on-error={}
 :do { add list=SS address=102.36.212.0/22 } on-error={}
 :do { add list=SS address=102.64.0.0/22 } on-error={}
@@ -81,7 +78,6 @@
 :do { add list=SS address=104.28.239.36/31 } on-error={}
 :do { add list=SS address=104.28.239.38/32 } on-error={}
 :do { add list=SS address=104.29.199.214/31 } on-error={}
-:do { add list=SS address=105.177.10.57/32 } on-error={}
 :do { add list=SS address=105.235.209.0/28 } on-error={}
 :do { add list=SS address=105.235.209.20/30 } on-error={}
 :do { add list=SS address=105.235.209.24/29 } on-error={}
@@ -222,8 +218,7 @@
 :do { add list=SS address=196.197.180.0/24 } on-error={}
 :do { add list=SS address=196.198.180.0/24 } on-error={}
 :do { add list=SS address=196.199.180.0/24 } on-error={}
-:do { add list=SS address=196.201.9.0/31 } on-error={}
-:do { add list=SS address=196.201.9.3/32 } on-error={}
+:do { add list=SS address=196.201.9.0/30 } on-error={}
 :do { add list=SS address=196.201.9.8/30 } on-error={}
 :do { add list=SS address=196.201.9.12/31 } on-error={}
 :do { add list=SS address=196.201.9.15/32 } on-error={}
@@ -248,8 +243,7 @@
 :do { add list=SS address=196.201.9.113/32 } on-error={}
 :do { add list=SS address=196.201.9.114/32 } on-error={}
 :do { add list=SS address=196.201.9.120/29 } on-error={}
-:do { add list=SS address=196.201.9.129/32 } on-error={}
-:do { add list=SS address=196.201.9.130/31 } on-error={}
+:do { add list=SS address=196.201.9.128/30 } on-error={}
 :do { add list=SS address=196.201.9.132/31 } on-error={}
 :do { add list=SS address=196.201.9.134/32 } on-error={}
 :do { add list=SS address=196.201.9.136/29 } on-error={}

@@ -61,6 +61,7 @@
 :do { add list=CI address=2a00:ca0:202c:c000::/50 } on-error={}
 :do { add list=CI address=2a00:ca0:2035:c000::/52 } on-error={}
 :do { add list=CI address=2a00:ca0:203d::/50 } on-error={}
+:do { add list=CI address=2a01:3e0:10:1000::44/128 } on-error={}
 :do { add list=CI address=2a01:c9c0:c014::/48 } on-error={}
 :do { add list=CI address=2a01:ce88::/36 } on-error={}
 :do { add list=CI address=2a02:6bf:a020:2300::/56 } on-error={}
