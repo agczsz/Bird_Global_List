@@ -1,12 +1,7 @@
 /log info "Loading NU IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=NU address=2001:df0:8c::/48 } on-error={}
-:do { add list=NU address=2401:b60:1a70:4000::/50 } on-error={}
-:do { add list=NU address=2401:b60:1a70:8000::/49 } on-error={}
-:do { add list=NU address=2401:b60:1a71::/48 } on-error={}
-:do { add list=NU address=2401:b60:1a72::/47 } on-error={}
-:do { add list=NU address=2401:b60:1a74::/46 } on-error={}
-:do { add list=NU address=2401:b60:1a78::/45 } on-error={}
+:do { add list=NU address=2401:b60:1a70::/44 } on-error={}
 :do { add list=NU address=2401:af20:1bbb::/48 } on-error={}
 :do { add list=NU address=2402:1220::/32 } on-error={}
 :do { add list=NU address=2405:b500:5700::/64 } on-error={}

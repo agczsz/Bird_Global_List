@@ -1,11 +1,6 @@
 /log info "Loading CK IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=CK address=2401:b60:1340:4000::/50 } on-error={}
-:do { add list=CK address=2401:b60:1340:8000::/49 } on-error={}
-:do { add list=CK address=2401:b60:1341::/48 } on-error={}
-:do { add list=CK address=2401:b60:1342::/47 } on-error={}
-:do { add list=CK address=2401:b60:1344::/46 } on-error={}
-:do { add list=CK address=2401:b60:1348::/45 } on-error={}
+:do { add list=CK address=2401:b60:1340::/44 } on-error={}
 :do { add list=CK address=2401:4d20::/32 } on-error={}
 :do { add list=CK address=2401:af20:1b5d::/48 } on-error={}
 :do { add list=CK address=2405:b500:1800::/64 } on-error={}

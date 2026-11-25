@@ -47,7 +47,6 @@
 :do { add list=NP address=49.244.248.0/21 } on-error={}
 :do { add list=NP address=57.73.208.0/23 } on-error={}
 :do { add list=NP address=57.92.224.0/20 } on-error={}
-:do { add list=NP address=61.95.165.141/32 } on-error={}
 :do { add list=NP address=61.95.165.142/32 } on-error={}
 :do { add list=NP address=69.43.228.192/27 } on-error={}
 :do { add list=NP address=69.195.164.124/31 } on-error={}
@@ -246,6 +245,9 @@
 :do { add list=NP address=103.213.254.0/23 } on-error={}
 :do { add list=NP address=103.214.0.0/23 } on-error={}
 :do { add list=NP address=103.224.106.0/24 } on-error={}
+:do { add list=NP address=103.225.212.14/32 } on-error={}
+:do { add list=NP address=103.225.212.146/32 } on-error={}
+:do { add list=NP address=103.225.213.33/32 } on-error={}
 :do { add list=NP address=103.225.244.0/22 } on-error={}
 :do { add list=NP address=103.232.152.0/22 } on-error={}
 :do { add list=NP address=103.232.228.0/22 } on-error={}
@@ -332,7 +334,17 @@
 :do { add list=NP address=111.119.56.0/21 } on-error={}
 :do { add list=NP address=113.199.128.0/17 } on-error={}
 :do { add list=NP address=116.66.192.0/21 } on-error={}
-:do { add list=NP address=116.68.208.0/21 } on-error={}
+:do { add list=NP address=116.68.208.0/24 } on-error={}
+:do { add list=NP address=116.68.209.0/25 } on-error={}
+:do { add list=NP address=116.68.209.128/27 } on-error={}
+:do { add list=NP address=116.68.209.160/32 } on-error={}
+:do { add list=NP address=116.68.209.162/31 } on-error={}
+:do { add list=NP address=116.68.209.164/30 } on-error={}
+:do { add list=NP address=116.68.209.168/29 } on-error={}
+:do { add list=NP address=116.68.209.176/28 } on-error={}
+:do { add list=NP address=116.68.209.192/26 } on-error={}
+:do { add list=NP address=116.68.210.0/23 } on-error={}
+:do { add list=NP address=116.68.212.0/22 } on-error={}
 :do { add list=NP address=116.90.224.0/20 } on-error={}
 :do { add list=NP address=116.119.73.122/32 } on-error={}
 :do { add list=NP address=116.119.109.96/32 } on-error={}
@@ -345,7 +357,6 @@
 :do { add list=NP address=125.16.145.195/32 } on-error={}
 :do { add list=NP address=125.17.58.158/32 } on-error={}
 :do { add list=NP address=125.18.8.18/31 } on-error={}
-:do { add list=NP address=125.19.67.35/32 } on-error={}
 :do { add list=NP address=125.19.67.36/32 } on-error={}
 :do { add list=NP address=128.185.89.146/32 } on-error={}
 :do { add list=NP address=130.94.91.0/24 } on-error={}
@@ -413,6 +424,7 @@
 :do { add list=NP address=150.107.106.0/23 } on-error={}
 :do { add list=NP address=150.107.204.0/22 } on-error={}
 :do { add list=NP address=150.228.194.0/23 } on-error={}
+:do { add list=NP address=152.52.11.10/32 } on-error={}
 :do { add list=NP address=154.94.122.0/24 } on-error={}
 :do { add list=NP address=154.95.68.0/24 } on-error={}
 :do { add list=NP address=154.203.177.0/24 } on-error={}

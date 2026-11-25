@@ -3,12 +3,7 @@
 :do { add list=TO address=2001:df4:7480::/48 } on-error={}
 :do { add list=TO address=2400:6400::/32 } on-error={}
 :do { add list=TO address=2400:80e0::/32 } on-error={}
-:do { add list=TO address=2401:b60:1e80:4000::/50 } on-error={}
-:do { add list=TO address=2401:b60:1e80:8000::/49 } on-error={}
-:do { add list=TO address=2401:b60:1e81::/48 } on-error={}
-:do { add list=TO address=2401:b60:1e82::/47 } on-error={}
-:do { add list=TO address=2401:b60:1e84::/46 } on-error={}
-:do { add list=TO address=2401:b60:1e88::/45 } on-error={}
+:do { add list=TO address=2401:b60:1e80::/44 } on-error={}
 :do { add list=TO address=2401:af20:1be5::/48 } on-error={}
 :do { add list=TO address=2402:1940::/32 } on-error={}
 :do { add list=TO address=2405:b500:7200::/64 } on-error={}

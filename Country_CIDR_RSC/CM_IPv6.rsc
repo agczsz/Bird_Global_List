@@ -58,12 +58,7 @@
 :do { add list=CM address=2001:43ff:b000::/48 } on-error={}
 :do { add list=CM address=2400:cb00:603::/48 } on-error={}
 :do { add list=CM address=2400:cb00:1289::/48 } on-error={}
-:do { add list=CM address=2401:b60:1260:4000::/50 } on-error={}
-:do { add list=CM address=2401:b60:1260:8000::/49 } on-error={}
-:do { add list=CM address=2401:b60:1261::/48 } on-error={}
-:do { add list=CM address=2401:b60:1262::/47 } on-error={}
-:do { add list=CM address=2401:b60:1264::/46 } on-error={}
-:do { add list=CM address=2401:b60:1268::/45 } on-error={}
+:do { add list=CM address=2401:b60:1260::/44 } on-error={}
 :do { add list=CM address=2401:af20:1b5f::/48 } on-error={}
 :do { add list=CM address=2405:b500:1900::/64 } on-error={}
 :do { add list=CM address=2405:b500:1900:8::/64 } on-error={}

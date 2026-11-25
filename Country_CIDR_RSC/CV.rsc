@@ -6,9 +6,11 @@
 :do { add list=CV address=38.71.124.0/22 } on-error={}
 :do { add list=CV address=41.74.128.0/20 } on-error={}
 :do { add list=CV address=41.79.124.0/22 } on-error={}
+:do { add list=CV address=41.180.148.0/24 } on-error={}
 :do { add list=CV address=41.215.208.0/20 } on-error={}
 :do { add list=CV address=41.221.192.0/20 } on-error={}
 :do { add list=CV address=57.82.166.0/23 } on-error={}
+:do { add list=CV address=62.115.204.145/32 } on-error={}
 :do { add list=CV address=69.195.174.188/31 } on-error={}
 :do { add list=CV address=80.81.195.91/32 } on-error={}
 :do { add list=CV address=90.96.183.94/32 } on-error={}
@@ -89,6 +91,7 @@
 :do { add list=CV address=179.64.100.0/23 } on-error={}
 :do { add list=CV address=184.104.231.126/32 } on-error={}
 :do { add list=CV address=185.112.135.17/32 } on-error={}
+:do { add list=CV address=193.109.188.217/32 } on-error={}
 :do { add list=CV address=195.8.10.158/32 } on-error={}
 :do { add list=CV address=196.48.63.0/24 } on-error={}
 :do { add list=CV address=196.49.96.0/24 } on-error={}

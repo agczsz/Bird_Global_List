@@ -1,11 +1,6 @@
 /log info "Loading SH IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=SH address=2401:b60:1be0:4000::/50 } on-error={}
-:do { add list=SH address=2401:b60:1be0:8000::/49 } on-error={}
-:do { add list=SH address=2401:b60:1be1::/48 } on-error={}
-:do { add list=SH address=2401:b60:1be2::/47 } on-error={}
-:do { add list=SH address=2401:b60:1be4::/46 } on-error={}
-:do { add list=SH address=2401:b60:1be8::/45 } on-error={}
+:do { add list=SH address=2401:b60:1be0::/44 } on-error={}
 :do { add list=SH address=2401:af20:1bd0::/48 } on-error={}
 :do { add list=SH address=2602:814:ff18::/46 } on-error={}
 :do { add list=SH address=2605:59c0:8700::/40 } on-error={}
@@ -128,8 +123,10 @@
 :do { add list=SH address=2a0e:4001:9ff:8000::/49 } on-error={}
 :do { add list=SH address=2a0e:4003:bb2d:70fb::/64 } on-error={}
 :do { add list=SH address=2a0e:4007:220::/50 } on-error={}
+:do { add list=SH address=2a0e:4007:228::/50 } on-error={}
 :do { add list=SH address=2a0e:4007:22c::/50 } on-error={}
 :do { add list=SH address=2a0e:4007:22e::/50 } on-error={}
+:do { add list=SH address=2a0e:4007:22f::/48 } on-error={}
 :do { add list=SH address=2a0f:1cc1:d2d0::/44 } on-error={}
 :do { add list=SH address=2a10:24c0:59b9::/48 } on-error={}
 :do { add list=SH address=2a10:24c0:7aed::/48 } on-error={}

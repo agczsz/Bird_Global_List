@@ -10,12 +10,7 @@
 :do { add list=WS address=2001:df1:8780::/48 } on-error={}
 :do { add list=WS address=2001:df7:500::/48 } on-error={}
 :do { add list=WS address=2001:3786:7001:100::/56 } on-error={}
-:do { add list=WS address=2401:b60:1c40:4000::/50 } on-error={}
-:do { add list=WS address=2401:b60:1c40:8000::/49 } on-error={}
-:do { add list=WS address=2401:b60:1c41::/48 } on-error={}
-:do { add list=WS address=2401:b60:1c42::/47 } on-error={}
-:do { add list=WS address=2401:b60:1c44::/46 } on-error={}
-:do { add list=WS address=2401:b60:1c48::/45 } on-error={}
+:do { add list=WS address=2401:b60:1c40::/44 } on-error={}
 :do { add list=WS address=2401:ae60::/44 } on-error={}
 :do { add list=WS address=2401:ae60:10:1::/64 } on-error={}
 :do { add list=WS address=2401:ae60:10:2::/63 } on-error={}
@@ -173,7 +168,6 @@
 :do { add list=WS address=2406:2d40:7580::/42 } on-error={}
 :do { add list=WS address=2406:2d40:aa00::/40 } on-error={}
 :do { add list=WS address=2407:2800::/32 } on-error={}
-:do { add list=WS address=2600:70ff:a466::/48 } on-error={}
 :do { add list=WS address=2602:814:ffcc::/46 } on-error={}
 :do { add list=WS address=2605:59c7:a000:2f5::/64 } on-error={}
 :do { add list=WS address=2606:54c0:d380::/45 } on-error={}

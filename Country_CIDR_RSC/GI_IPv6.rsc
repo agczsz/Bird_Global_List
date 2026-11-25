@@ -1,12 +1,7 @@
 /log info "Loading GI IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=GI address=2001:67c:1728::/48 } on-error={}
-:do { add list=GI address=2401:b60:1530:4000::/50 } on-error={}
-:do { add list=GI address=2401:b60:1530:8000::/49 } on-error={}
-:do { add list=GI address=2401:b60:1531::/48 } on-error={}
-:do { add list=GI address=2401:b60:1532::/47 } on-error={}
-:do { add list=GI address=2401:b60:1534::/46 } on-error={}
-:do { add list=GI address=2401:b60:1538::/45 } on-error={}
+:do { add list=GI address=2401:b60:1530::/44 } on-error={}
 :do { add list=GI address=2401:af20:1b78::/48 } on-error={}
 :do { add list=GI address=2405:b500:2b80::/64 } on-error={}
 :do { add list=GI address=2405:b500:2ba0::/64 } on-error={}

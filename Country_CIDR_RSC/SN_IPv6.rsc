@@ -1,6 +1,5 @@
 /log info "Loading SN IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=SN address=2001:67c:2960:6464::c1fb:f9f4/128 } on-error={}
 :do { add list=SN address=2001:4278::/32 } on-error={}
 :do { add list=SN address=2001:43f8:cf0::/47 } on-error={}
 :do { add list=SN address=2001:43f8:1400::/48 } on-error={}
@@ -8,12 +7,7 @@
 :do { add list=SN address=2001:43fe:7000::/48 } on-error={}
 :do { add list=SN address=2001:43fe:c800::/48 } on-error={}
 :do { add list=SN address=2400:cb00:147::/48 } on-error={}
-:do { add list=SN address=2401:b60:1c80:4000::/50 } on-error={}
-:do { add list=SN address=2401:b60:1c80:8000::/49 } on-error={}
-:do { add list=SN address=2401:b60:1c81::/48 } on-error={}
-:do { add list=SN address=2401:b60:1c82::/47 } on-error={}
-:do { add list=SN address=2401:b60:1c84::/46 } on-error={}
-:do { add list=SN address=2401:b60:1c88::/45 } on-error={}
+:do { add list=SN address=2401:b60:1c80::/44 } on-error={}
 :do { add list=SN address=2401:af20:1bd4::/48 } on-error={}
 :do { add list=SN address=2405:b500:6880::/64 } on-error={}
 :do { add list=SN address=2405:b500:68a0::/64 } on-error={}

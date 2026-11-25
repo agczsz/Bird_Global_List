@@ -1,15 +1,7 @@
 /log info "Loading MS IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=MS address=2401:b60:1990:4000::/50 } on-error={}
-:do { add list=MS address=2401:b60:1990:8000::/49 } on-error={}
-:do { add list=MS address=2401:b60:1991::/48 } on-error={}
-:do { add list=MS address=2401:b60:1992::/47 } on-error={}
-:do { add list=MS address=2401:b60:1994::/46 } on-error={}
-:do { add list=MS address=2401:b60:1998::/45 } on-error={}
+:do { add list=MS address=2401:b60:1990::/44 } on-error={}
 :do { add list=MS address=2401:af20:1bac::/48 } on-error={}
-:do { add list=MS address=2405:b500:4e00::/64 } on-error={}
-:do { add list=MS address=2405:b500:4e20::/64 } on-error={}
-:do { add list=MS address=2405:b500:4e40::/64 } on-error={}
 :do { add list=MS address=2602:814:fe5c::/46 } on-error={}
 :do { add list=MS address=2602:f96d:109:1690::/64 } on-error={}
 :do { add list=MS address=2605:59c0:f00::/40 } on-error={}

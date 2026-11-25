@@ -19,12 +19,7 @@
 :do { add list=BT address=2400:4e60::/32 } on-error={}
 :do { add list=BT address=2400:50c0::/32 } on-error={}
 :do { add list=BT address=2400:cb00:227::/48 } on-error={}
-:do { add list=BT address=2401:b60:1190:4000::/50 } on-error={}
-:do { add list=BT address=2401:b60:1190:8000::/49 } on-error={}
-:do { add list=BT address=2401:b60:1191::/48 } on-error={}
-:do { add list=BT address=2401:b60:1192::/47 } on-error={}
-:do { add list=BT address=2401:b60:1194::/46 } on-error={}
-:do { add list=BT address=2401:b60:1198::/45 } on-error={}
+:do { add list=BT address=2401:b60:1190::/44 } on-error={}
 :do { add list=BT address=2401:5f40::/32 } on-error={}
 :do { add list=BT address=2401:af20:1b54::/48 } on-error={}
 :do { add list=BT address=2401:b760::/32 } on-error={}

@@ -1,12 +1,7 @@
 /log info "Loading RE IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=RE address=2400:cb00:178::/48 } on-error={}
-:do { add list=RE address=2401:b60:1b90:4000::/50 } on-error={}
-:do { add list=RE address=2401:b60:1b90:8000::/49 } on-error={}
-:do { add list=RE address=2401:b60:1b91::/48 } on-error={}
-:do { add list=RE address=2401:b60:1b92::/47 } on-error={}
-:do { add list=RE address=2401:b60:1b94::/46 } on-error={}
-:do { add list=RE address=2401:b60:1b98::/45 } on-error={}
+:do { add list=RE address=2401:b60:1b90::/44 } on-error={}
 :do { add list=RE address=2401:af20:1bca::/48 } on-error={}
 :do { add list=RE address=2405:b500:6000::/64 } on-error={}
 :do { add list=RE address=2405:b500:6020::/64 } on-error={}
@@ -28,6 +23,7 @@
 :do { add list=RE address=2a01:cb08:a004:1:193:253:74:50/128 } on-error={}
 :do { add list=RE address=2a01:cb08:a004:21f:193:253:74:83/128 } on-error={}
 :do { add list=RE address=2a01:cb08:a004:21f:193:253:74:92/128 } on-error={}
+:do { add list=RE address=2a01:cb08:a004:21f:193:253:76:3/128 } on-error={}
 :do { add list=RE address=2a01:cb08:a004:21f:193:253:77:86/128 } on-error={}
 :do { add list=RE address=2a01:cb08:a004:220:193:253:77:182/128 } on-error={}
 :do { add list=RE address=2a01:cb22::/37 } on-error={}
@@ -83,9 +79,7 @@
 :do { add list=RE address=2a01:cb22:4fff::/48 } on-error={}
 :do { add list=RE address=2a01:cfc0:200:8000:193:252:102:87/128 } on-error={}
 :do { add list=RE address=2a01:cfc0:200:8000:193:252:102:88/128 } on-error={}
-:do { add list=RE address=2a01:cfc4:0:6700::a/128 } on-error={}
-:do { add list=RE address=2a01:cfc4:0:6700::c/127 } on-error={}
-:do { add list=RE address=2a01:cfc4:0:6700::10/128 } on-error={}
+:do { add list=RE address=2a01:cfc4:0:6700::d/128 } on-error={}
 :do { add list=RE address=2a01:cfc4:0:6800::3/128 } on-error={}
 :do { add list=RE address=2a01:cfc4:0:6900::3/128 } on-error={}
 :do { add list=RE address=2a02:26f7:d340:4000::/64 } on-error={}

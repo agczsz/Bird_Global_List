@@ -4,12 +4,7 @@
 :do { add list=PF address=2001:df6:8080::/48 } on-error={}
 :do { add list=PF address=2400:5f00::/32 } on-error={}
 :do { add list=PF address=2400:cb00:614::/48 } on-error={}
-:do { add list=PF address=2401:b60:14c0:4000::/50 } on-error={}
-:do { add list=PF address=2401:b60:14c0:8000::/49 } on-error={}
-:do { add list=PF address=2401:b60:14c1::/48 } on-error={}
-:do { add list=PF address=2401:b60:14c2::/47 } on-error={}
-:do { add list=PF address=2401:b60:14c4::/46 } on-error={}
-:do { add list=PF address=2401:b60:14c8::/45 } on-error={}
+:do { add list=PF address=2401:b60:14c0::/44 } on-error={}
 :do { add list=PF address=2401:af20:1bc0::/48 } on-error={}
 :do { add list=PF address=2401:dc80::/32 } on-error={}
 :do { add list=PF address=2402:6d00::/32 } on-error={}

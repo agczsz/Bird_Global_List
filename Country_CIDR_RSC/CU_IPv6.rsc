@@ -46,12 +46,7 @@
 :do { add list=CU address=2001:1358::/32 } on-error={}
 :do { add list=CU address=2001:13c8::/32 } on-error={}
 :do { add list=CU address=2001:3786:5004:100::/56 } on-error={}
-:do { add list=CU address=2401:b60:1380:4000::/50 } on-error={}
-:do { add list=CU address=2401:b60:1380:8000::/49 } on-error={}
-:do { add list=CU address=2401:b60:1381::/48 } on-error={}
-:do { add list=CU address=2401:b60:1382::/47 } on-error={}
-:do { add list=CU address=2401:b60:1384::/46 } on-error={}
-:do { add list=CU address=2401:b60:1388::/45 } on-error={}
+:do { add list=CU address=2401:b60:1380::/44 } on-error={}
 :do { add list=CU address=2401:af20:1b62::/48 } on-error={}
 :do { add list=CU address=2405:b500:1b00::/64 } on-error={}
 :do { add list=CU address=2405:b500:1b00:8::/64 } on-error={}

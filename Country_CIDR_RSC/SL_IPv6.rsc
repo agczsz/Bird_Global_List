@@ -4,12 +4,7 @@
 :do { add list=SL address=2001:43f8:b0::/48 } on-error={}
 :do { add list=SL address=2001:43f8:a90::/48 } on-error={}
 :do { add list=SL address=2001:43f8:1a30::/47 } on-error={}
-:do { add list=SL address=2401:b60:1cb0:4000::/50 } on-error={}
-:do { add list=SL address=2401:b60:1cb0:8000::/49 } on-error={}
-:do { add list=SL address=2401:b60:1cb1::/48 } on-error={}
-:do { add list=SL address=2401:b60:1cb2::/47 } on-error={}
-:do { add list=SL address=2401:b60:1cb4::/46 } on-error={}
-:do { add list=SL address=2401:b60:1cb8::/45 } on-error={}
+:do { add list=SL address=2401:b60:1cb0::/44 } on-error={}
 :do { add list=SL address=2401:af20:1bd2::/48 } on-error={}
 :do { add list=SL address=2405:b500:6780::/64 } on-error={}
 :do { add list=SL address=2405:b500:67a0::/64 } on-error={}

@@ -2,12 +2,7 @@
 /ipv6 firewall address-list
 :do { add list=LC address=2001:505:150::/48 } on-error={}
 :do { add list=LC address=2001:3786:bb02:100::/56 } on-error={}
-:do { add list=LC address=2401:b60:1c00:4000::/50 } on-error={}
-:do { add list=LC address=2401:b60:1c00:8000::/49 } on-error={}
-:do { add list=LC address=2401:b60:1c01::/48 } on-error={}
-:do { add list=LC address=2401:b60:1c02::/47 } on-error={}
-:do { add list=LC address=2401:b60:1c04::/46 } on-error={}
-:do { add list=LC address=2401:b60:1c08::/45 } on-error={}
+:do { add list=LC address=2401:b60:1c00::/44 } on-error={}
 :do { add list=LC address=2401:af20:1b99::/48 } on-error={}
 :do { add list=LC address=2405:b500:4200::/64 } on-error={}
 :do { add list=LC address=2405:b500:4220::/64 } on-error={}
@@ -38,7 +33,21 @@
 :do { add list=LC address=2606:3c80:1800::/37 } on-error={}
 :do { add list=LC address=2606:3c80:2000::/35 } on-error={}
 :do { add list=LC address=2606:3c80:4000::/34 } on-error={}
-:do { add list=LC address=2606:3c80:8000::/33 } on-error={}
+:do { add list=LC address=2606:3c80:8000::/35 } on-error={}
+:do { add list=LC address=2606:3c80:a000::/36 } on-error={}
+:do { add list=LC address=2606:3c80:b000::/48 } on-error={}
+:do { add list=LC address=2606:3c80:b002::/47 } on-error={}
+:do { add list=LC address=2606:3c80:b004::/46 } on-error={}
+:do { add list=LC address=2606:3c80:b008::/45 } on-error={}
+:do { add list=LC address=2606:3c80:b010::/44 } on-error={}
+:do { add list=LC address=2606:3c80:b020::/43 } on-error={}
+:do { add list=LC address=2606:3c80:b040::/42 } on-error={}
+:do { add list=LC address=2606:3c80:b080::/41 } on-error={}
+:do { add list=LC address=2606:3c80:b100::/40 } on-error={}
+:do { add list=LC address=2606:3c80:b200::/39 } on-error={}
+:do { add list=LC address=2606:3c80:b400::/38 } on-error={}
+:do { add list=LC address=2606:3c80:b800::/37 } on-error={}
+:do { add list=LC address=2606:3c80:c000::/34 } on-error={}
 :do { add list=LC address=2606:54c0:4798::/45 } on-error={}
 :do { add list=LC address=2606:54c1:1:406::/64 } on-error={}
 :do { add list=LC address=2606:54c3:0:be::/64 } on-error={}

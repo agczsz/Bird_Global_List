@@ -25,12 +25,7 @@
 :do { add list=HT address=2001:3786:5004:500::/56 } on-error={}
 :do { add list=HT address=2001:3786:bb02:300::/56 } on-error={}
 :do { add list=HT address=2400:cb00:205::/48 } on-error={}
-:do { add list=HT address=2401:b60:15e0:4000::/50 } on-error={}
-:do { add list=HT address=2401:b60:15e0:8000::/49 } on-error={}
-:do { add list=HT address=2401:b60:15e1::/48 } on-error={}
-:do { add list=HT address=2401:b60:15e2::/47 } on-error={}
-:do { add list=HT address=2401:b60:15e4::/46 } on-error={}
-:do { add list=HT address=2401:b60:15e8::/45 } on-error={}
+:do { add list=HT address=2401:b60:15e0::/44 } on-error={}
 :do { add list=HT address=2401:af20:1b85::/48 } on-error={}
 :do { add list=HT address=2405:b500:3380::/64 } on-error={}
 :do { add list=HT address=2405:b500:33a0::/64 } on-error={}

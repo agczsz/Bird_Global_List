@@ -1,8 +1,8 @@
 /log info "Loading LY IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=LY address=2001:1900:5:2:2::27d6/128 } on-error={}
 :do { add list=LY address=2001:43f8:50::/48 } on-error={}
 :do { add list=LY address=2001:43f8:16b0::/48 } on-error={}
+:do { add list=LY address=2401:b60:1820::/44 } on-error={}
 :do { add list=LY address=2401:af20:1b9f::/48 } on-error={}
 :do { add list=LY address=2405:b500:4600::/64 } on-error={}
 :do { add list=LY address=2405:b500:4620::/64 } on-error={}

@@ -1,11 +1,6 @@
 /log info "Loading ER IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=ER address=2401:b60:1430:4000::/50 } on-error={}
-:do { add list=ER address=2401:b60:1430:8000::/49 } on-error={}
-:do { add list=ER address=2401:b60:1431::/48 } on-error={}
-:do { add list=ER address=2401:b60:1432::/47 } on-error={}
-:do { add list=ER address=2401:b60:1434::/46 } on-error={}
-:do { add list=ER address=2401:b60:1438::/45 } on-error={}
+:do { add list=ER address=2401:b60:1430::/44 } on-error={}
 :do { add list=ER address=2401:af20:1b6d::/48 } on-error={}
 :do { add list=ER address=2405:b500:2300::/64 } on-error={}
 :do { add list=ER address=2405:b500:2320::/64 } on-error={}
@@ -100,6 +95,7 @@
 :do { add list=ER address=2a0d:2684:42::/48 } on-error={}
 :do { add list=ER address=2a0d:9444:7000::/37 } on-error={}
 :do { add list=ER address=2a0e:4003:bb2d:2182::/64 } on-error={}
+:do { add list=ER address=2a0e:97c1:8a20::/48 } on-error={}
 :do { add list=ER address=2a0e:b107:23f0::/45 } on-error={}
 :do { add list=ER address=2a0f:1cc1:d180::/44 } on-error={}
 :do { add list=ER address=2a0f:85c1:81b:f3a0::/60 } on-error={}

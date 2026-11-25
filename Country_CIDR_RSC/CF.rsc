@@ -2,6 +2,8 @@
 /ip firewall address-list
 :do { add list=CF address=5.62.62.76/30 } on-error={}
 :do { add list=CF address=41.78.120.0/22 } on-error={}
+:do { add list=CF address=41.181.105.176/32 } on-error={}
+:do { add list=CF address=41.181.189.195/32 } on-error={}
 :do { add list=CF address=41.223.184.0/22 } on-error={}
 :do { add list=CF address=57.82.56.0/23 } on-error={}
 :do { add list=CF address=57.82.170.0/23 } on-error={}
@@ -36,8 +38,10 @@
 :do { add list=CF address=104.29.205.105/32 } on-error={}
 :do { add list=CF address=104.29.205.106/32 } on-error={}
 :do { add list=CF address=105.177.9.191/32 } on-error={}
-:do { add list=CF address=105.177.33.1/32 } on-error={}
+:do { add list=CF address=105.177.33.0/31 } on-error={}
+:do { add list=CF address=105.177.33.28/32 } on-error={}
 :do { add list=CF address=105.177.33.33/32 } on-error={}
+:do { add list=CF address=105.177.33.57/32 } on-error={}
 :do { add list=CF address=140.248.40.12/31 } on-error={}
 :do { add list=CF address=140.248.57.40/32 } on-error={}
 :do { add list=CF address=140.248.58.40/32 } on-error={}

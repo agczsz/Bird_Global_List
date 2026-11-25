@@ -1,12 +1,7 @@
 /log info "Loading TC IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=TC address=2001:3786:bb01:100::/56 } on-error={}
-:do { add list=TC address=2401:b60:1ed0:4000::/50 } on-error={}
-:do { add list=TC address=2401:b60:1ed0:8000::/49 } on-error={}
-:do { add list=TC address=2401:b60:1ed1::/48 } on-error={}
-:do { add list=TC address=2401:b60:1ed2::/47 } on-error={}
-:do { add list=TC address=2401:b60:1ed4::/46 } on-error={}
-:do { add list=TC address=2401:b60:1ed8::/45 } on-error={}
+:do { add list=TC address=2401:b60:1ed0::/44 } on-error={}
 :do { add list=TC address=2401:af20:1bdd::/48 } on-error={}
 :do { add list=TC address=2405:b500:6d00::/64 } on-error={}
 :do { add list=TC address=2405:b500:6d20::/64 } on-error={}

@@ -1,11 +1,6 @@
 /log info "Loading IO IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=IO address=2401:b60:1200:4000::/50 } on-error={}
-:do { add list=IO address=2401:b60:1200:8000::/49 } on-error={}
-:do { add list=IO address=2401:b60:1201::/48 } on-error={}
-:do { add list=IO address=2401:b60:1202::/47 } on-error={}
-:do { add list=IO address=2401:b60:1204::/46 } on-error={}
-:do { add list=IO address=2401:b60:1208::/45 } on-error={}
+:do { add list=IO address=2401:b60:1200::/44 } on-error={}
 :do { add list=IO address=2401:a440::/32 } on-error={}
 :do { add list=IO address=2401:af20:1b88::/48 } on-error={}
 :do { add list=IO address=2405:b500:3700::/64 } on-error={}

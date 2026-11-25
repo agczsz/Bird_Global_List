@@ -7,12 +7,8 @@
 :do { add list=MZ address=2400:8800:9f03::/48 } on-error={}
 :do { add list=MZ address=2400:8800:f100::4b4/127 } on-error={}
 :do { add list=MZ address=2400:cb00:195::/48 } on-error={}
-:do { add list=MZ address=2401:b60:19b0:4000::/50 } on-error={}
-:do { add list=MZ address=2401:b60:19b0:8000::/49 } on-error={}
-:do { add list=MZ address=2401:b60:19b1::/48 } on-error={}
-:do { add list=MZ address=2401:b60:19b2::/47 } on-error={}
-:do { add list=MZ address=2401:b60:19b4::/46 } on-error={}
-:do { add list=MZ address=2401:b60:19b8::/45 } on-error={}
+:do { add list=MZ address=2401:b60:19b0::/44 } on-error={}
+:do { add list=MZ address=2401:b60:19d0::/44 } on-error={}
 :do { add list=MZ address=2401:af20:1bb2::/48 } on-error={}
 :do { add list=MZ address=2405:b500:5180::/64 } on-error={}
 :do { add list=MZ address=2405:b500:51a0::/64 } on-error={}
@@ -284,6 +280,8 @@
 :do { add list=MZ address=2c0f:f5e0::/32 } on-error={}
 :do { add list=MZ address=2c0f:fb48::/32 } on-error={}
 :do { add list=MZ address=2c0f:fb90::/32 } on-error={}
+:do { add list=MZ address=2c0f:fd50:2:4000::/50 } on-error={}
+:do { add list=MZ address=2c0f:fd50:2:8000::/49 } on-error={}
 :do { add list=MZ address=2c0f:feb0:0:8::/64 } on-error={}
 :do { add list=MZ address=2c0f:feb0:1::61/128 } on-error={}
 :do { add list=MZ address=2c0f:feb0:1::62/128 } on-error={}
@@ -294,4 +292,3 @@
 :do { add list=MZ address=2c0f:feb0:1::161/128 } on-error={}
 :do { add list=MZ address=2c0f:feb0:1::162/128 } on-error={}
 :do { add list=MZ address=2c0f:feb0:1:2::b9/128 } on-error={}
-:do { add list=MZ address=2c0f:feb0:1:2::be/128 } on-error={}

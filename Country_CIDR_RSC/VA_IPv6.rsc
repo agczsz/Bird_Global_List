@@ -1,5 +1,6 @@
 /log info "Loading VA IPv6 Address List"
 /ipv6 firewall address-list
+:do { add list=VA address=2401:b60:1600::/44 } on-error={}
 :do { add list=VA address=2401:af20:1bec::/48 } on-error={}
 :do { add list=VA address=2405:b500:7800::/64 } on-error={}
 :do { add list=VA address=2405:b500:7820::/64 } on-error={}

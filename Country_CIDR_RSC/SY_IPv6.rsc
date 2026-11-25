@@ -3,12 +3,7 @@
 :do { add list=SY address=2001:df4:ec00:100::1ea/127 } on-error={}
 :do { add list=SY address=2001:df4:ec00:8df::/64 } on-error={}
 :do { add list=SY address=2001:df4:ec00:8e0::/64 } on-error={}
-:do { add list=SY address=2401:b60:1df0:4000::/50 } on-error={}
-:do { add list=SY address=2401:b60:1df0:8000::/49 } on-error={}
-:do { add list=SY address=2401:b60:1df1::/48 } on-error={}
-:do { add list=SY address=2401:b60:1df2::/47 } on-error={}
-:do { add list=SY address=2401:b60:1df4::/46 } on-error={}
-:do { add list=SY address=2401:b60:1df8::/45 } on-error={}
+:do { add list=SY address=2401:b60:1df0::/44 } on-error={}
 :do { add list=SY address=2401:af20:1bdb::/48 } on-error={}
 :do { add list=SY address=2405:b500:6c00::/64 } on-error={}
 :do { add list=SY address=2405:b500:6c00:8::/64 } on-error={}

@@ -1,11 +1,6 @@
 /log info "Loading YT IPv6 Address List"
 /ipv6 firewall address-list
-:do { add list=YT address=2401:b60:1920:4000::/50 } on-error={}
-:do { add list=YT address=2401:b60:1920:8000::/49 } on-error={}
-:do { add list=YT address=2401:b60:1921::/48 } on-error={}
-:do { add list=YT address=2401:b60:1922::/47 } on-error={}
-:do { add list=YT address=2401:b60:1924::/46 } on-error={}
-:do { add list=YT address=2401:b60:1928::/45 } on-error={}
+:do { add list=YT address=2401:b60:1920::/44 } on-error={}
 :do { add list=YT address=2401:af20:1bf6::/48 } on-error={}
 :do { add list=YT address=2405:b500:7d00::/64 } on-error={}
 :do { add list=YT address=2405:b500:7d20::/64 } on-error={}

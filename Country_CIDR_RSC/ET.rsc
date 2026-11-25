@@ -2,18 +2,11 @@
 /ip firewall address-list
 :do { add list=ET address=5.62.62.124/30 } on-error={}
 :do { add list=ET address=9.170.98.0/23 } on-error={}
-:do { add list=ET address=41.79.199.98/32 } on-error={}
-:do { add list=ET address=41.79.199.113/32 } on-error={}
 :do { add list=ET address=41.79.199.114/32 } on-error={}
-:do { add list=ET address=41.79.199.117/32 } on-error={}
-:do { add list=ET address=41.79.199.125/32 } on-error={}
 :do { add list=ET address=41.79.199.126/32 } on-error={}
-:do { add list=ET address=41.79.199.133/32 } on-error={}
-:do { add list=ET address=41.79.199.135/32 } on-error={}
-:do { add list=ET address=41.79.199.136/31 } on-error={}
-:do { add list=ET address=41.79.199.153/32 } on-error={}
-:do { add list=ET address=41.79.199.164/32 } on-error={}
-:do { add list=ET address=41.79.199.169/32 } on-error={}
+:do { add list=ET address=41.79.199.139/32 } on-error={}
+:do { add list=ET address=41.189.225.18/32 } on-error={}
+:do { add list=ET address=41.189.225.38/32 } on-error={}
 :do { add list=ET address=45.112.182.128/26 } on-error={}
 :do { add list=ET address=45.159.111.208/29 } on-error={}
 :do { add list=ET address=57.82.118.0/23 } on-error={}
@@ -77,6 +70,7 @@
 :do { add list=ET address=140.248.63.68/32 } on-error={}
 :do { add list=ET address=146.75.166.46/31 } on-error={}
 :do { add list=ET address=146.75.174.8/31 } on-error={}
+:do { add list=ET address=149.11.241.226/32 } on-error={}
 :do { add list=ET address=154.209.21.0/28 } on-error={}
 :do { add list=ET address=154.209.21.16/30 } on-error={}
 :do { add list=ET address=154.209.21.20/32 } on-error={}
@@ -104,6 +98,7 @@
 :do { add list=ET address=164.137.228.0/24 } on-error={}
 :do { add list=ET address=164.160.184.0/22 } on-error={}
 :do { add list=ET address=165.220.244.144/29 } on-error={}
+:do { add list=ET address=169.159.194.130/32 } on-error={}
 :do { add list=ET address=172.224.230.80/28 } on-error={}
 :do { add list=ET address=172.224.230.96/31 } on-error={}
 :do { add list=ET address=172.225.116.160/31 } on-error={}

@@ -3,12 +3,7 @@
 :do { add list=CV address=2001:43f8:16c0::/47 } on-error={}
 :do { add list=CV address=2001:43fc:1000::/48 } on-error={}
 :do { add list=CV address=2001:43fd:5000::/48 } on-error={}
-:do { add list=CV address=2401:b60:1280:4000::/50 } on-error={}
-:do { add list=CV address=2401:b60:1280:8000::/49 } on-error={}
-:do { add list=CV address=2401:b60:1281::/48 } on-error={}
-:do { add list=CV address=2401:b60:1282::/47 } on-error={}
-:do { add list=CV address=2401:b60:1284::/46 } on-error={}
-:do { add list=CV address=2401:b60:1288::/45 } on-error={}
+:do { add list=CV address=2401:b60:1280::/44 } on-error={}
 :do { add list=CV address=2401:af20:1b63::/48 } on-error={}
 :do { add list=CV address=2405:b500:1b80::/64 } on-error={}
 :do { add list=CV address=2405:b500:1ba0::/64 } on-error={}
@@ -170,7 +165,6 @@
 :do { add list=CV address=2a12:f381:b100::/40 } on-error={}
 :do { add list=CV address=2a12:f382:b100::/40 } on-error={}
 :do { add list=CV address=2a13:241:d00::/40 } on-error={}
-:do { add list=CV address=2a13:9500:1e4:1f9::/64 } on-error={}
 :do { add list=CV address=2a13:a5c3:d118::/46 } on-error={}
 :do { add list=CV address=2a13:ef41:129a::/47 } on-error={}
 :do { add list=CV address=2a13:ef41:a29a::/47 } on-error={}

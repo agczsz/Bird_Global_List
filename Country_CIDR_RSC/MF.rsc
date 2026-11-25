@@ -1,6 +1,7 @@
 /log info "Loading MF IPv4 Address List"
 /ip firewall address-list
-:do { add list=MF address=5.187.114.2/32 } on-error={}
+:do { add list=MF address=5.187.121.140/31 } on-error={}
+:do { add list=MF address=5.187.121.143/32 } on-error={}
 :do { add list=MF address=23.138.120.0/24 } on-error={}
 :do { add list=MF address=45.15.196.0/22 } on-error={}
 :do { add list=MF address=45.62.191.208/28 } on-error={}
@@ -8,10 +9,9 @@
 :do { add list=MF address=45.145.144.0/22 } on-error={}
 :do { add list=MF address=46.193.55.197/32 } on-error={}
 :do { add list=MF address=46.193.55.211/32 } on-error={}
-:do { add list=MF address=66.119.73.114/32 } on-error={}
+:do { add list=MF address=67.230.100.163/32 } on-error={}
 :do { add list=MF address=74.112.232.0/21 } on-error={}
 :do { add list=MF address=74.116.95.0/24 } on-error={}
-:do { add list=MF address=80.10.238.205/32 } on-error={}
 :do { add list=MF address=81.248.21.61/32 } on-error={}
 :do { add list=MF address=81.248.21.248/32 } on-error={}
 :do { add list=MF address=81.248.139.221/32 } on-error={}
@@ -44,10 +44,9 @@
 :do { add list=MF address=104.250.15.0/24 } on-error={}
 :do { add list=MF address=104.250.16.0/24 } on-error={}
 :do { add list=MF address=104.250.20.0/23 } on-error={}
-:do { add list=MF address=104.250.27.0/24 } on-error={}
+:do { add list=MF address=104.250.26.0/23 } on-error={}
 :do { add list=MF address=104.250.28.0/24 } on-error={}
 :do { add list=MF address=104.250.29.128/25 } on-error={}
-:do { add list=MF address=104.250.31.232/30 } on-error={}
 :do { add list=MF address=136.22.25.206/32 } on-error={}
 :do { add list=MF address=136.23.40.209/32 } on-error={}
 :do { add list=MF address=140.248.4.46/31 } on-error={}
@@ -106,11 +105,14 @@
 :do { add list=MF address=193.248.7.96/27 } on-error={}
 :do { add list=MF address=193.248.7.128/25 } on-error={}
 :do { add list=MF address=193.248.80.0/23 } on-error={}
-:do { add list=MF address=193.248.82.0/25 } on-error={}
+:do { add list=MF address=193.248.82.0/24 } on-error={}
 :do { add list=MF address=193.248.88.0/23 } on-error={}
 :do { add list=MF address=193.248.90.0/24 } on-error={}
 :do { add list=MF address=193.248.92.0/22 } on-error={}
-:do { add list=MF address=193.248.98.0/23 } on-error={}
+:do { add list=MF address=193.248.98.32/27 } on-error={}
+:do { add list=MF address=193.248.98.64/26 } on-error={}
+:do { add list=MF address=193.248.98.128/25 } on-error={}
+:do { add list=MF address=193.248.99.0/24 } on-error={}
 :do { add list=MF address=193.248.100.0/22 } on-error={}
 :do { add list=MF address=193.248.104.0/24 } on-error={}
 :do { add list=MF address=193.248.105.0/26 } on-error={}
@@ -120,10 +122,7 @@
 :do { add list=MF address=193.248.105.116/31 } on-error={}
 :do { add list=MF address=193.248.105.118/32 } on-error={}
 :do { add list=MF address=193.248.105.120/29 } on-error={}
-:do { add list=MF address=193.248.105.128/25 } on-error={}
-:do { add list=MF address=193.248.106.0/24 } on-error={}
-:do { add list=MF address=193.248.107.65/32 } on-error={}
-:do { add list=MF address=193.248.107.128/25 } on-error={}
+:do { add list=MF address=193.248.106.0/23 } on-error={}
 :do { add list=MF address=193.248.108.0/23 } on-error={}
 :do { add list=MF address=193.248.110.0/24 } on-error={}
 :do { add list=MF address=193.248.111.0/28 } on-error={}

@@ -7,12 +7,7 @@
 :do { add list=ST address=2001:470:f117::/48 } on-error={}
 :do { add list=ST address=2001:470:f83b::/48 } on-error={}
 :do { add list=ST address=2001:470:fd6f::/48 } on-error={}
-:do { add list=ST address=2401:b60:1c60:4000::/50 } on-error={}
-:do { add list=ST address=2401:b60:1c60:8000::/49 } on-error={}
-:do { add list=ST address=2401:b60:1c61::/48 } on-error={}
-:do { add list=ST address=2401:b60:1c62::/47 } on-error={}
-:do { add list=ST address=2401:b60:1c64::/46 } on-error={}
-:do { add list=ST address=2401:b60:1c68::/45 } on-error={}
+:do { add list=ST address=2401:b60:1c60::/44 } on-error={}
 :do { add list=ST address=2401:af20:1bd8::/48 } on-error={}
 :do { add list=ST address=2602:814:ff40::/46 } on-error={}
 :do { add list=ST address=2605:59c7:a000:3e::/64 } on-error={}

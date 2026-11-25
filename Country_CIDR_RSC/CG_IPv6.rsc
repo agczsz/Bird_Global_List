@@ -2,12 +2,7 @@
 /ipv6 firewall address-list
 :do { add list=CG address=2001:43f8:6a0::/46 } on-error={}
 :do { add list=CG address=2001:43fc:f000::/48 } on-error={}
-:do { add list=CG address=2401:b60:1320:4000::/50 } on-error={}
-:do { add list=CG address=2401:b60:1320:8000::/49 } on-error={}
-:do { add list=CG address=2401:b60:1321::/48 } on-error={}
-:do { add list=CG address=2401:b60:1322::/47 } on-error={}
-:do { add list=CG address=2401:b60:1324::/46 } on-error={}
-:do { add list=CG address=2401:b60:1328::/45 } on-error={}
+:do { add list=CG address=2401:b60:1320::/44 } on-error={}
 :do { add list=CG address=2401:af20:1b5b::/48 } on-error={}
 :do { add list=CG address=2405:b500:1680::/64 } on-error={}
 :do { add list=CG address=2405:b500:16a0::/64 } on-error={}

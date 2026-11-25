@@ -2,12 +2,7 @@
 /ipv6 firewall address-list
 :do { add list=TD address=2001:43f8:16a0::/47 } on-error={}
 :do { add list=TD address=2001:43fd:2000::/48 } on-error={}
-:do { add list=TD address=2401:b60:12b0:4000::/50 } on-error={}
-:do { add list=TD address=2401:b60:12b0:8000::/49 } on-error={}
-:do { add list=TD address=2401:b60:12b1::/48 } on-error={}
-:do { add list=TD address=2401:b60:12b2::/47 } on-error={}
-:do { add list=TD address=2401:b60:12b4::/46 } on-error={}
-:do { add list=TD address=2401:b60:12b8::/45 } on-error={}
+:do { add list=TD address=2401:b60:12b0::/44 } on-error={}
 :do { add list=TD address=2401:af20:1bde::/48 } on-error={}
 :do { add list=TD address=2405:b500:6d80::/64 } on-error={}
 :do { add list=TD address=2405:b500:6da0::/64 } on-error={}

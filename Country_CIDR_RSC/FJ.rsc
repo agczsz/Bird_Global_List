@@ -8,7 +8,6 @@
 :do { add list=FJ address=45.117.240.0/21 } on-error={}
 :do { add list=FJ address=57.70.162.0/23 } on-error={}
 :do { add list=FJ address=57.70.224.0/20 } on-error={}
-:do { add list=FJ address=65.19.142.246/32 } on-error={}
 :do { add list=FJ address=69.195.170.40/31 } on-error={}
 :do { add list=FJ address=80.92.59.0/24 } on-error={}
 :do { add list=FJ address=90.96.181.20/32 } on-error={}
@@ -134,7 +133,7 @@
 :do { add list=FJ address=183.81.136.248/31 } on-error={}
 :do { add list=FJ address=183.81.136.251/32 } on-error={}
 :do { add list=FJ address=183.81.136.254/31 } on-error={}
-:do { add list=FJ address=183.81.137.0/32 } on-error={}
+:do { add list=FJ address=183.81.137.0/31 } on-error={}
 :do { add list=FJ address=183.81.137.3/32 } on-error={}
 :do { add list=FJ address=183.81.137.4/30 } on-error={}
 :do { add list=FJ address=183.81.137.8/29 } on-error={}
@@ -153,11 +152,7 @@
 :do { add list=FJ address=183.81.137.120/32 } on-error={}
 :do { add list=FJ address=183.81.137.122/31 } on-error={}
 :do { add list=FJ address=183.81.137.124/30 } on-error={}
-:do { add list=FJ address=183.81.137.128/29 } on-error={}
-:do { add list=FJ address=183.81.137.136/30 } on-error={}
-:do { add list=FJ address=183.81.137.140/32 } on-error={}
-:do { add list=FJ address=183.81.137.142/31 } on-error={}
-:do { add list=FJ address=183.81.137.144/28 } on-error={}
+:do { add list=FJ address=183.81.137.128/27 } on-error={}
 :do { add list=FJ address=183.81.137.160/30 } on-error={}
 :do { add list=FJ address=183.81.137.164/32 } on-error={}
 :do { add list=FJ address=183.81.137.166/31 } on-error={}

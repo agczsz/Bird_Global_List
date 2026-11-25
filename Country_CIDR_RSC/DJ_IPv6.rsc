@@ -8,12 +8,7 @@
 :do { add list=DJ address=2001:43f8:9c0::/47 } on-error={}
 :do { add list=DJ address=2400:8800:f100::1be/127 } on-error={}
 :do { add list=DJ address=2400:cb00:122::/48 } on-error={}
-:do { add list=DJ address=2401:b60:13c0:4000::/50 } on-error={}
-:do { add list=DJ address=2401:b60:13c0:8000::/49 } on-error={}
-:do { add list=DJ address=2401:b60:13c1::/48 } on-error={}
-:do { add list=DJ address=2401:b60:13c2::/47 } on-error={}
-:do { add list=DJ address=2401:b60:13c4::/46 } on-error={}
-:do { add list=DJ address=2401:b60:13c8::/45 } on-error={}
+:do { add list=DJ address=2401:b60:13c0::/44 } on-error={}
 :do { add list=DJ address=2401:af20:1b67::/48 } on-error={}
 :do { add list=DJ address=2405:b500:1e80::/64 } on-error={}
 :do { add list=DJ address=2405:b500:1ea0::/64 } on-error={}

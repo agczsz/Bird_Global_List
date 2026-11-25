@@ -1,5 +1,6 @@
 /log info "Loading NI IPv4 Address List"
 /ip firewall address-list
+:do { add list=NI address=4.59.88.98/32 } on-error={}
 :do { add list=NI address=5.62.56.148/30 } on-error={}
 :do { add list=NI address=5.62.58.140/30 } on-error={}
 :do { add list=NI address=8.243.238.212/31 } on-error={}
@@ -107,6 +108,7 @@
 :do { add list=NI address=157.167.234.38/32 } on-error={}
 :do { add list=NI address=157.167.234.73/32 } on-error={}
 :do { add list=NI address=161.0.32.0/19 } on-error={}
+:do { add list=NI address=162.87.178.0/24 } on-error={}
 :do { add list=NI address=162.120.194.245/32 } on-error={}
 :do { add list=NI address=162.120.202.223/32 } on-error={}
 :do { add list=NI address=163.116.134.162/32 } on-error={}
@@ -223,6 +225,7 @@
 :do { add list=NI address=170.80.16.0/22 } on-error={}
 :do { add list=NI address=170.84.132.0/22 } on-error={}
 :do { add list=NI address=170.246.152.0/22 } on-error={}
+:do { add list=NI address=172.11.0.185/32 } on-error={}
 :do { add list=NI address=172.225.22.48/28 } on-error={}
 :do { add list=NI address=172.225.30.146/31 } on-error={}
 :do { add list=NI address=172.225.33.160/27 } on-error={}
@@ -255,7 +258,6 @@
 :do { add list=NI address=190.61.120.0/22 } on-error={}
 :do { add list=NI address=190.106.0.0/19 } on-error={}
 :do { add list=NI address=190.106.48.0/20 } on-error={}
-:do { add list=NI address=190.106.192.212/32 } on-error={}
 :do { add list=NI address=190.107.208.0/22 } on-error={}
 :do { add list=NI address=190.111.30.0/23 } on-error={}
 :do { add list=NI address=190.124.32.0/21 } on-error={}
@@ -268,7 +270,14 @@
 :do { add list=NI address=190.181.128.0/19 } on-error={}
 :do { add list=NI address=190.181.160.0/19 } on-error={}
 :do { add list=NI address=190.184.0.0/17 } on-error={}
-:do { add list=NI address=190.212.0.0/16 } on-error={}
+:do { add list=NI address=190.212.0.0/19 } on-error={}
+:do { add list=NI address=190.212.32.0/21 } on-error={}
+:do { add list=NI address=190.212.40.0/22 } on-error={}
+:do { add list=NI address=190.212.45.0/24 } on-error={}
+:do { add list=NI address=190.212.46.0/23 } on-error={}
+:do { add list=NI address=190.212.48.0/20 } on-error={}
+:do { add list=NI address=190.212.64.0/18 } on-error={}
+:do { add list=NI address=190.212.128.0/17 } on-error={}
 :do { add list=NI address=190.242.173.87/32 } on-error={}
 :do { add list=NI address=190.242.176.36/30 } on-error={}
 :do { add list=NI address=190.242.176.40/29 } on-error={}
