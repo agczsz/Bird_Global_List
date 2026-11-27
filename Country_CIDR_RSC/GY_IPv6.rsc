@@ -10,7 +10,6 @@
 :do { add list=GY address=2602:814:fd74::/46 } on-error={}
 :do { add list=GY address=2602:f805:21a::/48 } on-error={}
 :do { add list=GY address=2602:f96d:10b:3423::/64 } on-error={}
-:do { add list=GY address=2602:fd92:b00:138::/64 } on-error={}
 :do { add list=GY address=2605:59c7:a000:3bc::/64 } on-error={}
 :do { add list=GY address=2605:ecc0:700::/40 } on-error={}
 :do { add list=GY address=2606:40:3:2800::/54 } on-error={}
@@ -25,12 +24,7 @@
 :do { add list=GY address=2606:f188:138::/48 } on-error={}
 :do { add list=GY address=2607:8940:259e::/47 } on-error={}
 :do { add list=GY address=2607:8940:25a2::/47 } on-error={}
-:do { add list=GY address=2607:8940:4023:8100::/56 } on-error={}
-:do { add list=GY address=2607:8940:4023:8200::/56 } on-error={}
-:do { add list=GY address=2607:8940:4081:b00::/56 } on-error={}
-:do { add list=GY address=2607:8940:4081:c00::/56 } on-error={}
-:do { add list=GY address=2607:8940:40b0:fe00::/55 } on-error={}
-:do { add list=GY address=2607:8940:4143:8000::/55 } on-error={}
+:do { add list=GY address=2607:f438:0:1:69:79:100:232/128 } on-error={}
 :do { add list=GY address=2800:3c0::/32 } on-error={}
 :do { add list=GY address=2801:16:e0::/48 } on-error={}
 :do { add list=GY address=2803:d00::/32 } on-error={}
@@ -110,7 +104,6 @@
 :do { add list=GY address=2a0a:6044:f8d0::/46 } on-error={}
 :do { add list=GY address=2a0a:6044:f8d4::/47 } on-error={}
 :do { add list=GY address=2a0d:2684:5e::/48 } on-error={}
-:do { add list=GY address=2a0d:9441:c000::/37 } on-error={}
 :do { add list=GY address=2a0f:1cc1:f930::/44 } on-error={}
 :do { add list=GY address=2a0f:1cc5:1f83::/48 } on-error={}
 :do { add list=GY address=2a0f:85c1:81b:f4b0::/60 } on-error={}
@@ -124,8 +117,6 @@
 :do { add list=GY address=2a10:24c4:e800::/43 } on-error={}
 :do { add list=GY address=2a10:24c4:e820::/44 } on-error={}
 :do { add list=GY address=2a10:fa81:185d::/48 } on-error={}
-:do { add list=GY address=2a11:29c0:3d88:c210::/64 } on-error={}
-:do { add list=GY address=2a11:29c0:3d88:ea9b::/64 } on-error={}
 :do { add list=GY address=2a12:f381:d400::/40 } on-error={}
 :do { add list=GY address=2a12:f382:d400::/40 } on-error={}
 :do { add list=GY address=2a13:241:2000::/40 } on-error={}

@@ -7,13 +7,11 @@
 :do { add list=PM address=2405:b500:5c20::/64 } on-error={}
 :do { add list=PM address=2405:b500:5c40::/64 } on-error={}
 :do { add list=PM address=2405:b500:5c60::/64 } on-error={}
-:do { add list=PM address=2407:d340:7030::/44 } on-error={}
 :do { add list=PM address=2602:814:fecc::/46 } on-error={}
 :do { add list=PM address=2602:f93d:b0::/46 } on-error={}
 :do { add list=PM address=2602:f96d:109:2ea7::/64 } on-error={}
 :do { add list=PM address=2604:ca40::/32 } on-error={}
 :do { add list=PM address=2605:59c0:7900::/40 } on-error={}
-:do { add list=PM address=2605:59c9:1000::/42 } on-error={}
 :do { add list=PM address=2606:40:67:4c00::/54 } on-error={}
 :do { add list=PM address=2606:40:da:5c00::/54 } on-error={}
 :do { add list=PM address=2606:40:16d0::/44 } on-error={}
@@ -26,13 +24,6 @@
 :do { add list=PM address=2606:54c3:0:d87::/64 } on-error={}
 :do { add list=PM address=2607:8940:2976::/47 } on-error={}
 :do { add list=PM address=2607:8940:297a::/47 } on-error={}
-:do { add list=PM address=2607:8940:4023:ae00::/55 } on-error={}
-:do { add list=PM address=2607:8940:4070:cd00::/56 } on-error={}
-:do { add list=PM address=2607:8940:4070:ce00::/56 } on-error={}
-:do { add list=PM address=2607:8940:40f0:9900::/56 } on-error={}
-:do { add list=PM address=2607:8940:40f0:9a00::/56 } on-error={}
-:do { add list=PM address=2607:8940:4143:ad00::/56 } on-error={}
-:do { add list=PM address=2607:8940:4143:ae00::/56 } on-error={}
 :do { add list=PM address=2a02:26f7:e5c0::/48 } on-error={}
 :do { add list=PM address=2a02:26f7:e5c1::/48 } on-error={}
 :do { add list=PM address=2a02:26f7:e5c2::/48 } on-error={}
@@ -81,7 +72,6 @@
 :do { add list=PM address=2a0a:6044:f65c::/46 } on-error={}
 :do { add list=PM address=2a0d:6c2:2400::/40 } on-error={}
 :do { add list=PM address=2a0d:2684:b4::/48 } on-error={}
-:do { add list=PM address=2a0d:9445:1000::/37 } on-error={}
 :do { add list=PM address=2a0e:97c0:4bb5::/48 } on-error={}
 :do { add list=PM address=2a0e:97c1:8a26::/48 } on-error={}
 :do { add list=PM address=2a0f:1cc1:a718::/48 } on-error={}

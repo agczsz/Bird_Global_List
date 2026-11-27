@@ -124,5 +124,4 @@
 :do { add list=GQ address=197.214.67.0/24 } on-error={}
 :do { add list=GQ address=197.214.68.0/22 } on-error={}
 :do { add list=GQ address=197.214.72.0/21 } on-error={}
-:do { add list=GQ address=216.139.172.96/27 } on-error={}
 :do { add list=GQ address=216.250.220.0/25 } on-error={}

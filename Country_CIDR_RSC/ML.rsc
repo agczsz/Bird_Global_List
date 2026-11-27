@@ -2,11 +2,11 @@
 /ip firewall address-list
 :do { add list=ML address=5.62.62.252/30 } on-error={}
 :do { add list=ML address=41.73.96.0/19 } on-error={}
-:do { add list=ML address=41.82.206.128/31 } on-error={}
 :do { add list=ML address=41.194.4.0/23 } on-error={}
 :do { add list=ML address=41.194.175.0/26 } on-error={}
 :do { add list=ML address=41.203.192.0/20 } on-error={}
 :do { add list=ML address=41.208.188.139/32 } on-error={}
+:do { add list=ML address=41.214.65.199/32 } on-error={}
 :do { add list=ML address=41.214.67.76/32 } on-error={}
 :do { add list=ML address=41.221.176.0/20 } on-error={}
 :do { add list=ML address=57.82.154.0/23 } on-error={}
@@ -15,7 +15,6 @@
 :do { add list=ML address=69.195.190.70/31 } on-error={}
 :do { add list=ML address=74.244.86.0/23 } on-error={}
 :do { add list=ML address=80.15.246.0/24 } on-error={}
-:do { add list=ML address=81.192.254.118/32 } on-error={}
 :do { add list=ML address=85.255.21.112/28 } on-error={}
 :do { add list=ML address=90.96.191.35/32 } on-error={}
 :do { add list=ML address=102.68.176.0/22 } on-error={}

@@ -40,6 +40,7 @@
 :do { add list=VU address=104.29.205.55/32 } on-error={}
 :do { add list=VU address=104.29.205.56/31 } on-error={}
 :do { add list=VU address=113.11.240.0/21 } on-error={}
+:do { add list=VU address=116.251.240.0/22 } on-error={}
 :do { add list=VU address=136.22.12.140/32 } on-error={}
 :do { add list=VU address=136.23.34.138/32 } on-error={}
 :do { add list=VU address=140.248.57.241/32 } on-error={}

@@ -7,7 +7,6 @@
 :do { add list=CK address=2405:b500:1820::/64 } on-error={}
 :do { add list=CK address=2405:b500:1840::/64 } on-error={}
 :do { add list=CK address=2405:b500:1860::/64 } on-error={}
-:do { add list=CK address=2406:2d40:7340::/42 } on-error={}
 :do { add list=CK address=2406:2d40:a400::/40 } on-error={}
 :do { add list=CK address=2407:5800::/32 } on-error={}
 :do { add list=CK address=2602:814:fcb0::/46 } on-error={}
@@ -23,8 +22,6 @@
 :do { add list=CK address=2606:54c1:1:367::/64 } on-error={}
 :do { add list=CK address=2606:54c3:0:4d7::/64 } on-error={}
 :do { add list=CK address=2607:8940:37dc::/46 } on-error={}
-:do { add list=CK address=2607:8940:41a0:4600::/55 } on-error={}
-:do { add list=CK address=2607:8940:41e0::/55 } on-error={}
 :do { add list=CK address=2a02:26f7:f640::/48 } on-error={}
 :do { add list=CK address=2a02:26f7:f641::/48 } on-error={}
 :do { add list=CK address=2a02:26f7:f642::/48 } on-error={}
@@ -82,18 +79,14 @@
 :do { add list=CK address=2a0a:6044:f1c0::/47 } on-error={}
 :do { add list=CK address=2a0a:6044:f1c2::/48 } on-error={}
 :do { add list=CK address=2a0d:2684:2c::/48 } on-error={}
-:do { add list=CK address=2a0d:9446:1000::/37 } on-error={}
 :do { add list=CK address=2a0e:4003:bb79:2172::/64 } on-error={}
-:do { add list=CK address=2a0e:4003:bbcb:6598::/64 } on-error={}
 :do { add list=CK address=2a0e:b107:2348::/45 } on-error={}
 :do { add list=CK address=2a0f:1cc1:fd40::/44 } on-error={}
 :do { add list=CK address=2a0f:7803:ff10:fc00::/54 } on-error={}
-:do { add list=CK address=2a0f:a303:b000::/37 } on-error={}
 :do { add list=CK address=2a10:24c0:331::/48 } on-error={}
 :do { add list=CK address=2a10:24c0:25f1::/48 } on-error={}
 :do { add list=CK address=2a10:24c4:b140::/44 } on-error={}
 :do { add list=CK address=2a10:24c4:f140::/44 } on-error={}
-:do { add list=CK address=2a11:29c0:3d88:89ff::/64 } on-error={}
 :do { add list=CK address=2a12:f381:aa00::/40 } on-error={}
 :do { add list=CK address=2a12:f382:aa00::/40 } on-error={}
 :do { add list=CK address=2a14:1c6:800::/37 } on-error={}

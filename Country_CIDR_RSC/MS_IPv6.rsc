@@ -19,7 +19,6 @@
 :do { add list=MS address=2606:54c3:0:87f::/64 } on-error={}
 :do { add list=MS address=2607:8940:25ee::/47 } on-error={}
 :do { add list=MS address=2607:8940:25f2::/47 } on-error={}
-:do { add list=MS address=2607:8940:4200:e400::/55 } on-error={}
 :do { add list=MS address=2a02:26f7:e840::/48 } on-error={}
 :do { add list=MS address=2a02:26f7:e841::/48 } on-error={}
 :do { add list=MS address=2a02:26f7:e842::/48 } on-error={}
@@ -66,17 +65,14 @@
 :do { add list=MS address=2a0a:6044:f5e8::/45 } on-error={}
 :do { add list=MS address=2a0a:6044:f5f0::/47 } on-error={}
 :do { add list=MS address=2a0d:2684:98::/48 } on-error={}
-:do { add list=MS address=2a0d:9447:9000::/37 } on-error={}
 :do { add list=MS address=2a0e:4001:9ff:95::/64 } on-error={}
 :do { add list=MS address=2a0f:1cc1:e870::/44 } on-error={}
-:do { add list=MS address=2a0f:a303:8800::/37 } on-error={}
 :do { add list=MS address=2a10:24c0:c463::/48 } on-error={}
 :do { add list=MS address=2a10:24c0:c464::/48 } on-error={}
 :do { add list=MS address=2a10:24c0:e5cb::/48 } on-error={}
 :do { add list=MS address=2a10:24c0:e5cc::/48 } on-error={}
 :do { add list=MS address=2a10:24c4:a940::/43 } on-error={}
 :do { add list=MS address=2a10:24c4:e940::/43 } on-error={}
-:do { add list=MS address=2a11:29c0:3d88:286::/64 } on-error={}
 :do { add list=MS address=2a12:f381:4300::/40 } on-error={}
 :do { add list=MS address=2a12:f382:4300::/40 } on-error={}
 :do { add list=MS address=2a14:1c7:8800::/37 } on-error={}

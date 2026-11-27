@@ -2,7 +2,6 @@
 /ipv6 firewall address-list
 :do { add list=PN address=2401:b60:1b40::/44 } on-error={}
 :do { add list=PN address=2401:af20:1bc4::/48 } on-error={}
-:do { add list=PN address=2406:2d40:7380::/42 } on-error={}
 :do { add list=PN address=2406:2d40:a500::/40 } on-error={}
 :do { add list=PN address=2602:814:fed0::/46 } on-error={}
 :do { add list=PN address=2606:40:99:4800::/54 } on-error={}
@@ -13,8 +12,6 @@
 :do { add list=PN address=2606:40:2939:ac00::/54 } on-error={}
 :do { add list=PN address=2606:40:2963:dc00::/54 } on-error={}
 :do { add list=PN address=2606:40:2988:4c00::/54 } on-error={}
-:do { add list=PN address=2607:8940:41a3:3b00::/56 } on-error={}
-:do { add list=PN address=2607:8940:41a3:3c00::/56 } on-error={}
 :do { add list=PN address=2a03:b600:0:1155::/64 } on-error={}
 :do { add list=PN address=2a03:b600:0:1156::/63 } on-error={}
 :do { add list=PN address=2a03:b600:0:1158::/61 } on-error={}
@@ -35,10 +32,8 @@
 :do { add list=PN address=2a09:bac4:598::/45 } on-error={}
 :do { add list=PN address=2a09:bac4:1598::/45 } on-error={}
 :do { add list=PN address=2a0d:2684:b5::/48 } on-error={}
-:do { add list=PN address=2a0d:9443:5000::/37 } on-error={}
 :do { add list=PN address=2a0e:4001:9ff:b0::/64 } on-error={}
 :do { add list=PN address=2a0e:4003:bb79:62f3::/64 } on-error={}
-:do { add list=PN address=2a0e:4003:bbcb:fad9::/64 } on-error={}
 :do { add list=PN address=2a0e:4007:e::/48 } on-error={}
 :do { add list=PN address=2a0e:4007:21::/48 } on-error={}
 :do { add list=PN address=2a0e:4007:32::/48 } on-error={}

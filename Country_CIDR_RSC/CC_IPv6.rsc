@@ -15,12 +15,6 @@
 :do { add list=CC address=2606:40:2300:1000::/52 } on-error={}
 :do { add list=CC address=2606:40:230a:4000::/51 } on-error={}
 :do { add list=CC address=2606:40:2939:8c00::/54 } on-error={}
-:do { add list=CC address=2607:8940:4171:ba00::/55 } on-error={}
-:do { add list=CC address=2607:8940:4191:ba00::/55 } on-error={}
-:do { add list=CC address=2607:8940:41a3:3300::/56 } on-error={}
-:do { add list=CC address=2607:8940:41a3:3400::/56 } on-error={}
-:do { add list=CC address=2607:8940:41f0:9500::/56 } on-error={}
-:do { add list=CC address=2607:8940:41f0:9600::/56 } on-error={}
 :do { add list=CC address=2a03:b600:0:fec::/62 } on-error={}
 :do { add list=CC address=2a03:b600:0:ff0::/61 } on-error={}
 :do { add list=CC address=2a03:b600:0:ff8::/63 } on-error={}
@@ -40,12 +34,9 @@
 :do { add list=CC address=2a09:bac4:1130::/45 } on-error={}
 :do { add list=CC address=2a0a:6044:f1b2::/47 } on-error={}
 :do { add list=CC address=2a0d:2684:26::/48 } on-error={}
-:do { add list=CC address=2a0d:9443:6800::/37 } on-error={}
 :do { add list=CC address=2a0e:4003:bb79:81b2::/64 } on-error={}
-:do { add list=CC address=2a0e:4003:bbcb:4309::/64 } on-error={}
 :do { add list=CC address=2a0e:b107:2318::/45 } on-error={}
 :do { add list=CC address=2a0f:1cc1:9850::/44 } on-error={}
-:do { add list=CC address=2a0f:7803:fede::/48 } on-error={}
 :do { add list=CC address=2a10:24c0:9dd8::/48 } on-error={}
 :do { add list=CC address=2a10:24c0:bc78::/48 } on-error={}
 :do { add list=CC address=2a10:24c4:b100::/44 } on-error={}

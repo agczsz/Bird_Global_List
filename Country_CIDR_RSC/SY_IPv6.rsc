@@ -1,8 +1,8 @@
 /log info "Loading SY IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=SY address=2001:df4:ec00:100::1ea/127 } on-error={}
-:do { add list=SY address=2001:df4:ec00:8df::/64 } on-error={}
-:do { add list=SY address=2001:df4:ec00:8e0::/64 } on-error={}
+:do { add list=SY address=2001:df4:ec00:8df::1/128 } on-error={}
+:do { add list=SY address=2001:df4:ec00:8e0::1/128 } on-error={}
 :do { add list=SY address=2401:b60:1df0::/44 } on-error={}
 :do { add list=SY address=2401:af20:1bdb::/48 } on-error={}
 :do { add list=SY address=2405:b500:6c00::/64 } on-error={}
@@ -213,16 +213,12 @@
 :do { add list=SY address=2a0d:3341:f800::/40 } on-error={}
 :do { add list=SY address=2a0d:4100::/32 } on-error={}
 :do { add list=SY address=2a0d:8b80::/29 } on-error={}
-:do { add list=SY address=2a0d:9445:6000::/37 } on-error={}
 :do { add list=SY address=2a0d:e900::/29 } on-error={}
 :do { add list=SY address=2a0e:4003:bb2e:2f85::/64 } on-error={}
-:do { add list=SY address=2a0e:4003:bba8:8e0a::/64 } on-error={}
 :do { add list=SY address=2a0f:1cc5:1f91::/48 } on-error={}
 :do { add list=SY address=2a0f:5707:ffa6:4000::/50 } on-error={}
 :do { add list=SY address=2a0f:5707:ffa6:8000::/49 } on-error={}
-:do { add list=SY address=2a0f:7803:fec5::/48 } on-error={}
 :do { add list=SY address=2a0f:85c1:81b:fab0::/60 } on-error={}
-:do { add list=SY address=2a0f:a300:4800::/37 } on-error={}
 :do { add list=SY address=2a0f:b940::/29 } on-error={}
 :do { add list=SY address=2a10:24c0:9160::/47 } on-error={}
 :do { add list=SY address=2a10:24c0:9162::/48 } on-error={}
@@ -235,18 +231,6 @@
 :do { add list=SY address=2a10:7540::/29 } on-error={}
 :do { add list=SY address=2a10:b6c0::/29 } on-error={}
 :do { add list=SY address=2a10:fa81:18d3::/48 } on-error={}
-:do { add list=SY address=2a11:29c0:3d88:123::/64 } on-error={}
-:do { add list=SY address=2a11:29c0:3d88:417::/64 } on-error={}
-:do { add list=SY address=2a11:29c0:3d88:534::/64 } on-error={}
-:do { add list=SY address=2a11:29c0:3d88:142e::/64 } on-error={}
-:do { add list=SY address=2a11:29c0:3d88:3542::/64 } on-error={}
-:do { add list=SY address=2a11:29c0:3d88:59a9::/64 } on-error={}
-:do { add list=SY address=2a11:29c0:3d88:5a12::/64 } on-error={}
-:do { add list=SY address=2a11:29c0:3d88:5f67::/64 } on-error={}
-:do { add list=SY address=2a11:29c0:3d88:6c95::/64 } on-error={}
-:do { add list=SY address=2a11:29c0:3d88:8096::/64 } on-error={}
-:do { add list=SY address=2a11:29c0:3d88:9958::/64 } on-error={}
-:do { add list=SY address=2a11:29c0:3d88:d316::/64 } on-error={}
 :do { add list=SY address=2a11:5300::/29 } on-error={}
 :do { add list=SY address=2a11:9d80::/29 } on-error={}
 :do { add list=SY address=2a11:ccc0::/29 } on-error={}

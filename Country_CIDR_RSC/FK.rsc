@@ -26,7 +26,12 @@
 :do { add list=FK address=80.73.217.84/30 } on-error={}
 :do { add list=FK address=80.73.217.88/29 } on-error={}
 :do { add list=FK address=80.73.217.96/27 } on-error={}
-:do { add list=FK address=80.73.217.128/25 } on-error={}
+:do { add list=FK address=80.73.217.128/26 } on-error={}
+:do { add list=FK address=80.73.217.192/27 } on-error={}
+:do { add list=FK address=80.73.217.224/31 } on-error={}
+:do { add list=FK address=80.73.217.228/30 } on-error={}
+:do { add list=FK address=80.73.217.232/29 } on-error={}
+:do { add list=FK address=80.73.217.240/28 } on-error={}
 :do { add list=FK address=90.96.187.128/32 } on-error={}
 :do { add list=FK address=104.28.9.197/32 } on-error={}
 :do { add list=FK address=104.28.9.198/31 } on-error={}

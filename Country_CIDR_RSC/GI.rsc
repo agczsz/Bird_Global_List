@@ -2,7 +2,6 @@
 /ip firewall address-list
 :do { add list=GI address=5.62.62.148/30 } on-error={}
 :do { add list=GI address=5.62.85.98/32 } on-error={}
-:do { add list=GI address=5.62.85.106/32 } on-error={}
 :do { add list=GI address=5.62.92.0/23 } on-error={}
 :do { add list=GI address=5.150.152.0/22 } on-error={}
 :do { add list=GI address=31.222.48.0/23 } on-error={}
@@ -16,12 +15,7 @@
 :do { add list=GI address=66.84.77.240/31 } on-error={}
 :do { add list=GI address=85.115.128.0/21 } on-error={}
 :do { add list=GI address=85.115.136.0/22 } on-error={}
-:do { add list=GI address=85.115.140.0/29 } on-error={}
-:do { add list=GI address=85.115.140.8/30 } on-error={}
-:do { add list=GI address=85.115.140.12/31 } on-error={}
-:do { add list=GI address=85.115.140.14/32 } on-error={}
-:do { add list=GI address=85.115.140.16/28 } on-error={}
-:do { add list=GI address=85.115.140.32/27 } on-error={}
+:do { add list=GI address=85.115.140.0/26 } on-error={}
 :do { add list=GI address=85.115.140.64/32 } on-error={}
 :do { add list=GI address=85.115.140.66/31 } on-error={}
 :do { add list=GI address=85.115.140.68/30 } on-error={}
@@ -78,7 +72,14 @@
 :do { add list=GI address=104.255.128.0/21 } on-error={}
 :do { add list=GI address=109.202.112.0/24 } on-error={}
 :do { add list=GI address=109.202.113.0/24 } on-error={}
-:do { add list=GI address=109.202.119.0/24 } on-error={}
+:do { add list=GI address=109.202.119.0/27 } on-error={}
+:do { add list=GI address=109.202.119.32/28 } on-error={}
+:do { add list=GI address=109.202.119.48/29 } on-error={}
+:do { add list=GI address=109.202.119.56/30 } on-error={}
+:do { add list=GI address=109.202.119.61/32 } on-error={}
+:do { add list=GI address=109.202.119.62/31 } on-error={}
+:do { add list=GI address=109.202.119.64/26 } on-error={}
+:do { add list=GI address=109.202.119.128/25 } on-error={}
 :do { add list=GI address=130.254.63.100/30 } on-error={}
 :do { add list=GI address=136.22.16.176/32 } on-error={}
 :do { add list=GI address=140.248.57.82/32 } on-error={}
