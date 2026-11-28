@@ -1,13 +1,11 @@
 /log info "Loading ST IPv4 Address List"
 /ip firewall address-list
 :do { add list=ST address=5.62.63.100/30 } on-error={}
-:do { add list=ST address=57.82.64.0/23 } on-error={}
 :do { add list=ST address=69.195.161.228/31 } on-error={}
 :do { add list=ST address=90.96.176.242/32 } on-error={}
 :do { add list=ST address=102.201.20.0/22 } on-error={}
 :do { add list=ST address=102.202.92.0/22 } on-error={}
 :do { add list=ST address=102.206.44.0/22 } on-error={}
-:do { add list=ST address=102.211.178.71/32 } on-error={}
 :do { add list=ST address=102.223.54.165/32 } on-error={}
 :do { add list=ST address=104.28.13.46/31 } on-error={}
 :do { add list=ST address=104.28.13.48/32 } on-error={}
@@ -57,6 +55,8 @@
 :do { add list=ST address=172.225.178.240/28 } on-error={}
 :do { add list=ST address=172.225.197.32/28 } on-error={}
 :do { add list=ST address=172.225.243.80/28 } on-error={}
+:do { add list=ST address=184.104.231.124/32 } on-error={}
+:do { add list=ST address=184.104.231.127/32 } on-error={}
 :do { add list=ST address=185.10.167.93/32 } on-error={}
 :do { add list=ST address=185.35.140.67/32 } on-error={}
 :do { add list=ST address=185.35.140.83/32 } on-error={}
@@ -69,3 +69,5 @@
 :do { add list=ST address=196.198.170.0/24 } on-error={}
 :do { add list=ST address=196.199.170.0/24 } on-error={}
 :do { add list=ST address=197.159.160.0/19 } on-error={}
+:do { add list=ST address=216.66.84.56/32 } on-error={}
+:do { add list=ST address=216.66.84.58/31 } on-error={}

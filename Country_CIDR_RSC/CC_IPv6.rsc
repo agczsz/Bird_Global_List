@@ -1,24 +1,12 @@
 /log info "Loading CC IPv6 Address List"
 /ipv6 firewall address-list
 :do { add list=CC address=2401:b60:12f0::/44 } on-error={}
-:do { add list=CC address=2401:af20:1b58::/48 } on-error={}
 :do { add list=CC address=2602:814:fc98::/46 } on-error={}
 :do { add list=CC address=2606:40:a2::/54 } on-error={}
 :do { add list=CC address=2606:40:b2:1800::/54 } on-error={}
 :do { add list=CC address=2606:40:c2::/54 } on-error={}
-:do { add list=CC address=2606:40:6dc::/46 } on-error={}
-:do { add list=CC address=2606:40:6e0::/45 } on-error={}
-:do { add list=CC address=2606:40:6e8::/46 } on-error={}
-:do { add list=CC address=2606:40:1040::/44 } on-error={}
-:do { add list=CC address=2606:40:2300::/54 } on-error={}
-:do { add list=CC address=2606:40:2300:800::/53 } on-error={}
-:do { add list=CC address=2606:40:2300:1000::/52 } on-error={}
-:do { add list=CC address=2606:40:230a:4000::/51 } on-error={}
+:do { add list=CC address=2606:40:230a:4000::/54 } on-error={}
 :do { add list=CC address=2606:40:2939:8c00::/54 } on-error={}
-:do { add list=CC address=2a03:b600:0:fec::/62 } on-error={}
-:do { add list=CC address=2a03:b600:0:ff0::/61 } on-error={}
-:do { add list=CC address=2a03:b600:0:ff8::/63 } on-error={}
-:do { add list=CC address=2a03:b600:0:ffa::/64 } on-error={}
 :do { add list=CC address=2a04:4e41:4022:6000::/52 } on-error={}
 :do { add list=CC address=2a04:4e41:4032:6000::/52 } on-error={}
 :do { add list=CC address=2a04:4e41:4042:6000::/52 } on-error={}
@@ -26,15 +14,10 @@
 :do { add list=CC address=2a04:4e41:4062:6000::/52 } on-error={}
 :do { add list=CC address=2a04:4e41:4072:6000::/52 } on-error={}
 :do { add list=CC address=2a04:4e41:4082:6000::/52 } on-error={}
-:do { add list=CC address=2a05:dfc1:5a30::/48 } on-error={}
-:do { add list=CC address=2a06:9f81:3925::/48 } on-error={}
-:do { add list=CC address=2a06:9f81:5625::/48 } on-error={}
 :do { add list=CC address=2a07:d887:2600::/40 } on-error={}
 :do { add list=CC address=2a09:bac4:130::/45 } on-error={}
 :do { add list=CC address=2a09:bac4:1130::/45 } on-error={}
-:do { add list=CC address=2a0a:6044:f1b2::/47 } on-error={}
 :do { add list=CC address=2a0d:2684:26::/48 } on-error={}
-:do { add list=CC address=2a0e:4003:bb79:81b2::/64 } on-error={}
 :do { add list=CC address=2a0e:b107:2318::/45 } on-error={}
 :do { add list=CC address=2a0f:1cc1:9850::/44 } on-error={}
 :do { add list=CC address=2a10:24c0:9dd8::/48 } on-error={}
@@ -47,5 +30,3 @@
 :do { add list=CC address=2a13:b487:5033::/48 } on-error={}
 :do { add list=CC address=2a14:2d45:2600::/40 } on-error={}
 :do { add list=CC address=2a14:67c1:b625::/48 } on-error={}
-:do { add list=CC address=2a14:7580:cf26::/48 } on-error={}
-:do { add list=CC address=2a14:7581:be0:a600::/56 } on-error={}

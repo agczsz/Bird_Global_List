@@ -1,10 +1,12 @@
 /log info "Loading MS IPv4 Address List"
 /ip firewall address-list
-:do { add list=MS address=5.62.56.137/32 } on-error={}
-:do { add list=MS address=5.62.56.138/31 } on-error={}
-:do { add list=MS address=5.62.58.129/32 } on-error={}
-:do { add list=MS address=5.62.58.130/31 } on-error={}
 :do { add list=MS address=45.62.191.176/28 } on-error={}
+:do { add list=MS address=69.57.225.96/32 } on-error={}
+:do { add list=MS address=69.57.225.98/31 } on-error={}
+:do { add list=MS address=69.57.225.100/30 } on-error={}
+:do { add list=MS address=69.57.225.104/29 } on-error={}
+:do { add list=MS address=69.57.250.32/27 } on-error={}
+:do { add list=MS address=69.195.182.76/31 } on-error={}
 :do { add list=MS address=74.244.148.0/23 } on-error={}
 :do { add list=MS address=90.96.187.38/32 } on-error={}
 :do { add list=MS address=104.28.11.238/31 } on-error={}
@@ -20,12 +22,15 @@
 :do { add list=MS address=104.28.245.224/30 } on-error={}
 :do { add list=MS address=104.29.203.18/31 } on-error={}
 :do { add list=MS address=104.255.176.64/32 } on-error={}
-:do { add list=MS address=104.255.176.72/32 } on-error={}
+:do { add list=MS address=104.255.176.72/30 } on-error={}
 :do { add list=MS address=104.255.176.76/31 } on-error={}
 :do { add list=MS address=104.255.176.81/32 } on-error={}
 :do { add list=MS address=104.255.176.103/32 } on-error={}
-:do { add list=MS address=104.255.176.116/30 } on-error={}
+:do { add list=MS address=104.255.176.109/32 } on-error={}
+:do { add list=MS address=104.255.176.117/32 } on-error={}
+:do { add list=MS address=104.255.176.118/31 } on-error={}
 :do { add list=MS address=104.255.176.127/32 } on-error={}
+:do { add list=MS address=104.255.177.0/24 } on-error={}
 :do { add list=MS address=136.22.25.208/32 } on-error={}
 :do { add list=MS address=136.23.8.215/32 } on-error={}
 :do { add list=MS address=136.23.40.211/32 } on-error={}
@@ -41,6 +46,7 @@
 :do { add list=MS address=146.75.252.8/31 } on-error={}
 :do { add list=MS address=162.120.199.175/32 } on-error={}
 :do { add list=MS address=162.120.202.222/32 } on-error={}
+:do { add list=MS address=162.252.189.90/31 } on-error={}
 :do { add list=MS address=162.252.189.178/32 } on-error={}
 :do { add list=MS address=172.225.33.128/27 } on-error={}
 :do { add list=MS address=172.225.171.160/27 } on-error={}
@@ -49,4 +55,10 @@
 :do { add list=MS address=172.226.143.64/27 } on-error={}
 :do { add list=MS address=199.7.90.0/24 } on-error={}
 :do { add list=MS address=205.217.234.0/24 } on-error={}
+:do { add list=MS address=205.217.236.0/24 } on-error={}
 :do { add list=MS address=208.90.112.0/22 } on-error={}
+:do { add list=MS address=209.59.93.0/24 } on-error={}
+:do { add list=MS address=209.59.95.192/28 } on-error={}
+:do { add list=MS address=209.59.95.216/29 } on-error={}
+:do { add list=MS address=209.59.97.0/24 } on-error={}
+:do { add list=MS address=209.59.111.0/24 } on-error={}

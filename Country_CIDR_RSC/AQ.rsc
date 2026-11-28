@@ -39,6 +39,8 @@
 :do { add list=AQ address=31.6.16.152/29 } on-error={}
 :do { add list=AQ address=31.6.16.160/27 } on-error={}
 :do { add list=AQ address=31.6.16.192/26 } on-error={}
+:do { add list=AQ address=69.195.181.62/31 } on-error={}
+:do { add list=AQ address=90.96.186.159/32 } on-error={}
 :do { add list=AQ address=104.28.8.26/31 } on-error={}
 :do { add list=AQ address=104.28.8.28/32 } on-error={}
 :do { add list=AQ address=104.28.92.69/32 } on-error={}
@@ -61,7 +63,6 @@
 :do { add list=AQ address=140.248.62.8/32 } on-error={}
 :do { add list=AQ address=140.248.63.8/32 } on-error={}
 :do { add list=AQ address=143.14.106.0/24 } on-error={}
-:do { add list=AQ address=153.56.152.0/24 } on-error={}
 :do { add list=AQ address=160.25.104.127/32 } on-error={}
 :do { add list=AQ address=160.25.105.127/32 } on-error={}
 :do { add list=AQ address=162.120.140.206/32 } on-error={}

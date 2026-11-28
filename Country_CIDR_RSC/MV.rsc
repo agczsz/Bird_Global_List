@@ -9,14 +9,12 @@
 :do { add list=MV address=43.231.28.0/22 } on-error={}
 :do { add list=MV address=43.247.140.0/22 } on-error={}
 :do { add list=MV address=57.72.90.0/23 } on-error={}
-:do { add list=MV address=57.92.192.0/20 } on-error={}
 :do { add list=MV address=63.220.206.39/32 } on-error={}
 :do { add list=MV address=63.246.47.192/26 } on-error={}
 :do { add list=MV address=69.94.32.0/20 } on-error={}
 :do { add list=MV address=69.94.80.0/20 } on-error={}
 :do { add list=MV address=69.195.180.176/31 } on-error={}
 :do { add list=MV address=72.14.197.186/32 } on-error={}
-:do { add list=MV address=74.82.51.50/32 } on-error={}
 :do { add list=MV address=80.81.194.158/32 } on-error={}
 :do { add list=MV address=80.95.153.250/32 } on-error={}
 :do { add list=MV address=83.137.200.0/21 } on-error={}
@@ -132,6 +130,12 @@
 :do { add list=MV address=157.167.236.62/32 } on-error={}
 :do { add list=MV address=157.240.64.149/32 } on-error={}
 :do { add list=MV address=157.240.89.217/32 } on-error={}
+:do { add list=MV address=160.236.208.0/24 } on-error={}
+:do { add list=MV address=160.236.209.0/25 } on-error={}
+:do { add list=MV address=160.236.209.128/26 } on-error={}
+:do { add list=MV address=160.236.209.192/27 } on-error={}
+:do { add list=MV address=160.236.209.224/28 } on-error={}
+:do { add list=MV address=160.236.209.240/29 } on-error={}
 :do { add list=MV address=162.10.17.76/31 } on-error={}
 :do { add list=MV address=162.158.143.0/24 } on-error={}
 :do { add list=MV address=163.116.195.80/32 } on-error={}

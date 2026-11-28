@@ -5,7 +5,9 @@
 :do { add list=PM address=5.252.112.0/23 } on-error={}
 :do { add list=PM address=5.252.114.0/23 } on-error={}
 :do { add list=PM address=45.62.191.240/28 } on-error={}
+:do { add list=PM address=69.195.176.78/31 } on-error={}
 :do { add list=PM address=70.36.0.0/20 } on-error={}
+:do { add list=PM address=90.96.184.39/32 } on-error={}
 :do { add list=PM address=104.28.12.132/31 } on-error={}
 :do { add list=PM address=104.28.12.134/32 } on-error={}
 :do { add list=PM address=104.28.39.21/32 } on-error={}

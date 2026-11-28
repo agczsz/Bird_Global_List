@@ -14,4 +14,3 @@
 :do { add list=EH address=162.120.131.57/32 } on-error={}
 :do { add list=EH address=162.120.204.70/32 } on-error={}
 :do { add list=EH address=162.120.213.3/32 } on-error={}
-:do { add list=EH address=197.230.183.17/32 } on-error={}
